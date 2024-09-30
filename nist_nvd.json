@@ -186,6 +186,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-34542"
     }
   },
+  "CVE-2024-3635": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "2:15:13 AM -0400"
+      ],
+      "cveDis": "The Post Grid  WordPress plugin before 7.5.0 does not sanitise and escape some of its Grid settings, which could allow high privilege users such as Editor and above to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
+      "cveName": "CVE-2024-3635",
+      "cveUrl": "/vuln/detail/CVE-2024-3635"
+    }
+  },
   "CVE-2024-37187": {
     "cve": {
       "cveDate": [
@@ -250,6 +261,50 @@
       "cveDis": "Advantech ADAM-5630 \nhas built-in commands that can be executed without authenticating the \nuser. These commands allow for restarting the operating system, \nrebooting the hardware, and stopping the execution. The commands can be \nsent to a simple HTTP request and are executed by the device \nautomatically, without discrimination of origin or level of privileges \nof the user sending the commands.",
       "cveName": "CVE-2024-39364",
       "cveUrl": "/vuln/detail/CVE-2024-39364"
+    }
+  },
+  "CVE-2024-41999": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "Smart-tab Android app installed April 2023 or earlier contains an active debug code vulnerability. If this vulnerability is exploited, an attacker with physical access to the device may exploit the debug function to gain access to the OS functions, escalate the privilege, change the device's settings, or spoof devices in other rooms.",
+      "cveName": "CVE-2024-41999",
+      "cveUrl": "/vuln/detail/CVE-2024-41999"
+    }
+  },
+  "CVE-2024-42496": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "Smart-tab Android app installed April 2023 or earlier contains an issue with plaintext storage of a password. If this vulnerability is exploited, an attacker with physical access to the device may retrieve the credential information and spoof the device to access the related external service.",
+      "cveName": "CVE-2024-42496",
+      "cveUrl": "/vuln/detail/CVE-2024-42496"
+    }
+  },
+  "CVE-2024-45200": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "In Nintendo Mario Kart 8 Deluxe before 3.0.3, the LAN/LDN local multiplayer implementation allows a remote attacker to exploit a stack-based buffer overflow upon deserialization of session information via a malformed browse-reply packet, aka KartLANPwn. The victim is not required to join a game session with an attacker. The victim must open the \"Wireless Play\" (or \"LAN Play\") menu from the game's title screen, and an attacker nearby (LDN) or on the same LAN network as the victim can send a crafted reply packet to the victim's console. This enables a remote attacker to obtain complete denial-of-service on the game's process, or potentially, remote code execution on the victim's console. The issue is caused by incorrect use of the Nintendo Pia library,",
+      "cveName": "CVE-2024-45200",
+      "cveUrl": "/vuln/detail/CVE-2024-45200"
+    }
+  },
+  "CVE-2024-45772": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "5:15:02 AM -0400"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Apache Lucene Replicator.\n\nThis issue affects Apache Lucene's replicator module: from 4.4.0 before 9.12.0.\nThe deprecated org.apache.lucene.replicator.http package is affected.\nThe org.apache.lucene.replicator.nrt package is not affected.\n\nUsers are recommended to upgrade to version 9.12.0, which fixes the issue.\n\nJava serialization filters (such as -Djdk.serialFilter='!*' on the commandline) can mitigate the issue on vulnerable versions without impacting functionality.",
+      "cveName": "CVE-2024-45772",
+      "cveUrl": "/vuln/detail/CVE-2024-45772"
     }
   },
   "CVE-2024-46097": {
@@ -329,6 +384,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47186"
     }
   },
+  "CVE-2024-6394": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "A Local File Inclusion vulnerability exists in parisneo/lollms-webui versions below v9.8. The vulnerability is due to unverified path concatenation in the `serve_js` function in `app.py`, which allows attackers to perform path traversal attacks. This can lead to unauthorized access to arbitrary files on the server, potentially exposing sensitive information such as private SSH keys, configuration files, and source code.",
+      "cveName": "CVE-2024-6394",
+      "cveUrl": "/vuln/detail/CVE-2024-6394"
+    }
+  },
   "CVE-2024-6436": {
     "cve": {
       "cveDate": [
@@ -362,6 +428,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-8189"
     }
   },
+  "CVE-2024-8239": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "2:15:14 AM -0400"
+      ],
+      "cveDis": "The Starbox  WordPress plugin before 3.5.3 does not properly render social media profiles URLs in certain contexts, like the malicious user's profile or pages where the starbox shortcode is used, which may be abused by users with at least the contributor role to conduct Stored XSS attacks.",
+      "cveName": "CVE-2024-8239",
+      "cveUrl": "/vuln/detail/CVE-2024-8239"
+    }
+  },
+  "CVE-2024-8283": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "2:15:14 AM -0400"
+      ],
+      "cveDis": "The Slider by 10Web  WordPress plugin before 1.2.59 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
+      "cveName": "CVE-2024-8283",
+      "cveUrl": "/vuln/detail/CVE-2024-8283"
+    }
+  },
   "CVE-2024-8310": {
     "cve": {
       "cveDate": [
@@ -382,6 +470,160 @@
       "cveDis": "The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.16.1 via deserialization of untrusted input via several parameters like 'give_title' and 'card_address'. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to delete arbitrary files and achieve remote code execution. This is essentially the same vulnerability as CVE-2024-5932, however, it was discovered the the presence of stripslashes_deep on user_info allows the is_serialized check to be bypassed. This issue was mostly patched in 3.16.1, but further hardening was added in 3.16.2.",
       "cveName": "CVE-2024-835310-0 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-8353"
+    }
+  },
+  "CVE-2024-8379": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "2:15:14 AM -0400"
+      ],
+      "cveDis": "The Cost Calculator Builder WordPress plugin before 3.2.29 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by users with a role as low as Admin.",
+      "cveName": "CVE-2024-8379",
+      "cveUrl": "/vuln/detail/CVE-2024-8379"
+    }
+  },
+  "CVE-2024-84488-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "3:15:03 AM -0400"
+      ],
+      "cveDis": "Certain switch models from PLANET Technology have a hard-coded credential in the specific command-line interface, allowing remote attackers with regular privilege to log in with this credential and obtain a Linux root shell.",
+      "cveName": "CVE-2024-84488-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8448"
+    }
+  },
+  "CVE-2024-84496-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "3:15:03 AM -0400"
+      ],
+      "cveDis": "Certain switch models from PLANET Technology have a Hard-coded Credential in the password recovering functionality, allowing an unauthenticated attacker to connect to the device via the serial console and use this credential to reset any user's password.",
+      "cveName": "CVE-2024-84496-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8449"
+    }
+  },
+  "CVE-2024-84508-6 HIGH": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "3:15:04 AM -0400"
+      ],
+      "cveDis": "Certain switch models from PLANET Technology have a Hard-coded community string in the SNMPv1 service, allowing unauthorized remote attackers to use this community string to access the SNMPv1 service with read-write privileges.",
+      "cveName": "CVE-2024-84508-6 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8450"
+    }
+  },
+  "CVE-2024-8451": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "3:15:04 AM -0400"
+      ],
+      "cveDis": "Certain switch models from PLANET Technology have an SSH service that improperly handles insufficiently authenticated connection requests, allowing unauthorized remote attackers to exploit this weakness to occupy connection slots and prevent legitimate users from accessing the SSH service.",
+      "cveName": "CVE-2024-8451",
+      "cveUrl": "/vuln/detail/CVE-2024-8451"
+    }
+  },
+  "CVE-2024-84527-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "3:15:04 AM -0400"
+      ],
+      "cveDis": "Certain switch models from PLANET Technology only support obsolete algorithms for authentication protocol and encryption protocol in the SNMPv3 service, allowing attackers to obtain plaintext SNMPv3 credentials potentially.",
+      "cveName": "CVE-2024-84527-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8452"
+    }
+  },
+  "CVE-2024-8453": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "Certain switch models from PLANET Technology use an insecure hashing function to hash user passwords without being salted. Remote attackers with administrator privileges can read configuration files to obtain the hash values, and potentially crack them to retrieve the plaintext passwords.",
+      "cveName": "CVE-2024-8453",
+      "cveUrl": "/vuln/detail/CVE-2024-8453"
+    }
+  },
+  "CVE-2024-84545-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "The swctrl service is used to detect and remotely manage PLANET Technology devices. Certain switch models have a Denial-of-Service vulnerability in the swctrl service, allowing unauthenticated remote attackers to send crafted packets that can crash the service.",
+      "cveName": "CVE-2024-84545-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8454"
+    }
+  },
+  "CVE-2024-84558-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "The swctrl service is used to detect and remotely manage PLANET Technology devices. For certain switch models, the authentication tokens used during communication with this service are encoded user passwords. Due to insufficient strength, unauthorized remote attackers who intercept the packets can directly crack them to obtain plaintext passwords.",
+      "cveName": "CVE-2024-84558-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8455"
+    }
+  },
+  "CVE-2024-84569-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "Certain switch models from PLANET Technology lack proper access control in firmware upload and download functionality, allowing unauthenticated remote attackers to download and upload firmware and system configurations, ultimately gaining full control of the devices.",
+      "cveName": "CVE-2024-84569-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-8456"
+    }
+  },
+  "CVE-2024-84574-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "Certain switch models from PLANET Technology have a web application that does not properly validate specific parameters, allowing remote authenticated users with administrator privileges to inject arbitrary JavaScript, leading to Stored XSS attack.",
+      "cveName": "CVE-2024-84574-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8457"
+    }
+  },
+  "CVE-2024-84588-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "Certain switch models from PLANET Technology have a web application that is vulnerable to Cross-Site Request Forgery (CSRF). An unauthenticated remote attacker can trick a user into visiting a malicious website, allowing the attacker to impersonate the user and perform actions on their behalf, such as creating accounts.",
+      "cveName": "CVE-2024-84588-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8458"
+    }
+  },
+  "CVE-2024-84597-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "Certain switch models from PLANET Technology store SNMPv3 users' passwords in plaintext within the configuration files, allowing remote attackers with administrator privileges to read the file and obtain the credentials.",
+      "cveName": "CVE-2024-84597-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8459"
+    }
+  },
+  "CVE-2024-8536": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "2:15:14 AM -0400"
+      ],
+      "cveDis": "The Ultimate Blocks  WordPress plugin before 3.2.2 does not validate and escape some of its block attributes before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks",
+      "cveName": "CVE-2024-8536",
+      "cveUrl": "/vuln/detail/CVE-2024-8536"
     }
   },
   "CVE-2024-85476-4 MEDIUM": {
@@ -745,6 +987,17 @@
       "cveDis": "A vulnerability was found in SourceCodester Advocate Office Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /control/edit_client.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-9328",
       "cveUrl": "/vuln/detail/CVE-2024-9328"
+    }
+  },
+  "CVE-2024-9329": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "In Eclipse Glassfish versions before 7.0.17, The Host HTTP parameter could cause the web application to redirect to the specified URL, when the requested endpoint is '/management/domain'. By modifying the URL value to a malicious site, an attacker may successfully launch a phishing scam and steal user credentials.",
+      "cveName": "CVE-2024-9329",
+      "cveUrl": "/vuln/detail/CVE-2024-9329"
     }
   }
 }
