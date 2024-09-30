@@ -62299,6 +62299,39 @@
         "cveUrl": "/vuln/detail/CVE-2024-45772"
       }
     },
+    "CVE-2024-45792": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "11:15:05 AM -0400"
+        ],
+        "cveDis": "Mantis Bug Tracker (MantisBT) is an open source issue tracker. Using a crafted POST request, an unprivileged, registered user is able to retrieve information about other users' personal system profiles. This vulnerability is fixed in 2.26.4.",
+        "cveName": "CVE-2024-45792",
+        "cveUrl": "/vuln/detail/CVE-2024-45792"
+      }
+    },
+    "CVE-2024-45920": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "9:15:02 AM -0400"
+        ],
+        "cveDis": "A Stored Cross-Site Scripting (XSS) vulnerability in Solvait 24.4.2 allows remote attackers to inject malicious scripts into the application. This issue arises due to insufficient input validation and sanitization in \"Intrest\" feature.",
+        "cveName": "CVE-2024-45920",
+        "cveUrl": "/vuln/detail/CVE-2024-45920"
+      }
+    },
+    "CVE-2024-45993": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "1:15:04 PM -0400"
+        ],
+        "cveDis": "Giflib Project v5.2.2 is vulnerable to a heap buffer overflow via gif2rgb.",
+        "cveName": "CVE-2024-45993",
+        "cveUrl": "/vuln/detail/CVE-2024-45993"
+      }
+    },
     "CVE-2024-46097": {
       "cve": {
         "cveDate": [
@@ -62330,6 +62363,39 @@
         "cveDis": "A Command injection vulnerability in requestLetsEncryptSslWithDnsChallenge in NginxProxyManager 2.11.3 allows an attacker to achieve remote code execution via Add Let's Encrypt Certificate. NOTE: this is not part of any NGINX software shipped by F5.",
         "cveName": "CVE-2024-46257",
         "cveUrl": "/vuln/detail/CVE-2024-46257"
+      }
+    },
+    "CVE-2024-46280": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "11:15:06 AM -0400"
+        ],
+        "cveDis": "PIX-LINK LV-WR22 RE3002-P1-01_V117.0 is vulnerable to Improper Access Control. The TELNET service is enabled with weak credentials for a root-level account, without the possibility of changing them.",
+        "cveName": "CVE-2024-46280",
+        "cveUrl": "/vuln/detail/CVE-2024-46280"
+      }
+    },
+    "CVE-2024-46293": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "11:15:06 AM -0400"
+        ],
+        "cveDis": "Sourcecodester Online Medicine Ordering System 1.0 is vulnerable to Incorrect Access Control. There is a lack of authorization checks for admin operations. Specifically, an attacker can perform admin-level actions without possessing a valid session token. The application does not verify whether the user is logged in as an admin or even check for a session token at all.",
+        "cveName": "CVE-2024-46293",
+        "cveUrl": "/vuln/detail/CVE-2024-46293"
+      }
+    },
+    "CVE-2024-46313": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "11:15:06 AM -0400"
+        ],
+        "cveDis": "TP-Link WR941ND V6 has a stack overflow vulnerability in the ssid parameter in /userRpm/popupSiteSurveyRpm.htm.",
+        "cveName": "CVE-2024-46313",
+        "cveUrl": "/vuln/detail/CVE-2024-46313"
       }
     },
     "CVE-2024-46366": {
@@ -62365,6 +62431,127 @@
         "cveUrl": "/vuln/detail/CVE-2024-46453"
       }
     },
+    "CVE-2024-46475": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "12:15:09 PM -0400"
+        ],
+        "cveDis": "A reflected cross-site scripting (XSS) vulnerability on the homepage of Metronic Admin Dashboard Template v2.0 allows attackers to execute arbitrary code in the context of a user's browser via injecting a crafted payload.",
+        "cveName": "CVE-2024-46475",
+        "cveUrl": "/vuln/detail/CVE-2024-46475"
+      }
+    },
+    "CVE-2024-46510": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "12:15:09 PM -0400"
+        ],
+        "cveDis": "ESAFENET CDG v5 was discovered to contain a SQL injection vulnerability via the id parameter in the NavigationAjax interface",
+        "cveName": "CVE-2024-46510",
+        "cveUrl": "/vuln/detail/CVE-2024-46510"
+      }
+    },
+    "CVE-2024-46540": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "1:15:04 PM -0400"
+        ],
+        "cveDis": "A remote code execution (RCE) vulnerability in the component /admin/store.php of Emlog Pro before v2.3.15 allows attackers to use remote file downloads and self-extract fucntions to upload webshells to the target server, thereby obtaining system privileges.",
+        "cveName": "CVE-2024-46540",
+        "cveUrl": "/vuln/detail/CVE-2024-46540"
+      }
+    },
+    "CVE-2024-46548": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "1:15:04 PM -0400"
+        ],
+        "cveDis": "TP-Link Tapo P125M and Kasa KP125M v1.0.3 was discovered to improperly validate certificates, allowing attackers to eavesdrop on communications and access sensitive information via a man-in-the-middle attack.",
+        "cveName": "CVE-2024-46548",
+        "cveUrl": "/vuln/detail/CVE-2024-46548"
+      }
+    },
+    "CVE-2024-46549": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "1:15:04 PM -0400"
+        ],
+        "cveDis": "An issue in the TP-Link MQTT Broker and API gateway of TP-Link Kasa KP125M v1.0.3 allows attackers to establish connections by impersonating devices owned by other users.",
+        "cveName": "CVE-2024-46549",
+        "cveUrl": "/vuln/detail/CVE-2024-46549"
+      }
+    },
+    "CVE-2024-46869": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "12:15:09 PM -0400"
+        ],
+        "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btintel_pcie: Allocate memory for driver private data\n\nFix driver not allocating memory for struct btintel_data which is used\nto store internal data.",
+        "cveName": "CVE-2024-46869",
+        "cveUrl": "/vuln/detail/CVE-2024-46869"
+      }
+    },
+    "CVE-2024-47063": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "11:15:06 AM -0400"
+        ],
+        "cveDis": "Computer Vision Annotation Tool (CVAT) is an interactive video and image annotation tool for computer vision. If a malicious CVAT user with permissions to either create a task, or edit an existing task can trick another logged-in user into visiting a maliciously-constructed URL, they can initiate any API calls on that user's behalf. This gives the attacker temporary access to all data that the victim user has access to. Upgrade to CVAT 2.19.0 or a later version to fix this issue.",
+        "cveName": "CVE-2024-47063",
+        "cveUrl": "/vuln/detail/CVE-2024-47063"
+      }
+    },
+    "CVE-2024-47064": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "11:15:06 AM -0400"
+        ],
+        "cveDis": "Computer Vision Annotation Tool (CVAT) is an interactive video and image annotation tool for computer vision. If an attacker can trick a logged-in CVAT user into visiting a maliciously-constructed URL, they can initiate any API calls on that user's behalf. This gives the attacker temporary access to all data that the victim user has access to. Upgrade to CVAT 2.19.0 or a later version to fix this issue.",
+        "cveName": "CVE-2024-47064",
+        "cveUrl": "/vuln/detail/CVE-2024-47064"
+      }
+    },
+    "CVE-2024-47067": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "12:15:09 PM -0400"
+        ],
+        "cveDis": "AList is a file list program that supports multiple storages. AList contains a reflected cross-site scripting vulnerability in helper.go. The endpoint /i/:link_name takes in a user-provided value and reflects it back in the response. The endpoint returns an application/xml response, opening it up to HTML tags via XHTML and thus leading to a XSS vulnerability. This vulnerability is fixed in 3.29.0.",
+        "cveName": "CVE-2024-47067",
+        "cveUrl": "/vuln/detail/CVE-2024-47067"
+      }
+    },
+    "CVE-2024-47172": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "11:15:06 AM -0400"
+        ],
+        "cveDis": "Computer Vision Annotation Tool (CVAT) is an interactive video and image annotation tool for computer vision. An attacker with a CVAT account may retrieve certain information about any project, task, job or membership resource on the CVAT instance. The information exposed in this way is the same as the information returned on a GET request to the resource. In addition, the attacker can also alter the default source and target storage associated with any project or task. Upgrade to CVAT 2.19.1 or any later version to fix the issue.",
+        "cveName": "CVE-2024-47172",
+        "cveUrl": "/vuln/detail/CVE-2024-47172"
+      }
+    },
+    "CVE-2024-47178": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "12:15:09 PM -0400"
+        ],
+        "cveDis": "basic-auth-connect is Connect's Basic Auth middleware in its own module. basic-auth-connect < 1.1.0 uses a timing-unsafe equality comparison that can leak timing information. This issue has been fixed in basic-auth-connect 1.1.0.",
+        "cveName": "CVE-2024-47178",
+        "cveUrl": "/vuln/detail/CVE-2024-47178"
+      }
+    },
     "CVE-2024-47186": {
       "cve": {
         "cveDate": [
@@ -62374,6 +62561,72 @@
         "cveDis": "Filament is a collection of full-stack components for Laravel development. Versions of Filament from v3.0.0 through v3.2.114 are affected by a cross-site scripting (XSS) vulnerability. If values passed to a `ColorColumn` or `ColumnEntry` are not valid and contain a specific set of characters, applications are vulnerable to XSS attack against a user who opens a page on which a color column or entry is rendered. Filament v3.2.115 fixes this issue.",
         "cveName": "CVE-2024-47186",
         "cveUrl": "/vuln/detail/CVE-2024-47186"
+      }
+    },
+    "CVE-2024-47530": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "12:15:09 PM -0400"
+        ],
+        "cveDis": "Scout is a web-based visualizer for VCF-files. Open redirect vulnerability allows performing phishing attacks on users by redirecting them to malicious page. /login API endpoint is vulnerable to open redirect attack via next parameter due to absence of sanitization logic. Additionally, due to lack of scheme validation, HTTPS Downgrade Attack can be performed on the users. This vulnerability is fixed in 4.89.",
+        "cveName": "CVE-2024-47530",
+        "cveUrl": "/vuln/detail/CVE-2024-47530"
+      }
+    },
+    "CVE-2024-47531": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "12:15:09 PM -0400"
+        ],
+        "cveDis": "Scout is a web-based visualizer for VCF-files. Due to the lack of sanitization in the filename, it is possible bypass intended file extension and make users download malicious files with any extension. With malicious content injected inside the file data and users unknowingly downloading it and opening may lead to the compromise of users' devices or data. This vulnerability is fixed in 4.89.",
+        "cveName": "CVE-2024-47531",
+        "cveUrl": "/vuln/detail/CVE-2024-47531"
+      }
+    },
+    "CVE-2024-47532": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "12:15:09 PM -0400"
+        ],
+        "cveDis": "RestrictedPython is a restricted execution environment for Python to run untrusted code. A user can gain access to protected (and potentially sensible) information indirectly via AttributeError.obj and the string module. The problem will be fixed in version 7.3. As a workaround, If the application does not require access to the module string, it can remove it from RestrictedPython.Utilities.utility_builtins or otherwise do not make it available in the restricted execution environment.",
+        "cveName": "CVE-2024-47532",
+        "cveUrl": "/vuln/detail/CVE-2024-47532"
+      }
+    },
+    "CVE-2024-47536": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "1:15:04 PM -0400"
+        ],
+        "cveDis": "Citizen is a MediaWiki skin that makes extensions part of the cohesive experience. A user with the editmyprivateinfo right or who can otherwise change their name can XSS themselves by setting their \"real name\" to an XSS payload. This vulnerability is fixed in 2.31.0.",
+        "cveName": "CVE-2024-47536",
+        "cveUrl": "/vuln/detail/CVE-2024-47536"
+      }
+    },
+    "CVE-2024-47641": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "9:15:02 AM -0400"
+        ],
+        "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in WPDeveloperr Confetti Fall Animation allows Stored XSS.This issue affects Confetti Fall Animation: from n/a through 1.3.0.",
+        "cveName": "CVE-2024-47641",
+        "cveUrl": "/vuln/detail/CVE-2024-47641"
+      }
+    },
+    "CVE-2024-6051": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "9:15:02 AM -0400"
+        ],
+        "cveDis": "Cross Application Scripting vulnerability in Vercom S.A. Redlink SDK in specific situations allows local code injection and to manipulate the view of a vulnerable application.This issue affects Redlink SDK versions through 1.13.",
+        "cveName": "CVE-2024-6051",
+        "cveUrl": "/vuln/detail/CVE-2024-6051"
       }
     },
     "CVE-2024-6394": {
@@ -62682,6 +62935,17 @@
         "cveDis": "The WP-WebAuthn plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wwa_login_form shortcode in all versions up to, and including, 1.3.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
         "cveName": "CVE-2024-90236-4 MEDIUM",
         "cveUrl": "/vuln/detail/CVE-2024-9023"
+      }
+    },
+    "CVE-2024-9158": {
+      "cve": {
+        "cveDate": [
+          "September 30, 2024",
+          "1:15:05 PM -0400"
+        ],
+        "cveDis": "A stored cross site scripting vulnerability exists in Nessus Network Monitor where an authenticated, privileged local attacker could inject arbitrary code into the NNM UI via the local CLI.",
+        "cveName": "CVE-2024-9158",
+        "cveUrl": "/vuln/detail/CVE-2024-9158"
       }
     },
     "CVE-2024-9160": {
@@ -63018,6 +63282,18 @@
         "exploitUrl": "https://packetstormsecurity.com/files/181852/TI-Bluetooth-Denial-Of-Service.html"
       }
     },
+    " CVE-2024-35214": {
+      "exploit": {
+        "exploit": "0a06d0ec45010ea8b159f9d5f9a891450ce9117faadcb6b526ef6e7aa21a7451",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181909/SA-20240925-0.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "BlackBerry CylanceOPTICS versions prior to 3.3 MR2 and 3.2 MR5 suffer from an uninstall password bypass vulnerability.",
+        "exploitName": " CVE-2024-35214",
+        "exploitQuickDis": "BlackBerry CylanceOPTICS Uninstall Password Bypass",
+        "exploitTags": " exploit, bypass",
+        "exploitUrl": "https://packetstormsecurity.com/files/181909/BlackBerry-CylanceOPTICS-Uninstall-Password-Bypass.html"
+      }
+    },
     " CVE-2024-4007": {
       "exploit": {
         "exploit": "77c571a0aaea9e72f54148bf830ecd55a32afc329d2af950110f41d58c705470",
@@ -63028,6 +63304,30 @@
         "exploitQuickDis": "ABB Cylon Aspect 3.07.01 Hard-Coded Credentials",
         "exploitTags": " exploit",
         "exploitUrl": "https://packetstormsecurity.com/files/181853/ABB-Cylon-Aspect-3.07.01-Hard-Coded-Credentials.html"
+      }
+    },
+    " CVE-2024-45873": {
+      "exploit": {
+        "exploit": "378aa772f21ffc902834ecaa037a742ac5bf2f8dbac879f976178e59558b4845",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181912/vegabirdyaazhini202-dllhijack.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "VegaBird Yaazhini version 2.0.2 suffers from a dll hijacking vulnerability.",
+        "exploitName": " CVE-2024-45873",
+        "exploitQuickDis": "VegaBird Yaazhini 2.0.2 DLL Hijacking",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181912/VegaBird-Yaazhini-2.0.2-DLL-Hijacking.html"
+      }
+    },
+    " CVE-2024-45874": {
+      "exploit": {
+        "exploit": "c5f33bc21c9e871866fcbc9aa668c73fe0ec052f868a7c993eb644b8d7aa159e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181913/vegabirdvooki529-dllhijack.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "VegaBird Vooki version 5.2.9 suffers from a dll hijacking vulnerability.",
+        "exploitName": " CVE-2024-45874",
+        "exploitQuickDis": "VegaBird Vooki 5.2.9 DLL Hijacking",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181913/VegaBird-Vooki-5.2.9-DLL-Hijacking.html"
       }
     },
     " CVE-2024-4956": {
@@ -63174,6 +63474,18 @@
         "exploitUrl": "https://packetstormsecurity.com/files/181834/Sample-Blog-Site-1.0-SQL-Injection.html"
       }
     },
+    "sbs10-xss": {
+      "exploit": {
+        "exploit": "9eb4f98f6b5aa7c6a2b152f6a928201fce3e01efc03aed42ffeb58be9416ad69",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181893/sbs10-xss.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Sample Blog Site version 1.0 suffers from cross site scripting and remote file inclusion vulnerabilities.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Sample Blog Site 1.0 Cross Site Scripting / Remote File Inclusion",
+        "exploitTags": " exploit, remote, vulnerability, xss, file inclusion",
+        "exploitUrl": "https://packetstormsecurity.com/files/181893/Sample-Blog-Site-1.0-Cross-Site-Scripting-Remote-File-Inclusion.html"
+      }
+    },
     "sca10-insecure": {
       "exploit": {
         "exploit": "7b361b307377ab336cb1ba157dbe436f539d4d951640c1b9438080dd04efc415",
@@ -63234,6 +63546,18 @@
         "exploitUrl": "https://packetstormsecurity.com/files/181835/School-Dormitory-Management-System-1.0-Insecure-Settings.html"
       }
     },
+    "se10-upload": {
+      "exploit": {
+        "exploit": "49cc50e326b3fd62447d476f81a9de0cba690a49f3f4ee75a6bc4a78f3795d14",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181898/se10-upload.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Student Enrollment version 1.0 suffers from an arbitrary file upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Student Enrollment 1.0 Arbitrary File Upload",
+        "exploitTags": " exploit, arbitrary, file upload",
+        "exploitUrl": "https://packetstormsecurity.com/files/181898/Student-Enrollment-1.0-Arbitrary-File-Upload.html"
+      }
+    },
     "seopanel4100-rfi": {
       "exploit": {
         "exploit": "2fdf761dbcf0a177ff1181fce94ad134d7bd768b3f71e66a322977609630415f",
@@ -63282,6 +63606,30 @@
         "exploitUrl": "https://packetstormsecurity.com/files/181862/Simple-Music-Management-System-1.0-SQL-Injection.html"
       }
     },
+    "smms10-xsrf": {
+      "exploit": {
+        "exploit": "df252f1eaa3b66e90a658dfc9a226ba2533289721dc44476e40043a787e9796d",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181894/smms10-xsrf.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Simple Music Management System version 1.0 suffers from add administrator and cross site request forgery vulnerabilities.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Music Management System 1.0 Add Administrator / Cross Site Request Forgery",
+        "exploitTags": " exploit, vulnerability, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181894/Simple-Music-Management-System-1.0-Add-Administrator-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "sms10-cookie": {
+      "exploit": {
+        "exploit": "d658fbfc8c6a719141fdd1f2794283b78eab23b21c7970420e8965f026849eba",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181899/sms10-cookie.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Student Management System version 1.0 suffers from an insecure cookie handling vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Student Management System 1.0 Insecure Cookie Handling",
+        "exploitTags": " exploit, insecure cookie handling",
+        "exploitUrl": "https://packetstormsecurity.com/files/181899/Student-Management-System-1.0-Insecure-Cookie-Handling.html"
+      }
+    },
     "sobs10-insecure": {
       "exploit": {
         "exploit": "60fe43352a3868f03206638491d4491ead15c3f6267a020925685bf77cd31eb9",
@@ -63292,6 +63640,42 @@
         "exploitQuickDis": "Simple Online Banking System 1.0 Insecure Settings",
         "exploitTags": " exploit",
         "exploitUrl": "https://packetstormsecurity.com/files/181863/Simple-Online-Banking-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "spbapbw10-sqlbypass": {
+      "exploit": {
+        "exploit": "6bf344eafaf6c191620e5d4aaa4bda969218a3a332ca545a121590babfb99c51",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181897/spbapbw10-sqlbypass.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Sistem Penyewaan Baju atau Pakaian Berbasis Web version 1.0 suffers from a remote SQL injection vulnerability that allows for authentication bypass.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Sistem Penyewaan Baju atau Pakaian Berbasis Web 1.0 SQL Injection",
+        "exploitTags": " exploit, remote, web, sql injection, bypass",
+        "exploitUrl": "https://packetstormsecurity.com/files/181897/Sistem-Penyewaan-Baju-atau-Pakaian-Berbasis-Web-1.0-SQL-Injection.html"
+      }
+    },
+    "srtw10-xsrf": {
+      "exploit": {
+        "exploit": "493173ed90bd6f03279d5ce769c941991460d6871a24971c93c031df10a0443c",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181895/srtw10-xsrf.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Simple Responsive Tourism Website version 1.0 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Responsive Tourism Website 1.0 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181895/Simple-Responsive-Tourism-Website-1.0-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "ssqrgs10-insecure": {
+      "exploit": {
+        "exploit": "65700e5d5f0a16db7935706da6a050674024b5d163710b8e4236fc5383e251ab",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181896/ssqrgs10-insecure.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Simple Student Quarterly Result / Grade System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Student Quarterly Result / Grade System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181896/Simple-Student-Quarterly-Result-Grade-System-1.0-Insecure-Settings.html"
       }
     }
   }
