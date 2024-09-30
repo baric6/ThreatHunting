@@ -724,5 +724,27 @@
       "cveName": "CVE-2024-9326",
       "cveUrl": "/vuln/detail/CVE-2024-9326"
     }
+  },
+  "CVE-2024-9327": {
+    "cve": {
+      "cveDate": [
+        "September 29, 2024",
+        "7:15:11 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Blood Bank System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /forgot.php. The manipulation of the argument useremail leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9327",
+      "cveUrl": "/vuln/detail/CVE-2024-9327"
+    }
+  },
+  "CVE-2024-9328": {
+    "cve": {
+      "cveDate": [
+        "September 29, 2024",
+        "7:15:13 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Advocate Office Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /control/edit_client.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9328",
+      "cveUrl": "/vuln/detail/CVE-2024-9328"
+    }
   }
 }
