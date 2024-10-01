@@ -1,4 +1,15 @@
 {
+  "CVE-2021-37577": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "11:15:06 AM -0400"
+      ],
+      "cveDis": "Bluetooth LE and BR/EDR Secure Connections pairing and Secure Simple Pairing using the Passkey entry protocol in Bluetooth Core Specifications 2.1 through 5.3 may permit an unauthenticated man-in-the-middle attacker to identify the Passkey used during pairing by reflection of a crafted public key with the same X coordinate as the offered public key and by reflection of the authentication evidence of the initiating device, potentially permitting this attacker to complete authenticated pairing with the responding device using the correct Passkey for the pairing session. This is a related issue to CVE-2020-26558.",
+      "cveName": "CVE-2021-37577",
+      "cveUrl": "/vuln/detail/CVE-2021-37577"
+    }
+  },
   "CVE-2023-3441": {
     "cve": {
       "cveDate": [
@@ -8,6 +19,17 @@
       "cveDis": "An issue has been discovered in GitLab EE/CE affecting all versions starting from 8.0 before 16.4. The product did not sufficiently warn about security implications of granting merge rights to protected branches.",
       "cveName": "CVE-2023-3441",
       "cveUrl": "/vuln/detail/CVE-2023-3441"
+    }
+  },
+  "CVE-2023-7273": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "9:15:02 AM -0400"
+      ],
+      "cveDis": "Cross site request forgery in Kiteworks OwnCloud allows an unauthenticated attacker to forge requests.\nIf a request has no Authorization header, it is created with an empty string as value by a rewrite rule. The CSRF check is done by comparing the header value to null, meaning that the existing CSRF check is bypassed in this case. An attacker can, for example, create a new administrator account if the request is executed in the browser of an authenticated victim.",
+      "cveName": "CVE-2023-7273",
+      "cveUrl": "/vuln/detail/CVE-2023-7273"
     }
   },
   "CVE-2024-0116": {
@@ -186,6 +208,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-25412"
     }
   },
+  "CVE-2024-25632": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "11:15:07 AM -0400"
+      ],
+      "cveDis": "eLabFTW is an open source electronic lab notebook for research labs. In the context of eLabFTW, an administrator is a user account with certain privileges to manage users and content in their assigned team/teams. A user may be an administrator in one team and a regular user in another. The vulnerability allows a regular user to become administrator of a team where they are a member, under a reasonable configuration. Additionally, in eLabFTW versions subsequent to v5.0.0, the vulnerability may allow an initially unauthenticated user to gain administrative privileges over an arbitrary team. The vulnerability does not affect system administrator status. Users should upgrade to version 5.1.0. System administrators are advised to turn off local user registration, saml_team_create and not allow administrators to import users into teams, unless strictly required.",
+      "cveName": "CVE-2024-25632",
+      "cveUrl": "/vuln/detail/CVE-2024-25632"
+    }
+  },
+  "CVE-2024-25658": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "11:15:07 AM -0400"
+      ],
+      "cveDis": "Cleartext storage of passwords in Infinera TNMS (Transcend Network Management System) Server 19.10.3 allows attackers (with access to the database or exported configuration files) to obtain SNMP users' usernames and passwords in cleartext.",
+      "cveName": "CVE-2024-25658",
+      "cveUrl": "/vuln/detail/CVE-2024-25658"
+    }
+  },
+  "CVE-2024-25659": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "In Infinera TNMS (Transcend Network Management System) 19.10.3, an insecure default configuration of the internal SFTP server on Linux servers allows remote attacker to access files and directories outside the SFTP user home directory.",
+      "cveName": "CVE-2024-25659",
+      "cveUrl": "/vuln/detail/CVE-2024-25659"
+    }
+  },
+  "CVE-2024-25660": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "The WebDAV service in Infinera TNMS (Transcend Network Management System) 19.10.3 allows a low-privileged remote attacker to conduct unauthorized file operations, because of execution with unnecessary privileges.",
+      "cveName": "CVE-2024-25660",
+      "cveUrl": "/vuln/detail/CVE-2024-25660"
+    }
+  },
+  "CVE-2024-25661": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "11:15:07 AM -0400"
+      ],
+      "cveDis": "In Infinera TNMS (Transcend Network Management System) 19.10.3, cleartext storage of sensitive information in memory of the desktop application TNMS Client allows guest OS administrators to obtain various users' passwords by reading memory dumps of the desktop application.",
+      "cveName": "CVE-2024-25661",
+      "cveUrl": "/vuln/detail/CVE-2024-25661"
+    }
+  },
   "CVE-2024-28807": {
     "cve": {
       "cveDate": [
@@ -272,6 +349,17 @@
       "cveDis": "Advantech ADAM-5630 contains a cross-site request forgery (CSRF) vulnerability. It allows an attacker to partly circumvent the same \norigin policy, which is designed to prevent different websites from \ninterfering with each other.",
       "cveName": "CVE-2024-28948",
       "cveUrl": "/vuln/detail/CVE-2024-28948"
+    }
+  },
+  "CVE-2024-30132": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "8:15:03 AM -0400"
+      ],
+      "cveDis": "HCL Nomad server on Domino did not configure certain HTTP Security headers by default which could allow an attacker to obtain sensitive information via unspecified vectors.",
+      "cveName": "CVE-2024-30132",
+      "cveUrl": "/vuln/detail/CVE-2024-30132"
     }
   },
   "CVE-2024-33368": {
@@ -395,6 +483,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-39364"
     }
   },
+  "CVE-2024-41276": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "A vulnerability in Kaiten version 57.131.12 and earlier allows attackers to bypass the PIN code authentication mechanism. The application requires users to input a 6-digit PIN code sent to their email for authorization after entering their login credentials. However, the request limiting mechanism can be easily bypassed, enabling attackers to perform a brute force attack to guess the correct PIN and gain unauthorized access to the application.",
+      "cveName": "CVE-2024-41276",
+      "cveUrl": "/vuln/detail/CVE-2024-41276"
+    }
+  },
+  "CVE-2024-41673": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "11:15:07 AM -0400"
+      ],
+      "cveDis": "Decidim is a participatory democracy framework. The version control feature used in resources is subject to potential XSS attack through a malformed URL. This vulnerability is fixed in 0.27.8.",
+      "cveName": "CVE-2024-41673",
+      "cveUrl": "/vuln/detail/CVE-2024-41673"
+    }
+  },
   "CVE-2024-41999": {
     "cve": {
       "cveDate": [
@@ -428,6 +538,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-42496"
     }
   },
+  "CVE-2024-44610": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "11:15:08 AM -0400"
+      ],
+      "cveDis": "PCAN-Ethernet Gateway FD before 1.3.0 and PCAN-Ethernet Gateway before 2.11.0 are vulnerable to Command injection.",
+      "cveName": "CVE-2024-44610",
+      "cveUrl": "/vuln/detail/CVE-2024-44610"
+    }
+  },
+  "CVE-2024-44744": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "An issue in Malwarebytes Premium Security v5.0.0.883 allows attackers to execute arbitrary code via placing crafted binaries into unspecified directories.",
+      "cveName": "CVE-2024-44744",
+      "cveUrl": "/vuln/detail/CVE-2024-44744"
+    }
+  },
   "CVE-2024-450734-8 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -448,6 +580,17 @@
       "cveDis": "In Nintendo Mario Kart 8 Deluxe before 3.0.3, the LAN/LDN local multiplayer implementation allows a remote attacker to exploit a stack-based buffer overflow upon deserialization of session information via a malformed browse-reply packet, aka KartLANPwn. The victim is not required to join a game session with an attacker. The victim must open the \"Wireless Play\" (or \"LAN Play\") menu from the game's title screen, and an attacker nearby (LDN) or on the same LAN network as the victim can send a crafted reply packet to the victim's console. This enables a remote attacker to obtain complete denial-of-service on the game's process, or potentially, remote code execution on the victim's console. The issue is caused by incorrect use of the Nintendo Pia library,",
       "cveName": "CVE-2024-45200",
       "cveUrl": "/vuln/detail/CVE-2024-45200"
+    }
+  },
+  "CVE-2024-45408": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "11:15:08 AM -0400"
+      ],
+      "cveDis": "eLabFTW is an open source electronic lab notebook for research labs. An incorrect permission check has been found that could allow an authenticated user to access several kinds of otherwise restricted information. If anonymous access is allowed (something disabled by default), this extends to anyone. Users are advised to upgrade to at least version 5.1.0.  System administrators can disable anonymous access in the System configuration panel.",
+      "cveName": "CVE-2024-45408",
+      "cveUrl": "/vuln/detail/CVE-2024-45408"
     }
   },
   "CVE-2024-45772": {
@@ -481,6 +624,17 @@
       "cveDis": "A Stored Cross-Site Scripting (XSS) vulnerability in Solvait 24.4.2 allows remote attackers to inject malicious scripts into the application. This issue arises due to insufficient input validation and sanitization in \"Intrest\" feature.",
       "cveName": "CVE-2024-45920",
       "cveUrl": "/vuln/detail/CVE-2024-45920"
+    }
+  },
+  "CVE-2024-45967": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "11:15:08 AM -0400"
+      ],
+      "cveDis": "Pagekit 1.0.18 is vulnerable to Cross Site Scripting (XSS) in index.php/admin/site/widget.",
+      "cveName": "CVE-2024-45967",
+      "cveUrl": "/vuln/detail/CVE-2024-45967"
     }
   },
   "CVE-2024-45993": {
@@ -525,6 +679,94 @@
       "cveDis": "A Command injection vulnerability in requestLetsEncryptSslWithDnsChallenge in NginxProxyManager 2.11.3 allows an attacker to achieve remote code execution via Add Let's Encrypt Certificate. NOTE: this is not part of any NGINX software shipped by F5.",
       "cveName": "CVE-2024-46257",
       "cveUrl": "/vuln/detail/CVE-2024-46257"
+    }
+  },
+  "CVE-2024-46258": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "cute_png v1.05 was discovered to contain a heap buffer overflow via the cp_load_png_mem() function at cute_png.h.",
+      "cveName": "CVE-2024-46258",
+      "cveUrl": "/vuln/detail/CVE-2024-46258"
+    }
+  },
+  "CVE-2024-46259": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "cute_png v1.05 was discovered to contain a heap buffer overflow via the cp_unfilter() function at cute_png.h.",
+      "cveName": "CVE-2024-46259",
+      "cveUrl": "/vuln/detail/CVE-2024-46259"
+    }
+  },
+  "CVE-2024-46261": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "cute_png v1.05 was discovered to contain a heap buffer overflow via the cp_make32() function at cute_png.h.",
+      "cveName": "CVE-2024-46261",
+      "cveUrl": "/vuln/detail/CVE-2024-46261"
+    }
+  },
+  "CVE-2024-46263": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "cute_png v1.05 was discovered to contain a stack overflow via the cp_dynamic() function at cute_png.h.",
+      "cveName": "CVE-2024-46263",
+      "cveUrl": "/vuln/detail/CVE-2024-46263"
+    }
+  },
+  "CVE-2024-46264": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "cute_png v1.05 was discovered to contain a heap buffer overflow via the cp_find() function at cute_png.h.",
+      "cveName": "CVE-2024-46264",
+      "cveUrl": "/vuln/detail/CVE-2024-46264"
+    }
+  },
+  "CVE-2024-46267": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "cute_png v1.05 was discovered to contain a heap buffer overflow via the cp_block() function at cute_png.h.",
+      "cveName": "CVE-2024-46267",
+      "cveUrl": "/vuln/detail/CVE-2024-46267"
+    }
+  },
+  "CVE-2024-46274": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "cute_png v1.05 was discovered to contain a heap buffer overflow via the cp_stored() function at cute_png.h.",
+      "cveName": "CVE-2024-46274",
+      "cveUrl": "/vuln/detail/CVE-2024-46274"
+    }
+  },
+  "CVE-2024-46276": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "cute_png v1.05 was discovered to contain a heap buffer overflow via the cp_chunk() function at cute_png.h.",
+      "cveName": "CVE-2024-46276",
+      "cveUrl": "/vuln/detail/CVE-2024-46276"
     }
   },
   "CVE-2024-46280": {
@@ -725,6 +967,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47067"
     }
   },
+  "CVE-2024-47071": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "OSS Endpoint Manager is an endpoint manager module for FreePBX. OSS Endpoint Manager module activation can allow authenticated web users unauthorized access to read system files with the permissions of the webserver process. This vulnerability is fixed in 14.0.4.",
+      "cveName": "CVE-2024-47071",
+      "cveUrl": "/vuln/detail/CVE-2024-47071"
+    }
+  },
   "CVE-2024-47172": {
     "cve": {
       "cveDate": [
@@ -813,6 +1066,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47532"
     }
   },
+  "CVE-2024-47534": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "go-tuf is a Go implementation of The Update Framework (TUF). The go-tuf client inconsistently traces the delegations. For example, if targets delegate to \"A\", and to \"B\", and \"B\" delegates to \"C\", then the client should trace the delegations in the order \"A\" then \"B\" then \"C\" but it may incorrectly trace the delegations \"B\"->\"C\"->\"A\". This vulnerability is fixed in 2.0.1.",
+      "cveName": "CVE-2024-47534",
+      "cveUrl": "/vuln/detail/CVE-2024-47534"
+    }
+  },
   "CVE-2024-47536": {
     "cve": {
       "cveDate": [
@@ -833,6 +1097,28 @@
       "cveDis": "RevoWorks Cloud Client 3.0.91 and earlier contains an incorrect authorization vulnerability. If this vulnerability is exploited, unintended processes may be executed in the sandbox environment. Even if malware is executed in the sandbox environment, it does not compromise the client's local environment. However, information in the sandbox environment may be disclosed to outside or behaviors of the sandbox environment may be violated by tampering registry.",
       "cveName": "CVE-2024-47560",
       "cveUrl": "/vuln/detail/CVE-2024-47560"
+    }
+  },
+  "CVE-2024-47604": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "NuGet Gallery is a package repository that powers nuget.org. The NuGetGallery has a security vulnerability in its handling of HTML element attributes, which allows an attacker to execute arbitrary HTML or Javascript code in a victim's browser.",
+      "cveName": "CVE-2024-47604",
+      "cveUrl": "/vuln/detail/CVE-2024-47604"
+    }
+  },
+  "CVE-2024-47608": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "1:15:08 PM -0400"
+      ],
+      "cveDis": "Logicytics is designed to harvest and collect data for forensic analysis. Logicytics has a basic vuln affecting compromised devices from shell injections. This vulnerability is fixed in 2.3.2.",
+      "cveName": "CVE-2024-47608",
+      "cveUrl": "/vuln/detail/CVE-2024-47608"
     }
   },
   "CVE-2024-47641": {
@@ -2043,6 +2329,160 @@
       "cveDis": "A vulnerability was found in code-projects Restaurant Reservation System 1.0. It has been classified as critical. This affects an unknown part of the file /updatebal.php. The manipulation of the argument company leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-9360",
       "cveUrl": "/vuln/detail/CVE-2024-9360"
+    }
+  },
+  "CVE-2024-9391": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "A user who enables full-screen mode on a specially crafted web page could potentially be prevented from exiting full screen mode.  This may allow spoofing of other sites as the address bar is no longer visible.\n*This bug only affects Firefox Focus for Android. Other versions of Firefox are unaffected.* This vulnerability affects Firefox < 131.",
+      "cveName": "CVE-2024-9391",
+      "cveUrl": "/vuln/detail/CVE-2024-9391"
+    }
+  },
+  "CVE-2024-9392": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "A compromised content process could have allowed for the arbitrary loading of cross-origin pages. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Firefox ESR < 115.16, Thunderbird < 128.3, and Thunderbird < 131.",
+      "cveName": "CVE-2024-9392",
+      "cveUrl": "/vuln/detail/CVE-2024-9392"
+    }
+  },
+  "CVE-2024-9393": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "An attacker could, via a specially crafted multipart response, execute arbitrary JavaScript under the `resource://pdf.js` origin.  This could allow them to access cross-origin PDF content. This access is limited to \"same site\" documents by the Site Isolation feature on desktop clients, but full cross-origin access is possible on Android versions. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Firefox ESR < 115.16, Thunderbird < 128.3, and Thunderbird < 131.",
+      "cveName": "CVE-2024-9393",
+      "cveUrl": "/vuln/detail/CVE-2024-9393"
+    }
+  },
+  "CVE-2024-9394": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "An attacker could, via a specially crafted multipart response, execute arbitrary JavaScript under the `resource://devtools` origin.  This could allow them to access cross-origin JSON content. This access is limited to \"same site\" documents by the Site Isolation feature on desktop clients, but full cross-origin access is possible on Android versions. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Firefox ESR < 115.16, Thunderbird < 128.3, and Thunderbird < 131.",
+      "cveName": "CVE-2024-9394",
+      "cveUrl": "/vuln/detail/CVE-2024-9394"
+    }
+  },
+  "CVE-2024-9395": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "A specially crafted filename containing a large number of spaces could obscure the file's extension when displayed in the download dialog.\n*This bug only affects Firefox for Android. Other versions of Firefox are unaffected.* This vulnerability affects Firefox < 131.",
+      "cveName": "CVE-2024-9395",
+      "cveUrl": "/vuln/detail/CVE-2024-9395"
+    }
+  },
+  "CVE-2024-9396": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "It is currently unknown if this issue is exploitable but a condition may arise where the structured clone of certain objects could lead to memory corruption. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Thunderbird < 128.3, and Thunderbird < 131.",
+      "cveName": "CVE-2024-9396",
+      "cveUrl": "/vuln/detail/CVE-2024-9396"
+    }
+  },
+  "CVE-2024-9397": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "A missing delay in directory upload UI could have made it possible for an attacker to trick a user into granting permission via clickjacking. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Thunderbird < 128.3, and Thunderbird < 131.",
+      "cveName": "CVE-2024-9397",
+      "cveUrl": "/vuln/detail/CVE-2024-9397"
+    }
+  },
+  "CVE-2024-9398": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "By checking the result of calls to `window.open` with specifically set protocol handlers, an attacker could determine if the application which implements that protocol handler is installed. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Thunderbird < 128.3, and Thunderbird < 131.",
+      "cveName": "CVE-2024-9398",
+      "cveUrl": "/vuln/detail/CVE-2024-9398"
+    }
+  },
+  "CVE-2024-9399": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "A website configured to initiate a specially crafted WebTransport session could crash the Firefox process leading to a denial of service condition. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Thunderbird < 128.3, and Thunderbird < 131.",
+      "cveName": "CVE-2024-9399",
+      "cveUrl": "/vuln/detail/CVE-2024-9399"
+    }
+  },
+  "CVE-2024-9400": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:11 PM -0400"
+      ],
+      "cveDis": "A potential memory corruption vulnerability could be triggered if an attacker had the ability to trigger an OOM at a specific moment during JIT compilation. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Thunderbird < 128.3, and Thunderbird < 131.",
+      "cveName": "CVE-2024-9400",
+      "cveUrl": "/vuln/detail/CVE-2024-9400"
+    }
+  },
+  "CVE-2024-9401": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:11 PM -0400"
+      ],
+      "cveDis": "Memory safety bugs present in Firefox 130, Firefox ESR 115.15, Firefox ESR 128.2, and Thunderbird 128.2. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Firefox ESR < 115.16, Thunderbird < 128.3, and Thunderbird < 131.",
+      "cveName": "CVE-2024-9401",
+      "cveUrl": "/vuln/detail/CVE-2024-9401"
+    }
+  },
+  "CVE-2024-9402": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:11 PM -0400"
+      ],
+      "cveDis": "Memory safety bugs present in Firefox 130, Firefox ESR 128.2, and Thunderbird 128.2. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Thunderbird < 128.3, and Thunderbird < 131.",
+      "cveName": "CVE-2024-9402",
+      "cveUrl": "/vuln/detail/CVE-2024-9402"
+    }
+  },
+  "CVE-2024-9403": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "12:15:11 PM -0400"
+      ],
+      "cveDis": "Memory safety bugs present in Firefox 130. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 131 and Thunderbird < 131.",
+      "cveName": "CVE-2024-9403",
+      "cveUrl": "/vuln/detail/CVE-2024-9403"
+    }
+  },
+  "CVE-2024-9405": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "8:15:03 AM -0400"
+      ],
+      "cveDis": "An incorrect limitation of a path to a restricted directory (path traversal) has been detected in Pluck CMS, affecting version 4.7.18. An unauthenticated attacker could extract sensitive information from the server via the absolute path of a file located in the same directory or subdirectory as the module, but not from recursive directories.",
+      "cveName": "CVE-2024-9405",
+      "cveUrl": "/vuln/detail/CVE-2024-9405"
     }
   }
 }
