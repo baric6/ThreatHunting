@@ -142,6 +142,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-25412"
     }
   },
+  "CVE-2024-28807": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "5:15:03 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Infinera hiT 7300 5.60.50. Cleartext storage of sensitive information in the memory of the @CT desktop management application allows guest OS administrators to obtain various users' passwords by accessing memory dumps of the desktop application.",
+      "cveName": "CVE-2024-28807",
+      "cveUrl": "/vuln/detail/CVE-2024-28807"
+    }
+  },
+  "CVE-2024-28808": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "5:15:03 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Infinera hiT 7300 5.60.50. Hidden functionality in the web interface allows a remote authenticated attacker to access reserved information by accessing undocumented web applications.",
+      "cveName": "CVE-2024-28808",
+      "cveUrl": "/vuln/detail/CVE-2024-28808"
+    }
+  },
+  "CVE-2024-28809": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Infinera hiT 7300 5.60.50. Cleartext storage of sensitive password in firmware update packages allows attackers to access various appliance services via hardcoded credentials.",
+      "cveName": "CVE-2024-28809",
+      "cveUrl": "/vuln/detail/CVE-2024-28809"
+    }
+  },
+  "CVE-2024-28810": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "3:15:03 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Infinera hiT 7300 5.60.50. Sensitive information inside diagnostic files (exported by the @CT application) allows an attacker to achieve loss of confidentiality by analyzing these files.",
+      "cveName": "CVE-2024-28810",
+      "cveUrl": "/vuln/detail/CVE-2024-28810"
+    }
+  },
+  "CVE-2024-28811": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "3:15:04 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Infinera hiT 7300 5.60.50. A web application allows a remote privileged attacker to execute applications contained in a specific OS directory via HTTP invocations.",
+      "cveName": "CVE-2024-28811",
+      "cveUrl": "/vuln/detail/CVE-2024-28811"
+    }
+  },
+  "CVE-2024-28812": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "3:15:04 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Infinera hiT 7300 5.60.50. A hidden SSH service (on the local management network interface) with hardcoded credentials allows attackers to access the appliance operating system (with highest privileges) via an SSH connection.",
+      "cveName": "CVE-2024-28812",
+      "cveUrl": "/vuln/detail/CVE-2024-28812"
+    }
+  },
+  "CVE-2024-28813": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "3:15:04 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Infinera hiT 7300 5.60.50. Undocumented privileged functions in the @CT management application allow an attacker to activate remote SSH access to the appliance via an unexpected network interface.",
+      "cveName": "CVE-2024-28813",
+      "cveUrl": "/vuln/detail/CVE-2024-28813"
+    }
+  },
   "CVE-2024-28948": {
     "cve": {
       "cveDate": [
@@ -184,6 +261,17 @@
       "cveDis": "Advantech ADAM-5630 shares user credentials plain text between the device and the user source device during the login process.",
       "cveName": "CVE-2024-34542",
       "cveUrl": "/vuln/detail/CVE-2024-34542"
+    }
+  },
+  "CVE-2024-35495": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "An Information Disclosure vulnerability in the Telemetry component in TP-Link Kasa KP125M V1.0.0 and Tapo P125M 1.0.0 Build 220930 Rel.143947 allows attackers to observe device state via observing network traffic.",
+      "cveName": "CVE-2024-35495",
+      "cveUrl": "/vuln/detail/CVE-2024-35495"
     }
   },
   "CVE-2024-3635": {
@@ -274,6 +362,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-41999"
     }
   },
+  "CVE-2024-42017": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Atos Eviden iCare 2.7.1 through 2.7.11. The application exposes a web interface locally. In the worst-case scenario, if the application is remotely accessible, it allows an attacker to execute arbitrary commands with system privilege on the endpoint hosting the application, without any authentication.",
+      "cveName": "CVE-2024-42017",
+      "cveUrl": "/vuln/detail/CVE-2024-42017"
+    }
+  },
   "CVE-2024-42496": {
     "cve": {
       "cveDate": [
@@ -283,6 +382,17 @@
       "cveDis": "Smart-tab Android app installed April 2023 or earlier contains an issue with plaintext storage of a password. If this vulnerability is exploited, an attacker with physical access to the device may retrieve the credential information and spoof the device to access the related external service.",
       "cveName": "CVE-2024-42496",
       "cveUrl": "/vuln/detail/CVE-2024-42496"
+    }
+  },
+  "CVE-2024-450734-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "IBM WebSphere Application Server 8.5 and 9.0 is vulnerable to stored cross-site scripting. This vulnerability allows a privileged user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
+      "cveName": "CVE-2024-450734-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45073"
     }
   },
   "CVE-2024-45200": {
@@ -450,6 +560,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46475"
     }
   },
+  "CVE-2024-46503": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "5:15:03 PM -0400"
+      ],
+      "cveDis": "An issue in the _readFileSync function of Simple-Spellchecker v1.0.2 allows attackers to read arbitrary files via a directory traversal.",
+      "cveName": "CVE-2024-46503",
+      "cveUrl": "/vuln/detail/CVE-2024-46503"
+    }
+  },
   "CVE-2024-46510": {
     "cve": {
       "cveDate": [
@@ -459,6 +580,17 @@
       "cveDis": "ESAFENET CDG v5 was discovered to contain a SQL injection vulnerability via the id parameter in the NavigationAjax interface",
       "cveName": "CVE-2024-46510",
       "cveUrl": "/vuln/detail/CVE-2024-46510"
+    }
+  },
+  "CVE-2024-46511": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "LoadZilla LLC LoadLogic v1.4.3 was discovered to contain insecure permissions vulnerability which allows a remote attacker to execute arbitrary code via the LogicLoadEc2DeployLambda and CredsGenFunction function.",
+      "cveName": "CVE-2024-46511",
+      "cveUrl": "/vuln/detail/CVE-2024-46511"
     }
   },
   "CVE-2024-46540": {
@@ -492,6 +624,17 @@
       "cveDis": "An issue in the TP-Link MQTT Broker and API gateway of TP-Link Kasa KP125M v1.0.3 allows attackers to establish connections by impersonating devices owned by other users.",
       "cveName": "CVE-2024-46549",
       "cveUrl": "/vuln/detail/CVE-2024-46549"
+    }
+  },
+  "CVE-2024-46635": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "An issue in the API endpoint /AccountMaster/GetCurrentUserInfo of INROAD before v202402060 allows attackers to access sensitive information via a crafted payload to the UserNameOrPhoneNumber parameter.",
+      "cveName": "CVE-2024-46635",
+      "cveUrl": "/vuln/detail/CVE-2024-46635"
     }
   },
   "CVE-2024-46869": {
@@ -571,6 +714,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47186"
     }
   },
+  "CVE-2024-47396": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "10:15:09 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in moveaddons Move Addons for Elementor allows Stored XSS.This issue affects Move Addons for Elementor: from n/a through 1.3.3.",
+      "cveName": "CVE-2024-47396",
+      "cveUrl": "/vuln/detail/CVE-2024-47396"
+    }
+  },
   "CVE-2024-47530": {
     "cve": {
       "cveDate": [
@@ -613,6 +767,17 @@
       "cveDis": "Citizen is a MediaWiki skin that makes extensions part of the cohesive experience. A user with the editmyprivateinfo right or who can otherwise change their name can XSS themselves by setting their \"real name\" to an XSS payload. This vulnerability is fixed in 2.31.0.",
       "cveName": "CVE-2024-47536",
       "cveUrl": "/vuln/detail/CVE-2024-47536"
+    }
+  },
+  "CVE-2024-47560": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "10:15:10 PM -0400"
+      ],
+      "cveDis": "RevoWorks Cloud Client 3.0.91 and earlier contains an incorrect authorization vulnerability. If this vulnerability is exploited, unintended processes may be executed in the sandbox environment. Even if malware is executed in the sandbox environment, it does not compromise the client's local environment. However, information in the sandbox environment may be disclosed to outside or behaviors of the sandbox environment may be violated by tampering registry.",
+      "cveName": "CVE-2024-47560",
+      "cveUrl": "/vuln/detail/CVE-2024-47560"
     }
   },
   "CVE-2024-47641": {
@@ -668,6 +833,72 @@
       "cveDis": "OMNTEC Proteus Tank Monitoring OEL8000III Series\n\n\ncould allow an attacker to perform administrative actions without proper authentication.",
       "cveName": "CVE-2024-6981",
       "cveUrl": "/vuln/detail/CVE-2024-6981"
+    }
+  },
+  "CVE-2024-7670": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "5:15:03 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWFX file, when parsed in w3dtk.dll through Autodesk Navisworks, can force an Out-of-Bounds Read. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-7670",
+      "cveUrl": "/vuln/detail/CVE-2024-7670"
+    }
+  },
+  "CVE-2024-7671": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "5:15:03 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWFX file, when parsed in dwfcore.dll through Autodesk Navisworks, can force an Out-of-Bounds Write. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-7671",
+      "cveUrl": "/vuln/detail/CVE-2024-7671"
+    }
+  },
+  "CVE-2024-7672": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "5:15:04 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWF file, when parsed in dwfcore.dll through Autodesk Navisworks, can force an Out-of-Bounds Write. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-7672",
+      "cveUrl": "/vuln/detail/CVE-2024-7672"
+    }
+  },
+  "CVE-2024-7673": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "5:15:04 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWFX file, when parsed in w3dtk.dll through Autodesk Navisworks, can force a Heap-based Buffer Overflow. A malicious actor can leverage this vulnerability to cause a crash or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-7673",
+      "cveUrl": "/vuln/detail/CVE-2024-7673"
+    }
+  },
+  "CVE-2024-7674": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "5:15:04 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWF file, when parsed in dwfcore.dll through Autodesk Navisworks, can force a Heap-based Buffer Overflow. A malicious actor can leverage this vulnerability to cause a crash or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-7674",
+      "cveUrl": "/vuln/detail/CVE-2024-7674"
+    }
+  },
+  "CVE-2024-7675": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "5:15:04 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWF file, when parsed in w3dtk.dll through Autodesk Navisworks, can force a Use-After-Free. A malicious actor can leverage this vulnerability to cause a crash or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-7675",
+      "cveUrl": "/vuln/detail/CVE-2024-7675"
     }
   },
   "CVE-2024-81894-4 MEDIUM": {
@@ -934,6 +1165,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8788"
     }
   },
+  "CVE-2024-89817-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The Broken Link Checker plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg in /app/admin-notices/features/class-view.php without appropriate escaping on the URL in all versions up to, and including, 2.4.0. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-89817-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8981"
+    }
+  },
   "CVE-2024-90236-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -976,6 +1218,17 @@
       "cveDis": "The EU/UK VAT Manager for WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the alg_wc_eu_vat_exempt_vat_from_admin() function in all versions up to, and including, 2.12.12. This makes it possible for unauthenticated attackers to update the VAT status for any order.",
       "cveName": "CVE-2024-91895-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9189"
+    }
+  },
+  "CVE-2024-9194": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "7:15:02 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Linux and Microsoft Windows Octopus Server on Windows, Linux allows SQL Injection.This issue affects Octopus Server: from 2024.1.0 before 2024.1.13038, from 2024.2.0 before 2024.2.9482, from 2024.3.0 before 2024.3.12766.",
+      "cveName": "CVE-2024-9194",
+      "cveUrl": "/vuln/detail/CVE-2024-9194"
     }
   },
   "CVE-2024-9284": {
@@ -1262,6 +1515,39 @@
       "cveDis": "In Eclipse Glassfish versions before 7.0.17, The Host HTTP parameter could cause the web application to redirect to the specified URL, when the requested endpoint is '/management/domain'. By modifying the URL value to a malicious site, an attacker may successfully launch a phishing scam and steal user credentials.",
       "cveName": "CVE-2024-9329",
       "cveUrl": "/vuln/detail/CVE-2024-9329"
+    }
+  },
+  "CVE-2024-9358": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "10:15:10 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in ThingsBoard up to 3.7.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the component HTTP RPC API. The manipulation leads to resource consumption. The attack can be launched remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. Upgrading to version 3.7.1 is able to address this issue. It is recommended to upgrade the affected component. The vendor was informed on 2024-07-24 about this vulnerability and announced the release of 3.7.1 for the second half of September 2024.",
+      "cveName": "CVE-2024-9358",
+      "cveUrl": "/vuln/detail/CVE-2024-9358"
+    }
+  },
+  "CVE-2024-9359": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "10:15:10 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Restaurant Reservation System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /addcompany.php. The manipulation of the argument company leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9359",
+      "cveUrl": "/vuln/detail/CVE-2024-9359"
+    }
+  },
+  "CVE-2024-9360": {
+    "cve": {
+      "cveDate": [
+        "September 30, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Restaurant Reservation System 1.0. It has been classified as critical. This affects an unknown part of the file /updatebal.php. The manipulation of the argument company leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9360",
+      "cveUrl": "/vuln/detail/CVE-2024-9360"
     }
   }
 }
