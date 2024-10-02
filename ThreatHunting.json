@@ -105239,6 +105239,281 @@
         "cveUrl": "/vuln/detail/CVE-2024-0116"
       }
     },
+    "CVE-2024-20365": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:14 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the Redfish API of Cisco UCS B-Series, Cisco UCS Managed C-Series, and Cisco UCS X-Series Servers could allow an authenticated, remote attacker with administrative privileges to perform command injection attacks on an affected system and elevate privileges to root.\n\nThis vulnerability is due to insufficient input validation. An attacker with administrative privileges could exploit this vulnerability by sending crafted commands through the Redfish API on an affected device. A successful exploit could allow the attacker to elevate privileges to root.",
+        "cveName": "CVE-2024-20365",
+        "cveUrl": "/vuln/detail/CVE-2024-20365"
+      }
+    },
+    "CVE-2024-20385": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:15 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the SSL/TLS implementation of Cisco Nexus Dashboard Orchestrator (NDO) could allow an unauthenticated, remote attacker to intercept sensitive information from an affected device.&nbsp;\n\nThis vulnerability exists because the Cisco NDO Validate Peer Certificate site management feature validates the certificates for Cisco Application Policy Infrastructure Controller (APIC), Cisco Cloud Network Controller (CNC), and Cisco Nexus Dashboard only when a new site is added or an existing one is reregistered. An attacker could exploit this vulnerability by using machine-in-the-middle techniques to intercept the traffic between the affected device and Cisco NDO and then using a crafted certificate to impersonate the affected device. A successful exploit could allow the attacker to learn sensitive information during communications between these devices.",
+        "cveName": "CVE-2024-20385",
+        "cveUrl": "/vuln/detail/CVE-2024-20385"
+      }
+    },
+    "CVE-2024-20393": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:15 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV340, RV340W, RV345, and RV345P Dual WAN Gigabit VPN Routers could allow an authenticated, remote attacker to elevate privileges on an affected device.\n\nThis vulnerability exists because the web-based management interface discloses sensitive information. An attacker could exploit this vulnerability by sending crafted HTTP input to an affected device. A successful exploit could allow an attacker to elevate privileges from guest to admin.",
+        "cveName": "CVE-2024-20393",
+        "cveUrl": "/vuln/detail/CVE-2024-20393"
+      }
+    },
+    "CVE-2024-20432": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:15 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the REST API and web UI of Cisco Nexus Dashboard Fabric Controller (NDFC) could allow an authenticated, low-privileged, remote attacker to perform a command injection attack against an affected device.\n&nbsp;\nThis vulnerability is due to improper user authorization and insufficient validation of command arguments. An attacker could exploit this vulnerability by submitting crafted commands to an affected REST API endpoint or through the web UI. A successful exploit could allow the attacker to execute arbitrary commands on the CLI of a Cisco NDFC-managed device with network-admin privileges.\n&nbsp;\nNote: This vulnerability does not affect Cisco NDFC when it is configured for storage area network (SAN) controller deployment.",
+        "cveName": "CVE-2024-20432",
+        "cveUrl": "/vuln/detail/CVE-2024-20432"
+      }
+    },
+    "CVE-2024-20438": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:15 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the REST API endpoints of Cisco NDFC could allow an authenticated, low-privileged, remote attacker to read or write files on an affected device.\n\nThis vulnerability exists because of missing authorization controls on some REST API endpoints. An attacker could exploit this vulnerability by sending crafted API requests to an affected endpoint. A successful exploit could allow the attacker to perform limited network-admin functions such as reading device configuration information, uploading files, and modifying uploaded files.\nNote: This vulnerability only affects a subset of REST API endpoints and does not affect the web-based management interface.",
+        "cveName": "CVE-2024-20438",
+        "cveUrl": "/vuln/detail/CVE-2024-20438"
+      }
+    },
+    "CVE-2024-20441": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:15 PM -0400"
+        ],
+        "cveDis": "A vulnerability in a specific REST API endpoint of Cisco NDFC could allow an authenticated, low-privileged, remote attacker to learn sensitive information on an affected device.\n\nThis vulnerability is due to insufficient authorization controls on the affected REST API endpoint. An attacker could exploit this vulnerability by sending crafted API requests to the&nbsp;affected endpoint. A successful exploit could allow the attacker to download config only or full backup files and learn sensitive configuration information. This vulnerability only affects a specific REST API endpoint and does not affect the web-based management interface.",
+        "cveName": "CVE-2024-20441",
+        "cveUrl": "/vuln/detail/CVE-2024-20441"
+      }
+    },
+    "CVE-2024-20442": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:16 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the REST API endpoints of Cisco Nexus Dashboard could allow an authenticated, low-privileged, remote attacker to perform limited Administrator actions on an affected device.\n\nThis vulnerability is due to insufficient authorization controls on some REST API endpoints. An attacker could exploit this vulnerability by sending crafted API requests to an affected endpoint. A successful exploit could allow the attacker to perform limited Administrator functions such as viewing portions of the web UI, generating config only or full backup files, and deleting tech support files. This vulnerability only affects a subset of REST API endpoints and does not affect the web-based management interface.",
+        "cveName": "CVE-2024-20442",
+        "cveUrl": "/vuln/detail/CVE-2024-20442"
+      }
+    },
+    "CVE-2024-20444": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:16 PM -0400"
+        ],
+        "cveDis": "A vulnerability in Cisco Nexus Dashboard Fabric Controller (NDFC), formerly Cisco Data Center Network Manager (DCNM), could allow an authenticated, remote attacker with network-admin privileges to perform a command injection attack against an affected device.\n&nbsp;\nThis vulnerability is due to insufficient validation of command arguments. An attacker could exploit this vulnerability by submitting crafted command arguments to a specific REST API endpoint. A successful exploit could allow the attacker to overwrite sensitive files or crash a specific container, which would restart on its own, causing a low-impact denial of service (DoS) condition.",
+        "cveName": "CVE-2024-20444",
+        "cveUrl": "/vuln/detail/CVE-2024-20444"
+      }
+    },
+    "CVE-2024-20448": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:16 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the Cisco Nexus Dashboard Fabric Controller (NDFC) software, formerly Cisco Data Center Network Manager (DCNM), could allow an attacker with access to a backup file to view sensitive information.\n\nThis vulnerability is due to the improper storage of sensitive information within config only and full backup files. An attacker could exploit this vulnerability by parsing the contents of a backup file that is generated from an affected device. A successful exploit could allow the attacker to access sensitive information, including NDFC-connected device credentials, the NDFC site manager private key, and the scheduled backup file encryption key.",
+        "cveName": "CVE-2024-20448",
+        "cveUrl": "/vuln/detail/CVE-2024-20448"
+      }
+    },
+    "CVE-2024-20449": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:16 PM -0400"
+        ],
+        "cveDis": "A vulnerability in Cisco Nexus Dashboard Fabric Controller (NDFC) could allow an authenticated, remote attacker with low privileges to execute arbitrary code on an affected device.\n\nThis vulnerability is due to improper path validation. An attacker could exploit this vulnerability by using the Secure Copy Protocol (SCP) to upload malicious code to an affected device using path traversal techniques. A successful exploit could allow the attacker to execute arbitrary&nbsp;code in a specific container with the privileges of root.",
+        "cveName": "CVE-2024-20449",
+        "cveUrl": "/vuln/detail/CVE-2024-20449"
+      }
+    },
+    "CVE-2024-20470": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:17 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV340, RV340W, RV345, and RV345P Dual WAN Gigabit VPN Routers could allow an authenticated, remote attacker to execute arbitrary code on an affected device. In order to exploit this vulnerability, the attacker must have valid admin credentials.\n\nThis vulnerability exists because the web-based management interface does not sufficiently validate user-supplied input. An attacker could exploit this vulnerability by sending crafted HTTP input to an affected device. A successful exploit could allow the attacker to execute arbitrary code as the root user on the underlying operating system.",
+        "cveName": "CVE-2024-20470",
+        "cveUrl": "/vuln/detail/CVE-2024-20470"
+      }
+    },
+    "CVE-2024-20477": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:17 PM -0400"
+        ],
+        "cveDis": "A vulnerability in a specific REST API endpoint of Cisco NDFC could allow an authenticated, low-privileged, remote attacker to upload or delete files on an affected device.\n\nThis vulnerability exists because of missing authorization controls on the affected REST API endpoint. An attacker could exploit this vulnerability by sending crafted API requests to the affected endpoint. A successful exploit could allow the attacker to upload files into a specific container or delete files from a specific folder within that container. This vulnerability only affects a specific REST API endpoint and does not affect the web-based management interface.",
+        "cveName": "CVE-2024-20477",
+        "cveUrl": "/vuln/detail/CVE-2024-20477"
+      }
+    },
+    "CVE-2024-20490": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:17 PM -0400"
+        ],
+        "cveDis": "A vulnerability in a logging function of Cisco Nexus Dashboard Fabric Controller (NDFC) and Cisco Nexus Dashboard Orchestrator (NDO) could allow an attacker with access to a tech support file to view sensitive information.\n\nThis vulnerability exists because HTTP proxy credentials could be recorded in an internal log that is stored in the tech support file. An attacker could exploit this vulnerability by accessing a tech support file that is generated from an affected system. A successful exploit could allow the attacker to view HTTP proxy server admin credentials in clear text that are configured on Nexus Dashboard to reach an external network.\nNote: Best practice is to store debug logs and tech support files safely and to share them only with trusted parties because they may contain sensitive information.",
+        "cveName": "CVE-2024-20490",
+        "cveUrl": "/vuln/detail/CVE-2024-20490"
+      }
+    },
+    "CVE-2024-20491": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:17 PM -0400"
+        ],
+        "cveDis": "A vulnerability in a logging function of Cisco Nexus Dashboard Insights could allow an attacker with access to a tech support file to view sensitive information.\n\nThis vulnerability exists because remote controller credentials are recorded in an internal log that is stored in the tech support file. An attacker could exploit this vulnerability by accessing a tech support file that is generated from an affected system. A successful exploit could allow the attacker to view remote controller admin credentials in clear text.\nNote: Best practice is to store debug logs and tech support files safely and to share them only with trusted parties because they may contain sensitive information.",
+        "cveName": "CVE-2024-20491",
+        "cveUrl": "/vuln/detail/CVE-2024-20491"
+      }
+    },
+    "CVE-2024-20492": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:17 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the restricted shell of Cisco Expressway Series could allow an authenticated, local attacker to perform command injection attacks on the underlying operating system and elevate privileges to root. To exploit this vulnerability, the attacker must have Administrator-level credentials with read-write privileges on an affected device.\n\nThis vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by submitting a series of crafted CLI commands. A successful exploit could allow the attacker to escape the restricted shell and gain root privileges on the underlying operating system of the affected device.\nNote: Cisco Expressway Series refers to Cisco Expressway Control (Expressway-C) devices and Cisco Expressway Edge (Expressway-E) devices.",
+        "cveName": "CVE-2024-20492",
+        "cveUrl": "/vuln/detail/CVE-2024-20492"
+      }
+    },
+    "CVE-2024-20515": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:17 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to obtain sensitive information from an affected device.\n\nThis vulnerability is due to a lack of proper data protection mechanisms for certain configuration settings. An attacker with Read-Only Administrator privileges could exploit this vulnerability by browsing to a page that contains sensitive data. A successful exploit could allow the attacker to view device credentials that are normally not visible to Read-Only Administrators.",
+        "cveName": "CVE-2024-20515",
+        "cveUrl": "/vuln/detail/CVE-2024-20515"
+      }
+    },
+    "CVE-2024-20516": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:18 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV042, RV042G, RV320, and RV325 Routers could allow an authenticated, Administrator-level, remote attacker to cause an unexpected reload of an affected device, resulting in a denial of service (DoS) condition. To exploit this vulnerability, an attacker would need to have valid Administrator credentials on the affected device.\n&nbsp;\nThis vulnerability is due to improper validation of user input that is in incoming HTTP packets. An attacker could exploit this vulnerability by sending a crafted HTTP request to the web-based management interface of the affected device. A successful exploit could allow the attacker to cause an unexpected reload of the device, resulting in a DoS condition.",
+        "cveName": "CVE-2024-20516",
+        "cveUrl": "/vuln/detail/CVE-2024-20516"
+      }
+    },
+    "CVE-2024-20517": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:18 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV042, RV042G, RV320, and RV325 Routers could allow an authenticated, Administrator-level, remote attacker to cause an unexpected reload of an affected device, resulting in a denial of service (DoS) condition. To exploit this vulnerability, an attacker would need to have valid Administrator credentials on the affected device.\n&nbsp;\nThis vulnerability is due to improper validation of user input that is in incoming HTTP packets. An attacker could exploit this vulnerability by sending a crafted HTTP request to the web-based management interface of the affected device. A successful exploit could allow the attacker to cause an unexpected reload of the device, resulting in a DoS condition.",
+        "cveName": "CVE-2024-20517",
+        "cveUrl": "/vuln/detail/CVE-2024-20517"
+      }
+    },
+    "CVE-2024-20518": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:18 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV042, RV042G, RV320, and RV325 Routers could allow an authenticated, Administrator-level, remote attacker to execute arbitrary code as the root user. To exploit this vulnerability, an attacker would need to have valid Administrator credentials on the affected device.\n&nbsp;\nThis vulnerability is due to improper validation of user-supplied input in the web-based management interface. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute arbitrary code on the underlying operating system as the root user.",
+        "cveName": "CVE-2024-20518",
+        "cveUrl": "/vuln/detail/CVE-2024-20518"
+      }
+    },
+    "CVE-2024-20519": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:18 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV042, RV042G, RV320, and RV325 Routers could allow an authenticated, Administrator-level, remote attacker to execute arbitrary code as the root user. To exploit this vulnerability, an attacker would need to have valid Administrator credentials on the affected device.\n&nbsp;\nThis vulnerability is due to improper validation of user-supplied input in the web-based management interface. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute arbitrary code on the underlying operating system as the root user.",
+        "cveName": "CVE-2024-20519",
+        "cveUrl": "/vuln/detail/CVE-2024-20519"
+      }
+    },
+    "CVE-2024-20520": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:19 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV042, RV042G, RV320, and RV325 Routers could allow an authenticated, Administrator-level, remote attacker to execute arbitrary code as the root user. To exploit this vulnerability, an attacker would need to have valid Administrator credentials on the affected device.\n&nbsp;\nThis vulnerability is due to improper validation of user-supplied input in the web-based management interface. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute arbitrary code on the underlying operating system as the root user.",
+        "cveName": "CVE-2024-20520",
+        "cveUrl": "/vuln/detail/CVE-2024-20520"
+      }
+    },
+    "CVE-2024-20521": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:19 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV042, RV042G, RV320, and RV325 Routers could allow an authenticated, Administrator-level, remote attacker to execute arbitrary code as the root user. To exploit this vulnerability, an attacker would need to have valid Administrator credentials on the affected device.\n&nbsp;\nThis vulnerability is due to improper validation of user-supplied input in the web-based management interface. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute arbitrary code on the underlying operating system as the root user.",
+        "cveName": "CVE-2024-20521",
+        "cveUrl": "/vuln/detail/CVE-2024-20521"
+      }
+    },
+    "CVE-2024-20522": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:19 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV042, RV042G, RV320, and RV325 Routers could allow an authenticated, Administrator-level, remote attacker to cause an unexpected reload of an affected device, resulting in a denial of service (DoS) condition. To exploit this vulnerability, an attacker would need to have valid Administrator credentials on the affected device.\n&nbsp;\nThis vulnerability is due to improper validation of user input that is in incoming HTTP packets. An attacker could exploit this vulnerability by sending a crafted HTTP request to the web-based management interface of the affected device. A successful exploit could allow the attacker to cause an unexpected reload of the device, resulting in a DoS condition.",
+        "cveName": "CVE-2024-20522",
+        "cveUrl": "/vuln/detail/CVE-2024-20522"
+      }
+    },
+    "CVE-2024-20523": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:19 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV042, RV042G, RV320, and RV325 Routers could allow an authenticated, Administrator-level, remote attacker to cause an unexpected reload of an affected device, resulting in a denial of service (DoS) condition. To exploit this vulnerability, an attacker would need to have valid Administrator credentials on the affected device.\n&nbsp;\nThis vulnerability is due to improper validation of user input that is in incoming HTTP packets. An attacker could exploit this vulnerability by sending a crafted HTTP request to the web-based management interface of the affected device. A successful exploit could allow the attacker to cause an unexpected reload of the device, resulting in a DoS condition.",
+        "cveName": "CVE-2024-20523",
+        "cveUrl": "/vuln/detail/CVE-2024-20523"
+      }
+    },
+    "CVE-2024-20524": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:19 PM -0400"
+        ],
+        "cveDis": "A vulnerability in the web-based management interface of Cisco Small Business RV042, RV042G, RV320, and RV325 Routers could allow an authenticated, Administrator-level, remote attacker to cause an unexpected reload of an affected device, resulting in a denial of service (DoS) condition. To exploit this vulnerability, an attacker would need to have valid Administrator credentials on the affected device.\n&nbsp;\nThis vulnerability is due to improper validation of user input that is in incoming HTTP packets. An attacker could exploit this vulnerability by sending a crafted HTTP request to the web-based management interface of the affected device. A successful exploit could allow the attacker to cause an unexpected reload of the device, resulting in a DoS condition.",
+        "cveName": "CVE-2024-20524",
+        "cveUrl": "/vuln/detail/CVE-2024-20524"
+      }
+    },
     "CVE-2024-21489": {
       "cve": {
         "cveDate": [
@@ -105580,6 +105855,28 @@
         "cveUrl": "/vuln/detail/CVE-2024-31835"
       }
     },
+    "CVE-2024-33209": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "12:15:10 PM -0400"
+        ],
+        "cveDis": "FlatPress v1.3 is vulnerable to Cross Site Scripting (XSS). An attacker can inject malicious JavaScript code into the \"Add New Entry\" section, which allows them to execute arbitrary code in the context of a victim's web browser.",
+        "cveName": "CVE-2024-33209",
+        "cveUrl": "/vuln/detail/CVE-2024-33209"
+      }
+    },
+    "CVE-2024-33210": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "12:15:10 PM -0400"
+        ],
+        "cveDis": "A cross-site scripting (XSS) vulnerability has been identified in Flatpress 1.3. This vulnerability allows an attacker to inject malicious scripts into web pages viewed by other users.",
+        "cveName": "CVE-2024-33210",
+        "cveUrl": "/vuln/detail/CVE-2024-33210"
+      }
+    },
     "CVE-2024-33368": {
       "cve": {
         "cveDate": [
@@ -105633,6 +105930,17 @@
         "cveDis": "An unauthenticated remote attacker may use a missing authentication for critical function vulnerability to reboot or erase the affected devices resulting in data loss and/or a DoS.",
         "cveName": "CVE-2024-352939-1 CRITICAL",
         "cveUrl": "/vuln/detail/CVE-2024-35293"
+      }
+    },
+    "CVE-2024-352946-5 MEDIUM": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "7:15:10 AM -0400"
+        ],
+        "cveDis": "An unauthenticated remote attacker may use the devices traffic capture without authentication to grab plaintext administrative credentials.",
+        "cveName": "CVE-2024-352946-5 MEDIUM",
+        "cveUrl": "/vuln/detail/CVE-2024-35294"
       }
     },
     "CVE-2024-35495": {
@@ -105734,6 +106042,17 @@
         "cveUrl": "/vuln/detail/CVE-2024-41276"
       }
     },
+    "CVE-2024-41290": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:20 PM -0400"
+        ],
+        "cveDis": "FlatPress CMS v1.3.1 1.3 was discovered to use insecure methods to store authentication data via the cookie's component.",
+        "cveName": "CVE-2024-41290",
+        "cveUrl": "/vuln/detail/CVE-2024-41290"
+      }
+    },
     "CVE-2024-41673": {
       "cve": {
         "cveDate": [
@@ -105809,6 +106128,28 @@
         "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Mestres do WP Checkout Mestres WP.This issue affects Checkout Mestres WP: from n/a through 8.6.",
         "cveName": "CVE-2024-44030",
         "cveUrl": "/vuln/detail/CVE-2024-44030"
+      }
+    },
+    "CVE-2024-44097": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "10:15:05 AM -0400"
+        ],
+        "cveDis": "According to the researcher: \"The TLS connections are encrypted against tampering or eavesdropping. However, the application does not validate the server certificate properly while initializing the TLS connection. This allows for a network attacker to intercept the connection and read the data. The attacker could the either send the client a malicious response, or forward the (possibly modified) data to the real server.\"",
+        "cveName": "CVE-2024-44097",
+        "cveUrl": "/vuln/detail/CVE-2024-44097"
+      }
+    },
+    "CVE-2024-44193": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "11:15:14 AM -0400"
+        ],
+        "cveDis": "A logic issue was addressed with improved restrictions. This issue is fixed in iTunes 12.13.3 for Windows. A local attacker may be able to elevate  their privileges.",
+        "cveName": "CVE-2024-44193",
+        "cveUrl": "/vuln/detail/CVE-2024-44193"
       }
     },
     "CVE-2024-44610": {
@@ -106273,6 +106614,17 @@
         "cveUrl": "/vuln/detail/CVE-2024-46549"
       }
     },
+    "CVE-2024-46626": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "1:15:20 PM -0400"
+        ],
+        "cveDis": "OS4ED openSIS-Classic v9.1 was discovered to contain a SQL injection vulnerability via a crafted payload.",
+        "cveName": "CVE-2024-46626",
+        "cveUrl": "/vuln/detail/CVE-2024-46626"
+      }
+    },
     "CVE-2024-46635": {
       "cve": {
         "cveDate": [
@@ -106559,6 +106911,28 @@
         "cveUrl": "/vuln/detail/CVE-2024-47609"
       }
     },
+    "CVE-2024-47611": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "11:15:14 AM -0400"
+        ],
+        "cveDis": "XZ Utils provide a general-purpose data-compression library plus command-line tools. When built for native Windows (MinGW-w64 or MSVC), the command line tools from XZ Utils 5.6.2 and older have a command line argument injection vulnerability. If a command line contains Unicode characters (for example, filenames) that don't exist in the current legacy code page, the characters are converted to similar-looking characters with best-fit mapping. Some best-fit mappings result in ASCII characters that change the meaning of the command line, which can be exploited with malicious filenames to do argument injection or directory traversal attacks. This vulnerability is fixed in 5.6.3. Command line tools built for Cygwin or MSYS2 are unaffected. liblzma is unaffected.",
+        "cveName": "CVE-2024-47611",
+        "cveUrl": "/vuln/detail/CVE-2024-47611"
+      }
+    },
+    "CVE-2024-47612": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "11:15:15 AM -0400"
+        ],
+        "cveDis": "DataDump is a MediaWiki extension that provides dumps of wikis. Several interface messages are unescaped (more specifically, (datadump-table-column-queued), (datadump-table-column-in-progress), (datadump-table-column-completed), (datadump-table-column-failed)). If these messages are edited (which requires the (editinterface) right by default), anyone who can view Special:DataDump (which requires the (view-dump) right by default) can be XSSed. This vulnerability is fixed with 601688ee8e8808a23b102fa305b178f27cbd226d.",
+        "cveName": "CVE-2024-47612",
+        "cveUrl": "/vuln/detail/CVE-2024-47612"
+      }
+    },
     "CVE-2024-47641": {
       "cve": {
         "cveDate": [
@@ -106570,6 +106944,61 @@
         "cveUrl": "/vuln/detail/CVE-2024-47641"
       }
     },
+    "CVE-2024-47803": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "12:15:10 PM -0400"
+        ],
+        "cveDis": "Jenkins 2.478 and earlier, LTS 2.462.2 and earlier does not redact multi-line secret values in error messages generated for form submissions involving the `secretTextarea` form field.",
+        "cveName": "CVE-2024-47803",
+        "cveUrl": "/vuln/detail/CVE-2024-47803"
+      }
+    },
+    "CVE-2024-47804": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "12:15:10 PM -0400"
+        ],
+        "cveDis": "If an attempt is made to create an item of a type prohibited by `ACL#hasCreatePermission2` or `TopLevelItemDescriptor#isApplicableIn(ItemGroup)` through the Jenkins CLI or the REST API and either of these checks fail, Jenkins 2.478 and earlier, LTS 2.462.2 and earlier creates the item in memory, only deleting it from disk, allowing attackers with Item/Configure permission to save the item to persist it, effectively bypassing the item creation restriction.",
+        "cveName": "CVE-2024-47804",
+        "cveUrl": "/vuln/detail/CVE-2024-47804"
+      }
+    },
+    "CVE-2024-47805": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "12:15:10 PM -0400"
+        ],
+        "cveDis": "Jenkins Credentials Plugin 1380.va_435002fa_924 and earlier, except 1371.1373.v4eb_fa_b_7161e9, does not redact encrypted values of credentials using the `SecretBytes` type when accessing item `config.xml` via REST API or CLI.",
+        "cveName": "CVE-2024-47805",
+        "cveUrl": "/vuln/detail/CVE-2024-47805"
+      }
+    },
+    "CVE-2024-47806": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "12:15:10 PM -0400"
+        ],
+        "cveDis": "Jenkins OpenId Connect Authentication Plugin 4.354.v321ce67a_1de8 and earlier does not check the `aud` (Audience) claim of an ID Token, allowing attackers to subvert the authentication flow, potentially gaining administrator access to Jenkins.",
+        "cveName": "CVE-2024-47806",
+        "cveUrl": "/vuln/detail/CVE-2024-47806"
+      }
+    },
+    "CVE-2024-47807": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "12:15:10 PM -0400"
+        ],
+        "cveDis": "Jenkins OpenId Connect Authentication Plugin 4.354.v321ce67a_1de8 and earlier does not check the `iss` (Issuer) claim of an ID Token, allowing attackers to subvert the authentication flow, potentially gaining administrator access to Jenkins.",
+        "cveName": "CVE-2024-47807",
+        "cveUrl": "/vuln/detail/CVE-2024-47807"
+      }
+    },
     "CVE-2024-6051": {
       "cve": {
         "cveDate": [
@@ -106579,6 +107008,17 @@
         "cveDis": "Cross Application Scripting vulnerability in Vercom S.A. Redlink SDK in specific situations allows local code injection and to manipulate the view of a vulnerable application.This issue affects Redlink SDK versions through 1.13.",
         "cveName": "CVE-2024-6051",
         "cveUrl": "/vuln/detail/CVE-2024-6051"
+      }
+    },
+    "CVE-2024-6360": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "12:15:11 PM -0400"
+        ],
+        "cveDis": "Incorrect Permission Assignment for Critical Resource vulnerability in OpenText™ Vertica could allow Privilege Abuse and result in unauthorized access or privileges to Vertica agent apikey.\nThis issue affects Vertica: from 10.0 through 10.X, from 11.0 through 11.X, from 12.0 through 12.X, from 23.0 through 23.X, from 24.0 through 24.X.",
+        "cveName": "CVE-2024-6360",
+        "cveUrl": "/vuln/detail/CVE-2024-6360"
       }
     },
     "CVE-2024-6394": {
@@ -106656,6 +107096,17 @@
         "cveDis": "The UltraPress theme for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.2.1 via deserialization of untrusted input. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code.",
         "cveName": "CVE-2024-74348-8 HIGH",
         "cveUrl": "/vuln/detail/CVE-2024-7434"
+      }
+    },
+    "CVE-2024-7558": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "7:15:11 AM -0400"
+        ],
+        "cveDis": "JUJU_CONTEXT_ID is a predictable authentication secret. On a Juju machine (non-Kubernetes) or Juju charm container (on Kubernetes), an unprivileged user in the same network namespace can connect to an abstract domain socket and guess the JUJU_CONTEXT_ID value. This gives the unprivileged user access to the same information and tools as the Juju charm.",
+        "cveName": "CVE-2024-7558",
+        "cveUrl": "/vuln/detail/CVE-2024-7558"
       }
     },
     "CVE-2024-7670": {
@@ -106744,6 +107195,28 @@
         "cveDis": "The 123.chat - Video Chat plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 1.3.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
         "cveName": "CVE-2024-78697-2 HIGH",
         "cveUrl": "/vuln/detail/CVE-2024-7869"
+      }
+    },
+    "CVE-2024-8037": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "7:15:11 AM -0400"
+        ],
+        "cveDis": "Vulnerable juju hook tool abstract UNIX domain socket. When combined with an attack of JUJU_CONTEXT_ID, any user on the local system with access to the default network namespace may connect to the @/var/lib/juju/agents/unit-xxxx-yyyy/agent.socket and perform actions that are normally reserved to a juju charm.",
+        "cveName": "CVE-2024-8037",
+        "cveUrl": "/vuln/detail/CVE-2024-8037"
+      }
+    },
+    "CVE-2024-8038": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "7:15:11 AM -0400"
+        ],
+        "cveDis": "Vulnerable juju introspection abstract UNIX domain socket. An abstract UNIX domain socket responsible for introspection is available without authentication locally to network namespace users. This enables denial of service attacks.",
+        "cveName": "CVE-2024-8038",
+        "cveUrl": "/vuln/detail/CVE-2024-8038"
       }
     },
     "CVE-2024-81076-4 MEDIUM": {
@@ -107217,6 +107690,17 @@
         "cveDis": "The RabbitLoader – Website Speed Optimization for improving Core Web Vital metrics with Cache, Image Optimization, and more plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 2.21.0. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
         "cveName": "CVE-2024-88006-1 MEDIUM",
         "cveUrl": "/vuln/detail/CVE-2024-8800"
+      }
+    },
+    "CVE-2024-8885": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "9:15:12 AM -0400"
+        ],
+        "cveDis": "A local privilege escalation vulnerability in Sophos Intercept X for Windows with Central Device Encryption 2024.2.0 and older allows writing of arbitrary files.",
+        "cveName": "CVE-2024-8885",
+        "cveUrl": "/vuln/detail/CVE-2024-8885"
       }
     },
     "CVE-2024-89676-4 MEDIUM": {
@@ -108142,6 +108626,28 @@
         "cveName": "CVE-2024-9411",
         "cveUrl": "/vuln/detail/CVE-2024-9411"
       }
+    },
+    "CVE-2024-9423": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "12:15:11 PM -0400"
+        ],
+        "cveDis": "Certain HP LaserJet printers may potentially experience a denial of service when a user sends a raw JPEG file to the printer. The printer displays a “JPEG Unsupported” message which may not clear, potentially blocking queued print jobs.",
+        "cveName": "CVE-2024-9423",
+        "cveUrl": "/vuln/detail/CVE-2024-9423"
+      }
+    },
+    "CVE-2024-9429": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "9:15:12 AM -0400"
+        ],
+        "cveDis": "A vulnerability has been found in code-projects Restaurant Reservation System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /filter2.php. The manipulation of the argument from/to leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"from\" to be affected. But it must be assumed that parameter \"to\" is affected as well.",
+        "cveName": "CVE-2024-9429",
+        "cveUrl": "/vuln/detail/CVE-2024-9429"
+      }
     }
   },
   "packet_storm_exploits": {
@@ -108155,6 +108661,18 @@
         "exploitQuickDis": "Linux OverlayFS Local Privilege Escalation",
         "exploitTags": " exploit, kernel, local",
         "exploitUrl": "https://packetstormsecurity.com/files/181886/Linux-OverlayFS-Local-Privilege-Escalation.html"
+      }
+    },
+    " CVE-2023-40459": {
+      "exploit": {
+        "exploit": "93e119b2d764c5aa22f0c54cf74c0369c5a4254019d26c982bb0de6d5d846df2",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181977/CVE-2023-40459-main.zip",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "ALEOS versions 4.16 and below denial of service proof of concept exploit.",
+        "exploitName": " CVE-2023-40459",
+        "exploitQuickDis": "ALEOS 4.16 Denial Of Service",
+        "exploitTags": " exploit, denial of service, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/181977/ALEOS-4.16-Denial-Of-Service.html"
       }
     },
     " CVE-2023-52709": {
@@ -108193,6 +108711,18 @@
         "exploitUrl": "https://packetstormsecurity.com/files/181954/Nitro-PDF-Pro-Local-Privilege-Escalation.html"
       }
     },
+    " CVE-2024-38200": {
+      "exploit": {
+        "exploit": "a515b741cb4fdee423e7ca948fc50654803bd1c926175eccc8866a749034e338",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181971/msontlmv2-disclose.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Microsoft Office 2019 MSO build 1808 (16.0.10411.20011) and Microsoft 365 MSO version 2403 build 16.0.17425.20176 suffer from an NTLMv2 hash disclosure vulnerability.",
+        "exploitName": " CVE-2024-38200",
+        "exploitQuickDis": "Microsoft Office NTLMv2 Disclosure",
+        "exploitTags": " exploit, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/181971/Microsoft-Office-NTLMv2-Disclosure.html"
+      }
+    },
     " CVE-2024-4007": {
       "exploit": {
         "exploit": "77c571a0aaea9e72f54148bf830ecd55a32afc329d2af950110f41d58c705470",
@@ -108227,6 +108757,30 @@
         "exploitQuickDis": "VegaBird Vooki 5.2.9 DLL Hijacking",
         "exploitTags": " exploit",
         "exploitUrl": "https://packetstormsecurity.com/files/181913/VegaBird-Vooki-5.2.9-DLL-Hijacking.html"
+      }
+    },
+    " CVE-2024-46409": {
+      "exploit": {
+        "exploit": "75d46808d529b03da78981fcc0f2145d72906b8de2ab27a0228bbdeb84460b97",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181974/seeddms6028-xss.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "SeedDMS version 6.0.28 suffers from a persistent cross site scripting vulnerability.",
+        "exploitName": " CVE-2024-46409",
+        "exploitQuickDis": "SeedDMS 6.0.28 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/181974/SeedDMS-6.0.28-Cross-Site-Scripting.html"
+      }
+    },
+    " CVE-2024-47176": {
+      "exploit": {
+        "exploit": "f82d269469017149bbd434de30b07d4526663090bd5e3ba7fda438e2b9fa9ee7",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181978/CVE-2024-47176-CUPS-main.zip",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Proof of concept remote command execution exploit for CUPS that leverages the vulnerability outlined in CVE-2024-47176.",
+        "exploitName": " CVE-2024-47176",
+        "exploitQuickDis": "CUPS Arbitrary Command Execution",
+        "exploitTags": " exploit, remote, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/181978/CUPS-Arbitrary-Command-Execution.html"
       }
     },
     " CVE-2024-4956": {
@@ -108349,6 +108903,18 @@
         "exploitUrl": "https://packetstormsecurity.com/files/181854/Aquatronica-Control-System-5.1.6-Hash-Disclosure.html"
       }
     },
+    "ems10-idor": {
+      "exploit": {
+        "exploit": "d2bb430c38acbee7a6fe6f3edb233221ef304d3aed80af6ed983ecec5bcc3d0a",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181961/ems10-idor.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Event Management System version 1.0 suffers from an insecure direct object reference vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Event Management System 1.0 Insecure Direct Object Reference",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181961/Event-Management-System-1.0-Insecure-Direct-Object-Reference.html"
+      }
+    },
     "eventms10-upload": {
       "exploit": {
         "exploit": "131043ebb9ab67fd7a914885356e55ba6ab7a264cc269b23797acfbc70234823",
@@ -108373,6 +108939,18 @@
         "exploitUrl": "https://packetstormsecurity.com/files/181918/Online-Eyewear-Shop-1.0-Arbitrary-File-Upload.html"
       }
     },
+    "oes10-xsrf": {
+      "exploit": {
+        "exploit": "333f8e9acf88b716c8f705136df2cbeab5dd285f7a012a80e2b10300aef20534",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181956/oes10-xsrf.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Online Eyewear Shop version 1.0 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Online Eyewear Shop 1.0 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181956/Online-Eyewear-Shop-1.0-Cross-Site-Request-Forgery.html"
+      }
+    },
     "otms10-insecure": {
       "exploit": {
         "exploit": "50f93a87e5554930400810877fce49a78446a35e2d6a98441450bcb07ff173bb",
@@ -108395,6 +108973,18 @@
         "exploitQuickDis": "Printing Business Records Management System 1.0 Arbitrary File Upload",
         "exploitTags": " exploit, arbitrary, file upload",
         "exploitUrl": "https://packetstormsecurity.com/files/181926/Printing-Business-Records-Management-System-1.0-Arbitrary-File-Upload.html"
+      }
+    },
+    "pbrms10-xsrf": {
+      "exploit": {
+        "exploit": "64c7b498f30407937f82c5a5d093175b8c0eb3b9248d740f693ab2cc8a761dc3",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181957/pbrms10-xsrf.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Printing Business Records Management System version 1.0 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Printing Business Records Management System 1.0 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181957/Printing-Business-Records-Management-System-1.0-Cross-Site-Request-Forgery.html"
       }
     },
     "pbsptra7005120516-xsrf": {
@@ -108431,6 +109021,18 @@
         "exploitQuickDis": "Student Attendance Management System 1.0 Code Injection",
         "exploitTags": " exploit, php",
         "exploitUrl": "https://packetstormsecurity.com/files/181931/Student-Attendance-Management-System-1.0-Code-Injection.html"
+      }
+    },
+    "sams10-insecure": {
+      "exploit": {
+        "exploit": "7e5ab7f730f50871718e3ec2d045bacaae8fc1f041e5ecbc52b83bfd78415851",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181958/sams10-insecure.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Student Attendance Management System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Student Attendance Management System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181958/Student-Attendance-Management-System-1.0-Insecure-Settings.html"
       }
     },
     "sbs10-rfi": {
@@ -108503,6 +109105,18 @@
         "exploitQuickDis": "SchoolPlus 1.0 SQL Injection",
         "exploitTags": " exploit, remote, sql injection, bypass",
         "exploitUrl": "https://packetstormsecurity.com/files/181837/SchoolPlus-1.0-SQL-Injection.html"
+      }
+    },
+    "scm10-disclose": {
+      "exploit": {
+        "exploit": "ede00ad1b8f81b125e0be45a893d89d85ad8a477424a3733200965b882b35e48",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181962/scm10-disclose.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Supply Chain Management version 1.0 suffers from a backup disclosure vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Supply Chain Management 1.0 Backup Disclosure",
+        "exploitTags": " exploit, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/181962/Supply-Chain-Management-1.0-Backup-Disclosure.html"
       }
     },
     "scw10-shell": {
@@ -108695,6 +109309,54 @@
         "exploitQuickDis": "Simple Student Quarterly Result / Grade System 1.0 Insecure Settings",
         "exploitTags": " exploit",
         "exploitUrl": "https://packetstormsecurity.com/files/181896/Simple-Student-Quarterly-Result-Grade-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "tms10-exec": {
+      "exploit": {
+        "exploit": "5cf8e15ce7499c6490e96ebc008271a147e725e19d95b6b79612ffe0933de18b",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181964/tms10-exec.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Task Management System version 1.0 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Task Management System 1.0 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181964/Task-Management-System-1.0-Code-Injection.html"
+      }
+    },
+    "tms10-xss": {
+      "exploit": {
+        "exploit": "c3e17922e2b266bb53516cda7f7564ad10b76a73051bd10448a3be4dfc1c45a4",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181968/tms10-xss.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Tourism Management System version 1.0 suffers from a cross site scripting vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Tourism Management System 1.0 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/181968/Tourism-Management-System-1.0-Cross-Site-Scripting.html"
+      }
+    },
+    "tsams10-insecure": {
+      "exploit": {
+        "exploit": "f3361bf9186b472b9be8cbd6ae5f7d9d24dd48bb2c9b3fc4085a3f7ab2c6d9ac",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181966/tsams10-insecure.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Teacher Subject Allocation Management System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Teacher Subject Allocation Management System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181966/Teacher-Subject-Allocation-Management-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "twc201atemio7600-exec": {
+      "exploit": {
+        "exploit": "ae322d271852c8f25de18f6d647d31c02a2bc3f366c6ee1f1c7d3ed36bff9c05",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181967/twc201atemio7600-exec.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "TitanNit Web Control 2.01 and Atemio 7600 suffer from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "TitanNit Web Control 2.01 / Atemio 7600 Code Injection",
+        "exploitTags": " exploit, web, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181967/TitanNit-Web-Control-2.01-Atemio-7600-Code-Injection.html"
       }
     }
   }
