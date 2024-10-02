@@ -362,6 +362,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-30132"
     }
   },
+  "CVE-2024-31835": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "3:15:07 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in flatpress CMS Flatpress v1.3 allows a remote attacker to execute arbitrary code via a crafted payload to the file name parameter.",
+      "cveName": "CVE-2024-31835",
+      "cveUrl": "/vuln/detail/CVE-2024-31835"
+    }
+  },
   "CVE-2024-33368": {
     "cve": {
       "cveDate": [
@@ -538,6 +549,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-42496"
     }
   },
+  "CVE-2024-42514": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "3:15:07 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the legacy chat component of Mitel MiContact Center Business through 10.1.0.4 could allow an unauthenticated attacker to conduct an unauthorized access attack due to inadequate access control checks. A successful exploit could allow an attacker to access sensitive information and send unauthorized messages.",
+      "cveName": "CVE-2024-42514",
+      "cveUrl": "/vuln/detail/CVE-2024-42514"
+    }
+  },
   "CVE-2024-44610": {
     "cve": {
       "cveDate": [
@@ -646,6 +668,83 @@
       "cveDis": "Giflib Project v5.2.2 is vulnerable to a heap buffer overflow via gif2rgb.",
       "cveName": "CVE-2024-45993",
       "cveUrl": "/vuln/detail/CVE-2024-45993"
+    }
+  },
+  "CVE-2024-45999": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "A SQL Injection vulnerability was discovered in Cloudlog 2.6.15, specifically within the get_station_info()function located in the file /application/models/Oqrs_model.php. The vulnerability is exploitable via the station_id parameter.",
+      "cveName": "CVE-2024-45999",
+      "cveUrl": "/vuln/detail/CVE-2024-45999"
+    }
+  },
+  "CVE-2024-46079": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "3:15:08 PM -0400"
+      ],
+      "cveDis": "Scriptcase v9.10.023 and before is vulnerable to Cross Site Scripting (XSS) in proj_new.php via the Descricao parameter.",
+      "cveName": "CVE-2024-46079",
+      "cveUrl": "/vuln/detail/CVE-2024-46079"
+    }
+  },
+  "CVE-2024-46080": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:06 PM -0400"
+      ],
+      "cveDis": "Scriptcase v9.10.023 and before is vulnerable to Remote Code Execution (RCE) via the nm_zip function.",
+      "cveName": "CVE-2024-46080",
+      "cveUrl": "/vuln/detail/CVE-2024-46080"
+    }
+  },
+  "CVE-2024-46081": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "3:15:08 PM -0400"
+      ],
+      "cveDis": "Scriptcase v9.10.023 and before is vulnerable to Cross Site Scripting (XSS). An authenticated user can craft malicious payloads in the To-Do List. The assigned user will trigger a stored XSS, which is particularly dangerous because tasks are assigned to various users on the platform.",
+      "cveName": "CVE-2024-46081",
+      "cveUrl": "/vuln/detail/CVE-2024-46081"
+    }
+  },
+  "CVE-2024-46082": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:06 PM -0400"
+      ],
+      "cveDis": "Scriptcase v.9.10.023 and before is vulnerable to Cross Site Scripting (XSS) in nm_cor.php via the form and field parameters.",
+      "cveName": "CVE-2024-46082",
+      "cveUrl": "/vuln/detail/CVE-2024-46082"
+    }
+  },
+  "CVE-2024-46083": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "3:15:09 PM -0400"
+      ],
+      "cveDis": "Scriptcase v9.10.023 and before is vulnerable to Cross Site Scripting (XSS). An authenticated user can craft malicious payloads using the messages feature, which allows the injection of malicious code into any user's account on the platform. It is important to note that regular users can trigger actions for administrator users.",
+      "cveName": "CVE-2024-46083",
+      "cveUrl": "/vuln/detail/CVE-2024-46083"
+    }
+  },
+  "CVE-2024-46084": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:06 PM -0400"
+      ],
+      "cveDis": "Scriptcase 9.10.023 and before is vulnerable to Remote Code Execution (RCE) via the nm_unzip function.",
+      "cveName": "CVE-2024-46084",
+      "cveUrl": "/vuln/detail/CVE-2024-46084"
     }
   },
   "CVE-2024-46097": {
@@ -1033,6 +1132,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-47396"
     }
   },
+  "CVE-2024-47523": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:07 PM -0400"
+      ],
+      "cveDis": "LibreNMS is an open-source, PHP/MySQL/SNMP-based network monitoring system. A Stored Cross-Site Scripting (XSS) vulnerability in the \"Alert Transports\" feature allows authenticated users to inject arbitrary JavaScript through the \"Details\" section (which contains multiple fields depending on which transport is selected at that moment). This vulnerability can lead to the execution of malicious code in the context of other users' sessions, potentially compromising their accounts and allowing unauthorized actions. This vulnerability is fixed in 24.9.0.",
+      "cveName": "CVE-2024-47523",
+      "cveUrl": "/vuln/detail/CVE-2024-47523"
+    }
+  },
+  "CVE-2024-47524": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:07 PM -0400"
+      ],
+      "cveDis": "LibreNMS is an open-source, PHP/MySQL/SNMP-based network monitoring system. User with Admin role can create a Device Groups, the application did not properly sanitize the user input in the Device Groups name, when user see the detail of the Device Group, if java script code is inside the name of the Device Groups, its will be trigger. This vulnerability is fixed in 24.9.0.",
+      "cveName": "CVE-2024-47524",
+      "cveUrl": "/vuln/detail/CVE-2024-47524"
+    }
+  },
+  "CVE-2024-47525": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:07 PM -0400"
+      ],
+      "cveDis": "LibreNMS is an open-source, PHP/MySQL/SNMP-based network monitoring system. A Stored Cross-Site Scripting (XSS) vulnerability in the \"Alert Rules\" feature allows authenticated users to inject arbitrary JavaScript through the \"Title\" field. This vulnerability can lead to the execution of malicious code in the context of other users' sessions, potentially compromising their accounts and allowing unauthorized actions. This vulnerability is fixed in 24.9.0.",
+      "cveName": "CVE-2024-47525",
+      "cveUrl": "/vuln/detail/CVE-2024-47525"
+    }
+  },
+  "CVE-2024-47526": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:07 PM -0400"
+      ],
+      "cveDis": "LibreNMS is an open-source, PHP/MySQL/SNMP-based network monitoring system. A Self Cross-Site Scripting (Self-XSS) vulnerability in the \"Alert Templates\" feature allows users to inject arbitrary JavaScript into the alert template's name. This script executes immediately upon submission but does not persist after a page refresh.",
+      "cveName": "CVE-2024-47526",
+      "cveUrl": "/vuln/detail/CVE-2024-47526"
+    }
+  },
+  "CVE-2024-47527": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:07 PM -0400"
+      ],
+      "cveDis": "LibreNMS is an open-source, PHP/MySQL/SNMP-based network monitoring system. A Stored Cross-Site Scripting (XSS) vulnerability in the \"Device Dependencies\" feature allows authenticated users to inject arbitrary JavaScript through the device name (\"hostname\" parameter). This vulnerability can lead to the execution of malicious code in the context of other users' sessions, potentially compromising their accounts and allowing unauthorized actions. This vulnerability is fixed in 24.9.0.",
+      "cveName": "CVE-2024-47527",
+      "cveUrl": "/vuln/detail/CVE-2024-47527"
+    }
+  },
+  "CVE-2024-47528": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:08 PM -0400"
+      ],
+      "cveDis": "LibreNMS is an open-source, PHP/MySQL/SNMP-based network monitoring system. Stored Cross-Site Scripting (XSS) can be achieved by uploading a new Background for a Custom Map. Users with \"admin\" role can set background for a custom map, this allow the upload of SVG file that can contain XSS payload which will trigger on load. This led to Stored Cross-Site Scripting (XSS). The vulnerability is fixed in 24.9.0.",
+      "cveName": "CVE-2024-47528",
+      "cveUrl": "/vuln/detail/CVE-2024-47528"
+    }
+  },
   "CVE-2024-47530": {
     "cve": {
       "cveDate": [
@@ -1119,6 +1284,17 @@
       "cveDis": "Logicytics is designed to harvest and collect data for forensic analysis. Logicytics has a basic vuln affecting compromised devices from shell injections. This vulnerability is fixed in 2.3.2.",
       "cveName": "CVE-2024-47608",
       "cveUrl": "/vuln/detail/CVE-2024-47608"
+    }
+  },
+  "CVE-2024-47609": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:08 PM -0400"
+      ],
+      "cveDis": "Tonic is a native gRPC client & server implementation with async/await support. When using tonic::transport::Server there is a remote DoS attack that can cause the server to exit cleanly on accepting a TCP/TLS stream. This can be triggered by causing the accept call to error out with errors that were not covered correctly causing the accept loop to exit. Upgrading to tonic 0.12.3 and above contains the fix.",
+      "cveName": "CVE-2024-47609",
+      "cveUrl": "/vuln/detail/CVE-2024-47609"
     }
   },
   "CVE-2024-47641": {
@@ -2298,6 +2474,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-9329"
     }
   },
+  "CVE-2024-93415-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "3:15:09 PM -0400"
+      ],
+      "cveDis": "A flaw was found in Go. When FIPS mode is enabled on a system, container runtimes may incorrectly handle certain file paths due to improper validation in the containers/common Go library. This flaw allows an attacker to exploit symbolic links and trick the system into mounting sensitive host directories inside a container. This issue also allows attackers to access critical host files, bypassing the intended isolation between containers and the host system.",
+      "cveName": "CVE-2024-93415-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9341"
+    }
+  },
+  "CVE-2024-93556-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "3:15:09 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Golang FIPS OpenSSL. This flaw allows a malicious user to randomly cause an uninitialized buffer length variable with a zeroed buffer to be returned in FIPS mode. It may also be possible to force a false positive match between non-equal hashes when comparing a trusted computed hmac sum to an untrusted input sum if an attacker can send a zeroed buffer in place of a pre-computed sum.  It is also possible to force a derived key to be all zeros instead of an unpredictable value.  This may have follow-on implications for the Go TLS stack.",
+      "cveName": "CVE-2024-93556-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9355"
+    }
+  },
   "CVE-2024-9358": {
     "cve": {
       "cveDate": [
@@ -2483,6 +2681,28 @@
       "cveDis": "An incorrect limitation of a path to a restricted directory (path traversal) has been detected in Pluck CMS, affecting version 4.7.18. An unauthenticated attacker could extract sensitive information from the server via the absolute path of a file located in the same directory or subdirectory as the module, but not from recursive directories.",
       "cveName": "CVE-2024-9405",
       "cveUrl": "/vuln/detail/CVE-2024-9405"
+    }
+  },
+  "CVE-2024-94074-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "5:15:08 PM -0400"
+      ],
+      "cveDis": "A vulnerability exists in the bind-propagation option of the Dockerfile RUN --mount instruction. The system does not properly validate the input passed to this option, allowing users to pass arbitrary parameters to the mount instruction. This issue can be exploited to mount sensitive directories from the host into a container during the build process and, in some cases, modify the contents of those mounted files. Even if SELinux is used, this vulnerability can bypass its protection by allowing the source directory to be relabeled to give the container access to host files.",
+      "cveName": "CVE-2024-94074-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9407"
+    }
+  },
+  "CVE-2024-9411": {
+    "cve": {
+      "cveDate": [
+        "October 01, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as problematic has been found in OFCMS 1.1.2. This affects the function add of the file /admin/system/dict/add.json?sqlid=system.dict.save. The manipulation of the argument dict_value leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9411",
+      "cveUrl": "/vuln/detail/CVE-2024-9411"
     }
   }
 }
