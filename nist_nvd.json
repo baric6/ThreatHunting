@@ -1022,6 +1022,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-42496"
     }
   },
+  "CVE-2024-42504": {
+    "cve": {
+      "cveDate": [
+        "October 03, 2024",
+        "3:15:30 AM -0400"
+      ],
+      "cveDis": "A security vulnerability in HPE IceWall Agent products could be exploited remotely to cause a Cross-Site Request Forgery (CSRF) in the login flow.",
+      "cveName": "CVE-2024-42504",
+      "cveUrl": "/vuln/detail/CVE-2024-42504"
+    }
+  },
   "CVE-2024-42514": {
     "cve": {
       "cveDate": [
@@ -2287,6 +2298,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8107"
     }
   },
+  "CVE-2024-81596-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 03, 2024",
+        "2:15:10 AM -0400"
+      ],
+      "cveDis": "Deep Freeze 9.00.020.5760 is vulnerable to an out-of-bounds read vulnerability by triggering the 0x70014 IOCTL code of the FarDisk.sys driver.",
+      "cveName": "CVE-2024-81596-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8159"
+    }
+  },
   "CVE-2024-81894-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -2373,6 +2395,17 @@
       "cveDis": "The XO Slider plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘get_slider’ function in all versions up to, and including, 3.8.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-83246-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8324"
+    }
+  },
+  "CVE-2024-83527-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 03, 2024",
+        "12:15:04 AM -0400"
+      ],
+      "cveDis": "The Social Web Suite – Social Media Auto Post, Social Media Auto Publish plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 4.1.11 via the download_log function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information.",
+      "cveName": "CVE-2024-83527-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8352"
     }
   },
   "CVE-2024-835310-0 CRITICAL": {
