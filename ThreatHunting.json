@@ -126525,6 +126525,39 @@
         "cveUrl": "/vuln/detail/CVE-2024-0116"
       }
     },
+    "CVE-2024-0123": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "1:15:14 PM -0400"
+        ],
+        "cveDis": "NVIDIA CUDA toolkit for Windows and Linux contains a vulnerability in the nvdisasm command line tool where an attacker may cause an improper validation in input issue by tricking the user into running nvdisasm on a malicious ELF file. A successful exploit of this vulnerability may lead to denial of service.",
+        "cveName": "CVE-2024-0123",
+        "cveUrl": "/vuln/detail/CVE-2024-0123"
+      }
+    },
+    "CVE-2024-0124": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "1:15:14 PM -0400"
+        ],
+        "cveDis": "NVIDIA CUDA Toolkit for Windows and Linux contains a vulnerability in the nvdisam command line tool, where a user can cause nvdisasm to read freed memory by running it on a malformed ELF file. A successful exploit of this vulnerability might lead to a limited denial of service.",
+        "cveName": "CVE-2024-0124",
+        "cveUrl": "/vuln/detail/CVE-2024-0124"
+      }
+    },
+    "CVE-2024-0125": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "1:15:14 PM -0400"
+        ],
+        "cveDis": "NVIDIA CUDA Toolkit for Windows and Linux contains a vulnerability in the nvdisam command line tool, where a user can cause a NULL pointer dereference by running nvdisasm on a malformed ELF file. A successful exploit of this vulnerability might lead to a limited denial of service.",
+        "cveName": "CVE-2024-0125",
+        "cveUrl": "/vuln/detail/CVE-2024-0125"
+      }
+    },
     "CVE-2024-20365": {
       "cve": {
         "cveDate": [
@@ -127086,6 +127119,17 @@
         "cveUrl": "/vuln/detail/CVE-2024-25412"
       }
     },
+    "CVE-2024-25590": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "12:15:04 PM -0400"
+        ],
+        "cveDis": "An attacker can publish a zone containing specific Resource Record Sets.\n\n Repeatedly processing and caching results for these sets can lead to a \n\ndenial of service.",
+        "cveName": "CVE-2024-25590",
+        "cveUrl": "/vuln/detail/CVE-2024-25590"
+      }
+    },
     "CVE-2024-25632": {
       "cve": {
         "cveDate": [
@@ -127372,6 +127416,17 @@
         "cveUrl": "/vuln/detail/CVE-2024-3635"
       }
     },
+    "CVE-2024-364748-4 HIGH": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "12:15:05 PM -0400"
+        ],
+        "cveDis": "An integer overflow vulnerability exists in the Compound Document Binary File format parser of the GNOME Project G Structured File Library (libgsf) version v1.14.52. A specially crafted file can result in an integer overflow when processing the directory from the file that allows for an out-of-bounds index to be used when reading and writing to an array. This can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.",
+        "cveName": "CVE-2024-364748-4 HIGH",
+        "cveUrl": "/vuln/detail/CVE-2024-36474"
+      }
+    },
     "CVE-2024-37187": {
       "cve": {
         "cveDate": [
@@ -127438,6 +127493,28 @@
         "cveUrl": "/vuln/detail/CVE-2024-39364"
       }
     },
+    "CVE-2024-397557-8 HIGH": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "12:15:05 PM -0400"
+        ],
+        "cveDis": "A privilege escalation vulnerability exists in the Veertu Anka Build 1.42.0. The vulnerability occurs during Anka node agent update. A low privilege user can trigger the update action which can result in unexpected elevation of privilege.",
+        "cveName": "CVE-2024-397557-8 HIGH",
+        "cveUrl": "/vuln/detail/CVE-2024-39755"
+      }
+    },
+    "CVE-2024-411637-5 HIGH": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "12:15:05 PM -0400"
+        ],
+        "cveDis": "A directory traversal vulnerability exists in the archive download functionality of Veertu Anka Build 1.42.0. A specially crafted HTTP request can lead to a disclosure of arbitrary files. An attacker can make an unauthenticated HTTP request to exploit this vulnerability.",
+        "cveName": "CVE-2024-411637-5 HIGH",
+        "cveUrl": "/vuln/detail/CVE-2024-41163"
+      }
+    },
     "CVE-2024-41276": {
       "cve": {
         "cveDate": [
@@ -127471,6 +127548,17 @@
         "cveUrl": "/vuln/detail/CVE-2024-41673"
       }
     },
+    "CVE-2024-419227-5 HIGH": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "12:15:05 PM -0400"
+        ],
+        "cveDis": "A directory traversal vulnerability exists in the log files download functionality of Veertu Anka Build 1.42.0. A specially crafted HTTP request can result in a disclosure of arbitrary files. An attacker can make an unauthenticated HTTP request to trigger this vulnerability.",
+        "cveName": "CVE-2024-419227-5 HIGH",
+        "cveUrl": "/vuln/detail/CVE-2024-41922"
+      }
+    },
     "CVE-2024-41999": {
       "cve": {
         "cveDate": [
@@ -127491,6 +127579,17 @@
         "cveDis": "An issue was discovered in Atos Eviden iCare 2.7.1 through 2.7.11. The application exposes a web interface locally. In the worst-case scenario, if the application is remotely accessible, it allows an attacker to execute arbitrary commands with system privilege on the endpoint hosting the application, without any authentication.",
         "cveName": "CVE-2024-42017",
         "cveUrl": "/vuln/detail/CVE-2024-42017"
+      }
+    },
+    "CVE-2024-424158-4 HIGH": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "12:15:05 PM -0400"
+        ],
+        "cveDis": "An integer overflow vulnerability exists in the Compound Document Binary File format parser of v1.14.52 of the GNOME Project G Structured File Library (libgsf). A specially crafted file can result in an integer overflow that allows for a heap-based buffer overflow when processing the sector allocation table. This can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.",
+        "cveName": "CVE-2024-424158-4 HIGH",
+        "cveUrl": "/vuln/detail/CVE-2024-42415"
       }
     },
     "CVE-2024-42496": {
@@ -127658,6 +127757,17 @@
         "cveUrl": "/vuln/detail/CVE-2024-45519"
       }
     },
+    "CVE-2024-455199-8 CRITICAL": {
+      "cve": {
+        "cveDate": [
+          "October 02, 2024",
+          "6:15:02 PM -0400"
+        ],
+        "cveDis": "The postjournal service in Zimbra Collaboration (ZCS) before 8.8.15 Patch 46, 9 before 9.0.0 Patch 41, 10 before 10.0.9, and 10.1 before 10.1.1 sometimes allows unauthenticated users to execute commands.",
+        "cveName": "CVE-2024-455199-8 CRITICAL",
+        "cveUrl": "/vuln/detail/CVE-2024-45519"
+      }
+    },
     "CVE-2024-45772": {
       "cve": {
         "cveDate": [
@@ -127678,6 +127788,39 @@
         "cveDis": "Mantis Bug Tracker (MantisBT) is an open source issue tracker. Using a crafted POST request, an unprivileged, registered user is able to retrieve information about other users' personal system profiles. This vulnerability is fixed in 2.26.4.",
         "cveName": "CVE-2024-45792",
         "cveUrl": "/vuln/detail/CVE-2024-45792"
+      }
+    },
+    "CVE-2024-45870": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "12:15:06 PM -0400"
+        ],
+        "cveDis": "Bandisoft BandiView 7.05 is vulnerable to Incorrect Access Control in sub_0x3d80fc via a crafted POC file.",
+        "cveName": "CVE-2024-45870",
+        "cveUrl": "/vuln/detail/CVE-2024-45870"
+      }
+    },
+    "CVE-2024-45871": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "1:15:14 PM -0400"
+        ],
+        "cveDis": "Bandisoft BandiView 7.05 is Incorrect Access Control via sub_0x232bd8 resulting in denial of service (DOS).",
+        "cveName": "CVE-2024-45871",
+        "cveUrl": "/vuln/detail/CVE-2024-45871"
+      }
+    },
+    "CVE-2024-45872": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "1:15:14 PM -0400"
+        ],
+        "cveDis": "Bandisoft BandiView 7.05 is vulnerable to Buffer Overflow via sub_0x410d1d. The vulnerability occurs due to insufficient validation of PSD files.",
+        "cveName": "CVE-2024-45872",
+        "cveUrl": "/vuln/detail/CVE-2024-45872"
       }
     },
     "CVE-2024-45920": {
@@ -128406,6 +128549,17 @@
         "cveUrl": "/vuln/detail/CVE-2024-47536"
       }
     },
+    "CVE-2024-47554": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "8:15:02 AM -0400"
+        ],
+        "cveDis": "Uncontrolled Resource Consumption vulnerability in Apache Commons IO.\n\nThe org.apache.commons.io.input.XmlStreamReader class may excessively consume CPU resources when processing maliciously crafted input.\n\n\nThis issue affects Apache Commons IO: from 2.0 before 2.14.0.\n\nUsers are recommended to upgrade to version 2.14.0 or later, which fixes the issue.",
+        "cveName": "CVE-2024-47554",
+        "cveUrl": "/vuln/detail/CVE-2024-47554"
+      }
+    },
     "CVE-2024-47560": {
       "cve": {
         "cveDate": [
@@ -128415,6 +128569,17 @@
         "cveDis": "RevoWorks Cloud Client 3.0.91 and earlier contains an incorrect authorization vulnerability. If this vulnerability is exploited, unintended processes may be executed in the sandbox environment. Even if malware is executed in the sandbox environment, it does not compromise the client's local environment. However, information in the sandbox environment may be disclosed to outside or behaviors of the sandbox environment may be violated by tampering registry.",
         "cveName": "CVE-2024-47560",
         "cveUrl": "/vuln/detail/CVE-2024-47560"
+      }
+    },
+    "CVE-2024-47561": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "7:15:13 AM -0400"
+        ],
+        "cveDis": "Schema parsing in the Java SDK of Apache Avro 1.11.3 and previous versions allows bad actors to execute arbitrary code.\nUsers are recommended to upgrade to version 1.11.4  or 1.12.0, which fix this issue.",
+        "cveName": "CVE-2024-47561",
+        "cveUrl": "/vuln/detail/CVE-2024-47561"
       }
     },
     "CVE-2024-47604": {
@@ -128472,6 +128637,17 @@
         "cveUrl": "/vuln/detail/CVE-2024-47612"
       }
     },
+    "CVE-2024-47614": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "11:15:14 AM -0400"
+        ],
+        "cveDis": "async-graphql is a GraphQL server library implemented in Rust. async-graphql before 7.0.10 does not limit the number of directives for a field. This can lead to Service Disruption, Resource Exhaustion, and User Experience Degradation. This vulnerability is fixed in 7.0.10.",
+        "cveName": "CVE-2024-47614",
+        "cveUrl": "/vuln/detail/CVE-2024-47614"
+      }
+    },
     "CVE-2024-47616": {
       "cve": {
         "cveDate": [
@@ -128481,6 +128657,28 @@
         "cveDis": "Pomerium is an identity and context-aware access proxy. The Pomerium databroker service is responsible for managing all persistent Pomerium application state. Requests to the databroker service API are authorized by the presence of a JSON Web Token (JWT) signed by a key known by all Pomerium services in the same deployment. However, incomplete validation of this JWT meant that some service account access tokens would incorrectly be treated as valid for the purpose of databroker API authorization. Improper access to the databroker API could allow exfiltration of user info, spoofing of user sessions, or tampering with Pomerium routes, policies, and other settings. A Pomerium deployment is susceptible to this issue if all of the following conditions are met, you have issued a service account access token using Pomerium Zero or Pomerium Enterprise, the access token has an explicit expiration date in the future, and the core Pomerium databroker gRPC API is not otherwise secured by network access controls. This vulnerability is fixed in 0.27.1.",
         "cveName": "CVE-2024-47616",
         "cveUrl": "/vuln/detail/CVE-2024-47616"
+      }
+    },
+    "CVE-2024-47617": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "11:15:14 AM -0400"
+        ],
+        "cveDis": "Sulu is a PHP content management system. This vulnerability allows an attacker to inject arbitrary HTML/JavaScript code through the media download URL in Sulu CMS. It affects the SuluMediaBundle component. The vulnerability is a Reflected Cross-Site Scripting (XSS) issue, which could potentially allow attackers to steal sensitive information, manipulate the website's content, or perform actions on behalf of the victim. This vulnerability is fixed in 2.6.5 and 2.5.21.",
+        "cveName": "CVE-2024-47617",
+        "cveUrl": "/vuln/detail/CVE-2024-47617"
+      }
+    },
+    "CVE-2024-47618": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "11:15:15 AM -0400"
+        ],
+        "cveDis": "Sulu is a PHP content management system. Sulu is vulnerable against XSS whereas a low privileged user with access to the “Media” section can upload an SVG file with a malicious payload. Once uploaded and accessed, the malicious javascript will be executed on the victims’ (other users including admins) browsers. This issue is fixed in 2.6.5.",
+        "cveName": "CVE-2024-47618",
+        "cveUrl": "/vuln/detail/CVE-2024-47618"
       }
     },
     "CVE-2024-47641": {
@@ -128547,6 +128745,17 @@
         "cveDis": "Jenkins OpenId Connect Authentication Plugin 4.354.v321ce67a_1de8 and earlier does not check the `iss` (Issuer) claim of an ID Token, allowing attackers to subvert the authentication flow, potentially gaining administrator access to Jenkins.",
         "cveName": "CVE-2024-47807",
         "cveUrl": "/vuln/detail/CVE-2024-47807"
+      }
+    },
+    "CVE-2024-5803": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "11:15:15 AM -0400"
+        ],
+        "cveDis": "The AVGUI.exe of AVG/Avast Antivirus before versions before 24.1 can allow a local attacker to escalate privileges via an COM hijack in a time-of-check to time-of-use (TOCTOU) when self protection is disabled.",
+        "cveName": "CVE-2024-5803",
+        "cveUrl": "/vuln/detail/CVE-2024-5803"
       }
     },
     "CVE-2024-6051": {
@@ -128723,6 +128932,39 @@
         "cveDis": "A maliciously crafted DWF file, when parsed in w3dtk.dll through Autodesk Navisworks, can force a Use-After-Free. A malicious actor can leverage this vulnerability to cause a crash or execute arbitrary code in the context of the current process.",
         "cveName": "CVE-2024-7675",
         "cveUrl": "/vuln/detail/CVE-2024-7675"
+      }
+    },
+    "CVE-2024-7824": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "1:15:14 PM -0400"
+        ],
+        "cveDis": "Access of Resource Using Incompatible Type ('Type Confusion') vulnerability in Webroot SecureAnywhere - Web Shield on Windows, ARM, 64 bit, 32 bit (wrUrl.Dll modules) allows Functionality Misuse.This issue affects SecureAnywhere - Web Shield: before 2.1.2.3.",
+        "cveName": "CVE-2024-7824",
+        "cveUrl": "/vuln/detail/CVE-2024-7824"
+      }
+    },
+    "CVE-2024-7825": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "1:15:15 PM -0400"
+        ],
+        "cveDis": "Access of Resource Using Incompatible Type ('Type Confusion') vulnerability in Webroot SecureAnywhere - Web Shield on Windows, ARM, 64 bit, 32 bit (wrUrl.Dll modules) allows Functionality Misuse.This issue affects SecureAnywhere - Web Shield: before 2.1.2.3.",
+        "cveName": "CVE-2024-7825",
+        "cveUrl": "/vuln/detail/CVE-2024-7825"
+      }
+    },
+    "CVE-2024-7826": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "1:15:15 PM -0400"
+        ],
+        "cveDis": "Improper Check for Unusual or Exceptional Conditions vulnerability in Webroot SecureAnywhere - Web Shield on Windows, ARM, 64 bit, 32 bit (wrURL.Dll modules) allows Functionality Misuse.This issue affects SecureAnywhere - Web Shield: before 2.1.2.3.",
+        "cveName": "CVE-2024-7826",
+        "cveUrl": "/vuln/detail/CVE-2024-7826"
       }
     },
     "CVE-2024-78558-8 HIGH": {
@@ -129077,6 +129319,17 @@
         "cveUrl": "/vuln/detail/CVE-2024-8505"
       }
     },
+    "CVE-2024-8508": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "1:15:15 PM -0400"
+        ],
+        "cveDis": "NLnet Labs Unbound up to and including version 1.21.0 contains a vulnerability when handling replies with very large RRsets that it needs to perform name compression for. Malicious upstreams responses with very large RRsets can cause Unbound to spend a considerable time applying name compression to downstream replies. This can lead to degraded performance and eventually denial of service in well orchestrated attacks. The vulnerability can be exploited by a malicious actor querying Unbound for the specially crafted contents of a malicious zone with very large RRsets. Before Unbound replies to the query it will try to apply name compression which was an unbounded operation that could lock the CPU until the whole packet was complete. Unbound version 1.21.1 introduces a hard limit on the number of name compression calculations it is willing to do per packet. Packets that need more compression will result in semi-compressed packets or truncated packets, even on TCP for huge messages, to avoid locking the CPU for long. This change should not affect normal DNS traffic.",
+        "cveName": "CVE-2024-8508",
+        "cveUrl": "/vuln/detail/CVE-2024-8508"
+      }
+    },
     "CVE-2024-8536": {
       "cve": {
         "cveDate": [
@@ -129361,6 +129614,17 @@
         "cveDis": "The AVIF & SVG Uploader plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in version 1.1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
         "cveName": "CVE-2024-90606-4 MEDIUM",
         "cveUrl": "/vuln/detail/CVE-2024-9060"
+      }
+    },
+    "CVE-2024-9100": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "11:15:15 AM -0400"
+        ],
+        "cveDis": "Zohocorp ManageEngine Analytics Plus versions before 5410 and Zoho Analytics On-Premise versions before 5410 are vulnerable to Path traversal.",
+        "cveName": "CVE-2024-9100",
+        "cveUrl": "/vuln/detail/CVE-2024-9100"
       }
     },
     "CVE-2024-91069-8 CRITICAL": {
@@ -129779,6 +130043,17 @@
         "cveDis": "The LocateAndFilter plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.6.14 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
         "cveName": "CVE-2024-93046-4 MEDIUM",
         "cveUrl": "/vuln/detail/CVE-2024-9304"
+      }
+    },
+    "CVE-2024-9313": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "7:15:13 AM -0400"
+        ],
+        "cveDis": "Authd PAM module before version 0.3.5 can allow broker-managed users to impersonate any other user managed by the same broker and perform any PAM operation with it, including authenticating as them.",
+        "cveName": "CVE-2024-9313",
+        "cveUrl": "/vuln/detail/CVE-2024-9313"
       }
     },
     "CVE-2024-9315": {
@@ -130253,6 +130528,17 @@
         "cveName": "CVE-2024-9441",
         "cveUrl": "/vuln/detail/CVE-2024-9441"
       }
+    },
+    "CVE-2024-9460": {
+      "cve": {
+        "cveDate": [
+          "October 03, 2024",
+          "11:15:15 AM -0400"
+        ],
+        "cveDis": "A vulnerability was found in Codezips Online Shopping Portal 1.0. It has been classified as critical. Affected is an unknown function of the file index.php. The manipulation of the argument username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+        "cveName": "CVE-2024-9460",
+        "cveUrl": "/vuln/detail/CVE-2024-9460"
+      }
     }
   },
   "packet_storm_exploits": {
@@ -130278,6 +130564,18 @@
         "exploitQuickDis": "ALEOS 4.16 Denial Of Service",
         "exploitTags": " exploit, denial of service, proof of concept",
         "exploitUrl": "https://packetstormsecurity.com/files/181977/ALEOS-4.16-Denial-Of-Service.html"
+      }
+    },
+    " CVE-2023-45249": {
+      "exploit": {
+        "exploit": "07990b1f6994d1629f554b31888e1fa6a36fccc954738c75a95e2ac86e270498",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181993/acronis_cyber_infra_cve_2023_45249.rb.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "Acronis Cyber Infrastructure (ACI) is an IT infrastructure solution that provides storage, compute, and network resources. Businesses and Service Providers are using it for data storage, backup storage, creating and managing virtual machines and software-defined networks, running cloud-native applications in production environments. This Metasploit module exploits a default password vulnerability in ACI which allow an attacker to access the ACI PostgreSQL database and gain administrative access to the ACI Web Portal. This opens the door for the attacker to upload SSH keys that enables root access to the appliance/server. This attack can be remotely executed over the WAN as long as the PostgreSQL and SSH services are exposed to the outside world. ACI versions 5.0 before build 5.0.1-61, 5.1 before build 5.1.1-71, 5.2 before build 5.2.1-69, 5.3 before build 5.3.1-53, and 5.4 before build 5.4.4-132 are vulnerable.",
+        "exploitName": " CVE-2023-45249",
+        "exploitQuickDis": "Acronis Cyber Infrastructure Default Password Remote Code Execution",
+        "exploitTags": " exploit, web, root",
+        "exploitUrl": "https://packetstormsecurity.com/files/181993/Acronis-Cyber-Infrastructure-Default-Password-Remote-Code-Execution.html"
       }
     },
     " CVE-2023-52709": {
@@ -130508,6 +130806,30 @@
         "exploitUrl": "https://packetstormsecurity.com/files/181854/Aquatronica-Control-System-5.1.6-Hash-Disclosure.html"
       }
     },
+    "avideo124-exec": {
+      "exploit": {
+        "exploit": "b36808e21f51e25a7052432f8419f20edcaf24b7c01d2a036f8e75bb34bc7468",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181979/avideo124-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "AVideo version 12.4 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "AVideo 12.4 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181979/AVideo-12.4-Code-Injection.html"
+      }
+    },
+    "dizquetv153-exec": {
+      "exploit": {
+        "exploit": "b18cb14167c97952ef1684789d6a48b83e5c1338a0677edc0b3eaef195497b45",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181992/dizquetv153-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "dizqueTV version 1.5.3 suffers from a remote code execution vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "dizqueTV 1.5.3 Remote Code Execution",
+        "exploitTags": " exploit, remote, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/181992/dizqueTV-1.5.3-Remote-Code-Execution.html"
+      }
+    },
     "ems10-idor": {
       "exploit": {
         "exploit": "d2bb430c38acbee7a6fe6f3edb233221ef304d3aed80af6ed983ecec5bcc3d0a",
@@ -130556,6 +130878,30 @@
         "exploitUrl": "https://packetstormsecurity.com/files/181956/Online-Eyewear-Shop-1.0-Cross-Site-Request-Forgery.html"
       }
     },
+    "onlineeyewearshop10-insecure": {
+      "exploit": {
+        "exploit": "2bf05df779783894d1f5d14a01f0b453810086efd504cdb90dfe4889fe4bce31",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181980/onlineeyewearshop10-insecure.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "Online Eyewear Shop version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Online Eyewear Shop 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181980/Online-Eyewear-Shop-1.0-Insecure-Settings.html"
+      }
+    },
+    "opensis91-sql": {
+      "exploit": {
+        "exploit": "ddd8a61a144743e851f50537eea6c5ff213dbd687c67b18723cb43b3cce02613",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181989/opensis91-sql.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "openSIS version 9.1 suffers from a remote SQL injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "openSIS 9.1 SQL Injection",
+        "exploitTags": " exploit, remote, sql injection",
+        "exploitUrl": "https://packetstormsecurity.com/files/181989/openSIS-9.1-SQL-Injection.html"
+      }
+    },
     "otms10-insecure": {
       "exploit": {
         "exploit": "50f93a87e5554930400810877fce49a78446a35e2d6a98441450bcb07ff173bb",
@@ -130566,6 +130912,18 @@
         "exploitQuickDis": "Online Tourism Management System 1.0 Insecure Settings",
         "exploitTags": " exploit",
         "exploitUrl": "https://packetstormsecurity.com/files/181919/Online-Tourism-Management-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "pbrms10-insecure": {
+      "exploit": {
+        "exploit": "cfd9d4151bd46ad7de2e0c129a76499f645f7ad0df0b80a0d40a359c199f4f2c",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181981/pbrms10-insecure.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "Printing Business Records Management System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Printing Business Records Management System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181981/Printing-Business-Records-Management-System-1.0-Insecure-Settings.html"
       }
     },
     "pbrms10-upload": {
@@ -130602,6 +130960,18 @@
         "exploitQuickDis": "Positron Broadcast Signal Processor TRA7005 1.20 5.1.6 CSRF",
         "exploitTags": " exploit, csrf",
         "exploitUrl": "https://packetstormsecurity.com/files/181855/Positron-Broadcast-Signal-Processor-TRA7005-1.20-5.1.6-CSRF.html"
+      }
+    },
+    "rengine220-exec": {
+      "exploit": {
+        "exploit": "f066bac5f8056ecff7640ad1eda251ee3cfc442c52056ad0305561dcae02504e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181988/rengine220-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "reNgine version 2.2.0 suffers from an authenticated command injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "reNgine 2.2.0 Command Injection",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181988/reNgine-2.2.0-Command-Injection.html"
       }
     },
     "ris10-upload": {
@@ -130928,6 +131298,18 @@
         "exploitUrl": "https://packetstormsecurity.com/files/181964/Task-Management-System-1.0-Code-Injection.html"
       }
     },
+    "tms10-idor": {
+      "exploit": {
+        "exploit": "ddb2ecfd9605e960fcf65ed5d6d99463da9d4dc7cef2f1685967819afe88b7de",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181982/tms10-idor.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "Transport Management System version 1.0 suffers from an insecure direct object reference vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Transport Management System 1.0 Insecure Direct Object Reference",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181982/Transport-Management-System-1.0-Insecure-Direct-Object-Reference.html"
+      }
+    },
     "tms10-xss": {
       "exploit": {
         "exploit": "c3e17922e2b266bb53516cda7f7564ad10b76a73051bd10448a3be4dfc1c45a4",
@@ -130962,6 +131344,66 @@
         "exploitQuickDis": "TitanNit Web Control 2.01 / Atemio 7600 Code Injection",
         "exploitTags": " exploit, web, php",
         "exploitUrl": "https://packetstormsecurity.com/files/181967/TitanNit-Web-Control-2.01-Atemio-7600-Code-Injection.html"
+      }
+    },
+    "vicidial205-xsrf": {
+      "exploit": {
+        "exploit": "8d97cf3df17b56471dae55b00de7d5fdb6df05ba2d778c815ad038c1c5af4ade",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181984/vicidial205-xsrf.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "ViciDial version 2.0.5 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ViciDial 2.0.5 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181984/ViciDial-2.0.5-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "vsms10-xsrf": {
+      "exploit": {
+        "exploit": "cbbb1165632f2703bbc4989bf742873fef70ed8ad0904b983a249605f1abbb36",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181983/vsms10-xsrf.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "Vehicle Service Management System version 1.0 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Vehicle Service Management System 1.0 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181983/Vehicle-Service-Management-System-1.0-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "wpbbt196-exec": {
+      "exploit": {
+        "exploit": "69058773e3397f84487632f50d5da835890bc34fb55c74c497a1b37f090145ec",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181987/wpbbt196-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "WordPress Bricks Builder Theme version 1.9.6 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "WordPress Bricks Builder Theme 1.9.6 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181987/WordPress-Bricks-Builder-Theme-1.9.6-Code-Injection.html"
+      }
+    },
+    "wpgivewpdfp3141-exec": {
+      "exploit": {
+        "exploit": "eb486df34141d18e18b546102e2a364a70c644072728e437923337df6d3968b6",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181985/wpgivewpdfp3141-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "WordPress GiveWP Donation Fundraising Platform version 3.14.1 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "WordPress GiveWP Donation Fundraising Platform 3.14.1 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181985/WordPress-GiveWP-Donation-Fundraising-Platform-3.14.1-Code-Injection.html"
+      }
+    },
+    "wphashform110-exec": {
+      "exploit": {
+        "exploit": "bc7980f4f411a27c7262c68f7fd454a125802275d61a94ede6b68bb2e568c7a7",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181986/wphashform110-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "WordPress Hash Form plugin version 1.1.0 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "WordPress Hash Form 1.1.0 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181986/WordPress-Hash-Form-1.1.0-Code-Injection.html"
       }
     }
   }
