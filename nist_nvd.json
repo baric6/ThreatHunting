@@ -208,6 +208,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-20492"
     }
   },
+  "CVE-2024-20498": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "Multiple vulnerabilities in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to cause a DoS condition in the AnyConnect service on an affected device.\n\nThese vulnerabilities are due to insufficient validation of client-supplied parameters while establishing an SSL VPN session. An attacker could exploit these vulnerabilities by sending a crafted HTTPS request to the VPN server of an affected device. A successful exploit could allow the attacker to cause the Cisco AnyConnect VPN server to restart, resulting in the failure of the established SSL VPN connections and forcing remote users to initiate a new VPN connection and reauthenticate. A sustained attack could prevent new SSL VPN connections from being established.\nNote: When the attack traffic stops, the Cisco AnyConnect VPN server recovers gracefully without requiring manual intervention.",
+      "cveName": "CVE-2024-20498",
+      "cveUrl": "/vuln/detail/CVE-2024-20498"
+    }
+  },
+  "CVE-2024-20499": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "Multiple vulnerabilities in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to cause a DoS condition in the AnyConnect service on an affected device.\n\nThese vulnerabilities are due to insufficient validation of client-supplied parameters while establishing an SSL VPN session. An attacker could exploit these vulnerabilities by sending a crafted HTTPS request to the VPN server of an affected device. A successful exploit could allow the attacker to cause the Cisco AnyConnect VPN server to restart, resulting in the failure of the established SSL VPN connections and forcing remote users to initiate a new VPN connection and reauthenticate. A sustained attack could prevent new SSL VPN connections from being established.\nNote: When the attack traffic stops, the Cisco AnyConnect VPN server recovers gracefully without requiring manual intervention.",
+      "cveName": "CVE-2024-20499",
+      "cveUrl": "/vuln/detail/CVE-2024-20499"
+    }
+  },
+  "CVE-2024-20500": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to cause a DoS condition in the AnyConnect service on an affected device.\n\nThis vulnerability is due to insufficient resource management when establishing TLS/SSL sessions. An attacker could exploit this vulnerability by sending a series of crafted TLS/SSL messages to the VPN server of an affected device. A successful exploit could allow the attacker to cause the Cisco AnyConnect VPN server to stop accepting new connections, preventing new SSL VPN connections from being established. Existing SSL VPN sessions are not impacted.\nNote: When the attack traffic stops, the Cisco AnyConnect VPN server recovers gracefully without requiring manual intervention.",
+      "cveName": "CVE-2024-20500",
+      "cveUrl": "/vuln/detail/CVE-2024-20500"
+    }
+  },
+  "CVE-2024-20501": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "Multiple vulnerabilities in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to cause a DoS condition in the AnyConnect service on an affected device.\n\nThese vulnerabilities are due to insufficient validation of client-supplied parameters while establishing an SSL VPN session. An attacker could exploit these vulnerabilities by sending a crafted HTTPS request to the VPN server of an affected device. A successful exploit could allow the attacker to cause the Cisco AnyConnect VPN server to restart, resulting in the failure of the established SSL VPN connections and forcing remote users to initiate a new VPN connection and reauthenticate. A sustained attack could prevent new SSL VPN connections from being established.\nNote: When the attack traffic stops, the Cisco AnyConnect VPN server recovers gracefully without requiring manual intervention.",
+      "cveName": "CVE-2024-20501",
+      "cveUrl": "/vuln/detail/CVE-2024-20501"
+    }
+  },
+  "CVE-2024-20502": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to cause a DoS condition on an affected device.\n\nThis vulnerability is due to insufficient resource management while establishing SSL VPN sessions. An attacker could exploit this vulnerability by sending a series of crafted HTTPS requests to the VPN server of an affected device. A successful exploit could allow the attacker to cause the Cisco AnyConnect VPN server to stop accepting new connections, preventing new SSL VPN connections from being established. Existing SSL VPN sessions are not impacted.\nNote: When the attack traffic stops, the Cisco AnyConnect VPN server recovers gracefully without requiring manual intervention.",
+      "cveName": "CVE-2024-20502",
+      "cveUrl": "/vuln/detail/CVE-2024-20502"
+    }
+  },
+  "CVE-2024-20509": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to hijack an AnyConnect VPN session or cause a denial of service (DoS) condition for individual users of the AnyConnect VPN service on an affected device.\n\nThis vulnerability is due to weak entropy for handlers that are used during the VPN authentication process as well as a race condition that exists in the same process. An attacker could exploit this vulnerability by correctly guessing an authentication handler and then sending crafted HTTPS requests to an affected device. A successful exploit could allow the attacker to take over the AnyConnect VPN session from a target user or prevent the target user from establishing an AnyConnect VPN session with the affected device.",
+      "cveName": "CVE-2024-20509",
+      "cveUrl": "/vuln/detail/CVE-2024-20509"
+    }
+  },
+  "CVE-2024-20513": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to cause a DoS condition for targeted users of the AnyConnect service on an affected device.\n\nThis vulnerability is due to insufficient entropy for handlers that are used during SSL VPN session establishment. An unauthenticated attacker could exploit this vulnerability by brute forcing valid session handlers. An authenticated attacker could exploit this vulnerability by connecting to the AnyConnect VPN service of an affected device to retrieve a valid session handler and, based on that handler, predict further valid session handlers. The attacker would then send a crafted HTTPS request using the brute-forced or predicted session handler to the AnyConnect VPN server of the device. A successful exploit could allow the attacker to terminate targeted SSL VPN sessions, forcing remote users to initiate new VPN connections and reauthenticate.",
+      "cveName": "CVE-2024-20513",
+      "cveUrl": "/vuln/detail/CVE-2024-20513"
+    }
+  },
   "CVE-2024-20515": {
     "cve": {
       "cveDate": [
@@ -472,6 +549,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-23967"
     }
   },
+  "CVE-2024-24116": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "An issue in Ruijie RG-NBS2009G-P RGOS v.10.4(1)P2 Release(9736) allows a remote attacker to gain privileges via the system/config_menu.htm.",
+      "cveName": "CVE-2024-24116",
+      "cveUrl": "/vuln/detail/CVE-2024-24116"
+    }
+  },
+  "CVE-2024-24117": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Ruijie RG-NBS2009G-P RGOS v.10.4(1)P2 Release (9736) allows a remote attacker to gain privileges via the login check state component.",
+      "cveName": "CVE-2024-24117",
+      "cveUrl": "/vuln/detail/CVE-2024-24117"
+    }
+  },
+  "CVE-2024-24122": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "2:15:04 PM -0400"
+      ],
+      "cveDis": "A remote code execution vulnerability in the project management of Wanxing Technology's Yitu project which allows an attacker to use the exp.adpx file as a zip compressed file to construct a special file name, which can be used to decompress the project file into the system startup folder, restart the system, and automatically execute the constructed attack script.",
+      "cveName": "CVE-2024-24122",
+      "cveUrl": "/vuln/detail/CVE-2024-24122"
+    }
+  },
   "CVE-2024-25411": {
     "cve": {
       "cveDate": [
@@ -624,6 +734,17 @@
       "cveDis": "An issue was discovered in Infinera hiT 7300 5.60.50. Undocumented privileged functions in the @CT management application allow an attacker to activate remote SSH access to the appliance via an unexpected network interface.",
       "cveName": "CVE-2024-28813",
       "cveUrl": "/vuln/detail/CVE-2024-28813"
+    }
+  },
+  "CVE-2024-28888": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "A use-after-free vulnerability exists in the way Foxit Reade 2024.1.0.23997 handles a checkbox  field object. A specially crafted Javascript code inside a malicious PDF document can trigger this vulnerability, which can lead to memory corruption and result in arbitrary code execution. An attacker needs to trick the user into opening the malicious file to trigger this vulnerability. Exploitation is also possible if a user visits a specially crafted, malicious site if the browser plugin extension is enabled.",
+      "cveName": "CVE-2024-28888",
+      "cveUrl": "/vuln/detail/CVE-2024-28888"
     }
   },
   "CVE-2024-28948": {
@@ -912,6 +1033,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-42514"
     }
   },
+  "CVE-2024-43795": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "4:15:10 PM -0400"
+      ],
+      "cveDis": "OpenC3 COSMOS provides the functionality needed to send commands to and receive data from one or more embedded systems. The login functionality contains a reflected cross-site scripting (XSS) vulnerability. This vulnerability is fixed in 5.19.0. Note: This CVE only affects Open Source Edition, and not OpenC3 COSMOS Enterprise Edition.",
+      "cveName": "CVE-2024-43795",
+      "cveUrl": "/vuln/detail/CVE-2024-43795"
+    }
+  },
   "CVE-2024-44017": {
     "cve": {
       "cveDate": [
@@ -1022,6 +1154,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45408"
     }
   },
+  "CVE-2024-45519": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "The postjournal service in Zimbra Collaboration (ZCS) before 8.8.15 Patch 46, 9 before 9.0.0 Patch 41, 10 before 10.0.9, and 10.1 before 10.1.1 sometimes allows unauthenticated users to execute commands.",
+      "cveName": "CVE-2024-45519",
+      "cveUrl": "/vuln/detail/CVE-2024-45519"
+    }
+  },
   "CVE-2024-45772": {
     "cve": {
       "cveDate": [
@@ -1053,6 +1196,50 @@
       "cveDis": "A Stored Cross-Site Scripting (XSS) vulnerability in Solvait 24.4.2 allows remote attackers to inject malicious scripts into the application. This issue arises due to insufficient input validation and sanitization in \"Intrest\" feature.",
       "cveName": "CVE-2024-45920",
       "cveUrl": "/vuln/detail/CVE-2024-45920"
+    }
+  },
+  "CVE-2024-45960": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "4:15:11 PM -0400"
+      ],
+      "cveDis": "Zenario 9.7.61188 allows authenticated admin users to upload PDF files containing malicious code into the target system. If the PDF file is accessed through the website, it can trigger a Cross Site Scripting (XSS) attack.",
+      "cveName": "CVE-2024-45960",
+      "cveUrl": "/vuln/detail/CVE-2024-45960"
+    }
+  },
+  "CVE-2024-45962": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "4:15:11 PM -0400"
+      ],
+      "cveDis": "October 3.6.30 allows an authenticated admin account to upload a PDF file containing malicious JavaScript into the target system. If the file is accessed through the website, it could lead to a Cross-Site Scripting (XSS) attack or execute arbitrary code via a crafted JavaScript to the target.",
+      "cveName": "CVE-2024-45962",
+      "cveUrl": "/vuln/detail/CVE-2024-45962"
+    }
+  },
+  "CVE-2024-45964": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "4:15:11 PM -0400"
+      ],
+      "cveDis": "Zenario 9.7.61188 is vulnerable to Cross Site Scripting (XSS) in the Image library via the \"Organizer tags\" field.",
+      "cveName": "CVE-2024-45964",
+      "cveUrl": "/vuln/detail/CVE-2024-45964"
+    }
+  },
+  "CVE-2024-45965": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "4:15:11 PM -0400"
+      ],
+      "cveDis": "Contao 5.4.1 allows an authenticated admin account to upload a SVG file containing malicious javascript code into the target system. If the file is accessed through the website, it could lead to a Cross-Site Scripting (XSS) attack or execute arbitrary code via a crafted javascript to the target.",
+      "cveName": "CVE-2024-45965",
+      "cveUrl": "/vuln/detail/CVE-2024-45965"
     }
   },
   "CVE-2024-45967": {
@@ -1451,6 +1638,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46869"
     }
   },
+  "CVE-2024-46977": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "4:15:11 PM -0400"
+      ],
+      "cveDis": "OpenC3 COSMOS provides the functionality needed to send commands to and receive data from one or more embedded systems. A path traversal vulnerability inside of LocalMode's open_local_file method allows an authenticated user with adequate permissions to download any .txt via the ScreensController#show on the web server COSMOS is running on (depending on the file permissions). This vulnerability is fixed in 5.19.0.",
+      "cveName": "CVE-2024-46977",
+      "cveUrl": "/vuln/detail/CVE-2024-46977"
+    }
+  },
   "CVE-2024-47063": {
     "cve": {
       "cveDate": [
@@ -1493,6 +1691,39 @@
       "cveDis": "OSS Endpoint Manager is an endpoint manager module for FreePBX. OSS Endpoint Manager module activation can allow authenticated web users unauthorized access to read system files with the permissions of the webserver process. This vulnerability is fixed in 14.0.4.",
       "cveName": "CVE-2024-47071",
       "cveUrl": "/vuln/detail/CVE-2024-47071"
+    }
+  },
+  "CVE-2024-47134": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "Out-of-bounds write vulnerability exists in Kostac PLC Programming Software (Former name: Koyo PLC Programming Software) Version 1.6.14.0 and earlier. Having a user open a specially crafted project file which was saved using Kostac PLC Programming Software Version 1.6.9.0 and earlier may cause a denial-of-service (DoS) condition, arbitrary code execution, and/or information disclosure because the issues exist in parsing of KPP project files.",
+      "cveName": "CVE-2024-47134",
+      "cveUrl": "/vuln/detail/CVE-2024-47134"
+    }
+  },
+  "CVE-2024-47135": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "Stack-based buffer overflow vulnerability exists in Kostac PLC Programming Software (Former name: Koyo PLC Programming Software) Version 1.6.14.0 and earlier. Having a user open a specially crafted project file which was saved using Kostac PLC Programming Software Version 1.6.9.0 and earlier may cause a denial-of-service (DoS) condition, arbitrary code execution, and/or information disclosure because the issues exist in parsing of KPP project files.",
+      "cveName": "CVE-2024-47135",
+      "cveUrl": "/vuln/detail/CVE-2024-47135"
+    }
+  },
+  "CVE-2024-47136": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "Out-of-bounds read vulnerability exists in Kostac PLC Programming Software (Former name: Koyo PLC Programming Software) Version 1.6.14.0 and earlier. Having a user open a specially crafted project file which was saved using Kostac PLC Programming Software Version 1.6.9.0 and earlier may cause a denial-of-service (DoS) condition, arbitrary code execution, and/or information disclosure because the issues exist in parsing of KPP project files.",
+      "cveName": "CVE-2024-47136",
+      "cveUrl": "/vuln/detail/CVE-2024-47136"
     }
   },
   "CVE-2024-47172": {
@@ -1616,6 +1847,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47528"
     }
   },
+  "CVE-2024-47529": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "4:15:11 PM -0400"
+      ],
+      "cveDis": "OpenC3 COSMOS provides the functionality needed to send commands to and receive data from one or more embedded systems. OpenC3 COSMOS stores the password of a user unencrypted in the LocalStorage of a web browser. This makes the user password susceptible to exfiltration via Cross-site scripting (see GHSL-2024-128). This vulnerability is fixed in 5.19.0. This only affects Open Source edition, and not OpenC3 COSMOS Enterprise Edition.",
+      "cveName": "CVE-2024-47529",
+      "cveUrl": "/vuln/detail/CVE-2024-47529"
+    }
+  },
   "CVE-2024-47530": {
     "cve": {
       "cveDate": [
@@ -1735,6 +1977,17 @@
       "cveDis": "DataDump is a MediaWiki extension that provides dumps of wikis. Several interface messages are unescaped (more specifically, (datadump-table-column-queued), (datadump-table-column-in-progress), (datadump-table-column-completed), (datadump-table-column-failed)). If these messages are edited (which requires the (editinterface) right by default), anyone who can view Special:DataDump (which requires the (view-dump) right by default) can be XSSed. This vulnerability is fixed with 601688ee8e8808a23b102fa305b178f27cbd226d.",
       "cveName": "CVE-2024-47612",
       "cveUrl": "/vuln/detail/CVE-2024-47612"
+    }
+  },
+  "CVE-2024-47616": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Pomerium is an identity and context-aware access proxy. The Pomerium databroker service is responsible for managing all persistent Pomerium application state. Requests to the databroker service API are authorized by the presence of a JSON Web Token (JWT) signed by a key known by all Pomerium services in the same deployment. However, incomplete validation of this JWT meant that some service account access tokens would incorrectly be treated as valid for the purpose of databroker API authorization. Improper access to the databroker API could allow exfiltration of user info, spoofing of user sessions, or tampering with Pomerium routes, policies, and other settings. A Pomerium deployment is susceptible to this issue if all of the following conditions are met, you have issued a service account access token using Pomerium Zero or Pomerium Enterprise, the access token has an explicit expiration date in the future, and the core Pomerium databroker gRPC API is not otherwise secured by network access controls. This vulnerability is fixed in 0.27.1.",
+      "cveName": "CVE-2024-47616",
+      "cveUrl": "/vuln/detail/CVE-2024-47616"
     }
   },
   "CVE-2024-47641": {
@@ -2439,6 +2692,17 @@
       "cveDis": "The Easy Load More plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.0.3. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-87286-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8728"
+    }
+  },
+  "CVE-2024-8733": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "4:15:11 PM -0400"
+      ],
+      "cveDis": "A potential security vulnerability\nhas been identified in the HP One Agent for certain HP PC products, which might\nallow for escalation of privilege. HP is releasing software updates to mitigate\nthis potential vulnerability.",
+      "cveName": "CVE-2024-8733",
+      "cveUrl": "/vuln/detail/CVE-2024-8733"
     }
   },
   "CVE-2024-8786": {
@@ -3451,6 +3715,28 @@
       "cveDis": "A vulnerability has been found in code-projects Restaurant Reservation System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /filter2.php. The manipulation of the argument from/to leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"from\" to be affected. But it must be assumed that parameter \"to\" is affected as well.",
       "cveName": "CVE-2024-9429",
       "cveUrl": "/vuln/detail/CVE-2024-9429"
+    }
+  },
+  "CVE-2024-9440": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "Slim Select 2.0 versions through 2.9.0 are affected by a potential cross-site scripting vulnerability. In select.ts:createOption(), the text variable from the user-provided Options object is assigned to an innerHTML without sanitation. Software that depends on this library to dynamically generate lists using unsanitized user-provided input may be vulnerable to cross-site scripting, resulting in attacker executed JavaScript. At this time, no patch is available.",
+      "cveName": "CVE-2024-9440",
+      "cveUrl": "/vuln/detail/CVE-2024-9440"
+    }
+  },
+  "CVE-2024-9441": {
+    "cve": {
+      "cveDate": [
+        "October 02, 2024",
+        "3:15:16 PM -0400"
+      ],
+      "cveDis": "The Linear eMerge e3-Series through version 1.00-07 is vulnerable to an OS command injection vulnerability. A remote and unauthenticated attacker can execute arbitrary OS commands via the login_id parameter when invoking the forgot_password functionality over HTTP.",
+      "cveName": "CVE-2024-9441",
+      "cveUrl": "/vuln/detail/CVE-2024-9441"
     }
   }
 }
