@@ -1440,6 +1440,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-44204"
     }
   },
+  "CVE-2024-442045-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 03, 2024",
+        "8:15:02 PM -0400"
+      ],
+      "cveDis": "A logic issue was addressed with improved validation. This issue is fixed in iOS 18.0.1 and iPadOS 18.0.1. A user's saved passwords may be read aloud by VoiceOver.",
+      "cveName": "CVE-2024-442045-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-44204"
+    }
+  },
   "CVE-2024-44207": {
     "cve": {
       "cveDate": [
@@ -1448,6 +1459,17 @@
       ],
       "cveDis": "This issue was addressed with improved checks. This issue is fixed in iOS 18.0.1 and iPadOS 18.0.1. Audio messages in Messages may be able to capture a few seconds of audio before the microphone indicator is activated.",
       "cveName": "CVE-2024-44207",
+      "cveUrl": "/vuln/detail/CVE-2024-44207"
+    }
+  },
+  "CVE-2024-442074-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 03, 2024",
+        "8:15:02 PM -0400"
+      ],
+      "cveDis": "This issue was addressed with improved checks. This issue is fixed in iOS 18.0.1 and iPadOS 18.0.1. Audio messages in Messages may be able to capture a few seconds of audio before the microphone indicator is activated.",
+      "cveName": "CVE-2024-442074-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-44207"
     }
   },
@@ -1935,6 +1957,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46367"
     }
   },
+  "CVE-2024-46409": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "A stored cross-site scripting (XSS) vulnerability in SeedDMS v6.0.28 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name parameter in the Calendar page.",
+      "cveName": "CVE-2024-46409",
+      "cveUrl": "/vuln/detail/CVE-2024-46409"
+    }
+  },
   "CVE-2024-46453": {
     "cve": {
       "cveDate": [
@@ -1955,6 +1988,17 @@
       "cveDis": "A reflected cross-site scripting (XSS) vulnerability on the homepage of Metronic Admin Dashboard Template v2.0 allows attackers to execute arbitrary code in the context of a user's browser via injecting a crafted payload.",
       "cveName": "CVE-2024-46475",
       "cveUrl": "/vuln/detail/CVE-2024-46475"
+    }
+  },
+  "CVE-2024-46486": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "TP-LINK TL-WDR5620 v2.3 was discovered to contain a remote code execution (RCE) vulnerability via the httpProcDataSrv function.",
+      "cveName": "CVE-2024-46486",
+      "cveUrl": "/vuln/detail/CVE-2024-46486"
     }
   },
   "CVE-2024-46503": {
@@ -2175,6 +2219,17 @@
       "cveDis": "basic-auth-connect is Connect's Basic Auth middleware in its own module. basic-auth-connect < 1.1.0 uses a timing-unsafe equality comparison that can leak timing information. This issue has been fixed in basic-auth-connect 1.1.0.",
       "cveName": "CVE-2024-47178",
       "cveUrl": "/vuln/detail/CVE-2024-47178"
+    }
+  },
+  "CVE-2024-47183": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. If the Parse Server option allowCustomObjectId: true is set, an attacker that is allowed to create a new user can set a custom object ID for that new user that exploits the vulnerability and acquires privileges of a specific role. This vulnerability is fixed in 6.5.9 and 7.3.0.",
+      "cveName": "CVE-2024-47183",
+      "cveUrl": "/vuln/detail/CVE-2024-47183"
     }
   },
   "CVE-2024-47186": {
@@ -2485,6 +2540,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-47641"
     }
   },
+  "CVE-2024-47651": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "8:15:12 AM -0400"
+      ],
+      "cveDis": "This vulnerability exists in Shilpi Client Dashboard due to improper handling of multiple parameters in the API endpoint. An authenticated remote attacker could exploit this vulnerability by including multiple “userid” parameters in the API request body leading to unauthorized access of sensitive information belonging to other users.",
+      "cveName": "CVE-2024-47651",
+      "cveUrl": "/vuln/detail/CVE-2024-47651"
+    }
+  },
+  "CVE-2024-47652": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "This vulnerability exists in Shilpi Client Dashboard due to implementation of inadequate authentication mechanism in the login module wherein access to any users account is granted with just their corresponding mobile number. A remote attacker could exploit this vulnerability by providing mobile number of targeted user, to obtain complete access to the targeted user account.",
+      "cveName": "CVE-2024-47652",
+      "cveUrl": "/vuln/detail/CVE-2024-47652"
+    }
+  },
+  "CVE-2024-47653": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "This vulnerability exists in Shilpi Client Dashboard due to lack of authorization for modification and cancellation requests through certain API endpoints. An authenticated remote attacker could exploit this vulnerability by placing or cancelling requests through API request body leading to unauthorized modification of requests belonging to the other users.",
+      "cveName": "CVE-2024-47653",
+      "cveUrl": "/vuln/detail/CVE-2024-47653"
+    }
+  },
+  "CVE-2024-47654": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "This vulnerability exists in Shilpi Client Dashboard due to lack of rate limiting and Captcha protection for OTP requests in certain API endpoint. An unauthenticated remote attacker could exploit this vulnerability by sending multiple OTP request through vulnerable API endpoints, which could lead to the OTP bombing on the targeted system.",
+      "cveName": "CVE-2024-47654",
+      "cveUrl": "/vuln/detail/CVE-2024-47654"
+    }
+  },
+  "CVE-2024-47655": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "This vulnerability exists in the Shilpi Client Dashboard due to improper validation of files being uploaded other than the specified extension. An authenticated remote attacker could exploit this vulnerability by uploading malicious file, which could lead to remote code execution on targeted application.",
+      "cveName": "CVE-2024-47655",
+      "cveUrl": "/vuln/detail/CVE-2024-47655"
+    }
+  },
+  "CVE-2024-47656": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "This vulnerability exists in Shilpi Client Dashboard due to missing restrictions for incorrect login attempts on its API based login. A remote attacker could exploit this vulnerability by conducting a brute force attack on password, which could lead to gain unauthorized access to other user accounts.",
+      "cveName": "CVE-2024-47656",
+      "cveUrl": "/vuln/detail/CVE-2024-47656"
+    }
+  },
+  "CVE-2024-47657": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "This vulnerability exists in the Shilpi Net Back Office due to improper access controls on certain API endpoints. An authenticated remote attacker could exploit this vulnerability by manipulating a parameter dfclientid through API request URLs which could lead to unauthorized access to sensitive information belonging to other users.",
+      "cveName": "CVE-2024-47657",
+      "cveUrl": "/vuln/detail/CVE-2024-47657"
+    }
+  },
   "CVE-2024-47762": {
     "cve": {
       "cveDate": [
@@ -2494,6 +2626,61 @@
       "cveDis": "Backstage is an open framework for building developer portals. Configuration supplied through APP_CONFIG_* environment variables, for example APP_CONFIG_backend_listen_port=7007, where unexpectedly ignoring the visibility defined in configuration schema. This occurred even if the configuration schema specified that they should have backend or secret visibility. This was an intended feature of the APP_CONFIG_* way of supplying configuration, but now clearly goes against the expected behavior of the configuration system. This behavior leads to a risk of potentially exposing sensitive configuration details intended to remain private or restricted to backend processes. The issue has been resolved in version 0.3.75 of the @backstage/plugin-app-backend package. As a temporary measure, avoid supplying secrets using the APP_CONFIG_ configuration pattern. Consider alternative methods for setting secrets, such as the environment substitution available for Backstage configuration.",
       "cveName": "CVE-2024-47762",
       "cveUrl": "/vuln/detail/CVE-2024-47762"
+    }
+  },
+  "CVE-2024-47765": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "Minecraft MOTD Parser is a PHP library to parse minecraft server motd. The HtmlGenerator class is subject to potential cross-site scripting (XSS) attack through a parsed malformed Minecraft server MOTD. The HtmlGenerator iterates through objects of MotdItem that are contained in an object of MotdItemCollection to generate a HTML string. An attacker can make malicious inputs to the color and text properties of MotdItem to inject own HTML into a web page during web page generation. For example by sending a malicious MOTD from a Minecraft server under their control that was queried and passed to the HtmlGenerator. This XSS vulnerability exists because the values of these properties are neither filtered nor escaped. This vulnerability is fixed in 1.0.6.",
+      "cveName": "CVE-2024-47765",
+      "cveUrl": "/vuln/detail/CVE-2024-47765"
+    }
+  },
+  "CVE-2024-47768": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "Lif Authentication Server is a server used by Lif to do various tasks regarding Lif accounts. This vulnerability has to do with the account recovery system where there does not appear to be a check to make sure the user has been sent the recovery email and entered the correct code. If the attacker knew the email of the target, they could supply the email and immediately prompt the server to update the password without ever needing the code. This issue has been patched in version 1.7.3.",
+      "cveName": "CVE-2024-47768",
+      "cveUrl": "/vuln/detail/CVE-2024-47768"
+    }
+  },
+  "CVE-2024-47769": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "IDURAR is open source ERP CRM accounting invoicing software. The vulnerability exists in the corePublicRouter.js file. Using the reference usage here, it is identified that the public endpoint is accessible to an unauthenticated user. The user's input is directly appended to the join statement without additional checks. This allows an attacker to send URL encoded malicious payload. The directory structure can be escaped to read system files by adding an encoded string (payload) at subpath location.",
+      "cveName": "CVE-2024-47769",
+      "cveUrl": "/vuln/detail/CVE-2024-47769"
+    }
+  },
+  "CVE-2024-47789": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "** UNSUPPORTED WHEN ASSIGNED ** This vulnerability exists in D3D Security IP Camera due to usage of weak authentication scheme of the HTTP header protocol where authorization tag contain a Base-64 encoded username and password. A remote attacker could exploit this vulnerability by crafting a HTTP packet leading to exposure of user credentials of the targeted device. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
+      "cveName": "CVE-2024-47789",
+      "cveUrl": "/vuln/detail/CVE-2024-47789"
+    }
+  },
+  "CVE-2024-47790": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "** UNSUPPORTED WHEN ASSIGNED ** This vulnerability exists in D3D Security IP Camera due to usage of insecure Real-Time Streaming Protocol (RTSP) version for live video streaming.  A remote attacker could exploit this vulnerability by crafting a RTSP packet leading to unauthorized access to live feed of the targeted device.    NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
+      "cveName": "CVE-2024-47790",
+      "cveUrl": "/vuln/detail/CVE-2024-47790"
     }
   },
   "CVE-2024-47803": {
@@ -2626,6 +2813,17 @@
       "cveDis": "A Local File Inclusion vulnerability exists in parisneo/lollms-webui versions below v9.8. The vulnerability is due to unverified path concatenation in the `serve_js` function in `app.py`, which allows attackers to perform path traversal attacks. This can lead to unauthorized access to arbitrary files on the server, potentially exposing sensitive information such as private SSH keys, configuration files, and source code.",
       "cveName": "CVE-2024-6394",
       "cveUrl": "/vuln/detail/CVE-2024-6394"
+    }
+  },
+  "CVE-2024-6400": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "8:15:12 AM -0400"
+      ],
+      "cveDis": "Cleartext Storage of Sensitive Information vulnerability in Finrota Netahsilat allows Retrieve Embedded Sensitive Data.This issue solved in versions 1.21.10, 1.23.01, 1.23.08, 1.23.11 and 1.24.03.",
+      "cveName": "CVE-2024-6400",
+      "cveUrl": "/vuln/detail/CVE-2024-6400"
     }
   },
   "CVE-2024-6436": {
@@ -3176,6 +3374,17 @@
       "cveDis": "Certain switch models from PLANET Technology store SNMPv3 users' passwords in plaintext within the configuration files, allowing remote attackers with administrator privileges to read the file and obtain the credentials.",
       "cveName": "CVE-2024-84597-2 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-8459"
+    }
+  },
+  "CVE-2024-84994-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "The Checkout Field Editor (Checkout Manager) for WooCommerce plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘render_review_request_notice’ function in all versions up to, and including, 2.0.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-84994-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8499"
     }
   },
   "CVE-2024-85056-4 MEDIUM": {
@@ -4542,6 +4751,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9407"
     }
   },
+  "CVE-2024-9410": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "Ada.cx's Sentry configuration allowed for blind server-side request forgeries (SSRF) through the use of a data scraping endpoint.",
+      "cveName": "CVE-2024-9410",
+      "cveUrl": "/vuln/detail/CVE-2024-9410"
+    }
+  },
   "CVE-2024-9411": {
     "cve": {
       "cveDate": [
@@ -4639,6 +4859,83 @@
       "cveDis": "A vulnerability was found in Codezips Online Shopping Portal 1.0. It has been classified as critical. Affected is an unknown function of the file index.php. The manipulation of the argument username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-9460",
       "cveUrl": "/vuln/detail/CVE-2024-9460"
+    }
+  },
+  "CVE-2024-9481": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "An out-of-bounds write in the engine module in AVG/Avast Antivirus signature <24092400 released on 24/Sep/2024 on MacOS allows a malformed eml file to crash the application during file processing.",
+      "cveName": "CVE-2024-9481",
+      "cveUrl": "/vuln/detail/CVE-2024-9481"
+    }
+  },
+  "CVE-2024-9482": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "An out-of-bounds write in the engine module in AVG/Avast Antivirus signature <24092400 released on 24/Sep/2024 on MacOS allows a malformed Mach-O file to crash the application during file processing.",
+      "cveName": "CVE-2024-9482",
+      "cveUrl": "/vuln/detail/CVE-2024-9482"
+    }
+  },
+  "CVE-2024-9483": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "A null-pointer-dereference in the signature verification module in AVG/Avast Antivirus signature <24092400 released on 24/Sep/2024 on MacOS may allow a malformed xar file to crash the application during processing.",
+      "cveName": "CVE-2024-9483",
+      "cveUrl": "/vuln/detail/CVE-2024-9483"
+    }
+  },
+  "CVE-2024-9484": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "An null-pointer-derefrence in the engine module in AVG/Avast Antivirus signature <24092400 released on 24/Sep/2024 on MacOS allows a malformed xar file to crash the application during file processing.",
+      "cveName": "CVE-2024-9484",
+      "cveUrl": "/vuln/detail/CVE-2024-9484"
+    }
+  },
+  "CVE-2024-9513": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Netadmin Software NetAdmin IAM up to 3.5 and classified as problematic. Affected by this issue is some unknown functionality of the file /controller/api/Answer/ReturnUserQuestionsFilled of the component HTTP POST Request Handler. The manipulation of the argument username leads to information exposure through discrepancy. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-9513",
+      "cveUrl": "/vuln/detail/CVE-2024-9513"
+    }
+  },
+  "CVE-2024-9514": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in D-Link DIR-605L 2.13B01 BETA. It has been declared as critical. This vulnerability affects the function formSetDomainFilter of the file /goform/formSetDomainFilter. The manipulation of the argument curTime leads to buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9514",
+      "cveUrl": "/vuln/detail/CVE-2024-9514"
+    }
+  },
+  "CVE-2024-9515": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in D-Link DIR-605L 2.13B01 BETA. It has been classified as critical. This affects the function formSetQoS of the file /goform/formSetQoS. The manipulation of the argument curTime leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9515",
+      "cveUrl": "/vuln/detail/CVE-2024-9515"
     }
   }
 }
