@@ -10,6 +10,28 @@
       "cveUrl": "/vuln/detail/CVE-2021-37577"
     }
   },
+  "CVE-2023-26770": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "TaskCafe 0.3.2 lacks validation in the Cookie value. Any unauthenticated attacker who knows a registered UserID can change the password of that user.",
+      "cveName": "CVE-2023-26770",
+      "cveUrl": "/vuln/detail/CVE-2023-26770"
+    }
+  },
+  "CVE-2023-26771": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "Taskcafe 0.3.2 is vulnerable to Cross Site Scripting (XSS). There is a lack of validation in the filetype when uploading a SVG profile picture with a XSS payload on it. An authenticated attacker can exploit this vulnerability by uploading a malicious picture which will trigger the payload when the victim opens the file.",
+      "cveName": "CVE-2023-26771",
+      "cveUrl": "/vuln/detail/CVE-2023-26771"
+    }
+  },
   "CVE-2023-3441": {
     "cve": {
       "cveDate": [
@@ -714,6 +736,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-25661"
     }
   },
+  "CVE-2024-25691": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "There is a reflected XSS vulnerability in Esri Portal for ArcGIS versions 11.1, 10.9.1 and 10.8.1 which may allow a remote, unauthenticated attacker to create a crafted link which when clicked could potentially execute arbitrary JavaScript code in the victim’s browser.",
+      "cveName": "CVE-2024-25691",
+      "cveUrl": "/vuln/detail/CVE-2024-25691"
+    }
+  },
+  "CVE-2024-25694": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "There is a stored Cross-site Scripting vulnerability in Esri Portal for ArcGIS Enterprise versions 10.8.1 – 10.9.1 that may allow a remote, authenticated attacker to create a crafted link that is stored in the Layer Showcase application configuration which when clicked could potentially execute arbitrary JavaScript code in the victim’s browser.  The privileges required to execute this attack are high.  The attack could disclose a privileged token which may result in the attacker gaining full control of the Portal.",
+      "cveName": "CVE-2024-25694",
+      "cveUrl": "/vuln/detail/CVE-2024-25694"
+    }
+  },
+  "CVE-2024-25701": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "There is a stored Cross-site Scripting vulnerability in Esri Portal for ArcGIS Enterprise Experience Builder versions 10.8.1 – 11.1 that may allow a remote, authenticated attacker to create a crafted link that is stored in the Experience Builder Embed widget which when loaded could potentially execute arbitrary JavaScript code in the victim’s browser. The privileges required to execute this attack are high. The attack could disclose a privileged token which may result in the attacker gaining full control of the Portal.",
+      "cveName": "CVE-2024-25701",
+      "cveUrl": "/vuln/detail/CVE-2024-25701"
+    }
+  },
+  "CVE-2024-25702": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "There is a stored Cross-site Scripting vulnerability in Esri Portal for ArcGIS Enterprise Sites versions 10.8.1 – 11.1 that may allow a remote, authenticated attacker to create a crafted link that is stored in the site configuration which when clicked could potentially execute arbitrary JavaScript code in the victim’s browser. The privileges required to execute this attack are high. The attack could disclose a privileged token which may result in the attacker gaining full control of the Portal.",
+      "cveName": "CVE-2024-25702",
+      "cveUrl": "/vuln/detail/CVE-2024-25702"
+    }
+  },
+  "CVE-2024-25707": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "There is a reflected cross site scripting in Esri Portal for ArcGIS 11.1 and below on Windows and Linux x64 allows a remote authenticated attacker with administrative access to supply a crafted string which could potentially execute arbitrary JavaScript code in the their own browser (Self XSS). A user cannot be phished into clicking a link to execute code.",
+      "cveName": "CVE-2024-25707",
+      "cveUrl": "/vuln/detail/CVE-2024-25707"
+    }
+  },
   "CVE-2024-28807": {
     "cve": {
       "cveDate": [
@@ -978,6 +1055,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-37187"
     }
   },
+  "CVE-2024-37868": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "File Upload vulnerability in Itsourcecode Online Discussion Forum Project v.1.0 allows a remote attacker to execute arbitrary code via the \"sendreply.php\" file, and the uploaded file was received using the \"$- FILES\" variable.",
+      "cveName": "CVE-2024-37868",
+      "cveUrl": "/vuln/detail/CVE-2024-37868"
+    }
+  },
+  "CVE-2024-37869": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "File Upload vulnerability in Itsourcecode Online Discussion Forum Project v.1.0 allows a remote attacker to execute arbitrary code via the \"poster.php\" file, and the uploaded file was received using the \"$- FILES\" variable",
+      "cveName": "CVE-2024-37869",
+      "cveUrl": "/vuln/detail/CVE-2024-37869"
+    }
+  },
+  "CVE-2024-38036": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "There is a reflected XSS vulnerability in Esri Portal for ArcGIS versions 10.9.1, 10.8.1 and 10.7.1 which may allow a remote, unauthenticated attacker to create a crafted link which when clicked could potentially execute arbitrary JavaScript code in the victim’s browser.",
+      "cveName": "CVE-2024-38036",
+      "cveUrl": "/vuln/detail/CVE-2024-38036"
+    }
+  },
+  "CVE-2024-38037": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "There is an unvalidated redirect vulnerability in Esri Portal for ArcGIS 11.0 and 10.9.1 that may allow a remote, unauthenticated attacker to craft a URL that could redirect a victim to an arbitrary website, simplifying phishing attacks.",
+      "cveName": "CVE-2024-38037",
+      "cveUrl": "/vuln/detail/CVE-2024-38037"
+    }
+  },
+  "CVE-2024-38038": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "There is a reflected XSS vulnerability in Esri Portal for ArcGIS versions 10.9.1, 10.8.1 and 10.7.1 which may allow a remote, unauthenticated attacker to create a crafted link which when clicked could potentially execute arbitrary JavaScript code in the victim’s browser.",
+      "cveName": "CVE-2024-38038",
+      "cveUrl": "/vuln/detail/CVE-2024-38038"
+    }
+  },
+  "CVE-2024-38039": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "There is an HTML injection vulnerability in Esri Portal for ArcGIS versions 11.0 and below that may allow a remote, authenticated attacker to create a crafted link which when clicked could render arbitrary HTML in the victim’s browser (no stateful change made or customer data rendered).",
+      "cveName": "CVE-2024-38039",
+      "cveUrl": "/vuln/detail/CVE-2024-38039"
+    }
+  },
+  "CVE-2024-38040": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "There is a local file inclusion vulnerability in Esri Portal for ArcGIS 11.2. 11.1, 11.0 and 10.9.1 that may allow a remote, unauthenticated attacker to craft a URL that could potentially disclose sensitive configuration information by reading internal files.",
+      "cveName": "CVE-2024-38040",
+      "cveUrl": "/vuln/detail/CVE-2024-38040"
+    }
+  },
   "CVE-2024-38308": {
     "cve": {
       "cveDate": [
@@ -1075,6 +1229,72 @@
       "cveDis": "FlatPress CMS v1.3.1 1.3 was discovered to use insecure methods to store authentication data via the cookie's component.",
       "cveName": "CVE-2024-41290",
       "cveUrl": "/vuln/detail/CVE-2024-41290"
+    }
+  },
+  "CVE-2024-41511": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "A Path Traversal (Local File Inclusion) vulnerability in \"BinaryFileRedirector.ashx\" in CADClick v1.11.0 and before allows remote attackers to retrieve arbitrary local files via the \"path\" parameter.",
+      "cveName": "CVE-2024-41511",
+      "cveUrl": "/vuln/detail/CVE-2024-41511"
+    }
+  },
+  "CVE-2024-41512": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "A SQL Injection vulnerability in \"ccHandler.aspx\" in all versions of CADClick v.1.11.0 and before allows remote attackers to execute arbitrary SQL commands via the \"bomid\" parameter.",
+      "cveName": "CVE-2024-41512",
+      "cveUrl": "/vuln/detail/CVE-2024-41512"
+    }
+  },
+  "CVE-2024-41513": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "A reflected cross-site scripting (XSS) vulnerability in \"Artikel.aspx\" in CADClick v1.11.0 and before allows remote attackers to inject arbitrary web script or HTML via the \"searchindex\" parameter.",
+      "cveName": "CVE-2024-41513",
+      "cveUrl": "/vuln/detail/CVE-2024-41513"
+    }
+  },
+  "CVE-2024-41514": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "A reflected cross-site scripting (XSS) vulnerability in \"PrevPgGroup.aspx\" in CADClick v1.11.0 and before allows remote attackers to inject arbitrary web script or HTML via the \"wer\" parameter.",
+      "cveName": "CVE-2024-41514",
+      "cveUrl": "/vuln/detail/CVE-2024-41514"
+    }
+  },
+  "CVE-2024-41515": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "A reflected cross-site scripting (XSS) vulnerability in \"ccHandlerResource.ashx\" in CADClick <= 1.11.0 allows remote attackers to inject arbitrary web script or HTML via the \"res_url\" parameter.",
+      "cveName": "CVE-2024-41515",
+      "cveUrl": "/vuln/detail/CVE-2024-41515"
+    }
+  },
+  "CVE-2024-41516": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "A Reflected cross-site scripting (XSS) vulnerability in \"ccHandler.aspx\" CADClick <= 1.11.0 allows remote attackers to inject arbitrary web script or HTML via the \"bomid\" parameter.",
+      "cveName": "CVE-2024-41516",
+      "cveUrl": "/vuln/detail/CVE-2024-41516"
     }
   },
   "CVE-2024-41583": {
@@ -1363,6 +1583,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-42514"
     }
   },
+  "CVE-2024-43683": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Microchip TimeProvider 4100 allows XSS Through HTTP Headers.This issue affects TimeProvider 4100: from 1.0.",
+      "cveName": "CVE-2024-43683",
+      "cveUrl": "/vuln/detail/CVE-2024-43683"
+    }
+  },
+  "CVE-2024-43684": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Microchip TimeProvider 4100 allows Cross Site Request Forgery, Cross-Site Scripting (XSS).This issue affects TimeProvider 4100: from 1.0.",
+      "cveName": "CVE-2024-43684",
+      "cveUrl": "/vuln/detail/CVE-2024-43684"
+    }
+  },
+  "CVE-2024-43685": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Improper Authentication vulnerability in Microchip TimeProvider 4100 (login modules) allows Session Hijacking.This issue affects TimeProvider 4100: from 1.0 before 2.4.7.",
+      "cveName": "CVE-2024-43685",
+      "cveUrl": "/vuln/detail/CVE-2024-43685"
+    }
+  },
+  "CVE-2024-43686": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Microchip TimeProvider 4100 (data plot modules) allows Reflected XSS.This issue affects TimeProvider 4100: from 1.0 before 2.4.7.",
+      "cveName": "CVE-2024-43686",
+      "cveUrl": "/vuln/detail/CVE-2024-43686"
+    }
+  },
+  "CVE-2024-43687": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "4:15:07 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Microchip TimeProvider 4100 (banner config modules) allows Cross-Site Scripting (XSS).This issue affects TimeProvider 4100: from 1.0 before 2.4.7.",
+      "cveName": "CVE-2024-43687",
+      "cveUrl": "/vuln/detail/CVE-2024-43687"
+    }
+  },
   "CVE-2024-43699": {
     "cve": {
       "cveDate": [
@@ -1471,6 +1746,17 @@
       "cveDis": "This issue was addressed with improved checks. This issue is fixed in iOS 18.0.1 and iPadOS 18.0.1. Audio messages in Messages may be able to capture a few seconds of audio before the microphone indicator is activated.",
       "cveName": "CVE-2024-442074-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-44207"
+    }
+  },
+  "CVE-2024-44439": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "An issue in Shanghai Zhouma Network Technology CO., Ltd IMS Intelligent Manufacturing Collaborative Internet of Things System v.1.9.1 allows a remote attacker to escalate privileges via the open port.",
+      "cveName": "CVE-2024-44439",
+      "cveUrl": "/vuln/detail/CVE-2024-44439"
     }
   },
   "CVE-2024-44610": {
@@ -1713,6 +1999,28 @@
       "cveDis": "A SQL Injection vulnerability was discovered in Cloudlog 2.6.15, specifically within the get_station_info()function located in the file /application/models/Oqrs_model.php. The vulnerability is exploitable via the station_id parameter.",
       "cveName": "CVE-2024-45999",
       "cveUrl": "/vuln/detail/CVE-2024-45999"
+    }
+  },
+  "CVE-2024-46077": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "3:15:16 PM -0400"
+      ],
+      "cveDis": "itsourcecode Online Tours and Travels Management System v1.0 is vulnerable to Cross Site Scripting (XSS) via a crafted payload to the val-username, val-email, val-suggestions, val-digits and state_name parameters in travellers.php.",
+      "cveName": "CVE-2024-46077",
+      "cveUrl": "/vuln/detail/CVE-2024-46077"
+    }
+  },
+  "CVE-2024-46078": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "3:15:16 PM -0400"
+      ],
+      "cveDis": "itsourcecode Sports Management System Project 1.0 is vulnerable to SQL Injection in the function delete_category of the file sports_scheduling/player.php via the argument id.",
+      "cveName": "CVE-2024-46078",
+      "cveUrl": "/vuln/detail/CVE-2024-46078"
     }
   },
   "CVE-2024-46079": {
@@ -2243,6 +2551,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47186"
     }
   },
+  "CVE-2024-47211": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "In OpenStack Ironic before 21.4.4, 22.x and 23.x before 23.0.3, 23.x and 24.x before 24.1.3, and 25.x and 26.x before 26.1.0, there is a lack of checksum validation of supplied image_source URLs when configured to convert images to a raw format for streaming.",
+      "cveName": "CVE-2024-47211",
+      "cveUrl": "/vuln/detail/CVE-2024-47211"
+    }
+  },
   "CVE-2024-47295": {
     "cve": {
       "cveDate": [
@@ -2628,6 +2947,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47762"
     }
   },
+  "CVE-2024-47764": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "4:15:07 PM -0400"
+      ],
+      "cveDis": "cookie is a basic HTTP cookie parser and serializer for HTTP servers. The cookie name could be used to set other fields of the cookie, resulting in an unexpected cookie value. A similar escape can be used for path and domain, which could be abused to alter other fields of the cookie. Upgrade to 0.7.0, which updates the validation for name, path, and domain.",
+      "cveName": "CVE-2024-47764",
+      "cveUrl": "/vuln/detail/CVE-2024-47764"
+    }
+  },
   "CVE-2024-47765": {
     "cve": {
       "cveDate": [
@@ -2738,6 +3068,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-47807"
     }
   },
+  "CVE-2024-47840": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in The Wikimedia Foundation Mediawiki - Apex skin allows Stored XSS.This issue affects Mediawiki - Apex skin: from 1.39.X before 1.39.9, from 1.41.X before 1.41.3, from 1.42.X before 1.42.2.",
+      "cveName": "CVE-2024-47840",
+      "cveUrl": "/vuln/detail/CVE-2024-47840"
+    }
+  },
+  "CVE-2024-47841": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in The Wikimedia Foundation Mediawiki - CSS Extension allows Path Traversal.This issue affects Mediawiki - CSS Extension: from 1.42.X before 1.42.2, from 1.41.X before 1.41.3, from 1.39.X before 1.39.9.",
+      "cveName": "CVE-2024-47841",
+      "cveUrl": "/vuln/detail/CVE-2024-47841"
+    }
+  },
+  "CVE-2024-47845": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 PM -0400"
+      ],
+      "cveDis": "Improper Encoding or Escaping of Output vulnerability in The Wikimedia Foundation Mediawiki - CSS Extension allows Code Injection.This issue affects Mediawiki - CSS Extension: from 1.39.X before 1.39.9, from 1.41.X before 1.41.3, from 1.42.X before 1.42.2.",
+      "cveName": "CVE-2024-47845",
+      "cveUrl": "/vuln/detail/CVE-2024-47845"
+    }
+  },
+  "CVE-2024-47846": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 PM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in The Wikimedia Foundation Mediawiki - Cargo allows Cross Site Request Forgery.This issue affects Mediawiki - Cargo: from 3.6.X before 3.6.1.",
+      "cveName": "CVE-2024-47846",
+      "cveUrl": "/vuln/detail/CVE-2024-47846"
+    }
+  },
+  "CVE-2024-47847": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in The Wikimedia Foundation Mediawiki - Cargo allows Cross-Site Scripting (XSS).This issue affects Mediawiki - Cargo: from 3.6.X before 3.6.1.",
+      "cveName": "CVE-2024-47847",
+      "cveUrl": "/vuln/detail/CVE-2024-47847"
+    }
+  },
+  "CVE-2024-47848": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "8:15:02 PM -0400"
+      ],
+      "cveDis": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in The Wikimedia Foundation Mediawiki - PageTriage allows Authentication Bypass.This issue affects Mediawiki - PageTriage: from 1.39.X before 1.39.9, from 1.41.X before 1.41.3, from 1.42.X before 1.42.2.",
+      "cveName": "CVE-2024-47848",
+      "cveUrl": "/vuln/detail/CVE-2024-47848"
+    }
+  },
+  "CVE-2024-47849": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "9:15:12 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in The Wikimedia Foundation Mediawiki - Cargo allows SQL Injection.This issue affects Mediawiki - Cargo: from 3.6.X before 3.6.1.",
+      "cveName": "CVE-2024-47849",
+      "cveUrl": "/vuln/detail/CVE-2024-47849"
+    }
+  },
   "CVE-2024-47850": {
     "cve": {
       "cveDate": [
@@ -2769,6 +3176,39 @@
       "cveDis": "util/JSONTokener.java in JSON-lib before 3.1.0 mishandles an unbalanced comment string.",
       "cveName": "CVE-2024-47855",
       "cveUrl": "/vuln/detail/CVE-2024-47855"
+    }
+  },
+  "CVE-2024-47910": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in SonarSource SonarQube before 9.9.5 LTA and 10.x before 10.5. A SonarQube user with the Administrator role can modify an existing configuration of a GitHub integration to exfiltrate a pre-signed JWT.",
+      "cveName": "CVE-2024-47910",
+      "cveUrl": "/vuln/detail/CVE-2024-47910"
+    }
+  },
+  "CVE-2024-47911": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "In SonarSource SonarQube 10.4 through 10.5 before 10.6, a vulnerability was discovered in the authorizations/group-memberships API endpoint that allows SonarQube users with the administrator role to inject blind SQL commands.",
+      "cveName": "CVE-2024-47911",
+      "cveUrl": "/vuln/detail/CVE-2024-47911"
+    }
+  },
+  "CVE-2024-47913": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in the AbuseFilter extension for MediaWiki before 1.39.9, 1.40.x and 1.41.x before 1.41.3, and 1.42.x before 1.42.2. An API caller can match a filter condition against AbuseFilter logs even if the caller is not authorized to view the log details for the filter.",
+      "cveName": "CVE-2024-47913",
+      "cveUrl": "/vuln/detail/CVE-2024-47913"
     }
   },
   "CVE-2024-5803": {
@@ -3002,6 +3442,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-7675"
     }
   },
+  "CVE-2024-7801": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "4:15:07 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Microchip TimeProvider 4100 (Data plot modules) allows SQL Injection.This issue affects TimeProvider 4100: from 1.0 before 2.4.7.",
+      "cveName": "CVE-2024-7801",
+      "cveUrl": "/vuln/detail/CVE-2024-7801"
+    }
+  },
   "CVE-2024-7824": {
     "cve": {
       "cveDate": [
@@ -3088,6 +3539,28 @@
       "cveDis": "The Slider Revolution plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 6.7.18 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file. By default, this can only be exploited by administrators, but the ability to use and configure Slider Revolution can be extended to authors.",
       "cveName": "CVE-2024-81076-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8107"
+    }
+  },
+  "CVE-2024-8148": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "There is an unvalidated redirect vulnerability in Esri Portal for ArcGIS 10.8.1 - 11.2 that may allow a remote, unauthenticated attacker to craft a URL that could redirect a victim to an arbitrary website, simplifying phishing attacks.",
+      "cveName": "CVE-2024-8148",
+      "cveUrl": "/vuln/detail/CVE-2024-8148"
+    }
+  },
+  "CVE-2024-8149": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "There is a reflected XSS vulnerability in Esri Portal for ArcGIS versions 11.1 and 11.2 which may allow a remote, unauthenticated attacker to create a crafted link which when clicked could potentially execute arbitrary JavaScript code in the victim’s browser.",
+      "cveName": "CVE-2024-8149",
+      "cveUrl": "/vuln/detail/CVE-2024-8149"
     }
   },
   "CVE-2024-81596-4 MEDIUM": {
@@ -3726,6 +4199,17 @@
       "cveDis": "The WP-WebAuthn plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wwa_login_form shortcode in all versions up to, and including, 1.3.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-90236-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9023"
+    }
+  },
+  "CVE-2024-9054": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "4:15:07 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'), Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Microchip TimeProvider 4100 (Configuration modules) allows Command Injection.This issue affects TimeProvider 4100: from 1.0 before 2.4.7.",
+      "cveName": "CVE-2024-9054",
+      "cveUrl": "/vuln/detail/CVE-2024-9054"
     }
   },
   "CVE-2024-90606-4 MEDIUM": {
@@ -4586,6 +5070,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9384"
     }
   },
+  "CVE-2024-9385": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "The Themify Builder plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 7.6.2. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-9385",
+      "cveUrl": "/vuln/detail/CVE-2024-9385"
+    }
+  },
   "CVE-2024-9391": {
     "cve": {
       "cveDate": [
@@ -4850,6 +5345,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9445"
     }
   },
+  "CVE-2024-94556-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "The WP Cleanup and Basic Functions plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 2.2.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-94556-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9455"
+    }
+  },
   "CVE-2024-9460": {
     "cve": {
       "cveDate": [
@@ -4936,6 +5442,17 @@
       "cveDis": "A vulnerability was found in D-Link DIR-605L 2.13B01 BETA. It has been classified as critical. This affects the function formSetQoS of the file /goform/formSetQoS. The manipulation of the argument curTime leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-9515",
       "cveUrl": "/vuln/detail/CVE-2024-9515"
+    }
+  },
+  "CVE-2024-95284-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 04, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The Contact Form Plugin by Fluent Forms for Quiz, Survey, and Drag & Drop WP Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via form label fields in all versions up to, and including, 5.1.19 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with access to edit forms (administrator by default), to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-95284-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9528"
     }
   }
 }
