@@ -3849,6 +3849,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8459"
     }
   },
+  "CVE-2024-84866-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 05, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "The Shortcodes and extra features for Phlox theme plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘url’ parameter in the Modern Heading and Icon Picker widgets all versions up to, and including, 2.16.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-84866-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8486"
+    }
+  },
   "CVE-2024-84994-7 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -4045,6 +4056,17 @@
       "cveDis": "A potential security vulnerability\nhas been identified in the HP One Agent for certain HP PC products, which might\nallow for escalation of privilege. HP is releasing software updates to mitigate\nthis potential vulnerability.",
       "cveName": "CVE-2024-8733",
       "cveUrl": "/vuln/detail/CVE-2024-8733"
+    }
+  },
+  "CVE-2024-87436-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 05, 2024",
+        "3:15:12 AM -0400"
+      ],
+      "cveDis": "The Bit File Manager – 100% Free & Open Source File Manager and Code Editor for WordPress plugin for WordPress is vulnerable to Limited JavaScript File Upload in all versions up to, and including, 6.5.7. This is due to a lack of proper checks on allowed file types. This makes it possible for authenticated attackers, with Subscriber-level access and above, and granted permissions by an administrator, to upload .css and .js files, which could lead to Stored Cross-Site Scripting.",
+      "cveName": "CVE-2024-87436-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8743"
     }
   },
   "CVE-2024-8786": {
@@ -5268,6 +5290,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9411"
     }
   },
+  "CVE-2024-94176-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 05, 2024",
+        "6:15:02 AM -0400"
+      ],
+      "cveDis": "The Hash Form – Drag & Drop Form Builder plugin for WordPress is vulnerable to limited file uploads due to a misconfigured file type validation in the 'handleUpload' function in all versions up to, and including, 1.1.9. This makes it possible for unauthenticated attackers to upload files that are excluded from both the 'allowedExtensions' and 'unallowed_extensions' arrays on the affected site's server, including files that may contain cross-site scripting.",
+      "cveName": "CVE-2024-94176-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9417"
+    }
+  },
   "CVE-2024-94216-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -5453,6 +5486,17 @@
       "cveDis": "The Contact Form Plugin by Fluent Forms for Quiz, Survey, and Drag & Drop WP Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via form label fields in all versions up to, and including, 5.1.19 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with access to edit forms (administrator by default), to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-95284-9 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9528"
+    }
+  },
+  "CVE-2024-9532": {
+    "cve": {
+      "cveDate": [
+        "October 05, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in D-Link DIR-605L 2.13B01 BETA and classified as critical. This vulnerability affects the function formAdvanceSetup of the file /goform/formAdvanceSetup. The manipulation of the argument webpage leads to buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9532",
+      "cveUrl": "/vuln/detail/CVE-2024-9532"
     }
   }
 }
