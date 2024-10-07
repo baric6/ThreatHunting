@@ -54,6 +54,28 @@
       "cveUrl": "/vuln/detail/CVE-2023-37822"
     }
   },
+  "CVE-2023-6361": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "11:15:07 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been discovered in Winhex affecting version 16.1 SR-1 and 20.4. This vulnerability consists of a buffer overflow controlling the Structured Exception Handler (SEH) registers. This could allow attackers to execute arbitrary code via a long filename argument.",
+      "cveName": "CVE-2023-6361",
+      "cveUrl": "/vuln/detail/CVE-2023-6361"
+    }
+  },
+  "CVE-2023-6362": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "11:15:07 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been discovered in Winhex affecting version 16.1 SR-1 and 20.4. This vulnerability consists of a buffer overflow controlling the Structured Exception Handler (SEH) registers. This could allow attackers to execute arbitrary code via a long filename argument.",
+      "cveName": "CVE-2023-6362",
+      "cveUrl": "/vuln/detail/CVE-2023-6362"
+    }
+  },
   "CVE-2023-7273": {
     "cve": {
       "cveDate": [
@@ -615,6 +637,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-20524"
     }
   },
+  "CVE-2024-214557-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:10 AM -0400"
+      ],
+      "cveDis": "Memory corruption when a compat IOCTL call is followed by another IOCTL call from userspace to a driver.",
+      "cveName": "CVE-2024-214557-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-21455"
+    }
+  },
   "CVE-2024-21489": {
     "cve": {
       "cveDate": [
@@ -646,6 +679,83 @@
       "cveDis": "All versions of the package git-shallow-clone are vulnerable to Command injection due to missing sanitization or mitigation flags in the process variable of the gitShallowClone function.",
       "cveName": "CVE-2024-21531",
       "cveUrl": "/vuln/detail/CVE-2024-21531"
+    }
+  },
+  "CVE-2024-233697-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:10 AM -0400"
+      ],
+      "cveDis": "Memory corruption when invalid length is provided from HLOS for FRS/UDS request/response buffers.",
+      "cveName": "CVE-2024-233697-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-23369"
+    }
+  },
+  "CVE-2024-233706-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:10 AM -0400"
+      ],
+      "cveDis": "Memory corruption when a process invokes IOCTL calls from user-space to create a HAB virtual channel and another process invokes IOCTL calls to destroy the same.",
+      "cveName": "CVE-2024-233706-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-23370"
+    }
+  },
+  "CVE-2024-233746-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "Memory corruption is possible when an attempt is made from userspace or console to write some haptics effects pattern to the haptics debugfs file.",
+      "cveName": "CVE-2024-233746-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-23374"
+    }
+  },
+  "CVE-2024-233756-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "Memory corruption during the network scan request.",
+      "cveName": "CVE-2024-233756-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-23375"
+    }
+  },
+  "CVE-2024-233766-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "Memory corruption while sending the persist buffer command packet from the user-space to the kernel space through the IOCTL call.",
+      "cveName": "CVE-2024-233766-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-23376"
+    }
+  },
+  "CVE-2024-233786-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "Memory corruption while invoking IOCTL calls for MSM module from the user space during audio playback and record.",
+      "cveName": "CVE-2024-233786-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-23378"
+    }
+  },
+  "CVE-2024-233796-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Memory corruption while unmapping the fastrpc map when two threads can free the same map in concurrent scenario.",
+      "cveName": "CVE-2024-233796-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-23379"
     }
   },
   "CVE-2024-23586": {
@@ -945,6 +1055,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-25707"
     }
   },
+  "CVE-2024-27458": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "1:15:15 PM -0400"
+      ],
+      "cveDis": "A potential security vulnerability has been identified in the HP Hotkey Support software, which might allow local escalation of privilege. HP is releasing mitigation for the potential vulnerability. Customers using HP Programmable Key are recommended to update HP Hotkey Support.",
+      "cveName": "CVE-2024-27458",
+      "cveUrl": "/vuln/detail/CVE-2024-27458"
+    }
+  },
+  "CVE-2024-28709": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in LimeSurvey before 6.5.12+240611 allows a remote attacker to execute arbitrary code via a crafted script to the title and comment fields.",
+      "cveName": "CVE-2024-28709",
+      "cveUrl": "/vuln/detail/CVE-2024-28709"
+    }
+  },
+  "CVE-2024-28710": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in LimeSurvey before 6.5.0+240319 allows a remote attacker to execute arbitrary code via a lack of input validation and output encoding in the Alert Widget's message component.",
+      "cveName": "CVE-2024-28710",
+      "cveUrl": "/vuln/detail/CVE-2024-28710"
+    }
+  },
   "CVE-2024-28807": {
     "cve": {
       "cveDate": [
@@ -1064,6 +1207,94 @@
       "cveDis": "Cross Site Scripting vulnerability in flatpress CMS Flatpress v1.3 allows a remote attacker to execute arbitrary code via a crafted payload to the file name parameter.",
       "cveName": "CVE-2024-31835",
       "cveUrl": "/vuln/detail/CVE-2024-31835"
+    }
+  },
+  "CVE-2024-33049": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Transient DOS while parsing noninheritance IE of Extension element when length of IE is 2 of beacon frame.",
+      "cveName": "CVE-2024-33049",
+      "cveUrl": "/vuln/detail/CVE-2024-33049"
+    }
+  },
+  "CVE-2024-330648-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Information disclosure while parsing the multiple MBSSID IEs from the beacon.",
+      "cveName": "CVE-2024-330648-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33064"
+    }
+  },
+  "CVE-2024-330658-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Memory corruption while taking snapshot when an offset variable is set by camera driver.",
+      "cveName": "CVE-2024-330658-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33065"
+    }
+  },
+  "CVE-2024-330669-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Memory corruption while redirecting log file to any file location with any file name.",
+      "cveName": "CVE-2024-330669-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-33066"
+    }
+  },
+  "CVE-2024-330697-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "Transient DOS when transmission of management frame sent by host is not successful and error status is received in the host.",
+      "cveName": "CVE-2024-330697-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33069"
+    }
+  },
+  "CVE-2024-330707-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "Transient DOS while parsing ESP IE from beacon/probe response frame.",
+      "cveName": "CVE-2024-330707-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33070"
+    }
+  },
+  "CVE-2024-330717-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "Transient DOS while parsing the MBSSID IE from the beacons when IE length is 0.",
+      "cveName": "CVE-2024-330717-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33071"
+    }
+  },
+  "CVE-2024-330738-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "Information disclosure while parsing the BSS parameter change count or MLD capabilities fields of the ML IE.",
+      "cveName": "CVE-2024-330738-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33073"
     }
   },
   "CVE-2024-33209": {
@@ -1295,6 +1526,39 @@
       "cveDis": "Advantech ADAM 5550's web application includes a \"logs\" page where all \nthe HTTP requests received are displayed to the user. The device doesn't\n correctly neutralize malicious code when parsing HTTP requests to \ngenerate page output.",
       "cveName": "CVE-2024-38308",
       "cveUrl": "/vuln/detail/CVE-2024-38308"
+    }
+  },
+  "CVE-2024-383977-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "Transient DOS while parsing probe response and assoc response frame.",
+      "cveName": "CVE-2024-383977-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38397"
+    }
+  },
+  "CVE-2024-383998-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "Memory corruption while processing user packets to generate page faults.",
+      "cveName": "CVE-2024-383998-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38399"
+    }
+  },
+  "CVE-2024-384256-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "Information disclosure while sending implicit broadcast containing APP launch information.",
+      "cveName": "CVE-2024-384256-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-38425"
     }
   },
   "CVE-2024-38796": {
@@ -1682,6 +1946,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-42017"
     }
   },
+  "CVE-2024-42027": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:15 AM -0400"
+      ],
+      "cveDis": "The E2EE password entropy generated by Rocket.Chat Mobile prior to version 4.5.1 is insufficient, allowing attackers to crack it if they have the appropriate time and resources.",
+      "cveName": "CVE-2024-42027",
+      "cveUrl": "/vuln/detail/CVE-2024-42027"
+    }
+  },
   "CVE-2024-424158-4 HIGH": {
     "cve": {
       "cveDate": [
@@ -1735,6 +2010,17 @@
       "cveDis": "A vulnerability in the legacy chat component of Mitel MiContact Center Business through 10.1.0.4 could allow an unauthenticated attacker to conduct an unauthorized access attack due to inadequate access control checks. A successful exploit could allow an attacker to access sensitive information and send unauthorized messages.",
       "cveName": "CVE-2024-42514",
       "cveUrl": "/vuln/detail/CVE-2024-42514"
+    }
+  },
+  "CVE-2024-430477-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:15 AM -0400"
+      ],
+      "cveDis": "Memory corruption while maintaining memory maps of HLOS memory.",
+      "cveName": "CVE-2024-430477-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43047"
     }
   },
   "CVE-2024-43683": {
@@ -2199,6 +2485,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45073"
     }
   },
+  "CVE-2024-451535-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:15 AM -0400"
+      ],
+      "cveDis": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim’s browser when they browse to the page containing the vulnerable field.",
+      "cveName": "CVE-2024-451535-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45153"
+    }
+  },
   "CVE-2024-45186": {
     "cve": {
       "cveDate": [
@@ -2430,6 +2727,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-45920"
     }
   },
+  "CVE-2024-45932": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "Krayin CRM v1.3.0 is vulnerable to Cross Site Scripting (XSS) via the organization name field in /admin/contacts/organizations/edit/2.",
+      "cveName": "CVE-2024-45932",
+      "cveUrl": "/vuln/detail/CVE-2024-45932"
+    }
+  },
+  "CVE-2024-45933": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "11:15:08 AM -0400"
+      ],
+      "cveDis": "OnlineNewsSite v1.0 is vulnerable to Cross Site Scripting (XSS) which allows attackers to execute arbitrary code via the Title and summary fields in the /admin/post/edit/ endpoint.",
+      "cveName": "CVE-2024-45933",
+      "cveUrl": "/vuln/detail/CVE-2024-45933"
+    }
+  },
   "CVE-2024-45960": {
     "cve": {
       "cveDate": [
@@ -2505,6 +2824,28 @@
       "cveDis": "A SQL Injection vulnerability was discovered in Cloudlog 2.6.15, specifically within the get_station_info()function located in the file /application/models/Oqrs_model.php. The vulnerability is exploitable via the station_id parameter.",
       "cveName": "CVE-2024-45999",
       "cveUrl": "/vuln/detail/CVE-2024-45999"
+    }
+  },
+  "CVE-2024-46040": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "IoT Haat Smart Plug IH-IN-16A-S IH-IN-16A-S v5.16.1 suffers from Insufficient Session Expiration. The lack of validation of the authentication token at the IoT Haat during the Access Point Pairing mode leads the attacker to replay the Wi-Fi packets and forcefully turn off the access point after the authentication token has expired.",
+      "cveName": "CVE-2024-46040",
+      "cveUrl": "/vuln/detail/CVE-2024-46040"
+    }
+  },
+  "CVE-2024-46041": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "IoT Haat Smart Plug IH-IN-16A-S v5.16.1 is vulnerable to Authentication Bypass by Capture-replay.",
+      "cveName": "CVE-2024-46041",
+      "cveUrl": "/vuln/detail/CVE-2024-46041"
     }
   },
   "CVE-2024-46077": {
@@ -2716,6 +3057,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46276"
     }
   },
+  "CVE-2024-46278": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "Teedy 1.11 is vulnerable to Cross Site Scripting (XSS) via the management console.",
+      "cveName": "CVE-2024-46278",
+      "cveUrl": "/vuln/detail/CVE-2024-46278"
+    }
+  },
   "CVE-2024-46280": {
     "cve": {
       "cveDate": [
@@ -2738,6 +3090,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46293"
     }
   },
+  "CVE-2024-46300": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "1:15:15 PM -0400"
+      ],
+      "cveDis": "itsourcecode Placement Management System 1.0 is vulnerable to Cross Site Scripting (XSS) via the Full Name field in registration.php.",
+      "cveName": "CVE-2024-46300",
+      "cveUrl": "/vuln/detail/CVE-2024-46300"
+    }
+  },
   "CVE-2024-46313": {
     "cve": {
       "cveDate": [
@@ -2747,6 +3110,17 @@
       "cveDis": "TP-Link WR941ND V6 has a stack overflow vulnerability in the ssid parameter in /userRpm/popupSiteSurveyRpm.htm.",
       "cveName": "CVE-2024-46313",
       "cveUrl": "/vuln/detail/CVE-2024-46313"
+    }
+  },
+  "CVE-2024-46325": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:15 AM -0400"
+      ],
+      "cveDis": "TP-Link WR740N V6 has a stack overflow vulnerability via the ssid parameter in /userRpm/popupSiteSurveyRpm.htm url.",
+      "cveName": "CVE-2024-46325",
+      "cveUrl": "/vuln/detail/CVE-2024-46325"
     }
   },
   "CVE-2024-46366": {
@@ -2780,6 +3154,17 @@
       "cveDis": "A stored cross-site scripting (XSS) vulnerability in SeedDMS v6.0.28 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name parameter in the Calendar page.",
       "cveName": "CVE-2024-46409",
       "cveUrl": "/vuln/detail/CVE-2024-46409"
+    }
+  },
+  "CVE-2024-46446": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "Mecha CMS 3.0.0 is vulnerable to Directory Traversal. An attacker can construct cookies and URIs that bypass user identity checks. Parameters can then be passed through the POST method, resulting in the Deletion of Arbitrary Files or Website Takeover.",
+      "cveName": "CVE-2024-46446",
+      "cveUrl": "/vuln/detail/CVE-2024-46446"
     }
   },
   "CVE-2024-46453": {
@@ -7235,6 +7620,116 @@
       "cveDis": "A vulnerability has been found in D-Link DIR-605L 2.13B01 BETA and classified as critical. Affected by this vulnerability is the function formSetPassword of the file /goform/formSetPassword. The manipulation of the argument curTime leads to buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-9565",
       "cveUrl": "/vuln/detail/CVE-2024-9565"
+    }
+  },
+  "CVE-2024-9566": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "9:15:16 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in D-Link DIR-619L B1 2.06. This vulnerability affects the function formDeviceReboot of the file /goform/formDeviceReboot. The manipulation of the argument next_page leads to buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9566",
+      "cveUrl": "/vuln/detail/CVE-2024-9566"
+    }
+  },
+  "CVE-2024-9567": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "10:15:12 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in D-Link DIR-619L B1 2.06. This issue affects the function formAdvFirewall of the file /goform/formAdvFirewall. The manipulation of the argument curTime leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9567",
+      "cveUrl": "/vuln/detail/CVE-2024-9567"
+    }
+  },
+  "CVE-2024-9568": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "11:15:09 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in D-Link DIR-619L B1 2.06. Affected is the function formAdvNetwork of the file /goform/formAdvNetwork. The manipulation of the argument curTime leads to buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9568",
+      "cveUrl": "/vuln/detail/CVE-2024-9568"
+    }
+  },
+  "CVE-2024-9569": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "11:15:09 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in D-Link DIR-619L B1 2.06 and classified as critical. Affected by this vulnerability is the function formEasySetPassword of the file /goform/formEasySetPassword. The manipulation of the argument curTime leads to buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9569",
+      "cveUrl": "/vuln/detail/CVE-2024-9569"
+    }
+  },
+  "CVE-2024-9570": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in D-Link DIR-619L B1 2.06 and classified as critical. Affected by this issue is the function formEasySetTimezone of the file /goform/formEasySetTimezone. The manipulation of the argument curTime leads to buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9570",
+      "cveUrl": "/vuln/detail/CVE-2024-9570"
+    }
+  },
+  "CVE-2024-9571": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "11:15:09 AM -0400"
+      ],
+      "cveDis": "Cross-Site Scripting (XSS) vulnerability in SOPlanning <1.45, due to lack of proper validation of user input via /soplanning/www/process/xajax_server.php, affecting multiple parameters. This could allow a remote user to send a specially crafted query to an authenticated user and partially take control of their browser session.",
+      "cveName": "CVE-2024-9571",
+      "cveUrl": "/vuln/detail/CVE-2024-9571"
+    }
+  },
+  "CVE-2024-9572": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "11:15:09 AM -0400"
+      ],
+      "cveDis": "Cross-Site Scripting (XSS) vulnerability in SOPlanning <1.45, due to lack of proper validation of user input via /soplanning/www/process/groupe_save.php, in the groupe_id parameter. This could allow a remote user to send a specially crafted query to an authenticated user and steal their session details.",
+      "cveName": "CVE-2024-9572",
+      "cveUrl": "/vuln/detail/CVE-2024-9572"
+    }
+  },
+  "CVE-2024-9573": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "11:15:10 AM -0400"
+      ],
+      "cveDis": "SQL injection vulnerability in SOPlanning <1.45, through /soplanning/www/groupe_list.php, in the by parameter, which could allow a remote user to send a specially crafted query and extract all the information stored on the server.",
+      "cveName": "CVE-2024-9573",
+      "cveUrl": "/vuln/detail/CVE-2024-9573"
+    }
+  },
+  "CVE-2024-9574": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "11:15:10 AM -0400"
+      ],
+      "cveDis": "SQL injection vulnerability in SOPlanning <1.45, via /soplanning/www/user_groupes.php in the by parameter, which could allow a remote user to submit a specially crafted query, allowing an attacker to retrieve all the information stored in the DB.",
+      "cveName": "CVE-2024-9574",
+      "cveUrl": "/vuln/detail/CVE-2024-9574"
+    }
+  },
+  "CVE-2024-9576": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "11:15:10 AM -0400"
+      ],
+      "cveDis": "Vulnerability in Distro Linux Workbooth v2.5 that allows to escalate privileges to the root user by manipulating the network configuration script.",
+      "cveName": "CVE-2024-9576",
+      "cveUrl": "/vuln/detail/CVE-2024-9576"
     }
   }
 }
