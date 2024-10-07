@@ -3255,6 +3255,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47324"
     }
   },
+  "CVE-2024-47335": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "2:15:04 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Bit Form Bit Form – Contact Form Plugin allows SQL Injection.This issue affects Bit Form – Contact Form Plugin: from n/a through 2.13.11.",
+      "cveName": "CVE-2024-47335",
+      "cveUrl": "/vuln/detail/CVE-2024-47335"
+    }
+  },
   "CVE-2024-47336": {
     "cve": {
       "cveDate": [
@@ -3330,6 +3341,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Kraftplugins Mega Elements allows Stored XSS.This issue affects Mega Elements: from n/a through 1.2.4.",
       "cveName": "CVE-2024-47343",
       "cveUrl": "/vuln/detail/CVE-2024-47343"
+    }
+  },
+  "CVE-2024-47344": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "2:15:04 AM -0400"
+      ],
+      "cveDis": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in StylemixThemes uListing.This issue affects uListing: from n/a through 2.1.5.",
+      "cveName": "CVE-2024-47344",
+      "cveUrl": "/vuln/detail/CVE-2024-47344"
     }
   },
   "CVE-2024-47345": {
