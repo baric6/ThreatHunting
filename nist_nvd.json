@@ -1198,6 +1198,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-30132"
     }
   },
+  "CVE-2024-31227": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "Redis is an open source, in-memory database that persists on disk. An authenticated with sufficient privileges may create a malformed ACL selector which, when accessed, triggers a server panic and subsequent denial of service. The problem exists in Redis 7 prior to versions 7.2.6 and 7.4.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-31227",
+      "cveUrl": "/vuln/detail/CVE-2024-31227"
+    }
+  },
+  "CVE-2024-31228": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "Redis is an open source, in-memory database that persists on disk. Authenticated users can trigger a denial-of-service by using specially crafted, long string match patterns on supported commands such as `KEYS`, `SCAN`, `PSUBSCRIBE`, `FUNCTION LIST`, `COMMAND LIST` and ACL definitions. Matching of extremely long patterns may result in unbounded recursion, leading to stack overflow and process crash. This problem has been fixed in Redis versions 6.2.16, 7.2.6, and 7.4.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-31228",
+      "cveUrl": "/vuln/detail/CVE-2024-31228"
+    }
+  },
+  "CVE-2024-31449": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "Redis is an open source, in-memory database that persists on disk. An authenticated user may use a specially crafted Lua script to trigger a stack buffer overflow in the bit library, which may potentially lead to remote code execution. The problem exists in all versions of Redis with Lua scripting. This problem has been fixed in Redis versions 6.2.16, 7.2.6, and 7.4.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-31449",
+      "cveUrl": "/vuln/detail/CVE-2024-31449"
+    }
+  },
   "CVE-2024-31835": {
     "cve": {
       "cveDate": [
@@ -2012,6 +2045,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-42514"
     }
   },
+  "CVE-2024-42831": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "2:15:04 PM -0400"
+      ],
+      "cveDis": "A reflected cross-site scripting (XSS) vulnerability in Elaine's Realtime CRM Automation v6.18.17 allows attackers to execute arbitrary JavaScript code in the web browser of a user via injecting a crafted payload into the dialog parameter at wrapper_dialog.php.",
+      "cveName": "CVE-2024-42831",
+      "cveUrl": "/vuln/detail/CVE-2024-42831"
+    }
+  },
   "CVE-2024-430477-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -2021,6 +2065,50 @@
       "cveDis": "Memory corruption while maintaining memory maps of HLOS memory.",
       "cveName": "CVE-2024-430477-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-43047"
+    }
+  },
+  "CVE-2024-43362": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:15 PM -0400"
+      ],
+      "cveDis": "Cacti is an open source performance and fault management framework. The `fileurl` parameter is not properly sanitized when saving external links in `links.php` . Morever, the said fileurl is placed in some html code which is passed to the `print` function in `link.php` and `index.php`, finally leading to stored XSS. Users with the privilege to create external links can manipulate the `fileurl` parameter in the http post request while creating external links to perform stored XSS attacks. The vulnerability known as XSS (Cross-Site Scripting) occurs when an application allows untrusted user input to be displayed on a web page without proper validation or escaping. This issue has been addressed in release version 1.2.28. All users are advised to upgrade. There are no known workarounds for this issue.",
+      "cveName": "CVE-2024-43362",
+      "cveUrl": "/vuln/detail/CVE-2024-43362"
+    }
+  },
+  "CVE-2024-43363": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:15 PM -0400"
+      ],
+      "cveDis": "Cacti is an open source performance and fault management framework. An admin user can create a device with a malicious hostname containing php code and repeat the installation process (completing only step 5 of the installation process is enough, no need to complete the steps before or after it) to use a php file as the cacti log file. After having the malicious hostname end up in the logs (log poisoning), one can simply go to the log file url to execute commands to achieve RCE. This issue has been addressed in version 1.2.28 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-43363",
+      "cveUrl": "/vuln/detail/CVE-2024-43363"
+    }
+  },
+  "CVE-2024-43364": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:16 PM -0400"
+      ],
+      "cveDis": "Cacti is an open source performance and fault management framework. The `title` parameter is not properly sanitized when saving external links in links.php . Morever, the said title parameter is stored in the database and reflected back to user in index.php, finally leading to stored XSS. Users with the privilege to create external links can manipulate the `title` parameter in the http post request while creating external links to perform stored XSS attacks. The vulnerability known as XSS (Cross-Site Scripting) occurs when an application allows untrusted user input to be displayed on a web page without proper validation or escaping. This issue has been addressed in release version 1.2.28. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-43364",
+      "cveUrl": "/vuln/detail/CVE-2024-43364"
+    }
+  },
+  "CVE-2024-43365": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:16 PM -0400"
+      ],
+      "cveDis": "Cacti is an open source performance and fault management framework. The`consolenewsection` parameter is not properly sanitized when saving external links in links.php . Morever, the said consolenewsection parameter is stored in the database and reflected back to user in `index.php`, finally leading to stored XSS. Users with the privilege to create external links can manipulate the “consolenewsection” parameter in the http post request while creating external links to perform stored XSS attacks. The vulnerability known as XSS (Cross-Site Scripting) occurs when an application allows untrusted user input to be displayed on a web page without proper validation or escaping. This issue has been addressed in release version 1.2.28. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-43365",
+      "cveUrl": "/vuln/detail/CVE-2024-43365"
     }
   },
   "CVE-2024-43683": {
@@ -2087,6 +2175,17 @@
       "cveDis": "Delta Electronics DIAEnergie is vulnerable to an SQL injection in the script AM_RegReport.aspx. An unauthenticated attacker may be able to exploit this issue to obtain records contained in the targeted product.",
       "cveName": "CVE-2024-43699",
       "cveUrl": "/vuln/detail/CVE-2024-43699"
+    }
+  },
+  "CVE-2024-43789": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:16 PM -0400"
+      ],
+      "cveDis": "Discourse is an open source platform for community discussion. A user can create a post with many replies, and then attempt to fetch them all at once. This can potentially reduce the availability of a Discourse instance. This problem has been patched in the latest version of Discourse. All users area are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-43789",
+      "cveUrl": "/vuln/detail/CVE-2024-43789"
     }
   },
   "CVE-2024-43795": {
@@ -2375,6 +2474,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-44046"
     }
   },
+  "CVE-2024-44068": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "3:15:09 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in the m2m scaler driver in Samsung Mobile Processor and Wearable Processor Exynos 9820, 9825, 980, 990, 850,and W920. A Use-After-Free in the mobile processor leads to privilege escalation.",
+      "cveName": "CVE-2024-44068",
+      "cveUrl": "/vuln/detail/CVE-2024-44068"
+    }
+  },
   "CVE-2024-44097": {
     "cve": {
       "cveDate": [
@@ -2463,6 +2573,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-44610"
     }
   },
+  "CVE-2024-44674": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "2:15:04 PM -0400"
+      ],
+      "cveDis": "D-Link COVR-2600R FW101b05 is vulnerable to Buffer Overflow. In the function sub_24E28, the HTTP_REFERER is obtained through an environment variable, and this field is controllable, allowing it to be used as the value for src.",
+      "cveName": "CVE-2024-44674",
+      "cveUrl": "/vuln/detail/CVE-2024-44674"
+    }
+  },
   "CVE-2024-44744": {
     "cve": {
       "cveDate": [
@@ -2472,6 +2593,28 @@
       "cveDis": "An issue in Malwarebytes Premium Security v5.0.0.883 allows attackers to execute arbitrary code via placing crafted binaries into unspecified directories.",
       "cveName": "CVE-2024-44744",
       "cveUrl": "/vuln/detail/CVE-2024-44744"
+    }
+  },
+  "CVE-2024-45051": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:16 PM -0400"
+      ],
+      "cveDis": "Discourse is an open source platform for community discussion. A maliciously crafted email address could allow an attacker to bypass domain-based restrictions and gain access to private sites, categories and/or groups. This issue has been patched in the latest stable, beta and tests-passed version of Discourse. All users area are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-45051",
+      "cveUrl": "/vuln/detail/CVE-2024-45051"
+    }
+  },
+  "CVE-2024-45060": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:17 PM -0400"
+      ],
+      "cveDis": "PHPSpreadsheet is a pure PHP library for reading and writing spreadsheet files. One of the sample scripts in PhpSpreadsheet is susceptible to a cross-site scripting (XSS) vulnerability due to improper handling of input where a number is expected leading to formula injection. The code in in `45_Quadratic_equation_solver.php` concatenates the user supplied parameters directly into spreadsheet formulas. This allows an attacker to take control over the formula and output unsanitized data into the page, resulting in JavaScript execution. This issue has been addressed in release versions 1.29.2, 2.1.1, and 2.3.0. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-45060",
+      "cveUrl": "/vuln/detail/CVE-2024-45060"
     }
   },
   "CVE-2024-450734-8 MEDIUM": {
@@ -2606,6 +2749,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-45252"
     }
   },
+  "CVE-2024-45290": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:17 PM -0400"
+      ],
+      "cveDis": "PHPSpreadsheet is a pure PHP library for reading and writing spreadsheet files. It's possible for an attacker to construct an XLSX file which links media from external URLs. When opening the XLSX file, PhpSpreadsheet retrieves the image size and type by reading the file contents, if the provided path is a URL. By using specially crafted `php://filter` URLs an attacker can leak the contents of any file or URL. Note that this vulnerability is different from GHSA-w9xv-qf98-ccq4, and resides in a different component. An attacker can access any file on the server, or leak information form arbitrary URLs, potentially exposing sensitive information such as AWS IAM credentials. This issue has been addressed in release versions 1.29.2, 2.1.1, and 2.3.0. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-45290",
+      "cveUrl": "/vuln/detail/CVE-2024-45290"
+    }
+  },
+  "CVE-2024-45291": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:17 PM -0400"
+      ],
+      "cveDis": "PHPSpreadsheet is a pure PHP library for reading and writing spreadsheet files. It's possible for an attacker to construct an XLSX file that links images from arbitrary paths. When embedding images has been enabled in HTML writer with `$writer->setEmbedImages(true);` those files will be included in the output as `data:` URLs, regardless of the file's type. Also URLs can be used for embedding, resulting in a Server-Side Request Forgery vulnerability. When embedding images has been enabled, an attacker can read arbitrary files on the server and perform arbitrary HTTP GET requests. Note that any PHP protocol wrappers can be used, meaning that if for example the `expect://` wrapper is enabled, also remote code execution is possible. This issue has been addressed in release versions 1.29.2, 2.1.1, and 2.3.0. All users are advised to upgrade. there are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-45291",
+      "cveUrl": "/vuln/detail/CVE-2024-45291"
+    }
+  },
+  "CVE-2024-45292": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "PHPSpreadsheet is a pure PHP library for reading and writing spreadsheet files. `\\PhpOffice\\PhpSpreadsheet\\Writer\\Html` does not sanitize \"javascript:\" URLs from hyperlink `href` attributes, resulting in a Cross-Site Scripting vulnerability. This issue has been addressed in release versions 1.29.2, 2.1.1, and 2.3.0. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-45292",
+      "cveUrl": "/vuln/detail/CVE-2024-45292"
+    }
+  },
+  "CVE-2024-45293": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "PHPSpreadsheet is a pure PHP library for reading and writing spreadsheet files. The security scanner responsible for preventing XXE attacks in the XLSX reader can be bypassed by slightly modifying the XML structure, utilizing white-spaces. On servers that allow users to upload their own Excel (XLSX) sheets, Server files and sensitive information can be disclosed by providing a crafted sheet. The security scan function in src/PhpSpreadsheet/Reader/Security/XmlScanner.php contains a flawed XML encoding check to retrieve the input file's XML encoding in the toUtf8 function. The function searches for the XML encoding through a defined regex which looks for `encoding=\"*\"` and/or `encoding='*'`, if not found, it defaults to the UTF-8 encoding which bypasses the conversion logic. This logic can be used to pass a UTF-7 encoded XXE payload, by utilizing a whitespace before or after the = in the attribute definition. Sensitive information disclosure through the XXE on sites that allow users to upload their own excel spreadsheets, and parse them using PHPSpreadsheet's Excel parser. This issue has been addressed in release versions 1.29.1, 2.1.1, and 2.3.0. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-45293",
+      "cveUrl": "/vuln/detail/CVE-2024-45293"
+    }
+  },
+  "CVE-2024-45297": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:17 PM -0400"
+      ],
+      "cveDis": "Discourse is an open source platform for community discussion. Users can see topics with a hidden tag if they know the label/name of that tag. This issue has been patched in the latest stable, beta and tests-passed version of Discourse. All users area are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-45297",
+      "cveUrl": "/vuln/detail/CVE-2024-45297"
+    }
+  },
   "CVE-2024-45367": {
     "cve": {
       "cveDate": [
@@ -2714,6 +2912,50 @@
       "cveDis": "Bandisoft BandiView 7.05 is vulnerable to Buffer Overflow via sub_0x410d1d. The vulnerability occurs due to insufficient validation of PSD files.",
       "cveName": "CVE-2024-45872",
       "cveUrl": "/vuln/detail/CVE-2024-45872"
+    }
+  },
+  "CVE-2024-45873": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "A DLL hijacking vulnerability in VegaBird Yaazhini 2.0.2 allows attackers to execute arbitrary code / maintain persistence via placing a crafted DLL file in the same directory as Yaazhini.exe.",
+      "cveName": "CVE-2024-45873",
+      "cveUrl": "/vuln/detail/CVE-2024-45873"
+    }
+  },
+  "CVE-2024-45874": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A DLL hijacking vulnerability in VegaBird Vooki 5.2.9 allows attackers to execute arbitrary code / maintain persistence via placing a crafted DLL file in the same directory as Vooki.exe.",
+      "cveName": "CVE-2024-45874",
+      "cveUrl": "/vuln/detail/CVE-2024-45874"
+    }
+  },
+  "CVE-2024-45894": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "3:15:09 PM -0400"
+      ],
+      "cveDis": "BlueCMS 1.6 suffers from Arbitrary File Deletion via the file_name parameter in an /admin/database.php?act=del request.",
+      "cveName": "CVE-2024-45894",
+      "cveUrl": "/vuln/detail/CVE-2024-45894"
+    }
+  },
+  "CVE-2024-45919": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:18 PM -0400"
+      ],
+      "cveDis": "A security flaw has been discovered in Solvait version 24.4.2 that allows an attacker to elevate their privileges. By manipulating the Request ID and Action Type parameters in /AssignToMe/SetAction, an attacker can bypass approval workflows leading to unauthorized access to sensitive information or approval of fraudulent requests.",
+      "cveName": "CVE-2024-45919",
+      "cveUrl": "/vuln/detail/CVE-2024-45919"
     }
   },
   "CVE-2024-45920": {
@@ -2846,6 +3088,17 @@
       "cveDis": "IoT Haat Smart Plug IH-IN-16A-S v5.16.1 is vulnerable to Authentication Bypass by Capture-replay.",
       "cveName": "CVE-2024-46041",
       "cveUrl": "/vuln/detail/CVE-2024-46041"
+    }
+  },
+  "CVE-2024-46076": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "2:15:04 PM -0400"
+      ],
+      "cveDis": "RuoYi v4.7.9 and before has a security flaw that allows escaping from comments within the code generation feature, enabling the injection of malicious code.",
+      "cveName": "CVE-2024-46076",
+      "cveUrl": "/vuln/detail/CVE-2024-46076"
     }
   },
   "CVE-2024-46077": {
@@ -3363,6 +3616,17 @@
       "cveDis": "OSS Endpoint Manager is an endpoint manager module for FreePBX. OSS Endpoint Manager module activation can allow authenticated web users unauthorized access to read system files with the permissions of the webserver process. This vulnerability is fixed in 14.0.4.",
       "cveName": "CVE-2024-47071",
       "cveUrl": "/vuln/detail/CVE-2024-47071"
+    }
+  },
+  "CVE-2024-47079": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Meshtastic is an open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices. Meshtastic firmware is an open source firmware implementation for the broader project. The remote hardware module of the firmware does not have proper checks to ensure a remote hardware control message was received should be considered valid. This issue has been addressed in release version 2.5.1. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47079",
+      "cveUrl": "/vuln/detail/CVE-2024-47079"
     }
   },
   "CVE-2024-47134": {
@@ -4377,6 +4641,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-47554"
     }
   },
+  "CVE-2024-47555": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "2:15:04 PM -0400"
+      ],
+      "cveDis": "Missing Authentication - User & System Configuration",
+      "cveName": "CVE-2024-47555",
+      "cveUrl": "/vuln/detail/CVE-2024-47555"
+    }
+  },
+  "CVE-2024-47556": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "Pre-Auth RCE via Path Traversal",
+      "cveName": "CVE-2024-47556",
+      "cveUrl": "/vuln/detail/CVE-2024-47556"
+    }
+  },
+  "CVE-2024-47557": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "Pre-Auth RCE via Path Traversal",
+      "cveName": "CVE-2024-47557",
+      "cveUrl": "/vuln/detail/CVE-2024-47557"
+    }
+  },
+  "CVE-2024-47558": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "Authenticated RCE via Path Traversal",
+      "cveName": "CVE-2024-47558",
+      "cveUrl": "/vuln/detail/CVE-2024-47558"
+    }
+  },
+  "CVE-2024-47559": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "Authenticated RCE via Path Traversal",
+      "cveName": "CVE-2024-47559",
+      "cveUrl": "/vuln/detail/CVE-2024-47559"
+    }
+  },
   "CVE-2024-47560": {
     "cve": {
       "cveDate": [
@@ -4430,6 +4749,17 @@
       "cveDis": "Tonic is a native gRPC client & server implementation with async/await support. When using tonic::transport::Server there is a remote DoS attack that can cause the server to exit cleanly on accepting a TCP/TLS stream. This can be triggered by causing the accept call to error out with errors that were not covered correctly causing the accept loop to exit. Upgrading to tonic 0.12.3 and above contains the fix.",
       "cveName": "CVE-2024-47609",
       "cveUrl": "/vuln/detail/CVE-2024-47609"
+    }
+  },
+  "CVE-2024-47610": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:18 PM -0400"
+      ],
+      "cveDis": "InvenTree is an Open Source Inventory Management System. In affected versions of InvenTree it is possible for a registered user to store javascript in markdown notes fields, which are then displayed to other logged in users who visit the same page and executed. The vulnerability has been addressed as follows: 1. HTML sanitization has been enabled in the front-end markdown rendering library - `easymde`. 2. Stored markdown is also validated on the backend, to ensure that malicious markdown is not stored in the database. These changes are available in release versions 0.16.5 and later. All users are advised to upgrade. There are no workarounds, an update is required to get the new validation functions.",
+      "cveName": "CVE-2024-47610",
+      "cveUrl": "/vuln/detail/CVE-2024-47610"
     }
   },
   "CVE-2024-47611": {
@@ -4883,6 +5213,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-47769"
     }
   },
+  "CVE-2024-47772": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:18 PM -0400"
+      ],
+      "cveDis": "Discourse is an open source platform for community discussion. An attacker can execute arbitrary JavaScript on users' browsers by sending a maliciously crafted chat message and replying to it. This issue only affects sites with CSP disabled. This problem is patched in the latest version of Discourse. All users are advised to upgrade. Users unable to upgrade should ensure CSP is enabled on the forum. Users who do upgrade should also consider enabling a CSP as well as a proactive measure.",
+      "cveName": "CVE-2024-47772",
+      "cveUrl": "/vuln/detail/CVE-2024-47772"
+    }
+  },
+  "CVE-2024-47781": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "CreateWiki is an extension used at Miraheze for requesting & creating wikis. The name of requested wikis is not escaped on Special:RequestWikiQueue, so a user can insert arbitrary HTML that is displayed in the request wiki queue when requesting a wiki. If a wiki creator comes across the XSS payload, their user session can be abused to retrieve deleted wiki requests, which typically contains private information. Likewise, this can also be abused on those with the ability to suppress requests to view sensitive information. This issue has been patched with commit `693a220` and all users are advised to apply the patch. Users unable to upgrade should disable Javascript and/or prevent access to the vulnerable page (Special:RequestWikiQueue).",
+      "cveName": "CVE-2024-47781",
+      "cveUrl": "/vuln/detail/CVE-2024-47781"
+    }
+  },
+  "CVE-2024-47782": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "WikiDiscover is an extension designed for use with a CreateWiki managed farm to display wikis. Special:WikiDiscover is a special page that lists all wikis on the wiki farm. However, the special page does not make any effort to escape the wiki name or description. Therefore, if a wiki sets its name and/or description to an XSS payload, the XSS will execute whenever the wiki is shown on Special:WikiDiscover. This issue has been patched with commit `2ce846dd93` and all users are advised to apply that patch. User unable to upgrade should block access to `Special:WikiDiscover`.",
+      "cveName": "CVE-2024-47782",
+      "cveUrl": "/vuln/detail/CVE-2024-47782"
+    }
+  },
   "CVE-2024-47789": {
     "cve": {
       "cveDate": [
@@ -4958,6 +5321,39 @@
       "cveDis": "Jenkins OpenId Connect Authentication Plugin 4.354.v321ce67a_1de8 and earlier does not check the `iss` (Issuer) claim of an ID Token, allowing attackers to subvert the authentication flow, potentially gaining administrator access to Jenkins.",
       "cveName": "CVE-2024-47807",
       "cveUrl": "/vuln/detail/CVE-2024-47807"
+    }
+  },
+  "CVE-2024-47814": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Vim is an open source, command line text editor. A use-after-free was found in Vim < 9.1.0764. When closing a buffer (visible in a window) a BufWinLeave auto command can cause an use-after-free if this auto command happens to re-open the same buffer in a new split window. Impact is low since the user must have intentionally set up such a strange auto command and run some buffer unload commands. However this may lead to a crash. This issue has been addressed in version 9.1.0764 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47814",
+      "cveUrl": "/vuln/detail/CVE-2024-47814"
+    }
+  },
+  "CVE-2024-47817": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Lara-zeus Dynamic Dashboard simple way to manage widgets for your website landing page, and filament dashboard and Lara-zeus artemis is a collection of themes for the lara-zeus ecosystem. If values passed to a paragraph widget are not valid and contain a specific set of characters, applications are vulnerable to XSS attack against a user who opens a page on which a paragraph widget is rendered. Users are advised to upgrade to the appropriate fix versions detailed in the advisory metadata. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47817",
+      "cveUrl": "/vuln/detail/CVE-2024-47817"
+    }
+  },
+  "CVE-2024-47818": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Saltcorn is an extensible, open source, no-code database application builder. A logged-in user with any role can delete arbitrary files on the filesystem by calling the `sync/clean_sync_dir` endpoint. The `dir_name` POST parameter is not validated/sanitized and is used to construct the `syncDir` that is deleted by calling `fs.rm`. This issue has been addressed in release version 1.0.0-beta16 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47818",
+      "cveUrl": "/vuln/detail/CVE-2024-47818"
     }
   },
   "CVE-2024-47840": {
@@ -5101,6 +5497,105 @@
       "cveDis": "An issue was discovered in the AbuseFilter extension for MediaWiki before 1.39.9, 1.40.x and 1.41.x before 1.41.3, and 1.42.x before 1.42.2. An API caller can match a filter condition against AbuseFilter logs even if the caller is not authorized to view the log details for the filter.",
       "cveName": "CVE-2024-47913",
       "cveUrl": "/vuln/detail/CVE-2024-47913"
+    }
+  },
+  "CVE-2024-47967": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:18 PM -0400"
+      ],
+      "cveDis": "Improper resource initialization handling in firmware of some Solidigm DC Products may allow an attacker to potentially enable denial of service.",
+      "cveName": "CVE-2024-47967",
+      "cveUrl": "/vuln/detail/CVE-2024-47967"
+    }
+  },
+  "CVE-2024-47968": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Improper resource shutdown in middle of certain operations on some Solidigm DC Products may allow an attacker to potentially enable denial of service.",
+      "cveName": "CVE-2024-47968",
+      "cveUrl": "/vuln/detail/CVE-2024-47968"
+    }
+  },
+  "CVE-2024-47969": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Improper resource management in firmware of some Solidigm DC Products may allow an attacker to potentially enable denial of service.",
+      "cveName": "CVE-2024-47969",
+      "cveUrl": "/vuln/detail/CVE-2024-47969"
+    }
+  },
+  "CVE-2024-47971": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Improper error handling in firmware of some SSD DC Products may allow an attacker to enable denial of service.",
+      "cveName": "CVE-2024-47971",
+      "cveUrl": "/vuln/detail/CVE-2024-47971"
+    }
+  },
+  "CVE-2024-47972": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Improper resource management in firmware of some Solidigm DC Products may allow an attacker to potentially control the performance of the resource.",
+      "cveName": "CVE-2024-47972",
+      "cveUrl": "/vuln/detail/CVE-2024-47972"
+    }
+  },
+  "CVE-2024-47973": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:18 PM -0400"
+      ],
+      "cveDis": "In some Solidigm DC Products, a defect in device overprovisioning may provide information disclosure to an attacker.",
+      "cveName": "CVE-2024-47973",
+      "cveUrl": "/vuln/detail/CVE-2024-47973"
+    }
+  },
+  "CVE-2024-47974": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "5:15:18 PM -0400"
+      ],
+      "cveDis": "Race condition during resource shutdown in some Solidigm DC Products may allow an attacker to potentially enable denial of service.",
+      "cveName": "CVE-2024-47974",
+      "cveUrl": "/vuln/detail/CVE-2024-47974"
+    }
+  },
+  "CVE-2024-47975": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "Improper access control validation in firmware of some Solidigm DC Products may allow an attacker with physical access to gain unauthorized access or an attacker with local access to potentially enable denial of service.",
+      "cveName": "CVE-2024-47975",
+      "cveUrl": "/vuln/detail/CVE-2024-47975"
+    }
+  },
+  "CVE-2024-47976": {
+    "cve": {
+      "cveDate": [
+        "October 07, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Improper access removal handling in firmware of some Solidigm DC Products may allow an attacker with physical access to gain unauthorized access.",
+      "cveName": "CVE-2024-47976",
+      "cveUrl": "/vuln/detail/CVE-2024-47976"
     }
   },
   "CVE-2024-5803": {
