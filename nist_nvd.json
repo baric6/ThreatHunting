@@ -10,6 +10,17 @@
       "cveUrl": "/vuln/detail/CVE-2021-37577"
     }
   },
+  "CVE-2022-45345-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:07 AM -0400"
+      ],
+      "cveDis": "The Limit Login Attempts (Spam Protection) plugin for WordPress is vulnerable to IP Address Spoofing in versions up to, and including, 5.3. This is due to insufficient restrictions on where the IP Address information is being retrieved for request logging and login restrictions. Attackers can supply the X-Forwarded-For header with with a different IP Address that will be logged and can be used to bypass settings that may have blocked out an IP address or country from logging in.",
+      "cveName": "CVE-2022-45345-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2022-4534"
+    }
+  },
   "CVE-2023-26770": {
     "cve": {
       "cveDate": [
@@ -52,6 +63,17 @@
       "cveDis": "Eufy HomeBase 2 model T8010X v3.2.8.3h was discovered to use the deprecated wireless protocol WPA2-PSK.",
       "cveName": "CVE-2023-37822",
       "cveUrl": "/vuln/detail/CVE-2023-37822"
+    }
+  },
+  "CVE-2023-52952": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:10 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in HiMed Cockpit 12 pro (J31032-K2017-H259) (All versions >= V11.5.1 < V11.6.2), HiMed Cockpit 14 pro+ (J31032-K2017-H435) (All versions >= V11.5.1 < V11.6.2), HiMed Cockpit 18 pro (J31032-K2017-H260) (All versions >= V11.5.1 < V11.6.2), HiMed Cockpit 18 pro+ (J31032-K2017-H436) (All versions >= V11.5.1 < V11.6.2). The Kiosk Mode of the affected devices contains a restricted desktop environment escape vulnerability. This could allow an unauthenticated local attacker to escape the restricted environment and gain access to the underlying operating system.",
+      "cveName": "CVE-2023-52952",
+      "cveUrl": "/vuln/detail/CVE-2023-52952"
     }
   },
   "CVE-2023-6361": {
@@ -679,6 +701,28 @@
       "cveDis": "All versions of the package git-shallow-clone are vulnerable to Command injection due to missing sanitization or mitigation flags in the process variable of the gitShallowClone function.",
       "cveName": "CVE-2024-21531",
       "cveUrl": "/vuln/detail/CVE-2024-21531"
+    }
+  },
+  "CVE-2024-21532": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "1:15:13 AM -0400"
+      ],
+      "cveDis": "All versions of the package ggit are vulnerable to Command Injection via the fetchTags(branch) API, which allows user input to specify the branch to be fetched and then concatenates this string along with a git command which is then passed to the unsafe exec() Node.js child process API.",
+      "cveName": "CVE-2024-21532",
+      "cveUrl": "/vuln/detail/CVE-2024-21532"
+    }
+  },
+  "CVE-2024-21533": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "1:15:14 AM -0400"
+      ],
+      "cveDis": "All versions of the package ggit are vulnerable to Arbitrary Argument Injection via the clone() API, which allows specifying the remote URL to clone and the file on disk to clone to. The library does not sanitize for user input or validate a given URL scheme, nor does it properly pass command-line flags to the git binary using the double-dash POSIX characters (--) to communicate the end of options.",
+      "cveName": "CVE-2024-21533",
+      "cveUrl": "/vuln/detail/CVE-2024-21533"
     }
   },
   "CVE-2024-233697-8 HIGH": {
@@ -1407,6 +1451,138 @@
       "cveUrl": "/vuln/detail/CVE-2024-34542"
     }
   },
+  "CVE-2024-34662": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:03 AM -0400"
+      ],
+      "cveDis": "Improper access control in ActivityManager prior to SMR Oct-2024 Release 1 in select Android 12, 13 and SMR Sep-2024 Release 1 in select Android 14 allows local attackers to execute privileged behaviors.",
+      "cveName": "CVE-2024-34662",
+      "cveUrl": "/vuln/detail/CVE-2024-34662"
+    }
+  },
+  "CVE-2024-34663": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:03 AM -0400"
+      ],
+      "cveDis": "Integer overflow in libSEF.quram.so prior to SMR Oct-2024 Release 1 allows local attackers to write out-of-bounds memory.",
+      "cveName": "CVE-2024-34663",
+      "cveUrl": "/vuln/detail/CVE-2024-34663"
+    }
+  },
+  "CVE-2024-34664": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:03 AM -0400"
+      ],
+      "cveDis": "Improper check for exception conditions in Knox Guard prior to SMR Oct-2024 Release 1 allows physical attackers to bypass Knox Guard in a multi-user environment.",
+      "cveName": "CVE-2024-34664",
+      "cveUrl": "/vuln/detail/CVE-2024-34664"
+    }
+  },
+  "CVE-2024-34665": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:04 AM -0400"
+      ],
+      "cveDis": "Out-of-bounds write in parsing h.264 format in librtppayload.so prior to SMR Oct-2024 Release 1 allows remote attackers to execute arbitrary code with system privilege. User interaction is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-34665",
+      "cveUrl": "/vuln/detail/CVE-2024-34665"
+    }
+  },
+  "CVE-2024-34666": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:04 AM -0400"
+      ],
+      "cveDis": "Out-of-bounds write in parsing h.264 format in a specific mode in librtppayload.so prior to SMR Oct-2024 Release 1 allows remote attackers to execute arbitrary code with system privilege. User interaction is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-34666",
+      "cveUrl": "/vuln/detail/CVE-2024-34666"
+    }
+  },
+  "CVE-2024-34667": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:04 AM -0400"
+      ],
+      "cveDis": "Out-of-bounds write in parsing h.265 format in librtppayload.so prior to SMR Oct-2024 Release 1 allows remote attackers to execute arbitrary code with system privilege. User interaction is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-34667",
+      "cveUrl": "/vuln/detail/CVE-2024-34667"
+    }
+  },
+  "CVE-2024-34668": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:04 AM -0400"
+      ],
+      "cveDis": "Out-of-bounds write in parsing h.263 format in librtppayload.so prior to SMR Oct-2024 Release 1 allows remote attackers to execute arbitrary code with system privilege. User interaction is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-34668",
+      "cveUrl": "/vuln/detail/CVE-2024-34668"
+    }
+  },
+  "CVE-2024-34669": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:05 AM -0400"
+      ],
+      "cveDis": "Out-of-bounds write in parsing h.263+ format in librtppayload.so prior to SMR Oct-2024 Release 1 allows remote attackers to execute arbitrary code with system privilege. User interaction is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-34669",
+      "cveUrl": "/vuln/detail/CVE-2024-34669"
+    }
+  },
+  "CVE-2024-34670": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:05 AM -0400"
+      ],
+      "cveDis": "Use of implicit intent for sensitive communication in Sound Assistant prior to version 6.1.0.9 allows local attackers to get sensitive information.",
+      "cveName": "CVE-2024-34670",
+      "cveUrl": "/vuln/detail/CVE-2024-34670"
+    }
+  },
+  "CVE-2024-34671": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:05 AM -0400"
+      ],
+      "cveDis": "Use of implicit intent for sensitive communication in translation혻in Samsung Internet prior to version 26.0.3.1 allows local attackers to get sensitive information. User interaction is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-34671",
+      "cveUrl": "/vuln/detail/CVE-2024-34671"
+    }
+  },
+  "CVE-2024-34672": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:05 AM -0400"
+      ],
+      "cveDis": "Improper input validation in SamsungVideoPlayer prior to versions 7.3.29.1 in Android 12, 7.3.36.1 in Android 13, and 7.3.41.230 in Android 14 allows local attackers to access video file of other users.",
+      "cveName": "CVE-2024-34672",
+      "cveUrl": "/vuln/detail/CVE-2024-34672"
+    }
+  },
+  "CVE-2024-3506": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "A possible buffer overflow in selected cameras' drivers from XProtect Device Pack can allow an attacker with access to internal network to execute commands on Recording Server under strict conditions.",
+      "cveName": "CVE-2024-3506",
+      "cveUrl": "/vuln/detail/CVE-2024-3506"
+    }
+  },
   "CVE-2024-352939-1 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -1913,6 +2089,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-41673"
     }
   },
+  "CVE-2024-41798": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:11 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in SENTRON 7KM PAC3200 (All versions). Affected devices only provide a 4-digit PIN to protect from administrative access via Modbus TCP interface. Attackers with access to the Modbus TCP interface could easily bypass this protection by brute-force attacks or by sniffing the Modbus clear text communication.",
+      "cveName": "CVE-2024-41798",
+      "cveUrl": "/vuln/detail/CVE-2024-41798"
+    }
+  },
+  "CVE-2024-41902": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:11 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in JT2Go (All versions < V2406.0003). The affected application contains a stack-based buffer overflow vulnerability that could be triggered while parsing specially crafted PDF files. This could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-41902",
+      "cveUrl": "/vuln/detail/CVE-2024-41902"
+    }
+  },
   "CVE-2024-419227-5 HIGH": {
     "cve": {
       "cveDate": [
@@ -1933,6 +2131,17 @@
       "cveDis": "The web service for ONS-S8 - Spectra Aggregation Switch includes functions which do not properly validate user input, allowing an attacker to traverse directories, bypass authentication, and execute remote code.",
       "cveName": "CVE-2024-41925",
       "cveUrl": "/vuln/detail/CVE-2024-41925"
+    }
+  },
+  "CVE-2024-41981": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:11 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Simcenter Nastran 2306 (All versions), Simcenter Nastran 2312 (All versions), Simcenter Nastran 2406 (All versions < V2406.5000). The affected application is vulnerable to heap-based buffer overflow while parsing specially crafted BDF files. This could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-41981",
+      "cveUrl": "/vuln/detail/CVE-2024-41981"
     }
   },
   "CVE-2024-41987": {
@@ -2837,6 +3046,160 @@
       "cveUrl": "/vuln/detail/CVE-2024-45454"
     }
   },
+  "CVE-2024-45463": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:12 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted WRL files. This could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45463",
+      "cveUrl": "/vuln/detail/CVE-2024-45463"
+    }
+  },
+  "CVE-2024-45464": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:12 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted WRL files. This could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45464",
+      "cveUrl": "/vuln/detail/CVE-2024-45464"
+    }
+  },
+  "CVE-2024-45465": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:12 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted WRL files. This could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45465",
+      "cveUrl": "/vuln/detail/CVE-2024-45465"
+    }
+  },
+  "CVE-2024-45466": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:12 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted WRL files. This could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45466",
+      "cveUrl": "/vuln/detail/CVE-2024-45466"
+    }
+  },
+  "CVE-2024-45467": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:13 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected application is vulnerable to memory corruption while parsing specially crafted WRL files. This could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45467",
+      "cveUrl": "/vuln/detail/CVE-2024-45467"
+    }
+  },
+  "CVE-2024-45468": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:13 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected application is vulnerable to memory corruption while parsing specially crafted WRL files. This could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45468",
+      "cveUrl": "/vuln/detail/CVE-2024-45468"
+    }
+  },
+  "CVE-2024-45469": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:13 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected applications contain an out of bounds write vulnerability when parsing a specially crafted WRL file.\nThis could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45469",
+      "cveUrl": "/vuln/detail/CVE-2024-45469"
+    }
+  },
+  "CVE-2024-45470": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:13 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected applications contain an out of bounds write vulnerability when parsing a specially crafted WRL file.\nThis could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45470",
+      "cveUrl": "/vuln/detail/CVE-2024-45470"
+    }
+  },
+  "CVE-2024-45471": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected applications contain an out of bounds write vulnerability when parsing a specially crafted WRL file.\nThis could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45471",
+      "cveUrl": "/vuln/detail/CVE-2024-45471"
+    }
+  },
+  "CVE-2024-45472": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected application is vulnerable to memory corruption while parsing specially crafted WRL files. An attacker could leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45472",
+      "cveUrl": "/vuln/detail/CVE-2024-45472"
+    }
+  },
+  "CVE-2024-45473": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected application is vulnerable to memory corruption while parsing specially crafted WRL files. An attacker could leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45473",
+      "cveUrl": "/vuln/detail/CVE-2024-45473"
+    }
+  },
+  "CVE-2024-45474": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:15 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected application is vulnerable to memory corruption while parsing specially crafted WRL files. An attacker could leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45474",
+      "cveUrl": "/vuln/detail/CVE-2024-45474"
+    }
+  },
+  "CVE-2024-45475": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:15 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected application is vulnerable to memory corruption while parsing specially crafted WRL files. An attacker could leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+      "cveName": "CVE-2024-45475",
+      "cveUrl": "/vuln/detail/CVE-2024-45475"
+    }
+  },
+  "CVE-2024-45476": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:15 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0016), Tecnomatix Plant Simulation V2404 (All versions < V2404.0005). The affected applications contain a null pointer dereference vulnerability while parsing specially crafted WRL files. An attacker could leverage this vulnerability to crash the application causing denial of service condition.",
+      "cveName": "CVE-2024-45476",
+      "cveUrl": "/vuln/detail/CVE-2024-45476"
+    }
+  },
   "CVE-2024-45519": {
     "cve": {
       "cveDate": [
@@ -3563,6 +3926,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-46869"
     }
   },
+  "CVE-2024-46886": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:16 AM -0400"
+      ],
+      "cveDis": "The web server of affected devices does not properly validate input that is used for a user redirection. This could allow an attacker to make the server redirect the legitimate user to an attacker-chosen URL. For a successful exploit, the legitimate user must actively click on an attacker-crafted link.",
+      "cveName": "CVE-2024-46886",
+      "cveUrl": "/vuln/detail/CVE-2024-46886"
+    }
+  },
+  "CVE-2024-46887": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:16 AM -0400"
+      ],
+      "cveDis": "The web server of affected devices do not properly authenticate user request to the '/ClientArea/RuntimeInfoData.mwsl' endpoint. This could allow an unauthenticated remote attacker to gain knowledge about current actual and configured maximum cycle times as well as about configured maximum communication load.",
+      "cveName": "CVE-2024-46887",
+      "cveUrl": "/vuln/detail/CVE-2024-46887"
+    }
+  },
   "CVE-2024-46977": {
     "cve": {
       "cveDate": [
@@ -3572,6 +3957,17 @@
       "cveDis": "OpenC3 COSMOS provides the functionality needed to send commands to and receive data from one or more embedded systems. A path traversal vulnerability inside of LocalMode's open_local_file method allows an authenticated user with adequate permissions to download any .txt via the ScreensController#show on the web server COSMOS is running on (depending on the file permissions). This vulnerability is fixed in 5.19.0.",
       "cveName": "CVE-2024-46977",
       "cveUrl": "/vuln/detail/CVE-2024-46977"
+    }
+  },
+  "CVE-2024-47046": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:16 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Simcenter Nastran 2306 (All versions), Simcenter Nastran 2312 (All versions), Simcenter Nastran 2406 (All versions < V2406.5000). The affected application is vulnerable to memory corruption while parsing specially crafted BDF files. This could allow an attacker to execute code in the context of the current process.",
+      "cveName": "CVE-2024-47046",
+      "cveUrl": "/vuln/detail/CVE-2024-47046"
     }
   },
   "CVE-2024-47063": {
@@ -3627,6 +4023,17 @@
       "cveDis": "Meshtastic is an open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices. Meshtastic firmware is an open source firmware implementation for the broader project. The remote hardware module of the firmware does not have proper checks to ensure a remote hardware control message was received should be considered valid. This issue has been addressed in release version 2.5.1. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-47079",
       "cveUrl": "/vuln/detail/CVE-2024-47079"
+    }
+  },
+  "CVE-2024-47095": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in Follet School Solutions Destiny before v22.0.1 AU1 allows a remote attacker to run arbitrary client-side code via the expiredSupportMessage parameter of handleloginform.do.",
+      "cveName": "CVE-2024-47095",
+      "cveUrl": "/vuln/detail/CVE-2024-47095"
     }
   },
   "CVE-2024-47134": {
@@ -3704,6 +4111,39 @@
       "cveDis": "Filament is a collection of full-stack components for Laravel development. Versions of Filament from v3.0.0 through v3.2.114 are affected by a cross-site scripting (XSS) vulnerability. If values passed to a `ColorColumn` or `ColumnEntry` are not valid and contain a specific set of characters, applications are vulnerable to XSS attack against a user who opens a page on which a color column or entry is rendered. Filament v3.2.115 fixes this issue.",
       "cveName": "CVE-2024-47186",
       "cveUrl": "/vuln/detail/CVE-2024-47186"
+    }
+  },
+  "CVE-2024-47194": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:17 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in ModelSim (All versions < V2024.3), Questa (All versions < V2024.3). vish2.exe in affected applications allows a specific DLL file to be loaded from the current working directory. This could allow an authenticated local attacker to inject arbitrary code and escalate privileges in installations where administrators or processes with elevated privileges launch vish2.exe from a user-writable directory.",
+      "cveName": "CVE-2024-47194",
+      "cveUrl": "/vuln/detail/CVE-2024-47194"
+    }
+  },
+  "CVE-2024-47195": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:17 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in ModelSim (All versions < V2024.3), Questa (All versions < V2024.3). gdb.exe in affected applications allows a specific executable file to be loaded from the current working directory. This could allow an authenticated local attacker to inject arbitrary code and escalate privileges in installations where administrators or processes with elevated privileges launch gdb.exe from a user-writable directory.",
+      "cveName": "CVE-2024-47195",
+      "cveUrl": "/vuln/detail/CVE-2024-47195"
+    }
+  },
+  "CVE-2024-47196": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:17 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in ModelSim (All versions < V2024.3), Questa (All versions < V2024.3). vsimk.exe in affected applications allows a specific tcl file to be loaded from the current working directory. This could allow an authenticated local attacker to inject arbitrary code and escalate privileges in installations where administrators or processes with elevated privileges launch vsimk.exe from a user-writable directory.",
+      "cveName": "CVE-2024-47196",
+      "cveUrl": "/vuln/detail/CVE-2024-47196"
     }
   },
   "CVE-2024-47211": {
@@ -4630,6 +5070,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47536"
     }
   },
+  "CVE-2024-47553": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:17 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Siemens SINEC Security Monitor (All versions < V4.9.0). The affected application does not properly validate user input to the ```ssmctl-client``` command.\nThis could allow an authenticated, lowly privileged remote attacker to execute arbitrary code with root privileges on the underlying OS.",
+      "cveName": "CVE-2024-47553",
+      "cveUrl": "/vuln/detail/CVE-2024-47553"
+    }
+  },
   "CVE-2024-47554": {
     "cve": {
       "cveDate": [
@@ -4716,6 +5167,50 @@
       "cveDis": "Schema parsing in the Java SDK of Apache Avro 1.11.3 and previous versions allows bad actors to execute arbitrary code.\nUsers are recommended to upgrade to version 1.11.4  or 1.12.0, which fix this issue.",
       "cveName": "CVE-2024-47561",
       "cveUrl": "/vuln/detail/CVE-2024-47561"
+    }
+  },
+  "CVE-2024-47562": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:18 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Siemens SINEC Security Monitor (All versions < V4.9.0). The affected application does not properly neutralize special elements in user input to the ```ssmctl-client``` command.\nThis could allow an authenticated, lowly privileged local attacker to execute privileged commands in the underlying OS.",
+      "cveName": "CVE-2024-47562",
+      "cveUrl": "/vuln/detail/CVE-2024-47562"
+    }
+  },
+  "CVE-2024-47563": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:18 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Siemens SINEC Security Monitor (All versions < V4.9.0). The affected application does not properly validate a file path that is supplied to an endpoint intended to create CSR files.\nThis could allow an unauthenticated remote attacker to create files in writable directories outside the intended location and thus compromise integrity of files in those writable directories.",
+      "cveName": "CVE-2024-47563",
+      "cveUrl": "/vuln/detail/CVE-2024-47563"
+    }
+  },
+  "CVE-2024-47565": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:18 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in Siemens SINEC Security Monitor (All versions < V4.9.0). The affected application does not properly validate that user input complies with a list of allowed values.\nThis could allow an authenticated remote attacker to compromise the integrity of the configuration of the affected application.",
+      "cveName": "CVE-2024-47565",
+      "cveUrl": "/vuln/detail/CVE-2024-47565"
+    }
+  },
+  "CVE-2024-47594": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "12:15:09 AM -0400"
+      ],
+      "cveDis": "SAP NetWeaver Enterprise Portal (KMC) does not sufficiently encode user-controlled inputs, resulting in Cross-Site Scripting vulnerability in KMC servlet. An attacker could craft a script and trick the user into clicking it. When a victim who is registered on the portal clicks on such link, confidentiality and integrity of their web browser session could be compromised.",
+      "cveName": "CVE-2024-47594",
+      "cveUrl": "/vuln/detail/CVE-2024-47594"
     }
   },
   "CVE-2024-47604": {
@@ -5708,6 +6203,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-6981"
     }
   },
+  "CVE-2024-7206": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:06 AM -0400"
+      ],
+      "cveDis": "SSL Pinning Bypass in eWeLink Some hardware products allows local ATTACKER to Decrypt TLS communication and Extract secrets to clone the device via Flash the modified firmware",
+      "cveName": "CVE-2024-7206",
+      "cveUrl": "/vuln/detail/CVE-2024-7206"
+    }
+  },
   "CVE-2024-7315": {
     "cve": {
       "cveDate": [
@@ -6093,6 +6599,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8421"
     }
   },
+  "CVE-2024-8422": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "CWE-416: Use After Free vulnerability exists that could cause arbitrary code execution, denial\nof service and loss of confidentiality & integrity when application user opens a malicious Zelio\nSoft 2 project file.",
+      "cveName": "CVE-2024-8422",
+      "cveUrl": "/vuln/detail/CVE-2024-8422"
+    }
+  },
   "CVE-2024-84305-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -6102,6 +6619,17 @@
       "cveDis": "The Spice Starter Sites plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the spice_starter_sites_importer_creater function in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to import demo content.",
       "cveName": "CVE-2024-84305-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8430"
+    }
+  },
+  "CVE-2024-84336-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "The Easy Mega Menu Plugin for WordPress – ThemeHunk plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘themehunk_megamenu_bg_image' parameter in all versions up to, and including, 1.1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Please note that this was partially fixed in 1.1.0 due to the missing authorization protection that was added.",
+      "cveName": "CVE-2024-84336-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8433"
     }
   },
   "CVE-2024-84488-8 HIGH": {
@@ -6280,6 +6808,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8508"
     }
   },
+  "CVE-2024-8518": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "CWE-20: Improper Input Validation vulnerability exists that could cause a crash of the Zelio Soft\n2 application when a specially crafted project file is loaded by an application user.",
+      "cveName": "CVE-2024-8518",
+      "cveUrl": "/vuln/detail/CVE-2024-8518"
+    }
+  },
   "CVE-2024-85196-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -6333,6 +6872,17 @@
       "cveDis": "The KB Support – WordPress Help Desk and Knowledge Base plugin for WordPress is vulnerable to unauthorized modification and loss of data due to a missing capability check on several functions in all versions up to, and including, 1.6.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to perform multiple administrative actions, such as replying to arbitrary tickets, updating the status of any post, deleting any post, adding notes to tickets, flagging or unflagging tickets, and adding or removing ticket participants.",
       "cveName": "CVE-2024-85488-1 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-8548"
+    }
+  },
+  "CVE-2024-86296-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "The WooCommerce Multilingual & Multicurrency with WPML plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 5.3.7. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-86296-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8629"
     }
   },
   "CVE-2024-8630": {
@@ -6544,6 +7094,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-8885"
     }
   },
+  "CVE-2024-89119-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:19 AM -0400"
+      ],
+      "cveDis": "The LatePoint plugin for WordPress is vulnerable to Arbitrary User Password Change via SQL Injection in versions up to, and including, 5.0.11. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to change user passwords and potentially take over administrator accounts. Note that changing a WordPress user's password is only possible if the \"Use WordPress users as customers\" setting is enabled, which is disabled by default. Without this setting enabled, only the passwords of plugin customers, which are stored and managed in a separate database table, can be modified.",
+      "cveName": "CVE-2024-89119-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-8911"
+    }
+  },
+  "CVE-2024-8925": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "12:15:09 AM -0400"
+      ],
+      "cveDis": "In PHP versions 8.1.* before 8.1.30, 8.2.* before 8.2.24, 8.3.* before 8.3.12, erroneous parsing of multipart form data contained in an HTTP POST request could lead to legitimate data not being processed. This could lead to malicious attacker able to control part of the submitted data being able to exclude portion of other data, potentially leading to erroneous application behavior.",
+      "cveName": "CVE-2024-8925",
+      "cveUrl": "/vuln/detail/CVE-2024-8925"
+    }
+  },
+  "CVE-2024-8926": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "12:15:10 AM -0400"
+      ],
+      "cveDis": "In PHP versions 8.1.* before 8.1.30, 8.2.* before 8.2.24, 8.3.* before 8.3.12, when using a certain non-standard configurations of Windows codepages, the fixes for  CVE-2024-4577 https://github.com/advisories/GHSA-vxpp-6299-mxw3  may still be bypassed and the same command injection related to Windows \"Best Fit\" codepage behavior can be achieved. This may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.",
+      "cveName": "CVE-2024-8926",
+      "cveUrl": "/vuln/detail/CVE-2024-8926"
+    }
+  },
+  "CVE-2024-8927": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "12:15:10 AM -0400"
+      ],
+      "cveDis": "In PHP versions 8.1.* before 8.1.30, 8.2.* before 8.2.24, 8.3.* before 8.3.12, HTTP_REDIRECT_STATUS variable is used to check whether or not CGI binary is being run by the HTTP server. However, in certain scenarios, the content of this variable can be controlled by the request submitter via HTTP headers, which can lead to cgi.force_redirect option not being correctly applied. In certain configurations this may lead to arbitrary file inclusion in PHP.",
+      "cveName": "CVE-2024-8927",
+      "cveUrl": "/vuln/detail/CVE-2024-8927"
+    }
+  },
+  "CVE-2024-89439-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "5:15:19 AM -0400"
+      ],
+      "cveDis": "The LatePoint plugin for WordPress is vulnerable to authentication bypass in versions up to, and including,  5.0.12. This is due to insufficient verification on the user being supplied during the booking customer step. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the user id. Note that logging in as a WordPress user is only possible if the \"Use WordPress users as customers\" setting is enabled, which is disabled by default. The vulnerability is partially patched in version 5.0.12 and fully patched in version 5.0.13.",
+      "cveName": "CVE-2024-89439-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-8943"
+    }
+  },
+  "CVE-2024-89646-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "The Image Optimizer, Resizer and CDN – Sirv plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 7.2.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-89646-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8964"
+    }
+  },
   "CVE-2024-89676-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -6564,6 +7180,17 @@
       "cveDis": "The Broken Link Checker plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg in /app/admin-notices/features/class-view.php without appropriate escaping on the URL in all versions up to, and including, 2.4.0. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-89817-1 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-8981"
+    }
+  },
+  "CVE-2024-8983": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:02 AM -0400"
+      ],
+      "cveDis": "Custom Twitter Feeds  WordPress plugin before 2.2.3 is not filtering some of its settings allowing high privilege users to inject scripts.",
+      "cveName": "CVE-2024-8983",
+      "cveUrl": "/vuln/detail/CVE-2024-8983"
     }
   },
   "CVE-2024-8989": {
@@ -6599,6 +7226,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9018"
     }
   },
+  "CVE-2024-9021": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:02 AM -0400"
+      ],
+      "cveDis": "In the process of testing the Relevanssi  WordPress plugin before 4.23.1, a vulnerability was found that allows you to implement Stored XSS on behalf of the Contributor+ by embedding malicious script, which entails account takeover backdoor",
+      "cveName": "CVE-2024-9021",
+      "cveUrl": "/vuln/detail/CVE-2024-9021"
+    }
+  },
   "CVE-2024-90236-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -6608,6 +7246,17 @@
       "cveDis": "The WP-WebAuthn plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wwa_login_form shortcode in all versions up to, and including, 1.3.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-90236-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9023"
+    }
+  },
+  "CVE-2024-9026": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "12:15:11 AM -0400"
+      ],
+      "cveDis": "In PHP versions 8.1.* before 8.1.30, 8.2.* before 8.2.24, 8.3.* before 8.3.12, when using PHP-FPM SAPI and it is configured to catch workers output through catch_workers_output = yes, it may be possible to pollute the final log or remove up to 4 characters from the log messages by manipulating log message content. Additionally, if PHP-FPM is configured to use syslog output, it may be possible to further remove log data using the same vulnerability.",
+      "cveName": "CVE-2024-9026",
+      "cveUrl": "/vuln/detail/CVE-2024-9026"
     }
   },
   "CVE-2024-9054": {
@@ -7015,6 +7664,17 @@
       "cveDis": "A vulnerability classified as problematic has been found in kalvinGit kvf-admin up to f12a94dc1ebb7d1c51ee978a85e4c7ed75c620ff. Affected is an unknown function of the file /ueditor/upload?configPath=ueditor/config.json&action=uploadfile of the component XML File Handler. The manipulation of the argument upfile leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The GitHub repository of the project did not receive an update for more than two years.",
       "cveName": "CVE-2024-9291",
       "cveUrl": "/vuln/detail/CVE-2024-9291"
+    }
+  },
+  "CVE-2024-9292": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:02 AM -0400"
+      ],
+      "cveDis": "The Bridge Core plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'formforall' shortcode in versions up to, and including, 3.2.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-9292",
+      "cveUrl": "/vuln/detail/CVE-2024-9292"
     }
   },
   "CVE-2024-9293": {
