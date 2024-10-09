@@ -54,6 +54,28 @@
       "cveUrl": "/vuln/detail/CVE-2023-3441"
     }
   },
+  "CVE-2023-36325": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "2:15:11 AM -0400"
+      ],
+      "cveDis": "i2p before 2.3.0 (Java) allows de-anonymizing the public IPv4 and IPv6 addresses of i2p hidden services (aka eepsites) via a correlation attack across the IPv4 and IPv6 addresses that occurs when a tunneled, replayed message has a behavior discrepancy (it may be dropped, or may result in a Wrong Destination response). An attack would take days to complete.",
+      "cveName": "CVE-2023-36325",
+      "cveUrl": "/vuln/detail/CVE-2023-36325"
+    }
+  },
+  "CVE-2023-37154": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "2:15:12 AM -0400"
+      ],
+      "cveDis": "check_by_ssh in Nagios nagios-plugins 2.4.5 allows arbitrary command execution via ProxyCommand, LocalCommand, and PermitLocalCommand with \\${IFS}. This has been categorized both as fixed in e8810de, and as intended behavior.",
+      "cveName": "CVE-2023-37154",
+      "cveUrl": "/vuln/detail/CVE-2023-37154"
+    }
+  },
   "CVE-2023-37822": {
     "cve": {
       "cveDate": [
@@ -63,6 +85,50 @@
       "cveDis": "Eufy HomeBase 2 model T8010X v3.2.8.3h was discovered to use the deprecated wireless protocol WPA2-PSK.",
       "cveName": "CVE-2023-37822",
       "cveUrl": "/vuln/detail/CVE-2023-37822"
+    }
+  },
+  "CVE-2023-45359": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "2:15:13 AM -0400"
+      ],
+      "cveDis": "An issue was discovered in the Vector Skin component for MediaWiki before 1.39.5 and 1.40.x before 1.40.1. vector-toc-toggle-button-label is not escaped, but should be, because the line param can have markup.",
+      "cveName": "CVE-2023-45359",
+      "cveUrl": "/vuln/detail/CVE-2023-45359"
+    }
+  },
+  "CVE-2023-45361": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "2:15:13 AM -0400"
+      ],
+      "cveDis": "An issue was discovered in VectorComponentUserLinks.php in the Vector Skin component in MediaWiki before 1.39.5 and 1.40.x before 1.40.1. vector-intro-page MalformedTitleException is uncaught if it is not a valid title, leading to incorrect web pages.",
+      "cveName": "CVE-2023-45361",
+      "cveUrl": "/vuln/detail/CVE-2023-45361"
+    }
+  },
+  "CVE-2023-45872": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "2:15:13 AM -0400"
+      ],
+      "cveDis": "An issue was discovered in Qt before 6.2.11 and 6.3.x through 6.6.x before 6.6.1. When a QML image refers to an image whose content is not known yet, there is an assumption that it is an SVG document, leading to a denial of service (application crash) if it is not actually an SVG document.",
+      "cveName": "CVE-2023-45872",
+      "cveUrl": "/vuln/detail/CVE-2023-45872"
+    }
+  },
+  "CVE-2023-46586": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "2:15:13 AM -0400"
+      ],
+      "cveDis": "cgi.c in weborf .0.17, 0.18, 0.19, and 0.20 (before 1.0) lacks '\\0' termination of the path for CGI scripts because strncpy is misused.",
+      "cveName": "CVE-2023-46586",
+      "cveUrl": "/vuln/detail/CVE-2023-46586"
     }
   },
   "CVE-2023-52952": {
@@ -659,6 +725,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-20524"
     }
   },
+  "CVE-2024-207875-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "5:15:05 AM -0400"
+      ],
+      "cveDis": "Substance3D - Painter versions 10.0.1 and earlier are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-207875-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-20787"
+    }
+  },
   "CVE-2024-214557-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -954,6 +1031,61 @@
       "cveDis": "A remote code execution vulnerability in the project management of Wanxing Technology's Yitu project which allows an attacker to use the exp.adpx file as a zip compressed file to construct a special file name, which can be used to decompress the project file into the system startup folder, restart the system, and automatically execute the constructed attack script.",
       "cveName": "CVE-2024-24122",
       "cveUrl": "/vuln/detail/CVE-2024-24122"
+    }
+  },
+  "CVE-2024-25282": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "12:15:07 AM -0400"
+      ],
+      "cveDis": "3DSecure 2.0 allows XSS in its 3DSMethod Authentication via a modified params parameter in a /rest/online request with a /redirect?action=challenge&txn= substring.",
+      "cveName": "CVE-2024-25282",
+      "cveUrl": "/vuln/detail/CVE-2024-25282"
+    }
+  },
+  "CVE-2024-25283": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "12:15:07 AM -0400"
+      ],
+      "cveDis": "3DSecure 2.0 allows reflected XSS in the 3DS Authorization Challenge via a modified params parameter in a /rest/online request with a /redirect?action=challenge&txn= substring.",
+      "cveName": "CVE-2024-25283",
+      "cveUrl": "/vuln/detail/CVE-2024-25283"
+    }
+  },
+  "CVE-2024-25284": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "12:15:07 AM -0400"
+      ],
+      "cveDis": "3DSecure 2.0 allows reflected XSS in the 3DS Authorization Method via the threeDsMethod.jsp threeDSMethodData parameter.",
+      "cveName": "CVE-2024-25284",
+      "cveUrl": "/vuln/detail/CVE-2024-25284"
+    }
+  },
+  "CVE-2024-25285": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "12:15:07 AM -0400"
+      ],
+      "cveDis": "3DSecure 2.0 allows form action hijacking via threeDsMethod.jsp?threeDSMethodData= or the threeDSMethodNotificationURL parameter. The destination web site for a form submission can be modified.",
+      "cveName": "CVE-2024-25285",
+      "cveUrl": "/vuln/detail/CVE-2024-25285"
+    }
+  },
+  "CVE-2024-25286": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "12:15:07 AM -0400"
+      ],
+      "cveDis": "3DSecure 2.0 allows CSRF in the Authorization Method via modified Origin and Referer HTTP headers.",
+      "cveName": "CVE-2024-25286",
+      "cveUrl": "/vuln/detail/CVE-2024-25286"
     }
   },
   "CVE-2024-25411": {
@@ -1308,6 +1440,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-31835"
     }
   },
+  "CVE-2024-32608": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "1:15:13 AM -0400"
+      ],
+      "cveDis": "HDF5 library through 1.14.3 has memory corruption in H5A__close resulting in the corruption of the instruction pointer and causing denial of service or potential code execution.",
+      "cveName": "CVE-2024-32608",
+      "cveUrl": "/vuln/detail/CVE-2024-32608"
+    }
+  },
   "CVE-2024-33049": {
     "cve": {
       "cveDate": [
@@ -1616,6 +1759,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-3506"
     }
   },
+  "CVE-2024-35288": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "12:15:08 AM -0400"
+      ],
+      "cveDis": "Nitro PDF Pro before 13.70.8.82 and 14.x before 14.26.1.0 allows Local Privilege Escalation in the MSI Installer because custom actions occur unsafely in repair mode. CertUtil is run in a conhost.exe window, and there is a mechanism allowing CTRL+o to launch cmd.exe as NT AUTHORITY\\SYSTEM.",
+      "cveName": "CVE-2024-35288",
+      "cveUrl": "/vuln/detail/CVE-2024-35288"
+    }
+  },
   "CVE-2024-352939-1 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -1856,6 +2010,72 @@
       "cveDis": "Advantech ADAM-5630 \nhas built-in commands that can be executed without authenticating the \nuser. These commands allow for restarting the operating system, \nrebooting the hardware, and stopping the execution. The commands can be \nsent to a simple HTTP request and are executed by the device \nautomatically, without discrimination of origin or level of privileges \nof the user sending the commands.",
       "cveName": "CVE-2024-39364",
       "cveUrl": "/vuln/detail/CVE-2024-39364"
+    }
+  },
+  "CVE-2024-39436": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:06 AM -0400"
+      ],
+      "cveDis": "In linkturbonative service, there is a possible command injection due to improper input validation. This could lead to local escalation of privilege with System execution privileges needed.",
+      "cveName": "CVE-2024-39436",
+      "cveUrl": "/vuln/detail/CVE-2024-39436"
+    }
+  },
+  "CVE-2024-39437": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:08 AM -0400"
+      ],
+      "cveDis": "In linkturbonative service, there is a possible command injection due to improper input validation. This could lead to local escalation of privilege with System execution privileges needed.",
+      "cveName": "CVE-2024-39437",
+      "cveUrl": "/vuln/detail/CVE-2024-39437"
+    }
+  },
+  "CVE-2024-39438": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:08 AM -0400"
+      ],
+      "cveDis": "In linkturbonative service, there is a possible command injection due to improper input validation. This could lead to local escalation of privilege with System execution privileges needed.",
+      "cveName": "CVE-2024-39438",
+      "cveUrl": "/vuln/detail/CVE-2024-39438"
+    }
+  },
+  "CVE-2024-39439": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:08 AM -0400"
+      ],
+      "cveDis": "In DRM service, there is a possible out of bounds write due to a missing bounds check. This could lead to local denial of service with System execution privileges needed.",
+      "cveName": "CVE-2024-39439",
+      "cveUrl": "/vuln/detail/CVE-2024-39439"
+    }
+  },
+  "CVE-2024-39440": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:09 AM -0400"
+      ],
+      "cveDis": "In DRM service, there is a possible system crash due to null pointer dereference. This could lead to local denial of service with System execution privileges needed.",
+      "cveName": "CVE-2024-39440",
+      "cveUrl": "/vuln/detail/CVE-2024-39440"
+    }
+  },
+  "CVE-2024-39586": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:09 AM -0400"
+      ],
+      "cveDis": "Dell AppSync Server, version 4.3 through 4.6, contains an XML External Entity Injection vulnerability. An adjacent high privileged attacker could potentially exploit this vulnerability, leading to information disclosure.",
+      "cveName": "CVE-2024-39586",
+      "cveUrl": "/vuln/detail/CVE-2024-39586"
     }
   },
   "CVE-2024-397557-8 HIGH": {
@@ -2307,6 +2527,17 @@
       "cveDis": "A reflected cross-site scripting (XSS) vulnerability in Elaine's Realtime CRM Automation v6.18.17 allows attackers to execute arbitrary JavaScript code in the web browser of a user via injecting a crafted payload into the dialog parameter at wrapper_dialog.php.",
       "cveName": "CVE-2024-42831",
       "cveUrl": "/vuln/detail/CVE-2024-42831"
+    }
+  },
+  "CVE-2024-42934": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "1:15:13 AM -0400"
+      ],
+      "cveDis": "OpenIPMI before 2.0.36 has an out-of-bounds array access (for authentication type) in the ipmi_sim simulator, resulting in denial of service or (with very low probability) authentication bypass or code execution.",
+      "cveName": "CVE-2024-42934",
+      "cveUrl": "/vuln/detail/CVE-2024-42934"
     }
   },
   "CVE-2024-430477-8 HIGH": {
@@ -3431,6 +3662,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-45073"
     }
   },
+  "CVE-2024-451455-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:03 AM -0400"
+      ],
+      "cveDis": "Lightroom Desktop versions 7.4.1, 13.5, 12.5.1 and earlier are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-451455-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45145"
+    }
+  },
+  "CVE-2024-451467-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "5:15:05 AM -0400"
+      ],
+      "cveDis": "Dimension versions 4.0.3 and earlier are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-451467-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-45146"
+    }
+  },
+  "CVE-2024-45150": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "5:15:06 AM -0400"
+      ],
+      "cveDis": "Dimension versions 4.0.3 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-45150",
+      "cveUrl": "/vuln/detail/CVE-2024-45150"
+    }
+  },
   "CVE-2024-451535-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -3440,6 +3704,28 @@
       "cveDis": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim’s browser when they browse to the page containing the vulnerable field.",
       "cveName": "CVE-2024-451535-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-45153"
+    }
+  },
+  "CVE-2024-45160": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "1:15:13 AM -0400"
+      ],
+      "cveDis": "Incorrect credential validation in LemonLDAP::NG 2.18.x and 2.19.x before 2.19.2 allows attackers to bypass OAuth2 client authentication via an empty client_password parameter (client secret).",
+      "cveName": "CVE-2024-45160",
+      "cveUrl": "/vuln/detail/CVE-2024-45160"
+    }
+  },
+  "CVE-2024-45179": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "12:15:09 AM -0400"
+      ],
+      "cveDis": "An issue was discovered in za-internet C-MOR Video Surveillance 5.2401 and 6.00PL01. Due to insufficient input validation, the C-MOR web interface is vulnerable to OS command injection attacks. It was found out that different functionality is vulnerable to OS command injection attacks, for example for generating new X.509 certificates, or setting the time zone. These OS command injection vulnerabilities in the script generatesslreq.pml can be exploited as a low-privileged authenticated user to execute commands in the context of the Linux user www-data via shell metacharacters in HTTP POST data (e.g., the city parameter). The OS command injection vulnerability in the script settimezone.pml or setdatetime.pml (e.g., via the year parameter) requires an administrative user for the C-MOR web interface. By also exploiting a privilege-escalation vulnerability, it is possible to execute commands on the C-MOR system with root privileges.",
+      "cveName": "CVE-2024-45179",
+      "cveUrl": "/vuln/detail/CVE-2024-45179"
     }
   },
   "CVE-2024-45186": {
@@ -4850,6 +5136,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47186"
     }
   },
+  "CVE-2024-47191": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "1:15:13 AM -0400"
+      ],
+      "cveDis": "pam_oath.so in oath-toolkit 2.6.7 through 2.6.11 before 2.6.12 allows root privilege escalation because, in the context of PAM code running as root, it mishandles usersfile access, such as by calling fchown in the presence of a symlink.",
+      "cveName": "CVE-2024-47191",
+      "cveUrl": "/vuln/detail/CVE-2024-47191"
+    }
+  },
   "CVE-2024-47194": {
     "cve": {
       "cveDate": [
@@ -5673,6 +5970,127 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in moveaddons Move Addons for Elementor allows Stored XSS.This issue affects Move Addons for Elementor: from n/a through 1.3.3.",
       "cveName": "CVE-2024-47396",
       "cveUrl": "/vuln/detail/CVE-2024-47396"
+    }
+  },
+  "CVE-2024-474107-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by a Stack-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474107-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47410"
+    }
+  },
+  "CVE-2024-474117-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by an Access of Uninitialized Pointer vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474117-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47411"
+    }
+  },
+  "CVE-2024-474127-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474127-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47412"
+    }
+  },
+  "CVE-2024-474137-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474137-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47413"
+    }
+  },
+  "CVE-2024-474147-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474147-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47414"
+    }
+  },
+  "CVE-2024-474157-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474157-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47415"
+    }
+  },
+  "CVE-2024-474167-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by an Integer Overflow or Wraparound vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474167-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47416"
+    }
+  },
+  "CVE-2024-474177-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:06 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474177-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47417"
+    }
+  },
+  "CVE-2024-474187-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:06 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474187-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47418"
+    }
+  },
+  "CVE-2024-47419": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:06 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-47419",
+      "cveUrl": "/vuln/detail/CVE-2024-47419"
+    }
+  },
+  "CVE-2024-474205-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:06 AM -0400"
+      ],
+      "cveDis": "Animate versions 23.0.7, 24.0.4 and earlier are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474205-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47420"
     }
   },
   "CVE-2024-47523": {
@@ -6927,6 +7345,17 @@
       "cveDis": "The AVGUI.exe of AVG/Avast Antivirus before versions before 24.1 can allow a local attacker to escalate privileges via an COM hijack in a time-of-check to time-of-use (TOCTOU) when self protection is disabled.",
       "cveName": "CVE-2024-5803",
       "cveUrl": "/vuln/detail/CVE-2024-5803"
+    }
+  },
+  "CVE-2024-5968": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "2:15:13 AM -0400"
+      ],
+      "cveDis": "The Photo Gallery by 10Web  WordPress plugin before 1.8.28 does not properly sanitise and escape some of its Gallery settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)",
+      "cveName": "CVE-2024-5968",
+      "cveUrl": "/vuln/detail/CVE-2024-5968"
     }
   },
   "CVE-2024-6051": {
@@ -9426,6 +9855,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-9445"
     }
   },
+  "CVE-2024-94496-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:09 AM -0400"
+      ],
+      "cveDis": "The Auto iFrame plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'tag' parameter in all versions up to, and including, 1.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-94496-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9449"
+    }
+  },
+  "CVE-2024-94516-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "The Embed PDF Viewer plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'height' and 'width' parameters in all versions up to, and including, 2.4.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-94516-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9451"
+    }
+  },
   "CVE-2024-94556-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9875,6 +10326,17 @@
       "cveDis": "SQL injection vulnerability in SOPlanning <1.45, via /soplanning/www/user_groupes.php in the by parameter, which could allow a remote user to submit a specially crafted query, allowing an attacker to retrieve all the information stored in the DB.",
       "cveName": "CVE-2024-9574",
       "cveUrl": "/vuln/detail/CVE-2024-9574"
+    }
+  },
+  "CVE-2024-9575": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "6:15:06 AM -0400"
+      ],
+      "cveDis": "Local File Inclusion vulnerability in pretix Widget WordPress plugin pretix-widget on Windows allows PHP Local File Inclusion. This issue affects pretix Widget WordPress plugin: from 1.0.0 through 1.0.5.",
+      "cveName": "CVE-2024-9575",
+      "cveUrl": "/vuln/detail/CVE-2024-9575"
     }
   },
   "CVE-2024-9576": {
