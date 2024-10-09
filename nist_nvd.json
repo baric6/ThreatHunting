@@ -1099,6 +1099,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-25707"
     }
   },
+  "CVE-2024-27457": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "Improper check for unusual or exceptional conditions in Intel(R) TDX Module firmware before version 1.5.06 may allow a privileged user to potentially enable information disclosure via local access.",
+      "cveName": "CVE-2024-27457",
+      "cveUrl": "/vuln/detail/CVE-2024-27457"
+    }
+  },
   "CVE-2024-27458": {
     "cve": {
       "cveDate": [
@@ -1658,6 +1669,17 @@
       "cveDis": "An integer overflow vulnerability exists in the Compound Document Binary File format parser of the GNOME Project G Structured File Library (libgsf) version v1.14.52. A specially crafted file can result in an integer overflow when processing the directory from the file that allows for an out-of-bounds index to be used when reading and writing to an array. This can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.",
       "cveName": "CVE-2024-364748-4 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-36474"
+    }
+  },
+  "CVE-2024-36814": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "An arbitrary file read vulnerability in Adguard Home before v0.107.52 allows authenticated attackers to access arbitrary files as root on the underlying Operating System via placing a crafted file into a readable directory.",
+      "cveName": "CVE-2024-36814",
+      "cveUrl": "/vuln/detail/CVE-2024-36814"
     }
   },
   "CVE-2024-37187": {
@@ -2340,6 +2362,545 @@
       "cveDis": "Cacti is an open source performance and fault management framework. The`consolenewsection` parameter is not properly sanitized when saving external links in links.php . Morever, the said consolenewsection parameter is stored in the database and reflected back to user in `index.php`, finally leading to stored XSS. Users with the privilege to create external links can manipulate the “consolenewsection” parameter in the http post request while creating external links to perform stored XSS attacks. The vulnerability known as XSS (Cross-Site Scripting) occurs when an application allows untrusted user input to be displayed on a web page without proper validation or escaping. This issue has been addressed in release version 1.2.28. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-43365",
       "cveUrl": "/vuln/detail/CVE-2024-43365"
+    }
+  },
+  "CVE-2024-435465-6 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:19 PM -0400"
+      ],
+      "cveDis": "Windows Cryptographic Information Disclosure Vulnerability",
+      "cveName": "CVE-2024-435465-6 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43546"
+    }
+  },
+  "CVE-2024-435476-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:20 PM -0400"
+      ],
+      "cveDis": "Windows Kerberos Information Disclosure Vulnerability",
+      "cveName": "CVE-2024-435476-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43547"
+    }
+  },
+  "CVE-2024-435498-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:20 PM -0400"
+      ],
+      "cveDis": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435498-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43549"
+    }
+  },
+  "CVE-2024-435507-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:20 PM -0400"
+      ],
+      "cveDis": "Windows Secure Channel Spoofing Vulnerability",
+      "cveName": "CVE-2024-435507-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43550"
+    }
+  },
+  "CVE-2024-435517-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:20 PM -0400"
+      ],
+      "cveDis": "Windows Storage Elevation of Privilege Vulnerability",
+      "cveName": "CVE-2024-435517-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43551"
+    }
+  },
+  "CVE-2024-435527-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:20 PM -0400"
+      ],
+      "cveDis": "Windows Shell Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435527-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43552"
+    }
+  },
+  "CVE-2024-435537-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:21 PM -0400"
+      ],
+      "cveDis": "NT OS Kernel Elevation of Privilege Vulnerability",
+      "cveName": "CVE-2024-435537-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43553"
+    }
+  },
+  "CVE-2024-435545-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:21 PM -0400"
+      ],
+      "cveDis": "Windows Kernel-Mode Driver Information Disclosure Vulnerability",
+      "cveName": "CVE-2024-435545-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43554"
+    }
+  },
+  "CVE-2024-435556-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:21 PM -0400"
+      ],
+      "cveDis": "Windows Mobile Broadband Driver Denial of Service Vulnerability",
+      "cveName": "CVE-2024-435556-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43555"
+    }
+  },
+  "CVE-2024-435567-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:21 PM -0400"
+      ],
+      "cveDis": "Windows Graphics Component Elevation of Privilege Vulnerability",
+      "cveName": "CVE-2024-435567-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43556"
+    }
+  },
+  "CVE-2024-435576-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:22 PM -0400"
+      ],
+      "cveDis": "Windows Mobile Broadband Driver Denial of Service Vulnerability",
+      "cveName": "CVE-2024-435576-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43557"
+    }
+  },
+  "CVE-2024-435586-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:22 PM -0400"
+      ],
+      "cveDis": "Windows Mobile Broadband Driver Denial of Service Vulnerability",
+      "cveName": "CVE-2024-435586-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43558"
+    }
+  },
+  "CVE-2024-435596-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:22 PM -0400"
+      ],
+      "cveDis": "Windows Mobile Broadband Driver Denial of Service Vulnerability",
+      "cveName": "CVE-2024-435596-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43559"
+    }
+  },
+  "CVE-2024-435607-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:22 PM -0400"
+      ],
+      "cveDis": "Microsoft Windows Storage Port Driver Elevation of Privilege Vulnerability",
+      "cveName": "CVE-2024-435607-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43560"
+    }
+  },
+  "CVE-2024-435616-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:22 PM -0400"
+      ],
+      "cveDis": "Windows Mobile Broadband Driver Denial of Service Vulnerability",
+      "cveName": "CVE-2024-435616-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43561"
+    }
+  },
+  "CVE-2024-435627-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:23 PM -0400"
+      ],
+      "cveDis": "Windows Network Address Translation (NAT) Denial of Service Vulnerability",
+      "cveName": "CVE-2024-435627-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43562"
+    }
+  },
+  "CVE-2024-435637-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:23 PM -0400"
+      ],
+      "cveDis": "Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
+      "cveName": "CVE-2024-435637-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43563"
+    }
+  },
+  "CVE-2024-435648-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:23 PM -0400"
+      ],
+      "cveDis": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435648-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43564"
+    }
+  },
+  "CVE-2024-435657-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:23 PM -0400"
+      ],
+      "cveDis": "Windows Network Address Translation (NAT) Denial of Service Vulnerability",
+      "cveName": "CVE-2024-435657-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43565"
+    }
+  },
+  "CVE-2024-435677-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:24 PM -0400"
+      ],
+      "cveDis": "Windows Hyper-V Denial of Service Vulnerability",
+      "cveName": "CVE-2024-435677-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43567"
+    }
+  },
+  "CVE-2024-435706-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:24 PM -0400"
+      ],
+      "cveDis": "Windows Kernel Elevation of Privilege Vulnerability",
+      "cveName": "CVE-2024-435706-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43570"
+    }
+  },
+  "CVE-2024-435715-6 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:24 PM -0400"
+      ],
+      "cveDis": "Sudo for Windows Spoofing Vulnerability",
+      "cveName": "CVE-2024-435715-6 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43571"
+    }
+  },
+  "CVE-2024-435727-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:24 PM -0400"
+      ],
+      "cveDis": "Microsoft Management Console Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435727-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43572"
+    }
+  },
+  "CVE-2024-435736-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:24 PM -0400"
+      ],
+      "cveDis": "Windows MSHTML Platform Spoofing Vulnerability",
+      "cveName": "CVE-2024-435736-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43573"
+    }
+  },
+  "CVE-2024-435748-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:25 PM -0400"
+      ],
+      "cveDis": "Microsoft Speech Application Programming Interface (SAPI) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435748-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43574"
+    }
+  },
+  "CVE-2024-435757-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:25 PM -0400"
+      ],
+      "cveDis": "Windows Hyper-V Denial of Service Vulnerability",
+      "cveName": "CVE-2024-435757-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43575"
+    }
+  },
+  "CVE-2024-435767-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:25 PM -0400"
+      ],
+      "cveDis": "Microsoft Office Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435767-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43576"
+    }
+  },
+  "CVE-2024-435817-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:25 PM -0400"
+      ],
+      "cveDis": "Microsoft OpenSSH for Windows Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435817-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43581"
+    }
+  },
+  "CVE-2024-435828-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:25 PM -0400"
+      ],
+      "cveDis": "Remote Desktop Protocol Server Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435828-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43582"
+    }
+  },
+  "CVE-2024-435837-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:26 PM -0400"
+      ],
+      "cveDis": "Winlogon Elevation of Privilege Vulnerability",
+      "cveName": "CVE-2024-435837-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43583"
+    }
+  },
+  "CVE-2024-435847-7 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:26 PM -0400"
+      ],
+      "cveDis": "Windows Scripting Engine Security Feature Bypass Vulnerability",
+      "cveName": "CVE-2024-435847-7 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43584"
+    }
+  },
+  "CVE-2024-435855-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:26 PM -0400"
+      ],
+      "cveDis": "Code Integrity Guard Security Feature Bypass Vulnerability",
+      "cveName": "CVE-2024-435855-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43585"
+    }
+  },
+  "CVE-2024-435898-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:26 PM -0400"
+      ],
+      "cveDis": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435898-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43589"
+    }
+  },
+  "CVE-2024-435907-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:26 PM -0400"
+      ],
+      "cveDis": "Visual C++ Redistributable Installer Elevation of Privilege Vulnerability",
+      "cveName": "CVE-2024-435907-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43590"
+    }
+  },
+  "CVE-2024-435918-7 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:27 PM -0400"
+      ],
+      "cveDis": "Azure Command Line Integration (CLI) Elevation of Privilege Vulnerability",
+      "cveName": "CVE-2024-435918-7 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43591"
+    }
+  },
+  "CVE-2024-435928-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:27 PM -0400"
+      ],
+      "cveDis": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435928-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43592"
+    }
+  },
+  "CVE-2024-435938-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:27 PM -0400"
+      ],
+      "cveDis": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435938-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43593"
+    }
+  },
+  "CVE-2024-435998-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:27 PM -0400"
+      ],
+      "cveDis": "Remote Desktop Client Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435998-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43599"
+    }
+  },
+  "CVE-2024-436017-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:27 PM -0400"
+      ],
+      "cveDis": "Visual Studio Code for Linux Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-436017-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43601"
+    }
+  },
+  "CVE-2024-436035-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:28 PM -0400"
+      ],
+      "cveDis": "Visual Studio Collector Service Denial of Service Vulnerability",
+      "cveName": "CVE-2024-436035-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43603"
+    }
+  },
+  "CVE-2024-436045-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:28 PM -0400"
+      ],
+      "cveDis": "Outlook for Android Elevation of Privilege Vulnerability",
+      "cveName": "CVE-2024-436045-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43604"
+    }
+  },
+  "CVE-2024-436078-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:28 PM -0400"
+      ],
+      "cveDis": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-436078-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43607"
+    }
+  },
+  "CVE-2024-436088-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:28 PM -0400"
+      ],
+      "cveDis": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-436088-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43608"
+    }
+  },
+  "CVE-2024-436096-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:29 PM -0400"
+      ],
+      "cveDis": "Microsoft Office Spoofing Vulnerability",
+      "cveName": "CVE-2024-436096-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43609"
+    }
+  },
+  "CVE-2024-436118-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:29 PM -0400"
+      ],
+      "cveDis": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-436118-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43611"
+    }
+  },
+  "CVE-2024-436126-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:29 PM -0400"
+      ],
+      "cveDis": "Power BI Report Server Spoofing Vulnerability",
+      "cveName": "CVE-2024-436126-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43612"
+    }
+  },
+  "CVE-2024-436145-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:29 PM -0400"
+      ],
+      "cveDis": "Microsoft Defender for Endpoint for Linux Spoofing Vulnerability",
+      "cveName": "CVE-2024-436145-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43614"
+    }
+  },
+  "CVE-2024-436157-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:29 PM -0400"
+      ],
+      "cveDis": "Microsoft OpenSSH for Windows Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-436157-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43615"
+    }
+  },
+  "CVE-2024-436167-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:30 PM -0400"
+      ],
+      "cveDis": "Microsoft Office Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-436167-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43616"
     }
   },
   "CVE-2024-43683": {
@@ -3860,6 +4421,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46409"
     }
   },
+  "CVE-2024-46410": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:30 PM -0400"
+      ],
+      "cveDis": "PublicCMS V4.0.202406.d was discovered to contain a cross-site scripting (XSS) vulnerability via a crafted script to the Category Managment feature",
+      "cveName": "CVE-2024-46410",
+      "cveUrl": "/vuln/detail/CVE-2024-46410"
+    }
+  },
   "CVE-2024-46446": {
     "cve": {
       "cveDate": [
@@ -3935,6 +4507,17 @@
       "cveDis": "LoadZilla LLC LoadLogic v1.4.3 was discovered to contain insecure permissions vulnerability which allows a remote attacker to execute arbitrary code via the LogicLoadEc2DeployLambda and CredsGenFunction function.",
       "cveName": "CVE-2024-46511",
       "cveUrl": "/vuln/detail/CVE-2024-46511"
+    }
+  },
+  "CVE-2024-46539": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:30 PM -0400"
+      ],
+      "cveDis": "Insecure permissions in the Bluetooth Low Energy (BLE) component of Fire-Boltt Artillery Smart Watch NJ-R6E-10.3 allow attackers to cause a Denial of Service (DoS).",
+      "cveName": "CVE-2024-46539",
+      "cveUrl": "/vuln/detail/CVE-2024-46539"
     }
   },
   "CVE-2024-46540": {
@@ -5873,6 +6456,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-47772"
     }
   },
+  "CVE-2024-47773": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:30 PM -0400"
+      ],
+      "cveDis": "Discourse is an open source platform for community discussion. An attacker can make several XHR requests until the cache is poisoned with a response without any preloaded data. This issue only affects anonymous visitors of the site. This problem has been patched in the latest version of Discourse. Users are advised to upgrade. Users unable to upgrade should disable anonymous cache by setting the `DISCOURSE_DISABLE_ANON_CACHE` environment variable to a non-empty value.",
+      "cveName": "CVE-2024-47773",
+      "cveUrl": "/vuln/detail/CVE-2024-47773"
+    }
+  },
+  "CVE-2024-47780": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:30 PM -0400"
+      ],
+      "cveDis": "TYPO3 is a free and open source Content Management Framework. Backend users could see items in the backend page tree without having access if the mounts pointed to pages restricted for their user/group, or if no mounts were configured but the pages allowed access to \"everybody.\" However, affected users could not manipulate these pages. Users are advised to update to TYPO3 versions 10.4.46 ELTS, 11.5.40 LTS, 12.4.21 LTS, 13.3.1 that fix the problem described. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47780",
+      "cveUrl": "/vuln/detail/CVE-2024-47780"
+    }
+  },
   "CVE-2024-47781": {
     "cve": {
       "cveDate": [
@@ -6003,6 +6608,28 @@
       "cveDis": "Saltcorn is an extensible, open source, no-code database application builder. A logged-in user with any role can delete arbitrary files on the filesystem by calling the `sync/clean_sync_dir` endpoint. The `dir_name` POST parameter is not validated/sanitized and is used to construct the `syncDir` that is deleted by calling `fs.rm`. This issue has been addressed in release version 1.0.0-beta16 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-47818",
       "cveUrl": "/vuln/detail/CVE-2024-47818"
+    }
+  },
+  "CVE-2024-47822": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:31 PM -0400"
+      ],
+      "cveDis": "Directus is a real-time API and App dashboard for managing SQL database content. Access tokens from query strings are not redacted and are potentially exposed in system logs which may be persisted. The access token in `req.query` is not redacted when the `LOG_STYLE` is set to `raw`. If these logs are not properly sanitized or protected, an attacker with access to it can potentially gain administrative control, leading to unauthorized data access and manipulation. This impacts systems where the `LOG_STYLE` is set to `raw`. The `access_token` in the query could potentially be a long-lived static token. Users with impacted systems should rotate their static tokens if they were provided using query string. This vulnerability has been patched in release version 10.13.2 and subsequent releases as well. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47822",
+      "cveUrl": "/vuln/detail/CVE-2024-47822"
+    }
+  },
+  "CVE-2024-47823": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "2:15:31 PM -0400"
+      ],
+      "cveDis": "Livewire is a full-stack framework for Laravel that allows for dynamic UI components without leaving PHP. In livewire/livewire `< v3.5.2`, the file extension of an uploaded file is guessed based on the MIME type. As a result, the actual file extension from the file name is not validated. An attacker can therefore bypass the validation by uploading a file with a valid MIME type (e.g., `image/png`) and a “.php” file extension. If the following criteria are met, the attacker can carry out an RCE attack: 1. Filename is composed of the original file name using `$file->getClientOriginalName()`. 2. Files stored directly on your server in a public storage disk. 3. Webserver is configured to execute “.php” files. This issue has been addressed in release version 3.5.2. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47823",
+      "cveUrl": "/vuln/detail/CVE-2024-47823"
     }
   },
   "CVE-2024-47840": {
@@ -6608,6 +7235,17 @@
       "cveDis": "The 123.chat - Video Chat plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 1.3.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-78697-2 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-7869"
+    }
+  },
+  "CVE-2024-79636-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "10:15:33 PM -0400"
+      ],
+      "cveDis": "The CMSMasters Content Composer plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's multiple shortcodes in all versions up to, and including, 1.8.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-79636-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-7963"
     }
   },
   "CVE-2024-8037": {
@@ -8689,6 +9327,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9411"
     }
   },
+  "CVE-2024-9412": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "An improper authorization vulnerability exists in the Rockwell Automation affected products that could allow an unauthorized user to sign in. While removal of all role mappings is unlikely, it could occur in the case of unexpected or accidental removal by the administrator. If exploited, an unauthorized user could access data they previously but should no longer have access to.",
+      "cveName": "CVE-2024-9412",
+      "cveUrl": "/vuln/detail/CVE-2024-9412"
+    }
+  },
   "CVE-2024-94176-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9237,6 +9886,28 @@
       "cveDis": "Vulnerability in Distro Linux Workbooth v2.5 that allows to escalate privileges to the root user by manipulating the network configuration script.",
       "cveName": "CVE-2024-9576",
       "cveUrl": "/vuln/detail/CVE-2024-9576"
+    }
+  },
+  "CVE-2024-9602": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "7:15:12 PM -0400"
+      ],
+      "cveDis": "Type Confusion in V8 in Google Chrome prior to 129.0.6668.100 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-9602",
+      "cveUrl": "/vuln/detail/CVE-2024-9602"
+    }
+  },
+  "CVE-2024-9603": {
+    "cve": {
+      "cveDate": [
+        "October 08, 2024",
+        "7:15:13 PM -0400"
+      ],
+      "cveDis": "Type Confusion in V8 in Google Chrome prior to 129.0.6668.100 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-9603",
+      "cveUrl": "/vuln/detail/CVE-2024-9603"
     }
   },
   "CVE-2024-96205-3 MEDIUM": {
