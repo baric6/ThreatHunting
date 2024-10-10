@@ -802,6 +802,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-21533"
     }
   },
+  "CVE-2024-22068": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "Improper Privilege Management vulnerability in ZTE ZXR10 1800-2S series ,ZXR10 2800-4,ZXR10 3800-8,ZXR10 160 series on 64 bit allows Functionality Bypass.This issue affects ZXR10 1800-2S series ,ZXR10 2800-4,ZXR10 3800-8,ZXR10 160 series: V4.00.10 and earlier.",
+      "cveName": "CVE-2024-22068",
+      "cveUrl": "/vuln/detail/CVE-2024-22068"
+    }
+  },
   "CVE-2024-233697-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -3783,6 +3794,226 @@
       "cveUrl": "/vuln/detail/CVE-2024-45073"
     }
   },
+  "CVE-2024-451159-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:03 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Authentication vulnerability that could result in privilege escalation. An attacker could exploit this vulnerability to gain unauthorized access or elevated privileges within the application. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451159-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-45115"
+    }
+  },
+  "CVE-2024-451168-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:03 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by a Cross-Site Scripting (XSS) vulnerability that could be exploited to execute arbitrary code. If an admin attacker can trick a user into clicking a specially crafted link or submitting a form, malicious scripts may be executed within the context of the victim's browser and have high impact on confidentiality and integrity. Exploitation of this issue requires user interaction.",
+      "cveName": "CVE-2024-451168-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-45116"
+    }
+  },
+  "CVE-2024-451177-6 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Input Validation vulnerability that could lead to arbitrary file system read. An admin attacker could exploit this vulnerability to read files from the system outside of the intended directories via PHP filter chain and also can have a low-availability impact on the service. Exploitation of this issue does not require user interaction and scope is changed.",
+      "cveName": "CVE-2024-451177-6 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-45117"
+    }
+  },
+  "CVE-2024-451186-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have high impact on integrity. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451186-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45118"
+    }
+  },
+  "CVE-2024-451195-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by a Server-Side Request Forgery (SSRF) vulnerability that could lead to arbitrary file system read. A low-privilege authenticated attacker can force the application to make arbitrary requests via injection of arbitrary URLs and have a low impact on both confidentiality and integrity. Exploitation of this issue does not require user interaction and scope is changed.",
+      "cveName": "CVE-2024-451195-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45119"
+    }
+  },
+  "CVE-2024-451204-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by a Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability that could lead to a security feature bypass. An attacker could exploit this vulnerability to alter a condition between the check and the use of a resource, having a low impact on integrity. Exploitation of this issue requires user interaction.",
+      "cveName": "CVE-2024-451204-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45120"
+    }
+  },
+  "CVE-2024-45121": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-45121",
+      "cveUrl": "/vuln/detail/CVE-2024-45121"
+    }
+  },
+  "CVE-2024-451224-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on confidentiality. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451224-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45122"
+    }
+  },
+  "CVE-2024-451236-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by a reflected Cross-Site Scripting (XSS) vulnerability. If an attacker is able to convince a victim to visit a URL referencing a vulnerable page, malicious JavaScript content may be executed within the context of the victim's browser.",
+      "cveName": "CVE-2024-451236-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45123"
+    }
+  },
+  "CVE-2024-451245-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451245-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45124"
+    }
+  },
+  "CVE-2024-451254-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Incorrect Authorization vulnerability that could result in a security feature bypass. A low-privileged attacker could exploit this vulnerability to have a low impact on integrity. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451254-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45125"
+    }
+  },
+  "CVE-2024-451274-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:06 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an admin attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim’s browser when they browse to the page containing the vulnerable field.",
+      "cveName": "CVE-2024-451274-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45127"
+    }
+  },
+  "CVE-2024-451285-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:06 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Authorization vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity and availability. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451285-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45128"
+    }
+  },
+  "CVE-2024-451294-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:06 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in Privilege escalation. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451294-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45129"
+    }
+  },
+  "CVE-2024-451304-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:06 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451304-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45130"
+    }
+  },
+  "CVE-2024-451315-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:06 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Authorization vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on confidentiality and integrity. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451315-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45131"
+    }
+  },
+  "CVE-2024-45132": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:07 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Authorization vulnerability that could result in Privilege escalation. A low-privileged attacker could leverage this vulnerability to bypass security measures and affect confidentiality. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-45132",
+      "cveUrl": "/vuln/detail/CVE-2024-45132"
+    }
+  },
+  "CVE-2024-451332-7 LOW": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:07 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Information Exposure vulnerability that could result in a security feature bypass. An admin attacker could leverage this vulnerability to have a low impact on confidentiality which may aid in further attacks. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451332-7 LOW",
+      "cveUrl": "/vuln/detail/CVE-2024-45133"
+    }
+  },
+  "CVE-2024-451342-7 LOW": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:07 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Information Exposure vulnerability that could result in a security feature bypass. An admin attacker could leverage this vulnerability to have a low impact on confidentiality which may aid in further attacks. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451342-7 LOW",
+      "cveUrl": "/vuln/detail/CVE-2024-45134"
+    }
+  },
+  "CVE-2024-451352-7 LOW": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:07 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An admin attacker could leverage this vulnerability to bypass security measures and have a low impact on integrity. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451352-7 LOW",
+      "cveUrl": "/vuln/detail/CVE-2024-45135"
+    }
+  },
   "CVE-2024-451367-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -3880,6 +4111,28 @@
       "cveDis": "Dimension versions 4.0.3 and earlier are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
       "cveName": "CVE-2024-451467-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-45146"
+    }
+  },
+  "CVE-2024-451488-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:07 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Authentication vulnerability that could result in a security feature bypass. A low-privileged attacker could leverage this vulnerability to gain unauthorized access without proper credentials. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451488-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-45148"
+    }
+  },
+  "CVE-2024-451492-7 LOW": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:08 AM -0400"
+      ],
+      "cveDis": "Adobe Commerce versions 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 and earlier are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and have a low impact on confidentiality. Exploitation of this issue does not require user interaction.",
+      "cveName": "CVE-2024-451492-7 LOW",
+      "cveUrl": "/vuln/detail/CVE-2024-45149"
     }
   },
   "CVE-2024-45150": {
@@ -8128,6 +8381,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-6444"
     }
   },
+  "CVE-2024-6747": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "Information leakage in mknotifyd in Checkmk before 2.3.0p18, 2.2.0p36, 2.1.0p49 and in 2.0.0p39 (EOL) allows attacker to get potentially sensitive data",
+      "cveName": "CVE-2024-6747",
+      "cveUrl": "/vuln/detail/CVE-2024-6747"
+    }
+  },
   "CVE-2024-6981": {
     "cve": {
       "cveDate": [
@@ -8181,6 +8445,17 @@
       "cveDis": "In version v0.3.8 of open-webui, an improper privilege management vulnerability exists in the API endpoints GET /api/v1/documents/ and POST /rag/api/v1/doc. This vulnerability allows a lower-privileged user to access and overwrite files managed by a higher-privileged admin. By exploiting this vulnerability, an attacker can view metadata of files uploaded by an admin and overwrite these files, compromising the integrity and availability of the RAG models.",
       "cveName": "CVE-2024-7048",
       "cveUrl": "/vuln/detail/CVE-2024-7048"
+    }
+  },
+  "CVE-2024-7049": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "In version v0.3.8 of open-webui/open-webui, a vulnerability exists where a token is returned when a user with a pending role logs in. This allows the user to perform actions without admin confirmation, bypassing the intended approval process.",
+      "cveName": "CVE-2024-7049",
+      "cveUrl": "/vuln/detail/CVE-2024-7049"
     }
   },
   "CVE-2024-7206": {
@@ -9360,6 +9635,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8967"
     }
   },
+  "CVE-2024-8977": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:08 AM -0400"
+      ],
+      "cveDis": "An issue has been discovered in GitLab EE affecting all versions starting from 15.10 prior to 17.2.9, from 17.3 prior to 17.3.5, and from 17.4 prior to 17.4.2. Instances with Product Analytics Dashboard configured and enabled could be vulnerable to SSRF attacks.",
+      "cveName": "CVE-2024-8977",
+      "cveUrl": "/vuln/detail/CVE-2024-8977"
+    }
+  },
   "CVE-2024-89817-1 HIGH": {
     "cve": {
       "cveDate": [
@@ -9666,6 +9952,17 @@
       "cveDis": "Wiz Code Visual Studio Code extension in versions 1.0.0 up to 1.5.3 and Wiz (legacy) Visual Studio Code extension in versions 0.13.0 up to 0.17.8 are vulnerable to local command injection if the user opens a maliciously crafted Dockerfile located in a path that has been marked as a \"trusted folder\" within Visual Studio Code, and initiates a manual scan of the file.",
       "cveName": "CVE-2024-9145",
       "cveUrl": "/vuln/detail/CVE-2024-9145"
+    }
+  },
+  "CVE-2024-9156": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "2:15:11 AM -0400"
+      ],
+      "cveDis": "The TI WooCommerce Wishlist WordPress plugin through 2.8.2 is vulnerable to SQL Injection due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-9156",
+      "cveUrl": "/vuln/detail/CVE-2024-9156"
     }
   },
   "CVE-2024-9158": {
@@ -11505,6 +11802,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9581"
     }
   },
+  "CVE-2024-9596": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:08 AM -0400"
+      ],
+      "cveDis": "An issue has been discovered in GitLab EE affecting all versions starting from 16.6 prior to 17.2.9, from 17.3 prior to 17.3.5, and from 17.4 prior to 17.4.2. It was possible for an unauthenticated attacker to determine the GitLab version number for a GitLab instance.",
+      "cveName": "CVE-2024-9596",
+      "cveUrl": "/vuln/detail/CVE-2024-9596"
+    }
+  },
   "CVE-2024-9602": {
     "cve": {
       "cveDate": [
@@ -11560,6 +11868,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9622"
     }
   },
+  "CVE-2024-9623": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:08 AM -0400"
+      ],
+      "cveDis": "An issue was discovered in GitLab CE/EE affecting all versions starting from 8.16 prior to 17.2.9, starting from 17.3 prior to 17.3.5, and starting from 17.4 prior to 17.4.2, which allows deploy keys to push to an archived repository.",
+      "cveName": "CVE-2024-9623",
+      "cveUrl": "/vuln/detail/CVE-2024-9623"
+    }
+  },
   "CVE-2024-96715-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -11591,6 +11910,61 @@
       "cveDis": "The Notification for Telegram plugin for WordPress is vulnerable to unauthorized test message sending due to a missing capability check on the 'nftb_test_action' function in versions up to, and including, 3.3.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to send a test message via the Telegram Bot API to all users configured in the settings.",
       "cveName": "CVE-2024-9685",
       "cveUrl": "/vuln/detail/CVE-2024-9685"
+    }
+  },
+  "CVE-2024-9780": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "3:15:03 AM -0400"
+      ],
+      "cveDis": "ITS dissector crash in Wireshark 4.4.0 allows denial of service via packet injection or crafted capture file",
+      "cveName": "CVE-2024-9780",
+      "cveUrl": "/vuln/detail/CVE-2024-9780"
+    }
+  },
+  "CVE-2024-9781": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "3:15:04 AM -0400"
+      ],
+      "cveDis": "AppleTalk and RELOAD Framing dissector crash in Wireshark 4.4.0 and 4.2.0 to 4.2.7 allows denial of service via packet injection or crafted capture file",
+      "cveName": "CVE-2024-9781",
+      "cveUrl": "/vuln/detail/CVE-2024-9781"
+    }
+  },
+  "CVE-2024-9796": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "The WP-Advanced-Search WordPress plugin before 3.3.9.2 does not sanitize and escape the t parameter before using it in a SQL statement, allowing unauthenticated users to perform SQL injection attacks",
+      "cveName": "CVE-2024-9796",
+      "cveUrl": "/vuln/detail/CVE-2024-9796"
+    }
+  },
+  "CVE-2024-9798": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "The health endpoint is public so everybody can see a list of all services. It is potentially valuable information for attackers.",
+      "cveName": "CVE-2024-9798",
+      "cveUrl": "/vuln/detail/CVE-2024-9798"
+    }
+  },
+  "CVE-2024-9802": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "The conformance validation endpoint is public so everybody can verify the conformance of onboarded services. The response could contain specific information about the service, including available endpoints, and swagger. It could advise about the running version of a service to an attacker. The attacker could also check if a service is running.",
+      "cveName": "CVE-2024-9802",
+      "cveUrl": "/vuln/detail/CVE-2024-9802"
     }
   }
 }
