@@ -1385,6 +1385,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-28948"
     }
   },
+  "CVE-2024-30118": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "4:15:07 PM -0400"
+      ],
+      "cveDis": "HCL Connections is vulnerable to an information disclosure vulnerability which could allow a user to obtain sensitive information they are not entitled to because of improperly handling the request data.",
+      "cveName": "CVE-2024-30118",
+      "cveUrl": "/vuln/detail/CVE-2024-30118"
+    }
+  },
   "CVE-2024-30132": {
     "cve": {
       "cveDate": [
@@ -1836,6 +1847,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-36474"
     }
   },
+  "CVE-2024-36568-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allows users to perform actions reserved for administrators, potentially leading to data breaches or system compromise.",
+      "cveName": "CVE-2024-36568-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-3656"
+    }
+  },
   "CVE-2024-36814": {
     "cve": {
       "cveDate": [
@@ -2001,6 +2023,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-38809"
     }
   },
+  "CVE-2024-38815": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "4:15:07 PM -0400"
+      ],
+      "cveDis": "VMware NSX contains a content spoofing vulnerability. \n\nAn unauthenticated malicious actor may be able to craft a URL and redirect a victim to an attacker controlled domain leading to sensitive information disclosure.",
+      "cveName": "CVE-2024-38815",
+      "cveUrl": "/vuln/detail/CVE-2024-38815"
+    }
+  },
+  "CVE-2024-38817": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "4:15:08 PM -0400"
+      ],
+      "cveDis": "Mware NSX contains a command injection vulnerability. \n\nA malicious actor with access to the NSX Edge CLI terminal may be able to craft malicious payloads to execute arbitrary commands on the operating system as root.",
+      "cveName": "CVE-2024-38817",
+      "cveUrl": "/vuln/detail/CVE-2024-38817"
+    }
+  },
+  "CVE-2024-38818": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "4:15:08 PM -0400"
+      ],
+      "cveDis": "VMware NSX contains a local privilege escalation vulnerability. \n\nAn authenticated malicious actor may exploit this vulnerability to obtain permissions from a separate group role than previously assigned.",
+      "cveName": "CVE-2024-38818",
+      "cveUrl": "/vuln/detail/CVE-2024-38818"
+    }
+  },
   "CVE-2024-39275": {
     "cve": {
       "cveDate": [
@@ -2076,6 +2131,39 @@
       "cveDis": "In DRM service, there is a possible system crash due to null pointer dereference. This could lead to local denial of service with System execution privileges needed.",
       "cveName": "CVE-2024-39440",
       "cveUrl": "/vuln/detail/CVE-2024-39440"
+    }
+  },
+  "CVE-2024-395157-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "4:15:08 PM -0400"
+      ],
+      "cveDis": "An Improper Validation of Consistency within Input vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network-based attacker sending a specifically malformed BGP packet to cause rpd to crash and restart, resulting in a Denial of Service (DoS). Continued receipt and processing of this packet will create a sustained Denial of Service (DoS) condition.\n\nIn some cases, rpd fails to restart requiring a manual restart via the 'restart routing' CLI command.\n\nThis issue only affects systems with BGP traceoptions enabled and \n\nrequires a BGP session to be already established.  Systems without BGP traceoptions enabled are not affected by this issue.\n\nThis issue affects iBGP and eBGP, and both IPv4 and IPv6 are affected by this vulnerability.\n\nThis issue affects:\n\nJunos OS: \n\n  *  All versions before 21.4R3-S8, \n  *  22.2 before 22.2R3-S5, \n  *  22.3 before 22.3R3-S4, \n  *  22.4 before 22.4R3-S3, \n  *  23.2 before 23.2R2-S2, \n  *  23.4 before 23.4R2; \n\n\nJunos OS Evolved: \n\n  *  All versions before 21.4R3-S8-EVO, \n  *  22.2-EVO before 22.2R3-S5-EVO, \n  *  22.3-EVO before 22.3R3-S4-EVO, \n  *  22.4-EVO before 22.4R3-S3-EVO, \n  *  23.2-EVO before 23.2R2-S2-EVO, \n  *  23.4-EVO before 23.4R2-EVO.",
+      "cveName": "CVE-2024-395157-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-39515"
+    }
+  },
+  "CVE-2024-395167-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "4:15:08 PM -0400"
+      ],
+      "cveDis": "An Out-of-Bounds Read vulnerability in\n\nthe routing protocol daemon (rpd) of \n\n Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network-based attacker sending a specifically malformed BGP packet to cause rpd to crash and restart, resulting in a Denial of Service (DoS). Continued receipt and processing of this packet will create a sustained Denial of Service (DoS) condition.\n\n\n\nThis issue only affects systems with BGP traceoptions enabled.  Systems without BGP traceoptions enabled are not affected by this issue.\n\n\n\n\n\nThis issue affects iBGP and eBGP with \n\nany address family\n\n configured.\n\nThis issue affects:\n\nJunos OS: \n\n\n\n  *  All versions before 21.4R3-S8,\n  *  22.2 before 22.2R3-S5, \n  *  22.3 before 22.3R3-S4, \n  *  22.4 before 22.4R3-S3, \n  *  23.2 before 23.2R2-S2, \n  *  23.4 before 23.4R2; \n\n\n\n\nJunos OS Evolved: \n\n\n\n  *  All versions before 21.4R3-S8-EVO, \n  *  22.2-EVO before 22.2R3-S5-EVO, \n  *  22.3-EVO before 22.3R3-S4-EVO, \n  *  22.4-EVO before 22.4R3-S3-EVO, \n  *  23.2-EVO before 23.2R2-S2-EVO, \n  *  23.4-EVO before 23.4R2-EVO.",
+      "cveName": "CVE-2024-395167-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-39516"
+    }
+  },
+  "CVE-2024-395257-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "4:15:08 PM -0400"
+      ],
+      "cveDis": "An Improper Handling of Exceptional Conditions vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network-based attacker sending a specific BGP packet to cause rpd to crash and restart, resulting in a Denial of Service (DoS). Continued receipt and processing of this packet will create a sustained Denial of Service (DoS) condition.\n\nThis issue only affects systems with BGP traceoptions enabled and \n\nrequires a BGP session to be already established.  Systems without BGP traceoptions enabled are not affected by this issue.\n\nThis issue affects iBGP and eBGP, and both IPv4 and IPv6 are affected by this vulnerability.\n\nThis issue affects:\n\nJunos OS: \n\n\n\n  *  All versions before 21.2R3-S8, \n  *  from 21.4 before 21.4R3-S8, \n  *  from 22.2 before 22.2R3-S4, \n  *  from 22.3 before 22.3R3-S4,\n  *  from 22.4 before 22.4R3-S3, \n  *  from 23.2 before 23.2R2-S1, \n  *  from 23.4 before 23.4R2; \n\n\n\n\nJunos OS Evolved: \n\n\n\n  *  All versions before 21.2R3-S8-EVO, \n  *  from 21.4-EVO before 21.4R3-S8-EVO, \n  *  from 22.2-EVO before 22.2R3-S4-EVO, \n  *  from 22.3-EVO before 22.3R3-S4-EVO,\n  *  from 22.4-EVO before 22.4R3-S3-EVO, \n  *  from 23.2-EVO before 23.2R2-S1-EVO, \n  *  from 23.4-EVO before 23.4R2-EVO.",
+      "cveName": "CVE-2024-395257-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-39525"
     }
   },
   "CVE-2024-39586": {
@@ -7259,6 +7347,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47762"
     }
   },
+  "CVE-2024-47763": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "Wasmtime is an open source runtime for WebAssembly. Wasmtime's implementation of WebAssembly tail calls combined with stack traces can result in a runtime crash in certain WebAssembly modules. The runtime crash may be undefined behavior if Wasmtime was compiled with Rust 1.80 or prior. The runtime crash is a deterministic process abort when Wasmtime is compiled with Rust 1.81 and later. WebAssembly tail calls are a proposal which relatively recently reached stage 4 in the standardization process. Wasmtime first enabled support for tail calls by default in Wasmtime 21.0.0, although that release contained a bug where it was only on-by-default for some configurations. In Wasmtime 22.0.0 tail calls were enabled by default for all configurations. The specific crash happens when an exported function in a WebAssembly module (or component) performs a `return_call` (or `return_call_indirect` or `return_call_ref`) to an imported host function which captures a stack trace (for example, the host function raises a trap). In this situation, the stack-walking code previously assumed there was always at least one WebAssembly frame on the stack but with tail calls that is no longer true. With the tail-call proposal it's possible to have an entry trampoline appear as if it directly called the exit trampoline. This situation triggers an internal assert in the stack-walking code which raises a Rust `panic!()`. When Wasmtime is compiled with Rust versions 1.80 and prior this means that an `extern \"C\"` function in Rust is raising a `panic!()`. This is technically undefined behavior and typically manifests as a process abort when the unwinder fails to unwind Cranelift-generated frames. When Wasmtime is compiled with Rust versions 1.81 and later this panic becomes a deterministic process abort. Overall the impact of this issue is that this is a denial-of-service vector where a malicious WebAssembly module or component can cause the host to crash. There is no other impact at this time other than availability of a service as the result of the crash is always a crash and no more. This issue was discovered by routine fuzzing performed by the Wasmtime project via Google's OSS-Fuzz infrastructure. We have no evidence that it has ever been exploited by an attacker in the wild. All versions of Wasmtime which have tail calls enabled by default have been patched: * 21.0.x - patched in 21.0.2 * 22.0.x - patched in 22.0.1 * 23.0.x - patched in 23.0.3  * 24.0.x - patched in 24.0.1 * 25.0.x - patched in 25.0.2. Wasmtime versions from 12.0.x (the first release with experimental tail call support) to 20.0.x (the last release with tail-calls off-by-default) have support for tail calls but the support is disabled by default. These versions are not affected in their default configurations, but users who explicitly enabled tail call support will need to either disable tail call support or upgrade to a patched version of Wasmtime. The main workaround for this issue is to disable tail support for tail calls in Wasmtime, for example with `Config::wasm_tail_call(false)`. Users are otherwise encouraged to upgrade to patched versions.",
+      "cveName": "CVE-2024-47763",
+      "cveUrl": "/vuln/detail/CVE-2024-47763"
+    }
+  },
   "CVE-2024-47764": {
     "cve": {
       "cveDate": [
@@ -7435,6 +7534,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-47807"
     }
   },
+  "CVE-2024-47812": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "ImportDump is an extension for mediawiki designed to automate user import requests. Anyone who can edit the interface strings of a wiki (typically administrators and interface admins) can embed XSS payloads in the messages for dates, and thus XSS anyone who views Special:RequestImportQueue. This issue has been patched in commit `d054b95` and all users are advised to apply this commit to their branch. Users unable to upgrade may either Prevent access to Special:RequestImportQueue on all wikis, except for the global wiki; and If an interface administrator (or equivalent) level protection is available (which is not provided by default) on the global wiki, protect the affected messages up to that level. This causes the XSS to be virtually useless as users with those rights can already edit Javascript pages. Or Prevent access to Special:RequestImportQueue altogether.",
+      "cveName": "CVE-2024-47812",
+      "cveUrl": "/vuln/detail/CVE-2024-47812"
+    }
+  },
+  "CVE-2024-47813": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "2:15:09 PM -0400"
+      ],
+      "cveDis": "Wasmtime is an open source runtime for WebAssembly. Under certain concurrent event orderings, a `wasmtime::Engine`'s internal type registry was susceptible to double-unregistration bugs due to a race condition, leading to panics and potentially type registry corruption. That registry corruption could, following an additional and particular sequence of concurrent events, lead to violations of WebAssembly's control-flow integrity (CFI) and type safety. Users that do not use `wasmtime::Engine` across multiple threads are not affected. Users that only create new modules across threads over time are additionally not affected. Reproducing this bug requires creating and dropping multiple type instances (such as `wasmtime::FuncType` or `wasmtime::ArrayType`) concurrently on multiple threads, where all types are associated with the same `wasmtime::Engine`. **Wasm guests cannot trigger this bug.** See the \"References\" section below for a list of Wasmtime types-related APIs that are affected. Wasmtime maintains an internal registry of types within a `wasmtime::Engine` and an engine is shareable across threads. Types can be created and referenced through creation of a `wasmtime::Module`, creation of `wasmtime::FuncType`, or a number of other APIs where the host creates a function (see \"References\" below). Each of these cases interacts with an engine to deduplicate type information and manage type indices that are used to implement type checks in WebAssembly's `call_indirect` function, for example. This bug is a race condition in this management where the internal type registry could be corrupted to trigger an assert or contain invalid state. Wasmtime's internal representation of a type has individual types (e.g. one-per-host-function) maintain a registration count of how many time it's been used. Types additionally have state within an engine behind a read-write lock such as lookup/deduplication information. The race here is a time-of-check versus time-of-use (TOCTOU) bug where one thread atomically decrements a type entry's registration count, observes zero registrations, and then acquires a lock in order to unregister that entry. However, between when this first thread observed the zero-registration count and when it acquires that lock, another thread could perform the following sequence of events: re-register another copy of the type, which deduplicates to that same entry, resurrecting it and incrementing its registration count; then drop the type and decrement its registration count; observe that the registration count is now zero; acquire the type registry lock; and finally unregister the type. Now, when the original thread finally acquires the lock and unregisters the entry, it is the second time this entry has been unregistered. This bug was originally introduced in Wasmtime 19's development of the WebAssembly GC proposal. This bug affects users who are not using the GC proposal, however, and affects Wasmtime in its default configuration even when the GC proposal is disabled. Wasmtime users using 19.0.0 and after are all affected by this issue. We have released the following Wasmtime versions, all of which have a fix for this bug: * 21.0.2 * 22.0.1 * 23.0.3 * 24.0.1 * 25.0.2. If your application creates and drops Wasmtime types on multiple threads concurrently, there are no known workarounds. Users are encouraged to upgrade to a patched release.",
+      "cveName": "CVE-2024-47813",
+      "cveUrl": "/vuln/detail/CVE-2024-47813"
+    }
+  },
   "CVE-2024-47814": {
     "cve": {
       "cveDate": [
@@ -7444,6 +7565,28 @@
       "cveDis": "Vim is an open source, command line text editor. A use-after-free was found in Vim < 9.1.0764. When closing a buffer (visible in a window) a BufWinLeave auto command can cause an use-after-free if this auto command happens to re-open the same buffer in a new split window. Impact is low since the user must have intentionally set up such a strange auto command and run some buffer unload commands. However this may lead to a crash. This issue has been addressed in version 9.1.0764 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-47814",
       "cveUrl": "/vuln/detail/CVE-2024-47814"
+    }
+  },
+  "CVE-2024-47815": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "IncidentReporting is a MediaWiki extension for moving incident reports from wikitext to database tables. There are a variety of Cross-site Scripting issues, though all of them require elevated permissions. Some are available to anyone who has the `editincidents` right, some are available to those who can edit interface messages (typically administrators and interface admins), and one is available to those who can edit LocalSettings.php. These issues have been addressed in commit `43896a4` and all users are advised to upgrade. Users unable to upgrade should prevent access to the Special:IncidentReports page.",
+      "cveName": "CVE-2024-47815",
+      "cveUrl": "/vuln/detail/CVE-2024-47815"
+    }
+  },
+  "CVE-2024-47816": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "ImportDump is a mediawiki extension designed to automate user import requests. A user's local actor ID is stored in the database to tell who made what requests. Therefore, if a user on another wiki happens to have the same actor ID as someone on the central wiki, the user on the other wiki can act as if they're the original wiki requester. This can be abused to create new comments, edit the request, and view the request if it's marked private. This issue has been addressed in commit `5c91dfc` and all users are advised to update. Users unable to update may disable the special page outside of their global wiki. See `miraheze/mw-config@e566499` for details on that.",
+      "cveName": "CVE-2024-47816",
+      "cveUrl": "/vuln/detail/CVE-2024-47816"
     }
   },
   "CVE-2024-47817": {
@@ -7488,6 +7631,39 @@
       "cveDis": "Livewire is a full-stack framework for Laravel that allows for dynamic UI components without leaving PHP. In livewire/livewire `< v3.5.2`, the file extension of an uploaded file is guessed based on the MIME type. As a result, the actual file extension from the file name is not validated. An attacker can therefore bypass the validation by uploading a file with a valid MIME type (e.g., `image/png`) and a “.php” file extension. If the following criteria are met, the attacker can carry out an RCE attack: 1. Filename is composed of the original file name using `$file->getClientOriginalName()`. 2. Files stored directly on your server in a public storage disk. 3. Webserver is configured to execute “.php” files. This issue has been addressed in release version 3.5.2. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-47823",
       "cveUrl": "/vuln/detail/CVE-2024-47823"
+    }
+  },
+  "CVE-2024-47828": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "ampache is a web based audio/video streaming application and file manager. A CSRF attack can be performed in order to delete objects (Playlist, smartlist etc.). Cross-Site Request Forgery (CSRF) is an attack that forces authenticated users to submit a request to a Web application against which they are currently authenticated. This vulnerability can be exploited by creating a malicious script with an arbitrary playlist ID belonging to another user. When the user submits the request, their playlist will be deleted. Any User with active sessions who are tricked into submitting a malicious request are impacted, as their playlists or other objects could be deleted without their consent.",
+      "cveName": "CVE-2024-47828",
+      "cveUrl": "/vuln/detail/CVE-2024-47828"
+    }
+  },
+  "CVE-2024-47832": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "ssoready is a single sign on provider implemented via docker. Affected versions are vulnerable to XML signature bypass attacks. An attacker can carry out signature bypass if you have access to certain IDP-signed messages. The underlying mechanism exploits differential behavior between XML parsers. Users of https://ssoready.com, the public hosted instance of SSOReady, are unaffected. We advise folks who self-host SSOReady to upgrade to 7f92a06 or later. Do so by updating your SSOReady Docker images from sha-... to sha-7f92a06. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47832",
+      "cveUrl": "/vuln/detail/CVE-2024-47832"
+    }
+  },
+  "CVE-2024-47833": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "Taipy is an open-source Python library for easy, end-to-end application development for data scientists and machine learning engineers. In affected versions session cookies are served without Secure and HTTPOnly flags. This issue has been addressed in release version 4.0.0 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47833",
+      "cveUrl": "/vuln/detail/CVE-2024-47833"
     }
   },
   "CVE-2024-47840": {
@@ -7776,6 +7952,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-47976"
     }
   },
+  "CVE-2024-48933": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "7:15:11 PM -0400"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability in LemonLDAP::NG before 2.19.3 allows remote attackers to inject arbitrary web script or HTML into the login page via a username if userControl has been set to a non-default value that allows special HTML characters.",
+      "cveName": "CVE-2024-48933",
+      "cveUrl": "/vuln/detail/CVE-2024-48933"
+    }
+  },
+  "CVE-2024-48941": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "8:15:02 PM -0400"
+      ],
+      "cveDis": "The Syracom Secure Login (2FA) plugin for Jira, Confluence, and Bitbucket through 3.1.4.5 allows remote attackers to bypass 2FA by interacting with the /rest endpoint of Jira, Confluence, or Bitbucket. In the default configuration, /rest is allowlisted.",
+      "cveName": "CVE-2024-48941",
+      "cveUrl": "/vuln/detail/CVE-2024-48941"
+    }
+  },
+  "CVE-2024-48942": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "8:15:02 PM -0400"
+      ],
+      "cveDis": "The Syracom Secure Login (2FA) plugin for Jira, Confluence, and Bitbucket through 3.1.4.5 allows remote attackers to easily brute-force the 2FA PIN via the plugins/servlet/twofactor/public/pinvalidation endpoint. The last 30 and the next 30 tokens are valid.",
+      "cveName": "CVE-2024-48942",
+      "cveUrl": "/vuln/detail/CVE-2024-48942"
+    }
+  },
+  "CVE-2024-48949": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "9:15:11 PM -0400"
+      ],
+      "cveDis": "The verify function in lib/elliptic/eddsa/index.js in the Elliptic package before 6.5.6 for Node.js omits \"sig.S().gte(sig.eddsa.curve.n) || sig.S().isNeg()\" validation.",
+      "cveName": "CVE-2024-48949",
+      "cveUrl": "/vuln/detail/CVE-2024-48949"
+    }
+  },
+  "CVE-2024-48957": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "execute_filter_audio in archive_read_support_format_rar.c in libarchive before 3.7.5 allows out-of-bounds access via a crafted archive file because src can move beyond dst.",
+      "cveName": "CVE-2024-48957",
+      "cveUrl": "/vuln/detail/CVE-2024-48957"
+    }
+  },
+  "CVE-2024-48958": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "execute_filter_delta in archive_read_support_format_rar.c in libarchive before 3.7.5 allows out-of-bounds access via a crafted archive file because src can move beyond dst.",
+      "cveName": "CVE-2024-48958",
+      "cveUrl": "/vuln/detail/CVE-2024-48958"
+    }
+  },
   "CVE-2024-5803": {
     "cve": {
       "cveDate": [
@@ -7895,6 +8137,50 @@
       "cveDis": "OMNTEC Proteus Tank Monitoring OEL8000III Series\n\n\ncould allow an attacker to perform administrative actions without proper authentication.",
       "cveName": "CVE-2024-6981",
       "cveUrl": "/vuln/detail/CVE-2024-6981"
+    }
+  },
+  "CVE-2024-7037": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "4:15:09 PM -0400"
+      ],
+      "cveDis": "In version v0.3.8 of open-webui/open-webui, the endpoint /api/pipelines/upload is vulnerable to arbitrary file write and delete due to unsanitized file.filename concatenation with CACHE_DIR. This vulnerability allows attackers to overwrite and delete system files, potentially leading to remote code execution.",
+      "cveName": "CVE-2024-7037",
+      "cveUrl": "/vuln/detail/CVE-2024-7037"
+    }
+  },
+  "CVE-2024-7038": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "An information disclosure vulnerability exists in open-webui version 0.3.8. The vulnerability is related to the embedding model update feature under admin settings. When a user updates the model path, the system checks if the file exists and provides different error messages based on the existence and configuration of the file. This behavior allows an attacker to enumerate file names and traverse directories by observing the error messages, leading to potential exposure of sensitive information.",
+      "cveName": "CVE-2024-7038",
+      "cveUrl": "/vuln/detail/CVE-2024-7038"
+    }
+  },
+  "CVE-2024-7041": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "4:15:09 PM -0400"
+      ],
+      "cveDis": "An Insecure Direct Object Reference (IDOR) vulnerability exists in open-webui/open-webui version v0.3.8. The vulnerability occurs in the API endpoint `http://0.0.0.0:3000/api/v1/memories/{id}/update`, where the decentralization design is flawed, allowing attackers to edit other users' memories without proper authorization.",
+      "cveName": "CVE-2024-7041",
+      "cveUrl": "/vuln/detail/CVE-2024-7041"
+    }
+  },
+  "CVE-2024-7048": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "In version v0.3.8 of open-webui, an improper privilege management vulnerability exists in the API endpoints GET /api/v1/documents/ and POST /rag/api/v1/doc. This vulnerability allows a lower-privileged user to access and overwrite files managed by a higher-privileged admin. By exploiting this vulnerability, an attacker can view metadata of files uploaded by an admin and overwrite these files, compromising the integrity and availability of the RAG models.",
+      "cveName": "CVE-2024-7048",
+      "cveUrl": "/vuln/detail/CVE-2024-7048"
     }
   },
   "CVE-2024-7206": {
@@ -8304,6 +8590,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8254"
     }
   },
+  "CVE-2024-8264": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "7:15:11 PM -0400"
+      ],
+      "cveDis": "Fortra's Robot Schedule Enterprise Agent prior to version 3.05 writes FTP username and password information to the agent log file when detailed logging is enabled.",
+      "cveName": "CVE-2024-8264",
+      "cveUrl": "/vuln/detail/CVE-2024-8264"
+    }
+  },
   "CVE-2024-82826-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -8579,6 +8876,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8459"
     }
   },
+  "CVE-2024-84774-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The Newsletter, SMTP, Email marketing and Subscribe forms by Brevo (formely Sendinblue) plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.1.87. This is due to missing or incorrect nonce validation on the Init() function. This makes it possible for unauthenticated attackers to log out of a Brevo connection via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-84774-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8477"
+    }
+  },
   "CVE-2024-84826-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -8643,6 +8951,17 @@
       "cveDis": "NLnet Labs Unbound up to and including version 1.21.0 contains a vulnerability when handling replies with very large RRsets that it needs to perform name compression for. Malicious upstreams responses with very large RRsets can cause Unbound to spend a considerable time applying name compression to downstream replies. This can lead to degraded performance and eventually denial of service in well orchestrated attacks. The vulnerability can be exploited by a malicious actor querying Unbound for the specially crafted contents of a malicious zone with very large RRsets. Before Unbound replies to the query it will try to apply name compression which was an unbounded operation that could lock the CPU until the whole packet was complete. Unbound version 1.21.1 introduces a hard limit on the number of name compression calculations it is willing to do per packet. Packets that need more compression will result in semi-compressed packets or truncated packets, even on TCP for huge messages, to avoid locking the CPU for long. This change should not affect normal DNS traffic.",
       "cveName": "CVE-2024-8508",
       "cveUrl": "/vuln/detail/CVE-2024-8508"
+    }
+  },
+  "CVE-2024-85135-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "The QA Analytics – Web Analytics Tool with Heatmaps & Session Replay Across All Pages plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the ajax_save_plugin_config() function in all versions up to, and including, 4.1.0.0. This makes it possible for unauthenticated attackers to update the plugin's settings.",
+      "cveName": "CVE-2024-85135-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8513"
     }
   },
   "CVE-2024-8518": {
@@ -8830,6 +9149,17 @@
       "cveDis": "The Easy Load More plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.0.3. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-87286-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8728"
+    }
+  },
+  "CVE-2024-8729": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "The Easy Social Share Buttons plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.4.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-8729",
+      "cveUrl": "/vuln/detail/CVE-2024-8729"
     }
   },
   "CVE-2024-8733": {
@@ -9052,6 +9382,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8983"
     }
   },
+  "CVE-2024-89876-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "The Youzify – BuddyPress Community, User Profile, Social Network & Membership Plugin for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's youzify_media shortcode in all versions up to, and including, 1.3.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-89876-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8987"
+    }
+  },
   "CVE-2024-8989": {
     "cve": {
       "cveDate": [
@@ -9107,6 +9448,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9021"
     }
   },
+  "CVE-2024-90227-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The TS Poll – Survey, Versus Poll, Image Poll, Video Poll plugin for WordPress is vulnerable to SQL Injection via the ‘orderby’ parameter in all versions up to, and including, 2.3.9 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-90227-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9022"
+    }
+  },
   "CVE-2024-90236-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9140,6 +9492,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9054"
     }
   },
+  "CVE-2024-90576-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "The Curator.io: Show all your social media posts in a beautiful feed. plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘feed_id’ attribute in all versions up to, and including, 1.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-90576-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9057"
+    }
+  },
   "CVE-2024-90606-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9151,6 +9514,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-9060"
     }
   },
+  "CVE-2024-90646-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:04 PM -0400"
+      ],
+      "cveDis": "The Elementor Inline SVG plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.2.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-90646-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9064"
+    }
+  },
+  "CVE-2024-90655-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:04 PM -0400"
+      ],
+      "cveDis": "The WP Helper Premium plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'whp_smtp_send_mail_test' function in all versions up to, and including, 4.6.1. This makes it possible for unauthenticated attackers to send emails containing any content and originating from the vulnerable WordPress instance to any recipient.",
+      "cveName": "CVE-2024-90655-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9065"
+    }
+  },
+  "CVE-2024-90666-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:04 PM -0400"
+      ],
+      "cveDis": "The Marketing and SEO Booster plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.9.10 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-90666-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9066"
+    }
+  },
+  "CVE-2024-90674-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The Youzify – BuddyPress Community, User Profile, Social Network & Membership Plugin for WordPress plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'delete_attachment' function in all versions up to, and including, 1.3.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary attachments.",
+      "cveName": "CVE-2024-90674-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9067"
+    }
+  },
   "CVE-2024-90716-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9160,6 +9567,28 @@
       "cveDis": "The Easy Demo Importer – A Modern One-Click Demo Import Solution plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.1.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
       "cveName": "CVE-2024-90716-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9071"
+    }
+  },
+  "CVE-2024-90726-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:04 PM -0400"
+      ],
+      "cveDis": "The GDPR-Extensions-com – Consent Manager plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-90726-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9072"
+    }
+  },
+  "CVE-2024-90746-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The Advanced Blocks Pro plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-90746-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9074"
     }
   },
   "CVE-2024-9100": {
@@ -9325,6 +9754,17 @@
       "cveDis": "The Smart Custom 404 Error Page plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via $_SERVER['REQUEST_URI'] in all versions up to, and including, 11.4.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-92046-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9204"
+    }
+  },
+  "CVE-2024-92056-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:04 PM -0400"
+      ],
+      "cveDis": "The Maximum Products per User for WooCommerce plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 4.2.8. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-92056-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9205"
     }
   },
   "CVE-2024-92076-1 MEDIUM": {
@@ -10031,6 +10471,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9375"
     }
   },
+  "CVE-2024-93776-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:05 PM -0400"
+      ],
+      "cveDis": "The Products, Order & Customers Export for WooCommerce plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg & remove_query_arg without appropriate escaping on the URL in all versions up to, and including, 2.0.15. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-93776-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9377"
+    }
+  },
   "CVE-2024-93786-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -10416,6 +10867,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9455"
     }
   },
+  "CVE-2024-94576-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:05 PM -0400"
+      ],
+      "cveDis": "The WP Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 3.0.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-94576-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9457"
+    }
+  },
   "CVE-2024-9460": {
     "cve": {
       "cveDate": [
@@ -10612,6 +11074,50 @@
       "cveDis": "A vulnerability was found in D-Link DIR-605L 2.13B01 BETA. It has been classified as critical. This affects the function formSetQoS of the file /goform/formSetQoS. The manipulation of the argument curTime leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-9515",
       "cveUrl": "/vuln/detail/CVE-2024-9515"
+    }
+  },
+  "CVE-2024-95189-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:05 PM -0400"
+      ],
+      "cveDis": "The UserPlus plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 2.0 due to insufficient restriction on the 'form_actions' and 'userplus_update_user_profile' functions. This makes it possible for unauthenticated attackers to specify their user role by supplying the 'role' parameter during a registration.",
+      "cveName": "CVE-2024-95189-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9518"
+    }
+  },
+  "CVE-2024-95197-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:05 PM -0400"
+      ],
+      "cveDis": "The UserPlus plugin for WordPress is vulnerable to unauthorized modification of data due to an improper capability check on the 'save_metabox_form' function in versions up to, and including, 2.0. This makes it possible for authenticated attackers, with editor-level permissions or above, to update the registration form role to administrator, which leads to privilege escalation.",
+      "cveName": "CVE-2024-95197-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9519"
+    }
+  },
+  "CVE-2024-95206-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "11:15:03 PM -0400"
+      ],
+      "cveDis": "The UserPlus plugin for WordPress is vulnerable to unauthorized access, modification, and loss of data due to a missing capability check on multiple functions in all versions up to, and including, 2.0. This makes it possible for authenticated attackers with subscriber-level permissions or above, to add, modify, or delete user meta and plugin options.",
+      "cveName": "CVE-2024-95206-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9520"
+    }
+  },
+  "CVE-2024-95228-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:06 PM -0400"
+      ],
+      "cveDis": "The WP Users Masquerade plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.0.0. This is due to incorrect authentication and capability checking in the 'ajax_masq_login' function. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to log in as any existing user on the site, such as an administrator.",
+      "cveName": "CVE-2024-95228-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9522"
     }
   },
   "CVE-2024-95284-9 MEDIUM": {
@@ -10988,6 +11494,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9576"
     }
   },
+  "CVE-2024-95817-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:06 PM -0400"
+      ],
+      "cveDis": "The Shortcodes AnyWhere plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.0.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
+      "cveName": "CVE-2024-95817-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9581"
+    }
+  },
   "CVE-2024-9602": {
     "cve": {
       "cveDate": [
@@ -11063,6 +11580,17 @@
       "cveDis": "A vulnerability was found in Buildah. Cache mounts do not properly validate that user-specified paths for the cache are within our cache directory, allowing a `RUN` instruction in a Container file to mount an arbitrary directory from the host (read/write) into the container as long as those files can be accessed by the user running Buildah.",
       "cveName": "CVE-2024-96754-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9675"
+    }
+  },
+  "CVE-2024-9685": {
+    "cve": {
+      "cveDate": [
+        "October 09, 2024",
+        "10:15:06 PM -0400"
+      ],
+      "cveDis": "The Notification for Telegram plugin for WordPress is vulnerable to unauthorized test message sending due to a missing capability check on the 'nftb_test_action' function in versions up to, and including, 3.3.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to send a test message via the Telegram Bot API to all users configured in the settings.",
+      "cveName": "CVE-2024-9685",
+      "cveUrl": "/vuln/detail/CVE-2024-9685"
     }
   }
 }
