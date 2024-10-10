@@ -21,6 +21,17 @@
       "cveUrl": "/vuln/detail/CVE-2022-4534"
     }
   },
+  "CVE-2023-25581": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "12:15:04 PM -0400"
+      ],
+      "cveDis": "pac4j is a security framework for Java. `pac4j-core` prior to version 4.0.0 is affected by a Java deserialization vulnerability. The vulnerability affects systems that store externally controlled values in attributes of the `UserProfile` class from pac4j-core. It can be exploited by providing an attribute that contains a serialized Java object with a special prefix `{#sb64}` and Base64 encoding. This issue may lead to Remote Code Execution (RCE) in the worst case. Although a `RestrictedObjectInputStream` is in place, that puts some restriction on what classes can be deserialized, it still allows a broad range of java packages and potentially exploitable with different gadget chains. pac4j versions 4.0.0 and greater are not affected by this issue. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2023-25581",
+      "cveUrl": "/vuln/detail/CVE-2023-25581"
+    }
+  },
   "CVE-2023-26770": {
     "cve": {
       "cveDate": [
@@ -1792,6 +1803,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-3506"
     }
   },
+  "CVE-2024-35202": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "Bitcoin Core before 25.0 allows remote attackers to cause a denial of service (blocktxn message-handling assertion and node exit) by including transactions in a blocktxn message that are not committed to in a block's merkle root. FillBlock can be called twice for one PartiallyDownloadedBlock instance.",
+      "cveName": "CVE-2024-35202",
+      "cveUrl": "/vuln/detail/CVE-2024-35202"
+    }
+  },
   "CVE-2024-35288": {
     "cve": {
       "cveDate": [
@@ -1834,6 +1856,17 @@
       "cveDis": "An Information Disclosure vulnerability in the Telemetry component in TP-Link Kasa KP125M V1.0.0 and Tapo P125M 1.0.0 Build 220930 Rel.143947 allows attackers to observe device state via observing network traffic.",
       "cveName": "CVE-2024-35495",
       "cveUrl": "/vuln/detail/CVE-2024-35495"
+    }
+  },
+  "CVE-2024-36051": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "In btcd before 0.24.2, removeOpcodeByData mishandles the consensus rules for legacy signature verification. There can be a standard transaction that would be considered valid by Bitcoin Core but invalid by btcd.",
+      "cveName": "CVE-2024-36051",
+      "cveUrl": "/vuln/detail/CVE-2024-36051"
     }
   },
   "CVE-2024-3635": {
@@ -5367,6 +5400,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46549"
     }
   },
+  "CVE-2024-4658": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "SQL Injection: Hibernate vulnerability in TE Informatics Nova CMS allows SQL Injection.This issue affects Nova CMS: before 5.0.",
+      "cveName": "CVE-2024-4658",
+      "cveUrl": "/vuln/detail/CVE-2024-4658"
+    }
+  },
   "CVE-2024-46626": {
     "cve": {
       "cveDate": [
@@ -8205,6 +8249,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47976"
     }
   },
+  "CVE-2024-48902": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "7:15:13 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.46677 improper access control allowed users with project update permission to delete applications via API",
+      "cveName": "CVE-2024-48902",
+      "cveUrl": "/vuln/detail/CVE-2024-48902"
+    }
+  },
   "CVE-2024-48933": {
     "cve": {
       "cveDate": [
@@ -8304,6 +8359,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-6051"
     }
   },
+  "CVE-2024-6157": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "An attacker who successfully exploited these vulnerabilities could cause the robot to stop.\n\n\n\nA vulnerability exists in the PROFINET stack included in the RobotWare versions listed below. \n\nThis vulnerability arises under specific condition when specially crafted message is processed by the system.\n\nBelow are reported vulnerabilities in the Robot Ware versions. \n\n* IRC5- RobotWare 6 < 6.15.06 except 6.10.10, and 6.13.07",
+      "cveName": "CVE-2024-6157",
+      "cveUrl": "/vuln/detail/CVE-2024-6157"
+    }
+  },
   "CVE-2024-6360": {
     "cve": {
       "cveDate": [
@@ -8379,6 +8445,17 @@
       "cveDis": "No proper validation of the length of user input in olcp_ind_handler in zephyr/subsys/bluetooth/services/ots/ots_client.c.",
       "cveName": "CVE-2024-6444",
       "cveUrl": "/vuln/detail/CVE-2024-6444"
+    }
+  },
+  "CVE-2024-6530": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "8:15:04 AM -0400"
+      ],
+      "cveDis": "A cross-site scripting issue has been discovered in GitLab affecting all versions starting from 17.1 prior 17.2.9, starting from 17.3 prior to 17.3.5, and starting from 17.4 prior to 17.4.2. When adding a authorizing an application, it can be made to render as HTML under specific circumstances.",
+      "cveName": "CVE-2024-6530",
+      "cveUrl": "/vuln/detail/CVE-2024-6530"
     }
   },
   "CVE-2024-6747": {
@@ -10042,6 +10119,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9194"
     }
   },
+  "CVE-2024-9201": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "7:15:13 AM -0400"
+      ],
+      "cveDis": "The SEUR plugin, in its versions prior to 2.5.11, is vulnerable to time-based SQL injection through the use of the ‘id_order’ parameter of the ‘/modules/seur/ajax/saveCodFee.php’ endpoint.",
+      "cveName": "CVE-2024-9201",
+      "cveUrl": "/vuln/detail/CVE-2024-9201"
+    }
+  },
   "CVE-2024-92046-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -10447,6 +10535,17 @@
       "cveDis": "The WP Booking Calendar plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 10.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled. In addition, site administrators have the option to grant lower-level users with access to manage the plugin's settings which may extend this vulnerability to those users.",
       "cveName": "CVE-2024-93064-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9306"
+    }
+  },
+  "CVE-2024-9312": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "Authd, through version 0.3.6, did not sufficiently randomize user IDs to prevent collisions. A local attacker who can register user names could spoof another user's ID and gain their privileges.",
+      "cveName": "CVE-2024-9312",
+      "cveUrl": "/vuln/detail/CVE-2024-9312"
     }
   },
   "CVE-2024-9313": {
@@ -11934,6 +12033,138 @@
       "cveUrl": "/vuln/detail/CVE-2024-9781"
     }
   },
+  "CVE-2024-9782": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "8:15:04 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in D-Link DIR-619L B1 2.06. It has been declared as critical. This vulnerability affects the function formEasySetupWWConfig of the file /goform/formEasySetupWWConfig. The manipulation of the argument curTime leads to buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9782",
+      "cveUrl": "/vuln/detail/CVE-2024-9782"
+    }
+  },
+  "CVE-2024-9783": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "8:15:05 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in D-Link DIR-619L B1 2.06. It has been rated as critical. This issue affects the function formLogDnsquery of the file /goform/formLogDnsquery. The manipulation of the argument curTime leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9783",
+      "cveUrl": "/vuln/detail/CVE-2024-9783"
+    }
+  },
+  "CVE-2024-9784": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "8:15:05 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in D-Link DIR-619L B1 2.06. Affected is the function formResetStatistic of the file /goform/formResetStatistic. The manipulation of the argument curTime leads to buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9784",
+      "cveUrl": "/vuln/detail/CVE-2024-9784"
+    }
+  },
+  "CVE-2024-9785": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in D-Link DIR-619L B1 2.06. Affected by this vulnerability is the function formSetDDNS of the file /goform/formSetDDNS. The manipulation of the argument curTime leads to buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9785",
+      "cveUrl": "/vuln/detail/CVE-2024-9785"
+    }
+  },
+  "CVE-2024-9786": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in D-Link DIR-619L B1 2.06. Affected by this issue is the function formSetLog of the file /goform/formSetLog. The manipulation of the argument curTime leads to buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9786",
+      "cveUrl": "/vuln/detail/CVE-2024-9786"
+    }
+  },
+  "CVE-2024-9787": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, was found in Contemporary Control System BASrouter BACnet BASRT-B 2.7.2. This affects an unknown part of the component UDP Packet Handler. The manipulation leads to denial of service. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-9787",
+      "cveUrl": "/vuln/detail/CVE-2024-9787"
+    }
+  },
+  "CVE-2024-9788": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in LyLme_spage 1.9.5 and classified as critical. This vulnerability affects unknown code of the file /admin/tag.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-9788",
+      "cveUrl": "/vuln/detail/CVE-2024-9788"
+    }
+  },
+  "CVE-2024-9789": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in LyLme_spage 1.9.5 and classified as critical. This issue affects some unknown processing of the file /admin/apply.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-9789",
+      "cveUrl": "/vuln/detail/CVE-2024-9789"
+    }
+  },
+  "CVE-2024-9790": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "11:15:15 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in LyLme_spage 1.9.5. It has been classified as critical. Affected is an unknown function of the file /admin/sou.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-9790",
+      "cveUrl": "/vuln/detail/CVE-2024-9790"
+    }
+  },
+  "CVE-2024-9792": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "11:15:15 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as problematic has been found in D-Link DSL-2750U R5B017. This affects an unknown part of the component Port Forwarding Page. The manipulation of the argument PortMappingDescription leads to cross site scripting. It is possible to initiate the attack remotely.",
+      "cveName": "CVE-2024-9792",
+      "cveUrl": "/vuln/detail/CVE-2024-9792"
+    }
+  },
+  "CVE-2024-9793": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in Tenda AC1206 up to 15.03.06.23. This vulnerability affects the function ate_iwpriv_set/ate_ifconfig_set of the file /goform/ate. The manipulation leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-9793",
+      "cveUrl": "/vuln/detail/CVE-2024-9793"
+    }
+  },
+  "CVE-2024-9794": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in Codezips Online Shopping Portal 1.0. This issue affects some unknown processing of the file /update-image1.php. The manipulation of the argument productimage1 leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9794",
+      "cveUrl": "/vuln/detail/CVE-2024-9794"
+    }
+  },
   "CVE-2024-9796": {
     "cve": {
       "cveDate": [
@@ -11943,6 +12174,17 @@
       "cveDis": "The WP-Advanced-Search WordPress plugin before 3.3.9.2 does not sanitize and escape the t parameter before using it in a SQL statement, allowing unauthenticated users to perform SQL injection attacks",
       "cveName": "CVE-2024-9796",
       "cveUrl": "/vuln/detail/CVE-2024-9796"
+    }
+  },
+  "CVE-2024-9797": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in code-projects Blood Bank System 1.0. Affected is an unknown function of the file register.php. The manipulation of the argument user leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9797",
+      "cveUrl": "/vuln/detail/CVE-2024-9797"
     }
   },
   "CVE-2024-9798": {
@@ -11956,6 +12198,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9798"
     }
   },
+  "CVE-2024-9799": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in SourceCodester Profile Registration without Reload Refresh 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file add.php. The manipulation of the argument email_address/address/company_name/job_title/jobDescriptionparameter leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9799",
+      "cveUrl": "/vuln/detail/CVE-2024-9799"
+    }
+  },
   "CVE-2024-9802": {
     "cve": {
       "cveDate": [
@@ -11965,6 +12218,17 @@
       "cveDis": "The conformance validation endpoint is public so everybody can verify the conformance of onboarded services. The response could contain specific information about the service, including available endpoints, and swagger. It could advise about the running version of a service to an attacker. The attacker could also check if a service is running.",
       "cveName": "CVE-2024-9802",
       "cveUrl": "/vuln/detail/CVE-2024-9802"
+    }
+  },
+  "CVE-2024-9803": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Blood Bank Management System 1.0. It has been classified as problematic. This affects an unknown part of the file blooddetails.php. The manipulation of the argument Availibility leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-9803",
+      "cveUrl": "/vuln/detail/CVE-2024-9803"
     }
   }
 }
