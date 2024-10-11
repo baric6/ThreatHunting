@@ -1638,6 +1638,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-33506"
     }
   },
+  "CVE-2024-335787-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "A DLL hijack vulnerability was reported in Lenovo Leyun that could allow a local attacker to execute code with elevated privileges.",
+      "cveName": "CVE-2024-335787-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33578"
+    }
+  },
+  "CVE-2024-335797-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "A DLL hijack vulnerability was reported in Lenovo Baiying that could allow a local attacker to execute code with elevated privileges.",
+      "cveName": "CVE-2024-335797-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33579"
+    }
+  },
+  "CVE-2024-335807-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "A DLL hijack vulnerability was reported in Lenovo Personal Cloud that could allow a local attacker to execute code with elevated privileges.",
+      "cveName": "CVE-2024-335807-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33580"
+    }
+  },
+  "CVE-2024-335817-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "A DLL hijack vulnerability was reported in Lenovo PC Manager AI intelligent scenario that could allow a local attacker to execute code with elevated privileges.",
+      "cveName": "CVE-2024-335817-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33581"
+    }
+  },
+  "CVE-2024-335827-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "A DLL hijack vulnerability was reported in Lenovo Service Framework that could allow a local attacker to execute code with elevated privileges.",
+      "cveName": "CVE-2024-335827-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33582"
+    }
+  },
   "CVE-2024-33662": {
     "cve": {
       "cveDate": [
@@ -2210,6 +2265,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-39525"
     }
   },
+  "CVE-2024-395266-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "An Improper Handling of Exceptional Conditions vulnerability in packet processing of Juniper Networks Junos OS on MX Series with MPC10/MPC11/LC9600 line cards, EX9200 with EX9200-15C lines cards, MX304 devices, and Juniper Networks Junos OS Evolved on PTX Series, allows an attacker sending malformed DHCP packets to cause ingress packet processing to stop, leading to a Denial of Service (DoS).  Continued receipt and processing of these packets will create a sustained Denial of Service (DoS) condition.\n\nThis issue only occurs if DHCP snooping is enabled. See configuration below.\n\nThis issue can be detected using following commands. Their output will display the interface status going down:\n\n\nuser@device>show interfaces <if--x/x/x>\nuser@device>show log messages | match <if--x/x/x>\nuser@device>show log messages ==> will display the \"[Error] Wedge-Detect : Host Loopback Wedge Detected: PFE: no,\" logs.\n\nThis issue affects:\nJunos OS on \n\nMX Series \n\nwith MPC10/MPC11/LC9600 line cards, EX9200 with EX9200-15C line cards, and MX304: \n\n\n  *  All versions before 21.2R3-S7, \n  *  from 21.4 before 21.4R3-S6, \n  *  from 22.2 before 22.2R3-S3, \n  *  all versions of 22.3,\n  *  from 22.4 before 22.4R3, \n  *  from 23.2 before 23.2R2; \n\n\n\nJunos OS Evolved on PTX Series: \n  *  from 19.3R1-EVO before 21.2R3-S8-EVO,\n\n  *  from 21.4-EVO before 21.4R3-S7-EVO, \n  *  from 22.1-EVO before 22.1R3-S6-EVO, \n  *  from 22.2-EVO before 22.2R3-S5-EVO, \n  *  from 22.3-EVO before 22.3R3-S3-EVO, \n  *  from 22.4-EVO before 22.4R3-S1-EVO, \n  *  from 23.2-EVO before 23.2R2-S2-EVO, \n  *  from 23.4-EVO before 23.4R2-EVO.\n\n\n\nJunos OS Evolved releases prior to 19.3R1-EVO are unaffected by this vulnerability",
+      "cveName": "CVE-2024-395266-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-39526"
+    }
+  },
+  "CVE-2024-395275-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "An Exposure of Sensitive Information to an Unauthorized Actor vulnerability in the command-line interface (CLI) of Juniper Networks Junos OS on SRX Series devices allows a local, low-privileged user with access to the Junos CLI to view the contents of protected files on the file system.\n\nThrough the execution of crafted CLI commands, a user with limited permissions (e.g., a low privilege login class user) can access protected files that should not be accessible to the user. These files may contain sensitive information that can be used to cause further impact to the system.\n\nThis issue affects Junos OS on SRX Series: \n\n\n\n  *  All versions before 21.4R3-S8, \n  *  22.2 before 22.2R3-S5, \n  *  22.3 before 22.3R3-S4, \n  *  22.4 before 22.4R3-S4, \n  *  23.2 before 23.2R2-S2, \n  *  23.4 before 23.4R2.",
+      "cveName": "CVE-2024-395275-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-39527"
+    }
+  },
+  "CVE-2024-395345-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "An Incorrect Comparison vulnerability in the local address verification API of Juniper Networks Junos OS Evolved allows an unauthenticated network-adjacent attacker to create sessions or send traffic to the device using the network and broadcast address of the subnet assigned to an interface. This is unintended and unexpected behavior and can allow an attacker to bypass certain compensating controls, such as stateless firewall filters.\n\nThis issue affects Junos OS Evolved: \n\n\n\n  *  All versions before 21.4R3-S8-EVO, \n  *  22.2-EVO before 22.2R3-S4-EVO, \n  *  22.3-EVO before 22.3R3-S4-EVO, \n  *  22.4-EVO before 22.4R3-S3-EVO, \n  *  23.2-EVO before 23.2R2-S1-EVO, \n  *  23.4-EVO before 23.4R1-S2-EVO, 23.4R2-EVO.",
+      "cveName": "CVE-2024-395345-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-39534"
+    }
+  },
+  "CVE-2024-395445-0 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:07 PM -0400"
+      ],
+      "cveDis": "An Incorrect Default Permissions vulnerability in the command line interface (CLI) of Juniper Networks Junos OS Evolved allows a low privileged local attacker to view NETCONF traceoptions files, representing an exposure of sensitive information.\n\n\n\nOn all Junos OS Evolved platforms, when NETCONF traceoptions are configured, NETCONF traceoptions files get created with an incorrect group permission, which allows \n\na low-privileged user can access sensitive information compromising the confidentiality of the system.\n\n\n\nJunos OS Evolved: \n\n\n\n\n  *  All versions before 20.4R3-S9-EVO, \n  *  21.2-EVO before 21.2R3-S7-EVO, \n  *  21.4-EVO before 21.4R3-S5-EVO, \n  *  22.1-EVO before 22.1R3-S5-EVO, \n  *  22.2-EVO before 22.2R3-S3-EVO, \n  *  22.3-EVO before 22.3R3-EVO, 22.3R3-S2-EVO, \n  *  22.4-EVO before 22.4R3-EVO, \n  *  23.2-EVO before 23.2R1-S2-EVO, 23.2R2-EVO.",
+      "cveName": "CVE-2024-395445-0 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-39544"
+    }
+  },
+  "CVE-2024-395477-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:07 PM -0400"
+      ],
+      "cveDis": "An Improper Handling of Exceptional Conditions vulnerability in the rpd-server of Juniper Networks Junos OS and Junos OS Evolved within cRPD allows an unauthenticated network-based attacker sending crafted TCP traffic to the routing engine (RE) to cause a CPU-based Denial of Service (DoS).\n\nIf specially crafted TCP traffic is received by the control plane, or a TCP session terminates unexpectedly, it will cause increased control plane CPU utilization by the rpd-server process.\n\nWhile not explicitly required, the impact is more severe when RIB sharding is enabled.\n\nTask accounting shows unexpected reads by the RPD Server jobs for shards:\n\nuser@junos> show task accounting detail\n...\nread:RPD Server.0.0.0.0+780.192.168.0.78+48886 TOT:00000003.00379787 MAX:00000000.00080516 RUNS: 233888\\\nread:RPD Server.0.0.0.0+780.192.168.0.78+49144 TOT:00000004.00007565 MAX:00000000.00080360 RUNS: 233888\\\nread:RPD Server.0.0.0.0+780.192.168.0.78+49694 TOT:00000003.00600584 MAX:00000000.00080463 RUNS: 233888\\\nread:RPD Server.0.0.0.0+780.192.168.0.78+50246 TOT:00000004.00346998 MAX:00000000.00080338 RUNS: 233888\\\n\n\n\nThis issue affects:\n\nJunos OS with cRPD: \n\n  *  All versions before 21.2R3-S8, \n  *  21.4 before 21.4R3-S7, \n  *  22.1 before 22.1R3-S6, \n  *  22.2 before 22.2R3-S4, \n  *  22.3 before 22.3R3-S3, \n  *  22.4 before 22.4R3-S2, \n  *  23.2 before 23.2R2-S2, \n  *  24.2 before 24.2R2; \n\n\nJunos OS Evolved with cRPD: \n\n  *  All versions before 21.4R3-S7-EVO, \n  *  22.2 before 22.2R3-S4-EVO, \n  *  22.3 before 22.3R3-S3-EVO, \n  *  22.4 before 22.4R3-S2-EVO, \n  *  23.2 before 23.2R2-EVO.",
+      "cveName": "CVE-2024-395477-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-39547"
+    }
+  },
+  "CVE-2024-39563": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:07 PM -0400"
+      ],
+      "cveDis": "A Command Injection vulnerability in Juniper Networks Junos Space allows an unauthenticated, network-based attacker sending a specially crafted request to execute arbitrary shell commands on the Junos Space Appliance, leading to remote command execution by the web application, gaining complete control of the device.\n\nA specific script in the Junos Space web application allows attacker-controlled input from a GET request without sufficient input sanitization. A specially crafted request can exploit this vulnerability to execute arbitrary shell commands on the Junos Space Appliance.\n\nThis issue affects Junos Space 24.1R1. Previous versions of Junos Space are unaffected by this vulnerability.",
+      "cveName": "CVE-2024-39563",
+      "cveUrl": "/vuln/detail/CVE-2024-39563"
+    }
+  },
   "CVE-2024-39586": {
     "cve": {
       "cveDate": [
@@ -2230,6 +2351,17 @@
       "cveDis": "A privilege escalation vulnerability exists in the Veertu Anka Build 1.42.0. The vulnerability occurs during Anka node agent update. A low privilege user can trigger the update action which can result in unexpected elevation of privilege.",
       "cveName": "CVE-2024-397557-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-39755"
+    }
+  },
+  "CVE-2024-40897-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:13 PM -0400"
+      ],
+      "cveDis": "A DLL hijack vulnerability was reported in Lenovo Super File that could allow a local attacker to execute code with elevated privileges.",
+      "cveName": "CVE-2024-40897-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-4089"
     }
   },
   "CVE-2024-411637-5 HIGH": {
@@ -2263,6 +2395,39 @@
       "cveDis": "FlatPress CMS v1.3.1 1.3 was discovered to use insecure methods to store authentication data via the cookie's component.",
       "cveName": "CVE-2024-41290",
       "cveUrl": "/vuln/detail/CVE-2024-41290"
+    }
+  },
+  "CVE-2024-41307-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:13 PM -0400"
+      ],
+      "cveDis": "A DLL hijack vulnerability was reported in Lenovo App Store that could allow a local attacker to execute code with elevated privileges.",
+      "cveName": "CVE-2024-41307-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-4130"
+    }
+  },
+  "CVE-2024-41317-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:14 PM -0400"
+      ],
+      "cveDis": "A DLL hijack vulnerability was reported in Lenovo Emulator that could allow a local attacker to execute code with elevated privileges.",
+      "cveName": "CVE-2024-41317-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-4131"
+    }
+  },
+  "CVE-2024-41327-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:14 PM -0400"
+      ],
+      "cveDis": "A DLL hijack vulnerability was reported in Lenovo Lock Screen that could allow a local attacker to execute code with elevated privileges.",
+      "cveName": "CVE-2024-41327-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-4132"
     }
   },
   "CVE-2024-41511": {
@@ -2595,6 +2760,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-42017"
     }
   },
+  "CVE-2024-42018": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Atos Eviden SMC xScale before 1.6.6. During initialization of nodes, some configuration parameters are retrieved from management nodes. These parameters embed credentials whose integrity and confidentiality may be important to the security of the HPC configuration. Because these parameters are needed for initialization, there is no available mechanism to ensure access control on the management node, and a mitigation measure is normally put in place to prevent access to unprivileged users. It was discovered that this mitigation measure does not survive a reboot of diskful nodes. (Diskless nodes are not at risk.) The mistake lies in the cloudinit configuration: the iptables configuration should have been in the bootcmd instead of the runcmd section.",
+      "cveName": "CVE-2024-42018",
+      "cveUrl": "/vuln/detail/CVE-2024-42018"
+    }
+  },
   "CVE-2024-42027": {
     "cve": {
       "cveDate": [
@@ -2659,6 +2835,17 @@
       "cveDis": "A vulnerability in the legacy chat component of Mitel MiContact Center Business through 10.1.0.4 could allow an unauthenticated attacker to conduct an unauthorized access attack due to inadequate access control checks. A successful exploit could allow an attacker to access sensitive information and send unauthorized messages.",
       "cveName": "CVE-2024-42514",
       "cveUrl": "/vuln/detail/CVE-2024-42514"
+    }
+  },
+  "CVE-2024-42640": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "angular-base64-upload prior to v0.1.21 is vulnerable to unauthenticated remote code execution via demo/server.php. Exploiting this vulnerability allows an attacker to upload arbitrary content to the server, which can subsequently be accessed through demo/uploads. This leads to the execution of previously uploaded content and enables the attacker to achieve code execution on the server. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
+      "cveName": "CVE-2024-42640",
+      "cveUrl": "/vuln/detail/CVE-2024-42640"
     }
   },
   "CVE-2024-42831": {
@@ -3750,6 +3937,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-44349"
     }
   },
+  "CVE-2024-44413": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was discovered in DI_8200-16.07.26A1, which has been classified as critical. This issue affects the upgrade_filter_asp function in the upgrade_filter.asp file. Manipulation of the path parameter can lead to command injection.",
+      "cveName": "CVE-2024-44413",
+      "cveUrl": "/vuln/detail/CVE-2024-44413"
+    }
+  },
+  "CVE-2024-44414": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was discovered in FBM_292W-21.03.10V, which has been classified as critical. This issue affects the sub_4901E0 function in the msp_info.htm file. Manipulation of the path parameter can lead to command injection.",
+      "cveName": "CVE-2024-44414",
+      "cveUrl": "/vuln/detail/CVE-2024-44414"
+    }
+  },
+  "CVE-2024-44415": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was discovered in DI_8200-16.07.26A1, There is a buffer overflow in the dbsrv_asp function; The strcpy function is executed without checking the length of the string, leading to a buffer overflow.",
+      "cveName": "CVE-2024-44415",
+      "cveUrl": "/vuln/detail/CVE-2024-44415"
+    }
+  },
   "CVE-2024-44439": {
     "cve": {
       "cveDate": [
@@ -3781,6 +4001,50 @@
       "cveDis": "D-Link COVR-2600R FW101b05 is vulnerable to Buffer Overflow. In the function sub_24E28, the HTTP_REFERER is obtained through an environment variable, and this field is controllable, allowing it to be used as the value for src.",
       "cveName": "CVE-2024-44674",
       "cveUrl": "/vuln/detail/CVE-2024-44674"
+    }
+  },
+  "CVE-2024-44729": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in the component app/src/server.js of Mirotalk before commit 9de226 allows unauthenticated attackers without presenter privileges to arbitrarily eject users from a meeting.",
+      "cveName": "CVE-2024-44729",
+      "cveUrl": "/vuln/detail/CVE-2024-44729"
+    }
+  },
+  "CVE-2024-44730": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in the function handleDataChannelChat(dataMessage) of Mirotalk before commit c21d58 allows attackers to forge chat messages using an arbitrary sender name.",
+      "cveName": "CVE-2024-44730",
+      "cveUrl": "/vuln/detail/CVE-2024-44730"
+    }
+  },
+  "CVE-2024-44731": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "Mirotalk before commit 9de226 was discovered to contain a DOM-based cross-site scripting (XSS) vulnerability which allows attackers to execute arbitrary code via sending crafted payloads in messages to other users over RTC connections.",
+      "cveName": "CVE-2024-44731",
+      "cveUrl": "/vuln/detail/CVE-2024-44731"
+    }
+  },
+  "CVE-2024-44734": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in Mirotalk before commit 9de226 allows attackers to arbitrarily change usernames via sending a crafted roomAction request to the server.",
+      "cveName": "CVE-2024-44734",
+      "cveUrl": "/vuln/detail/CVE-2024-44734"
     }
   },
   "CVE-2024-44744": {
@@ -4432,6 +4696,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-45367"
     }
   },
+  "CVE-2024-45397": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "11:15:04 AM -0400"
+      ],
+      "cveDis": "h2o is an HTTP server with support for HTTP/1.x, HTTP/2 and HTTP/3. When an HTTP request using TLS/1.3 early data on top of TCP Fast Open or QUIC 0-RTT packets is received and the IP-address-based access control is used, the access control does not detect and prohibit HTTP requests conveyed by packets with a spoofed source address. This behavior allows attackers on the network to execute HTTP requests from addresses that are otherwise rejected by the address-based access control. The vulnerability has been addressed in commit 15ed15a. Users may disable the use of TCP FastOpen and QUIC to mitigate the issue.",
+      "cveName": "CVE-2024-45397",
+      "cveUrl": "/vuln/detail/CVE-2024-45397"
+    }
+  },
+  "CVE-2024-45402": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "11:15:04 AM -0400"
+      ],
+      "cveDis": "Picotls is a TLS protocol library that allows users select different crypto backends based on their use case. When parsing a spoofed TLS handshake message, picotls (specifically, bindings within picotls that call the crypto libraries) may attempt to free the same memory twice. This double free occurs during the disposal of multiple objects without any intervening calls to malloc Typically, this triggers the malloc implementation to detect the error and abort the process. However, depending on the internals of malloc and the crypto backend being used, the flaw could potentially lead to a use-after-free scenario, which might allow for arbitrary code execution. The vulnerability is addressed with commit 9b88159ce763d680e4a13b6e8f3171ae923a535d.",
+      "cveName": "CVE-2024-45402",
+      "cveUrl": "/vuln/detail/CVE-2024-45402"
+    }
+  },
+  "CVE-2024-45403": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "11:15:05 AM -0400"
+      ],
+      "cveDis": "h2o is an HTTP server with support for HTTP/1.x, HTTP/2 and HTTP/3. When h2o is configured as a reverse proxy and HTTP/3 requests are cancelled by the client, h2o might crash due to an assertion failure. The crash can be exploited by an attacker to mount a Denial-of-Service attack. By default, the h2o standalone server automatically restarts, minimizing the impact. However, HTTP requests that were served concurrently will still be disrupted. The vulnerability has been addressed in commit 1ed32b2. Users may disable the use of HTTP/3 to mitigate the issue.",
+      "cveName": "CVE-2024-45403",
+      "cveUrl": "/vuln/detail/CVE-2024-45403"
+    }
+  },
   "CVE-2024-45408": {
     "cve": {
       "cveDate": [
@@ -4993,6 +5290,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46084"
     }
   },
+  "CVE-2024-46088": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "An arbitrary file upload vulnerability in the ProductAction.entphone interface of Zhejiang University Entersoft Customer Resource Management System v2002 to v2024 allows attackers to execute arbitrary code via uploading a crafted file.",
+      "cveName": "CVE-2024-46088",
+      "cveUrl": "/vuln/detail/CVE-2024-46088"
+    }
+  },
   "CVE-2024-46097": {
     "cve": {
       "cveDate": [
@@ -5002,6 +5310,17 @@
       "cveDis": "TestLink 1.9.20 is vulnerable to Incorrect Access Control in the TestPlan editing section. When a new TestPlan is created, an ID with an incremental value is automatically generated. Using the edit function you can change the tplan_id parameter to another ID. The application does not carry out a check on the user's permissions maing it possible to recover the IDs of all the TestPlans (even the administrative ones) and modify them even with minimal privileges.",
       "cveName": "CVE-2024-46097",
       "cveUrl": "/vuln/detail/CVE-2024-46097"
+    }
+  },
+  "CVE-2024-46215": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "A vulnerability was discovered in KM08-708H-v1.1, There is a buffer overflow in the sub_445BDC() function within the /usr/sbin/goahead program; The strcpy function is executed without checking the length of the string, leading to a buffer overflow.",
+      "cveName": "CVE-2024-46215",
+      "cveUrl": "/vuln/detail/CVE-2024-46215"
     }
   },
   "CVE-2024-46237": {
@@ -5618,6 +5937,17 @@
       "cveDis": "OSS Endpoint Manager is an endpoint manager module for FreePBX. OSS Endpoint Manager module activation can allow authenticated web users unauthorized access to read system files with the permissions of the webserver process. This vulnerability is fixed in 14.0.4.",
       "cveName": "CVE-2024-47071",
       "cveUrl": "/vuln/detail/CVE-2024-47071"
+    }
+  },
+  "CVE-2024-47074": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "11:15:05 AM -0400"
+      ],
+      "cveDis": "DataEase is an open source data visualization analysis tool. In Dataease, the PostgreSQL data source in the data source function can customize the JDBC connection parameters and the PG server target to be connected. In backend/src/main/java/io/dataease/provider/datasource/JdbcProvider.java, PgConfiguration class don't filter any parameters, directly concat user input. So, if the attacker adds some parameters in JDBC url, and connect to evil PG server, the attacker can trigger the PG jdbc deserialization vulnerability, and eventually the attacker can execute through the deserialization vulnerability system commands and obtain server privileges. The vulnerability has been fixed in v1.18.25.",
+      "cveName": "CVE-2024-47074",
+      "cveUrl": "/vuln/detail/CVE-2024-47074"
     }
   },
   "CVE-2024-47079": {
@@ -6817,6 +7147,215 @@
       "cveDis": "Adobe Framemaker versions 2020.6, 2022.4 and earlier are affected by an Integer Underflow (Wrap or Wraparound) vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
       "cveName": "CVE-2024-474257-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-47425"
+    }
+  },
+  "CVE-2024-474895-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "An Improper Handling of Exceptional Conditions vulnerability in the Packet Forwarding Engine (pfe) of the Juniper Networks Junos OS Evolved on ACX Series devices allows an unauthenticated, network based attacker sending specific transit protocol traffic to cause a partial Denial of Service (DoS) to downstream devices.\n\nReceipt of specific transit protocol packets is incorrectly processed by the Routing Engine (RE), filling up the DDoS protection queue which is shared between routing protocols. This influx of transit protocol packets causes DDoS protection violations, resulting in protocol flaps which can affect connectivity to networking devices.\n\nThis issue affects both IPv4 and IPv6. This issue does not require any specific routing protocol to be configured or enabled.\n\nThe following commands can be used to monitor the DDoS protection queue:\n\n       labuser@re0> show evo-pfemand host pkt-stats\n\n    labuser@re0> show host-path ddos all-policers\n\nThis issue affects Junos OS Evolved: \n\n\n\n  *  All versions before 21.4R3-S8-EVO, \n  *  from 22.2 before 22.2R3-S4-EVO, \n  *  from 22.3 before 22.3R3-S4-EVO, \n  *  from 22.4 before 22.4R3-S3-EVO, \n  *  from 23.2 before 23.2R2-EVO, \n  *  from 23.4 before 23.4R1-S1-EVO, 23.4R2-EVO, \n  *  from 24.2 before 24.2R2-EVO.",
+      "cveName": "CVE-2024-474895-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47489"
+    }
+  },
+  "CVE-2024-474908-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "An Improper Restriction of Communication Channel to Intended Endpoints vulnerability in the Packet Forwarding Engine (PFE) of Juniper Networks Junos OS Evolved on ACX 7000 Series allows an unauthenticated, network based attacker to cause increased consumption of resources, ultimately resulting in a Denial of Service (DoS).\n\nWhen specific transit MPLS packets are received by the PFE, these packets are internally forwarded to the Routing Engine (RE), rather than being handled appropriately. Continuous receipt of these MPLS packets causes resources to be exhausted. MPLS config is not required to be affected by this issue. \n\n\nThis issue affects Junos OS Evolved ACX 7000 Series: \n\n\n\n  *  All versions before 21.4R3-S9-EVO,\n  *  22.2-EVO before 22.2R3-S4-EVO, \n  *  22.3-EVO before 22.3R3-S3-EVO, \n  *  22.4-EVO before 22.4R3-S2-EVO, \n  *  23.2-EVO before 23.2R2-EVO, \n  *  23.4-EVO before 23.4R1-S1-EVO, 23.4R2-EVO.",
+      "cveName": "CVE-2024-474908-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47490"
+    }
+  },
+  "CVE-2024-474917-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "An Improper Handling of Exceptional Conditions vulnerability in the Routing Protocol Daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a network-based, unauthenticated attacker to cause Denial of Service (DoS).\n\nWhen a BGP UPDATE with malformed path attribute is received over an established BGP session, rpd crashes and restarts. \n\nContinuous receipt of a BGP UPDATE with a specifically malformed path attribute will create a sustained Denial of Service (DoS) condition for impacted devices.\n\nThis issue affects:\n\n Juniper Networks Junos OS: \n\n\n\n  *  All versions before 21.4R3-S8, \n  *  from 22.2 before 22.2R3-S4, \n  *  from 22.4 before 22.4R3-S3, \n  *  from 23.2 before 23.2R2-S1, \n  *  from 23.4 before 23.4R1-S2, 23.4R2.\n\n\n Juniper Networks Junos OS Evolved: \n\n  *  All versions before 21.4R3-S8-EVO, \n  *  from 22.2 before 22.2R3-S4-EVO, \n  *  from 22.4 before 22.4R3-S3-EVO,\n  *  from 23.2 before 23.2R2-S1-EVO, \n  *  from 23.4 before 23.4R1-S2-EVO, 23.4R2-EVO.",
+      "cveName": "CVE-2024-474917-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47491"
+    }
+  },
+  "CVE-2024-474936-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "A Missing Release of Memory after Effective Lifetime vulnerability in the Packet Forwarding Engine (PFE) of the Juniper Networks Junos OS on the SRX5K, SRX4600 and MX Series platforms with Trio-based FPCs allows an unauthenticated, adjacent attacker to cause a Denial of Service (DoS).\n\nIn case of channelized Modular Interface Cards (MICs), every physical interface flap operation will leak heap memory. Over a period of time, continuous physical interface flap operations causes local FPC  to eventually run out of memory and crash.  \n\nBelow CLI command can be used to check the memory usage over a period of time:\n\n  user@host> show chassis fpc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                Temp  CPU Utilization (%)   CPU Utilization (%)  Memory   \nUtilization (%)\n  Slot State      (C)  Total  Interrupt      1min   5min  \n15min DRAM (MB) Heap     Buffer\n\n  0 \nOnline       43     41         \n2                           2048       49         14\n\n  1 \nOnline       43     41         \n2                          \n2048       49         14\n\n  2 \nOnline       43     41         \n2                          \n2048       49         14\n\n\n\n\n\n\n\n\n\nThis issue affects Junos OS on SRX5K, SRX4600 and MX Series: \n\n\n\n\n  *  All versions before 21.2R3-S7, \n  *  from 21.4 before 21.4R3-S6, \n  *  from 22.1 before 22.1R3-S5, \n  *  from 22.2 before 22.2R3-S3, \n  *  from 22.3 before 22.3R3-S2, \n  *  from 22.4 before 22.4R3, \n  *  from 23.2 before 23.2R2, \n  *  from 23.4 before 23.4R2.",
+      "cveName": "CVE-2024-474936-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47493"
+    }
+  },
+  "CVE-2024-474945-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "A Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability in the AgentD process of Juniper Networks Junos OS allows an attacker who is already causing impact to established sessions which generates counter changes picked up by the AgentD process during telemetry polling, to move the AgentD process into a state where AgentD attempts to reap an already destroyed sensor. This reaping attempt then leads to memory corruption causing the FPC to crash which is a Denial of Service (DoS).\n\n\n\n\n\nThe FPC will recover automatically without user intervention after the crash.\nThis issue affects Junos OS: \n\n  *  All versions before 21.4R3-S9\n  *  From 22.2 before 22.2R3-S5,\n  *  From 22.3 before 22.3R3-S4,\n  *  From 22.4 before 22.4R3-S3,\n  *  From 23.2 before 23.2R2-S2,\n  *  From 23.4 before 23.4R2.\n\n\nThis issue does not affect Junos OS Evolved.",
+      "cveName": "CVE-2024-474945-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47494"
+    }
+  },
+  "CVE-2024-47495": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "An Authorization Bypass Through User-Controlled Key vulnerability allows a locally authenticated attacker with shell access to gain full control of the device when Dual Routing Engines (REs) are in use on Juniper Networks Junos OS Evolved devices.\n\nThis issue affects:\nJuniper Networks Junos OS Evolved with dual-REs:\n  *  All versions before 21.2R3-S8-EVO,\n  *  from 21.4-EVO before 21.4R3-S8-EVO,\n  *  from 22.2-EVO before 22.2R3-S4-EVO,\n  *  from 22.3-EVO before 22.3R3-S4-EVO,\n  *  from 22.4-EVO before 22.4R3-S3-EVO,\n  *  from 23.2-EVO before 23.2R2-S1-EVO,\n  *  from 23.4-EVO before 23.4R2-S1-EVO.\n\n\n\nThis issue does not affect Juniper Networks Junos OS.",
+      "cveName": "CVE-2024-47495",
+      "cveUrl": "/vuln/detail/CVE-2024-47495"
+    }
+  },
+  "CVE-2024-474965-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "A NULL Pointer Dereference vulnerability in the Packet Forwarding Engine (pfe) of Juniper Networks Junos OS allows a local, low-privileged attacker to cause a Denial-of-Service (DoS).\n\nWhen a specific command is executed, the pfe crashes. This will cause traffic forwarding to be interrupted until the system self-recovers. Repeated execution will create a sustained DoS condition.\n\n This issue only affects MX Series devices with Line cards MPC1-MPC9.\nThis issue affects:\nJunos OS on MX Series: \n\n\n  *  All versions before 21.4R3-S9, \n  *  from 22.2 before 22.2R3-S5, \n  *  from 22.3 before 22.3R3-S4, \n  *  from 22.4 before 22.4R3-S2, \n  *  from 23.2 before 23.2R2-S1, \n  *  from 23.4 before 23.4R2.",
+      "cveName": "CVE-2024-474965-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47496"
+    }
+  },
+  "CVE-2024-474977-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "An Uncontrolled Resource Consumption vulnerability in the http daemon (httpd) of Juniper Networks Junos OS on SRX Series, QFX Series, MX Series and EX Series allows an unauthenticated, network-based attacker to cause Denial-of-Service (DoS).\n\nAn attacker can send specific HTTPS connection requests to the device, triggering the creation of processes that are not properly terminated. Over time, this leads to resource exhaustion, ultimately causing the device to crash and restart.\n\nThe following command can be used to monitor the resource usage:\nuser@host> show system processes extensive | match mgd | count\n\nThis issue affects Junos OS on SRX Series and EX Series:\nAll versions before 21.4R3-S7,\nfrom 22.2 before 22.2R3-S4,\nfrom 22.3 before 22.3R3-S3,\nfrom 22.4 before 22.4R3-S2,\nfrom 23.2 before 23.2R2-S1,\nfrom 23.4 before 23.4R1-S2, 23.4R2.",
+      "cveName": "CVE-2024-474977-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47497"
+    }
+  },
+  "CVE-2024-474986-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "An Unimplemented or Unsupported Feature in UI vulnerability in the CLI of Juniper Networks Junos OS Evolved on QFX5000 Series allows an unauthenticated, adjacent attacker to cause a Denial-of-Service (DoS).\n\nSeveral configuration statements meant to enforce limits on MAC learning and moves can be configured but do not take effect. This can lead to control plane overload situations which will severely impact the ability of the device to processes legitimate traffic.\n\n\n\nThis issue affects Junos OS Evolved on QFX5000 Series:\n\n\n\n  *  All versions before 21.4R3-S8-EVO,\n  *  22.2-EVO versions before 22.2R3-S5-EVO,\n\n  *  22.4-EVO versions before 22.4R3-EVO,\n  *  23.2-EVO versions before 23.2R2-EVO.",
+      "cveName": "CVE-2024-474986-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47498"
+    }
+  },
+  "CVE-2024-474997-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "An Improper Check for Unusual or Exceptional Conditions vulnerability in the routing protocol daemon (RPD) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated, network based attacker to cause a Denial of Service (DoS). \n\nIn a scenario where BGP Monitoring Protocol (BMP) is configured with rib-in pre-policy monitoring, receiving a BGP update with a specifically malformed AS PATH attribute over an established BGP session, can cause an RPD crash and restart.\n\nThis issue affects:\n\nJunos OS: \n\n\n\n  *  All versions before 21.2R3-S8,\n  *  21.4 versions before 21.4R3-S8,\n  *  22.2 versions before 22.2R3-S4,\n  *  22.3 versions before 22.3R3-S3,\n  *  22.4 versions before 22.4R3-S2,\n  *  23.2 versions before 23.2R2-S1,\n  *  23.4 versions before 23.4R1-S2, 23.4R2;\n\n\n\n\n\n\n\nJunos OS Evolved:\n\n\n\n\n  *  All versions before 21.2R3-S8-EVO,\n  *  21.4 versions before 21.4R3-S8-EVO,\n  *  22.2 versions before 22.2R3-S4-EVO,\n  *  22.3 versions before 22.3R3-S3-EVO,\n  *  22.4 versions before 22.4R3-S2-EVO,\n  *  23.2 versions before 23.2R2-S1-EVO,\n  *  23.4 versions before 23.4R1-S2-EVO, 23.4R2-EVO.",
+      "cveName": "CVE-2024-474997-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47499"
+    }
+  },
+  "CVE-2024-475015-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:11 PM -0400"
+      ],
+      "cveDis": "A NULL Pointer Dereference vulnerability in the \n\npacket forwarding engine (pfe) of Juniper Networks Junos OS on MX304, MX with MPC10/11/LC9600, and EX9200 with EX9200-15C allows a locally authenticated attacker with low privileges to cause a Denial of Service (DoS).\n\nIn a VPLS or Junos Fusion scenario, the execution of specific show commands will cause all FPCs hosting VPLS sessions or connecting to satellites to crash and restart.\n\nThis issue affects Junos on MX304, MX with MPC10/11/LC9600 and EX9200 with EX9200-15C: \n\n\n\n  *  All version before 21.2R3-S1,\n  *  21.3 versions before 21.3R3, \n  *  21.4 versions before 21.4R2.",
+      "cveName": "CVE-2024-475015-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47501"
+    }
+  },
+  "CVE-2024-475027-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:11 PM -0400"
+      ],
+      "cveDis": "An Allocation of Resources Without Limits or Throttling vulnerability in the kernel of Juniper Networks Junos OS Evolved allows an unauthenticated, network based attacker to cause a Denial of Service (DoS).\n\nIn specific cases the state of TCP sessions that are terminated is not cleared, which over time leads to an exhaustion of resources, preventing new connections to the control plane from being established.\n\nA continuously increasing number of connections shown by:\n\n\n\nuser@host > show system connections\n\n\n\nis indicative of the problem. To recover the respective RE needs to be restarted manually.\n\nThis issue only affects IPv4 but does not affect IPv6.\nThis issue only affects TCP sessions established in-band (over an interface on an FPC) but not out-of-band (over the management ethernet port on the routing-engine).\n\nThis issue affects Junos OS Evolved: \n\n  *  All versions before 21.4R3-S9-EVO,\n  *  22.2 versions before 22.2R3-S4-EVO,\n  *  22.4 version before 22.4R3-S3-EVO,\n  *  23.2 versions before 23.2R2-S1-EVO,\n  *  23.4 versions before 23.4R2-EVO.",
+      "cveName": "CVE-2024-475027-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47502"
+    }
+  },
+  "CVE-2024-475036-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:11 PM -0400"
+      ],
+      "cveDis": "An Improper Check for Unusual or Exceptional Conditions vulnerability in the flow processing daemon (flowd) of Juniper Networks Junos OS on SRX4600 and SRX5000 Series allows an unauthenticated and logically adjacent attacker to cause a Denial-of-Service (DoS).\n\nIf in a multicast scenario a sequence of \n\nspecific PIM packets is received, this will cause a flowd crash and restart, which leads to momentary service interruption.\nThis issue affects Junos OS on SRX 4600 and SRX 5000 Series:\n\n\n\n  *  All versions before 21.4R3-S9,\n  *  22.2 versions before 22.2R3-S5,\n  *  22.3 versions before 22.3R3-S4,\n  *  22.4 versions before 22.4R3-S4,\n  *  23.2 versions before 23.2R2-S2,\n  *  23.4 versions before 23.4R2, \n  *  24.2 versions before 24.2R1-S1, 24.2R2.",
+      "cveName": "CVE-2024-475036-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47503"
+    }
+  },
+  "CVE-2024-475047-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:11 PM -0400"
+      ],
+      "cveDis": "An Improper Validation of Specified Type of Input vulnerability in the packet forwarding engine (pfe) Juniper Networks Junos OS on SRX5000 Series allows an unauthenticated, network based attacker to cause a Denial of Service (Dos).\n\nWhen a non-clustered SRX5000 device receives a specifically malformed packet this will cause a flowd crash and restart.\n\nThis issue affects Junos OS:\n\n  *  22.1 releases 22.1R1 and later before 22.2R3-S5,\n  *  22.3 releases before 22.3R3-S4,\n  *  22.4 releases before 22.4R3-S4,\n  *  23.2 releases before 23.2R2-S2,\n  *  23.4 releases before 23.4R2-S1,\n  *  24.2 releases before 24.2R1-S1, 24.2R2.\n\n\nPlease note that the PR does indicate that earlier versions have been fixed as well, but these won't be adversely impacted by this.",
+      "cveName": "CVE-2024-475047-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47504"
+    }
+  },
+  "CVE-2024-475056-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:12 PM -0400"
+      ],
+      "cveDis": "An Allocation of Resources Without Limits or Throttling vulnerability in the PFE management daemon (evo-pfemand) of Juniper Networks Junos OS Evolved allows an authenticated, network-based attacker to cause an FPC crash leading to a Denial of Service (DoS).When specific SNMP GET operations or specific low-priviledged CLI commands are executed, a GUID resource leak will occur, eventually leading to exhaustion and resulting in FPCs to hang. Affected FPCs need to be manually restarted to recover.\n\nGUID exhaustion will trigger a syslog message like one of the following:\n\nevo-pfemand[<pid>]: get_next_guid: Ran out of Guid Space ...\nevo-aftmand-zx[<pid>]: get_next_guid: Ran out of Guid Space ...\nThe leak can be monitored by running the following command and taking note of the values in the rightmost column labeled Guids:\n\n\n\n\n\nuser@host> show platform application-info allocations app evo-pfemand/evo-pfemand\n\n\n\nIn case one or more of these values are constantly increasing the leak is happening.\n\nThis issue affects Junos OS Evolved:\n\n\n\n  *  All versions before 21.4R3-S7-EVO,\n  *  22.1 versions before 22.1R3-S6-EVO,\n  *  22.2 versions before 22.2R3-EVO, \n\n  *  22.3 versions before 22.3R3-EVO,\n  *  22.4 versions before 22.4R2-EVO.\n\n\n\nPlease note that this issue is similar to, but different from CVE-2024-47508 and CVE-2024-47509.",
+      "cveName": "CVE-2024-475056-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47505"
+    }
+  },
+  "CVE-2024-475065-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:12 PM -0400"
+      ],
+      "cveDis": "A Deadlock vulnerability in the packet forwarding engine (PFE) of Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause a Denial of Service (DoS).\n\nWhen a large amount of traffic is processed by ATP Cloud inspection, a deadlock can occur which will result in a PFE crash and restart. Whether the crash occurs, depends on system internal timing that is outside the attackers control.\n\n\n\nThis issue affects Junos OS on SRX Series:\n\n\n\n  *  All versions before 21.3R3-S1,\n  *  21.4 versions before 21.4R3,\n  *  22.1 versions before 22.1R2,\n  *  22.2 versions before 22.2R1-S2, 22.2R2.",
+      "cveName": "CVE-2024-475065-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47506"
+    }
+  },
+  "CVE-2024-475075-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:12 PM -0400"
+      ],
+      "cveDis": "An Improper Check for Unusual or Exceptional Conditions vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated, network-based attacker to cause an integrity impact to the downstream devices.\n\nWhen a peer sends a BGP update message which contains the aggregator attribute with an ASN value of zero (0), rpd accepts and propagates this attribute, which can cause issues for downstream BGP peers receiving this.\n\n\n\nThis issue affects:\n\nJunos OS:\n\n\n\n  *  All versions before 21.4R3-S6,\n  *  22.2 versions before 22.2R3-S3,\n  *  22.4 versions before 22.4R3; \n\n\n\n\n\n\n\nJunos OS Evolved: \n\n\n\n  *  All versions before 21.4R3-S7-EVO,\n  *  22.2 versions before 22.2R3-S4-EVO,\n  *  22.4 versions before 22.4R3-EVO.",
+      "cveName": "CVE-2024-475075-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47507"
+    }
+  },
+  "CVE-2024-475086-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:12 PM -0400"
+      ],
+      "cveDis": "An Allocation of Resources Without Limits or Throttling vulnerability in the PFE management daemon (evo-pfemand) of Juniper Networks Junos OS Evolved allows an authenticated, network-based attacker to cause an FPC crash leading to a Denial of Service (DoS).When specific SNMP GET operations or specific low-priviledged CLI commands are executed, a GUID resource leak will occur, eventually leading to exhaustion and resulting in FPCs to hang. Affected FPCs need to be manually restarted to recover.\n\nGUID exhaustion will trigger a syslog message like one of the following:\n\nevo-pfemand[<pid>]: get_next_guid: Ran out of Guid Space ...\nevo-aftmand-zx[<pid>]: get_next_guid: Ran out of Guid Space ...\nThe leak can be monitored by running the following command and taking note of the values in the rightmost column labeled Guids:\n\n\n\n\n\nuser@host> show platform application-info allocations app evo-pfemand/evo-pfemand\n\n\n\nIn case one or more of these values are constantly increasing the leak is happening.\n\nThis issue affects Junos OS Evolved:\n\n\n\n  *  All versions before 21.2R3-S8-EVO,\n  *  21.3 versions before 21.3R3-EVO;\n  *  21.4 versions before 22.1R2-EVO,\n\n  *  22.1 versions before 22.1R1-S1-EVO, 22.1R2-EVO.\n\n\n\n\n\nPlease note that this issue is similar to, but different from CVE-2024-47505 and CVE-2024-47509.",
+      "cveName": "CVE-2024-475086-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47508"
+    }
+  },
+  "CVE-2024-475096-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:13 PM -0400"
+      ],
+      "cveDis": "An Allocation of Resources Without Limits or Throttling vulnerability in the PFE management daemon (evo-pfemand) of Juniper Networks Junos OS Evolved allows an authenticated, network-based attacker to cause an FPC crash leading to a Denial of Service (DoS).When specific SNMP GET operations or specific low-priviledged CLI commands are executed, a GUID resource leak will occur, eventually leading to exhaustion and resulting in FPCs to hang. Affected FPCs need to be manually restarted to recover.\n\nGUID exhaustion will trigger a syslog message like one of the following:\n\nevo-pfemand[<pid>]: get_next_guid: Ran out of Guid Space ...\nevo-aftmand-zx[<pid>]: get_next_guid: Ran out of Guid Space ...\nThe leak can be monitored by running the following command and taking note of the values in the rightmost column labeled Guids:\n\n\n\n\n\nuser@host> show platform application-info allocations app evo-pfemand/evo-pfemand\n\n\n\nIn case one or more of these values are constantly increasing the leak is happening.\n\nThis issue affects Junos OS Evolved:\n\n\n\n  *  All versions before 21.4R2-EVO,\n  *  22.1 versions before 22.1R2-EVO.\n\n\n\n\n\nPlease note that this issue is similar to, but different from CVE-2024-47505 and CVE-2024-47508.",
+      "cveName": "CVE-2024-475096-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47509"
     }
   },
   "CVE-2024-47523": {
@@ -8040,6 +8579,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47828"
     }
   },
+  "CVE-2024-47830": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "11:15:05 AM -0400"
+      ],
+      "cveDis": "Plane is an open-source project management tool. Plane uses the ** wildcard support to retrieve the image from any hostname as in /web/next.config.js. This may permit an attacker to induce the server side into performing requests to unintended locations. This vulnerability is fixed in 0.23.0.",
+      "cveName": "CVE-2024-47830",
+      "cveUrl": "/vuln/detail/CVE-2024-47830"
+    }
+  },
   "CVE-2024-47832": {
     "cve": {
       "cveDate": [
@@ -8236,6 +8786,28 @@
       "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves **Cross-Site Scripting (XSS)** on any Gradio server that allows file uploads. Authenticated users can upload files such as HTML, JavaScript, or SVG files containing malicious scripts. When other users download or view these files, the scripts will execute in their browser, allowing attackers to perform unauthorized actions or steal sensitive information from their sessions. This impacts any Gradio server that allows file uploads, particularly those using components that process or display user-uploaded files. Users are advised to upgrade to `gradio>=5` to address this issue. As a workaround, users can restrict the types of files that can be uploaded to the Gradio server by limiting uploads to non-executable file types such as images or text. Additionally, developers can implement server-side validation to sanitize uploaded files, ensuring that HTML, JavaScript, and SVG files are properly handled or rejected before being stored or displayed to users.",
       "cveName": "CVE-2024-47872",
       "cveUrl": "/vuln/detail/CVE-2024-47872"
+    }
+  },
+  "CVE-2024-47875": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "11:15:05 AM -0400"
+      ],
+      "cveDis": "DOMPurify is a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMpurify was vulnerable to nesting-based mXSS. This vulnerability is fixed in 2.5.0 and 3.1.3.",
+      "cveName": "CVE-2024-47875",
+      "cveUrl": "/vuln/detail/CVE-2024-47875"
+    }
+  },
+  "CVE-2024-47877": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "Extract is aA Go library to extract archives in zip, tar.gz or tar.bz2 formats. A maliciously crafted archive may allow an attacker to create a symlink outside the extraction target directory. This vulnerability is fixed in 4.0.0. If you're using the Extractor.FS interface, then upgrading to /v4 will require to implement the new methods that have been added.",
+      "cveName": "CVE-2024-47877",
+      "cveUrl": "/vuln/detail/CVE-2024-47877"
     }
   },
   "CVE-2024-47910": {
@@ -8469,6 +9041,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-47976"
     }
   },
+  "CVE-2024-48813": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:13 PM -0400"
+      ],
+      "cveDis": "SQL injection vulnerability in employee-management-system-php-and-mysql-free-download.html taskmatic 1.0 allows a remote attacker to execute arbitrary code via the admin_id parameter of the /update-employee.php component.",
+      "cveName": "CVE-2024-48813",
+      "cveUrl": "/vuln/detail/CVE-2024-48813"
+    }
+  },
+  "CVE-2024-48827": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:13 PM -0400"
+      ],
+      "cveDis": "An issue in sbondCo Watcharr v.1.43.0 allows a remote attacker to execute arbitrary code and escalate privileges via the Change Password function.",
+      "cveName": "CVE-2024-48827",
+      "cveUrl": "/vuln/detail/CVE-2024-48827"
+    }
+  },
   "CVE-2024-48902": {
     "cve": {
       "cveDate": [
@@ -8544,6 +9138,17 @@
       "cveDis": "execute_filter_delta in archive_read_support_format_rar.c in libarchive before 3.7.5 allows out-of-bounds access via a crafted archive file because src can move beyond dst.",
       "cveName": "CVE-2024-48958",
       "cveUrl": "/vuln/detail/CVE-2024-48958"
+    }
+  },
+  "CVE-2024-5474": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:14 PM -0400"
+      ],
+      "cveDis": "A potential information disclosure vulnerability was reported in Lenovo's packaging of Dolby Vision Provisioning software prior to version 2.0.0.2 that could allow a local attacker to read files on the system with elevated privileges during installation of the package. Previously installed versions are not affected by this issue.",
+      "cveName": "CVE-2024-5474",
+      "cveUrl": "/vuln/detail/CVE-2024-5474"
     }
   },
   "CVE-2024-5803": {
@@ -8698,6 +9303,17 @@
       "cveDis": "OMNTEC Proteus Tank Monitoring OEL8000III Series\n\n\ncould allow an attacker to perform administrative actions without proper authentication.",
       "cveName": "CVE-2024-6981",
       "cveUrl": "/vuln/detail/CVE-2024-6981"
+    }
+  },
+  "CVE-2024-6985": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:14 PM -0400"
+      ],
+      "cveDis": "A path traversal vulnerability exists in the api open_personality_folder endpoint of parisneo/lollms-webui. This vulnerability allows an attacker to read any folder in the personality_folder on the victim's computer, even though sanitize_path is set. The issue arises due to improper sanitization of the personality_folder parameter, which can be exploited to traverse directories and access arbitrary files.",
+      "cveName": "CVE-2024-6985",
+      "cveUrl": "/vuln/detail/CVE-2024-6985"
     }
   },
   "CVE-2024-7037": {
@@ -9250,6 +9866,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8353"
     }
   },
+  "CVE-2024-8376": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:14 PM -0400"
+      ],
+      "cveDis": "In Eclipse Mosquitto up to version 2.0.18a, an attacker can achieve memory leaking, segmentation fault or heap-use-after-free by sending specific sequences of \"CONNECT\", \"DISCONNECT\", \"SUBSCRIBE\", \"UNSUBSCRIBE\" and \"PUBLISH\" packets.",
+      "cveName": "CVE-2024-8376",
+      "cveUrl": "/vuln/detail/CVE-2024-8376"
+    }
+  },
   "CVE-2024-8379": {
     "cve": {
       "cveDate": [
@@ -9756,6 +10383,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8743"
     }
   },
+  "CVE-2024-8755": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "11:15:06 AM -0400"
+      ],
+      "cveDis": "Improper Input Validation vulnerability of Authenticated User in Progress LoadMaster allows : OS Command Injection.This issue affects:\n\n\n\n\n\n Product \n\n\n\n\n\nAffected Versions \n\n\n\n\n\nLoadMaster \n\n\n\n\n\nFrom 7.2.55.0 to 7.2.60.1 (inclusive) \n\n\n\n\n\n  \n\n\n\n\n\nFrom 7.2.49.0 to 7.2.54.12 (inclusive) \n\n\n\n\n\n  \n\n\n\n\n\n7.2.48.12 and all prior versions \n\n\n\n\n\n\n\n\nMulti-Tenant Hypervisor \n\n\n\n\n\n7.1.35.12 and all prior versions \n\n\n\n\n\n\n\n\n\n\nECS\n\n\n\n\n\nAll prior versions to 7.2.60.1 (inclusive)",
+      "cveName": "CVE-2024-8755",
+      "cveUrl": "/vuln/detail/CVE-2024-8755"
+    }
+  },
   "CVE-2024-8786": {
     "cve": {
       "cveDate": [
@@ -10062,6 +10700,17 @@
       "cveDis": "In PHP versions 8.1.* before 8.1.30, 8.2.* before 8.2.24, 8.3.* before 8.3.12, when using PHP-FPM SAPI and it is configured to catch workers output through catch_workers_output = yes, it may be possible to pollute the final log or remove up to 4 characters from the log messages by manipulating log message content. Additionally, if PHP-FPM is configured to use syslog output, it may be possible to further remove log data using the same vulnerability.",
       "cveName": "CVE-2024-9026",
       "cveUrl": "/vuln/detail/CVE-2024-9026"
+    }
+  },
+  "CVE-2024-9046": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "12:15:15 PM -0400"
+      ],
+      "cveDis": "A DLL hijack vulnerability was reported in Lenovo stARstudio that could allow a local attacker to execute code with elevated privileges.",
+      "cveName": "CVE-2024-9046",
+      "cveUrl": "/vuln/detail/CVE-2024-9046"
     }
   },
   "CVE-2024-9054": {
@@ -12647,6 +13296,17 @@
       "cveDis": "The Pedalo Connector plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.0.5. This is due to insufficient restriction on the 'login_admin_user' function. This makes it possible for unauthenticated attackers to log to the first user, who is usually the administrator, or if it does not exist, then to the first administrator.",
       "cveName": "CVE-2024-98229-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-9822"
+    }
+  },
+  "CVE-2024-9859": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "Type confusion in WebAssembly in Google Chrome prior to 126.0.6478.126 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-9859",
+      "cveUrl": "/vuln/detail/CVE-2024-9859"
     }
   }
 }
