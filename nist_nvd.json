@@ -5631,6 +5631,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47079"
     }
   },
+  "CVE-2024-47084": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:10 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability is related to **CORS origin validation**, where the Gradio server fails to validate the request origin when a cookie is present. This allows an attacker’s website to make unauthorized requests to a local Gradio server. Potentially, attackers can upload files, steal authentication tokens, and access user data if the victim visits a malicious website while logged into Gradio. This impacts users who have deployed Gradio locally and use basic authentication. Users are advised to upgrade to `gradio>4.44` to address this issue. As a workaround, users can manually enforce stricter CORS origin validation by modifying the `CustomCORSMiddleware` class in their local Gradio server code. Specifically, they can bypass the condition that skips CORS validation for requests containing cookies to prevent potential exploitation.",
+      "cveName": "CVE-2024-47084",
+      "cveUrl": "/vuln/detail/CVE-2024-47084"
+    }
+  },
   "CVE-2024-47095": {
     "cve": {
       "cveDate": [
@@ -5684,6 +5695,61 @@
       "cveDis": "In JetBrains TeamCity before 2024.07.3 password could be exposed via Sonar runner REST API",
       "cveName": "CVE-2024-47161",
       "cveUrl": "/vuln/detail/CVE-2024-47161"
+    }
+  },
+  "CVE-2024-47164": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:10 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability relates to the **bypass of directory traversal checks** within the `is_in_or_equal` function. This function, intended to check if a file resides within a given directory, can be bypassed with certain payloads that manipulate file paths using `..` (parent directory) sequences. Attackers could potentially access restricted files if they are able to exploit this flaw, although the difficulty is high. This primarily impacts users relying on Gradio’s blocklist or directory access validation, particularly when handling file uploads. Users are advised to upgrade to `gradio>=5.0` to address this issue. As a workaround, users can manually sanitize and normalize file paths in their Gradio deployment before passing them to the `is_in_or_equal` function. Ensuring that all file paths are properly resolved and absolute can help mitigate the bypass vulnerabilities caused by the improper handling of `..` sequences or malformed paths.",
+      "cveName": "CVE-2024-47164",
+      "cveUrl": "/vuln/detail/CVE-2024-47164"
+    }
+  },
+  "CVE-2024-47165": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:10 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability relates to **CORS origin validation accepting a null origin**. When a Gradio server is deployed locally, the `localhost_aliases` variable includes \"null\" as a valid origin. This allows attackers to make unauthorized requests from sandboxed iframes or other sources with a null origin, potentially leading to data theft, such as user authentication tokens or uploaded files. This impacts users running Gradio locally, especially those using basic authentication. Users are advised to upgrade to `gradio>=5.0` to address this issue. As a workaround, users can manually modify the `localhost_aliases` list in their local Gradio deployment to exclude \"null\" as a valid origin. By removing this value, the Gradio server will no longer accept requests from sandboxed iframes or sources with a null origin, mitigating the potential for exploitation.",
+      "cveName": "CVE-2024-47165",
+      "cveUrl": "/vuln/detail/CVE-2024-47165"
+    }
+  },
+  "CVE-2024-47166": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:10 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves a **one-level read path traversal** in the `/custom_component` endpoint. Attackers can exploit this flaw to access and leak source code from custom Gradio components by manipulating the file path in the request. Although the traversal is limited to a single directory level, it could expose proprietary or sensitive code that developers intended to keep private. This impacts users who have developed custom Gradio components and are hosting them on publicly accessible servers. Users are advised to upgrade to `gradio>=4.44` to address this issue. As a workaround, developers can sanitize the file paths and ensure that components are not stored in publicly accessible directories.",
+      "cveName": "CVE-2024-47166",
+      "cveUrl": "/vuln/detail/CVE-2024-47166"
+    }
+  },
+  "CVE-2024-47167": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:11 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability relates to **Server-Side Request Forgery (SSRF)** in the `/queue/join` endpoint. Gradio’s `async_save_url_to_cache` function allows attackers to force the Gradio server to send HTTP requests to user-controlled URLs. This could enable attackers to target internal servers or services within a local network and possibly exfiltrate data or cause unwanted internal requests. Additionally, the content from these URLs is stored locally, making it easier for attackers to upload potentially malicious files to the server. This impacts users deploying Gradio servers that use components like the Video component which involve URL fetching. Users are advised to upgrade to `gradio>=5` to address this issue.  As a workaround, users can disable or heavily restrict URL-based inputs in their Gradio applications to trusted domains only. Additionally, implementing stricter URL validation (such as allowinglist-based validation) and ensuring that local or internal network addresses cannot be requested via the `/queue/join` endpoint can help mitigate the risk of SSRF attacks.",
+      "cveName": "CVE-2024-47167",
+      "cveUrl": "/vuln/detail/CVE-2024-47167"
+    }
+  },
+  "CVE-2024-47168": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:11 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves data exposure due to the enable_monitoring flag not properly disabling monitoring when set to False. Even when monitoring is supposedly disabled, an attacker or unauthorized user can still access the monitoring dashboard by directly requesting the /monitoring endpoint. This means that sensitive application analytics may still be exposed, particularly in environments where monitoring is expected to be disabled. Users who set enable_monitoring=False to prevent unauthorized access to monitoring data are impacted. Users are advised to upgrade to gradio>=4.44 to address this issue. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47168",
+      "cveUrl": "/vuln/detail/CVE-2024-47168"
     }
   },
   "CVE-2024-47172": {
@@ -6146,6 +6212,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Xylus Themes WP Bulk Delete allows Reflected XSS.This issue affects WP Bulk Delete: from n/a through 1.3.1.",
       "cveName": "CVE-2024-47352",
       "cveUrl": "/vuln/detail/CVE-2024-47352"
+    }
+  },
+  "CVE-2024-47354": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "3:15:16 PM -0400"
+      ],
+      "cveDis": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in smp7, wp.Insider Simple Membership After Login Redirection.This issue affects Simple Membership After Login Redirection: from n/a through 1.6.",
+      "cveName": "CVE-2024-47354",
+      "cveUrl": "/vuln/detail/CVE-2024-47354"
     }
   },
   "CVE-2024-47355": {
@@ -7281,6 +7358,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47635"
     }
   },
+  "CVE-2024-47636": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Eyecix JobSearch allows Object Injection.This issue affects JobSearch: from n/a through 2.5.9.",
+      "cveName": "CVE-2024-47636",
+      "cveUrl": "/vuln/detail/CVE-2024-47636"
+    }
+  },
   "CVE-2024-47638": {
     "cve": {
       "cveDate": [
@@ -7367,6 +7455,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in HelpieWP Accordion & FAQ – Helpie WordPress Accordion FAQ Plugin allows Stored XSS.This issue affects Accordion & FAQ – Helpie WordPress Accordion FAQ Plugin: from n/a through 1.27.",
       "cveName": "CVE-2024-47647",
       "cveUrl": "/vuln/detail/CVE-2024-47647"
+    }
+  },
+  "CVE-2024-47648": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "3:15:17 PM -0400"
+      ],
+      "cveDis": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in EventPrime Events EventPrime.This issue affects EventPrime: from n/a through 4.0.4.5.",
+      "cveName": "CVE-2024-47648",
+      "cveUrl": "/vuln/detail/CVE-2024-47648"
     }
   },
   "CVE-2024-47650": {
@@ -8073,6 +8172,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-47855"
     }
   },
+  "CVE-2024-47867": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "7:15:02 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability is a **lack of integrity check** on the downloaded FRP client, which could potentially allow attackers to introduce malicious code. If an attacker gains access to the remote URL from which the FRP client is downloaded, they could modify the binary without detection, as the Gradio server does not verify the file's checksum or signature.  Any users utilizing the Gradio server's sharing mechanism that downloads the FRP client could be affected by this vulnerability, especially those relying on the executable binary for secure data tunneling. There is no direct workaround for this issue without upgrading. However, users can manually validate the integrity of the downloaded FRP client by implementing checksum or signature verification in their own environment to ensure the binary hasn't been tampered with.",
+      "cveName": "CVE-2024-47867",
+      "cveUrl": "/vuln/detail/CVE-2024-47867"
+    }
+  },
+  "CVE-2024-47868": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "7:15:02 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This is a **data validation vulnerability** affecting several Gradio components, which allows arbitrary file leaks through the post-processing step. Attackers can exploit these components by crafting requests that bypass expected input constraints. This issue could lead to sensitive files being exposed to unauthorized users, especially when combined with other vulnerabilities, such as issue TOB-GRADIO-15. The components most at risk are those that return or handle file data. Vulnerable Components: 1. **String to FileData:** DownloadButton, Audio, ImageEditor, Video, Model3D, File, UploadButton. 2. **Complex data to FileData:** Chatbot, MultimodalTextbox. 3. **Direct file read in preprocess:** Code. 4. **Dictionary converted to FileData:** ParamViewer, Dataset. Exploit Scenarios: 1. A developer creates a Dropdown list that passes values to a DownloadButton. An attacker bypasses the allowed inputs, sends an arbitrary file path (like `/etc/passwd`), and downloads sensitive files. 2. An attacker crafts a malicious payload in a ParamViewer component, leaking sensitive files from a server through the arbitrary file leak. This issue has been resolved in `gradio>5.0`. Upgrading to the latest version will mitigate this vulnerability. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47868",
+      "cveUrl": "/vuln/detail/CVE-2024-47868"
+    }
+  },
+  "CVE-2024-47869": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "7:15:02 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves a **timing attack** in the way Gradio compares hashes for the `analytics_dashboard` function. Since the comparison is not done in constant time, an attacker could exploit this by measuring the response time of different requests to infer the correct hash byte-by-byte. This can lead to unauthorized access to the analytics dashboard, especially if the attacker can repeatedly query the system with different keys. Users are advised to upgrade to `gradio>4.44` to mitigate this issue. To mitigate the risk before applying the patch, developers can manually patch the `analytics_dashboard` dashboard to use a **constant-time comparison** function for comparing sensitive values, such as hashes. Alternatively, access to the analytics dashboard can be disabled.",
+      "cveName": "CVE-2024-47869",
+      "cveUrl": "/vuln/detail/CVE-2024-47869"
+    }
+  },
+  "CVE-2024-47870": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "7:15:03 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves a **race condition** in the `update_root_in_config` function, allowing an attacker to modify the `root` URL used by the Gradio frontend to communicate with the backend. By exploiting this flaw, an attacker can redirect user traffic to a malicious server. This could lead to the interception of sensitive data such as authentication credentials or uploaded files. This impacts all users who connect to a Gradio server, especially those exposed to the internet, where malicious actors could exploit this race condition. Users are advised to upgrade to `gradio>=5` to address this issue. There are no known workarounds for this issue.",
+      "cveName": "CVE-2024-47870",
+      "cveUrl": "/vuln/detail/CVE-2024-47870"
+    }
+  },
+  "CVE-2024-47871": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "7:15:03 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves **insecure communication** between the FRP (Fast Reverse Proxy) client and server when Gradio's `share=True` option is used. HTTPS is not enforced on the connection, allowing attackers to intercept and read files uploaded to the Gradio server, as well as modify responses or data sent between the client and server. This impacts users who are sharing Gradio demos publicly over the internet using `share=True` without proper encryption, exposing sensitive data to potential eavesdroppers. Users are advised to upgrade to `gradio>=5` to address this issue. As a workaround, users can avoid using `share=True` in production environments and instead host their Gradio applications on servers with HTTPS enabled to ensure secure communication.",
+      "cveName": "CVE-2024-47871",
+      "cveUrl": "/vuln/detail/CVE-2024-47871"
+    }
+  },
+  "CVE-2024-47872": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "7:15:03 PM -0400"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves **Cross-Site Scripting (XSS)** on any Gradio server that allows file uploads. Authenticated users can upload files such as HTML, JavaScript, or SVG files containing malicious scripts. When other users download or view these files, the scripts will execute in their browser, allowing attackers to perform unauthorized actions or steal sensitive information from their sessions. This impacts any Gradio server that allows file uploads, particularly those using components that process or display user-uploaded files. Users are advised to upgrade to `gradio>=5` to address this issue. As a workaround, users can restrict the types of files that can be uploaded to the Gradio server by limiting uploads to non-executable file types such as images or text. Additionally, developers can implement server-side validation to sanitize uploaded files, ensuring that HTML, JavaScript, and SVG files are properly handled or rejected before being stored or displayed to users.",
+      "cveName": "CVE-2024-47872",
+      "cveUrl": "/vuln/detail/CVE-2024-47872"
+    }
+  },
   "CVE-2024-47910": {
     "cve": {
       "cveDate": [
@@ -8148,6 +8313,61 @@
       "cveDis": "In JetBrains TeamCity before 2024.07.3 stored XSS was possible via server global settings",
       "cveName": "CVE-2024-47951",
       "cveUrl": "/vuln/detail/CVE-2024-47951"
+    }
+  },
+  "CVE-2024-47962": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "Delta Electronics CNCSoft-G2 lacks proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can manipulate an insider to visit a malicious page or file to leverage this vulnerability to execute code in the context of the current process.",
+      "cveName": "CVE-2024-47962",
+      "cveUrl": "/vuln/detail/CVE-2024-47962"
+    }
+  },
+  "CVE-2024-47963": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "Delta Electronics CNCSoft-G2 lacks proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can manipulate users to visit a malicious page or file to leverage this vulnerability to execute code in the context of the current process.",
+      "cveName": "CVE-2024-47963",
+      "cveUrl": "/vuln/detail/CVE-2024-47963"
+    }
+  },
+  "CVE-2024-47964": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "Delta Electronics CNCSoft-G2 lacks proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can manipulate users to visit a malicious page or file to leverage this vulnerability to execute code in the context of the current process.",
+      "cveName": "CVE-2024-47964",
+      "cveUrl": "/vuln/detail/CVE-2024-47964"
+    }
+  },
+  "CVE-2024-47965": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "Delta Electronics CNCSoft-G2 lacks proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can manipulate users to visit a malicious page or file to leverage this vulnerability to execute code in the context of the current process.",
+      "cveName": "CVE-2024-47965",
+      "cveUrl": "/vuln/detail/CVE-2024-47965"
+    }
+  },
+  "CVE-2024-47966": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "Delta Electronics CNCSoft-G2 lacks proper initialization of memory prior to accessing it. An attacker can manipulate users to visit a malicious page or file to leverage this vulnerability to execute code in the context of the current process.",
+      "cveName": "CVE-2024-47966",
+      "cveUrl": "/vuln/detail/CVE-2024-47966"
     }
   },
   "CVE-2024-47967": {
@@ -10097,6 +10317,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9174"
     }
   },
+  "CVE-2024-9180": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "5:15:05 PM -0400"
+      ],
+      "cveDis": "A privileged Vault operator with write permissions to the root namespace’s identity endpoint could escalate their privileges to Vault’s root policy. Fixed in Vault Community Edition 1.18.0 and Vault Enterprise 1.18.0, 1.17.7, 1.16.11, and 1.15.16.",
+      "cveName": "CVE-2024-9180",
+      "cveUrl": "/vuln/detail/CVE-2024-9180"
+    }
+  },
   "CVE-2024-91895-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -11439,6 +11670,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9484"
     }
   },
+  "CVE-2024-9487": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:11 PM -0400"
+      ],
+      "cveDis": "An improper verification of cryptographic signature vulnerability was identified in GitHub Enterprise Server that allowed SAML SSO authentication to be bypassed resulting in unauthorized provisioning of users and access to the instance. Exploitation required the encrypted assertions feature to be enabled, and the attacker would require direct network access as well as a signed SAML response or metadata document. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.15 and was fixed in versions 3.11.16, 3.12.10, 3.13.5, and 3.14.2. This vulnerability was reported via the GitHub Bug Bounty program.",
+      "cveName": "CVE-2024-9487",
+      "cveUrl": "/vuln/detail/CVE-2024-9487"
+    }
+  },
   "CVE-2024-9513": {
     "cve": {
       "cveDate": [
@@ -12229,6 +12471,182 @@
       "cveDis": "A vulnerability was found in code-projects Blood Bank Management System 1.0. It has been classified as problematic. This affects an unknown part of the file blooddetails.php. The manipulation of the argument Availibility leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
       "cveName": "CVE-2024-9803",
       "cveUrl": "/vuln/detail/CVE-2024-9803"
+    }
+  },
+  "CVE-2024-9804": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "2:15:09 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Blood Bank System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/campsdetails.php. The manipulation of the argument hospital leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-9804",
+      "cveUrl": "/vuln/detail/CVE-2024-9804"
+    }
+  },
+  "CVE-2024-9805": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "2:15:09 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Blood Bank System 1.0. It has been rated as problematic. This issue affects some unknown processing of the file /admin/campsdetails.php. The manipulation of the argument hospital/address/city/contact leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"hospital\".",
+      "cveName": "CVE-2024-9805",
+      "cveUrl": "/vuln/detail/CVE-2024-9805"
+    }
+  },
+  "CVE-2024-9806": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "3:15:17 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in Craig Rodway Classroombookings up to 2.8.6 and classified as problematic. This vulnerability affects unknown code of the file /rooms/fields of the component Room Page. The manipulation of the argument Name leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 2.8.7 is able to address this issue. It is recommended to upgrade the affected component. The project maintainer was contacted early about the disclosure. He responded very quickly, friendly, and professional.",
+      "cveName": "CVE-2024-9806",
+      "cveUrl": "/vuln/detail/CVE-2024-9806"
+    }
+  },
+  "CVE-2024-9807": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "3:15:17 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Craig Rodway Classroombookings 2.8.7 and classified as problematic. This issue affects some unknown processing of the file /sessions of the component Session Page. The manipulation of the argument Name leads to cross site scripting. The attack may be initiated remotely. Upgrading to version 2.8.8 is able to address this issue. It is recommended to upgrade the affected component. The project maintainer was contacted early about the disclosure. He responded very quickly, friendly, and professional.",
+      "cveName": "CVE-2024-9807",
+      "cveUrl": "/vuln/detail/CVE-2024-9807"
+    }
+  },
+  "CVE-2024-9808": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Online Eyewear Shop 1.0. It has been classified as critical. Affected is an unknown function of the file /admin/?page=products/view_product. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9808",
+      "cveUrl": "/vuln/detail/CVE-2024-9808"
+    }
+  },
+  "CVE-2024-9809": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Online Eyewear Shop 1.0. It has been declared as critical. Affected by this vulnerability is the function delete_product of the file /classes/Master.php?f=delete_product. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9809",
+      "cveUrl": "/vuln/detail/CVE-2024-9809"
+    }
+  },
+  "CVE-2024-9810": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Record Management System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file sort2_user.php. The manipulation of the argument qualification leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9810",
+      "cveUrl": "/vuln/detail/CVE-2024-9810"
+    }
+  },
+  "CVE-2024-9811": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "5:15:05 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in code-projects Restaurant Reservation System 1.0. This affects an unknown part of the file filter3.php. The manipulation of the argument company leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9811",
+      "cveUrl": "/vuln/detail/CVE-2024-9811"
+    }
+  },
+  "CVE-2024-9812": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "5:15:05 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in code-projects Crud Operation System 1.0. This vulnerability affects unknown code of the file delete.php. The manipulation of the argument sid leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9812",
+      "cveUrl": "/vuln/detail/CVE-2024-9812"
+    }
+  },
+  "CVE-2024-9813": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "5:15:05 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in Codezips Pharmacy Management System 1.0. This issue affects some unknown processing of the file product/register.php. The manipulation of the argument category leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9813",
+      "cveUrl": "/vuln/detail/CVE-2024-9813"
+    }
+  },
+  "CVE-2024-9814": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:11 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in Codezips Pharmacy Management System 1.0. Affected is an unknown function of the file product/update.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9814",
+      "cveUrl": "/vuln/detail/CVE-2024-9814"
+    }
+  },
+  "CVE-2024-9815": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:11 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in Codezips Tourist Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/create-package.php. The manipulation of the argument packageimage leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9815",
+      "cveUrl": "/vuln/detail/CVE-2024-9815"
+    }
+  },
+  "CVE-2024-9816": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "6:15:12 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Codezips Tourist Management System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/change-image.php. The manipulation of the argument packageimage leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9816",
+      "cveUrl": "/vuln/detail/CVE-2024-9816"
+    }
+  },
+  "CVE-2024-9817": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "7:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Blood Bank System 1.0. It has been classified as critical. This affects an unknown part of the file /update.php. The manipulation of the argument name leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9817",
+      "cveUrl": "/vuln/detail/CVE-2024-9817"
+    }
+  },
+  "CVE-2024-9818": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "7:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in SourceCodester Online Veterinary Appointment System 1.0. Affected is an unknown function of the file /admin/categories/manage_category.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9818",
+      "cveUrl": "/vuln/detail/CVE-2024-9818"
+    }
+  },
+  "CVE-2024-98229-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 10, 2024",
+        "11:15:10 PM -0400"
+      ],
+      "cveDis": "The Pedalo Connector plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.0.5. This is due to insufficient restriction on the 'login_admin_user' function. This makes it possible for unauthenticated attackers to log to the first user, who is usually the administrator, or if it does not exist, then to the first administrator.",
+      "cveName": "CVE-2024-98229-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9822"
     }
   }
 }
