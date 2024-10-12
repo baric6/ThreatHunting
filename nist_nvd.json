@@ -9503,6 +9503,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48958"
     }
   },
+  "CVE-2024-49193": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "10:15:02 AM -0400"
+      ],
+      "cveDis": "Zendesk before 2024-07-02 allows remote attackers to read ticket history via e-mail spoofing, because Cc fields are extracted from incoming e-mail messages and used to grant additional authorization for ticket viewing, the mechanism for detecting spoofed e-mail messages is insufficient, and the support e-mail addresses associated with individual tickets are predictable.",
+      "cveName": "CVE-2024-49193",
+      "cveUrl": "/vuln/detail/CVE-2024-49193"
+    }
+  },
   "CVE-2024-5474": {
     "cve": {
       "cveDate": [
@@ -13901,6 +13912,17 @@
       "cveDis": "The Bridge Core plugin for WordPress is vulnerable to unauthorized modification of data or loss of data due to a missing capability check on the 'import_action' and 'install_plugin_per_demo' functions in versions up to, and including, 3.3. This makes it possible for authenticated attackers with subscriber-level permissions or above, to delete or change plugin settings, import demo data, and install limited plugins.",
       "cveName": "CVE-2024-98606-5 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9860"
+    }
+  },
+  "CVE-2024-9894": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in code-projects Blood Bank System 1.0. Affected is an unknown function of the file reset.php. The manipulation of the argument useremail leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9894",
+      "cveUrl": "/vuln/detail/CVE-2024-9894"
     }
   }
 }
