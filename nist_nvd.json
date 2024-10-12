@@ -9822,6 +9822,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-7434"
     }
   },
+  "CVE-2024-74894-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "2:15:02 AM -0400"
+      ],
+      "cveDis": "The Forms for Mailchimp by Optin Cat – Grow Your MailChimp List plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the form color parameters in all versions up to, and including, 2.5.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with editor-level access, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "cveName": "CVE-2024-74894-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-7489"
+    }
+  },
   "CVE-2024-7558": {
     "cve": {
       "cveDate": [
@@ -10757,6 +10768,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-8755"
     }
   },
+  "CVE-2024-87577-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "6:15:02 AM -0400"
+      ],
+      "cveDis": "The WP Post Author – Boost Your Blog&#039;s Engagement with Author Box, Social Links, Co-Authors, Guest Authors, Post Rating System, and Custom User Registration Form Builder plugin for WordPress is vulnerable to time-based SQL Injection via the linked_user_id parameter in all versions up to, and including, 3.8.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-87577-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8757"
+    }
+  },
+  "CVE-2024-87605-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "5:15:02 AM -0400"
+      ],
+      "cveDis": "The Stackable – Page Builder Gutenberg Blocks plugin for WordPress is vulnerable to CSS Injection in all versions up to, and including, 3.13.6. This makes it possible for unauthenticated attackers to embed untrusted style information into comments resulting in a possibility of data exfiltration such as admin nonces with limited impact. These nonces could be used to perform CSRF attacks within a limited time window. The presence of other plugins may make additional nonces available, which may pose a risk in plugins that don't perform capability checks to protect AJAX actions or other actions reachable by lower-privileged users.",
+      "cveName": "CVE-2024-87605-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8760"
+    }
+  },
   "CVE-2024-8786": {
     "cve": {
       "cveDate": [
@@ -10856,6 +10889,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8885"
     }
   },
+  "CVE-2024-8902": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "6:15:03 AM -0400"
+      ],
+      "cveDis": "The Elementor Addon Elements plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.13.8 via the render_column function in modules/data-table/widgets/data-table.php. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive private, pending, and draft template data.",
+      "cveName": "CVE-2024-8902",
+      "cveUrl": "/vuln/detail/CVE-2024-8902"
+    }
+  },
   "CVE-2024-89119-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -10876,6 +10920,17 @@
       "cveDis": "An HTTP Request Smuggling vulnerability in Looker allowed an unauthorized attacker to capture HTTP responses destined for legitimate users.\n\nThere are two Looker versions that are hosted by Looker:\n\n  *  Looker (Google Cloud core) was found to be vulnerable. This issue has already been mitigated and our investigation has found no signs of exploitation.\n  *  Looker (original) was not vulnerable to this issue.\n\n\nCustomer-hosted Looker instances were found to be vulnerable and must be upgraded.\n\nThis vulnerability has been patched in all supported versions of customer-hosted Looker, which are available on the  Looker download page https://download.looker.com/ .\n\nFor Looker customer-hosted instances, please update to the latest supported version of Looker as soon as possible. The versions below have all been updated to protect from this vulnerability. You can download these versions at the Looker download page:\n\n  *  23.12 -> 23.12.123+\n  *  23.18 -> 23.18.117+\n  *  24.0 -> 24.0.92+\n  *  24.6 -> 24.6.77+\n  *  24.8 -> 24.8.66+\n  *  24.10 -> 24.10.78+\n  *  24.12 -> 24.12.56+\n  *  24.14 -> 24.14.37+",
       "cveName": "CVE-2024-8912",
       "cveUrl": "/vuln/detail/CVE-2024-8912"
+    }
+  },
+  "CVE-2024-89156-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "5:15:02 AM -0400"
+      ],
+      "cveDis": "The Category Icon plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-89156-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8915"
     }
   },
   "CVE-2024-8925": {
@@ -11085,6 +11140,17 @@
       "cveDis": "A DLL hijack vulnerability was reported in Lenovo stARstudio that could allow a local attacker to execute code with elevated privileges.",
       "cveName": "CVE-2024-9046",
       "cveUrl": "/vuln/detail/CVE-2024-9046"
+    }
+  },
+  "CVE-2024-90479-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "3:15:02 AM -0400"
+      ],
+      "cveDis": "The WordPress File Upload plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 4.24.11 via wfu_file_downloader.php. This makes it possible for unauthenticated attackers to read or delete files outside of the originally intended directory. Successful exploitation requires the targeted WordPress installation to be using PHP 7.4 or earlier.",
+      "cveName": "CVE-2024-90479-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9047"
     }
   },
   "CVE-2024-9054": {
@@ -11349,6 +11415,17 @@
       "cveDis": "A privileged Vault operator with write permissions to the root namespace’s identity endpoint could escalate their privileges to Vault’s root policy. Fixed in Vault Community Edition 1.18.0 and Vault Enterprise 1.18.0, 1.17.7, 1.16.11, and 1.15.16.",
       "cveName": "CVE-2024-9180",
       "cveUrl": "/vuln/detail/CVE-2024-9180"
+    }
+  },
+  "CVE-2024-91874-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "2:15:02 AM -0400"
+      ],
+      "cveDis": "The Read more By Adam plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the deleteRm() function in all versions up to, and including, 1.1.8. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete read more buttons.",
+      "cveName": "CVE-2024-91874-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9187"
     }
   },
   "CVE-2024-91895-3 MEDIUM": {
@@ -13188,6 +13265,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9592"
     }
   },
+  "CVE-2024-95956-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "The TablePress – Tables in WordPress made easy plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the table cell content in all versions up to, and including, 2.4.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-95956-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9595"
+    }
+  },
   "CVE-2024-9596": {
     "cve": {
       "cveDate": [
@@ -13265,6 +13353,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-9623"
     }
   },
+  "CVE-2024-96566-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "2:15:03 AM -0400"
+      ],
+      "cveDis": "The Mynx Page Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 0.27.8 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-96566-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9656"
+    }
+  },
+  "CVE-2024-96706-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "2:15:03 AM -0400"
+      ],
+      "cveDis": "The 2D Tag Cloud plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 6.0.2. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-96706-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9670"
+    }
+  },
   "CVE-2024-96715-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -13296,6 +13406,61 @@
       "cveDis": "The Notification for Telegram plugin for WordPress is vulnerable to unauthorized test message sending due to a missing capability check on the 'nftb_test_action' function in versions up to, and including, 3.3.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to send a test message via the Telegram Bot API to all users configured in the settings.",
       "cveName": "CVE-2024-9685",
       "cveUrl": "/vuln/detail/CVE-2024-9685"
+    }
+  },
+  "CVE-2024-96966-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "The Rescue Shortcodes plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'rescue_tab' shortcode in all versions up to, and including, 2.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-96966-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9696"
+    }
+  },
+  "CVE-2024-97046-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "3:15:02 AM -0400"
+      ],
+      "cveDis": "The Social Sharing (by Danny) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'dvk_social_sharing' shortcode in all versions up to, and including, 1.3.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-97046-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9704"
+    }
+  },
+  "CVE-2024-97564-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "3:15:02 AM -0400"
+      ],
+      "cveDis": "The Order Attachments for WooCommerce plugin for WordPress is vulnerable to unauthorized limited arbitrary file uploads due to a missing capability check on the wcoa_add_attachment AJAX action in versions 2.0 to 2.4.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to upload limited file types.",
+      "cveName": "CVE-2024-97564-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9756"
+    }
+  },
+  "CVE-2024-97764-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "2:15:03 AM -0400"
+      ],
+      "cveDis": "The ImagePress – Image Gallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 1.2.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "cveName": "CVE-2024-97764-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9776"
+    }
+  },
+  "CVE-2024-9778": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "2:15:03 AM -0400"
+      ],
+      "cveDis": "The ImagePress – Image Gallery plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.2.2. This is due to missing or incorrect nonce validation on the 'imagepress_admin_page' function. This makes it possible for unauthenticated attackers to update plugin settings, including redirection URLs, via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-9778",
+      "cveUrl": "/vuln/detail/CVE-2024-9778"
     }
   },
   "CVE-2024-9780": {
@@ -13703,6 +13868,17 @@
       "cveDis": "The Pedalo Connector plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.0.5. This is due to insufficient restriction on the 'login_admin_user' function. This makes it possible for unauthenticated attackers to log to the first user, who is usually the administrator, or if it does not exist, then to the first administrator.",
       "cveName": "CVE-2024-98229-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-9822"
+    }
+  },
+  "CVE-2024-98244-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 12, 2024",
+        "2:15:04 AM -0400"
+      ],
+      "cveDis": "The ImagePress – Image Gallery plugin for WordPress is vulnerable to unauthorized modification and loss of data due to a missing capability check on the 'ip_delete_post' and 'ip_update_post_title' functions in all versions up to, and including, 1.2.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary posts and update post titles.",
+      "cveName": "CVE-2024-98244-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9824"
     }
   },
   "CVE-2024-9859": {
