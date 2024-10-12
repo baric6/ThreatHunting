@@ -1913,6 +1913,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-35495"
     }
   },
+  "CVE-2024-35517": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Netgear XR1000 v1.0.0.64 is vulnerable to command injection in usb_remote_smb_conf.cgi via the share_name parameter.",
+      "cveName": "CVE-2024-35517",
+      "cveUrl": "/vuln/detail/CVE-2024-35517"
+    }
+  },
+  "CVE-2024-35522": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Netgear EX3700 ' AC750 WiFi Range Extender Essentials Edition before 1.0.0.98 contains an authenticated command injection in operating_mode.cgi via the ap_mode parameter with ap_24g_manual set to 1 and ap_24g_manual_sec set to NotNone.",
+      "cveName": "CVE-2024-35522",
+      "cveUrl": "/vuln/detail/CVE-2024-35522"
+    }
+  },
   "CVE-2024-36051": {
     "cve": {
       "cveDate": [
@@ -2065,6 +2087,17 @@
       "cveDis": "Advantech ADAM 5550's web application includes a \"logs\" page where all \nthe HTTP requests received are displayed to the user. The device doesn't\n correctly neutralize malicious code when parsing HTTP requests to \ngenerate page output.",
       "cveName": "CVE-2024-38308",
       "cveUrl": "/vuln/detail/CVE-2024-38308"
+    }
+  },
+  "CVE-2024-38365": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:04 PM -0400"
+      ],
+      "cveDis": "btcd is an alternative full node bitcoin implementation written in Go (golang). The btcd Bitcoin client (versions 0.10 to 0.24) did not correctly re-implement Bitcoin Core's \"FindAndDelete()\" functionality. This logic is consensus-critical: the difference in behavior with the other Bitcoin clients can lead to btcd clients accepting an invalid Bitcoin block (or rejecting a valid one). This consensus failure can be leveraged to cause a chain split (accepting an invalid Bitcoin block) or be exploited to DoS the btcd nodes (rejecting a valid Bitcoin block). An attacker can create a standard transaction where FindAndDelete doesn't return a match but removeOpCodeByData does making btcd get a different sighash, leading to a chain split. Importantly, this vulnerability can be exploited remotely by any Bitcoin user and does not require any hash power. This is because the difference in behavior can be triggered by a \"standard\" Bitcoin transaction, that is a transaction which gets relayed through the P2P network before it gets included in a Bitcoin block. `removeOpcodeByData(script []byte, dataToRemove []byte)` removes any data pushes from `script` that contain `dataToRemove`. However, `FindAndDelete` only removes exact matches. So for example, with `script = \"<data> <data||foo>\"` and `dataToRemove = \"data\"` btcd will remove both data pushes but Bitcoin Core's `FindAndDelete` only removes the first `<data>` push. This has been patched in btcd version v0.24.2. Users are advised to upgrade. There are no known workarounds for this issue.",
+      "cveName": "CVE-2024-38365",
+      "cveUrl": "/vuln/detail/CVE-2024-38365"
     }
   },
   "CVE-2024-383977-5 HIGH": {
@@ -3871,6 +3904,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-44097"
     }
   },
+  "CVE-2024-44157": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "A stack buffer overflow was addressed through improved input validation. This issue is fixed in Apple TV 1.5.0.152 for Windows, iTunes 12.13.3 for Windows. Parsing a maliciously crafted video file may lead to unexpected system termination.",
+      "cveName": "CVE-2024-44157",
+      "cveUrl": "/vuln/detail/CVE-2024-44157"
+    }
+  },
   "CVE-2024-44193": {
     "cve": {
       "cveDate": [
@@ -4056,6 +4100,17 @@
       "cveDis": "An issue in Malwarebytes Premium Security v5.0.0.883 allows attackers to execute arbitrary code via placing crafted binaries into unspecified directories.",
       "cveName": "CVE-2024-44744",
       "cveUrl": "/vuln/detail/CVE-2024-44744"
+    }
+  },
+  "CVE-2024-44807": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "A directory listing issue in the baserCMS plugin in D-ZERO CO., LTD. BurgerEditor and BurgerEditor Limited Edition before 2.25.1 allows remote attackers to obtain sensitive information by exposing a list of the uploaded files.",
+      "cveName": "CVE-2024-44807",
+      "cveUrl": "/vuln/detail/CVE-2024-44807"
     }
   },
   "CVE-2024-45051": {
@@ -4485,6 +4540,17 @@
       "cveDis": "An issue was discovered in za-internet C-MOR Video Surveillance 5.2401 and 6.00PL01. Due to insufficient input validation, the C-MOR web interface is vulnerable to OS command injection attacks. It was found out that different functionality is vulnerable to OS command injection attacks, for example for generating new X.509 certificates, or setting the time zone. These OS command injection vulnerabilities in the script generatesslreq.pml can be exploited as a low-privileged authenticated user to execute commands in the context of the Linux user www-data via shell metacharacters in HTTP POST data (e.g., the city parameter). The OS command injection vulnerability in the script settimezone.pml or setdatetime.pml (e.g., via the year parameter) requires an administrative user for the C-MOR web interface. By also exploiting a privilege-escalation vulnerability, it is possible to execute commands on the C-MOR system with root privileges.",
       "cveName": "CVE-2024-45179",
       "cveUrl": "/vuln/detail/CVE-2024-45179"
+    }
+  },
+  "CVE-2024-45184": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "5:15:06 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Samsung Mobile Processor, Wearable Processor, and Modems with chipset Exynos 9820, 9825, 980, 990, 850, 1080, 2100, 1280, 2200, 1330, 1380, 1480, 2400, 9110, W920, W930, Modem 5123, and Modem 5300. A USAT out-of-bounds write due to a heap buffer overflow can lead to a Denial of Service.",
+      "cveName": "CVE-2024-45184",
+      "cveUrl": "/vuln/detail/CVE-2024-45184"
     }
   },
   "CVE-2024-45186": {
@@ -4936,6 +5002,17 @@
       "cveDis": "An issue was discovered in Trusted Firmware-M through 2.1.0. User provided (and controlled) mailbox messages contain a pointer to a list of input arguments (in_vec) and output arguments (out_vec). These list pointers are never validated. Each argument list contains a buffer pointer and a buffer length field. After a PSA call, the length of the output arguments behind the unchecked pointer is updated in mailbox_direct_reply, regardless of the call result. This allows an attacker to write anywhere in the secure firmware, which can be used to take over the control flow, leading to remote code execution (RCE).",
       "cveName": "CVE-2024-45746",
       "cveUrl": "/vuln/detail/CVE-2024-45746"
+    }
+  },
+  "CVE-2024-45754": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in the centreon-bi-server component in Centreon BI Server 24.04.x before 24.04.3, 23.10.x before 23.10.8, 23.04.x before 23.04.11, and 22.10.x before 22.10.11. SQL injection can occur in the listing of configured reporting jobs. Exploitation is only accessible to authenticated users with high-privileged access.",
+      "cveName": "CVE-2024-45754",
+      "cveUrl": "/vuln/detail/CVE-2024-45754"
     }
   },
   "CVE-2024-45772": {
@@ -5620,6 +5697,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46453"
     }
   },
+  "CVE-2024-46468": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "5:15:07 PM -0400"
+      ],
+      "cveDis": "A Server-Side Request Forgery (SSRF) vulnerability exists in the jpress <= v5.1.1, which can be exploited by an attacker to obtain sensitive information, resulting in an information disclosure.",
+      "cveName": "CVE-2024-46468",
+      "cveUrl": "/vuln/detail/CVE-2024-46468"
+    }
+  },
   "CVE-2024-46475": {
     "cve": {
       "cveDate": [
@@ -5673,6 +5761,17 @@
       "cveDis": "LoadZilla LLC LoadLogic v1.4.3 was discovered to contain insecure permissions vulnerability which allows a remote attacker to execute arbitrary code via the LogicLoadEc2DeployLambda and CredsGenFunction function.",
       "cveName": "CVE-2024-46511",
       "cveUrl": "/vuln/detail/CVE-2024-46511"
+    }
+  },
+  "CVE-2024-46532": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "SQL Injection vulnerability in OpenHIS v.1.0 allows an attacker to execute arbitrary code via the refund function in the PayController.class.php component.",
+      "cveName": "CVE-2024-46532",
+      "cveUrl": "/vuln/detail/CVE-2024-46532"
     }
   },
   "CVE-2024-46539": {
@@ -6368,6 +6467,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47324"
     }
   },
+  "CVE-2024-47331": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "3:15:09 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in NinjaTeam Multi Step for Contact Form allows SQL Injection.This issue affects Multi Step for Contact Form: from n/a through 2.7.7.",
+      "cveName": "CVE-2024-47331",
+      "cveUrl": "/vuln/detail/CVE-2024-47331"
+    }
+  },
   "CVE-2024-47335": {
     "cve": {
       "cveDate": [
@@ -6542,6 +6652,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Xylus Themes WP Bulk Delete allows Reflected XSS.This issue affects WP Bulk Delete: from n/a through 1.3.1.",
       "cveName": "CVE-2024-47352",
       "cveUrl": "/vuln/detail/CVE-2024-47352"
+    }
+  },
+  "CVE-2024-47353": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in QuomodoSoft ElementsReady Addons for Elementor.This issue affects ElementsReady Addons for Elementor: from n/a through 6.4.2.",
+      "cveName": "CVE-2024-47353",
+      "cveUrl": "/vuln/detail/CVE-2024-47353"
     }
   },
   "CVE-2024-47354": {
@@ -8810,6 +8931,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47877"
     }
   },
+  "CVE-2024-47884": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:04 PM -0400"
+      ],
+      "cveDis": "foxmarks is a CLI read-only interface for Firefox's bookmarks and history. A temporary file was created under the /tmp directory with read permissions for all users containing a copy of Firefox's database of bookmarks, history, input history, visits counter, use counter, view counter and more confidential information about the history of using Firefox. Permissions default to 0o600 for NamedTempFile. However, after copying the database, its permissions were copied with it resulting in an insecure file with 0x644 permissions. A malicious user is able to read the database when the targeted user executes foxmarks bookmarks or foxmarks history. This vulnerability is patched in v2.1.0.",
+      "cveName": "CVE-2024-47884",
+      "cveUrl": "/vuln/detail/CVE-2024-47884"
+    }
+  },
   "CVE-2024-47910": {
     "cve": {
       "cveDate": [
@@ -9041,6 +9173,215 @@
       "cveUrl": "/vuln/detail/CVE-2024-47976"
     }
   },
+  "CVE-2024-48020": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Revmakx Backup and Staging by WP Time Capsule allows SQL Injection.This issue affects Backup and Staging by WP Time Capsule: from n/a through 1.22.21.",
+      "cveName": "CVE-2024-48020",
+      "cveUrl": "/vuln/detail/CVE-2024-48020"
+    }
+  },
+  "CVE-2024-48033": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Elie Burstein, Baptiste Gourdin Talkback allows Object Injection.This issue affects Talkback: from n/a through 1.0.",
+      "cveName": "CVE-2024-48033",
+      "cveUrl": "/vuln/detail/CVE-2024-48033"
+    }
+  },
+  "CVE-2024-48040": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Tainacan.Org Tainacan allows SQL Injection.This issue affects Tainacan: from n/a through 0.21.8.",
+      "cveName": "CVE-2024-48040",
+      "cveUrl": "/vuln/detail/CVE-2024-48040"
+    }
+  },
+  "CVE-2024-48041": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in CreativeMindsSolutions CM Tooltip Glossary allows Stored XSS.This issue affects CM Tooltip Glossary: from n/a through 4.3.9.",
+      "cveName": "CVE-2024-48041",
+      "cveUrl": "/vuln/detail/CVE-2024-48041"
+    }
+  },
+  "CVE-2024-48768": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in almaodo GmbH appinventor.ai_google.almando_control 2.3.1 allows a remote attacker to obtain sensitive information via the firmware update process",
+      "cveName": "CVE-2024-48768",
+      "cveUrl": "/vuln/detail/CVE-2024-48768"
+    }
+  },
+  "CVE-2024-48769": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in BURG-WCHTER KG de.burgwachter.keyapp.app 4.5.0 allows a remote attacker to obtain sensitve information via the firmware update process.",
+      "cveName": "CVE-2024-48769",
+      "cveUrl": "/vuln/detail/CVE-2024-48769"
+    }
+  },
+  "CVE-2024-48770": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in Plug n Play Camera com.wisdomcity.zwave 1.1.0 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48770",
+      "cveUrl": "/vuln/detail/CVE-2024-48770"
+    }
+  },
+  "CVE-2024-48771": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in almando GmbH Almando Play APP (com.almando.play) 1.8.2 allows a remote attacker to obtain sensitive information via the firmware update process",
+      "cveName": "CVE-2024-48771",
+      "cveUrl": "/vuln/detail/CVE-2024-48771"
+    }
+  },
+  "CVE-2024-48772": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "5:15:07 PM -0400"
+      ],
+      "cveDis": "An issue in C-CHIP (com.cchip.cchipamaota) v.1.2.8 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48772",
+      "cveUrl": "/vuln/detail/CVE-2024-48772"
+    }
+  },
+  "CVE-2024-48773": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in WoFit v.7.2.3 allows a remote attacker to obtain sensitive information via the firmware update process",
+      "cveName": "CVE-2024-48773",
+      "cveUrl": "/vuln/detail/CVE-2024-48773"
+    }
+  },
+  "CVE-2024-48774": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in Fermax Asia Pacific Pte Ltd com.fermax.vida 2.4.6 allows a remote attacker to obtain sensitve information via the firmware update process.",
+      "cveName": "CVE-2024-48774",
+      "cveUrl": "/vuln/detail/CVE-2024-48774"
+    }
+  },
+  "CVE-2024-48775": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in Plug n Play Camera com.ezset.delaney 1.2.0 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48775",
+      "cveUrl": "/vuln/detail/CVE-2024-48775"
+    }
+  },
+  "CVE-2024-48776": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in Shelly com.home.shelly 1.0.4 allows a remote attacker to obtain sensitive information via the firmware update process",
+      "cveName": "CVE-2024-48776",
+      "cveUrl": "/vuln/detail/CVE-2024-48776"
+    }
+  },
+  "CVE-2024-48777": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "LEDVANCE com.ledvance.smartplus.eu 2.1.10 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48777",
+      "cveUrl": "/vuln/detail/CVE-2024-48777"
+    }
+  },
+  "CVE-2024-48778": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "An issue in GIANT MANUFACTURING CO., LTD RideLink (tw.giant.ridelink) 2.0.7 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48778",
+      "cveUrl": "/vuln/detail/CVE-2024-48778"
+    }
+  },
+  "CVE-2024-48784": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "An Incorrect Access Control issue in SAMPMAX com.sampmax.homemax 2.1.2.7 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48784",
+      "cveUrl": "/vuln/detail/CVE-2024-48784"
+    }
+  },
+  "CVE-2024-48786": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "An issue in SWITCHBOT INC SwitchBot (com.theswitchbot.switchbot) 5.0.4 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48786",
+      "cveUrl": "/vuln/detail/CVE-2024-48786"
+    }
+  },
+  "CVE-2024-48787": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "An issue in Revic Optics Revic Ops (us.revic.revicops) 1.12.5 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48787",
+      "cveUrl": "/vuln/detail/CVE-2024-48787"
+    }
+  },
+  "CVE-2024-48788": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "5:15:07 PM -0400"
+      ],
+      "cveDis": "An issue in YESCAM (com.yescom.YesCam.zwave) 1.0.2 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48788",
+      "cveUrl": "/vuln/detail/CVE-2024-48788"
+    }
+  },
   "CVE-2024-48813": {
     "cve": {
       "cveDate": [
@@ -9083,6 +9424,28 @@
       "cveDis": "A cross-site scripting (XSS) vulnerability in LemonLDAP::NG before 2.19.3 allows remote attackers to inject arbitrary web script or HTML into the login page via a username if userControl has been set to a non-default value that allows special HTML characters.",
       "cveName": "CVE-2024-48933",
       "cveUrl": "/vuln/detail/CVE-2024-48933"
+    }
+  },
+  "CVE-2024-48937": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "5:15:07 PM -0400"
+      ],
+      "cveDis": "Znuny before LTS 6.5.1 through 6.5.10 and 7.0.1 through 7.0.16 allows XSS. JavaScript code in the short description of the SLA field in Activity Dialogues is executed.",
+      "cveName": "CVE-2024-48937",
+      "cveUrl": "/vuln/detail/CVE-2024-48937"
+    }
+  },
+  "CVE-2024-48938": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "5:15:07 PM -0400"
+      ],
+      "cveDis": "Znuny before LTS 6.5.1 through 6.5.10 and 7.0.1 through 7.0.16 allows DoS/ReDos via email. Parsing the content of emails where HTML code is copied from Microsoft Word could lead to high CPU usage and block the parsing process.",
+      "cveName": "CVE-2024-48938",
+      "cveUrl": "/vuln/detail/CVE-2024-48938"
     }
   },
   "CVE-2024-48941": {
@@ -10502,6 +10865,17 @@
       "cveDis": "The LatePoint plugin for WordPress is vulnerable to Arbitrary User Password Change via SQL Injection in versions up to, and including, 5.0.11. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to change user passwords and potentially take over administrator accounts. Note that changing a WordPress user's password is only possible if the \"Use WordPress users as customers\" setting is enabled, which is disabled by default. Without this setting enabled, only the passwords of plugin customers, which are stored and managed in a separate database table, can be modified.",
       "cveName": "CVE-2024-89119-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-8911"
+    }
+  },
+  "CVE-2024-8912": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "3:15:11 PM -0400"
+      ],
+      "cveDis": "An HTTP Request Smuggling vulnerability in Looker allowed an unauthorized attacker to capture HTTP responses destined for legitimate users.\n\nThere are two Looker versions that are hosted by Looker:\n\n  *  Looker (Google Cloud core) was found to be vulnerable. This issue has already been mitigated and our investigation has found no signs of exploitation.\n  *  Looker (original) was not vulnerable to this issue.\n\n\nCustomer-hosted Looker instances were found to be vulnerable and must be upgraded.\n\nThis vulnerability has been patched in all supported versions of customer-hosted Looker, which are available on the  Looker download page https://download.looker.com/ .\n\nFor Looker customer-hosted instances, please update to the latest supported version of Looker as soon as possible. The versions below have all been updated to protect from this vulnerability. You can download these versions at the Looker download page:\n\n  *  23.12 -> 23.12.123+\n  *  23.18 -> 23.18.117+\n  *  24.0 -> 24.0.92+\n  *  24.6 -> 24.6.77+\n  *  24.8 -> 24.8.66+\n  *  24.10 -> 24.10.78+\n  *  24.12 -> 24.12.56+\n  *  24.14 -> 24.14.37+",
+      "cveName": "CVE-2024-8912",
+      "cveUrl": "/vuln/detail/CVE-2024-8912"
     }
   },
   "CVE-2024-8925": {
@@ -12473,6 +12847,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9536"
     }
   },
+  "CVE-2024-9539": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "An information disclosure vulnerability was identified in GitHub Enterprise Server via attacker uploaded asset URL allowing the attacker to retrieve metadata information of a user who clicks on the URL and further exploit it to create a convincing phishing page. This required the attacker to upload malicious SVG files and phish a victim user to click on that uploaded asset URL. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.14 and was fixed in versions 3.14.2, 3.13.5, 3.12.10, 3.11.16. This vulnerability was reported via the GitHub Bug Bounty program.",
+      "cveName": "CVE-2024-9539",
+      "cveUrl": "/vuln/detail/CVE-2024-9539"
+    }
+  },
   "CVE-2024-9549": {
     "cve": {
       "cveDate": [
@@ -12790,6 +13175,17 @@
       "cveDis": "The Shortcodes AnyWhere plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.0.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
       "cveName": "CVE-2024-95817-3 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9581"
+    }
+  },
+  "CVE-2024-95926-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The Easy PayPal Gift Certificate plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.2.3. This is due to missing or incorrect nonce validation on the 'wpppgc_plugin_options' function. This makes it possible for unauthenticated attackers to update the plugin's settings and inject malicious JavaScript via a forged request, granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-95926-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9592"
     }
   },
   "CVE-2024-9596": {
@@ -13287,6 +13683,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9818"
     }
   },
+  "CVE-2024-98218-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The Bot for Telegram on WooCommerce plugin for WordPress is vulnerable to sensitive information disclosure due to missing authorization checks on the 'stm_wpcfto_get_settings' AJAX action in all versions up to, and including, 1.2.4. This makes it possible for authenticated attackers, with subscriber-level access and above, to view the Telegram Bot Token, a secret token used to control the bot, which can then be used to log in as any existing user on the site, such as an administrator, if they know the username, due to the Login with Telegram feature.",
+      "cveName": "CVE-2024-98218-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9821"
+    }
+  },
   "CVE-2024-98229-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -13307,6 +13714,17 @@
       "cveDis": "Type confusion in WebAssembly in Google Chrome prior to 126.0.6478.126 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
       "cveName": "CVE-2024-9859",
       "cveUrl": "/vuln/detail/CVE-2024-9859"
+    }
+  },
+  "CVE-2024-98606-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 11, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The Bridge Core plugin for WordPress is vulnerable to unauthorized modification of data or loss of data due to a missing capability check on the 'import_action' and 'install_plugin_per_demo' functions in versions up to, and including, 3.3. This makes it possible for authenticated attackers with subscriber-level permissions or above, to delete or change plugin settings, import demo data, and install limited plugins.",
+      "cveName": "CVE-2024-98606-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9860"
     }
   }
 }
