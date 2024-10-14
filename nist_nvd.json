@@ -9756,6 +9756,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-7049"
     }
   },
+  "CVE-2024-7099": {
+    "cve": {
+      "cveDate": [
+        "October 13, 2024",
+        "5:15:10 PM -0400"
+      ],
+      "cveDis": "netease-youdao/qanything version 1.4.1 contains a vulnerability where unsafe data obtained from user input is concatenated in SQL queries, leading to SQL injection. The affected functions include `get_knowledge_base_name`, `from_status_to_status`, `delete_files`, and `get_file_by_status`. An attacker can exploit this vulnerability to execute arbitrary SQL queries, potentially stealing information from the database. The issue is fixed in version 1.4.2.",
+      "cveName": "CVE-2024-7099",
+      "cveUrl": "/vuln/detail/CVE-2024-7099"
+    }
+  },
   "CVE-2024-7206": {
     "cve": {
       "cveDate": [
@@ -10084,6 +10095,17 @@
       "cveDis": "In Progress Telerik Reporting versions prior to 2024 Q3 (18.2.24.924), a code execution attack is possible using object injection via insecure expression evaluation.",
       "cveName": "CVE-2024-8048",
       "cveUrl": "/vuln/detail/CVE-2024-8048"
+    }
+  },
+  "CVE-2024-8070": {
+    "cve": {
+      "cveDate": [
+        "October 13, 2024",
+        "4:15:03 PM -0400"
+      ],
+      "cveDis": "CWE-312: Cleartext Storage of Sensitive Information vulnerability exists that exposes test\ncredentials in the firmware binary",
+      "cveName": "CVE-2024-8070",
+      "cveUrl": "/vuln/detail/CVE-2024-8070"
     }
   },
   "CVE-2024-81076-4 MEDIUM": {
@@ -14044,6 +14066,94 @@
       "cveDis": "A vulnerability was found in D-Link DIR-619L B1 2.06. It has been declared as critical. This vulnerability affects the function formSetQoS of the file /goform/formSetQoS. The manipulation of the argument curTime leads to buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-9912",
       "cveUrl": "/vuln/detail/CVE-2024-9912"
+    }
+  },
+  "CVE-2024-9913": {
+    "cve": {
+      "cveDate": [
+        "October 13, 2024",
+        "2:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in D-Link DIR-619L B1 2.06. It has been rated as critical. This issue affects the function formSetRoute of the file /goform/formSetRoute. The manipulation of the argument curTime leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9913",
+      "cveUrl": "/vuln/detail/CVE-2024-9913"
+    }
+  },
+  "CVE-2024-9914": {
+    "cve": {
+      "cveDate": [
+        "October 13, 2024",
+        "2:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in D-Link DIR-619L B1 2.06. Affected is the function formSetWizardSelectMode of the file /goform/formSetWizardSelectMode. The manipulation of the argument curTime leads to buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9914",
+      "cveUrl": "/vuln/detail/CVE-2024-9914"
+    }
+  },
+  "CVE-2024-9915": {
+    "cve": {
+      "cveDate": [
+        "October 13, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in D-Link DIR-619L B1 2.06. Affected by this vulnerability is the function formVirtualServ of the file /goform/formVirtualServ. The manipulation of the argument curTime leads to buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9915",
+      "cveUrl": "/vuln/detail/CVE-2024-9915"
+    }
+  },
+  "CVE-2024-9916": {
+    "cve": {
+      "cveDate": [
+        "October 13, 2024",
+        "3:15:11 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in HuangDou UTCMS V9. Affected by this issue is some unknown functionality of the file app/modules/ut-cac/admin/cli.php. The manipulation of the argument o leads to os command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-9916",
+      "cveUrl": "/vuln/detail/CVE-2024-9916"
+    }
+  },
+  "CVE-2024-9917": {
+    "cve": {
+      "cveDate": [
+        "October 13, 2024",
+        "4:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in HuangDou UTCMS V9. This affects an unknown part of the file app/modules/ut-template/admin/template_creat.php. The manipulation of the argument content leads to deserialization. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-9917",
+      "cveUrl": "/vuln/detail/CVE-2024-9917"
+    }
+  },
+  "CVE-2024-9918": {
+    "cve": {
+      "cveDate": [
+        "October 13, 2024",
+        "4:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in HuangDou UTCMS V9 and classified as critical. This vulnerability affects the function RunSql of the file app/modules/ut-data/admin/sql.php. The manipulation of the argument sql leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-9918",
+      "cveUrl": "/vuln/detail/CVE-2024-9918"
+    }
+  },
+  "CVE-2024-99219-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 13, 2024",
+        "11:15:10 PM -0400"
+      ],
+      "cveDis": "The Team+ from TEAMPLUS TECHNOLOGY does not properly validate specific page parameter, allowing unauthenticated remote attackers to inject arbitrary SQL commands to read, modify and delete database contents.",
+      "cveName": "CVE-2024-99219-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9921"
+    }
+  },
+  "CVE-2024-99227-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 13, 2024",
+        "11:15:10 PM -0400"
+      ],
+      "cveDis": "The Team+ from TEAMPLUS TECHNOLOGY does not properly validate a specific page parameter, allowing unauthenticated remote attackers to exploit this vulnerability to read arbitrary system files.",
+      "cveName": "CVE-2024-99227-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9922"
     }
   }
 }
