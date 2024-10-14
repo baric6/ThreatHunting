@@ -142,6 +142,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-46586"
     }
   },
+  "CVE-2023-50780": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "12:15:03 PM -0400"
+      ],
+      "cveDis": "Apache ActiveMQ Artemis allows access to diagnostic information and controls through MBeans, which are also exposed through the authenticated Jolokia endpoint. Before version 2.29.0, this also included the Log4J2 MBean. This MBean is not meant for exposure to non-administrative users. This could eventually allow an authenticated attacker to write arbitrary files to the filesystem and indirectly achieve RCE.\n\n\nUsers are recommended to upgrade to version 2.29.0 or later, which fixes the issue.",
+      "cveName": "CVE-2023-50780",
+      "cveUrl": "/vuln/detail/CVE-2023-50780"
+    }
+  },
   "CVE-2023-52952": {
     "cve": {
       "cveDate": [
@@ -2793,6 +2804,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-41988"
     }
   },
+  "CVE-2024-41997": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "12:15:03 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in version of Warp Terminal prior to 2024.07.18 (v0.2024.07.16.08.02). A command injection vulnerability exists in the Docker integration functionality. An attacker can create a specially crafted hyperlink using the `warp://action/docker/open_subshell` intent that when clicked by the victim results in command execution on the victim's machine.",
+      "cveName": "CVE-2024-41997",
+      "cveUrl": "/vuln/detail/CVE-2024-41997"
+    }
+  },
   "CVE-2024-41999": {
     "cve": {
       "cveDate": [
@@ -5026,6 +5048,127 @@
       "cveUrl": "/vuln/detail/CVE-2024-45519"
     }
   },
+  "CVE-2024-45731": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:11 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise for Windows versions below 9.3.1, 9.2.3, and 9.1.6, a low-privileged user that does not hold the \"admin\" or \"power\" Splunk roles could write a file to the Windows system root directory, which has a default location in the Windows System32 folder, when Splunk Enterprise for Windows is installed on a separate drive.",
+      "cveName": "CVE-2024-45731",
+      "cveUrl": "/vuln/detail/CVE-2024-45731"
+    }
+  },
+  "CVE-2024-45732": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:11 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise versions below 9.3.1, and 9.2.0 versions below 9.2.3, and Splunk Cloud Platform versions below 9.2.2403.103, 9.1.2312.200, 9.1.2312.110 and 9.1.2308.208, a low-privileged user that does not hold the \"admin\" or \"power\" Splunk roles could run a search as the \"nobody\" Splunk user in the SplunkDeploymentServerConfig app. This could let the low-privileged user access potentially restricted data.",
+      "cveName": "CVE-2024-45732",
+      "cveUrl": "/vuln/detail/CVE-2024-45732"
+    }
+  },
+  "CVE-2024-45733": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:11 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise for Windows versions below 9.2.3 and 9.1.6, a low-privileged user that does not hold the \"admin\" or \"power\" Splunk roles could perform a Remote Code Execution (RCE) due to an insecure session storage configuration.",
+      "cveName": "CVE-2024-45733",
+      "cveUrl": "/vuln/detail/CVE-2024-45733"
+    }
+  },
+  "CVE-2024-45734": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:11 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise versions 9.3.0, 9.2.3, and 9.1.6, a low-privileged user that does not hold the \"admin\" or \"power\" Splunk roles could view images on the machine that runs Splunk Enterprise by using the PDF export feature in Splunk classic dashboards. The images on the  machine could be exposed by exporting the dashboard as a PDF, using the local image path in the img tag in the source extensible markup language (XML) code for the Splunk classic dashboard.",
+      "cveName": "CVE-2024-45734",
+      "cveUrl": "/vuln/detail/CVE-2024-45734"
+    }
+  },
+  "CVE-2024-45735": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise versions below 9.2.3 and 9.1.6, and Splunk Secure Gateway versions on Splunk Cloud Platform versions below 3.4.259, 3.6.17, and 3.7.0, a low-privileged user that does not hold the \"admin\" or \"power\" Splunk roles can see App Key Value Store (KV Store) deployment configuration and public/private keys in the Splunk Secure Gateway App.",
+      "cveName": "CVE-2024-45735",
+      "cveUrl": "/vuln/detail/CVE-2024-45735"
+    }
+  },
+  "CVE-2024-45736": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise versions below 9.3.1, 9.2.3, and 9.1.6 and Splunk Cloud Platform versions below 9.2.2403.107, 9.1.2312.204, and 9.1.2312.111, a low-privileged user that does not hold the \"admin\" or \"power\" Splunk roles could craft a search query with an improperly formatted  \"INGEST_EVAL\" parameter as part of a [Field Transformation](https://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Managefieldtransforms) which could crash the Splunk daemon (splunkd).",
+      "cveName": "CVE-2024-45736",
+      "cveUrl": "/vuln/detail/CVE-2024-45736"
+    }
+  },
+  "CVE-2024-45737": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise versions below 9.3.1, 9.2.3, and 9.1.6 and Splunk Cloud Platform versions below 9.2.2403.108, and 9.1.2312.204, a low-privileged user that does not hold the \"admin\" or \"power\" Splunk roles could change the maintenance mode state of App Key Value Store (KVStore) through a Cross-Site Request Forgery (CSRF).",
+      "cveName": "CVE-2024-45737",
+      "cveUrl": "/vuln/detail/CVE-2024-45737"
+    }
+  },
+  "CVE-2024-45738": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise versions below 9.3.1, 9.2.3, and 9.1.6, the software potentially exposes sensitive HTTP parameters to the `_internal` index. This exposure could happen if you configure the Splunk Enterprise `REST_Calls` log channel at the DEBUG logging level.",
+      "cveName": "CVE-2024-45738",
+      "cveUrl": "/vuln/detail/CVE-2024-45738"
+    }
+  },
+  "CVE-2024-45739": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise versions below 9.3.1, 9.2.3, and 9.1.6, the software potentially exposes plaintext passwords for local native authentication Splunk users. This exposure could happen when you configure the Splunk Enterprise AdminManager log channel at the DEBUG logging level.",
+      "cveName": "CVE-2024-45739",
+      "cveUrl": "/vuln/detail/CVE-2024-45739"
+    }
+  },
+  "CVE-2024-45740": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise versions below 9.2.3 and 9.1.6 and Splunk Cloud Platform versions below 9.2.2403, a low-privileged user that does not hold the \"admin\" or \"power\" Splunk roles could craft a malicious payload through Scheduled Views that could result in execution of unauthorized JavaScript code in the browser of a user.",
+      "cveName": "CVE-2024-45740",
+      "cveUrl": "/vuln/detail/CVE-2024-45740"
+    }
+  },
+  "CVE-2024-45741": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "In Splunk Enterprise versions below 9.2.3 and 9.1.6 and Splunk Cloud Platform versions below 9.2.2403.108 and 9.1.2312.205, a low-privileged user that does not hold the \"admin\" or \"power\" Splunk roles could create a malicious payload through a custom configuration file that the \"api.uri\" parameter from the \"/manager/search/apps/local\" endpoint in Splunk Web calls. This could result in execution of unauthorized JavaScript code in the browser of a user.",
+      "cveName": "CVE-2024-45741",
+      "cveUrl": "/vuln/detail/CVE-2024-45741"
+    }
+  },
   "CVE-2024-45746": {
     "cve": {
       "cveDate": [
@@ -5805,6 +5948,17 @@
       "cveDis": "SQL Injection vulnerability in OpenHIS v.1.0 allows an attacker to execute arbitrary code via the refund function in the PayController.class.php component.",
       "cveName": "CVE-2024-46532",
       "cveUrl": "/vuln/detail/CVE-2024-46532"
+    }
+  },
+  "CVE-2024-46535": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "Jepaas v7.2.8 was discovered to contain a SQL injection vulnerability via the orderSQL parameter at /homePortal/loadUserMsg.",
+      "cveName": "CVE-2024-46535",
+      "cveUrl": "/vuln/detail/CVE-2024-46535"
     }
   },
   "CVE-2024-46539": {
@@ -9261,6 +9415,127 @@
       "cveUrl": "/vuln/detail/CVE-2024-48041"
     }
   },
+  "CVE-2024-48119": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:11 AM -0400"
+      ],
+      "cveDis": "Vtiger CRM v8.2.0 has a HTML Injection vulnerability in the module parameter. Authenticated users can inject arbitrary HTML.",
+      "cveName": "CVE-2024-48119",
+      "cveUrl": "/vuln/detail/CVE-2024-48119"
+    }
+  },
+  "CVE-2024-48120": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:11 AM -0400"
+      ],
+      "cveDis": "X2CRM v8.5 is vulnerable to a stored Cross-Site Scripting (XSS) in the \"Opportunities\" module. An attacker can inject malicious JavaScript code into the \"Name\" field when creating a list.",
+      "cveName": "CVE-2024-48120",
+      "cveUrl": "/vuln/detail/CVE-2024-48120"
+    }
+  },
+  "CVE-2024-48150": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "12:15:03 PM -0400"
+      ],
+      "cveDis": "D-Link DIR-820L 1.05B03 has a stack overflow vulnerability in the sub_451208 function.",
+      "cveName": "CVE-2024-48150",
+      "cveUrl": "/vuln/detail/CVE-2024-48150"
+    }
+  },
+  "CVE-2024-48153": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "12:15:03 PM -0400"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 allows attackers to inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the get_subconfig function.",
+      "cveName": "CVE-2024-48153",
+      "cveUrl": "/vuln/detail/CVE-2024-48153"
+    }
+  },
+  "CVE-2024-48168": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "A stack overflow vulnerability exists in the sub_402280 function of the HNAP service of D-Link DCS-960L 1.09, allowing an attacker to execute arbitrary code.",
+      "cveName": "CVE-2024-48168",
+      "cveUrl": "/vuln/detail/CVE-2024-48168"
+    }
+  },
+  "CVE-2024-48249": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "Wavelog 1.8.5 allows Gridmap_model.php get_band_confirmed SQL injection via band, sat, propagation, or mode.",
+      "cveName": "CVE-2024-48249",
+      "cveUrl": "/vuln/detail/CVE-2024-48249"
+    }
+  },
+  "CVE-2024-48251": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "Wavelog 1.8.5 allows Activated_gridmap_model.php get_band_confirmed SQL injection via band, sat, propagation, or mode.",
+      "cveName": "CVE-2024-48251",
+      "cveUrl": "/vuln/detail/CVE-2024-48251"
+    }
+  },
+  "CVE-2024-48253": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:11 AM -0400"
+      ],
+      "cveDis": "Cloudlog 2.6.15 allows Oqrs.php delete_oqrs_line id SQL injection.",
+      "cveName": "CVE-2024-48253",
+      "cveUrl": "/vuln/detail/CVE-2024-48253"
+    }
+  },
+  "CVE-2024-48255": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:11 AM -0400"
+      ],
+      "cveDis": "Cloudlog 2.6.15 allows Oqrs.php get_station_info station_id SQL injection.",
+      "cveName": "CVE-2024-48255",
+      "cveUrl": "/vuln/detail/CVE-2024-48255"
+    }
+  },
+  "CVE-2024-48257": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "Wavelog 1.8.5 allows Oqrs_model.php get_worked_modes station_id SQL injectioin.",
+      "cveName": "CVE-2024-48257",
+      "cveUrl": "/vuln/detail/CVE-2024-48257"
+    }
+  },
+  "CVE-2024-48259": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "11:15:14 AM -0400"
+      ],
+      "cveDis": "Cloudlog 2.6.15 allows Oqrs.php request_form SQL injection via station_id or callsign.",
+      "cveName": "CVE-2024-48259",
+      "cveUrl": "/vuln/detail/CVE-2024-48259"
+    }
+  },
   "CVE-2024-48768": {
     "cve": {
       "cveDate": [
@@ -9424,6 +9699,50 @@
       "cveDis": "An issue in YESCAM (com.yescom.YesCam.zwave) 1.0.2 allows a remote attacker to obtain sensitive information via the firmware update process.",
       "cveName": "CVE-2024-48788",
       "cveUrl": "/vuln/detail/CVE-2024-48788"
+    }
+  },
+  "CVE-2024-48796": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "An issue in EQUES com.eques.plug 1.0.1 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48796",
+      "cveUrl": "/vuln/detail/CVE-2024-48796"
+    }
+  },
+  "CVE-2024-48797": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "An issue in PCS Engineering Preston Cinema (com.prestoncinema.app) 0.2.0 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48797",
+      "cveUrl": "/vuln/detail/CVE-2024-48797"
+    }
+  },
+  "CVE-2024-48798": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "An issue in Hubble Connected (com.hubbleconnected.vervelife) 2.00.81 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48798",
+      "cveUrl": "/vuln/detail/CVE-2024-48798"
+    }
+  },
+  "CVE-2024-48799": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "An issue in LOREX TECHNOLOGY INC com.lorexcorp.lorexping 1.4.22 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48799",
+      "cveUrl": "/vuln/detail/CVE-2024-48799"
     }
   },
   "CVE-2024-48813": {
@@ -9721,6 +10040,28 @@
       "cveDis": "Information leakage in mknotifyd in Checkmk before 2.3.0p18, 2.2.0p36, 2.1.0p49 and in 2.0.0p39 (EOL) allows attacker to get potentially sensitive data",
       "cveName": "CVE-2024-6747",
       "cveUrl": "/vuln/detail/CVE-2024-6747"
+    }
+  },
+  "CVE-2024-6762": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "12:15:03 PM -0400"
+      ],
+      "cveDis": "Jetty PushSessionCacheFilter can be exploited by unauthenticated users \nto launch remote DoS attacks by exhausting the server’s memory.",
+      "cveName": "CVE-2024-6762",
+      "cveUrl": "/vuln/detail/CVE-2024-6762"
+    }
+  },
+  "CVE-2024-6763": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "12:15:04 PM -0400"
+      ],
+      "cveDis": "Eclipse Jetty is a lightweight, highly scalable, Java-based web server and Servlet engine . It includes a utility class, HttpURI, for URI/URL parsing.\n\nThe HttpURI class does insufficient validation on the authority segment of a URI.  However the behaviour of HttpURI\n differs from the common browsers in how it handles a URI that would be \nconsidered invalid if fully validated against the RRC.  Specifically HttpURI\n and the browser may differ on the value of the host extracted from an \ninvalid URI and thus a combination of Jetty and a vulnerable browser may\n be vulnerable to a open redirect attack or to a SSRF attack if the URI \nis used after passing validation checks.",
+      "cveName": "CVE-2024-6763",
+      "cveUrl": "/vuln/detail/CVE-2024-6763"
     }
   },
   "CVE-2024-6959": {
@@ -10064,6 +10405,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-7840"
     }
   },
+  "CVE-2024-7847": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:12 AM -0400"
+      ],
+      "cveDis": "VULNERABILITY DETAILS\n\nRockwell Automation used the latest versions of the CVSS scoring system to assess the following vulnerabilities. The following vulnerabilities were reported to us by Sharon Brizinov of Claroty Research - Team82. \n\nA feature in the affected products enables users to prepare a project file with an embedded VBA script and can be configured to run once the project file has been opened without user intervention.  This feature can be abused to trick a legitimate user into executing malicious code upon opening an infected RSP/RSS project file. If exploited, a threat actor may be able to perform a remote code execution. Connected devices may also be impacted by exploitation of this vulnerability.",
+      "cveName": "CVE-2024-7847",
+      "cveUrl": "/vuln/detail/CVE-2024-7847"
+    }
+  },
   "CVE-2024-78558-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -10205,6 +10557,17 @@
       "cveDis": "Deep Freeze 9.00.020.5760 is vulnerable to an out-of-bounds read vulnerability by triggering the 0x70014 IOCTL code of the FarDisk.sys driver.",
       "cveName": "CVE-2024-81596-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8159"
+    }
+  },
+  "CVE-2024-8184": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "12:15:04 PM -0400"
+      ],
+      "cveDis": "There exists a security vulnerability in Jetty's ThreadLimitHandler.getRemote() which can be exploited by unauthorized users to cause remote denial-of-service (DoS) attack.  By repeatedly sending crafted requests, attackers can trigger OutofMemory errors and exhaust the server's memory.",
+      "cveName": "CVE-2024-8184",
+      "cveUrl": "/vuln/detail/CVE-2024-8184"
     }
   },
   "CVE-2024-81894-4 MEDIUM": {
@@ -10700,6 +11063,17 @@
       "cveDis": "The KB Support – WordPress Help Desk and Knowledge Base plugin for WordPress is vulnerable to unauthorized modification and loss of data due to a missing capability check on several functions in all versions up to, and including, 1.6.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to perform multiple administrative actions, such as replying to arbitrary tickets, updating the status of any post, deleting any post, adding notes to tickets, flagging or unflagging tickets, and adding or removing ticket participants.",
       "cveName": "CVE-2024-85488-1 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-8548"
+    }
+  },
+  "CVE-2024-8602": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:12 AM -0400"
+      ],
+      "cveDis": "When the XML is read from the codes in the PDF and parsed using a DocumentBuilder, the default settings of the DocumentBuilder allow for an XXE (XML External Entity) attack. Further information on this can be found on the website of the Open Worldwide Application Security Project (OWASP). An attacker could theoretically leverage this by delivering a manipulated PDF file to the target, and depending on the environment, various actions can be executed. These actions include:\n\n  *  Reading files from the operating system\n  *  Crashing the thread handling the parsing or causing it to enter an infinite loop\n  *  Executing HTTP requests\n  *  Loading additional DTDs or XML files\n  *  Under certain conditions, executing OS commands",
+      "cveName": "CVE-2024-8602",
+      "cveUrl": "/vuln/detail/CVE-2024-8602"
     }
   },
   "CVE-2024-8626": {
@@ -13991,6 +14365,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9822"
     }
   },
+  "CVE-2024-9823": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "11:15:14 AM -0400"
+      ],
+      "cveDis": "There exists a security vulnerability in Jetty's DosFilter which can be exploited by unauthorized users to cause remote denial-of-service (DoS) attack on the server using DosFilter. By repeatedly sending crafted requests, attackers can trigger OutofMemory errors and exhaust the server's memory finally.",
+      "cveName": "CVE-2024-9823",
+      "cveUrl": "/vuln/detail/CVE-2024-9823"
+    }
+  },
   "CVE-2024-98244-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -14253,6 +14638,17 @@
       "cveDis": "The fix for CVE-2024-26261 was incomplete, and and the specific package for OAKlouds from Hgiga remains at risk. Unauthenticated remote attackers still can download arbitrary system files, which may be deleted subsequently .",
       "cveName": "CVE-2024-99249-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-9924"
+    }
+  },
+  "CVE-2024-9936": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:12 AM -0400"
+      ],
+      "cveDis": "When manipulating the selection node cache, an attacker may have been able to cause unexpected behavior, potentially leading to an exploitable crash. This vulnerability affects Firefox < 131.0.3.",
+      "cveName": "CVE-2024-9936",
+      "cveUrl": "/vuln/detail/CVE-2024-9936"
     }
   }
 }
