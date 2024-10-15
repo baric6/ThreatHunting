@@ -252,6 +252,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-0125"
     }
   },
+  "CVE-2024-0129": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "2:15:02 AM -0400"
+      ],
+      "cveDis": "NVIDIA NeMo contains a vulnerability in SaveRestoreConnector where a user may cause a path traversal issue via an unsafe .tar file extraction. A successful exploit of this vulnerability may lead to code execution and data tampering.",
+      "cveName": "CVE-2024-0129",
+      "cveUrl": "/vuln/detail/CVE-2024-0129"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -833,6 +844,17 @@
       "cveDis": "All versions of the package ggit are vulnerable to Arbitrary Argument Injection via the clone() API, which allows specifying the remote URL to clone and the file on disk to clone to. The library does not sanitize for user input or validate a given URL scheme, nor does it properly pass command-line flags to the git binary using the double-dash POSIX characters (--) to communicate the end of options.",
       "cveName": "CVE-2024-21533",
       "cveUrl": "/vuln/detail/CVE-2024-21533"
+    }
+  },
+  "CVE-2024-21535": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "1:15:11 AM -0400"
+      ],
+      "cveDis": "Versions of the package markdown-to-jsx before 7.4.0 are vulnerable to Cross-site Scripting (XSS) via the src property due to improper input sanitization. An attacker can execute arbitrary code by injecting a malicious iframe element in the markdown.",
+      "cveName": "CVE-2024-21535",
+      "cveUrl": "/vuln/detail/CVE-2024-21535"
     }
   },
   "CVE-2024-22068": {
@@ -6170,6 +6192,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46887"
     }
   },
+  "CVE-2024-46898": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "3:15:02 AM -0400"
+      ],
+      "cveDis": "SHIRASAGI prior to v1.19.1 processes URLs in HTTP requests improperly, resulting in a path traversal vulnerability. If this vulnerability is exploited, arbitrary files on the server may be retrieved when processing crafted HTTP requests.",
+      "cveName": "CVE-2024-46898",
+      "cveUrl": "/vuln/detail/CVE-2024-46898"
+    }
+  },
   "CVE-2024-46911": {
     "cve": {
       "cveDate": [
@@ -9314,6 +9347,39 @@
       "cveDis": "An issue was discovered in the AbuseFilter extension for MediaWiki before 1.39.9, 1.40.x and 1.41.x before 1.41.3, and 1.42.x before 1.42.2. An API caller can match a filter condition against AbuseFilter logs even if the caller is not authorized to view the log details for the filter.",
       "cveName": "CVE-2024-47913",
       "cveUrl": "/vuln/detail/CVE-2024-47913"
+    }
+  },
+  "CVE-2024-47943": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "The firmware upgrade function in the admin web interface of the Rittal IoT Interface & CMC III Processing Unit devices checks if \nthe patch files are signed before executing the containing run.sh \nscript. The signing process is kind of an HMAC with a long string as key\n which is hard-coded in the firmware and is freely available for \ndownload. This allows crafting malicious \"signed\" .patch files in order \nto compromise the device and execute arbitrary code.",
+      "cveName": "CVE-2024-47943",
+      "cveUrl": "/vuln/detail/CVE-2024-47943"
+    }
+  },
+  "CVE-2024-47944": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "The device directly executes .patch firmware upgrade files on a USB stick without any prior authentication in the admin interface. This leads to an unauthenticated code execution via the firmware upgrade function.",
+      "cveName": "CVE-2024-47944",
+      "cveUrl": "/vuln/detail/CVE-2024-47944"
+    }
+  },
+  "CVE-2024-47945": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "6:15:03 AM -0400"
+      ],
+      "cveDis": "The devices are vulnerable to session hijacking due to insufficient \nentropy in its session ID generation algorithm. The session IDs are \npredictable, with only 32,768 possible values per user, which allows \nattackers to pre-generate valid session IDs, leading to unauthorized \naccess to user sessions. This is not only due to the use of an \n(insecure) rand() function call but also because of missing \ninitialization via srand(). As a result only the PIDs are effectively \nused as seed.",
+      "cveName": "CVE-2024-47945",
+      "cveUrl": "/vuln/detail/CVE-2024-47945"
     }
   },
   "CVE-2024-47948": {
@@ -14728,6 +14794,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9824"
     }
   },
+  "CVE-2024-98377-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "The The AADMY – Add Auto Date Month Year Into Posts plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 2.0.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
+      "cveName": "CVE-2024-98377-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9837"
+    }
+  },
   "CVE-2024-9859": {
     "cve": {
       "cveDate": [
@@ -14759,6 +14836,17 @@
       "cveDis": "A vulnerability, which was classified as critical, was found in code-projects Blood Bank System 1.0. Affected is an unknown function of the file reset.php. The manipulation of the argument useremail leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-9894",
       "cveUrl": "/vuln/detail/CVE-2024-9894"
+    }
+  },
+  "CVE-2024-98956-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "The Smart Online Order for Clover plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's moo_receipt_link shortcode in all versions up to, and including, 1.5.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-98956-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9895"
     }
   },
   "CVE-2024-9903": {
@@ -14981,6 +15069,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9924"
     }
   },
+  "CVE-2024-9925": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "SQL injection vulnerability in TAI Smart Factory's QPLANT SF version 1.0. Exploitation of this vulnerability could allow a remote attacker to retrieve all database information by sending a specially crafted SQL query to the ‘email’ parameter on the ‘RequestPasswordChange’ endpoint.",
+      "cveName": "CVE-2024-9925",
+      "cveUrl": "/vuln/detail/CVE-2024-9925"
+    }
+  },
   "CVE-2024-9936": {
     "cve": {
       "cveDate": [
@@ -14990,6 +15089,17 @@
       "cveDis": "When manipulating the selection node cache, an attacker may have been able to cause unexpected behavior, potentially leading to an exploitable crash. This vulnerability affects Firefox < 131.0.3.",
       "cveName": "CVE-2024-9936",
       "cveUrl": "/vuln/detail/CVE-2024-9936"
+    }
+  },
+  "CVE-2024-9944": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "2:15:02 AM -0400"
+      ],
+      "cveDis": "The WooCommerce plugin for WordPress is vulnerable to HTML Injection in all versions up to, and including, 9.0.2. This is due to the plugin not properly neutralizing HTML elements from submitted order forms. This makes it possible for unauthenticated attackers to inject arbitrary HTML that will render when the administrator views order form submissions.",
+      "cveName": "CVE-2024-9944",
+      "cveUrl": "/vuln/detail/CVE-2024-9944"
     }
   },
   "CVE-2024-9952": {
@@ -15023,6 +15133,138 @@
       "cveDis": "WebEIP v3.0 from \n\nNewType does not properly validate user input, allowing remote attackers with regular privilege to inject SQL commands to read, modify, and delete data stored in database. The affected product is no longer maintained. It is recommended to upgrade to the new product.",
       "cveName": "CVE-2024-9968",
       "cveUrl": "/vuln/detail/CVE-2024-9968"
+    }
+  },
+  "CVE-2024-99695-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:04 AM -0400"
+      ],
+      "cveDis": "NewType WebEIP v3.0 does not properly validate user input, allowing a remote attacker with regular privileges to insert JavaScript into specific parameters, resulting in a Reflected Cross-site Scripting (XSS) attack. The affected product is no longer maintained. It is recommended to upgrade to the new product.",
+      "cveName": "CVE-2024-99695-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9969"
+    }
+  },
+  "CVE-2024-99708-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:04 AM -0400"
+      ],
+      "cveDis": "The FlowMaster BPM Plus system from NewType has a privilege escalation vulnerability. Remote attackers with regular privileges can elevate their privileges to administrator by tampering with a specific cookie.",
+      "cveName": "CVE-2024-99708-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9970"
+    }
+  },
+  "CVE-2024-99718-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:05 AM -0400"
+      ],
+      "cveDis": "The specific query functionality in the FlowMaster BPM Plus from NewType does not properly restrict user input, allowing remote attackers with regular privileges to inject SQL commands to read, modify, or delete database contents.",
+      "cveName": "CVE-2024-99718-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9971"
+    }
+  },
+  "CVE-2024-99729-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "3:15:02 AM -0400"
+      ],
+      "cveDis": "Property Management System from ChanGate has a SQL Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary SQL commands to read, modify, and delete database contents.",
+      "cveName": "CVE-2024-99729-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9972"
+    }
+  },
+  "CVE-2024-9973": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Online Eyewear Shop 1.0. It has been classified as critical. Affected is an unknown function of the file /admin/?page=reports of the component Report Viewing Page. The manipulation of the argument date leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9973",
+      "cveUrl": "/vuln/detail/CVE-2024-9973"
+    }
+  },
+  "CVE-2024-9974": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Online Eyewear Shop 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file classes/Master.php?f=add_to_card of the component POST Request Handler. The manipulation of the argument product_id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9974",
+      "cveUrl": "/vuln/detail/CVE-2024-9974"
+    }
+  },
+  "CVE-2024-99808-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "The ee-class from FormosaSoft does not properly validate a specific page parameter, allowing remote attackers with regular privileges to inject arbitrary SQL commands to read, modify and delete database contents.",
+      "cveName": "CVE-2024-99808-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9980"
+    }
+  },
+  "CVE-2024-9981": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "The ee-class from FormosaSoft does not properly validate a specific page parameter, allowing remote attackers with regular privileges to upload a malicious PHP file first and then exploit this vulnerability to include the file, resulting in arbitrary code execution on the server.",
+      "cveName": "CVE-2024-9981",
+      "cveUrl": "/vuln/detail/CVE-2024-9981"
+    }
+  },
+  "CVE-2024-99829-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "AIM LINE Marketing Platform from Esi Technology does not properly validate a specific query parameter. When the LINE Campaign Module is enabled, unauthenticated remote attackers can inject arbitrary FetchXml commands to read, modify, and delete database content.",
+      "cveName": "CVE-2024-99829-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9982"
+    }
+  },
+  "CVE-2024-99837-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "5:15:04 AM -0400"
+      ],
+      "cveDis": "Enterprise Cloud Database from Ragic does not properly validate a specific page parameter, allowing unauthenticated remote attackers to exploit this vulnerability to read arbitrary system files.",
+      "cveName": "CVE-2024-99837-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9983"
+    }
+  },
+  "CVE-2024-99849-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "5:15:04 AM -0400"
+      ],
+      "cveDis": "Enterprise Cloud Database from Ragic does not authenticate access to specific functionality, allowing unauthenticated remote attackers to use this functionality to obtain any user's session cookie.",
+      "cveName": "CVE-2024-99849-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9984"
+    }
+  },
+  "CVE-2024-998510-0 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "5:15:04 AM -0400"
+      ],
+      "cveDis": "Enterprise Cloud Database from Ragic does not properly validate the file type for uploads. Attackers with regular privileges can upload a webshell and use it to execute arbitrary code on the remote server.",
+      "cveName": "CVE-2024-998510-0 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9985"
     }
   }
 }
