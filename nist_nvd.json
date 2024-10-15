@@ -54,6 +54,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-26771"
     }
   },
+  "CVE-2023-31493": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "11:15:12 AM -0400"
+      ],
+      "cveDis": "RCE (Remote Code Execution) exists in ZoneMinder through 1.36.33 as an attacker can create a new .php log file in language folder, while executing a crafted payload and escalate privileges allowing execution of any commands on the remote system.",
+      "cveName": "CVE-2023-31493",
+      "cveUrl": "/vuln/detail/CVE-2023-31493"
+    }
+  },
   "CVE-2023-3441": {
     "cve": {
       "cveDate": [
@@ -4817,6 +4828,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-45252"
     }
   },
+  "CVE-2024-452718-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:11 AM -0400"
+      ],
+      "cveDis": "An unauthenticated local attacker can gain admin privileges by deploying a config file due to improper input validation.",
+      "cveName": "CVE-2024-452718-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-45271"
+    }
+  },
+  "CVE-2024-452727-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:11 AM -0400"
+      ],
+      "cveDis": "An unauthenticated remote attacker can perform a brute-force attack on the credentials of the remote service portal with a high chance of success, resulting in connection lost.",
+      "cveName": "CVE-2024-452727-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-45272"
+    }
+  },
+  "CVE-2024-452738-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:11 AM -0400"
+      ],
+      "cveDis": "An unauthenticated local attacker can decrypt the devices config file and therefore compromise the device due to a weak implementation of the encryption used.",
+      "cveName": "CVE-2024-452738-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-45273"
+    }
+  },
+  "CVE-2024-452749-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:12 AM -0400"
+      ],
+      "cveDis": "An unauthenticated remote attacker can execute OS commands via UDP on the device due to missing authentication.",
+      "cveName": "CVE-2024-452749-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-45274"
+    }
+  },
+  "CVE-2024-45275": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:12 AM -0400"
+      ],
+      "cveDis": "The devices contain two hard coded user accounts with hardcoded passwords that allow an unauthenticated remote attacker for full control of the affected devices.",
+      "cveName": "CVE-2024-45275",
+      "cveUrl": "/vuln/detail/CVE-2024-45275"
+    }
+  },
+  "CVE-2024-452767-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:12 AM -0400"
+      ],
+      "cveDis": "An unauthenticated remote attacker can get read access to files in the \"/tmp\" directory due to missing authentication.",
+      "cveName": "CVE-2024-452767-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-45276"
+    }
+  },
   "CVE-2024-45290": {
     "cve": {
       "cveDate": [
@@ -6377,6 +6454,17 @@
       "cveDis": "Meshtastic is an open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices. Meshtastic firmware is an open source firmware implementation for the broader project. The remote hardware module of the firmware does not have proper checks to ensure a remote hardware control message was received should be considered valid. This issue has been addressed in release version 2.5.1. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-47079",
       "cveUrl": "/vuln/detail/CVE-2024-47079"
+    }
+  },
+  "CVE-2024-47080": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "11:15:12 AM -0400"
+      ],
+      "cveDis": "matrix-js-sdk is the Matrix Client-Server SDK for JavaScript and TypeScript. In matrix-js-sdk versions versions 9.11.0 through 34.7.0, the method `MatrixClient.sendSharedHistoryKeys` is vulnerable to interception by malicious homeservers.  The method was introduced by MSC3061) and is commonly used to share historical message keys with newly invited users, granting them access to past messages in the room. However, it unconditionally sends these \"shared\" keys to all of the invited user's devices, regardless of whether the user's cryptographic identity is verified or whether the user's devices are signed by that identity. This allows the attacker to potentially inject its own devices to receive sensitive historical keys without proper security checks. Note that this only affects clients running the SDK with the legacy crypto stack. Clients using the new Rust cryptography stack (i.e. those that call `MatrixClient.initRustCrypto()` instead of `MatrixClient.initCrypto()`) are unaffected by this vulnerability, because `MatrixClient.sendSharedHistoryKeys()` raises an exception in such environments. The vulnerability was fixed in matrix-js-sdk 34.8.0 by removing the vulnerable functionality. As a workaround, remove use of affected functionality from clients.",
+      "cveName": "CVE-2024-47080",
+      "cveUrl": "/vuln/detail/CVE-2024-47080"
     }
   },
   "CVE-2024-47084": {
@@ -8711,6 +8799,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47673"
     }
   },
+  "CVE-2024-47674": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:13 AM -0400"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm: avoid leaving partial pfn mappings around in error case\n\nAs Jann points out, PFN mappings are special, because unlike normal\nmemory mappings, there is no lifetime information associated with the\nmapping - it is just a raw mapping of PFNs with no reference counting of\na 'struct page'.\n\nThat's all very much intentional, but it does mean that it's easy to\nmess up the cleanup in case of errors.  Yes, a failed mmap() will always\neventually clean up any partial mappings, but without any explicit\nlifetime in the page table mapping itself, it's very easy to do the\nerror handling in the wrong order.\n\nIn particular, it's easy to mistakenly free the physical backing store\nbefore the page tables are actually cleaned up and (temporarily) have\nstale dangling PTE entries.\n\nTo make this situation less error-prone, just make sure that any partial\npfn mapping is torn down early, before any other error handling.",
+      "cveName": "CVE-2024-47674",
+      "cveUrl": "/vuln/detail/CVE-2024-47674"
+    }
+  },
   "CVE-2024-47762": {
     "cve": {
       "cveDate": [
@@ -8799,6 +8898,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47769"
     }
   },
+  "CVE-2024-47771": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "11:15:12 AM -0400"
+      ],
+      "cveDis": "Element Desktop is a Matrix client for desktop platforms. Element Desktop versions 1.11.70 through 1.11.80 contain a vulnerability which can, under specially crafted conditions, lead to the access token becoming exposed to third parties. At least one vector has been identified internally, involving malicious widgets, but other vectors may exist. Users are strongly advised to upgrade to version 1.11.81 to remediate the issue. As a workaround, avoid granting permissions to untrusted widgets.",
+      "cveName": "CVE-2024-47771",
+      "cveUrl": "/vuln/detail/CVE-2024-47771"
+    }
+  },
   "CVE-2024-47772": {
     "cve": {
       "cveDate": [
@@ -8819,6 +8929,17 @@
       "cveDis": "Discourse is an open source platform for community discussion. An attacker can make several XHR requests until the cache is poisoned with a response without any preloaded data. This issue only affects anonymous visitors of the site. This problem has been patched in the latest version of Discourse. Users are advised to upgrade. Users unable to upgrade should disable anonymous cache by setting the `DISCOURSE_DISABLE_ANON_CACHE` environment variable to a non-empty value.",
       "cveName": "CVE-2024-47773",
       "cveUrl": "/vuln/detail/CVE-2024-47773"
+    }
+  },
+  "CVE-2024-47779": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:04 PM -0400"
+      ],
+      "cveDis": "Element is a Matrix web client built using the Matrix React SDK .Element Web versions 1.11.70 through 1.11.80 contain a vulnerability which can, under specially crafted conditions, lead to the access token becoming exposed to third parties. At least one vector has been identified internally, involving malicious widgets, but other vectors may exist. Note that despite superficial similarity to CVE-2024-47771, this is an entirely separate vulnerability, caused by a separate piece of code included only in Element Web. Element Web and Element Desktop share most but not all, of their code and this vulnerability exists in the part of the code base which is not shared between the projects. Users are strongly advised to upgrade to version 1.11.81 to remediate the issue. As a workaround, avoid granting permissions to untrusted widgets.",
+      "cveName": "CVE-2024-47779",
+      "cveUrl": "/vuln/detail/CVE-2024-47779"
     }
   },
   "CVE-2024-47780": {
@@ -9028,6 +9149,17 @@
       "cveDis": "Livewire is a full-stack framework for Laravel that allows for dynamic UI components without leaving PHP. In livewire/livewire `< v3.5.2`, the file extension of an uploaded file is guessed based on the MIME type. As a result, the actual file extension from the file name is not validated. An attacker can therefore bypass the validation by uploading a file with a valid MIME type (e.g., `image/png`) and a “.php” file extension. If the following criteria are met, the attacker can carry out an RCE attack: 1. Filename is composed of the original file name using `$file->getClientOriginalName()`. 2. Files stored directly on your server in a public storage disk. 3. Webserver is configured to execute “.php” files. This issue has been addressed in release version 3.5.2. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-47823",
       "cveUrl": "/vuln/detail/CVE-2024-47823"
+    }
+  },
+  "CVE-2024-47824": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "matrix-react-sdk is react-based software development kit for inserting a Matrix chat/VOIP client into a web page. Starting in version 3.18.0 and before 3.102.0, matrix-react-sdk allows a malicious homeserver to potentially steal message keys for a room when a user invites another user to that room, via injection of a malicious device controlled by the homeserver. This is possible because matrix-react-sdk before 3.102.0 shared historical message keys on invite. Version 3.102.0 fixes this issue by disabling sharing message keys on invite by removing calls to the vulnerable functionality. No known workarounds are available.",
+      "cveName": "CVE-2024-47824",
+      "cveUrl": "/vuln/detail/CVE-2024-47824"
     }
   },
   "CVE-2024-47826": {
@@ -9272,6 +9404,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47872"
     }
   },
+  "CVE-2024-47874": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "Starlette is an Asynchronous Server Gateway Interface (ASGI) framework/toolkit. Prior to version 0.40.0, Starlette treats `multipart/form-data` parts without a `filename` as text form fields and buffers those in byte strings with no size limit. This allows an attacker to upload arbitrary large form fields and cause Starlette to both slow down significantly due to excessive memory allocations and copy operations, and also consume more and more memory until the server starts swapping and grinds to a halt, or the OS terminates the server process with an OOM error. Uploading multiple such requests in parallel may be enough to render a service practically unusable, even if reasonable request size limits are enforced by a reverse proxy in front of Starlette. This Denial of service (DoS) vulnerability affects all applications built with Starlette (or FastAPI) accepting form requests. Verison 0.40.0 fixes this issue.",
+      "cveName": "CVE-2024-47874",
+      "cveUrl": "/vuln/detail/CVE-2024-47874"
+    }
+  },
   "CVE-2024-47875": {
     "cve": {
       "cveDate": [
@@ -9281,6 +9424,17 @@
       "cveDis": "DOMPurify is a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMpurify was vulnerable to nesting-based mXSS. This vulnerability is fixed in 2.5.0 and 3.1.3.",
       "cveName": "CVE-2024-47875",
       "cveUrl": "/vuln/detail/CVE-2024-47875"
+    }
+  },
+  "CVE-2024-47876": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "Sakai is a Collaboration and Learning Environment. Starting in version 23.0 and prior to version 23.2, kernel users created with type roleview can log in as a normal user. This can result in illegal access being granted to the system. Version 23.3 fixes this vulnerability.",
+      "cveName": "CVE-2024-47876",
+      "cveUrl": "/vuln/detail/CVE-2024-47876"
     }
   },
   "CVE-2024-47877": {
@@ -9745,6 +9899,94 @@
       "cveUrl": "/vuln/detail/CVE-2024-48259"
     }
   },
+  "CVE-2024-48278": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "Phpgurukul User Registration & Login and User Management System 3.2 is vulnerable to Cross Site Request Forgery (CSRF) via /edit-profile.php.",
+      "cveName": "CVE-2024-48278",
+      "cveUrl": "/vuln/detail/CVE-2024-48278"
+    }
+  },
+  "CVE-2024-48279": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "A HTML Injection vulnerability was found in /search-result.php of PHPGurukul User Registration & Login and User Management System 3.2. This vulnerability allows remote attackers to execute arbitrary HTML code via the searchkey parameter in a POST HTTP request.",
+      "cveName": "CVE-2024-48279",
+      "cveUrl": "/vuln/detail/CVE-2024-48279"
+    }
+  },
+  "CVE-2024-48280": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /search-result.php of PHPGurukul User Registration & Login and User Management System 3.2, which allows remote attackers to execute arbitrary SQL command via the fromdate parameter in a POST HTTP request.",
+      "cveName": "CVE-2024-48280",
+      "cveUrl": "/vuln/detail/CVE-2024-48280"
+    }
+  },
+  "CVE-2024-48282": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /password-recovery.php of PHPGurukul User Registration & Login and User Management System 3.2, which allows remote attackers to execute arbitrary SQL commands to get unauthorized database access via the femail parameter in a POST HTTP request.",
+      "cveName": "CVE-2024-48282",
+      "cveUrl": "/vuln/detail/CVE-2024-48282"
+    }
+  },
+  "CVE-2024-48283": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "Phpgurukul User Registration & Login and User Management System 3.2 is vulnerable to SQL Injection in /admin//search-result.php via the searchkey parameter.",
+      "cveName": "CVE-2024-48283",
+      "cveUrl": "/vuln/detail/CVE-2024-48283"
+    }
+  },
+  "CVE-2024-48622": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "A cross-site scripting (XSS) issue in DomainMOD below v4.12.0 allows remote attackers to inject JavaScript code via admin/domain-fields/edit.php and the cdfid parameter.",
+      "cveName": "CVE-2024-48622",
+      "cveUrl": "/vuln/detail/CVE-2024-48622"
+    }
+  },
+  "CVE-2024-48623": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "In queue\\index.php of DomainMOD below v4.12.0, the list_id and domain_id parameters in the GET request can be exploited to cause a reflected Cross Site Scripting (XSS).",
+      "cveName": "CVE-2024-48623",
+      "cveUrl": "/vuln/detail/CVE-2024-48623"
+    }
+  },
+  "CVE-2024-48624": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "In segments\\edit.php of DomainMOD below v4.12.0, the segid parameter in the GET request can be exploited to cause a reflected Cross Site Scripting (XSS) vulnerability.",
+      "cveName": "CVE-2024-48624",
+      "cveUrl": "/vuln/detail/CVE-2024-48624"
+    }
+  },
   "CVE-2024-48768": {
     "cve": {
       "cveDate": [
@@ -10119,6 +10361,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-48911"
     }
   },
+  "CVE-2024-48913": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "Hono, a web framework, prior to version 4.6.5 is vulnerable to bypass of cross-site request forgery (CSRF) middleware by a request without Content-Type header. Although the CSRF middleware verifies the Content-Type Header, Hono always considers a request without a Content-Type header to be safe. This can allow an attacker to bypass CSRF protection implemented with Hono CSRF middleware. Version 4.6.5 fixes this issue.",
+      "cveName": "CVE-2024-48913",
+      "cveUrl": "/vuln/detail/CVE-2024-48913"
+    }
+  },
+  "CVE-2024-48914": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "Vendure is an open-source headless commerce platform. Prior to versions 3.0.5 and 2.3.3, a vulnerability in Vendure's asset server plugin allows an attacker to craft a request which is able to traverse the server file system and retrieve the contents of arbitrary files, including sensitive data such as configuration files, environment variables, and other critical data stored on the server. In the same code path is an additional vector for crashing the server via a malformed URI. Patches are available in versions 3.0.5 and 2.3.3. Some workarounds are also available. One may use object storage rather than the local file system, e.g. MinIO or S3, or define middleware which detects and blocks requests with urls containing `/../`.",
+      "cveName": "CVE-2024-48914",
+      "cveUrl": "/vuln/detail/CVE-2024-48914"
+    }
+  },
+  "CVE-2024-48915": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "1:15:11 PM -0400"
+      ],
+      "cveDis": "Agent Dart is an agent library built for Internet Computer for Dart and Flutter apps. Prior to version 1.0.0-dev.29, certificate verification in `lib/agent/certificate.dart` does not occur properly. During the delegation verification in the `_checkDelegation` function, the canister_ranges aren't verified. The impact of not checking the canister_ranges is that a subnet can sign canister responses in behalf of another subnet. The certificate’s timestamp, i.e /time path, is also not verified, meaning that the certificate effectively has no expiration time. Version 1.0.0-dev.29 implements appropriate certificate verification.",
+      "cveName": "CVE-2024-48915",
+      "cveUrl": "/vuln/detail/CVE-2024-48915"
+    }
+  },
   "CVE-2024-48933": {
     "cve": {
       "cveDate": [
@@ -10174,6 +10449,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48942"
     }
   },
+  "CVE-2024-48948": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "The Elliptic package 6.5.7 for Node.js, in its for ECDSA implementation, does not correctly verify valid signatures if the hash contains at least four leading 0 bytes and when the order of the elliptic curve's base point is smaller than the hash, because of an _truncateToN anomaly. This leads to valid signatures being rejected. Legitimate transactions or communications may be incorrectly flagged as invalid.",
+      "cveName": "CVE-2024-48948",
+      "cveUrl": "/vuln/detail/CVE-2024-48948"
+    }
+  },
   "CVE-2024-48949": {
     "cve": {
       "cveDate": [
@@ -10227,6 +10513,61 @@
       "cveDis": "QUIC in HAProxy 3.1.x before 3.1-dev7, 3.0.x before 3.0.5, and 2.9.x before 2.9.11 allows opening a 0-RTT session with a spoofed IP address. This can bypass the IP allow/block list functionality.",
       "cveName": "CVE-2024-49214",
       "cveUrl": "/vuln/detail/CVE-2024-49214"
+    }
+  },
+  "CVE-2024-49382": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:13 AM -0400"
+      ],
+      "cveDis": "Excessive attack surface in archive-server service due to binding to an unrestricted IP address. The following products are affected: Acronis Cyber Protect 16 (Linux, Windows) before build 38690.",
+      "cveName": "CVE-2024-49382",
+      "cveUrl": "/vuln/detail/CVE-2024-49382"
+    }
+  },
+  "CVE-2024-49383": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:13 AM -0400"
+      ],
+      "cveDis": "Excessive attack surface in acep-importer service due to binding to an unrestricted IP address. The following products are affected: Acronis Cyber Protect 16 (Linux, Windows) before build 38690.",
+      "cveName": "CVE-2024-49383",
+      "cveUrl": "/vuln/detail/CVE-2024-49383"
+    }
+  },
+  "CVE-2024-49384": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:13 AM -0400"
+      ],
+      "cveDis": "Excessive attack surface in acep-collector service due to binding to an unrestricted IP address. The following products are affected: Acronis Cyber Protect 16 (Linux, Windows) before build 38690.",
+      "cveName": "CVE-2024-49384",
+      "cveUrl": "/vuln/detail/CVE-2024-49384"
+    }
+  },
+  "CVE-2024-49387": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:13 AM -0400"
+      ],
+      "cveDis": "Cleartext transmission of sensitive information in acep-collector service. The following products are affected: Acronis Cyber Protect 16 (Linux, Windows) before build 38690.",
+      "cveName": "CVE-2024-49387",
+      "cveUrl": "/vuln/detail/CVE-2024-49387"
+    }
+  },
+  "CVE-2024-49388": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:14 AM -0400"
+      ],
+      "cveDis": "Sensitive information manipulation due to improper authorization. The following products are affected: Acronis Cyber Protect 16 (Linux, Windows) before build 38690.",
+      "cveName": "CVE-2024-49388",
+      "cveUrl": "/vuln/detail/CVE-2024-49388"
     }
   },
   "CVE-2024-5474": {
@@ -13639,6 +13980,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9487"
     }
   },
+  "CVE-2024-9506": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "Improper regular expression in Vue's parseHTML function leads to a potential regular expression denial of service vulnerability.",
+      "cveName": "CVE-2024-9506",
+      "cveUrl": "/vuln/detail/CVE-2024-9506"
+    }
+  },
   "CVE-2024-9513": {
     "cve": {
       "cveDate": [
@@ -14275,6 +14627,17 @@
       "cveDis": "A vulnerability was found in Buildah. Cache mounts do not properly validate that user-specified paths for the cache are within our cache directory, allowing a `RUN` instruction in a Container file to mount an arbitrary directory from the host (read/write) into the container as long as those files can be accessed by the user running Buildah.",
       "cveName": "CVE-2024-96754-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9675"
+    }
+  },
+  "CVE-2024-96766-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Podman, Buildah, and CRI-O. A symlink traversal vulnerability in the containers/storage library can cause Podman, Buildah, and CRI-O to hang and result in a denial of service via OOM kill when running a malicious image using an automatically assigned user namespace (`--userns=auto` in Podman and Buildah). The containers/storage library will read /etc/passwd inside the container, but does not properly validate if that file is a symlink, which can be used to cause the library to read an arbitrary file on the host.",
+      "cveName": "CVE-2024-96766-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9676"
     }
   },
   "CVE-2024-9685": {
@@ -15201,6 +15564,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-9974"
     }
   },
+  "CVE-2024-9975": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Drag and Drop Image Upload 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /upload.php. The manipulation leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9975",
+      "cveUrl": "/vuln/detail/CVE-2024-9975"
+    }
+  },
+  "CVE-2024-9976": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "7:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in code-projects Pharmacy Management System 1.0. This affects an unknown part of the file /php/manage_customer.php?action=search. The manipulation of the argument text leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-9976",
+      "cveUrl": "/vuln/detail/CVE-2024-9976"
+    }
+  },
+  "CVE-2024-9977": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in MitraStar GPT-2541GNAC BR_g5.6_1.11(WVK.0)b26. Affected is an unknown function of the file /cgi-bin/settings-firewall.cgi of the component Firewall Settings Page. The manipulation of the argument SrcInterface leads to os command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. We tried to contact the vendor early about the disclosure but the official mail address was not working properly.",
+      "cveName": "CVE-2024-9977",
+      "cveUrl": "/vuln/detail/CVE-2024-9977"
+    }
+  },
+  "CVE-2024-99795-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "A flaw was found in PyO3. This vulnerability causes a use-after-free issue, potentially leading to memory corruption or crashes via unsound borrowing from weak Python references.",
+      "cveName": "CVE-2024-99795-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9979"
+    }
+  },
   "CVE-2024-99808-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -15265,6 +15672,17 @@
       "cveDis": "Enterprise Cloud Database from Ragic does not properly validate the file type for uploads. Attackers with regular privileges can upload a webshell and use it to execute arbitrary code on the remote server.",
       "cveName": "CVE-2024-998510-0 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-9985"
+    }
+  },
+  "CVE-2024-9986": {
+    "cve": {
+      "cveDate": [
+        "October 15, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Blood Bank Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file member_register.php. The manipulation of the argument fullname/username/password/email leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"password\" to be affected. But it must be assumed that other parameters are affected as well.",
+      "cveName": "CVE-2024-9986",
+      "cveUrl": "/vuln/detail/CVE-2024-9986"
     }
   }
 }
