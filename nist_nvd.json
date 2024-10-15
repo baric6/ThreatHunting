@@ -142,6 +142,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-46586"
     }
   },
+  "CVE-2023-48082": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "Nagios XI before 5.11.3 2024R1 was discovered to improperly handle API keys generation (randomly-generated), allowing attackers to possibly generate the same set of API keys for all users and utilize them to authenticate.",
+      "cveName": "CVE-2023-48082",
+      "cveUrl": "/vuln/detail/CVE-2023-48082"
+    }
+  },
   "CVE-2023-50780": {
     "cve": {
       "cveDate": [
@@ -1418,6 +1429,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-28948"
     }
   },
+  "CVE-2024-30117": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "7:15:11 PM -0400"
+      ],
+      "cveDis": "A dynamic search for a prerequisite library could allow the possibility for an attacker to replace the correct file under some circumstances.",
+      "cveName": "CVE-2024-30117",
+      "cveUrl": "/vuln/detail/CVE-2024-30117"
+    }
+  },
   "CVE-2024-30118": {
     "cve": {
       "cveDate": [
@@ -1933,6 +1955,39 @@
       "cveDis": "Netgear XR1000 v1.0.0.64 is vulnerable to command injection in usb_remote_smb_conf.cgi via the share_name parameter.",
       "cveName": "CVE-2024-35517",
       "cveUrl": "/vuln/detail/CVE-2024-35517"
+    }
+  },
+  "CVE-2024-35518": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Netgear EX6120 v1.0.0.68 is vulnerable to Command Injection in genie_fix2.cgi via the wan_dns1_pri parameter.",
+      "cveName": "CVE-2024-35518",
+      "cveUrl": "/vuln/detail/CVE-2024-35518"
+    }
+  },
+  "CVE-2024-35519": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Netgear EX6120 v1.0.0.68, Netgear EX6100 v1.0.2.28, and Netgear EX3700 v1.0.0.96 are vulnerable to command injection in operating_mode.cgi via the ap_mode parameter.",
+      "cveName": "CVE-2024-35519",
+      "cveUrl": "/vuln/detail/CVE-2024-35519"
+    }
+  },
+  "CVE-2024-35520": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Netgear R7000 1.0.11.136 is vulnerable to Command Injection in RMT_invite.cgi via device_name2 parameter.",
+      "cveName": "CVE-2024-35520",
+      "cveUrl": "/vuln/detail/CVE-2024-35520"
     }
   },
   "CVE-2024-35522": {
@@ -5939,6 +5994,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46511"
     }
   },
+  "CVE-2024-46528": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:03 PM -0400"
+      ],
+      "cveDis": "An Insecure Direct Object Reference (IDOR) vulnerability in KubeSphere v3.4.1 and v4.1.1 allows low-privileged authenticated attackers to access sensitive resources without proper authorization checks.",
+      "cveName": "CVE-2024-46528",
+      "cveUrl": "/vuln/detail/CVE-2024-46528"
+    }
+  },
   "CVE-2024-46532": {
     "cve": {
       "cveDate": [
@@ -6124,6 +6190,28 @@
       "cveDis": "OpenC3 COSMOS provides the functionality needed to send commands to and receive data from one or more embedded systems. A path traversal vulnerability inside of LocalMode's open_local_file method allows an authenticated user with adequate permissions to download any .txt via the ScreensController#show on the web server COSMOS is running on (depending on the file permissions). This vulnerability is fixed in 5.19.0.",
       "cveName": "CVE-2024-46977",
       "cveUrl": "/vuln/detail/CVE-2024-46977"
+    }
+  },
+  "CVE-2024-46980": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:03 PM -0400"
+      ],
+      "cveDis": "Tuleap is a tool for end to end traceability of application and system developments. Prior to Tuleap Community Edition 15.13.99.37, Tuleap Enterprise Edition 15.13-3, and Tuleap Enterprise Edition 15.12-6, a site administrator could create an artifact link type with a forward label allowing them to execute uncontrolled code (or at least achieve content injection) in a mail client. Tuleap Community Edition 15.13.99.37, Tuleap Enterprise Edition 15.13-3, and Tuleap Enterprise Edition 15.12-6 fix this issue.",
+      "cveName": "CVE-2024-46980",
+      "cveUrl": "/vuln/detail/CVE-2024-46980"
+    }
+  },
+  "CVE-2024-46988": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:04 PM -0400"
+      ],
+      "cveDis": "Tuleap is a tool for end to end traceability of application and system developments. Prior to Tuleap Community Edition 15.13.99.40, Tuleap Enterprise Edition 15.13-3, and Tuleap Enterprise Edition 15.12-6, users might receive email notification with information they should not have access to. Tuleap Community Edition 15.13.99.40, Tuleap Enterprise Edition 15.13-3, and Tuleap Enterprise Edition 15.12-6 fix this issue.",
+      "cveName": "CVE-2024-46988",
+      "cveUrl": "/vuln/detail/CVE-2024-46988"
     }
   },
   "CVE-2024-47007": {
@@ -8634,6 +8722,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-47765"
     }
   },
+  "CVE-2024-47766": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:04 PM -0400"
+      ],
+      "cveDis": "Tuleap is a tool for end to end traceability of application and system developments. Prior to Tuleap Community Edition 15.13.99.110, Tuleap Enterprise Edition 15.13-5, and Tuleap Enterprise Edition 15.12-5, administrators of a project can access the content of trackers with permissions restrictions of project they are members of but not admin via the cross tracker search widget. Tuleap Community Edition 15.13.99.110, Tuleap Enterprise Edition 15.13-5, and Tuleap Enterprise Edition 15.12-8 fix this issue.",
+      "cveName": "CVE-2024-47766",
+      "cveUrl": "/vuln/detail/CVE-2024-47766"
+    }
+  },
+  "CVE-2024-47767": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:04 PM -0400"
+      ],
+      "cveDis": "Tuleap is a tool for end to end traceability of application and system developments. Prior to Tuleap Community Edition 15.13.99.113, Tuleap Enterprise Edition 15.13-5, and Tuleap Enterprise Edition 15.12-5, users might see tracker names they should not have access to. Tuleap Community Edition 15.13.99.113, Tuleap Enterprise Edition 15.13-5, and Tuleap Enterprise Edition 15.12-8 fix this issue.",
+      "cveName": "CVE-2024-47767",
+      "cveUrl": "/vuln/detail/CVE-2024-47767"
+    }
+  },
   "CVE-2024-47768": {
     "cve": {
       "cveDate": [
@@ -8887,6 +8997,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47823"
     }
   },
+  "CVE-2024-47826": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:04 PM -0400"
+      ],
+      "cveDis": "eLabFTW is an open source electronic lab notebook for research labs. A vulnerability in versions prior to 5.1.5 allows an attacker to inject arbitrary HTML tags in the pages: \"experiments.php\" (show mode), \"database.php\" (show mode) or \"search.php\". It works by providing HTML code in the extended search string, which will then be displayed back to the user in the error message. This means that injected HTML will appear in a red \"alert/danger\" box, and be part of an error message. Due to some other security measures, it is not possible to execute arbitrary javascript from this attack. As such, this attack is deemed low impact. Users should upgrade to at least version 5.1.5 to receive a patch. No known workarounds are available.",
+      "cveName": "CVE-2024-47826",
+      "cveUrl": "/vuln/detail/CVE-2024-47826"
+    }
+  },
   "CVE-2024-47828": {
     "cve": {
       "cveDate": [
@@ -8907,6 +9028,17 @@
       "cveDis": "Plane is an open-source project management tool. Plane uses the ** wildcard support to retrieve the image from any hostname as in /web/next.config.js. This may permit an attacker to induce the server side into performing requests to unintended locations. This vulnerability is fixed in 0.23.0.",
       "cveName": "CVE-2024-47830",
       "cveUrl": "/vuln/detail/CVE-2024-47830"
+    }
+  },
+  "CVE-2024-47831": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "Next.js is a React Framework for the Web. Cersions on the 10.x, 11.x, 12.x, 13.x, and 14.x branches before version 14.2.7 contain a vulnerability in the image optimization feature which allows for a potential Denial of Service (DoS) condition which could lead to excessive CPU consumption. Neither the `next.config.js` file that is configured with `images.unoptimized` set to `true` or `images.loader` set to a non-default value nor the Next.js application that is hosted on Vercel are affected. This issue was fully patched in Next.js `14.2.7`. As a workaround, ensure that the `next.config.js` file has either `images.unoptimized`, `images.loader` or `images.loaderFile` assigned.",
+      "cveName": "CVE-2024-47831",
+      "cveUrl": "/vuln/detail/CVE-2024-47831"
     }
   },
   "CVE-2024-47832": {
@@ -9138,6 +9270,17 @@
       "cveDis": "foxmarks is a CLI read-only interface for Firefox's bookmarks and history. A temporary file was created under the /tmp directory with read permissions for all users containing a copy of Firefox's database of bookmarks, history, input history, visits counter, use counter, view counter and more confidential information about the history of using Firefox. Permissions default to 0o600 for NamedTempFile. However, after copying the database, its permissions were copied with it resulting in an insecure file with 0x644 permissions. A malicious user is able to read the database when the targeted user executes foxmarks bookmarks or foxmarks history. This vulnerability is patched in v2.1.0.",
       "cveName": "CVE-2024-47884",
       "cveUrl": "/vuln/detail/CVE-2024-47884"
+    }
+  },
+  "CVE-2024-47885": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "3:15:10 PM -0400"
+      ],
+      "cveDis": "The Astro web framework has a DOM Clobbering gadget in the client-side router starting in version 3.0.0 and prior to version 4.16.1. It can lead to cross-site scripting (XSS) in websites enables Astro's client-side routing and has *stored* attacker-controlled scriptless HTML elements (i.e., `iframe` tags with unsanitized `name` attributes) on the destination pages. This vulnerability can result in cross-site scripting (XSS) attacks on websites that built with Astro that enable the client-side routing with `ViewTransitions` and store the user-inserted scriptless HTML tags without properly sanitizing the `name` attributes on the page. Version 4.16.1 contains a patch for this issue.",
+      "cveName": "CVE-2024-47885",
+      "cveUrl": "/vuln/detail/CVE-2024-47885"
     }
   },
   "CVE-2024-47910": {
@@ -9701,6 +9844,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-48788"
     }
   },
+  "CVE-2024-48789": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in INATRONIC com.inatronic.drivedeck.home 2.6.23 allows a remote attacker to obtain sensitve information via the firmware update process.",
+      "cveName": "CVE-2024-48789",
+      "cveUrl": "/vuln/detail/CVE-2024-48789"
+    }
+  },
+  "CVE-2024-48790": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in ILIFE com.ilife.home.global 1.8.7 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48790",
+      "cveUrl": "/vuln/detail/CVE-2024-48790"
+    }
+  },
+  "CVE-2024-48791": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in Plug n Play Camera com.starvedia.mCamView.zwave 5.5.1 allows a remote attacker to obtain sensitive information via the firmware update process",
+      "cveName": "CVE-2024-48791",
+      "cveUrl": "/vuln/detail/CVE-2024-48791"
+    }
+  },
+  "CVE-2024-48792": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in Hideez com.hideez 2.7.8.3 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48792",
+      "cveUrl": "/vuln/detail/CVE-2024-48792"
+    }
+  },
+  "CVE-2024-48793": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in INATRONIC com.inatronic.bmw 2.7.1 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48793",
+      "cveUrl": "/vuln/detail/CVE-2024-48793"
+    }
+  },
+  "CVE-2024-48795": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "An issue in Creative Labs Pte Ltd com.creative.apps.xficonnect 2.00.02 allows a remote attacker to obtain sensitive information via the firmware update process.",
+      "cveName": "CVE-2024-48795",
+      "cveUrl": "/vuln/detail/CVE-2024-48795"
+    }
+  },
   "CVE-2024-48796": {
     "cve": {
       "cveDate": [
@@ -9756,6 +9965,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-48813"
     }
   },
+  "CVE-2024-48821": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "5:15:11 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in Automatic Systems Maintenance SlimLane 29565_d74ecce0c1081d50546db573a499941b10799fb7 allows a remote attacker to escalate privileges via the FtpConfig.php component.",
+      "cveName": "CVE-2024-48821",
+      "cveUrl": "/vuln/detail/CVE-2024-48821"
+    }
+  },
+  "CVE-2024-48822": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "5:15:11 PM -0400"
+      ],
+      "cveDis": "Privilege escalation in Automatic Systems Maintenance SlimLane 29565_d74ecce0c1081d50546db573a499941b10799fb7 allows a remote attacker to escalate privileges via the FtpConfig.php page.",
+      "cveName": "CVE-2024-48822",
+      "cveUrl": "/vuln/detail/CVE-2024-48822"
+    }
+  },
+  "CVE-2024-48823": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "5:15:11 PM -0400"
+      ],
+      "cveDis": "Local file inclusion in Automatic Systems Maintenance SlimLane 29565_d74ecce0c1081d50546db573a499941b10799fb7 allows a remote attacker to escalate privileges via the PassageAutoServer.php page.",
+      "cveName": "CVE-2024-48823",
+      "cveUrl": "/vuln/detail/CVE-2024-48823"
+    }
+  },
+  "CVE-2024-48824": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "5:15:11 PM -0400"
+      ],
+      "cveDis": "An issue in Automatic Systems Maintenance SlimLane 29565_d74ecce0c1081d50546db573a499941b10799fb7 allows a remote attacker to obtain sensitive information via the Racine & FileName parameters in the download-file.php component.",
+      "cveName": "CVE-2024-48824",
+      "cveUrl": "/vuln/detail/CVE-2024-48824"
+    }
+  },
   "CVE-2024-48827": {
     "cve": {
       "cveDate": [
@@ -9776,6 +10029,28 @@
       "cveDis": "In JetBrains YouTrack before 2024.3.46677 improper access control allowed users with project update permission to delete applications via API",
       "cveName": "CVE-2024-48902",
       "cveUrl": "/vuln/detail/CVE-2024-48902"
+    }
+  },
+  "CVE-2024-48909": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "SpiceDB is an open source database for scalably storing and querying fine-grained authorization data. Starting in version 1.35.0 and prior to version 1.37.1, clients that have enabled `LookupResources2` and have caveats in the evaluation path for their requests can return a permissionship of `CONDITIONAL` with context marked as missing, even then the context was supplied. LookupResources2 is the new default in SpiceDB 1.37.0 and has been opt-in since SpiceDB 1.35.0. The bug is patched as part of SpiceDB 1.37.1. As a workaround, disable LookupResources2 via the `--enable-experimental-lookup-resources` flag by setting it to `false`.",
+      "cveName": "CVE-2024-48909",
+      "cveUrl": "/vuln/detail/CVE-2024-48909"
+    }
+  },
+  "CVE-2024-48911": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "OpenCanary, a multi-protocol network honeypot, directly executed commands taken from its config file. Prior to version 0.9.4, where the config file is stored in an unprivileged user directory but the daemon is executed by root, it’s possible for the unprivileged user to change the config file and escalate permissions when root later runs the daemon. Version 0.9.4 contains a fix for the issue.",
+      "cveName": "CVE-2024-48911",
+      "cveUrl": "/vuln/detail/CVE-2024-48911"
     }
   },
   "CVE-2024-48933": {
@@ -9943,6 +10218,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-6157"
     }
   },
+  "CVE-2024-6207": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "CVE 2021-22681 https://www.rockwellautomation.com/en-us/trust-center/security-advisories/advisory.PN1550.html  and send a specially crafted CIP message to the device.  If exploited, a threat actor could help prevent access to the legitimate user and end connections to connected devices including the workstation.  To recover the controllers, a download is required which ends any process that the controller is running.",
+      "cveName": "CVE-2024-6207",
+      "cveUrl": "/vuln/detail/CVE-2024-6207"
+    }
+  },
   "CVE-2024-6360": {
     "cve": {
       "cveDate": [
@@ -10040,6 +10326,17 @@
       "cveDis": "Information leakage in mknotifyd in Checkmk before 2.3.0p18, 2.2.0p36, 2.1.0p49 and in 2.0.0p39 (EOL) allows attacker to get potentially sensitive data",
       "cveName": "CVE-2024-6747",
       "cveUrl": "/vuln/detail/CVE-2024-6747"
+    }
+  },
+  "CVE-2024-67574-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "The Elementor Website Builder – More than Just a Page Builder plugin for WordPress is vulnerable to Basic Information Exposure in all versions up to, and including, 3.23.5 via the get_image_alt function. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract either excerpt data or titles of private or password-protected posts.",
+      "cveName": "CVE-2024-67574-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-6757"
     }
   },
   "CVE-2024-6762": {
@@ -13430,6 +13727,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-9539"
     }
   },
+  "CVE-2024-95465-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "8:15:21 PM -0400"
+      ],
+      "cveDis": "The WPIDE – File Manager & Code Editor plugin for WordPress is vulnerable to Full Path Disclosure in all versions up to, and including, 3.4.9. This is due to the plugin utilizing the PHP-Parser library, which outputs parser rebuild command execution results. This makes it possible for unauthenticated attackers to retrieve the full path of the web application, which can be used to aid other attacks. The information displayed is not useful on its own, and requires another vulnerability to be present for damage to an affected website.",
+      "cveName": "CVE-2024-95465-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9546"
+    }
+  },
+  "CVE-2024-95487-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "8:15:22 PM -0400"
+      ],
+      "cveDis": "The SlimStat Analytics plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the resource parameter in all versions up to, and including, 5.2.6 due to insufficient input sanitization and output escaping when logging visitor requests. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-95487-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9548"
+    }
+  },
   "CVE-2024-9549": {
     "cve": {
       "cveDate": [
@@ -13903,6 +14222,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9685"
     }
   },
+  "CVE-2024-96878-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "The WP 2FA with Telegram plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 3.0. This is due to insufficient validation of the user-controlled key on the 'validate_tg' action. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to log in as any existing user on the site, such as an administrator.",
+      "cveName": "CVE-2024-96878-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9687"
+    }
+  },
   "CVE-2024-96966-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -14343,6 +14673,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9818"
     }
   },
+  "CVE-2024-98206-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "The WP 2FA with Telegram plugin for WordPress is vulnerable to Two-Factor Authentication Bypass in versions up to, and including, 3.0. This is due to the two-factor code being stored in a cookie, which makes it possible to bypass two-factor authentication.",
+      "cveName": "CVE-2024-98206-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9820"
+    }
+  },
   "CVE-2024-98218-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -14649,6 +14990,39 @@
       "cveDis": "When manipulating the selection node cache, an attacker may have been able to cause unexpected behavior, potentially leading to an exploitable crash. This vulnerability affects Firefox < 131.0.3.",
       "cveName": "CVE-2024-9936",
       "cveUrl": "/vuln/detail/CVE-2024-9936"
+    }
+  },
+  "CVE-2024-9952": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Online Eyewear Shop 1.0 and classified as problematic. This issue affects some unknown processing of the file /admin/?page=system_info/contact_info of the component Contact Information Page. The manipulation of the argument Address leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-9952",
+      "cveUrl": "/vuln/detail/CVE-2024-9952"
+    }
+  },
+  "CVE-2024-9953": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A Potential DOS Vulnerability exists in CERT VINCE software prior to version 3.0.8. An authenticated administrative user can inject an arbitrary pickle object as part of a user's profile. This can lead to a potential DoS on the server when the user's profile is accessed. Django server does restrict unpickling from crashing the server.",
+      "cveName": "CVE-2024-9953",
+      "cveUrl": "/vuln/detail/CVE-2024-9953"
+    }
+  },
+  "CVE-2024-9968": {
+    "cve": {
+      "cveDate": [
+        "October 14, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "WebEIP v3.0 from \n\nNewType does not properly validate user input, allowing remote attackers with regular privilege to inject SQL commands to read, modify, and delete data stored in database. The affected product is no longer maintained. It is recommended to upgrade to the new product.",
+      "cveName": "CVE-2024-9968",
+      "cveUrl": "/vuln/detail/CVE-2024-9968"
     }
   }
 }
