@@ -1,4 +1,158 @@
 {
+  "CVE-2016-150429-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "The Frontend File Manager (versions < 4.0), N-Media Post Front-end Form (versions < 1.1) plugins for WordPress are vulnerable to arbitrary file uploads due to missing file type validation via the `nm_filemanager_upload_file` and `nm_postfront_upload_file` AJAX actions. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.",
+      "cveName": "CVE-2016-150429-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2016-15042"
+    }
+  },
+  "CVE-2017-201934-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "The Product Vendors is vulnerable to Reflected Cross-Site Scripting via the 'vendor_description' parameter in versions up to, and including, 2.0.35 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2017-201934-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2017-20193"
+    }
+  },
+  "CVE-2017-201945-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "The Formidable Form Builder plugin for WordPress is vulnerable to Sensitive Data Exposure in versions up to, and including, 2.05.03 via the frm_forms_preview AJAX action. This makes it possible for unauthenticated attackers to export all of the form entries for a given form.",
+      "cveName": "CVE-2017-201945-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2017-20194"
+    }
+  },
+  "CVE-2020-368315-0 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:07 AM -0400"
+      ],
+      "cveDis": "The NextScripts: Social Networks Auto-Poster plugin for WordPress is vulnerable to authorization bypass due to missing capability checks on multiple user privilege/security functions provided in versions up to, and including 4.3.17. This makes it possible for low-privileged attackers, like subscribers, to perform restricted actions that would be otherwise locked to a administrative-level user.",
+      "cveName": "CVE-2020-368315-0 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-36831"
+    }
+  },
+  "CVE-2020-368329-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:07 AM -0400"
+      ],
+      "cveDis": "The Ultimate Membership Pro plugin for WordPress is vulnerable to Authentication Bypass in versions between, and including, 7.3 to 8.6. This makes it possible for unauthenticated attackers to login as any user, including the site administrator with a default user ID of 1, via the username or user ID.",
+      "cveName": "CVE-2020-368329-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2020-36832"
+    }
+  },
+  "CVE-2020-368336-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:07 AM -0400"
+      ],
+      "cveDis": "The Indeed Membership Pro plugin for WordPress is vulnerable to authorization bypass due to missing capability checks on various AJAX actions in versions 7.3 - 8.6. This makes it possible for authenticated attacker, with minimal permission, such as a subscriber, to perform a variety of actions such as modifying settings and viewing sensitive data.",
+      "cveName": "CVE-2020-368336-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-36833"
+    }
+  },
+  "CVE-2020-368346-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:08 AM -0400"
+      ],
+      "cveDis": "The Discount Rules for WooCommerce plugin for WordPress is vulnerable to missing authorization via several AJAX actions in versions up to, and including, 2.0.2 due to missing capability checks on various functions. This makes it possible for subscriber-level attackers to execute various actions and perform a wide variety of actions such as modifying rules and saving configurations.",
+      "cveName": "CVE-2020-368346-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-36834"
+    }
+  },
+  "CVE-2020-368354-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:08 AM -0400"
+      ],
+      "cveDis": "The Migration, Backup, Staging – WPvivid plugin for WordPress is vulnerable to sensitive information disclosure of a WordPress site's database due to missing capability checks on the wp_ajax_wpvivid_add_remote AJAX action that allows low-level authenticated attackers to send back-ups to a remote location of their choice for review. This affects versions up to, and including 0.9.35.",
+      "cveName": "CVE-2020-368354-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-36835"
+    }
+  },
+  "CVE-2020-36836": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:08 AM -0400"
+      ],
+      "cveDis": "The WP Fastest Cache plugin for WordPress is vulnerable to unauthorized arbitrary file deletion in versions up to, and including, 0.9.0.2 due to a lack of capability checking and insufficient path validation. This makes it possible for authenticated users with minimal permissions to delete arbitrary files from the server.",
+      "cveName": "CVE-2020-36836",
+      "cveUrl": "/vuln/detail/CVE-2020-36836"
+    }
+  },
+  "CVE-2020-368379-9 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:08 AM -0400"
+      ],
+      "cveDis": "The ThemeGrill Demo Importer plugin for WordPress is vulnerable to authentication bypass due to a missing capability check on the reset_wizard_actions function in versions 1.3.4 through 1.6.1. This makes it possible for authenticated attackers to reset the WordPress database. After which, if there is a user named 'admin', the attacker will become automatically logged in as an administrator.",
+      "cveName": "CVE-2020-368379-9 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2020-36837"
+    }
+  },
+  "CVE-2020-368387-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:09 AM -0400"
+      ],
+      "cveDis": "The Facebook Chat Plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the wp_ajax_update_options function in versions up to, and including, 1.5. This flaw makes it possible for low-level authenticated attackers to connect their own Facebook Messenger account to any site running the vulnerable plugin and engage in chats with site visitors on affected sites.",
+      "cveName": "CVE-2020-368387-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2020-36838"
+    }
+  },
+  "CVE-2020-368398-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:09 AM -0400"
+      ],
+      "cveDis": "The WP Lead Plus X plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 0.99. This is due to missing or incorrect nonce validation on several functions. This makes it possible for unauthenticated attackers to perform administrative actions, such as adding pages to the site and/or replacing site content with malicious JavaScript via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2020-368398-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2020-36839"
+    }
+  },
+  "CVE-2020-368407-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "The Timetable and Event Schedule by MotoPress plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the wp_ajax_route_url() function called via a nopriv AJAX action in versions up to, and including, 2.3.8. This makes it possible for unauthenticated attackers to call that function and perform a wide variety of actions such as including random template, injecting malicious web scripts, and more.",
+      "cveName": "CVE-2020-368407-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2020-36840"
+    }
+  },
+  "CVE-2020-368428-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "The Migration, Backup, Staging – WPvivid plugin for WordPress is vulnerable to arbitrary file uploads due to a missing capability check on the wpvivid_upload_import_files and wpvivid_upload_files AJAX actions that allows low-level authenticated attackers to upload zip files that can be subsequently extracted. This affects versions up to, and including 0.9.35.",
+      "cveName": "CVE-2020-368428-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2020-36842"
+    }
+  },
   "CVE-2021-37577": {
     "cve": {
       "cveDate": [
@@ -10,6 +164,116 @@
       "cveUrl": "/vuln/detail/CVE-2021-37577"
     }
   },
+  "CVE-2021-44439-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:09 AM -0400"
+      ],
+      "cveDis": "The WordPress Mega Menu plugin for WordPress is vulnerable to Arbitrary File Creation in versions up to, and including, 2.0.6 via the compiler_save AJAX action. This makes it possible for unauthenticated attackers to create arbitrary PHP files that can be used to execute malicious code.",
+      "cveName": "CVE-2021-44439-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2021-4443"
+    }
+  },
+  "CVE-2021-4444": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:09 AM -0400"
+      ],
+      "cveDis": "The Product Filter by WooBeWoo plugin for WordPress is vulnerable to authorization bypass in versions up to, and including 1.4.9 due to missing authorization checks on various functions. This makes it possible for unauthenticated attackers to perform unauthorized actions such as creating new filters and injecting malicious javascript into a vulnerable site. This was actively exploited at the time of discovery.",
+      "cveName": "CVE-2021-4444",
+      "cveUrl": "/vuln/detail/CVE-2021-4444"
+    }
+  },
+  "CVE-2021-44456-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:10 AM -0400"
+      ],
+      "cveDis": "The Premium Addons for Elementor plugin for WordPress is vulnerable to Arbitrary Option Updates in versions up to, and including, 4.5.1. This is due to missing capability and nonce checks in the pa_dismiss_admin_notice AJAX action. This makes it possible for authenticated subscriber+ attackers to change arbitrary options with a restricted value of 1 on vulnerable WordPress sites.",
+      "cveName": "CVE-2021-44456-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-4445"
+    }
+  },
+  "CVE-2021-44466-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:10 AM -0400"
+      ],
+      "cveDis": "The Essential Addons for Elementor plugin for WordPress is vulnerable to authorization bypass in versions up to and including 4.6.4 due to missing capability checks and nonce disclosure. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to perform many unauthorized actions such as changing settings and installing arbitrary plugins.",
+      "cveName": "CVE-2021-44466-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-4446"
+    }
+  },
+  "CVE-2021-44478-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:10 AM -0400"
+      ],
+      "cveDis": "The Essential Addons for Elementor  plugin for WordPress is vulnerable to privilege escalation in versions up to and including 4.6.4 due to a lack of restrictions on who can add a registration form and a custom registration role to an Elementor created page. This makes it possible for attackers with access to the Elementor page builder to create a new registration form that defaults to the user role being set to administrator and subsequently register as an administrative user.",
+      "cveName": "CVE-2021-44478-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2021-4447"
+    }
+  },
+  "CVE-2021-44487-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:10 AM -0400"
+      ],
+      "cveDis": "The Kaswara Modern VC Addons plugin for WordPress is vulnerable to authorization bypass in versions up to, and including, 3.0.1 due to insufficient capability checking on various AJAX actions. This makes it possible for unauthenticated attackers to perform a wide variety of unauthorized actions such as importing data, uploading arbitrary files, deleting arbitrary files, and more.",
+      "cveName": "CVE-2021-44487-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2021-4448"
+    }
+  },
+  "CVE-2021-44499-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:11 AM -0400"
+      ],
+      "cveDis": "The ZoomSounds plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'savepng.php' file in versions up to, and including, 5.96. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "cveName": "CVE-2021-44499-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2021-4449"
+    }
+  },
+  "CVE-2021-44508-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:11 AM -0400"
+      ],
+      "cveDis": "The Post Grid plugin for WordPress is vulnerable to blind SQL Injection via post metadata in versions up to, and including, 2.1.12 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers with contributor-level permissions and above to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2021-44508-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2021-4450"
+    }
+  },
+  "CVE-2021-44516-6 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:11 AM -0400"
+      ],
+      "cveDis": "The NinjaFirewall plugin for WordPress is vulnerable to Authenticated PHAR Deserialization in versions up to, and including, 4.3.3. This allows authenticated attackers to perform phar deserialization on the server.  This deserialization can allow other plugin or theme exploits if vulnerable software is present (WordPress, and NinjaFirewall).",
+      "cveName": "CVE-2021-44516-6 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-4451"
+    }
+  },
+  "CVE-2021-44527-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "The Google Language Translator plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via multiple parameters in versions up to, and including, 6.0.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. Specifically affects users with older browsers that lack proper URL encoding support.",
+      "cveName": "CVE-2021-44527-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2021-4452"
+    }
+  },
   "CVE-2022-45345-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -19,6 +283,72 @@
       "cveDis": "The Limit Login Attempts (Spam Protection) plugin for WordPress is vulnerable to IP Address Spoofing in versions up to, and including, 5.3. This is due to insufficient restrictions on where the IP Address information is being retrieved for request logging and login restrictions. Attackers can supply the X-Forwarded-For header with with a different IP Address that will be logged and can be used to bypass settings that may have blocked out an IP address or country from logging in.",
       "cveName": "CVE-2022-45345-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2022-4534"
+    }
+  },
+  "CVE-2022-49716-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:12 AM -0400"
+      ],
+      "cveDis": "The Sassy Social Share plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'urls' parameter called via the 'heateor_sss_sharing_count' AJAX action in versions up to, and including, 3.3.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2022-49716-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2022-4971"
+    }
+  },
+  "CVE-2022-49727-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:12 AM -0400"
+      ],
+      "cveDis": "The Download Monitor plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on several REST-API routes related to reporting in versions up to, and including, 4.7.51. This makes it possible for unauthenticated attackers to view user data and other sensitive information intended for administrators.",
+      "cveName": "CVE-2022-49727-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2022-4972"
+    }
+  },
+  "CVE-2022-49734-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:12 AM -0400"
+      ],
+      "cveDis": "WordPress Core, in versions up to 6.0.2, is vulnerable to Authenticated Stored Cross-Site Scripting that can be exploited by users with access to the WordPress post and page editor, typically consisting of Authors, Contributors, and Editors making it possible to inject arbitrary web scripts into posts and pages that execute if the the_meta(); function is called on that page.",
+      "cveName": "CVE-2022-49734-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2022-4973"
+    }
+  },
+  "CVE-2022-49746-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:12 AM -0400"
+      ],
+      "cveDis": "The Freemius SDK, as used by hundreds of WordPress plugin and theme developers, was vulnerable to Cross-Site Request Forgery and Information disclosure due to missing capability checks and nonce protection on the _get_debug_log, _get_db_option, and the _set_db_option functions in versions up to, and including 2.4.2. Any WordPress plugin or theme running a version of Freemius less than 2.4.3 is vulnerable.",
+      "cveName": "CVE-2022-49746-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2022-4974"
+    }
+  },
+  "CVE-2023-22649": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified which may lead to sensitive data being leaked into Rancher's audit logs. [Rancher Audit Logging](https://ranchermanager.docs.rancher.com/how-to-guides/advanced-user-guides/enable-api-audit-log) is an opt-in feature, only deployments that have it enabled and have [AUDIT_LEVEL](https://ranchermanager.docs.rancher.com/how-to-guides/advanced-user-guides/enable-api-audit-log#audit-log-levels) set to `1 or above` are impacted by this issue.",
+      "cveName": "CVE-2023-22649",
+      "cveUrl": "/vuln/detail/CVE-2023-22649"
+    }
+  },
+  "CVE-2023-22650": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:02 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in which Rancher does not automatically clean up a user which has been deleted from the configured authentication provider (AP). This characteristic also applies to disabled or revoked users, Rancher will not reflect these modifications which may leave the user’s tokens still usable.",
+      "cveName": "CVE-2023-22650",
+      "cveUrl": "/vuln/detail/CVE-2023-22650"
     }
   },
   "CVE-2023-25581": {
@@ -63,6 +393,17 @@
       "cveDis": "RCE (Remote Code Execution) exists in ZoneMinder through 1.36.33 as an attacker can create a new .php log file in language folder, while executing a crafted payload and escalate privileges allowing execution of any commands on the remote system.",
       "cveName": "CVE-2023-31493",
       "cveUrl": "/vuln/detail/CVE-2023-31493"
+    }
+  },
+  "CVE-2023-32188": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "A user can reverse engineer the JWT token (JSON Web Token) used in authentication for Manager and API access, forging a valid NeuVector Token to perform malicious activity in NeuVector. This can lead to an RCE.",
+      "cveName": "CVE-2023-32188",
+      "cveUrl": "/vuln/detail/CVE-2023-32188"
     }
   },
   "CVE-2023-3441": {
@@ -217,6 +558,127 @@
       "cveDis": "Cross site request forgery in Kiteworks OwnCloud allows an unauthenticated attacker to forge requests.\nIf a request has no Authorization header, it is created with an empty string as value by a rewrite rule. The CSRF check is done by comparing the header value to null, meaning that the existing CSRF check is bypassed in this case. An attacker can, for example, create a new administrator account if the request is executed in the browser of an authenticated victim.",
       "cveName": "CVE-2023-7273",
       "cveUrl": "/vuln/detail/CVE-2023-7273"
+    }
+  },
+  "CVE-2023-72866-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:13 AM -0400"
+      ],
+      "cveDis": "The plugin ACF Quick Edit Fields for WordPress is vulnerable to Insecure Direct Object Reference in versions up to, and including, 3.2.2. This makes it possible for attackers without the edit_users capability to access metadata of other users, this includes contributor-level users and above.",
+      "cveName": "CVE-2023-72866-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2023-7286"
+    }
+  },
+  "CVE-2023-7287": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:13 AM -0400"
+      ],
+      "cveDis": "The Paytium: Mollie payment forms & donations plugin for WordPress is vulnerable to unauthorized subscription cancellation due to a missing capability check on the pt_cancel_subscription function in versions up to, and including, 4.3.7. This makes it possible for authenticated attackers with subscriber-level access to cancel a subscription to the plugin.",
+      "cveName": "CVE-2023-7287",
+      "cveUrl": "/vuln/detail/CVE-2023-7287"
+    }
+  },
+  "CVE-2023-72885-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:13 AM -0400"
+      ],
+      "cveDis": "The Paytium: Mollie payment forms & donations plugin for WordPress is vulnerable to unauthorized data modification due to a missing capability check on the update_profile_preference function in versions up to, and including, 4.3.7. This makes it possible for authenticated attackers with subscriber-level access to change plugin settings.",
+      "cveName": "CVE-2023-72885-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2023-7288"
+    }
+  },
+  "CVE-2023-72895-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:14 AM -0400"
+      ],
+      "cveDis": "The Paytium: Mollie payment forms & donations plugin for WordPress is vulnerable to unauthorized API key update due to a missing capability check on the paytium_sw_save_api_keys function in versions up to, and including, 4.3.7. This makes it possible for authenticated attackers with subscriber-level access to change plugin API keys.",
+      "cveName": "CVE-2023-72895-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2023-7289"
+    }
+  },
+  "CVE-2023-72904-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:14 AM -0400"
+      ],
+      "cveDis": "The Paytium: Mollie payment forms & donations plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the check_for_verified_profiles function in versions up to, and including, 4.3.7. This makes it possible for authenticated attackers with subscriber-level access to check profile statuses.",
+      "cveName": "CVE-2023-72904-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2023-7290"
+    }
+  },
+  "CVE-2023-72917-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:14 AM -0400"
+      ],
+      "cveDis": "The Paytium: Mollie payment forms & donations plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the create_mollie_account function in versions up to, and including, 4.3.7. This makes it possible for authenticated attackers with subscriber-level access to set up a mollie account.",
+      "cveName": "CVE-2023-72917-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2023-7291"
+    }
+  },
+  "CVE-2023-72924-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:14 AM -0400"
+      ],
+      "cveDis": "The Paytium: Mollie payment forms & donations plugin for WordPress is vulnerable to unauthorized notification dismissal due to a missing capability check on the paytium_notice_dismiss function in versions up to, and including, 4.3.7. This makes it possible for authenticated attackers with subscriber-level access to dismiss admin notices.",
+      "cveName": "CVE-2023-72924-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2023-7292"
+    }
+  },
+  "CVE-2023-72934-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:14 AM -0400"
+      ],
+      "cveDis": "The Paytium: Mollie payment forms & donations plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the check_mollie_account_details function in versions up to, and including, 4.3.7. This makes it possible for authenticated attackers with subscriber-level access to verify the existence of a mollie account.",
+      "cveName": "CVE-2023-72934-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2023-7293"
+    }
+  },
+  "CVE-2023-72947-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:15 AM -0400"
+      ],
+      "cveDis": "The Paytium: Mollie payment forms & donations plugin for WordPress is vulnerable to unauthorized data modification due to a missing capability check on the create_mollie_profile function in versions up to, and including, 4.3.7. This makes it possible for authenticated attackers with subscriber-level access to create a mollie payment profile.",
+      "cveName": "CVE-2023-72947-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2023-7294"
+    }
+  },
+  "CVE-2023-72956-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "The Video Grid plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the search_term parameter in versions up to, and including, 1.21 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2023-72956-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2023-7295"
+    }
+  },
+  "CVE-2023-7296": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "The BigBlueButton plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the the moderator code and viewer code fields in versions up to, and including, 3.0.0-beta.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with author privileges or higher to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2023-7296",
+      "cveUrl": "/vuln/detail/CVE-2023-7296"
     }
   },
   "CVE-2024-0116": {
@@ -5103,6 +5565,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-45200"
     }
   },
+  "CVE-2024-45216": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "Improper Authentication vulnerability in Apache Solr.\n\nSolr instances using the PKIAuthenticationPlugin, which is enabled by default when Solr Authentication is used, are vulnerable to Authentication bypass.\nA fake ending at the end of any Solr API URL path, will allow requests to skip Authentication while maintaining the API contract with the original URL Path.\nThis fake ending looks like an unprotected API path, however it is stripped off internally after authentication but before API routing.\n\n\nThis issue affects Apache Solr: from 5.3.0 before 8.11.4, from 9.0.0 before 9.7.0.\n\nUsers are recommended to upgrade to version 9.7.0, or 8.11.4, which fix the issue.",
+      "cveName": "CVE-2024-45216",
+      "cveUrl": "/vuln/detail/CVE-2024-45216"
+    }
+  },
+  "CVE-2024-45217": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "Insecure Default Initialization of Resource vulnerability in Apache Solr.\n\nNew ConfigSets that are created via a Restore command, which copy a configSet from the backup and give it a new name, are created without setting the \"trusted\" metadata.\nConfigSets that do not contain the flag are trusted implicitly if the metadata is missing, therefore this leads to \"trusted\" ConfigSets that may not have been created with an Authenticated request.\n\"trusted\" ConfigSets are able to load custom code into classloaders, therefore the flag is supposed to only be set when the request that uploads the ConfigSet is Authenticated & Authorized.\n\nThis issue affects Apache Solr: from 6.6.0 before 8.11.4, from 9.0.0 before 9.7.0. This issue does not affect Solr instances that are secured via Authentication/Authorization.\n\nUsers are primarily recommended to use Authentication and Authorization when running Solr. However, upgrading to version 9.7.0, or 8.11.4 will mitigate this issue otherwise.",
+      "cveName": "CVE-2024-45217",
+      "cveUrl": "/vuln/detail/CVE-2024-45217"
+    }
+  },
+  "CVE-2024-45219": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "Account users in Apache CloudStack by default are allowed to upload and register templates for deploying instances and volumes for attaching them as data disks to their existing instances. Due to missing validation checks for KVM-compatible templates or volumes in CloudStack 4.0.0 through 4.18.2.3 and 4.19.0.0 through 4.19.1.1, an attacker that can upload or register templates and volumes, can use them to deploy malicious instances or attach uploaded volumes to their existing instances on KVM-based environments and exploit this to gain access to the host filesystems that could result in the compromise of resource integrity and confidentiality, data loss, denial of service, and availability of KVM-based infrastructure managed by CloudStack.\n\n\nUsers are recommended to upgrade to Apache CloudStack 4.18.2.4 or 4.19.1.2, or later, which addresses this issue. \n\nAdditionally, all user-uploaded or registered KVM-compatible templates and volumes can be scanned and checked that they are flat files that should not be using any additional or unnecessary features. For example, operators can run this on their secondary storage(s) and inspect output. An empty output for the disk being validated means it has no references to the host filesystems; on the other hand, if the output for the disk being validated is not empty, it might indicate a compromised disk.\n\n\nfor file in $(find /path/to/storage/ -type f -regex [a-f0-9\\-]*.*); do echo \"Retrieving file [$file] info. If the output is not empty, that might indicate a compromised disk; check it carefully.\"; qemu-img info -U $file | grep file: ; printf \"\\n\\n\"; done\nThe command can also be run for the file-based primary storages; however, bear in mind that (i) volumes created from templates will have references for the templates at first and (ii) volumes can be consolidated while migrating, losing their references to the templates. Therefore, the command execution for the primary storages can show both false positives and false negatives.\n\nFor checking the whole template/volume features of each disk, operators can run the following command:\n\n\nfor file in $(find /path/to/storage/ -type f -regex [a-f0-9\\-]*.*); do echo \"Retrieving file [$file] info.\"; qemu-img info -U $file; printf \"\\n\\n\"; done",
+      "cveName": "CVE-2024-45219",
+      "cveUrl": "/vuln/detail/CVE-2024-45219"
+    }
+  },
   "CVE-2024-45230": {
     "cve": {
       "cveDate": [
@@ -5411,6 +5906,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-45454"
     }
   },
+  "CVE-2024-45461": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "The CloudStack Quota feature allows cloud administrators to implement a quota or usage limit system for cloud resources, and is disabled by default. In environments where the feature is enabled, due to missing access check enforcements, non-administrative CloudStack user accounts are able to access and modify quota-related configurations and data. This issue affects Apache CloudStack from 4.7.0 through 4.18.2.3; and from 4.19.0.0 through 4.19.1.1, where the Quota feature is enabled.\n\n\n\n\nUsers are recommended to upgrade to Apache CloudStack 4.18.2.4 or 4.19.1.2, or later, which addresses this issue. Alternatively, users that do not use the Quota feature are advised to disabled the plugin by setting the global setting \"quota.enable.service\" to \"false\".",
+      "cveName": "CVE-2024-45461",
+      "cveUrl": "/vuln/detail/CVE-2024-45461"
+    }
+  },
+  "CVE-2024-45462": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "The logout operation in the CloudStack web interface does not expire the user session completely which is valid until expiry by time or restart of the backend service. An attacker that has access to a user's browser can use an unexpired session to gain access to resources owned by the logged out user account. This issue affects Apache CloudStack from 4.15.1.0 through 4.18.2.3; and from 4.19.0.0 through 4.19.1.1.\n\n\n\n\nUsers are recommended to upgrade to Apache CloudStack 4.18.2.4 or 4.19.1.2, or later, which addresses this issue.",
+      "cveName": "CVE-2024-45462",
+      "cveUrl": "/vuln/detail/CVE-2024-45462"
+    }
+  },
   "CVE-2024-45463": {
     "cve": {
       "cveDate": [
@@ -5585,6 +6102,61 @@
       "cveDis": "The postjournal service in Zimbra Collaboration (ZCS) before 8.8.15 Patch 46, 9 before 9.0.0 Patch 41, 10 before 10.0.9, and 10.1 before 10.1.1 sometimes allows unauthenticated users to execute commands.",
       "cveName": "CVE-2024-455199-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-45519"
+    }
+  },
+  "CVE-2024-45693": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:06 AM -0400"
+      ],
+      "cveDis": "Users logged into the Apache CloudStack's web interface can be tricked to submit malicious CSRF requests due to missing validation of the origin of the requests. This can allow an attacker to gain privileges and access to resources of the authenticated users and may lead to account takeover, disruption, exposure of sensitive data and compromise integrity of the resources owned by the user account that are managed by the platform.\n\nThis issue affects Apache CloudStack from 4.15.1.0 through 4.18.2.3 and 4.19.0.0 through 4.19.1.1\n\n\n\nUsers are recommended to upgrade to Apache CloudStack 4.18.2.4 or 4.19.1.2, or later, which addresses this issue.",
+      "cveName": "CVE-2024-45693",
+      "cveUrl": "/vuln/detail/CVE-2024-45693"
+    }
+  },
+  "CVE-2024-45710": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:06 AM -0400"
+      ],
+      "cveDis": "SolarWinds Platform is susceptible to an Uncontrolled Search Path Element Local Privilege Escalation vulnerability. This requires a low privilege account and local access to the affected node machine.",
+      "cveName": "CVE-2024-45710",
+      "cveUrl": "/vuln/detail/CVE-2024-45710"
+    }
+  },
+  "CVE-2024-457117-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:06 AM -0400"
+      ],
+      "cveDis": "SolarWinds Serv-U is vulnerable  to a directory traversal  vulnerability where remote code execution is possible depending on privileges given to the authenticated user.  This issue requires a user to be authenticated and this is present when software environment variables are abused. Authentication is required for this vulnerability",
+      "cveName": "CVE-2024-457117-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-45711"
+    }
+  },
+  "CVE-2024-457144-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:06 AM -0400"
+      ],
+      "cveDis": "Application is vulnerable to Cross Site Scripting (XSS) an authenticated attacker with users’ permissions can modify a variable with a payload.",
+      "cveName": "CVE-2024-457144-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45714"
+    }
+  },
+  "CVE-2024-457157-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:07 AM -0400"
+      ],
+      "cveDis": "The SolarWinds Platform was susceptible to a Cross-Site Scripting vulnerability when performing an edit function to existing elements.",
+      "cveName": "CVE-2024-457157-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-45715"
     }
   },
   "CVE-2024-45731": {
@@ -12187,6 +12759,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8505"
     }
   },
+  "CVE-2024-85078-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:16 AM -0400"
+      ],
+      "cveDis": "The File Manager Pro plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 8.3.9. This is due to missing or incorrect nonce validation on the 'mk_file_folder_manager' ajax action. This makes it possible for unauthenticated attackers to upload arbitrary files via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-85078-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8507"
+    }
+  },
   "CVE-2024-8508": {
     "cve": {
       "cveDate": [
@@ -12451,6 +13034,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8743"
     }
   },
+  "CVE-2024-87467-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:16 AM -0400"
+      ],
+      "cveDis": "The File Manager Pro plugin for WordPress is vulnerable to arbitrary backup file downloads and uploads due to missing file type validation via the 'mk_file_folder_manager_shortcode' ajax action in all versions up to, and including, 8.3.9. This makes it possible for unauthenticated attackers, if granted access to the File Manager by an administrator, to download and upload arbitrary backup files on the affected site's server which may make remote code execution possible.",
+      "cveName": "CVE-2024-87467-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8746"
+    }
+  },
   "CVE-2024-8755": {
     "cve": {
       "cveDate": [
@@ -12636,6 +13230,17 @@
       "cveDis": "The Category Icon plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
       "cveName": "CVE-2024-89156-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8915"
+    }
+  },
+  "CVE-2024-89187-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:16 AM -0400"
+      ],
+      "cveDis": "The File Manager Pro plugin for WordPress is vulnerable to Limited JavaScript File Upload in all versions up to, and including, 8.3.9. This is due to a lack of proper checks on allowed file types. This makes it possible for unauthenticated attackers, with permissions granted by an administrator, to upload .css and .js files, which could lead to Stored Cross-Site Scripting.",
+      "cveName": "CVE-2024-89187-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8918"
     }
   },
   "CVE-2024-8925": {
@@ -12889,6 +13494,17 @@
       "cveDis": "The AVIF & SVG Uploader plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in version 1.1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
       "cveName": "CVE-2024-90606-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9060"
+    }
+  },
+  "CVE-2024-90617-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:07 AM -0400"
+      ],
+      "cveDis": "The The WP Popup Builder – Popup Forms and Marketing Lead Generation plugin for WordPress is vulnerable to arbitrary shortcode execution via the wp_ajax_nopriv_shortcode_Api_Add AJAX action in all versions up to, and including, 1.3.5. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes. NOTE: This vulnerability was partially fixed in version 1.3.5 with a nonce check, which effectively prevented access to the affected function. However, version 1.3.6 incorporates the correct authorization check to prevent unauthorized access.",
+      "cveName": "CVE-2024-90617-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9061"
     }
   },
   "CVE-2024-90646-4 MEDIUM": {
@@ -14310,6 +14926,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9441"
     }
   },
+  "CVE-2024-94446-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "6:15:02 AM -0400"
+      ],
+      "cveDis": "The ElementsReady Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 6.4.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-94446-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9444"
+    }
+  },
   "CVE-2024-94456-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -14728,6 +15355,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9539"
     }
   },
+  "CVE-2024-95404-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:07 AM -0400"
+      ],
+      "cveDis": "The Sina Extension for Elementor plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.5.7 via the render function in widgets/advanced/sina-modal-box.php. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive private, pending, and draft Elementor template data.",
+      "cveName": "CVE-2024-95404-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9540"
+    }
+  },
   "CVE-2024-95465-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -15067,6 +15705,17 @@
       "cveDis": "The Shortcodes AnyWhere plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.0.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
       "cveName": "CVE-2024-95817-3 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9581"
+    }
+  },
+  "CVE-2024-9582": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:17 AM -0400"
+      ],
+      "cveDis": "The Accordion Slider plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘html’ attribute of an accordion slider in all versions up to, and including, 1.9.11 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. NOTE: Successful exploitation by Contributor-level users requires an Administrator-level user to provide access to the plugin's admin area via the `Access` plugin setting, which is restricted to administrators by default.",
+      "cveName": "CVE-2024-9582",
+      "cveUrl": "/vuln/detail/CVE-2024-9582"
     }
   },
   "CVE-2024-95926-1 MEDIUM": {
@@ -15804,6 +16453,17 @@
       "cveDis": "The The AADMY – Add Auto Date Month Year Into Posts plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 2.0.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
       "cveName": "CVE-2024-98377-3 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9837"
+    }
+  },
+  "CVE-2024-9858": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "There exists an insecure default user permission in Google Cloud Migrate to containers from version 1.1.0 to 1.2.2 Windows installs. A local \"m2cuser\" was greated with administrator privileges. This posed a security risk if the \"analyze\" or \"generate\" commands were interrupted or skipping the action to delete the local user “m2cuser”. We recommend upgrading to 1.2.3 or beyond",
+      "cveName": "CVE-2024-9858",
+      "cveUrl": "/vuln/detail/CVE-2024-9858"
     }
   },
   "CVE-2024-9859": {
