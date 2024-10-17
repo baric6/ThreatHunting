@@ -3508,6 +3508,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-4089"
     }
   },
+  "CVE-2024-41128": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "Action Pack is a framework for handling and responding to web requests. Starting in version 3.1.0 and prior to versions 6.1.7.9, 7.0.8.5, 7.1.4.1, and 7.2.1.1, there is a possible ReDoS vulnerability in the query parameter filtering routines of Action Dispatch. Carefully crafted query parameters can cause query parameter filtering to take an unexpected amount of time, possibly resulting in a DoS vulnerability. All users running an affected release should either upgrade to version 6.1.7.9, 7.0.8.5, 7.1.4.1, or 7.2.1.1 or apply the relevant patch immediately. One may use Ruby 3.2 as a workaround. Ruby 3.2 has mitigations for this problem, so Rails applications using Ruby 3.2 or newer are unaffected. Rails 8.0.0.beta1 depends on Ruby 3.2 or greater so is unaffected.",
+      "cveName": "CVE-2024-41128",
+      "cveUrl": "/vuln/detail/CVE-2024-41128"
+    }
+  },
   "CVE-2024-411637-5 HIGH": {
     "cve": {
       "cveDate": [
@@ -5290,6 +5301,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-44744"
     }
   },
+  "CVE-2024-44762": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "A discrepancy in error messages for invalid login attempts in Webmin Usermin v2.100 allows attackers to enumerate valid user accounts.",
+      "cveName": "CVE-2024-44762",
+      "cveUrl": "/vuln/detail/CVE-2024-44762"
+    }
+  },
   "CVE-2024-44775": {
     "cve": {
       "cveDate": [
@@ -6544,6 +6566,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-45754"
     }
   },
+  "CVE-2024-45766": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "Dell OpenManage Enterprise, version(s) OME 4.1 and prior, contain(s) an Improper Control of Generation of Code ('Code Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Code execution.",
+      "cveName": "CVE-2024-45766",
+      "cveUrl": "/vuln/detail/CVE-2024-45766"
+    }
+  },
+  "CVE-2024-45767": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "Dell OpenManage Enterprise, version(s) OME 4.1 and prior, contain(s) an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure.",
+      "cveName": "CVE-2024-45767",
+      "cveUrl": "/vuln/detail/CVE-2024-45767"
+    }
+  },
   "CVE-2024-45772": {
     "cve": {
       "cveDate": [
@@ -6564,6 +6608,39 @@
       "cveDis": "Mantis Bug Tracker (MantisBT) is an open source issue tracker. Using a crafted POST request, an unprivileged, registered user is able to retrieve information about other users' personal system profiles. This vulnerability is fixed in 2.26.4.",
       "cveName": "CVE-2024-45792",
       "cveUrl": "/vuln/detail/CVE-2024-45792"
+    }
+  },
+  "CVE-2024-45795": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:26 PM -0400"
+      ],
+      "cveDis": "Suricata is a network Intrusion Detection System, Intrusion Prevention System and Network Security Monitoring engine. Prior to version 7.0.7, rules using datasets with the non-functional / unimplemented \"unset\" option can trigger an assertion during traffic parsing, leading to denial of service. This issue is addressed in 7.0.7. As a workaround, use only trusted and well tested rulesets.",
+      "cveName": "CVE-2024-45795",
+      "cveUrl": "/vuln/detail/CVE-2024-45795"
+    }
+  },
+  "CVE-2024-45796": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:26 PM -0400"
+      ],
+      "cveDis": "Suricata is a network Intrusion Detection System, Intrusion Prevention System and Network Security Monitoring engine. Prior to version 7.0.7, a logic error during fragment reassembly can lead to failed reassembly for valid traffic. An attacker could craft packets to trigger this behavior.This issue has been addressed in 7.0.7.",
+      "cveName": "CVE-2024-45796",
+      "cveUrl": "/vuln/detail/CVE-2024-45796"
+    }
+  },
+  "CVE-2024-45797": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:27 PM -0400"
+      ],
+      "cveDis": "LibHTP is a security-aware parser for the HTTP protocol and the related bits and pieces. Prior to version 0.5.49, unbounded processing of HTTP request and response headers can lead to excessive CPU time and memory utilization, possibly leading to extreme slowdowns. This issue is addressed in 0.5.49.",
+      "cveName": "CVE-2024-45797",
+      "cveUrl": "/vuln/detail/CVE-2024-45797"
     }
   },
   "CVE-2024-45844": {
@@ -6927,6 +7004,28 @@
       "cveDis": "TestLink 1.9.20 is vulnerable to Incorrect Access Control in the TestPlan editing section. When a new TestPlan is created, an ID with an incremental value is automatically generated. Using the edit function you can change the tplan_id parameter to another ID. The application does not carry out a check on the user's permissions maing it possible to recover the IDs of all the TestPlans (even the administrative ones) and modify them even with minimal privileges.",
       "cveName": "CVE-2024-46097",
       "cveUrl": "/vuln/detail/CVE-2024-46097"
+    }
+  },
+  "CVE-2024-46212": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "An issue in the component /index.php?page=backup/export of REDAXO CMS v5.17.1 allows attackers to execute a directory traversal.",
+      "cveName": "CVE-2024-46212",
+      "cveUrl": "/vuln/detail/CVE-2024-46212"
+    }
+  },
+  "CVE-2024-46213": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "REDAXO CMS v2.11.0 was discovered to contain a remote code execution (RCE) vulnerability.",
+      "cveName": "CVE-2024-46213",
+      "cveUrl": "/vuln/detail/CVE-2024-46213"
     }
   },
   "CVE-2024-46215": {
@@ -7895,6 +7994,28 @@
       "cveDis": "Filament is a collection of full-stack components for Laravel development. Versions of Filament from v3.0.0 through v3.2.114 are affected by a cross-site scripting (XSS) vulnerability. If values passed to a `ColorColumn` or `ColumnEntry` are not valid and contain a specific set of characters, applications are vulnerable to XSS attack against a user who opens a page on which a color column or entry is rendered. Filament v3.2.115 fixes this issue.",
       "cveName": "CVE-2024-47186",
       "cveUrl": "/vuln/detail/CVE-2024-47186"
+    }
+  },
+  "CVE-2024-47187": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:27 PM -0400"
+      ],
+      "cveDis": "Suricata is a network Intrusion Detection System, Intrusion Prevention System and Network Security Monitoring engine. Prior to version 7.0.7, missing initialization of the random seed for \"thash\" leads to datasets having predictable hash table behavior. This can lead to dataset file loading to use excessive time to load, as well as runtime performance issues during traffic handling. This issue has been addressed in 7.0.7. As a workaround, avoid loading datasets from untrusted sources. Avoid dataset rules that track traffic in rules.",
+      "cveName": "CVE-2024-47187",
+      "cveUrl": "/vuln/detail/CVE-2024-47187"
+    }
+  },
+  "CVE-2024-47188": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "3:15:27 PM -0400"
+      ],
+      "cveDis": "Suricata is a network Intrusion Detection System, Intrusion Prevention System and Network Security Monitoring engine. Prior to version 7.0.7, missing initialization of the random seed for \"thash\" leads to byte-range tracking having predictable hash table behavior. This can lead to an attacker forcing lots of data into a single hash bucket, leading to severe performance degradation. This issue has been addressed in 7.0.7.",
+      "cveName": "CVE-2024-47188",
+      "cveUrl": "/vuln/detail/CVE-2024-47188"
     }
   },
   "CVE-2024-47191": {
@@ -9160,6 +9281,17 @@
       "cveDis": "An Allocation of Resources Without Limits or Throttling vulnerability in the PFE management daemon (evo-pfemand) of Juniper Networks Junos OS Evolved allows an authenticated, network-based attacker to cause an FPC crash leading to a Denial of Service (DoS).When specific SNMP GET operations or specific low-priviledged CLI commands are executed, a GUID resource leak will occur, eventually leading to exhaustion and resulting in FPCs to hang. Affected FPCs need to be manually restarted to recover.\n\nGUID exhaustion will trigger a syslog message like one of the following:\n\nevo-pfemand[<pid>]: get_next_guid: Ran out of Guid Space ...\nevo-aftmand-zx[<pid>]: get_next_guid: Ran out of Guid Space ...\nThe leak can be monitored by running the following command and taking note of the values in the rightmost column labeled Guids:\n\n\n\n\n\nuser@host> show platform application-info allocations app evo-pfemand/evo-pfemand\n\n\n\nIn case one or more of these values are constantly increasing the leak is happening.\n\nThis issue affects Junos OS Evolved:\n\n\n\n  *  All versions before 21.4R2-EVO,\n  *  22.1 versions before 22.1R2-EVO.\n\n\n\n\n\nPlease note that this issue is similar to, but different from CVE-2024-47505 and CVE-2024-47508.",
       "cveName": "CVE-2024-475096-5 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-47509"
+    }
+  },
+  "CVE-2024-47522": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Suricata is a network Intrusion Detection System, Intrusion Prevention System and Network Security Monitoring engine. Prior to version 7.0.7, invalid ALPN in TLS/QUIC traffic when JA4 matching/logging is enabled can lead to Suricata aborting with a panic. This issue has been addressed in 7.0.7. One may disable ja4 as a workaround.",
+      "cveName": "CVE-2024-47522",
+      "cveUrl": "/vuln/detail/CVE-2024-47522"
     }
   },
   "CVE-2024-47523": {
@@ -10537,6 +10669,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47833"
     }
   },
+  "CVE-2024-47836": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Admidio is an open-source user management solution. Prior to version 4.3.12, an unsafe deserialization vulnerability allows any unauthenticated user to execute arbitrary code on the server. Version 4.3.12 fixes this issue.",
+      "cveName": "CVE-2024-47836",
+      "cveUrl": "/vuln/detail/CVE-2024-47836"
+    }
+  },
   "CVE-2024-47840": {
     "cve": {
       "cveDate": [
@@ -10777,6 +10920,39 @@
       "cveDis": "The Astro web framework has a DOM Clobbering gadget in the client-side router starting in version 3.0.0 and prior to version 4.16.1. It can lead to cross-site scripting (XSS) in websites enables Astro's client-side routing and has *stored* attacker-controlled scriptless HTML elements (i.e., `iframe` tags with unsanitized `name` attributes) on the destination pages. This vulnerability can result in cross-site scripting (XSS) attacks on websites that built with Astro that enable the client-side routing with `ViewTransitions` and store the user-inserted scriptless HTML tags without properly sanitizing the `name` attributes on the page. Version 4.16.1 contains a patch for this issue.",
       "cveName": "CVE-2024-47885",
       "cveUrl": "/vuln/detail/CVE-2024-47885"
+    }
+  },
+  "CVE-2024-47887": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Action Pack is a framework for handling and responding to web requests. Starting in version 4.0.0 and prior to versions 6.1.7.9, 7.0.8.5, 7.1.4.1, and 7.2.1.1, there is a possible ReDoS vulnerability in Action Controller's HTTP Token authentication. For applications using HTTP Token authentication via `authenticate_or_request_with_http_token` or similar, a carefully crafted header may cause header parsing to take an unexpected amount of time, possibly resulting in a DoS vulnerability. All users running an affected release should either upgrade to versions 6.1.7.9, 7.0.8.5, 7.1.4.1, or 7.2.1.1 or apply the relevant patch immediately. One may choose to use Ruby 3.2 as a workaround.Ruby 3.2 has mitigations for this problem, so Rails applications using Ruby 3.2 or newer are unaffected. Rails 8.0.0.beta1 depends on Ruby 3.2 or greater so is unaffected.",
+      "cveName": "CVE-2024-47887",
+      "cveUrl": "/vuln/detail/CVE-2024-47887"
+    }
+  },
+  "CVE-2024-47888": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "Action Text brings rich text content and editing to Rails. Starting in version 6.0.0 and prior to versions 6.1.7.9, 7.0.8.5, 7.1.4.1, and 7.2.1.1, there is a possible ReDoS vulnerability in the `plain_text_for_blockquote_node helper` in Action Text. Carefully crafted text can cause the `plain_text_for_blockquote_node` helper to take an unexpected amount of time, possibly resulting in a DoS vulnerability. All users running an affected release should either upgrade to versions 6.1.7.9, 7.0.8.5, 7.1.4.1, or 7.2.1.1 or apply the relevant patch immediately. As a workaround, users can avoid calling `plain_text_for_blockquote_node` or upgrade to Ruby 3.2. Ruby 3.2 has mitigations for this problem, so Rails applications using Ruby 3.2 or newer are unaffected. Rails 8.0.0.beta1 depends on Ruby 3.2 or greater so is unaffected.",
+      "cveName": "CVE-2024-47888",
+      "cveUrl": "/vuln/detail/CVE-2024-47888"
+    }
+  },
+  "CVE-2024-47889": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "Action Mailer is a framework for designing email service layers. Starting in version 3.0.0 and prior to versions 6.1.7.9, 7.0.8.5, 7.1.4.1, and 7.2.1.1, there is a possible ReDoS vulnerability in the block_format helper in Action Mailer. Carefully crafted text can cause the block_format helper to take an unexpected amount of time, possibly resulting in a DoS vulnerability. All users running an affected release should either upgrade to versions 6.1.7.9, 7.0.8.5, 7.1.4.1, or 7.2.1.1 or apply the relevant patch immediately. As a workaround, users can avoid calling the `block_format` helper or upgrade to Ruby 3.2. Ruby 3.2 has mitigations for this problem, so Rails applications using Ruby 3.2 or newer are unaffected. Rails 8.0.0.beta1 requires Ruby 3.2 or greater so is unaffected.",
+      "cveName": "CVE-2024-47889",
+      "cveUrl": "/vuln/detail/CVE-2024-47889"
     }
   },
   "CVE-2024-47910": {
@@ -11219,6 +11395,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48168"
     }
   },
+  "CVE-2024-48180": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "ClassCMS <=4.8 is vulnerable to file inclusion in the nowView method in/class/cms/cms.php, which can include a file uploaded to the/class/template directory to execute PHP code.",
+      "cveName": "CVE-2024-48180",
+      "cveUrl": "/vuln/detail/CVE-2024-48180"
+    }
+  },
   "CVE-2024-48249": {
     "cve": {
       "cveDate": [
@@ -11437,6 +11624,17 @@
       "cveDis": "A Reflected Cross Site Scripting (XSS) vulnerability was found in /trms/listed- teachers.php in PHPGurukul Teachers Record Management System v2.1, which allows remote attackers to execute arbitrary code via \"searchinput\" POST request parameter.",
       "cveName": "CVE-2024-48744",
       "cveUrl": "/vuln/detail/CVE-2024-48744"
+    }
+  },
+  "CVE-2024-48758": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "dingfanzu CMS V1.0 was discovered to contain a Cross-Site Request Forgery (CSRF) via the addPro parameter of the component doAdminAction.php which allows a remote attacker to execute arbitrary code",
+      "cveName": "CVE-2024-48758",
+      "cveUrl": "/vuln/detail/CVE-2024-48758"
     }
   },
   "CVE-2024-48768": {
@@ -11888,6 +12086,17 @@
       "cveDis": "Agent Dart is an agent library built for Internet Computer for Dart and Flutter apps. Prior to version 1.0.0-dev.29, certificate verification in `lib/agent/certificate.dart` does not occur properly. During the delegation verification in the `_checkDelegation` function, the canister_ranges aren't verified. The impact of not checking the canister_ranges is that a subnet can sign canister responses in behalf of another subnet. The certificate’s timestamp, i.e /time path, is also not verified, meaning that the certificate effectively has no expiration time. Version 1.0.0-dev.29 implements appropriate certificate verification.",
       "cveName": "CVE-2024-48915",
       "cveUrl": "/vuln/detail/CVE-2024-48915"
+    }
+  },
+  "CVE-2024-48918": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "RDS Light is a simplified version of the Reflective Dialogue System (RDS), a self-reflecting AI framework. Versions prior to 1.1.0 contain a vulnerability that involves a lack of input validation within the RDS AI framework, specifically within the user input handling code in the main module (`main.py`). This leaves the framework open to injection attacks and potential memory tampering. Any user or external actor providing input to the system could exploit this vulnerability to inject malicious commands, corrupt stored data, or affect API calls. This is particularly critical for users employing RDS AI in production environments where it interacts with sensitive systems, performs dynamic memory caching, or retrieves user-specific data for analysis. Impacted areas include developers using the RDS AI system as a backend for AI-driven applications and systems running RDS AI that may be exposed to untrusted environments or receive unverified user inputs. The vulnerability has been patched in version 1.1.0 of the RDS AI framework. All user inputs are now sanitized and validated against a set of rules designed to mitigate malicious content. Users should upgrade to version 1.1.0 or higher and ensure all dependencies are updated to their latest versions. For users unable to upgrade to the patched version, a workaround can be implemented. The user implementing the workaround should implement custom validation checks for user inputs to filter out unsafe characters and patterns (e.g., SQL injection attempts, script injections) and limit or remove features that allow user input until the system can be patched.",
+      "cveName": "CVE-2024-48918",
+      "cveUrl": "/vuln/detail/CVE-2024-48918"
     }
   },
   "CVE-2024-48933": {
@@ -12856,6 +13065,28 @@
       "cveDis": "The CMSMasters Content Composer plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's multiple shortcodes in all versions up to, and including, 1.8.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-79636-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-7963"
+    }
+  },
+  "CVE-2024-7993": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted PDF file, when parsed through Autodesk Revit, can force an Out-of-Bounds Write. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-7993",
+      "cveUrl": "/vuln/detail/CVE-2024-7993"
+    }
+  },
+  "CVE-2024-7994": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted RFA file, when parsed through Autodesk Revit, can force a Stack-Based Buffer Overflow. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-7994",
+      "cveUrl": "/vuln/detail/CVE-2024-7994"
     }
   },
   "CVE-2024-8014": {
@@ -14519,6 +14750,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9210"
     }
   },
+  "CVE-2024-92158-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "The Co-Authors, Multiple Authors and Guest Authors in an Author Box with PublishPress Authors plugin for WordPress is vulnerable to Insecure Direct Object Reference to Privilege Escalation/Account Takeover in all versions up to, and including, 4.7.1 via the action_edited_author() due to missing validation on the 'authors-user_id' user controlled key. This makes it possible for authenticated attackers, with Author-level access and above, to update arbitrary user accounts email addresses, including administrators, which can then be leveraged to reset that user's account password and gain access.",
+      "cveName": "CVE-2024-92158-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9215"
+    }
+  },
   "CVE-2024-92186-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -14594,6 +14836,17 @@
       "cveDis": "The Fish and Ships – Most flexible shipping table rate. A WooCommerce shipping rate plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.5.9. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-92376-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9237"
+    }
+  },
+  "CVE-2024-92406-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "The ReDi Restaurant Reservation plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 24.0902. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-92406-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9240"
     }
   },
   "CVE-2024-92416-1 MEDIUM": {
@@ -17137,6 +17390,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-9860"
     }
   },
+  "CVE-2024-98618-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "The Miniorange OTP Verification with Firebase plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 3.6.0. This is due to missing validation on the token being supplied during the otp login through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they know the phone number associated with that user.",
+      "cveName": "CVE-2024-98618-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9861"
+    }
+  },
+  "CVE-2024-98629-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "The Miniorange OTP Verification with Firebase plugin for WordPress is vulnerable to Arbitrary User Password Change in versions up to, and including, 3.6.0. This is due to the plugin providing user-controlled access to objects, letting a user bypass authorization and access system resources, and the user current password check is missing. This makes it possible for unauthenticated attackers to change user passwords and potentially take over administrator accounts.",
+      "cveName": "CVE-2024-98629-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9862"
+    }
+  },
+  "CVE-2024-98639-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "10:15:04 PM -0400"
+      ],
+      "cveDis": "The UserPro plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 3.6.0 due to the insecure 'administrator' default value for the 'default_user_role' option. This makes it possible for unauthenticated attackers to register an administrator user even if the registration form is disabled.",
+      "cveName": "CVE-2024-98639-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9863"
+    }
+  },
   "CVE-2024-98914-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -17421,6 +17707,17 @@
       "cveDis": "When manipulating the selection node cache, an attacker may have been able to cause unexpected behavior, potentially leading to an exploitable crash. This vulnerability affects Firefox < 131.0.3.",
       "cveName": "CVE-2024-9936",
       "cveUrl": "/vuln/detail/CVE-2024-9936"
+    }
+  },
+  "CVE-2024-99405-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 16, 2024",
+        "10:15:04 PM -0400"
+      ],
+      "cveDis": "The Calculated Fields Form plugin for WordPress is vulnerable to HTML Injection in all versions up to, and including, 5.2.45. This is due to the plugin not properly neutralizing HTML elements from submitted forms. This makes it possible for unauthenticated attackers to inject arbitrary HTML that will render when the administrator views form submissions in their email.",
+      "cveName": "CVE-2024-99405-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9940"
     }
   },
   "CVE-2024-9944": {
