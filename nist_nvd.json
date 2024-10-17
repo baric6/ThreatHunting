@@ -1,4 +1,15 @@
 {
+  "CVE-2005-10003": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "10:15:03 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in mikexstudios Xcomic up to 0.8.2. This affects an unknown part. The manipulation of the argument cmd leads to os command injection. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. Upgrading to version 0.8.3 is able to address this issue. The patch is named 6ed8e3cc336e29f09c7e791863d0559939da98bf. It is recommended to upgrade the affected component.",
+      "cveName": "CVE-2005-10003",
+      "cveUrl": "/vuln/detail/CVE-2005-10003"
+    }
+  },
   "CVE-2016-150429-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -30,6 +41,17 @@
       "cveDis": "The Formidable Form Builder plugin for WordPress is vulnerable to Sensitive Data Exposure in versions up to, and including, 2.05.03 via the frm_forms_preview AJAX action. This makes it possible for unauthenticated attackers to export all of the form entries for a given form.",
       "cveName": "CVE-2017-201945-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2017-20194"
+    }
+  },
+  "CVE-2018-25104": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "12:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in CoinGate Plugin up to 1.2.7 on PrestaShop. It has been rated as problematic. Affected by this issue is the function postProcess of the file modules/coingate/controllers/front/callback.php of the component Payment Handler. The manipulation leads to business logic errors. The attack may be launched remotely. Upgrading to version 1.2.8 is able to address this issue. The patch is identified as 0a3097db0aec7c5d66686c142c6abaa1e126ca16. It is recommended to upgrade the affected component.",
+      "cveName": "CVE-2018-25104",
+      "cveUrl": "/vuln/detail/CVE-2018-25104"
     }
   },
   "CVE-2020-368315-0 MEDIUM": {
@@ -560,6 +582,28 @@
       "cveUrl": "/vuln/detail/CVE-2023-6362"
     }
   },
+  "CVE-2023-6728": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Nokia SR OS bof.cfg file encryption is vulnerable to a brute force attack. This weakness allows an attacker in possession of the encrypted file to decrypt the bof.cfg file and obtain the BOF configuration content.",
+      "cveName": "CVE-2023-6728",
+      "cveUrl": "/vuln/detail/CVE-2023-6728"
+    }
+  },
+  "CVE-2023-6729": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Nokia SR OS routers allow read-write access to the entire file system via SFTP or SCP for users configured with \"access console.\" Consequently, a low privilege authenticated user with \"access console\" can read or replace the router configuration file as well as other files stored in the Compact Flash or SD card without using CLI commands. This type of attack can lead to a compromise or denial of service of the router after the system is rebooted.",
+      "cveName": "CVE-2023-6729",
+      "cveUrl": "/vuln/detail/CVE-2023-6729"
+    }
+  },
   "CVE-2023-7273": {
     "cve": {
       "cveDate": [
@@ -789,6 +833,72 @@
       "cveDis": "A vulnerability was found in aap-gateway. A Cross-site Scripting (XSS) vulnerability exists in the gateway component. This flaw allows a malicious user to perform actions that impact users by using the \"?next=\" in a URL, which can lead to redirecting, injecting malicious script, stealing sessions and data.",
       "cveName": "CVE-2024-100335-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10033"
+    }
+  },
+  "CVE-2024-10068": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:10 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in OpenSight Software FlashFXP 5.4.0.3970. It has been classified as critical. Affected is an unknown function in the library libcrypto-1_1.dll of the file FlashFXP.exe. The manipulation leads to uncontrolled search path. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10068",
+      "cveUrl": "/vuln/detail/CVE-2024-10068"
+    }
+  },
+  "CVE-2024-10069": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "11:15:12 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5. It has been rated as critical. Affected by this issue is the function actionPassMainApplication of the file /com/esafenet/servlet/client/MailDecryptApplicationService.java. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10069",
+      "cveUrl": "/vuln/detail/CVE-2024-10069"
+    }
+  },
+  "CVE-2024-10070": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in ESAFENET CDG 5. This affects the function actionPolicyPush of the file /com/esafenet/policy/action/PolicyPushControlAction.java. The manipulation of the argument policyId leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10070",
+      "cveUrl": "/vuln/detail/CVE-2024-10070"
+    }
+  },
+  "CVE-2024-10071": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "12:15:04 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in ESAFENET CDG 5. This vulnerability affects the function actionUpdateEncryptPolicyEdit of the file /com/esafenet/servlet/policy/EncryptPolicyService.java. The manipulation of the argument encryptPolicyId leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10071",
+      "cveUrl": "/vuln/detail/CVE-2024-10071"
+    }
+  },
+  "CVE-2024-10072": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "1:15:10 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in ESAFENET CDG 5. This issue affects the function actionAddEncryptPolicyGroup of the file /com/esafenet/servlet/policy/EncryptPolicyService.java. The manipulation of the argument checklist leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10072",
+      "cveUrl": "/vuln/detail/CVE-2024-10072"
+    }
+  },
+  "CVE-2024-10073": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "1:15:11 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in flairNLP flair 0.14.0. Affected is the function ClusteringModel of the file flair\\models\\clustering.py of the component Mode File Loader. The manipulation leads to code injection. It is possible to launch the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10073",
+      "cveUrl": "/vuln/detail/CVE-2024-10073"
     }
   },
   "CVE-2024-20090": {
@@ -6445,6 +6555,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45711"
     }
   },
+  "CVE-2024-457135-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:10 AM -0400"
+      ],
+      "cveDis": "SolarWinds Kiwi CatTools is susceptible to a sensitive data disclosure vulnerability when a non-default setting has been enabled for troubleshooting purposes.",
+      "cveName": "CVE-2024-457135-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45713"
+    }
+  },
   "CVE-2024-457144-8 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9118,6 +9239,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47425"
     }
   },
+  "CVE-2024-474595-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "Substance3D - Sampler versions 4.5 and earlier are affected by a NULL Pointer Dereference vulnerability that could lead to an application denial-of-service (DoS) condition. An attacker could exploit this vulnerability to crash the application, resulting in a DoS. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-474595-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47459"
+    }
+  },
   "CVE-2024-474895-8 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -11274,6 +11406,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-48020"
     }
   },
+  "CVE-2024-48021": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Scott Paterson Contact Form 7 – PayPal & Stripe Add-on allows Reflected XSS.This issue affects Contact Form 7 – PayPal & Stripe Add-on: from n/a through 2.3.",
+      "cveName": "CVE-2024-48021",
+      "cveUrl": "/vuln/detail/CVE-2024-48021"
+    }
+  },
+  "CVE-2024-48022": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in SysBasics Shortcode For Elementor Templates allows Stored XSS.This issue affects Shortcode For Elementor Templates: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-48022",
+      "cveUrl": "/vuln/detail/CVE-2024-48022"
+    }
+  },
+  "CVE-2024-48023": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in RestaurantConnect, Inc Restaurant Reservations Widget allows Reflected XSS.This issue affects Restaurant Reservations Widget: from n/a through 1.0.",
+      "cveName": "CVE-2024-48023",
+      "cveUrl": "/vuln/detail/CVE-2024-48023"
+    }
+  },
+  "CVE-2024-48024": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "8:15:02 AM -0400"
+      ],
+      "cveDis": ": Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Fahad Mahmood Keep Backup Daily allows Retrieve Embedded Sensitive Data.This issue affects Keep Backup Daily: from n/a through 2.0.7.",
+      "cveName": "CVE-2024-48024",
+      "cveUrl": "/vuln/detail/CVE-2024-48024"
+    }
+  },
+  "CVE-2024-48025": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in DOGROW.NET Simple Baseball Scoreboard allows Stored XSS.This issue affects Simple Baseball Scoreboard: from n/a through 1.3.",
+      "cveName": "CVE-2024-48025",
+      "cveUrl": "/vuln/detail/CVE-2024-48025"
+    }
+  },
   "CVE-2024-48026": {
     "cve": {
       "cveDate": [
@@ -11329,6 +11516,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-48030"
     }
   },
+  "CVE-2024-48031": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Sumit Surai Featured Posts with Multiple Custom Groups (FPMCG) allows Cross Site Request Forgery.This issue affects Featured Posts with Multiple Custom Groups (FPMCG): from n/a through 4.0.",
+      "cveName": "CVE-2024-48031",
+      "cveUrl": "/vuln/detail/CVE-2024-48031"
+    }
+  },
+  "CVE-2024-48032": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Sumit Surai Featured Posts with Multiple Custom Groups (FPMCG) allows Reflected XSS.This issue affects Featured Posts with Multiple Custom Groups (FPMCG): from n/a through 4.0.",
+      "cveName": "CVE-2024-48032",
+      "cveUrl": "/vuln/detail/CVE-2024-48032"
+    }
+  },
   "CVE-2024-48033": {
     "cve": {
       "cveDate": [
@@ -11362,6 +11571,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-48035"
     }
   },
+  "CVE-2024-48036": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in SKT Themes SKT Blocks – Gutenberg based Page Builder allows Stored XSS.This issue affects SKT Blocks – Gutenberg based Page Builder: from n/a through 1.6.",
+      "cveName": "CVE-2024-48036",
+      "cveUrl": "/vuln/detail/CVE-2024-48036"
+    }
+  },
+  "CVE-2024-48037": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:13 AM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in A WP Life Contact Form Widget allows Cross Site Request Forgery.This issue affects Contact Form Widget: from n/a through 1.4.2.",
+      "cveName": "CVE-2024-48037",
+      "cveUrl": "/vuln/detail/CVE-2024-48037"
+    }
+  },
+  "CVE-2024-48038": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "8:15:02 AM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Hans Matzen wp-Monalisa allows Cross Site Request Forgery.This issue affects wp-Monalisa: from n/a through 6.4.",
+      "cveName": "CVE-2024-48038",
+      "cveUrl": "/vuln/detail/CVE-2024-48038"
+    }
+  },
   "CVE-2024-48040": {
     "cve": {
       "cveDate": [
@@ -11382,6 +11624,50 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in CreativeMindsSolutions CM Tooltip Glossary allows Stored XSS.This issue affects CM Tooltip Glossary: from n/a through 4.3.9.",
       "cveName": "CVE-2024-48041",
       "cveUrl": "/vuln/detail/CVE-2024-48041"
+    }
+  },
+  "CVE-2024-48043": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "8:15:02 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ShortPixel ShortPixel Image Optimizer allows Blind SQL Injection.This issue affects ShortPixel Image Optimizer: from n/a through 5.6.3.",
+      "cveName": "CVE-2024-48043",
+      "cveUrl": "/vuln/detail/CVE-2024-48043"
+    }
+  },
+  "CVE-2024-48046": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Supsystic Contact Form by Supsystic allows Stored XSS.This issue affects Contact Form by Supsystic: from n/a through 1.7.28.",
+      "cveName": "CVE-2024-48046",
+      "cveUrl": "/vuln/detail/CVE-2024-48046"
+    }
+  },
+  "CVE-2024-48047": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "8:15:02 AM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Razon Komar Pal Linked Variation for WooCommerce allows Cross Site Request Forgery.This issue affects Linked Variation for WooCommerce: from n/a through 1.0.5.",
+      "cveName": "CVE-2024-48047",
+      "cveUrl": "/vuln/detail/CVE-2024-48047"
+    }
+  },
+  "CVE-2024-48048": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in WSIFY – Sales can fly Wsify Widget allows Stored XSS.This issue affects Wsify Widget: from n/a through 1.0.",
+      "cveName": "CVE-2024-48048",
+      "cveUrl": "/vuln/detail/CVE-2024-48048"
     }
   },
   "CVE-2024-48119": {
@@ -11448,6 +11734,17 @@
       "cveDis": "ClassCMS <=4.8 is vulnerable to file inclusion in the nowView method in/class/cms/cms.php, which can include a file uploaded to the/class/template directory to execute PHP code.",
       "cveName": "CVE-2024-48180",
       "cveUrl": "/vuln/detail/CVE-2024-48180"
+    }
+  },
+  "CVE-2024-48192": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "Tenda G3 v15.01.0.5(2848_755)_EN was discovered to contain a hardcoded password vulnerability in /etc_ro/shadow, which allows attackers to log in as root",
+      "cveName": "CVE-2024-48192",
+      "cveUrl": "/vuln/detail/CVE-2024-48192"
     }
   },
   "CVE-2024-48249": {
@@ -12143,6 +12440,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48918"
     }
   },
+  "CVE-2024-48920": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "PutongOJ is online judging software. Prior to version 2.1.0-beta.1, unprivileged users can escalate privileges by constructing requests. This can lead to unauthorized access, enabling users to perform admin-level operations, potentially compromising sensitive data and system integrity. This problem has been fixed in v2.1.0.beta.1. As a workaround, one may apply the patch from commit `211dfe9` manually.",
+      "cveName": "CVE-2024-48920",
+      "cveUrl": "/vuln/detail/CVE-2024-48920"
+    }
+  },
   "CVE-2024-48933": {
     "cve": {
       "cveDate": [
@@ -12462,6 +12770,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-49270"
     }
   },
+  "CVE-2024-49315": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "10:15:14 AM -0400"
+      ],
+      "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in CodeFlock FREE DOWNLOAD MANAGER allows Path Traversal.This issue affects FREE DOWNLOAD MANAGER: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-49315",
+      "cveUrl": "/vuln/detail/CVE-2024-49315"
+    }
+  },
+  "CVE-2024-49320": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "8:15:03 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Dennis Hoppe Encyclopedia / Glossary / Wiki allows Reflected XSS.This issue affects Encyclopedia / Glossary / Wiki: from n/a through 1.7.60.",
+      "cveName": "CVE-2024-49320",
+      "cveUrl": "/vuln/detail/CVE-2024-49320"
+    }
+  },
   "CVE-2024-493404-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -12583,6 +12913,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-49392"
     }
   },
+  "CVE-2024-49396": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "The affected product is vulnerable due to insufficiently protected credentials, which may allow an attacker to impersonate Elvaco and send false information.",
+      "cveName": "CVE-2024-49396",
+      "cveUrl": "/vuln/detail/CVE-2024-49396"
+    }
+  },
+  "CVE-2024-49397": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "The affected product is vulnerable to a cross-site scripting attack which may allow an attacker to bypass authentication and takeover admin accounts.",
+      "cveName": "CVE-2024-49397",
+      "cveUrl": "/vuln/detail/CVE-2024-49397"
+    }
+  },
+  "CVE-2024-49398": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "The affected product is vulnerable to unrestricted file uploads, which may allow an attacker to remotely execute code.",
+      "cveName": "CVE-2024-49398",
+      "cveUrl": "/vuln/detail/CVE-2024-49398"
+    }
+  },
+  "CVE-2024-49399": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "The affected product is vulnerable to an attacker being able to use commands without providing a password which may allow an attacker to leak information.",
+      "cveName": "CVE-2024-49399",
+      "cveUrl": "/vuln/detail/CVE-2024-49399"
+    }
+  },
+  "CVE-2024-49579": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.47197 insecure plugin iframe allowed arbitrary JavaScript execution and unauthorized API requests",
+      "cveName": "CVE-2024-49579",
+      "cveUrl": "/vuln/detail/CVE-2024-49579"
+    }
+  },
+  "CVE-2024-49580": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "In JetBrains Ktor before 3.0.0 improper caching in HttpCache Plugin could lead to response information disclosure",
+      "cveName": "CVE-2024-49580",
+      "cveUrl": "/vuln/detail/CVE-2024-49580"
+    }
+  },
   "CVE-2024-49593": {
     "cve": {
       "cveDate": [
@@ -12669,6 +13065,17 @@
       "cveDis": "CVE 2021-22681 https://www.rockwellautomation.com/en-us/trust-center/security-advisories/advisory.PN1550.html  and send a specially crafted CIP message to the device.  If exploited, a threat actor could help prevent access to the legitimate user and end connections to connected devices including the workstation.  To recover the controllers, a download is required which ends any process that the controller is running.",
       "cveName": "CVE-2024-6207",
       "cveUrl": "/vuln/detail/CVE-2024-6207"
+    }
+  },
+  "CVE-2024-6333": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "10:15:14 AM -0400"
+      ],
+      "cveDis": "Authenticated Remote Code Execution in Altalink, Versalink & WorkCentre Products.",
+      "cveName": "CVE-2024-6333",
+      "cveUrl": "/vuln/detail/CVE-2024-6333"
     }
   },
   "CVE-2024-6360": {
@@ -15971,6 +16378,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9412"
     }
   },
+  "CVE-2024-9414": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "12:15:04 PM -0400"
+      ],
+      "cveDis": "In LAquis SCADA version 4.7.1.511, a cross-site scripting vulnerability could allow an attacker to inject arbitrary code into a web page. This could allow an attacker to steal cookies, redirect users, or perform unauthorized actions.",
+      "cveName": "CVE-2024-9414",
+      "cveUrl": "/vuln/detail/CVE-2024-9414"
+    }
+  },
   "CVE-2024-94176-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -17049,6 +17467,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9676"
     }
   },
+  "CVE-2024-96834-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Quay, which allows successful authentication even when a truncated password version is provided. This flaw affects the authentication mechanism, reducing the overall security of password enforcement.  While the risk is relatively low due to the typical length of the passwords used (73 characters), this vulnerability can still be exploited to reduce the complexity of brute-force or password-guessing attacks. The truncation of passwords weakens the overall authentication process, thereby reducing the effectiveness of password policies and potentially increasing the risk of unauthorized access in the future.",
+      "cveName": "CVE-2024-96834-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9683"
+    }
+  },
   "CVE-2024-9685": {
     "cve": {
       "cveDate": [
@@ -17685,6 +18114,17 @@
       "cveDis": "The Smart Online Order for Clover plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's moo_receipt_link shortcode in all versions up to, and including, 1.5.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-98956-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9895"
+    }
+  },
+  "CVE-2024-98986-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:11 AM -0400"
+      ],
+      "cveDis": "The Parallax Image plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's dd-parallax shortcode in all versions up to, and including, 1.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-98986-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9898"
     }
   },
   "CVE-2024-9903": {
