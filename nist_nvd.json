@@ -406,6 +406,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-26771"
     }
   },
+  "CVE-2023-26785": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "MariaDB v10.5 was discovered to contain a remote code execution (RCE) vulnerability.",
+      "cveName": "CVE-2023-26785",
+      "cveUrl": "/vuln/detail/CVE-2023-26785"
+    }
+  },
   "CVE-2023-31493": {
     "cve": {
       "cveDate": [
@@ -481,6 +492,17 @@
       "cveDis": "Eufy HomeBase 2 model T8010X v3.2.8.3h was discovered to use the deprecated wireless protocol WPA2-PSK.",
       "cveName": "CVE-2023-37822",
       "cveUrl": "/vuln/detail/CVE-2023-37822"
+    }
+  },
+  "CVE-2023-39593": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "Insecure permissions in the sys_exec function of Oracle MYSQL MariaDB v10.5 allows authenticated attackers to execute arbitrary commands with elevated privileges.",
+      "cveName": "CVE-2023-39593",
+      "cveUrl": "/vuln/detail/CVE-2023-39593"
     }
   },
   "CVE-2023-45359": {
@@ -899,6 +921,50 @@
       "cveDis": "A vulnerability, which was classified as critical, was found in flairNLP flair 0.14.0. Affected is the function ClusteringModel of the file flair\\models\\clustering.py of the component Mode File Loader. The manipulation leads to code injection. It is possible to launch the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-10073",
       "cveUrl": "/vuln/detail/CVE-2024-10073"
+    }
+  },
+  "CVE-2024-10093": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:11 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in VSO ConvertXtoDvd 7.0.0.83. Affected is an unknown function in the library avcodec.dll of the file ConvertXtoDvd.exe. The manipulation leads to uncontrolled search path. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10093",
+      "cveUrl": "/vuln/detail/CVE-2024-10093"
+    }
+  },
+  "CVE-2024-10099": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:21 PM -0400"
+      ],
+      "cveDis": "A stored cross-site scripting (XSS) vulnerability exists in comfyanonymous/comfyui version 0.2.2 and possibly earlier. The vulnerability occurs when an attacker uploads an HTML file containing a malicious XSS payload via the `/api/upload/image` endpoint. The payload is executed when the file is viewed through the `/view` API endpoint, leading to potential execution of arbitrary JavaScript code.",
+      "cveName": "CVE-2024-10099",
+      "cveUrl": "/vuln/detail/CVE-2024-10099"
+    }
+  },
+  "CVE-2024-10100": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:21 PM -0400"
+      ],
+      "cveDis": "A path traversal vulnerability exists in binary-husky/gpt_academic version 3.83. The vulnerability is due to improper handling of the file parameter, which is open to path traversal through URL encoding. This allows attackers to view any file on the host system, including sensitive files such as critical application files, SSH keys, API keys, and configuration values.",
+      "cveName": "CVE-2024-10100",
+      "cveUrl": "/vuln/detail/CVE-2024-10100"
+    }
+  },
+  "CVE-2024-10101": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:21 PM -0400"
+      ],
+      "cveDis": "A stored cross-site scripting (XSS) vulnerability exists in binary-husky/gpt_academic version 3.83. The vulnerability occurs at the /file endpoint, which renders HTML files. Malicious HTML files containing XSS payloads can be uploaded and stored in the backend, leading to the execution of the payload in the victim's browser when the file is accessed. This can result in the theft of session cookies or other sensitive information.",
+      "cveName": "CVE-2024-10101",
+      "cveUrl": "/vuln/detail/CVE-2024-10101"
     }
   },
   "CVE-2024-20090": {
@@ -2386,6 +2452,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-27458"
     }
   },
+  "CVE-2024-27766": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "An issue in MYSQL MariaDB v.11.1 allows a remote attacker to execute arbitrary code via the lib_mysqludf_sys.so function.",
+      "cveName": "CVE-2024-27766",
+      "cveUrl": "/vuln/detail/CVE-2024-27766"
+    }
+  },
   "CVE-2024-28709": {
     "cve": {
       "cveDate": [
@@ -2560,6 +2637,17 @@
       "cveDis": "A flaw exists whereby a user can make a specific call to a FlashArray endpoint allowing privilege escalation.",
       "cveName": "CVE-2024-3057",
       "cveUrl": "/vuln/detail/CVE-2024-3057"
+    }
+  },
+  "CVE-2024-30875": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in JavaScript Library jquery-ui v.1.13.1 allows a remote attacker to obtain sensitive information and execute arbitrary code via a crafted payload to the window.addEventListener component.",
+      "cveName": "CVE-2024-30875",
+      "cveUrl": "/vuln/detail/CVE-2024-30875"
     }
   },
   "CVE-2024-31227": {
@@ -2791,6 +2879,17 @@
       "cveDis": "Directory Traversal vulnerability in Plasmoapp RPShare Fabric mod v.1.0.0 allows a remote attacker to execute arbitrary code via the getFileNameFromConnection method in DownloadTask",
       "cveName": "CVE-2024-33369",
       "cveUrl": "/vuln/detail/CVE-2024-33369"
+    }
+  },
+  "CVE-2024-33453": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Buffer Overflow vulnerability in esp-idf v.5.1 allows a remote attacker to obtain sensitive information via the externalId component.",
+      "cveName": "CVE-2024-33453",
+      "cveUrl": "/vuln/detail/CVE-2024-33453"
     }
   },
   "CVE-2024-33506": {
@@ -4509,6 +4608,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-43565"
     }
   },
+  "CVE-2024-435667-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:14 PM -0400"
+      ],
+      "cveDis": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435667-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43566"
+    }
+  },
   "CVE-2024-435677-5 HIGH": {
     "cve": {
       "cveDate": [
@@ -4597,6 +4707,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-43576"
     }
   },
+  "CVE-2024-435787-6 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:15 PM -0400"
+      ],
+      "cveDis": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435787-6 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43578"
+    }
+  },
+  "CVE-2024-435797-6 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:15 PM -0400"
+      ],
+      "cveDis": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435797-6 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43579"
+    }
+  },
+  "CVE-2024-435805-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:15 PM -0400"
+      ],
+      "cveDis": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "cveName": "CVE-2024-435805-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43580"
+    }
+  },
   "CVE-2024-435817-1 HIGH": {
     "cve": {
       "cveDate": [
@@ -4652,6 +4795,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-43585"
     }
   },
+  "CVE-2024-435875-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:16 PM -0400"
+      ],
+      "cveDis": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435875-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43587"
+    }
+  },
   "CVE-2024-435898-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -4705,6 +4859,28 @@
       "cveDis": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
       "cveName": "CVE-2024-435938-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-43593"
+    }
+  },
+  "CVE-2024-435956-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:16 PM -0400"
+      ],
+      "cveDis": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435956-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43595"
+    }
+  },
+  "CVE-2024-435966-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "7:15:16 PM -0400"
+      ],
+      "cveDis": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-435966-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-43596"
     }
   },
   "CVE-2024-435998-8 HIGH": {
@@ -12451,6 +12627,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48920"
     }
   },
+  "CVE-2024-48924": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "### Impact\n\nWhen this library is used to deserialize messagepack data from an untrusted source, there is a risk of a denial of service attack by an attacker that sends data contrived to produce hash collisions, leading to large CPU consumption disproportionate to the size of the data being deserialized.\n\nThis is similar to [a prior advisory](https://github.com/MessagePack-CSharp/MessagePack-CSharp/security/advisories/GHSA-7q36-4xx7-xcxf), which provided an inadequate fix for the hash collision part of the vulnerability.\n\n### Patches\n\nThe following steps are required to mitigate this risk.\n\n1. Upgrade to a version of the library where a fix is available.\n1. Review the steps in [this previous advisory](https://github.com/MessagePack-CSharp/MessagePack-CSharp/security/advisories/GHSA-7q36-4xx7-xcxf) to ensure you have your application configured for untrusted data.\n\n### Workarounds\n\nIf upgrading MessagePack to a patched version is not an option for you, you may apply a manual workaround as follows:\n\n1. Declare a class that derives from `MessagePackSecurity`.\n2. Override the `GetHashCollisionResistantEqualityComparer<T>` method to provide a collision-resistant hash function of your own and avoid calling `base.GetHashCollisionResistantEqualityComparer<T>()`.\n3. Configure a `MessagePackSerializerOptions` with an instance of your derived type by calling `WithSecurity` on an existing options object.\n4. Use your custom options object for all deserialization operations. This may be by setting the `MessagePackSerializer.DefaultOptions` static property, if you call methods that rely on this default property, and/or by passing in the options object explicitly to any `Deserialize` method.\n\n### References\n\n- Learn more about best security practices when reading untrusted data with [MessagePack 1.x](https://github.com/MessagePack-CSharp/MessagePack-CSharp/tree/v1.x#security) or [MessagePack 2.x](https://github.com/MessagePack-CSharp/MessagePack-CSharp#security).\n- The .NET team's [discussion on hash collision vulnerabilities of their `HashCode` struct](https://github.com/GrabYourPitchforks/runtime/blob/threat_models/docs/design/security/System.HashCode.md).\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* [Start a public discussion](https://github.com/MessagePack-CSharp/MessagePack-CSharp/discussions)\n* [Email us privately](mailto:andrewarnott@live.com)",
+      "cveName": "CVE-2024-48924",
+      "cveUrl": "/vuln/detail/CVE-2024-48924"
+    }
+  },
   "CVE-2024-48933": {
     "cve": {
       "cveDate": [
@@ -12548,6 +12735,17 @@
       "cveDis": "execute_filter_delta in archive_read_support_format_rar.c in libarchive before 3.7.5 allows out-of-bounds access via a crafted archive file because src can move beyond dst.",
       "cveName": "CVE-2024-48958",
       "cveUrl": "/vuln/detail/CVE-2024-48958"
+    }
+  },
+  "CVE-2024-490235-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "9:15:40 PM -0400"
+      ],
+      "cveDis": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "cveName": "CVE-2024-490235-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-49023"
     }
   },
   "CVE-2024-49193": {
@@ -12649,6 +12847,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49245"
     }
   },
+  "CVE-2024-49248": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:04 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Igor Funa Ad Inserter allows Reflected XSS.This issue affects Ad Inserter: from n/a through 2.7.37.",
+      "cveName": "CVE-2024-49248",
+      "cveUrl": "/vuln/detail/CVE-2024-49248"
+    }
+  },
   "CVE-2024-49251": {
     "cve": {
       "cveDate": [
@@ -12693,6 +12902,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49254"
     }
   },
+  "CVE-2024-49255": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Daniele Alessandra Da Reactions allows Stored XSS.This issue affects Da Reactions: from n/a through 5.1.5.",
+      "cveName": "CVE-2024-49255",
+      "cveUrl": "/vuln/detail/CVE-2024-49255"
+    }
+  },
   "CVE-2024-49258": {
     "cve": {
       "cveDate": [
@@ -12704,6 +12924,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49258"
     }
   },
+  "CVE-2024-49259": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in NicheAddons Primary Addon for Elementor allows Stored XSS.This issue affects Primary Addon for Elementor: from n/a through 1.5.8.",
+      "cveName": "CVE-2024-49259",
+      "cveUrl": "/vuln/detail/CVE-2024-49259"
+    }
+  },
   "CVE-2024-49260": {
     "cve": {
       "cveDate": [
@@ -12713,6 +12944,50 @@
       "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Limb WordPress Gallery Plugin – Limb Image Gallery allows Code Injection.This issue affects WordPress Gallery Plugin – Limb Image Gallery: from n/a through 1.5.7.",
       "cveName": "CVE-2024-49260",
       "cveUrl": "/vuln/detail/CVE-2024-49260"
+    }
+  },
+  "CVE-2024-49261": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:06 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in LOOS,Inc. Arkhe Blocks allows Stored XSS.This issue affects Arkhe Blocks: from n/a through 2.23.0.",
+      "cveName": "CVE-2024-49261",
+      "cveUrl": "/vuln/detail/CVE-2024-49261"
+    }
+  },
+  "CVE-2024-49262": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:07 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in wepic Country Flags for Elementor allows Stored XSS.This issue affects Country Flags for Elementor: from n/a through 1.0.1.",
+      "cveName": "CVE-2024-49262",
+      "cveUrl": "/vuln/detail/CVE-2024-49262"
+    }
+  },
+  "CVE-2024-49263": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:07 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Takashi Matsuyama My Favorites allows Stored XSS.This issue affects My Favorites: from n/a through 1.4.1.",
+      "cveName": "CVE-2024-49263",
+      "cveUrl": "/vuln/detail/CVE-2024-49263"
+    }
+  },
+  "CVE-2024-49264": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:08 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in NicheAddons Events Addon for Elementor allows Stored XSS.This issue affects Events Addon for Elementor: from n/a through 2.2.0.",
+      "cveName": "CVE-2024-49264",
+      "cveUrl": "/vuln/detail/CVE-2024-49264"
     }
   },
   "CVE-2024-49265": {
@@ -12770,6 +13045,314 @@
       "cveUrl": "/vuln/detail/CVE-2024-49270"
     }
   },
+  "CVE-2024-49276": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:08 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Themis Solutions, Inc. Clio Grow allows Reflected XSS.This issue affects Clio Grow: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-49276",
+      "cveUrl": "/vuln/detail/CVE-2024-49276"
+    }
+  },
+  "CVE-2024-49277": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:09 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in CodeAstrology Team UltraAddons Elementor Lite allows Stored XSS.This issue affects UltraAddons Elementor Lite: from n/a through 1.1.8.",
+      "cveName": "CVE-2024-49277",
+      "cveUrl": "/vuln/detail/CVE-2024-49277"
+    }
+  },
+  "CVE-2024-49278": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:09 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in omnipressteam Omnipress allows Stored XSS.This issue affects Omnipress: from n/a through 1.4.3.",
+      "cveName": "CVE-2024-49278",
+      "cveUrl": "/vuln/detail/CVE-2024-49278"
+    }
+  },
+  "CVE-2024-49279": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:10 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in TipTopPress Hyperlink Group Block allows Stored XSS.This issue affects Hyperlink Group Block: from n/a through 1.17.5.",
+      "cveName": "CVE-2024-49279",
+      "cveUrl": "/vuln/detail/CVE-2024-49279"
+    }
+  },
+  "CVE-2024-49280": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:11 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Weblizar Lightbox slider – Responsive Lightbox Gallery allows Stored XSS.This issue affects Lightbox slider – Responsive Lightbox Gallery: from n/a through 1.10.0.",
+      "cveName": "CVE-2024-49280",
+      "cveUrl": "/vuln/detail/CVE-2024-49280"
+    }
+  },
+  "CVE-2024-49281": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:11 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in NinjaTeam Click to Chat – WP Support All-in-One Floating Widget allows Stored XSS.This issue affects Click to Chat – WP Support All-in-One Floating Widget: from n/a through 2.3.3.",
+      "cveName": "CVE-2024-49281",
+      "cveUrl": "/vuln/detail/CVE-2024-49281"
+    }
+  },
+  "CVE-2024-49282": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:11 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in dFactory Responsive Lightbox allows Stored XSS.This issue affects Responsive Lightbox: from n/a through 2.4.8.",
+      "cveName": "CVE-2024-49282",
+      "cveUrl": "/vuln/detail/CVE-2024-49282"
+    }
+  },
+  "CVE-2024-49283": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:12 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in VillaTheme CURCY allows Reflected XSS.This issue affects CURCY: from n/a through 2.2.3.",
+      "cveName": "CVE-2024-49283",
+      "cveUrl": "/vuln/detail/CVE-2024-49283"
+    }
+  },
+  "CVE-2024-49288": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "4:15:12 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in VillaTheme Email Template Customizer for WooCommerce allows Stored XSS.This issue affects Email Template Customizer for WooCommerce: from n/a through 1.2.5.",
+      "cveName": "CVE-2024-49288",
+      "cveUrl": "/vuln/detail/CVE-2024-49288"
+    }
+  },
+  "CVE-2024-49289": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:22 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Gora Tech LLC Cooked Pro allows Stored XSS.This issue affects Cooked Pro: from n/a before 1.8.0.",
+      "cveName": "CVE-2024-49289",
+      "cveUrl": "/vuln/detail/CVE-2024-49289"
+    }
+  },
+  "CVE-2024-49292": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:22 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Exclusive Addons Exclusive Addons Elementor allows Stored XSS.This issue affects Exclusive Addons Elementor: from n/a through 2.7.1.",
+      "cveName": "CVE-2024-49292",
+      "cveUrl": "/vuln/detail/CVE-2024-49292"
+    }
+  },
+  "CVE-2024-49295": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:22 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in PressTigers Simple Testimonials Showcase.This issue affects Simple Testimonials Showcase: from n/a through 1.1.6.",
+      "cveName": "CVE-2024-49295",
+      "cveUrl": "/vuln/detail/CVE-2024-49295"
+    }
+  },
+  "CVE-2024-49296": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:23 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Coder426 Custom Add to Cart Button Label and Link allows Stored XSS.This issue affects Custom Add to Cart Button Label and Link: from n/a through 1.6.1.",
+      "cveName": "CVE-2024-49296",
+      "cveUrl": "/vuln/detail/CVE-2024-49296"
+    }
+  },
+  "CVE-2024-49297": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:13 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Zoho CRM Zoho CRM Lead Magnet allows SQL Injection.This issue affects Zoho CRM Lead Magnet: from n/a through 1.7.9.0.",
+      "cveName": "CVE-2024-49297",
+      "cveUrl": "/vuln/detail/CVE-2024-49297"
+    }
+  },
+  "CVE-2024-49298": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:23 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Pepro Dev. Group PeproDev Ultimate Invoice allows Stored XSS.This issue affects PeproDev Ultimate Invoice: from n/a through 2.0.6.",
+      "cveName": "CVE-2024-49298",
+      "cveUrl": "/vuln/detail/CVE-2024-49298"
+    }
+  },
+  "CVE-2024-49299": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:13 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Surfer allows SQL Injection.This issue affects Surfer: from n/a through 1.5.0.502.",
+      "cveName": "CVE-2024-49299",
+      "cveUrl": "/vuln/detail/CVE-2024-49299"
+    }
+  },
+  "CVE-2024-49301": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:23 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Sinan Yorulmaz G Meta Keywords allows Stored XSS.This issue affects G Meta Keywords: from n/a through 1.4.",
+      "cveName": "CVE-2024-49301",
+      "cveUrl": "/vuln/detail/CVE-2024-49301"
+    }
+  },
+  "CVE-2024-49302": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:23 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Portfoliohub WordPress Portfolio Builder – Portfolio Gallery allows Stored XSS.This issue affects WordPress Portfolio Builder – Portfolio Gallery: from n/a through 1.1.7.",
+      "cveName": "CVE-2024-49302",
+      "cveUrl": "/vuln/detail/CVE-2024-49302"
+    }
+  },
+  "CVE-2024-49304": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:13 PM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in PINPOINT.WORLD Pinpoint Booking System allows Stored XSS.This issue affects Pinpoint Booking System: from n/a through 2.9.9.5.1.",
+      "cveName": "CVE-2024-49304",
+      "cveUrl": "/vuln/detail/CVE-2024-49304"
+    }
+  },
+  "CVE-2024-49305": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:13 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WPFactory Email Verification for WooCommerce allows SQL Injection.This issue affects Email Verification for WooCommerce: from n/a through 2.8.10.",
+      "cveName": "CVE-2024-49305",
+      "cveUrl": "/vuln/detail/CVE-2024-49305"
+    }
+  },
+  "CVE-2024-49307": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:24 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Oliver Schlöbe Admin Management Xtended allows Stored XSS.This issue affects Admin Management Xtended: from n/a through 2.4.6.",
+      "cveName": "CVE-2024-49307",
+      "cveUrl": "/vuln/detail/CVE-2024-49307"
+    }
+  },
+  "CVE-2024-49308": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:24 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Toast Plugins Animator allows Reflected XSS.This issue affects Animator: from n/a through 3.0.11.",
+      "cveName": "CVE-2024-49308",
+      "cveUrl": "/vuln/detail/CVE-2024-49308"
+    }
+  },
+  "CVE-2024-49309": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:24 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Digitally allows Reflected XSS.This issue affects Digitally: from n/a through 1.0.8.",
+      "cveName": "CVE-2024-49309",
+      "cveUrl": "/vuln/detail/CVE-2024-49309"
+    }
+  },
+  "CVE-2024-49310": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:24 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Themesflat Themesflat Addons For Elementor allows Stored XSS.This issue affects Themesflat Addons For Elementor: from n/a through 2.2.0.",
+      "cveName": "CVE-2024-49310",
+      "cveUrl": "/vuln/detail/CVE-2024-49310"
+    }
+  },
+  "CVE-2024-49311": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:24 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in WisdmLabs Edwiser Bridge allows Stored XSS.This issue affects Edwiser Bridge: from n/a through 3.0.7.",
+      "cveName": "CVE-2024-49311",
+      "cveUrl": "/vuln/detail/CVE-2024-49311"
+    }
+  },
+  "CVE-2024-49312": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:14 PM -0400"
+      ],
+      "cveDis": "Server-Side Request Forgery (SSRF) vulnerability in WisdmLabs Edwiser Bridge.This issue affects Edwiser Bridge: from n/a through 3.0.7.",
+      "cveName": "CVE-2024-49312",
+      "cveUrl": "/vuln/detail/CVE-2024-49312"
+    }
+  },
+  "CVE-2024-49313": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:14 PM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in RudeStan VKontakte Wall Post allows Stored XSS.This issue affects VKontakte Wall Post: from n/a through 2.0.",
+      "cveName": "CVE-2024-49313",
+      "cveUrl": "/vuln/detail/CVE-2024-49313"
+    }
+  },
+  "CVE-2024-49314": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:14 PM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in 酱茄 JiangQie Free Mini Program allows Upload a Web Shell to a Web Server.This issue affects JiangQie Free Mini Program: from n/a through 2.5.2.",
+      "cveName": "CVE-2024-49314",
+      "cveUrl": "/vuln/detail/CVE-2024-49314"
+    }
+  },
   "CVE-2024-49315": {
     "cve": {
       "cveDate": [
@@ -12781,6 +13364,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-49315"
     }
   },
+  "CVE-2024-49316": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:25 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in zodiac Akismet htaccess writer allows Reflected XSS.This issue affects Akismet htaccess writer: from n/a through 1.0.1.",
+      "cveName": "CVE-2024-49316",
+      "cveUrl": "/vuln/detail/CVE-2024-49316"
+    }
+  },
+  "CVE-2024-49317": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:14 PM -0400"
+      ],
+      "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in ZIPANG Point Maker allows PHP Local File Inclusion.This issue affects Point Maker: from n/a through 0.1.4.",
+      "cveName": "CVE-2024-49317",
+      "cveUrl": "/vuln/detail/CVE-2024-49317"
+    }
+  },
+  "CVE-2024-49318": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:15 PM -0400"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Scott Olson My Reading Library allows Object Injection.This issue affects My Reading Library: from n/a through 1.0.",
+      "cveName": "CVE-2024-49318",
+      "cveUrl": "/vuln/detail/CVE-2024-49318"
+    }
+  },
+  "CVE-2024-49319": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:25 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in B.M. Rafiul Alam Awesome Contact Form7 for Elementor allows Stored XSS.This issue affects Awesome Contact Form7 for Elementor: from n/a through 3.0.",
+      "cveName": "CVE-2024-49319",
+      "cveUrl": "/vuln/detail/CVE-2024-49319"
+    }
+  },
   "CVE-2024-49320": {
     "cve": {
       "cveDate": [
@@ -12790,6 +13417,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Dennis Hoppe Encyclopedia / Glossary / Wiki allows Reflected XSS.This issue affects Encyclopedia / Glossary / Wiki: from n/a through 1.7.60.",
       "cveName": "CVE-2024-49320",
       "cveUrl": "/vuln/detail/CVE-2024-49320"
+    }
+  },
+  "CVE-2024-49322": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:15 PM -0400"
+      ],
+      "cveDis": "Incorrect Privilege Assignment vulnerability in CodePassenger Job Board Manager for WordPress allows Privilege Escalation.This issue affects Job Board Manager for WordPress: from n/a through 1.0.",
+      "cveName": "CVE-2024-49322",
+      "cveUrl": "/vuln/detail/CVE-2024-49322"
     }
   },
   "CVE-2024-493404-3 MEDIUM": {
@@ -12955,6 +13593,17 @@
       "cveDis": "The affected product is vulnerable to an attacker being able to use commands without providing a password which may allow an attacker to leak information.",
       "cveName": "CVE-2024-49399",
       "cveUrl": "/vuln/detail/CVE-2024-49399"
+    }
+  },
+  "CVE-2024-49400": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "2:15:15 PM -0400"
+      ],
+      "cveDis": "Tacquito prior to commit 07b49d1358e6ec0b5aa482fcd284f509191119e2 was not properly performing regex matches on authorized commands and arguments. Configured allowed commands/arguments were intended to require a match on the entire string, but instead only enforced a match on a sub-string. That would have potentially allowed unauthorized commands to be executed.",
+      "cveName": "CVE-2024-49400",
+      "cveUrl": "/vuln/detail/CVE-2024-49400"
     }
   },
   "CVE-2024-49579": {
@@ -13364,6 +14013,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-7315"
     }
   },
+  "CVE-2024-7316": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Improper Validation of Specified Quantity in Input vulnerability in Mitsubishi Electric CNC Series allows a remote unauthenticated attacker to cause Denial of Service (DoS) condition on the product by sending specially crafted packets to TCP port 683, causing an emergency stop.",
+      "cveName": "CVE-2024-7316",
+      "cveUrl": "/vuln/detail/CVE-2024-7316"
+    }
+  },
   "CVE-2024-74174-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -13505,6 +14165,17 @@
       "cveDis": "A maliciously crafted DWF file, when parsed in w3dtk.dll through Autodesk Navisworks, can force a Use-After-Free. A malicious actor can leverage this vulnerability to cause a crash or execute arbitrary code in the context of the current process.",
       "cveName": "CVE-2024-7675",
       "cveUrl": "/vuln/detail/CVE-2024-7675"
+    }
+  },
+  "CVE-2024-7755": {
+    "cve": {
+      "cveDate": [
+        "October 17, 2024",
+        "3:15:25 PM -0400"
+      ],
+      "cveDis": "The EWON FLEXY 202 transmits credentials using a weak encoding method base64. An attacker who is present in the network can sniff the traffic and decode the credentials.",
+      "cveName": "CVE-2024-7755",
+      "cveUrl": "/vuln/detail/CVE-2024-7755"
     }
   },
   "CVE-2024-7801": {
