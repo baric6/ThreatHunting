@@ -648,6 +648,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-6058"
     }
   },
+  "CVE-2023-6080": {
+    "cve": {
+      "cveDate": [
+        "October 18, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "Lakeside Software’s SysTrack LsiAgent Installer version 10.7.8 for Windows contains a local privilege escalation vulnerability which allows attackers SYSTEM level access.",
+      "cveName": "CVE-2023-6080",
+      "cveUrl": "/vuln/detail/CVE-2023-6080"
+    }
+  },
   "CVE-2023-6361": {
     "cve": {
       "cveDate": [
@@ -1141,6 +1152,17 @@
       "cveDis": "The wireless router WRTM326 from SECOM does not properly validate a specific parameter. An unauthenticated remote attacker could execute arbitrary system commands by sending crafted requests.",
       "cveName": "CVE-2024-101199-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-10119"
+    }
+  },
+  "CVE-2024-10120": {
+    "cve": {
+      "cveDate": [
+        "October 18, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in wfh45678 Radar up to 1.0.8 and classified as critical. This vulnerability affects unknown code of the file /services/v1/common/upload. The manipulation of the argument file leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10120",
+      "cveUrl": "/vuln/detail/CVE-2024-10120"
     }
   },
   "CVE-2024-20090": {
@@ -4476,6 +4498,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-42504"
     }
   },
+  "CVE-2024-42508": {
+    "cve": {
+      "cveDate": [
+        "October 18, 2024",
+        "12:15:04 PM -0400"
+      ],
+      "cveDis": "This vulnerability could be exploited, leading to unauthorized disclosure of information to authenticated users.",
+      "cveName": "CVE-2024-42508",
+      "cveUrl": "/vuln/detail/CVE-2024-42508"
+    }
+  },
   "CVE-2024-42514": {
     "cve": {
       "cveDate": [
@@ -4540,6 +4573,17 @@
       "cveDis": "Memory corruption while maintaining memory maps of HLOS memory.",
       "cveName": "CVE-2024-430477-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-43047"
+    }
+  },
+  "CVE-2024-43300": {
+    "cve": {
+      "cveDate": [
+        "October 18, 2024",
+        "7:15:02 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Bert Kößler Movie Database allows Stored XSS.This issue affects Movie Database: from n/a through 1.0.11.",
+      "cveName": "CVE-2024-43300",
+      "cveUrl": "/vuln/detail/CVE-2024-43300"
     }
   },
   "CVE-2024-43362": {
@@ -8612,6 +8656,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-47211"
     }
   },
+  "CVE-2024-47240": {
+    "cve": {
+      "cveDate": [
+        "October 18, 2024",
+        "8:15:02 AM -0400"
+      ],
+      "cveDis": "Dell Secure Connect Gateway (SCG) 5.24 contains an Incorrect Default Permissions vulnerability. A local attacker with low privileges can access the file system and could potentially exploit this vulnerability to gain write access to unauthorized data and cause a version update failure condition.",
+      "cveName": "CVE-2024-47240",
+      "cveUrl": "/vuln/detail/CVE-2024-47240"
+    }
+  },
+  "CVE-2024-47241": {
+    "cve": {
+      "cveDate": [
+        "October 18, 2024",
+        "1:15:12 PM -0400"
+      ],
+      "cveDis": "Dell Secure Connect Gateway (SCG) 5.0 Appliance - SRS, version(s) 5.24, contains an Improper Certificate Validation vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to unauthorized access and modification of transmitted data.",
+      "cveName": "CVE-2024-47241",
+      "cveUrl": "/vuln/detail/CVE-2024-47241"
+    }
+  },
   "CVE-2024-47295": {
     "cve": {
       "cveDate": [
@@ -9456,6 +9522,17 @@
       ],
       "cveDis": "MXsecurity software versions v1.1.0 and prior are vulnerable because of the use of hard-coded credentials. This vulnerability could allow an attacker to tamper with sensitive data.",
       "cveName": "CVE-2024-4740",
+      "cveUrl": "/vuln/detail/CVE-2024-4740"
+    }
+  },
+  "CVE-2024-47407-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 18, 2024",
+        "5:15:04 AM -0400"
+      ],
+      "cveDis": "MXsecurity software versions v1.1.0 and prior are vulnerable because of the use of hard-coded credentials. This vulnerability could allow an attacker to tamper with sensitive data.",
+      "cveName": "CVE-2024-47407-5 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-4740"
     }
   },
@@ -11833,6 +11910,17 @@
       "cveDis": "Improper access removal handling in firmware of some Solidigm DC Products may allow an attacker with physical access to gain unauthorized access.",
       "cveName": "CVE-2024-47976",
       "cveUrl": "/vuln/detail/CVE-2024-47976"
+    }
+  },
+  "CVE-2024-48016": {
+    "cve": {
+      "cveDate": [
+        "October 18, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "Dell Secure Connect Gateway (SCG) 5.0 Appliance - SRS, version(s) 5.24, contains a Use of a Broken or Risky Cryptographic Algorithm vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to information disclosure. The attacker may be able to use exposed credentials to access the system with privileges of the compromised account.",
+      "cveName": "CVE-2024-48016",
+      "cveUrl": "/vuln/detail/CVE-2024-48016"
     }
   },
   "CVE-2024-48020": {
@@ -18127,6 +18215,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9536"
     }
   },
+  "CVE-2024-9537": {
+    "cve": {
+      "cveDate": [
+        "October 18, 2024",
+        "11:15:04 AM -0400"
+      ],
+      "cveDis": "ScienceLogic SL1 (formerly EM7) is affected by an unspecified vulnerability involving an unspecified third-party component packaged with SL1. The vulnerability is addressed in SL1 versions 12.1.3+, 12.2.3+, and 12.3+.  Remediations have been made available for all SL1 versions back to version lines 10.1.x, 10.2.x, 11.1.x, 11.2.x, and 11.3.x.",
+      "cveName": "CVE-2024-9537",
+      "cveUrl": "/vuln/detail/CVE-2024-9537"
+    }
+  },
   "CVE-2024-9539": {
     "cve": {
       "cveDate": [
@@ -18686,6 +18785,17 @@
       "cveDis": "A vulnerability was found in 3Scale. There is no auth mechanism to see a PDF invoice of a Developer user if the URL is known. Anyone can see the invoice if the URL is known or guessed.",
       "cveName": "CVE-2024-96715-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9671"
+    }
+  },
+  "CVE-2024-96746-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 18, 2024",
+        "7:15:02 AM -0400"
+      ],
+      "cveDis": "The Debrandify · Remove or Replace WordPress Branding plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.1.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-96746-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9674"
     }
   },
   "CVE-2024-96754-4 MEDIUM": {
