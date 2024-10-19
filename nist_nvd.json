@@ -1286,6 +1286,94 @@
       "cveUrl": "/vuln/detail/CVE-2024-10134"
     }
   },
+  "CVE-2024-10135": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "8:15:13 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5. It has been classified as critical. This affects the function actionDelNetSecConfig of the file /com/esafenet/servlet/netSec/NetSecConfigService.java. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10135",
+      "cveUrl": "/vuln/detail/CVE-2024-10135"
+    }
+  },
+  "CVE-2024-10136": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "8:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Pharmacy Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /manage_invoice.php. The manipulation of the argument invoice_number leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10136",
+      "cveUrl": "/vuln/detail/CVE-2024-10136"
+    }
+  },
+  "CVE-2024-10137": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Pharmacy Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /manage_medicine.php?action=delete. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10137",
+      "cveUrl": "/vuln/detail/CVE-2024-10137"
+    }
+  },
+  "CVE-2024-10138": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in code-projects Pharmacy Management System 1.0. Affected is an unknown function of the file /add_new_purchase.php?action=is_supplier. The manipulation of the argument name leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10138",
+      "cveUrl": "/vuln/detail/CVE-2024-10138"
+    }
+  },
+  "CVE-2024-10139": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "10:15:02 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in code-projects Pharmacy Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /add_new_supplier.php. The manipulation of the argument name leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10139",
+      "cveUrl": "/vuln/detail/CVE-2024-10139"
+    }
+  },
+  "CVE-2024-10140": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "11:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in code-projects Pharmacy Management System 1.0. Affected by this issue is some unknown functionality of the file /manage_supplier.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10140",
+      "cveUrl": "/vuln/detail/CVE-2024-10140"
+    }
+  },
+  "CVE-2024-10141": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "11:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, was found in jsbroks COCO Annotator 0.11.1. This affects an unknown part of the component Session Handler. The manipulation of the argument SECRET_KEY leads to predictable from observable state. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10141",
+      "cveUrl": "/vuln/detail/CVE-2024-10141"
+    }
+  },
+  "CVE-2024-10142": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "1:15:10 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in code-projects Blood Bank System 1.0 and classified as problematic. This vulnerability affects unknown code of the file /viewrequest.php. The manipulation leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10142",
+      "cveUrl": "/vuln/detail/CVE-2024-10142"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
