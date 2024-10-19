@@ -54,6 +54,17 @@
       "cveUrl": "/vuln/detail/CVE-2018-25104"
     }
   },
+  "CVE-2019-25218": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "12:15:03 AM -0400"
+      ],
+      "cveDis": "The Photo Gallery Slideshow & Masonry Tiled Gallery plugin for WordPress is vulnerable to SQL Injection via the 'id' parameter in all versions up to, and including, 1.0.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2019-25218",
+      "cveUrl": "/vuln/detail/CVE-2019-25218"
+    }
+  },
   "CVE-2020-368315-0 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -659,6 +670,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-6080"
     }
   },
+  "CVE-2023-62434-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "3:15:02 AM -0400"
+      ],
+      "cveDis": "The EventON PRO - WordPress Virtual Event Calendar Plugin plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 4.6.8. This is due to missing or incorrect nonce validation on the admin_test_email function. This makes it possible for unauthenticated attackers to send test emails to arbitrary email addresses via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2023-62434-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2023-6243"
+    }
+  },
   "CVE-2023-6361": {
     "cve": {
       "cveDate": [
@@ -1229,6 +1251,39 @@
       "cveDis": "A vulnerability classified as critical was found in Tenda AC8 16.03.34.06. This vulnerability affects the function formSetRebootTimer of the file /goform/SetSysAutoRebbotCfg. The manipulation of the argument rebootTime leads to stack-based buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-10130",
       "cveUrl": "/vuln/detail/CVE-2024-10130"
+    }
+  },
+  "CVE-2024-10131": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "12:15:05 AM -0400"
+      ],
+      "cveDis": "The `add_llm` function in `llm_app.py` in infiniflow/ragflow version 0.11.0 contains a remote code execution (RCE) vulnerability. The function uses user-supplied input `req['llm_factory']` and `req['llm_name']` to dynamically instantiate classes from various model dictionaries. This approach allows an attacker to potentially execute arbitrary code due to the lack of comprehensive input validation or sanitization. An attacker could provide a malicious value for 'llm_factory' that, when used as an index to these model dictionaries, results in the execution of arbitrary code.",
+      "cveName": "CVE-2024-10131",
+      "cveUrl": "/vuln/detail/CVE-2024-10131"
+    }
+  },
+  "CVE-2024-10133": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "5:15:11 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in ESAFENET CDG 5 and classified as critical. Affected by this vulnerability is the function updateNetSecPolicyPriority of the file /com/esafenet/servlet/ajax/NetSecPolicyAjax.java. The manipulation of the argument id/frontId leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10133",
+      "cveUrl": "/vuln/detail/CVE-2024-10133"
+    }
+  },
+  "CVE-2024-10134": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "6:15:02 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5 and classified as critical. Affected by this issue is the function connectLogout of the file /com/esafenet/servlet/ajax/MultiServerAjax.java. The manipulation of the argument servername leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10134",
+      "cveUrl": "/vuln/detail/CVE-2024-10134"
     }
   },
   "CVE-2024-20090": {
@@ -2208,6 +2263,17 @@
       "cveDis": "Versions of the package markdown-to-jsx before 7.4.0 are vulnerable to Cross-site Scripting (XSS) via the src property due to improper input sanitization. An attacker can execute arbitrary code by injecting a malicious iframe element in the markdown.",
       "cveName": "CVE-2024-21535",
       "cveUrl": "/vuln/detail/CVE-2024-21535"
+    }
+  },
+  "CVE-2024-21536": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "1:15:13 AM -0400"
+      ],
+      "cveDis": "Versions of the package http-proxy-middleware before 2.0.7, from 3.0.0 and before 3.0.3 are vulnerable to Denial of Service (DoS) due to an UnhandledPromiseRejection error thrown by micromatch. An attacker could kill the Node.js process and crash the server by making requests to certain paths.",
+      "cveName": "CVE-2024-21536",
+      "cveUrl": "/vuln/detail/CVE-2024-21536"
     }
   },
   "CVE-2024-22032": {
@@ -16708,6 +16774,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9218"
     }
   },
+  "CVE-2024-92196-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "12:15:05 AM -0400"
+      ],
+      "cveDis": "The WordPress Social Share Buttons plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.19. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-92196-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9219"
+    }
+  },
   "CVE-2024-92206-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -19590,6 +19667,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9863"
     }
   },
+  "CVE-2024-98894-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "3:15:03 AM -0400"
+      ],
+      "cveDis": "The ElementInvader Addons for Elementor plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.2.9 via the Page Loader widget. This makes it possible for authenticated attackers, with contributor-level access and above, to view private/draft/password protected posts, pages, and Elementor templates that they should not have access to.",
+      "cveName": "CVE-2024-98894-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9889"
+    }
+  },
   "CVE-2024-98914-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -19643,6 +19731,17 @@
       "cveDis": "The Smart Online Order for Clover plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's moo_receipt_link shortcode in all versions up to, and including, 1.5.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-98956-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9895"
+    }
+  },
+  "CVE-2024-98976-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 19, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "The StreamWeasels Twitch Integration plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's sw-twitch-embed shortcode in all versions up to, and including, 1.8.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-98976-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9897"
     }
   },
   "CVE-2024-98986-4 MEDIUM": {
