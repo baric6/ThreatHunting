@@ -1671,6 +1671,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-10199"
     }
   },
+  "CVE-2024-102007-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 21, 2024",
+        "12:15:02 AM -0400"
+      ],
+      "cveDis": "Administrative Management System from Wellchoose has a Path Traversal vulnerability, allowing unauthenticated remote attackers to exploit this vulnerability to download arbitrary files on the server.",
+      "cveName": "CVE-2024-102007-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10200"
+    }
+  },
+  "CVE-2024-102018-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 21, 2024",
+        "12:15:02 AM -0400"
+      ],
+      "cveDis": "Administrative Management System from Wellchoose does not properly validate uploaded file types, allowing remote attackers with regular privileges to upload and execute webshells.",
+      "cveName": "CVE-2024-102018-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10201"
+    }
+  },
+  "CVE-2024-102028-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 21, 2024",
+        "12:15:03 AM -0400"
+      ],
+      "cveDis": "Administrative Management System from Wellchoose has an OS Command Injection vulnerability, allowing remote attackers with regular privileges to inject and execute arbitrary OS commands.",
+      "cveName": "CVE-2024-102028-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10202"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -16629,6 +16662,17 @@
       "cveDis": "When the XML is read from the codes in the PDF and parsed using a DocumentBuilder, the default settings of the DocumentBuilder allow for an XXE (XML External Entity) attack. Further information on this can be found on the website of the Open Worldwide Application Security Project (OWASP). An attacker could theoretically leverage this by delivering a manipulated PDF file to the target, and depending on the environment, various actions can be executed. These actions include:\n\n  *  Reading files from the operating system\n  *  Crashing the thread handling the parsing or causing it to enter an infinite loop\n  *  Executing HTTP requests\n  *  Loading additional DTDs or XML files\n  *  Under certain conditions, executing OS commands",
       "cveName": "CVE-2024-8602",
       "cveUrl": "/vuln/detail/CVE-2024-8602"
+    }
+  },
+  "CVE-2024-8625": {
+    "cve": {
+      "cveDate": [
+        "October 21, 2024",
+        "2:15:02 AM -0400"
+      ],
+      "cveDis": "The TS Poll  WordPress plugin before 2.4.0 does not sanitize and escape a parameter before using it in a SQL statement, allowing admins to perform SQL injection attacks",
+      "cveName": "CVE-2024-8625",
+      "cveUrl": "/vuln/detail/CVE-2024-8625"
     }
   },
   "CVE-2024-8626": {
