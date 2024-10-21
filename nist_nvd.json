@@ -1627,6 +1627,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-10195"
     }
   },
+  "CVE-2024-10196": {
+    "cve": {
+      "cveDate": [
+        "October 20, 2024",
+        "9:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Pharmacy Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /add_new_invoice.php. The manipulation of the argument text leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10196",
+      "cveUrl": "/vuln/detail/CVE-2024-10196"
+    }
+  },
+  "CVE-2024-10197": {
+    "cve": {
+      "cveDate": [
+        "October 20, 2024",
+        "9:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Pharmacy Management System 1.0. It has been classified as problematic. Affected is an unknown function of the file /manage_supplier.php of the component Manage Supplier Page. The manipulation of the argument address leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-10197",
+      "cveUrl": "/vuln/detail/CVE-2024-10197"
+    }
+  },
+  "CVE-2024-10198": {
+    "cve": {
+      "cveDate": [
+        "October 20, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Pharmacy Management System 1.0. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /manage_customer.php of the component Manage Customer Page. The manipulation of the argument suppliers_name/address leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory mentions contradicting files to be affected. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-10198",
+      "cveUrl": "/vuln/detail/CVE-2024-10198"
+    }
+  },
+  "CVE-2024-10199": {
+    "cve": {
+      "cveDate": [
+        "October 20, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Pharmacy Management System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /manage_medicine.php of the component Manage Medicines Page. The manipulation of the argument name/address/doctor_address/suppliers_name leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory mentions contradicting files to be affected.",
+      "cveName": "CVE-2024-10199",
+      "cveUrl": "/vuln/detail/CVE-2024-10199"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -5827,6 +5871,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Microchip TimeProvider 4100 (banner config modules) allows Cross-Site Scripting (XSS).This issue affects TimeProvider 4100: from 1.0 before 2.4.7.",
       "cveName": "CVE-2024-43687",
       "cveUrl": "/vuln/detail/CVE-2024-43687"
+    }
+  },
+  "CVE-2024-43689": {
+    "cve": {
+      "cveDate": [
+        "October 20, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "Stack-based buffer overflow vulnerability exists in WAB-I1750-PS and WAB-S1167-PS. By processing a specially crafted HTTP request, arbitrary code may be executed.",
+      "cveName": "CVE-2024-43689",
+      "cveUrl": "/vuln/detail/CVE-2024-43689"
     }
   },
   "CVE-2024-43699": {
@@ -13714,6 +13769,17 @@
       "cveDis": "QUIC in HAProxy 3.1.x before 3.1-dev7, 3.0.x before 3.0.5, and 2.9.x before 2.9.11 allows opening a 0-RTT session with a spoofed IP address. This can bypass the IP allow/block list functionality.",
       "cveName": "CVE-2024-49214",
       "cveUrl": "/vuln/detail/CVE-2024-49214"
+    }
+  },
+  "CVE-2024-49215": {
+    "cve": {
+      "cveDate": [
+        "October 20, 2024",
+        "9:15:02 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Sangoma Asterisk through 18.20.0, 19.x and 20.x through 20.5.0, and 21.x through 21.0.0, and Certified Asterisk through 18.9-cert5. In manager.c, the functions action_getconfig() and action_getconfigJson() do not process the input file path, resulting in a path traversal vulnerability. In versions without the restrictedFile() function, no processing is done on the input path. In versions with the restrictedFile() function, path traversal is not processed.",
+      "cveName": "CVE-2024-49215",
+      "cveUrl": "/vuln/detail/CVE-2024-49215"
     }
   },
   "CVE-2024-49216": {
