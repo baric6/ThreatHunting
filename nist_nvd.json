@@ -615,6 +615,28 @@
       "cveUrl": "/vuln/detail/CVE-2023-52917"
     }
   },
+  "CVE-2023-52918": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: pci: cx23885: check cx23885_vdev_init() return\n\ncx23885_vdev_init() can return a NULL pointer, but that pointer\nis used in the next line without a check.\n\nAdd a NULL pointer check and go to the error unwind if it is NULL.",
+      "cveName": "CVE-2023-52918",
+      "cveUrl": "/vuln/detail/CVE-2023-52918"
+    }
+  },
+  "CVE-2023-52919": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfc: nci: fix possible NULL pointer dereference in send_acknowledge()\n\nHandle memory allocation failure from nci_skb_alloc() (calling\nalloc_skb()) to avoid possible NULL pointer dereference.",
+      "cveName": "CVE-2023-52919",
+      "cveUrl": "/vuln/detail/CVE-2023-52919"
+    }
+  },
   "CVE-2023-52952": {
     "cve": {
       "cveDate": [
@@ -921,6 +943,28 @@
       "cveDis": "NVIDIA NeMo contains a vulnerability in SaveRestoreConnector where a user may cause a path traversal issue via an unsafe .tar file extraction. A successful exploit of this vulnerability may lead to code execution and data tampering.",
       "cveName": "CVE-2024-0129",
       "cveUrl": "/vuln/detail/CVE-2024-0129"
+    }
+  },
+  "CVE-2024-100028-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "1:15:03 AM -0400"
+      ],
+      "cveDis": "The Rover IDX plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 3.0.0.2905. This is due to insufficient validation and capability check on the 'rover_idx_refresh_social_callback' function. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to log in to administrator. The vulnerability is partially patched in version 3.0.0.2905 and fully patched in version 3.0.0.2906.",
+      "cveName": "CVE-2024-100028-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10002"
+    }
+  },
+  "CVE-2024-100036-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "1:15:05 AM -0400"
+      ],
+      "cveDis": "The Rover IDX plugin for WordPress is vulnerable to unauthorized access, modification, and loss of data due to a missing capability check on multiple functions in all versions up to, and including, 3.0.0.2903. This makes it possible for authenticated attackers, with subscriber-level access and above, to add, modify, or delete plugin options.",
+      "cveName": "CVE-2024-100036-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10003"
     }
   },
   "CVE-2024-10004": {
@@ -1592,6 +1636,17 @@
       "cveDis": "A vulnerability has been found in didi DDMQ 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the component Console Module. The manipulation with the input /;login leads to improper authentication. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-10173",
       "cveUrl": "/vuln/detail/CVE-2024-10173"
+    }
+  },
+  "CVE-2024-101896-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:03 AM -0400"
+      ],
+      "cveDis": "The Anchor Episodes Index (Spotify for Podcasters) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's anchor_episodes shortcode in all versions up to, and including, 2.1.10 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-101896-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10189"
     }
   },
   "CVE-2024-10191": {
@@ -4034,6 +4089,17 @@
       "cveDis": "An unauthenticated remote attacker may use the devices traffic capture without authentication to grab plaintext administrative credentials.",
       "cveName": "CVE-2024-352946-5 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-35294"
+    }
+  },
+  "CVE-2024-35308": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "5:15:02 AM -0400"
+      ],
+      "cveDis": "A post-authentication arbitrary file read vulnerability within the server plugins section in plugin edition feature. This issue affects Pandora FMS: from 700 through <777.3.",
+      "cveName": "CVE-2024-35308",
+      "cveUrl": "/vuln/detail/CVE-2024-35308"
     }
   },
   "CVE-2024-35314": {
@@ -18303,6 +18369,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8804"
     }
   },
+  "CVE-2024-88525-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "2:15:04 AM -0400"
+      ],
+      "cveDis": "The All-in-One WP Migration and Backup plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 7.86 through publicly exposed log files. This makes it possible for unauthenticated attackers to view potentially sensitive information such as full paths contained in the exposed log files.",
+      "cveName": "CVE-2024-88525-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8852"
+    }
+  },
   "CVE-2024-8884": {
     "cve": {
       "cveDate": [
@@ -19181,6 +19258,17 @@
       "cveDis": "The Loggedin – Limit Active Logins plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.3.1. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. This is only exploitable when the leave a review notice is present.",
       "cveName": "CVE-2024-92286-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9228"
+    }
+  },
+  "CVE-2024-92316-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:07 AM -0400"
+      ],
+      "cveDis": "The WP-Members Membership Plugin plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 3.4.9.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-92316-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9231"
     }
   },
   "CVE-2024-92376-1 MEDIUM": {
@@ -20800,6 +20888,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9540"
     }
   },
+  "CVE-2024-9541": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "The News Kit Elementor Addons plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.2.1 via the render function in includes/widgets/canvas-menu/canvas-menu.php. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive private, pending, and draft Elementor template data.",
+      "cveName": "CVE-2024-9541",
+      "cveUrl": "/vuln/detail/CVE-2024-9541"
+    }
+  },
   "CVE-2024-95465-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -21152,6 +21251,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-9582"
     }
   },
+  "CVE-2024-95885-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "The Category and Taxonomy Meta Fields plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.0.0. This is due to missing or incorrect nonce validation on the 'wpaft_option_page' function. This makes it possible for unauthenticated attackers to add and delete taxonomy meta, granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-95885-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9588"
+    }
+  },
+  "CVE-2024-95895-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "The Category and Taxonomy Meta Fields plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'new_meta_name' parameter in the 'wpaft_option_page' function in versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with administrator-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "cveName": "CVE-2024-95895-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9589"
+    }
+  },
+  "CVE-2024-95905-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "The Category and Taxonomy Meta Fields plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the image meta field value in the 'wpaft_add_meta_textinput' function in versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with editor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "cveName": "CVE-2024-95905-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9590"
+    }
+  },
+  "CVE-2024-95915-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "4:15:05 AM -0400"
+      ],
+      "cveDis": "The Category and Taxonomy Image plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the '_category_image' parameter in versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with editor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "cveName": "CVE-2024-95915-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9591"
+    }
+  },
   "CVE-2024-95926-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -21271,6 +21414,17 @@
       "cveDis": "An issue was discovered in GitLab CE/EE affecting all versions starting from 8.16 prior to 17.2.9, starting from 17.3 prior to 17.3.5, and starting from 17.4 prior to 17.4.2, which allows deploy keys to push to an archived repository.",
       "cveName": "CVE-2024-9623",
       "cveUrl": "/vuln/detail/CVE-2024-9623"
+    }
+  },
+  "CVE-2024-96278-6 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "3:15:02 AM -0400"
+      ],
+      "cveDis": "The TeploBot - Telegram Bot for WP plugin for WordPress is vulnerable to sensitive information disclosure due to missing authorization checks on the 'service_process' function in all versions up to, and including, 1.3. This makes it possible for unauthenticated attackers to view the Telegram Bot Token, which is a secret token to control the bot.",
+      "cveName": "CVE-2024-96278-6 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9627"
     }
   },
   "CVE-2024-96349-8 CRITICAL": {
@@ -22745,6 +22899,17 @@
       "cveDis": "A vulnerability was found in code-projects Blood Bank Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file member_register.php. The manipulation of the argument fullname/username/password/email leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"password\" to be affected. But it must be assumed that other parameters are affected as well.",
       "cveName": "CVE-2024-9986",
       "cveUrl": "/vuln/detail/CVE-2024-9986"
+    }
+  },
+  "CVE-2024-9987": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "A post-authentication SQL Injection vulnerability within the filters parameter of the extensions/agents_modules_csv functionality. This issue affects Pandora FMS: from 700 through <777.3.",
+      "cveName": "CVE-2024-9987",
+      "cveUrl": "/vuln/detail/CVE-2024-9987"
     }
   }
 }
