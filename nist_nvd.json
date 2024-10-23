@@ -1055,6 +1055,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10040"
     }
   },
+  "CVE-2024-100414-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "10:15:03 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.",
+      "cveName": "CVE-2024-100414-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10041"
+    }
+  },
   "CVE-2024-100454-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -1869,6 +1880,160 @@
       "cveUrl": "/vuln/detail/CVE-2024-10234"
     }
   },
+  "CVE-2024-102506-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "The Nioland theme for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘s’ parameter in all versions up to, and including, 1.2.6 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-102506-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10250"
+    }
+  },
+  "CVE-2024-10278": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5. It has been classified as critical. This affects an unknown part of the file /com/esafenet/servlet/user/ReUserOrganiseService.java. The manipulation of the argument userId leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10278",
+      "cveUrl": "/vuln/detail/CVE-2024-10278"
+    }
+  },
+  "CVE-2024-10279": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5. It has been declared as critical. This vulnerability affects unknown code of the file /com/esafenet/servlet/policy/PrintPolicyService.java. The manipulation of the argument policyId leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10279",
+      "cveUrl": "/vuln/detail/CVE-2024-10279"
+    }
+  },
+  "CVE-2024-10280": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Tenda AC6, AC7, AC8, AC9, AC10, AC10U, AC15, AC18, AC500 and AC1206 up to 20241022. It has been rated as problematic. This issue affects the function websReadEvent of the file /goform/GetIPTV. The manipulation of the argument Content-Length leads to null pointer dereference. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10280",
+      "cveUrl": "/vuln/detail/CVE-2024-10280"
+    }
+  },
+  "CVE-2024-10281": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in Tenda RX9 and RX9 Pro 22.03.02.10/22.03.02.20. Affected is the function sub_42EEE0 of the file /goform/SetStaticRouteCfg. The manipulation of the argument list leads to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10281",
+      "cveUrl": "/vuln/detail/CVE-2024-10281"
+    }
+  },
+  "CVE-2024-10282": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:29 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in Tenda RX9 and RX9 Pro 22.03.02.10/22.03.02.20. Affected by this vulnerability is the function sub_42EA38 of the file /goform/SetVirtualServerCfg. The manipulation of the argument list leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10282",
+      "cveUrl": "/vuln/detail/CVE-2024-10282"
+    }
+  },
+  "CVE-2024-10283": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:29 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in Tenda RX9 and RX9 Pro 22.03.02.20. Affected by this issue is the function sub_4337EC of the file /goform/SetNetControlList. The manipulation of the argument list leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10283",
+      "cveUrl": "/vuln/detail/CVE-2024-10283"
+    }
+  },
+  "CVE-2024-10288": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "8:15:03 AM -0400"
+      ],
+      "cveDis": "Cross-Site Scripting (XSS) vulnerability affecting LocalServer 1.0.9 that could allow a remote user to send a specially crafted query to an authenticated user and steal their session details through /mlss/SubscribeToList, parameter ListName.",
+      "cveName": "CVE-2024-10288",
+      "cveUrl": "/vuln/detail/CVE-2024-10288"
+    }
+  },
+  "CVE-2024-10289": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "8:15:03 AM -0400"
+      ],
+      "cveDis": "Cross-Site Scripting (XSS) vulnerability affecting LocalServer 1.0.9 that could allow a remote user to send a specially crafted query to an authenticated user and steal their session details through /mlss/ManageSubscription, parameter MSubListName.",
+      "cveName": "CVE-2024-10289",
+      "cveUrl": "/vuln/detail/CVE-2024-10289"
+    }
+  },
+  "CVE-2024-10290": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:30 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, was found in ZZCMS 2023. This affects an unknown part of the file 3/qq-connect2.0/API/com/inc.php. The manipulation leads to information disclosure. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10290",
+      "cveUrl": "/vuln/detail/CVE-2024-10290"
+    }
+  },
+  "CVE-2024-10291": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:04 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in ZZCMS 2023 and classified as critical. This vulnerability affects the function Ebak_DoExecSQL/Ebak_DotranExecutSQL of the file 3/Ebak5.1/upload/phome.php. The manipulation of the argument phome leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10291",
+      "cveUrl": "/vuln/detail/CVE-2024-10291"
+    }
+  },
+  "CVE-2024-10292": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:04 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ZZCMS 2023 and classified as critical. This issue affects some unknown processing of the file 3/Ebak5.1/upload/ChangeTable.php. The manipulation of the argument savefilename leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10292",
+      "cveUrl": "/vuln/detail/CVE-2024-10292"
+    }
+  },
+  "CVE-2024-10293": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ZZCMS 2023. It has been classified as critical. Affected is the function Ebak_SetGotoPak of the file 3/Ebbak5.1/upload/class/functions.php. The manipulation of the argument file leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10293",
+      "cveUrl": "/vuln/detail/CVE-2024-10293"
+    }
+  },
+  "CVE-2024-10296": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in PHPGurukul Medical Card Generation System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /admin/card-bwdates-reports-details.php of the component Report of Medical Card Page. The manipulation of the argument fromdate/todate leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10296",
+      "cveUrl": "/vuln/detail/CVE-2024-10296"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -2023,6 +2188,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-20103"
     }
   },
+  "CVE-2024-20260": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:13 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the VPN and management web servers of the Cisco Adaptive Security Virtual Appliance (ASAv) and Cisco Secure Firewall Threat Defense Virtual (FTDv), formerly Cisco Firepower Threat Defense Virtual, platforms could allow an unauthenticated, remote attacker to cause the virtual devices to run out of system memory, which could cause SSL VPN connection processing to slow down and eventually cease all together.\n\nThis vulnerability is due to a lack of proper memory management for new incoming SSL/TLS connections on the virtual platforms. An attacker could exploit this vulnerability by sending a large number of new incoming SSL/TLS connections to the targeted virtual platform. A successful exploit could allow the attacker to deplete system memory,&nbsp;resulting in a denial of service (DoS) condition. The memory could be reclaimed slowly if the attack traffic is stopped, but a manual reload may be required to restore operations quickly.",
+      "cveName": "CVE-2024-20260",
+      "cveUrl": "/vuln/detail/CVE-2024-20260"
+    }
+  },
+  "CVE-2024-20264": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface of an affected device. This vulnerability is due to insufficient validation of user-supplied input by the web-based management interface. An attacker could exploit this vulnerability by inserting crafted input into various data fields in an affected interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface, or access sensitive, browser-based information.",
+      "cveName": "CVE-2024-20264",
+      "cveUrl": "/vuln/detail/CVE-2024-20264"
+    }
+  },
+  "CVE-2024-20268": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the Simple Network Management Protocol (SNMP) feature of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an authenticated, remote attacker to cause an unexpected reload of the device.\n\nThis vulnerability is due to insufficient input validation of SNMP packets. An attacker could exploit this vulnerability by sending a crafted SNMP request to an affected device using IPv4 or IPv6. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a denial of service (DoS) condition. This vulnerability affects all versions of SNMP (versions 1, 2c, and 3) and requires a valid SNMP community string or valid SNMPv3 user credentials.",
+      "cveName": "CVE-2024-20268",
+      "cveUrl": "/vuln/detail/CVE-2024-20268"
+    }
+  },
+  "CVE-2024-20269": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface of an affected device. This vulnerability is due to insufficient validation of user-supplied input by the web-based management interface. An attacker could exploit this vulnerability by inserting crafted input into various data fields in an affected interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface, or access sensitive, browser-based information.",
+      "cveName": "CVE-2024-20269",
+      "cveUrl": "/vuln/detail/CVE-2024-20269"
+    }
+  },
+  "CVE-2024-20273": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Firepower Management Center (FMC) Software could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface of an affected device. This vulnerability is due to insufficient validation of user-supplied input by the web-based management interface. An attacker could exploit this vulnerability by inserting crafted input into various data fields in an affected interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface, or access sensitive, browser-based information.",
+      "cveName": "CVE-2024-20273",
+      "cveUrl": "/vuln/detail/CVE-2024-20273"
+    }
+  },
+  "CVE-2024-20274": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:15 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Secure Firewall Management Center (FMC) Software, formerly Firepower Management Center Software, could allow an authenticated, remote attacker to inject arbitrary HTML content into a device-generated document.\n\nThis vulnerability is due to improper validation of user-supplied data. An attacker could exploit this vulnerability by submitting malicious content to an affected device and using the device to generate a document that contains sensitive information. A successful exploit could allow the attacker to alter the standard layout of the device-generated documents, access arbitrary files from the underlying operating system, and conduct server-side request forgery (SSRF) attacks. To successfully exploit this vulnerability, an attacker would need valid credentials for a user account with policy-editing permissions, such as Network Admin, Intrusion Admin, or any custom user role with the same capabilities.",
+      "cveName": "CVE-2024-20274",
+      "cveUrl": "/vuln/detail/CVE-2024-20274"
+    }
+  },
+  "CVE-2024-20275": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:15 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the cluster backup feature of Cisco Secure Firewall Management Center (FMC) Software, formerly Firepower Management Center Software, could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system.\n\nThis vulnerability is due to insufficient validation of user data that is supplied through the web-based management interface. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to execute arbitrary operating system commands on the affected device. To exploit this vulnerability, an attacker would need valid credentials for a user account with at least the role of Network Administrator. In addition, the attacker would need to persuade a legitimate user to initiate a cluster backup on the affected device.",
+      "cveName": "CVE-2024-20275",
+      "cveUrl": "/vuln/detail/CVE-2024-20275"
+    }
+  },
   "CVE-2024-20280": {
     "cve": {
       "cveDate": [
@@ -2032,6 +2274,138 @@
       "cveDis": "A vulnerability in the backup feature of Cisco UCS Central Software could allow an attacker with access to a backup file to learn sensitive information that is stored in the full state and configuration backup files.\n\nThis vulnerability is due to a weakness in the encryption method that is used for the backup function. An attacker could exploit this vulnerability by accessing a backup file and leveraging a static key that is used for the backup configuration feature. A successful exploit could allow an attacker with access to a backup file to learn sensitive information that is stored in full state backup files and configuration backup files, such as local user credentials, authentication server passwords, Simple Network Management Protocol (SNMP) community names, and the device SSL server certificate and key.",
       "cveName": "CVE-2024-20280",
       "cveUrl": "/vuln/detail/CVE-2024-20280"
+    }
+  },
+  "CVE-2024-20297": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:15 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the AnyConnect firewall for Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to bypass a configured access control list (ACL) and allow traffic that should have been denied to flow through an affected device. This vulnerability is due to a logic error in populating group ACLs when an AnyConnect client establishes a new session toward an affected device. An attacker could exploit this vulnerability by establishing an AnyConnect connection to the affected device. A successful exploit could allow the attacker to bypass configured ACL rules.",
+      "cveName": "CVE-2024-20297",
+      "cveUrl": "/vuln/detail/CVE-2024-20297"
+    }
+  },
+  "CVE-2024-20298": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:15 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface of an affected device. This vulnerability is due to insufficient validation of user-supplied input by the web-based management interface. An attacker could exploit this vulnerability by inserting crafted input into various data fields in an affected interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface, or access sensitive, browser-based information.",
+      "cveName": "CVE-2024-20298",
+      "cveUrl": "/vuln/detail/CVE-2024-20298"
+    }
+  },
+  "CVE-2024-20299": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the AnyConnect firewall for Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to bypass a configured access control list (ACL) and allow traffic that should have been denied to flow through an affected device. This vulnerability is due to a logic error in populating group ACLs when an AnyConnect client establishes a new session toward an affected device. An attacker could exploit this vulnerability by establishing an AnyConnect connection to the affected device. A successful exploit could allow the attacker to bypass configured ACL rules.",
+      "cveName": "CVE-2024-20299",
+      "cveUrl": "/vuln/detail/CVE-2024-20299"
+    }
+  },
+  "CVE-2024-20300": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface of an affected device. This vulnerability is due to insufficient validation of user-supplied input by the web-based management interface. An attacker could exploit this vulnerability by inserting crafted input into various data fields in an affected interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface, or access sensitive, browser-based information.",
+      "cveName": "CVE-2024-20300",
+      "cveUrl": "/vuln/detail/CVE-2024-20300"
+    }
+  },
+  "CVE-2024-20329": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the SSH subsystem of Cisco Adaptive Security Appliance (ASA) Software could allow an authenticated, remote attacker to execute operating system commands as root.\n\nThis vulnerability is due to insufficient validation of user input. An attacker could exploit this vulnerability by submitting crafted input when executing remote CLI commands over SSH. A successful exploit could allow the attacker to execute commands on the underlying operating system with root-level privileges. An attacker with limited user privileges could use this vulnerability to gain complete control over the system.",
+      "cveName": "CVE-2024-20329",
+      "cveUrl": "/vuln/detail/CVE-2024-20329"
+    }
+  },
+  "CVE-2024-20330": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the Snort 2 and Snort 3 TCP and UDP detection engine of Cisco Firepower Threat Defense (FTD) Software for Cisco Firepower 2100 Series Appliances could allow an unauthenticated, remote attacker to cause memory corruption, which could cause the Snort detection engine to restart unexpectedly.\n\nThis vulnerability is due to improper memory management when the Snort detection engine processes specific TCP or UDP packets. An attacker could exploit this vulnerability by sending crafted TCP or UDP packets through a device that is inspecting traffic using the Snort detection engine. A successful exploit could allow the attacker to restart the Snort detection engine repeatedly, which could cause a denial of service (DoS) condition. The DoS condition impacts only the traffic through the device that is examined by the Snort detection engine. The device can still be managed over the network.\nNote: Once a memory block is corrupted, it cannot be cleared until the Cisco Firepower 2100 Series Appliance is manually reloaded. This means that the Snort detection engine could crash repeatedly, causing traffic that is processed by the Snort detection engine to be dropped until the device is manually reloaded.",
+      "cveName": "CVE-2024-20330",
+      "cveUrl": "/vuln/detail/CVE-2024-20330"
+    }
+  },
+  "CVE-2024-20331": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the session authentication functionality of the Remote Access SSL VPN feature of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to prevent users from authenticating.\n\nThis vulnerability is due to insufficient entropy in the authentication process. An attacker could exploit this vulnerability by determining the handle of an authenticating user and using it to terminate their authentication session. A successful exploit could allow the attacker to force a user to restart the authentication process, preventing a legitimate user from establishing remote access VPN sessions.",
+      "cveName": "CVE-2024-20331",
+      "cveUrl": "/vuln/detail/CVE-2024-20331"
+    }
+  },
+  "CVE-2024-20339": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the TLS processing feature of Cisco Firepower Threat Defense (FTD) Software for Cisco Firepower 2100 Series could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.\n\nThis vulnerability is due to an issue that occurs when TLS traffic is processed. An attacker could exploit this vulnerability by sending certain TLS traffic over IPv4 through an affected device. A successful exploit could allow the attacker to cause the device to reload, resulting in a DoS condition and impacting traffic to and through the affected device.",
+      "cveName": "CVE-2024-20339",
+      "cveUrl": "/vuln/detail/CVE-2024-20339"
+    }
+  },
+  "CVE-2024-20340": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Secure Firewall Management Center (FMC) Software, formerly Firepower Management Center Software, could allow an authenticated, remote attacker to perform an SQL injection attack against an affected device. To exploit this vulnerability, an attacker must have a valid account on the device with the role of Security Approver, Intrusion Admin, Access Admin, or Network Admin.\n\nThis vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending a crafted HTTP request to the web-based management interface of an affected device. A successful exploit could allow the attacker to read the contents of databases on the affected device and also obtain limited read access to the underlying operating system.",
+      "cveName": "CVE-2024-20340",
+      "cveUrl": "/vuln/detail/CVE-2024-20340"
+    }
+  },
+  "CVE-2024-20341": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the VPN web client services feature of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a browser that is accessing an affected device. This vulnerability is due to improper validation of user-supplied input to application endpoints. An attacker could exploit this vulnerability by persuading a user to follow a link designed to submit malicious input to the affected application. A successful exploit could allow the attacker to execute arbitrary HTML or script code in the browser in the context of the web services page.",
+      "cveName": "CVE-2024-20341",
+      "cveUrl": "/vuln/detail/CVE-2024-20341"
+    }
+  },
+  "CVE-2024-20342": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "Multiple Cisco products are affected by a vulnerability in the rate filtering feature of the Snort detection engine that could allow an unauthenticated, remote attacker to bypass a configured rate limiting filter.\n\nThis vulnerability is due to an incorrect connection count comparison. An attacker could exploit this vulnerability by sending traffic through an affected device at a rate that exceeds a configured rate filter. A successful exploit could allow the attacker to successfully bypass the rate filter. This could allow unintended traffic to enter the network protected by the affected device.",
+      "cveName": "CVE-2024-20342",
+      "cveUrl": "/vuln/detail/CVE-2024-20342"
+    }
+  },
+  "CVE-2024-20351": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "A vulnerability in the TCP/IP traffic handling function of the Snort Detection Engine of Cisco Firepower Threat Defense (FTD) Software and Cisco FirePOWER Services could allow an unauthenticated, remote attacker to cause legitimate network traffic to be dropped, resulting in a denial of service (DoS) condition.\n\nThis vulnerability is due to the improper handling of TCP/IP network traffic. An attacker could exploit this vulnerability by sending a large amount of TCP/IP network traffic through the affected device. A successful exploit could allow the attacker to cause the Cisco FTD device to drop network traffic, resulting in a DoS condition. The affected device must be rebooted to resolve the DoS condition.",
+      "cveName": "CVE-2024-20351",
+      "cveUrl": "/vuln/detail/CVE-2024-20351"
     }
   },
   "CVE-2024-20365": {
@@ -3594,6 +3968,28 @@
       "cveDis": "HCL Connections is vulnerable to an information disclosure vulnerability which could allow a user to obtain sensitive information they are not entitled to because of improperly handling the request data.",
       "cveName": "CVE-2024-30118",
       "cveUrl": "/vuln/detail/CVE-2024-30118"
+    }
+  },
+  "CVE-2024-30122": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:30 AM -0400"
+      ],
+      "cveDis": "HCL Sametime is impacted by misconfigured security related HTTP headers. It was identified that some HTTP headers were missing on web service responses. This will lead to less secure browser default treatment for the policies controlled by these headers.",
+      "cveName": "CVE-2024-30122",
+      "cveUrl": "/vuln/detail/CVE-2024-30122"
+    }
+  },
+  "CVE-2024-30124": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "HCL Sametime is impacted by insecure services in-use on the UIM client by default. An unused legacy REST service was enabled by default using the HTTP protocol. An attacker could potentially use this service endpoint maliciously.",
+      "cveName": "CVE-2024-30124",
+      "cveUrl": "/vuln/detail/CVE-2024-30124"
     }
   },
   "CVE-2024-30132": {
@@ -11659,6 +12055,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47565"
     }
   },
+  "CVE-2024-47575": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:30 AM -0400"
+      ],
+      "cveDis": "A missing authentication for critical function in FortiManager 7.6.0, FortiManager 7.4.0 through 7.4.4, FortiManager 7.2.0 through 7.2.7, FortiManager 7.0.0 through 7.0.12, FortiManager 6.4.0 through 6.4.14, FortiManager 6.2.0 through 6.2.12, Fortinet FortiManager Cloud 7.4.1 through 7.4.4, FortiManager Cloud 7.2.1 through 7.2.7, FortiManager Cloud 7.0.1 through 7.0.13, FortiManager Cloud 6.4.1 through 6.4.7 allows attacker to execute arbitrary code or commands via specially crafted requests.",
+      "cveName": "CVE-2024-47575",
+      "cveUrl": "/vuln/detail/CVE-2024-47575"
+    }
+  },
   "CVE-2024-47594": {
     "cve": {
       "cveDate": [
@@ -13472,6 +13879,50 @@
       "cveDis": "Action Mailer is a framework for designing email service layers. Starting in version 3.0.0 and prior to versions 6.1.7.9, 7.0.8.5, 7.1.4.1, and 7.2.1.1, there is a possible ReDoS vulnerability in the block_format helper in Action Mailer. Carefully crafted text can cause the block_format helper to take an unexpected amount of time, possibly resulting in a DoS vulnerability. All users running an affected release should either upgrade to versions 6.1.7.9, 7.0.8.5, 7.1.4.1, or 7.2.1.1 or apply the relevant patch immediately. As a workaround, users can avoid calling the `block_format` helper or upgrade to Ruby 3.2. Ruby 3.2 has mitigations for this problem, so Rails applications using Ruby 3.2 or newer are unaffected. Rails 8.0.0.beta1 requires Ruby 3.2 or greater so is unaffected.",
       "cveName": "CVE-2024-47889",
       "cveUrl": "/vuln/detail/CVE-2024-47889"
+    }
+  },
+  "CVE-2024-4790110-0 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:30 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in InterMesh 7177 Hybrid 2.0 Subscriber (All versions < V8.2.12), InterMesh 7707 Fire Subscriber (All versions < V7.2.12 only if the IP interface is enabled (which is not the default configuration)). The web server of affected devices does not sanitize the input parameters in specific GET requests that allow for code execution on operating system level. In combination with other vulnerabilities (CVE-2024-47902, CVE-2024-47903, CVE-2024-47904) this could allow an unauthenticated remote attacker to execute arbitrary code with root privileges.",
+      "cveName": "CVE-2024-4790110-0 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-47901"
+    }
+  },
+  "CVE-2024-479027-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:31 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in InterMesh 7177 Hybrid 2.0 Subscriber (All versions < V8.2.12), InterMesh 7707 Fire Subscriber (All versions < V7.2.12 only if the IP interface is enabled (which is not the default configuration)). The web server of affected devices does not authenticate GET requests that execute specific commands (such as `ping`) on operating system level.",
+      "cveName": "CVE-2024-479027-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47902"
+    }
+  },
+  "CVE-2024-479035-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:31 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in InterMesh 7177 Hybrid 2.0 Subscriber (All versions < V8.2.12), InterMesh 7707 Fire Subscriber (All versions < V7.2.12 only if the IP interface is enabled (which is not the default configuration)). The web server of affected devices allows to write arbitrary files to the web server's DocumentRoot directory.",
+      "cveName": "CVE-2024-479035-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47903"
+    }
+  },
+  "CVE-2024-479047-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:31 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been identified in InterMesh 7177 Hybrid 2.0 Subscriber (All versions < V8.2.12), InterMesh 7707 Fire Subscriber (All versions < V7.2.12 only if the IP interface is enabled (which is not the default configuration)). The affected devices contain a SUID binary that could allow an authenticated local attacker to execute arbitrary commands with root privileges.",
+      "cveName": "CVE-2024-479047-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47904"
     }
   },
   "CVE-2024-47910": {
@@ -16323,6 +16774,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49368"
     }
   },
+  "CVE-2024-49370": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:31 AM -0400"
+      ],
+      "cveDis": "Pimcore is an open source data and experience management platform. When a PortalUserObject is connected to a PimcoreUser and \"Use Pimcore Backend Password\" is set to true, the change password function in Portal Profile sets the new password. Prior to Pimcore portal engine versions 4.1.7 and 3.1.16, the password is then set without hashing so it can be read by everyone. Everyone who combines PortalUser to PimcoreUsers and change passwords via profile settings could be affected. Versions 4.1.7 and 3.1.16 of the Pimcore portal engine fix the issue.",
+      "cveName": "CVE-2024-49370",
+      "cveUrl": "/vuln/detail/CVE-2024-49370"
+    }
+  },
   "CVE-2024-49373": {
     "cve": {
       "cveDate": [
@@ -16840,6 +17302,160 @@
       "cveUrl": "/vuln/detail/CVE-2024-49631"
     }
   },
+  "CVE-2024-49652": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in ReneeCussack 3D Work In Progress allows Upload a Web Shell to a Web Server.This issue affects 3D Work In Progress: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-49652",
+      "cveUrl": "/vuln/detail/CVE-2024-49652"
+    }
+  },
+  "CVE-2024-49653": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in James Eggers Portfolleo portfolleo allows Upload a Web Shell to a Web Server.This issue affects Portfolleo: from n/a through 1.2.",
+      "cveName": "CVE-2024-49653",
+      "cveUrl": "/vuln/detail/CVE-2024-49653"
+    }
+  },
+  "CVE-2024-49657": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in ReneeCussack 3D Work In Progress allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects 3D Work In Progress: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-49657",
+      "cveUrl": "/vuln/detail/CVE-2024-49657"
+    }
+  },
+  "CVE-2024-49658": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Ecomerciar Woocommerce Custom Profile Picture allows Upload a Web Shell to a Web Server.This issue affects Woocommerce Custom Profile Picture: from n/a through 1.0.",
+      "cveName": "CVE-2024-49658",
+      "cveUrl": "/vuln/detail/CVE-2024-49658"
+    }
+  },
+  "CVE-2024-49668": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Admin Verbalize WP Upload a Web Shell to a Web Server.This issue affects Verbalize WP: from n/a through 1.0.",
+      "cveName": "CVE-2024-49668",
+      "cveUrl": "/vuln/detail/CVE-2024-49668"
+    }
+  },
+  "CVE-2024-49669": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:07 PM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Alexander De Ridder INK Official allows Upload a Web Shell to a Web Server.This issue affects INK Official: from n/a through 4.1.2.",
+      "cveName": "CVE-2024-49669",
+      "cveUrl": "/vuln/detail/CVE-2024-49669"
+    }
+  },
+  "CVE-2024-49671": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Dogu Pekgoz AI Image Generator for Your Content & Featured Images – AI Postpix allows Upload a Web Shell to a Web Server.This issue affects AI Image Generator for Your Content & Featured Images – AI Postpix: from n/a through 1.1.8.",
+      "cveName": "CVE-2024-49671",
+      "cveUrl": "/vuln/detail/CVE-2024-49671"
+    }
+  },
+  "CVE-2024-49675": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:32 AM -0400"
+      ],
+      "cveDis": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Vitalii Bryl iBryl Switch User allows Authentication Bypass.This issue affects iBryl Switch User: from n/a through 1.0.1.",
+      "cveName": "CVE-2024-49675",
+      "cveUrl": "/vuln/detail/CVE-2024-49675"
+    }
+  },
+  "CVE-2024-49676": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Michael Bourne Custom Icons for Elementor allows Upload a Web Shell to a Web Server.This issue affects Custom Icons for Elementor: from n/a through 0.3.3.",
+      "cveName": "CVE-2024-49676",
+      "cveUrl": "/vuln/detail/CVE-2024-49676"
+    }
+  },
+  "CVE-2024-49684": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Revmakx Backup and Staging by WP Time Capsule allows Object Injection.This issue affects Backup and Staging by WP Time Capsule: from n/a through 1.22.21.",
+      "cveName": "CVE-2024-49684",
+      "cveUrl": "/vuln/detail/CVE-2024-49684"
+    }
+  },
+  "CVE-2024-49690": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Qode Interactive Qi Blocks.This issue affects Qi Blocks: from n/a through 1.3.2.",
+      "cveName": "CVE-2024-49690",
+      "cveUrl": "/vuln/detail/CVE-2024-49690"
+    }
+  },
+  "CVE-2024-49701": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Theme Horse Mags.This issue affects Mags: from n/a through 1.1.6.",
+      "cveName": "CVE-2024-49701",
+      "cveUrl": "/vuln/detail/CVE-2024-49701"
+    }
+  },
+  "CVE-2024-49751": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "Press, a Frappe custom app that runs Frappe Cloud, manages infrastructure, subscription, marketplace, and software-as-a-service (SaaS). Prior to commit 5d118a902872d7941f099ad1fb918e2421e79ccd, a user could inject HTML through SaaS signup inputs. The user who injected the unsafe HTML code would only affect themselves and would not affect other users. Commit 5d118a902872d7941f099ad1fb918e2421e79ccd patches this bug.",
+      "cveName": "CVE-2024-49751",
+      "cveUrl": "/vuln/detail/CVE-2024-49751"
+    }
+  },
+  "CVE-2024-49756": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:19 PM -0400"
+      ],
+      "cveDis": "AshPostgres is the PostgreSQL data layer for Ash Framework. Starting in version 2.0.0 and prior to version 2.4.10, in certain very specific situations, it was possible for the policies of an update action to be skipped. This occurred only on \"empty\" update actions (no changing fields), and would allow their hooks (side effects) to be performed when they should not have been. Note that this does not allow reading new data that the user should not have had access to, only triggering a side effect a user should not have been able to trigger.\n\nTo be vulnerable, an affected user must have an update action that is on a resource with no attributes containing an \"update default\" (updated_at timestamp, for example); can be performed atomically; does not have `require_atomic? false`; has at least one authorizer (typically `Ash.Policy.Authorizer`); and has at least one `change` (on the resource's `changes` block or in the action itself). This is where the side-effects would be performed when they should not have been.\n\nThis problem has been patched in `2.4.10` of `ash_postgres`. Several workarounds are available. Potentially affected users may determine that none of their actions are vulnerable using a script the maintainers provide in the GitHub Security Advisory, add `require_atomic? false` to any potentially affected update action, replace any usage of `Ash.update` with `Ash.bulk_update` for an affected action, and/or add an update timestamp to their action.",
+      "cveName": "CVE-2024-49756",
+      "cveUrl": "/vuln/detail/CVE-2024-49756"
+    }
+  },
   "CVE-2024-49850": {
     "cve": {
       "cveDate": [
@@ -17258,6 +17874,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50049"
     }
   },
+  "CVE-2024-50050": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "Llama Stack prior to revision 7a8aa775e5a267cf8660d83140011a0b7f91e005 used pickle as a serialization format for socket communication, potentially allowing for remote code execution. Socket communication has been changed to use JSON instead.",
+      "cveName": "CVE-2024-50050",
+      "cveUrl": "/vuln/detail/CVE-2024-50050"
+    }
+  },
   "CVE-2024-50055": {
     "cve": {
       "cveDate": [
@@ -17412,6 +18039,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-50312"
     }
   },
+  "CVE-2024-50382": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:19 PM -0400"
+      ],
+      "cveDis": "Botan before 3.6.0, when certain LLVM versions are used, has compiler-induced secret-dependent control flow in lib/utils/ghash/ghash.cpp in GHASH in AES-GCM. There is a branch instead of an XOR with carry. This was observed for Clang in LLVM 15 on RISC-V.",
+      "cveName": "CVE-2024-50382",
+      "cveUrl": "/vuln/detail/CVE-2024-50382"
+    }
+  },
+  "CVE-2024-50383": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "1:15:19 PM -0400"
+      ],
+      "cveDis": "Botan before 3.6.0, when certain GCC versions are used, has a compiler-induced secret-dependent operation in lib/utils/donna128.h in donna128 (used in Chacha-Poly1305 and x25519). An addition can be skipped if a carry is not set. This was observed for GCC 11.3.0 with -O2 on MIPS, and GCC on x86-i386. (Only 32-bit processors can be affected.)",
+      "cveName": "CVE-2024-50383",
+      "cveUrl": "/vuln/detail/CVE-2024-50383"
+    }
+  },
   "CVE-2024-5429": {
     "cve": {
       "cveDate": [
@@ -17432,6 +18081,17 @@
       "cveDis": "A potential information disclosure vulnerability was reported in Lenovo's packaging of Dolby Vision Provisioning software prior to version 2.0.0.2 that could allow a local attacker to read files on the system with elevated privileges during installation of the package. Previously installed versions are not affected by this issue.",
       "cveName": "CVE-2024-5474",
       "cveUrl": "/vuln/detail/CVE-2024-5474"
+    }
+  },
+  "CVE-2024-5764": {
+    "cve": {
+      "cveDate": [
+        "October 23, 2024",
+        "11:15:32 AM -0400"
+      ],
+      "cveDis": "Use of Hard-coded Credentials vulnerability in Sonatype Nexus Repository has been discovered in the code responsible for encrypting any secrets stored in the Nexus Repository configuration database (SMTP or HTTP proxy credentials, user tokens, tokens, among others). The affected versions relied on a static hard-coded encryption passphrase. While it was possible for an administrator to define an alternate encryption passphrase, it could only be done at first boot and not updated.\n\nThis issue affects Nexus Repository: from 3.0.0 through 3.72.0.",
+      "cveName": "CVE-2024-5764",
+      "cveUrl": "/vuln/detail/CVE-2024-5764"
     }
   },
   "CVE-2024-5803": {
