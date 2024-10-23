@@ -1660,6 +1660,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10173"
     }
   },
+  "CVE-2024-10183": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "2:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability in Jamf Pro's Jamf Remote Assist tool allows a local, non-privileged user to escalate their privileges to root on MacOS systems.",
+      "cveName": "CVE-2024-10183",
+      "cveUrl": "/vuln/detail/CVE-2024-10183"
+    }
+  },
   "CVE-2024-101896-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -1801,6 +1812,39 @@
       "cveDis": "Administrative Management System from Wellchoose has an OS Command Injection vulnerability, allowing remote attackers with regular privileges to inject and execute arbitrary OS commands.",
       "cveName": "CVE-2024-102028-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-10202"
+    }
+  },
+  "CVE-2024-10229": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Inappropriate implementation in Extensions in Google Chrome prior to 130.0.6723.69 allowed a remote attacker to bypass site isolation via a crafted Chrome Extension. (Chromium security severity: High)",
+      "cveName": "CVE-2024-10229",
+      "cveUrl": "/vuln/detail/CVE-2024-10229"
+    }
+  },
+  "CVE-2024-10230": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Type Confusion in V8 in Google Chrome prior to 130.0.6723.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-10230",
+      "cveUrl": "/vuln/detail/CVE-2024-10230"
+    }
+  },
+  "CVE-2024-10231": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Type Confusion in V8 in Google Chrome prior to 130.0.6723.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-10231",
+      "cveUrl": "/vuln/detail/CVE-2024-10231"
     }
   },
   "CVE-2024-102346-1 MEDIUM": {
@@ -3321,6 +3365,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-26273"
     }
   },
+  "CVE-2024-26519": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "An issue in Casa Systems NTC-221 version 2.0.99.0 and before allows a remote attacker to execute arbitrary code via a crafted payload to the /www/cgi-bin/nas.cgi component.",
+      "cveName": "CVE-2024-26519",
+      "cveUrl": "/vuln/detail/CVE-2024-26519"
+    }
+  },
   "CVE-2024-27457": {
     "cve": {
       "cveDate": [
@@ -3607,6 +3662,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-30875"
     }
   },
+  "CVE-2024-31029": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "An issue in the server_handle_regular function of the test_coap_server.c file within the FreeCoAP project allows remote attackers to cause a Denial of Service through specially crafted packets.",
+      "cveName": "CVE-2024-31029",
+      "cveUrl": "/vuln/detail/CVE-2024-31029"
+    }
+  },
   "CVE-2024-31227": {
     "cve": {
       "cveDate": [
@@ -3682,6 +3748,17 @@
       "cveDis": "This issue tracks two CWE-416 Use After Free (UAF) and one CWE-415 Double Free vulnerabilities in Goahead versions <= 6.0.0. These are caused by JST values not being nulled when freed during parsing of JST templates. If the ME_GOAHEAD_JAVASCRIPT flag is enabled, a remote attacker with the privileges to modify JavaScript template (JST) files could exploit this by providing malicious templates. This may lead to memory corruption, potentially causing a Denial of Service (DoS) or, in rare cases, code execution, though the latter is highly context-dependent.",
       "cveName": "CVE-2024-3187",
       "cveUrl": "/vuln/detail/CVE-2024-3187"
+    }
+  },
+  "CVE-2024-31880": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "10:15:07 PM -0400"
+      ],
+      "cveDis": "IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to a denial of service, under specific configurations, as the server may crash when using a specially crafted SQL statement by an authenticated user.",
+      "cveName": "CVE-2024-31880",
+      "cveUrl": "/vuln/detail/CVE-2024-31880"
     }
   },
   "CVE-2024-31955": {
@@ -4795,6 +4872,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-39586"
     }
   },
+  "CVE-2024-39753": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "3:15:04 PM -0400"
+      ],
+      "cveDis": "An modOSCE SQL Injection vulnerability in Trend Micro Apex One could allow a remote attacker to execute arbitrary code on affected installations.\n\nPlease note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+      "cveName": "CVE-2024-39753",
+      "cveUrl": "/vuln/detail/CVE-2024-39753"
+    }
+  },
   "CVE-2024-397557-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -4905,6 +4993,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-40091"
     }
   },
+  "CVE-2024-40493": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Null Pointer Dereference in `coap_client_exchange_blockwise2` function in Keith Cullen FreeCoAP 1.0 allows remote attackers to cause a denial of service and potentially execute arbitrary code via a specially crafted CoAP packet that causes `coap_msg_get_payload(resp)` to return a null pointer, which is then dereferenced in a call to `memcpy`.",
+      "cveName": "CVE-2024-40493",
+      "cveUrl": "/vuln/detail/CVE-2024-40493"
+    }
+  },
+  "CVE-2024-40494": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Buffer Overflow in coap_msg.c in FreeCoAP allows remote attackers to execute arbitrary code or cause a denial of service (stack buffer overflow) via a crafted packet.",
+      "cveName": "CVE-2024-40494",
+      "cveUrl": "/vuln/detail/CVE-2024-40494"
+    }
+  },
   "CVE-2024-40746": {
     "cve": {
       "cveDate": [
@@ -4947,6 +5057,17 @@
       "cveDis": "A directory traversal vulnerability exists in the archive download functionality of Veertu Anka Build 1.42.0. A specially crafted HTTP request can lead to a disclosure of arbitrary files. An attacker can make an unauthenticated HTTP request to exploit this vulnerability.",
       "cveName": "CVE-2024-411637-5 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-41163"
+    }
+  },
+  "CVE-2024-41183": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "3:15:05 PM -0400"
+      ],
+      "cveDis": "Trend Micro VPN, version 5.8.1012 and below is vulnerable to an arbitrary file overwrite under specific conditions that can lead to elevation of privileges.",
+      "cveName": "CVE-2024-41183",
+      "cveUrl": "/vuln/detail/CVE-2024-41183"
     }
   },
   "CVE-2024-41276": {
@@ -5279,6 +5400,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-41714"
     }
   },
+  "CVE-2024-41717": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Kieback & Peter's DDC4000 series is vulnerable to a path traversal vulnerability, which may allow an unauthenticated attacker to read files on the system.",
+      "cveName": "CVE-2024-41717",
+      "cveUrl": "/vuln/detail/CVE-2024-41717"
+    }
+  },
   "CVE-2024-41798": {
     "cve": {
       "cveDate": [
@@ -5519,6 +5651,17 @@
       "cveDis": "angular-base64-upload prior to v0.1.21 is vulnerable to unauthenticated remote code execution via demo/server.php. Exploiting this vulnerability allows an attacker to upload arbitrary content to the server, which can subsequently be accessed through demo/uploads. This leads to the execution of previously uploaded content and enables the attacker to achieve code execution on the server. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
       "cveName": "CVE-2024-42640",
       "cveUrl": "/vuln/detail/CVE-2024-42640"
+    }
+  },
+  "CVE-2024-42643": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Integer Overflow in fast_ping.c in SmartDNS Release46 allows remote attackers to cause a Denial of Service via misaligned memory access.",
+      "cveName": "CVE-2024-42643",
+      "cveUrl": "/vuln/detail/CVE-2024-42643"
     }
   },
   "CVE-2024-42831": {
@@ -6346,6 +6489,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-43689"
     }
   },
+  "CVE-2024-43698": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Kieback & Peter's DDC4000 series uses weak credentials, which may allow an unauthenticated attacker to get full admin rights on the system.",
+      "cveName": "CVE-2024-43698",
+      "cveUrl": "/vuln/detail/CVE-2024-43698"
+    }
+  },
   "CVE-2024-43699": {
     "cve": {
       "cveDate": [
@@ -6388,6 +6542,17 @@
       "cveDis": "OpenC3 COSMOS provides the functionality needed to send commands to and receive data from one or more embedded systems. The login functionality contains a reflected cross-site scripting (XSS) vulnerability. This vulnerability is fixed in 5.19.0. Note: This CVE only affects Open Source Edition, and not OpenC3 COSMOS Enterprise Edition.",
       "cveName": "CVE-2024-43795",
       "cveUrl": "/vuln/detail/CVE-2024-43795"
+    }
+  },
+  "CVE-2024-43812": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "Kieback & Peter's DDC4000 series has an insufficiently protected credentials vulnerability, which may allow an unauthenticated attacker with access to /etc/passwd to read the password hashes of all users on the system.",
+      "cveName": "CVE-2024-43812",
+      "cveUrl": "/vuln/detail/CVE-2024-43812"
     }
   },
   "CVE-2024-44000": {
@@ -6775,6 +6940,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-44207"
     }
   },
+  "CVE-2024-44331": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "Incorrect Access Control in GStreamer RTSP server 1.25.0 in gst-rtsp-server/rtsp-media.c allows remote attackers to cause a denial of service via a series of specially crafted hexstream requests.",
+      "cveName": "CVE-2024-44331",
+      "cveUrl": "/vuln/detail/CVE-2024-44331"
+    }
+  },
   "CVE-2024-44337": {
     "cve": {
       "cveDate": [
@@ -6949,6 +7125,17 @@
       "cveDis": "A directory listing issue in the baserCMS plugin in D-ZERO CO., LTD. BurgerEditor and BurgerEditor Limited Edition before 2.25.1 allows remote attackers to obtain sensitive information by exposing a list of the uploaded files.",
       "cveName": "CVE-2024-44807",
       "cveUrl": "/vuln/detail/CVE-2024-44807"
+    }
+  },
+  "CVE-2024-44812": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "SQL Injection vulnerability in Online Complaint Site v.1.0 allows a remote attacker to escalate privileges via the username and password parameters in the /admin.index.php component.",
+      "cveName": "CVE-2024-44812",
+      "cveUrl": "/vuln/detail/CVE-2024-44812"
     }
   },
   "CVE-2024-45051": {
@@ -7732,6 +7919,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-45330"
     }
   },
+  "CVE-2024-45334": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "3:15:05 PM -0400"
+      ],
+      "cveDis": "Trend Micro Antivirus One versions 3.10.4 and below (Consumer) is vulnerable to an Arbitrary Configuration Update that could allow unauthorized access to product configurations and functions.",
+      "cveName": "CVE-2024-45334",
+      "cveUrl": "/vuln/detail/CVE-2024-45334"
+    }
+  },
+  "CVE-2024-45335": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "3:15:05 PM -0400"
+      ],
+      "cveDis": "Trend Micro Antivirus One, version 3.10.4 and below contains a vulnerability that could allow an attacker to use a specifically crafted virus to allow itself to bypass and evade a virus scan detection.",
+      "cveName": "CVE-2024-45335",
+      "cveUrl": "/vuln/detail/CVE-2024-45335"
+    }
+  },
   "CVE-2024-45367": {
     "cve": {
       "cveDate": [
@@ -8005,6 +8214,17 @@
       "cveDis": "The postjournal service in Zimbra Collaboration (ZCS) before 8.8.15 Patch 46, 9 before 9.0.0 Patch 41, 10 before 10.0.9, and 10.1 before 10.1.1 sometimes allows unauthenticated users to execute commands.",
       "cveName": "CVE-2024-455199-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-45519"
+    }
+  },
+  "CVE-2024-45526": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "5:15:06 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in OPC Foundation OPCFoundation/UA-.NETStandard through 1.5.374.78. A remote attacker can send requests with invalid credentials and cause the server performance to degrade gradually.",
+      "cveName": "CVE-2024-45526",
+      "cveUrl": "/vuln/detail/CVE-2024-45526"
     }
   },
   "CVE-2024-45693": {
@@ -9030,6 +9250,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-46475"
     }
   },
+  "CVE-2024-46482": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "An arbitrary file upload vulnerability in the Ticket Generation function of Ladybird Web Solution Faveo-Helpdesk v2.0.3 allows attackers to execute arbitrary code via uploading a crafted .html or .svg file.",
+      "cveName": "CVE-2024-46482",
+      "cveUrl": "/vuln/detail/CVE-2024-46482"
+    }
+  },
+  "CVE-2024-46483": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "Xlight FTP Server <3.9.4.3 has an integer overflow vulnerability in the packet parsing logic of the SFTP server, which can lead to a heap overflow with attacker-controlled content.",
+      "cveName": "CVE-2024-46483",
+      "cveUrl": "/vuln/detail/CVE-2024-46483"
+    }
+  },
   "CVE-2024-46486": {
     "cve": {
       "cveDate": [
@@ -9314,6 +9556,28 @@
       "cveDis": "Improper Restriction of XML External Entity Reference vulnerability in OpenText Application Automation Tools allows DTD Injection.This issue affects OpenText Application Automation Tools: 24.1.0 and below.",
       "cveName": "CVE-2024-4690",
       "cveUrl": "/vuln/detail/CVE-2024-4690"
+    }
+  },
+  "CVE-2024-46902": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "3:15:06 PM -0400"
+      ],
+      "cveDis": "A vulnerability in Trend Micro Deep Discovery Inspector (DDI) versions 5.8 and above could allow an attacker to disclose sensitive information affected installations.\n\nPlease note: an attacker must first obtain the ability to execute high-privileged code (admin user rights) on the target system in order to exploit this vulnerability.",
+      "cveName": "CVE-2024-46902",
+      "cveUrl": "/vuln/detail/CVE-2024-46902"
+    }
+  },
+  "CVE-2024-46903": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "3:15:06 PM -0400"
+      ],
+      "cveDis": "A vulnerability in Trend Micro Deep Discovery Inspector (DDI) versions 5.8 and above could allow an attacker to disclose sensitive information affected installations.\n\nPlease note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+      "cveName": "CVE-2024-46903",
+      "cveUrl": "/vuln/detail/CVE-2024-46903"
     }
   },
   "CVE-2024-46911": {
@@ -13958,6 +14222,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48411"
     }
   },
+  "CVE-2024-48415": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "itsourcecode Loan Management System v1.0 is vulnerable to Cross Site Scripting (XSS) via a crafted payload to the lastname, firstname, middlename, address, contact_no, email and tax_id parameters in new borrowers functionality on the Borrowers page.",
+      "cveName": "CVE-2024-48415",
+      "cveUrl": "/vuln/detail/CVE-2024-48415"
+    }
+  },
   "CVE-2024-48570": {
     "cve": {
       "cveDate": [
@@ -14011,6 +14286,50 @@
       "cveDis": "In segments\\edit.php of DomainMOD below v4.12.0, the segid parameter in the GET request can be exploited to cause a reflected Cross Site Scripting (XSS) vulnerability.",
       "cveName": "CVE-2024-48624",
       "cveUrl": "/vuln/detail/CVE-2024-48624"
+    }
+  },
+  "CVE-2024-48644": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "Accounts enumeration vulnerability in the Login Component of Reolink Duo 2 WiFi Camera (Firmware Version v3.0.0.1889_23031701) allows remote attackers to determine valid user accounts via login attempts. This can lead to the enumeration of user accounts and potentially facilitate other attacks, such as brute-forcing of passwords. The vulnerability arises from the application responding differently to login attempts with valid and invalid usernames.",
+      "cveName": "CVE-2024-48644",
+      "cveUrl": "/vuln/detail/CVE-2024-48644"
+    }
+  },
+  "CVE-2024-48652": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:06 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in camaleon-cms v.2.7.5 allows remote attacker to execute arbitrary code via the content group name field.",
+      "cveName": "CVE-2024-48652",
+      "cveUrl": "/vuln/detail/CVE-2024-48652"
+    }
+  },
+  "CVE-2024-48656": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:06 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in student management system in php with source code v.1.0.0 allows a remote attacker to execute arbitrary code.",
+      "cveName": "CVE-2024-48656",
+      "cveUrl": "/vuln/detail/CVE-2024-48656"
+    }
+  },
+  "CVE-2024-48657": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "6:15:06 PM -0400"
+      ],
+      "cveDis": "SQL Injection vulnerability in hospital management system in php with source code v.1.0.0 allows a remote attacker to execute arbitrary code.",
+      "cveName": "CVE-2024-48657",
+      "cveUrl": "/vuln/detail/CVE-2024-48657"
     }
   },
   "CVE-2024-48706": {
@@ -14508,6 +14827,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-48902"
     }
   },
+  "CVE-2024-48903": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "3:15:06 PM -0400"
+      ],
+      "cveDis": "An improper access control vulnerability in Trend Micro Deep Security Agent 20 could allow a local attacker to escalate privileges on affected installations.\n\nPlease note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+      "cveName": "CVE-2024-48903",
+      "cveUrl": "/vuln/detail/CVE-2024-48903"
+    }
+  },
+  "CVE-2024-48904": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "3:15:06 PM -0400"
+      ],
+      "cveDis": "An command injection vulnerability in Trend Micro Cloud Edge could allow a remote attacker to execute arbitrary code on affected appliances.\n\nPlease note: authentication is not required in order to exploit this vulnerability.",
+      "cveName": "CVE-2024-48904",
+      "cveUrl": "/vuln/detail/CVE-2024-48904"
+    }
+  },
   "CVE-2024-48909": {
     "cve": {
       "cveDate": [
@@ -14572,6 +14913,17 @@
       "cveDis": "RDS Light is a simplified version of the Reflective Dialogue System (RDS), a self-reflecting AI framework. Versions prior to 1.1.0 contain a vulnerability that involves a lack of input validation within the RDS AI framework, specifically within the user input handling code in the main module (`main.py`). This leaves the framework open to injection attacks and potential memory tampering. Any user or external actor providing input to the system could exploit this vulnerability to inject malicious commands, corrupt stored data, or affect API calls. This is particularly critical for users employing RDS AI in production environments where it interacts with sensitive systems, performs dynamic memory caching, or retrieves user-specific data for analysis. Impacted areas include developers using the RDS AI system as a backend for AI-driven applications and systems running RDS AI that may be exposed to untrusted environments or receive unverified user inputs. The vulnerability has been patched in version 1.1.0 of the RDS AI framework. All user inputs are now sanitized and validated against a set of rules designed to mitigate malicious content. Users should upgrade to version 1.1.0 or higher and ensure all dependencies are updated to their latest versions. For users unable to upgrade to the patched version, a workaround can be implemented. The user implementing the workaround should implement custom validation checks for user inputs to filter out unsafe characters and patterns (e.g., SQL injection attempts, script injections) and limit or remove features that allow user input until the system can be patched.",
       "cveName": "CVE-2024-48918",
       "cveUrl": "/vuln/detail/CVE-2024-48918"
+    }
+  },
+  "CVE-2024-48919": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "5:15:06 PM -0400"
+      ],
+      "cveDis": "Cursor is a code editor built for programming with AI. Prior to Sep 27, 2024, if a user generated a terminal command via Cursor's Terminal Cmd-K/Ctrl-K feature and if the user explicitly imported a malicious web page into the Terminal Cmd-K prompt, an attacker with control over the referenced web page could have a significant chance of influencing a language model to output arbitrary commands for execution in the user's terminal. This scenario would require the user explicitly opt-in to including the contents of a compromised webpage, and it would require that the attacker display prompt injection text in the the contents of the compromised webpage.\n\nA server-side patch to not stream back newlines or control characters was released on September 27, 2024, within two hours of the issue being reported. Additionally, Cursor 0.42 includes client-side mitigations to prevent any newline or control character from being streamed into the terminal directly. It also contains a new setting, `\"cursor.terminal.usePreviewBox\"`, which, if set to true, streams the response into a preview box whose contents then have to be manually accepted before being inserted into the terminal. This setting is useful if you're working in a shell environment where commands can be executed without pressing enter or any control character. The patch has been applied server-side, so no additional action is needed, even on older versions of Cursor. Separately, Cursor's maintainers also recommend, as best practice, to only include trusted pieces of context in prompts.",
+      "cveName": "CVE-2024-48919",
+      "cveUrl": "/vuln/detail/CVE-2024-48919"
     }
   },
   "CVE-2024-48920": {
@@ -17487,6 +17839,17 @@
       "cveDis": "JUJU_CONTEXT_ID is a predictable authentication secret. On a Juju machine (non-Kubernetes) or Juju charm container (on Kubernetes), an unprivileged user in the same network namespace can connect to an abstract domain socket and guess the JUJU_CONTEXT_ID value. This gives the unprivileged user access to the same information and tools as the Juju charm.",
       "cveName": "CVE-2024-7558",
       "cveUrl": "/vuln/detail/CVE-2024-7558"
+    }
+  },
+  "CVE-2024-7587": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "7:15:02 PM -0400"
+      ],
+      "cveDis": "Incorrect Default Permissions vulnerability in GenBroker32, which is included in the installers for ICONICS GENESIS64 version 10.97.3 and prior, Mitsubishi Electric GENESIS64 version 10.97.3 and prior and Mitsubishi Electric MC Works64 all versions allows a local authenticated attacker to disclose or tamper with confidential information and data contained in the products, or cause a denial of service (DoS) condition on the products, by accessing a folder with incorrect permissions, when GenBroker32 is installed on the same PC as GENESIS64 or MC Works64.",
+      "cveName": "CVE-2024-7587",
+      "cveUrl": "/vuln/detail/CVE-2024-7587"
     }
   },
   "CVE-2024-7612": {
@@ -22855,6 +23218,17 @@
       "cveDis": "SQL injection vulnerability in TAI Smart Factory's QPLANT SF version 1.0. Exploitation of this vulnerability could allow a remote attacker to retrieve all database information by sending a specially crafted SQL query to the ‘email’ parameter on the ‘RequestPasswordChange’ endpoint.",
       "cveName": "CVE-2024-9925",
       "cveUrl": "/vuln/detail/CVE-2024-9925"
+    }
+  },
+  "CVE-2024-99277-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 22, 2024",
+        "10:15:07 PM -0400"
+      ],
+      "cveDis": "The WooCommerce Order Proposal plugin for WordPress is vulnerable to privilege escalation via order proposal in all versions up to and including 2.0.5. This is due to the improper implementation of allow_payment_without_login function. This makes it possible for authenticated attackers, with Shop Manager-level access and above, to log in to WordPress as an arbitrary user account, including administrators.",
+      "cveName": "CVE-2024-99277-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9927"
     }
   },
   "CVE-2024-9936": {
