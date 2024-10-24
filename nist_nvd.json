@@ -1704,6 +1704,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-10173"
     }
   },
+  "CVE-2024-101766-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "7:15:14 AM -0400"
+      ],
+      "cveDis": "The Compact WP Audio Player plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's \nsc_embed_player shortcode in all versions up to, and including, 1.9.13 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-101766-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10176"
+    }
+  },
+  "CVE-2024-101806-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "The Contact Form 7 – Repeatable Fields plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's field_group shortcode in all versions up to, and including, 2.0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-101806-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10180"
+    }
+  },
   "CVE-2024-10183": {
     "cve": {
       "cveDate": [
@@ -2109,6 +2131,50 @@
       "cveDis": "A vulnerability, which was classified as critical, was found in PHPGurukul Medical Card Generation System 1.0. Affected is an unknown function of the file /admin/search-medicalcard.php of the component Search. The manipulation of the argument searchdata leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10301",
       "cveUrl": "/vuln/detail/CVE-2024-10301"
+    }
+  },
+  "CVE-2024-10331": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "7:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in PHPGurukul Vehicle Record System 1.0. This issue affects some unknown processing of the file /admin/search-vehicle.php. The manipulation of the argument searchinputdata leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10331",
+      "cveUrl": "/vuln/detail/CVE-2024-10331"
+    }
+  },
+  "CVE-2024-10332": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "A Cross-Site Scripting vulnerability has been found in Janto v4.3r11 from Impronta. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending the victim a malicious URL using the endpoint “/abonados/public/janto/main.php”.",
+      "cveName": "CVE-2024-10332",
+      "cveUrl": "/vuln/detail/CVE-2024-10332"
+    }
+  },
+  "CVE-2024-10335": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Garbage Collection Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file login.php. The manipulation of the argument username/password leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"username\" to be affected. But it must be assumed that the parameter \"password\" is affected as well.",
+      "cveName": "CVE-2024-10335",
+      "cveUrl": "/vuln/detail/CVE-2024-10335"
+    }
+  },
+  "CVE-2024-10336": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:15 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodeHero Clothes Recommendation System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /admin/index.php of the component Admin Login Page. The manipulation of the argument t1 leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10336",
+      "cveUrl": "/vuln/detail/CVE-2024-10336"
     }
   },
   "CVE-2024-20090": {
@@ -5906,6 +5972,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-40746"
     }
   },
+  "CVE-2024-40810": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in macOS Sonoma 14.6. An app may be able to cause a coprocessor crash.",
+      "cveName": "CVE-2024-40810",
+      "cveUrl": "/vuln/detail/CVE-2024-40810"
+    }
+  },
   "CVE-2024-40897-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -7765,6 +7842,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-44097"
     }
   },
+  "CVE-2024-44141": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "The issue was addressed with improved checks. This issue is fixed in macOS Sonoma 14.6. A person with physical access to an unlocked Mac may be able to gain root code execution.",
+      "cveName": "CVE-2024-44141",
+      "cveUrl": "/vuln/detail/CVE-2024-44141"
+    }
+  },
   "CVE-2024-44157": {
     "cve": {
       "cveDate": [
@@ -7774,6 +7862,17 @@
       "cveDis": "A stack buffer overflow was addressed through improved input validation. This issue is fixed in Apple TV 1.5.0.152 for Windows, iTunes 12.13.3 for Windows. Parsing a maliciously crafted video file may lead to unexpected system termination.",
       "cveName": "CVE-2024-44157",
       "cveUrl": "/vuln/detail/CVE-2024-44157"
+    }
+  },
+  "CVE-2024-44185": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "The issue was addressed with improved checks. This issue is fixed in tvOS 17.6, visionOS 1.3, Safari 17.6, watchOS 10.6, iOS 17.6 and iPadOS 17.6, macOS Sonoma 14.6. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "cveName": "CVE-2024-44185",
+      "cveUrl": "/vuln/detail/CVE-2024-44185"
     }
   },
   "CVE-2024-44193": {
@@ -7807,6 +7906,28 @@
       "cveDis": "A logic issue was addressed with improved validation. This issue is fixed in iOS 18.0.1 and iPadOS 18.0.1. A user's saved passwords may be read aloud by VoiceOver.",
       "cveName": "CVE-2024-442045-5 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-44204"
+    }
+  },
+  "CVE-2024-44205": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "A privacy issue was addressed with improved private data redaction for log entries. This issue is fixed in macOS Ventura 13.6.8, macOS Monterey 12.7.6, iOS 16.7.9 and iPadOS 16.7.9, iOS 17.6 and iPadOS 17.6, macOS Sonoma 14.6. A sandboxed app may be able to access sensitive user data in system logs.",
+      "cveName": "CVE-2024-44205",
+      "cveUrl": "/vuln/detail/CVE-2024-44205"
+    }
+  },
+  "CVE-2024-44206": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "An issue in the handling of URL protocols was addressed with improved logic. This issue is fixed in tvOS 17.6, visionOS 1.3, Safari 17.6, watchOS 10.6, iOS 17.6 and iPadOS 17.6, macOS Sonoma 14.6. A user may be able to bypass some web content restrictions.",
+      "cveName": "CVE-2024-44206",
+      "cveUrl": "/vuln/detail/CVE-2024-44206"
     }
   },
   "CVE-2024-44207": {
@@ -8027,6 +8148,17 @@
       "cveDis": "SQL Injection vulnerability in Online Complaint Site v.1.0 allows a remote attacker to escalate privileges via the username and password parameters in the /admin.index.php component.",
       "cveName": "CVE-2024-44812",
       "cveUrl": "/vuln/detail/CVE-2024-44812"
+    }
+  },
+  "CVE-2024-45031": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "11:15:13 AM -0400"
+      ],
+      "cveDis": "When editing objects in the Syncope Console, incomplete HTML tags could be used to bypass HTML sanitization. This made it possible to inject stored XSS payloads which would trigger for other users during ordinary usage of the application.\nXSS payloads could also be injected in Syncope Enduser when editing “Personal Information” or “User Requests”: such payloads would trigger for administrators in Syncope Console, thus enabling session hijacking.\n\nUsers are recommended to upgrade to version 3.0.9, which fixes this issue.",
+      "cveName": "CVE-2024-45031",
+      "cveUrl": "/vuln/detail/CVE-2024-45031"
     }
   },
   "CVE-2024-45051": {
@@ -15190,6 +15322,116 @@
       "cveUrl": "/vuln/detail/CVE-2024-48415"
     }
   },
+  "CVE-2024-48538": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "12:15:05 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in the firmware update and download processes of Neye3C v4.5.2.0 allows attackers to access sensitive information by analyzing the code and data within the APK file.",
+      "cveName": "CVE-2024-48538",
+      "cveUrl": "/vuln/detail/CVE-2024-48538"
+    }
+  },
+  "CVE-2024-48539": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "Neye3C v4.5.2.0 was discovered to contain a hardcoded encryption key in the firmware update mechanism.",
+      "cveName": "CVE-2024-48539",
+      "cveUrl": "/vuln/detail/CVE-2024-48539"
+    }
+  },
+  "CVE-2024-48540": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in XIAO HE Smart 4.3.1 allows attackers to access sensitive information by analyzing the code and data within the APK file.",
+      "cveName": "CVE-2024-48540",
+      "cveUrl": "/vuln/detail/CVE-2024-48540"
+    }
+  },
+  "CVE-2024-48541": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in the firmware update and download processes of Ruochan Smart v4.4.7 allows attackers to access sensitive information by analyzing the code and data within the APK file.",
+      "cveName": "CVE-2024-48541",
+      "cveUrl": "/vuln/detail/CVE-2024-48541"
+    }
+  },
+  "CVE-2024-48542": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in the firmware update and download processes of Yamaha Headphones Controller v1.6.7 allows attackers to access sensitive information by analyzing the code and data within the APK file.",
+      "cveName": "CVE-2024-48542",
+      "cveUrl": "/vuln/detail/CVE-2024-48542"
+    }
+  },
+  "CVE-2024-48544": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in the firmware update and download processes of Sylvania Smart Home v3.0.3 allows attackers to access sensitive information by analyzing the code and data within the APK file.",
+      "cveName": "CVE-2024-48544",
+      "cveUrl": "/vuln/detail/CVE-2024-48544"
+    }
+  },
+  "CVE-2024-48545": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in the firmware update and download processes of IVY Smart v4.5.0 allows attackers to access sensitive information by analyzing the code and data within the APK file.",
+      "cveName": "CVE-2024-48545",
+      "cveUrl": "/vuln/detail/CVE-2024-48545"
+    }
+  },
+  "CVE-2024-48546": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in the firmware update and download processes of Wear Sync v1.2.0 allows attackers to access sensitive information by analyzing the code and data within the APK file.",
+      "cveName": "CVE-2024-48546",
+      "cveUrl": "/vuln/detail/CVE-2024-48546"
+    }
+  },
+  "CVE-2024-48547": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in the firmware update and download processes of DreamCatcher Life v1.8.7 allows attackers to access sensitive information by analyzing the code and data within the APK file.",
+      "cveName": "CVE-2024-48547",
+      "cveUrl": "/vuln/detail/CVE-2024-48547"
+    }
+  },
+  "CVE-2024-48548": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "The APK file in Cloud Smart Lock v2.0.1 has a leaked a URL that can call an API for binding physical devices. This vulnerability allows attackers to arbitrarily construct a request to use the app to bind to unknown devices by finding a valid serial number via a bruteforce attack.",
+      "cveName": "CVE-2024-48548",
+      "cveUrl": "/vuln/detail/CVE-2024-48548"
+    }
+  },
   "CVE-2024-48570": {
     "cve": {
       "cveDate": [
@@ -17907,6 +18149,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-49676"
     }
   },
+  "CVE-2024-49681": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "8:15:02 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in SWIT WP Sessions Time Monitoring Full Automatic allows SQL Injection.This issue affects WP Sessions Time Monitoring Full Automatic: from n/a through 1.0.9.",
+      "cveName": "CVE-2024-49681",
+      "cveUrl": "/vuln/detail/CVE-2024-49681"
+    }
+  },
+  "CVE-2024-49682": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "8:15:03 AM -0400"
+      ],
+      "cveDis": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in smp7, wp.Insider Simple Membership allows Phishing.This issue affects Simple Membership: from n/a through 4.5.3.",
+      "cveName": "CVE-2024-49682",
+      "cveUrl": "/vuln/detail/CVE-2024-49682"
+    }
+  },
+  "CVE-2024-49683": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "8:15:03 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Schema & Structured Data for WP & AMP allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Schema & Structured Data for WP & AMP: from n/a through 1.3.5.",
+      "cveName": "CVE-2024-49683",
+      "cveUrl": "/vuln/detail/CVE-2024-49683"
+    }
+  },
   "CVE-2024-49684": {
     "cve": {
       "cveDate": [
@@ -17929,6 +18204,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-49690"
     }
   },
+  "CVE-2024-49691": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "8:15:03 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Woobewoo Product Filter by WBW allows SQL Injection.This issue affects Product Filter by WBW: from n/a through 2.7.0.",
+      "cveName": "CVE-2024-49691",
+      "cveUrl": "/vuln/detail/CVE-2024-49691"
+    }
+  },
+  "CVE-2024-49693": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Kraftplugins Mega Elements allows Stored XSS.This issue affects Mega Elements: from n/a through 1.2.6.",
+      "cveName": "CVE-2024-49693",
+      "cveUrl": "/vuln/detail/CVE-2024-49693"
+    }
+  },
+  "CVE-2024-49695": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Spiffy Plugins WP Flow Plus allows Stored XSS.This issue affects WP Flow Plus: from n/a through 5.2.3.",
+      "cveName": "CVE-2024-49695",
+      "cveUrl": "/vuln/detail/CVE-2024-49695"
+    }
+  },
+  "CVE-2024-49696": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in RoboSoft Robo Gallery allows Stored XSS.This issue affects Robo Gallery: from n/a through 3.2.21.",
+      "cveName": "CVE-2024-49696",
+      "cveUrl": "/vuln/detail/CVE-2024-49696"
+    }
+  },
   "CVE-2024-49701": {
     "cve": {
       "cveDate": [
@@ -17938,6 +18257,28 @@
       "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Theme Horse Mags.This issue affects Mags: from n/a through 1.1.6.",
       "cveName": "CVE-2024-49701",
       "cveUrl": "/vuln/detail/CVE-2024-49701"
+    }
+  },
+  "CVE-2024-49702": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "9:15:12 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in myCRED myCred Elementor allows Stored XSS.This issue affects myCred Elementor: from n/a through 1.2.6.",
+      "cveName": "CVE-2024-49702",
+      "cveUrl": "/vuln/detail/CVE-2024-49702"
+    }
+  },
+  "CVE-2024-49703": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "8:15:03 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in MagePeople Team Event Manager for WooCommerce allows Stored XSS.This issue affects Event Manager for WooCommerce: from n/a through 4.2.5.",
+      "cveName": "CVE-2024-49703",
+      "cveUrl": "/vuln/detail/CVE-2024-49703"
     }
   },
   "CVE-2024-49751": {
@@ -18587,6 +18928,17 @@
       "cveDis": "A potential information disclosure vulnerability was reported in Lenovo's packaging of Dolby Vision Provisioning software prior to version 2.0.0.2 that could allow a local attacker to read files on the system with elevated privileges during installation of the package. Previously installed versions are not affected by this issue.",
       "cveName": "CVE-2024-5474",
       "cveUrl": "/vuln/detail/CVE-2024-5474"
+    }
+  },
+  "CVE-2024-5608": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "8:15:04 AM -0400"
+      ],
+      "cveDis": "Zohocorp ManageEngine ADAudit Plus versions below 8121 are vulnerable to SQL Injection in the technician reports feature.",
+      "cveName": "CVE-2024-5608",
+      "cveUrl": "/vuln/detail/CVE-2024-5608"
     }
   },
   "CVE-2024-5764": {
@@ -20470,6 +20822,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8943"
     }
   },
+  "CVE-2024-89596-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "8:15:04 AM -0400"
+      ],
+      "cveDis": "The WP Adminify – Custom WordPress Dashboard, Login and Admin Customizer plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 4.0.1.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-89596-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8959"
+    }
+  },
   "CVE-2024-89646-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -21139,6 +21502,17 @@
       "cveDis": "The افزونه پیامک ووکامرس Persian WooCommerce SMS plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of remove_query_arg without appropriate escaping on the URL in all versions up to, and including, 7.0.2. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-92136-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9213"
+    }
+  },
+  "CVE-2024-92146-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "7:15:14 AM -0400"
+      ],
+      "cveDis": "The Extra Product Options Builder for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'RednaoSerializedFields' parameter during the creation of a signature file in all versions up to, and including, 1.2.133 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-92146-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9214"
     }
   },
   "CVE-2024-92158-8 HIGH": {
@@ -23484,6 +23858,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9649"
     }
   },
+  "CVE-2024-96506-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "7:15:14 AM -0400"
+      ],
+      "cveDis": "The WP Recipe Maker plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘tooltip’ parameter in all versions up to, and including, 9.6.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-96506-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9650"
+    }
+  },
   "CVE-2024-96526-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -23603,6 +23988,17 @@
       "cveDis": "The WP 2FA with Telegram plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 3.0. This is due to insufficient validation of the user-controlled key on the 'validate_tg' action. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to log in as any existing user on the site, such as an administrator.",
       "cveName": "CVE-2024-96878-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9687"
+    }
+  },
+  "CVE-2024-9692": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "VIMESA VHF/FM Transmitter Blue Plus is suffering from a Denial-of-Service (DoS) vulnerability. An unauthenticated attacker can issue an unauthorized HTTP GET request to the unprotected endpoint 'doreboot' and restart the transmitter operations.",
+      "cveName": "CVE-2024-9692",
+      "cveUrl": "/vuln/detail/CVE-2024-9692"
     }
   },
   "CVE-2024-96966-4 MEDIUM": {
