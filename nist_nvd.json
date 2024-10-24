@@ -1099,6 +1099,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10049"
     }
   },
+  "CVE-2024-100504-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:02 AM -0400"
+      ],
+      "cveDis": "The Elementor Header & Footer Builder plugin for WordPress is vulnerable to Information Disclosure in all versions up to, and including, 1.6.43 via the hfe_template shortcode. This makes it possible for authenticated attackers, with Contributor-level access and above, to view the contents of Draft, Private and Password-protected posts they do not own.",
+      "cveName": "CVE-2024-100504-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10050"
+    }
+  },
   "CVE-2024-100556-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -5871,6 +5882,17 @@
       "cveDis": "Buffer Overflow in coap_msg.c in FreeCoAP allows remote attackers to execute arbitrary code or cause a denial of service (stack buffer overflow) via a crafted packet.",
       "cveName": "CVE-2024-40494",
       "cveUrl": "/vuln/detail/CVE-2024-40494"
+    }
+  },
+  "CVE-2024-40595": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:11 AM -0400"
+      ],
+      "cveDis": "An authentication-bypass issue in the RDP component of One Identity Safeguard for Privileged Sessions (SPS) On Premise before 7.5.1 (and LTS before 7.0.5.1) allows man-in-the-middle attackers to obtain access to privileged sessions on target resources by intercepting cleartext RDP protocol information.",
+      "cveName": "CVE-2024-40595",
+      "cveUrl": "/vuln/detail/CVE-2024-40595"
     }
   },
   "CVE-2024-40746": {
@@ -18600,6 +18622,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-5968"
     }
   },
+  "CVE-2024-6049": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "The web server of Lawo AG vsm LTC Time Sync (vTimeSync) is affected by a \"...\" (triple dot) path traversal vulnerability. By sending a specially crafted HTTP request, an unauthenticated remote attacker could download arbitrary files from the operating system. As a limitation, the exploitation is only possible if the requested file has some file extension, e. g. .exe or .txt.",
+      "cveName": "CVE-2024-6049",
+      "cveUrl": "/vuln/detail/CVE-2024-6049"
+    }
+  },
   "CVE-2024-6051": {
     "cve": {
       "cveDate": [
@@ -18785,6 +18818,17 @@
       "cveDis": "Eclipse Jetty is a lightweight, highly scalable, Java-based web server and Servlet engine . It includes a utility class, HttpURI, for URI/URL parsing.\n\nThe HttpURI class does insufficient validation on the authority segment of a URI.  However the behaviour of HttpURI\n differs from the common browsers in how it handles a URI that would be \nconsidered invalid if fully validated against the RRC.  Specifically HttpURI\n and the browser may differ on the value of the host extracted from an \ninvalid URI and thus a combination of Jetty and a vulnerable browser may\n be vulnerable to a open redirect attack or to a SSRF attack if the URI \nis used after passing validation checks.",
       "cveName": "CVE-2024-6763",
       "cveUrl": "/vuln/detail/CVE-2024-6763"
+    }
+  },
+  "CVE-2024-6826": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:02 AM -0400"
+      ],
+      "cveDis": "An issue has been discovered in GitLab CE/EE affecting all versions from 11.2 before 17.3.6, 17.4 before 17.4.3, and 17.5 before 17.5.1. A denial of service could occur via importing a malicious crafted XML manifest file.",
+      "cveName": "CVE-2024-6826",
+      "cveUrl": "/vuln/detail/CVE-2024-6826"
     }
   },
   "CVE-2024-6959": {
@@ -19469,6 +19513,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8310"
     }
   },
+  "CVE-2024-8312": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:03 AM -0400"
+      ],
+      "cveDis": "An issue has been discovered in GitLab CE/EE affecting all versions from 15.10 before 17.3.6, 17.4 before 17.4.3, and 17.5 before 17.5.1. An attacker could inject HTML into the Global Search field on a diff view leading to XSS.",
+      "cveName": "CVE-2024-8312",
+      "cveUrl": "/vuln/detail/CVE-2024-8312"
+    }
+  },
   "CVE-2024-83246-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -19953,6 +20008,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8632"
     }
   },
+  "CVE-2024-86674-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "The HurryTimer – An Scarcity and Urgency Countdown Timer for WordPress & WooCommerce plugin for WordPress is vulnerable to unauthorized post publication due to a missing capability check on the activateCampaign() function in all versions up to, and including, 2.10.0. This makes it possible for authenticated attackers, with contributor-level access and above, to publish arbitrary posts like ones they have submitted for review, or a site administrator has in draft.",
+      "cveName": "CVE-2024-86674-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8667"
+    }
+  },
   "CVE-2024-86754-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -19984,6 +20050,17 @@
       "cveDis": "The Simple LDAP Login plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.6.0. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-87156-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8715"
+    }
+  },
+  "CVE-2024-87176-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "The PDF Flipbook, 3D Flipbook, PDF embed, PDF viewer – DearFlip plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'pdf_source' parameter in all versions up to, and including, 2.3.32 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-87176-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8717"
     }
   },
   "CVE-2024-87186-1 MEDIUM": {
@@ -21922,6 +21999,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9373"
     }
   },
+  "CVE-2024-93746-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "1:15:04 AM -0400"
+      ],
+      "cveDis": "The Terms descriptions plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 3.4.6. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-93746-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9374"
+    }
+  },
   "CVE-2024-93756-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -22712,6 +22800,17 @@
       "cveDis": "The Qi Addons For Elementor plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.8.0 via private templates. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive data including the contents of templates that are private.",
       "cveName": "CVE-2024-95304-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9530"
+    }
+  },
+  "CVE-2024-95314-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "The MultiVendorX – The Ultimate WooCommerce Multivendor Marketplace Solution plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'mvx_sent_deactivation_request' function in all versions up to, and including, 4.2.4. This makes it possible for authenticated attackers, with Subscriber-level access and above, to send a canned email to the site's administrator asking to delete the profile of an arbitrary vendor.",
+      "cveName": "CVE-2024-95314-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9531"
     }
   },
   "CVE-2024-9532": {
@@ -24111,6 +24210,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-9863"
     }
   },
+  "CVE-2024-98646-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:02 AM -0400"
+      ],
+      "cveDis": "The EventPrime – Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to Stored Cross-Site Scripting via ticket names in all versions up to, and including, 4.0.4.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This is only exploitable when front-end users can submit new events with tickets.",
+      "cveName": "CVE-2024-98646-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9864"
+    }
+  },
+  "CVE-2024-9865": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:02 AM -0400"
+      ],
+      "cveDis": "The EventPrime – Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘ep_booking_attendee_fields’ fields in all versions up to, and including, 4.0.4.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses the transaction log for a booking.",
+      "cveName": "CVE-2024-9865",
+      "cveUrl": "/vuln/detail/CVE-2024-9865"
+    }
+  },
   "CVE-2024-98894-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -24461,6 +24582,17 @@
       "cveDis": "The Calculated Fields Form plugin for WordPress is vulnerable to HTML Injection in all versions up to, and including, 5.2.45. This is due to the plugin not properly neutralizing HTML elements from submitted forms. This makes it possible for unauthenticated attackers to inject arbitrary HTML that will render when the administrator views form submissions in their email.",
       "cveName": "CVE-2024-99405-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9940"
+    }
+  },
+  "CVE-2024-99436-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "The MultiVendorX – The Ultimate WooCommerce Multivendor Marketplace Solution plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 4.2.4. This is due to missing or incorrect nonce validation on several functions in api/class-mvx-rest-controller.php. This makes it possible for unauthenticated attackers to update vendor account details, create vendor accounts, and delete arbitrary users via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-99436-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9943"
     }
   },
   "CVE-2024-9944": {
