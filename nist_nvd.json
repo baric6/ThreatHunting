@@ -329,6 +329,94 @@
       "cveUrl": "/vuln/detail/CVE-2022-23862"
     }
   },
+  "CVE-2022-30354": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "OvalEdge 5.2.8.0 and earlier is affected by a Sensitive Data Exposure vulnerability via a GET request to /user/getUserWithTeam. Authentication is required. The information disclosed is associated with all registered user ID numbers.",
+      "cveName": "CVE-2022-30354",
+      "cveUrl": "/vuln/detail/CVE-2022-30354"
+    }
+  },
+  "CVE-2022-30355": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "OvalEdge 5.2.8.0 and earlier is affected by an Account Takeover vulnerability via a POST request to /profile/updateProfile via the userId and email parameters. Authentication is required.",
+      "cveName": "CVE-2022-30355",
+      "cveUrl": "/vuln/detail/CVE-2022-30355"
+    }
+  },
+  "CVE-2022-30356": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "OvalEdge 5.2.8.0 and earlier is affected by a Privilege Escalation vulnerability via a POST request to /user/assignuserrole via the userid and role parameters . Authentication is required with OE_ADMIN role privilege.",
+      "cveName": "CVE-2022-30356",
+      "cveUrl": "/vuln/detail/CVE-2022-30356"
+    }
+  },
+  "CVE-2022-30357": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "OvalEdge 5.2.8.0 and earlier is affected by an Account Takeover vulnerability via a POST request to /profile/updateProfile via the userId and email parameters. Authentication is required.",
+      "cveName": "CVE-2022-30357",
+      "cveUrl": "/vuln/detail/CVE-2022-30357"
+    }
+  },
+  "CVE-2022-30358": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "OvalEdge 5.2.8.0 and earlier is affected by an Account Takeover vulnerability via a POST request to /user/updatePassword via the userId and newPsw parameters. Authentication is required.",
+      "cveName": "CVE-2022-30358",
+      "cveUrl": "/vuln/detail/CVE-2022-30358"
+    }
+  },
+  "CVE-2022-30359": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "OvalEdge 5.2.8.0 and earlier is affected by a Sensitive Data Exposure vulnerability via a GET request to /user/getUserList. Authentication is required. The information disclosed is associated with the all registered users, including user ID, status, email address, role(s), user type, license type, and personal details such as first name, last name, gender, and user preferences.",
+      "cveName": "CVE-2022-30359",
+      "cveUrl": "/vuln/detail/CVE-2022-30359"
+    }
+  },
+  "CVE-2022-30360": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "OvalEdge 5.2.8.0 and earlier is affected by multiple Stored XSS (AKA Persistent or Type II) vulnerabilities via a POST request to /profile/updateProfile via the slackid or phone parameters. Authentication is required.",
+      "cveName": "CVE-2022-30360",
+      "cveUrl": "/vuln/detail/CVE-2022-30360"
+    }
+  },
+  "CVE-2022-30361": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "OvalEdge 5.2.8.0 and earlier is affected by a Sensitive Data Exposure vulnerability via a GET request to /user/getUserType. No authentication is required. The information disclosed is associated with the registered user ID, status, email address, role(s), user type, license type, and personal details such as first name, last name, gender, and user preferences.",
+      "cveName": "CVE-2022-30361",
+      "cveUrl": "/vuln/detail/CVE-2022-30361"
+    }
+  },
   "CVE-2022-45345-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -415,6 +503,17 @@
       "cveDis": "pac4j is a security framework for Java. `pac4j-core` prior to version 4.0.0 is affected by a Java deserialization vulnerability. The vulnerability affects systems that store externally controlled values in attributes of the `UserProfile` class from pac4j-core. It can be exploited by providing an attribute that contains a serialized Java object with a special prefix `{#sb64}` and Base64 encoding. This issue may lead to Remote Code Execution (RCE) in the worst case. Although a `RestrictedObjectInputStream` is in place, that puts some restriction on what classes can be deserialized, it still allows a broad range of java packages and potentially exploitable with different gadget chains. pac4j versions 4.0.0 and greater are not affected by this issue. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2023-25581",
       "cveUrl": "/vuln/detail/CVE-2023-25581"
+    }
+  },
+  "CVE-2023-26248": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "The Kademlia DHT (go-libp2p-kad-dht 0.20.0 and earlier) used in IPFS (0.18.1 and earlier) assigns routing information for content (i.e., information about who holds the content) to be stored by peers whose peer IDs have a small DHT distance from the content ID. This allows an attacker to censor content by generating many Sybil peers whose peer IDs have a small distance from the content ID, thus hijacking the content resolution process.",
+      "cveName": "CVE-2023-26248",
+      "cveUrl": "/vuln/detail/CVE-2023-26248"
     }
   },
   "CVE-2023-26770": {
@@ -2450,6 +2549,83 @@
       "cveDis": "A vulnerability classified as problematic was found in chidiwilliams buzz 1.1.0. This vulnerability affects the function download_model of the file buzz/model_loader.py. The manipulation leads to insecure temporary file. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-10372",
       "cveUrl": "/vuln/detail/CVE-2024-10372"
+    }
+  },
+  "CVE-2024-103746-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "8:15:02 AM -0400"
+      ],
+      "cveDis": "The WP-Members Membership Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wpmem_loginout shortcode in all versions up to, and including, 3.4.9.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-103746-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10374"
+    }
+  },
+  "CVE-2024-10378": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "8:15:02 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in ESAFENET CDG 5. Affected is the function actionViewCDGRenewFile of the file /com/esafenet/servlet/client/CDGRenewApplicationService.java. The manipulation of the argument CDGRenewFileId leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10378",
+      "cveUrl": "/vuln/detail/CVE-2024-10378"
+    }
+  },
+  "CVE-2024-10379": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "8:15:02 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as problematic was found in ESAFENET CDG 5. Affected by this vulnerability is the function actionViewDecyptFile of the file /com/esafenet/servlet/client/DecryptApplicationService.java. The manipulation of the argument decryptFileId with the input ../../../Windows/System32/drivers/etc/hosts leads to path traversal: '../filedir'. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The affected function has a typo and is missing an R. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10379",
+      "cveUrl": "/vuln/detail/CVE-2024-10379"
+    }
+  },
+  "CVE-2024-10380": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "9:15:17 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in SourceCodester Petrol Pump Management Software 1.0. Affected by this issue is some unknown functionality of the file /admin/ajax_product.php. The manipulation of the argument drop_services leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10380",
+      "cveUrl": "/vuln/detail/CVE-2024-10380"
+    }
+  },
+  "CVE-2024-10381": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "9:15:17 AM -0400"
+      ],
+      "cveDis": "This vulnerability exists in Matrix Door Controller Cosec Vega FAXQ due to improper implementation of session management at the web-based management interface. A remote attacker could exploit this vulnerability by sending a specially crafted http request on the vulnerable device.\n\nSuccessful exploitation of this vulnerability could allow remote attacker to gain unauthorized access and take complete control of the targeted device.",
+      "cveName": "CVE-2024-10381",
+      "cveUrl": "/vuln/detail/CVE-2024-10381"
+    }
+  },
+  "CVE-2024-10386": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:03 PM -0400"
+      ],
+      "cveDis": "CVE-2024-10386 IMPACT\n\n\n\nAn authentication\nvulnerability exists in the affected product. The vulnerability could allow a\nthreat actor with network access to send crafted messages to the device, potentially\nresulting in database manipulation.",
+      "cveName": "CVE-2024-10386",
+      "cveUrl": "/vuln/detail/CVE-2024-10386"
+    }
+  },
+  "CVE-2024-10387": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "CVE-2024-10387 IMPACT\n\n\n\nA Denial-of-Service\nvulnerability exists in the affected product. The vulnerability could allow a\nthreat actor with network access to send crafted messages to the device,\npotentially resulting in Denial-of-Service.",
+      "cveName": "CVE-2024-10387",
+      "cveUrl": "/vuln/detail/CVE-2024-10387"
     }
   },
   "CVE-2024-20090": {
@@ -8172,6 +8348,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-44097"
     }
   },
+  "CVE-2024-44101": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "there is a possible Null Pointer Dereference (modem crash) due to improper input validation. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-44101",
+      "cveUrl": "/vuln/detail/CVE-2024-44101"
+    }
+  },
   "CVE-2024-44141": {
     "cve": {
       "cveDate": [
@@ -11208,6 +11395,270 @@
       "cveUrl": "/vuln/detail/CVE-2024-47011"
     }
   },
+  "CVE-2024-47012": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "In mm_GetMobileIdIndexForNsUpdate of mm_GmmPduCodec.c, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47012",
+      "cveUrl": "/vuln/detail/CVE-2024-47012"
+    }
+  },
+  "CVE-2024-47013": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "In pmucal_rae_handle_seq_int of flexpmu_cal_rae.c, there is a possible arbitrary write due to uninitialized data. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47013",
+      "cveUrl": "/vuln/detail/CVE-2024-47013"
+    }
+  },
+  "CVE-2024-47014": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "Android before 2024-10-05 on Google Pixel devices allows privilege escalation in the ABL component, A-330537292.",
+      "cveName": "CVE-2024-47014",
+      "cveUrl": "/vuln/detail/CVE-2024-47014"
+    }
+  },
+  "CVE-2024-47015": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "In ProtocolMiscHwConfigChangeAdapter::GetData() of protocolmiscadapter.cpp, there is a possible out-of-bounds read due to a missing bounds check. This could lead to local information disclosure with baseband firmware compromise required. User Interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47015",
+      "cveUrl": "/vuln/detail/CVE-2024-47015"
+    }
+  },
+  "CVE-2024-47016": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "there is a possible privilege escalation due to an insecure default value. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47016",
+      "cveUrl": "/vuln/detail/CVE-2024-47016"
+    }
+  },
+  "CVE-2024-47017": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "In ufshc_scsi_cmd of ufs.c, there is a possible stack variable use after free due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47017",
+      "cveUrl": "/vuln/detail/CVE-2024-47017"
+    }
+  },
+  "CVE-2024-47018": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "In pmucal_rae_handle_seq_int of flexpmu_cal_rae.c, there is a possible out of bounds read due to a buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47018",
+      "cveUrl": "/vuln/detail/CVE-2024-47018"
+    }
+  },
+  "CVE-2024-47019": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "In ProtocolEmbmsSaiListAdapter::Init() of protocolembmsadapter.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure with baseband firmware compromise required. User Interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47019",
+      "cveUrl": "/vuln/detail/CVE-2024-47019"
+    }
+  },
+  "CVE-2024-47020": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "Android before 2024-10-05 on Google Pixel devices allows information disclosure in the ABL component, A-331966488.",
+      "cveName": "CVE-2024-47020",
+      "cveUrl": "/vuln/detail/CVE-2024-47020"
+    }
+  },
+  "CVE-2024-47021": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "In sms_ExtractCbLanguage of sms_CellBroadcast.c, there is a possible out of bounds read due to a missing bounds check. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47021",
+      "cveUrl": "/vuln/detail/CVE-2024-47021"
+    }
+  },
+  "CVE-2024-47022": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "Android before 2024-10-05 on Google Pixel devices allows information disclosure in the ACPM component, A-331255656.",
+      "cveName": "CVE-2024-47022",
+      "cveUrl": "/vuln/detail/CVE-2024-47022"
+    }
+  },
+  "CVE-2024-47023": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "there is a possible man-in-the-middle attack due to a logic error in the code. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47023",
+      "cveUrl": "/vuln/detail/CVE-2024-47023"
+    }
+  },
+  "CVE-2024-47024": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "In vring_size of external/headers/include/virtio/virtio_ring.h, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47024",
+      "cveUrl": "/vuln/detail/CVE-2024-47024"
+    }
+  },
+  "CVE-2024-47025": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "In ppmp_protect_buf of drm_fw.c, there is a possible information disclosure due to a logic error in the code. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47025",
+      "cveUrl": "/vuln/detail/CVE-2024-47025"
+    }
+  },
+  "CVE-2024-47026": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "In gsc_gsa_rescue of gsc_gsa.c, there is a possible out of bounds read due to an incorrect bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47026",
+      "cveUrl": "/vuln/detail/CVE-2024-47026"
+    }
+  },
+  "CVE-2024-47027": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "In sm_mem_compat_get_vmm_obj of lib/sm/shared_mem.c, there is a possible arbitrary physical memory access due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47027",
+      "cveUrl": "/vuln/detail/CVE-2024-47027"
+    }
+  },
+  "CVE-2024-47028": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "In ffu_flash_pack of ffu.c, there is a possible out of bounds read due to an integer overflow. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47028",
+      "cveUrl": "/vuln/detail/CVE-2024-47028"
+    }
+  },
+  "CVE-2024-47029": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "In TrustySharedMemoryManager::GetSharedMemory of ondevice/trusty/trusty_shared_memory_manager.cc, there is a possible out of bounds read due to an incorrect bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47029",
+      "cveUrl": "/vuln/detail/CVE-2024-47029"
+    }
+  },
+  "CVE-2024-47030": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "Android before 2024-10-05 on Google Pixel devices allows information disclosure in the ACPM component, A-315191818.",
+      "cveName": "CVE-2024-47030",
+      "cveUrl": "/vuln/detail/CVE-2024-47030"
+    }
+  },
+  "CVE-2024-47031": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "Android before 2024-10-05 on Google Pixel devices allows privilege escalation in the ABL component, A-329163861.",
+      "cveName": "CVE-2024-47031",
+      "cveUrl": "/vuln/detail/CVE-2024-47031"
+    }
+  },
+  "CVE-2024-47033": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "In lwis_allocator_free of lwis_allocator.c, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47033",
+      "cveUrl": "/vuln/detail/CVE-2024-47033"
+    }
+  },
+  "CVE-2024-47034": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47034",
+      "cveUrl": "/vuln/detail/CVE-2024-47034"
+    }
+  },
+  "CVE-2024-47035": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "In vring_init of external/headers/include/virtio/virtio_ring.h, there is a possible out of bounds write due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47035",
+      "cveUrl": "/vuln/detail/CVE-2024-47035"
+    }
+  },
+  "CVE-2024-47041": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "In valid_address of syscall.c, there is a possible out of bounds read due to an incorrect bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-47041",
+      "cveUrl": "/vuln/detail/CVE-2024-47041"
+    }
+  },
   "CVE-2024-47046": {
     "cve": {
       "cveDate": [
@@ -12669,6 +13120,28 @@
       "cveDis": "Substance3D - Sampler versions 4.5 and earlier are affected by a NULL Pointer Dereference vulnerability that could lead to an application denial-of-service (DoS) condition. An attacker could exploit this vulnerability to crash the application, resulting in a DoS. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
       "cveName": "CVE-2024-474595-5 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-47459"
+    }
+  },
+  "CVE-2024-47481": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "Dell Data Lakehouse, version(s) 1.0.0.0, 1.1.0., contain(s) an Improper Access Control vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Denial of service.",
+      "cveName": "CVE-2024-47481",
+      "cveUrl": "/vuln/detail/CVE-2024-47481"
+    }
+  },
+  "CVE-2024-47483": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "7:15:17 AM -0400"
+      ],
+      "cveDis": "Dell Data Lakehouse, version(s) 1.0.0.0 and 1.1.0.0, contain(s) an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to Information disclosure.",
+      "cveName": "CVE-2024-47483",
+      "cveUrl": "/vuln/detail/CVE-2024-47483"
     }
   },
   "CVE-2024-47485": {
@@ -15861,6 +16334,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48192"
     }
   },
+  "CVE-2024-48204": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "SQL injection vulnerability in Hanzhou Haobo network management system 1.0 allows a remote attacker to execute arbitrary code via a crafted script.",
+      "cveName": "CVE-2024-48204",
+      "cveUrl": "/vuln/detail/CVE-2024-48204"
+    }
+  },
   "CVE-2024-48208": {
     "cve": {
       "cveDate": [
@@ -16081,6 +16565,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48427"
     }
   },
+  "CVE-2024-48428": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "11:15:18 AM -0400"
+      ],
+      "cveDis": "An issue in Olive VLE allows an attacker to obtain sensitive information via the reset password function.",
+      "cveName": "CVE-2024-48428",
+      "cveUrl": "/vuln/detail/CVE-2024-48428"
+    }
+  },
   "CVE-2024-48440": {
     "cve": {
       "cveDate": [
@@ -16123,6 +16618,17 @@
       "cveDis": "An issue in SourceCodester Purchase Order Management System v1.0 allows a remote attacker to execute arbitrary code via the /admin?page=user component",
       "cveName": "CVE-2024-48454",
       "cveUrl": "/vuln/detail/CVE-2024-48454"
+    }
+  },
+  "CVE-2024-48459": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "A command execution vulnerability exists in the AX2 Pro home router produced by Shenzhen Tenda Technology Co., Ltd. (Jixiang Tenda) v.DI_7003G-19.12.24A1V16.03.29.50;V16.03.29.50;V16.03.29.50. An attacker can exploit this vulnerability by constructing a malicious payload to execute commands and further obtain shell access to the router's file system with the highest privileges.",
+      "cveName": "CVE-2024-48459",
+      "cveUrl": "/vuln/detail/CVE-2024-48459"
     }
   },
   "CVE-2024-48514": {
@@ -16257,6 +16763,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-48570"
     }
   },
+  "CVE-2024-48579": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "SQL Injection vulnerability in Best House rental management system project in php v.1.0 allows a remote attacker to execute arbitrary code via the username parameter of the login request.",
+      "cveName": "CVE-2024-48579",
+      "cveUrl": "/vuln/detail/CVE-2024-48579"
+    }
+  },
+  "CVE-2024-48580": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "SQL Injection vulnerability in Best courier management system in php v.1.0 allows a remote attacker to execute arbitrary code via the email parameter of the login request.",
+      "cveName": "CVE-2024-48580",
+      "cveUrl": "/vuln/detail/CVE-2024-48580"
+    }
+  },
+  "CVE-2024-48581": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "12:15:10 PM -0400"
+      ],
+      "cveDis": "File Upload vulnerability in Best courier management system in php v.1.0 allows a remote attacker to execute arbitrary code via the admin_class.php component.",
+      "cveName": "CVE-2024-48581",
+      "cveUrl": "/vuln/detail/CVE-2024-48581"
+    }
+  },
   "CVE-2024-48605": {
     "cve": {
       "cveDate": [
@@ -16321,6 +16860,28 @@
       "cveDis": "Cross Site Scripting vulnerability in camaleon-cms v.2.7.5 allows remote attacker to execute arbitrary code via the content group name field.",
       "cveName": "CVE-2024-48652",
       "cveUrl": "/vuln/detail/CVE-2024-48652"
+    }
+  },
+  "CVE-2024-48654": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in Blood Bank v.1 allows a remote attacker to execute arbitrary code via a crafted script to the login.php component.",
+      "cveName": "CVE-2024-48654",
+      "cveUrl": "/vuln/detail/CVE-2024-48654"
+    }
+  },
+  "CVE-2024-48655": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "An issue in Total.js CMS v.1.0 allows a remote attacker to execute arbitrary code via the func.js file.",
+      "cveName": "CVE-2024-48655",
+      "cveUrl": "/vuln/detail/CVE-2024-48655"
     }
   },
   "CVE-2024-48656": {
@@ -16420,6 +16981,17 @@
       "cveDis": "In TP-Link TL-WDR7660 v1.0, the guestRuleJsonToBin function handles the parameter string name without checking it, which can lead to stack overflow vulnerabilities.",
       "cveName": "CVE-2024-48714",
       "cveUrl": "/vuln/detail/CVE-2024-48714"
+    }
+  },
+  "CVE-2024-48743": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in Sentry v.6.0.9 allows a remote attacker to execute arbitrary code via the z parameter.",
+      "cveName": "CVE-2024-48743",
+      "cveUrl": "/vuln/detail/CVE-2024-48743"
     }
   },
   "CVE-2024-48744": {
@@ -18424,6 +18996,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-49373"
     }
   },
+  "CVE-2024-49376": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "9:15:17 AM -0400"
+      ],
+      "cveDis": "Autolab, a course management service that enables auto-graded programming assignments, has misconfigured reset password permissions in version 3.0.0. For email-based accounts, users with insufficient privileges could reset and theoretically access privileged users' accounts by resetting their passwords. This issue is fixed in version 3.0.1. No known workarounds exist.",
+      "cveName": "CVE-2024-49376",
+      "cveUrl": "/vuln/detail/CVE-2024-49376"
+    }
+  },
+  "CVE-2024-49378": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "9:15:18 AM -0400"
+      ],
+      "cveDis": "smartUp, a web browser mouse gestures extension, has a universal cross-site scripting issue in the Edge and Firefox versions of smartUp 7.2.622.1170. The vulnerability allows another extension to execute arbitrary code in the context of the user’s tab. As of time of publication, no known patches exist.",
+      "cveName": "CVE-2024-49378",
+      "cveUrl": "/vuln/detail/CVE-2024-49378"
+    }
+  },
+  "CVE-2024-49380": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "10:15:12 AM -0400"
+      ],
+      "cveDis": "Plenti, a static site generator, has an arbitrary file write vulnerability in versions prior to 0.7.2. The `/postLocal` endpoint is vulnerable to an arbitrary file write vulnerability when a plenti user serves their website. This issue may lead to Remote Code Execution. Version 0.7.2 fixes the vulnerability.",
+      "cveName": "CVE-2024-49380",
+      "cveUrl": "/vuln/detail/CVE-2024-49380"
+    }
+  },
+  "CVE-2024-49381": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "10:15:12 AM -0400"
+      ],
+      "cveDis": "Plenti, a static site generator, has an arbitrary file deletion vulnerability in versions prior to 0.7.2. The `/postLocal` endpoint is vulnerable to an arbitrary file write deletion when a plenti user serves their website. This issue may lead to information loss. Version 0.7.2 fixes the vulnerability.",
+      "cveName": "CVE-2024-49381",
+      "cveUrl": "/vuln/detail/CVE-2024-49381"
+    }
+  },
   "CVE-2024-49382": {
     "cve": {
       "cveDate": [
@@ -19183,6 +19799,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49751"
     }
   },
+  "CVE-2024-49753": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "10:15:12 AM -0400"
+      ],
+      "cveDis": "Zitadel is open-source identity infrastructure software. Versions prior to 2.64.1, 2.63.6, 2.62.8, 2.61.4, 2.60.4, 2.59.5, and 2.58.7 have a flaw in the URL validation mechanism of Zitadel actions allows bypassing restrictions intended to block requests to localhost (127.0.0.1). The isHostBlocked check, designed to prevent such requests, can be circumvented by creating a DNS record that resolves to 127.0.0.1. This enables actions to send requests to localhost despite the intended security measures. This vulnerability potentially allows unauthorized access to unsecured internal endpoints, which may contain sensitive information or functionalities. Versions 2.64.1, 2.63.6, 2.62.8, 2.61.4, 2.60.4, 2.59.5, and 2.58.7 contain a patch. No known workarounds are available.",
+      "cveName": "CVE-2024-49753",
+      "cveUrl": "/vuln/detail/CVE-2024-49753"
+    }
+  },
   "CVE-2024-49756": {
     "cve": {
       "cveDate": [
@@ -19192,6 +19819,17 @@
       "cveDis": "AshPostgres is the PostgreSQL data layer for Ash Framework. Starting in version 2.0.0 and prior to version 2.4.10, in certain very specific situations, it was possible for the policies of an update action to be skipped. This occurred only on \"empty\" update actions (no changing fields), and would allow their hooks (side effects) to be performed when they should not have been. Note that this does not allow reading new data that the user should not have had access to, only triggering a side effect a user should not have been able to trigger.\n\nTo be vulnerable, an affected user must have an update action that is on a resource with no attributes containing an \"update default\" (updated_at timestamp, for example); can be performed atomically; does not have `require_atomic? false`; has at least one authorizer (typically `Ash.Policy.Authorizer`); and has at least one `change` (on the resource's `changes` block or in the action itself). This is where the side-effects would be performed when they should not have been.\n\nThis problem has been patched in `2.4.10` of `ash_postgres`. Several workarounds are available. Potentially affected users may determine that none of their actions are vulnerable using a script the maintainers provide in the GitHub Security Advisory, add `require_atomic? false` to any potentially affected update action, replace any usage of `Ash.update` with `Ash.bulk_update` for an affected action, and/or add an update timestamp to their action.",
       "cveName": "CVE-2024-49756",
       "cveUrl": "/vuln/detail/CVE-2024-49756"
+    }
+  },
+  "CVE-2024-49757": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "11:15:18 AM -0400"
+      ],
+      "cveDis": "The open-source identity infrastructure software Zitadel allows administrators to disable the user self-registration. Due to a missing security check in versions prior to 2.64.0, 2.63.5, 2.62.7, 2.61.4, 2.60.4, 2.59.5, and 2.58.7, disabling the \"User Registration allowed\" option only hid the registration button on the login page. Users could bypass this restriction by directly accessing the registration URL (/ui/login/loginname) and register a user that way. Versions 2.64.0, 2.63.5, 2.62.7, 2.61.4, 2.60.4, 2.59.5, and 2.58.7 contain a patch. No known workarounds are available.",
+      "cveName": "CVE-2024-49757",
+      "cveUrl": "/vuln/detail/CVE-2024-49757"
     }
   },
   "CVE-2024-49760": {
@@ -20589,6 +21227,17 @@
       "cveDis": "In Progress Telerik Report Server versions prior to 2024 Q3 (10.2.24.924), a remote code execution attack is possible through object injection via an insecure type resolution vulnerability.",
       "cveName": "CVE-2024-8015",
       "cveUrl": "/vuln/detail/CVE-2024-8015"
+    }
+  },
+  "CVE-2024-8036": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "ABB is aware of privately reported vulnerabilities in the product versions referenced in this CVE. An attacker could exploit these vulnerabilities by sending a specially crafted firmware or configuration to the system node, causing the node to stop, become inaccessible, or allowing the attacker to take control of the node.",
+      "cveName": "CVE-2024-8036",
+      "cveUrl": "/vuln/detail/CVE-2024-8036"
     }
   },
   "CVE-2024-8037": {
@@ -26452,6 +27101,17 @@
       "cveDis": "A post-authentication SQL Injection vulnerability within the filters parameter of the extensions/agents_modules_csv functionality. This issue affects Pandora FMS: from 700 through <777.3.",
       "cveName": "CVE-2024-9987",
       "cveUrl": "/vuln/detail/CVE-2024-9987"
+    }
+  },
+  "CVE-2024-9991": {
+    "cve": {
+      "cveDate": [
+        "October 25, 2024",
+        "9:15:18 AM -0400"
+      ],
+      "cveDis": "This vulnerability exists in Philips lighting devices due to storage of Wi-Fi credentials in plain text within the device firmware. An attacker with physical access could exploit this by extracting the firmware and analyzing the binary data to obtain the plaintext Wi-Fi credentials stored on the vulnerable device.\n\nSuccessful exploitation of this vulnerability could allow an attacker to gain unauthorized access to the Wi-Fi network to which vulnerable device is connected.",
+      "cveName": "CVE-2024-9991",
+      "cveUrl": "/vuln/detail/CVE-2024-9991"
     }
   }
 }
