@@ -2067,6 +2067,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10293"
     }
   },
+  "CVE-2024-102955-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "A flaw was found in Gateway. Sending a non-base64 'basic' auth with special characters can cause APICast to incorrectly authenticate a request. A malformed basic authentication header containing special characters bypasses authentication and allows unauthorized access to the backend. This issue can occur due to a failure in the base64 decoding process, which causes APICast to skip the rest of the authentication checks and proceed with routing the request upstream.",
+      "cveName": "CVE-2024-102955-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10295"
+    }
+  },
   "CVE-2024-10296": {
     "cve": {
       "cveDate": [
@@ -2133,6 +2144,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-10301"
     }
   },
+  "CVE-2024-10313": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "iniNet Solutions SpiderControl SCADA PC HMI Editor has a path traversal \nvulnerability. When the software loads a malicious ‘ems' project \ntemplate file constructed by an attacker, it can write files to \narbitrary directories. This can lead to overwriting system files, \ncausing system paralysis, or writing to startup items, resulting in \nremote control.",
+      "cveName": "CVE-2024-10313",
+      "cveUrl": "/vuln/detail/CVE-2024-10313"
+    }
+  },
+  "CVE-2024-10327": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:11 PM -0400"
+      ],
+      "cveDis": "A vulnerability in Okta Verify for iOS versions 9.25.1 (beta) and 9.27.0 (including beta) allows push notification responses through the iOS ContextExtension feature allowing the authentication to proceed regardless of the user’s selection. When a user long-presses the notification banner and selects an option, both options allow the authentication to succeed. \nThe ContextExtension feature is one of several push mechanisms available when using Okta Verify Push on iOS devices. The vulnerable flows include: \n* When a user is presented with a notification on a locked screen, the user presses on the notification directly and selects their reply without unlocking the device; \n* When a user is presented with a notification on the home screen and drags the notification down and selects their reply; \n* When an Apple Watch is used to reply directly to a notification. \n\n A pre-condition for this vulnerability is that the user must have enrolled in Okta Verify while the Okta customer was using Okta Classic. This applies irrespective of whether the organization has since upgraded to Okta Identity Engine.",
+      "cveName": "CVE-2024-10327",
+      "cveUrl": "/vuln/detail/CVE-2024-10327"
+    }
+  },
   "CVE-2024-10331": {
     "cve": {
       "cveDate": [
@@ -2175,6 +2208,160 @@
       "cveDis": "A vulnerability was found in SourceCodeHero Clothes Recommendation System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /admin/index.php of the component Admin Login Page. The manipulation of the argument t1 leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10336",
       "cveUrl": "/vuln/detail/CVE-2024-10336"
+    }
+  },
+  "CVE-2024-10337": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in SourceCodeHero Clothes Recommendation System 1.0. Affected is an unknown function of the file /admin/home.php?con=add. The manipulation of the argument cat/subcat/ t1/t2/text leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10337",
+      "cveUrl": "/vuln/detail/CVE-2024-10337"
+    }
+  },
+  "CVE-2024-10338": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in SourceCodeHero Clothes Recommendation System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/home.php. The manipulation of the argument view/view1 leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10338",
+      "cveUrl": "/vuln/detail/CVE-2024-10338"
+    }
+  },
+  "CVE-2024-10348": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Best House Rental Management System 1.0. It has been classified as problematic. This affects an unknown part of the file /index.php?page=tenants of the component Manage Tenant Details. The manipulation of the argument Last Name/First Name/Middle Name leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only shows the field \"Last Name\" to be affected. Other fields might be affected as well.",
+      "cveName": "CVE-2024-10348",
+      "cveUrl": "/vuln/detail/CVE-2024-10348"
+    }
+  },
+  "CVE-2024-10349": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Best House Rental Management System 1.0 and classified as critical. Affected by this issue is the function delete_tenant of the file /ajax.php?action=delete_tenant. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10349",
+      "cveUrl": "/vuln/detail/CVE-2024-10349"
+    }
+  },
+  "CVE-2024-10350": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "7:15:13 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Hospital Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/add-doctor.php. The manipulation of the argument docname leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10350",
+      "cveUrl": "/vuln/detail/CVE-2024-10350"
+    }
+  },
+  "CVE-2024-10351": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "8:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Tenda RX9 Pro 22.03.02.20. It has been rated as critical. This issue affects the function sub_424CE0 of the file /goform/setMacFilterCfg of the component POST Request Handler. The manipulation of the argument deviceList leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10351",
+      "cveUrl": "/vuln/detail/CVE-2024-10351"
+    }
+  },
+  "CVE-2024-10353": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "8:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in SourceCodester Online Exam System 1.0. Affected is an unknown function of the file /admin-dashboard. The manipulation leads to improper access controls. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. This affects a different product and is a different issue than CVE-2024-40480.",
+      "cveName": "CVE-2024-10353",
+      "cveUrl": "/vuln/detail/CVE-2024-10353"
+    }
+  },
+  "CVE-2024-10354": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "9:15:13 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in SourceCodester Petrol Pump Management Software 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/print.php. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10354",
+      "cveUrl": "/vuln/detail/CVE-2024-10354"
+    }
+  },
+  "CVE-2024-10355": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "9:15:13 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in SourceCodester Petrol Pump Management Software 1.0. Affected by this issue is some unknown functionality of the file /admin/invoice.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10355",
+      "cveUrl": "/vuln/detail/CVE-2024-10355"
+    }
+  },
+  "CVE-2024-10368": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Codezips Sales Management System 1.0. It has been classified as critical. Affected is an unknown function of the file /addstock.php. The manipulation of the argument prodtype leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10368",
+      "cveUrl": "/vuln/detail/CVE-2024-10368"
+    }
+  },
+  "CVE-2024-10369": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Codezips Sales Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /addcustcom.php. The manipulation of the argument refno leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10369",
+      "cveUrl": "/vuln/detail/CVE-2024-10369"
+    }
+  },
+  "CVE-2024-10370": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Codezips Sales Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /addcustind.php. The manipulation of the argument refno leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10370",
+      "cveUrl": "/vuln/detail/CVE-2024-10370"
+    }
+  },
+  "CVE-2024-10371": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in SourceCodester Payroll Management System 1.0. This affects the function login of the file main. The manipulation leads to buffer overflow. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10371",
+      "cveUrl": "/vuln/detail/CVE-2024-10371"
+    }
+  },
+  "CVE-2024-10372": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as problematic was found in chidiwilliams buzz 1.1.0. This vulnerability affects the function download_model of the file buzz/model_loader.py. The manipulation leads to insecure temporary file. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10372",
+      "cveUrl": "/vuln/detail/CVE-2024-10372"
     }
   },
   "CVE-2024-20090": {
@@ -5455,6 +5642,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-38308"
     }
   },
+  "CVE-2024-383145-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "IBM Maximo Application Suite - Monitor Component 8.10, 8.11, and 9.0 could disclose information in the form of the hard-coded cryptographic key to an attacker that has compromised environment.",
+      "cveName": "CVE-2024-383145-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-38314"
+    }
+  },
   "CVE-2024-38365": {
     "cve": {
       "cveDate": [
@@ -6311,6 +6509,28 @@
       "cveDis": "Buffer Overflow vulnerabilities exist in DrayTek Vigor310 devices through 4.3.2.6 (in the Vigor management UI) because of improper retrieval and handling of the CGI form parameters.",
       "cveName": "CVE-2024-41596",
       "cveUrl": "/vuln/detail/CVE-2024-41596"
+    }
+  },
+  "CVE-2024-41617": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Money Manager EX WebApp (web-money-manager-ex) 1.2.2 is vulnerable to Incorrect Access Control. The `redirect_if_not_loggedin` function in `functions_security.php` fails to terminate script execution after redirecting unauthenticated users. This flaw allows an unauthenticated attacker to upload arbitrary files, potentially leading to Remote Code Execution.",
+      "cveName": "CVE-2024-41617",
+      "cveUrl": "/vuln/detail/CVE-2024-41617"
+    }
+  },
+  "CVE-2024-41618": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Money Manager EX WebApp (web-money-manager-ex) 1.2.2 is vulnerable to SQL Injection in the `transaction_delete_group` function. The vulnerability is due to improper sanitization of user input in the `TrDeleteArr` parameter, which is directly incorporated into an SQL query.",
+      "cveName": "CVE-2024-41618",
+      "cveUrl": "/vuln/detail/CVE-2024-41618"
     }
   },
   "CVE-2024-41673": {
@@ -8711,6 +8931,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45231"
     }
   },
+  "CVE-2024-45242": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "4:15:04 PM -0400"
+      ],
+      "cveDis": "EnGenius ENH1350EXT A8J-ENH1350EXT devices through 3.9.3.2_c1.9.51 allow (blind) OS Command Injection via shell metacharacters to the Ping or Speed Test utility. During the time of initial setup, the device creates an open unsecured network whose admin panel is configured with the default credentials of admin/admin. An unauthorized attacker in proximity to the Wi-Fi network can exploit this window of time to execute arbitrary OS commands with root-level permissions.",
+      "cveName": "CVE-2024-45242",
+      "cveUrl": "/vuln/detail/CVE-2024-45242"
+    }
+  },
   "CVE-2024-45245": {
     "cve": {
       "cveDate": [
@@ -8797,6 +9028,61 @@
       "cveDis": "Elsight – CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
       "cveName": "CVE-2024-45252",
       "cveUrl": "/vuln/detail/CVE-2024-45252"
+    }
+  },
+  "CVE-2024-45259": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "4:15:04 PM -0400"
+      ],
+      "cveDis": "An issue was discovered on certain GL-iNet devices, including MT6000, MT3000, MT2500, AXT1800, and AX1800 4.6.2. By intercepting an HTTP request and changing the filename property in the download interface, any file on the device can be deleted.",
+      "cveName": "CVE-2024-45259",
+      "cveUrl": "/vuln/detail/CVE-2024-45259"
+    }
+  },
+  "CVE-2024-45260": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:11 PM -0400"
+      ],
+      "cveDis": "An issue was discovered on certain GL-iNet devices, including MT6000, MT3000, MT2500, AXT1800, and AX1800 4.6.2. Users who belong to unauthorized groups can invoke any interface of the device, thereby gaining complete control over it.",
+      "cveName": "CVE-2024-45260",
+      "cveUrl": "/vuln/detail/CVE-2024-45260"
+    }
+  },
+  "CVE-2024-45261": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "An issue was discovered on certain GL-iNet devices, including MT6000, MT3000, MT2500, AXT1800, and AX1800 4.6.2. The SID generated for a specific user is not tied to that user itself, which allows other users to potentially use it for authentication. Once an attacker bypasses the application's authentication procedures, they can generate a valid SID, escalate privileges, and gain full control.",
+      "cveName": "CVE-2024-45261",
+      "cveUrl": "/vuln/detail/CVE-2024-45261"
+    }
+  },
+  "CVE-2024-45262": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "An issue was discovered on certain GL-iNet devices, including MT6000, MT3000, MT2500, AXT1800, and AX1800 4.6.2. The params parameter in the call method of the /rpc endpoint is vulnerable to arbitrary directory traversal, which enables attackers to execute scripts under any path.",
+      "cveName": "CVE-2024-45262",
+      "cveUrl": "/vuln/detail/CVE-2024-45262"
+    }
+  },
+  "CVE-2024-45263": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "An issue was discovered on certain GL-iNet devices, including MT6000, MT3000, MT2500, AXT1800, and AX1800 4.6.2. The upload interface allows the uploading of arbitrary files to the device. Once the device executes the files, it can lead to information leakage, enabling complete control.",
+      "cveName": "CVE-2024-45263",
+      "cveUrl": "/vuln/detail/CVE-2024-45263"
     }
   },
   "CVE-2024-452718-4 HIGH": {
@@ -10273,6 +10559,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46475"
     }
   },
+  "CVE-2024-46478": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "HTMLDOC v1.9.18 contains a buffer overflow in parse_pre function,ps-pdf.cxx:5681.",
+      "cveName": "CVE-2024-46478",
+      "cveUrl": "/vuln/detail/CVE-2024-46478"
+    }
+  },
   "CVE-2024-46482": {
     "cve": {
       "cveDate": [
@@ -10658,6 +10955,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-46988"
     }
   },
+  "CVE-2024-46994": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "baserCMS is a website development framework. Versions prior to 5.1.2 have a cross-site scripting vulnerability in Blog posts and Contents list Feature. Version 5.1.2 fixes this issue.",
+      "cveName": "CVE-2024-46994",
+      "cveUrl": "/vuln/detail/CVE-2024-46994"
+    }
+  },
+  "CVE-2024-46995": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "baserCMS is a website development framework. Versions prior to 5.1.2 have a cross-site scripting vulnerability in HTTP 400 Bad Request. Version 5.1.2 fixes this issue.",
+      "cveName": "CVE-2024-46995",
+      "cveUrl": "/vuln/detail/CVE-2024-46995"
+    }
+  },
+  "CVE-2024-46996": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "baserCMS is a website development framework. Versions prior to 5.1.2 have a cross-site scripting vulnerability in the Blog posts feature. Version 5.1.2 fixes this issue.",
+      "cveName": "CVE-2024-46996",
+      "cveUrl": "/vuln/detail/CVE-2024-46996"
+    }
+  },
+  "CVE-2024-46998": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "baserCMS is a website development framework. Versions prior to 5.1.2 have a cross-site scripting vulnerability in the Edit Email Form Settings Feature. Version 5.1.2 fixes the issue.",
+      "cveName": "CVE-2024-46998",
+      "cveUrl": "/vuln/detail/CVE-2024-46998"
+    }
+  },
   "CVE-2024-47007": {
     "cve": {
       "cveDate": [
@@ -10942,6 +11283,17 @@
       "cveDis": "Computer Vision Annotation Tool (CVAT) is an interactive video and image annotation tool for computer vision. An attacker with a CVAT account may retrieve certain information about any project, task, job or membership resource on the CVAT instance. The information exposed in this way is the same as the information returned on a GET request to the resource. In addition, the attacker can also alter the default source and target storage associated with any project or task. Upgrade to CVAT 2.19.1 or any later version to fix the issue.",
       "cveName": "CVE-2024-47172",
       "cveUrl": "/vuln/detail/CVE-2024-47172"
+    }
+  },
+  "CVE-2024-47173": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "Aimeos is an e-commerce framework. All SaaS and marketplace setups using the Aimeos GraphQL API admin interface version from 2024.04 up to 2024.07.1 are affected by a potential denial of service attack. Version 2024.07.2 fixes the issue.",
+      "cveName": "CVE-2024-47173",
+      "cveUrl": "/vuln/detail/CVE-2024-47173"
     }
   },
   "CVE-2024-47178": {
@@ -14431,6 +14783,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-47877"
     }
   },
+  "CVE-2024-47878": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "OpenRefine is a free, open source tool for working with messy data. Prior to version 3.8.3, the `/extension/gdata/authorized` endpoint includes the `state` GET parameter verbatim in a `<script>` tag in the output, so without escaping. An attacker could lead or redirect a user to a crafted URL containing JavaScript code, which would then cause that code to be executed in the victim's browser as if it was part of OpenRefine. Version 3.8.3 fixes this issue.",
+      "cveName": "CVE-2024-47878",
+      "cveUrl": "/vuln/detail/CVE-2024-47878"
+    }
+  },
+  "CVE-2024-47879": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "OpenRefine is a free, open source tool for working with messy data. Prior to version 3.8.3, lack of cross-site request forgery protection on the `preview-expression` command means that visiting a malicious website could cause an attacker-controlled expression to be executed. The expression can contain arbitrary Clojure or Python code. The attacker must know a valid project ID of a project that contains at least one row, and the attacker must convince the victim to open a malicious webpage. Version 3.8.3 fixes the issue.",
+      "cveName": "CVE-2024-47879",
+      "cveUrl": "/vuln/detail/CVE-2024-47879"
+    }
+  },
+  "CVE-2024-47880": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "OpenRefine is a free, open source tool for working with messy data. Prior to version 3.8.3, the `export-rows` command can be used in such a way that it reflects part of the request verbatim, with a Content-Type header also taken from the request. An attacker could lead a user to a malicious page that submits a form POST that contains  embedded JavaScript code. This code would then be included in the response, along with an attacker-controlled `Content-Type` header, and so potentially executed in the victim's browser as if it was part of OpenRefine. The attacker-provided code can do anything the user can do, including deleting projects, retrieving database passwords, or executing arbitrary Jython or Closure expressions, if those extensions are also present. The attacker must know a valid project ID of a project that contains at least one row. Version 3.8.3 fixes the issue.",
+      "cveName": "CVE-2024-47880",
+      "cveUrl": "/vuln/detail/CVE-2024-47880"
+    }
+  },
+  "CVE-2024-47881": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:12 PM -0400"
+      ],
+      "cveDis": "OpenRefine is a free, open source tool for working with messy data. Starting in version 3.4-beta and prior to version 3.8.3, in the `database` extension, the \"enable_load_extension\" property can be set for the SQLite integration, enabling an attacker to load (local or remote) extension DLLs and so run arbitrary code on the server. The attacker needs to have network access to the OpenRefine instance. Version 3.8.3 fixes this issue.",
+      "cveName": "CVE-2024-47881",
+      "cveUrl": "/vuln/detail/CVE-2024-47881"
+    }
+  },
+  "CVE-2024-47882": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "OpenRefine is a free, open source tool for working with messy data. Prior to version 3.8.3, the built-in \"Something went wrong!\" error page includes the exception message and exception traceback without escaping HTML tags, enabling injection into the page if an attacker can reliably produce an error with an attacker-influenced message. It appears that the only way to reach this code in OpenRefine itself is for an attacker to somehow convince a victim to import a malicious file, which may be difficult.  However, out-of-tree extensions may add their own calls to `respondWithErrorPage`. Version 3.8.3 has a fix for this issue.",
+      "cveName": "CVE-2024-47882",
+      "cveUrl": "/vuln/detail/CVE-2024-47882"
+    }
+  },
+  "CVE-2024-47883": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "The OpenRefine fork of the MIT Simile Butterfly server is a modular web application framework. The Butterfly framework uses the `java.net.URL` class to refer to (what are expected to be) local resource files, like images or templates. This works: \"opening a connection\" to these URLs opens the local file. However, prior to version 1.2.6, if a `file:/` URL is directly given where a relative path (resource name) is expected, this is also accepted in some code paths; the app then fetches the file, from a remote machine if indicated, and uses it as if it was a trusted part of the app's codebase. This leads to multiple weaknesses and potential weaknesses. An attacker that has network access to the application could use it to gain access to files, either on the the server's filesystem (path traversal) or shared by nearby machines (server-side request forgery with e.g. SMB). An attacker that can lead or redirect a user to a crafted URL belonging to the app could cause arbitrary attacker-controlled JavaScript to be loaded in the victim's browser (cross-site scripting). If an app is written in such a way that an attacker can influence the resource name used for a template, that attacker could cause the app to fetch and execute an attacker-controlled template (remote code execution). Version 1.2.6 contains a patch.",
+      "cveName": "CVE-2024-47883",
+      "cveUrl": "/vuln/detail/CVE-2024-47883"
+    }
+  },
   "CVE-2024-47884": {
     "cve": {
       "cveDate": [
@@ -15113,6 +15531,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-48120"
     }
   },
+  "CVE-2024-48139": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "A prompt injection vulnerability in the chatbox of Blackbox AI v1.3.95 allows attackers to access and exfiltrate all previous and subsequent chat data between the user and the AI assistant via a crafted message.",
+      "cveName": "CVE-2024-48139",
+      "cveUrl": "/vuln/detail/CVE-2024-48139"
+    }
+  },
+  "CVE-2024-48140": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "A prompt injection vulnerability in the chatbox of Butterfly Effect Limited Monica Your AI Copilot powered by ChatGPT4 v6.3.0 allows attackers to access and exfiltrate all previous and subsequent chat data between the user and the AI assistant via a crafted message.",
+      "cveName": "CVE-2024-48140",
+      "cveUrl": "/vuln/detail/CVE-2024-48140"
+    }
+  },
+  "CVE-2024-48141": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "A prompt injection vulnerability in the chatbox of Zhipu AI CodeGeeX v2.17.0 allows attackers to access and exfiltrate all previous and subsequent chat data between the user and the AI assistant via a crafted message.",
+      "cveName": "CVE-2024-48141",
+      "cveUrl": "/vuln/detail/CVE-2024-48141"
+    }
+  },
+  "CVE-2024-48142": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "A prompt injection vulnerability in the chatbox of Butterfly Effect Limited Monica ChatGPT AI Assistant v2.4.0 allows attackers to access and exfiltrate all previous and subsequent chat data between the user and the AI assistant via a crafted message.",
+      "cveName": "CVE-2024-48142",
+      "cveUrl": "/vuln/detail/CVE-2024-48142"
+    }
+  },
+  "CVE-2024-48143": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "A lack of rate limiting in the OTP validation component of Digitory Multi Channel Integrated POS v1.0 allows attackers to gain access to the ordering system and place an excessive amount of food orders.",
+      "cveName": "CVE-2024-48143",
+      "cveUrl": "/vuln/detail/CVE-2024-48143"
+    }
+  },
+  "CVE-2024-48144": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "A prompt injection vulnerability in the chatbox of Fusion Chat Chat AI Assistant Ask Me Anything v1.2.4.0 allows attackers to access and exfiltrate all previous and subsequent chat data between the user and the AI assistant via a crafted message.",
+      "cveName": "CVE-2024-48144",
+      "cveUrl": "/vuln/detail/CVE-2024-48144"
+    }
+  },
+  "CVE-2024-48145": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "A prompt injection vulnerability in the chatbox of Netangular Technologies ChatNet AI Version v1.0 allows attackers to access and exfiltrate all previous and subsequent chat data between the user and the AI assistant via a crafted message.",
+      "cveName": "CVE-2024-48145",
+      "cveUrl": "/vuln/detail/CVE-2024-48145"
+    }
+  },
   "CVE-2024-48150": {
     "cve": {
       "cveDate": [
@@ -15166,6 +15661,17 @@
       "cveDis": "Tenda G3 v15.01.0.5(2848_755)_EN was discovered to contain a hardcoded password vulnerability in /etc_ro/shadow, which allows attackers to log in as root",
       "cveName": "CVE-2024-48192",
       "cveUrl": "/vuln/detail/CVE-2024-48192"
+    }
+  },
+  "CVE-2024-48208": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "pure-ftpd before 1.0.52 is vulnerable to Buffer Overflow. There is an out of bounds read in the domlsd() function of the ls.c file.",
+      "cveName": "CVE-2024-48208",
+      "cveUrl": "/vuln/detail/CVE-2024-48208"
     }
   },
   "CVE-2024-48213": {
@@ -15320,6 +15826,116 @@
       "cveDis": "itsourcecode Loan Management System v1.0 is vulnerable to Cross Site Scripting (XSS) via a crafted payload to the lastname, firstname, middlename, address, contact_no, email and tax_id parameters in new borrowers functionality on the Borrowers page.",
       "cveName": "CVE-2024-48415",
       "cveUrl": "/vuln/detail/CVE-2024-48415"
+    }
+  },
+  "CVE-2024-48423": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "An issue in assimp v.5.4.3 allows a local attacker to execute arbitrary code via the CallbackToLogRedirector function within the Assimp library.",
+      "cveName": "CVE-2024-48423",
+      "cveUrl": "/vuln/detail/CVE-2024-48423"
+    }
+  },
+  "CVE-2024-48424": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "A heap-buffer-overflow vulnerability has been identified in the OpenDDLParser::parseStructure function within the Assimp library, specifically during the processing of OpenGEX files.",
+      "cveName": "CVE-2024-48424",
+      "cveUrl": "/vuln/detail/CVE-2024-48424"
+    }
+  },
+  "CVE-2024-48425": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "A segmentation fault (SEGV) was detected in the Assimp::SplitLargeMeshesProcess_Triangle::UpdateNode function within the Assimp library during fuzz testing using AddressSanitizer. The crash occurs due to a read access violation at address 0x000000000460, which points to the zero page, indicating a null or invalid pointer dereference.",
+      "cveName": "CVE-2024-48425",
+      "cveUrl": "/vuln/detail/CVE-2024-48425"
+    }
+  },
+  "CVE-2024-48426": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "A segmentation fault (SEGV) was detected in the SortByPTypeProcess::Execute function in the Assimp library during fuzz testing with AddressSanitizer. The crash occurred due to a read access to an invalid memory address (0x1000c9714971).",
+      "cveName": "CVE-2024-48426",
+      "cveUrl": "/vuln/detail/CVE-2024-48426"
+    }
+  },
+  "CVE-2024-48427": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "A SQL injection vulnerability in Sourcecodester Packers and Movers Management System v1.0 allows remote authenticated users to execute arbitrary SQL commands via the id parameter in /mpms/admin/?page=services/manage_service&id",
+      "cveName": "CVE-2024-48427",
+      "cveUrl": "/vuln/detail/CVE-2024-48427"
+    }
+  },
+  "CVE-2024-48440": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:09 PM -0400"
+      ],
+      "cveDis": "Shenzhen Tuoshi Network Communications Co.,Ltd 5G CPE Router NR500-EA RG500UEAABxCOMSLICv3.2.2543.12.18 was discovered to contain a command injection vulnerability via the component at_command.asp.",
+      "cveName": "CVE-2024-48440",
+      "cveUrl": "/vuln/detail/CVE-2024-48440"
+    }
+  },
+  "CVE-2024-48441": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:09 PM -0400"
+      ],
+      "cveDis": "Wuhan Tianyu Information Industry Co., Ltd Tianyu CPE Router CommonCPExCPETS_v3.2.468.11.04_P4 was discovered to contain a command injection vulnerability via the component at_command.asp.",
+      "cveName": "CVE-2024-48441",
+      "cveUrl": "/vuln/detail/CVE-2024-48441"
+    }
+  },
+  "CVE-2024-48442": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:09 PM -0400"
+      ],
+      "cveDis": "Incorrect access control in Shenzhen Tuoshi Network Communications Co.,Ltd 5G CPE Router NR500-EA RG500UEAABxCOMSLICv3.2.2543.12.18 allows attackers to access the SSH protocol without authentication.",
+      "cveName": "CVE-2024-48442",
+      "cveUrl": "/vuln/detail/CVE-2024-48442"
+    }
+  },
+  "CVE-2024-48454": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "3:15:15 PM -0400"
+      ],
+      "cveDis": "An issue in SourceCodester Purchase Order Management System v1.0 allows a remote attacker to execute arbitrary code via the /admin?page=user component",
+      "cveName": "CVE-2024-48454",
+      "cveUrl": "/vuln/detail/CVE-2024-48454"
+    }
+  },
+  "CVE-2024-48514": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "2:15:10 PM -0400"
+      ],
+      "cveDis": "php-heic-to-jpg <= 1.0.5 is vulnerable to remote code execution. An attacker who can upload heic images is able to execute code on the remote server via the file name. As a result, the CIA is no longer guaranteed. This affects php-heic-to-jpg 1.0.5 and below.",
+      "cveName": "CVE-2024-48514",
+      "cveUrl": "/vuln/detail/CVE-2024-48514"
     }
   },
   "CVE-2024-48538": {
@@ -16200,6 +16816,28 @@
       "cveDis": "secp256k1-node is a Node.js binding for an Optimized C library for EC operations on curve secp256k1. In `elliptic`-based version, `loadUncompressedPublicKey` has a check that the public key is on the curve. Prior to versions 5.0.1, 4.0.4, and 3.8.1, however, `loadCompressedPublicKey` is missing that check. That allows the attacker to use public keys on low-cardinality curves to extract enough information to fully restore the private key from as little as 11 ECDH sessions, and very cheaply on compute power. Other operations on public keys are also affected, including e.g. `publicKeyVerify()` incorrectly returning `true` on those invalid keys, and e.g. `publicKeyTweakMul()` also returning predictable outcomes allowing to restore the tweak. Versions 5.0.1, 4.0.4, and 3.8.1 contain a fix for the issue.",
       "cveName": "CVE-2024-48930",
       "cveUrl": "/vuln/detail/CVE-2024-48930"
+    }
+  },
+  "CVE-2024-48931": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "ZimaOS is a fork of CasaOS, an operating system for Zima devices and x86-64 systems with UEFI. In version 1.2.4 and all prior versions, the ZimaOS API endpoint `http://<Zima_Server_IP:PORT>/v3/file?token=<token>&files=<file_path>` is vulnerable to arbitrary file reading due to improper input validation. By manipulating the `files` parameter, authenticated users can read sensitive system files, including `/etc/shadow`, which contains password hashes for all users. This vulnerability exposes critical system data and poses a high risk for privilege escalation or system compromise. The vulnerability occurs because the API endpoint does not validate or restrict file paths provided via the `files` parameter. An attacker can exploit this by manipulating the file path to access sensitive files outside the intended directory. As of time of publication, no known patched versions are available.",
+      "cveName": "CVE-2024-48931",
+      "cveUrl": "/vuln/detail/CVE-2024-48931"
+    }
+  },
+  "CVE-2024-48932": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "ZimaOS is a fork of CasaOS, an operating system for Zima devices and x86-64 systems with UEFI. In version 1.2.4 and all prior versions, the API endpoint `http://<Server-ip>/v1/users/name` allows unauthenticated users to access sensitive information, such as usernames, without any authorization. This vulnerability could be exploited by an attacker to enumerate usernames and leverage them for further attacks, such as brute-force or phishing campaigns. As of time of publication, no known patched versions are available.",
+      "cveName": "CVE-2024-48932",
+      "cveUrl": "/vuln/detail/CVE-2024-48932"
     }
   },
   "CVE-2024-48933": {
@@ -17478,6 +18116,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-49340"
     }
   },
+  "CVE-2024-49357": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "ZimaOS is a fork of CasaOS, an operating system for Zima devices and x86-64 systems with UEFI. In version 1.2.4 and all prior versions, the API endpoints in ZimaOS, such as `http://<Server-IP>/v1/users/image?path=/var/lib/casaos/1/app_order.json` and `http://<Server-IP>/v1/users/image?path=/var/lib/casaos/1/system.json`, expose sensitive data like installed applications and system information without requiring any authentication or authorization. This sensitive data leak can be exploited by attackers to gain detailed knowledge about the system setup, installed applications, and other critical information. As of time of publication, no known patched versions are available.",
+      "cveName": "CVE-2024-49357",
+      "cveUrl": "/vuln/detail/CVE-2024-49357"
+    }
+  },
+  "CVE-2024-49358": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "ZimaOS is a fork of CasaOS, an operating system for Zima devices and x86-64 systems with UEFI. In version 1.2.4 and all prior versions, the API endpoint `http://<Server-IP>/v1/users/login` in ZimaOS returns distinct responses based on whether a username exists or the password is incorrect. This behavior can be exploited for username enumeration, allowing attackers to determine whether a user exists in the system or not. Attackers can leverage this information in further attacks, such as credential stuffing or targeted password brute-forcing. As of time of publication, no known patched versions are available.",
+      "cveName": "CVE-2024-49358",
+      "cveUrl": "/vuln/detail/CVE-2024-49358"
+    }
+  },
+  "CVE-2024-49359": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "ZimaOS is a fork of CasaOS, an operating system for Zima devices and x86-64 systems with UEFI. In version 1.2.4 and all prior versions, the API endpoint `http://<Zima_Server_IP:PORT>/v2_1/file` in ZimaOS is vulnerable to a directory traversal attack, allowing authenticated users to list the contents of any directory on the server. By manipulating the path parameter, attackers can access sensitive system directories such as `/etc`, potentially exposing critical configuration files and increasing the risk of further attacks. As of time of publication, no known patched versions are available.",
+      "cveName": "CVE-2024-49359",
+      "cveUrl": "/vuln/detail/CVE-2024-49359"
+    }
+  },
   "CVE-2024-49361": {
     "cve": {
       "cveDate": [
@@ -18281,6 +18952,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49703"
     }
   },
+  "CVE-2024-49750": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "The Snowflake Connector for Python provides an interface for developing Python applications that can connect to Snowflake and perform all standard operations. Prior to version 3.12.3, when the logging level was set by the user to DEBUG, the Connector could have logged Duo passcodes (when specified via the `passcode` parameter) and Azure SAS tokens. Additionally, the SecretDetector logging formatter, if enabled, contained bugs which caused it to not fully redact JWT tokens and certain private key formats. Snowflake released version 3.12.3 of the Snowflake Connector for Python, which fixes the issue. In addition to upgrading, users should review their logs for any potentially sensitive information that may have been captured.",
+      "cveName": "CVE-2024-49750",
+      "cveUrl": "/vuln/detail/CVE-2024-49750"
+    }
+  },
   "CVE-2024-49751": {
     "cve": {
       "cveDate": [
@@ -18301,6 +18983,28 @@
       "cveDis": "AshPostgres is the PostgreSQL data layer for Ash Framework. Starting in version 2.0.0 and prior to version 2.4.10, in certain very specific situations, it was possible for the policies of an update action to be skipped. This occurred only on \"empty\" update actions (no changing fields), and would allow their hooks (side effects) to be performed when they should not have been. Note that this does not allow reading new data that the user should not have had access to, only triggering a side effect a user should not have been able to trigger.\n\nTo be vulnerable, an affected user must have an update action that is on a resource with no attributes containing an \"update default\" (updated_at timestamp, for example); can be performed atomically; does not have `require_atomic? false`; has at least one authorizer (typically `Ash.Policy.Authorizer`); and has at least one `change` (on the resource's `changes` block or in the action itself). This is where the side-effects would be performed when they should not have been.\n\nThis problem has been patched in `2.4.10` of `ash_postgres`. Several workarounds are available. Potentially affected users may determine that none of their actions are vulnerable using a script the maintainers provide in the GitHub Security Advisory, add `require_atomic? false` to any potentially affected update action, replace any usage of `Ash.update` with `Ash.bulk_update` for an affected action, and/or add an update timestamp to their action.",
       "cveName": "CVE-2024-49756",
       "cveUrl": "/vuln/detail/CVE-2024-49756"
+    }
+  },
+  "CVE-2024-49760": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "OpenRefine is a free, open source tool for working with messy data. The load-language command expects a `lang` parameter from which it constructs the path of the localization file to load, of the form `translations-$LANG.json`. But when doing so in versions prior to 3.8.3, it does not check that the resulting path is in the expected directory, which means that this command could be exploited to read other JSON files on the file system. Version 3.8.3 addresses this issue.",
+      "cveName": "CVE-2024-49760",
+      "cveUrl": "/vuln/detail/CVE-2024-49760"
+    }
+  },
+  "CVE-2024-49762": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Pterodactyl is a free, open-source game server management panel. When a user disables two-factor authentication via the Panel, a `DELETE` request with their current password in a query parameter will be sent.  While query parameters are encrypted when using TLS, many webservers (including ones officially documented for use with Pterodactyl) will log query parameters in plain-text, storing a user's password in plain text. Prior to version 1.11.8, if a malicious user obtains access to these logs they could potentially authenticate against a user's account; assuming they are able to discover the account's email address or username separately. This problem has been patched in version 1.11.8. There are no workarounds at this time. There is not a direct vulnerability within the software as it relates to logs generated by intermediate components such as web servers or Layer 7 proxies. Updating to `v1.11.8` or adding the linked patch manually are the only ways to avoid this problem. As this vulnerability relates to historical logging of sensitive data, users who have ever disabled 2FA on a Panel (self-hosted or operated by a company) should change their passwords and consider enabling 2FA if it was left disabled. While it's unlikely that their account swill be compromised by this vulnerability, it's not impossible. Panel administrators should consider clearing any access logs that may contain sensitive data.",
+      "cveName": "CVE-2024-49762",
+      "cveUrl": "/vuln/detail/CVE-2024-49762"
     }
   },
   "CVE-2024-49850": {
@@ -19511,6 +20215,17 @@
       "cveDis": "The EWON FLEXY 202 transmits credentials using a weak encoding method base64. An attacker who is present in the network can sniff the traffic and decode the credentials.",
       "cveName": "CVE-2024-7755",
       "cveUrl": "/vuln/detail/CVE-2024-7755"
+    }
+  },
+  "CVE-2024-7763": {
+    "cve": {
+      "cveDate": [
+        "October 24, 2024",
+        "5:15:15 PM -0400"
+      ],
+      "cveDis": "In WhatsUp Gold versions released before 2024.0.0, \n\nan Authentication Bypass issue exists which allows an attacker to obtain encrypted user credentials.",
+      "cveName": "CVE-2024-7763",
+      "cveUrl": "/vuln/detail/CVE-2024-7763"
     }
   },
   "CVE-2024-7801": {
