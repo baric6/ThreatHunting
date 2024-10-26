@@ -1033,6 +1033,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-0116"
     }
   },
+  "CVE-2024-0117": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "NVIDIA GPU Display Driver for Windows contains a vulnerability in the user mode layer, where an unprivileged regular user can cause an out-of-bounds read. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+      "cveName": "CVE-2024-0117",
+      "cveUrl": "/vuln/detail/CVE-2024-0117"
+    }
+  },
+  "CVE-2024-0118": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "NVIDIA GPU Display Driver for Windows contains a vulnerability in the user mode layer, where an unprivileged regular user can cause an out-of-bounds read. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+      "cveName": "CVE-2024-0118",
+      "cveUrl": "/vuln/detail/CVE-2024-0118"
+    }
+  },
+  "CVE-2024-0119": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "NVIDIA GPU Display Driver for Windows contains a vulnerability in the user mode layer, where an unprivileged regular user can cause an out-of-bounds read. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+      "cveName": "CVE-2024-0119",
+      "cveUrl": "/vuln/detail/CVE-2024-0119"
+    }
+  },
+  "CVE-2024-0120": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "NVIDIA GPU Display Driver for Windows contains a vulnerability in the user mode layer, where an unprivileged regular user can cause an out-of-bounds read. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+      "cveName": "CVE-2024-0120",
+      "cveUrl": "/vuln/detail/CVE-2024-0120"
+    }
+  },
+  "CVE-2024-0121": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "NVIDIA GPU Display Driver for Windows contains a vulnerability in the user mode layer, where an unprivileged regular user can cause an out-of-bounds read. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+      "cveName": "CVE-2024-0121",
+      "cveUrl": "/vuln/detail/CVE-2024-0121"
+    }
+  },
   "CVE-2024-0123": {
     "cve": {
       "cveDate": [
@@ -1064,6 +1119,39 @@
       "cveDis": "NVIDIA CUDA Toolkit for Windows and Linux contains a vulnerability in the nvdisam command line tool, where a user can cause a NULL pointer dereference by running nvdisasm on a malformed ELF file. A successful exploit of this vulnerability might lead to a limited denial of service.",
       "cveName": "CVE-2024-0125",
       "cveUrl": "/vuln/detail/CVE-2024-0125"
+    }
+  },
+  "CVE-2024-0126": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "NVIDIA GPU Display Driver for Windows and Linux contains a vulnerability which could allow a privileged attacker to escalate permissions. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+      "cveName": "CVE-2024-0126",
+      "cveUrl": "/vuln/detail/CVE-2024-0126"
+    }
+  },
+  "CVE-2024-0127": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:02 AM -0400"
+      ],
+      "cveDis": "NVIDIA vGPU software contains a vulnerability in the GPU kernel driver of the vGPU Manager for all supported hypervisors, where a user of the guest OS can cause an improper input validation by compromising the guest OS kernel. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, denial of service, and information disclosure.",
+      "cveName": "CVE-2024-0127",
+      "cveUrl": "/vuln/detail/CVE-2024-0127"
+    }
+  },
+  "CVE-2024-0128": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:03 AM -0400"
+      ],
+      "cveDis": "NVIDIA vGPU software contains a vulnerability in the Virtual GPU Manager that allows a user of the guest OS to access global resources. A successful exploit of this vulnerability might lead to information disclosure, data tampering, and escalation of privileges.",
+      "cveName": "CVE-2024-0128",
+      "cveUrl": "/vuln/detail/CVE-2024-0128"
     }
   },
   "CVE-2024-0129": {
@@ -1361,6 +1449,17 @@
       "cveDis": "The ElementsKit Elementor addons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Image Comparison Widget in all versions up to, and including, 3.2.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-100916-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10091"
+    }
+  },
+  "CVE-2024-100924-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "The Download Monitor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the ajax_handle_api_key_actions function in all versions up to, and including, 5.0.12. This makes it possible for authenticated attackers, with Subscriber-level access and above, to revoke existing API keys and generate new ones.",
+      "cveName": "CVE-2024-100924-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10092"
     }
   },
   "CVE-2024-10093": {
@@ -2505,6 +2604,17 @@
       "cveDis": "A vulnerability, which was classified as critical, has been found in SourceCodester Petrol Pump Management Software 1.0. Affected by this issue is some unknown functionality of the file /admin/invoice.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10355",
       "cveUrl": "/vuln/detail/CVE-2024-10355"
+    }
+  },
+  "CVE-2024-103574-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "6:15:08 AM -0400"
+      ],
+      "cveDis": "The Clever Addons for Elementor plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.2.1 via the getTemplateContent function in src/widgets/class-clever-widget-base.php. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive private, pending, and draft template data.",
+      "cveName": "CVE-2024-103574-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10357"
     }
   },
   "CVE-2024-10368": {
@@ -21856,6 +21966,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8379"
     }
   },
+  "CVE-2024-83927-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:04 AM -0400"
+      ],
+      "cveDis": "The WordPress Post Grid Layouts with Pagination – Sogrid plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 1.5.2 via the 'tab' parameter. This makes it possible for authenticated attackers, with Administrator-level access and above, to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included. This can also be exploited via CSRF techniques.",
+      "cveName": "CVE-2024-83927-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8392"
+    }
+  },
   "CVE-2024-84210-0 NONE": {
     "cve": {
       "cveDate": [
@@ -22604,6 +22725,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8852"
     }
   },
+  "CVE-2024-88706-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "12:15:05 AM -0400"
+      ],
+      "cveDis": "The Forms for Mailchimp by Optin Cat – Grow Your MailChimp List plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 2.5.6. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-88706-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8870"
+    }
+  },
   "CVE-2024-8884": {
     "cve": {
       "cveDate": [
@@ -23152,6 +23284,17 @@
       "cveDis": "The WooCommerce UPS Shipping – Live Rates and Access Points plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the delete_oauth_data function in all versions up to, and including, 2.3.11. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete the plugin's API key.",
       "cveName": "CVE-2024-91094-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9109"
+    }
+  },
+  "CVE-2024-91166-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "6:15:10 AM -0400"
+      ],
+      "cveDis": "The Monkee-Boy Essentials plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-91166-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9116"
     }
   },
   "CVE-2024-9118": {
@@ -24837,6 +24980,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9455"
     }
   },
+  "CVE-2024-94566-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "1:15:17 AM -0400"
+      ],
+      "cveDis": "The WP Awesome Login plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 0.4.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-94566-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9456"
+    }
+  },
   "CVE-2024-94576-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -25937,6 +26091,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-9634"
     }
   },
+  "CVE-2024-96378-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:04 AM -0400"
+      ],
+      "cveDis": "The School Management System – WPSchoolPress plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 2.2.10. This is due to the plugin not properly validating a user's identity prior to updating their details like email. This makes it possible for authenticated attackers, with teacher-level access and above, to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.",
+      "cveName": "CVE-2024-96378-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9637"
+    }
+  },
+  "CVE-2024-96426-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:05 AM -0400"
+      ],
+      "cveDis": "The Editor Custom Color Palette plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 3.3.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-96426-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9642"
+    }
+  },
   "CVE-2024-96476-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -26155,6 +26331,17 @@
       "cveDis": "The Order Attachments for WooCommerce plugin for WordPress is vulnerable to unauthorized limited arbitrary file uploads due to a missing capability check on the wcoa_add_attachment AJAX action in versions 2.0 to 2.4.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to upload limited file types.",
       "cveName": "CVE-2024-97564-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9756"
+    }
+  },
+  "CVE-2024-97727-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "6:15:10 AM -0400"
+      ],
+      "cveDis": "The The Uix Shortcodes – Compatible with Gutenberg plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.9.9. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
+      "cveName": "CVE-2024-97727-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9772"
     }
   },
   "CVE-2024-97764-4 MEDIUM": {
@@ -26650,6 +26837,17 @@
       "cveDis": "The Product Customizer Light plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
       "cveName": "CVE-2024-98486-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9848"
+    }
+  },
+  "CVE-2024-98536-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:05 AM -0400"
+      ],
+      "cveDis": "The ID-SK Toolkit plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.7.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-98536-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9853"
     }
   },
   "CVE-2024-9858": {
@@ -27365,6 +27563,17 @@
       "cveDis": "Inappropriate implementation in Navigations in Google Chrome prior to 130.0.6723.58 allowed a remote attacker to bypass content security policy via a crafted HTML page. (Chromium security severity: Low)",
       "cveName": "CVE-2024-9966",
       "cveUrl": "/vuln/detail/CVE-2024-9966"
+    }
+  },
+  "CVE-2024-99676-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:06 AM -0400"
+      ],
+      "cveDis": "The WP show more plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's show_more shortcode in all versions up to, and including, 1.0.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-99676-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9967"
     }
   },
   "CVE-2024-9968": {
