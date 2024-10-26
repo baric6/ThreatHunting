@@ -1517,6 +1517,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10112"
     }
   },
+  "CVE-2024-101176-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "8:15:12 AM -0400"
+      ],
+      "cveDis": "The WP Crowdfunding plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wpcf_donate shortcode in all versions up to, and including, 2.1.11 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-101176-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10117"
+    }
+  },
   "CVE-2024-101189-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -2747,6 +2758,17 @@
       "cveDis": "CVE-2024-10387 IMPACT\n\n\n\nA Denial-of-Service\nvulnerability exists in the affected product. The vulnerability could allow a\nthreat actor with network access to send crafted messages to the device,\npotentially resulting in Denial-of-Service.",
       "cveName": "CVE-2024-10387",
       "cveUrl": "/vuln/detail/CVE-2024-10387"
+    }
+  },
+  "CVE-2024-104027-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "8:15:12 AM -0400"
+      ],
+      "cveDis": "The Forminator Forms – Contact Form, Payment Form & Custom Form Builder plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on a function in all versions up to, and including, 1.35.1. This makes it possible for authenticated attackers, with Contributor-level access and above, and permissions granted by an Administrator, to create new or edit existing forms, including updating the default registration role to Administrator on User Registration forms.",
+      "cveName": "CVE-2024-104027-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10402"
     }
   },
   "CVE-2024-20090": {
@@ -25220,6 +25242,17 @@
       "cveDis": "The Comments – wpDiscuz plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 7.6.24. This is due to insufficient verification on the user being returned by the social login token. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email and the user does not have an already-existing account for the service returning the token.",
       "cveName": "CVE-2024-94889-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-9488"
+    }
+  },
+  "CVE-2024-95019-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "9:15:11 AM -0400"
+      ],
+      "cveDis": "The Wp Social Login and Register Social Counter plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 3.0.7. This is due to insufficient verification on the user being returned by the social login token. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email and the user does not have an already-existing account for the service returning the token.",
+      "cveName": "CVE-2024-95019-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9501"
     }
   },
   "CVE-2024-9506": {
