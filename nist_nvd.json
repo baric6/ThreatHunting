@@ -65,6 +65,105 @@
       "cveUrl": "/vuln/detail/CVE-2019-25218"
     }
   },
+  "CVE-2020-26303": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "insane is a whitelist-oriented HTML sanitizer. Versions 2.6.2 and prior contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, no known patches are available.",
+      "cveName": "CVE-2020-26303",
+      "cveUrl": "/vuln/detail/CVE-2020-26303"
+    }
+  },
+  "CVE-2020-26304": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "Foundation is a front-end framework. Versions 6.3.3 and prior contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, it is unknown if any fixes are available.",
+      "cveName": "CVE-2020-26304",
+      "cveUrl": "/vuln/detail/CVE-2020-26304"
+    }
+  },
+  "CVE-2020-26305": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "CommonRegexJS is a CommonRegex port for JavaScript. All available versions contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, no known patches are available.",
+      "cveName": "CVE-2020-26305",
+      "cveUrl": "/vuln/detail/CVE-2020-26305"
+    }
+  },
+  "CVE-2020-26306": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "Knwl.js is a Javascript library that parses through text for dates, times, phone numbers, emails, places, and more. Versions 1.0.2 and prior contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, no known patches are available.",
+      "cveName": "CVE-2020-26306",
+      "cveUrl": "/vuln/detail/CVE-2020-26306"
+    }
+  },
+  "CVE-2020-26307": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:13 PM -0400"
+      ],
+      "cveDis": "HTML2Markdown is a Javascript implementation for converting HTML to Markdown text. All available versions contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, no known patches are available.",
+      "cveName": "CVE-2020-26307",
+      "cveUrl": "/vuln/detail/CVE-2020-26307"
+    }
+  },
+  "CVE-2020-26308": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "Validate.js provides a declarative way of validating javascript objects. Versions 0.13.1 and prior contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, no known patches are available.",
+      "cveName": "CVE-2020-26308",
+      "cveUrl": "/vuln/detail/CVE-2020-26308"
+    }
+  },
+  "CVE-2020-26309": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "Validate.js provides a declarative way of validating javascript objects. Versions 0.11.3 and prior contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, it is unknown if any patches are available.",
+      "cveName": "CVE-2020-26309",
+      "cveUrl": "/vuln/detail/CVE-2020-26309"
+    }
+  },
+  "CVE-2020-26310": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "Validate.js provides a declarative way of validating javascript objects. All versions as of 30 November 2020 contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, it is unknown if any patches are available.",
+      "cveName": "CVE-2020-26310",
+      "cveUrl": "/vuln/detail/CVE-2020-26310"
+    }
+  },
+  "CVE-2020-26311": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "Useragent is a user agent parser for Node.js. All versions as of time of publication contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, no patches are available.",
+      "cveName": "CVE-2020-26311",
+      "cveUrl": "/vuln/detail/CVE-2020-26311"
+    }
+  },
   "CVE-2020-368315-0 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -2769,6 +2868,50 @@
       "cveDis": "The Forminator Forms – Contact Form, Payment Form & Custom Form Builder plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on a function in all versions up to, and including, 1.35.1. This makes it possible for authenticated attackers, with Contributor-level access and above, and permissions granted by an Administrator, to create new or edit existing forms, including updating the default registration role to Administrator on User Registration forms.",
       "cveName": "CVE-2024-104027-5 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-10402"
+    }
+  },
+  "CVE-2024-10406": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in SourceCodester Petrol Pump Management Software 1.0. Affected by this issue is some unknown functionality of the file /admin/edit_fuel.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10406",
+      "cveUrl": "/vuln/detail/CVE-2024-10406"
+    }
+  },
+  "CVE-2024-10407": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "8:15:12 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in SourceCodester Petrol Pump Management Software 1.0. This affects an unknown part of the file /admin/edit_customer.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10407",
+      "cveUrl": "/vuln/detail/CVE-2024-10407"
+    }
+  },
+  "CVE-2024-10408": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in code-projects Blood Bank Management up to 1.0 and classified as critical. This vulnerability affects unknown code of the file /abs.php. The manipulation of the argument search leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10408",
+      "cveUrl": "/vuln/detail/CVE-2024-10408"
+    }
+  },
+  "CVE-2024-10409": {
+    "cve": {
+      "cveDate": [
+        "October 26, 2024",
+        "11:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Blood Bank Management 1.0 and classified as critical. This issue affects some unknown processing of the file /file/accept.php. The manipulation of the argument reqid leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10409",
+      "cveUrl": "/vuln/detail/CVE-2024-10409"
     }
   },
   "CVE-2024-20090": {
