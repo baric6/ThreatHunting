@@ -2914,6 +2914,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-10409"
     }
   },
+  "CVE-2024-10410": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "12:15:02 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in SourceCodester Online Hotel Reservation System 1.0. Affected by this vulnerability is the function upload of the file /admin/mod_room/controller.php?action=add. The manipulation of the argument image leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10410",
+      "cveUrl": "/vuln/detail/CVE-2024-10410"
+    }
+  },
+  "CVE-2024-10411": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "1:15:02 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Online Hotel Reservation System 1.0. It has been classified as critical. Affected is the function doCancelRoom/doCancel/doConfirm/doCancel/doCheckin/doCheckout of the file /marimar/admin/mod_room/controller.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10411",
+      "cveUrl": "/vuln/detail/CVE-2024-10411"
+    }
+  },
+  "CVE-2024-10412": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Poco-z Guns-Medical 1.0. It has been declared as problematic. Affected by this vulnerability is the function upload of the file /mgr/upload of the component File Upload. The manipulation of the argument picture leads to cross site scripting. The attack can be launched remotely.",
+      "cveName": "CVE-2024-10412",
+      "cveUrl": "/vuln/detail/CVE-2024-10412"
+    }
+  },
+  "CVE-2024-10413": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "6:15:02 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in SourceCodester Online Hotel Reservation System 1.0. Affected by this issue is the function upload of the file /guest/update.php. The manipulation of the argument image leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10413",
+      "cveUrl": "/vuln/detail/CVE-2024-10413"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -21084,6 +21128,17 @@
       "cveDis": "Whale browser Installer before 3.1.0.0 allows an attacker to execute a malicious DLL in the user environment due to improper permission settings.",
       "cveName": "CVE-2024-50583",
       "cveUrl": "/vuln/detail/CVE-2024-50583"
+    }
+  },
+  "CVE-2024-50602": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "1:15:04 AM -0400"
+      ],
+      "cveDis": "An issue was discovered in libexpat before 2.6.4. There is a crash within the XML_ResumeParser function because XML_StopParser can stop/suspend an unstarted parser.",
+      "cveName": "CVE-2024-50602",
+      "cveUrl": "/vuln/detail/CVE-2024-50602"
     }
   },
   "CVE-2024-5429": {
