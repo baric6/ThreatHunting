@@ -6698,6 +6698,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-38820"
     }
   },
+  "CVE-2024-38821": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "3:15:07 AM -0400"
+      ],
+      "cveDis": "Spring WebFlux applications that have Spring Security authorization rules on static resources can be bypassed under certain circumstances.\n\nFor this to impact an application, all of the following must be true:\n\n  *  It must be a WebFlux application\n  *  It must be using Spring's static resources support\n  *  It must have a non-permitAll authorization rule applied to the static resources support",
+      "cveName": "CVE-2024-38821",
+      "cveUrl": "/vuln/detail/CVE-2024-38821"
+    }
+  },
   "CVE-2024-38862": {
     "cve": {
       "cveDate": [
@@ -18556,6 +18567,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48933"
     }
   },
+  "CVE-2024-48936": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "12:15:02 AM -0400"
+      ],
+      "cveDis": "SchedMD Slurm before 24.05.4 has Incorrect Authorization. A mistake in authentication handling in stepmgr could permit an attacker to execute processes under other users' jobs. This is limited to jobs explicitly running with --stepmgr, or on systems that have globally enabled stepmgr via SlurmctldParameters=enable_stepmgr in their configuration.",
+      "cveName": "CVE-2024-48936",
+      "cveUrl": "/vuln/detail/CVE-2024-48936"
+    }
+  },
   "CVE-2024-48937": {
     "cve": {
       "cveDate": [
@@ -21372,6 +21394,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50067"
     }
   },
+  "CVE-2024-50307": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "1:15:03 AM -0400"
+      ],
+      "cveDis": "Use of potentially dangerous function issue exists in Chatwork Desktop Application (Windows) versions prior to 2.9.2. If a user clicks a specially crafted link in the application, an arbitrary file may be downloaded from an external website and executed. As a result, arbitrary code may be executed on the device that runs Chatwork Desktop Application (Windows).",
+      "cveName": "CVE-2024-50307",
+      "cveUrl": "/vuln/detail/CVE-2024-50307"
+    }
+  },
   "CVE-2024-50311": {
     "cve": {
       "cveDate": [
@@ -24032,6 +24065,17 @@
       "cveDis": "In versions of the PEADM Forge Module prior to 3.24.0 a security misconfiguration was discovered.",
       "cveName": "CVE-2024-9160",
       "cveUrl": "/vuln/detail/CVE-2024-9160"
+    }
+  },
+  "CVE-2024-91627-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "2:15:04 AM -0400"
+      ],
+      "cveDis": "The All-in-One WP Migration and Backup plugin for WordPress is vulnerable to arbitrary PHP Code Injection due to missing file type validation during the export in all versions up to, and including, 7.86. This makes it possible for authenticated attackers, with Administrator-level access and above, to create an export file with the .php extension on the affected site's server, adding an arbitrary PHP code to it, which may make remote code execution possible.",
+      "cveName": "CVE-2024-91627-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9162"
     }
   },
   "CVE-2024-9167": {
