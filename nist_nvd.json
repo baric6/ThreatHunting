@@ -2254,6 +2254,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10202"
     }
   },
+  "CVE-2024-10214": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "11:15:04 AM -0400"
+      ],
+      "cveDis": "Mattermost versions 9.11.X <= 9.11.1, 9.5.x <= 9.5.9 icorrectly issues two sessions when using desktop SSO - one in the browser and one in desktop with incorrect settings.",
+      "cveName": "CVE-2024-10214",
+      "cveUrl": "/vuln/detail/CVE-2024-10214"
+    }
+  },
   "CVE-2024-10229": {
     "cve": {
       "cveDate": [
@@ -3231,6 +3242,83 @@
       "cveDis": "The eHDR CTMS from Sunnet has a SQL Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary SQL command to read, modify, and delete database contents.",
       "cveName": "CVE-2024-104409-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-10440"
+    }
+  },
+  "CVE-2024-10446": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:14 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in Project Worlds Online Time Table Generator 1.0. Affected is an unknown function of the file /timetable/admin/admindashboard.php?info=add_course. The manipulation of the argument c leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10446",
+      "cveUrl": "/vuln/detail/CVE-2024-10446"
+    }
+  },
+  "CVE-2024-10447": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:04 AM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in Project Worlds Online Time Table Generator 1.0. Affected by this vulnerability is an unknown functionality of the file /timetable/staff/staffdashboard.php?info=updateprofile. The manipulation of the argument n leads to sql injection. The attack can be launched remotely.",
+      "cveName": "CVE-2024-10447",
+      "cveUrl": "/vuln/detail/CVE-2024-10447"
+    }
+  },
+  "CVE-2024-10448": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, has been found in code-projects Blood Bank Management System 1.0. Affected by this issue is some unknown functionality of the file /file/delete.php. The manipulation of the argument bid leads to cross-site request forgery. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other endpoints might be affected as well.",
+      "cveName": "CVE-2024-10448",
+      "cveUrl": "/vuln/detail/CVE-2024-10448"
+    }
+  },
+  "CVE-2024-10449": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "11:15:04 AM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in Codezips Hospital Appointment System 1.0. This affects an unknown part of the file /loginAction.php. The manipulation of the argument Username leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10449",
+      "cveUrl": "/vuln/detail/CVE-2024-10449"
+    }
+  },
+  "CVE-2024-10450": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "11:15:04 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in SourceCodester Kortex Lite Advocate Office Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /kortex_lite/control/edit_profile.php of the component POST Parameter Handler. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10450",
+      "cveUrl": "/vuln/detail/CVE-2024-10450"
+    }
+  },
+  "CVE-2024-10455": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "Reachable Assertion in BPv7 parser in µD3TN v0.14.0 allows attacker to disrupt service via malformed Extension Block",
+      "cveName": "CVE-2024-10455",
+      "cveUrl": "/vuln/detail/CVE-2024-10455"
+    }
+  },
+  "CVE-2024-10469": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "12:15:03 PM -0400"
+      ],
+      "cveDis": "VINCE versions before 3.0.9 is vulnerable to exposure of User information to authenticated users.",
+      "cveName": "CVE-2024-10469",
+      "cveUrl": "/vuln/detail/CVE-2024-10469"
     }
   },
   "CVE-2024-20090": {
@@ -5994,6 +6082,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-34535"
     }
   },
+  "CVE-2024-34537": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "TYPO3 before 13.3.1 allows denial of service (interface error) in the Bookmark Toolbar (ext:backend), exploitable by an administrator-level backend user account via manipulated data saved in the bookmark toolbar of the backend user interface. The fixed versions are 10.4.46 ELTS, 11.5.40 LTS, 12.4.21 LTS, and 13.3.1.",
+      "cveName": "CVE-2024-34537",
+      "cveUrl": "/vuln/detail/CVE-2024-34537"
+    }
+  },
   "CVE-2024-34542": {
     "cve": {
       "cveDate": [
@@ -7675,6 +7774,17 @@
       "cveDis": "The E2EE password entropy generated by Rocket.Chat Mobile prior to version 4.5.1 is insufficient, allowing attackers to crack it if they have the appropriate time and resources.",
       "cveName": "CVE-2024-42027",
       "cveUrl": "/vuln/detail/CVE-2024-42027"
+    }
+  },
+  "CVE-2024-42028": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "12:15:03 PM -0400"
+      ],
+      "cveDis": "A Local privilege escalation vulnerability found in a Self-Hosted UniFi Network Server with UniFi Network Application (Version 8.4.62 and earlier) allows a malicious actor with a local operational system user to execute high privilege actions on UniFi Network Server.",
+      "cveName": "CVE-2024-42028",
+      "cveUrl": "/vuln/detail/CVE-2024-42028"
     }
   },
   "CVE-2024-4211": {
@@ -10799,6 +10909,17 @@
       "cveDis": "LibHTP is a security-aware parser for the HTTP protocol and the related bits and pieces. Prior to version 0.5.49, unbounded processing of HTTP request and response headers can lead to excessive CPU time and memory utilization, possibly leading to extreme slowdowns. This issue is addressed in 0.5.49.",
       "cveName": "CVE-2024-45797",
       "cveUrl": "/vuln/detail/CVE-2024-45797"
+    }
+  },
+  "CVE-2024-45802": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "11:15:04 AM -0400"
+      ],
+      "cveDis": "Squid is an open source caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. Due to Input Validation, Premature Release of Resource During Expected Lifetime, and Missing Release of Resource after Effective Lifetime bugs, Squid is vulnerable to Denial of Service attacks by a trusted server against all clients using the proxy. This bug is fixed in the default build configuration of Squid version 6.10.",
+      "cveName": "CVE-2024-45802",
+      "cveUrl": "/vuln/detail/CVE-2024-45802"
     }
   },
   "CVE-2024-45829": {
@@ -15850,6 +15971,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47826"
     }
   },
+  "CVE-2024-47827": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "12:15:03 PM -0400"
+      ],
+      "cveDis": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Due to a race condition in a global variable in 3.6.0-rc1, the argo workflows controller can be made to crash on-command by any user with access to execute a workflow. This vulnerability is fixed in 3.6.0-rc2.",
+      "cveName": "CVE-2024-47827",
+      "cveUrl": "/vuln/detail/CVE-2024-47827"
+    }
+  },
   "CVE-2024-47828": {
     "cve": {
       "cveDate": [
@@ -16862,6 +16994,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48049"
     }
   },
+  "CVE-2024-48074": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:15 AM -0400"
+      ],
+      "cveDis": "An authorized RCE vulnerability exists in the DrayTek Vigor2960 router version 1.4.4, where an attacker can place a malicious command into the table parameter of the doPPPoE function in the cgi-bin/mainfunction.cgi route, and finally the command is executed by the system function.",
+      "cveName": "CVE-2024-48074",
+      "cveUrl": "/vuln/detail/CVE-2024-48074"
+    }
+  },
   "CVE-2024-48119": {
     "cve": {
       "cveDate": [
@@ -17003,6 +17146,17 @@
       "cveDis": "ClassCMS <=4.8 is vulnerable to file inclusion in the nowView method in/class/cms/cms.php, which can include a file uploaded to the/class/template directory to execute PHP code.",
       "cveName": "CVE-2024-48180",
       "cveUrl": "/vuln/detail/CVE-2024-48180"
+    }
+  },
+  "CVE-2024-48191": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "dingfanzu CMS 1.0 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component /admin/doAdminAction.php?act=delAdmin&id=17",
+      "cveName": "CVE-2024-48191",
+      "cveUrl": "/vuln/detail/CVE-2024-48191"
     }
   },
   "CVE-2024-48192": {
@@ -17366,6 +17520,17 @@
       "cveDis": "Phpgurukul User Registration & Login and User Management System 3.2 is vulnerable to SQL Injection in /admin//search-result.php via the searchkey parameter.",
       "cveName": "CVE-2024-48283",
       "cveUrl": "/vuln/detail/CVE-2024-48283"
+    }
+  },
+  "CVE-2024-48291": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "11:15:05 AM -0400"
+      ],
+      "cveDis": "dingfanzu CMS 1.0 was discovered to contain a Cross-Site Request Forgery (CSRF) via /admin/doAdminAction.php?act=editAdmin&id=17",
+      "cveName": "CVE-2024-48291",
+      "cveUrl": "/vuln/detail/CVE-2024-48291"
     }
   },
   "CVE-2024-48343": {
@@ -20789,6 +20954,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49760"
     }
   },
+  "CVE-2024-49761": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "11:15:05 AM -0400"
+      ],
+      "cveDis": "REXML is an XML toolkit for Ruby. The REXML gem before 3.3.9 has a ReDoS vulnerability when it parses an XML that has many digits between &# and x...; in a hex numeric character reference (&#x...;). This does not happen with Ruby 3.2 or later. Ruby 3.1 is the only affected maintained Ruby. The REXML gem 3.3.9 or later include the patch to fix the vulnerability.",
+      "cveName": "CVE-2024-49761",
+      "cveUrl": "/vuln/detail/CVE-2024-49761"
+    }
+  },
   "CVE-2024-49762": {
     "cve": {
       "cveDate": [
@@ -20820,6 +20996,17 @@
       "cveDis": "Werkzeug is a Web Server Gateway Interface web application library. Applications using `werkzeug.formparser.MultiPartParser` corresponding to a version of Werkzeug prior to 3.0.6 to parse `multipart/form-data` requests (e.g. all flask applications) are vulnerable to a relatively simple but effective resource exhaustion (denial of service) attack. A specifically crafted form submission request can cause the parser to allocate and block 3 to 8 times the upload size in main memory. There is no upper limit; a single upload at 1 Gbit/s can exhaust 32 GB of RAM in less than 60 seconds. Werkzeug version 3.0.6 fixes this issue.",
       "cveName": "CVE-2024-49767",
       "cveUrl": "/vuln/detail/CVE-2024-49767"
+    }
+  },
+  "CVE-2024-49771": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "MPXJ is an open source library to read and write project plans from a variety of file formats and databases. The patch for the historical vulnerability CVE-2020-35460 in MPXJ is incomplete as there is still a possibility that a malicious path could be constructed which would not be picked up by the original fix and allow files to be written to arbitrary locations. The issue is addressed in MPXJ version 13.5.1.",
+      "cveName": "CVE-2024-49771",
+      "cveUrl": "/vuln/detail/CVE-2024-49771"
     }
   },
   "CVE-2024-49850": {
@@ -21449,6 +21636,380 @@
       "cveUrl": "/vuln/detail/CVE-2024-50383"
     }
   },
+  "CVE-2024-50408": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:15 AM -0400"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Kiboko Labs Namaste! LMS allows Object Injection.This issue affects Namaste! LMS: from n/a through 2.6.3.",
+      "cveName": "CVE-2024-50408",
+      "cveUrl": "/vuln/detail/CVE-2024-50408"
+    }
+  },
+  "CVE-2024-50416": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:15 AM -0400"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in WPClever WPC Shop as a Customer for WooCommerce allows Object Injection.This issue affects WPC Shop as a Customer for WooCommerce: from n/a through 1.2.6.",
+      "cveName": "CVE-2024-50416",
+      "cveUrl": "/vuln/detail/CVE-2024-50416"
+    }
+  },
+  "CVE-2024-50442": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:15 AM -0400"
+      ],
+      "cveDis": "Improper Restriction of XML External Entity Reference vulnerability in WP Royal Royal Elementor Addons allows XML Injection.This issue affects Royal Elementor Addons: from n/a through 1.3.980.",
+      "cveName": "CVE-2024-50442",
+      "cveUrl": "/vuln/detail/CVE-2024-50442"
+    }
+  },
+  "CVE-2024-50443": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Post Grid Team by WPXPO PostX allows Stored XSS.This issue affects PostX: from n/a through 4.1.12.",
+      "cveName": "CVE-2024-50443",
+      "cveUrl": "/vuln/detail/CVE-2024-50443"
+    }
+  },
+  "CVE-2024-50450": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:15 AM -0400"
+      ],
+      "cveDis": "Improper Control of Generation of Code ('Code Injection') vulnerability in realmag777 WordPress Meta Data and Taxonomies Filter (MDTF) allows Code Injection.This issue affects WordPress Meta Data and Taxonomies Filter (MDTF): from n/a through 1.3.3.4.",
+      "cveName": "CVE-2024-50450",
+      "cveUrl": "/vuln/detail/CVE-2024-50450"
+    }
+  },
+  "CVE-2024-50463": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:04 AM -0400"
+      ],
+      "cveDis": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in WP Sunshine Sunshine Photo Cart.This issue affects Sunshine Photo Cart: from n/a through 3.2.9.",
+      "cveName": "CVE-2024-50463",
+      "cveUrl": "/vuln/detail/CVE-2024-50463"
+    }
+  },
+  "CVE-2024-50465": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:04 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WP SEO – Calin Vingan Premium SEO Pack allows SQL Injection.This issue affects Premium SEO Pack: from n/a through 1.6.001.",
+      "cveName": "CVE-2024-50465",
+      "cveUrl": "/vuln/detail/CVE-2024-50465"
+    }
+  },
+  "CVE-2024-50470": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:05 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Themes4WP Themes4WP YouTube External Subtitles allows Stored XSS.This issue affects Themes4WP YouTube External Subtitles: from n/a through 1.0.",
+      "cveName": "CVE-2024-50470",
+      "cveUrl": "/vuln/detail/CVE-2024-50470"
+    }
+  },
+  "CVE-2024-50471": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:05 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Checklist Trip Plan allows Stored XSS.This issue affects Trip Plan: from n/a through 1.0.10.",
+      "cveName": "CVE-2024-50471",
+      "cveUrl": "/vuln/detail/CVE-2024-50471"
+    }
+  },
+  "CVE-2024-50472": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:05 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Martin Drapeau Amilia Store allows Stored XSS.This issue affects Amilia Store: from n/a through 2.9.8.",
+      "cveName": "CVE-2024-50472",
+      "cveUrl": "/vuln/detail/CVE-2024-50472"
+    }
+  },
+  "CVE-2024-50477": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:16 AM -0400"
+      ],
+      "cveDis": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Stacks Stacks Mobile App Builder stacks-mobile-app-builder allows Authentication Bypass.This issue affects Stacks Mobile App Builder: from n/a through 5.2.3.",
+      "cveName": "CVE-2024-50477",
+      "cveUrl": "/vuln/detail/CVE-2024-50477"
+    }
+  },
+  "CVE-2024-50478": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:05 AM -0400"
+      ],
+      "cveDis": "Authentication Bypass by Primary Weakness vulnerability in Swoop 1-Click Login: Passwordless Authentication allows Authentication Bypass.This issue affects 1-Click Login: Passwordless Authentication: 1.4.5.",
+      "cveName": "CVE-2024-50478",
+      "cveUrl": "/vuln/detail/CVE-2024-50478"
+    }
+  },
+  "CVE-2024-50479": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:06 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mansur Ahamed Woocommerce Quote Calculator allows Blind SQL Injection.This issue affects Woocommerce Quote Calculator: from n/a through 1.1.",
+      "cveName": "CVE-2024-50479",
+      "cveUrl": "/vuln/detail/CVE-2024-50479"
+    }
+  },
+  "CVE-2024-50483": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:06 AM -0400"
+      ],
+      "cveDis": "Authorization Bypass Through User-Controlled Key vulnerability in Meetup allows Privilege Escalation.This issue affects Meetup: from n/a through 0.1.",
+      "cveName": "CVE-2024-50483",
+      "cveUrl": "/vuln/detail/CVE-2024-50483"
+    }
+  },
+  "CVE-2024-50486": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:16 AM -0400"
+      ],
+      "cveDis": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Acnoo Acnoo Flutter API allows Authentication Bypass.This issue affects Acnoo Flutter API: from n/a through 1.0.5.",
+      "cveName": "CVE-2024-50486",
+      "cveUrl": "/vuln/detail/CVE-2024-50486"
+    }
+  },
+  "CVE-2024-50487": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:16 AM -0400"
+      ],
+      "cveDis": "Authentication Bypass Using an Alternate Path or Channel vulnerability in MaanTheme MaanStore API allows Authentication Bypass.This issue affects MaanStore API: from n/a through 1.0.1.",
+      "cveName": "CVE-2024-50487",
+      "cveUrl": "/vuln/detail/CVE-2024-50487"
+    }
+  },
+  "CVE-2024-50488": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:06 AM -0400"
+      ],
+      "cveDis": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Priyabrata Sarkar Token Login allows Authentication Bypass.This issue affects Token Login: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-50488",
+      "cveUrl": "/vuln/detail/CVE-2024-50488"
+    }
+  },
+  "CVE-2024-50489": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:16 AM -0400"
+      ],
+      "cveDis": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Realty Workstation allows Authentication Bypass.This issue affects Realty Workstation: from n/a through 1.0.45.",
+      "cveName": "CVE-2024-50489",
+      "cveUrl": "/vuln/detail/CVE-2024-50489"
+    }
+  },
+  "CVE-2024-50491": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:06 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Micah Blu RSVP ME allows SQL Injection.This issue affects RSVP ME: from n/a through 1.9.9.",
+      "cveName": "CVE-2024-50491",
+      "cveUrl": "/vuln/detail/CVE-2024-50491"
+    }
+  },
+  "CVE-2024-50492": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:16 AM -0400"
+      ],
+      "cveDis": "Improper Control of Generation of Code ('Code Injection') vulnerability in Scott Paterson ScottCart allows Code Injection.This issue affects ScottCart: from n/a through 1.1.",
+      "cveName": "CVE-2024-50492",
+      "cveUrl": "/vuln/detail/CVE-2024-50492"
+    }
+  },
+  "CVE-2024-50497": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:07 AM -0400"
+      ],
+      "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in BuyNowDepot Advanced Online Ordering and Delivery Platform allows PHP Local File Inclusion.This issue affects Advanced Online Ordering and Delivery Platform: from n/a through 2.0.0.",
+      "cveName": "CVE-2024-50497",
+      "cveUrl": "/vuln/detail/CVE-2024-50497"
+    }
+  },
+  "CVE-2024-50498": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "8:15:17 AM -0400"
+      ],
+      "cveDis": "Improper Control of Generation of Code ('Code Injection') vulnerability in LUBUS WP Query Console allows Code Injection.This issue affects WP Query Console: from n/a through 1.0.",
+      "cveName": "CVE-2024-50498",
+      "cveUrl": "/vuln/detail/CVE-2024-50498"
+    }
+  },
+  "CVE-2024-50501": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:07 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Climax Themes Kata Plus allows Stored XSS.This issue affects Kata Plus: from n/a through 1.4.7.",
+      "cveName": "CVE-2024-50501",
+      "cveUrl": "/vuln/detail/CVE-2024-50501"
+    }
+  },
+  "CVE-2024-50502": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:07 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in CozyThemes Cozy Blocks allows Stored XSS.This issue affects Cozy Blocks: from n/a through 2.0.18.",
+      "cveName": "CVE-2024-50502",
+      "cveUrl": "/vuln/detail/CVE-2024-50502"
+    }
+  },
+  "CVE-2024-50573": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:08 AM -0400"
+      ],
+      "cveDis": "In JetBrains Hub before 2024.3.47707 improper access control allowed users to generate permanent tokens for unauthorized services",
+      "cveName": "CVE-2024-50573",
+      "cveUrl": "/vuln/detail/CVE-2024-50573"
+    }
+  },
+  "CVE-2024-50574": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:08 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.47707 potential ReDoS exploit was possible via email header parsing in Helpdesk functionality",
+      "cveName": "CVE-2024-50574",
+      "cveUrl": "/vuln/detail/CVE-2024-50574"
+    }
+  },
+  "CVE-2024-50575": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:08 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.47707 reflected XSS was possible in Widget API",
+      "cveName": "CVE-2024-50575",
+      "cveUrl": "/vuln/detail/CVE-2024-50575"
+    }
+  },
+  "CVE-2024-50576": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:08 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.47707 stored XSS was possible via vendor URL in App manifest",
+      "cveName": "CVE-2024-50576",
+      "cveUrl": "/vuln/detail/CVE-2024-50576"
+    }
+  },
+  "CVE-2024-50577": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:08 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.47707 stored XSS was possible via Angular template injection in Hub settings",
+      "cveName": "CVE-2024-50577",
+      "cveUrl": "/vuln/detail/CVE-2024-50577"
+    }
+  },
+  "CVE-2024-50578": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:09 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.47707 stored XSS was possible via sprint value on agile boards page",
+      "cveName": "CVE-2024-50578",
+      "cveUrl": "/vuln/detail/CVE-2024-50578"
+    }
+  },
+  "CVE-2024-50579": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:09 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.47707 reflected XSS due to insecure link sanitization was possible",
+      "cveName": "CVE-2024-50579",
+      "cveUrl": "/vuln/detail/CVE-2024-50579"
+    }
+  },
+  "CVE-2024-50580": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:09 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.47707 multiple XSS were possible due to insecure markdown parsing and custom rendering rule",
+      "cveName": "CVE-2024-50580",
+      "cveUrl": "/vuln/detail/CVE-2024-50580"
+    }
+  },
+  "CVE-2024-50581": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:09 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.47707 improper HTML sanitization could lead to XSS attack via comment tag",
+      "cveName": "CVE-2024-50581",
+      "cveUrl": "/vuln/detail/CVE-2024-50581"
+    }
+  },
+  "CVE-2024-50582": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:09 AM -0400"
+      ],
+      "cveDis": "In JetBrains YouTrack before 2024.3.47707 stored XSS was possible due to improper HTML sanitization in markdown elements",
+      "cveName": "CVE-2024-50582",
+      "cveUrl": "/vuln/detail/CVE-2024-50582"
+    }
+  },
   "CVE-2024-50583": {
     "cve": {
       "cveDate": [
@@ -21678,6 +22239,17 @@
       "cveDis": "CVE 2021-22681 https://www.rockwellautomation.com/en-us/trust-center/security-advisories/advisory.PN1550.html  and send a specially crafted CIP message to the device.  If exploited, a threat actor could help prevent access to the legitimate user and end connections to connected devices including the workstation.  To recover the controllers, a download is required which ends any process that the controller is running.",
       "cveName": "CVE-2024-6207",
       "cveUrl": "/vuln/detail/CVE-2024-6207"
+    }
+  },
+  "CVE-2024-6245": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "1:15:04 PM -0400"
+      ],
+      "cveDis": "Use of Default Credentials vulnerability in Maruti Suzuki SmartPlay on Linux (Infotainment Hub modules) allows attacker to try common or default usernames and passwords.The issue was detected on a 2022 Maruti Suzuki Brezza in India Market.\n\nThis issue affects SmartPlay: 66T0.05.50.",
+      "cveName": "CVE-2024-6245",
+      "cveUrl": "/vuln/detail/CVE-2024-6245"
     }
   },
   "CVE-2024-6333": {
@@ -22305,6 +22877,17 @@
       "cveDis": "A maliciously crafted RFA file, when parsed through Autodesk Revit, can force a Stack-Based Buffer Overflow. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.",
       "cveName": "CVE-2024-7994",
       "cveUrl": "/vuln/detail/CVE-2024-7994"
+    }
+  },
+  "CVE-2024-8013": {
+    "cve": {
+      "cveDate": [
+        "October 28, 2024",
+        "9:15:10 AM -0400"
+      ],
+      "cveDis": "A bug in query analysis of certain complex self-referential $lookup subpipelines may result in literal values in expressions for encrypted fields to be sent to the server as plaintext instead of ciphertext. Should this occur, no documents would be returned or written. This issue affects mongocryptd binary (v5.0 versions prior to 5.0.29, v6.0 versions prior to 6.0.17, v7.0 versions prior to 7.0.12 and v7.3 versions prior to 7.3.4) and mongo_crypt_v1.so shared libraries (v6.0 versions prior to 6.0.17, v7.0 versions prior to 7.0.12 and v7.3 versions prior to 7.3.4) released alongside MongoDB Enterprise Server versions.",
+      "cveName": "CVE-2024-8013",
+      "cveUrl": "/vuln/detail/CVE-2024-8013"
     }
   },
   "CVE-2024-8014": {
