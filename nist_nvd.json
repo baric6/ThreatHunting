@@ -3046,6 +3046,193 @@
       "cveUrl": "/vuln/detail/CVE-2024-10421"
     }
   },
+  "CVE-2024-10422": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "2:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in SourceCodester Attendance and Payroll System 1.0. This issue affects some unknown processing of the file /admin/overtime_add.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10422",
+      "cveUrl": "/vuln/detail/CVE-2024-10422"
+    }
+  },
+  "CVE-2024-10423": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "2:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in Project Worlds Student Project Allocation System 1.0. Affected is an unknown function of the file /student/project_selection/project_selection.php of the component Project Selection Page. The manipulation of the argument project_id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10423",
+      "cveUrl": "/vuln/detail/CVE-2024-10423"
+    }
+  },
+  "CVE-2024-10424": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "3:15:04 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in Project Worlds Student Project Allocation System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /student/project_selection/remove_project.php of the component Project Selection Page. The manipulation of the argument no leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10424",
+      "cveUrl": "/vuln/detail/CVE-2024-10424"
+    }
+  },
+  "CVE-2024-10425": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "3:15:04 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Project Worlds Student Project Allocation System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /student/project_selection/move_up_project.php of the component Project Selection Page. The manipulation of the argument up leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10425",
+      "cveUrl": "/vuln/detail/CVE-2024-10425"
+    }
+  },
+  "CVE-2024-10426": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "4:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Codezips Pet Shop Management System 1.0. It has been classified as critical. This affects an unknown part of the file /animalsadd.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory mentions the parameter \"refno\" to be affected. But further inspection indicates that the name of the affected parameter is \"id\".",
+      "cveName": "CVE-2024-10426",
+      "cveUrl": "/vuln/detail/CVE-2024-10426"
+    }
+  },
+  "CVE-2024-10427": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "4:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Codezips Pet Shop Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /deleteanimal.php. The manipulation of the argument t1 leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory mentions the parameter \"refno\" to be affected. But further inspection indicates that the name of the affected parameter is \"t1\".",
+      "cveName": "CVE-2024-10427",
+      "cveUrl": "/vuln/detail/CVE-2024-10427"
+    }
+  },
+  "CVE-2024-10428": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "5:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in WAVLINK WN530H4, WN530HG4 and WN572HG3 up to 20221028. It has been rated as critical. This issue affects the function set_ipv6 of the file firewall.cgi. The manipulation of the argument dhcpGateway leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10428",
+      "cveUrl": "/vuln/detail/CVE-2024-10428"
+    }
+  },
+  "CVE-2024-10429": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "5:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in WAVLINK WN530H4, WN530HG4 and WN572HG3 up to 20221028. Affected is the function set_ipv6 of the file internet.cgi. The manipulation of the argument IPv6OpMode/IPv6IPAddr/IPv6WANIPAddr/IPv6GWAddr leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10429",
+      "cveUrl": "/vuln/detail/CVE-2024-10429"
+    }
+  },
+  "CVE-2024-10430": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "7:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in Codezips Pet Shop Management System 1.0. This issue affects some unknown processing of the file /animalsupdate.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10430",
+      "cveUrl": "/vuln/detail/CVE-2024-10430"
+    }
+  },
+  "CVE-2024-10431": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "7:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in Codezips Pet Shop Management System 1.0. Affected is an unknown function of the file /deletebird.php. The manipulation of the argument t1 leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10431",
+      "cveUrl": "/vuln/detail/CVE-2024-10431"
+    }
+  },
+  "CVE-2024-10432": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "8:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in Project Worlds Simple Web-Based Chat Application 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /index.php. The manipulation of the argument username leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10432",
+      "cveUrl": "/vuln/detail/CVE-2024-10432"
+    }
+  },
+  "CVE-2024-10433": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "8:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Project Worlds Simple Web-Based Chat Application 1.0 and classified as problematic. Affected by this issue is some unknown functionality of the file /index.php. The manipulation of the argument Name/Comment leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory mentions different parameters to be affected which do not correlate with the screenshots of a successful attack.",
+      "cveName": "CVE-2024-10433",
+      "cveUrl": "/vuln/detail/CVE-2024-10433"
+    }
+  },
+  "CVE-2024-10434": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "9:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Tenda AC1206 up to 20241027. It has been classified as critical. This affects the function ate_Tenda_mfg_check_usb/ate_Tenda_mfg_check_usb3 of the file /goform/ate. The manipulation of the argument arg leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10434",
+      "cveUrl": "/vuln/detail/CVE-2024-10434"
+    }
+  },
+  "CVE-2024-10435": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "9:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in didi Super-Jacoco 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /cov/triggerEnvCov. The manipulation of the argument uuid leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10435",
+      "cveUrl": "/vuln/detail/CVE-2024-10435"
+    }
+  },
+  "CVE-2024-104387-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The eHRD CTMS from Sunnet has an Authentication Bypass vulnerability, allowing unauthenticated remote attackers to bypass authentication by satisfying specific conditions in order to access certain functionalities.",
+      "cveName": "CVE-2024-104387-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10438"
+    }
+  },
+  "CVE-2024-104395-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The eHRD CTMS from Sunnet has an Insecure Direct Object Reference (IDOR) vulnerability, allowing unauthenticated remote attackers to modify a specific parameter to access arbitrary files uploaded by any user.",
+      "cveName": "CVE-2024-104395-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10439"
+    }
+  },
+  "CVE-2024-104409-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The eHDR CTMS from Sunnet has a SQL Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary SQL command to read, modify, and delete database contents.",
+      "cveName": "CVE-2024-104409-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-10440"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -4738,6 +4925,17 @@
       "cveDis": "HCL Nomad is susceptible to an insufficient session expiration vulnerability.   Under certain circumstances, an unauthenticated attacker could obtain old session information.",
       "cveName": "CVE-2024-23586",
       "cveUrl": "/vuln/detail/CVE-2024-23586"
+    }
+  },
+  "CVE-2024-23843": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Genians Genian NAC V5.0, Genians Genian NAC LTS V5.0.This issue affects Genian NAC V5.0: from V5.0.0 through V5.0.60; Genian NAC LTS V5.0: from 5.0.0 LTS through 5.0.55 LTS(Revision 125558), from 5.0.0 LTS through 5.0.56 LTS(Revision 125560).",
+      "cveName": "CVE-2024-23843",
+      "cveUrl": "/vuln/detail/CVE-2024-23843"
     }
   },
   "CVE-2024-23923": {
@@ -21163,6 +21361,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50066"
     }
   },
+  "CVE-2024-50067": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "9:15:02 PM -0400"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nuprobe: avoid out-of-bounds memory access of fetching args\n\nUprobe needs to fetch args into a percpu buffer, and then copy to ring\nbuffer to avoid non-atomic context problem.\n\nSometimes user-space strings, arrays can be very large, but the size of\npercpu buffer is only page size. And store_trace_args() won't check\nwhether these data exceeds a single page or not, caused out-of-bounds\nmemory access.\n\nIt could be reproduced by following steps:\n1. build kernel with CONFIG_KASAN enabled\n2. save follow program as test.c\n\n```\n\\#include <stdio.h>\n\\#include <stdlib.h>\n\\#include <string.h>\n\n// If string length large than MAX_STRING_SIZE, the fetch_store_strlen()\n// will return 0, cause __get_data_size() return shorter size, and\n// store_trace_args() will not trigger out-of-bounds access.\n// So make string length less than 4096.\n\\#define STRLEN 4093\n\nvoid generate_string(char *str, int n)\n{\n    int i;\n    for (i = 0; i < n; ++i)\n    {\n        char c = i % 26 + 'a';\n        str[i] = c;\n    }\n    str[n-1] = '\\0';\n}\n\nvoid print_string(char *str)\n{\n    printf(\"%s\\n\", str);\n}\n\nint main()\n{\n    char tmp[STRLEN];\n\n    generate_string(tmp, STRLEN);\n    print_string(tmp);\n\n    return 0;\n}\n```\n3. compile program\n`gcc -o test test.c`\n\n4. get the offset of `print_string()`\n```\nobjdump -t test | grep -w print_string\n0000000000401199 g     F .text  000000000000001b              print_string\n```\n\n5. configure uprobe with offset 0x1199\n```\noff=0x1199\n\ncd /sys/kernel/debug/tracing/\necho \"p /root/test:${off} arg1=+0(%di):ustring arg2=\\$comm arg3=+0(%di):ustring\"\n > uprobe_events\necho 1 > events/uprobes/enable\necho 1 > tracing_on\n```\n\n6. run `test`, and kasan will report error.\n==================================================================\nBUG: KASAN: use-after-free in strncpy_from_user+0x1d6/0x1f0\nWrite of size 8 at addr ffff88812311c004 by task test/499CPU: 0 UID: 0 PID: 499 Comm: test Not tainted 6.12.0-rc3+ #18\nHardware name: Red Hat KVM, BIOS 1.16.0-4.al8 04/01/2014\nCall Trace:\n <TASK>\n dump_stack_lvl+0x55/0x70\n print_address_description.constprop.0+0x27/0x310\n kasan_report+0x10f/0x120\n ? strncpy_from_user+0x1d6/0x1f0\n strncpy_from_user+0x1d6/0x1f0\n ? rmqueue.constprop.0+0x70d/0x2ad0\n process_fetch_insn+0xb26/0x1470\n ? __pfx_process_fetch_insn+0x10/0x10\n ? _raw_spin_lock+0x85/0xe0\n ? __pfx__raw_spin_lock+0x10/0x10\n ? __pte_offset_map+0x1f/0x2d0\n ? unwind_next_frame+0xc5f/0x1f80\n ? arch_stack_walk+0x68/0xf0\n ? is_bpf_text_address+0x23/0x30\n ? kernel_text_address.part.0+0xbb/0xd0\n ? __kernel_text_address+0x66/0xb0\n ? unwind_get_return_address+0x5e/0xa0\n ? __pfx_stack_trace_consume_entry+0x10/0x10\n ? arch_stack_walk+0xa2/0xf0\n ? _raw_spin_lock_irqsave+0x8b/0xf0\n ? __pfx__raw_spin_lock_irqsave+0x10/0x10\n ? depot_alloc_stack+0x4c/0x1f0\n ? _raw_spin_unlock_irqrestore+0xe/0x30\n ? stack_depot_save_flags+0x35d/0x4f0\n ? kasan_save_stack+0x34/0x50\n ? kasan_save_stack+0x24/0x50\n ? mutex_lock+0x91/0xe0\n ? __pfx_mutex_lock+0x10/0x10\n prepare_uprobe_buffer.part.0+0x2cd/0x500\n uprobe_dispatcher+0x2c3/0x6a0\n ? __pfx_uprobe_dispatcher+0x10/0x10\n ? __kasan_slab_alloc+0x4d/0x90\n handler_chain+0xdd/0x3e0\n handle_swbp+0x26e/0x3d0\n ? __pfx_handle_swbp+0x10/0x10\n ? uprobe_pre_sstep_notifier+0x151/0x1b0\n irqentry_exit_to_user_mode+0xe2/0x1b0\n asm_exc_int3+0x39/0x40\nRIP: 0033:0x401199\nCode: 01 c2 0f b6 45 fb 88 02 83 45 fc 01 8b 45 fc 3b 45 e4 7c b7 8b 45 e4 48 98 48 8d 50 ff 48 8b 45 e8 48 01 d0 ce\nRSP: 002b:00007ffdf00576a8 EFLAGS: 00000206\nRAX: 00007ffdf00576b0 RBX: 0000000000000000 RCX: 0000000000000ff2\nRDX: 0000000000000ffc RSI: 0000000000000ffd RDI: 00007ffdf00576b0\nRBP: 00007ffdf00586b0 R08: 00007feb2f9c0d20 R09: 00007feb2f9c0d20\nR10: 0000000000000001 R11: 0000000000000202 R12: 0000000000401040\nR13: 00007ffdf0058780 R14: 0000000000000000 R15: 0000000000000000\n </TASK>\n\nThis commit enforces the buffer's maxlen less than a page-size to avoid\nstore_trace_args() out-of-memory access.",
+      "cveName": "CVE-2024-50067",
+      "cveUrl": "/vuln/detail/CVE-2024-50067"
+    }
+  },
   "CVE-2024-50311": {
     "cve": {
       "cveDate": [
@@ -21227,6 +21436,105 @@
       "cveDis": "An issue was discovered in libexpat before 2.6.4. There is a crash within the XML_ResumeParser function because XML_StopParser can stop/suspend an unstarted parser.",
       "cveName": "CVE-2024-50602",
       "cveUrl": "/vuln/detail/CVE-2024-50602"
+    }
+  },
+  "CVE-2024-50610": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "GSL (GNU Scientific Library) through 2.8 has an integer signedness error in gsl_siman_solve_many in siman/siman.c. When params.n_tries is negative, incorrect memory allocation occurs.",
+      "cveName": "CVE-2024-50610",
+      "cveUrl": "/vuln/detail/CVE-2024-50610"
+    }
+  },
+  "CVE-2024-50611": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "CycloneDX cdxgen through 10.10.7, when run against an untrusted codebase, may execute code contained within build-related files such as build.gradle.kts, a similar issue to CVE-2022-24441. cdxgen is used by, for example, OWASP dep-scan. NOTE: this has been characterized as a design limitation, rather than an implementation mistake.",
+      "cveName": "CVE-2024-50611",
+      "cveUrl": "/vuln/detail/CVE-2024-50611"
+    }
+  },
+  "CVE-2024-50612": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "libsndfile through 1.2.2 has an ogg_vorbis.c vorbis_analysis_wrote out-of-bounds read.",
+      "cveName": "CVE-2024-50612",
+      "cveUrl": "/vuln/detail/CVE-2024-50612"
+    }
+  },
+  "CVE-2024-50613": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "libsndfile through 1.2.2 has a reachable assertion, that may lead to application exit, in mpeg_l3_encode.c mpeg_l3_encoder_close.",
+      "cveName": "CVE-2024-50613",
+      "cveUrl": "/vuln/detail/CVE-2024-50613"
+    }
+  },
+  "CVE-2024-50614": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "TinyXML2 through 10.0.0 has a reachable assertion for UINT_MAX/16, that may lead to application exit, in tinyxml2.cpp XMLUtil::GetCharacterRef.",
+      "cveName": "CVE-2024-50614",
+      "cveUrl": "/vuln/detail/CVE-2024-50614"
+    }
+  },
+  "CVE-2024-50615": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "TinyXML2 through 10.0.0 has a reachable assertion for UINT_MAX/digit, that may lead to application exit, in tinyxml2.cpp XMLUtil::GetCharacterRef.",
+      "cveName": "CVE-2024-50615",
+      "cveUrl": "/vuln/detail/CVE-2024-50615"
+    }
+  },
+  "CVE-2024-50616": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Ironman PowerShell Universal 5.x before 5.0.12 allows an authenticated attacker to elevate their privileges and view job information.",
+      "cveName": "CVE-2024-50616",
+      "cveUrl": "/vuln/detail/CVE-2024-50616"
+    }
+  },
+  "CVE-2024-50623": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "8:15:03 PM -0400"
+      ],
+      "cveDis": "In Cleo Harmony before 5.8.0.20, VLTrader before 5.8.0.20, and LexiCom before 5.8.0.20, there is a JavaScript Injection vulnerability.",
+      "cveName": "CVE-2024-50623",
+      "cveUrl": "/vuln/detail/CVE-2024-50623"
+    }
+  },
+  "CVE-2024-50624": {
+    "cve": {
+      "cveDate": [
+        "October 27, 2024",
+        "8:15:03 PM -0400"
+      ],
+      "cveDis": "ispdbservice.cpp in KDE Kmail before 6.2.0 allows man-in-the-middle attackers to trigger use of an attacker-controlled mail server because cleartext HTTP is used for a URL such as http://autoconfig.example.com or http://example.com/.well-known/autoconfig for retrieving the configuration. This is related to kmail-account-wizard.",
+      "cveName": "CVE-2024-50624",
+      "cveUrl": "/vuln/detail/CVE-2024-50624"
     }
   },
   "CVE-2024-5429": {
