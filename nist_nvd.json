@@ -1264,6 +1264,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-0129"
     }
   },
+  "CVE-2024-100006-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "2:15:13 AM -0400"
+      ],
+      "cveDis": "The Masteriyo LMS – eLearning and Online Course Builder for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the question's content parameter in all versions up to, and including, 1.13.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with student-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-100006-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10000"
+    }
+  },
   "CVE-2024-100028-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -1295,6 +1306,17 @@
       "cveDis": "Opening an external link to an HTTP website when Firefox iOS was previously closed and had an HTTPS tab open could in some cases result in the padlock icon showing an HTTPS indicator incorrectly This vulnerability affects Firefox for iOS < 131.2.",
       "cveName": "CVE-2024-10004",
       "cveUrl": "/vuln/detail/CVE-2024-10004"
+    }
+  },
+  "CVE-2024-100088-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "2:15:13 AM -0400"
+      ],
+      "cveDis": "The Masteriyo LMS – eLearning and Online Course Builder for WordPress plugin for WordPress is vulnerable to unauthorized user profile modification due to missing authorization checks on the /wp-json/masteriyo/v1/users/$id REST API endpoint in all versions up to, and including, 1.13.3. This makes it possible for authenticated attackers, with student-level access and above, to modify the roles of arbitrary users. As a result, attackers can escalate their privileges to the Administrator and demote existing administrators to students.",
+      "cveName": "CVE-2024-100088-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10008"
     }
   },
   "CVE-2024-10011": {
@@ -1394,6 +1416,17 @@
       "cveDis": "The Transients Manager plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.0.6. This is due to missing or incorrect nonce validation on the process_actions function. This makes it possible for unauthenticated attackers to delete transients via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-100454-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10045"
+    }
+  },
+  "CVE-2024-100486-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:06 AM -0400"
+      ],
+      "cveDis": "The Post Status Notifier Lite and Premium plugins for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘page’ parameter in all versions up to, and including, 1.11.6 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-100486-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10048"
     }
   },
   "CVE-2024-100496-1 MEDIUM": {
@@ -2265,6 +2298,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10214"
     }
   },
+  "CVE-2024-10227": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:03 AM -0400"
+      ],
+      "cveDis": "The affiliate-toolkit plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's atkp_product shortcode in all versions up to, and including, 3.6.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-10227",
+      "cveUrl": "/vuln/detail/CVE-2024-10227"
+    }
+  },
   "CVE-2024-10229": {
     "cve": {
       "cveDate": [
@@ -2307,6 +2351,17 @@
       "cveDis": "A vulnerability was found in Wildfly, where a user may perform Cross-site scripting in the Wildfly deployment system. This flaw allows an attacker or insider to execute a deployment with a malicious payload, which could trigger undesired behavior against the server.",
       "cveName": "CVE-2024-102346-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10234"
+    }
+  },
+  "CVE-2024-10241": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "4:15:11 AM -0400"
+      ],
+      "cveDis": "Mattermost versions 9.5.x <= 9.5.9 fail to properly filter the channel data when ElasticSearch is enabled which allows a user to get private channel names by using cmd+K/ctrl+K.",
+      "cveName": "CVE-2024-10241",
+      "cveUrl": "/vuln/detail/CVE-2024-10241"
     }
   },
   "CVE-2024-102506-1 MEDIUM": {
@@ -2527,6 +2582,17 @@
       "cveDis": "A vulnerability, which was classified as critical, was found in PHPGurukul Medical Card Generation System 1.0. Affected is an unknown function of the file /admin/search-medicalcard.php of the component Search. The manipulation of the argument searchdata leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10301",
       "cveUrl": "/vuln/detail/CVE-2024-10301"
+    }
+  },
+  "CVE-2024-103124-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "4:15:12 AM -0400"
+      ],
+      "cveDis": "The Exclusive Addons for Elementor plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.7.4 via the render function in elements/tabs/tabs.php. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive private, pending, and draft template data.",
+      "cveName": "CVE-2024-103124-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10312"
     }
   },
   "CVE-2024-10313": {
@@ -3209,6 +3275,28 @@
       "cveDis": "A vulnerability was found in didi Super-Jacoco 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /cov/triggerEnvCov. The manipulation of the argument uuid leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10435",
       "cveUrl": "/vuln/detail/CVE-2024-10435"
+    }
+  },
+  "CVE-2024-104368-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:03 AM -0400"
+      ],
+      "cveDis": "The WPC Smart Messages for WooCommerce plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 4.2.1 via the get_condition_value function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.",
+      "cveName": "CVE-2024-104368-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10436"
+    }
+  },
+  "CVE-2024-104374-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "The WPC Smart Messages for WooCommerce plugin for WordPress is vulnerable to unauthorized Smar Message activation/deactivation due to a missing capability check on the ajax_enable function in all versions up to, and including, 4.2.1. This makes it possible for authenticated attackers, with Subscriber-level access and above, to activate or deactivate smart messages.",
+      "cveName": "CVE-2024-104374-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10437"
     }
   },
   "CVE-2024-104387-5 HIGH": {
@@ -4958,6 +5046,17 @@
       "cveDis": "There is a command injection vulnerability in ZTE MF258 Pro product. Due to insufficient validation of Ping Diagnosis interface parameter, an authenticated attacker could use the vulnerability to execute arbitrary commands.",
       "cveName": "CVE-2024-22065",
       "cveUrl": "/vuln/detail/CVE-2024-22065"
+    }
+  },
+  "CVE-2024-22066": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:06 AM -0400"
+      ],
+      "cveDis": "There is a privilege escalation vulnerability in ZTE ZXR10 ZSR V2 intelligent multi service router . An authenticated attacker could use the vulnerability to obtain sensitive information about the device.",
+      "cveName": "CVE-2024-22066",
+      "cveUrl": "/vuln/detail/CVE-2024-22066"
     }
   },
   "CVE-2024-22068": {
@@ -11164,6 +11263,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45476"
     }
   },
+  "CVE-2024-45477": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:07 AM -0400"
+      ],
+      "cveDis": "Apache NiFi 1.10.0 through 1.27.0 and 2.0.0-M1 through 2.0.0-M3 support a description field for Parameters in a Parameter Context configuration that is vulnerable to cross-site scripting. An authenticated user, authorized to configure a Parameter Context, can enter arbitrary JavaScript code, which the client browser will execute within the session context of the authenticated user. Upgrading to Apache NiFi 1.28.0 or 2.0.0-M4 is the recommended mitigation.",
+      "cveName": "CVE-2024-45477",
+      "cveUrl": "/vuln/detail/CVE-2024-45477"
+    }
+  },
   "CVE-2024-45518": {
     "cve": {
       "cveDate": [
@@ -12548,6 +12658,17 @@
       "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Correct the defined value for AMDGPU_DMUB_NOTIFICATION_MAX\n\n[Why & How]\nIt actually exposes '6' types in enum dmub_notification_type. Not 5. Using smaller\nnumber to create array dmub_callback & dmub_thread_offload has potential to access\nitem out of array bound. Fix it.",
       "cveName": "CVE-2024-46871",
       "cveUrl": "/vuln/detail/CVE-2024-46871"
+    }
+  },
+  "CVE-2024-46872": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:07 AM -0400"
+      ],
+      "cveDis": "Mattermost versions 9.10.x <= 9.10.2, 9.11.x <= 9.11.1, 9.5.x <= 9.5.9 fail to sanitize user inputs in the frontend that are used for redirection which allows for a one-click client-side path traversal that is leading to CSRF in Playbooks",
+      "cveName": "CVE-2024-46872",
+      "cveUrl": "/vuln/detail/CVE-2024-46872"
     }
   },
   "CVE-2024-46886": {
@@ -14308,6 +14429,17 @@
       "cveDis": "MXsecurity software versions v1.1.0 and prior are vulnerable because of the use of hard-coded credentials. This vulnerability could allow an attacker to tamper with sensitive data.",
       "cveName": "CVE-2024-4740",
       "cveUrl": "/vuln/detail/CVE-2024-4740"
+    }
+  },
+  "CVE-2024-47401": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:07 AM -0400"
+      ],
+      "cveDis": "Mattermost versions 9.10.x <= 9.10.2, 9.11.x <= 9.11.1 and 9.5.x <= 9.5.9 fail to prevent detailed error messages from being displayed in Playbooks which allows an attacker to generate a large response and cause an amplified GraphQL response which in turn could cause the application to crash by sending a specially crafted request to Playbooks.",
+      "cveName": "CVE-2024-47401",
+      "cveUrl": "/vuln/detail/CVE-2024-47401"
     }
   },
   "CVE-2024-47406": {
@@ -21306,6 +21438,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49631"
     }
   },
+  "CVE-2024-49642": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:08 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Rafasashi Todo Custom Field allows Reflected XSS.This issue affects Todo Custom Field: from n/a through 3.0.4.",
+      "cveName": "CVE-2024-49642",
+      "cveUrl": "/vuln/detail/CVE-2024-49642"
+    }
+  },
   "CVE-2024-49652": {
     "cve": {
       "cveDate": [
@@ -22087,6 +22230,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50050"
     }
   },
+  "CVE-2024-50052": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "4:15:12 AM -0400"
+      ],
+      "cveDis": "Mattermost versions 9.10.x <= 9.10.2, 9.11.x <= 9.11.1, 9.5.x <= 9.5.9 fail to check that the origin of the message in an integration action matches with the original post metadata which allows an authenticated user to delete an arbitrary post.",
+      "cveName": "CVE-2024-50052",
+      "cveUrl": "/vuln/detail/CVE-2024-50052"
+    }
+  },
   "CVE-2024-50055": {
     "cve": {
       "cveDate": [
@@ -22527,6 +22681,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-50408"
     }
   },
+  "CVE-2024-50411": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:08 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Kevon Adonis WP Abstracts allows Stored XSS.This issue affects WP Abstracts: from n/a through 2.7.1.",
+      "cveName": "CVE-2024-50411",
+      "cveUrl": "/vuln/detail/CVE-2024-50411"
+    }
+  },
+  "CVE-2024-50412": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:08 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Jules Colle Conditional Fields for Contact Form 7 allows Stored XSS.This issue affects Conditional Fields for Contact Form 7: from n/a through 2.4.15.",
+      "cveName": "CVE-2024-50412",
+      "cveUrl": "/vuln/detail/CVE-2024-50412"
+    }
+  },
+  "CVE-2024-50413": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:08 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in codection Import and export users and customers allows Stored XSS.This issue affects Import and export users and customers: from n/a through 1.27.5.",
+      "cveName": "CVE-2024-50413",
+      "cveUrl": "/vuln/detail/CVE-2024-50413"
+    }
+  },
+  "CVE-2024-50414": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:09 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in VirusTran Button contact VR allows Stored XSS.This issue affects Button contact VR: from n/a through 4.7.9.1.",
+      "cveName": "CVE-2024-50414",
+      "cveUrl": "/vuln/detail/CVE-2024-50414"
+    }
+  },
+  "CVE-2024-50415": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:09 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Pagup Ads.Txt & App-ads.Txt Manager for WordPress allows Stored XSS.This issue affects Ads.Txt & App-ads.Txt Manager for WordPress: from n/a through 1.1.7.1.",
+      "cveName": "CVE-2024-50415",
+      "cveUrl": "/vuln/detail/CVE-2024-50415"
+    }
+  },
   "CVE-2024-50416": {
     "cve": {
       "cveDate": [
@@ -22536,6 +22745,50 @@
       "cveDis": "Deserialization of Untrusted Data vulnerability in WPClever WPC Shop as a Customer for WooCommerce allows Object Injection.This issue affects WPC Shop as a Customer for WooCommerce: from n/a through 1.2.6.",
       "cveName": "CVE-2024-50416",
       "cveUrl": "/vuln/detail/CVE-2024-50416"
+    }
+  },
+  "CVE-2024-50418": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:09 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Time Slot Booking Time Slot allows Stored XSS.This issue affects Time Slot: from n/a through 1.3.6.",
+      "cveName": "CVE-2024-50418",
+      "cveUrl": "/vuln/detail/CVE-2024-50418"
+    }
+  },
+  "CVE-2024-50420": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:10 AM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in adirectory aDirectory allows Upload a Web Shell to a Web Server.This issue affects aDirectory: from n/a through 1.3.",
+      "cveName": "CVE-2024-50420",
+      "cveUrl": "/vuln/detail/CVE-2024-50420"
+    }
+  },
+  "CVE-2024-50426": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:10 AM -0400"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Survey Maker team Survey Maker allows Stored XSS.This issue affects Survey Maker: from n/a through 5.0.2.",
+      "cveName": "CVE-2024-50426",
+      "cveUrl": "/vuln/detail/CVE-2024-50426"
+    }
+  },
+  "CVE-2024-50427": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:10 AM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Devsoft Baltic OÜ SurveyJS: Drag & Drop WordPress Form Builder.This issue affects SurveyJS: Drag & Drop WordPress Form Builder: from n/a through 1.9.136.",
+      "cveName": "CVE-2024-50427",
+      "cveUrl": "/vuln/detail/CVE-2024-50427"
     }
   },
   "CVE-2024-50442": {
@@ -22626,6 +22879,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-50472"
     }
   },
+  "CVE-2024-50473": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:10 AM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Ajar Productions Ajar in5 Embed allows Upload a Web Shell to a Web Server.This issue affects Ajar in5 Embed: from n/a through 3.1.3.",
+      "cveName": "CVE-2024-50473",
+      "cveUrl": "/vuln/detail/CVE-2024-50473"
+    }
+  },
+  "CVE-2024-50475": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:11 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Scott Gamon Signup Page allows Privilege Escalation.This issue affects Signup Page: from n/a through 1.0.",
+      "cveName": "CVE-2024-50475",
+      "cveUrl": "/vuln/detail/CVE-2024-50475"
+    }
+  },
+  "CVE-2024-50476": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:11 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in GRÜN Software Group GmbH GRÜN spendino Spendenformular allows Privilege Escalation.This issue affects GRÜN spendino Spendenformular: from n/a through 1.0.1.",
+      "cveName": "CVE-2024-50476",
+      "cveUrl": "/vuln/detail/CVE-2024-50476"
+    }
+  },
   "CVE-2024-50477": {
     "cve": {
       "cveDate": [
@@ -22659,6 +22945,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-50479"
     }
   },
+  "CVE-2024-50480": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "4:15:12 AM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in azexo Marketing Automation by AZEXO allows Upload a Web Shell to a Web Server.This issue affects Marketing Automation by AZEXO: from n/a through 1.27.80.",
+      "cveName": "CVE-2024-50480",
+      "cveUrl": "/vuln/detail/CVE-2024-50480"
+    }
+  },
+  "CVE-2024-50481": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:11 AM -0400"
+      ],
+      "cveDis": "Incorrect Privilege Assignment vulnerability in Stack Themes Bstone Demo Importer allows Privilege Escalation.This issue affects Bstone Demo Importer: from n/a through 1.0.1.",
+      "cveName": "CVE-2024-50481",
+      "cveUrl": "/vuln/detail/CVE-2024-50481"
+    }
+  },
+  "CVE-2024-50482": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "4:15:13 AM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Chetan Khandla Woocommerce Product Design allows Upload a Web Shell to a Web Server.This issue affects Woocommerce Product Design: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-50482",
+      "cveUrl": "/vuln/detail/CVE-2024-50482"
+    }
+  },
   "CVE-2024-50483": {
     "cve": {
       "cveDate": [
@@ -22668,6 +22987,28 @@
       "cveDis": "Authorization Bypass Through User-Controlled Key vulnerability in Meetup allows Privilege Escalation.This issue affects Meetup: from n/a through 0.1.",
       "cveName": "CVE-2024-50483",
       "cveUrl": "/vuln/detail/CVE-2024-50483"
+    }
+  },
+  "CVE-2024-50484": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "4:15:13 AM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in mahlamusa Multi Purpose Mail Form allows Upload a Web Shell to a Web Server.This issue affects Multi Purpose Mail Form: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-50484",
+      "cveUrl": "/vuln/detail/CVE-2024-50484"
+    }
+  },
+  "CVE-2024-50485": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:12 AM -0400"
+      ],
+      "cveDis": ": Incorrect Privilege Assignment vulnerability in Udit Rawat Exam Matrix allows Privilege Escalation.This issue affects Exam Matrix: from n/a through 1.5.",
+      "cveName": "CVE-2024-50485",
+      "cveUrl": "/vuln/detail/CVE-2024-50485"
     }
   },
   "CVE-2024-50486": {
@@ -22714,6 +23055,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50489"
     }
   },
+  "CVE-2024-50490": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:12 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Szabolcs Szecsenyi PegaPoll allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects PegaPoll: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-50490",
+      "cveUrl": "/vuln/detail/CVE-2024-50490"
+    }
+  },
   "CVE-2024-50491": {
     "cve": {
       "cveDate": [
@@ -22734,6 +23086,28 @@
       "cveDis": "Improper Control of Generation of Code ('Code Injection') vulnerability in Scott Paterson ScottCart allows Code Injection.This issue affects ScottCart: from n/a through 1.1.",
       "cveName": "CVE-2024-50492",
       "cveUrl": "/vuln/detail/CVE-2024-50492"
+    }
+  },
+  "CVE-2024-50493": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "4:15:13 AM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in masterhomepage Automatic Translation allows Upload a Web Shell to a Web Server.This issue affects Automatic Translation: from n/a through 1.0.4.",
+      "cveName": "CVE-2024-50493",
+      "cveUrl": "/vuln/detail/CVE-2024-50493"
+    }
+  },
+  "CVE-2024-50494": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "4:15:13 AM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Amin Omer Sudan Payment Gateway for WooCommerce allows Upload a Web Shell to a Web Server.This issue affects Sudan Payment Gateway for WooCommerce: from n/a through 1.2.2.",
+      "cveName": "CVE-2024-50494",
+      "cveUrl": "/vuln/detail/CVE-2024-50494"
     }
   },
   "CVE-2024-50495": {
@@ -22800,6 +23174,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in CozyThemes Cozy Blocks allows Stored XSS.This issue affects Cozy Blocks: from n/a through 2.0.18.",
       "cveName": "CVE-2024-50502",
       "cveUrl": "/vuln/detail/CVE-2024-50502"
+    }
+  },
+  "CVE-2024-50550": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "Incorrect Privilege Assignment vulnerability in LiteSpeed Technologies LiteSpeed Cache allows Privilege Escalation.This issue affects LiteSpeed Cache: from n/a through 6.5.1.",
+      "cveName": "CVE-2024-50550",
+      "cveUrl": "/vuln/detail/CVE-2024-50550"
     }
   },
   "CVE-2024-50573": {
@@ -26696,6 +27081,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9375"
     }
   },
+  "CVE-2024-93766-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "The Kata Plus – Addons for Elementor – Widgets, Extensions and Templates plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.4.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-93766-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9376"
+    }
+  },
   "CVE-2024-93776-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -27068,6 +27464,17 @@
       "cveDis": "The ShiftController Employee Shift Scheduling plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via URL keys in all versions up to, and including, 4.9.66 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-94356-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9435"
+    }
+  },
+  "CVE-2024-94386-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:12 AM -0400"
+      ],
+      "cveDis": "The SEUR Oficial plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'change_service' parameter in all versions up to, and including, 2.2.11 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-94386-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9438"
     }
   },
   "CVE-2024-9440": {
