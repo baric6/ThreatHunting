@@ -1660,6 +1660,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10101"
     }
   },
+  "CVE-2024-101087-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "3:15:13 AM -0400"
+      ],
+      "cveDis": "The WPAdverts – Classifieds Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's adverts_add shortcode in all versions up to, and including, 2.1.6 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-101087-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10108"
+    }
+  },
   "CVE-2024-101126-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -2320,6 +2331,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10214"
     }
   },
+  "CVE-2024-102236-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "3:15:15 AM -0400"
+      ],
+      "cveDis": "The WP Team – WordPress Team Member Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's htteamember shortcode in all versions up to, and including, 1.1.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-102236-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10223"
+    }
+  },
   "CVE-2024-102266-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -2978,6 +3000,17 @@
       "cveDis": "CVE-2024-10387 IMPACT\n\n\n\nA Denial-of-Service\nvulnerability exists in the affected product. The vulnerability could allow a\nthreat actor with network access to send crafted messages to the device,\npotentially resulting in Denial-of-Service.",
       "cveName": "CVE-2024-10387",
       "cveUrl": "/vuln/detail/CVE-2024-10387"
+    }
+  },
+  "CVE-2024-103994-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:14 AM -0400"
+      ],
+      "cveDis": "The Download Monitor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the ajax_search_users function in all versions up to, and including, 5.0.13. This makes it possible for authenticated attackers, with Subscriber-level access and above, to obtain usernames and emails of site users.",
+      "cveName": "CVE-2024-103994-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10399"
     }
   },
   "CVE-2024-104027-5 HIGH": {
@@ -23858,6 +23891,105 @@
       "cveUrl": "/vuln/detail/CVE-2024-50502"
     }
   },
+  "CVE-2024-50503": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:02 AM -0400"
+      ],
+      "cveDis": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Deryck Oñate User Toolkit allows Authentication Bypass.This issue affects User Toolkit: from n/a through 1.2.3.",
+      "cveName": "CVE-2024-50503",
+      "cveUrl": "/vuln/detail/CVE-2024-50503"
+    }
+  },
+  "CVE-2024-50504": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "Incorrect Privilege Assignment vulnerability in Matt Whiteman Bulk Change Role allows Privilege Escalation.This issue affects Bulk Change Role: from n/a through 1.1.",
+      "cveName": "CVE-2024-50504",
+      "cveUrl": "/vuln/detail/CVE-2024-50504"
+    }
+  },
+  "CVE-2024-50506": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "Incorrect Privilege Assignment vulnerability in Azexo Marketing Automation by AZEXO allows Privilege Escalation.This issue affects Marketing Automation by AZEXO: from n/a through 1.27.80.",
+      "cveName": "CVE-2024-50506",
+      "cveUrl": "/vuln/detail/CVE-2024-50506"
+    }
+  },
+  "CVE-2024-50507": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Daniel Schmitzer DS.DownloadList allows Object Injection.This issue affects DS.DownloadList: from n/a through 1.3.",
+      "cveName": "CVE-2024-50507",
+      "cveUrl": "/vuln/detail/CVE-2024-50507"
+    }
+  },
+  "CVE-2024-50508": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Chetan Khandla Woocommerce Product Design allows Path Traversal.This issue affects Woocommerce Product Design: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-50508",
+      "cveUrl": "/vuln/detail/CVE-2024-50508"
+    }
+  },
+  "CVE-2024-50509": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Chetan Khandla Woocommerce Product Design allows Path Traversal.This issue affects Woocommerce Product Design: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-50509",
+      "cveUrl": "/vuln/detail/CVE-2024-50509"
+    }
+  },
+  "CVE-2024-50510": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Web and Print Design AR For Woocommerce allows Upload a Web Shell to a Web Server.This issue affects AR For Woocommerce: from n/a through 6.2.",
+      "cveName": "CVE-2024-50510",
+      "cveUrl": "/vuln/detail/CVE-2024-50510"
+    }
+  },
+  "CVE-2024-50511": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in David DONISA WP donimedia carousel allows Upload a Web Shell to a Web Server.This issue affects WP donimedia carousel: from n/a through 1.0.1.",
+      "cveName": "CVE-2024-50511",
+      "cveUrl": "/vuln/detail/CVE-2024-50511"
+    }
+  },
+  "CVE-2024-50512": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "Generation of Error Message Containing Sensitive Information vulnerability in Posti Posti Shipping allows Retrieve Embedded Sensitive Data.This issue affects Posti Shipping: from n/a through 3.10.2.",
+      "cveName": "CVE-2024-50512",
+      "cveUrl": "/vuln/detail/CVE-2024-50512"
+    }
+  },
   "CVE-2024-50550": {
     "cve": {
       "cveDate": [
@@ -25585,6 +25717,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8433"
     }
   },
+  "CVE-2024-8444": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "3:15:16 AM -0400"
+      ],
+      "cveDis": "The Download Manager WordPress plugin before 3.3.00 doesn't sanitize some of it's shortcode parameters, leading to cross site scripting.",
+      "cveName": "CVE-2024-8444",
+      "cveUrl": "/vuln/detail/CVE-2024-8444"
+    }
+  },
   "CVE-2024-84488-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -26463,6 +26606,17 @@
       "cveDis": "The Forms for Mailchimp by Optin Cat – Grow Your MailChimp List plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 2.5.6. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-88706-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8870"
+    }
+  },
+  "CVE-2024-88716-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:16 AM -0400"
+      ],
+      "cveDis": "The Pricing Tables WordPress Plugin – Easy Pricing Tables plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 3.2.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-88716-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8871"
     }
   },
   "CVE-2024-8884": {
@@ -29906,6 +30060,17 @@
       "cveDis": "The WPS Telegram Chat plugin for WordPress is vulnerable to authorization bypass due to a missing capability check when accessing messages in versions up to, and including, 4.5.4. This makes it possible for unauthenticated attackers to view the messages that are sent through the Telegram Bot API.",
       "cveName": "CVE-2024-96305-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9630"
+    }
+  },
+  "CVE-2024-96327-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:04 AM -0400"
+      ],
+      "cveDis": "A flaw was found in the X.org server. Due to improperly tracked allocation size in _XkbSetCompatMap, a local attacker may be able to trigger a buffer overflow condition via a specially crafted payload, leading to denial of service or local privilege escalation in distributions where the X.org server is run with root privileges.",
+      "cveName": "CVE-2024-96327-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9632"
     }
   },
   "CVE-2024-96349-8 CRITICAL": {
