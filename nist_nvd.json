@@ -3717,6 +3717,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10509"
     }
   },
+  "CVE-2024-10525": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "8:15:02 AM -0400"
+      ],
+      "cveDis": "In Eclipse Mosquitto, from version 1.3.2 through 2.0.18, if a malicious broker sends a crafted SUBACK packet with no reason codes, a client using libmosquitto may make out of bounds memory access when acting in its on_subscribe callback. This affects the mosquitto_sub and mosquitto_rr clients.",
+      "cveName": "CVE-2024-10525",
+      "cveUrl": "/vuln/detail/CVE-2024-10525"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -5345,6 +5356,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-22068"
     }
   },
+  "CVE-2024-233099-0 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "The LevelOne WBR-6012 router with firmware R0.40e6 has an authentication bypass vulnerability in its web application due to reliance on client IP addresses for authentication. Attackers could spoof an IP address to gain unauthorized access without needing a session token.",
+      "cveName": "CVE-2024-233099-0 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-23309"
+    }
+  },
   "CVE-2024-233697-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -5585,6 +5607,17 @@
       "cveDis": "A remote code execution vulnerability in the project management of Wanxing Technology's Yitu project which allows an attacker to use the exp.adpx file as a zip compressed file to construct a special file name, which can be used to decompress the project file into the system startup folder, restart the system, and automatically execute the constructed attack script.",
       "cveName": "CVE-2024-24122",
       "cveUrl": "/vuln/detail/CVE-2024-24122"
+    }
+  },
+  "CVE-2024-24777": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "A cross-site request forgery (CSRF) vulnerability exists in the Web Application functionality of the LevelOne WBR-6012 R0.40e6. A specially crafted HTTP request can lead to unauthorized access. An attacker can stage a malicious web page to trigger this vulnerability.",
+      "cveName": "CVE-2024-24777",
+      "cveUrl": "/vuln/detail/CVE-2024-24777"
     }
   },
   "CVE-2024-25282": {
@@ -5884,6 +5917,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-27766"
     }
   },
+  "CVE-2024-280525-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "The WBR-6012 is a wireless SOHO router. It is a low-cost device which functions as an internet gateway for homes and small offices while aiming to be easy to configure and operate. In addition to providing a WiFi access point, the device serves as a 4-port wired router and implements a variety of common SOHO router capabilities such as port forwarding, quality-of-service, web-based administration, a DHCP server, a basic DMZ, and UPnP capabilities.",
+      "cveName": "CVE-2024-280525-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-28052"
+    }
+  },
   "CVE-2024-28709": {
     "cve": {
       "cveDate": [
@@ -5981,6 +6025,17 @@
       "cveDis": "An issue was discovered in Infinera hiT 7300 5.60.50. Undocumented privileged functions in the @CT management application allow an attacker to activate remote SSH access to the appliance via an unexpected network interface.",
       "cveName": "CVE-2024-28813",
       "cveUrl": "/vuln/detail/CVE-2024-28813"
+    }
+  },
+  "CVE-2024-288758-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:04 AM -0400"
+      ],
+      "cveDis": "A security flaw involving hard-coded credentials in LevelOne WBR-6012's web services allows attackers to gain unauthorized access during the first 30 seconds post-boot. Other vulnerabilities can force a reboot, circumventing the initial time restriction for exploitation.The backdoor string can be found at address 0x80100910\n\n    80100910 40 6d 21 74        ds         \"@m!t2K1\"\n             32 4b 31 00\n             \nIt is referenced by the function located at 0x800b78b0 and is used as shown in the pseudocode below:\n\n    if ((SECOND_FROM_BOOT_TIME < 300) &&\n        (is_equal = strcmp(password,\"@m!t2K1\")) {\n            return 1;}\n            \nWhere 1 is the return value to admin-level access (0 being fail and 3 being user).",
+      "cveName": "CVE-2024-288758-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-28875"
     }
   },
   "CVE-2024-28888": {
@@ -6181,6 +6236,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-31029"
     }
   },
+  "CVE-2024-311518-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "A security flaw involving hard-coded credentials in LevelOne WBR-6012's web services allows attackers to gain unauthorized access during the first 30 seconds post-boot. Other vulnerabilities can force a reboot, circumventing the initial time restriction for exploitation.The password string can be found at addresses 0x 803cdd0f and 0x803da3e6:\n\n    803cdd0f 41 72 69 65        ds         \"AriesSerenaCairryNativitaMegan\"\n             73 53 65 72 \n             65 6e 61 43\n             ...\n\nIt is referenced by the function at 0x800b78b0 and simplified in the pseudocode below:\n\n    if (is_equal = strcmp(password,\"AriesSerenaCairryNativitaMegan\"){\n        ret = 3;}\n\nWhere 3 is the return value to user-level access (0 being fail and 1 being admin/backdoor).\n\nWhile there's no legitimate functionality to change this password, once authenticated it is possible manually make a change by taking advantage of TALOS-2024-XXXXX using HTTP POST paramater \"Pu\" (new user password) in place of \"Pa\" (new admin password).",
+      "cveName": "CVE-2024-311518-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-31151"
+    }
+  },
+  "CVE-2024-311525-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:05 AM -0400"
+      ],
+      "cveDis": "The LevelOne WBR-6012 router with firmware R0.40e6 is vulnerable to improper resource allocation within its web application, where a series of crafted HTTP requests can cause a reboot. This could lead to network service interruptions.",
+      "cveName": "CVE-2024-311525-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-31152"
+    }
+  },
   "CVE-2024-31227": {
     "cve": {
       "cveDate": [
@@ -6289,6 +6366,17 @@
       "cveDis": "HDF5 library through 1.14.3 has memory corruption in H5A__close resulting in the corruption of the instruction pointer and causing denial of service or potential code execution.",
       "cveName": "CVE-2024-32608",
       "cveUrl": "/vuln/detail/CVE-2024-32608"
+    }
+  },
+  "CVE-2024-329465-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "A vulnerability in the LevelOne WBR-6012 router's firmware version R0.40e6 allows sensitive information to be transmitted in cleartext via Web and FTP services, exposing it to network sniffing attacks.",
+      "cveName": "CVE-2024-329465-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-32946"
     }
   },
   "CVE-2024-33049": {
@@ -6500,6 +6588,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-33582"
     }
   },
+  "CVE-2024-336035-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "The LevelOne WBR-6012 router has an information disclosure vulnerability in its web application, which allows unauthenticated users to access a verbose system log page and obtain sensitive data, such as memory addresses and IP addresses for login attempts. This flaw could lead to session hijacking due to the device's reliance on IP address for authentication.",
+      "cveName": "CVE-2024-336035-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33603"
+    }
+  },
+  "CVE-2024-33623": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "A denial of service vulnerability exists in the Web Application functionality of LevelOne WBR-6012 R0.40e6. A specially crafted HTTP request can lead to a reboot. An attacker can send an HTTP request to trigger this vulnerability.",
+      "cveName": "CVE-2024-33623",
+      "cveUrl": "/vuln/detail/CVE-2024-33623"
+    }
+  },
+  "CVE-2024-336265-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:06 AM -0400"
+      ],
+      "cveDis": "The LevelOne WBR-6012 router contains a vulnerability within its web application that allows unauthenticated disclosure of sensitive information, such as the WiFi WPS PIN, through a hidden page accessible by an HTTP request. Disclosure of this information could enable attackers to connect to the device's WiFi network.",
+      "cveName": "CVE-2024-336265-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33626"
+    }
+  },
   "CVE-2024-33662": {
     "cve": {
       "cveDate": [
@@ -6509,6 +6630,28 @@
       "cveDis": "Portainer before 2.20.2 improperly uses an encryption algorithm in the AesEncrypt function.",
       "cveName": "CVE-2024-33662",
       "cveUrl": "/vuln/detail/CVE-2024-33662"
+    }
+  },
+  "CVE-2024-336999-9 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:07 AM -0400"
+      ],
+      "cveDis": "The LevelOne WBR-6012 router's web application has a vulnerability in its firmware version R0.40e6, allowing attackers to change the administrator password and gain higher privileges without the current password.",
+      "cveName": "CVE-2024-336999-9 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-33699"
+    }
+  },
+  "CVE-2024-337007-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:07 AM -0400"
+      ],
+      "cveDis": "The LevelOne WBR-6012 router firmware R0.40e6 suffers from an input validation vulnerability within its FTP functionality, enabling attackers to cause a denial of service through a series of malformed FTP commands. This can lead to device reboots and service disruption.",
+      "cveName": "CVE-2024-337007-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33700"
     }
   },
   "CVE-2024-34535": {
@@ -7279,6 +7422,17 @@
       "cveDis": "Cookies of authenticated Advantech ADAM-5630 users remain as active valid cookies when a \nsession is closed. Forging requests with a legitimate cookie, even if \nthe session was terminated, allows an unauthorized attacker to act with \nthe same level of privileges of the legitimate user.",
       "cveName": "CVE-2024-39275",
       "cveUrl": "/vuln/detail/CVE-2024-39275"
+    }
+  },
+  "CVE-2024-3935": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "8:15:03 AM -0400"
+      ],
+      "cveDis": "In Eclipse Mosquito, versions from 2.0.0 through 2.0.18, if a Mosquitto broker is configured to create an outgoing bridge connection, and that bridge connection has an incoming topic configured that makes use of topic remapping, then if the remote connection sends a crafted PUBLISH packet to the broker a double free will occur with a subsequent crash of the broker.",
+      "cveName": "CVE-2024-3935",
+      "cveUrl": "/vuln/detail/CVE-2024-3935"
     }
   },
   "CVE-2024-39364": {
@@ -23231,6 +23385,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50334"
     }
   },
+  "CVE-2024-50344": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "12:15:04 PM -0400"
+      ],
+      "cveDis": "I, Librarian is an open-source version of a PDF managing SaaS. Supplemental Files are allowed to be viewed in the browser, only if they have a white-listed MIME type. Unfortunately, this logic is broken, thus allowing unsafe files containing Javascript to be executed with the application context. An attacker can exploit this vulnerability by uploading a supplementary file that contains a malicious code or script. This code will then be executed when the file is loaded in the browser. The vulnerability was fixed in version 5.11.2.",
+      "cveName": "CVE-2024-50344",
+      "cveUrl": "/vuln/detail/CVE-2024-50344"
+    }
+  },
   "CVE-2024-50348": {
     "cve": {
       "cveDate": [
@@ -23240,6 +23405,17 @@
       "cveDis": "InstantCMS is a free and open source content management system. In photo upload function in the photo album page there is no input validation taking place. Due to this attackers are able to inject the XSS (Cross Site Scripting) payload and execute. This vulnerability is fixed in 2.16.3.",
       "cveName": "CVE-2024-50348",
       "cveUrl": "/vuln/detail/CVE-2024-50348"
+    }
+  },
+  "CVE-2024-50353": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:07 AM -0400"
+      ],
+      "cveDis": "ICG.AspNetCore.Utilities.CloudStorage is a collection of cloud storage utilities to assist with the management of files for cloud upload. Users of this library that set a duration for a SAS Uri with a value other than 1 hour may have generated a URL with a duration that is longer, or shorter than desired. Users not implemented SAS Uri's are unaffected. This issue was resolved in version 8.0.0 of the library.",
+      "cveName": "CVE-2024-50353",
+      "cveUrl": "/vuln/detail/CVE-2024-50353"
     }
   },
   "CVE-2024-50382": {
@@ -23350,6 +23526,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Time Slot Booking Time Slot allows Stored XSS.This issue affects Time Slot: from n/a through 1.3.6.",
       "cveName": "CVE-2024-50418",
       "cveUrl": "/vuln/detail/CVE-2024-50418"
+    }
+  },
+  "CVE-2024-50419": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "11:15:19 AM -0400"
+      ],
+      "cveDis": "Incorrect Authorization vulnerability in Wpsoul Greenshift – animation and page builder blocks allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Greenshift – animation and page builder blocks: from n/a through 9.7.",
+      "cveName": "CVE-2024-50419",
+      "cveUrl": "/vuln/detail/CVE-2024-50419"
     }
   },
   "CVE-2024-50420": {
@@ -24274,6 +24461,94 @@
       "cveDis": "A Reflected Cross Site Scripting (XSS) vulnerability was found in /ifscfinder/admin/profile.php in PHPGurukul IFSC Code Finder Project v1.0, which allows remote attackers to execute arbitrary code via \" searchifsccode\" parameter.",
       "cveName": "CVE-2024-51181",
       "cveUrl": "/vuln/detail/CVE-2024-51181"
+    }
+  },
+  "CVE-2024-51257": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:08 AM -0400"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 allows attackers to inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the doCertificate function.",
+      "cveName": "CVE-2024-51257",
+      "cveUrl": "/vuln/detail/CVE-2024-51257"
+    }
+  },
+  "CVE-2024-51258": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "1:15:14 PM -0400"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 allows attackers to inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the doSSLTunnel function.",
+      "cveName": "CVE-2024-51258",
+      "cveUrl": "/vuln/detail/CVE-2024-51258"
+    }
+  },
+  "CVE-2024-51296": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:08 AM -0400"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the pingtrace function.",
+      "cveName": "CVE-2024-51296",
+      "cveUrl": "/vuln/detail/CVE-2024-51296"
+    }
+  },
+  "CVE-2024-51298": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:08 AM -0400"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the doGRETunnel function.",
+      "cveName": "CVE-2024-51298",
+      "cveUrl": "/vuln/detail/CVE-2024-51298"
+    }
+  },
+  "CVE-2024-51299": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:08 AM -0400"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the dumpSyslog function.",
+      "cveName": "CVE-2024-51299",
+      "cveUrl": "/vuln/detail/CVE-2024-51299"
+    }
+  },
+  "CVE-2024-51300": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:08 AM -0400"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the get_rrd function.",
+      "cveName": "CVE-2024-51300",
+      "cveUrl": "/vuln/detail/CVE-2024-51300"
+    }
+  },
+  "CVE-2024-51301": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:08 AM -0400"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the packet_monitor function.",
+      "cveName": "CVE-2024-51301",
+      "cveUrl": "/vuln/detail/CVE-2024-51301"
+    }
+  },
+  "CVE-2024-51304": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "9:15:14 AM -0400"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the ldap_search_dn function.",
+      "cveName": "CVE-2024-51304",
+      "cveUrl": "/vuln/detail/CVE-2024-51304"
     }
   },
   "CVE-2024-51378": {
@@ -25948,6 +26223,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8508"
     }
   },
+  "CVE-2024-85129-1 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "7:15:15 AM -0400"
+      ],
+      "cveDis": "The W3SPEEDSTER plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 7.26 via the 'script' parameter of the hookBeforeStartOptimization() function. This is due to the plugin passing user supplied input to eval(). This makes it possible for authenticated attackers, with Administrator-level access and above, to execute code on the server.",
+      "cveName": "CVE-2024-85129-1 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-8512"
+    }
+  },
   "CVE-2024-85135-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -27200,6 +27486,17 @@
       "cveDis": "The WooCommerce UPS Shipping – Live Rates and Access Points plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the delete_oauth_data function in all versions up to, and including, 2.3.11. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete the plugin's API key.",
       "cveName": "CVE-2024-91094-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9109"
+    }
+  },
+  "CVE-2024-9110": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "1:15:14 PM -0400"
+      ],
+      "cveDis": "A medium severity vulnerability has been identified within Privileged Identity which can allow an attacker to perform reflected cross-site scripting attacks.",
+      "cveName": "CVE-2024-9110",
+      "cveUrl": "/vuln/detail/CVE-2024-9110"
     }
   },
   "CVE-2024-91166-4 MEDIUM": {
@@ -28542,6 +28839,17 @@
       "cveDis": "The Themify Builder plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 7.6.2. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-9385",
       "cveUrl": "/vuln/detail/CVE-2024-9385"
+    }
+  },
+  "CVE-2024-9388": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "7:15:16 AM -0400"
+      ],
+      "cveDis": "The Black Widgets For Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.3.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-9388",
+      "cveUrl": "/vuln/detail/CVE-2024-9388"
     }
   },
   "CVE-2024-9391": {
