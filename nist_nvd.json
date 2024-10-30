@@ -890,6 +890,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-52952"
     }
   },
+  "CVE-2023-5816": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "11:15:03 PM -0400"
+      ],
+      "cveDis": "The Code Explorer plugin for WordPress is vulnerable to arbitrary external file reading in all versions up to, and including, 1.4.5. This is due to the fact that the plugin does not restrict accessing files to those outside of the WordPress instance, though the intention of the plugin is to only access WordPress related files. This makes it possible for authenticated attackers, with administrator-level access, to read files outside of the WordPress instance.",
+      "cveName": "CVE-2023-5816",
+      "cveUrl": "/vuln/detail/CVE-2023-5816"
+    }
+  },
   "CVE-2023-6055": {
     "cve": {
       "cveDate": [
@@ -2331,6 +2342,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10227"
     }
   },
+  "CVE-2024-10228": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "The Vagrant VMWare Utility Windows installer targeted a custom location with a non-protected path that could be modified by an unprivileged user, introducing potential for unauthorized file system writes. This vulnerability, CVE-2024-10228, was fixed in Vagrant VMWare Utility 1.0.23",
+      "cveName": "CVE-2024-10228",
+      "cveUrl": "/vuln/detail/CVE-2024-10228"
+    }
+  },
   "CVE-2024-10229": {
     "cve": {
       "cveDate": [
@@ -3541,6 +3563,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-10479"
     }
   },
+  "CVE-2024-10487": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Out of bounds write in Dawn in Google Chrome prior to 130.0.6723.92 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: Critical)",
+      "cveName": "CVE-2024-10487",
+      "cveUrl": "/vuln/detail/CVE-2024-10487"
+    }
+  },
+  "CVE-2024-10488": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "Use after free in WebRTC in Google Chrome prior to 130.0.6723.92 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-10488",
+      "cveUrl": "/vuln/detail/CVE-2024-10488"
+    }
+  },
   "CVE-2024-10491": {
     "cve": {
       "cveDate": [
@@ -3550,6 +3594,94 @@
       "cveDis": "A vulnerability has been identified in the Express response.links function, allowing for arbitrary resource injection in the Link header when unsanitized data is used.\n\nThe issue arises from improper sanitization in `Link` header values, which can allow a combination of characters like `,`, `;`, and `<>` to preload malicious resources.\n\nThis vulnerability is especially relevant for dynamic parameters.",
       "cveName": "CVE-2024-10491",
       "cveUrl": "/vuln/detail/CVE-2024-10491"
+    }
+  },
+  "CVE-2024-10500": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "9:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in ESAFENET CDG 5. Affected by this issue is some unknown functionality of the file /com/esafenet/servlet/policy/HookWhiteListService.java. The manipulation of the argument policyId leads to sql injection. The attack may be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10500",
+      "cveUrl": "/vuln/detail/CVE-2024-10500"
+    }
+  },
+  "CVE-2024-10501": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "9:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in ESAFENET CDG 5. This affects the function findById of the file /com/esafenet/servlet/document/ExamCDGDocService.java. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10501",
+      "cveUrl": "/vuln/detail/CVE-2024-10501"
+    }
+  },
+  "CVE-2024-10502": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "9:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in ESAFENET CDG 5 and classified as critical. This vulnerability affects the function getOneFileDirectory of the file /com/esafenet/servlet/fileManagement/FileDirectoryService.java. The manipulation of the argument directoryId leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10502",
+      "cveUrl": "/vuln/detail/CVE-2024-10502"
+    }
+  },
+  "CVE-2024-10503": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "9:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Klokan MapTiler tileserver-gl 2.3.1 and classified as problematic. This issue affects some unknown processing of the component URL Handler. The manipulation of the argument key leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10503",
+      "cveUrl": "/vuln/detail/CVE-2024-10503"
+    }
+  },
+  "CVE-2024-10505": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "10:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in wuzhicms 4.1.0. It has been classified as critical. Affected is the function add/edit of the file www/coreframe/app/content/admin/block.php. The manipulation leads to code injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Initially two separate issues were created by the researcher for the different function calls. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10505",
+      "cveUrl": "/vuln/detail/CVE-2024-10505"
+    }
+  },
+  "CVE-2024-10506": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "11:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in code-projects Blood Bank System 1.0. This affects an unknown part of the file /admin/blood/update/B-.php. The manipulation of the argument Bloodname leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10506",
+      "cveUrl": "/vuln/detail/CVE-2024-10506"
+    }
+  },
+  "CVE-2024-10507": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "11:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in Codezips Free Exam Hall Seating Management System 1.0. This vulnerability affects unknown code of the file /login.php. The manipulation of the argument email leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10507",
+      "cveUrl": "/vuln/detail/CVE-2024-10507"
+    }
+  },
+  "CVE-2024-10509": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "11:15:04 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in Codezips Online Institute Management System 1.0. This issue affects some unknown processing of the file /login.php. The manipulation of the argument email leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10509",
+      "cveUrl": "/vuln/detail/CVE-2024-10509"
     }
   },
   "CVE-2024-20090": {
@@ -9413,6 +9545,28 @@
       "cveDis": "An issue was discovered in the m2m scaler driver in Samsung Mobile Processor and Wearable Processor Exynos 9820, 9825, 980, 990, 850,and W920. A Use-After-Free in the mobile processor leads to privilege escalation.",
       "cveName": "CVE-2024-44068",
       "cveUrl": "/vuln/detail/CVE-2024-44068"
+    }
+  },
+  "CVE-2024-44080": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "In Jitsi Meet before 2.0.9779, the functionality to share an image using giphy was implemented in an insecure way, resulting in clients loading GIFs from any arbitrary URL if a message from another participant contains a URL encoded in the expected format.",
+      "cveName": "CVE-2024-44080",
+      "cveUrl": "/vuln/detail/CVE-2024-44080"
+    }
+  },
+  "CVE-2024-44081": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "In Jitsi Meet before 2.0.9779, the functionality to share a video file was implemented in an insecure way, resulting in clients loading videos from an arbitrary URL if a message from another participant contains a URL encoded in the expected format.",
+      "cveName": "CVE-2024-44081",
+      "cveUrl": "/vuln/detail/CVE-2024-44081"
     }
   },
   "CVE-2024-44097": {
@@ -17885,6 +18039,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48049"
     }
   },
+  "CVE-2024-48063": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:04 PM -0400"
+      ],
+      "cveDis": "In PyTorch <=2.4.1, the RemoteModule has Deserialization RCE.",
+      "cveName": "CVE-2024-48063",
+      "cveUrl": "/vuln/detail/CVE-2024-48063"
+    }
+  },
   "CVE-2024-48074": {
     "cve": {
       "cveDate": [
@@ -17927,6 +18092,17 @@
       "cveDis": "X2CRM v8.5 is vulnerable to a stored Cross-Site Scripting (XSS) in the \"Opportunities\" module. An attacker can inject malicious JavaScript code into the \"Name\" field when creating a list.",
       "cveName": "CVE-2024-48120",
       "cveUrl": "/vuln/detail/CVE-2024-48120"
+    }
+  },
+  "CVE-2024-48138": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A remote code execution (RCE) vulnerability in the component /PluXml/core/admin/parametres_edittpl.php of PluXml v5.8.16 and lower allows attackers to execute arbitrary code via injecting a crafted payload into a template.",
+      "cveName": "CVE-2024-48138",
+      "cveUrl": "/vuln/detail/CVE-2024-48138"
     }
   },
   "CVE-2024-48139": {
@@ -18092,6 +18268,17 @@
       "cveDis": "SQL injection vulnerability in Hanzhou Haobo network management system 1.0 allows a remote attacker to execute arbitrary code via a crafted script.",
       "cveName": "CVE-2024-48204",
       "cveUrl": "/vuln/detail/CVE-2024-48204"
+    }
+  },
+  "CVE-2024-48206": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:04 PM -0400"
+      ],
+      "cveDis": "A Deserialization of Untrusted Data vulnerability in chainer v7.8.1.post1 leads to execution of arbitrary code.",
+      "cveName": "CVE-2024-48206",
+      "cveUrl": "/vuln/detail/CVE-2024-48206"
     }
   },
   "CVE-2024-48208": {
@@ -18644,6 +18831,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48459"
     }
   },
+  "CVE-2024-48461": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:04 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in TeslaLogger Admin Panel before v.1.59.6 allows a remote attacker to execute arbitrary code via the New Journey field.",
+      "cveName": "CVE-2024-48461",
+      "cveUrl": "/vuln/detail/CVE-2024-48461"
+    }
+  },
   "CVE-2024-48514": {
     "cve": {
       "cveDate": [
@@ -18774,6 +18972,28 @@
       "cveDis": "Client Management System 1.0 was discovered to contain a SQL injection vulnerability via the Between Dates Reports parameter at /admin/bwdates-reports-ds.php.",
       "cveName": "CVE-2024-48570",
       "cveUrl": "/vuln/detail/CVE-2024-48570"
+    }
+  },
+  "CVE-2024-48572": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A User enumeration vulnerability in AquilaCMS 1.409.20 and prior allows unauthenticated attackers to obtain email addresses via the \"Add a user\" feature. The vulnerability occurs due to insufficiently validated user input being processed as a regular expression, which is then matched against email addresses to find duplicate entries.",
+      "cveName": "CVE-2024-48572",
+      "cveUrl": "/vuln/detail/CVE-2024-48572"
+    }
+  },
+  "CVE-2024-48573": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "A NoSQL injection vulnerability in AquilaCMS 1.409.20 and prior allows unauthenticated attackers to reset user and administrator account passwords via the \"Reset password\" feature.",
+      "cveName": "CVE-2024-48573",
+      "cveUrl": "/vuln/detail/CVE-2024-48573"
     }
   },
   "CVE-2024-48579": {
@@ -19753,6 +19973,17 @@
       "cveDis": "The verify function in lib/elliptic/eddsa/index.js in the Elliptic package before 6.5.6 for Node.js omits \"sig.S().gte(sig.eddsa.curve.n) || sig.S().isNeg()\" validation.",
       "cveName": "CVE-2024-48949",
       "cveUrl": "/vuln/detail/CVE-2024-48949"
+    }
+  },
+  "CVE-2024-48955": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "In NetAdmin 4.0.30319, an attacker can steal a valid session cookie and inject it into another device, granting unauthorized access. This type of attack is commonly referred to as session hijacking.",
+      "cveName": "CVE-2024-48955",
+      "cveUrl": "/vuln/detail/CVE-2024-48955"
     }
   },
   "CVE-2024-48957": {
@@ -22967,6 +23198,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50334"
     }
   },
+  "CVE-2024-50348": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "7:15:03 PM -0400"
+      ],
+      "cveDis": "InstantCMS is a free and open source content management system. In photo upload function in the photo album page there is no input validation taking place. Due to this attackers are able to inject the XSS (Cross Site Scripting) payload and execute. This vulnerability is fixed in 2.16.3.",
+      "cveName": "CVE-2024-50348",
+      "cveUrl": "/vuln/detail/CVE-2024-50348"
+    }
+  },
   "CVE-2024-50382": {
     "cve": {
       "cveDate": [
@@ -23088,6 +23330,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-50420"
     }
   },
+  "CVE-2024-50421": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in WP Overnight WooCommerce PDF Invoices & Packing Slips allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WooCommerce PDF Invoices & Packing Slips: from n/a through 3.8.6.",
+      "cveName": "CVE-2024-50421",
+      "cveUrl": "/vuln/detail/CVE-2024-50421"
+    }
+  },
+  "CVE-2024-50422": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Cloudways Breeze allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Breeze: from n/a through 2.1.14.",
+      "cveName": "CVE-2024-50422",
+      "cveUrl": "/vuln/detail/CVE-2024-50422"
+    }
+  },
+  "CVE-2024-50423": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Templately allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Templately: from n/a through 3.1.5.",
+      "cveName": "CVE-2024-50423",
+      "cveUrl": "/vuln/detail/CVE-2024-50423"
+    }
+  },
+  "CVE-2024-50424": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Templately allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Templately: from n/a through 3.1.5.",
+      "cveName": "CVE-2024-50424",
+      "cveUrl": "/vuln/detail/CVE-2024-50424"
+    }
+  },
+  "CVE-2024-50425": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:04 PM -0400"
+      ],
+      "cveDis": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Veribo, Roland Murg WP Booking System.This issue affects WP Booking System: from n/a through 2.0.19.10.",
+      "cveName": "CVE-2024-50425",
+      "cveUrl": "/vuln/detail/CVE-2024-50425"
+    }
+  },
   "CVE-2024-50426": {
     "cve": {
       "cveDate": [
@@ -23108,6 +23405,17 @@
       "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Devsoft Baltic OÜ SurveyJS: Drag & Drop WordPress Form Builder.This issue affects SurveyJS: Drag & Drop WordPress Form Builder: from n/a through 1.9.136.",
       "cveName": "CVE-2024-50427",
       "cveUrl": "/vuln/detail/CVE-2024-50427"
+    }
+  },
+  "CVE-2024-50428": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Mondula GmbH Multi Step Form allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Multi Step Form: from n/a through 1.7.21.",
+      "cveName": "CVE-2024-50428",
+      "cveUrl": "/vuln/detail/CVE-2024-50428"
     }
   },
   "CVE-2024-50442": {
@@ -23141,6 +23449,39 @@
       "cveDis": "Improper Control of Generation of Code ('Code Injection') vulnerability in realmag777 WordPress Meta Data and Taxonomies Filter (MDTF) allows Code Injection.This issue affects WordPress Meta Data and Taxonomies Filter (MDTF): from n/a through 1.3.3.4.",
       "cveName": "CVE-2024-50450",
       "cveUrl": "/vuln/detail/CVE-2024-50450"
+    }
+  },
+  "CVE-2024-50454": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in The SEO Guys at SEOPress SEOPress allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects SEOPress: from n/a through 8.1.1.",
+      "cveName": "CVE-2024-50454",
+      "cveUrl": "/vuln/detail/CVE-2024-50454"
+    }
+  },
+  "CVE-2024-50455": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:04 PM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in The SEO Guys at SEOPress SEOPress allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects SEOPress: from n/a through 8.1.1.",
+      "cveName": "CVE-2024-50455",
+      "cveUrl": "/vuln/detail/CVE-2024-50455"
+    }
+  },
+  "CVE-2024-50456": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:04 PM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in The SEO Guys at SEOPress SEOPress allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects SEOPress: from n/a through 8.1.1.",
+      "cveName": "CVE-2024-50456",
+      "cveUrl": "/vuln/detail/CVE-2024-50456"
     }
   },
   "CVE-2024-50459": {
@@ -23803,6 +24144,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51181"
     }
   },
+  "CVE-2024-51378": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "7:15:04 PM -0400"
+      ],
+      "cveDis": "getresetstatus in dns/views.py and ftp/views.py in CyberPanel (aka Cyber Panel) before 1c0c6cb allows remote attackers to bypass authentication and execute arbitrary commands via /dns/getresetstatus or /ftp/getresetstatus by bypassing secMiddleware (which is only for a POST request) and using shell metacharacters in the statusfile property, as exploited in the wild in October 2024 by PSAUX. Versions through 2.3.6 and (unpatched) 2.3.7 are affected.",
+      "cveName": "CVE-2024-51378",
+      "cveUrl": "/vuln/detail/CVE-2024-51378"
+    }
+  },
   "CVE-2024-51506": {
     "cve": {
       "cveDate": [
@@ -23845,6 +24197,28 @@
       "cveDis": "Tiki through 27.0 allows users who have certain permissions to insert a \"Modules\" (aka tiki-admin_modules.php) stored XSS payload in the Name.",
       "cveName": "CVE-2024-51509",
       "cveUrl": "/vuln/detail/CVE-2024-51509"
+    }
+  },
+  "CVE-2024-51567": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "7:15:04 PM -0400"
+      ],
+      "cveDis": "upgrademysqlstatus in databases/views.py in CyberPanel (aka Cyber Panel) before 5b08cd6 allows remote attackers to bypass authentication and execute arbitrary commands via /dataBases/upgrademysqlstatus by bypassing secMiddleware (which is only for a POST request) and using shell metacharacters in the statusfile property, as exploited in the wild in October 2024 by PSAUX. Versions through 2.3.6 and (unpatched) 2.3.7 are affected.",
+      "cveName": "CVE-2024-51567",
+      "cveUrl": "/vuln/detail/CVE-2024-51567"
+    }
+  },
+  "CVE-2024-51568": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "7:15:04 PM -0400"
+      ],
+      "cveDis": "CyberPanel (aka Cyber Panel) before 2.3.5 allows Command Injection via completePath in the ProcessUtilities.outputExecutioner() sink. There is /filemanager/upload (aka File Manager upload) unauthenticated remote code execution via shell metacharacters.",
+      "cveName": "CVE-2024-51568",
+      "cveUrl": "/vuln/detail/CVE-2024-51568"
     }
   },
   "CVE-2024-5429": {
@@ -24760,6 +25134,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-7985"
     }
   },
+  "CVE-2024-7991": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWG file, when parsed through Autodesk AutoCAD and certain AutoCAD-based products, can force an Out-of-Bounds Write. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-7991",
+      "cveUrl": "/vuln/detail/CVE-2024-7991"
+    }
+  },
+  "CVE-2024-7992": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWG file, when parsed through Autodesk AutoCAD and certain AutoCAD-based products, can force a Stack-based Buffer Overflow. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-7992",
+      "cveUrl": "/vuln/detail/CVE-2024-7992"
+    }
+  },
   "CVE-2024-7993": {
     "cve": {
       "cveDate": [
@@ -25497,6 +25893,160 @@
       "cveUrl": "/vuln/detail/CVE-2024-8548"
     }
   },
+  "CVE-2024-8587": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "5:15:04 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted SLDPRT file when parsed in odxsw_dll.dll through Autodesk AutoCAD can force a Heap Based Buffer Overflow vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8587",
+      "cveUrl": "/vuln/detail/CVE-2024-8587"
+    }
+  },
+  "CVE-2024-8588": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:05 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted SLDPRT file when parsed in odxsw_dll.dll through Autodesk AutoCAD can force a Out-of-Bounds Read vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8588",
+      "cveUrl": "/vuln/detail/CVE-2024-8588"
+    }
+  },
+  "CVE-2024-8589": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:06 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted SLDPRT file when parsed in odxsw_dll.dll through Autodesk AutoCAD can force a Out-of-Bounds Read vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8589",
+      "cveUrl": "/vuln/detail/CVE-2024-8589"
+    }
+  },
+  "CVE-2024-8590": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:06 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted 3DM file when parsed in atf_api.dll through Autodesk AutoCAD can force a Use-After-Free vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8590",
+      "cveUrl": "/vuln/detail/CVE-2024-8590"
+    }
+  },
+  "CVE-2024-8591": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:06 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted 3DM file when parsed in AcTranslators.exe through Autodesk AutoCAD can force a Heap-Based Buffer Overflow vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8591",
+      "cveUrl": "/vuln/detail/CVE-2024-8591"
+    }
+  },
+  "CVE-2024-8592": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:06 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted CATPART file when parsed in AcTranslators.exe through Autodesk AutoCAD can force a Memory Corruption vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8592",
+      "cveUrl": "/vuln/detail/CVE-2024-8592"
+    }
+  },
+  "CVE-2024-8593": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:06 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted CATPART file when parsed in ASMKERN230A.dll through Autodesk AutoCAD can force a Out-of-Bounds Write vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8593",
+      "cveUrl": "/vuln/detail/CVE-2024-8593"
+    }
+  },
+  "CVE-2024-8594": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:07 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted MODEL file when parsed in libodxdll.dll through Autodesk AutoCAD can force a Heap-Based Overflow vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8594",
+      "cveUrl": "/vuln/detail/CVE-2024-8594"
+    }
+  },
+  "CVE-2024-8595": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:07 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted MODEL file when parsed in libodxdll.dll through Autodesk AutoCAD can force a Use-After-Free vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8595",
+      "cveUrl": "/vuln/detail/CVE-2024-8595"
+    }
+  },
+  "CVE-2024-8596": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:07 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted MODEL file when parsed in libodxdll.dll through Autodesk AutoCAD can force an Out-of-Bound Write vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8596",
+      "cveUrl": "/vuln/detail/CVE-2024-8596"
+    }
+  },
+  "CVE-2024-8597": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:07 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted STP file when parsed in ASMDATAX230A.dll through Autodesk AutoCAD can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8597",
+      "cveUrl": "/vuln/detail/CVE-2024-8597"
+    }
+  },
+  "CVE-2024-8598": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:07 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted STP file when parsed in ACTranslators.exe through Autodesk AutoCAD can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8598",
+      "cveUrl": "/vuln/detail/CVE-2024-8598"
+    }
+  },
+  "CVE-2024-8599": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:08 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted STP file when parsed in ACTranslators.exe through Autodesk AutoCAD can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8599",
+      "cveUrl": "/vuln/detail/CVE-2024-8599"
+    }
+  },
+  "CVE-2024-8600": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:08 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted SLDPRT file when parsed in odxsw_dll.dll through Autodesk AutoCAD can force a Memory Corruption vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8600",
+      "cveUrl": "/vuln/detail/CVE-2024-8600"
+    }
+  },
   "CVE-2024-8602": {
     "cve": {
       "cveDate": [
@@ -25528,6 +26078,17 @@
       "cveDis": "Due to a memory leak, a denial-of-service vulnerability exists in the Rockwell Automation affected products. A malicious actor could exploit this vulnerability by performing multiple actions on certain web pages of the product causing the affected products to become fully unavailable and require a power cycle to recover.",
       "cveName": "CVE-2024-8626",
       "cveUrl": "/vuln/detail/CVE-2024-8626"
+    }
+  },
+  "CVE-2024-86276-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "11:15:04 PM -0400"
+      ],
+      "cveDis": "The Ultimate TinyMCE plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'field' shortcode in all versions up to, and including, 5.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-86276-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8627"
     }
   },
   "CVE-2024-86296-1 MEDIUM": {
@@ -25816,6 +26377,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8790"
     }
   },
+  "CVE-2024-87926-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "11:15:04 PM -0400"
+      ],
+      "cveDis": "The Subscribe to Comments plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 2.3. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-87926-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8792"
+    }
+  },
   "CVE-2024-87936-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -25913,6 +26485,17 @@
       "cveDis": "A local privilege escalation vulnerability in Sophos Intercept X for Windows with Central Device Encryption 2024.2.0 and older allows writing of arbitrary files.",
       "cveName": "CVE-2024-8885",
       "cveUrl": "/vuln/detail/CVE-2024-8885"
+    }
+  },
+  "CVE-2024-8896": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:08 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DXF file when parsed in acdb25.dll through Autodesk AutoCAD can force to access a variable prior to initialization. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-8896",
+      "cveUrl": "/vuln/detail/CVE-2024-8896"
     }
   },
   "CVE-2024-8901": {
@@ -28434,6 +29017,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9488"
     }
   },
+  "CVE-2024-9489": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:08 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWG file when parsed in ACAD.exe through Autodesk AutoCAD can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-9489",
+      "cveUrl": "/vuln/detail/CVE-2024-9489"
+    }
+  },
   "CVE-2024-95019-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -30040,6 +30634,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-9824"
     }
   },
+  "CVE-2024-9826": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:08 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted 3DM file when parsed in atf_api.dll through Autodesk AutoCAD can force a Use-After-Free vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-9826",
+      "cveUrl": "/vuln/detail/CVE-2024-9826"
+    }
+  },
+  "CVE-2024-9827": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:09 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted CATPART file when parsed in CC5Dll.dll through Autodesk AutoCAD can force an Out-of-Bounds Read vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-9827",
+      "cveUrl": "/vuln/detail/CVE-2024-9827"
+    }
+  },
   "CVE-2024-98296-5 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -30060,6 +30676,17 @@
       "cveDis": "The The AADMY – Add Auto Date Month Year Into Posts plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 2.0.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
       "cveName": "CVE-2024-98377-3 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9837"
+    }
+  },
+  "CVE-2024-98467-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "11:15:04 PM -0400"
+      ],
+      "cveDis": "The The Enable Shortcodes inside Widgets,Comments and Experts plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.0.0. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
+      "cveName": "CVE-2024-98467-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9846"
     }
   },
   "CVE-2024-98486-4 MEDIUM": {
@@ -30170,6 +30797,39 @@
       "cveDis": "The EventPrime – Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘ep_booking_attendee_fields’ fields in all versions up to, and including, 4.0.4.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses the transaction log for a booking.",
       "cveName": "CVE-2024-9865",
       "cveUrl": "/vuln/detail/CVE-2024-9865"
+    }
+  },
+  "CVE-2024-98846-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "11:15:05 PM -0400"
+      ],
+      "cveDis": "The T(-) Countdown plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'tminus' shortcode in all versions up to, and including, 2.4.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-98846-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9884"
+    }
+  },
+  "CVE-2024-98856-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "11:15:05 PM -0400"
+      ],
+      "cveDis": "The Widget or Sidebar Shortcode plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'sidebar' shortcode in all versions up to, and including, 0.6.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-98856-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9885"
+    }
+  },
+  "CVE-2024-98866-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "11:15:05 PM -0400"
+      ],
+      "cveDis": "The WP Baidu Map plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'baidu_map' shortcode in all versions up to, and including, 1.2.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-98866-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9886"
     }
   },
   "CVE-2024-98894-3 MEDIUM": {
@@ -31061,6 +31721,28 @@
       "cveDis": "This vulnerability exists in Philips lighting devices due to storage of Wi-Fi credentials in plain text within the device firmware. An attacker with physical access could exploit this by extracting the firmware and analyzing the binary data to obtain the plaintext Wi-Fi credentials stored on the vulnerable device.\n\nSuccessful exploitation of this vulnerability could allow an attacker to gain unauthorized access to the Wi-Fi network to which vulnerable device is connected.",
       "cveName": "CVE-2024-9991",
       "cveUrl": "/vuln/detail/CVE-2024-9991"
+    }
+  },
+  "CVE-2024-9996": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:09 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWG file when parsed in acdb25.dll through Autodesk AutoCAD can force an Out-of-Bounds Write vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-9996",
+      "cveUrl": "/vuln/detail/CVE-2024-9996"
+    }
+  },
+  "CVE-2024-9997": {
+    "cve": {
+      "cveDate": [
+        "October 29, 2024",
+        "6:15:09 PM -0400"
+      ],
+      "cveDis": "A maliciously crafted DWG file when parsed in acdb25.dll through Autodesk AutoCAD can force a Memory Corruption vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
+      "cveName": "CVE-2024-9997",
+      "cveUrl": "/vuln/detail/CVE-2024-9997"
     }
   }
 }
