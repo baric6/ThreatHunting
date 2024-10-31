@@ -846,6 +846,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-50780"
     }
   },
+  "CVE-2023-52066": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "http.zig commit 76cf5 was discovered to contain a CRLF injection vulnerability via the url parameter.",
+      "cveName": "CVE-2023-52066",
+      "cveUrl": "/vuln/detail/CVE-2023-52066"
+    }
+  },
   "CVE-2023-52917": {
     "cve": {
       "cveDate": [
@@ -1330,6 +1341,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-10004"
     }
   },
+  "CVE-2024-10005": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was identified in Consul and Consul Enterprise (“Consul”) such that using URL paths in L7 traffic intentions could bypass HTTP request path-based access rules.",
+      "cveName": "CVE-2024-10005",
+      "cveUrl": "/vuln/detail/CVE-2024-10005"
+    }
+  },
+  "CVE-2024-10006": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was identified in Consul and Consul Enterprise (“Consul”) such that using Headers in L7 traffic intentions could bypass HTTP header based access rules.",
+      "cveName": "CVE-2024-10006",
+      "cveUrl": "/vuln/detail/CVE-2024-10006"
+    }
+  },
   "CVE-2024-100088-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -1592,6 +1625,17 @@
       "cveDis": "The WP Easy Post Types plugin for WordPress is vulnerable to Stored Cross-Site Scripting via post meta in versions up to, and including, 1.4.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-100806-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10080"
+    }
+  },
+  "CVE-2024-10086": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was identified in Consul and Consul Enterprise such that the server response did not explicitly set a Content-Type HTTP header, allowing user-provided inputs to be misinterpreted and lead to reflected XSS.",
+      "cveName": "CVE-2024-10086",
+      "cveUrl": "/vuln/detail/CVE-2024-10086"
     }
   },
   "CVE-2024-100916-4 MEDIUM": {
@@ -3486,6 +3530,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10455"
     }
   },
+  "CVE-2024-10456": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "Delta Electronics InfraSuite Device Master versions prior to 1.0.12 are affected by a deserialization vulnerability that targets the Device-Gateway, which could allow deserialization of arbitrary .NET objects prior to authentication.",
+      "cveName": "CVE-2024-10456",
+      "cveUrl": "/vuln/detail/CVE-2024-10456"
+    }
+  },
   "CVE-2024-10464": {
     "cve": {
       "cveDate": [
@@ -3726,6 +3781,72 @@
       "cveDis": "In Eclipse Mosquitto, from version 1.3.2 through 2.0.18, if a malicious broker sends a crafted SUBACK packet with no reason codes, a client using libmosquitto may make out of bounds memory access when acting in its on_subscribe callback. This affects the mosquitto_sub and mosquitto_rr clients.",
       "cveName": "CVE-2024-10525",
       "cveUrl": "/vuln/detail/CVE-2024-10525"
+    }
+  },
+  "CVE-2024-105445-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "The Woo Manage Fraud Orders plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 6.1.7 through publicly exposed log files. This makes it possible for unauthenticated attackers to view potentially sensitive information about users contained in the exposed log files.",
+      "cveName": "CVE-2024-105445-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10544"
+    }
+  },
+  "CVE-2024-10546": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in open-scratch Teaching 在线教学平台 up to 2.7. This vulnerability affects unknown code of the file /api/sys/ng-alain/getDictItemsByTable/ of the component URL Handler. The manipulation leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10546",
+      "cveUrl": "/vuln/detail/CVE-2024-10546"
+    }
+  },
+  "CVE-2024-10556": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "9:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in Codezips Pet Shop Management System 1.0. Affected is an unknown function of the file birdsadd.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10556",
+      "cveUrl": "/vuln/detail/CVE-2024-10556"
+    }
+  },
+  "CVE-2024-10557": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "9:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in code-projects Blood Bank Management System 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /file/updateprofile.php. The manipulation leads to cross-site request forgery. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10557",
+      "cveUrl": "/vuln/detail/CVE-2024-10557"
+    }
+  },
+  "CVE-2024-10559": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Airport Booking Management System 1.0 and classified as critical. Affected by this issue is the function details of the component Passport Number Handler. The manipulation leads to buffer overflow. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10559",
+      "cveUrl": "/vuln/detail/CVE-2024-10559"
+    }
+  },
+  "CVE-2024-10561": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Codezips Pet Shop Management System 1.0. It has been classified as critical. This affects an unknown part of the file birdsupdate.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10561",
+      "cveUrl": "/vuln/detail/CVE-2024-10561"
     }
   },
   "CVE-2024-20090": {
@@ -6357,6 +6478,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-31955"
     }
   },
+  "CVE-2024-31972": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "EnGenius ESR580 A8J-EMR5000 devices allow a remote attacker to conduct stored XSS attacks that could lead to arbitrary JavaScript code execution (under the context of the user's session) via the Wi-Fi SSID input fields. Web scripts embedded into the vulnerable fields this way are executed immediately when a user logs into the admin page. This affects /admin/wifi/wlan1 and /admin/wifi/wlan_guest.",
+      "cveName": "CVE-2024-31972",
+      "cveUrl": "/vuln/detail/CVE-2024-31972"
+    }
+  },
+  "CVE-2024-31973": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "Hitron CODA-4582 2AHKM-CODA4589 7.2.4.5.1b8 devices allow a remote attacker within Wi-Fi proximity to conduct stored XSS attacks via the 'Network Name (SSID)' input fields to the /index.html#wireless_basic page.",
+      "cveName": "CVE-2024-31973",
+      "cveUrl": "/vuln/detail/CVE-2024-31973"
+    }
+  },
+  "CVE-2024-31975": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:06 PM -0400"
+      ],
+      "cveDis": "EnGenius ESR580 devices through 1.1.30 allow a remote attacker to conduct stored XSS attacks via the Wi-Fi SSID parameters. JavaScript embedded into a vulnerable field is executed when the user clicks the SSID field's corresponding EDIT button.",
+      "cveName": "CVE-2024-31975",
+      "cveUrl": "/vuln/detail/CVE-2024-31975"
+    }
+  },
   "CVE-2024-32608": {
     "cve": {
       "cveDate": [
@@ -7006,6 +7160,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-36051"
     }
   },
+  "CVE-2024-36060": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "EnGenius EnStation5-AC A8J-ENS500AC 1.0.0 devices allow blind OS command injection via shell metacharacters in the Ping and Speed Test parameters.",
+      "cveName": "CVE-2024-36060",
+      "cveUrl": "/vuln/detail/CVE-2024-36060"
+    }
+  },
   "CVE-2024-3635": {
     "cve": {
       "cveDate": [
@@ -7070,6 +7235,17 @@
       "cveDis": "Improper Input Validation in the admin portal of Ivanti Connect Secure before 22.7R2.1 and 9.1R18.9, or Ivanti Policy Secure before 22.7R1.1 allows a remote authenticated attacker to achieve remote code execution.",
       "cveName": "CVE-2024-37404",
       "cveUrl": "/vuln/detail/CVE-2024-37404"
+    }
+  },
+  "CVE-2024-37573": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "The Talkatone com.talkatone.android application 8.4.6 for Android enables any installed application (with no permissions) to place phone calls without user interaction by sending a crafted intent via the com.talkatone.vedroid.ui.launcher.OutgoingCallInterceptor component.",
+      "cveName": "CVE-2024-37573",
+      "cveUrl": "/vuln/detail/CVE-2024-37573"
     }
   },
   "CVE-2024-37844": {
@@ -8403,6 +8579,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-42028"
     }
   },
+  "CVE-2024-42041": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "The com.videodownload.browser.videodownloader (aka AppTool-Browser-Video All Video Downloader) application 20-30.05.24 for Android allows an attacker to execute arbitrary JavaScript code via the acr.browser.lightning.DefaultBrowserActivity component.",
+      "cveName": "CVE-2024-42041",
+      "cveUrl": "/vuln/detail/CVE-2024-42041"
+    }
+  },
   "CVE-2024-4211": {
     "cve": {
       "cveDate": [
@@ -8632,6 +8819,17 @@
       "cveDis": "Cacti is an open source performance and fault management framework. The`consolenewsection` parameter is not properly sanitized when saving external links in links.php . Morever, the said consolenewsection parameter is stored in the database and reflected back to user in `index.php`, finally leading to stored XSS. Users with the privilege to create external links can manipulate the “consolenewsection” parameter in the http post request while creating external links to perform stored XSS attacks. The vulnerability known as XSS (Cross-Site Scripting) occurs when an application allows untrusted user input to be displayed on a web page without proper validation or escaping. This issue has been addressed in release version 1.2.28. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-43365",
       "cveUrl": "/vuln/detail/CVE-2024-43365"
+    }
+  },
+  "CVE-2024-43382": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "Snowflake JDBC driver versions >= 3.2.6 and <= 3.19.1 have an Incorrect Security Setting that can result in data being uploaded to an encrypted stage without the additional layer of protection provided by client side encryption.",
+      "cveName": "CVE-2024-43382",
+      "cveUrl": "/vuln/detail/CVE-2024-43382"
     }
   },
   "CVE-2024-43424": {
@@ -12966,6 +13164,17 @@
       "cveDis": "An Insecure Direct Object Reference (IDOR) vulnerability in KubeSphere v3.4.1 and v4.1.1 allows low-privileged authenticated attackers to access sensitive resources without proper authorization checks.",
       "cveName": "CVE-2024-46528",
       "cveUrl": "/vuln/detail/CVE-2024-46528"
+    }
+  },
+  "CVE-2024-46531": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "phpgurukul Vehicle Record Management System v1.0 was discovered to contain a SQL injection vulnerability via the searchinputdata parameter at /index.php.",
+      "cveName": "CVE-2024-46531",
+      "cveUrl": "/vuln/detail/CVE-2024-46531"
     }
   },
   "CVE-2024-46532": {
@@ -18248,6 +18457,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48074"
     }
   },
+  "CVE-2024-48093": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "Unrestricted File Upload in the Discussions tab in Operately v.0.1.0 allows a privileged user to achieve Remote Code Execution via uploading and executing malicious files without validating file extensions or content types.",
+      "cveName": "CVE-2024-48093",
+      "cveUrl": "/vuln/detail/CVE-2024-48093"
+    }
+  },
   "CVE-2024-48107": {
     "cve": {
       "cveDate": [
@@ -18257,6 +18477,17 @@
       "cveDis": "SparkShop <=1.1.7 is vulnerable to server-side request forgery (SSRF). This vulnerability allows attacks to scan ports on the Intranet or local network where the server resides, attack applications running on the Intranet or local network, or read metadata on the cloud server.",
       "cveName": "CVE-2024-48107",
       "cveUrl": "/vuln/detail/CVE-2024-48107"
+    }
+  },
+  "CVE-2024-48112": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "A deserialization vulnerability in the component \\controller\\Index.php of Thinkphp v6.1.3 to v8.0.4 allows attackers to execute arbitrary code.",
+      "cveName": "CVE-2024-48112",
+      "cveUrl": "/vuln/detail/CVE-2024-48112"
     }
   },
   "CVE-2024-48119": {
@@ -18446,6 +18677,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48192"
     }
   },
+  "CVE-2024-48202": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "3:15:14 PM -0400"
+      ],
+      "cveDis": "icecms <=3.4.7 has a File Upload vulnerability in FileUtils.java,uploadFile.",
+      "cveName": "CVE-2024-48202",
+      "cveUrl": "/vuln/detail/CVE-2024-48202"
+    }
+  },
   "CVE-2024-48204": {
     "cve": {
       "cveDate": [
@@ -18488,6 +18730,17 @@
       "cveDis": "RockOA v2.6.5 is vulnerable to Directory Traversal in webmain/system/beifen/beifenAction.php.",
       "cveName": "CVE-2024-48213",
       "cveUrl": "/vuln/detail/CVE-2024-48213"
+    }
+  },
+  "CVE-2024-48214": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "KERUI HD 3MP 1080P Tuya Camera 1.0.4 has a command injection vulnerability in the module that connects to the local network via a QR code. This vulnerability allows an attacker to create a custom, unauthenticated QR code and abuse one of the parameters, either SSID or PASSWORD, in the JSON data contained within the QR code. By that, the attacker can execute arbitrary code on the camera.",
+      "cveName": "CVE-2024-48214",
+      "cveUrl": "/vuln/detail/CVE-2024-48214"
     }
   },
   "CVE-2024-48218": {
@@ -18688,6 +18941,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48239"
     }
   },
+  "CVE-2024-48241": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "An issue in radare2 v5.8.0 through v5.9.4 allows a local attacker to cause a denial of service via the __bf_div function.",
+      "cveName": "CVE-2024-48241",
+      "cveUrl": "/vuln/detail/CVE-2024-48241"
+    }
+  },
   "CVE-2024-48249": {
     "cve": {
       "cveDate": [
@@ -18752,6 +19016,28 @@
       "cveDis": "Cloudlog 2.6.15 allows Oqrs.php request_form SQL injection via station_id or callsign.",
       "cveName": "CVE-2024-48259",
       "cveUrl": "/vuln/detail/CVE-2024-48259"
+    }
+  },
+  "CVE-2024-48271": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:04 PM -0400"
+      ],
+      "cveDis": "D-Link DSL6740C v6.TR069.20211230 was discovered to use insecure default credentials for Administrator access, possibly allowing attackers to bypass authentication and escalate privileges on the device via a bruteforce attack.",
+      "cveName": "CVE-2024-48271",
+      "cveUrl": "/vuln/detail/CVE-2024-48271"
+    }
+  },
+  "CVE-2024-48272": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "4:15:04 PM -0400"
+      ],
+      "cveDis": "D-Link DSL6740C v6.TR069.20211230 was discovered to use an insecure default Wifi password, possibly allowing attackers to connect to the device via a bruteforce attack.",
+      "cveName": "CVE-2024-48272",
+      "cveUrl": "/vuln/detail/CVE-2024-48272"
     }
   },
   "CVE-2024-48278": {
@@ -18820,6 +19106,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-48291"
     }
   },
+  "CVE-2024-48307": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "9:15:14 PM -0400"
+      ],
+      "cveDis": "JeecgBoot v3.7.1 was discovered to contain a SQL injection vulnerability via the component /onlDragDatasetHead/getTotalData.",
+      "cveName": "CVE-2024-48307",
+      "cveUrl": "/vuln/detail/CVE-2024-48307"
+    }
+  },
+  "CVE-2024-48311": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "10:15:04 PM -0400"
+      ],
+      "cveDis": "Piwigo v14.5.0 was discovered to contain a Cross-Site Request Forgery (CSRF) via the Edit album function.",
+      "cveName": "CVE-2024-48311",
+      "cveUrl": "/vuln/detail/CVE-2024-48311"
+    }
+  },
   "CVE-2024-48343": {
     "cve": {
       "cveDate": [
@@ -18829,6 +19137,17 @@
       "cveDis": "A SQL Injection vulnerability in ESAFENET CDG 5 and earlier allows an attacker to execute arbitrary code via the id parameter of the dataSearch.jsp page.",
       "cveName": "CVE-2024-48343",
       "cveUrl": "/vuln/detail/CVE-2024-48343"
+    }
+  },
+  "CVE-2024-48346": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "xtreme1 <= v0.9.1 contains a Server-Side Request Forgery (SSRF) vulnerability in the /api/data/upload path. The vulnerability is triggered through the fileUrl parameter, which allows an attacker to make arbitrary requests to internal or external systems.",
+      "cveName": "CVE-2024-48346",
+      "cveUrl": "/vuln/detail/CVE-2024-48346"
     }
   },
   "CVE-2024-48356": {
@@ -19150,6 +19469,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48548"
     }
   },
+  "CVE-2024-48569": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "Proactive Risk Manager version 9.1.1.0 is affected by multiple Cross-Site Scripting (XSS) vulnerabilities in the add/edit form fields, at the urls starting with the subpaths: /ar/config/configuation/ and /ar/config/risk-strategy-control/",
+      "cveName": "CVE-2024-48569",
+      "cveUrl": "/vuln/detail/CVE-2024-48569"
+    }
+  },
   "CVE-2024-48570": {
     "cve": {
       "cveDate": [
@@ -19280,6 +19610,39 @@
       "cveDis": "Accounts enumeration vulnerability in the Login Component of Reolink Duo 2 WiFi Camera (Firmware Version v3.0.0.1889_23031701) allows remote attackers to determine valid user accounts via login attempts. This can lead to the enumeration of user accounts and potentially facilitate other attacks, such as brute-forcing of passwords. The vulnerability arises from the application responding differently to login attempts with valid and invalid usernames.",
       "cveName": "CVE-2024-48644",
       "cveUrl": "/vuln/detail/CVE-2024-48644"
+    }
+  },
+  "CVE-2024-48646": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "An Unrestricted File Upload vulnerability exists in Sage 1000 v7.0.0, which allows authorized users to upload files without proper validation. An attacker could exploit this vulnerability by uploading malicious files, such as HTML, scripts, or other executable content, that may be executed on the server, leading to further system compromise.",
+      "cveName": "CVE-2024-48646",
+      "cveUrl": "/vuln/detail/CVE-2024-48646"
+    }
+  },
+  "CVE-2024-48647": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "A file disclosure vulnerability exists in Sage 1000 v7.0.0. This vulnerability allows remote attackers to retrieve arbitrary files from the server's file system by manipulating the URL parameter in HTTP requests. The attacker can exploit this flaw to access sensitive information, including configuration files that may contain credentials and system settings, which could lead to further compromise of the server.",
+      "cveName": "CVE-2024-48647",
+      "cveUrl": "/vuln/detail/CVE-2024-48647"
+    }
+  },
+  "CVE-2024-48648": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "A Reflected Cross-Site Scripting (XSS) vulnerability exists in the Sage 1000 v 7.0.0. This vulnerability allows attackers to inject malicious scripts into URLs, which are reflected back by the server in the response without proper sanitization or encoding.",
+      "cveName": "CVE-2024-48648",
+      "cveUrl": "/vuln/detail/CVE-2024-48648"
     }
   },
   "CVE-2024-48652": {
@@ -19423,6 +19786,39 @@
       "cveDis": "In TP-Link TL-WDR7660 v1.0, the guestRuleJsonToBin function handles the parameter string name without checking it, which can lead to stack overflow vulnerabilities.",
       "cveName": "CVE-2024-48714",
       "cveUrl": "/vuln/detail/CVE-2024-48714"
+    }
+  },
+  "CVE-2024-48733": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "SQL injection vulnerability in /SASStudio/sasexec/sessions/{sessionID}/sql in SAS Studio 9.4 allows remote attacker to execute arbitrary SQL commands via the POST body request.",
+      "cveName": "CVE-2024-48733",
+      "cveUrl": "/vuln/detail/CVE-2024-48733"
+    }
+  },
+  "CVE-2024-48734": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "*Unrestricted file upload in /SASStudio/SASStudio/sasexec/{sessionID}/{InternalPath} in SAS Studio 9.4 allows remote attacker to upload malicious files.",
+      "cveName": "CVE-2024-48734",
+      "cveUrl": "/vuln/detail/CVE-2024-48734"
+    }
+  },
+  "CVE-2024-48735": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "Directory Traversal in /SASStudio/sasexec/sessions/{sessionID}/workspace/{InternalPath} in SAS Studio 9.4 allows remote attacker to access internal files by manipulating default path during file download.",
+      "cveName": "CVE-2024-48735",
+      "cveUrl": "/vuln/detail/CVE-2024-48735"
     }
   },
   "CVE-2024-48743": {
@@ -19775,6 +20171,17 @@
       "cveDis": "An issue in LOREX TECHNOLOGY INC com.lorexcorp.lorexping 1.4.22 allows a remote attacker to obtain sensitive information via the firmware update process.",
       "cveName": "CVE-2024-48799",
       "cveUrl": "/vuln/detail/CVE-2024-48799"
+    }
+  },
+  "CVE-2024-48807": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in PHPGurukul Doctor Appointment Management System v.1.0 allows a local attacker to execute arbitrary code via the search parameter.",
+      "cveName": "CVE-2024-48807",
+      "cveUrl": "/vuln/detail/CVE-2024-48807"
     }
   },
   "CVE-2024-48813": {
@@ -24463,6 +24870,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-51181"
     }
   },
+  "CVE-2024-51242": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "A Server-Side Request Forgery (SSRF) vulnerability has been identified in eladmin 2.7 and earlier in ServerDeployController.java. The manipulation of the HTTP Body ip parameter leads to SSRF.",
+      "cveName": "CVE-2024-51242",
+      "cveUrl": "/vuln/detail/CVE-2024-51242"
+    }
+  },
+  "CVE-2024-51243": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "The eladmin v2.7 and before contains a remote code execution (RCE) vulnerability that can control all application deployment servers of this management system via DeployController.java.",
+      "cveName": "CVE-2024-51243",
+      "cveUrl": "/vuln/detail/CVE-2024-51243"
+    }
+  },
   "CVE-2024-51257": {
     "cve": {
       "cveDate": [
@@ -24560,6 +24989,61 @@
       "cveDis": "getresetstatus in dns/views.py and ftp/views.py in CyberPanel (aka Cyber Panel) before 1c0c6cb allows remote attackers to bypass authentication and execute arbitrary commands via /dns/getresetstatus or /ftp/getresetstatus by bypassing secMiddleware (which is only for a POST request) and using shell metacharacters in the statusfile property, as exploited in the wild in October 2024 by PSAUX. Versions through 2.3.6 and (unpatched) 2.3.7 are affected.",
       "cveName": "CVE-2024-51378",
       "cveUrl": "/vuln/detail/CVE-2024-51378"
+    }
+  },
+  "CVE-2024-51419": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in Shenzhen Interconnection Harbor Network Technology Co., Ltd Ofweek Online Exhibition v.1.0.0 allows a remote attacker to execute arbitrary code.",
+      "cveName": "CVE-2024-51419",
+      "cveUrl": "/vuln/detail/CVE-2024-51419"
+    }
+  },
+  "CVE-2024-51424": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "An issue in Ethereum v.1.12.2 allows remote attacker to execute arbitrary code via the Owned.setOwner function",
+      "cveName": "CVE-2024-51424",
+      "cveUrl": "/vuln/detail/CVE-2024-51424"
+    }
+  },
+  "CVE-2024-51425": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:15 PM -0400"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Ethereum v.1.12.2 allows a remote attacker to escalate privileges via the WaterToken Contract.",
+      "cveName": "CVE-2024-51425",
+      "cveUrl": "/vuln/detail/CVE-2024-51425"
+    }
+  },
+  "CVE-2024-51426": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:15 PM -0400"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Ethereum v.1.12.2 allows a remote attacker to escalate privileges via the _transfer function.",
+      "cveName": "CVE-2024-51426",
+      "cveUrl": "/vuln/detail/CVE-2024-51426"
+    }
+  },
+  "CVE-2024-51427": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "5:15:15 PM -0400"
+      ],
+      "cveDis": "An issue in Ethereum v.1.12.2 allows remote attacker to execute arbitrary code via the PepeGxng smart contract mint function.",
+      "cveName": "CVE-2024-51427",
+      "cveUrl": "/vuln/detail/CVE-2024-51427"
     }
   },
   "CVE-2024-51506": {
@@ -29072,6 +29556,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9417"
     }
   },
+  "CVE-2024-9419": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "2:15:08 PM -0400"
+      ],
+      "cveDis": "Client / Server PCs with the HP Smart Universal Printing Driver installed are potentially vulnerable to Remote Code Execution and/or Elevation of Privilege. A client using the HP Smart Universal Printing Driver that sends a print job comprised of a malicious XPS file could potentially lead to Remote Code Execution and/or Elevation of Privilege on the PC.",
+      "cveName": "CVE-2024-9419",
+      "cveUrl": "/vuln/detail/CVE-2024-9419"
+    }
+  },
   "CVE-2024-94216-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -30621,6 +31116,17 @@
       "cveDis": "The Social Sharing (by Danny) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'dvk_social_sharing' shortcode in all versions up to, and including, 1.3.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-97046-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9704"
+    }
+  },
+  "CVE-2024-97086-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 30, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "The Easy SVG Upload plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-97086-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9708"
     }
   },
   "CVE-2024-97564-3 MEDIUM": {
