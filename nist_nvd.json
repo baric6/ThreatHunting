@@ -3046,6 +3046,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10387"
     }
   },
+  "CVE-2024-103929-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "2:15:04 AM -0400"
+      ],
+      "cveDis": "The AI Power: Complete AI Pack plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'handle_image_upload' function in all versions up to, and including, 1.8.89. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "cveName": "CVE-2024-103929-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-10392"
+    }
+  },
   "CVE-2024-103994-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -5411,6 +5422,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-21536"
     }
   },
+  "CVE-2024-21537": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "1:15:04 AM -0400"
+      ],
+      "cveDis": "Versions of the package lilconfig from 3.1.0 and before 3.1.1 are vulnerable to Arbitrary Code Execution due to the insecure usage of eval in the dynamicImport function. An attacker can exploit this vulnerability by passing a malicious input through the defaultLoaders function.",
+      "cveName": "CVE-2024-21537",
+      "cveUrl": "/vuln/detail/CVE-2024-21537"
+    }
+  },
   "CVE-2024-22032": {
     "cve": {
       "cveDate": [
@@ -6278,6 +6300,17 @@
       "cveDis": "HCL Nomad server on Domino did not configure certain HTTP Security headers by default which could allow an attacker to obtain sensitive information via unspecified vectors.",
       "cveName": "CVE-2024-30132",
       "cveUrl": "/vuln/detail/CVE-2024-30132"
+    }
+  },
+  "CVE-2024-30149": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "5:15:02 AM -0400"
+      ],
+      "cveDis": "HCL AppScan Source <= 10.6.0 does not properly validate a TLS/SSL certificate for an executable.",
+      "cveName": "CVE-2024-30149",
+      "cveUrl": "/vuln/detail/CVE-2024-30149"
     }
   },
   "CVE-2024-30157": {
@@ -8832,6 +8865,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-43382"
     }
   },
+  "CVE-2024-43383": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Apache Lucene.Net.Replicator.\n\nThis issue affects Apache Lucene.NET's Replicator library: from 4.8.0-beta00005 through 4.8.0-beta00016.\n\nAn attacker that can intercept traffic between a replication client and server, or control the target replication node URL, can provide a specially-crafted JSON response that is deserialized as an attacker-provided exception type. This can result in remote code execution or other potential unauthorized access.\n\n\nUsers are recommended to upgrade to version 4.8.0-beta00017, which fixes the issue.",
+      "cveName": "CVE-2024-43383",
+      "cveUrl": "/vuln/detail/CVE-2024-43383"
+    }
+  },
   "CVE-2024-43424": {
     "cve": {
       "cveDate": [
@@ -9622,6 +9666,39 @@
       "cveDis": "Missing Authorization vulnerability in dFactory Responsive Lightbox allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Responsive Lightbox: from n/a through 2.4.7.",
       "cveName": "CVE-2024-43924",
       "cveUrl": "/vuln/detail/CVE-2024-43924"
+    }
+  },
+  "CVE-2024-43930": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "6:15:04 AM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in eyecix JobSearch allows Cross Site Request Forgery.This issue affects JobSearch: from n/a through 2.5.3.",
+      "cveName": "CVE-2024-43930",
+      "cveUrl": "/vuln/detail/CVE-2024-43930"
+    }
+  },
+  "CVE-2024-43933": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in WPMobile.App allows Stored XSS.This issue affects WPMobile.App: from n/a through 11.48.",
+      "cveName": "CVE-2024-43933",
+      "cveUrl": "/vuln/detail/CVE-2024-43933"
+    }
+  },
+  "CVE-2024-43984": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Podlove Podlove Podcast Publisher allows Code Injection.This issue affects Podlove Podcast Publisher: from n/a through 4.1.13.",
+      "cveName": "CVE-2024-43984",
+      "cveUrl": "/vuln/detail/CVE-2024-43984"
     }
   },
   "CVE-2024-44000": {
@@ -22637,6 +22714,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49671"
     }
   },
+  "CVE-2024-49674": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Lukas Huser EKC Tournament Manager allows Upload a Web Shell to a Web Server.This issue affects EKC Tournament Manager: from n/a through 2.2.1.",
+      "cveName": "CVE-2024-49674",
+      "cveUrl": "/vuln/detail/CVE-2024-49674"
+    }
+  },
   "CVE-2024-49675": {
     "cve": {
       "cveDate": [
@@ -22701,6 +22789,17 @@
       "cveDis": "Deserialization of Untrusted Data vulnerability in Revmakx Backup and Staging by WP Time Capsule allows Object Injection.This issue affects Backup and Staging by WP Time Capsule: from n/a through 1.22.21.",
       "cveName": "CVE-2024-49684",
       "cveUrl": "/vuln/detail/CVE-2024-49684"
+    }
+  },
+  "CVE-2024-49685": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "6:15:05 AM -0400"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Smash Balloon Custom Twitter Feeds (Tweets Widget) allows Cross Site Request Forgery.This issue affects Custom Twitter Feeds (Tweets Widget): from n/a through 2.2.3.",
+      "cveName": "CVE-2024-49685",
+      "cveUrl": "/vuln/detail/CVE-2024-49685"
     }
   },
   "CVE-2024-49690": {
@@ -28126,6 +28225,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9162"
     }
   },
+  "CVE-2024-91656-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:02 AM -0400"
+      ],
+      "cveDis": "The Gift Cards (Gift Vouchers and Packages) (WooCommerce Supported) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 4.4.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-91656-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9165"
+    }
+  },
   "CVE-2024-9167": {
     "cve": {
       "cveDate": [
@@ -29611,6 +29721,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-9429"
     }
   },
+  "CVE-2024-94305-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:03 AM -0400"
+      ],
+      "cveDis": "The Get Quote For Woocommerce – Request A Quote For Woocommerce plugin for WordPress is vulnerable to unauthorized access of Quote data due to a missing capability check on the ct_tepfw_wp_loaded function in all versions up to, and including, 1.0.0. This makes it possible for unauthenticated attackers to download Quote PDF and CSV documents.",
+      "cveName": "CVE-2024-94305-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9430"
+    }
+  },
+  "CVE-2024-94346-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:03 AM -0400"
+      ],
+      "cveDis": "The WPGlobus Translate Options plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.2.0. This is due to missing or incorrect nonce validation on the on__translate_options_page() function. This makes it possible for unauthenticated attackers to inject malicious web scripts and update plugin settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-94346-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9434"
+    }
+  },
   "CVE-2024-94356-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -29675,6 +29807,17 @@
       "cveDis": "The Display Medium Posts plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's display_medium_posts shortcode in all versions up to, and including, 5.0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-94456-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9445"
+    }
+  },
+  "CVE-2024-94466-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:03 AM -0400"
+      ],
+      "cveDis": "The WP Simple Anchors Links plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wpanchor shortcode in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-94466-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9446"
     }
   },
   "CVE-2024-94496-4 MEDIUM": {
@@ -31094,6 +31237,17 @@
       "cveDis": "The Rescue Shortcodes plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'rescue_tab' shortcode in all versions up to, and including, 2.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-96966-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9696"
+    }
+  },
+  "CVE-2024-97005-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "2:15:05 AM -0400"
+      ],
+      "cveDis": "The Forminator Forms – Contact Form, Payment Form & Custom Form Builder plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.36.0 via the submit_quizzes() function due to missing validation on the 'entry_id' user controlled key. This makes it possible for unauthenticated attackers to modify other user's quiz submissions.",
+      "cveName": "CVE-2024-97005-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9700"
     }
   },
   "CVE-2024-97036-4 MEDIUM": {
