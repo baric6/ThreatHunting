@@ -4223,6 +4223,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-10653"
     }
   },
+  "CVE-2024-10659": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:06 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in ESAFENET CDG 5. Affected by this issue is the function delSystemEncryptPolicy of the file /com/esafenet/servlet/document/CDGAuthoriseTempletService.java. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10659",
+      "cveUrl": "/vuln/detail/CVE-2024-10659"
+    }
+  },
+  "CVE-2024-10660": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:07 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in ESAFENET CDG 5. This affects the function deleteHook of the file /com/esafenet/servlet/policy/HookService.java. The manipulation of the argument hookId leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10660",
+      "cveUrl": "/vuln/detail/CVE-2024-10660"
+    }
+  },
+  "CVE-2024-10661": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:07 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in Tenda AC15 15.03.05.19 and classified as critical. This vulnerability affects the function SetDlnaCfg of the file /goform/SetDlnaCfg. The manipulation of the argument scanList leads to stack-based buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10661",
+      "cveUrl": "/vuln/detail/CVE-2024-10661"
+    }
+  },
+  "CVE-2024-10662": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:07 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Tenda AC15 15.03.05.19 and classified as critical. This issue affects the function formSetDeviceName of the file /goform/SetOnlineDevName. The manipulation of the argument devName leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10662",
+      "cveUrl": "/vuln/detail/CVE-2024-10662"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -5873,6 +5917,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-22068"
     }
   },
+  "CVE-2024-22733": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "TP Link MR200 V4 Firmware version 210201 was discovered to contain a null-pointer-dereference in the web administration panel on /cgi/login via the sign, Action or LoginStatus query parameters which could lead to a denial of service by a local or remote unauthenticated attacker.",
+      "cveName": "CVE-2024-22733",
+      "cveUrl": "/vuln/detail/CVE-2024-22733"
+    }
+  },
   "CVE-2024-233099-0 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -6443,6 +6498,17 @@
       "cveDis": "The WBR-6012 is a wireless SOHO router. It is a low-cost device which functions as an internet gateway for homes and small offices while aiming to be easy to configure and operate. In addition to providing a WiFi access point, the device serves as a 4-port wired router and implements a variety of common SOHO router capabilities such as port forwarding, quality-of-service, web-based administration, a DHCP server, a basic DMZ, and UPnP capabilities.",
       "cveName": "CVE-2024-280525-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-28052"
+    }
+  },
+  "CVE-2024-28265": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "IBOS v4.5.5 has an arbitrary file deletion vulnerability via \\system\\modules\\dashboard\\controllers\\LoginController.php.",
+      "cveName": "CVE-2024-28265",
+      "cveUrl": "/vuln/detail/CVE-2024-28265"
     }
   },
   "CVE-2024-28709": {
@@ -8392,6 +8458,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-40432"
     }
   },
+  "CVE-2024-40490": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:08 PM -0400"
+      ],
+      "cveDis": "An issue in Sourcebans++ before v.1.8.0 allows a remote attacker to obtain sensitive information via a crafted XAJAX call to the Forgot Password function.",
+      "cveName": "CVE-2024-40490",
+      "cveUrl": "/vuln/detail/CVE-2024-40490"
+    }
+  },
   "CVE-2024-40493": {
     "cve": {
       "cveDate": [
@@ -8874,6 +8951,50 @@
       "cveDis": "Kieback & Peter's DDC4000 series is vulnerable to a path traversal vulnerability, which may allow an unauthenticated attacker to read files on the system.",
       "cveName": "CVE-2024-41717",
       "cveUrl": "/vuln/detail/CVE-2024-41717"
+    }
+  },
+  "CVE-2024-41738": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "IBM TXSeries for Multiplatforms 10.1 could allow an attacker to obtain sensitive information from the query string of an HTTP GET method to process a request which could be obtained using man in the middle techniques.",
+      "cveName": "CVE-2024-41738",
+      "cveUrl": "/vuln/detail/CVE-2024-41738"
+    }
+  },
+  "CVE-2024-417415-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "IBM TXSeries for Multiplatforms 10.1 could allow an attacker to determine valid usernames due to an observable timing discrepancy which could be used in further attacks against the system.",
+      "cveName": "CVE-2024-417415-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-41741"
+    }
+  },
+  "CVE-2024-417446-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "IBM CICS TX Standard 11.1 is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts.",
+      "cveName": "CVE-2024-417446-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-41744"
+    }
+  },
+  "CVE-2024-417456-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:16 PM -0400"
+      ],
+      "cveDis": "IBM CICS TX Standard is vulnerable to cross-site scripting. This vulnerability allows an unauthenticated attacker to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
+      "cveName": "CVE-2024-417456-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-41745"
     }
   },
   "CVE-2024-41798": {
@@ -10141,6 +10262,116 @@
       "cveUrl": "/vuln/detail/CVE-2024-43933"
     }
   },
+  "CVE-2024-43937": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:49 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Themeum WP Crowdfunding allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WP Crowdfunding: from n/a through 2.1.10.",
+      "cveName": "CVE-2024-43937",
+      "cveUrl": "/vuln/detail/CVE-2024-43937"
+    }
+  },
+  "CVE-2024-43956": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:49 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Caseproof, LLC Memberpress allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Memberpress: from n/a through 1.11.34.",
+      "cveName": "CVE-2024-43956",
+      "cveUrl": "/vuln/detail/CVE-2024-43956"
+    }
+  },
+  "CVE-2024-43962": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:50 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in LWS LWS Affiliation allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects LWS Affiliation: from n/a through 2.3.4.",
+      "cveName": "CVE-2024-43962",
+      "cveUrl": "/vuln/detail/CVE-2024-43962"
+    }
+  },
+  "CVE-2024-43968": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:50 AM -0400"
+      ],
+      "cveDis": "Broken Access Control vulnerability in Automattic Newspack allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Newspack: from n/a through 3.8.6.",
+      "cveName": "CVE-2024-43968",
+      "cveUrl": "/vuln/detail/CVE-2024-43968"
+    }
+  },
+  "CVE-2024-43973": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:50 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in AyeCode Ltd GetPaid allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects GetPaid: from n/a through 2.8.11.",
+      "cveName": "CVE-2024-43973",
+      "cveUrl": "/vuln/detail/CVE-2024-43973"
+    }
+  },
+  "CVE-2024-43974": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:50 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in CozyThemes ReviveNews allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects ReviveNews: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-43974",
+      "cveUrl": "/vuln/detail/CVE-2024-43974"
+    }
+  },
+  "CVE-2024-43979": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:50 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in CozyThemes Blockbooster allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Blockbooster: from n/a through 1.0.10.",
+      "cveName": "CVE-2024-43979",
+      "cveUrl": "/vuln/detail/CVE-2024-43979"
+    }
+  },
+  "CVE-2024-43980": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:51 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in CozyThemes Fota WP allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Fota WP: from n/a through 1.4.1.",
+      "cveName": "CVE-2024-43980",
+      "cveUrl": "/vuln/detail/CVE-2024-43980"
+    }
+  },
+  "CVE-2024-43981": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:51 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in AyeCode – WP Business Directory Plugins GeoDirectory allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects GeoDirectory: from n/a through 2.3.70.",
+      "cveName": "CVE-2024-43981",
+      "cveUrl": "/vuln/detail/CVE-2024-43981"
+    }
+  },
+  "CVE-2024-43982": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:51 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Geek Code Lab Login As Users allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Login As Users: from n/a through 1.4.3.",
+      "cveName": "CVE-2024-43982",
+      "cveUrl": "/vuln/detail/CVE-2024-43982"
+    }
+  },
   "CVE-2024-43984": {
     "cve": {
       "cveDate": [
@@ -10152,6 +10383,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-43984"
     }
   },
+  "CVE-2024-43998": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:51 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in WebsiteinWP Blogpoet allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Blogpoet: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-43998",
+      "cveUrl": "/vuln/detail/CVE-2024-43998"
+    }
+  },
   "CVE-2024-44000": {
     "cve": {
       "cveDate": [
@@ -10161,6 +10403,17 @@
       "cveDis": "Insufficiently Protected Credentials vulnerability in LiteSpeed Technologies LiteSpeed Cache allows Authentication Bypass.This issue affects LiteSpeed Cache: from n/a before 6.5.0.1.",
       "cveName": "CVE-2024-44000",
       "cveUrl": "/vuln/detail/CVE-2024-44000"
+    }
+  },
+  "CVE-2024-44006": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:52 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in OnTheGoSystems WooCommerce Multilingual & Multicurrency multilingual allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WooCommerce Multilingual & Multicurrency: from n/a through 5.3.6.",
+      "cveName": "CVE-2024-44006",
+      "cveUrl": "/vuln/detail/CVE-2024-44006"
     }
   },
   "CVE-2024-44010": {
@@ -10194,6 +10447,39 @@
       "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Istmo Plugins Instant Chat Floating Button for WordPress Websites allows PHP Local File Inclusion.This issue affects Instant Chat Floating Button for WordPress Websites: from n/a through 1.0.5.",
       "cveName": "CVE-2024-44018",
       "cveUrl": "/vuln/detail/CVE-2024-44018"
+    }
+  },
+  "CVE-2024-44019": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:52 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Renzo Johnson Contact Form 7 Campaign Monitor Extension allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Contact Form 7 Campaign Monitor Extension: from n/a through 0.4.67.",
+      "cveName": "CVE-2024-44019",
+      "cveUrl": "/vuln/detail/CVE-2024-44019"
+    }
+  },
+  "CVE-2024-44020": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:52 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Prasad Kirpekar WP Free SSL – Free SSL Certificate for WordPress and force HTTPS allows .\n\nThis issue affects WP Free SSL – Free SSL Certificate for WordPress and force HTTPS: from n/a through 1.2.6.",
+      "cveName": "CVE-2024-44020",
+      "cveUrl": "/vuln/detail/CVE-2024-44020"
+    }
+  },
+  "CVE-2024-44021": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:52 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Truepush allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Truepush: from n/a through 1.0.8.",
+      "cveName": "CVE-2024-44021",
+      "cveUrl": "/vuln/detail/CVE-2024-44021"
     }
   },
   "CVE-2024-44022": {
@@ -10295,6 +10581,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-44030"
     }
   },
+  "CVE-2024-44031": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:52 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in BearDev JoomSport allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects JoomSport: from n/a through 5.6.3.",
+      "cveName": "CVE-2024-44031",
+      "cveUrl": "/vuln/detail/CVE-2024-44031"
+    }
+  },
   "CVE-2024-44032": {
     "cve": {
       "cveDate": [
@@ -10359,6 +10656,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in MagePeople Team Multipurpose Ticket Booking Manager allows Stored XSS.This issue affects Multipurpose Ticket Booking Manager: from n/a through 4.2.2.",
       "cveName": "CVE-2024-44037",
       "cveUrl": "/vuln/detail/CVE-2024-44037"
+    }
+  },
+  "CVE-2024-44038": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:53 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in WP Sunshine Sunshine Photo Cart allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Sunshine Photo Cart: from n/a through 3.2.9.",
+      "cveName": "CVE-2024-44038",
+      "cveUrl": "/vuln/detail/CVE-2024-44038"
     }
   },
   "CVE-2024-44039": {
@@ -10436,6 +10744,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Themify Themify – WooCommerce Product Filter allows Stored XSS.This issue affects Themify – WooCommerce Product Filter: from n/a through 1.5.1.",
       "cveName": "CVE-2024-44046",
       "cveUrl": "/vuln/detail/CVE-2024-44046"
+    }
+  },
+  "CVE-2024-44052": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:53 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in HelloAsso allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects HelloAsso: from n/a through 1.1.10.",
+      "cveName": "CVE-2024-44052",
+      "cveUrl": "/vuln/detail/CVE-2024-44052"
     }
   },
   "CVE-2024-44061": {
@@ -14860,6 +15179,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47301"
     }
   },
+  "CVE-2024-47302": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:53 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in WPManageNinja LLC Fluent Support allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Fluent Support: from n/a through 1.8.0.",
+      "cveName": "CVE-2024-47302",
+      "cveUrl": "/vuln/detail/CVE-2024-47302"
+    }
+  },
   "CVE-2024-47306": {
     "cve": {
       "cveDate": [
@@ -14880,6 +15210,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Essential Plugin Meta slider and carousel with lightbox allows Stored XSS.This issue affects Meta slider and carousel with lightbox: from n/a through 2.0.1.",
       "cveName": "CVE-2024-47307",
       "cveUrl": "/vuln/detail/CVE-2024-47307"
+    }
+  },
+  "CVE-2024-47308": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:53 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Templately allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Templately: from n/a through 3.1.2.",
+      "cveName": "CVE-2024-47308",
+      "cveUrl": "/vuln/detail/CVE-2024-47308"
     }
   },
   "CVE-2024-47309": {
@@ -14904,6 +15245,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47310"
     }
   },
+  "CVE-2024-47311": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:53 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Kraft Plugins Wheel of Life allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Wheel of Life: from n/a through 1.1.8.",
+      "cveName": "CVE-2024-47311",
+      "cveUrl": "/vuln/detail/CVE-2024-47311"
+    }
+  },
   "CVE-2024-47313": {
     "cve": {
       "cveDate": [
@@ -14915,6 +15267,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47313"
     }
   },
+  "CVE-2024-47314": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:54 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in WP Sunshine Sunshine Photo Cart allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Sunshine Photo Cart: from n/a through 3.2.8.",
+      "cveName": "CVE-2024-47314",
+      "cveUrl": "/vuln/detail/CVE-2024-47314"
+    }
+  },
   "CVE-2024-47316": {
     "cve": {
       "cveDate": [
@@ -14924,6 +15287,28 @@
       "cveDis": "Authorization Bypass Through User-Controlled Key vulnerability in Salon Booking System Salon booking system.This issue affects Salon booking system: from n/a through 10.9.",
       "cveName": "CVE-2024-47316",
       "cveUrl": "/vuln/detail/CVE-2024-47316"
+    }
+  },
+  "CVE-2024-47317": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:54 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in WP Quads Ads by WPQuads – Adsense Ads, Banner Ads, Popup Ads allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Ads by WPQuads – Adsense Ads, Banner Ads, Popup Ads: from n/a through 2.0.84.",
+      "cveName": "CVE-2024-47317",
+      "cveUrl": "/vuln/detail/CVE-2024-47317"
+    }
+  },
+  "CVE-2024-47318": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:54 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Magazine3 PWA for WP & AMP allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects PWA for WP & AMP: from n/a through 1.7.72.",
+      "cveName": "CVE-2024-47318",
+      "cveUrl": "/vuln/detail/CVE-2024-47318"
     }
   },
   "CVE-2024-47319": {
@@ -14946,6 +15331,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in WS Form WS Form LITE allows Stored XSS.This issue affects WS Form LITE: from n/a through 1.9.238.",
       "cveName": "CVE-2024-47320",
       "cveUrl": "/vuln/detail/CVE-2024-47320"
+    }
+  },
+  "CVE-2024-47321": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:54 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Fahad Mahmood WP Datepicker allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects WP Datepicker: from n/a through 2.1.1.",
+      "cveName": "CVE-2024-47321",
+      "cveUrl": "/vuln/detail/CVE-2024-47321"
     }
   },
   "CVE-2024-47322": {
@@ -15245,6 +15641,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-47357"
     }
   },
+  "CVE-2024-47358": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:55 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Popup Maker allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Popup Maker: from n/a through 1.19.2.",
+      "cveName": "CVE-2024-47358",
+      "cveUrl": "/vuln/detail/CVE-2024-47358"
+    }
+  },
+  "CVE-2024-47359": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:55 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Depicter Slider and Popup by Averta Depicter Slider allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Depicter Slider: from n/a through 3.2.2.",
+      "cveName": "CVE-2024-47359",
+      "cveUrl": "/vuln/detail/CVE-2024-47359"
+    }
+  },
   "CVE-2024-47360": {
     "cve": {
       "cveDate": [
@@ -15254,6 +15672,28 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Booking Algorithms BA Book Everything allows Reflected XSS.This issue affects BA Book Everything: from n/a through 1.6.20.",
       "cveName": "CVE-2024-47360",
       "cveUrl": "/vuln/detail/CVE-2024-47360"
+    }
+  },
+  "CVE-2024-47361": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:55 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in WPVibes Elementor Addon Elements allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Elementor Addon Elements: from n/a through 1.13.6.",
+      "cveName": "CVE-2024-47361",
+      "cveUrl": "/vuln/detail/CVE-2024-47361"
+    }
+  },
+  "CVE-2024-47362": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:55 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in WPChill Strong Testimonials allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Strong Testimonials: from n/a through 3.1.16.",
+      "cveName": "CVE-2024-47362",
+      "cveUrl": "/vuln/detail/CVE-2024-47362"
     }
   },
   "CVE-2024-47363": {
@@ -18897,6 +19337,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48038"
     }
   },
+  "CVE-2024-48039": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:55 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in CubeWP CubeWP – All-in-One Dynamic Content Framework allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects CubeWP – All-in-One Dynamic Content Framework: from n/a through 1.1.15.",
+      "cveName": "CVE-2024-48039",
+      "cveUrl": "/vuln/detail/CVE-2024-48039"
+    }
+  },
   "CVE-2024-48040": {
     "cve": {
       "cveDate": [
@@ -18928,6 +19379,28 @@
       "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ShortPixel ShortPixel Image Optimizer allows Blind SQL Injection.This issue affects ShortPixel Image Optimizer: from n/a through 5.6.3.",
       "cveName": "CVE-2024-48043",
       "cveUrl": "/vuln/detail/CVE-2024-48043"
+    }
+  },
+  "CVE-2024-48044": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:56 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in ShortPixel – Convert WebP/AVIF & Optimize Images ShortPixel Image Optimizer allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects ShortPixel Image Optimizer: from n/a through 5.6.3.",
+      "cveName": "CVE-2024-48044",
+      "cveUrl": "/vuln/detail/CVE-2024-48044"
+    }
+  },
+  "CVE-2024-48045": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:56 AM -0400"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Leevio Happy Addons for Elementor allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Happy Addons for Elementor: from n/a through 3.12.3.",
+      "cveName": "CVE-2024-48045",
+      "cveUrl": "/vuln/detail/CVE-2024-48045"
     }
   },
   "CVE-2024-48046": {
@@ -19293,6 +19766,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48214"
     }
   },
+  "CVE-2024-48217": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "An Insecure Direct Object Reference (IDOR) in the dashboard of SiSMART v7.4.0 allows attackers to execute a horizontal-privilege escalation.",
+      "cveName": "CVE-2024-48217",
+      "cveUrl": "/vuln/detail/CVE-2024-48217"
+    }
+  },
   "CVE-2024-48218": {
     "cve": {
       "cveDate": [
@@ -19645,6 +20129,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48283"
     }
   },
+  "CVE-2024-48289": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:56 AM -0400"
+      ],
+      "cveDis": "An issue in the Bluetooth Low Energy implementation of Cypress Bluetooth SDK v3.66 allows attackers to cause a Denial of Service (DoS) via supplying a crafted LL_PAUSE_ENC_REQ packet.",
+      "cveName": "CVE-2024-48289",
+      "cveUrl": "/vuln/detail/CVE-2024-48289"
+    }
+  },
   "CVE-2024-48291": {
     "cve": {
       "cveDate": [
@@ -19700,6 +20195,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48346"
     }
   },
+  "CVE-2024-48352": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "Yealink Meeting Server before V26.0.0.67 is vulnerable to sensitive data exposure in the server response via sending HTTP request with enterprise ID.",
+      "cveName": "CVE-2024-48352",
+      "cveUrl": "/vuln/detail/CVE-2024-48352"
+    }
+  },
   "CVE-2024-48356": {
     "cve": {
       "cveDate": [
@@ -19742,6 +20248,17 @@
       "cveDis": "AIML Chatbot 1.0 (fixed in 2.0) is vulnerable to Cross Site Scripting (XSS). The vulnerability is exploited through the message input field, where attackers can inject malicious HTML or JavaScript code. The chatbot fails to sanitize these inputs, leading to the execution of malicious scripts.",
       "cveName": "CVE-2024-48396",
       "cveUrl": "/vuln/detail/CVE-2024-48396"
+    }
+  },
+  "CVE-2024-48410": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in Camtrace v.9.16.2.1 allows a remote attacker to execute arbitrary code via the login.php.",
+      "cveName": "CVE-2024-48410",
+      "cveUrl": "/vuln/detail/CVE-2024-48410"
     }
   },
   "CVE-2024-48411": {
@@ -21601,6 +22118,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Daniele Alessandra Da Reactions allows Stored XSS.This issue affects Da Reactions: from n/a through 5.1.5.",
       "cveName": "CVE-2024-49255",
       "cveUrl": "/vuln/detail/CVE-2024-49255"
+    }
+  },
+  "CVE-2024-49256": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "11:15:56 AM -0400"
+      ],
+      "cveDis": "Incorrect Authorization vulnerability in WPChill Htaccess File Editor allows Accessing Functionality Not Properly Constrained by ACLs.\n\nThis issue affects Htaccess File Editor: from n/a through 1.0.18.",
+      "cveName": "CVE-2024-49256",
+      "cveUrl": "/vuln/detail/CVE-2024-49256"
     }
   },
   "CVE-2024-49258": {
@@ -23537,6 +24065,17 @@
       "cveDis": "Waitress is a Web Server Gateway Interface server for Python 2 and 3. When a remote client closes the connection before waitress has had the opportunity to call getpeername() waitress won't correctly clean up the connection leading to the main thread attempting to write to a socket that no longer exists, but not removing it from the list of sockets to attempt to process. This leads to a busy-loop calling the write function. A remote attacker could run waitress out of available sockets with very little resources required. Waitress 3.0.1 contains fixes that remove the race condition.",
       "cveName": "CVE-2024-49769",
       "cveUrl": "/vuln/detail/CVE-2024-49769"
+    }
+  },
+  "CVE-2024-49770": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:17 PM -0400"
+      ],
+      "cveDis": "`oak` is a middleware framework for Deno's native HTTP server, Deno Deploy, Node.js 16.5 and later, Cloudflare Workers and Bun. By default `oak` does not allow transferring of hidden files with `Context.send` API. However, prior to version 17.1.3, this can be bypassed by encoding `/` as its URL encoded form `%2F`. For an attacker this has potential to read sensitive user data or to gain access to server secrets. Version 17.1.3 fixes the issue.",
+      "cveName": "CVE-2024-49770",
+      "cveUrl": "/vuln/detail/CVE-2024-49770"
     }
   },
   "CVE-2024-49771": {
@@ -25618,6 +26157,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-51243"
     }
   },
+  "CVE-2024-51244": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the doIPSec function.",
+      "cveName": "CVE-2024-51244",
+      "cveUrl": "/vuln/detail/CVE-2024-51244"
+    }
+  },
+  "CVE-2024-51245": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "In DrayTek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the rename_table function.",
+      "cveName": "CVE-2024-51245",
+      "cveUrl": "/vuln/detail/CVE-2024-51245"
+    }
+  },
+  "CVE-2024-51247": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the doPPPo function.",
+      "cveName": "CVE-2024-51247",
+      "cveUrl": "/vuln/detail/CVE-2024-51247"
+    }
+  },
+  "CVE-2024-51248": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the modifyrow function.",
+      "cveName": "CVE-2024-51248",
+      "cveUrl": "/vuln/detail/CVE-2024-51248"
+    }
+  },
   "CVE-2024-51254": {
     "cve": {
       "cveDate": [
@@ -25750,6 +26333,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51304"
     }
   },
+  "CVE-2024-51377": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "An issue in Ladybird Web Solution Faveo Helpdesk & Servicedesk (On-Premise and Cloud) 9.2.0 allows a remote attacker to execute arbitrary code via the Subject and Identifier fields",
+      "cveName": "CVE-2024-51377",
+      "cveUrl": "/vuln/detail/CVE-2024-51377"
+    }
+  },
   "CVE-2024-51378": {
     "cve": {
       "cveDate": [
@@ -25759,6 +26353,28 @@
       "cveDis": "getresetstatus in dns/views.py and ftp/views.py in CyberPanel (aka Cyber Panel) before 1c0c6cb allows remote attackers to bypass authentication and execute arbitrary commands via /dns/getresetstatus or /ftp/getresetstatus by bypassing secMiddleware (which is only for a POST request) and using shell metacharacters in the statusfile property, as exploited in the wild in October 2024 by PSAUX. Versions through 2.3.6 and (unpatched) 2.3.7 are affected.",
       "cveName": "CVE-2024-51378",
       "cveUrl": "/vuln/detail/CVE-2024-51378"
+    }
+  },
+  "CVE-2024-51398": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "Altai Technologies Ltd Altai X500 Indoor 22 802.11ac Wave 2 AP web Management Weak password leakage in the background may lead to unauthorized access, data theft, and network attacks, seriously threatening network security.",
+      "cveName": "CVE-2024-51398",
+      "cveUrl": "/vuln/detail/CVE-2024-51398"
+    }
+  },
+  "CVE-2024-51399": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "Altai Technologies Ltd Altai IX500 Indoor 22 802.11ac Wave 2 AP After login, there are file reads in the background, and attackers can obtain sensitive information such as user credentials, system configuration, and database connection strings, which can lead to data breaches and identity theft.",
+      "cveName": "CVE-2024-51399",
+      "cveUrl": "/vuln/detail/CVE-2024-51399"
     }
   },
   "CVE-2024-51419": {
@@ -25827,6 +26443,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-51430"
     }
   },
+  "CVE-2024-51431": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "LB-LINK BL-WR 1300H v.1.0.4 contains hardcoded credentials stored in /etc/shadow which are easily guessable.",
+      "cveName": "CVE-2024-51431",
+      "cveUrl": "/vuln/detail/CVE-2024-51431"
+    }
+  },
+  "CVE-2024-51432": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "12:15:09 PM -0400"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in FiberHome HG6544C RP2743 allows an attacker to execute arbitrary code via the SSID field in the WIFI Clients List not being sanitized",
+      "cveName": "CVE-2024-51432",
+      "cveUrl": "/vuln/detail/CVE-2024-51432"
+    }
+  },
   "CVE-2024-51478": {
     "cve": {
       "cveDate": [
@@ -25858,6 +26496,28 @@
       "cveDis": "ZoneMinder is a free, open source closed-circuit television software application. ZoneMinder v1.37.* <= 1.37.64 is vulnerable to boolean-based SQL Injection in function of web/ajax/event.php. This is fixed in 1.37.64.",
       "cveName": "CVE-2024-51482",
       "cveUrl": "/vuln/detail/CVE-2024-51482"
+    }
+  },
+  "CVE-2024-51483": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "changedetection.io is free, open source web page change detection software. Prior to version 0.47.5, when a WebDriver is used to fetch files, `source:file:///etc/passwd` can be used to retrieve local system files, where the more traditional `file:///etc/passwd` gets blocked. Version 0.47.5 fixes the issue.",
+      "cveName": "CVE-2024-51483",
+      "cveUrl": "/vuln/detail/CVE-2024-51483"
+    }
+  },
+  "CVE-2024-51492": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "1:15:18 PM -0400"
+      ],
+      "cveDis": "Zusam is a free and open-source way to self-host private forums. Prior to version 0.5.6, specially crafted SVG files uploaded to the service as images allow for unrestricted script execution on (raw) image load. With certain payloads, theft of the target user’s long-lived session token is possible. Note that Zusam, at the time of writing, uses a user’s static API key as a long-lived session token, and these terms can be used interchangeably on the platform. This session token/API key remains valid indefinitely, so long as the user doesn’t expressly request a new one via their Settings page. Version 0.5.6 fixes the cross-site scripting vulnerability.",
+      "cveName": "CVE-2024-51492",
+      "cveUrl": "/vuln/detail/CVE-2024-51492"
     }
   },
   "CVE-2024-51506": {
