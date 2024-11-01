@@ -846,6 +846,28 @@
       "cveUrl": "/vuln/detail/CVE-2023-50780"
     }
   },
+  "CVE-2023-52044": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:12 PM -0400"
+      ],
+      "cveDis": "Studio-42 eLfinder 2.1.62 is vulnerable to Remote Code Execution (RCE) as there is no restriction for uploading files with the .php8 extension.",
+      "cveName": "CVE-2023-52044",
+      "cveUrl": "/vuln/detail/CVE-2023-52044"
+    }
+  },
+  "CVE-2023-52045": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:12 PM -0400"
+      ],
+      "cveDis": "Studio-42 eLfinder 2.1.62 contains a filename restriction bypass leading to a persistent Cross-site Scripting (XSS) vulnerability.",
+      "cveName": "CVE-2023-52045",
+      "cveUrl": "/vuln/detail/CVE-2023-52045"
+    }
+  },
   "CVE-2023-52066": {
     "cve": {
       "cveDate": [
@@ -3869,6 +3891,215 @@
       "cveDis": "A vulnerability was found in Codezips Pet Shop Management System 1.0. It has been classified as critical. This affects an unknown part of the file birdsupdate.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10561",
       "cveUrl": "/vuln/detail/CVE-2024-10561"
+    }
+  },
+  "CVE-2024-105736-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:12 PM -0400"
+      ],
+      "cveDis": "An out-of-bounds write flaw was found in mpg123 when handling crafted streams. When decoding PCM, the libmpg123 may write past the end of a heap-located buffer. Consequently, heap corruption may happen, and arbitrary code execution is not discarded. The complexity required to exploit this flaw is considered high as the payload must be validated by the MPEG decoder and the PCM synth before execution. Additionally, to successfully execute the attack, the user must scan through the stream, making web live stream content (such as web radios) a very unlikely attack vector.",
+      "cveName": "CVE-2024-105736-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10573"
+    }
+  },
+  "CVE-2024-10594": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5. It has been classified as critical. Affected is the function docHistory of the file /com/esafenet/servlet/fileManagement/FileDirectoryService.java. The manipulation of the argument fileId leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10594",
+      "cveUrl": "/vuln/detail/CVE-2024-10594"
+    }
+  },
+  "CVE-2024-10595": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "5:15:15 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5. It has been declared as critical. Affected by this vulnerability is the function delFile/delDifferCourseList of the file /com/esafenet/servlet/ajax/PublicDocInfoAjax.java. The manipulation leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10595",
+      "cveUrl": "/vuln/detail/CVE-2024-10595"
+    }
+  },
+  "CVE-2024-10596": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "5:15:15 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5. It has been rated as critical. Affected by this issue is the function delEntryptPolicySort of the file /com/esafenet/servlet/system/EncryptPolicyTypeService.java. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10596",
+      "cveUrl": "/vuln/detail/CVE-2024-10596"
+    }
+  },
+  "CVE-2024-10597": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "5:15:15 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in ESAFENET CDG 5. This affects the function delPolicyAction of the file /com/esafenet/servlet/system/PolicyActionService.java. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10597",
+      "cveUrl": "/vuln/detail/CVE-2024-10597"
+    }
+  },
+  "CVE-2024-10598": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "6:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in Tongda OA 11.2/11.3/11.4/11.5/11.6. This vulnerability affects unknown code of the file general/hr/setting/attendance/leave/data.php of the component Annual Leave Handler. The manipulation leads to improper authorization. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10598",
+      "cveUrl": "/vuln/detail/CVE-2024-10598"
+    }
+  },
+  "CVE-2024-10599": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, has been found in Tongda OA 2017 up to 11.7. This issue affects some unknown processing of the file /inc/package_static_resources.php. The manipulation leads to resource consumption. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10599",
+      "cveUrl": "/vuln/detail/CVE-2024-10599"
+    }
+  },
+  "CVE-2024-10600": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "7:15:12 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in Tongda OA 2017 up to 11.6. Affected is an unknown function of the file pda/appcenter/submenu.php. The manipulation of the argument appid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10600",
+      "cveUrl": "/vuln/detail/CVE-2024-10600"
+    }
+  },
+  "CVE-2024-10601": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "7:15:12 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in Tongda OA 2017 up to 11.10 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /general/address/private/address/query/delete.php. The manipulation of the argument where_repeat leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10601",
+      "cveUrl": "/vuln/detail/CVE-2024-10601"
+    }
+  },
+  "CVE-2024-10602": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "8:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Tongda OA 2017 up to 11.9 and classified as critical. Affected by this issue is some unknown functionality of the file /general/approve_center/list/input_form/data_picker_link.php. The manipulation of the argument dataSrc leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10602",
+      "cveUrl": "/vuln/detail/CVE-2024-10602"
+    }
+  },
+  "CVE-2024-10605": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "8:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Blood Bank Management System 1.0. It has been classified as problematic. This affects an unknown part of the file /file/request.php. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10605",
+      "cveUrl": "/vuln/detail/CVE-2024-10605"
+    }
+  },
+  "CVE-2024-10607": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "9:15:12 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Courier Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /track-result.php. The manipulation of the argument Consignment leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10607",
+      "cveUrl": "/vuln/detail/CVE-2024-10607"
+    }
+  },
+  "CVE-2024-10608": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "9:15:12 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Courier Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /login.php. The manipulation of the argument txtusername leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10608",
+      "cveUrl": "/vuln/detail/CVE-2024-10608"
+    }
+  },
+  "CVE-2024-10609": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "9:15:12 PM -0400"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in itsourcecode Tailoring Management System Project 1.0. This affects an unknown part of the file typeadd.php. The manipulation of the argument sex leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10609",
+      "cveUrl": "/vuln/detail/CVE-2024-10609"
+    }
+  },
+  "CVE-2024-10610": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in ESAFENET CDG 5 and classified as critical. This vulnerability affects the function delProtocol of the file /com/esafenet/servlet/system/ProtocolService.java. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10610",
+      "cveUrl": "/vuln/detail/CVE-2024-10610"
+    }
+  },
+  "CVE-2024-10611": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "10:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5 and classified as critical. This issue affects the function delProtocol of the file /com/esafenet/servlet/system/PrintScreenListService.java. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10611",
+      "cveUrl": "/vuln/detail/CVE-2024-10611"
+    }
+  },
+  "CVE-2024-10612": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5. It has been classified as critical. Affected is the function removeHookInvalidCourse of the file /com/esafenet/servlet/system/HookInvalidCourseService.java. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10612",
+      "cveUrl": "/vuln/detail/CVE-2024-10612"
+    }
+  },
+  "CVE-2024-10613": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "11:15:02 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in ESAFENET CDG 5. It has been declared as critical. Affected by this vulnerability is the function delSystemEncryptPolicy of the file /com/esafenet/servlet/system/SystemEncryptPolicyService.java. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10613",
+      "cveUrl": "/vuln/detail/CVE-2024-10613"
+    }
+  },
+  "CVE-2024-10615": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "11:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Tongda OA 2017 up to 11.10. It has been rated as critical. Affected by this issue is some unknown functionality of the file /general/approve_center/query/list/input_form/delete_data_attach.php. The manipulation of the argument RUN_ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10615",
+      "cveUrl": "/vuln/detail/CVE-2024-10615"
     }
   },
   "CVE-2024-20090": {
@@ -7644,6 +7875,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-39275"
     }
   },
+  "CVE-2024-39332": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:12 PM -0400"
+      ],
+      "cveDis": "Webswing 23.2.2 allows remote attackers to modify client-side JavaScript code to achieve path traversal, likely leading to remote code execution via modification of shell scripts on the server.",
+      "cveName": "CVE-2024-39332",
+      "cveUrl": "/vuln/detail/CVE-2024-39332"
+    }
+  },
   "CVE-2024-3935": {
     "cve": {
       "cveDate": [
@@ -7829,6 +8071,50 @@
       "cveDis": "Dell AppSync Server, version 4.3 through 4.6, contains an XML External Entity Injection vulnerability. An adjacent high privileged attacker could potentially exploit this vulnerability, leading to information disclosure.",
       "cveName": "CVE-2024-39586",
       "cveUrl": "/vuln/detail/CVE-2024-39586"
+    }
+  },
+  "CVE-2024-39719": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "4:15:04 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Ollama through 0.3.14. File existence disclosure can occur via api/create. When calling the CreateModel route with a path parameter that does not exist, it reflects the \"File does not exist\" error message to the attacker, providing a primitive for file existence on the server.",
+      "cveName": "CVE-2024-39719",
+      "cveUrl": "/vuln/detail/CVE-2024-39719"
+    }
+  },
+  "CVE-2024-39720": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "4:15:04 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Ollama before 0.1.46. An attacker can use two HTTP requests to upload a malformed GGUF file containing just 4 bytes starting with the GGUF custom magic header. By leveraging a custom Modelfile that includes a FROM statement pointing to the attacker-controlled blob file, the attacker can crash the application through the CreateModel route, leading to a segmentation fault (signal SIGSEGV: segmentation violation).",
+      "cveName": "CVE-2024-39720",
+      "cveUrl": "/vuln/detail/CVE-2024-39720"
+    }
+  },
+  "CVE-2024-39721": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "4:15:04 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Ollama before 0.1.34. The CreateModelHandler function uses os.Open to read a file until completion. The req.Path parameter is user-controlled and can be set to /dev/random, which is blocking, causing the goroutine to run infinitely (even after the HTTP request is aborted by the client).",
+      "cveName": "CVE-2024-39721",
+      "cveUrl": "/vuln/detail/CVE-2024-39721"
+    }
+  },
+  "CVE-2024-39722": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "An issue was discovered in Ollama before 0.1.46. It exposes which files exist on the server on which it is deployed via path traversal in the api/push route.",
+      "cveName": "CVE-2024-39722",
+      "cveUrl": "/vuln/detail/CVE-2024-39722"
     }
   },
   "CVE-2024-39753": {
@@ -8720,6 +9006,17 @@
       "cveDis": "A vulnerability in the legacy chat component of Mitel MiContact Center Business through 10.1.0.4 could allow an unauthenticated attacker to conduct an unauthorized access attack due to inadequate access control checks. A successful exploit could allow an attacker to access sensitive information and send unauthorized messages.",
       "cveName": "CVE-2024-42514",
       "cveUrl": "/vuln/detail/CVE-2024-42514"
+    }
+  },
+  "CVE-2024-42515": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:12 PM -0400"
+      ],
+      "cveDis": "Glossarizer through 1.5.2 improperly tries to convert text into HTML. Even though the application itself escapes special characters (e.g., <>), the underlying library converts these encoded characters into legitimate HTML, thereby possibly causing stored XSS. Attackers can append a XSS payload to a word that has a corresponding glossary entry.",
+      "cveName": "CVE-2024-42515",
+      "cveUrl": "/vuln/detail/CVE-2024-42515"
     }
   },
   "CVE-2024-42640": {
@@ -18776,6 +19073,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48192"
     }
   },
+  "CVE-2024-48200": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "An issue in MobaXterm v24.2 allows a local attacker to escalate privileges and execute arbitrary code via the remove function of the MobaXterm MSI is spawning one Administrative cmd (conhost.exe)",
+      "cveName": "CVE-2024-48200",
+      "cveUrl": "/vuln/detail/CVE-2024-48200"
+    }
+  },
   "CVE-2024-48202": {
     "cve": {
       "cveDate": [
@@ -19258,6 +19566,28 @@
       "cveDis": "LyLme Spage <=1.6.0 is vulnerable to SQL Injection via /admin/group.php.",
       "cveName": "CVE-2024-48356",
       "cveUrl": "/vuln/detail/CVE-2024-48356"
+    }
+  },
+  "CVE-2024-48359": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "Qualitor v8.24 was discovered to contain a remote code execution (RCE) vulnerability via the gridValoresPopHidden parameter.",
+      "cveName": "CVE-2024-48359",
+      "cveUrl": "/vuln/detail/CVE-2024-48359"
+    }
+  },
+  "CVE-2024-48360": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "4:15:05 PM -0400"
+      ],
+      "cveDis": "Qualitor v8.24 was discovered to contain a Server-Side Request Forgery (SSRF) via the component /request/viewValidacao.php.",
+      "cveName": "CVE-2024-48360",
+      "cveUrl": "/vuln/detail/CVE-2024-48360"
     }
   },
   "CVE-2024-48396": {
@@ -23935,6 +24265,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50344"
     }
   },
+  "CVE-2024-50347": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "Laravel Reverb provides a real-time WebSocket communication backend for Laravel applications. Prior to 1.4.0, there is an issue where verification signatures for requests sent to Reverb's Pusher-compatible API were not being verified. This API is used in scenarios such as broadcasting a message from a backend service or for obtaining statistical information (such as number of connections) about a given channel. This issue only affects the Pusher-compatible API endpoints and not the WebSocket connections themselves. In order to exploit this vulnerability, the application ID which, should never be exposed, would need to be known by an attacker. This vulnerability is fixed in 1.4.0.",
+      "cveName": "CVE-2024-50347",
+      "cveUrl": "/vuln/detail/CVE-2024-50347"
+    }
+  },
   "CVE-2024-50348": {
     "cve": {
       "cveDate": [
@@ -23966,6 +24307,17 @@
       "cveDis": "gnark is a fast zk-SNARK library that offers a high-level API to design circuits. In gnark 0.11.0 and earlier, deserialization of Groth16 verification keys allocate excessive memory, consuming a lot of resources and triggering a crash with the error fatal error: runtime: out of memory.",
       "cveName": "CVE-2024-50354",
       "cveUrl": "/vuln/detail/CVE-2024-50354"
+    }
+  },
+  "CVE-2024-50356": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "Press, a Frappe custom app that runs Frappe Cloud, manages infrastructure, subscription, marketplace, and software-as-a-service (SaaS). The password could be reset by anyone who have access to the mail inbox circumventing the 2FA. Even though they wouldn't be able to login by bypassing the 2FA. Only users who have enabled 2FA are affected. Commit ba0007c28ac814260f836849bc07d29beea7deb6 patches this bug.",
+      "cveName": "CVE-2024-50356",
+      "cveUrl": "/vuln/detail/CVE-2024-50356"
     }
   },
   "CVE-2024-50382": {
@@ -24969,6 +25321,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-50624"
     }
   },
+  "CVE-2024-50801": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "A SQL Injection vulnerability was discovered in AbanteCart 1.4.0 in the update() function in public_html/admin/controller/responses/listing_grid/collections.php. The vulnerability is exploitable via the id parameter.",
+      "cveName": "CVE-2024-50801",
+      "cveUrl": "/vuln/detail/CVE-2024-50801"
+    }
+  },
+  "CVE-2024-50802": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "A SQL Injection vulnerability was discovered in AbanteCart 1.4.0 in the update() function in public_html/admin/controller/responses/listing_grid/email_templates.php. The vulnerability is exploitable via the id parameter.",
+      "cveName": "CVE-2024-50802",
+      "cveUrl": "/vuln/detail/CVE-2024-50802"
+    }
+  },
+  "CVE-2024-51060": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "Projectworlds Online Admission System v1 is vulnerable to SQL Injection in index.php via the 'a_id' parameter.",
+      "cveName": "CVE-2024-51060",
+      "cveUrl": "/vuln/detail/CVE-2024-51060"
+    }
+  },
+  "CVE-2024-51063": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "Phpgurukul Teachers Record Management System v2.1 is vulnerable to SQL Injection in add-teacher.php via the mobile number or email parameter.",
+      "cveName": "CVE-2024-51063",
+      "cveUrl": "/vuln/detail/CVE-2024-51063"
+    }
+  },
+  "CVE-2024-51064": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "Phpgurukul Teachers Record Management System v2.1 is vulnerable to SQL Injection via the tid parameter to admin/queries.php.",
+      "cveName": "CVE-2024-51064",
+      "cveUrl": "/vuln/detail/CVE-2024-51064"
+    }
+  },
+  "CVE-2024-51065": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "Phpgurukul Beauty Parlour Management System v1.1 is vulnerable to SQL Injection in admin/index.php via the the username parameter.",
+      "cveName": "CVE-2024-51065",
+      "cveUrl": "/vuln/detail/CVE-2024-51065"
+    }
+  },
+  "CVE-2024-51066": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "3:15:13 PM -0400"
+      ],
+      "cveDis": "An Insecure Direct Object Reference (IDOR) vulnerability in appointment-detail.php in Phpgurukul's Beauty Parlour Management System v1.1 allows unauthorized access to the Personally Identifiable Information (PII) of other customers.",
+      "cveName": "CVE-2024-51066",
+      "cveUrl": "/vuln/detail/CVE-2024-51066"
+    }
+  },
   "CVE-2024-51075": {
     "cve": {
       "cveDate": [
@@ -25266,6 +25695,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51481"
     }
   },
+  "CVE-2024-51482": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "2:15:05 PM -0400"
+      ],
+      "cveDis": "ZoneMinder is a free, open source closed-circuit television software application. ZoneMinder v1.37.* <= 1.37.64 is vulnerable to boolean-based SQL Injection in function of web/ajax/event.php. This is fixed in 1.37.64.",
+      "cveName": "CVE-2024-51482",
+      "cveUrl": "/vuln/detail/CVE-2024-51482"
+    }
+  },
   "CVE-2024-51506": {
     "cve": {
       "cveDate": [
@@ -25561,6 +26001,28 @@
       "cveDis": "No proper validation of the length of user input in olcp_ind_handler in zephyr/subsys/bluetooth/services/ots/ots_client.c.",
       "cveName": "CVE-2024-6444",
       "cveUrl": "/vuln/detail/CVE-2024-6444"
+    }
+  },
+  "CVE-2024-6479": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "The SIP Reviews Shortcode for WooCommerce plugin for WordPress is vulnerable to SQL Injection via the 'no_of_reviews' attribute in the woocommerce_reviews shortcode in all versions up to, and including, 1.2.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-6479",
+      "cveUrl": "/vuln/detail/CVE-2024-6479"
+    }
+  },
+  "CVE-2024-64806-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "October 31, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "The SIP Reviews Shortcode for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'no_of_reviews' attribute in the woocommerce_reviews shortcode in all versions up to, and including, 1.2.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-64806-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-6480"
     }
   },
   "CVE-2024-6519": {
