@@ -26663,6 +26663,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51568"
     }
   },
+  "CVE-2024-51774": {
+    "cve": {
+      "cveDate": [
+        "November 02, 2024",
+        "2:15:03 AM -0400"
+      ],
+      "cveDis": "qBittorrent before 5.0.1 proceeds with use of https URLs even after certificate validation errors.",
+      "cveName": "CVE-2024-51774",
+      "cveUrl": "/vuln/detail/CVE-2024-51774"
+    }
+  },
   "CVE-2024-5429": {
     "cve": {
       "cveDate": [
@@ -33613,6 +33624,17 @@
       "cveDis": "The Smart Online Order for Clover plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's moo_receipt_link shortcode in all versions up to, and including, 1.5.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-98956-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9895"
+    }
+  },
+  "CVE-2024-98966-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 02, 2024",
+        "4:15:03 AM -0400"
+      ],
+      "cveDis": "The BBP Core – Expand bbPress powered forums with useful features plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-98966-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9896"
     }
   },
   "CVE-2024-98976-4 MEDIUM": {
