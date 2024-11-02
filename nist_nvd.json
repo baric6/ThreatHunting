@@ -2749,6 +2749,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10301"
     }
   },
+  "CVE-2024-103106-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "10:15:12 PM -0400"
+      ],
+      "cveDis": "The Element Pack Elementor Addons (Header Footer, Template Library, Dynamic Grid & Carousel, Remote Arrows) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Custom Gallery Widget 'image_title' parameter in all versions up to, and including, 5.10.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-103106-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10310"
+    }
+  },
   "CVE-2024-103124-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -3858,6 +3869,17 @@
       "cveDis": "In Eclipse Mosquitto, from version 1.3.2 through 2.0.18, if a malicious broker sends a crafted SUBACK packet with no reason codes, a client using libmosquitto may make out of bounds memory access when acting in its on_subscribe callback. This affects the mosquitto_sub and mosquitto_rr clients.",
       "cveName": "CVE-2024-10525",
       "cveUrl": "/vuln/detail/CVE-2024-10525"
+    }
+  },
+  "CVE-2024-105405-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "10:15:12 PM -0400"
+      ],
+      "cveDis": "The Appointment Booking Calendar Plugin and Scheduling Plugin – BookingPress plugin for WordPress is vulnerable to SQL Injection via the 'service' parameter of the bookingpress_form shortcode in all versions up to, and including, 1.1.16 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-105405-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10540"
     }
   },
   "CVE-2024-105445-3 MEDIUM": {
@@ -10975,6 +10997,39 @@
       "cveDis": "An information leakage was addressed with additional validation. This issue is fixed in visionOS 2.1, iOS 18.1 and iPadOS 18.1. Private browsing may leak some browsing history.",
       "cveName": "CVE-2024-44229",
       "cveUrl": "/vuln/detail/CVE-2024-44229"
+    }
+  },
+  "CVE-2024-44232": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "The issue was addressed with improved bounds checks. This issue is fixed in macOS Sonoma 14.7.1, macOS Ventura 13.7.1, visionOS 2.1, watchOS 11.1, tvOS 18.1, iOS 17.7.1 and iPadOS 17.7.1, iOS 18.1 and iPadOS 18.1. Parsing a maliciously crafted video file may lead to unexpected system termination.",
+      "cveName": "CVE-2024-44232",
+      "cveUrl": "/vuln/detail/CVE-2024-44232"
+    }
+  },
+  "CVE-2024-44233": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "The issue was addressed with improved bounds checks. This issue is fixed in macOS Sonoma 14.7.1, macOS Ventura 13.7.1, visionOS 2.1, watchOS 11.1, tvOS 18.1, iOS 17.7.1 and iPadOS 17.7.1, iOS 18.1 and iPadOS 18.1. Parsing a maliciously crafted video file may lead to unexpected system termination.",
+      "cveName": "CVE-2024-44233",
+      "cveUrl": "/vuln/detail/CVE-2024-44233"
+    }
+  },
+  "CVE-2024-44234": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "5:15:14 PM -0400"
+      ],
+      "cveDis": "The issue was addressed with improved bounds checks. This issue is fixed in macOS Sonoma 14.7.1, macOS Ventura 13.7.1, visionOS 2.1, watchOS 11.1, tvOS 18.1, iOS 17.7.1 and iPadOS 17.7.1, iOS 18.1 and iPadOS 18.1. Parsing a maliciously crafted video file may lead to unexpected system termination.",
+      "cveName": "CVE-2024-44234",
+      "cveUrl": "/vuln/detail/CVE-2024-44234"
     }
   },
   "CVE-2024-44235": {
@@ -20206,6 +20261,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48352"
     }
   },
+  "CVE-2024-48353": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "Yealink Meeting Server before V26.0.0.67 allows attackers to obtain static key information from a front-end JS file and decrypt the plaintext passwords based on the obtained key information.",
+      "cveName": "CVE-2024-48353",
+      "cveUrl": "/vuln/detail/CVE-2024-48353"
+    }
+  },
   "CVE-2024-48356": {
     "cve": {
       "cveDate": [
@@ -26201,6 +26267,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51248"
     }
   },
+  "CVE-2024-51252": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "2:15:07 PM -0400"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the restore function.",
+      "cveName": "CVE-2024-51252",
+      "cveUrl": "/vuln/detail/CVE-2024-51252"
+    }
+  },
   "CVE-2024-51254": {
     "cve": {
       "cveDate": [
@@ -28720,6 +28797,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8733"
     }
   },
+  "CVE-2024-87396-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "10:15:12 PM -0400"
+      ],
+      "cveDis": "The ReCaptcha Integration for WordPress plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-87396-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8739"
+    }
+  },
   "CVE-2024-87406-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -29763,6 +29851,17 @@
       "cveDis": "The EU/UK VAT Manager for WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the alg_wc_eu_vat_exempt_vat_from_admin() function in all versions up to, and including, 2.12.12. This makes it possible for unauthenticated attackers to update the VAT status for any order.",
       "cveName": "CVE-2024-91895-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9189"
+    }
+  },
+  "CVE-2024-9191": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "6:15:03 PM -0400"
+      ],
+      "cveDis": "The Okta Device Access features, provided by the Okta Verify agent for Windows, provides access to the OktaDeviceAccessPipe, which enables attackers in a compromised device to retrieve passwords associated with Desktop MFA passwordless logins. The vulnerability was discovered via routine penetration testing.\n\nNote: A precondition of this vulnerability is that the user must be using the Okta Device Access passwordless feature. Okta Device Access users not using passwordless are not affected, and customers only using Okta Verify on platforms other than Windows, or only using FastPass are not affected.",
+      "cveName": "CVE-2024-9191",
+      "cveUrl": "/vuln/detail/CVE-2024-9191"
     }
   },
   "CVE-2024-9194": {
@@ -33393,6 +33492,17 @@
       "cveDis": "The EventPrime – Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘ep_booking_attendee_fields’ fields in all versions up to, and including, 4.0.4.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses the transaction log for a booking.",
       "cveName": "CVE-2024-9865",
       "cveUrl": "/vuln/detail/CVE-2024-9865"
+    }
+  },
+  "CVE-2024-98685-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 01, 2024",
+        "10:15:12 PM -0400"
+      ],
+      "cveDis": "The Element Pack Elementor Addons (Header Footer, Template Library, Dynamic Grid & Carousel, Remote Arrows) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Age Gate Widget 'url' parameter in all versions up to, and including, 5.10.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-98685-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9868"
     }
   },
   "CVE-2024-98846-4 MEDIUM": {
