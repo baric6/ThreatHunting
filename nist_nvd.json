@@ -4289,6 +4289,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-10662"
     }
   },
+  "CVE-2024-10697": {
+    "cve": {
+      "cveDate": [
+        "November 02, 2024",
+        "8:15:15 AM -0400"
+      ],
+      "cveDis": "A vulnerability has been found in Tenda AC6 15.03.05.19 and classified as critical. Affected by this vulnerability is the function formWriteFacMac of the file /goform/WriteFacMac of the component API Endpoint. The manipulation of the argument The leads to command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10697",
+      "cveUrl": "/vuln/detail/CVE-2024-10697"
+    }
+  },
+  "CVE-2024-10698": {
+    "cve": {
+      "cveDate": [
+        "November 02, 2024",
+        "10:15:12 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in Tenda AC6 15.03.05.19 and classified as critical. Affected by this issue is the function formSetDeviceName of the file /goform/SetOnlineDevName. The manipulation of the argument devName leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10698",
+      "cveUrl": "/vuln/detail/CVE-2024-10698"
+    }
+  },
+  "CVE-2024-10699": {
+    "cve": {
+      "cveDate": [
+        "November 02, 2024",
+        "11:15:16 AM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Wazifa System 1.0. It has been classified as critical. This affects an unknown part of the file /controllers/logincontrol.php. The manipulation of the argument username leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10699",
+      "cveUrl": "/vuln/detail/CVE-2024-10699"
+    }
+  },
+  "CVE-2024-10700": {
+    "cve": {
+      "cveDate": [
+        "November 02, 2024",
+        "12:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in code-projects University Event Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file submit.php. The manipulation of the argument name/email/title/Year/gender/fromdate/todate/people leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"name\" to be affected. But it must be assumed that a variety of other parameters is affected too.",
+      "cveName": "CVE-2024-10700",
+      "cveUrl": "/vuln/detail/CVE-2024-10700"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
