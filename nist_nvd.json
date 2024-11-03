@@ -4333,6 +4333,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-10700"
     }
   },
+  "CVE-2024-10701": {
+    "cve": {
+      "cveDate": [
+        "November 02, 2024",
+        "2:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability was found in PHPGurukul Car Rental Portal 1.0. It has been rated as problematic. This issue affects some unknown processing of the file /search.php. The manipulation of the argument searchdata leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10701",
+      "cveUrl": "/vuln/detail/CVE-2024-10701"
+    }
+  },
+  "CVE-2024-10702": {
+    "cve": {
+      "cveDate": [
+        "November 02, 2024",
+        "2:15:03 PM -0400"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in code-projects Simple Car Rental System 1.0. Affected is an unknown function of the file /signup.php. The manipulation of the argument fname leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10702",
+      "cveUrl": "/vuln/detail/CVE-2024-10702"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
