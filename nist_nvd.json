@@ -4388,6 +4388,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-10732"
     }
   },
+  "CVE-2024-10733": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "7:15:12 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Restaurant Order System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /login.php. The manipulation of the argument uid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10733",
+      "cveUrl": "/vuln/detail/CVE-2024-10733"
+    }
+  },
+  "CVE-2024-10734": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "8:15:03 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Project Worlds Life Insurance Management System 1.0. It has been classified as critical. This affects an unknown part of the file /editPayment.php. The manipulation of the argument recipt_no leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10734",
+      "cveUrl": "/vuln/detail/CVE-2024-10734"
+    }
+  },
+  "CVE-2024-10735": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:13 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Project Worlds Life Insurance Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /editNominee.php. The manipulation of the argument nominee_id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10735",
+      "cveUrl": "/vuln/detail/CVE-2024-10735"
+    }
+  },
+  "CVE-2024-10736": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "10:15:03 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Codezips Free Exam Hall Seating Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /student.php. The manipulation of the argument email leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10736",
+      "cveUrl": "/vuln/detail/CVE-2024-10736"
+    }
+  },
+  "CVE-2024-10737": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "10:15:03 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in Codezips Free Exam Hall Seating Management System 1.0. Affected is an unknown function of the file /teacher.php. The manipulation of the argument email leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10737",
+      "cveUrl": "/vuln/detail/CVE-2024-10737"
+    }
+  },
+  "CVE-2024-10738": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in itsourcecode Farm Management System 1.0. Affected by this vulnerability is an unknown functionality of the file manage-breed.php. The manipulation of the argument breed leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10738",
+      "cveUrl": "/vuln/detail/CVE-2024-10738"
+    }
+  },
+  "CVE-2024-10739": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "1:15:02 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in code-projects E-Health Care System 1.0. Affected by this issue is some unknown functionality of the file /Admin/adminlogin.php. The manipulation of the argument email/admin_pswd as part of String leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"email\" to be affected. But it must be assumed that parameter \"admin_pswd\" is affected as well.",
+      "cveName": "CVE-2024-10739",
+      "cveUrl": "/vuln/detail/CVE-2024-10739"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
