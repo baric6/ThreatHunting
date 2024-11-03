@@ -4355,6 +4355,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-10702"
     }
   },
+  "CVE-2024-10730": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "4:15:02 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in Tongda OA up to 11.6. This issue affects some unknown processing of the file /pda/appcenter/web_show.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10730",
+      "cveUrl": "/vuln/detail/CVE-2024-10730"
+    }
+  },
+  "CVE-2024-10731": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "5:15:03 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in Tongda OA up to 11.10. Affected is an unknown function of the file /pda/appcenter/check_seal.php. The manipulation of the argument ID leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10731",
+      "cveUrl": "/vuln/detail/CVE-2024-10731"
+    }
+  },
+  "CVE-2024-10732": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "6:15:03 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in Tongda OA 2017 up to 11.10 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /module/word_model/view/index.php. The manipulation of the argument query_str leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10732",
+      "cveUrl": "/vuln/detail/CVE-2024-10732"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
