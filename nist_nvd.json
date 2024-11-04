@@ -3112,6 +3112,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10387"
     }
   },
+  "CVE-2024-10389": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "6:15:04 AM -0500"
+      ],
+      "cveDis": "There exists a Path Traversal vulnerability in Safearchive on Platforms with Case-Insensitive Filesystems (e.g., NTFS). This allows Attackers to Write Arbitrary Files via Archive Extraction containing symbolic links. We recommend upgrading past commit f7ce9d7b6f9c6ecd72d0b0f16216b046e55e44dc",
+      "cveName": "CVE-2024-10389",
+      "cveUrl": "/vuln/detail/CVE-2024-10389"
+    }
+  },
   "CVE-2024-103929-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -4683,6 +4694,28 @@
       "cveDis": "A vulnerability has been found in itsourcecode Farm Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /edit-pig.php. The manipulation of the argument pigno/weight/arrived/breed/remark/status leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"pigno\" to be affected. But it must be assumed that other parameters are affected as well.",
       "cveName": "CVE-2024-10759",
       "cveUrl": "/vuln/detail/CVE-2024-10759"
+    }
+  },
+  "CVE-2024-10760": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "12:15:03 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects University Event Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /dodelete.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10760",
+      "cveUrl": "/vuln/detail/CVE-2024-10760"
+    }
+  },
+  "CVE-2024-10761": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "12:15:04 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Umbraco CMS 12.3.6. It has been classified as problematic. Affected is an unknown function of the file /Umbraco/preview/frame?id{} of the component Dashboard. The manipulation of the argument culture leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10761",
+      "cveUrl": "/vuln/detail/CVE-2024-10761"
     }
   },
   "CVE-2024-20090": {
@@ -6621,6 +6654,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-23376"
     }
   },
+  "CVE-2024-23377": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "Memory corruption while invoking IOCTL command from user-space, when a user modifies the original packet size of the command after system properties have been already sent to the EVA driver.",
+      "cveName": "CVE-2024-23377",
+      "cveUrl": "/vuln/detail/CVE-2024-23377"
+    }
+  },
   "CVE-2024-233786-7 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -6643,6 +6687,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-23379"
     }
   },
+  "CVE-2024-233857-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "Transient DOS as modem reset occurs when an unexpected MAC RAR (with invalid PDU length) is seen at UE.",
+      "cveName": "CVE-2024-233857-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-23385"
+    }
+  },
+  "CVE-2024-233866-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "memory corruption when WiFi display APIs are invoked with large random inputs.",
+      "cveName": "CVE-2024-233866-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-23386"
+    }
+  },
   "CVE-2024-23586": {
     "cve": {
       "cveDate": [
@@ -6652,6 +6718,17 @@
       "cveDis": "HCL Nomad is susceptible to an insufficient session expiration vulnerability.   Under certain circumstances, an unauthenticated attacker could obtain old session information.",
       "cveName": "CVE-2024-23586",
       "cveUrl": "/vuln/detail/CVE-2024-23586"
+    }
+  },
+  "CVE-2024-23590": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "Session Fixation vulnerability in Apache Kylin.\n\nThis issue affects Apache Kylin: from 2.0.0 through 4.x.\n\nUsers are recommended to upgrade to version 5.0.0 or above, which fixes the issue.",
+      "cveName": "CVE-2024-23590",
+      "cveUrl": "/vuln/detail/CVE-2024-23590"
     }
   },
   "CVE-2024-23843": {
@@ -7633,6 +7710,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-32946"
     }
   },
+  "CVE-2024-33029": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "Memory corruption while handling the PDR in driver for getting the remote heap maps.",
+      "cveName": "CVE-2024-33029",
+      "cveUrl": "/vuln/detail/CVE-2024-33029"
+    }
+  },
+  "CVE-2024-330306-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "Memory corruption while parsing IPC frequency table parameters for LPLH that has size greater than expected size.",
+      "cveName": "CVE-2024-330306-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33030"
+    }
+  },
+  "CVE-2024-330316-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "Memory corruption while processing the update SIM PB records request.",
+      "cveName": "CVE-2024-330316-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33031"
+    }
+  },
+  "CVE-2024-330326-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "Memory corruption when the user application modifies the same shared memory asynchronously when kernel is accessing it.",
+      "cveName": "CVE-2024-330326-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33032"
+    }
+  },
+  "CVE-2024-330336-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "Memory corruption while processing IOCTL calls to unmap the buffers.",
+      "cveName": "CVE-2024-330336-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33033"
+    }
+  },
   "CVE-2024-33049": {
     "cve": {
       "cveDate": [
@@ -7675,6 +7807,17 @@
       "cveDis": "Memory corruption while redirecting log file to any file location with any file name.",
       "cveName": "CVE-2024-330669-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-33066"
+    }
+  },
+  "CVE-2024-330687-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "Transient DOS while parsing fragments of MBSSID IE from beacon frame.",
+      "cveName": "CVE-2024-330687-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33068"
     }
   },
   "CVE-2024-330697-5 HIGH": {
@@ -8566,6 +8709,149 @@
       "cveDis": "Memory corruption while processing user packets to generate page faults.",
       "cveName": "CVE-2024-383998-4 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-38399"
+    }
+  },
+  "CVE-2024-384037-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "Transient DOS while parsing BTM ML IE when per STA profile is not included.",
+      "cveName": "CVE-2024-384037-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38403"
+    }
+  },
+  "CVE-2024-384057-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "Transient DOS while processing the CU information from RNR IE.",
+      "cveName": "CVE-2024-384057-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38405"
+    }
+  },
+  "CVE-2024-384067-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:07 AM -0500"
+      ],
+      "cveDis": "Memory corruption while handling IOCTL calls in JPEG Encoder driver.",
+      "cveName": "CVE-2024-384067-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38406"
+    }
+  },
+  "CVE-2024-384077-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:07 AM -0500"
+      ],
+      "cveDis": "Memory corruption while processing input parameters for any IOCTL call in the JPEG Encoder driver.",
+      "cveName": "CVE-2024-384077-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38407"
+    }
+  },
+  "CVE-2024-384088-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:07 AM -0500"
+      ],
+      "cveDis": "Cryptographic issue when a controller receives an LMP start encryption command under unexpected conditions.",
+      "cveName": "CVE-2024-384088-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38408"
+    }
+  },
+  "CVE-2024-384097-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:07 AM -0500"
+      ],
+      "cveDis": "Memory corruption while station LL statistic handling.",
+      "cveName": "CVE-2024-384097-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38409"
+    }
+  },
+  "CVE-2024-38410": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:07 AM -0500"
+      ],
+      "cveDis": "Memory corruption while IOCLT is called when device is in invalid state and the WMI command buffer may be freed twice.",
+      "cveName": "CVE-2024-38410",
+      "cveUrl": "/vuln/detail/CVE-2024-38410"
+    }
+  },
+  "CVE-2024-384157-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:08 AM -0500"
+      ],
+      "cveDis": "Memory corruption while handling session errors from firmware.",
+      "cveName": "CVE-2024-384157-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38415"
+    }
+  },
+  "CVE-2024-384197-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:08 AM -0500"
+      ],
+      "cveDis": "Memory corruption while invoking IOCTL calls from the use-space for HGSL memory node.",
+      "cveName": "CVE-2024-384197-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38419"
+    }
+  },
+  "CVE-2024-384217-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:08 AM -0500"
+      ],
+      "cveDis": "Memory corruption while processing GPU commands.",
+      "cveName": "CVE-2024-384217-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38421"
+    }
+  },
+  "CVE-2024-384227-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:08 AM -0500"
+      ],
+      "cveDis": "Memory corruption while processing voice packet with arbitrary data received from ADSP.",
+      "cveName": "CVE-2024-384227-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38422"
+    }
+  },
+  "CVE-2024-384237-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:09 AM -0500"
+      ],
+      "cveDis": "Memory corruption while processing GPU page table switch.",
+      "cveName": "CVE-2024-384237-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38423"
+    }
+  },
+  "CVE-2024-384247-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "5:15:09 AM -0500"
+      ],
+      "cveDis": "Memory corruption during GNSS HAL process initialization.",
+      "cveName": "CVE-2024-384247-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-38424"
     }
   },
   "CVE-2024-384256-1 MEDIUM": {
@@ -22021,6 +22307,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48870"
     }
   },
+  "CVE-2024-48878": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "6:15:06 AM -0500"
+      ],
+      "cveDis": "Zohocorp ManageEngine ADManager Plus versions 7241 and prior are vulnerable to SQL Injection in Archived Audit Report.",
+      "cveName": "CVE-2024-48878",
+      "cveUrl": "/vuln/detail/CVE-2024-48878"
+    }
+  },
   "CVE-2024-48902": {
     "cve": {
       "cveDate": [
@@ -27266,6 +27563,17 @@
       "cveDis": "CyberPanel (aka Cyber Panel) before 2.3.5 allows Command Injection via completePath in the ProcessUtilities.outputExecutioner() sink. There is /filemanager/upload (aka File Manager upload) unauthenticated remote code execution via shell metacharacters.",
       "cveName": "CVE-2024-51568",
       "cveUrl": "/vuln/detail/CVE-2024-51568"
+    }
+  },
+  "CVE-2024-51661": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "6:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in David Lingren Media Library Assistant allows Command Injection.This issue affects Media Library Assistant: from n/a through 3.19.",
+      "cveName": "CVE-2024-51661",
+      "cveUrl": "/vuln/detail/CVE-2024-51661"
     }
   },
   "CVE-2024-51774": {
