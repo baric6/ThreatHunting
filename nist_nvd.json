@@ -1484,6 +1484,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10033"
     }
   },
+  "CVE-2024-10035": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "7:16:08 AM -0500"
+      ],
+      "cveDis": "Improper Control of Generation of Code ('Code Injection') vulnerability in BG-TEK Informatics Security Technologies CoslatV3 allows Command Injection.This issue affects CoslatV3: through 3.1069. \n\n\n\nNOTE: The vendor was contacted and it was learned that the product is not supported.",
+      "cveName": "CVE-2024-10035",
+      "cveUrl": "/vuln/detail/CVE-2024-10035"
+    }
+  },
   "CVE-2024-100405-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -3871,6 +3882,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10509"
     }
   },
+  "CVE-2024-10523": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "7:16:09 AM -0500"
+      ],
+      "cveDis": "This vulnerability exists in TP-Link IoT Smart Hub due to storage of Wi-Fi credentials in plain text within the device firmware. An attacker with physical access could exploit this by extracting the firmware and analyzing the binary data to obtain the Wi-Fi credentials stored on the vulnerable device.",
+      "cveName": "CVE-2024-10523",
+      "cveUrl": "/vuln/detail/CVE-2024-10523"
+    }
+  },
   "CVE-2024-10525": {
     "cve": {
       "cveDate": [
@@ -4716,6 +4738,39 @@
       "cveDis": "A vulnerability was found in Umbraco CMS 12.3.6. It has been classified as problematic. Affected is an unknown function of the file /Umbraco/preview/frame?id{} of the component Dashboard. The manipulation of the argument culture leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10761",
       "cveUrl": "/vuln/detail/CVE-2024-10761"
+    }
+  },
+  "CVE-2024-10764": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "11:15:04 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in Codezips Online Institute Management System 1.0. This affects an unknown part of the file /pages/save_user.php. The manipulation of the argument image leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10764",
+      "cveUrl": "/vuln/detail/CVE-2024-10764"
+    }
+  },
+  "CVE-2024-10765": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "11:15:04 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in Codezips Online Institute Management System up to 1.0. This vulnerability affects unknown code of the file /profile.php. The manipulation of the argument old_image leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10765",
+      "cveUrl": "/vuln/detail/CVE-2024-10765"
+    }
+  },
+  "CVE-2024-10766": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "1:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in Codezips Free Exam Hall Seating Management System 1.0. This issue affects some unknown processing of the file /pages/save_user.php. The manipulation of the argument image leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher disclosure contains confusing vulnerability classes and file names.",
+      "cveName": "CVE-2024-10766",
+      "cveUrl": "/vuln/detail/CVE-2024-10766"
     }
   },
   "CVE-2024-20090": {
@@ -8205,6 +8260,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-34672"
     }
   },
+  "CVE-2024-34882": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "1:15:04 PM -0500"
+      ],
+      "cveDis": "Insufficiently protected credentials in SMTP server settings in 1C-Bitrix Bitrix24 23.300.100 allows remote administrators to send SMTP account passwords to an arbitrary server via HTTP POST request.",
+      "cveName": "CVE-2024-34882",
+      "cveUrl": "/vuln/detail/CVE-2024-34882"
+    }
+  },
+  "CVE-2024-34883": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "1:15:04 PM -0500"
+      ],
+      "cveDis": "Insufficiently protected credentials in DAV server settings in 1C-Bitrix Bitrix24 23.300.100 allow remote administrators to read proxy-server accounts passwords via HTTP GET request.",
+      "cveName": "CVE-2024-34883",
+      "cveUrl": "/vuln/detail/CVE-2024-34883"
+    }
+  },
+  "CVE-2024-34887": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "1:15:04 PM -0500"
+      ],
+      "cveDis": "Insufficiently protected credentials in AD/LDAP server settings in 1C-Bitrix Bitrix24 23.300.100 allows remote administrators to send AD/LDAP administrators account passwords to an arbitrary server via HTTP POST request.",
+      "cveName": "CVE-2024-34887",
+      "cveUrl": "/vuln/detail/CVE-2024-34887"
+    }
+  },
   "CVE-2024-3506": {
     "cve": {
       "cveDate": [
@@ -8434,6 +8522,17 @@
       "cveDis": "An integer overflow vulnerability exists in the Compound Document Binary File format parser of the GNOME Project G Structured File Library (libgsf) version v1.14.52. A specially crafted file can result in an integer overflow when processing the directory from the file that allows for an out-of-bounds index to be used when reading and writing to an array. This can lead to arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.",
       "cveName": "CVE-2024-364748-4 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-36474"
+    }
+  },
+  "CVE-2024-36485": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "7:16:09 AM -0500"
+      ],
+      "cveDis": "Zohocorp ManageEngine ADAudit Plus versions 8121 and prior are vulnerable to SQL Injection in Technician reports option.",
+      "cveName": "CVE-2024-36485",
+      "cveUrl": "/vuln/detail/CVE-2024-36485"
     }
   },
   "CVE-2024-36568-1 HIGH": {
@@ -13078,6 +13177,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45160"
     }
   },
+  "CVE-2024-45164": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "Akamai SIA (Secure Internet Access Enterprise) ThreatAvert, in SPS (Security and Personalization Services) before the latest 19.2.0 patch and Apps Portal before 19.2.0.3 or 19.2.0.20240814, has incorrect authorization controls for the Admin functionality on the ThreatAvert Policy page. An authenticated user can navigate directly to the /#app/intelligence/threatAvertPolicies URI and disable policy enforcement.",
+      "cveName": "CVE-2024-45164",
+      "cveUrl": "/vuln/detail/CVE-2024-45164"
+    }
+  },
   "CVE-2024-45179": {
     "cve": {
       "cveDate": [
@@ -14209,6 +14319,105 @@
       "cveDis": "A command injection vulnerability exists in Motorola CX2L router v1.0.2 and below. The vulnerability is present in the SetStationSettings function. The system directly invokes the system function to execute commands for setting parameters such as MAC address without proper input filtering. This allows malicious users to inject and execute arbitrary commands.",
       "cveName": "CVE-2024-45880",
       "cveUrl": "/vuln/detail/CVE-2024-45880"
+    }
+  },
+  "CVE-2024-45882": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:21 AM -0500"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 contains a command injection vulnerability. This vulnerability occurs when the `action` parameter in `cgi-bin/mainfunction.cgi` is set to `delete_map_profile.`",
+      "cveName": "CVE-2024-45882",
+      "cveUrl": "/vuln/detail/CVE-2024-45882"
+    }
+  },
+  "CVE-2024-45884": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:21 AM -0500"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 contains a post-authentication command injection vulnerability. This vulnerability occurs when the `action` parameter in `cgi-bin/mainfunction.cgi` is set to `setSWMGroup.`",
+      "cveName": "CVE-2024-45884",
+      "cveUrl": "/vuln/detail/CVE-2024-45884"
+    }
+  },
+  "CVE-2024-45885": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:22 AM -0500"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 contains a post-authentication command injection vulnerability. This vulnerability occurs when the `action` parameter in `cgi-bin/mainfunction.cgi` is set to `autodiscovery_clear.`",
+      "cveName": "CVE-2024-45885",
+      "cveUrl": "/vuln/detail/CVE-2024-45885"
+    }
+  },
+  "CVE-2024-45887": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:22 AM -0500"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 contains a post-authentication command injection vulnerability. This vulnerability occurs when the `action` parameter in `cgi-bin/mainfunction.cgi` is set to `doOpenVPN.`",
+      "cveName": "CVE-2024-45887",
+      "cveUrl": "/vuln/detail/CVE-2024-45887"
+    }
+  },
+  "CVE-2024-45888": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:22 AM -0500"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 contains a command injection vulnerability. This vulnerability occurs when the `action` parameter in `cgi-bin/mainfunction.cgi` is set to `set_ap_map_config.'",
+      "cveName": "CVE-2024-45888",
+      "cveUrl": "/vuln/detail/CVE-2024-45888"
+    }
+  },
+  "CVE-2024-45889": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:22 AM -0500"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 contains a post-authentication command injection vulnerability. This vulnerability occurs when the `action` parameter in `cgi-bin/mainfunction.cgi` is set to `commandTable.`",
+      "cveName": "CVE-2024-45889",
+      "cveUrl": "/vuln/detail/CVE-2024-45889"
+    }
+  },
+  "CVE-2024-45890": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:22 AM -0500"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 contains a post-authentication command injection vulnerability This vulnerability occurs when the `action` parameter in `cgi-bin/mainfunction.cgi` is set to `download_ovpn.`",
+      "cveName": "CVE-2024-45890",
+      "cveUrl": "/vuln/detail/CVE-2024-45890"
+    }
+  },
+  "CVE-2024-45891": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:22 AM -0500"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 contains a post-authentication command injection vulnerability. This vulnerability occurs when the `action` parameter in `cgi-bin/mainfunction.cgi` is set to `delete_wlan_profile.`",
+      "cveName": "CVE-2024-45891",
+      "cveUrl": "/vuln/detail/CVE-2024-45891"
+    }
+  },
+  "CVE-2024-45893": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:22 AM -0500"
+      ],
+      "cveDis": "DrayTek Vigor3900 1.5.1.3 contains a post-authentication command injection vulnerability. This vulnerability occurs when the `action` parameter in `cgi-bin/mainfunction.cgi` is set to `setSWMOption.`",
+      "cveName": "CVE-2024-45893",
+      "cveUrl": "/vuln/detail/CVE-2024-45893"
     }
   },
   "CVE-2024-45894": {
@@ -21119,6 +21328,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48311"
     }
   },
+  "CVE-2024-48336": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "1:15:05 PM -0500"
+      ],
+      "cveDis": "The install() function of ProviderInstaller.java in Magisk App before canary version 27007 does not verify the GMS app before loading it, which allows a local untrusted app with no additional privileges to silently execute arbitrary code in the Magisk app and escalate privileges to root via a crafted package, aka Bug #8279. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2024-48336",
+      "cveUrl": "/vuln/detail/CVE-2024-48336"
+    }
+  },
   "CVE-2024-48343": {
     "cve": {
       "cveDate": [
@@ -22228,6 +22448,17 @@
       "cveDis": "Cross Site Scripting vulnerability in PHPGurukul Doctor Appointment Management System v.1.0 allows a local attacker to execute arbitrary code via the search parameter.",
       "cveName": "CVE-2024-48807",
       "cveUrl": "/vuln/detail/CVE-2024-48807"
+    }
+  },
+  "CVE-2024-48809": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "An issue in Open Networking Foundations sdran-in-a-box v.1.4.3 and onos-a1t v.0.2.3 allows a remote attacker to cause a denial of service via the onos-a1t component of the sdran-in-a-box, specifically the DeleteWatcher function.",
+      "cveName": "CVE-2024-48809",
+      "cveUrl": "/vuln/detail/CVE-2024-48809"
     }
   },
   "CVE-2024-48813": {
@@ -26740,6 +26971,94 @@
       "cveUrl": "/vuln/detail/CVE-2024-50512"
     }
   },
+  "CVE-2024-50523": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in RainbowLink Inc. All Post Contact Form allows Upload a Web Shell to a Web Server.This issue affects All Post Contact Form: from n/a through 1.7.3.",
+      "cveName": "CVE-2024-50523",
+      "cveUrl": "/vuln/detail/CVE-2024-50523"
+    }
+  },
+  "CVE-2024-50525": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Helloprint Plug your WooCommerce into the largest catalog of customized print products from Helloprint allows Upload a Web Shell to a Web Server.This issue affects Plug your WooCommerce into the largest catalog of customized print products from Helloprint: from n/a through 2.0.2.",
+      "cveName": "CVE-2024-50525",
+      "cveUrl": "/vuln/detail/CVE-2024-50525"
+    }
+  },
+  "CVE-2024-50526": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in mahlamusa Multi Purpose Mail Form allows Upload a Web Shell to a Web Server.This issue affects Multi Purpose Mail Form: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-50526",
+      "cveUrl": "/vuln/detail/CVE-2024-50526"
+    }
+  },
+  "CVE-2024-50527": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Stacks Stacks Mobile App Builder allows Upload a Web Shell to a Web Server.This issue affects Stacks Mobile App Builder: from n/a through 5.2.3.",
+      "cveName": "CVE-2024-50527",
+      "cveUrl": "/vuln/detail/CVE-2024-50527"
+    }
+  },
+  "CVE-2024-50528": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Stacks Stacks Mobile App Builder allows Retrieve Embedded Sensitive Data.This issue affects Stacks Mobile App Builder: from n/a through 5.2.3.",
+      "cveName": "CVE-2024-50528",
+      "cveUrl": "/vuln/detail/CVE-2024-50528"
+    }
+  },
+  "CVE-2024-50529": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Rudra Innnovative Software Training – Courses allows Upload a Web Shell to a Web Server.This issue affects Training – Courses: from n/a through 2.0.1.",
+      "cveName": "CVE-2024-50529",
+      "cveUrl": "/vuln/detail/CVE-2024-50529"
+    }
+  },
+  "CVE-2024-50530": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Myriad Solutionz Stars SMTP Mailer allows Upload a Web Shell to a Web Server.This issue affects Stars SMTP Mailer: from n/a through 1.7.",
+      "cveName": "CVE-2024-50530",
+      "cveUrl": "/vuln/detail/CVE-2024-50530"
+    }
+  },
+  "CVE-2024-50531": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in David F. Carr RSVPMaker for Toastmasters allows Upload a Web Shell to a Web Server.This issue affects RSVPMaker for Toastmasters: from n/a through 6.2.4.",
+      "cveName": "CVE-2024-50531",
+      "cveUrl": "/vuln/detail/CVE-2024-50531"
+    }
+  },
   "CVE-2024-50550": {
     "cve": {
       "cveDate": [
@@ -27081,6 +27400,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-51076"
     }
   },
+  "CVE-2024-51127": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "1:15:05 PM -0500"
+      ],
+      "cveDis": "An issue in the createTempFile method of hornetq v2.4.9 allows attackers to arbitrarily overwrite files or access sensitive information.",
+      "cveName": "CVE-2024-51127",
+      "cveUrl": "/vuln/detail/CVE-2024-51127"
+    }
+  },
+  "CVE-2024-51136": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "An XML External Entity (XXE) vulnerability in Dmoz2CSV in openimaj v1.3.10 allows attackers to access sensitive information or execute arbitrary code via supplying a crafted XML file.",
+      "cveName": "CVE-2024-51136",
+      "cveUrl": "/vuln/detail/CVE-2024-51136"
+    }
+  },
   "CVE-2024-51180": {
     "cve": {
       "cveDate": [
@@ -27147,6 +27488,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51245"
     }
   },
+  "CVE-2024-51246": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the doPPTP function.",
+      "cveName": "CVE-2024-51246",
+      "cveUrl": "/vuln/detail/CVE-2024-51246"
+    }
+  },
   "CVE-2024-51247": {
     "cve": {
       "cveDate": [
@@ -27169,6 +27521,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-51248"
     }
   },
+  "CVE-2024-51249": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the reboot function.",
+      "cveName": "CVE-2024-51249",
+      "cveUrl": "/vuln/detail/CVE-2024-51249"
+    }
+  },
+  "CVE-2024-51251": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the backup function.",
+      "cveName": "CVE-2024-51251",
+      "cveUrl": "/vuln/detail/CVE-2024-51251"
+    }
+  },
   "CVE-2024-51252": {
     "cve": {
       "cveDate": [
@@ -27178,6 +27552,17 @@
       "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the restore function.",
       "cveName": "CVE-2024-51252",
       "cveUrl": "/vuln/detail/CVE-2024-51252"
+    }
+  },
+  "CVE-2024-51253": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the doL2TP function.",
+      "cveName": "CVE-2024-51253",
+      "cveUrl": "/vuln/detail/CVE-2024-51253"
     }
   },
   "CVE-2024-51254": {
@@ -27312,6 +27697,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-51304"
     }
   },
+  "CVE-2024-51326": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "1:15:05 PM -0500"
+      ],
+      "cveDis": "SQL Injection vulnerability in projectworlds Travel management System v.1.0 allows a remote attacker to execute arbitrary code via the 't2' parameter in deletesubcategory.php.",
+      "cveName": "CVE-2024-51326",
+      "cveUrl": "/vuln/detail/CVE-2024-51326"
+    }
+  },
+  "CVE-2024-51327": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "1:15:05 PM -0500"
+      ],
+      "cveDis": "SQL Injection in loginform.php in ProjectWorld's Travel Management System v1.0 allows remote attackers to bypass authentication via SQL Injection in the 'username' and 'password' fields.",
+      "cveName": "CVE-2024-51327",
+      "cveUrl": "/vuln/detail/CVE-2024-51327"
+    }
+  },
+  "CVE-2024-51328": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "1:15:05 PM -0500"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in addcategory.php in projectworld's Travel Management System v1.0 allows remote attacker to inject arbitrary code via the t2 parameter.",
+      "cveName": "CVE-2024-51328",
+      "cveUrl": "/vuln/detail/CVE-2024-51328"
+    }
+  },
+  "CVE-2024-51329": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "1:15:05 PM -0500"
+      ],
+      "cveDis": "A Host header injection vulnerability in Agile-Board 1.0 allows attackers to obtain the password reset token via user interaction with a crafted password reset link.",
+      "cveName": "CVE-2024-51329",
+      "cveUrl": "/vuln/detail/CVE-2024-51329"
+    }
+  },
   "CVE-2024-51377": {
     "cve": {
       "cveDate": [
@@ -27354,6 +27783,17 @@
       "cveDis": "Altai Technologies Ltd Altai IX500 Indoor 22 802.11ac Wave 2 AP After login, there are file reads in the background, and attackers can obtain sensitive information such as user credentials, system configuration, and database connection strings, which can lead to data breaches and identity theft.",
       "cveName": "CVE-2024-51399",
       "cveUrl": "/vuln/detail/CVE-2024-51399"
+    }
+  },
+  "CVE-2024-51408": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "AppSmith Community 1.8.3 before 1.46 allows SSRF via New DataSource for application/json requests to 169.254.169.254 to retrieve AWS metadata credentials.",
+      "cveName": "CVE-2024-51408",
+      "cveUrl": "/vuln/detail/CVE-2024-51408"
     }
   },
   "CVE-2024-51419": {
@@ -27543,6 +27983,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-51509"
     }
   },
+  "CVE-2024-51556": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "8:17:04 AM -0500"
+      ],
+      "cveDis": "This vulnerability exists in the Wave 2.0 due to weak encryption of sensitive data received at the API response. An authenticated remote attacker could exploit this vulnerability by manipulating a parameter “user_id” through API request URLs leading to unauthorized access to sensitive information belonging to other users.",
+      "cveName": "CVE-2024-51556",
+      "cveUrl": "/vuln/detail/CVE-2024-51556"
+    }
+  },
+  "CVE-2024-51557": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "8:17:05 AM -0500"
+      ],
+      "cveDis": "This vulnerability exists in the Wave 2.0 due to missing rate limiting on OTP requests in an API endpoint. An authenticated remote attacker could exploit this vulnerability by sending multiple OTP request through vulnerable API endpoint which could lead to the OTP bombing/flooding on the targeted system.",
+      "cveName": "CVE-2024-51557",
+      "cveUrl": "/vuln/detail/CVE-2024-51557"
+    }
+  },
+  "CVE-2024-51558": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "8:17:05 AM -0500"
+      ],
+      "cveDis": "This vulnerability exists in the Wave 2.0 due to missing restrictions for excessive failed authentication attempts on its API based login. A remote attacker could exploit this vulnerability by conducting a brute force attack against legitimate user OTP, MPIN or password, which could lead to gain unauthorized access and compromise other user accounts.",
+      "cveName": "CVE-2024-51558",
+      "cveUrl": "/vuln/detail/CVE-2024-51558"
+    }
+  },
+  "CVE-2024-51559": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "8:17:05 AM -0500"
+      ],
+      "cveDis": "This vulnerability exists in the Wave 2.0 due to missing authorization check on certain API endpoints. An authenticated remote attacker could exploit this vulnerability by manipulating a parameter “user_id” through API request URLs which could lead to unauthorized creation, modification and deletion of alerts belonging to other user accounts.",
+      "cveName": "CVE-2024-51559",
+      "cveUrl": "/vuln/detail/CVE-2024-51559"
+    }
+  },
+  "CVE-2024-51560": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "8:17:05 AM -0500"
+      ],
+      "cveDis": "This vulnerability exists in the Wave 2.0 due to improper exception handling for invalid inputs at certain API endpoint. An authenticated remote attacker could exploit this vulnerability by providing invalid inputs for “userId” parameter in the API request leading to generation of error message containing sensitive information on the targeted system.",
+      "cveName": "CVE-2024-51560",
+      "cveUrl": "/vuln/detail/CVE-2024-51560"
+    }
+  },
+  "CVE-2024-51561": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "8:17:05 AM -0500"
+      ],
+      "cveDis": "This vulnerability exists in Aero due to improper implementation of OTP validation mechanism in certain API endpoints. An authenticated remote attacker could exploit this vulnerability by intercepting and manipulating the responses exchanged during the second factor authentication process.  \n\nSuccessful exploitation of this vulnerability could allow the attacker to bypass OTP verification for accessing other user accounts.",
+      "cveName": "CVE-2024-51561",
+      "cveUrl": "/vuln/detail/CVE-2024-51561"
+    }
+  },
   "CVE-2024-51567": {
     "cve": {
       "cveDate": [
@@ -27565,6 +28071,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-51568"
     }
   },
+  "CVE-2024-51582": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Path Traversal: '.../...//' vulnerability in ThimPress WP Hotel Booking allows PHP Local File Inclusion.This issue affects WP Hotel Booking: from n/a through 2.1.4.",
+      "cveName": "CVE-2024-51582",
+      "cveUrl": "/vuln/detail/CVE-2024-51582"
+    }
+  },
+  "CVE-2024-51626": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:22 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mansur Ahamed Woocommerce Quote Calculator allows Blind SQL Injection.This issue affects Woocommerce Quote Calculator: from n/a through 1.1.",
+      "cveName": "CVE-2024-51626",
+      "cveUrl": "/vuln/detail/CVE-2024-51626"
+    }
+  },
   "CVE-2024-51661": {
     "cve": {
       "cveDate": [
@@ -27574,6 +28102,105 @@
       "cveDis": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in David Lingren Media Library Assistant allows Command Injection.This issue affects Media Library Assistant: from n/a through 3.19.",
       "cveName": "CVE-2024-51661",
       "cveUrl": "/vuln/detail/CVE-2024-51661"
+    }
+  },
+  "CVE-2024-51665": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Server-Side Request Forgery (SSRF) vulnerability in Noor alam Magical Addons For Elementor allows Server Side Request Forgery.This issue affects Magical Addons For Elementor: from n/a through 1.2.1.",
+      "cveName": "CVE-2024-51665",
+      "cveUrl": "/vuln/detail/CVE-2024-51665"
+    }
+  },
+  "CVE-2024-51672": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WPDeveloper BetterLinks allows SQL Injection.This issue affects BetterLinks: from n/a through 2.1.7.",
+      "cveName": "CVE-2024-51672",
+      "cveUrl": "/vuln/detail/CVE-2024-51672"
+    }
+  },
+  "CVE-2024-51677": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:22 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in WebberZone Knowledge Base allows Stored XSS.This issue affects Knowledge Base: from n/a through 2.2.0.",
+      "cveName": "CVE-2024-51677",
+      "cveUrl": "/vuln/detail/CVE-2024-51677"
+    }
+  },
+  "CVE-2024-51678": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:23 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Marcel Pol Elo Rating Shortcode allows Stored XSS.This issue affects Elo Rating Shortcode: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-51678",
+      "cveUrl": "/vuln/detail/CVE-2024-51678"
+    }
+  },
+  "CVE-2024-51680": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:23 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in CrestaProject – Rizzo Andrea Cresta Addons for Elementor allows Stored XSS.This issue affects Cresta Addons for Elementor: from n/a through 1.0.9.",
+      "cveName": "CVE-2024-51680",
+      "cveUrl": "/vuln/detail/CVE-2024-51680"
+    }
+  },
+  "CVE-2024-51681": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:23 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in CodeRevolution WP Pocket URLs allows Stored XSS.This issue affects WP Pocket URLs: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-51681",
+      "cveUrl": "/vuln/detail/CVE-2024-51681"
+    }
+  },
+  "CVE-2024-51682": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:23 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in HasThemes HT Builder – WordPress Theme Builder for Elementor allows Stored XSS.This issue affects HT Builder – WordPress Theme Builder for Elementor: from n/a through 1.3.0.",
+      "cveName": "CVE-2024-51682",
+      "cveUrl": "/vuln/detail/CVE-2024-51682"
+    }
+  },
+  "CVE-2024-51683": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:24 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Michael Gangolf Custom post type templates for Elementor allows Stored XSS.This issue affects Custom post type templates for Elementor: from n/a through 1.10.1.",
+      "cveName": "CVE-2024-51683",
+      "cveUrl": "/vuln/detail/CVE-2024-51683"
+    }
+  },
+  "CVE-2024-51685": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "10:15:24 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Michael Gangolf Accordion title for Elementor allows Stored XSS.This issue affects Accordion title for Elementor: from n/a through 1.2.1.",
+      "cveName": "CVE-2024-51685",
+      "cveUrl": "/vuln/detail/CVE-2024-51685"
     }
   },
   "CVE-2024-51774": {
@@ -30643,6 +31270,17 @@
       "cveDis": "Wiz Code Visual Studio Code extension in versions 1.0.0 up to 1.5.3 and Wiz (legacy) Visual Studio Code extension in versions 0.13.0 up to 0.17.8 are vulnerable to local command injection if the user opens a maliciously crafted Dockerfile located in a path that has been marked as a \"trusted folder\" within Visual Studio Code, and initiates a manual scan of the file.",
       "cveName": "CVE-2024-9145",
       "cveUrl": "/vuln/detail/CVE-2024-9145"
+    }
+  },
+  "CVE-2024-9147": {
+    "cve": {
+      "cveDate": [
+        "November 04, 2024",
+        "8:17:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Bna Informatics PosPratik allows XSS Through HTTP Query Strings.This issue affects PosPratik: before v3.2.1.",
+      "cveName": "CVE-2024-9147",
+      "cveUrl": "/vuln/detail/CVE-2024-9147"
     }
   },
   "CVE-2024-9156": {
