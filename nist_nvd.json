@@ -4465,6 +4465,182 @@
       "cveUrl": "/vuln/detail/CVE-2024-10739"
     }
   },
+  "CVE-2024-10740": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "3:15:14 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in code-projects E-Health Care System up to 1.0. This affects an unknown part of the file /Admin/consulting_detail.php. The manipulation of the argument consulting_id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10740",
+      "cveUrl": "/vuln/detail/CVE-2024-10740"
+    }
+  },
+  "CVE-2024-10741": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "4:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in code-projects E-Health Care System 1.0 and classified as critical. This vulnerability affects unknown code of the file /Users/registration.php. The manipulation of the argument f_name leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-10741",
+      "cveUrl": "/vuln/detail/CVE-2024-10741"
+    }
+  },
+  "CVE-2024-10742": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "4:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Wazifa System 1.0 and classified as critical. This issue affects some unknown processing of the file /controllers/control.php. The manipulation of the argument to leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10742",
+      "cveUrl": "/vuln/detail/CVE-2024-10742"
+    }
+  },
+  "CVE-2024-10743": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "5:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in PHPGurukul Online Shopping Portal 2.0. It has been classified as problematic. Affected is an unknown function of the file /shopping/admin/assets/plugins/DataTables/examples/examples_support/editable_ajax.php. The manipulation of the argument value leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10743",
+      "cveUrl": "/vuln/detail/CVE-2024-10743"
+    }
+  },
+  "CVE-2024-10744": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in PHPGurukul Online Shopping Portal 2.0. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php. The manipulation of the argument scripts leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10744",
+      "cveUrl": "/vuln/detail/CVE-2024-10744"
+    }
+  },
+  "CVE-2024-10745": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in PHPGurukul Online Shopping Portal 2.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php. The manipulation of the argument scripts leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10745",
+      "cveUrl": "/vuln/detail/CVE-2024-10745"
+    }
+  },
+  "CVE-2024-10746": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "7:15:11 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic has been found in PHPGurukul Online Shopping Portal 2.0. This affects an unknown part of the file /admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php. The manipulation of the argument scripts leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10746",
+      "cveUrl": "/vuln/detail/CVE-2024-10746"
+    }
+  },
+  "CVE-2024-10747": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "7:15:11 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic was found in PHPGurukul Online Shopping Portal 2.0. This vulnerability affects unknown code of the file /admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data_th.php. The manipulation of the argument scripts leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10747",
+      "cveUrl": "/vuln/detail/CVE-2024-10747"
+    }
+  },
+  "CVE-2024-10748": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "8:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, has been found in Cosmote Greece What's Up App 4.47.3 on Android. This issue affects some unknown processing of the file gr/desquared/kmmsharedmodule/db/RealmDB.java of the component Realm Database Handler. The manipulation of the argument defaultRealmKey leads to use of default cryptographic key. Local access is required to approach this attack. The complexity of an attack is rather high. The exploitation is known to be difficult. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10748",
+      "cveUrl": "/vuln/detail/CVE-2024-10748"
+    }
+  },
+  "CVE-2024-10749": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "8:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in ThinkAdmin up to 6.1.67. Affected is the function script of the file /app/admin/controller/api/Plugs.php. The manipulation of the argument uptoken leads to deserialization. It is possible to launch the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10749",
+      "cveUrl": "/vuln/detail/CVE-2024-10749"
+    }
+  },
+  "CVE-2024-10754": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in PHPGurukul Online Shopping Portal 2.0. It has been rated as problematic. This issue affects some unknown processing of the file /admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php. The manipulation of the argument scripts leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10754",
+      "cveUrl": "/vuln/detail/CVE-2024-10754"
+    }
+  },
+  "CVE-2024-10755": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic has been found in PHPGurukul Online Shopping Portal 2.0. Affected is an unknown function of the file /admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php. The manipulation of the argument scripts leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10755",
+      "cveUrl": "/vuln/detail/CVE-2024-10755"
+    }
+  },
+  "CVE-2024-10756": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic was found in PHPGurukul Online Shopping Portal 2.0. Affected by this vulnerability is an unknown functionality of the file /admin/assets/plugins/DataTables/media/unit_testing/templates/html_table.php. The manipulation of the argument scripts leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10756",
+      "cveUrl": "/vuln/detail/CVE-2024-10756"
+    }
+  },
+  "CVE-2024-10757": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, has been found in PHPGurukul Online Shopping Portal 2.0. Affected by this issue is some unknown functionality of the file /admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php. The manipulation of the argument scripts leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10757",
+      "cveUrl": "/vuln/detail/CVE-2024-10757"
+    }
+  },
+  "CVE-2024-10758": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "11:15:02 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in code-projects/anirbandutta9 Content Management System and News-Buzz 1.0. This affects an unknown part of the file /index.php. The manipulation of the argument user_name leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. This product is distributed under two entirely different names.",
+      "cveName": "CVE-2024-10758",
+      "cveUrl": "/vuln/detail/CVE-2024-10758"
+    }
+  },
+  "CVE-2024-10759": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in itsourcecode Farm Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /edit-pig.php. The manipulation of the argument pigno/weight/arrived/breed/remark/status leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"pigno\" to be affected. But it must be assumed that other parameters are affected as well.",
+      "cveName": "CVE-2024-10759",
+      "cveUrl": "/vuln/detail/CVE-2024-10759"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -4617,6 +4793,160 @@
       "cveDis": "In wlan firmware, there is a possible out of bounds write due to improper input validation. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09001358; Issue ID: MSV-1599.",
       "cveName": "CVE-2024-20103",
       "cveUrl": "/vuln/detail/CVE-2024-20103"
+    }
+  },
+  "CVE-2024-20110": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:16 PM -0500"
+      ],
+      "cveDis": "In ccu, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09065887; Issue ID: MSV-1762.",
+      "cveName": "CVE-2024-20110",
+      "cveUrl": "/vuln/detail/CVE-2024-20110"
+    }
+  },
+  "CVE-2024-20111": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:16 PM -0500"
+      ],
+      "cveDis": "In ccu, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09065033; Issue ID: MSV-1754.",
+      "cveName": "CVE-2024-20111",
+      "cveUrl": "/vuln/detail/CVE-2024-20111"
+    }
+  },
+  "CVE-2024-20112": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:16 PM -0500"
+      ],
+      "cveDis": "In isp, there is a possible out of bounds read due to a missing bounds check. This could lead to local denial of service with System execution privileges needed. User interaction is needed for exploitation. Patch ID: ALPS09071481; Issue ID: MSV-1730.",
+      "cveName": "CVE-2024-20112",
+      "cveUrl": "/vuln/detail/CVE-2024-20112"
+    }
+  },
+  "CVE-2024-20113": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:16 PM -0500"
+      ],
+      "cveDis": "In ccu, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09036814; Issue ID: MSV-1715.",
+      "cveName": "CVE-2024-20113",
+      "cveUrl": "/vuln/detail/CVE-2024-20113"
+    }
+  },
+  "CVE-2024-20114": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:16 PM -0500"
+      ],
+      "cveDis": "In ccu, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09037038; Issue ID: MSV-1714.",
+      "cveName": "CVE-2024-20114",
+      "cveUrl": "/vuln/detail/CVE-2024-20114"
+    }
+  },
+  "CVE-2024-20115": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:16 PM -0500"
+      ],
+      "cveDis": "In ccu, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09036695; Issue ID: MSV-1713.",
+      "cveName": "CVE-2024-20115",
+      "cveUrl": "/vuln/detail/CVE-2024-20115"
+    }
+  },
+  "CVE-2024-20117": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "In vdec, there is a possible out of bounds read due to improper structure design. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09008925; Issue ID: MSV-1681.",
+      "cveName": "CVE-2024-20117",
+      "cveUrl": "/vuln/detail/CVE-2024-20117"
+    }
+  },
+  "CVE-2024-20118": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "In mms, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09062392; Issue ID: MSV-1621.",
+      "cveName": "CVE-2024-20118",
+      "cveUrl": "/vuln/detail/CVE-2024-20118"
+    }
+  },
+  "CVE-2024-20119": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "In mms, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09062301; Issue ID: MSV-1620.",
+      "cveName": "CVE-2024-20119",
+      "cveUrl": "/vuln/detail/CVE-2024-20119"
+    }
+  },
+  "CVE-2024-20120": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "In KeyInstall, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS08956986; Issue ID: MSV-1575.",
+      "cveName": "CVE-2024-20120",
+      "cveUrl": "/vuln/detail/CVE-2024-20120"
+    }
+  },
+  "CVE-2024-20121": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "In KeyInstall, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS08956986; Issue ID: MSV-1574.",
+      "cveName": "CVE-2024-20121",
+      "cveUrl": "/vuln/detail/CVE-2024-20121"
+    }
+  },
+  "CVE-2024-20122": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "In vdec, there is a possible out of bounds read due to improper structure design. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09008925; Issue ID: MSV-1572.",
+      "cveName": "CVE-2024-20122",
+      "cveUrl": "/vuln/detail/CVE-2024-20122"
+    }
+  },
+  "CVE-2024-20123": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "In vdec, there is a possible out of bounds read due to improper structure design. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09008925; Issue ID: MSV-1569.",
+      "cveName": "CVE-2024-20123",
+      "cveUrl": "/vuln/detail/CVE-2024-20123"
+    }
+  },
+  "CVE-2024-20124": {
+    "cve": {
+      "cveDate": [
+        "November 03, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "In vdec, there is a possible out of bounds read due to improper structure design. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09008925; Issue ID: MSV-1568.",
+      "cveName": "CVE-2024-20124",
+      "cveUrl": "/vuln/detail/CVE-2024-20124"
     }
   },
   "CVE-2024-20260": {
