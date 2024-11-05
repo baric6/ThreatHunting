@@ -659,6 +659,50 @@
       "cveUrl": "/vuln/detail/CVE-2023-26785"
     }
   },
+  "CVE-2023-29121": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "11:15:16 AM -0500"
+      ],
+      "cveDis": "Waybox Enel TCF Agent service could be used to get administrator’s privileges over the Waybox system.",
+      "cveName": "CVE-2023-29121",
+      "cveUrl": "/vuln/detail/CVE-2023-29121"
+    }
+  },
+  "CVE-2023-29122": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "11:15:16 AM -0500"
+      ],
+      "cveDis": "Under certain conditions, access to service libraries is granted to account they should not have access to.",
+      "cveName": "CVE-2023-29122",
+      "cveUrl": "/vuln/detail/CVE-2023-29122"
+    }
+  },
+  "CVE-2023-29125": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "11:15:16 AM -0500"
+      ],
+      "cveDis": "A heap buffer overflow could be triggered by sending a specific packet to TCP port 7700.",
+      "cveName": "CVE-2023-29125",
+      "cveUrl": "/vuln/detail/CVE-2023-29125"
+    }
+  },
+  "CVE-2023-29126": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "11:15:16 AM -0500"
+      ],
+      "cveDis": "The Waybox Enel X web management application contains a PHP-type juggling vulnerability that may allow a brute force process and under certain conditions bypass authentication.",
+      "cveName": "CVE-2023-29126",
+      "cveUrl": "/vuln/detail/CVE-2023-29126"
+    }
+  },
   "CVE-2023-31493": {
     "cve": {
       "cveDate": [
@@ -21779,6 +21823,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48311"
     }
   },
+  "CVE-2024-48312": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "WebLaudos v20.8 (118) was discovered to contain a cross-site scripting (XSS) vulnerability via the login page.",
+      "cveName": "CVE-2024-48312",
+      "cveUrl": "/vuln/detail/CVE-2024-48312"
+    }
+  },
   "CVE-2024-48336": {
     "cve": {
       "cveDate": [
@@ -24870,6 +24925,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49501"
     }
   },
+  "CVE-2024-495227-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "Substance3D - Painter versions 10.0.1 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+      "cveName": "CVE-2024-495227-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-49522"
+    }
+  },
   "CVE-2024-49579": {
     "cve": {
       "cveDate": [
@@ -26564,6 +26630,556 @@
       "cveUrl": "/vuln/detail/CVE-2024-50088"
     }
   },
+  "CVE-2024-50089": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nunicode: Don't special case ignorable code points\n\nWe don't need to handle them separately. Instead, just let them\ndecompose/casefold to themselves.",
+      "cveName": "CVE-2024-50089",
+      "cveUrl": "/vuln/detail/CVE-2024-50089"
+    }
+  },
+  "CVE-2024-50090": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/xe/oa: Fix overflow in oa batch buffer\n\nBy default xe_bb_create_job() appends a MI_BATCH_BUFFER_END to batch\nbuffer, this is not a problem if batch buffer is only used once but\noa reuses the batch buffer for the same metric and at each call\nit appends a MI_BATCH_BUFFER_END, printing the warning below and then\noverflowing.\n\n[  381.072016] ------------[ cut here ]------------\n[  381.072019] xe 0000:00:02.0: [drm] Assertion `bb->len * 4 + bb_prefetch(q->gt) <= size` failed!\n               platform: LUNARLAKE subplatform: 1\n               graphics: Xe2_LPG / Xe2_HPG 20.04 step B0\n               media: Xe2_LPM / Xe2_HPM 20.00 step B0\n               tile: 0 VRAM 0 B\n               GT: 0 type 1\n\nSo here checking if batch buffer already have MI_BATCH_BUFFER_END if\nnot append it.\n\nv2:\n- simply fix, suggestion from Ashutosh\n\n(cherry picked from commit 9ba0e0f30ca42a98af3689460063edfb6315718a)",
+      "cveName": "CVE-2024-50090",
+      "cveUrl": "/vuln/detail/CVE-2024-50090"
+    }
+  },
+  "CVE-2024-50091": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndm vdo: don't refer to dedupe_context after releasing it\n\nClear the dedupe_context pointer in a data_vio whenever ownership of\nthe context is lost, so that vdo can't examine it accidentally.",
+      "cveName": "CVE-2024-50091",
+      "cveUrl": "/vuln/detail/CVE-2024-50091"
+    }
+  },
+  "CVE-2024-50092": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: netconsole: fix wrong warning\n\nA warning is triggered when there is insufficient space in the buffer\nfor userdata. However, this is not an issue since userdata will be sent\nin the next iteration.\n\nCurrent warning message:\n\n    ------------[ cut here ]------------\n     WARNING: CPU: 13 PID: 3013042 at drivers/net/netconsole.c:1122 write_ext_msg+0x3b6/0x3d0\n      ? write_ext_msg+0x3b6/0x3d0\n      console_flush_all+0x1e9/0x330\n\nThe code incorrectly issues a warning when this_chunk is zero, which is\na valid scenario. The warning should only be triggered when this_chunk\nis negative.",
+      "cveName": "CVE-2024-50092",
+      "cveUrl": "/vuln/detail/CVE-2024-50092"
+    }
+  },
+  "CVE-2024-50093": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nthermal: intel: int340x: processor: Fix warning during module unload\n\nThe processor_thermal driver uses pcim_device_enable() to enable a PCI\ndevice, which means the device will be automatically disabled on driver\ndetach.  Thus there is no need to call pci_disable_device() again on it.\n\nWith recent PCI device resource management improvements, e.g. commit\nf748a07a0b64 (\"PCI: Remove legacy pcim_release()\"), this problem is\nexposed and triggers the warining below.\n\n [  224.010735] proc_thermal_pci 0000:00:04.0: disabling already-disabled device\n [  224.010747] WARNING: CPU: 8 PID: 4442 at drivers/pci/pci.c:2250 pci_disable_device+0xe5/0x100\n ...\n [  224.010844] Call Trace:\n [  224.010845]  <TASK>\n [  224.010847]  ? show_regs+0x6d/0x80\n [  224.010851]  ? __warn+0x8c/0x140\n [  224.010854]  ? pci_disable_device+0xe5/0x100\n [  224.010856]  ? report_bug+0x1c9/0x1e0\n [  224.010859]  ? handle_bug+0x46/0x80\n [  224.010862]  ? exc_invalid_op+0x1d/0x80\n [  224.010863]  ? asm_exc_invalid_op+0x1f/0x30\n [  224.010867]  ? pci_disable_device+0xe5/0x100\n [  224.010869]  ? pci_disable_device+0xe5/0x100\n [  224.010871]  ? kfree+0x21a/0x2b0\n [  224.010873]  pcim_disable_device+0x20/0x30\n [  224.010875]  devm_action_release+0x16/0x20\n [  224.010878]  release_nodes+0x47/0xc0\n [  224.010880]  devres_release_all+0x9f/0xe0\n [  224.010883]  device_unbind_cleanup+0x12/0x80\n [  224.010885]  device_release_driver_internal+0x1ca/0x210\n [  224.010887]  driver_detach+0x4e/0xa0\n [  224.010889]  bus_remove_driver+0x6f/0xf0\n [  224.010890]  driver_unregister+0x35/0x60\n [  224.010892]  pci_unregister_driver+0x44/0x90\n [  224.010894]  proc_thermal_pci_driver_exit+0x14/0x5f0 [processor_thermal_device_pci]\n ...\n [  224.010921] ---[ end trace 0000000000000000 ]---\n\nRemove the excess pci_disable_device() calls.\n\n[ rjw: Subject and changelog edits ]",
+      "cveName": "CVE-2024-50093",
+      "cveUrl": "/vuln/detail/CVE-2024-50093"
+    }
+  },
+  "CVE-2024-50094": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nsfc: Don't invoke xdp_do_flush() from netpoll.\n\nYury reported a crash in the sfc driver originated from\nnetpoll_send_udp(). The netconsole sends a message and then netpoll\ninvokes the driver's NAPI function with a budget of zero. It is\ndedicated to allow driver to free TX resources, that it may have used\nwhile sending the packet.\n\nIn the netpoll case the driver invokes xdp_do_flush() unconditionally,\nleading to crash because bpf_net_context was never assigned.\n\nInvoke xdp_do_flush() only if budget is not zero.",
+      "cveName": "CVE-2024-50094",
+      "cveUrl": "/vuln/detail/CVE-2024-50094"
+    }
+  },
+  "CVE-2024-50095": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/mad: Improve handling of timed out WRs of mad agent\n\nCurrent timeout handler of mad agent acquires/releases mad_agent_priv\nlock for every timed out WRs. This causes heavy locking contention\nwhen higher no. of WRs are to be handled inside timeout handler.\n\nThis leads to softlockup with below trace in some use cases where\nrdma-cm path is used to establish connection between peer nodes\n\nTrace:\n-----\n BUG: soft lockup - CPU#4 stuck for 26s! [kworker/u128:3:19767]\n CPU: 4 PID: 19767 Comm: kworker/u128:3 Kdump: loaded Tainted: G OE\n     -------  ---  5.14.0-427.13.1.el9_4.x86_64 #1\n Hardware name: Dell Inc. PowerEdge R740/01YM03, BIOS 2.4.8 11/26/2019\n Workqueue: ib_mad1 timeout_sends [ib_core]\n RIP: 0010:__do_softirq+0x78/0x2ac\n RSP: 0018:ffffb253449e4f98 EFLAGS: 00000246\n RAX: 00000000ffffffff RBX: 0000000000000000 RCX: 000000000000001f\n RDX: 000000000000001d RSI: 000000003d1879ab RDI: fff363b66fd3a86b\n RBP: ffffb253604cbcd8 R08: 0000009065635f3b R09: 0000000000000000\n R10: 0000000000000040 R11: ffffb253449e4ff8 R12: 0000000000000000\n R13: 0000000000000000 R14: 0000000000000000 R15: 0000000000000040\n FS:  0000000000000000(0000) GS:ffff8caa1fc80000(0000) knlGS:0000000000000000\n CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\n CR2: 00007fd9ec9db900 CR3: 0000000891934006 CR4: 00000000007706e0\n DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000\n DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400\n PKRU: 55555554\n Call Trace:\n  <IRQ>\n  ? show_trace_log_lvl+0x1c4/0x2df\n  ? show_trace_log_lvl+0x1c4/0x2df\n  ? __irq_exit_rcu+0xa1/0xc0\n  ? watchdog_timer_fn+0x1b2/0x210\n  ? __pfx_watchdog_timer_fn+0x10/0x10\n  ? __hrtimer_run_queues+0x127/0x2c0\n  ? hrtimer_interrupt+0xfc/0x210\n  ? __sysvec_apic_timer_interrupt+0x5c/0x110\n  ? sysvec_apic_timer_interrupt+0x37/0x90\n  ? asm_sysvec_apic_timer_interrupt+0x16/0x20\n  ? __do_softirq+0x78/0x2ac\n  ? __do_softirq+0x60/0x2ac\n  __irq_exit_rcu+0xa1/0xc0\n  sysvec_call_function_single+0x72/0x90\n  </IRQ>\n  <TASK>\n  asm_sysvec_call_function_single+0x16/0x20\n RIP: 0010:_raw_spin_unlock_irq+0x14/0x30\n RSP: 0018:ffffb253604cbd88 EFLAGS: 00000247\n RAX: 000000000001960d RBX: 0000000000000002 RCX: ffff8cad2a064800\n RDX: 000000008020001b RSI: 0000000000000001 RDI: ffff8cad5d39f66c\n RBP: ffff8cad5d39f600 R08: 0000000000000001 R09: 0000000000000000\n R10: ffff8caa443e0c00 R11: ffffb253604cbcd8 R12: ffff8cacb8682538\n R13: 0000000000000005 R14: ffffb253604cbd90 R15: ffff8cad5d39f66c\n  cm_process_send_error+0x122/0x1d0 [ib_cm]\n  timeout_sends+0x1dd/0x270 [ib_core]\n  process_one_work+0x1e2/0x3b0\n  ? __pfx_worker_thread+0x10/0x10\n  worker_thread+0x50/0x3a0\n  ? __pfx_worker_thread+0x10/0x10\n  kthread+0xdd/0x100\n  ? __pfx_kthread+0x10/0x10\n  ret_from_fork+0x29/0x50\n  </TASK>\n\nSimplified timeout handler by creating local list of timed out WRs\nand invoke send handler post creating the list. The new method acquires/\nreleases lock once to fetch the list and hence helps to reduce locking\ncontetiong when processing higher no. of WRs",
+      "cveName": "CVE-2024-50095",
+      "cveUrl": "/vuln/detail/CVE-2024-50095"
+    }
+  },
+  "CVE-2024-50096": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnouveau/dmem: Fix vulnerability in migrate_to_ram upon copy error\n\nThe `nouveau_dmem_copy_one` function ensures that the copy push command is\nsent to the device firmware but does not track whether it was executed\nsuccessfully.\n\nIn the case of a copy error (e.g., firmware or hardware failure), the\ncopy push command will be sent via the firmware channel, and\n`nouveau_dmem_copy_one` will likely report success, leading to the\n`migrate_to_ram` function returning a dirty HIGH_USER page to the user.\n\nThis can result in a security vulnerability, as a HIGH_USER page that may\ncontain sensitive or corrupted data could be returned to the user.\n\nTo prevent this vulnerability, we allocate a zero page. Thus, in case of\nan error, a non-dirty (zero) page will be returned to the user.",
+      "cveName": "CVE-2024-50096",
+      "cveUrl": "/vuln/detail/CVE-2024-50096"
+    }
+  },
+  "CVE-2024-50097": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: fec: don't save PTP state if PTP is unsupported\n\nSome platforms (such as i.MX25 and i.MX27) do not support PTP, so on\nthese platforms fec_ptp_init() is not called and the related members\nin fep are not initialized. However, fec_ptp_save_state() is called\nunconditionally, which causes the kernel to panic. Therefore, add a\ncondition so that fec_ptp_save_state() is not called if PTP is not\nsupported.",
+      "cveName": "CVE-2024-50097",
+      "cveUrl": "/vuln/detail/CVE-2024-50097"
+    }
+  },
+  "CVE-2024-50098": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:13 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: ufs: core: Set SDEV_OFFLINE when UFS is shut down\n\nThere is a history of deadlock if reboot is performed at the beginning\nof booting. SDEV_QUIESCE was set for all LU's scsi_devices by UFS\nshutdown, and at that time the audio driver was waiting on\nblk_mq_submit_bio() holding a mutex_lock while reading the fw binary.\nAfter that, a deadlock issue occurred while audio driver shutdown was\nwaiting for mutex_unlock of blk_mq_submit_bio(). To solve this, set\nSDEV_OFFLINE for all LUs except WLUN, so that any I/O that comes down\nafter a UFS shutdown will return an error.\n\n[   31.907781]I[0:      swapper/0:    0]        1        130705007       1651079834      11289729804                0 D(   2) 3 ffffff882e208000 *             init [device_shutdown]\n[   31.907793]I[0:      swapper/0:    0] Mutex: 0xffffff8849a2b8b0: owner[0xffffff882e28cb00 kworker/6:0 :49]\n[   31.907806]I[0:      swapper/0:    0] Call trace:\n[   31.907810]I[0:      swapper/0:    0]  __switch_to+0x174/0x338\n[   31.907819]I[0:      swapper/0:    0]  __schedule+0x5ec/0x9cc\n[   31.907826]I[0:      swapper/0:    0]  schedule+0x7c/0xe8\n[   31.907834]I[0:      swapper/0:    0]  schedule_preempt_disabled+0x24/0x40\n[   31.907842]I[0:      swapper/0:    0]  __mutex_lock+0x408/0xdac\n[   31.907849]I[0:      swapper/0:    0]  __mutex_lock_slowpath+0x14/0x24\n[   31.907858]I[0:      swapper/0:    0]  mutex_lock+0x40/0xec\n[   31.907866]I[0:      swapper/0:    0]  device_shutdown+0x108/0x280\n[   31.907875]I[0:      swapper/0:    0]  kernel_restart+0x4c/0x11c\n[   31.907883]I[0:      swapper/0:    0]  __arm64_sys_reboot+0x15c/0x280\n[   31.907890]I[0:      swapper/0:    0]  invoke_syscall+0x70/0x158\n[   31.907899]I[0:      swapper/0:    0]  el0_svc_common+0xb4/0xf4\n[   31.907909]I[0:      swapper/0:    0]  do_el0_svc+0x2c/0xb0\n[   31.907918]I[0:      swapper/0:    0]  el0_svc+0x34/0xe0\n[   31.907928]I[0:      swapper/0:    0]  el0t_64_sync_handler+0x68/0xb4\n[   31.907937]I[0:      swapper/0:    0]  el0t_64_sync+0x1a0/0x1a4\n\n[   31.908774]I[0:      swapper/0:    0]       49                0         11960702      11236868007                0 D(   2) 6 ffffff882e28cb00 *      kworker/6:0 [__bio_queue_enter]\n[   31.908783]I[0:      swapper/0:    0] Call trace:\n[   31.908788]I[0:      swapper/0:    0]  __switch_to+0x174/0x338\n[   31.908796]I[0:      swapper/0:    0]  __schedule+0x5ec/0x9cc\n[   31.908803]I[0:      swapper/0:    0]  schedule+0x7c/0xe8\n[   31.908811]I[0:      swapper/0:    0]  __bio_queue_enter+0xb8/0x178\n[   31.908818]I[0:      swapper/0:    0]  blk_mq_submit_bio+0x194/0x67c\n[   31.908827]I[0:      swapper/0:    0]  __submit_bio+0xb8/0x19c",
+      "cveName": "CVE-2024-50098",
+      "cveUrl": "/vuln/detail/CVE-2024-50098"
+    }
+  },
+  "CVE-2024-50099": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:13 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\narm64: probes: Remove broken LDR (literal) uprobe support\n\nThe simulate_ldr_literal() and simulate_ldrsw_literal() functions are\nunsafe to use for uprobes. Both functions were originally written for\nuse with kprobes, and access memory with plain C accesses. When uprobes\nwas added, these were reused unmodified even though they cannot safely\naccess user memory.\n\nThere are three key problems:\n\n1) The plain C accesses do not have corresponding extable entries, and\n   thus if they encounter a fault the kernel will treat these as\n   unintentional accesses to user memory, resulting in a BUG() which\n   will kill the kernel thread, and likely lead to further issues (e.g.\n   lockup or panic()).\n\n2) The plain C accesses are subject to HW PAN and SW PAN, and so when\n   either is in use, any attempt to simulate an access to user memory\n   will fault. Thus neither simulate_ldr_literal() nor\n   simulate_ldrsw_literal() can do anything useful when simulating a\n   user instruction on any system with HW PAN or SW PAN.\n\n3) The plain C accesses are privileged, as they run in kernel context,\n   and in practice can access a small range of kernel virtual addresses.\n   The instructions they simulate have a range of +/-1MiB, and since the\n   simulated instructions must itself be a user instructions in the\n   TTBR0 address range, these can address the final 1MiB of the TTBR1\n   acddress range by wrapping downwards from an address in the first\n   1MiB of the TTBR0 address range.\n\n   In contemporary kernels the last 8MiB of TTBR1 address range is\n   reserved, and accesses to this will always fault, meaning this is no\n   worse than (1).\n\n   Historically, it was theoretically possible for the linear map or\n   vmemmap to spill into the final 8MiB of the TTBR1 address range, but\n   in practice this is extremely unlikely to occur as this would\n   require either:\n\n   * Having enough physical memory to fill the entire linear map all the\n     way to the final 1MiB of the TTBR1 address range.\n\n   * Getting unlucky with KASLR randomization of the linear map such\n     that the populated region happens to overlap with the last 1MiB of\n     the TTBR address range.\n\n   ... and in either case if we were to spill into the final page there\n   would be larger problems as the final page would alias with error\n   pointers.\n\nPractically speaking, (1) and (2) are the big issues. Given there have\nbeen no reports of problems since the broken code was introduced, it\nappears that no-one is relying on probing these instructions with\nuprobes.\n\nAvoid these issues by not allowing uprobes on LDR (literal) and LDRSW\n(literal), limiting the use of simulate_ldr_literal() and\nsimulate_ldrsw_literal() to kprobes. Attempts to place uprobes on LDR\n(literal) and LDRSW (literal) will be rejected as\narm_probe_decode_insn() will return INSN_REJECTED. In future we can\nconsider introducing working uprobes support for these instructions, but\nthis will require more significant work.",
+      "cveName": "CVE-2024-50099",
+      "cveUrl": "/vuln/detail/CVE-2024-50099"
+    }
+  },
+  "CVE-2024-50100": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:13 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nUSB: gadget: dummy-hcd: Fix \"task hung\" problem\n\nThe syzbot fuzzer has been encountering \"task hung\" problems ever\nsince the dummy-hcd driver was changed to use hrtimers instead of\nregular timers.  It turns out that the problems are caused by a subtle\ndifference between the timer_pending() and hrtimer_active() APIs.\n\nThe changeover blindly replaced the first by the second.  However,\ntimer_pending() returns True when the timer is queued but not when its\ncallback is running, whereas hrtimer_active() returns True when the\nhrtimer is queued _or_ its callback is running.  This difference\noccasionally caused dummy_urb_enqueue() to think that the callback\nroutine had not yet started when in fact it was almost finished.  As a\nresult the hrtimer was not restarted, which made it impossible for the\ndriver to dequeue later the URB that was just enqueued.  This caused\nusb_kill_urb() to hang, and things got worse from there.\n\nSince hrtimers have no API for telling when they are queued and the\ncallback isn't running, the driver must keep track of this for itself.\nThat's what this patch does, adding a new \"timer_pending\" flag and\nsetting or clearing it at the appropriate times.",
+      "cveName": "CVE-2024-50100",
+      "cveUrl": "/vuln/detail/CVE-2024-50100"
+    }
+  },
+  "CVE-2024-50101": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:13 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\niommu/vt-d: Fix incorrect pci_for_each_dma_alias() for non-PCI devices\n\nPreviously, the domain_context_clear() function incorrectly called\npci_for_each_dma_alias() to set up context entries for non-PCI devices.\nThis could lead to kernel hangs or other unexpected behavior.\n\nAdd a check to only call pci_for_each_dma_alias() for PCI devices. For\nnon-PCI devices, domain_context_clear_one() is called directly.",
+      "cveName": "CVE-2024-50101",
+      "cveUrl": "/vuln/detail/CVE-2024-50101"
+    }
+  },
+  "CVE-2024-50102": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:13 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86: fix user address masking non-canonical speculation issue\n\nIt turns out that AMD has a \"Meltdown Lite(tm)\" issue with non-canonical\naccesses in kernel space.  And so using just the high bit to decide\nwhether an access is in user space or kernel space ends up with the good\nold \"leak speculative data\" if you have the right gadget using the\nresult:\n\n  CVE-2020-12965 “Transient Execution of Non-Canonical Accesses“\n\nNow, the kernel surrounds the access with a STAC/CLAC pair, and those\ninstructions end up serializing execution on older Zen architectures,\nwhich closes the speculation window.\n\nBut that was true only up until Zen 5, which renames the AC bit [1].\nThat improves performance of STAC/CLAC a lot, but also means that the\nspeculation window is now open.\n\nNote that this affects not just the new address masking, but also the\nregular valid_user_address() check used by access_ok(), and the asm\nversion of the sign bit check in the get_user() helpers.\n\nIt does not affect put_user() or clear_user() variants, since there's no\nspeculative result to be used in a gadget for those operations.",
+      "cveName": "CVE-2024-50102",
+      "cveUrl": "/vuln/detail/CVE-2024-50102"
+    }
+  },
+  "CVE-2024-50103": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:13 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: qcom: Fix NULL Dereference in asoc_qcom_lpass_cpu_platform_probe()\n\nA devm_kzalloc() in asoc_qcom_lpass_cpu_platform_probe() could\npossibly return NULL pointer. NULL Pointer Dereference may be\ntriggerred without addtional check.\nAdd a NULL check for the returned pointer.",
+      "cveName": "CVE-2024-50103",
+      "cveUrl": "/vuln/detail/CVE-2024-50103"
+    }
+  },
+  "CVE-2024-50104": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:13 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: qcom: sdm845: add missing soundwire runtime stream alloc\n\nDuring the migration of Soundwire runtime stream allocation from\nthe Qualcomm Soundwire controller to SoC's soundcard drivers the sdm845\nsoundcard was forgotten.\n\nAt this point any playback attempt or audio daemon startup, for instance\non sdm845-db845c (Qualcomm RB3 board), will result in stream pointer\nNULL dereference:\n\n Unable to handle kernel NULL pointer dereference at virtual\n address 0000000000000020\n Mem abort info:\n   ESR = 0x0000000096000004\n   EC = 0x25: DABT (current EL), IL = 32 bits\n   SET = 0, FnV = 0\n   EA = 0, S1PTW = 0\n   FSC = 0x04: level 0 translation fault\n Data abort info:\n   ISV = 0, ISS = 0x00000004, ISS2 = 0x00000000\n   CM = 0, WnR = 0, TnD = 0, TagAccess = 0\n   GCS = 0, Overlay = 0, DirtyBit = 0, Xs = 0\n user pgtable: 4k pages, 48-bit VAs, pgdp=0000000101ecf000\n [0000000000000020] pgd=0000000000000000, p4d=0000000000000000\n Internal error: Oops: 0000000096000004 [#1] PREEMPT SMP\n Modules linked in: ...\n CPU: 5 UID: 0 PID: 1198 Comm: aplay\n Not tainted 6.12.0-rc2-qcomlt-arm64-00059-g9d78f315a362-dirty #18\n Hardware name: Thundercomm Dragonboard 845c (DT)\n pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)\n pc : sdw_stream_add_slave+0x44/0x380 [soundwire_bus]\n lr : sdw_stream_add_slave+0x44/0x380 [soundwire_bus]\n sp : ffff80008a2035c0\n x29: ffff80008a2035c0 x28: ffff80008a203978 x27: 0000000000000000\n x26: 00000000000000c0 x25: 0000000000000000 x24: ffff1676025f4800\n x23: ffff167600ff1cb8 x22: ffff167600ff1c98 x21: 0000000000000003\n x20: ffff167607316000 x19: ffff167604e64e80 x18: 0000000000000000\n x17: 0000000000000000 x16: ffffcec265074160 x15: 0000000000000000\n x14: 0000000000000000 x13: 0000000000000000 x12: 0000000000000000\n x11: 0000000000000000 x10: 0000000000000000 x9 : 0000000000000000\n x8 : 0000000000000000 x7 : 0000000000000000 x6 : ffff167600ff1cec\n x5 : ffffcec22cfa2010 x4 : 0000000000000000 x3 : 0000000000000003\n x2 : ffff167613f836c0 x1 : 0000000000000000 x0 : ffff16761feb60b8\n Call trace:\n  sdw_stream_add_slave+0x44/0x380 [soundwire_bus]\n  wsa881x_hw_params+0x68/0x80 [snd_soc_wsa881x]\n  snd_soc_dai_hw_params+0x3c/0xa4\n  __soc_pcm_hw_params+0x230/0x660\n  dpcm_be_dai_hw_params+0x1d0/0x3f8\n  dpcm_fe_dai_hw_params+0x98/0x268\n  snd_pcm_hw_params+0x124/0x460\n  snd_pcm_common_ioctl+0x998/0x16e8\n  snd_pcm_ioctl+0x34/0x58\n  __arm64_sys_ioctl+0xac/0xf8\n  invoke_syscall+0x48/0x104\n  el0_svc_common.constprop.0+0x40/0xe0\n  do_el0_svc+0x1c/0x28\n  el0_svc+0x34/0xe0\n  el0t_64_sync_handler+0x120/0x12c\n  el0t_64_sync+0x190/0x194\n Code: aa0403fb f9418400 9100e000 9400102f (f8420f22)\n ---[ end trace 0000000000000000 ]---\n\n0000000000006108 <sdw_stream_add_slave>:\n    6108:       d503233f        paciasp\n    610c:       a9b97bfd        stp     x29, x30, [sp, #-112]!\n    6110:       910003fd        mov     x29, sp\n    6114:       a90153f3        stp     x19, x20, [sp, #16]\n    6118:       a9025bf5        stp     x21, x22, [sp, #32]\n    611c:       aa0103f6        mov     x22, x1\n    6120:       2a0303f5        mov     w21, w3\n    6124:       a90363f7        stp     x23, x24, [sp, #48]\n    6128:       aa0003f8        mov     x24, x0\n    612c:       aa0203f7        mov     x23, x2\n    6130:       a9046bf9        stp     x25, x26, [sp, #64]\n    6134:       aa0403f9        mov     x25, x4        <-- x4 copied to x25\n    6138:       a90573fb        stp     x27, x28, [sp, #80]\n    613c:       aa0403fb        mov     x27, x4\n    6140:       f9418400        ldr     x0, [x0, #776]\n    6144:       9100e000        add     x0, x0, #0x38\n    6148:       94000000        bl      0 <mutex_lock>\n    614c:       f8420f22        ldr     x2, [x25, #32]!  <-- offset 0x44\n    ^^^\nThis is 0x6108 + offset 0x44 from the beginning of sdw_stream_add_slave()\nwhere data abort happens.\nwsa881x_hw_params() is called with stream = NULL and passes it further\nin register x4 (5th argu\n---truncated---",
+      "cveName": "CVE-2024-50104",
+      "cveUrl": "/vuln/detail/CVE-2024-50104"
+    }
+  },
+  "CVE-2024-50105": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: qcom: sc7280: Fix missing Soundwire runtime stream alloc\n\nCommit 15c7fab0e047 (\"ASoC: qcom: Move Soundwire runtime stream alloc to\nsoundcards\") moved the allocation of Soundwire stream runtime from the\nQualcomm Soundwire driver to each individual machine sound card driver,\nexcept that it forgot to update SC7280 card.\n\nJust like for other Qualcomm sound cards using Soundwire, the card\ndriver should allocate and release the runtime.  Otherwise sound\nplayback will result in a NULL pointer dereference or other effect of\nuninitialized memory accesses (which was confirmed on SDM845 having\nsimilar issue).",
+      "cveName": "CVE-2024-50105",
+      "cveUrl": "/vuln/detail/CVE-2024-50105"
+    }
+  },
+  "CVE-2024-50106": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfsd: fix race between laundromat and free_stateid\n\nThere is a race between laundromat handling of revoked delegations\nand a client sending free_stateid operation. Laundromat thread\nfinds that delegation has expired and needs to be revoked so it\nmarks the delegation stid revoked and it puts it on a reaper list\nbut then it unlock the state lock and the actual delegation revocation\nhappens without the lock. Once the stid is marked revoked a racing\nfree_stateid processing thread does the following (1) it calls\nlist_del_init() which removes it from the reaper list and (2) frees\nthe delegation stid structure. The laundromat thread ends up not\ncalling the revoke_delegation() function for this particular delegation\nbut that means it will no release the lock lease that exists on\nthe file.\n\nNow, a new open for this file comes in and ends up finding that\nlease list isn't empty and calls nfsd_breaker_owns_lease() which ends\nup trying to derefence a freed delegation stateid. Leading to the\nfollowint use-after-free KASAN warning:\n\nkernel: ==================================================================\nkernel: BUG: KASAN: slab-use-after-free in nfsd_breaker_owns_lease+0x140/0x160 [nfsd]\nkernel: Read of size 8 at addr ffff0000e73cd0c8 by task nfsd/6205\nkernel:\nkernel: CPU: 2 UID: 0 PID: 6205 Comm: nfsd Kdump: loaded Not tainted 6.11.0-rc7+ #9\nkernel: Hardware name: Apple Inc. Apple Virtualization Generic Platform, BIOS 2069.0.0.0.0 08/03/2024\nkernel: Call trace:\nkernel: dump_backtrace+0x98/0x120\nkernel: show_stack+0x1c/0x30\nkernel: dump_stack_lvl+0x80/0xe8\nkernel: print_address_description.constprop.0+0x84/0x390\nkernel: print_report+0xa4/0x268\nkernel: kasan_report+0xb4/0xf8\nkernel: __asan_report_load8_noabort+0x1c/0x28\nkernel: nfsd_breaker_owns_lease+0x140/0x160 [nfsd]\nkernel: nfsd_file_do_acquire+0xb3c/0x11d0 [nfsd]\nkernel: nfsd_file_acquire_opened+0x84/0x110 [nfsd]\nkernel: nfs4_get_vfs_file+0x634/0x958 [nfsd]\nkernel: nfsd4_process_open2+0xa40/0x1a40 [nfsd]\nkernel: nfsd4_open+0xa08/0xe80 [nfsd]\nkernel: nfsd4_proc_compound+0xb8c/0x2130 [nfsd]\nkernel: nfsd_dispatch+0x22c/0x718 [nfsd]\nkernel: svc_process_common+0x8e8/0x1960 [sunrpc]\nkernel: svc_process+0x3d4/0x7e0 [sunrpc]\nkernel: svc_handle_xprt+0x828/0xe10 [sunrpc]\nkernel: svc_recv+0x2cc/0x6a8 [sunrpc]\nkernel: nfsd+0x270/0x400 [nfsd]\nkernel: kthread+0x288/0x310\nkernel: ret_from_fork+0x10/0x20\n\nThis patch proposes a fixed that's based on adding 2 new additional\nstid's sc_status values that help coordinate between the laundromat\nand other operations (nfsd4_free_stateid() and nfsd4_delegreturn()).\n\nFirst to make sure, that once the stid is marked revoked, it is not\nremoved by the nfsd4_free_stateid(), the laundromat take a reference\non the stateid. Then, coordinating whether the stid has been put\non the cl_revoked list or we are processing FREE_STATEID and need to\nmake sure to remove it from the list, each check that state and act\naccordingly. If laundromat has added to the cl_revoke list before\nthe arrival of FREE_STATEID, then nfsd4_free_stateid() knows to remove\nit from the list. If nfsd4_free_stateid() finds that operations arrived\nbefore laundromat has placed it on cl_revoke list, it marks the state\nfreed and then laundromat will no longer add it to the list.\n\nAlso, for nfsd4_delegreturn() when looking for the specified stid,\nwe need to access stid that are marked removed or freeable, it means\nthe laundromat has started processing it but hasn't finished and this\ndelegreturn needs to return nfserr_deleg_revoked and not\nnfserr_bad_stateid. The latter will not trigger a FREE_STATEID and the\nlack of it will leave this stid on the cl_revoked list indefinitely.",
+      "cveName": "CVE-2024-50106",
+      "cveUrl": "/vuln/detail/CVE-2024-50106"
+    }
+  },
+  "CVE-2024-50107": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86/intel/pmc: Fix pmc_core_iounmap to call iounmap for valid addresses\n\nCommit 50c6dbdfd16e (\"x86/ioremap: Improve iounmap() address range checks\")\nintroduces a WARN when adrress ranges of iounmap are invalid. On Thinkpad\nP1 Gen 7 (Meteor Lake-P) this caused the following warning to appear:\n\nWARNING: CPU: 7 PID: 713 at arch/x86/mm/ioremap.c:461 iounmap+0x58/0x1f0\nModules linked in: rfkill(+) snd_timer(+) fjes(+) snd soundcore intel_pmc_core(+)\nint3403_thermal(+) int340x_thermal_zone intel_vsec pmt_telemetry acpi_pad pmt_class\nacpi_tad int3400_thermal acpi_thermal_rel joydev loop nfnetlink zram xe drm_suballoc_helper\nnouveau i915 mxm_wmi drm_ttm_helper gpu_sched drm_gpuvm drm_exec drm_buddy i2c_algo_bit\ncrct10dif_pclmul crc32_pclmul ttm crc32c_intel polyval_clmulni rtsx_pci_sdmmc ucsi_acpi\npolyval_generic mmc_core hid_multitouch drm_display_helper ghash_clmulni_intel typec_ucsi\nnvme sha512_ssse3 video sha256_ssse3 nvme_core intel_vpu sha1_ssse3 rtsx_pci cec typec\nnvme_auth i2c_hid_acpi i2c_hid wmi pinctrl_meteorlake serio_raw ip6_tables ip_tables fuse\nCPU: 7 UID: 0 PID: 713 Comm: (udev-worker) Not tainted 6.12.0-rc2iounmap+ #42\nHardware name: LENOVO 21KWCTO1WW/21KWCTO1WW, BIOS N48ET19W (1.06 ) 07/18/2024\nRIP: 0010:iounmap+0x58/0x1f0\nCode: 85 6a 01 00 00 48 8b 05 e6 e2 28 04 48 39 c5 72 19 eb 26 cc cc cc 48 ba 00 00 00 00 00 00 32 00 48 8d 44 02 ff 48 39 c5 72 23 <0f> 0b 48 83 c4 08 5b 5d 41 5c c3 cc cc cc cc 48 ba 00 00 00 00 00\nRSP: 0018:ffff888131eff038 EFLAGS: 00010207\nRAX: ffffc90000000000 RBX: 0000000000000000 RCX: ffff888e33b80000\nRDX: dffffc0000000000 RSI: ffff888e33bc29c0 RDI: 0000000000000000\nRBP: 0000000000000000 R08: ffff8881598a8000 R09: ffff888e2ccedc10\nR10: 0000000000000003 R11: ffffffffb3367634 R12: 00000000fe000000\nR13: ffff888101d0da28 R14: ffffffffc2e437e0 R15: ffff888110b03b28\nFS:  00007f3c1d4b3980(0000) GS:ffff888e33b80000(0000) knlGS:0000000000000000\nCS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\nCR2: 00005651cfc93578 CR3: 0000000124e4c002 CR4: 0000000000f70ef0\nDR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000\nDR3: 0000000000000000 DR6: 00000000ffff07f0 DR7: 0000000000000400\nPKRU: 55555554\nCall Trace:\n<TASK>\n? __warn.cold+0xb6/0x176\n? iounmap+0x58/0x1f0\n? report_bug+0x1f4/0x2b0\n? handle_bug+0x58/0x90\n? exc_invalid_op+0x17/0x40\n? asm_exc_invalid_op+0x1a/0x20\n? iounmap+0x58/0x1f0\npmc_core_ssram_get_pmc+0x477/0x6c0 [intel_pmc_core]\n? __pfx_pmc_core_ssram_get_pmc+0x10/0x10 [intel_pmc_core]\n? __pfx_do_pci_enable_device+0x10/0x10\n? pci_wait_for_pending+0x60/0x110\n? pci_enable_device_flags+0x1e3/0x2e0\n? __pfx_mtl_core_init+0x10/0x10 [intel_pmc_core]\npmc_core_ssram_init+0x7f/0x110 [intel_pmc_core]\nmtl_core_init+0xda/0x130 [intel_pmc_core]\n? __mutex_init+0xb9/0x130\npmc_core_probe+0x27e/0x10b0 [intel_pmc_core]\n? _raw_spin_lock_irqsave+0x96/0xf0\n? __pfx_pmc_core_probe+0x10/0x10 [intel_pmc_core]\n? __pfx_mutex_unlock+0x10/0x10\n? __pfx_mutex_lock+0x10/0x10\n? device_pm_check_callbacks+0x82/0x370\n? acpi_dev_pm_attach+0x234/0x2b0\nplatform_probe+0x9f/0x150\nreally_probe+0x1e0/0x8a0\n__driver_probe_device+0x18c/0x370\n? __pfx___driver_attach+0x10/0x10\ndriver_probe_device+0x4a/0x120\n__driver_attach+0x190/0x4a0\n? __pfx___driver_attach+0x10/0x10\nbus_for_each_dev+0x103/0x180\n? __pfx_bus_for_each_dev+0x10/0x10\n? klist_add_tail+0x136/0x270\nbus_add_driver+0x2fc/0x540\ndriver_register+0x1a5/0x360\n? __pfx_pmc_core_driver_init+0x10/0x10 [intel_pmc_core]\ndo_one_initcall+0xa4/0x380\n? __pfx_do_one_initcall+0x10/0x10\n? kasan_unpoison+0x44/0x70\ndo_init_module+0x296/0x800\nload_module+0x5090/0x6ce0\n? __pfx_load_module+0x10/0x10\n? ima_post_read_file+0x193/0x200\n? __pfx_ima_post_read_file+0x10/0x10\n? rw_verify_area+0x152/0x4c0\n? kernel_read_file+0x257/0x750\n? __pfx_kernel_read_file+0x10/0x10\n? __pfx_filemap_get_read_batch+0x10/0x10\n? init_module_from_file+0xd1/0x130\ninit_module_from_file+0xd1/0x130\n? __pfx_init_module_from_file+0x10/0\n---truncated---",
+      "cveName": "CVE-2024-50107",
+      "cveUrl": "/vuln/detail/CVE-2024-50107"
+    }
+  },
+  "CVE-2024-50108": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Disable PSR-SU on Parade 08-01 TCON too\n\nStuart Hayhurst has found that both at bootup and fullscreen VA-API video\nis leading to black screens for around 1 second and kernel WARNING [1] traces\nwhen calling dmub_psr_enable() with Parade 08-01 TCON.\n\nThese symptoms all go away with PSR-SU disabled for this TCON, so disable\nit for now while DMUB traces [2] from the failure can be analyzed and the failure\nstate properly root caused.\n\n(cherry picked from commit afb634a6823d8d9db23c5fb04f79c5549349628b)",
+      "cveName": "CVE-2024-50108",
+      "cveUrl": "/vuln/detail/CVE-2024-50108"
+    }
+  },
+  "CVE-2024-50109": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nmd/raid10: fix null ptr dereference in raid10_size()\n\nIn raid10_run() if raid10_set_queue_limits() succeed, the return value\nis set to zero, and if following procedures failed raid10_run() will\nreturn zero while mddev->private is still NULL, causing null ptr\ndereference in raid10_size().\n\nFix the problem by only overwrite the return value if\nraid10_set_queue_limits() failed.",
+      "cveName": "CVE-2024-50109",
+      "cveUrl": "/vuln/detail/CVE-2024-50109"
+    }
+  },
+  "CVE-2024-50110": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfrm: fix one more kernel-infoleak in algo dumping\n\nDuring fuzz testing, the following issue was discovered:\n\nBUG: KMSAN: kernel-infoleak in _copy_to_iter+0x598/0x2a30\n _copy_to_iter+0x598/0x2a30\n __skb_datagram_iter+0x168/0x1060\n skb_copy_datagram_iter+0x5b/0x220\n netlink_recvmsg+0x362/0x1700\n sock_recvmsg+0x2dc/0x390\n __sys_recvfrom+0x381/0x6d0\n __x64_sys_recvfrom+0x130/0x200\n x64_sys_call+0x32c8/0x3cc0\n do_syscall_64+0xd8/0x1c0\n entry_SYSCALL_64_after_hwframe+0x79/0x81\n\nUninit was stored to memory at:\n copy_to_user_state_extra+0xcc1/0x1e00\n dump_one_state+0x28c/0x5f0\n xfrm_state_walk+0x548/0x11e0\n xfrm_dump_sa+0x1e0/0x840\n netlink_dump+0x943/0x1c40\n __netlink_dump_start+0x746/0xdb0\n xfrm_user_rcv_msg+0x429/0xc00\n netlink_rcv_skb+0x613/0x780\n xfrm_netlink_rcv+0x77/0xc0\n netlink_unicast+0xe90/0x1280\n netlink_sendmsg+0x126d/0x1490\n __sock_sendmsg+0x332/0x3d0\n ____sys_sendmsg+0x863/0xc30\n ___sys_sendmsg+0x285/0x3e0\n __x64_sys_sendmsg+0x2d6/0x560\n x64_sys_call+0x1316/0x3cc0\n do_syscall_64+0xd8/0x1c0\n entry_SYSCALL_64_after_hwframe+0x79/0x81\n\nUninit was created at:\n __kmalloc+0x571/0xd30\n attach_auth+0x106/0x3e0\n xfrm_add_sa+0x2aa0/0x4230\n xfrm_user_rcv_msg+0x832/0xc00\n netlink_rcv_skb+0x613/0x780\n xfrm_netlink_rcv+0x77/0xc0\n netlink_unicast+0xe90/0x1280\n netlink_sendmsg+0x126d/0x1490\n __sock_sendmsg+0x332/0x3d0\n ____sys_sendmsg+0x863/0xc30\n ___sys_sendmsg+0x285/0x3e0\n __x64_sys_sendmsg+0x2d6/0x560\n x64_sys_call+0x1316/0x3cc0\n do_syscall_64+0xd8/0x1c0\n entry_SYSCALL_64_after_hwframe+0x79/0x81\n\nBytes 328-379 of 732 are uninitialized\nMemory access of size 732 starts at ffff88800e18e000\nData copied to user address 00007ff30f48aff0\n\nCPU: 2 PID: 18167 Comm: syz-executor.0 Not tainted 6.8.11 #1\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.15.0-1 04/01/2014\n\nFixes copying of xfrm algorithms where some random\ndata of the structure fields can end up in userspace.\nPadding in structures may be filled with random (possibly sensitve)\ndata and should never be given directly to user-space.\n\nA similar issue was resolved in the commit\n8222d5910dae (\"xfrm: Zero padding when dumping algos and encap\")\n\nFound by Linux Verification Center (linuxtesting.org) with Syzkaller.",
+      "cveName": "CVE-2024-50110",
+      "cveUrl": "/vuln/detail/CVE-2024-50110"
+    }
+  },
+  "CVE-2024-50111": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: Enable IRQ if do_ale() triggered in irq-enabled context\n\nUnaligned access exception can be triggered in irq-enabled context such\nas user mode, in this case do_ale() may call get_user() which may cause\nsleep. Then we will get:\n\n BUG: sleeping function called from invalid context at arch/loongarch/kernel/access-helper.h:7\n in_atomic(): 0, irqs_disabled(): 1, non_block: 0, pid: 129, name: modprobe\n preempt_count: 0, expected: 0\n RCU nest depth: 0, expected: 0\n CPU: 0 UID: 0 PID: 129 Comm: modprobe Tainted: G        W          6.12.0-rc1+ #1723\n Tainted: [W]=WARN\n Stack : 9000000105e0bd48 0000000000000000 9000000003803944 9000000105e08000\n         9000000105e0bc70 9000000105e0bc78 0000000000000000 0000000000000000\n         9000000105e0bc78 0000000000000001 9000000185e0ba07 9000000105e0b890\n         ffffffffffffffff 9000000105e0bc78 73924b81763be05b 9000000100194500\n         000000000000020c 000000000000000a 0000000000000000 0000000000000003\n         00000000000023f0 00000000000e1401 00000000072f8000 0000007ffbb0e260\n         0000000000000000 0000000000000000 9000000005437650 90000000055d5000\n         0000000000000000 0000000000000003 0000007ffbb0e1f0 0000000000000000\n         0000005567b00490 0000000000000000 9000000003803964 0000007ffbb0dfec\n         00000000000000b0 0000000000000007 0000000000000003 0000000000071c1d\n         ...\n Call Trace:\n [<9000000003803964>] show_stack+0x64/0x1a0\n [<9000000004c57464>] dump_stack_lvl+0x74/0xb0\n [<9000000003861ab4>] __might_resched+0x154/0x1a0\n [<900000000380c96c>] emulate_load_store_insn+0x6c/0xf60\n [<9000000004c58118>] do_ale+0x78/0x180\n [<9000000003801bc8>] handle_ale+0x128/0x1e0\n\nSo enable IRQ if unaligned access exception is triggered in irq-enabled\ncontext to fix it.",
+      "cveName": "CVE-2024-50111",
+      "cveUrl": "/vuln/detail/CVE-2024-50111"
+    }
+  },
+  "CVE-2024-50112": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/lam: Disable ADDRESS_MASKING in most cases\n\nLinear Address Masking (LAM) has a weakness related to transient\nexecution as described in the SLAM paper[1]. Unless Linear Address\nSpace Separation (LASS) is enabled this weakness may be exploitable.\n\nUntil kernel adds support for LASS[2], only allow LAM for COMPILE_TEST,\nor when speculation mitigations have been disabled at compile time,\notherwise keep LAM disabled.\n\nThere are no processors in market that support LAM yet, so currently\nnobody is affected by this issue.\n\n[1] SLAM: https://download.vusec.net/papers/slam_sp24.pdf\n[2] LASS: https://lore.kernel.org/lkml/20230609183632.48706-1-alexander.shishkin@linux.intel.com/\n\n[ dhansen: update SPECULATION_MITIGATIONS -> CPU_MITIGATIONS ]",
+      "cveName": "CVE-2024-50112",
+      "cveUrl": "/vuln/detail/CVE-2024-50112"
+    }
+  },
+  "CVE-2024-50113": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nfirewire: core: fix invalid port index for parent device\n\nIn a commit 24b7f8e5cd65 (\"firewire: core: use helper functions for self\nID sequence\"), the enumeration over self ID sequence was refactored with\nsome helper functions with KUnit tests. These helper functions are\nguaranteed to work expectedly by the KUnit tests, however their application\nincludes a mistake to assign invalid value to the index of port connected\nto parent device.\n\nThis bug affects the case that any extra node devices which has three or\nmore ports are connected to 1394 OHCI controller. In the case, the path\nto update the tree cache could hits WARN_ON(), and gets general protection\nfault due to the access to invalid address computed by the invalid value.\n\nThis commit fixes the bug to assign correct port index.",
+      "cveName": "CVE-2024-50113",
+      "cveUrl": "/vuln/detail/CVE-2024-50113"
+    }
+  },
+  "CVE-2024-50114": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: arm64: Unregister redistributor for failed vCPU creation\n\nAlex reports that syzkaller has managed to trigger a use-after-free when\ntearing down a VM:\n\n  BUG: KASAN: slab-use-after-free in kvm_put_kvm+0x300/0xe68 virt/kvm/kvm_main.c:5769\n  Read of size 8 at addr ffffff801c6890d0 by task syz.3.2219/10758\n\n  CPU: 3 UID: 0 PID: 10758 Comm: syz.3.2219 Not tainted 6.11.0-rc6-dirty #64\n  Hardware name: linux,dummy-virt (DT)\n  Call trace:\n   dump_backtrace+0x17c/0x1a8 arch/arm64/kernel/stacktrace.c:317\n   show_stack+0x2c/0x3c arch/arm64/kernel/stacktrace.c:324\n   __dump_stack lib/dump_stack.c:93 [inline]\n   dump_stack_lvl+0x94/0xc0 lib/dump_stack.c:119\n   print_report+0x144/0x7a4 mm/kasan/report.c:377\n   kasan_report+0xcc/0x128 mm/kasan/report.c:601\n   __asan_report_load8_noabort+0x20/0x2c mm/kasan/report_generic.c:381\n   kvm_put_kvm+0x300/0xe68 virt/kvm/kvm_main.c:5769\n   kvm_vm_release+0x4c/0x60 virt/kvm/kvm_main.c:1409\n   __fput+0x198/0x71c fs/file_table.c:422\n   ____fput+0x20/0x30 fs/file_table.c:450\n   task_work_run+0x1cc/0x23c kernel/task_work.c:228\n   do_notify_resume+0x144/0x1a0 include/linux/resume_user_mode.h:50\n   el0_svc+0x64/0x68 arch/arm64/kernel/entry-common.c:169\n   el0t_64_sync_handler+0x90/0xfc arch/arm64/kernel/entry-common.c:730\n   el0t_64_sync+0x190/0x194 arch/arm64/kernel/entry.S:598\n\nUpon closer inspection, it appears that we do not properly tear down the\nMMIO registration for a vCPU that fails creation late in the game, e.g.\na vCPU w/ the same ID already exists in the VM.\n\nIt is important to consider the context of commit that introduced this bug\nby moving the unregistration out of __kvm_vgic_vcpu_destroy(). That\nchange correctly sought to avoid an srcu v. config_lock inversion by\nbreaking up the vCPU teardown into two parts, one guarded by the\nconfig_lock.\n\nFix the use-after-free while avoiding lock inversion by adding a\nspecial-cased unregistration to __kvm_vgic_vcpu_destroy(). This is safe\nbecause failed vCPUs are torn down outside of the config_lock.",
+      "cveName": "CVE-2024-50114",
+      "cveUrl": "/vuln/detail/CVE-2024-50114"
+    }
+  },
+  "CVE-2024-50115": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: nSVM: Ignore nCR3[4:0] when loading PDPTEs from memory\n\nIgnore nCR3[4:0] when loading PDPTEs from memory for nested SVM, as bits\n4:0 of CR3 are ignored when PAE paging is used, and thus VMRUN doesn't\nenforce 32-byte alignment of nCR3.\n\nIn the absolute worst case scenario, failure to ignore bits 4:0 can result\nin an out-of-bounds read, e.g. if the target page is at the end of a\nmemslot, and the VMM isn't using guard pages.\n\nPer the APM:\n\n  The CR3 register points to the base address of the page-directory-pointer\n  table. The page-directory-pointer table is aligned on a 32-byte boundary,\n  with the low 5 address bits 4:0 assumed to be 0.\n\nAnd the SDM's much more explicit:\n\n  4:0    Ignored\n\nNote, KVM gets this right when loading PDPTRs, it's only the nSVM flow\nthat is broken.",
+      "cveName": "CVE-2024-50115",
+      "cveUrl": "/vuln/detail/CVE-2024-50115"
+    }
+  },
+  "CVE-2024-50116": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnilfs2: fix kernel bug due to missing clearing of buffer delay flag\n\nSyzbot reported that after nilfs2 reads a corrupted file system image\nand degrades to read-only, the BUG_ON check for the buffer delay flag\nin submit_bh_wbc() may fail, causing a kernel bug.\n\nThis is because the buffer delay flag is not cleared when clearing the\nbuffer state flags to discard a page/folio or a buffer head. So, fix\nthis.\n\nThis became necessary when the use of nilfs2's own page clear routine\nwas expanded.  This state inconsistency does not occur if the buffer\nis written normally by log writing.",
+      "cveName": "CVE-2024-50116",
+      "cveUrl": "/vuln/detail/CVE-2024-50116"
+    }
+  },
+  "CVE-2024-50117": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd: Guard against bad data for ATIF ACPI method\n\nIf a BIOS provides bad data in response to an ATIF method call\nthis causes a NULL pointer dereference in the caller.\n\n```\n? show_regs (arch/x86/kernel/dumpstack.c:478 (discriminator 1))\n? __die (arch/x86/kernel/dumpstack.c:423 arch/x86/kernel/dumpstack.c:434)\n? page_fault_oops (arch/x86/mm/fault.c:544 (discriminator 2) arch/x86/mm/fault.c:705 (discriminator 2))\n? do_user_addr_fault (arch/x86/mm/fault.c:440 (discriminator 1) arch/x86/mm/fault.c:1232 (discriminator 1))\n? acpi_ut_update_object_reference (drivers/acpi/acpica/utdelete.c:642)\n? exc_page_fault (arch/x86/mm/fault.c:1542)\n? asm_exc_page_fault (./arch/x86/include/asm/idtentry.h:623)\n? amdgpu_atif_query_backlight_caps.constprop.0 (drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c:387 (discriminator 2)) amdgpu\n? amdgpu_atif_query_backlight_caps.constprop.0 (drivers/gpu/drm/amd/amdgpu/amdgpu_acpi.c:386 (discriminator 1)) amdgpu\n```\n\nIt has been encountered on at least one system, so guard for it.\n\n(cherry picked from commit c9b7c809b89f24e9372a4e7f02d64c950b07fdee)",
+      "cveName": "CVE-2024-50117",
+      "cveUrl": "/vuln/detail/CVE-2024-50117"
+    }
+  },
+  "CVE-2024-50118": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: reject ro->rw reconfiguration if there are hard ro requirements\n\n[BUG]\nSyzbot reports the following crash:\n\n  BTRFS info (device loop0 state MCS): disabling free space tree\n  BTRFS info (device loop0 state MCS): clearing compat-ro feature flag for FREE_SPACE_TREE (0x1)\n  BTRFS info (device loop0 state MCS): clearing compat-ro feature flag for FREE_SPACE_TREE_VALID (0x2)\n  Oops: general protection fault, probably for non-canonical address 0xdffffc0000000003: 0000 [#1] PREEMPT SMP KASAN NOPTI\n  KASAN: null-ptr-deref in range [0x0000000000000018-0x000000000000001f]\n  Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.16.3-debian-1.16.3-2~bpo12+1 04/01/2014\n  RIP: 0010:backup_super_roots fs/btrfs/disk-io.c:1691 [inline]\n  RIP: 0010:write_all_supers+0x97a/0x40f0 fs/btrfs/disk-io.c:4041\n  Call Trace:\n   <TASK>\n   btrfs_commit_transaction+0x1eae/0x3740 fs/btrfs/transaction.c:2530\n   btrfs_delete_free_space_tree+0x383/0x730 fs/btrfs/free-space-tree.c:1312\n   btrfs_start_pre_rw_mount+0xf28/0x1300 fs/btrfs/disk-io.c:3012\n   btrfs_remount_rw fs/btrfs/super.c:1309 [inline]\n   btrfs_reconfigure+0xae6/0x2d40 fs/btrfs/super.c:1534\n   btrfs_reconfigure_for_mount fs/btrfs/super.c:2020 [inline]\n   btrfs_get_tree_subvol fs/btrfs/super.c:2079 [inline]\n   btrfs_get_tree+0x918/0x1920 fs/btrfs/super.c:2115\n   vfs_get_tree+0x90/0x2b0 fs/super.c:1800\n   do_new_mount+0x2be/0xb40 fs/namespace.c:3472\n   do_mount fs/namespace.c:3812 [inline]\n   __do_sys_mount fs/namespace.c:4020 [inline]\n   __se_sys_mount+0x2d6/0x3c0 fs/namespace.c:3997\n   do_syscall_x64 arch/x86/entry/common.c:52 [inline]\n   do_syscall_64+0xf3/0x230 arch/x86/entry/common.c:83\n   entry_SYSCALL_64_after_hwframe+0x77/0x7f\n\n[CAUSE]\nTo support mounting different subvolume with different RO/RW flags for\nthe new mount APIs, btrfs introduced two workaround to support this feature:\n\n- Skip mount option/feature checks if we are mounting a different\n  subvolume\n\n- Reconfigure the fs to RW if the initial mount is RO\n\nCombining these two, we can have the following sequence:\n\n- Mount the fs ro,rescue=all,clear_cache,space_cache=v1\n  rescue=all will mark the fs as hard read-only, so no v2 cache clearing\n  will happen.\n\n- Mount a subvolume rw of the same fs.\n  We go into btrfs_get_tree_subvol(), but fc_mount() returns EBUSY\n  because our new fc is RW, different from the original fs.\n\n  Now we enter btrfs_reconfigure_for_mount(), which switches the RO flag\n  first so that we can grab the existing fs_info.\n  Then we reconfigure the fs to RW.\n\n- During reconfiguration, option/features check is skipped\n  This means we will restart the v2 cache clearing, and convert back to\n  v1 cache.\n  This will trigger fs writes, and since the original fs has \"rescue=all\"\n  option, it skips the csum tree read.\n\n  And eventually causing NULL pointer dereference in super block\n  writeback.\n\n[FIX]\nFor reconfiguration caused by different subvolume RO/RW flags, ensure we\nalways run btrfs_check_options() to ensure we have proper hard RO\nrequirements met.\n\nIn fact the function btrfs_check_options() doesn't really do many\ncomplex checks, but hard RO requirement and some feature dependency\nchecks, thus there is no special reason not to do the check for mount\nreconfiguration.",
+      "cveName": "CVE-2024-50118",
+      "cveUrl": "/vuln/detail/CVE-2024-50118"
+    }
+  },
+  "CVE-2024-50119": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ncifs: fix warning when destroy 'cifs_io_request_pool'\n\nThere's a issue as follows:\nWARNING: CPU: 1 PID: 27826 at mm/slub.c:4698 free_large_kmalloc+0xac/0xe0\nRIP: 0010:free_large_kmalloc+0xac/0xe0\nCall Trace:\n <TASK>\n ? __warn+0xea/0x330\n mempool_destroy+0x13f/0x1d0\n init_cifs+0xa50/0xff0 [cifs]\n do_one_initcall+0xdc/0x550\n do_init_module+0x22d/0x6b0\n load_module+0x4e96/0x5ff0\n init_module_from_file+0xcd/0x130\n idempotent_init_module+0x330/0x620\n __x64_sys_finit_module+0xb3/0x110\n do_syscall_64+0xc1/0x1d0\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\n\nObviously, 'cifs_io_request_pool' is not created by mempool_create().\nSo just use mempool_exit() to revert 'cifs_io_request_pool'.",
+      "cveName": "CVE-2024-50119",
+      "cveUrl": "/vuln/detail/CVE-2024-50119"
+    }
+  },
+  "CVE-2024-50120": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: Handle kstrdup failures for passwords\n\nIn smb3_reconfigure(), after duplicating ctx->password and\nctx->password2 with kstrdup(), we need to check for allocation\nfailures.\n\nIf ses->password allocation fails, return -ENOMEM.\nIf ses->password2 allocation fails, free ses->password, set it\nto NULL, and return -ENOMEM.",
+      "cveName": "CVE-2024-50120",
+      "cveUrl": "/vuln/detail/CVE-2024-50120"
+    }
+  },
+  "CVE-2024-50121": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfsd: cancel nfsd_shrinker_work using sync mode in nfs4_state_shutdown_net\n\nIn the normal case, when we excute `echo 0 > /proc/fs/nfsd/threads`, the\nfunction `nfs4_state_destroy_net` in `nfs4_state_shutdown_net` will\nrelease all resources related to the hashed `nfs4_client`. If the\n`nfsd_client_shrinker` is running concurrently, the `expire_client`\nfunction will first unhash this client and then destroy it. This can\nlead to the following warning. Additionally, numerous use-after-free\nerrors may occur as well.\n\nnfsd_client_shrinker         echo 0 > /proc/fs/nfsd/threads\n\nexpire_client                nfsd_shutdown_net\n  unhash_client                ...\n                               nfs4_state_shutdown_net\n                                 /* won't wait shrinker exit */\n  /*                             cancel_work(&nn->nfsd_shrinker_work)\n   * nfsd_file for this          /* won't destroy unhashed client1 */\n   * client1 still alive         nfs4_state_destroy_net\n   */\n\n                               nfsd_file_cache_shutdown\n                                 /* trigger warning */\n                                 kmem_cache_destroy(nfsd_file_slab)\n                                 kmem_cache_destroy(nfsd_file_mark_slab)\n  /* release nfsd_file and mark */\n  __destroy_client\n\n====================================================================\nBUG nfsd_file (Not tainted): Objects remaining in nfsd_file on\n__kmem_cache_shutdown()\n--------------------------------------------------------------------\nCPU: 4 UID: 0 PID: 764 Comm: sh Not tainted 6.12.0-rc3+ #1\n\n dump_stack_lvl+0x53/0x70\n slab_err+0xb0/0xf0\n __kmem_cache_shutdown+0x15c/0x310\n kmem_cache_destroy+0x66/0x160\n nfsd_file_cache_shutdown+0xac/0x210 [nfsd]\n nfsd_destroy_serv+0x251/0x2a0 [nfsd]\n nfsd_svc+0x125/0x1e0 [nfsd]\n write_threads+0x16a/0x2a0 [nfsd]\n nfsctl_transaction_write+0x74/0xa0 [nfsd]\n vfs_write+0x1a5/0x6d0\n ksys_write+0xc1/0x160\n do_syscall_64+0x5f/0x170\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\n====================================================================\nBUG nfsd_file_mark (Tainted: G    B   W         ): Objects remaining\nnfsd_file_mark on __kmem_cache_shutdown()\n--------------------------------------------------------------------\n\n dump_stack_lvl+0x53/0x70\n slab_err+0xb0/0xf0\n __kmem_cache_shutdown+0x15c/0x310\n kmem_cache_destroy+0x66/0x160\n nfsd_file_cache_shutdown+0xc8/0x210 [nfsd]\n nfsd_destroy_serv+0x251/0x2a0 [nfsd]\n nfsd_svc+0x125/0x1e0 [nfsd]\n write_threads+0x16a/0x2a0 [nfsd]\n nfsctl_transaction_write+0x74/0xa0 [nfsd]\n vfs_write+0x1a5/0x6d0\n ksys_write+0xc1/0x160\n do_syscall_64+0x5f/0x170\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\nTo resolve this issue, cancel `nfsd_shrinker_work` using synchronous\nmode in nfs4_state_shutdown_net.",
+      "cveName": "CVE-2024-50121",
+      "cveUrl": "/vuln/detail/CVE-2024-50121"
+    }
+  },
+  "CVE-2024-50122": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI: Hold rescan lock while adding devices during host probe\n\nSince adding the PCI power control code, we may end up with a race between\nthe pwrctl platform device rescanning the bus and host controller probe\nfunctions. The latter need to take the rescan lock when adding devices or\nwe may end up in an undefined state having two incompletely added devices\nand hit the following crash when trying to remove the device over sysfs:\n\n  Unable to handle kernel NULL pointer dereference at virtual address 0000000000000000\n  Internal error: Oops: 0000000096000004 [#1] SMP\n  Call trace:\n    __pi_strlen+0x14/0x150\n    kernfs_find_ns+0x80/0x13c\n    kernfs_remove_by_name_ns+0x54/0xf0\n    sysfs_remove_bin_file+0x24/0x34\n    pci_remove_resource_files+0x3c/0x84\n    pci_remove_sysfs_dev_files+0x28/0x38\n    pci_stop_bus_device+0x8c/0xd8\n    pci_stop_bus_device+0x40/0xd8\n    pci_stop_and_remove_bus_device_locked+0x28/0x48\n    remove_store+0x70/0xb0\n    dev_attr_store+0x20/0x38\n    sysfs_kf_write+0x58/0x78\n    kernfs_fop_write_iter+0xe8/0x184\n    vfs_write+0x2dc/0x308\n    ksys_write+0x7c/0xec",
+      "cveName": "CVE-2024-50122",
+      "cveUrl": "/vuln/detail/CVE-2024-50122"
+    }
+  },
+  "CVE-2024-50123": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Add the missing BPF_LINK_TYPE invocation for sockmap\n\nThere is an out-of-bounds read in bpf_link_show_fdinfo() for the sockmap\nlink fd. Fix it by adding the missing BPF_LINK_TYPE invocation for\nsockmap link\n\nAlso add comments for bpf_link_type to prevent missing updates in the\nfuture.",
+      "cveName": "CVE-2024-50123",
+      "cveUrl": "/vuln/detail/CVE-2024-50123"
+    }
+  },
+  "CVE-2024-50124": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: ISO: Fix UAF on iso_sock_timeout\n\nconn->sk maybe have been unlinked/freed while waiting for iso_conn_lock\nso this checks if the conn->sk is still valid by checking if it part of\niso_sk_list.",
+      "cveName": "CVE-2024-50124",
+      "cveUrl": "/vuln/detail/CVE-2024-50124"
+    }
+  },
+  "CVE-2024-50125": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: SCO: Fix UAF on sco_sock_timeout\n\nconn->sk maybe have been unlinked/freed while waiting for sco_conn_lock\nso this checks if the conn->sk is still valid by checking if it part of\nsco_sk_list.",
+      "cveName": "CVE-2024-50125",
+      "cveUrl": "/vuln/detail/CVE-2024-50125"
+    }
+  },
+  "CVE-2024-50126": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: sched: use RCU read-side critical section in taprio_dump()\n\nFix possible use-after-free in 'taprio_dump()' by adding RCU\nread-side critical section there. Never seen on x86 but\nfound on a KASAN-enabled arm64 system when investigating\nhttps://syzkaller.appspot.com/bug?extid=b65e0af58423fc8a73aa:\n\n[T15862] BUG: KASAN: slab-use-after-free in taprio_dump+0xa0c/0xbb0\n[T15862] Read of size 4 at addr ffff0000d4bb88f8 by task repro/15862\n[T15862]\n[T15862] CPU: 0 UID: 0 PID: 15862 Comm: repro Not tainted 6.11.0-rc1-00293-gdefaf1a2113a-dirty #2\n[T15862] Hardware name: QEMU QEMU Virtual Machine, BIOS edk2-20240524-5.fc40 05/24/2024\n[T15862] Call trace:\n[T15862]  dump_backtrace+0x20c/0x220\n[T15862]  show_stack+0x2c/0x40\n[T15862]  dump_stack_lvl+0xf8/0x174\n[T15862]  print_report+0x170/0x4d8\n[T15862]  kasan_report+0xb8/0x1d4\n[T15862]  __asan_report_load4_noabort+0x20/0x2c\n[T15862]  taprio_dump+0xa0c/0xbb0\n[T15862]  tc_fill_qdisc+0x540/0x1020\n[T15862]  qdisc_notify.isra.0+0x330/0x3a0\n[T15862]  tc_modify_qdisc+0x7b8/0x1838\n[T15862]  rtnetlink_rcv_msg+0x3c8/0xc20\n[T15862]  netlink_rcv_skb+0x1f8/0x3d4\n[T15862]  rtnetlink_rcv+0x28/0x40\n[T15862]  netlink_unicast+0x51c/0x790\n[T15862]  netlink_sendmsg+0x79c/0xc20\n[T15862]  __sock_sendmsg+0xe0/0x1a0\n[T15862]  ____sys_sendmsg+0x6c0/0x840\n[T15862]  ___sys_sendmsg+0x1ac/0x1f0\n[T15862]  __sys_sendmsg+0x110/0x1d0\n[T15862]  __arm64_sys_sendmsg+0x74/0xb0\n[T15862]  invoke_syscall+0x88/0x2e0\n[T15862]  el0_svc_common.constprop.0+0xe4/0x2a0\n[T15862]  do_el0_svc+0x44/0x60\n[T15862]  el0_svc+0x50/0x184\n[T15862]  el0t_64_sync_handler+0x120/0x12c\n[T15862]  el0t_64_sync+0x190/0x194\n[T15862]\n[T15862] Allocated by task 15857:\n[T15862]  kasan_save_stack+0x3c/0x70\n[T15862]  kasan_save_track+0x20/0x3c\n[T15862]  kasan_save_alloc_info+0x40/0x60\n[T15862]  __kasan_kmalloc+0xd4/0xe0\n[T15862]  __kmalloc_cache_noprof+0x194/0x334\n[T15862]  taprio_change+0x45c/0x2fe0\n[T15862]  tc_modify_qdisc+0x6a8/0x1838\n[T15862]  rtnetlink_rcv_msg+0x3c8/0xc20\n[T15862]  netlink_rcv_skb+0x1f8/0x3d4\n[T15862]  rtnetlink_rcv+0x28/0x40\n[T15862]  netlink_unicast+0x51c/0x790\n[T15862]  netlink_sendmsg+0x79c/0xc20\n[T15862]  __sock_sendmsg+0xe0/0x1a0\n[T15862]  ____sys_sendmsg+0x6c0/0x840\n[T15862]  ___sys_sendmsg+0x1ac/0x1f0\n[T15862]  __sys_sendmsg+0x110/0x1d0\n[T15862]  __arm64_sys_sendmsg+0x74/0xb0\n[T15862]  invoke_syscall+0x88/0x2e0\n[T15862]  el0_svc_common.constprop.0+0xe4/0x2a0\n[T15862]  do_el0_svc+0x44/0x60\n[T15862]  el0_svc+0x50/0x184\n[T15862]  el0t_64_sync_handler+0x120/0x12c\n[T15862]  el0t_64_sync+0x190/0x194\n[T15862]\n[T15862] Freed by task 6192:\n[T15862]  kasan_save_stack+0x3c/0x70\n[T15862]  kasan_save_track+0x20/0x3c\n[T15862]  kasan_save_free_info+0x4c/0x80\n[T15862]  poison_slab_object+0x110/0x160\n[T15862]  __kasan_slab_free+0x3c/0x74\n[T15862]  kfree+0x134/0x3c0\n[T15862]  taprio_free_sched_cb+0x18c/0x220\n[T15862]  rcu_core+0x920/0x1b7c\n[T15862]  rcu_core_si+0x10/0x1c\n[T15862]  handle_softirqs+0x2e8/0xd64\n[T15862]  __do_softirq+0x14/0x20",
+      "cveName": "CVE-2024-50126",
+      "cveUrl": "/vuln/detail/CVE-2024-50126"
+    }
+  },
+  "CVE-2024-50127": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: sched: fix use-after-free in taprio_change()\n\nIn 'taprio_change()', 'admin' pointer may become dangling due to sched\nswitch / removal caused by 'advance_sched()', and critical section\nprotected by 'q->current_entry_lock' is too small to prevent from such\na scenario (which causes use-after-free detected by KASAN). Fix this\nby prefer 'rcu_replace_pointer()' over 'rcu_assign_pointer()' to update\n'admin' immediately before an attempt to schedule freeing.",
+      "cveName": "CVE-2024-50127",
+      "cveUrl": "/vuln/detail/CVE-2024-50127"
+    }
+  },
+  "CVE-2024-50128": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: wwan: fix global oob in wwan_rtnl_policy\n\nThe variable wwan_rtnl_link_ops assign a *bigger* maxtype which leads to\na global out-of-bounds read when parsing the netlink attributes. Exactly\nsame bug cause as the oob fixed in commit b33fb5b801c6 (\"net: qualcomm:\nrmnet: fix global oob in rmnet_policy\").\n\n==================================================================\nBUG: KASAN: global-out-of-bounds in validate_nla lib/nlattr.c:388 [inline]\nBUG: KASAN: global-out-of-bounds in __nla_validate_parse+0x19d7/0x29a0 lib/nlattr.c:603\nRead of size 1 at addr ffffffff8b09cb60 by task syz.1.66276/323862\n\nCPU: 0 PID: 323862 Comm: syz.1.66276 Not tainted 6.1.70 #1\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.13.0-1ubuntu1.1 04/01/2014\nCall Trace:\n <TASK>\n __dump_stack lib/dump_stack.c:88 [inline]\n dump_stack_lvl+0x177/0x231 lib/dump_stack.c:106\n print_address_description mm/kasan/report.c:284 [inline]\n print_report+0x14f/0x750 mm/kasan/report.c:395\n kasan_report+0x139/0x170 mm/kasan/report.c:495\n validate_nla lib/nlattr.c:388 [inline]\n __nla_validate_parse+0x19d7/0x29a0 lib/nlattr.c:603\n __nla_parse+0x3c/0x50 lib/nlattr.c:700\n nla_parse_nested_deprecated include/net/netlink.h:1269 [inline]\n __rtnl_newlink net/core/rtnetlink.c:3514 [inline]\n rtnl_newlink+0x7bc/0x1fd0 net/core/rtnetlink.c:3623\n rtnetlink_rcv_msg+0x794/0xef0 net/core/rtnetlink.c:6122\n netlink_rcv_skb+0x1de/0x420 net/netlink/af_netlink.c:2508\n netlink_unicast_kernel net/netlink/af_netlink.c:1326 [inline]\n netlink_unicast+0x74b/0x8c0 net/netlink/af_netlink.c:1352\n netlink_sendmsg+0x882/0xb90 net/netlink/af_netlink.c:1874\n sock_sendmsg_nosec net/socket.c:716 [inline]\n __sock_sendmsg net/socket.c:728 [inline]\n ____sys_sendmsg+0x5cc/0x8f0 net/socket.c:2499\n ___sys_sendmsg+0x21c/0x290 net/socket.c:2553\n __sys_sendmsg net/socket.c:2582 [inline]\n __do_sys_sendmsg net/socket.c:2591 [inline]\n __se_sys_sendmsg+0x19e/0x270 net/socket.c:2589\n do_syscall_x64 arch/x86/entry/common.c:51 [inline]\n do_syscall_64+0x45/0x90 arch/x86/entry/common.c:81\n entry_SYSCALL_64_after_hwframe+0x63/0xcd\nRIP: 0033:0x7f67b19a24ad\nRSP: 002b:00007f67b17febb8 EFLAGS: 00000246 ORIG_RAX: 000000000000002e\nRAX: ffffffffffffffda RBX: 00007f67b1b45f80 RCX: 00007f67b19a24ad\nRDX: 0000000000000000 RSI: 0000000020005e40 RDI: 0000000000000004\nRBP: 00007f67b1a1e01d R08: 0000000000000000 R09: 0000000000000000\nR10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000\nR13: 00007ffd2513764f R14: 00007ffd251376e0 R15: 00007f67b17fed40\n </TASK>\n\nThe buggy address belongs to the variable:\n wwan_rtnl_policy+0x20/0x40\n\nThe buggy address belongs to the physical page:\npage:ffffea00002c2700 refcount:1 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0xb09c\nflags: 0xfff00000001000(reserved|node=0|zone=1|lastcpupid=0x7ff)\nraw: 00fff00000001000 ffffea00002c2708 ffffea00002c2708 0000000000000000\nraw: 0000000000000000 0000000000000000 00000001ffffffff 0000000000000000\npage dumped because: kasan: bad access detected\npage_owner info is not present (never set?)\n\nMemory state around the buggy address:\n ffffffff8b09ca00: 05 f9 f9 f9 05 f9 f9 f9 00 01 f9 f9 00 01 f9 f9\n ffffffff8b09ca80: 00 00 00 05 f9 f9 f9 f9 00 00 03 f9 f9 f9 f9 f9\n>ffffffff8b09cb00: 00 00 00 00 05 f9 f9 f9 00 00 00 00 f9 f9 f9 f9\n                                                       ^\n ffffffff8b09cb80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n==================================================================\n\nAccording to the comment of `nla_parse_nested_deprecated`, use correct size\n`IFLA_WWAN_MAX` here to fix this issue.",
+      "cveName": "CVE-2024-50128",
+      "cveUrl": "/vuln/detail/CVE-2024-50128"
+    }
+  },
+  "CVE-2024-50129": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: pse-pd: Fix out of bound for loop\n\nAdjust the loop limit to prevent out-of-bounds access when iterating over\nPI structures. The loop should not reach the index pcdev->nr_lines since\nwe allocate exactly pcdev->nr_lines number of PI structures. This fix\nensures proper bounds are maintained during iterations.",
+      "cveName": "CVE-2024-50129",
+      "cveUrl": "/vuln/detail/CVE-2024-50129"
+    }
+  },
+  "CVE-2024-50130": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: bpf: must hold reference on net namespace\n\nBUG: KASAN: slab-use-after-free in __nf_unregister_net_hook+0x640/0x6b0\nRead of size 8 at addr ffff8880106fe400 by task repro/72=\nbpf_nf_link_release+0xda/0x1e0\nbpf_link_free+0x139/0x2d0\nbpf_link_release+0x68/0x80\n__fput+0x414/0xb60\n\nEric says:\n It seems that bpf was able to defer the __nf_unregister_net_hook()\n after exit()/close() time.\n Perhaps a netns reference is missing, because the netns has been\n dismantled/freed already.\n bpf_nf_link_attach() does :\n link->net = net;\n But I do not see a reference being taken on net.\n\nAdd such a reference and release it after hook unreg.\nNote that I was unable to get syzbot reproducer to work, so I\ndo not know if this resolves this splat.",
+      "cveName": "CVE-2024-50130",
+      "cveUrl": "/vuln/detail/CVE-2024-50130"
+    }
+  },
+  "CVE-2024-50131": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ntracing: Consider the NULL character when validating the event length\n\nstrlen() returns a string length excluding the null byte. If the string\nlength equals to the maximum buffer length, the buffer will have no\nspace for the NULL terminating character.\n\nThis commit checks this condition and returns failure for it.",
+      "cveName": "CVE-2024-50131",
+      "cveUrl": "/vuln/detail/CVE-2024-50131"
+    }
+  },
+  "CVE-2024-50132": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ntracing/probes: Fix MAX_TRACE_ARGS limit handling\n\nWhen creating a trace_probe we would set nr_args prior to truncating the\narguments to MAX_TRACE_ARGS. However, we would only initialize arguments\nup to the limit.\n\nThis caused invalid memory access when attempting to set up probes with\nmore than 128 fetchargs.\n\n  BUG: kernel NULL pointer dereference, address: 0000000000000020\n  #PF: supervisor read access in kernel mode\n  #PF: error_code(0x0000) - not-present page\n  PGD 0 P4D 0\n  Oops: Oops: 0000 [#1] PREEMPT SMP PTI\n  CPU: 0 UID: 0 PID: 1769 Comm: cat Not tainted 6.11.0-rc7+ #8\n  Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.3-1.fc39 04/01/2014\n  RIP: 0010:__set_print_fmt+0x134/0x330\n\nResolve the issue by applying the MAX_TRACE_ARGS limit earlier. Return\nan error when there are too many arguments instead of silently\ntruncating.",
+      "cveName": "CVE-2024-50132",
+      "cveUrl": "/vuln/detail/CVE-2024-50132"
+    }
+  },
+  "CVE-2024-50133": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:16 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: Don't crash in stack_top() for tasks without vDSO\n\nNot all tasks have a vDSO mapped, for example kthreads never do. If such\na task ever ends up calling stack_top(), it will derefence the NULL vdso\npointer and crash.\n\nThis can for example happen when using kunit:\n\n\t[<9000000000203874>] stack_top+0x58/0xa8\n\t[<90000000002956cc>] arch_pick_mmap_layout+0x164/0x220\n\t[<90000000003c284c>] kunit_vm_mmap_init+0x108/0x12c\n\t[<90000000003c1fbc>] __kunit_add_resource+0x38/0x8c\n\t[<90000000003c2704>] kunit_vm_mmap+0x88/0xc8\n\t[<9000000000410b14>] usercopy_test_init+0xbc/0x25c\n\t[<90000000003c1db4>] kunit_try_run_case+0x5c/0x184\n\t[<90000000003c3d54>] kunit_generic_run_threadfn_adapter+0x24/0x48\n\t[<900000000022e4bc>] kthread+0xc8/0xd4\n\t[<9000000000200ce8>] ret_from_kernel_thread+0xc/0xa4",
+      "cveName": "CVE-2024-50133",
+      "cveUrl": "/vuln/detail/CVE-2024-50133"
+    }
+  },
+  "CVE-2024-50134": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:16 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vboxvideo: Replace fake VLA at end of vbva_mouse_pointer_shape with real VLA\n\nReplace the fake VLA at end of the vbva_mouse_pointer_shape shape with\na real VLA to fix a \"memcpy: detected field-spanning write error\" warning:\n\n[   13.319813] memcpy: detected field-spanning write (size 16896) of single field \"p->data\" at drivers/gpu/drm/vboxvideo/hgsmi_base.c:154 (size 4)\n[   13.319841] WARNING: CPU: 0 PID: 1105 at drivers/gpu/drm/vboxvideo/hgsmi_base.c:154 hgsmi_update_pointer_shape+0x192/0x1c0 [vboxvideo]\n[   13.320038] Call Trace:\n[   13.320173]  hgsmi_update_pointer_shape [vboxvideo]\n[   13.320184]  vbox_cursor_atomic_update [vboxvideo]\n\nNote as mentioned in the added comment it seems the original length\ncalculation for the allocated and send hgsmi buffer is 4 bytes too large.\nChanging this is not the goal of this patch, so this behavior is kept.",
+      "cveName": "CVE-2024-50134",
+      "cveUrl": "/vuln/detail/CVE-2024-50134"
+    }
+  },
+  "CVE-2024-50135": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:16 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvme-pci: fix race condition between reset and nvme_dev_disable()\n\nnvme_dev_disable() modifies the dev->online_queues field, therefore\nnvme_pci_update_nr_queues() should avoid racing against it, otherwise\nwe could end up passing invalid values to blk_mq_update_nr_hw_queues().\n\n WARNING: CPU: 39 PID: 61303 at drivers/pci/msi/api.c:347\n          pci_irq_get_affinity+0x187/0x210\n Workqueue: nvme-reset-wq nvme_reset_work [nvme]\n RIP: 0010:pci_irq_get_affinity+0x187/0x210\n Call Trace:\n  <TASK>\n  ? blk_mq_pci_map_queues+0x87/0x3c0\n  ? pci_irq_get_affinity+0x187/0x210\n  blk_mq_pci_map_queues+0x87/0x3c0\n  nvme_pci_map_queues+0x189/0x460 [nvme]\n  blk_mq_update_nr_hw_queues+0x2a/0x40\n  nvme_reset_work+0x1be/0x2a0 [nvme]\n\nFix the bug by locking the shutdown_lock mutex before using\ndev->online_queues. Give up if nvme_dev_disable() is running or if\nit has been executed already.",
+      "cveName": "CVE-2024-50135",
+      "cveUrl": "/vuln/detail/CVE-2024-50135"
+    }
+  },
+  "CVE-2024-50136": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:16 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/mlx5: Unregister notifier on eswitch init failure\n\nIt otherwise remains registered and a subsequent attempt at eswitch\nenabling might trigger warnings of the sort:\n\n[  682.589148] ------------[ cut here ]------------\n[  682.590204] notifier callback eswitch_vport_event [mlx5_core] already registered\n[  682.590256] WARNING: CPU: 13 PID: 2660 at kernel/notifier.c:31 notifier_chain_register+0x3e/0x90\n[...snipped]\n[  682.610052] Call Trace:\n[  682.610369]  <TASK>\n[  682.610663]  ? __warn+0x7c/0x110\n[  682.611050]  ? notifier_chain_register+0x3e/0x90\n[  682.611556]  ? report_bug+0x148/0x170\n[  682.611977]  ? handle_bug+0x36/0x70\n[  682.612384]  ? exc_invalid_op+0x13/0x60\n[  682.612817]  ? asm_exc_invalid_op+0x16/0x20\n[  682.613284]  ? notifier_chain_register+0x3e/0x90\n[  682.613789]  atomic_notifier_chain_register+0x25/0x40\n[  682.614322]  mlx5_eswitch_enable_locked+0x1d4/0x3b0 [mlx5_core]\n[  682.614965]  mlx5_eswitch_enable+0xc9/0x100 [mlx5_core]\n[  682.615551]  mlx5_device_enable_sriov+0x25/0x340 [mlx5_core]\n[  682.616170]  mlx5_core_sriov_configure+0x50/0x170 [mlx5_core]\n[  682.616789]  sriov_numvfs_store+0xb0/0x1b0\n[  682.617248]  kernfs_fop_write_iter+0x117/0x1a0\n[  682.617734]  vfs_write+0x231/0x3f0\n[  682.618138]  ksys_write+0x63/0xe0\n[  682.618536]  do_syscall_64+0x4c/0x100\n[  682.618958]  entry_SYSCALL_64_after_hwframe+0x4b/0x53",
+      "cveName": "CVE-2024-50136",
+      "cveUrl": "/vuln/detail/CVE-2024-50136"
+    }
+  },
+  "CVE-2024-50137": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:16 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nreset: starfive: jh71x0: Fix accessing the empty member on JH7110 SoC\n\ndata->asserted will be NULL on JH7110 SoC since commit 82327b127d41\n(\"reset: starfive: Add StarFive JH7110 reset driver\") was added. Add\nthe judgment condition to avoid errors when calling reset_control_status\non JH7110 SoC.",
+      "cveName": "CVE-2024-50137",
+      "cveUrl": "/vuln/detail/CVE-2024-50137"
+    }
+  },
+  "CVE-2024-50138": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:16 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Use raw_spinlock_t in ringbuf\n\nThe function __bpf_ringbuf_reserve is invoked from a tracepoint, which\ndisables preemption. Using spinlock_t in this context can lead to a\n\"sleep in atomic\" warning in the RT variant. This issue is illustrated\nin the example below:\n\nBUG: sleeping function called from invalid context at kernel/locking/spinlock_rt.c:48\nin_atomic(): 1, irqs_disabled(): 0, non_block: 0, pid: 556208, name: test_progs\npreempt_count: 1, expected: 0\nRCU nest depth: 1, expected: 1\nINFO: lockdep is turned off.\nPreemption disabled at:\n[<ffffd33a5c88ea44>] migrate_enable+0xc0/0x39c\nCPU: 7 PID: 556208 Comm: test_progs Tainted: G\nHardware name: Qualcomm SA8775P Ride (DT)\nCall trace:\n dump_backtrace+0xac/0x130\n show_stack+0x1c/0x30\n dump_stack_lvl+0xac/0xe8\n dump_stack+0x18/0x30\n __might_resched+0x3bc/0x4fc\n rt_spin_lock+0x8c/0x1a4\n __bpf_ringbuf_reserve+0xc4/0x254\n bpf_ringbuf_reserve_dynptr+0x5c/0xdc\n bpf_prog_ac3d15160d62622a_test_read_write+0x104/0x238\n trace_call_bpf+0x238/0x774\n perf_call_bpf_enter.isra.0+0x104/0x194\n perf_syscall_enter+0x2f8/0x510\n trace_sys_enter+0x39c/0x564\n syscall_trace_enter+0x220/0x3c0\n do_el0_svc+0x138/0x1dc\n el0_svc+0x54/0x130\n el0t_64_sync_handler+0x134/0x150\n el0t_64_sync+0x17c/0x180\n\nSwitch the spinlock to raw_spinlock_t to avoid this error.",
+      "cveName": "CVE-2024-50138",
+      "cveUrl": "/vuln/detail/CVE-2024-50138"
+    }
+  },
   "CVE-2024-50307": {
     "cve": {
       "cveDate": [
@@ -27884,6 +28500,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51127"
     }
   },
+  "CVE-2024-51132": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "An XML External Entity (XXE) vulnerability in HAPI FHIR before v6.4.0 allows attackers to access sensitive information or execute arbitrary code via supplying a crafted request containing malicious XML entities.",
+      "cveName": "CVE-2024-51132",
+      "cveUrl": "/vuln/detail/CVE-2024-51132"
+    }
+  },
   "CVE-2024-51136": {
     "cve": {
       "cveDate": [
@@ -28212,6 +28839,17 @@
       "cveDis": "A Host header injection vulnerability in Agile-Board 1.0 allows attackers to obtain the password reset token via user interaction with a crafted password reset link.",
       "cveName": "CVE-2024-51329",
       "cveUrl": "/vuln/detail/CVE-2024-51329"
+    }
+  },
+  "CVE-2024-51362": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "The LSC Smart Connect Indoor IP Camera V7.6.32 is vulnerable to an information disclosure issue where live camera footage can be accessed through the RTSP protocol on port 8554 without requiring authentication. This allows unauthorized users with network access to view the camera's feed, potentially compromising user privacy and security. No credentials or special permissions are required, and access can be gained remotely over the network.",
+      "cveName": "CVE-2024-51362",
+      "cveUrl": "/vuln/detail/CVE-2024-51362"
     }
   },
   "CVE-2024-51377": {
@@ -28938,6 +29576,17 @@
       "cveDis": "Zope AccessControl provides a general security framework for use in Zope. In affected versions anonymous users can delete the user data maintained by an `AccessControl.userfolder.UserFolder` which may prevent any privileged access. This problem has been fixed in version 7.2. Users are advised to upgrade. Users unable to upgrade may address the issue by adding `data__roles__ = ()` to `AccessControl.userfolder.UserFolder`.",
       "cveName": "CVE-2024-51734",
       "cveUrl": "/vuln/detail/CVE-2024-51734"
+    }
+  },
+  "CVE-2024-51739": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:16 PM -0500"
+      ],
+      "cveDis": "Combodo iTop is a simple, web based IT Service Management tool. Unauthenticated user can perform users enumeration, which can make it easier to bruteforce a valid account. As a fix the sentence displayed after resetting password no longer shows if the user exists or not. This fix is included in versions 2.7.11, 3.0.5, 3.1.2, and 3.2.0. Users are advised to upgrade. Users unable to upgrade may overload the dictionary entry `\"UI:ResetPwd-Error-WrongLogin\"` through an extension and replace it with a generic message.",
+      "cveName": "CVE-2024-51739",
+      "cveUrl": "/vuln/detail/CVE-2024-51739"
     }
   },
   "CVE-2024-51744": {
@@ -34647,6 +35296,17 @@
       "cveDis": "Vulnerability in Distro Linux Workbooth v2.5 that allows to escalate privileges to the root user by manipulating the network configuration script.",
       "cveName": "CVE-2024-9576",
       "cveUrl": "/vuln/detail/CVE-2024-9576"
+    }
+  },
+  "CVE-2024-9579": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "A potential vulnerability was discovered in certain Poly video conferencing devices. The firmware flaw does not properly sanitize user input. The exploitation of this vulnerability is dependent on a layered attack and cannot be exploited by itself.",
+      "cveName": "CVE-2024-9579",
+      "cveUrl": "/vuln/detail/CVE-2024-9579"
     }
   },
   "CVE-2024-95817-3 HIGH": {
