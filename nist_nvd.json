@@ -945,6 +945,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-52919"
     }
   },
+  "CVE-2023-52920": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:15:24 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: support non-r10 register spill/fill to/from stack in precision tracking\n\nUse instruction (jump) history to record instructions that performed\nregister spill/fill to/from stack, regardless if this was done through\nread-only r10 register, or any other register after copying r10 into it\n*and* potentially adjusting offset.\n\nTo make this work reliably, we push extra per-instruction flags into\ninstruction history, encoding stack slot index (spi) and stack frame\nnumber in extra 10 bit flags we take away from prev_idx in instruction\nhistory. We don't touch idx field for maximum performance, as it's\nchecked most frequently during backtracking.\n\nThis change removes basically the last remaining practical limitation of\nprecision backtracking logic in BPF verifier. It fixes known\ndeficiencies, but also opens up new opportunities to reduce number of\nverified states, explored in the subsequent patches.\n\nThere are only three differences in selftests' BPF object files\naccording to veristat, all in the positive direction (less states).\n\nFile                                    Program        Insns (A)  Insns (B)  Insns  (DIFF)  States (A)  States (B)  States (DIFF)\n--------------------------------------  -------------  ---------  ---------  -------------  ----------  ----------  -------------\ntest_cls_redirect_dynptr.bpf.linked3.o  cls_redirect        2987       2864  -123 (-4.12%)         240         231    -9 (-3.75%)\nxdp_synproxy_kern.bpf.linked3.o         syncookie_tc       82848      82661  -187 (-0.23%)        5107        5073   -34 (-0.67%)\nxdp_synproxy_kern.bpf.linked3.o         syncookie_xdp      85116      84964  -152 (-0.18%)        5162        5130   -32 (-0.62%)\n\nNote, I avoided renaming jmp_history to more generic insn_hist to\nminimize number of lines changed and potential merge conflicts between\nbpf and bpf-next trees.\n\nNotice also cur_hist_entry pointer reset to NULL at the beginning of\ninstruction verification loop. This pointer avoids the problem of\nrelying on last jump history entry's insn_idx to determine whether we\nalready have entry for current instruction or not. It can happen that we\nadded jump history entry because current instruction is_jmp_point(), but\nalso we need to add instruction flags for stack access. In this case, we\ndon't want to entries, so we need to reuse last added entry, if it is\npresent.\n\nRelying on insn_idx comparison has the same ambiguity problem as the one\nthat was fixed recently in [0], so we avoid that.\n\n  [0] https://patchwork.kernel.org/project/netdevbpf/patch/20231110002638.4168352-3-andrii@kernel.org/",
+      "cveName": "CVE-2023-52920",
+      "cveUrl": "/vuln/detail/CVE-2023-52920"
+    }
+  },
   "CVE-2023-52952": {
     "cve": {
       "cveDate": [
@@ -1759,6 +1770,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10093"
     }
   },
+  "CVE-2024-100978-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:13 AM -0500"
+      ],
+      "cveDis": "The Loginizer Security and Loginizer plugins for WordPress are vulnerable to authentication bypass in all versions up to, and including, 1.9.2. This is due to insufficient verification on the user being returned by the social login token. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email and the user does not have an already-existing account for the service returning the token.",
+      "cveName": "CVE-2024-100978-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10097"
+    }
+  },
   "CVE-2024-10099": {
     "cve": {
       "cveDate": [
@@ -1812,6 +1834,17 @@
       "cveDis": "The Simple News plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'news' shortcode in all versions up to, and including, 2.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-101126-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10112"
+    }
+  },
+  "CVE-2024-101148-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:03 AM -0500"
+      ],
+      "cveDis": "The WooCommerce - Social Login plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 2.7.7. This is due to insufficient verification on the user being returned by the social login token. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email and the user does not have an already-existing account for the service returning the token.",
+      "cveName": "CVE-2024-101148-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10114"
     }
   },
   "CVE-2024-101176-4 MEDIUM": {
@@ -2824,6 +2857,17 @@
       "cveDis": "iniNet Solutions SpiderControl SCADA PC HMI Editor has a path traversal \nvulnerability. When the software loads a malicious ‘ems' project \ntemplate file constructed by an attacker, it can write files to \narbitrary directories. This can lead to overwriting system files, \ncausing system paralysis, or writing to startup items, resulting in \nremote control.",
       "cveName": "CVE-2024-10313",
       "cveUrl": "/vuln/detail/CVE-2024-10313"
+    }
+  },
+  "CVE-2024-103194-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:03 AM -0500"
+      ],
+      "cveDis": "The 140+ Widgets | Xpro Addons For Elementor – FREE plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.4.6 via the render function in widgets/content-toggle/layout/frontend.php. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive private, pending, and draft template data.",
+      "cveName": "CVE-2024-103194-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10319"
     }
   },
   "CVE-2024-10327": {
@@ -4366,6 +4410,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10662"
     }
   },
+  "CVE-2024-106879-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:15:24 AM -0500"
+      ],
+      "cveDis": "The Photos, Files, YouTube, Twitter, Instagram, TikTok, Ecommerce Contest Gallery – Upload, Vote, Sell via PayPal, Social Share Buttons plugin for WordPress is vulnerable to time-based SQL Injection via the $collectedIds parameter in all versions up to, and including, 24.0.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-106879-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-10687"
+    }
+  },
   "CVE-2024-10697": {
     "cve": {
       "cveDate": [
@@ -4430,6 +4485,17 @@
       "cveDis": "A vulnerability classified as critical has been found in code-projects Simple Car Rental System 1.0. Affected is an unknown function of the file /signup.php. The manipulation of the argument fname leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10702",
       "cveUrl": "/vuln/detail/CVE-2024-10702"
+    }
+  },
+  "CVE-2024-10711": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:03 AM -0500"
+      ],
+      "cveDis": "The WooCommerce Report plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.5.1. This is due to missing or incorrect nonce validation on the settings update functionality. This makes it possible for unauthenticated attackers to update arbitrary options that can be leveraged for privilege escalation via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-10711",
+      "cveUrl": "/vuln/detail/CVE-2024-10711"
     }
   },
   "CVE-2024-10730": {
@@ -16268,6 +16334,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47136"
     }
   },
+  "CVE-2024-47137": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "3:15:02 AM -0500"
+      ],
+      "cveDis": "in OpenHarmony v4.1.0 and prior versions allow a local attacker cause the common permission is upgraded to root and sensitive information leak through out-of-bounds write.",
+      "cveName": "CVE-2024-47137",
+      "cveUrl": "/vuln/detail/CVE-2024-47137"
+    }
+  },
   "CVE-2024-47139": {
     "cve": {
       "cveDate": [
@@ -16519,6 +16596,39 @@
       "cveDis": "Dell Secure Connect Gateway (SCG) 5.0 Appliance - SRS, version(s) 5.24, contains an Improper Certificate Validation vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to unauthorized access and modification of transmitted data.",
       "cveName": "CVE-2024-47241",
       "cveUrl": "/vuln/detail/CVE-2024-47241"
+    }
+  },
+  "CVE-2024-47253": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:20:03 AM -0500"
+      ],
+      "cveDis": "In 2N Access Commander versions 3.1.1.2 and prior, a Path Traversal \nvulnerability could allow an attacker to write files on the filesystem \nto achieve arbitrary remote code execution.",
+      "cveName": "CVE-2024-47253",
+      "cveUrl": "/vuln/detail/CVE-2024-47253"
+    }
+  },
+  "CVE-2024-47254": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:20:04 AM -0500"
+      ],
+      "cveDis": "In 2N Access Commander versions 3.1.1.2 and prior, an Insufficient \nVerification of Data Authenticity vulnerability could allow an attacker \nto escalate their privileges and gain root access to the system.",
+      "cveName": "CVE-2024-47254",
+      "cveUrl": "/vuln/detail/CVE-2024-47254"
+    }
+  },
+  "CVE-2024-47255": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:20:05 AM -0500"
+      ],
+      "cveDis": "In 2N Access Commander versions 3.1.1.2 and prior, a local attacker can escalate their privileges in the system which could allow for arbitrary \ncode execution with root permissions.",
+      "cveName": "CVE-2024-47255",
+      "cveUrl": "/vuln/detail/CVE-2024-47255"
     }
   },
   "CVE-2024-47295": {
@@ -17509,6 +17619,28 @@
       "cveDis": "Mattermost versions 9.10.x <= 9.10.2, 9.11.x <= 9.11.1 and 9.5.x <= 9.5.9 fail to prevent detailed error messages from being displayed in Playbooks which allows an attacker to generate a large response and cause an amplified GraphQL response which in turn could cause the application to crash by sending a specially crafted request to Playbooks.",
       "cveName": "CVE-2024-47401",
       "cveUrl": "/vuln/detail/CVE-2024-47401"
+    }
+  },
+  "CVE-2024-47402": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "in OpenHarmony v4.0.0 and prior versions allow a local attacker cause DOS through out-of-bounds read.",
+      "cveName": "CVE-2024-47402",
+      "cveUrl": "/vuln/detail/CVE-2024-47402"
+    }
+  },
+  "CVE-2024-47404": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "in OpenHarmony v4.1.0 and prior versions allow a local attacker cause the common permission is upgraded to root and sensitive information leak through double free.",
+      "cveName": "CVE-2024-47404",
+      "cveUrl": "/vuln/detail/CVE-2024-47404"
     }
   },
   "CVE-2024-47406": {
@@ -19577,6 +19709,17 @@
       "cveDis": "Stored cross-site scripting vulnerability exists in Exment v6.1.4 and earlier and Exment v5.0.11 and earlier. When accessing the edit screen containing custom columns (column type: images or files), an arbitrary script may be executed on the web browser of the user.",
       "cveName": "CVE-2024-47793",
       "cveUrl": "/vuln/detail/CVE-2024-47793"
+    }
+  },
+  "CVE-2024-47797": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "in OpenHarmony v4.1.0 and prior versions allow a local attacker cause the common permission is upgraded to root and sensitive information leak through out-of-bounds write.",
+      "cveName": "CVE-2024-47797",
+      "cveUrl": "/vuln/detail/CVE-2024-47797"
     }
   },
   "CVE-2024-47801": {
@@ -28357,6 +28500,215 @@
       "cveUrl": "/vuln/detail/CVE-2024-51509"
     }
   },
+  "CVE-2024-51510": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:03 AM -0500"
+      ],
+      "cveDis": "Out-of-bounds access vulnerability in the logo module\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
+      "cveName": "CVE-2024-51510",
+      "cveUrl": "/vuln/detail/CVE-2024-51510"
+    }
+  },
+  "CVE-2024-51511": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "Vulnerability of parameter type not being verified in the WantAgent module\nImpact: Successful exploitation of this vulnerability may affect availability.",
+      "cveName": "CVE-2024-51511",
+      "cveUrl": "/vuln/detail/CVE-2024-51511"
+    }
+  },
+  "CVE-2024-51512": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "Vulnerability of parameter type not being verified in the WantAgent module\nImpact: Successful exploitation of this vulnerability may affect availability.",
+      "cveName": "CVE-2024-51512",
+      "cveUrl": "/vuln/detail/CVE-2024-51512"
+    }
+  },
+  "CVE-2024-51513": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "Vulnerability of processes not being fully terminated in the VPN module\nImpact: Successful exploitation of this vulnerability will affect power consumption.",
+      "cveName": "CVE-2024-51513",
+      "cveUrl": "/vuln/detail/CVE-2024-51513"
+    }
+  },
+  "CVE-2024-51514": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "Vulnerability of pop-up windows belonging to no app in the VPN module\nImpact:  Successful exploitation of this vulnerability may affect service confidentiality.",
+      "cveName": "CVE-2024-51514",
+      "cveUrl": "/vuln/detail/CVE-2024-51514"
+    }
+  },
+  "CVE-2024-51515": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "Race condition vulnerability in the kernel network module\nImpact:Successful exploitation of this vulnerability may affect availability.",
+      "cveName": "CVE-2024-51515",
+      "cveUrl": "/vuln/detail/CVE-2024-51515"
+    }
+  },
+  "CVE-2024-51516": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "Permission control vulnerability in the ability module\nImpact: Successful exploitation of this vulnerability may cause features to function abnormally.",
+      "cveName": "CVE-2024-51516",
+      "cveUrl": "/vuln/detail/CVE-2024-51516"
+    }
+  },
+  "CVE-2024-51517": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:10 AM -0500"
+      ],
+      "cveDis": "Vulnerability of improper memory access in the phone service module\nImpact: Successful exploitation of this vulnerability may affect availability.",
+      "cveName": "CVE-2024-51517",
+      "cveUrl": "/vuln/detail/CVE-2024-51517"
+    }
+  },
+  "CVE-2024-51518": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:10 AM -0500"
+      ],
+      "cveDis": "Vulnerability of message types not being verified in the advanced messaging modul\nImpact: Successful exploitation of this vulnerability may affect availability.",
+      "cveName": "CVE-2024-51518",
+      "cveUrl": "/vuln/detail/CVE-2024-51518"
+    }
+  },
+  "CVE-2024-51519": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:11 AM -0500"
+      ],
+      "cveDis": "Vulnerability of input parameters not being verified in the HDC module\nImpact: Successful exploitation of this vulnerability may affect availability.",
+      "cveName": "CVE-2024-51519",
+      "cveUrl": "/vuln/detail/CVE-2024-51519"
+    }
+  },
+  "CVE-2024-51520": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:11 AM -0500"
+      ],
+      "cveDis": "Vulnerability of input parameters not being verified in the HDC module\nImpact: Successful exploitation of this vulnerability may affect availability.",
+      "cveName": "CVE-2024-51520",
+      "cveUrl": "/vuln/detail/CVE-2024-51520"
+    }
+  },
+  "CVE-2024-51521": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:12 AM -0500"
+      ],
+      "cveDis": "Input parameter verification vulnerability in the background service module\nImpact: Successful exploitation of this vulnerability may affect availability.",
+      "cveName": "CVE-2024-51521",
+      "cveUrl": "/vuln/detail/CVE-2024-51521"
+    }
+  },
+  "CVE-2024-51522": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:12 AM -0500"
+      ],
+      "cveDis": "Vulnerability of improper device information processing in the device management module\nImpact: Successful exploitation of this vulnerability may affect availability.",
+      "cveName": "CVE-2024-51522",
+      "cveUrl": "/vuln/detail/CVE-2024-51522"
+    }
+  },
+  "CVE-2024-51523": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:13 AM -0500"
+      ],
+      "cveDis": "Information management vulnerability in the Gallery module\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
+      "cveName": "CVE-2024-51523",
+      "cveUrl": "/vuln/detail/CVE-2024-51523"
+    }
+  },
+  "CVE-2024-51524": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:13 AM -0500"
+      ],
+      "cveDis": "Permission control vulnerability in the Wi-Fi module\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
+      "cveName": "CVE-2024-51524",
+      "cveUrl": "/vuln/detail/CVE-2024-51524"
+    }
+  },
+  "CVE-2024-51525": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:14 AM -0500"
+      ],
+      "cveDis": "Permission control vulnerability in the clipboard module\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
+      "cveName": "CVE-2024-51525",
+      "cveUrl": "/vuln/detail/CVE-2024-51525"
+    }
+  },
+  "CVE-2024-51526": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:14 AM -0500"
+      ],
+      "cveDis": "Permission control vulnerability in the hidebug module\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
+      "cveName": "CVE-2024-51526",
+      "cveUrl": "/vuln/detail/CVE-2024-51526"
+    }
+  },
+  "CVE-2024-51527": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:15 AM -0500"
+      ],
+      "cveDis": "Permission control vulnerability in the Gallery app\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
+      "cveName": "CVE-2024-51527",
+      "cveUrl": "/vuln/detail/CVE-2024-51527"
+    }
+  },
+  "CVE-2024-51528": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:15 AM -0500"
+      ],
+      "cveDis": "Vulnerability of improper log printing in the Super Home Screen module\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
+      "cveName": "CVE-2024-51528",
+      "cveUrl": "/vuln/detail/CVE-2024-51528"
+    }
+  },
   "CVE-2024-51556": {
     "cve": {
       "cveDate": [
@@ -28630,6 +28982,17 @@
       "cveDis": "A potential information disclosure vulnerability was reported in Lenovo's packaging of Dolby Vision Provisioning software prior to version 2.0.0.2 that could allow a local attacker to read files on the system with elevated privileges during installation of the package. Previously installed versions are not affected by this issue.",
       "cveName": "CVE-2024-5474",
       "cveUrl": "/vuln/detail/CVE-2024-5474"
+    }
+  },
+  "CVE-2024-5578": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:05 AM -0500"
+      ],
+      "cveDis": "The Table of Contents Plus WordPress plugin through 2408 does not sanitise and escape some of its settings, which could allow high privilege users such as editors to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed",
+      "cveName": "CVE-2024-5578",
+      "cveUrl": "/vuln/detail/CVE-2024-5578"
     }
   },
   "CVE-2024-5608": {
@@ -29193,6 +29556,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-7424"
     }
   },
+  "CVE-2024-74294-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:16 AM -0500"
+      ],
+      "cveDis": "The Zotpress plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the Zotpress_process_accounts_AJAX function in all versions up to, and including, 7.3.12. This makes it possible for authenticated attackers, with Contributor-level access and above, to reset the plugin's settings.",
+      "cveName": "CVE-2024-74294-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-7429"
+    }
+  },
   "CVE-2024-74328-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -29521,6 +29895,28 @@
       "cveDis": "The 123.chat - Video Chat plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 1.3.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-78697-2 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-7869"
+    }
+  },
+  "CVE-2024-7876": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:05 AM -0500"
+      ],
+      "cveDis": "The Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin WordPress plugin before 1.6.7.55 does not sanitise and escape some of its Appointment Type settings, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed",
+      "cveName": "CVE-2024-7876",
+      "cveUrl": "/vuln/detail/CVE-2024-7876"
+    }
+  },
+  "CVE-2024-7877": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:05 AM -0500"
+      ],
+      "cveDis": "The Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin WordPress plugin before 1.6.7.55 does not sanitise and escape some of its Notification settings, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed",
+      "cveName": "CVE-2024-7877",
+      "cveUrl": "/vuln/detail/CVE-2024-7877"
     }
   },
   "CVE-2024-7883": {
@@ -31767,6 +32163,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9174"
     }
   },
+  "CVE-2024-91786-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:04 AM -0500"
+      ],
+      "cveDis": "The XT Floating Cart for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 2.8.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-91786-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9178"
+    }
+  },
   "CVE-2024-9180": {
     "cve": {
       "cveDate": [
@@ -33296,6 +33703,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9441"
     }
   },
+  "CVE-2024-94436-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "The Basticom Framework plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.5.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-94436-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9443"
+    }
+  },
   "CVE-2024-94446-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -33404,6 +33822,17 @@
       "cveDis": "The WP Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 3.0.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
       "cveName": "CVE-2024-94576-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9457"
+    }
+  },
+  "CVE-2024-9459": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "Zohocorp ManageEngine Exchange Reporter Plus versions 5718 and prior are vulnerable to authenticated SQL Injection in reports module.",
+      "cveName": "CVE-2024-9459",
+      "cveUrl": "/vuln/detail/CVE-2024-9459"
     }
   },
   "CVE-2024-9460": {
@@ -34627,6 +35056,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9656"
     }
   },
+  "CVE-2024-96676-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "The Seriously Simple Podcasting plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 3.5.0. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-96676-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9667"
+    }
+  },
   "CVE-2024-96706-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -34735,6 +35175,17 @@
       "cveDis": "The WP 2FA with Telegram plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 3.0. This is due to insufficient validation of the user-controlled key on the 'validate_tg' action. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to log in as any existing user on the site, such as an administrator.",
       "cveName": "CVE-2024-96878-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9687"
+    }
+  },
+  "CVE-2024-9689": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "The Post From Frontend WordPress plugin through 1.0.0 does not have CSRF check when deleting posts, which could allow attackers to make logged in admin perform such action via a CSRF attack",
+      "cveName": "CVE-2024-9689",
+      "cveUrl": "/vuln/detail/CVE-2024-9689"
     }
   },
   "CVE-2024-9692": {
@@ -35461,6 +35912,28 @@
       "cveDis": "The Element Pack Elementor Addons (Header Footer, Template Library, Dynamic Grid & Carousel, Remote Arrows) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Age Gate Widget 'url' parameter in all versions up to, and including, 5.10.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-98685-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9868"
+    }
+  },
+  "CVE-2024-9878": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:21:16 AM -0500"
+      ],
+      "cveDis": "The Photo Gallery by 10Web – Mobile-Friendly Image Gallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 1.8.30 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "cveName": "CVE-2024-9878",
+      "cveUrl": "/vuln/detail/CVE-2024-9878"
+    }
+  },
+  "CVE-2024-9883": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "The Pods  WordPress plugin before 3.2.7.1 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
+      "cveName": "CVE-2024-9883",
+      "cveUrl": "/vuln/detail/CVE-2024-9883"
     }
   },
   "CVE-2024-98846-4 MEDIUM": {
