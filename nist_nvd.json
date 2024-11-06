@@ -1561,6 +1561,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10018"
     }
   },
+  "CVE-2024-100208-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "2:15:03 AM -0500"
+      ],
+      "cveDis": "The Heateor Social Login WordPress plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 1.1.35. This is due to insufficient verification on the user being returned by the social login token. This makes it possible for unauthenticated attackers to log in as any existing user on the site, if they have access to the email and the user does not have an already-existing account for the service returning the token. An attacker cannot authenticate as an administrator by default, but these accounts are also at risk if authentication for administrators has explicitly been allowed via the social login.",
+      "cveName": "CVE-2024-100208-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10020"
+    }
+  },
   "CVE-2024-10025": {
     "cve": {
       "cveDate": [
@@ -4069,6 +4080,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10525"
     }
   },
+  "CVE-2024-105355-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "2:15:03 AM -0500"
+      ],
+      "cveDis": "The Video Gallery for WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the remove_unused_thumbnails() function in all versions up to, and including, 1.31. This makes it possible for unauthenticated attackers to delete thumbnails in the video-wc-gallery-thumb directory.",
+      "cveName": "CVE-2024-105355-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10535"
+    }
+  },
   "CVE-2024-105405-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -4078,6 +4100,17 @@
       "cveDis": "The Appointment Booking Calendar Plugin and Scheduling Plugin – BookingPress plugin for WordPress is vulnerable to SQL Injection via the 'service' parameter of the bookingpress_form shortcode in all versions up to, and including, 1.1.16 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
       "cveName": "CVE-2024-105405-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10540"
+    }
+  },
+  "CVE-2024-105434-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "2:15:04 AM -0500"
+      ],
+      "cveDis": "The Tumult Hype Animations plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the hypeanimations_getcontent function in all versions up to, and including, 1.9.14. This makes it possible for authenticated attackers, with Subscriber-level access and above, to retrieve animation information.",
+      "cveName": "CVE-2024-105434-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10543"
     }
   },
   "CVE-2024-105445-3 MEDIUM": {
@@ -4584,6 +4617,17 @@
       "cveDis": "The WooCommerce Report plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.5.1. This is due to missing or incorrect nonce validation on the settings update functionality. This makes it possible for unauthenticated attackers to update arbitrary options that can be leveraged for privilege escalation via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-10711",
       "cveUrl": "/vuln/detail/CVE-2024-10711"
+    }
+  },
+  "CVE-2024-107156-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "6:15:03 AM -0500"
+      ],
+      "cveDis": "The MapPress Maps for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's Map block in all versions up to, and including, 2.94.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-107156-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10715"
     }
   },
   "CVE-2024-10730": {
@@ -30205,6 +30249,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51774"
     }
   },
+  "CVE-2024-52043": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "Generation of Error Message Containing Sensitive Information in HumHub GmbH & Co. KG - HumHub on Linux allows: Excavation (user enumeration).This issue affects all released HumHub versions: through 1.16.2.",
+      "cveName": "CVE-2024-52043",
+      "cveUrl": "/vuln/detail/CVE-2024-52043"
+    }
+  },
   "CVE-2024-5429": {
     "cve": {
       "cveDate": [
@@ -30500,6 +30555,17 @@
       "cveDis": "A vulnerability in the discussion image upload function of the Lollms application, version v9.9, allows for the uploading of SVG files. Due to incomplete filtering in the sanitize_svg function, this can lead to cross-site scripting (XSS) vulnerabilities, which in turn pose a risk of remote code execution. The sanitize_svg function only removes script elements and 'on*' event attributes, but does not account for other potential vectors for XSS within SVG files. This vulnerability can be exploited when authorized users access a malicious URL containing the crafted SVG file.",
       "cveName": "CVE-2024-6581",
       "cveUrl": "/vuln/detail/CVE-2024-6581"
+    }
+  },
+  "CVE-2024-66265-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "2:15:04 AM -0500"
+      ],
+      "cveDis": "The EleForms – All In One Form Integration including DB for Elementor plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on several functions in all versions up to, and including, 2.9.9.9. This makes it possible for unauthenticated attackers to view form submissions.",
+      "cveName": "CVE-2024-66265-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-6626"
     }
   },
   "CVE-2024-6673": {
@@ -31160,6 +31226,17 @@
       "cveDis": "The Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin WordPress plugin before 1.6.7.55 does not sanitise and escape some of its Notification settings, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed",
       "cveName": "CVE-2024-7877",
       "cveUrl": "/vuln/detail/CVE-2024-7877"
+    }
+  },
+  "CVE-2024-7879": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "1:15:03 AM -0500"
+      ],
+      "cveDis": "The WP ULike  WordPress plugin before 4.7.5 does not sanitise and escape some of its settings, which could allow high privilege users such as editors to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed",
+      "cveName": "CVE-2024-7879",
+      "cveUrl": "/vuln/detail/CVE-2024-7879"
     }
   },
   "CVE-2024-7883": {
@@ -32183,6 +32260,28 @@
       "cveDis": "When the XML is read from the codes in the PDF and parsed using a DocumentBuilder, the default settings of the DocumentBuilder allow for an XXE (XML External Entity) attack. Further information on this can be found on the website of the Open Worldwide Application Security Project (OWASP). An attacker could theoretically leverage this by delivering a manipulated PDF file to the target, and depending on the environment, various actions can be executed. These actions include:\n\n  *  Reading files from the operating system\n  *  Crashing the thread handling the parsing or causing it to enter an infinite loop\n  *  Executing HTTP requests\n  *  Loading additional DTDs or XML files\n  *  Under certain conditions, executing OS commands",
       "cveName": "CVE-2024-8602",
       "cveUrl": "/vuln/detail/CVE-2024-8602"
+    }
+  },
+  "CVE-2024-86149-9 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "The JobSearch WP Job Board plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the jobsearch_wp_handle_upload() function in all versions up to, and including, 2.6.7. This makes it possible for authenticated attackers, with subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "cveName": "CVE-2024-86149-9 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-8614"
+    }
+  },
+  "CVE-2024-861510-0 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "The JobSearch WP Job Board plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the jobsearch_location_load_excel_file_callback() function in all versions up to, and including, 2.6.7. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "cveName": "CVE-2024-861510-0 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-8615"
     }
   },
   "CVE-2024-8625": {
@@ -34053,6 +34152,17 @@
       "cveDis": "The WP Booking Calendar plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 10.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled. In addition, site administrators have the option to grant lower-level users with access to manage the plugin's settings which may extend this vulnerability to those users.",
       "cveName": "CVE-2024-93064-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9306"
+    }
+  },
+  "CVE-2024-93079-9 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "2:15:04 AM -0500"
+      ],
+      "cveDis": "The mFolio Lite plugin for WordPress is vulnerable to file uploads due to a missing capability check in all versions up to, and including, 1.2.1. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file or upload arbitrary EXE files on the affected site's server which may make remote code execution possible if the attacker can also gain access to run the .exe file, or trick a site visitor into downloading and running the .exe file.",
+      "cveName": "CVE-2024-93079-9 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-9307"
     }
   },
   "CVE-2024-9312": {
@@ -36398,6 +36508,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9677"
     }
   },
+  "CVE-2024-9681": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "When curl is asked to use HSTS, the expiry time for a subdomain might\noverwrite a parent domain's cache entry, making it end sooner or later than\notherwise intended.\n\nThis affects curl using applications that enable HSTS and use URLs with the\ninsecure `HTTP://` scheme and perform transfers with hosts like\n`x.example.com` as well as `example.com` where the first host is a subdomain\nof the second host.\n\n(The HSTS cache either needs to have been populated manually or there needs to\nhave been previous HTTPS accesses done as the cache needs to have entries for\nthe domains involved to trigger this problem.)\n\nWhen `x.example.com` responds with `Strict-Transport-Security:` headers, this\nbug can make the subdomain's expiry timeout *bleed over* and get set for the\nparent domain `example.com` in curl's HSTS cache.\n\nThe result of a triggered bug is that HTTP accesses to `example.com` get\nconverted to HTTPS for a different period of time than what was asked for by\nthe origin server. If `example.com` for example stops supporting HTTPS at its\nexpiry time, curl might then fail to access `http://example.com` until the\n(wrongly set) timeout expires. This bug can also expire the parent's entry\n*earlier*, thus making curl inadvertently switch back to insecure HTTP earlier\nthan otherwise intended.",
+      "cveName": "CVE-2024-9681",
+      "cveUrl": "/vuln/detail/CVE-2024-9681"
+    }
+  },
   "CVE-2024-96834-8 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -37344,6 +37465,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9898"
     }
   },
+  "CVE-2024-99026-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "A flaw was found in Ansible. The ansible-core `user` module can allow an unprivileged user to silently create or replace the contents of any file on any system path and take ownership of it when a privileged user executes the `user` module against the unprivileged user's home directory. If the unprivileged user has traversal permissions on the directory containing the exploited target file, they retain full control over the contents of the file as its owner.",
+      "cveName": "CVE-2024-99026-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9902"
+    }
+  },
   "CVE-2024-9903": {
     "cve": {
       "cveDate": [
@@ -37630,6 +37762,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9933"
     }
   },
+  "CVE-2024-9934": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "1:15:03 AM -0500"
+      ],
+      "cveDis": "The Wp-ImageZoom WordPress plugin through 1.1.0 does not sanitise and escape some parameters before outputting them back in a page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin",
+      "cveName": "CVE-2024-9934",
+      "cveUrl": "/vuln/detail/CVE-2024-9934"
+    }
+  },
   "CVE-2024-9936": {
     "cve": {
       "cveDate": [
@@ -37672,6 +37815,17 @@
       "cveDis": "The WooCommerce plugin for WordPress is vulnerable to HTML Injection in all versions up to, and including, 9.0.2. This is due to the plugin not properly neutralizing HTML elements from submitted order forms. This makes it possible for unauthenticated attackers to inject arbitrary HTML that will render when the administrator views order form submissions.",
       "cveName": "CVE-2024-9944",
       "cveUrl": "/vuln/detail/CVE-2024-9944"
+    }
+  },
+  "CVE-2024-9946": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "2:15:04 AM -0500"
+      ],
+      "cveDis": "The Social Share, Social Login and Social Comments Plugin – Super Socializer plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 7.13.68. This is due to insufficient verification on the user being returned by the social login token. This makes it possible for unauthenticated attackers to log in as any existing user on the site, if they have access to the email and the user does not have an already-existing account for the service returning the token. An attacker cannot authenticate as an administrator by default, but these accounts are also at risk if authentication for administrators has explicitly been allowed via the social login. The vulnerability was partially patched in version 7.13.68.",
+      "cveName": "CVE-2024-9946",
+      "cveUrl": "/vuln/detail/CVE-2024-9946"
     }
   },
   "CVE-2024-99478-1 HIGH": {
