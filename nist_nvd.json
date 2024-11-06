@@ -76,6 +76,17 @@
       "cveUrl": "/vuln/detail/CVE-2019-25219"
     }
   },
+  "CVE-2020-11859": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "9:15:04 AM -0500"
+      ],
+      "cveDis": "Improper Input Validation vulnerability in OpenText iManager allows Cross-Site Scripting (XSS). This issue affects iManager before 3.2.3",
+      "cveName": "CVE-2020-11859",
+      "cveUrl": "/vuln/detail/CVE-2020-11859"
+    }
+  },
   "CVE-2020-26303": {
     "cve": {
       "cveDate": [
@@ -1803,6 +1814,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-10080"
     }
   },
+  "CVE-2024-10081": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "CodeChecker is an analyzer tooling, defect database and viewer extension for the Clang Static Analyzer and Clang Tidy. \nAuthentication bypass occurs when the API URL ends with Authentication. This bypass allows superuser access to all API endpoints other than Authentication. These endpoints include the ability to add, edit, and remove products, among others. All endpoints, apart from the /Authentication is affected by the vulnerability.\n\nThis issue affects CodeChecker: through 6.24.1.",
+      "cveName": "CVE-2024-10081",
+      "cveUrl": "/vuln/detail/CVE-2024-10081"
+    }
+  },
+  "CVE-2024-10082": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "CodeChecker is an analyzer tooling, defect database and viewer extension for the Clang Static Analyzer and Clang Tidy. \nAuthentication method confusion allows logging in as the built-in root user from an external service. The built-in root user up until 6.24.1 is generated in a weak manner, cannot be disabled, and has universal access.This vulnerability allows an attacker who can create an account on an enabled external authentication service, to log in as the root user, and access and control everything that can be controlled via the web interface. The attacker needs to acquire the username of the root user to be successful.\n\nThis issue affects CodeChecker: through 6.24.1.",
+      "cveName": "CVE-2024-10082",
+      "cveUrl": "/vuln/detail/CVE-2024-10082"
+    }
+  },
   "CVE-2024-100844-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -2353,6 +2386,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10167"
     }
   },
+  "CVE-2024-101686-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "7:15:03 AM -0500"
+      ],
+      "cveDis": "The Active Products Tables for WooCommerce. Use constructor to create tables plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's woot_button shortcode in all versions up to, and including, 1.0.6.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-101686-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10168"
+    }
+  },
   "CVE-2024-10169": {
     "cve": {
       "cveDate": [
@@ -2428,6 +2472,17 @@
       "cveDis": "A vulnerability in Jamf Pro's Jamf Remote Assist tool allows a local, non-privileged user to escalate their privileges to root on MacOS systems.",
       "cveName": "CVE-2024-10183",
       "cveUrl": "/vuln/detail/CVE-2024-10183"
+    }
+  },
+  "CVE-2024-101866-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "8:15:03 AM -0500"
+      ],
+      "cveDis": "The Event post plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's events_cal shortcode in all versions up to, and including, 5.9.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-101866-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10186"
     }
   },
   "CVE-2024-101896-4 MEDIUM": {
@@ -2945,6 +3000,17 @@
       "cveDis": "iniNet Solutions SpiderControl SCADA PC HMI Editor has a path traversal \nvulnerability. When the software loads a malicious ‘ems' project \ntemplate file constructed by an attacker, it can write files to \narbitrary directories. This can lead to overwriting system files, \ncausing system paralysis, or writing to startup items, resulting in \nremote control.",
       "cveName": "CVE-2024-10313",
       "cveUrl": "/vuln/detail/CVE-2024-10313"
+    }
+  },
+  "CVE-2024-10318": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:13 PM -0500"
+      ],
+      "cveDis": "A session fixation issue was discovered in the NGINX OpenID Connect reference implementation, where a nonce was not checked at login time. This flaw allows an attacker to fix a victim's session to an attacker-controlled account. As a result, although the attacker cannot log in as the victim, they can force the session to associate it with the attacker-controlled account, leading to potential misuse of the victim's session.",
+      "cveName": "CVE-2024-10318",
+      "cveUrl": "/vuln/detail/CVE-2024-10318"
     }
   },
   "CVE-2024-103194-3 MEDIUM": {
@@ -5103,6 +5169,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-10810"
     }
   },
+  "CVE-2024-10826": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:13 PM -0500"
+      ],
+      "cveDis": "Use after free in Family Experiences in Google Chrome on Android prior to 130.0.6723.116 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-10826",
+      "cveUrl": "/vuln/detail/CVE-2024-10826"
+    }
+  },
+  "CVE-2024-10827": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:14 PM -0500"
+      ],
+      "cveDis": "Use after free in Serial in Google Chrome prior to 130.0.6723.116 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-10827",
+      "cveUrl": "/vuln/detail/CVE-2024-10827"
+    }
+  },
+  "CVE-2024-10914": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "9:15:05 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in D-Link DNS-320, DNS-320LW, DNS-325 and DNS-340L up to 20241028. It has been declared as critical. Affected by this vulnerability is the function cgi_user_add of the file /cgi-bin/account_mgr.cgi?cmd=cgi_user_add. The manipulation of the argument name leads to os command injection. The attack can be launched remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10914",
+      "cveUrl": "/vuln/detail/CVE-2024-10914"
+    }
+  },
+  "CVE-2024-10915": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "9:15:05 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in D-Link DNS-320, DNS-320LW, DNS-325 and DNS-340L up to 20241028. It has been rated as critical. Affected by this issue is the function cgi_user_add of the file /cgi-bin/account_mgr.cgi?cmd=cgi_user_add. The manipulation of the argument group leads to os command injection. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10915",
+      "cveUrl": "/vuln/detail/CVE-2024-10915"
+    }
+  },
+  "CVE-2024-10916": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "10:15:12 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic has been found in D-Link DNS-320, DNS-320LW, DNS-325 and DNS-340L up to 20241028. This affects an unknown part of the file /xml/info.xml of the component HTTP GET Request Handler. The manipulation leads to information disclosure. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10916",
+      "cveUrl": "/vuln/detail/CVE-2024-10916"
+    }
+  },
+  "CVE-2024-10919": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "11:15:05 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in didi Super-Jacoco 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /cov/triggerUnitCover. The manipulation of the argument uuid leads to os command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10919",
+      "cveUrl": "/vuln/detail/CVE-2024-10919"
+    }
+  },
+  "CVE-2024-10920": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "11:15:05 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in mariazevedo88 travels-java-api up to 5.0.1 and classified as problematic. Affected by this issue is the function doFilterInternal of the file travels-java-api-master\\src\\main\\java\\io\\github\\mariazevedo88\\travelsjavaapi\\filters\\JwtAuthenticationTokenFilter.java of the component JWT Secret Handler. The manipulation leads to use of hard-coded cryptographic key\n . The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10920",
+      "cveUrl": "/vuln/detail/CVE-2024-10920"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -5719,6 +5862,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-20370"
     }
   },
+  "CVE-2024-20371": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:14 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the access control list (ACL) programming of Cisco Nexus 3550-F Switches could allow an unauthenticated, remote attacker to send traffic that should be blocked to the management interface of an affected device.&nbsp;\n\nThis vulnerability exists because ACL deny rules are not properly enforced at the time of device reboot. An attacker could exploit this vulnerability by attempting to send traffic to the management interface of an affected device. A successful exploit could allow the attacker to send traffic to the management interface of the affected device.",
+      "cveName": "CVE-2024-20371",
+      "cveUrl": "/vuln/detail/CVE-2024-20371"
+    }
+  },
   "CVE-2024-20372": {
     "cve": {
       "cveDate": [
@@ -5928,6 +6082,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-20415"
     }
   },
+  "CVE-2024-20418": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:14 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Unified Industrial Wireless Software for Cisco Ultra-Reliable Wireless Backhaul (URWB) Access Points could allow an unauthenticated, remote attacker to perform command injection attacks with root privileges on the underlying operating system.\n\nThis vulnerability is due to improper validation of input to the web-based management interface. An attacker could exploit this vulnerability by sending crafted HTTP requests to the web-based management interface of an affected system. A successful exploit could allow the attacker to execute arbitrary commands with root privileges on the underlying operating system of the affected device.",
+      "cveName": "CVE-2024-20418",
+      "cveUrl": "/vuln/detail/CVE-2024-20418"
+    }
+  },
   "CVE-2024-20420": {
     "cve": {
       "cveDate": [
@@ -6038,6 +6203,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-20444"
     }
   },
+  "CVE-2024-20445": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:14 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web UI of Cisco Desk Phone 9800 Series, Cisco IP Phone 7800 and 8800 Series, and Cisco Video Phone 8875 could allow an unauthenticated, remote attacker to access sensitive information on an affected device.\n\nThis vulnerability is due to improper storage of sensitive information within the web UI of Session Initiation Protocol (SIP)-based phone loads. An attacker could exploit this vulnerability by browsing to the IP address of a device that has Web Access enabled. A successful exploit could allow the attacker to access sensitive information, including incoming and outgoing call records.\nNote: Web Access is disabled by default.",
+      "cveName": "CVE-2024-20445",
+      "cveUrl": "/vuln/detail/CVE-2024-20445"
+    }
+  },
   "CVE-2024-20448": {
     "cve": {
       "cveDate": [
@@ -6058,6 +6234,17 @@
       "cveDis": "A vulnerability in Cisco Nexus Dashboard Fabric Controller (NDFC) could allow an authenticated, remote attacker with low privileges to execute arbitrary code on an affected device.\n\nThis vulnerability is due to improper path validation. An attacker could exploit this vulnerability by using the Secure Copy Protocol (SCP) to upload malicious code to an affected device using path traversal techniques. A successful exploit could allow the attacker to execute arbitrary&nbsp;code in a specific container with the privileges of root.",
       "cveName": "CVE-2024-20449",
       "cveUrl": "/vuln/detail/CVE-2024-20449"
+    }
+  },
+  "CVE-2024-20457": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the logging component of Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp;P) could allow an authenticated, remote attacker to view sensitive information in clear text on an affected system.\n\nThis vulnerability is due to the storage of unencrypted credentials in certain logs. An attacker could exploit this vulnerability by accessing the logs on an affected system and obtaining credentials that they may not normally have access to. A successful exploit could allow the attacker to access sensitive information from the device.",
+      "cveName": "CVE-2024-20457",
+      "cveUrl": "/vuln/detail/CVE-2024-20457"
     }
   },
   "CVE-2024-20458": {
@@ -6181,6 +6368,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-20474"
     }
   },
+  "CVE-2024-20476": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco ISE could allow an authenticated, remote attacker to bypass the authorization mechanisms for specific file management functions.\n\nThis vulnerability is due to lack of server-side validation of Administrator permissions. An attacker could exploit this vulnerability by submitting a crafted HTTP request to an affected system. A successful exploit could allow the attacker to upload files to a location that should be restricted. To exploit this vulnerability, an attacker would need valid Read-Only Administrator&nbsp;credentials.",
+      "cveName": "CVE-2024-20476",
+      "cveUrl": "/vuln/detail/CVE-2024-20476"
+    }
+  },
   "CVE-2024-20477": {
     "cve": {
       "cveDate": [
@@ -6214,6 +6412,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-20482"
     }
   },
+  "CVE-2024-20484": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the External Agent Assignment Service (EAAS) feature of Cisco Enterprise Chat and Email (ECE) could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.\n\nThis vulnerability is due to insufficient validation of Media Routing Peripheral Interface Manager (MR PIM) traffic that is received by an affected device. An attacker could exploit this vulnerability by sending crafted MR PIM traffic to an affected device. A successful exploit could allow the attacker to trigger a failure on the MR PIM connection between Cisco ECE and Cisco Unified Contact Center Enterprise (CCE), leading to a DoS condition on EAAS that would prevent customers from starting chat, callback, or delayed callback sessions. Note: When the attack traffic stops, the EAAS process must be manually restarted to restore normal operation. To restart the process in the System Console, choose Shared Resources &gt; Services &gt; Unified CCE &gt; EAAS, then click Start.",
+      "cveName": "CVE-2024-20484",
+      "cveUrl": "/vuln/detail/CVE-2024-20484"
+    }
+  },
   "CVE-2024-20485": {
     "cve": {
       "cveDate": [
@@ -6223,6 +6432,17 @@
       "cveDis": "A vulnerability in the VPN web server of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an authenticated, local attacker to execute arbitrary code with root-level privileges. Administrator-level privileges are required to exploit this vulnerability.\n\n This vulnerability is due to improper validation of a specific file when it is read from system flash memory. An attacker could exploit this vulnerability by restoring a crafted backup file to an affected device. A successful exploit could allow the attacker to execute arbitrary code on the affected device after the next reload of the device, which could alter system behavior. Because the injected code could persist across device reboots, Cisco has raised the Security Impact Rating (SIR) of this advisory from Medium to High.",
       "cveName": "CVE-2024-20485",
       "cveUrl": "/vuln/detail/CVE-2024-20485"
+    }
+  },
+  "CVE-2024-20487": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco ISE could allow an authenticated, remote attacker to conduct a stored XSS attack against a user of the interface.\n\nThis vulnerability is due to insufficient validation of user-supplied input by the web-based management interface of an affected system. An attacker could exploit this vulnerability by injecting malicious code into specific pages of the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information. To exploit this vulnerability, the attacker must have at least a low-privileged account on an affected device.",
+      "cveName": "CVE-2024-20487",
+      "cveUrl": "/vuln/detail/CVE-2024-20487"
     }
   },
   "CVE-2024-20490": {
@@ -6346,6 +6566,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-20502"
     }
   },
+  "CVE-2024-20504": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:16 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco AsyncOS Software for Cisco Secure Email and Web Manager, Secure Email Gateway, and Secure Web Appliance could allow an authenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface.\n\nThis vulnerability is due to insufficient validation of user input. An attacker could exploit this vulnerability by persuading a user of an affected interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.",
+      "cveName": "CVE-2024-20504",
+      "cveUrl": "/vuln/detail/CVE-2024-20504"
+    }
+  },
+  "CVE-2024-20507": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:16 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the logging subsystem of Cisco Meeting Management could allow an authenticated, remote attacker to view sensitive information in clear text on an affected system.\n\nThis vulnerability is due to improper storage of sensitive information within the web-based management interface of an affected device. An attacker could exploit this vulnerability by logging in to the web-based management interface. A successful exploit could allow the attacker to view sensitive data that is stored on the affected device.",
+      "cveName": "CVE-2024-20507",
+      "cveUrl": "/vuln/detail/CVE-2024-20507"
+    }
+  },
   "CVE-2024-20509": {
     "cve": {
       "cveDate": [
@@ -6355,6 +6597,17 @@
       "cveDis": "A vulnerability in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to hijack an AnyConnect VPN session or cause a denial of service (DoS) condition for individual users of the AnyConnect VPN service on an affected device.\n\nThis vulnerability is due to weak entropy for handlers that are used during the VPN authentication process as well as a race condition that exists in the same process. An attacker could exploit this vulnerability by correctly guessing an authentication handler and then sending crafted HTTPS requests to an affected device. A successful exploit could allow the attacker to take over the AnyConnect VPN session from a target user or prevent the target user from establishing an AnyConnect VPN session with the affected device.",
       "cveName": "CVE-2024-20509",
       "cveUrl": "/vuln/detail/CVE-2024-20509"
+    }
+  },
+  "CVE-2024-20511": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:16 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface.\n\nThis vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.",
+      "cveName": "CVE-2024-20511",
+      "cveUrl": "/vuln/detail/CVE-2024-20511"
     }
   },
   "CVE-2024-20512": {
@@ -6377,6 +6630,17 @@
       "cveDis": "A vulnerability in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to cause a DoS condition for targeted users of the AnyConnect service on an affected device.\n\nThis vulnerability is due to insufficient entropy for handlers that are used during SSL VPN session establishment. An unauthenticated attacker could exploit this vulnerability by brute forcing valid session handlers. An authenticated attacker could exploit this vulnerability by connecting to the AnyConnect VPN service of an affected device to retrieve a valid session handler and, based on that handler, predict further valid session handlers. The attacker would then send a crafted HTTPS request using the brute-forced or predicted session handler to the AnyConnect VPN server of the device. A successful exploit could allow the attacker to terminate targeted SSL VPN sessions, forcing remote users to initiate new VPN connections and reauthenticate.",
       "cveName": "CVE-2024-20513",
       "cveUrl": "/vuln/detail/CVE-2024-20513"
+    }
+  },
+  "CVE-2024-20514": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:16 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Evolved Programmable Network Manager (EPNM) and Cisco Prime Infrastructure could allow an authenticated, low-privileged, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface.\n\nThis vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by injecting malicious code into a specific page of the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive browser-based information. To exploit this vulnerability, the attacker must have at least a low-privileged account on an affected device.",
+      "cveName": "CVE-2024-20514",
+      "cveUrl": "/vuln/detail/CVE-2024-20514"
     }
   },
   "CVE-2024-20515": {
@@ -6489,6 +6753,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-20524"
     }
   },
+  "CVE-2024-20525": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:16 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco ISE could allow an unauthenticated, remote attacker to conduct an XSS attack against a user of the interface.\n\nThis vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.",
+      "cveName": "CVE-2024-20525",
+      "cveUrl": "/vuln/detail/CVE-2024-20525"
+    }
+  },
   "CVE-2024-20526": {
     "cve": {
       "cveDate": [
@@ -6498,6 +6773,149 @@
       "cveDis": "A vulnerability in the SSH server of Cisco Adaptive Security Appliance (ASA) Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition for the SSH server of an affected device.\n\n This vulnerability is due to a logic error when an SSH session is established. An attacker could exploit this vulnerability by sending crafted SSH messages to an affected device. A successful exploit could allow the attacker to exhaust available SSH resources on the affected device so that new SSH connections to the device are denied, resulting in a DoS condition. Existing SSH connections to the device would continue to function normally. The device must be rebooted manually to recover. However, user traffic would not be impacted and could be managed using a remote application such as Cisco Adaptive Security Device Manager (ASDM).",
       "cveName": "CVE-2024-20526",
       "cveUrl": "/vuln/detail/CVE-2024-20526"
+    }
+  },
+  "CVE-2024-20527": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:17 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the API of Cisco ISE could allow an authenticated, remote attacker to read and delete arbitrary files on an affected device. To exploit this vulnerability, the attacker would need valid Super Admin credentials.\n\nThis vulnerability is due to insufficient validation of user-supplied parameters in API requests. An attacker could exploit this vulnerability by sending a crafted API request to an affected device. A successful exploit could allow the attacker to read or delete arbitrary files on the underlying operating system.",
+      "cveName": "CVE-2024-20527",
+      "cveUrl": "/vuln/detail/CVE-2024-20527"
+    }
+  },
+  "CVE-2024-20528": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:17 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the API of Cisco ISE could allow an authenticated, remote attacker to upload files to arbitrary locations on the underlying operating system of an affected device. To exploit this vulnerability, an attacker would need valid Super&nbsp;Admin credentials.\n\nThis vulnerability is due to insufficient validation of user-supplied parameters in API requests. An attacker could exploit this vulnerability by sending a crafted API request to an affected device. A successful exploit could allow the attacker to upload custom files to arbitrary locations on the underlying operating system, execute arbitrary code, and elevate privileges to root.",
+      "cveName": "CVE-2024-20528",
+      "cveUrl": "/vuln/detail/CVE-2024-20528"
+    }
+  },
+  "CVE-2024-20529": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:17 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the API of Cisco ISE could allow an authenticated, remote attacker to read and delete arbitrary files on an affected device. To exploit this vulnerability, the attacker would need valid Super Admin credentials.\n\nThis vulnerability is due to insufficient validation of user-supplied parameters in API requests. An attacker could exploit this vulnerability by sending a crafted API request to an affected device. A successful exploit could allow the attacker to read or delete arbitrary files on the underlying operating system.",
+      "cveName": "CVE-2024-20529",
+      "cveUrl": "/vuln/detail/CVE-2024-20529"
+    }
+  },
+  "CVE-2024-20530": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:17 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco ISE could allow an unauthenticated, remote attacker to conduct an XSS attack against a user of the interface.\n\nThis vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.",
+      "cveName": "CVE-2024-20530",
+      "cveUrl": "/vuln/detail/CVE-2024-20530"
+    }
+  },
+  "CVE-2024-20531": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:18 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the API of Cisco ISE could allow an authenticated, remote attacker to read arbitrary files on the underlying operating system of an affected device and conduct a server-side request forgery (SSRF) attack through an affected device. To exploit this vulnerability, the attacker would need valid Super Admin credentials.\n\nThis vulnerability is due to improper handling of XML External Entity (XXE) entries when parsing XML input. An attacker could exploit this vulnerability by sending a crafted API request to an affected device. A successful exploit could allow the attacker to read arbitrary files on the underlying operating system or conduct an SSRF attack through the affected device.",
+      "cveName": "CVE-2024-20531",
+      "cveUrl": "/vuln/detail/CVE-2024-20531"
+    }
+  },
+  "CVE-2024-20532": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:18 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the API of Cisco ISE could allow an authenticated, remote attacker to read and delete arbitrary files on an affected device. To exploit this vulnerability, the attacker would need valid Super Admin credentials.\n\nThis vulnerability is due to insufficient validation of user-supplied parameters in API requests. An attacker could exploit this vulnerability by sending a crafted API request to an affected device. A successful exploit could allow the attacker to read or delete arbitrary files on the underlying operating system.",
+      "cveName": "CVE-2024-20532",
+      "cveUrl": "/vuln/detail/CVE-2024-20532"
+    }
+  },
+  "CVE-2024-20533": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:18 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web UI of Cisco Desk Phone 9800 Series, Cisco IP Phone 6800, 7800, and 8800 Series, and Cisco Video Phone 8875 with Cisco Multiplatform Firmware could allow an authenticated, remote attacker to conduct stored cross-site scripting (XSS) attacks against users.\n\nThis vulnerability exists because the web UI of an affected device does not properly validate user-supplied input. An attacker could exploit this vulnerability by injecting malicious code into specific pages of the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.\nNote: To exploit this vulnerability, Web Access must be enabled on the phone and the attacker must have Admin credentials on the device. Web Access is disabled by default.",
+      "cveName": "CVE-2024-20533",
+      "cveUrl": "/vuln/detail/CVE-2024-20533"
+    }
+  },
+  "CVE-2024-20534": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:18 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web UI of Cisco Desk Phone 9800 Series, Cisco IP Phone 6800, 7800, and 8800 Series, and Cisco Video Phone 8875 with Cisco Multiplatform Firmware could allow an authenticated, remote attacker to conduct stored cross-site scripting (XSS) attacks against users.\n\nThis vulnerability exists because the web UI of an affected device does not properly validate user-supplied input. An attacker could exploit this vulnerability by injecting malicious code into specific pages of the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.\nNote: To exploit this vulnerability, Web Access must be enabled on the phone and the attacker must have Admin credentials on the device. Web Access is disabled by default.",
+      "cveName": "CVE-2024-20534",
+      "cveUrl": "/vuln/detail/CVE-2024-20534"
+    }
+  },
+  "CVE-2024-20536": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:19 PM -0500"
+      ],
+      "cveDis": "A vulnerability in a REST API endpoint and web-based management interface of Cisco Nexus Dashboard Fabric Controller (NDFC) could allow an authenticated, remote attacker with read-only privileges to execute arbitrary SQL commands on an affected device.\n\nThis vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending a crafted request to a specific REST API endpoint or web-based management interface. A successful exploit could allow the attacker to read, modify, or delete arbitrary data on an internal database, which could affect the availability of the device.&nbsp;",
+      "cveName": "CVE-2024-20536",
+      "cveUrl": "/vuln/detail/CVE-2024-20536"
+    }
+  },
+  "CVE-2024-20537": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:19 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco ISE could allow an authenticated, remote attacker to bypass the authorization mechanisms for specific administrative functions.\n\nThis vulnerability is due to a lack of server-side validation of Administrator permissions. An attacker could exploit this vulnerability by submitting a crafted HTTP request to an affected system. A successful exploit could allow the attacker to conduct administrative functions beyond their intended access level. To exploit this vulnerability, an attacker would need Read-Only Administrator credentials.",
+      "cveName": "CVE-2024-20537",
+      "cveUrl": "/vuln/detail/CVE-2024-20537"
+    }
+  },
+  "CVE-2024-20538": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:19 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco ISE could allow an unauthenticated, remote attacker to conduct an XSS attack against a user of the interface.\n\nThis vulnerability exists because the web-based management interface does not sufficiently validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of the interface on an affected system to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.",
+      "cveName": "CVE-2024-20538",
+      "cveUrl": "/vuln/detail/CVE-2024-20538"
+    }
+  },
+  "CVE-2024-20539": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:19 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco ISE could allow an authenticated, remote attacker to conduct a stored XSS attack against a user of the interface.\n\nThis vulnerability exists because the web-based management interface does not sufficiently validate user-supplied input. An attacker could exploit this vulnerability by injecting malicious code into specific pages of the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information. To exploit this vulnerability, the attacker would need valid administrative credentials on an affected device.",
+      "cveName": "CVE-2024-20539",
+      "cveUrl": "/vuln/detail/CVE-2024-20539"
+    }
+  },
+  "CVE-2024-20540": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:19 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Unified Contact Center Management Portal (Unified CCMP) could allow an authenticated, remote attacker with low privileges to conduct a stored cross-site scripting (XSS) attack against a user of the interface.\n\nThis vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by injecting malicious code into a specific page of the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive browser-based information. To exploit this vulnerability, the attacker must have at least a Supervisor role on an affected device.",
+      "cveName": "CVE-2024-20540",
+      "cveUrl": "/vuln/detail/CVE-2024-20540"
     }
   },
   "CVE-2024-207875-5 MEDIUM": {
@@ -8841,6 +9259,17 @@
       "cveDis": "A possible buffer overflow in selected cameras' drivers from XProtect Device Pack can allow an attacker with access to internal network to execute commands on Recording Server under strict conditions.",
       "cveName": "CVE-2024-3506",
       "cveUrl": "/vuln/detail/CVE-2024-3506"
+    }
+  },
+  "CVE-2024-351465-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "10:15:19 AM -0500"
+      ],
+      "cveDis": "IBM Maximo Application Suite - Monitor Component 8.10.11, 8.11.8, and 9.0.0 is vulnerable to cross-site scripting. This vulnerability allows an unauthenticated attacker to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
+      "cveName": "CVE-2024-351465-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-35146"
     }
   },
   "CVE-2024-35202": {
@@ -28852,6 +29281,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50624"
     }
   },
+  "CVE-2024-50637": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "12:15:20 PM -0500"
+      ],
+      "cveDis": "UnoPim 0.1.3 and below is vulnerable to Cross Site Scripting (XSS) in the Create User function. ¶¶ The vulnerability allows attackers to perform XSS in SVG file extension, which can be used to stealing cookies.",
+      "cveName": "CVE-2024-50637",
+      "cveUrl": "/vuln/detail/CVE-2024-50637"
+    }
+  },
   "CVE-2024-50801": {
     "cve": {
       "cveDate": [
@@ -30645,6 +31085,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-6826"
     }
   },
+  "CVE-2024-68617-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "10:15:20 AM -0500"
+      ],
+      "cveDis": "A disclosure of sensitive information flaw was found in foreman via the GraphQL API. If the introspection feature is enabled, it is possible for attackers to retrieve sensitive admin authentication keys which could result in a compromise of the entire product's API.",
+      "cveName": "CVE-2024-68617-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-6861"
+    }
+  },
   "CVE-2024-6868": {
     "cve": {
       "cveDate": [
@@ -31633,6 +32084,17 @@
       "cveDis": "An issue has been discovered in GitLab CE/EE affecting all versions from 15.10 before 17.3.6, 17.4 before 17.4.3, and 17.5 before 17.5.1. An attacker could inject HTML into the Global Search field on a diff view leading to XSS.",
       "cveName": "CVE-2024-8312",
       "cveUrl": "/vuln/detail/CVE-2024-8312"
+    }
+  },
+  "CVE-2024-83236-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "7:15:03 AM -0500"
+      ],
+      "cveDis": "The Pricing Tables WordPress Plugin – Easy Pricing Tables plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘fontFamily’ attribute in all versions up to, and including, 3.2.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-83236-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8323"
     }
   },
   "CVE-2024-83246-4 MEDIUM": {
