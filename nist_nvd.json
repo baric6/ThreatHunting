@@ -1429,6 +1429,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-0129"
     }
   },
+  "CVE-2024-0134": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:05 PM -0500"
+      ],
+      "cveDis": "NVIDIA Container Toolkit and NVIDIA GPU Operator for Linux contain a UNIX vulnerability where a specially crafted container image can lead to the creation of unauthorized files on the host. The name and location of the files cannot be controlled by an attacker. A successful exploit of this vulnerability might lead to data tampering.",
+      "cveName": "CVE-2024-0134",
+      "cveUrl": "/vuln/detail/CVE-2024-0134"
+    }
+  },
   "CVE-2024-100006-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -1559,6 +1570,17 @@
       "cveDis": "A vulnerability in the .sdd file allows an attacker to read default passwords stored in plain text within the code. By exploiting these plaintext credentials, an attacker can log into affected SICK products as an “Authorized Client” if the customer has not changed the default password.",
       "cveName": "CVE-2024-10025",
       "cveUrl": "/vuln/detail/CVE-2024-10025"
+    }
+  },
+  "CVE-2024-100287-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "7:15:13 PM -0500"
+      ],
+      "cveDis": "The Everest Backup – WordPress Cloud Backup, Migration, Restore & Cloning Plugin plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.2.13 via the exposed process stats file during the backup process. This makes it possible for unauthenticated attackers to obtain an archive file name and download the site's backup.",
+      "cveName": "CVE-2024-100287-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10028"
     }
   },
   "CVE-2024-100335-4 MEDIUM": {
@@ -1768,6 +1790,17 @@
       "cveDis": "The WP Easy Post Types plugin for WordPress is vulnerable to Stored Cross-Site Scripting via post meta in versions up to, and including, 1.4.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-100806-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10080"
+    }
+  },
+  "CVE-2024-100844-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "The Contact Form 7 – Dynamic Text Extension plugin for WordPress is vulnerable to Basic Information Disclosure in all versions up to, and including, 4.5 via the CF7_get_post_var shortcode. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract the titles and text contents of private and password-protected posts, they do not own.",
+      "cveName": "CVE-2024-100844-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10084"
     }
   },
   "CVE-2024-10086": {
@@ -4375,6 +4408,17 @@
       "cveDis": "A vulnerability was found in knightliao Disconf 2.6.36. It has been classified as critical. This affects an unknown part of the file /api/config/list of the component Configuration Center. The manipulation leads to improper authentication. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10620",
       "cveUrl": "/vuln/detail/CVE-2024-10620"
+    }
+  },
+  "CVE-2024-106476-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "9:15:15 PM -0500"
+      ],
+      "cveDis": "The WS Form LITE – Drag & Drop Contact Form Builder for WordPress plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of remove_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.9.244. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-106476-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10647"
     }
   },
   "CVE-2024-106514-9 MEDIUM": {
@@ -8579,6 +8623,116 @@
       "cveUrl": "/vuln/detail/CVE-2024-34672"
     }
   },
+  "CVE-2024-34673": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "Improper Input Validation in IpcProtocol in Modem prior to SMR Nov-2024 Release 1 allows local attackers to cause Denial-of-Service.",
+      "cveName": "CVE-2024-34673",
+      "cveUrl": "/vuln/detail/CVE-2024-34673"
+    }
+  },
+  "CVE-2024-34674": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "Improper access control in Contacts prior to SMR Nov-2024 Release 1 allows physical attackers to access data across multiple user profiles.",
+      "cveName": "CVE-2024-34674",
+      "cveUrl": "/vuln/detail/CVE-2024-34674"
+    }
+  },
+  "CVE-2024-34675": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "Improper access control in Dex Mode prior to SMR Nov-2024 Release 1 allows physical attackers to temporarily access to unlocked screen.",
+      "cveName": "CVE-2024-34675",
+      "cveUrl": "/vuln/detail/CVE-2024-34675"
+    }
+  },
+  "CVE-2024-34676": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "Out-of-bounds write in parsing subtitle file in libsubextractor.so prior to SMR Nov-2024 Release 1 allows local attackers to cause memory corruption. User interaction is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-34676",
+      "cveUrl": "/vuln/detail/CVE-2024-34676"
+    }
+  },
+  "CVE-2024-34677": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "Exposure of sensitive information in System UI prior to SMR Nov-2024 Release 1 allow local attackers to make malicious apps appear as legitimate.",
+      "cveName": "CVE-2024-34677",
+      "cveUrl": "/vuln/detail/CVE-2024-34677"
+    }
+  },
+  "CVE-2024-34678": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "Out-of-bounds write in libsapeextractor.so prior to SMR Nov-2024 Release 1 allows local attackers to cause memory corruption.",
+      "cveName": "CVE-2024-34678",
+      "cveUrl": "/vuln/detail/CVE-2024-34678"
+    }
+  },
+  "CVE-2024-34679": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "Incorrect default permissions in Crane prior to SMR Nov-2024 Release 1 allows local attackers to access files with phone privilege.",
+      "cveName": "CVE-2024-34679",
+      "cveUrl": "/vuln/detail/CVE-2024-34679"
+    }
+  },
+  "CVE-2024-34680": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "Use of implicit intent for sensitive communication in WlanTest prior to SMR Nov-2024 Release 1 allows local attackers to get sensitive information.",
+      "cveName": "CVE-2024-34680",
+      "cveUrl": "/vuln/detail/CVE-2024-34680"
+    }
+  },
+  "CVE-2024-34681": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "Improper input validation in BluetoothAdapter prior to SMR Nov-2024 Release 1 allows local attackers to cause local permanent denial of service on Galaxy Watch.",
+      "cveName": "CVE-2024-34681",
+      "cveUrl": "/vuln/detail/CVE-2024-34681"
+    }
+  },
+  "CVE-2024-34682": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "Improper authorization in Settings prior to SMR Nov-2024 Release 1 allows physical attackers to access stored WiFi password in Maintenance Mode.",
+      "cveName": "CVE-2024-34682",
+      "cveUrl": "/vuln/detail/CVE-2024-34682"
+    }
+  },
   "CVE-2024-34882": {
     "cve": {
       "cveDate": [
@@ -10601,6 +10755,17 @@
       "cveDis": "This vulnerability could be exploited, leading to unauthorized disclosure of information to authenticated users.",
       "cveName": "CVE-2024-42508",
       "cveUrl": "/vuln/detail/CVE-2024-42508"
+    }
+  },
+  "CVE-2024-42509": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "Command injection vulnerability in the underlying CLI service could lead to unauthenticated remote code execution by sending specially crafted packets destined to the PAPI (Aruba's Access Point management protocol) UDP port (8211). Successful exploitation of this vulnerability results in the ability to execute arbitrary code as a privileged user on the underlying operating system.",
+      "cveName": "CVE-2024-42509",
+      "cveUrl": "/vuln/detail/CVE-2024-42509"
     }
   },
   "CVE-2024-42514": {
@@ -17896,6 +18061,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-47459"
     }
   },
+  "CVE-2024-47460": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "Command injection vulnerability in the underlying CLI service could lead to unauthenticated remote code execution by sending specially crafted packets destined to the PAPI (Aruba's Access Point management protocol) UDP port (8211). Successful exploitation of this vulnerability results in the ability to execute arbitrary code as a privileged user on the underlying operating system.",
+      "cveName": "CVE-2024-47460",
+      "cveUrl": "/vuln/detail/CVE-2024-47460"
+    }
+  },
+  "CVE-2024-47461": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "An authenticated command injection vulnerability exists in the Instant AOS-8 and AOS-10 command line interface. A successful exploitation of this vulnerability results in the ability to execute arbitrary commands as a privileged user on the underlying operating system. This allows an attacker to fully compromise the underlying host operating system.",
+      "cveName": "CVE-2024-47461",
+      "cveUrl": "/vuln/detail/CVE-2024-47461"
+    }
+  },
+  "CVE-2024-47462": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "An arbitrary file creation vulnerability exists in the Instant AOS-8 and AOS-10 command line interface. Successful exploitation of this vulnerability could allow an authenticated remote attacker to create arbitrary files, which could lead to a remote command execution (RCE) on the underlying operating system.",
+      "cveName": "CVE-2024-47462",
+      "cveUrl": "/vuln/detail/CVE-2024-47462"
+    }
+  },
+  "CVE-2024-47463": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "An arbitrary file creation vulnerability exists in the Instant AOS-8 and AOS-10 command line interface. Successful exploitation of this vulnerability could allow an authenticated remote attacker to create arbitrary files, which could lead to a remote command execution (RCE) on the underlying operating system.",
+      "cveName": "CVE-2024-47463",
+      "cveUrl": "/vuln/detail/CVE-2024-47463"
+    }
+  },
+  "CVE-2024-47464": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "An authenticated Path Traversal vulnerability exists in Instant AOS-8 and AOS-10. Successful exploitation of this vulnerability allows an attacker to copy arbitrary files to a user readable location from the command line interface of the underlying operating system, which could lead to a remote unauthorized access to files.",
+      "cveName": "CVE-2024-47464",
+      "cveUrl": "/vuln/detail/CVE-2024-47464"
+    }
+  },
   "CVE-2024-47481": {
     "cve": {
       "cveDate": [
@@ -21295,6 +21515,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48168"
     }
   },
+  "CVE-2024-48176": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Lylme Spage v1.9.5 is vulnerable to Incorrect Access Control. There is no limit on the number of login attempts, and the verification code will not be refreshed after a failed login, which allows attackers to blast the username and password and log into the system backend.",
+      "cveName": "CVE-2024-48176",
+      "cveUrl": "/vuln/detail/CVE-2024-48176"
+    }
+  },
   "CVE-2024-48177": {
     "cve": {
       "cveDate": [
@@ -22624,6 +22855,17 @@
       "cveDis": "A Reflected Cross Site Scripting (XSS) vulnerability was found in /trms/listed- teachers.php in PHPGurukul Teachers Record Management System v2.1, which allows remote attackers to execute arbitrary code via \"searchinput\" POST request parameter.",
       "cveName": "CVE-2024-48744",
       "cveUrl": "/vuln/detail/CVE-2024-48744"
+    }
+  },
+  "CVE-2024-48746": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "An issue in Lens Visual integration with Power BI v.4.0.0.3 allows a remote attacker to execute arbitrary code via the Natural language processing component",
+      "cveName": "CVE-2024-48746",
+      "cveUrl": "/vuln/detail/CVE-2024-48746"
     }
   },
   "CVE-2024-48758": {
@@ -24716,6 +24958,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49376"
     }
   },
+  "CVE-2024-49377": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:05 PM -0500"
+      ],
+      "cveDis": "OctoPrint provides a web interface for controlling consumer 3D printers. OctoPrint versions up until and including 1.10.2 contain reflected XSS vulnerabilities in the login dialog and the standalone application key confirmation dialog.  An attacker who successfully talked a victim into clicking on a specially crafted login link, or a malicious app running on a victim's computer triggering the application key workflow with specially crafted parameters and then redirecting the victim to the related standalone confirmation dialog could use this to retrieve or modify sensitive configuration settings, interrupt prints or otherwise interact with the OctoPrint instance in a malicious way. The above mentioned specific vulnerabilities of the login dialog and the standalone application key confirmation dialog have been patched in the bugfix release 1.10.3 by individual escaping of the detected locations. A global change throughout all of OctoPrint's templating system with the upcoming 1.11.0 release will handle this further, switching to globally enforced automatic escaping and thus reducing the attack surface in general. The latter will also improve the security of third party plugins. During a transition period, third party plugins will be able to opt into the automatic escaping. With OctoPrint 1.13.0, automatic escaping will be switched over to be enforced even for third party plugins, unless they explicitly opt-out.",
+      "cveName": "CVE-2024-49377",
+      "cveUrl": "/vuln/detail/CVE-2024-49377"
+    }
+  },
   "CVE-2024-49378": {
     "cve": {
       "cveDate": [
@@ -24912,6 +25165,105 @@
       "cveDis": "Tacquito prior to commit 07b49d1358e6ec0b5aa482fcd284f509191119e2 was not properly performing regex matches on authorized commands and arguments. Configured allowed commands/arguments were intended to require a match on the entire string, but instead only enforced a match on a sub-string. That would have potentially allowed unauthorized commands to be executed.",
       "cveName": "CVE-2024-49400",
       "cveUrl": "/vuln/detail/CVE-2024-49400"
+    }
+  },
+  "CVE-2024-49401": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "Improper input validation in Settings Suggestions prior to SMR Nov-2024 Release 1 allows local attackers to launch privileged activities.",
+      "cveName": "CVE-2024-49401",
+      "cveUrl": "/vuln/detail/CVE-2024-49401"
+    }
+  },
+  "CVE-2024-49402": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "Improper input validation in Dressroom prior to SMR Nov-2024 Release 1 allow physical attackers to access data across multiple user profiles.",
+      "cveName": "CVE-2024-49402",
+      "cveUrl": "/vuln/detail/CVE-2024-49402"
+    }
+  },
+  "CVE-2024-49403": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "Improper access control in Samsung Voice Recorder prior to version 21.5.40.37 allows physical attackers to access recording files on the lock screen.",
+      "cveName": "CVE-2024-49403",
+      "cveUrl": "/vuln/detail/CVE-2024-49403"
+    }
+  },
+  "CVE-2024-49404": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "Improper Access Control in Samsung Video Player prior to versions 7.3.29.1 in Android 12, 7.3.36.1 in Android 13, and 7.3.41.230 in Android 14 allows physical attackers to access video file of other users.",
+      "cveName": "CVE-2024-49404",
+      "cveUrl": "/vuln/detail/CVE-2024-49404"
+    }
+  },
+  "CVE-2024-49405": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "Improper authentication in Private Info in Samsung Pass in prior to version 4.4.04.7 allows physical attackers to access sensitive information in a specific scenario.",
+      "cveName": "CVE-2024-49405",
+      "cveUrl": "/vuln/detail/CVE-2024-49405"
+    }
+  },
+  "CVE-2024-49406": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "Improper validation of integrity check value in Blockchain Keystore prior to version 1.3.16 allows local attackers to modify transaction. Root privilege is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-49406",
+      "cveUrl": "/vuln/detail/CVE-2024-49406"
+    }
+  },
+  "CVE-2024-49407": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "Improper access control in Samsung Flow prior to version 4.9.15.7 allows physical attackers to access data across multiple user profiles.",
+      "cveName": "CVE-2024-49407",
+      "cveUrl": "/vuln/detail/CVE-2024-49407"
+    }
+  },
+  "CVE-2024-49408": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:06 PM -0500"
+      ],
+      "cveDis": "Out-of-bounds write in usb driver prior to Firmware update Sep-2024 Release on Galaxy S24 allows local attackers to write out-of-bounds memory. System privilege is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-49408",
+      "cveUrl": "/vuln/detail/CVE-2024-49408"
+    }
+  },
+  "CVE-2024-49409": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "10:15:06 PM -0500"
+      ],
+      "cveDis": "Out-of-bounds write in Battery Full Capacity node prior to Firmware update Sep-2024 Release on Galaxy S24 allows local attackers to write out-of-bounds memory. System privilege is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-49409",
+      "cveUrl": "/vuln/detail/CVE-2024-49409"
     }
   },
   "CVE-2024-49501": {
@@ -25814,6 +26166,39 @@
       "cveDis": "MPXJ is an open source library to read and write project plans from a variety of file formats and databases. The patch for the historical vulnerability CVE-2020-35460 in MPXJ is incomplete as there is still a possibility that a malicious path could be constructed which would not be picked up by the original fix and allow files to be written to arbitrary locations. The issue is addressed in MPXJ version 13.5.1.",
       "cveName": "CVE-2024-49771",
       "cveUrl": "/vuln/detail/CVE-2024-49771"
+    }
+  },
+  "CVE-2024-49772": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:05 PM -0500"
+      ],
+      "cveDis": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. In SuiteCRM versions 7.14.4, poor input validation allows authenticated user do a SQL injection attack. Authenticated user with low pivilege can leak all data in database. This issue has been addressed in releases 7.14.6 and 8.7.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-49772",
+      "cveUrl": "/vuln/detail/CVE-2024-49772"
+    }
+  },
+  "CVE-2024-49773": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. Poor input validation in export allows authenticated user do a SQL injection attack. User-controlled input is used to build SQL query. `current_post` parameter in `export` entry point can be abused to perform blind SQL injection via generateSearchWhere(). Allows for Information disclosure, including personally identifiable information. This issue has been addressed in versions 7.14.6 and 8.7.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-49773",
+      "cveUrl": "/vuln/detail/CVE-2024-49773"
+    }
+  },
+  "CVE-2024-49774": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. SuiteCRM relies on the blacklist of functions/methods to prevent installation of malicious MLPs. But this checks can be bypassed with some syntax constructions. SuiteCRM uses token_get_all to parse PHP scripts and check the resulted AST against blacklists. But it doesn't take into account all scenarios. This issue has been addressed in versions 7.14.6 and 8.7.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-49774",
+      "cveUrl": "/vuln/detail/CVE-2024-49774"
     }
   },
   "CVE-2024-49850": {
@@ -27213,6 +27598,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-50312"
     }
   },
+  "CVE-2024-50332": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. Insufficient input value validation causes Blind SQL injection in DeleteRelationShip. This issue has been addressed in versions 7.14.6 and 8.7.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-50332",
+      "cveUrl": "/vuln/detail/CVE-2024-50332"
+    }
+  },
+  "CVE-2024-50333": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. User input is not validated and is written to the filesystem. The ParserLabel::addLabels() function can be used to write attacker-controlled data into the custom language file that will be included at the runtime. This issue has been addressed in versions 7.14.6 and 8.7.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-50333",
+      "cveUrl": "/vuln/detail/CVE-2024-50333"
+    }
+  },
   "CVE-2024-50334": {
     "cve": {
       "cveDate": [
@@ -27222,6 +27629,17 @@
       "cveDis": "Scoold is a Q&A and a knowledge sharing platform for teams. A semicolon path injection vulnerability was found on the /api;/config endpoint. By appending a semicolon in the URL, attackers can bypass authentication and gain unauthorised access to sensitive configuration data. Furthermore, PUT requests on the /api;/config endpoint while setting the Content-Type: application/hocon header allow unauthenticated attackers to file reading via HOCON file inclusion. This allows attackers to retrieve sensitive information such as configuration files from the server, which can be leveraged for further exploitation. The vulnerability has been fixed in Scoold 1.64.0. A workaround would be to disable the Scoold API with scoold.api_enabled = false.",
       "cveName": "CVE-2024-50334",
       "cveUrl": "/vuln/detail/CVE-2024-50334"
+    }
+  },
+  "CVE-2024-50335": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. The \"Publish Key\" field in SuiteCRM's Edit Profile page is vulnerable to Reflected Cross-Site Scripting (XSS), allowing an attacker to inject malicious JavaScript code. This can be exploited to steal CSRF tokens and perform unauthorized actions, such as creating new administrative users without proper authentication. The vulnerability arises due to insufficient input validation and sanitization of the Publish Key field within the SuiteCRM application. When an attacker injects a malicious script, it gets executed within the context of an authenticated user's session. The injected script (o.js) then leverages the captured CSRF token to forge requests that create new administrative users, effectively compromising the integrity and security of the CRM instance. This issue has been addressed in versions 7.14.6 and 8.7.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-50335",
+      "cveUrl": "/vuln/detail/CVE-2024-50335"
     }
   },
   "CVE-2024-50344": {
@@ -28489,6 +28907,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-51076"
     }
   },
+  "CVE-2024-51115": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "DCME-320 v7.4.12.90 was discovered to contain a command injection vulnerability.",
+      "cveName": "CVE-2024-51115",
+      "cveUrl": "/vuln/detail/CVE-2024-51115"
+    }
+  },
+  "CVE-2024-51116": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Tenda AC6 v2.0 V15.03.06.50 was discovered to contain a buffer overflow in the function 'formSetPPTPServer'.",
+      "cveName": "CVE-2024-51116",
+      "cveUrl": "/vuln/detail/CVE-2024-51116"
+    }
+  },
   "CVE-2024-51127": {
     "cve": {
       "cveDate": [
@@ -28542,6 +28982,17 @@
       "cveDis": "A Reflected Cross Site Scripting (XSS) vulnerability was found in /ifscfinder/admin/profile.php in PHPGurukul IFSC Code Finder Project v1.0, which allows remote attackers to execute arbitrary code via \" searchifsccode\" parameter.",
       "cveName": "CVE-2024-51181",
       "cveUrl": "/vuln/detail/CVE-2024-51181"
+    }
+  },
+  "CVE-2024-51240": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "An issue in the luci-mod-rpc package in OpenWRT Luci LTS allows for privilege escalation from an admin account to root via the JSON-RPC-API, which is exposed by the luci-mod-rpc package",
+      "cveName": "CVE-2024-51240",
+      "cveUrl": "/vuln/detail/CVE-2024-51240"
     }
   },
   "CVE-2024-51242": {
@@ -28841,6 +29292,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51329"
     }
   },
+  "CVE-2024-51358": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "An issue in Linux Server Heimdall v.2.6.1 allows a remote attacker to execute arbitrary code via a crafted script to the Add new application.",
+      "cveName": "CVE-2024-51358",
+      "cveUrl": "/vuln/detail/CVE-2024-51358"
+    }
+  },
   "CVE-2024-51362": {
     "cve": {
       "cveDate": [
@@ -28872,6 +29334,50 @@
       "cveDis": "getresetstatus in dns/views.py and ftp/views.py in CyberPanel (aka Cyber Panel) before 1c0c6cb allows remote attackers to bypass authentication and execute arbitrary commands via /dns/getresetstatus or /ftp/getresetstatus by bypassing secMiddleware (which is only for a POST request) and using shell metacharacters in the statusfile property, as exploited in the wild in October 2024 by PSAUX. Versions through 2.3.6 and (unpatched) 2.3.7 are affected.",
       "cveName": "CVE-2024-51378",
       "cveUrl": "/vuln/detail/CVE-2024-51378"
+    }
+  },
+  "CVE-2024-51379": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "Stored Cross-Site Scripting (XSS) vulnerability discovered in JATOS v3.9.3. The vulnerability exists in the description component of the study section, where an attacker can inject JavaScript into the description field. This allows for the execution of malicious scripts when an admin views the description, potentially leading to account takeover and unauthorized actions.",
+      "cveName": "CVE-2024-51379",
+      "cveUrl": "/vuln/detail/CVE-2024-51379"
+    }
+  },
+  "CVE-2024-51380": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "Stored Cross-Site Scripting (XSS) vulnerability discovered in the Properties Component of JATOS v3.9.3. This flaw allows an attacker to inject malicious JavaScript into the properties section of a study, specifically within the UUID field. When an admin user accesses the study's properties, the injected script is executed in the admin's browser, which could lead to unauthorized actions, including account compromise and privilege escalation.",
+      "cveName": "CVE-2024-51380",
+      "cveUrl": "/vuln/detail/CVE-2024-51380"
+    }
+  },
+  "CVE-2024-51381": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in JATOS v3.9.3 that allows attackers to perform actions reserved for administrators, including creating admin accounts. This critical flaw can lead to unauthorized activities, compromising the security and integrity of the platform, especially if an attacker gains administrative control.",
+      "cveName": "CVE-2024-51381",
+      "cveUrl": "/vuln/detail/CVE-2024-51381"
+    }
+  },
+  "CVE-2024-51382": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in JATOS v3.9.3 allows an attacker to reset the administrator's password. This critical security flaw can result in unauthorized access to the platform, enabling attackers to hijack admin accounts and compromise the integrity and security of the system.",
+      "cveName": "CVE-2024-51382",
+      "cveUrl": "/vuln/detail/CVE-2024-51382"
     }
   },
   "CVE-2024-51398": {
@@ -29048,6 +29554,17 @@
       "cveDis": "Zusam is a free and open-source way to self-host private forums. Prior to version 0.5.6, specially crafted SVG files uploaded to the service as images allow for unrestricted script execution on (raw) image load. With certain payloads, theft of the target user’s long-lived session token is possible. Note that Zusam, at the time of writing, uses a user’s static API key as a long-lived session token, and these terms can be used interchangeably on the platform. This session token/API key remains valid indefinitely, so long as the user doesn’t expressly request a new one via their Settings page. Version 0.5.6 fixes the cross-site scripting vulnerability.",
       "cveName": "CVE-2024-51492",
       "cveUrl": "/vuln/detail/CVE-2024-51492"
+    }
+  },
+  "CVE-2024-51493": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "OctoPrint provides a web interface for controlling consumer 3D printers. OctoPrint versions up until and including 1.10.2 contain a vulnerability that allows an attacker that has gained temporary control over an authenticated victim's OctoPrint browser session to retrieve/recreate/delete the user's or - if the victim has admin permissions - the global API key without having to reauthenticate by re-entering the user account's password. An attacker could use a stolen API key to access OctoPrint through its API, or disrupt workflows depending on the API key they deleted. This vulnerability will be patched in version 1.10.3 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51493",
+      "cveUrl": "/vuln/detail/CVE-2024-51493"
     }
   },
   "CVE-2024-51498": {
@@ -29578,6 +30095,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51734"
     }
   },
+  "CVE-2024-51735": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "Osmedeus is a Workflow Engine for Offensive Security. Cross-site Scripting (XSS) occurs on the Osmedues web server when viewing results from the workflow, allowing commands to be executed on the server. When using a workflow that contains the summary module, it generates reports in HTML and Markdown formats. The default report is based on the `general-template.md` template.The contents of the files are read and used to generate the report. However, the file contents are not properly filtered, leading to XSS. This may lead to commands executed on the host as well. This issue is not yet resolved. Users are advised to add their own filtering or to reach out to the developer to aid in developing a patch.",
+      "cveName": "CVE-2024-51735",
+      "cveUrl": "/vuln/detail/CVE-2024-51735"
+    }
+  },
   "CVE-2024-51739": {
     "cve": {
       "cveDate": [
@@ -29589,6 +30117,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51739"
     }
   },
+  "CVE-2024-51740": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:08 PM -0500"
+      ],
+      "cveDis": "Combodo iTop is a simple, web based IT Service Management tool. This vulnerability can be used to create HTTP requests on behalf of the server, from a low privileged user. The user portal form manager has been fixed to only instantiate classes derived from it. This issue has been addressed in versions 2.7.11, 3.0.5, 3.1.2, and 3.2.0. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51740",
+      "cveUrl": "/vuln/detail/CVE-2024-51740"
+    }
+  },
   "CVE-2024-51744": {
     "cve": {
       "cveDate": [
@@ -29598,6 +30137,61 @@
       "cveDis": "golang-jwt is a Go implementation of JSON Web Tokens. Unclear documentation of the error behavior in `ParseWithClaims` can lead to situation where users are potentially not checking errors in the way they should be. Especially, if a token is both expired and invalid, the errors returned by `ParseWithClaims` return both error codes. If users only check for the `jwt.ErrTokenExpired ` using `error.Is`, they will ignore the embedded `jwt.ErrTokenSignatureInvalid` and thus potentially accept invalid tokens. A fix has been back-ported with the error handling logic from the `v5` branch to the `v4` branch. In this logic, the `ParseWithClaims` function will immediately return in \"dangerous\" situations (e.g., an invalid signature), limiting the combined errors only to situations where the signature is valid, but further validation failed (e.g., if the signature is valid, but is expired AND has the wrong audience). This fix is part of the 4.5.1 release. We are aware that this changes the behaviour of an established function and is not 100 % backwards compatible, so updating to 4.5.1 might break your code. In case you cannot update to 4.5.0, please make sure that you are properly checking for all errors (\"dangerous\" ones first), so that you are not running in the case detailed above.",
       "cveName": "CVE-2024-51744",
       "cveUrl": "/vuln/detail/CVE-2024-51744"
+    }
+  },
+  "CVE-2024-51745": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Wasmtime is a fast and secure runtime for WebAssembly. Wasmtime's filesystem sandbox implementation on Windows blocks access to special device filenames such as \"COM1\", \"COM2\", \"LPT0\", \"LPT1\", and so on, however it did not block access to the special device filenames which use superscript digits, such as \"COM¹\", \"COM²\", \"LPT⁰\", \"LPT¹\", and so on. Untrusted Wasm programs that are given access to any filesystem directory could bypass the sandbox and access devices through those special device filenames with superscript digits, and through them gain access peripheral devices connected to the computer, or network resources mapped to those devices. This can include modems, printers, network printers, and any other device connected to a serial or parallel port, including emulated USB serial ports. Patch releases for Wasmtime have been issued as 24.0.2, 25.0.3, and 26.0.1. Users of Wasmtime 23.0.x and prior are recommended to upgrade to one of these patched versions. There are no known workarounds for this issue. Affected Windows users are recommended to upgrade.",
+      "cveName": "CVE-2024-51745",
+      "cveUrl": "/vuln/detail/CVE-2024-51745"
+    }
+  },
+  "CVE-2024-51746": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "2:15:08 PM -0500"
+      ],
+      "cveDis": "Gitsign is a keyless Sigstore to signing tool for Git commits with your a GitHub / OIDC identity. gitsign may select the wrong Rekor entry to use during online verification when multiple entries are returned by the log. gitsign uses Rekor's search API to fetch entries that apply to a signature being verified. The parameters used for the search are the public key and the payload. The search API returns entries that match either condition rather than both. When gitsign's credential cache is used, there can be multiple entries that use the same ephemeral keypair / signing certificate. As gitsign assumes both conditions are matched by Rekor, there is no additional validation that the entry's hash matches the payload being verified, meaning that the wrong entry can be used to successfully pass verification. Impact is minimal as while gitsign does not match the payload against the entry, it does ensure that the certificate matches. This would need to be exploited during the certificate validity window (10 minutes) by the key holder.",
+      "cveName": "CVE-2024-51746",
+      "cveUrl": "/vuln/detail/CVE-2024-51746"
+    }
+  },
+  "CVE-2024-51752": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "3:15:15 PM -0500"
+      ],
+      "cveDis": "The AuthKit library for Next.js provides convenient helpers for authentication and session management using WorkOS & AuthKit with Next.js. In affected versions refresh tokens are logged to the console when the disabled by default `debug` flag, is enabled. This issue has been patched in version 0.13.2 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51752",
+      "cveUrl": "/vuln/detail/CVE-2024-51752"
+    }
+  },
+  "CVE-2024-51753": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "3:15:15 PM -0500"
+      ],
+      "cveDis": "The AuthKit library for Remix provides convenient helpers for authentication and session management using WorkOS & AuthKit with Remix. In affected versions refresh tokens are logged to the console when the disabled by default `debug` flag, is enabled. This issue has been patched in version 0.4.1. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51753",
+      "cveUrl": "/vuln/detail/CVE-2024-51753"
+    }
+  },
+  "CVE-2024-51756": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "The cap-std project is organized around the eponymous `cap-std` crate, and develops libraries to make it easy to write capability-based code. cap-std's filesystem sandbox implementation on Windows blocks access to special device filenames such as \"COM1\", \"COM2\", \"LPT0\", \"LPT1\", and so on, however it did not block access to the special device filenames which use superscript digits, such as \"COM¹\", \"COM²\", \"LPT⁰\", \"LPT¹\", and so on. Untrusted filesystem paths could bypass the sandbox and access devices through those special device filenames with superscript digits, and through them provide access peripheral devices connected to the computer, or network resources mapped to those devices. This can include modems, printers, network printers, and any other device connected to a serial or parallel port, including emulated USB serial ports. The bug is fixed in #371, which is published in cap-primitives 3.4.1, cap-std 3.4.1, and cap-async-std 3.4.1. There are no known workarounds for this issue. Affected Windows users are recommended to upgrade.",
+      "cveName": "CVE-2024-51756",
+      "cveUrl": "/vuln/detail/CVE-2024-51756"
     }
   },
   "CVE-2024-51774": {
@@ -30654,6 +31248,17 @@
       "cveDis": "A maliciously crafted RFA file, when parsed through Autodesk Revit, can force a Stack-Based Buffer Overflow. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.",
       "cveName": "CVE-2024-7994",
       "cveUrl": "/vuln/detail/CVE-2024-7994"
+    }
+  },
+  "CVE-2024-7995": {
+    "cve": {
+      "cveDate": [
+        "November 05, 2024",
+        "3:15:15 PM -0500"
+      ],
+      "cveDis": "A maliciously crafted binary file when downloaded could lead to escalation of privileges to NT AUTHORITY/SYSTEM due to an untrusted search path being utilized in the VRED Design application. Exploitation of this vulnerability may lead to code execution.",
+      "cveName": "CVE-2024-7995",
+      "cveUrl": "/vuln/detail/CVE-2024-7995"
     }
   },
   "CVE-2024-8013": {
