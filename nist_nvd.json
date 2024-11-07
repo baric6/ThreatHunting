@@ -54,6 +54,39 @@
       "cveUrl": "/vuln/detail/CVE-2018-25104"
     }
   },
+  "CVE-2019-20457": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An issue was discovered on Brother MFC-J491DW C1806180757 devices. The printer's web-interface password hash can be retrieved without authentication, because the response header of any failed login attempt returns an incomplete authorization cookie. The value of the authorization cookie is the MD5 hash of the password in hexadecimal. An attacker can easily derive the true MD5 hash from this, and use offline cracking attacks to obtain administrative access to the device.",
+      "cveName": "CVE-2019-20457",
+      "cveUrl": "/vuln/detail/CVE-2019-20457"
+    }
+  },
+  "CVE-2019-20458": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An issue was discovered on Epson Expression Home XP255 20.08.FM10I8 devices. By default, the device comes (and functions) without a password. The user is at no point prompted to set up a password on the device (leaving a number of devices without a password). In this case, anyone connecting to the web admin panel is capable of becoming admin without using any credentials.",
+      "cveName": "CVE-2019-20458",
+      "cveUrl": "/vuln/detail/CVE-2019-20458"
+    }
+  },
+  "CVE-2019-20459": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An issue was discovered on Epson Expression Home XP255 20.08.FM10I8 devices. With the SNMPv1 public community, all values can be read, and with the epson community, all the changeable values can be written/updated, as demonstrated by permanently disabling the network card or changing the DNS servers.",
+      "cveName": "CVE-2019-20459",
+      "cveUrl": "/vuln/detail/CVE-2019-20459"
+    }
+  },
   "CVE-2019-25218": {
     "cve": {
       "cveDate": [
@@ -85,6 +118,72 @@
       "cveDis": "Improper Input Validation vulnerability in OpenText iManager allows Cross-Site Scripting (XSS). This issue affects iManager before 3.2.3",
       "cveName": "CVE-2020-11859",
       "cveUrl": "/vuln/detail/CVE-2020-11859"
+    }
+  },
+  "CVE-2020-11916": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Siime Eye 14.1.00000001.3.330.0.0.3.14. The password for the root user is hashed using an old and deprecated hashing technique. Because of this deprecated hashing, the success probability of an attacker in an offline cracking attack is greatly increased.",
+      "cveName": "CVE-2020-11916",
+      "cveUrl": "/vuln/detail/CVE-2020-11916"
+    }
+  },
+  "CVE-2020-11917": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Siime Eye 14.1.00000001.3.330.0.0.3.14. It uses a default SSID value, which makes it easier for remote attackers to discover the physical locations of many Siime Eye devices, violating the privacy of users who do not wish to disclose their ownership of this type of device. (Various resources such as wigle.net can be use for mapping of SSIDs to physical locations.)",
+      "cveName": "CVE-2020-11917",
+      "cveUrl": "/vuln/detail/CVE-2020-11917"
+    }
+  },
+  "CVE-2020-11918": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Siime Eye 14.1.00000001.3.330.0.0.3.14. When a backup file is created through the web interface, information on all users, including passwords, can be found in cleartext in the backup file. An attacker capable of accessing the web interface can create the backup file.",
+      "cveName": "CVE-2020-11918",
+      "cveUrl": "/vuln/detail/CVE-2020-11918"
+    }
+  },
+  "CVE-2020-11919": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Siime Eye 14.1.00000001.3.330.0.0.3.14. There is no CSRF protection.",
+      "cveName": "CVE-2020-11919",
+      "cveUrl": "/vuln/detail/CVE-2020-11919"
+    }
+  },
+  "CVE-2020-11921": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Lush 2 through 2020-02-25. Due to the lack of Bluetooth traffic encryption, it is possible to hijack an ongoing Bluetooth connection between the Lush 2 and a mobile phone. This allows an attacker to gain full control over the device.",
+      "cveName": "CVE-2020-11921",
+      "cveUrl": "/vuln/detail/CVE-2020-11921"
+    }
+  },
+  "CVE-2020-11926": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Luvion Grand Elite 3 Connect through 2020-02-25. Clients can authenticate themselves to the device using a username and password. These credentials can be obtained through an unauthenticated web request, e.g., for a JavaScript file. Also, the disclosed information includes the SSID and WPA2 key for the Wi-Fi network the device is connected to.",
+      "cveName": "CVE-2020-11926",
+      "cveUrl": "/vuln/detail/CVE-2020-11926"
     }
   },
   "CVE-2020-26303": {
@@ -4652,6 +4751,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10662"
     }
   },
+  "CVE-2024-10668": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "11:15:16 AM -0500"
+      ],
+      "cveDis": "There exists an auth bypass in Google Quickshare where an attacker can upload an unknown file type to a victim. The root cause of the vulnerability lies in the fact that when a Payload Transfer frame of type FILE is sent to Quick Share, the file that is contained in this frame is written to disk in the Downloads folder. Quickshare normally deletes unkown files, however an attacker can send two Payload transfer frames of type FILE and the same payload ID. The deletion logic will only delete the first file and not the second. We recommend upgrading past commit 5d8b9156e0c339d82d3dab0849187e8819ad92c0 or Quick Share Windows v1.0.2002.2",
+      "cveName": "CVE-2024-10668",
+      "cveUrl": "/vuln/detail/CVE-2024-10668"
+    }
+  },
   "CVE-2024-106879-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -5376,6 +5486,61 @@
       "cveDis": "A vulnerability classified as critical was found in Guangzhou Tuchuang Computer Software Development Interlib Library Cluster Automation Management System up to 2.0.1. This vulnerability affects unknown code of the file /interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl. The manipulation of the argument bookrecno leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-10947",
       "cveUrl": "/vuln/detail/CVE-2024-10947"
+    }
+  },
+  "CVE-2024-109636-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "11:15:17 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in pam_access due to the improper handling of tokens in access.conf, interpreted as hostnames. This flaw allows attackers to bypass access restrictions by spoofing hostnames, undermining configurations designed to limit access to specific TTYs or services. The flaw poses a risk in environments relying on these configurations for local access control.",
+      "cveName": "CVE-2024-109636-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10963"
+    }
+  },
+  "CVE-2024-10964": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in emqx neuron up to 2.10.0. Affected is the function handle_add_plugin in the library cmd.library of the file plugins/restful/plugin_handle.c. The manipulation leads to buffer overflow. It is possible to launch the attack remotely. It is recommended to apply a patch to fix this issue.",
+      "cveName": "CVE-2024-10964",
+      "cveUrl": "/vuln/detail/CVE-2024-10964"
+    }
+  },
+  "CVE-2024-10965": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic was found in emqx neuron up to 2.10.0. Affected by this vulnerability is an unknown functionality of the file /api/v2/schema of the component JSON File Handler. The manipulation leads to information disclosure. The attack can be launched remotely. The patch is named c9ce39747e0372aaa2157b2b56174914a12c06d8. It is recommended to apply a patch to fix this issue.",
+      "cveName": "CVE-2024-10965",
+      "cveUrl": "/vuln/detail/CVE-2024-10965"
+    }
+  },
+  "CVE-2024-10966": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:16 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in TOTOLINK X18 9.1.0cu.2024_B20220329. Affected by this issue is some unknown functionality of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument enable leads to os command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10966",
+      "cveUrl": "/vuln/detail/CVE-2024-10966"
+    }
+  },
+  "CVE-2024-10967": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:16 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects E-Health Care System 1.0. It has been classified as critical. Affected is an unknown function of the file /Doctor/delete_user_appointment_request.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10967",
+      "cveUrl": "/vuln/detail/CVE-2024-10967"
     }
   },
   "CVE-2024-20090": {
@@ -7829,6 +7994,17 @@
       "cveDis": "A cross-site request forgery (CSRF) vulnerability exists in the Web Application functionality of the LevelOne WBR-6012 R0.40e6. A specially crafted HTTP request can lead to unauthorized access. An attacker can stage a malicious web page to trigger this vulnerability.",
       "cveName": "CVE-2024-24777",
       "cveUrl": "/vuln/detail/CVE-2024-24777"
+    }
+  },
+  "CVE-2024-24914": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "7:15:24 AM -0500"
+      ],
+      "cveDis": "Authenticated Gaia users can inject code or commands by global variables through special HTTP requests. A Security fix that mitigates this vulnerability is available.",
+      "cveName": "CVE-2024-24914",
+      "cveUrl": "/vuln/detail/CVE-2024-24914"
     }
   },
   "CVE-2024-25282": {
@@ -10658,6 +10834,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-40595"
     }
   },
+  "CVE-2024-40715": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "A vulnerability in Veeam Backup & Replication Enterprise Manager has been identified, which allows attackers to perform authentication bypass. Attackers must be able to perform Man-in-the-Middle (MITM) attack to exploit this vulnerability.",
+      "cveName": "CVE-2024-40715",
+      "cveUrl": "/vuln/detail/CVE-2024-40715"
+    }
+  },
   "CVE-2024-40746": {
     "cve": {
       "cveDate": [
@@ -11624,6 +11811,94 @@
       "cveDis": "Sharp and Toshiba Tec MFPs improperly process HTTP request headers, resulting in an Out-of-bounds Read vulnerability.\nCrafted HTTP requests may cause affected products crashed.",
       "cveName": "CVE-2024-43424",
       "cveUrl": "/vuln/detail/CVE-2024-43424"
+    }
+  },
+  "CVE-2024-43425": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated question types. Note: This requires the capability to add/update questions.",
+      "cveName": "CVE-2024-43425",
+      "cveUrl": "/vuln/detail/CVE-2024-43425"
+    }
+  },
+  "CVE-2024-43426": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "A flaw was found in pdfTeX. Insufficient sanitizing in the TeX notation filter resulted in an arbitrary file read risk on sites where pdfTeX is available, such as those with TeX Live installed.",
+      "cveName": "CVE-2024-43426",
+      "cveUrl": "/vuln/detail/CVE-2024-43426"
+    }
+  },
+  "CVE-2024-43428": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "To address a cache poisoning risk in Moodle, additional validation for local storage was required.",
+      "cveName": "CVE-2024-43428",
+      "cveUrl": "/vuln/detail/CVE-2024-43428"
+    }
+  },
+  "CVE-2024-43431": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Moodle. Insufficient capability checks made it possible to delete badges that a user does not have permission to access.",
+      "cveName": "CVE-2024-43431",
+      "cveUrl": "/vuln/detail/CVE-2024-43431"
+    }
+  },
+  "CVE-2024-43434": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "The bulk message sending feature in Moodle's Feedback module's non-respondents report had an incorrect CSRF token check, leading to a CSRF vulnerability.",
+      "cveName": "CVE-2024-43434",
+      "cveUrl": "/vuln/detail/CVE-2024-43434"
+    }
+  },
+  "CVE-2024-43436": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "A SQL injection risk flaw was found in the XMLDB editor tool available to site administrators.",
+      "cveName": "CVE-2024-43436",
+      "cveUrl": "/vuln/detail/CVE-2024-43436"
+    }
+  },
+  "CVE-2024-43438": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "A flaw was found in Feedback. Bulk messaging in the activity's non-respondents report did not verify message recipients belonging to the set of users returned by the report.",
+      "cveName": "CVE-2024-43438",
+      "cveUrl": "/vuln/detail/CVE-2024-43438"
+    }
+  },
+  "CVE-2024-43440": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "A flaw was found in moodle. A local file may include risks when restoring block backups.",
+      "cveName": "CVE-2024-43440",
+      "cveUrl": "/vuln/detail/CVE-2024-43440"
     }
   },
   "CVE-2024-435465-6 MEDIUM": {
@@ -15355,6 +15630,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45792"
     }
   },
+  "CVE-2024-45794": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "devtron is an open source tool integration platform for Kubernetes. In affected versions an authenticated user (with minimum permission) could utilize and exploit SQL Injection to allow the execution of malicious SQL queries via CreateUser API (/orchestrator/user). This issue has been addressed in version 0.7.2 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-45794",
+      "cveUrl": "/vuln/detail/CVE-2024-45794"
+    }
+  },
   "CVE-2024-45795": {
     "cve": {
       "cveDate": [
@@ -17102,6 +17388,17 @@
       "cveDis": "OSS Endpoint Manager is an endpoint manager module for FreePBX. OSS Endpoint Manager module activation can allow authenticated web users unauthorized access to read system files with the permissions of the webserver process. This vulnerability is fixed in 14.0.4.",
       "cveName": "CVE-2024-47071",
       "cveUrl": "/vuln/detail/CVE-2024-47071"
+    }
+  },
+  "CVE-2024-47073": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "DataEase is an open source data visualization analysis tool that helps users quickly analyze data and gain insights into business trends. In affected versions a the lack of signature verification of jwt tokens allows attackers to forge jwts which then allow access to any interface. The vulnerability has been fixed in v2.10.2 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-47073",
+      "cveUrl": "/vuln/detail/CVE-2024-47073"
     }
   },
   "CVE-2024-47074": {
@@ -22670,6 +22967,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48289"
     }
   },
+  "CVE-2024-48290": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "An issue in the Bluetooth Low Energy implementation of Realtek RTL8762E BLE SDK v1.4.0 allows attackers to cause a Denial of Service (DoS) via supplying a crafted ll_terminate_ind packet.",
+      "cveName": "CVE-2024-48290",
+      "cveUrl": "/vuln/detail/CVE-2024-48290"
+    }
+  },
   "CVE-2024-48291": {
     "cve": {
       "cveDate": [
@@ -24285,6 +24593,61 @@
       "cveDis": "The verify function in lib/elliptic/eddsa/index.js in the Elliptic package before 6.5.6 for Node.js omits \"sig.S().gte(sig.eddsa.curve.n) || sig.S().isNeg()\" validation.",
       "cveName": "CVE-2024-48949",
       "cveUrl": "/vuln/detail/CVE-2024-48949"
+    }
+  },
+  "CVE-2024-48950": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Logpoint before 7.5.0. An endpoint used by Distributed Logpoint Setup was exposed, allowing unauthenticated attackers to bypass CSRF protections and authentication.",
+      "cveName": "CVE-2024-48950",
+      "cveUrl": "/vuln/detail/CVE-2024-48950"
+    }
+  },
+  "CVE-2024-48951": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Logpoint before 7.5.0. Server-Side Request Forgery (SSRF) on SOAR can be used to leak Logpoint's API Token leading to authentication bypass.",
+      "cveName": "CVE-2024-48951",
+      "cveUrl": "/vuln/detail/CVE-2024-48951"
+    }
+  },
+  "CVE-2024-48952": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Logpoint before 7.5.0. SOAR uses a static JWT secret key to generate tokens that allow access to SOAR API endpoints without authentication. This static key vulnerability enables attackers to create custom JWT secret keys for unauthorized access to these endpoints.",
+      "cveName": "CVE-2024-48952",
+      "cveUrl": "/vuln/detail/CVE-2024-48952"
+    }
+  },
+  "CVE-2024-48953": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Logpoint before 7.5.0. Endpoints for creating, editing, or deleting third-party authentication modules lacked proper authorization checks. This allowed unauthenticated users to register their own authentication plugins in Logpoint, resulting in unauthorized access.",
+      "cveName": "CVE-2024-48953",
+      "cveUrl": "/vuln/detail/CVE-2024-48953"
+    }
+  },
+  "CVE-2024-48954": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Logpoint before 7.5.0. Unvalidated input during the EventHub Collector setup by an authenticated user leads to Remote Code execution.",
+      "cveName": "CVE-2024-48954",
+      "cveUrl": "/vuln/detail/CVE-2024-48954"
     }
   },
   "CVE-2024-48955": {
@@ -30579,6 +30942,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51427"
     }
   },
+  "CVE-2024-51428": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "An issue in Espressif Esp idf v5.3.0 allows attackers to cause a Denial of Service (DoS) via a crafted data channel packet.",
+      "cveName": "CVE-2024-51428",
+      "cveUrl": "/vuln/detail/CVE-2024-51428"
+    }
+  },
   "CVE-2024-51430": {
     "cve": {
       "cveDate": [
@@ -31371,6 +31745,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51757"
     }
   },
+  "CVE-2024-51758": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "Filament is a collection of full-stack components for accelerated Laravel development. All Filament features that interact with storage use the `default_filesystem_disk` config option. This allows the user to easily swap their storage driver to something production-ready like `s3` when deploying their app, without having to touch multiple configuration options and potentially forgetting about some. The default disk is set to `public` when you first install Filament, since this allows users to quickly get started developing with a functional disk that allows features such as file upload previews locally without the need to set up an S3 disk with temporary URL support. However, some features of Filament such as exports also rely on storage, and the files that are stored contain data that should often not be public. This is not an issue for the many deployed applications, since many use a secure default disk such as S3 in production. However, [CWE-1188](https://cwe.mitre.org/data/definitions/1188.html) suggests that having the `public` disk as the default disk in Filament is a security vulnerability itself. As such, we have implemented a measure to protect users whereby if the `public` disk is set as the default disk, the exports feature will automatically swap it out for the `local` disk, if that exists. Users who set the default disk to `local` or `s3` already are not affected. If a user wants to continue to use the `public` disk for exports, they can by setting the export disk deliberately. This change has been included in the 3.2.123 release and all users who use the `public` disk are advised to upgrade.",
+      "cveName": "CVE-2024-51758",
+      "cveUrl": "/vuln/detail/CVE-2024-51758"
+    }
+  },
   "CVE-2024-51774": {
     "cve": {
       "cveDate": [
@@ -31393,6 +31778,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51988"
     }
   },
+  "CVE-2024-51989": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "Password Pusher is an open source application to communicate sensitive information over the web. A cross-site scripting (XSS) vulnerability was identified in the PasswordPusher application, affecting versions `v1.41.1` through and including `v.1.48.0`. The issue arises from an un-sanitized parameter which could allow attackers to inject malicious JavaScript into the application. Users who self-host and have the login system enabled are affected.  Exploitation of this vulnerability could expose user data, access to user sessions or take unintended actions on behalf of users. To exploit this vulnerability, an attacker would need to convince a user to click a malicious account confirmation link. It is highly recommended to update to version `v1.48.1` or later to mitigate this risk. There are no known workarounds for this vulnerability.\n\n### Solution\n\nUpdate to version `v1.48.1` or later where input sanitization has been applied to the account confirmation process.  If updating is not immediately possible,",
+      "cveName": "CVE-2024-51989",
+      "cveUrl": "/vuln/detail/CVE-2024-51989"
+    }
+  },
   "CVE-2024-51990": {
     "cve": {
       "cveDate": [
@@ -31402,6 +31798,39 @@
       "cveDis": "jj, or Jujutsu, is a Git-compatible VCS written in rust. In affected versions specially crafted Git repositories can cause `jj` to write files outside the clone. This issue has been addressed in version 0.23.0. Users are advised to upgrade. Users unable to upgrade should avoid cloning repos from unknown sources.",
       "cveName": "CVE-2024-51990",
       "cveUrl": "/vuln/detail/CVE-2024-51990"
+    }
+  },
+  "CVE-2024-51993": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:18 PM -0500"
+      ],
+      "cveDis": "Combodo iTop is a web based IT Service Management tool. An attacker accessing a backup file or the database can read some passwords for misconfigured Users. This issue has been addressed in version 3.2.0 and all users are advised to upgrade. Users unable to upgrade are advised to encrypt their backups independently of the iTop application.\n\n### Patches\nSanitize parameter\n\n### References\nN°7631 - Password is stored in clear in the database.",
+      "cveName": "CVE-2024-51993",
+      "cveUrl": "/vuln/detail/CVE-2024-51993"
+    }
+  },
+  "CVE-2024-51994": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:18 PM -0500"
+      ],
+      "cveDis": "Combodo iTop is a web based IT Service Management tool. In affected versions uploading a text file containing some java script in the portal will trigger an Cross-site Scripting (XSS) vulnerability. This issue has been addressed in version 3.2.0 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51994",
+      "cveUrl": "/vuln/detail/CVE-2024-51994"
+    }
+  },
+  "CVE-2024-51995": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "1:15:18 PM -0500"
+      ],
+      "cveDis": "Combodo iTop is a web based IT Service Management tool. An attacker can request any `route` we want as long as we specify an `operation` that is allowed. This issue has been addressed in version 3.2.0 by applying the same access control pattern as in `UI.php` to the `ajax.render.php` page which does not allow arbitrary `routes` to be dispatched. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51995",
+      "cveUrl": "/vuln/detail/CVE-2024-51995"
     }
   },
   "CVE-2024-52043": {
@@ -32856,6 +33285,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8376"
     }
   },
+  "CVE-2024-8378": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "11:15:18 AM -0500"
+      ],
+      "cveDis": "The Safe SVG WordPress plugin before 2.2.6 has its sanitisation code is only running for paths that call wp_handle_upload, but not for example for code that uses wp_handle_sideload which is often used to upload attachments via raw POST data.",
+      "cveName": "CVE-2024-8378",
+      "cveUrl": "/vuln/detail/CVE-2024-8378"
+    }
+  },
   "CVE-2024-8379": {
     "cve": {
       "cveDate": [
@@ -32931,6 +33371,17 @@
       "cveDis": "The Easy Mega Menu Plugin for WordPress – ThemeHunk plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘themehunk_megamenu_bg_image' parameter in all versions up to, and including, 1.1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Please note that this was partially fixed in 1.1.0 due to the missing authorization protection that was added.",
       "cveName": "CVE-2024-84336-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8433"
+    }
+  },
+  "CVE-2024-84426-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "8:15:03 AM -0500"
+      ],
+      "cveDis": "The Prime Slider – Addons For Elementor (Revolution of a slider, Hero Slider, Ecommerce Slider) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's Blog widget in all versions up to, and including, 3.15.18 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-84426-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8442"
     }
   },
   "CVE-2024-8444": {
@@ -38882,6 +39333,17 @@
       "cveDis": "SQL injection vulnerability in TAI Smart Factory's QPLANT SF version 1.0. Exploitation of this vulnerability could allow a remote attacker to retrieve all database information by sending a specially crafted SQL query to the ‘email’ parameter on the ‘RequestPasswordChange’ endpoint.",
       "cveName": "CVE-2024-9925",
       "cveUrl": "/vuln/detail/CVE-2024-9925"
+    }
+  },
+  "CVE-2024-9926": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "10:15:05 AM -0500"
+      ],
+      "cveDis": "The Jetpack WordPress plugin does not have proper authorisation in one of its REST endpoint, allowing any authenticated users, such as subscriber to read arbitrary feedbacks data sent via the Jetpack Contact Form",
+      "cveName": "CVE-2024-9926",
+      "cveUrl": "/vuln/detail/CVE-2024-9926"
     }
   },
   "CVE-2024-99277-2 HIGH": {
