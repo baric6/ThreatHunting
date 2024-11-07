@@ -5246,6 +5246,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-10920"
     }
   },
+  "CVE-2024-109226-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "9:15:02 PM -0500"
+      ],
+      "cveDis": "The Featured Posts Scroll plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.25. This is due to missing or incorrect nonce validation on a function. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-109226-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10922"
+    }
+  },
+  "CVE-2024-10926": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "4:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in IBPhoenix ibWebAdmin up to 1.0.2 and classified as problematic. This issue affects some unknown processing of the file /toggle_fold_panel.php of the component Tabelas Section. The manipulation of the argument p leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10926",
+      "cveUrl": "/vuln/detail/CVE-2024-10926"
+    }
+  },
+  "CVE-2024-10927": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in MonoCMS up to 20240528. It has been classified as problematic. Affected is an unknown function of the file /monofiles/account.php of the component Account Information Page. The manipulation of the argument userid leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10927",
+      "cveUrl": "/vuln/detail/CVE-2024-10927"
+    }
+  },
+  "CVE-2024-10928": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in MonoCMS up to 20240528. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /monofiles/opensaved.php of the component Posts Page. The manipulation of the argument filtcategory/filtstatus leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10928",
+      "cveUrl": "/vuln/detail/CVE-2024-10928"
+    }
+  },
+  "CVE-2024-10941": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "A malicious website could have included an iframe with an malformed URI resulting in a non-exploitable browser crash. This vulnerability affects Firefox < 126.",
+      "cveName": "CVE-2024-10941",
+      "cveUrl": "/vuln/detail/CVE-2024-10941"
+    }
+  },
+  "CVE-2024-10946": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in Guangzhou Tuchuang Computer Software Development Interlib Library Cluster Automation Management System up to 2.0.1. This affects an unknown part of the file /interlib/admin/SysLib?cmdACT=inputLIBCODE&mod=batchXSL&xsl=editLIBCODE.xsl&libcodes=&ROWID=. The manipulation of the argument sql leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10946",
+      "cveUrl": "/vuln/detail/CVE-2024-10946"
+    }
+  },
+  "CVE-2024-10947": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in Guangzhou Tuchuang Computer Software Development Interlib Library Cluster Automation Management System up to 2.0.1. This vulnerability affects unknown code of the file /interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl. The manipulation of the argument bookrecno leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-10947",
+      "cveUrl": "/vuln/detail/CVE-2024-10947"
+    }
+  },
   "CVE-2024-20090": {
     "cve": {
       "cveDate": [
@@ -22538,6 +22615,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48312"
     }
   },
+  "CVE-2024-48325": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Portabilis i-Educar 2.8.0 is vulnerable to SQL Injection in the \"getDocuments\" function of the \"InstituicaoDocumentacaoController\" class. The \"instituicao_id\" parameter in \"/module/Api/InstituicaoDocumentacao?oper=get&resource=getDocuments&instituicao_id\" is not properly sanitized, allowing an unauthenticated remote attacker to inject malicious SQL commands.",
+      "cveName": "CVE-2024-48325",
+      "cveUrl": "/vuln/detail/CVE-2024-48325"
+    }
+  },
   "CVE-2024-48336": {
     "cve": {
       "cveDate": [
@@ -28115,6 +28203,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-50335"
     }
   },
+  "CVE-2024-50340": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "symfony/runtime is a module for the Symphony PHP framework which enables decoupling PHP applications from global state. When the `register_argv_argc` php directive is set to `on` , and users call any URL with a special crafted query string, they are able to change the environment or debug mode used by the kernel when handling the request. As of versions 5.4.46, 6.4.14, and 7.1.7 the `SymfonyRuntime` now ignores the `argv` values for non-SAPI PHP runtimes. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-50340",
+      "cveUrl": "/vuln/detail/CVE-2024-50340"
+    }
+  },
+  "CVE-2024-50341": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "symfony/security-bundle is a module for the Symphony PHP framework which provides a tight integration of the Security component into the Symfony full-stack framework. The custom `user_checker` defined on a firewall is not called when Login Programmaticaly with the `Security::login` method, leading to  unwanted login. As of versions 6.4.10, 7.0.10 and 7.1.3 the `Security::login` method now ensure to call the configured `user_checker`. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-50341",
+      "cveUrl": "/vuln/detail/CVE-2024-50341"
+    }
+  },
+  "CVE-2024-50342": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "symfony/http-client is a module for the Symphony PHP framework which provides powerful methods to fetch HTTP resources synchronously or asynchronously. When using the `NoPrivateNetworkHttpClient`, some internal information is still leaking during host resolution, which leads to possible IP/port enumeration. As of versions 5.4.46, 6.4.14, and 7.1.7 the `NoPrivateNetworkHttpClient` now filters blocked IPs earlier to prevent such leaks. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-50342",
+      "cveUrl": "/vuln/detail/CVE-2024-50342"
+    }
+  },
+  "CVE-2024-50343": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "symfony/validator is a module for the Symphony PHP framework which provides tools to validate values. It is possible to trick a `Validator` configured with a regular expression using the `$` metacharacters, with an input ending with `\\n`. Symfony as of versions 5.4.43, 6.4.11, and 7.1.4 now uses the `D` regex modifier to match the entire input. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-50343",
+      "cveUrl": "/vuln/detail/CVE-2024-50343"
+    }
+  },
   "CVE-2024-50344": {
     "cve": {
       "cveDate": [
@@ -28124,6 +28256,17 @@
       "cveDis": "I, Librarian is an open-source version of a PDF managing SaaS. Supplemental Files are allowed to be viewed in the browser, only if they have a white-listed MIME type. Unfortunately, this logic is broken, thus allowing unsafe files containing Javascript to be executed with the application context. An attacker can exploit this vulnerability by uploading a supplementary file that contains a malicious code or script. This code will then be executed when the file is loaded in the browser. The vulnerability was fixed in version 5.11.2.",
       "cveName": "CVE-2024-50344",
       "cveUrl": "/vuln/detail/CVE-2024-50344"
+    }
+  },
+  "CVE-2024-50345": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "symfony/http-foundation is a module for the Symphony PHP framework which defines an object-oriented layer for the HTTP specification. The `Request` class, does not parse URI with special characters the same way browsers do. As a result, an attacker can trick a validator relying on the `Request` class to redirect users to another domain. The `Request::create` methods now assert the URI does not contain invalid characters as defined by https://url.spec.whatwg.org/. This issue has been patched in versions 5.4.46, 6.4.14, and 7.1.7. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-50345",
+      "cveUrl": "/vuln/detail/CVE-2024-50345"
     }
   },
   "CVE-2024-50346": {
@@ -29897,6 +30040,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51408"
     }
   },
+  "CVE-2024-51409": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Buffer Overflow vulnerability in Tenda O3 v.1.0.0.5 allows a remote attacker to cause a denial of service via a network packet in a fixed format to a router running the corresponding version of the firmware.",
+      "cveName": "CVE-2024-51409",
+      "cveUrl": "/vuln/detail/CVE-2024-51409"
+    }
+  },
   "CVE-2024-51419": {
     "cve": {
       "cveDate": [
@@ -30590,6 +30744,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51735"
     }
   },
+  "CVE-2024-51736": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "Symphony process is a module for the Symphony PHP framework which executes commands in sub-processes. On Windows, when an executable file named `cmd.exe` is located in the current working directory it will be called by the `Process` class when preparing command arguments, leading to possible hijacking. This issue has been addressed in release versions 5.4.46, 6.4.14, and 7.1.7. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51736",
+      "cveUrl": "/vuln/detail/CVE-2024-51736"
+    }
+  },
   "CVE-2024-51739": {
     "cve": {
       "cveDate": [
@@ -30645,6 +30810,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51746"
     }
   },
+  "CVE-2024-51751": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "3:15:05 PM -0500"
+      ],
+      "cveDis": "Gradio is an open-source Python package designed to enable quick builds of a demo or web application. If File or UploadButton components are used as a part of Gradio application to preview file content, an attacker with access to the application might abuse these components to read arbitrary files from the application server. This issue has been addressed in release version 5.5.0 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51751",
+      "cveUrl": "/vuln/detail/CVE-2024-51751"
+    }
+  },
   "CVE-2024-51752": {
     "cve": {
       "cveDate": [
@@ -30667,6 +30843,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-51753"
     }
   },
+  "CVE-2024-51754": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "3:15:05 PM -0500"
+      ],
+      "cveDis": "Twig is a template language for PHP. In a sandbox, an attacker can call `__toString()` on an object even if the `__toString()` method is not allowed by the security policy when the object is part of an array or an argument list (arguments to a function or a filter for instance). This issue has been patched in versions 3.11.2 and 3.14.1. All users are advised to upgrade. There are no known workarounds for this issue.",
+      "cveName": "CVE-2024-51754",
+      "cveUrl": "/vuln/detail/CVE-2024-51754"
+    }
+  },
+  "CVE-2024-51755": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "3:15:06 PM -0500"
+      ],
+      "cveDis": "Twig is a template language for PHP. In a sandbox, and attacker can access attributes of Array-like objects as they were not checked by the security policy. They are now checked via the property policy and the `__isset()` method is now called after the security check. This is a BC break. This issue has been patched in versions 3.11.2 and 3.14.1. All users are advised to upgrade. There are no known workarounds for this issue.",
+      "cveName": "CVE-2024-51755",
+      "cveUrl": "/vuln/detail/CVE-2024-51755"
+    }
+  },
   "CVE-2024-51756": {
     "cve": {
       "cveDate": [
@@ -30678,6 +30876,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51756"
     }
   },
+  "CVE-2024-51757": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "3:15:06 PM -0500"
+      ],
+      "cveDis": "happy-dom is a JavaScript implementation of a web browser without its graphical user interface. Versions of happy-dom prior to 15.10.2 may execute code on the host via a script tag. This would execute code in the user context of happy-dom. Users are advised to upgrade to version 15.10.2. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51757",
+      "cveUrl": "/vuln/detail/CVE-2024-51757"
+    }
+  },
   "CVE-2024-51774": {
     "cve": {
       "cveDate": [
@@ -30687,6 +30896,28 @@
       "cveDis": "qBittorrent before 5.0.1 proceeds with use of https URLs even after certificate validation errors.",
       "cveName": "CVE-2024-51774",
       "cveUrl": "/vuln/detail/CVE-2024-51774"
+    }
+  },
+  "CVE-2024-51988": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "3:15:06 PM -0500"
+      ],
+      "cveDis": "RabbitMQ is a feature rich, multi-protocol messaging and streaming broker. In affected versions queue deletion via the HTTP API was not verifying the `configure` permission of the user. Users who had all of the following: 1. Valid credentials, 2. Some permissions for the target virtual host & 3. HTTP API access. could delete queues it had no (deletion) permissions for. This issue has been addressed in version 3.12.11 of the open source rabbitMQ release and in versions 1.5.2, 3.13.0, and 4.0.0 of the tanzu release. Users are advised to upgrade. Users unable to upgrade may disable management plugin and use, for example, Prometheus and Grafana for monitoring.",
+      "cveName": "CVE-2024-51988",
+      "cveUrl": "/vuln/detail/CVE-2024-51988"
+    }
+  },
+  "CVE-2024-51990": {
+    "cve": {
+      "cveDate": [
+        "November 06, 2024",
+        "8:15:03 PM -0500"
+      ],
+      "cveDis": "jj, or Jujutsu, is a Git-compatible VCS written in rust. In affected versions specially crafted Git repositories can cause `jj` to write files outside the clone. This issue has been addressed in version 0.23.0. Users are advised to upgrade. Users unable to upgrade should avoid cloning repos from unknown sources.",
+      "cveName": "CVE-2024-51990",
+      "cveUrl": "/vuln/detail/CVE-2024-51990"
     }
   },
   "CVE-2024-52043": {
