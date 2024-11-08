@@ -461,6 +461,17 @@
       "cveUrl": "/vuln/detail/CVE-2020-36842"
     }
   },
+  "CVE-2020-8007": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "12:15:05 AM -0500"
+      ],
+      "cveDis": "The pwrstudio web application of EV Charger (in the server in Circontrol Raption through 5.6.2) is vulnerable to OS command injection via three fields of the configuration menu for ntpserver0, ntpserver1, and pingip.",
+      "cveName": "CVE-2020-8007",
+      "cveUrl": "/vuln/detail/CVE-2020-8007"
+    }
+  },
   "CVE-2021-37577": {
     "cve": {
       "cveDate": [
@@ -844,6 +855,17 @@
       "cveDis": "MariaDB v10.5 was discovered to contain a remote code execution (RCE) vulnerability.",
       "cveName": "CVE-2023-26785",
       "cveUrl": "/vuln/detail/CVE-2023-26785"
+    }
+  },
+  "CVE-2023-27195": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "12:15:05 AM -0500"
+      ],
+      "cveDis": "Trimble TM4Web 22.2.0 allows unauthenticated attackers to access /inc/tm_ajax.msw?func=UserfromUUID&uuid= to retrieve the last registration access code and use this access code to register a valid account. via a PUT /inc/tm_ajax.msw request. If the access code was used to create an Administrator account, attackers are also able to register new Administrator accounts with full privileges.",
+      "cveName": "CVE-2023-27195",
+      "cveUrl": "/vuln/detail/CVE-2023-27195"
     }
   },
   "CVE-2023-29121": {
@@ -2683,6 +2705,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10186"
     }
   },
+  "CVE-2024-101876-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:03 AM -0500"
+      ],
+      "cveDis": "The myCred – Loyalty Points and Rewards plugin for WordPress and WooCommerce – Give Points, Ranks, Badges, Cashback, WooCommerce rewards, and WooCommerce credits for Gamification plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's mycred_link shortcode in all versions up to, and including, 2.7.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-101876-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10187"
+    }
+  },
   "CVE-2024-101896-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -2967,6 +3000,17 @@
       "cveDis": "The Nioland theme for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘s’ parameter in all versions up to, and including, 1.2.6 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-102506-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10250"
+    }
+  },
+  "CVE-2024-102696-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "2:15:05 AM -0500"
+      ],
+      "cveDis": "The Easy SVG Support plugin for WordPress is vulnerable to Stored Cross-Site Scripting via REST API SVG File uploads in all versions up to, and including, 3.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-102696-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10269"
     }
   },
   "CVE-2024-10278": {
@@ -4729,6 +4773,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10620"
     }
   },
+  "CVE-2024-106216-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:13 AM -0500"
+      ],
+      "cveDis": "The Simple Shortcode for Google Maps plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's pw_map shortcode in all versions up to, and including, 1.5.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-106216-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10621"
+    }
+  },
   "CVE-2024-106476-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -5433,6 +5488,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10827"
     }
   },
+  "CVE-2024-10839": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "6:15:03 AM -0500"
+      ],
+      "cveDis": "Zohocorp ManageEngine SharePoint Manager Plus versions 4503 and prior are vulnerable to authenticated XML External Entity (XXE) in the Management option.",
+      "cveName": "CVE-2024-10839",
+      "cveUrl": "/vuln/detail/CVE-2024-10839"
+    }
+  },
   "CVE-2024-10914": {
     "cve": {
       "cveDate": [
@@ -5684,6 +5750,116 @@
       "cveDis": "A vulnerability classified as critical has been found in code-projects E-Health Care System 1.0. This affects an unknown part of the file /Admin/detail.php. The manipulation of the argument s_id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory confuses the vulnerability class of this issue.",
       "cveName": "CVE-2024-10989",
       "cveUrl": "/vuln/detail/CVE-2024-10989"
+    }
+  },
+  "CVE-2024-10990": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "12:15:05 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in SourceCodester Online Veterinary Appointment System 1.0. This vulnerability affects unknown code of the file /admin/services/view_service.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10990",
+      "cveUrl": "/vuln/detail/CVE-2024-10990"
+    }
+  },
+  "CVE-2024-10991": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "12:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in Codezips Hospital Appointment System 1.0. This issue affects some unknown processing of the file /editBranchResult.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10991",
+      "cveUrl": "/vuln/detail/CVE-2024-10991"
+    }
+  },
+  "CVE-2024-10993": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:14 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in Codezips Online Institute Management System 1.0. Affected is an unknown function of the file /manage_website.php. The manipulation of the argument website_image leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10993",
+      "cveUrl": "/vuln/detail/CVE-2024-10993"
+    }
+  },
+  "CVE-2024-10994": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:14 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in Codezips Online Institute Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /edit_user.php. The manipulation of the argument image leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10994",
+      "cveUrl": "/vuln/detail/CVE-2024-10994"
+    }
+  },
+  "CVE-2024-10995": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "2:15:07 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Codezips Hospital Appointment System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /removeDoctorResult.php. The manipulation of the argument Name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10995",
+      "cveUrl": "/vuln/detail/CVE-2024-10995"
+    }
+  },
+  "CVE-2024-10996": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "2:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 1000 Projects Bookstore Management System 1.0. It has been classified as critical. This affects an unknown part of the file /admin/process_category_edit.php. The manipulation of the argument cat leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10996",
+      "cveUrl": "/vuln/detail/CVE-2024-10996"
+    }
+  },
+  "CVE-2024-10997": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "2:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 1000 Projects Bookstore Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /book_list.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10997",
+      "cveUrl": "/vuln/detail/CVE-2024-10997"
+    }
+  },
+  "CVE-2024-10998": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "3:15:12 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 1000 Projects Bookstore Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /admin/process_category_add.php. The manipulation of the argument cat leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10998",
+      "cveUrl": "/vuln/detail/CVE-2024-10998"
+    }
+  },
+  "CVE-2024-10999": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "3:15:14 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic has been found in CodeAstro Real Estate Management System 1.0. Affected is an unknown function of the file /aboutadd.php of the component About Us Page. The manipulation of the argument aimage leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10999",
+      "cveUrl": "/vuln/detail/CVE-2024-10999"
+    }
+  },
+  "CVE-2024-11000": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "3:15:15 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic was found in CodeAstro Real Estate Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /aboutedit.php of the component About Us Page. The manipulation of the argument aimage leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11000",
+      "cveUrl": "/vuln/detail/CVE-2024-11000"
     }
   },
   "CVE-2024-20090": {
@@ -7754,6 +7930,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-21537"
     }
   },
+  "CVE-2024-21538": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "12:15:06 AM -0500"
+      ],
+      "cveDis": "Versions of the package cross-spawn before 7.0.5 are vulnerable to Regular Expression Denial of Service (ReDoS) due to improper input sanitization. An attacker can increase the CPU usage and crash the program by crafting a very large and well crafted string.",
+      "cveName": "CVE-2024-21538",
+      "cveUrl": "/vuln/detail/CVE-2024-21538"
+    }
+  },
   "CVE-2024-22032": {
     "cve": {
       "cveDate": [
@@ -8126,6 +8313,17 @@
       "cveDis": "A remote code execution vulnerability in the project management of Wanxing Technology's Yitu project which allows an attacker to use the exp.adpx file as a zip compressed file to construct a special file name, which can be used to decompress the project file into the system startup folder, restart the system, and automatically execute the constructed attack script.",
       "cveName": "CVE-2024-24122",
       "cveUrl": "/vuln/detail/CVE-2024-24122"
+    }
+  },
+  "CVE-2024-24409": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "3:15:15 AM -0500"
+      ],
+      "cveDis": "Zohocorp ManageEngine ADManager Plus versions 7203 and prior are vulnerable to Privilege Escalation in the Modify Computers option.",
+      "cveName": "CVE-2024-24409",
+      "cveUrl": "/vuln/detail/CVE-2024-24409"
     }
   },
   "CVE-2024-24777": {
@@ -29226,6 +29424,435 @@
       "cveUrl": "/vuln/detail/CVE-2024-50172"
     }
   },
+  "CVE-2024-50173": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:14 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/panthor: Fix access to uninitialized variable in tick_ctx_cleanup()\n\nThe group variable can't be used to retrieve ptdev in our second loop,\nbecause it points to the previously iterated list_head, not a valid\ngroup. Get the ptdev object from the scheduler instead.",
+      "cveName": "CVE-2024-50173",
+      "cveUrl": "/vuln/detail/CVE-2024-50173"
+    }
+  },
+  "CVE-2024-50174": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:14 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/panthor: Fix race when converting group handle to group object\n\nXArray provides it's own internal lock which protects the internal array\nwhen entries are being simultaneously added and removed. However there\nis still a race between retrieving the pointer from the XArray and\nincrementing the reference count.\n\nTo avoid this race simply hold the internal XArray lock when\nincrementing the reference count, this ensures there cannot be a racing\ncall to xa_erase().",
+      "cveName": "CVE-2024-50174",
+      "cveUrl": "/vuln/detail/CVE-2024-50174"
+    }
+  },
+  "CVE-2024-50175": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:14 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: qcom: camss: Remove use_count guard in stop_streaming\n\nThe use_count check was introduced so that multiple concurrent Raw Data\nInterfaces RDIs could be driven by different virtual channels VCs on the\nCSIPHY input driving the video pipeline.\n\nThis is an invalid use of use_count though as use_count pertains to the\nnumber of times a video entity has been opened by user-space not the number\nof active streams.\n\nIf use_count and stream-on count don't agree then stop_streaming() will\nbreak as is currently the case and has become apparent when using CAMSS\nwith libcamera's released softisp 0.3.\n\nThe use of use_count like this is a bit hacky and right now breaks regular\nusage of CAMSS for a single stream case. Stopping qcam results in the splat\nbelow, and then it cannot be started again and any attempts to do so fails\nwith -EBUSY.\n\n[ 1265.509831] WARNING: CPU: 5 PID: 919 at drivers/media/common/videobuf2/videobuf2-core.c:2183 __vb2_queue_cancel+0x230/0x2c8 [videobuf2_common]\n...\n[ 1265.510630] Call trace:\n[ 1265.510636]  __vb2_queue_cancel+0x230/0x2c8 [videobuf2_common]\n[ 1265.510648]  vb2_core_streamoff+0x24/0xcc [videobuf2_common]\n[ 1265.510660]  vb2_ioctl_streamoff+0x5c/0xa8 [videobuf2_v4l2]\n[ 1265.510673]  v4l_streamoff+0x24/0x30 [videodev]\n[ 1265.510707]  __video_do_ioctl+0x190/0x3f4 [videodev]\n[ 1265.510732]  video_usercopy+0x304/0x8c4 [videodev]\n[ 1265.510757]  video_ioctl2+0x18/0x34 [videodev]\n[ 1265.510782]  v4l2_ioctl+0x40/0x60 [videodev]\n...\n[ 1265.510944] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 0 in active state\n[ 1265.511175] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 1 in active state\n[ 1265.511398] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 2 in active st\n\nOne CAMSS specific way to handle multiple VCs on the same RDI might be:\n\n- Reference count each pipeline enable for CSIPHY, CSID, VFE and RDIx.\n- The video buffers are already associated with msm_vfeN_rdiX so\n  release video buffers when told to do so by stop_streaming.\n- Only release the power-domains for the CSIPHY, CSID and VFE when\n  their internal refcounts drop.\n\nEither way refusing to release video buffers based on use_count is\nerroneous and should be reverted. The silicon enabling code for selecting\nVCs is perfectly fine. Its a \"known missing feature\" that concurrent VCs\nwon't work with CAMSS right now.\n\nInitial testing with this code didn't show an error but, SoftISP and \"real\"\nusage with Google Hangouts breaks the upstream code pretty quickly, we need\nto do a partial revert and take another pass at VCs.\n\nThis commit partially reverts commit 89013969e232 (\"media: camss: sm8250:\nPipeline starting and stopping for multiple virtual channels\")",
+      "cveName": "CVE-2024-50175",
+      "cveUrl": "/vuln/detail/CVE-2024-50175"
+    }
+  },
+  "CVE-2024-50176": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nremoteproc: k3-r5: Fix error handling when power-up failed\n\nBy simply bailing out, the driver was violating its rule and internal\nassumptions that either both or no rproc should be initialized. E.g.,\nthis could cause the first core to be available but not the second one,\nleading to crashes on its shutdown later on while trying to dereference\nthat second instance.",
+      "cveName": "CVE-2024-50176",
+      "cveUrl": "/vuln/detail/CVE-2024-50176"
+    }
+  },
+  "CVE-2024-50177": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: fix a UBSAN warning in DML2.1\n\nWhen programming phantom pipe, since cursor_width is explicity set to 0,\nthis causes calculation logic to trigger overflow for an unsigned int\ntriggering the kernel's UBSAN check as below:\n\n[   40.962845] UBSAN: shift-out-of-bounds in /tmp/amd.EfpumTkO/amd/amdgpu/../display/dc/dml2/dml21/src/dml2_core/dml2_core_dcn4_calcs.c:3312:34\n[   40.962849] shift exponent 4294967170 is too large for 32-bit type 'unsigned int'\n[   40.962852] CPU: 1 PID: 1670 Comm: gnome-shell Tainted: G        W  OE      6.5.0-41-generic #41~22.04.2-Ubuntu\n[   40.962854] Hardware name: Gigabyte Technology Co., Ltd. X670E AORUS PRO X/X670E AORUS PRO X, BIOS F21 01/10/2024\n[   40.962856] Call Trace:\n[   40.962857]  <TASK>\n[   40.962860]  dump_stack_lvl+0x48/0x70\n[   40.962870]  dump_stack+0x10/0x20\n[   40.962872]  __ubsan_handle_shift_out_of_bounds+0x1ac/0x360\n[   40.962878]  calculate_cursor_req_attributes.cold+0x1b/0x28 [amdgpu]\n[   40.963099]  dml_core_mode_support+0x6b91/0x16bc0 [amdgpu]\n[   40.963327]  ? srso_alias_return_thunk+0x5/0x7f\n[   40.963331]  ? CalculateWatermarksMALLUseAndDRAMSpeedChangeSupport+0x18b8/0x2790 [amdgpu]\n[   40.963534]  ? srso_alias_return_thunk+0x5/0x7f\n[   40.963536]  ? dml_core_mode_support+0xb3db/0x16bc0 [amdgpu]\n[   40.963730]  dml2_core_calcs_mode_support_ex+0x2c/0x90 [amdgpu]\n[   40.963906]  ? srso_alias_return_thunk+0x5/0x7f\n[   40.963909]  ? dml2_core_calcs_mode_support_ex+0x2c/0x90 [amdgpu]\n[   40.964078]  core_dcn4_mode_support+0x72/0xbf0 [amdgpu]\n[   40.964247]  dml2_top_optimization_perform_optimization_phase+0x1d3/0x2a0 [amdgpu]\n[   40.964420]  dml2_build_mode_programming+0x23d/0x750 [amdgpu]\n[   40.964587]  dml21_validate+0x274/0x770 [amdgpu]\n[   40.964761]  ? srso_alias_return_thunk+0x5/0x7f\n[   40.964763]  ? resource_append_dpp_pipes_for_plane_composition+0x27c/0x3b0 [amdgpu]\n[   40.964942]  dml2_validate+0x504/0x750 [amdgpu]\n[   40.965117]  ? dml21_copy+0x95/0xb0 [amdgpu]\n[   40.965291]  ? srso_alias_return_thunk+0x5/0x7f\n[   40.965295]  dcn401_validate_bandwidth+0x4e/0x70 [amdgpu]\n[   40.965491]  update_planes_and_stream_state+0x38d/0x5c0 [amdgpu]\n[   40.965672]  update_planes_and_stream_v3+0x52/0x1e0 [amdgpu]\n[   40.965845]  ? srso_alias_return_thunk+0x5/0x7f\n[   40.965849]  dc_update_planes_and_stream+0x71/0xb0 [amdgpu]\n\nFix this by adding a guard for checking cursor width before triggering\nthe size calculation.",
+      "cveName": "CVE-2024-50177",
+      "cveUrl": "/vuln/detail/CVE-2024-50177"
+    }
+  },
+  "CVE-2024-50178": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ncpufreq: loongson3: Use raw_smp_processor_id() in do_service_request()\n\nUse raw_smp_processor_id() instead of plain smp_processor_id() in\ndo_service_request(), otherwise we may get some errors with the driver\nenabled:\n\n BUG: using smp_processor_id() in preemptible [00000000] code: (udev-worker)/208\n caller is loongson3_cpufreq_probe+0x5c/0x250 [loongson3_cpufreq]",
+      "cveName": "CVE-2024-50178",
+      "cveUrl": "/vuln/detail/CVE-2024-50178"
+    }
+  },
+  "CVE-2024-50179": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nceph: remove the incorrect Fw reference check when dirtying pages\n\nWhen doing the direct-io reads it will also try to mark pages dirty,\nbut for the read path it won't hold the Fw caps and there is case\nwill it get the Fw reference.",
+      "cveName": "CVE-2024-50179",
+      "cveUrl": "/vuln/detail/CVE-2024-50179"
+    }
+  },
+  "CVE-2024-50180": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbdev: sisfb: Fix strbuf array overflow\n\nThe values of the variables xres and yres are placed in strbuf.\nThese variables are obtained from strbuf1.\nThe strbuf1 array contains digit characters\nand a space if the array contains non-digit characters.\nThen, when executing sprintf(strbuf, \"%ux%ux8\", xres, yres);\nmore than 16 bytes will be written to strbuf.\nIt is suggested to increase the size of the strbuf array to 24.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
+      "cveName": "CVE-2024-50180",
+      "cveUrl": "/vuln/detail/CVE-2024-50180"
+    }
+  },
+  "CVE-2024-50181": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: imx: Remove CLK_SET_PARENT_GATE for DRAM mux for i.MX7D\n\nFor i.MX7D DRAM related mux clock, the clock source change should ONLY\nbe done done in low level asm code without accessing DRAM, and then\ncalling clk API to sync the HW clock status with clk tree, it should never\ntouch real clock source switch via clk API, so CLK_SET_PARENT_GATE flag\nshould NOT be added, otherwise, DRAM's clock parent will be disabled when\nDRAM is active, and system will hang.",
+      "cveName": "CVE-2024-50181",
+      "cveUrl": "/vuln/detail/CVE-2024-50181"
+    }
+  },
+  "CVE-2024-50182": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nsecretmem: disable memfd_secret() if arch cannot set direct map\n\nReturn -ENOSYS from memfd_secret() syscall if !can_set_direct_map().  This\nis the case for example on some arm64 configurations, where marking 4k\nPTEs in the direct map not present can only be done if the direct map is\nset up at 4k granularity in the first place (as ARM's break-before-make\nsemantics do not easily allow breaking apart large/gigantic pages).\n\nMore precisely, on arm64 systems with !can_set_direct_map(),\nset_direct_map_invalid_noflush() is a no-op, however it returns success\n(0) instead of an error.  This means that memfd_secret will seemingly\n\"work\" (e.g.  syscall succeeds, you can mmap the fd and fault in pages),\nbut it does not actually achieve its goal of removing its memory from the\ndirect map.\n\nNote that with this patch, memfd_secret() will start erroring on systems\nwhere can_set_direct_map() returns false (arm64 with\nCONFIG_RODATA_FULL_DEFAULT_ENABLED=n, CONFIG_DEBUG_PAGEALLOC=n and\nCONFIG_KFENCE=n), but that still seems better than the current silent\nfailure.  Since CONFIG_RODATA_FULL_DEFAULT_ENABLED defaults to 'y', most\narm64 systems actually have a working memfd_secret() and aren't be\naffected.\n\nFrom going through the iterations of the original memfd_secret patch\nseries, it seems that disabling the syscall in these scenarios was the\nintended behavior [1] (preferred over having\nset_direct_map_invalid_noflush return an error as that would result in\nSIGBUSes at page-fault time), however the check for it got dropped between\nv16 [2] and v17 [3], when secretmem moved away from CMA allocations.\n\n[1]: https://lore.kernel.org/lkml/20201124164930.GK8537@kernel.org/\n[2]: https://lore.kernel.org/lkml/20210121122723.3446-11-rppt@kernel.org/#t\n[3]: https://lore.kernel.org/lkml/20201125092208.12544-10-rppt@kernel.org/",
+      "cveName": "CVE-2024-50182",
+      "cveUrl": "/vuln/detail/CVE-2024-50182"
+    }
+  },
+  "CVE-2024-50183": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: lpfc: Ensure DA_ID handling completion before deleting an NPIV instance\n\nDeleting an NPIV instance requires all fabric ndlps to be released before\nan NPIV's resources can be torn down.  Failure to release fabric ndlps\nbeforehand opens kref imbalance race conditions.  Fix by forcing the DA_ID\nto complete synchronously with usage of wait_queue.",
+      "cveName": "CVE-2024-50183",
+      "cveUrl": "/vuln/detail/CVE-2024-50183"
+    }
+  },
+  "CVE-2024-50184": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nvirtio_pmem: Check device status before requesting flush\n\nIf a pmem device is in a bad status, the driver side could wait for\nhost ack forever in virtio_pmem_flush(), causing the system to hang.\n\nSo add a status check in the beginning of virtio_pmem_flush() to return\nearly if the device is not activated.",
+      "cveName": "CVE-2024-50184",
+      "cveUrl": "/vuln/detail/CVE-2024-50184"
+    }
+  },
+  "CVE-2024-50185": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nmptcp: handle consistently DSS corruption\n\nBugged peer implementation can send corrupted DSS options, consistently\nhitting a few warning in the data path. Use DEBUG_NET assertions, to\navoid the splat on some builds and handle consistently the error, dumping\nrelated MIBs and performing fallback and/or reset according to the\nsubflow type.",
+      "cveName": "CVE-2024-50185",
+      "cveUrl": "/vuln/detail/CVE-2024-50185"
+    }
+  },
+  "CVE-2024-50186": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: explicitly clear the sk pointer, when pf->create fails\n\nWe have recently noticed the exact same KASAN splat as in commit\n6cd4a78d962b (\"net: do not leave a dangling sk pointer, when socket\ncreation fails\"). The problem is that commit did not fully address the\nproblem, as some pf->create implementations do not use sk_common_release\nin their error paths.\n\nFor example, we can use the same reproducer as in the above commit, but\nchanging ping to arping. arping uses AF_PACKET socket and if packet_create\nfails, it will just sk_free the allocated sk object.\n\nWhile we could chase all the pf->create implementations and make sure they\nNULL the freed sk object on error from the socket, we can't guarantee\nfuture protocols will not make the same mistake.\n\nSo it is easier to just explicitly NULL the sk pointer upon return from\npf->create in __sock_create. We do know that pf->create always releases the\nallocated sk object on error, so if the pointer is not NULL, it is\ndefinitely dangling.",
+      "cveName": "CVE-2024-50186",
+      "cveUrl": "/vuln/detail/CVE-2024-50186"
+    }
+  },
+  "CVE-2024-50187": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vc4: Stop the active perfmon before being destroyed\n\nUpon closing the file descriptor, the active performance monitor is not\nstopped. Although all perfmons are destroyed in `vc4_perfmon_close_file()`,\nthe active performance monitor's pointer (`vc4->active_perfmon`) is still\nretained.\n\nIf we open a new file descriptor and submit a few jobs with performance\nmonitors, the driver will attempt to stop the active performance monitor\nusing the stale pointer in `vc4->active_perfmon`. However, this pointer\nis no longer valid because the previous process has already terminated,\nand all performance monitors associated with it have been destroyed and\nfreed.\n\nTo fix this, when the active performance monitor belongs to a given\nprocess, explicitly stop it before destroying and freeing it.",
+      "cveName": "CVE-2024-50187",
+      "cveUrl": "/vuln/detail/CVE-2024-50187"
+    }
+  },
+  "CVE-2024-50188": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: phy: dp83869: fix memory corruption when enabling fiber\n\nWhen configuring the fiber port, the DP83869 PHY driver incorrectly\ncalls linkmode_set_bit() with a bit mask (1 << 10) rather than a bit\nnumber (10). This corrupts some other memory location -- in case of\narm64 the priv pointer in the same structure.\n\nSince the advertising flags are updated from supported at the end of the\nfunction the incorrect line isn't needed at all and can be removed.",
+      "cveName": "CVE-2024-50188",
+      "cveUrl": "/vuln/detail/CVE-2024-50188"
+    }
+  },
+  "CVE-2024-50189": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: amd_sfh: Switch to device-managed dmam_alloc_coherent()\n\nUsing the device-managed version allows to simplify clean-up in probe()\nerror path.\n\nAdditionally, this device-managed ensures proper cleanup, which helps to\nresolve memory errors, page faults, btrfs going read-only, and btrfs\ndisk corruption.",
+      "cveName": "CVE-2024-50189",
+      "cveUrl": "/vuln/detail/CVE-2024-50189"
+    }
+  },
+  "CVE-2024-50190": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nice: fix memleak in ice_init_tx_topology()\n\nFix leak of the FW blob (DDP pkg).\n\nMake ice_cfg_tx_topo() const-correct, so ice_init_tx_topology() can avoid\ncopying whole FW blob. Copy just the topology section, and only when\nneeded. Reuse the buffer allocated for the read of the current topology.\n\nThis was found by kmemleak, with the following trace for each PF:\n    [<ffffffff8761044d>] kmemdup_noprof+0x1d/0x50\n    [<ffffffffc0a0a480>] ice_init_ddp_config+0x100/0x220 [ice]\n    [<ffffffffc0a0da7f>] ice_init_dev+0x6f/0x200 [ice]\n    [<ffffffffc0a0dc49>] ice_init+0x29/0x560 [ice]\n    [<ffffffffc0a10c1d>] ice_probe+0x21d/0x310 [ice]\n\nConstify ice_cfg_tx_topo() @buf parameter.\nThis cascades further down to few more functions.",
+      "cveName": "CVE-2024-50190",
+      "cveUrl": "/vuln/detail/CVE-2024-50190"
+    }
+  },
+  "CVE-2024-50191": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: don't set SB_RDONLY after filesystem errors\n\nWhen the filesystem is mounted with errors=remount-ro, we were setting\nSB_RDONLY flag to stop all filesystem modifications. We knew this misses\nproper locking (sb->s_umount) and does not go through proper filesystem\nremount procedure but it has been the way this worked since early ext2\ndays and it was good enough for catastrophic situation damage\nmitigation. Recently, syzbot has found a way (see link) to trigger\nwarnings in filesystem freezing because the code got confused by\nSB_RDONLY changing under its hands. Since these days we set\nEXT4_FLAGS_SHUTDOWN on the superblock which is enough to stop all\nfilesystem modifications, modifying SB_RDONLY shouldn't be needed. So\nstop doing that.",
+      "cveName": "CVE-2024-50191",
+      "cveUrl": "/vuln/detail/CVE-2024-50191"
+    }
+  },
+  "CVE-2024-50192": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nirqchip/gic-v4: Don't allow a VMOVP on a dying VPE\n\nKunkun Jiang reported that there is a small window of opportunity for\nuserspace to force a change of affinity for a VPE while the VPE has already\nbeen unmapped, but the corresponding doorbell interrupt still visible in\n/proc/irq/.\n\nPlug the race by checking the value of vmapp_count, which tracks whether\nthe VPE is mapped ot not, and returning an error in this case.\n\nThis involves making vmapp_count common to both GICv4.1 and its v4.0\nancestor.",
+      "cveName": "CVE-2024-50192",
+      "cveUrl": "/vuln/detail/CVE-2024-50192"
+    }
+  },
+  "CVE-2024-50193": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/entry_32: Clear CPU buffers after register restore in NMI return\n\nCPU buffers are currently cleared after call to exc_nmi, but before\nregister state is restored. This may be okay for MDS mitigation but not for\nRDFS. Because RDFS mitigation requires CPU buffers to be cleared when\nregisters don't have any sensitive data.\n\nMove CLEAR_CPU_BUFFERS after RESTORE_ALL_NMI.",
+      "cveName": "CVE-2024-50193",
+      "cveUrl": "/vuln/detail/CVE-2024-50193"
+    }
+  },
+  "CVE-2024-50194": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\narm64: probes: Fix uprobes for big-endian kernels\n\nThe arm64 uprobes code is broken for big-endian kernels as it doesn't\nconvert the in-memory instruction encoding (which is always\nlittle-endian) into the kernel's native endianness before analyzing and\nsimulating instructions. This may result in a few distinct problems:\n\n* The kernel may may erroneously reject probing an instruction which can\n  safely be probed.\n\n* The kernel may erroneously erroneously permit stepping an\n  instruction out-of-line when that instruction cannot be stepped\n  out-of-line safely.\n\n* The kernel may erroneously simulate instruction incorrectly dur to\n  interpretting the byte-swapped encoding.\n\nThe endianness mismatch isn't caught by the compiler or sparse because:\n\n* The arch_uprobe::{insn,ixol} fields are encoded as arrays of u8, so\n  the compiler and sparse have no idea these contain a little-endian\n  32-bit value. The core uprobes code populates these with a memcpy()\n  which similarly does not handle endianness.\n\n* While the uprobe_opcode_t type is an alias for __le32, both\n  arch_uprobe_analyze_insn() and arch_uprobe_skip_sstep() cast from u8[]\n  to the similarly-named probe_opcode_t, which is an alias for u32.\n  Hence there is no endianness conversion warning.\n\nFix this by changing the arch_uprobe::{insn,ixol} fields to __le32 and\nadding the appropriate __le32_to_cpu() conversions prior to consuming\nthe instruction encoding. The core uprobes copies these fields as opaque\nranges of bytes, and so is unaffected by this change.\n\nAt the same time, remove MAX_UINSN_BYTES and consistently use\nAARCH64_INSN_SIZE for clarity.\n\nTested with the following:\n\n| #include <stdio.h>\n| #include <stdbool.h>\n|\n| #define noinline __attribute__((noinline))\n|\n| static noinline void *adrp_self(void)\n| {\n|         void *addr;\n|\n|         asm volatile(\n|         \"       adrp    %x0, adrp_self\\n\"\n|         \"       add     %x0, %x0, :lo12:adrp_self\\n\"\n|         : \"=r\" (addr));\n| }\n|\n|\n| int main(int argc, char *argv)\n| {\n|         void *ptr = adrp_self();\n|         bool equal = (ptr == adrp_self);\n|\n|         printf(\"adrp_self   => %p\\n\"\n|                \"adrp_self() => %p\\n\"\n|                \"%s\\n\",\n|                adrp_self, ptr, equal ? \"EQUAL\" : \"NOT EQUAL\");\n|\n|         return 0;\n| }\n\n.... where the adrp_self() function was compiled to:\n\n| 00000000004007e0 <adrp_self>:\n|   4007e0:       90000000        adrp    x0, 400000 <__ehdr_start>\n|   4007e4:       911f8000        add     x0, x0, #0x7e0\n|   4007e8:       d65f03c0        ret\n\nBefore this patch, the ADRP is not recognized, and is assumed to be\nsteppable, resulting in corruption of the result:\n\n| # ./adrp-self\n| adrp_self   => 0x4007e0\n| adrp_self() => 0x4007e0\n| EQUAL\n| # echo 'p /root/adrp-self:0x007e0' > /sys/kernel/tracing/uprobe_events\n| # echo 1 > /sys/kernel/tracing/events/uprobes/enable\n| # ./adrp-self\n| adrp_self   => 0x4007e0\n| adrp_self() => 0xffffffffff7e0\n| NOT EQUAL\n\nAfter this patch, the ADRP is correctly recognized and simulated:\n\n| # ./adrp-self\n| adrp_self   => 0x4007e0\n| adrp_self() => 0x4007e0\n| EQUAL\n| #\n| # echo 'p /root/adrp-self:0x007e0' > /sys/kernel/tracing/uprobe_events\n| # echo 1 > /sys/kernel/tracing/events/uprobes/enable\n| # ./adrp-self\n| adrp_self   => 0x4007e0\n| adrp_self() => 0x4007e0\n| EQUAL",
+      "cveName": "CVE-2024-50194",
+      "cveUrl": "/vuln/detail/CVE-2024-50194"
+    }
+  },
+  "CVE-2024-50195": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nposix-clock: Fix missing timespec64 check in pc_clock_settime()\n\nAs Andrew pointed out, it will make sense that the PTP core\nchecked timespec64 struct's tv_sec and tv_nsec range before calling\nptp->info->settime64().\n\nAs the man manual of clock_settime() said, if tp.tv_sec is negative or\ntp.tv_nsec is outside the range [0..999,999,999], it should return EINVAL,\nwhich include dynamic clocks which handles PTP clock, and the condition is\nconsistent with timespec64_valid(). As Thomas suggested, timespec64_valid()\nonly check the timespec is valid, but not ensure that the time is\nin a valid range, so check it ahead using timespec64_valid_strict()\nin pc_clock_settime() and return -EINVAL if not valid.\n\nThere are some drivers that use tp->tv_sec and tp->tv_nsec directly to\nwrite registers without validity checks and assume that the higher layer\nhas checked it, which is dangerous and will benefit from this, such as\nhclge_ptp_settime(), igb_ptp_settime_i210(), _rcar_gen4_ptp_settime(),\nand some drivers can remove the checks of itself.",
+      "cveName": "CVE-2024-50195",
+      "cveUrl": "/vuln/detail/CVE-2024-50195"
+    }
+  },
+  "CVE-2024-50196": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\npinctrl: ocelot: fix system hang on level based interrupts\n\nThe current implementation only calls chained_irq_enter() and\nchained_irq_exit() if it detects pending interrupts.\n\n```\nfor (i = 0; i < info->stride; i++) {\n\turegmap_read(info->map, id_reg + 4 * i, &reg);\n\tif (!reg)\n\t\tcontinue;\n\n\tchained_irq_enter(parent_chip, desc);\n```\n\nHowever, in case of GPIO pin configured in level mode and the parent\ncontroller configured in edge mode, GPIO interrupt might be lowered by the\nhardware. In the result, if the interrupt is short enough, the parent\ninterrupt is still pending while the GPIO interrupt is cleared;\nchained_irq_enter() never gets called and the system hangs trying to\nservice the parent interrupt.\n\nMoving chained_irq_enter() and chained_irq_exit() outside the for loop\nensures that they are called even when GPIO interrupt is lowered by the\nhardware.\n\nThe similar code with chained_irq_enter() / chained_irq_exit() functions\nwrapping interrupt checking loop may be found in many other drivers:\n```\ngrep -r -A 10 chained_irq_enter drivers/pinctrl\n```",
+      "cveName": "CVE-2024-50196",
+      "cveUrl": "/vuln/detail/CVE-2024-50196"
+    }
+  },
+  "CVE-2024-50197": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\npinctrl: intel: platform: fix error path in device_for_each_child_node()\n\nThe device_for_each_child_node() loop requires calls to\nfwnode_handle_put() upon early returns to decrement the refcount of\nthe child node and avoid leaking memory if that error path is triggered.\n\nThere is one early returns within that loop in\nintel_platform_pinctrl_prepare_community(), but fwnode_handle_put() is\nmissing.\n\nInstead of adding the missing call, the scoped version of the loop can\nbe used to simplify the code and avoid mistakes in the future if new\nearly returns are added, as the child node is only used for parsing, and\nit is never assigned.",
+      "cveName": "CVE-2024-50197",
+      "cveUrl": "/vuln/detail/CVE-2024-50197"
+    }
+  },
+  "CVE-2024-50198": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: light: veml6030: fix IIO device retrieval from embedded device\n\nThe dev pointer that is received as an argument in the\nin_illuminance_period_available_show function references the device\nembedded in the IIO device, not in the i2c client.\n\ndev_to_iio_dev() must be used to accessthe right data. The current\nimplementation leads to a segmentation fault on every attempt to read\nthe attribute because indio_dev gets a NULL assignment.\n\nThis bug has been present since the first appearance of the driver,\napparently since the last version (V6) before getting applied. A\nconstant attribute was used until then, and the last modifications might\nhave not been tested again.",
+      "cveName": "CVE-2024-50198",
+      "cveUrl": "/vuln/detail/CVE-2024-50198"
+    }
+  },
+  "CVE-2024-50199": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm/swapfile: skip HugeTLB pages for unuse_vma\n\nI got a bad pud error and lost a 1GB HugeTLB when calling swapoff.  The\nproblem can be reproduced by the following steps:\n\n 1. Allocate an anonymous 1GB HugeTLB and some other anonymous memory.\n 2. Swapout the above anonymous memory.\n 3. run swapoff and we will get a bad pud error in kernel message:\n\n  mm/pgtable-generic.c:42: bad pud 00000000743d215d(84000001400000e7)\n\nWe can tell that pud_clear_bad is called by pud_none_or_clear_bad in\nunuse_pud_range() by ftrace.  And therefore the HugeTLB pages will never\nbe freed because we lost it from page table.  We can skip HugeTLB pages\nfor unuse_vma to fix it.",
+      "cveName": "CVE-2024-50199",
+      "cveUrl": "/vuln/detail/CVE-2024-50199"
+    }
+  },
+  "CVE-2024-50200": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nmaple_tree: correct tree corruption on spanning store\n\nPatch series \"maple_tree: correct tree corruption on spanning store\", v3.\n\nThere has been a nasty yet subtle maple tree corruption bug that appears\nto have been in existence since the inception of the algorithm.\n\nThis bug seems far more likely to happen since commit f8d112a4e657\n(\"mm/mmap: avoid zeroing vma tree in mmap_region()\"), which is the point\nat which reports started to be submitted concerning this bug.\n\nWe were made definitely aware of the bug thanks to the kind efforts of\nBert Karwatzki who helped enormously in my being able to track this down\nand identify the cause of it.\n\nThe bug arises when an attempt is made to perform a spanning store across\ntwo leaf nodes, where the right leaf node is the rightmost child of the\nshared parent, AND the store completely consumes the right-mode node.\n\nThis results in mas_wr_spanning_store() mitakenly duplicating the new and\nexisting entries at the maximum pivot within the range, and thus maple\ntree corruption.\n\nThe fix patch corrects this by detecting this scenario and disallowing the\nmistaken duplicate copy.\n\nThe fix patch commit message goes into great detail as to how this occurs.\n\nThis series also includes a test which reliably reproduces the issue, and\nasserts that the fix works correctly.\n\nBert has kindly tested the fix and confirmed it resolved his issues.  Also\nMikhail Gavrilov kindly reported what appears to be precisely the same\nbug, which this fix should also resolve.\n\n\nThis patch (of 2):\n\nThere has been a subtle bug present in the maple tree implementation from\nits inception.\n\nThis arises from how stores are performed - when a store occurs, it will\noverwrite overlapping ranges and adjust the tree as necessary to\naccommodate this.\n\nA range may always ultimately span two leaf nodes.  In this instance we\nwalk the two leaf nodes, determine which elements are not overwritten to\nthe left and to the right of the start and end of the ranges respectively\nand then rebalance the tree to contain these entries and the newly\ninserted one.\n\nThis kind of store is dubbed a 'spanning store' and is implemented by\nmas_wr_spanning_store().\n\nIn order to reach this stage, mas_store_gfp() invokes\nmas_wr_preallocate(), mas_wr_store_type() and mas_wr_walk() in turn to\nwalk the tree and update the object (mas) to traverse to the location\nwhere the write should be performed, determining its store type.\n\nWhen a spanning store is required, this function returns false stopping at\nthe parent node which contains the target range, and mas_wr_store_type()\nmarks the mas->store_type as wr_spanning_store to denote this fact.\n\nWhen we go to perform the store in mas_wr_spanning_store(), we first\ndetermine the elements AFTER the END of the range we wish to store (that\nis, to the right of the entry to be inserted) - we do this by walking to\nthe NEXT pivot in the tree (i.e.  r_mas.last + 1), starting at the node we\nhave just determined contains the range over which we intend to write.\n\nWe then turn our attention to the entries to the left of the entry we are\ninserting, whose state is represented by l_mas, and copy these into a 'big\nnode', which is a special node which contains enough slots to contain two\nleaf node's worth of data.\n\nWe then copy the entry we wish to store immediately after this - the copy\nand the insertion of the new entry is performed by mas_store_b_node().\n\nAfter this we copy the elements to the right of the end of the range which\nwe are inserting, if we have not exceeded the length of the node (i.e. \nr_mas.offset <= r_mas.end).\n\nHerein lies the bug - under very specific circumstances, this logic can\nbreak and corrupt the maple tree.\n\nConsider the following tree:\n\nHeight\n  0                             Root Node\n                                 /      \\\n                 pivot = 0xffff /        \\ pivot = ULONG_MAX\n                               /          \n---truncated---",
+      "cveName": "CVE-2024-50200",
+      "cveUrl": "/vuln/detail/CVE-2024-50200"
+    }
+  },
+  "CVE-2024-50201": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/radeon: Fix encoder->possible_clones\n\nInclude the encoder itself in its possible_clones bitmask.\nIn the past nothing validated that drivers were populating\npossible_clones correctly, but that changed in commit\n74d2aacbe840 (\"drm: Validate encoder->possible_clones\").\nLooks like radeon never got the memo and is still not\nfollowing the rules 100% correctly.\n\nThis results in some warnings during driver initialization:\nBogus possible_clones: [ENCODER:46:TV-46] possible_clones=0x4 (full encoder mask=0x7)\nWARNING: CPU: 0 PID: 170 at drivers/gpu/drm/drm_mode_config.c:615 drm_mode_config_validate+0x113/0x39c\n...\n\n(cherry picked from commit 3b6e7d40649c0d75572039aff9d0911864c689db)",
+      "cveName": "CVE-2024-50201",
+      "cveUrl": "/vuln/detail/CVE-2024-50201"
+    }
+  },
+  "CVE-2024-50202": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnilfs2: propagate directory read errors from nilfs_find_entry()\n\nSyzbot reported that a task hang occurs in vcs_open() during a fuzzing\ntest for nilfs2.\n\nThe root cause of this problem is that in nilfs_find_entry(), which\nsearches for directory entries, ignores errors when loading a directory\npage/folio via nilfs_get_folio() fails.\n\nIf the filesystem images is corrupted, and the i_size of the directory\ninode is large, and the directory page/folio is successfully read but\nfails the sanity check, for example when it is zero-filled,\nnilfs_check_folio() may continue to spit out error messages in bursts.\n\nFix this issue by propagating the error to the callers when loading a\npage/folio fails in nilfs_find_entry().\n\nThe current interface of nilfs_find_entry() and its callers is outdated\nand cannot propagate error codes such as -EIO and -ENOMEM returned via\nnilfs_find_entry(), so fix it together.",
+      "cveName": "CVE-2024-50202",
+      "cveUrl": "/vuln/detail/CVE-2024-50202"
+    }
+  },
+  "CVE-2024-50203": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf, arm64: Fix address emission with tag-based KASAN enabled\n\nWhen BPF_TRAMP_F_CALL_ORIG is enabled, the address of a bpf_tramp_image\nstruct on the stack is passed during the size calculation pass and\nan address on the heap is passed during code generation. This may\ncause a heap buffer overflow if the heap address is tagged because\nemit_a64_mov_i64() will emit longer code than it did during the size\ncalculation pass. The same problem could occur without tag-based\nKASAN if one of the 16-bit words of the stack address happened to\nbe all-ones during the size calculation pass. Fix the problem by\nassuming the worst case (4 instructions) when calculating the size\nof the bpf_tramp_image address emission.",
+      "cveName": "CVE-2024-50203",
+      "cveUrl": "/vuln/detail/CVE-2024-50203"
+    }
+  },
+  "CVE-2024-50204": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs: don't try and remove empty rbtree node\n\nWhen copying a namespace we won't have added the new copy into the\nnamespace rbtree until after the copy succeeded. Calling free_mnt_ns()\nwill try to remove the copy from the rbtree which is invalid. Simply\nfree the namespace skeleton directly.",
+      "cveName": "CVE-2024-50204",
+      "cveUrl": "/vuln/detail/CVE-2024-50204"
+    }
+  },
+  "CVE-2024-50205": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: firewire-lib: Avoid division by zero in apply_constraint_to_size()\n\nThe step variable is initialized to zero. It is changed in the loop,\nbut if it's not changed it will remain zero. Add a variable check\nbefore the division.\n\nThe observed behavior was introduced by commit 826b5de90c0b\n(\"ALSA: firewire-lib: fix insufficient PCM rule for period/buffer size\"),\nand it is difficult to show that any of the interval parameters will\nsatisfy the snd_interval_test() condition with data from the\namdtp_rate_table[] table.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
+      "cveName": "CVE-2024-50205",
+      "cveUrl": "/vuln/detail/CVE-2024-50205"
+    }
+  },
+  "CVE-2024-50206": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:16 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ethernet: mtk_eth_soc: fix memory corruption during fq dma init\n\nThe loop responsible for allocating up to MTK_FQ_DMA_LENGTH buffers must\nonly touch as many descriptors, otherwise it ends up corrupting unrelated\nmemory. Fix the loop iteration count accordingly.",
+      "cveName": "CVE-2024-50206",
+      "cveUrl": "/vuln/detail/CVE-2024-50206"
+    }
+  },
+  "CVE-2024-50207": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nring-buffer: Fix reader locking when changing the sub buffer order\n\nThe function ring_buffer_subbuf_order_set() updates each\nring_buffer_per_cpu and installs new sub buffers that match the requested\npage order. This operation may be invoked concurrently with readers that\nrely on some of the modified data, such as the head bit (RB_PAGE_HEAD), or\nthe ring_buffer_per_cpu.pages and reader_page pointers. However, no\nexclusive access is acquired by ring_buffer_subbuf_order_set(). Modifying\nthe mentioned data while a reader also operates on them can then result in\nincorrect memory access and various crashes.\n\nFix the problem by taking the reader_lock when updating a specific\nring_buffer_per_cpu in ring_buffer_subbuf_order_set().",
+      "cveName": "CVE-2024-50207",
+      "cveUrl": "/vuln/detail/CVE-2024-50207"
+    }
+  },
+  "CVE-2024-50208": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/bnxt_re: Fix a bug while setting up Level-2 PBL pages\n\nAvoid memory corruption while setting up Level-2 PBL pages for the non MR\nresources when num_pages > 256K.\n\nThere will be a single PDE page address (contiguous pages in the case of >\nPAGE_SIZE), but, current logic assumes multiple pages, leading to invalid\nmemory access after 256K PBL entries in the PDE.",
+      "cveName": "CVE-2024-50208",
+      "cveUrl": "/vuln/detail/CVE-2024-50208"
+    }
+  },
+  "CVE-2024-50209": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/bnxt_re: Add a check for memory allocation\n\n__alloc_pbl() can return error when memory allocation fails.\nDriver is not checking the status on one of the instances.",
+      "cveName": "CVE-2024-50209",
+      "cveUrl": "/vuln/detail/CVE-2024-50209"
+    }
+  },
+  "CVE-2024-50210": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nposix-clock: posix-clock: Fix unbalanced locking in pc_clock_settime()\n\nIf get_clock_desc() succeeds, it calls fget() for the clockid's fd,\nand get the clk->rwsem read lock, so the error path should release\nthe lock to make the lock balance and fput the clockid's fd to make\nthe refcount balance and release the fd related resource.\n\nHowever the below commit left the error path locked behind resulting in\nunbalanced locking. Check timespec64_valid_strict() before\nget_clock_desc() to fix it, because the \"ts\" is not changed\nafter that.\n\n[pabeni@redhat.com: fixed commit message typo]",
+      "cveName": "CVE-2024-50210",
+      "cveUrl": "/vuln/detail/CVE-2024-50210"
+    }
+  },
+  "CVE-2024-50211": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nudf: refactor inode_bmap() to handle error\n\nRefactor inode_bmap() to handle error since udf_next_aext() can return\nerror now. On situations like ftruncate, udf_extend_file() can now\ndetect errors and bail out early without resorting to checking for\nparticular offsets and assuming internal behavior of these functions.",
+      "cveName": "CVE-2024-50211",
+      "cveUrl": "/vuln/detail/CVE-2024-50211"
+    }
+  },
   "CVE-2024-50307": {
     "cve": {
       "cveDate": [
@@ -30412,6 +31039,17 @@
       "cveDis": "Whale browser Installer before 3.1.0.0 allows an attacker to execute a malicious DLL in the user environment due to improper permission settings.",
       "cveName": "CVE-2024-50583",
       "cveUrl": "/vuln/detail/CVE-2024-50583"
+    }
+  },
+  "CVE-2024-50588": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "4:15:07 AM -0500"
+      ],
+      "cveDis": "An unauthenticated attacker with access to the local network of the \nmedical office can use known default credentials to gain remote DBA \naccess to the Elefant Firebird database. The data in the database \nincludes patient data and login credentials among other sensitive data. \nIn addition, this enables an attacker to create and overwrite arbitrary \nfiles on the server filesystem with the rights of the Firebird database \n(\"NT AUTHORITY\\SYSTEM\").",
+      "cveName": "CVE-2024-50588",
+      "cveUrl": "/vuln/detail/CVE-2024-50588"
     }
   },
   "CVE-2024-50599": {
@@ -33184,6 +33822,17 @@
       "cveDis": "The CMSMasters Content Composer plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's multiple shortcodes in all versions up to, and including, 1.8.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-79636-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-7963"
+    }
+  },
+  "CVE-2024-7982": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "The Registrations for the Events Calendar  WordPress plugin before 2.12.4 does not sanitise and escape some parameters when accepting event registrations, which could allow unauthenticated users to perform Cross-Site Scripting attacks.",
+      "cveName": "CVE-2024-7982",
+      "cveUrl": "/vuln/detail/CVE-2024-7982"
     }
   },
   "CVE-2024-79857-5 HIGH": {
