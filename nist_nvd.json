@@ -3277,6 +3277,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10319"
     }
   },
+  "CVE-2024-103256-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "7:15:14 AM -0500"
+      ],
+      "cveDis": "The Elementor Header & Footer Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via REST API SVG File uploads in all versions up to, and including, 1.6.45 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-103256-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10325"
+    }
+  },
   "CVE-2024-10327": {
     "cve": {
       "cveDate": [
@@ -8425,6 +8436,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-25412"
     }
   },
+  "CVE-2024-25431": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "An issue in bytecodealliance wasm-micro-runtime before v.b3f728c and fixed in commit 06df58f allows a remote attacker to escalate privileges via a crafted file to the check_was_abi_compatibility function.",
+      "cveName": "CVE-2024-25431",
+      "cveUrl": "/vuln/detail/CVE-2024-25431"
+    }
+  },
   "CVE-2024-25566": {
     "cve": {
       "cveDate": [
@@ -11140,6 +11162,28 @@
       "cveDis": "Vilo 5 Mesh WiFi System <= 5.16.1.33 lacks authentication in the Boa webserver, which allows remote, unauthenticated attackers to retrieve logs with sensitive system.",
       "cveName": "CVE-2024-40091",
       "cveUrl": "/vuln/detail/CVE-2024-40091"
+    }
+  },
+  "CVE-2024-40239": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "An incorrect access control issue in Life: Personal Diary, Journal android app 17.5.0 allows a physically proximate attacker to escalate privileges via the fingerprint authentication function.",
+      "cveName": "CVE-2024-40239",
+      "cveUrl": "/vuln/detail/CVE-2024-40239"
+    }
+  },
+  "CVE-2024-40240": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "An incorrect access control issue in HomeServe Home Repair' android app - 3.3.4 allows a physically proximate attacker to escalate privileges via the fingerprint authentication function.",
+      "cveName": "CVE-2024-40240",
+      "cveUrl": "/vuln/detail/CVE-2024-40240"
     }
   },
   "CVE-2024-40431": {
@@ -15960,6 +16004,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-45759"
     }
   },
+  "CVE-2024-45763": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "Dell Enterprise SONiC OS, version(s) 4.1.x, 4.2.x, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Command execution. This is a critical severity vulnerability so Dell recommends customers to upgrade at the earliest opportunity.",
+      "cveName": "CVE-2024-45763",
+      "cveUrl": "/vuln/detail/CVE-2024-45763"
+    }
+  },
+  "CVE-2024-45764": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "Dell Enterprise SONiC OS, version(s) 4.1.x, 4.2.x, contain(s) a Missing Critical Step in Authentication vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Protection mechanism bypass. This is a critical severity vulnerability so Dell recommends customers to upgrade at the earliest opportunity.",
+      "cveName": "CVE-2024-45764",
+      "cveUrl": "/vuln/detail/CVE-2024-45764"
+    }
+  },
+  "CVE-2024-45765": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "Dell Enterprise SONiC OS, version(s) 4.1.x, 4.2.x, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Command execution. This is a critical severity vulnerability as it allows high privilege OS commands to be executed with a less privileged role; so Dell recommends customers to upgrade at the earliest opportunity.",
+      "cveName": "CVE-2024-45765",
+      "cveUrl": "/vuln/detail/CVE-2024-45765"
+    }
+  },
   "CVE-2024-45766": {
     "cve": {
       "cveDate": [
@@ -17313,6 +17390,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-4692"
     }
   },
+  "CVE-2024-46947": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "Northern.tech Mender before 3.6.6 and 3.7.x before 3.7.7 allows SSRF.",
+      "cveName": "CVE-2024-46947",
+      "cveUrl": "/vuln/detail/CVE-2024-46947"
+    }
+  },
+  "CVE-2024-46948": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:24 AM -0500"
+      ],
+      "cveDis": "Northern.tech Mender before 3.6.5 and 3.7.x before 3.7.5 has Incorrect Access Control.",
+      "cveName": "CVE-2024-46948",
+      "cveUrl": "/vuln/detail/CVE-2024-46948"
+    }
+  },
   "CVE-2024-46960": {
     "cve": {
       "cveDate": [
@@ -18081,6 +18180,17 @@
       "cveDis": "Suricata is a network Intrusion Detection System, Intrusion Prevention System and Network Security Monitoring engine. Prior to version 7.0.7, missing initialization of the random seed for \"thash\" leads to byte-range tracking having predictable hash table behavior. This can lead to an attacker forcing lots of data into a single hash bucket, leading to severe performance degradation. This issue has been addressed in 7.0.7.",
       "cveName": "CVE-2024-47188",
       "cveUrl": "/vuln/detail/CVE-2024-47188"
+    }
+  },
+  "CVE-2024-47190": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:24 AM -0500"
+      ],
+      "cveDis": "Northern.tech Hosted Mender before 2024.07.11 allows SSRF.",
+      "cveName": "CVE-2024-47190",
+      "cveUrl": "/vuln/detail/CVE-2024-47190"
     }
   },
   "CVE-2024-47191": {
@@ -30062,6 +30172,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50356"
     }
   },
+  "CVE-2024-50378": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "Airflow versions before 2.10.3 have a vulnerability that allows authenticated users with audit log access to see sensitive values in audit logs which they should not see. When sensitive variables were set via airflow CLI, values of those variables appeared in the audit log and were stored unencrypted in the Airflow database. While this risk is limited to users with audit log access, it is recommended to upgrade to Airflow 2.10.3 or a later version, which addresses this issue. Users who previously used the CLI to set secret variables should manually delete entries with those variables from the log table.",
+      "cveName": "CVE-2024-50378",
+      "cveUrl": "/vuln/detail/CVE-2024-50378"
+    }
+  },
   "CVE-2024-50382": {
     "cve": {
       "cveDate": [
@@ -31052,6 +31173,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-50588"
     }
   },
+  "CVE-2024-50589": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "7:15:14 AM -0500"
+      ],
+      "cveDis": "An unauthenticated attacker with access to the local network of the \nmedical office can query an unprotected Fast Healthcare Interoperability\n Resources (FHIR) API to get access to sensitive electronic health \nrecords (EHR).",
+      "cveName": "CVE-2024-50589",
+      "cveUrl": "/vuln/detail/CVE-2024-50589"
+    }
+  },
+  "CVE-2024-50590": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "7:15:14 AM -0500"
+      ],
+      "cveDis": "Attackers with local access to the medical office computer can \nescalate their Windows user privileges to \"NT AUTHORITY\\SYSTEM\" by \noverwriting one of two Elefant service binaries with weak permissions. The default installation directory of Elefant is \"C:\\Elefant1\" which is \nwritable for all users. In addition, the Elefant installer registers two\n Firebird database services which are running as “NT AUTHORITY\\SYSTEM”. \n\nPath: C:\\Elefant1\\Firebird_2\\bin\\fbserver.exe\n\nPath: C:\\Elefant1\\Firebird_2\\bin\\fbguard.exe\n\n\nBoth service binaries are user writable. This means that a local \nattacker can rename one of the service binaries, replace the service \nexecutable with a new executable, and then restart the system. Once the \nsystem has rebooted, the new service binary is executed as \"NT \nAUTHORITY\\SYSTEM\".",
+      "cveName": "CVE-2024-50590",
+      "cveUrl": "/vuln/detail/CVE-2024-50590"
+    }
+  },
+  "CVE-2024-50591": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "7:15:14 AM -0500"
+      ],
+      "cveDis": "An attacker with local access the to medical office computer can \nescalate his Windows user privileges to \"NT AUTHORITY\\SYSTEM\" by \nexploiting a command injection vulnerability in the Elefant Update \nService. The command injection can be exploited by communicating with \nthe Elefant Update Service which is running as \"SYSTEM\" via Windows \nNamed Pipes.The Elefant Software Updater (ESU) consists of two components. An ESU\n service which runs as \"NT AUTHORITY\\SYSTEM\" and an ESU tray client \nwhich communicates with the service to update or repair the installation\n and is running with user permissions. The communication is implemented \nusing named pipes. A crafted message of type \n\"MessageType.SupportServiceInfos\" can be sent to the local ESU service \nto inject commands, which are then executed as \"NT AUTHORITY\\SYSTEM\".",
+      "cveName": "CVE-2024-50591",
+      "cveUrl": "/vuln/detail/CVE-2024-50591"
+    }
+  },
+  "CVE-2024-50592": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "8:15:03 AM -0500"
+      ],
+      "cveDis": "An attacker with local access the to medical office computer can \nescalate his Windows user privileges to \"NT AUTHORITY\\SYSTEM\" by \nexploiting a race condition in the Elefant Update Service during the \nrepair or update process. When using the repair function, the service queries the server for a \nlist of files and their hashes. In addition, instructions to execute \nbinaries to finalize the repair process are included. The executables are executed as \"NT AUTHORITY\\SYSTEM\" after they are \ncopied over to the user writable installation folder (C:\\Elefant1). This\n means that a user can overwrite either \"PostESUUpdate.exe\" or \n\"Update_OpenJava.exe\" in the time frame after the copy and before the \nexecution of the final repair step. The overwritten executable is then executed as \"NT AUTHORITY\\SYSTEM\".",
+      "cveName": "CVE-2024-50592",
+      "cveUrl": "/vuln/detail/CVE-2024-50592"
+    }
+  },
+  "CVE-2024-50593": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "7:15:15 AM -0500"
+      ],
+      "cveDis": "An attacker with local access to the medical office computer can \naccess restricted functions of the Elefant Service tool by using a \nhard-coded \"Hotline\" password in the Elefant service binary, which is shipped with the software.",
+      "cveName": "CVE-2024-50593",
+      "cveUrl": "/vuln/detail/CVE-2024-50593"
+    }
+  },
   "CVE-2024-50599": {
     "cve": {
       "cveDate": [
@@ -31173,6 +31349,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50624"
     }
   },
+  "CVE-2024-50634": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "A vulnerability in a weak JWT token in Watcharr v1.43.0 and below allows attackers to perform privilege escalation using a crafted JWT token. This vulnerability is not limited to privilege escalation but also affects all functions that require authentication.",
+      "cveName": "CVE-2024-50634",
+      "cveUrl": "/vuln/detail/CVE-2024-50634"
+    }
+  },
   "CVE-2024-50637": {
     "cve": {
       "cveDate": [
@@ -31215,6 +31402,50 @@
       "cveDis": "A SQL Injection vulnerability was discovered in AbanteCart 1.4.0 in the update() function in public_html/admin/controller/responses/listing_grid/email_templates.php. The vulnerability is exploitable via the id parameter.",
       "cveName": "CVE-2024-50802",
       "cveUrl": "/vuln/detail/CVE-2024-50802"
+    }
+  },
+  "CVE-2024-50966": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:50 AM -0500"
+      ],
+      "cveDis": "dingfanzu CMS V1.0 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component /admin/doAdminAction.php?act=addAdmin.",
+      "cveName": "CVE-2024-50966",
+      "cveUrl": "/vuln/detail/CVE-2024-50966"
+    }
+  },
+  "CVE-2024-51030": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "A SQL injection vulnerability in manage_client.php and view_cab.php of Sourcecodester Cab Management System 1.0 allows remote attackers to execute arbitrary SQL commands via the id parameter, leading to unauthorized access and potential compromise of sensitive data within the database.",
+      "cveName": "CVE-2024-51030",
+      "cveUrl": "/vuln/detail/CVE-2024-51030"
+    }
+  },
+  "CVE-2024-51031": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "A Cross-site Scripting (XSS) vulnerability in manage_account.php in Sourcecodester Cab Management System 1.0 allows remote authenticated users to inject arbitrary web scripts via the \"First Name,\" \"Middle Name,\" and \"Last Name\" fields.",
+      "cveName": "CVE-2024-51031",
+      "cveUrl": "/vuln/detail/CVE-2024-51031"
+    }
+  },
+  "CVE-2024-51032": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "A Cross-site Scripting (XSS) vulnerability in manage_recipient.php of Sourcecodester Toll Tax Management System 1.0 allows remote authenticated users to inject arbitrary web scripts via the \"owner\" input field.",
+      "cveName": "CVE-2024-51032",
+      "cveUrl": "/vuln/detail/CVE-2024-51032"
     }
   },
   "CVE-2024-51060": {
@@ -31347,6 +31578,17 @@
       "cveDis": "An XML External Entity (XXE) vulnerability in Dmoz2CSV in openimaj v1.3.10 allows attackers to access sensitive information or execute arbitrary code via supplying a crafted XML file.",
       "cveName": "CVE-2024-51136",
       "cveUrl": "/vuln/detail/CVE-2024-51136"
+    }
+  },
+  "CVE-2024-51152": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "File Upload vulnerability in Laravel CMS v.1.4.7 and before allows a remote attacker to execute arbitrary code via the shell.php a component.",
+      "cveName": "CVE-2024-51152",
+      "cveUrl": "/vuln/detail/CVE-2024-51152"
     }
   },
   "CVE-2024-51180": {
@@ -39784,6 +40026,17 @@
       "cveDis": "The The AADMY – Add Auto Date Month Year Into Posts plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 2.0.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
       "cveName": "CVE-2024-98377-3 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9837"
+    }
+  },
+  "CVE-2024-9841": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "A Reflected Cross-Site Scripting (XSS) vulnerability has been identified in OpenText ArcSight Management Center and ArcSight Platform. The vulnerability could be remotely exploited.",
+      "cveName": "CVE-2024-9841",
+      "cveUrl": "/vuln/detail/CVE-2024-9841"
     }
   },
   "CVE-2024-98467-3 HIGH": {
