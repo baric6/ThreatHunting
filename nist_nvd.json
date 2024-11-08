@@ -87,6 +87,61 @@
       "cveUrl": "/vuln/detail/CVE-2019-20459"
     }
   },
+  "CVE-2019-20460": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "An issue was discovered on Epson Expression Home XP255 20.08.FM10I8 devices. POST requests don't require (anti-)CSRF tokens or other mechanisms for validating that the request is from a legitimate source. In addition, CSRF attacks can be used to send text directly to the RAW printer interface. For example, an attack could deliver a worrisome printout to an end user.",
+      "cveName": "CVE-2019-20460",
+      "cveUrl": "/vuln/detail/CVE-2019-20460"
+    }
+  },
+  "CVE-2019-20461": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "An issue was discovered on Alecto IVM-100 2019-11-12 devices. The device uses a custom UDP protocol to start and control video and audio services. The protocol has been partially reverse engineered. Based upon the reverse engineering, no password or username is ever transferred over this protocol. Thus, one can set up the camera connection feed with only the encoded UID. It is possible to set up sessions with the camera over the Internet by using the encoded UID and the custom UDP protocol, because authentication happens at the client side.",
+      "cveName": "CVE-2019-20461",
+      "cveUrl": "/vuln/detail/CVE-2019-20461"
+    }
+  },
+  "CVE-2019-20462": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "An issue was discovered on Alecto IVM-100 2019-11-12 devices. The device comes with a serial interface at the board level. By attaching to this serial interface and rebooting the device, a large amount of information is disclosed. This includes the view password and the password of the Wi-Fi access point that the device used.",
+      "cveName": "CVE-2019-20462",
+      "cveUrl": "/vuln/detail/CVE-2019-20462"
+    }
+  },
+  "CVE-2019-20469": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "An issue was discovered on One2Track 2019-12-08 devices. Confidential information is needlessly stored on the smartwatch. Audio files are stored in .amr format, in the audior directory. An attacker who has physical access can retrieve all audio files by connecting via a USB cable.",
+      "cveName": "CVE-2019-20469",
+      "cveUrl": "/vuln/detail/CVE-2019-20469"
+    }
+  },
+  "CVE-2019-20472": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "An issue was discovered on One2Track 2019-12-08 devices. Any SIM card used with the device cannot have a PIN configured. If a PIN is configured, the device simply produces a \"Remove PIN and restart!\" message, and cannot be used. This makes it easier for an attacker to use the SIM card by stealing the device.",
+      "cveName": "CVE-2019-20472",
+      "cveUrl": "/vuln/detail/CVE-2019-20472"
+    }
+  },
   "CVE-2019-25218": {
     "cve": {
       "cveDate": [
@@ -1636,6 +1691,17 @@
       "cveDis": "A vulnerability was identified in Consul and Consul Enterprise (“Consul”) such that using Headers in L7 traffic intentions could bypass HTTP header based access rules.",
       "cveName": "CVE-2024-10006",
       "cveUrl": "/vuln/detail/CVE-2024-10006"
+    }
+  },
+  "CVE-2024-10007": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "A path collision and arbitrary code execution vulnerability was identified in GitHub Enterprise Server that allowed container escape to escalate to root via ghe-firejail path. Exploitation of this vulnerability requires Enterprise Administrator access to the GitHub Enterprise Server instance. This vulnerability affected all versions of GitHub Enterprise prior to 3.15 and was fixed in versions 3.14.3, 3.13.6, 3.12.11, and 3.11.17. This vulnerability was reported via the GitHub Bug Bounty program.",
+      "cveName": "CVE-2024-10007",
+      "cveUrl": "/vuln/detail/CVE-2024-10007"
     }
   },
   "CVE-2024-100088-8 HIGH": {
@@ -5334,6 +5400,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10810"
     }
   },
+  "CVE-2024-10824": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "An authorization bypass vulnerability was identified in GitHub Enterprise Server that allowed unauthorized internal users to access sensitive secret scanning alert data intended only for business owners. This issue could be exploited only by organization members with a personal access token (PAT) and required that secret scanning be enabled on user-owned repositories. This vulnerability affected GitHub Enterprise Server versions after 3.13.0 but prior to 3.14.0 and was fixed in version 3.13.2.",
+      "cveName": "CVE-2024-10824",
+      "cveUrl": "/vuln/detail/CVE-2024-10824"
+    }
+  },
   "CVE-2024-10826": {
     "cve": {
       "cveDate": [
@@ -5541,6 +5618,72 @@
       "cveDis": "A vulnerability was found in code-projects E-Health Care System 1.0. It has been classified as critical. Affected is an unknown function of the file /Doctor/delete_user_appointment_request.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10967",
       "cveUrl": "/vuln/detail/CVE-2024-10967"
+    }
+  },
+  "CVE-2024-10968": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "3:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 1000 Projects Bookstore Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /contact_process.php. The manipulation of the argument fnm leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10968",
+      "cveUrl": "/vuln/detail/CVE-2024-10968"
+    }
+  },
+  "CVE-2024-10969": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "3:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 1000 Projects Bookstore Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /admin/login_process.php of the component Login. The manipulation of the argument unm leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10969",
+      "cveUrl": "/vuln/detail/CVE-2024-10969"
+    }
+  },
+  "CVE-2024-10975": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "Nomad Community and Nomad Enterprise (\"Nomad\") volume specification is vulnerable to arbitrary cross-namespace volume creation through unauthorized Container Storage Interface (CSI) volume writes. This vulnerability, identified as CVE-2024-10975, is fixed in Nomad Community Edition 1.9.2 and Nomad Enterprise 1.9.2, 1.8.7, and 1.7.15.",
+      "cveName": "CVE-2024-10975",
+      "cveUrl": "/vuln/detail/CVE-2024-10975"
+    }
+  },
+  "CVE-2024-10987": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "11:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects E-Health Care System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /Doctor/user_appointment.php. The manipulation of the argument schedule_id/schedule_date/schedule_day/start_time/end_time/booking leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-10987",
+      "cveUrl": "/vuln/detail/CVE-2024-10987"
+    }
+  },
+  "CVE-2024-10988": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "11:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects E-Health Care System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /Doctor/doctor_login.php. The manipulation of the argument email leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-10988",
+      "cveUrl": "/vuln/detail/CVE-2024-10988"
+    }
+  },
+  "CVE-2024-10989": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "11:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in code-projects E-Health Care System 1.0. This affects an unknown part of the file /Admin/detail.php. The manipulation of the argument s_id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory confuses the vulnerability class of this issue.",
+      "cveName": "CVE-2024-10989",
+      "cveUrl": "/vuln/detail/CVE-2024-10989"
     }
   },
   "CVE-2024-20090": {
@@ -9809,6 +9952,39 @@
       "cveDis": "EnGenius EnStation5-AC A8J-ENS500AC 1.0.0 devices allow blind OS command injection via shell metacharacters in the Ping and Speed Test parameters.",
       "cveName": "CVE-2024-36060",
       "cveUrl": "/vuln/detail/CVE-2024-36060"
+    }
+  },
+  "CVE-2024-36062": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "The com.callassistant.android (aka AI Call Assistant & Screener) application 1.174 for Android enables any installed application (with no permissions) to place phone calls without user interaction by sending a crafted intent via the com.callassistant.android.ui.call.incall.InCallActivity component.",
+      "cveName": "CVE-2024-36062",
+      "cveUrl": "/vuln/detail/CVE-2024-36062"
+    }
+  },
+  "CVE-2024-36063": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "The Goodwy com.goodwy.dialer (aka Right Dialer) application through 5.1.0 for Android enables any application (with no permissions) to place phone calls without user interaction by sending a crafted intent via the com.goodwy.dialer.activities.DialerActivity component.",
+      "cveName": "CVE-2024-36063",
+      "cveUrl": "/vuln/detail/CVE-2024-36063"
+    }
+  },
+  "CVE-2024-36064": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "The NLL com.nll.cb (aka ACR Phone) application through 0.330-playStore-NoAccessibility-arm8 for Android allows any installed application (with no permissions) to place phone calls without user interaction by sending a crafted intent via the com.nll.cb.dialer.dialer.DialerActivity component.",
+      "cveName": "CVE-2024-36064",
+      "cveUrl": "/vuln/detail/CVE-2024-36064"
     }
   },
   "CVE-2024-3635": {
@@ -15575,6 +15751,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45754"
     }
   },
+  "CVE-2024-45759": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "Dell PowerProtect Data Domain, versions prior to 8.1.0.0, 7.13.1.10, 7.10.1.40, and 7.7.5.50, contains an escalation of privilege vulnerability. A local low privileged attacker could potentially exploit this vulnerability, leading to unauthorized execution of certain commands to overwrite system config of the application. Exploitation may lead to denial of service of system.",
+      "cveName": "CVE-2024-45759",
+      "cveUrl": "/vuln/detail/CVE-2024-45759"
+    }
+  },
   "CVE-2024-45766": {
     "cve": {
       "cveDate": [
@@ -16928,6 +17115,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-4692"
     }
   },
+  "CVE-2024-46960": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "The ASD com.rocks.video.downloader (aka HD Video Downloader All Format) application through 7.0.129 for Android allows an attacker to execute arbitrary JavaScript code via the com.rocks.video.downloader.MainBrowserActivity component.",
+      "cveName": "CVE-2024-46960",
+      "cveUrl": "/vuln/detail/CVE-2024-46960"
+    }
+  },
+  "CVE-2024-46961": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "The Inshot com.downloader.privatebrowser (aka Video Downloader - XDownloader) application through 1.3.5 for Android allows an attacker to execute arbitrary JavaScript code via the com.downloader.privatebrowser.activity.PrivateMainActivity component.",
+      "cveName": "CVE-2024-46961",
+      "cveUrl": "/vuln/detail/CVE-2024-46961"
+    }
+  },
   "CVE-2024-46977": {
     "cve": {
       "cveDate": [
@@ -17388,6 +17597,17 @@
       "cveDis": "OSS Endpoint Manager is an endpoint manager module for FreePBX. OSS Endpoint Manager module activation can allow authenticated web users unauthorized access to read system files with the permissions of the webserver process. This vulnerability is fixed in 14.0.4.",
       "cveName": "CVE-2024-47071",
       "cveUrl": "/vuln/detail/CVE-2024-47071"
+    }
+  },
+  "CVE-2024-47072": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "7:15:14 PM -0500"
+      ],
+      "cveDis": "XStream is a simple library to serialize objects to XML and back again. This vulnerability may allow a remote attacker to terminate the application with a stack overflow error resulting in a denial of service only by manipulating the processed input stream when XStream is configured to use the BinaryStreamDriver. XStream 1.4.21 has been patched to detect the manipulation in the binary input stream causing the the stack overflow and raises an InputManipulationException instead. Users are advised to upgrade. Users unable to upgrade may catch the StackOverflowError in the client code calling XStream if XStream is configured to use the BinaryStreamDriver.",
+      "cveName": "CVE-2024-47072",
+      "cveUrl": "/vuln/detail/CVE-2024-47072"
     }
   },
   "CVE-2024-47073": {
@@ -21878,6 +22098,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-47976"
     }
   },
+  "CVE-2024-48010": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "Dell PowerProtect DD, versions prior to 8.1.0.0, 7.13.1.10, 7.10.1.40, and 7.7.5.50, contains an access control vulnerability. A remote high privileged attacker could potentially exploit this vulnerability, leading to escalation of privilege on the application.",
+      "cveName": "CVE-2024-48010",
+      "cveUrl": "/vuln/detail/CVE-2024-48010"
+    }
+  },
+  "CVE-2024-48011": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "Dell PowerProtect DD, versions prior to 7.7.5.50, contains an Exposure of Sensitive Information to an Unauthorized Actor vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure.",
+      "cveName": "CVE-2024-48011",
+      "cveUrl": "/vuln/detail/CVE-2024-48011"
+    }
+  },
   "CVE-2024-48016": {
     "cve": {
       "cveDate": [
@@ -26311,6 +26553,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-49522"
     }
   },
+  "CVE-2024-495235-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim’s browser when they browse to the page containing the vulnerable field.",
+      "cveName": "CVE-2024-495235-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-49523"
+    }
+  },
+  "CVE-2024-495245-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a DOM-based Cross-Site Scripting (XSS) vulnerability that could be exploited by an attacker to execute arbitrary code in the context of the victim's browser session. By manipulating a DOM element through a crafted URL or user input, the attacker can inject malicious scripts that run when the page is rendered. This type of attack requires user interaction, as the victim would need to access a manipulated URL or provide specific input to trigger the vulnerability.",
+      "cveName": "CVE-2024-495245-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-49524"
+    }
+  },
   "CVE-2024-49579": {
     "cve": {
       "cveDate": [
@@ -30150,6 +30414,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50583"
     }
   },
+  "CVE-2024-50599": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "A reflected Cross-Site Scripting (XSS) vulnerability has been identified in Zimbra Collaboration Suite (ZCS) 8.8.15, affecting one of the webmail calendar endpoints. This arises from improper handling of user-supplied input, allowing an attacker to inject malicious code that is reflected back in the HTML response.",
+      "cveName": "CVE-2024-50599",
+      "cveUrl": "/vuln/detail/CVE-2024-50599"
+    }
+  },
   "CVE-2024-50602": {
     "cve": {
       "cveDate": [
@@ -30269,6 +30544,17 @@
       "cveDis": "UnoPim 0.1.3 and below is vulnerable to Cross Site Scripting (XSS) in the Create User function. ¶¶ The vulnerability allows attackers to perform XSS in SVG file extension, which can be used to stealing cookies.",
       "cveName": "CVE-2024-50637",
       "cveUrl": "/vuln/detail/CVE-2024-50637"
+    }
+  },
+  "CVE-2024-50766": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "SourceCodester Survey Application System 1.0 is vulnerable to SQL Injection in takeSurvey.php via the id parameter.",
+      "cveName": "CVE-2024-50766",
+      "cveUrl": "/vuln/detail/CVE-2024-50766"
     }
   },
   "CVE-2024-50801": {
@@ -30984,6 +31270,17 @@
       "cveDis": "Cross Site Scripting vulnerability in FiberHome HG6544C RP2743 allows an attacker to execute arbitrary code via the SSID field in the WIFI Clients List not being sanitized",
       "cveName": "CVE-2024-51432",
       "cveUrl": "/vuln/detail/CVE-2024-51432"
+    }
+  },
+  "CVE-2024-51434": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Inconsistent <plaintext> tag parsing allows for XSS in Froala WYSIWYG editor 4.3.0 and earlier.",
+      "cveName": "CVE-2024-51434",
+      "cveUrl": "/vuln/detail/CVE-2024-51434"
     }
   },
   "CVE-2024-51478": {
@@ -31767,6 +32064,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51774"
     }
   },
+  "CVE-2024-51987": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "7:15:15 PM -0500"
+      ],
+      "cveDis": "Duende.AccessTokenManagement.OpenIdConnect is a set of .NET libraries that manage OAuth and OpenId Connect access tokens. HTTP Clients created by `AddUserAccessTokenHttpClient` may use a different user's access token after a token refresh occurs. This occurs because a refreshed token will be captured in pooled `HttpClient` instances, which may be used by a different user. Instead of using `AddUserAccessTokenHttpClient` to create an `HttpClient` that automatically adds a managed token to outgoing requests, you can use the `HttpConext.GetUserAccessTokenAsync` extension method or the `IUserTokenManagementService.GetAccessTokenAsync` method. This issue is fixed in Duende.AccessTokenManagement.OpenIdConnect 3.0.1. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51987",
+      "cveUrl": "/vuln/detail/CVE-2024-51987"
+    }
+  },
   "CVE-2024-51988": {
     "cve": {
       "cveDate": [
@@ -31831,6 +32139,17 @@
       "cveDis": "Combodo iTop is a web based IT Service Management tool. An attacker can request any `route` we want as long as we specify an `operation` that is allowed. This issue has been addressed in version 3.2.0 by applying the same access control pattern as in `UI.php` to the `ajax.render.php` page which does not allow arbitrary `routes` to be dispatched. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-51995",
       "cveUrl": "/vuln/detail/CVE-2024-51995"
+    }
+  },
+  "CVE-2024-51998": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "7:15:15 PM -0500"
+      ],
+      "cveDis": "changedetection.io is a free open source web page change detection tool. The validation for the file URI scheme falls short, and results in an attacker being able to read any file on the system. This issue only affects instances with a webdriver enabled, and `ALLOW_FILE_URI` false or not defined. The check used for URL protocol, `is_safe_url`, allows `file:` as a URL scheme. It later checks if local files are permitted, but one of the preconditions for the check is that the URL starts with `file://`. The issue comes with the fact that the file URI scheme is not required to have double slashes. This issue has been addressed in version 0.47.06 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51998",
+      "cveUrl": "/vuln/detail/CVE-2024-51998"
     }
   },
   "CVE-2024-52043": {
@@ -33340,6 +33659,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8422"
     }
   },
+  "CVE-2024-8424": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "7:15:15 PM -0500"
+      ],
+      "cveDis": "Improper Privilege Management vulnerability in WatchGuard EPDR, Panda AD360 and Panda Dome on Windows (PSANHost.exe module) allows arbitrary file delete with SYSTEM permissions.\nThis issue affects EPDR: before 8.00.23.0000; Panda AD360: before 8.00.23.0000; Panda Dome: before 22.03.00.",
+      "cveName": "CVE-2024-8424",
+      "cveUrl": "/vuln/detail/CVE-2024-8424"
+    }
+  },
   "CVE-2024-84305-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -34306,6 +34636,17 @@
       "cveDis": "The Code Embed plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's script embed functionality in all versions up to, and including, 2.4 due to insufficient restrictions on who can utilize the functionality. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-88046-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8804"
+    }
+  },
+  "CVE-2024-8810": {
+    "cve": {
+      "cveDate": [
+        "November 07, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "A GitHub App installed in organizations could upgrade some permissions from read to write access without approval from an organization administrator. An attacker would require an account with administrator access to install a malicious GitHub App. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.14 and was fixed in versions 3.14.1, 3.13.4, 3.12.9, 3.11.15, and 3.10.17. This vulnerability was reported via the GitHub Bug Bounty program.",
+      "cveName": "CVE-2024-8810",
+      "cveUrl": "/vuln/detail/CVE-2024-8810"
     }
   },
   "CVE-2024-88525-3 MEDIUM": {
