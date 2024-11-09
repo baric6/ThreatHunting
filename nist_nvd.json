@@ -10548,6 +10548,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-36064"
     }
   },
+  "CVE-2024-36250": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "Mattermost versions 9.11.x <= 9.11.2, and 9.5.x <= 9.5.10 fail to protect the mfa code against replay attacks, which allows an attacker to reuse the MFA code within ~30 seconds",
+      "cveName": "CVE-2024-36250",
+      "cveUrl": "/vuln/detail/CVE-2024-36250"
+    }
+  },
   "CVE-2024-3635": {
     "cve": {
       "cveDate": [
@@ -12218,6 +12229,17 @@
       "cveDis": "Smart-tab Android app installed April 2023 or earlier contains an active debug code vulnerability. If this vulnerability is exploited, an attacker with physical access to the device may exploit the debug function to gain access to the OS functions, escalate the privilege, change the device's settings, or spoof devices in other rooms.",
       "cveName": "CVE-2024-41999",
       "cveUrl": "/vuln/detail/CVE-2024-41999"
+    }
+  },
+  "CVE-2024-42000": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "Mattermost versions 9.10.x <= 9.10.2, 9.11.x <= 9.11.1, 9.5.x <= 9.5.9 and 10.0.x <= 10.0.0 fail to properly authorize the requests to /api/v4/channels  which allows a User or System Manager, with \"Read Groups\" permission but with no access for channels to retrieve details about private channels that they were not a member of by sending a request to /api/v4/channels.",
+      "cveName": "CVE-2024-42000",
+      "cveUrl": "/vuln/detail/CVE-2024-42000"
     }
   },
   "CVE-2024-42017": {
@@ -33659,6 +33681,336 @@
       "cveUrl": "/vuln/detail/CVE-2024-51582"
     }
   },
+  "CVE-2024-51585": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:04 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in NicheAddons Sales Page Addon – Elementor & Beaver Builder allows Stored XSS.This issue affects Sales Page Addon – Elementor & Beaver Builder: from n/a through 1.4.2.",
+      "cveName": "CVE-2024-51585",
+      "cveUrl": "/vuln/detail/CVE-2024-51585"
+    }
+  },
+  "CVE-2024-51586": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:04 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in BRAFT Elementary Addons allows Stored XSS.This issue affects Elementary Addons: from n/a through 2.0.4.",
+      "cveName": "CVE-2024-51586",
+      "cveUrl": "/vuln/detail/CVE-2024-51586"
+    }
+  },
+  "CVE-2024-51587": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:04 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Softfirm Definitive Addons for Elementor allows Stored XSS.This issue affects Definitive Addons for Elementor: from n/a through 1.5.16.",
+      "cveName": "CVE-2024-51587",
+      "cveUrl": "/vuln/detail/CVE-2024-51587"
+    }
+  },
+  "CVE-2024-51588": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:05 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Themehat Super Addons for Elementor allows DOM-Based XSS.This issue affects Super Addons for Elementor: from n/a through 1.0.",
+      "cveName": "CVE-2024-51588",
+      "cveUrl": "/vuln/detail/CVE-2024-51588"
+    }
+  },
+  "CVE-2024-51589": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:05 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in wpcirqle Bigmart Elements allows DOM-Based XSS.This issue affects Bigmart Elements: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-51589",
+      "cveUrl": "/vuln/detail/CVE-2024-51589"
+    }
+  },
+  "CVE-2024-51590": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:05 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Hoosoft Hoo Addons for Elementor allows DOM-Based XSS.This issue affects Hoo Addons for Elementor: from n/a through 1.0.6.",
+      "cveName": "CVE-2024-51590",
+      "cveUrl": "/vuln/detail/CVE-2024-51590"
+    }
+  },
+  "CVE-2024-51591": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:05 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in wpgrids Slicko allows DOM-Based XSS.This issue affects Slicko: from n/a through 1.2.0.",
+      "cveName": "CVE-2024-51591",
+      "cveUrl": "/vuln/detail/CVE-2024-51591"
+    }
+  },
+  "CVE-2024-51592": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:05 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in bnayawpguy Meta Store Elements allows DOM-Based XSS.This issue affects Meta Store Elements: from n/a through 1.0.9.",
+      "cveName": "CVE-2024-51592",
+      "cveUrl": "/vuln/detail/CVE-2024-51592"
+    }
+  },
+  "CVE-2024-51593": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Glopium Studio Курс валют UAH allows Stored XSS.This issue affects Курс валют UAH: from n/a through 2.0.",
+      "cveName": "CVE-2024-51593",
+      "cveUrl": "/vuln/detail/CVE-2024-51593"
+    }
+  },
+  "CVE-2024-51594": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Rafel Sansó Gmap Point List allows Stored XSS.This issue affects Gmap Point List: from n/a through 1.1.2.",
+      "cveName": "CVE-2024-51594",
+      "cveUrl": "/vuln/detail/CVE-2024-51594"
+    }
+  },
+  "CVE-2024-51595": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in sksdev SKSDEV Toolkit allows Stored XSS.This issue affects SKSDEV Toolkit: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-51595",
+      "cveUrl": "/vuln/detail/CVE-2024-51595"
+    }
+  },
+  "CVE-2024-51596": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Nilesh Shiragave Business allows Stored XSS.This issue affects Business: from n/a through 1.3.",
+      "cveName": "CVE-2024-51596",
+      "cveUrl": "/vuln/detail/CVE-2024-51596"
+    }
+  },
+  "CVE-2024-51597": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in ThemeShark ThemeShark Templates & Widgets for Elementor allows Stored XSS.This issue affects ThemeShark Templates & Widgets for Elementor: from n/a through 1.1.7.",
+      "cveName": "CVE-2024-51597",
+      "cveUrl": "/vuln/detail/CVE-2024-51597"
+    }
+  },
+  "CVE-2024-51598": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Kendysond Selar.Co Widget allows DOM-Based XSS.This issue affects Selar.Co Widget: from n/a through 1.2.",
+      "cveName": "CVE-2024-51598",
+      "cveUrl": "/vuln/detail/CVE-2024-51598"
+    }
+  },
+  "CVE-2024-51599": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Russell Albin Simple Business Manager allows Stored XSS.This issue affects Simple Business Manager: from n/a through 4.6.7.4.",
+      "cveName": "CVE-2024-51599",
+      "cveUrl": "/vuln/detail/CVE-2024-51599"
+    }
+  },
+  "CVE-2024-51603": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Mircea N. NMR Strava activities allows DOM-Based XSS.This issue affects NMR Strava activities: from n/a through 1.0.6.",
+      "cveName": "CVE-2024-51603",
+      "cveUrl": "/vuln/detail/CVE-2024-51603"
+    }
+  },
+  "CVE-2024-51604": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Carlo Andro Mabugay Media Modal allows DOM-Based XSS.This issue affects Media Modal: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-51604",
+      "cveUrl": "/vuln/detail/CVE-2024-51604"
+    }
+  },
+  "CVE-2024-51605": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Genoo, LLC Genoo allows DOM-Based XSS.This issue affects Genoo: from n/a through 6.0.10.",
+      "cveName": "CVE-2024-51605",
+      "cveUrl": "/vuln/detail/CVE-2024-51605"
+    }
+  },
+  "CVE-2024-51606": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Blrt Blrt WP Embed allows SQL Injection.This issue affects Blrt WP Embed: from n/a through 1.6.9.",
+      "cveName": "CVE-2024-51606",
+      "cveUrl": "/vuln/detail/CVE-2024-51606"
+    }
+  },
+  "CVE-2024-51608": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Pluginhandy AmaDiscount allows SQL Injection.This issue affects AmaDiscount: from n/a through 1.0.",
+      "cveName": "CVE-2024-51608",
+      "cveUrl": "/vuln/detail/CVE-2024-51608"
+    }
+  },
+  "CVE-2024-51609": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Elsner Technologies Pvt. Ltd. Emoji Shortcode allows Stored XSS.This issue affects Emoji Shortcode: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-51609",
+      "cveUrl": "/vuln/detail/CVE-2024-51609"
+    }
+  },
+  "CVE-2024-51610": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "10:15:09 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in SEO Themes Display Terms Shortcode allows Stored XSS.This issue affects Display Terms Shortcode: from n/a through 1.0.4.",
+      "cveName": "CVE-2024-51610",
+      "cveUrl": "/vuln/detail/CVE-2024-51610"
+    }
+  },
+  "CVE-2024-51611": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Miguel Peixe WP Feature Box allows Stored XSS.This issue affects WP Feature Box: from n/a through 0.1.3.",
+      "cveName": "CVE-2024-51611",
+      "cveUrl": "/vuln/detail/CVE-2024-51611"
+    }
+  },
+  "CVE-2024-51612": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Ken Charity Reftagger Shortcode allows Stored XSS.This issue affects Reftagger Shortcode: from n/a through 1.1.",
+      "cveName": "CVE-2024-51612",
+      "cveUrl": "/vuln/detail/CVE-2024-51612"
+    }
+  },
+  "CVE-2024-51613": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Andrew Connell TradeMe widgets allows Stored XSS.This issue affects TradeMe widgets: from n/a through 1.2.",
+      "cveName": "CVE-2024-51613",
+      "cveUrl": "/vuln/detail/CVE-2024-51613"
+    }
+  },
+  "CVE-2024-51614": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Aajoda Aajoda Testimonials allows Stored XSS.This issue affects Aajoda Testimonials: from n/a through 2.2.2.",
+      "cveName": "CVE-2024-51614",
+      "cveUrl": "/vuln/detail/CVE-2024-51614"
+    }
+  },
+  "CVE-2024-51616": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Nazmul Hasan Rupok AwesomePress allows Stored XSS.This issue affects AwesomePress: from n/a through 1.0.",
+      "cveName": "CVE-2024-51616",
+      "cveUrl": "/vuln/detail/CVE-2024-51616"
+    }
+  },
+  "CVE-2024-51618": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in DuoGeek Custom Admin Menu allows Stored XSS.This issue affects Custom Admin Menu: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-51618",
+      "cveUrl": "/vuln/detail/CVE-2024-51618"
+    }
+  },
+  "CVE-2024-51622": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in WP Experts Team WP EASY RECIPE allows Stored XSS.This issue affects WP EASY RECIPE: from n/a through 1.6.",
+      "cveName": "CVE-2024-51622",
+      "cveUrl": "/vuln/detail/CVE-2024-51622"
+    }
+  },
+  "CVE-2024-51623": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mehrdad Farahani WP EIS allows SQL Injection.This issue affects WP EIS: from n/a through 1.3.3.",
+      "cveName": "CVE-2024-51623",
+      "cveUrl": "/vuln/detail/CVE-2024-51623"
+    }
+  },
   "CVE-2024-51626": {
     "cve": {
       "cveDate": [
@@ -33668,6 +34020,61 @@
       "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mansur Ahamed Woocommerce Quote Calculator allows Blind SQL Injection.This issue affects Woocommerce Quote Calculator: from n/a through 1.1.",
       "cveName": "CVE-2024-51626",
       "cveUrl": "/vuln/detail/CVE-2024-51626"
+    }
+  },
+  "CVE-2024-51627": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Kaedinger Audio Comparison Lite audio-comparison-lite allows Stored XSS.This issue affects Audio Comparison Lite: from n/a through 3.4.",
+      "cveName": "CVE-2024-51627",
+      "cveUrl": "/vuln/detail/CVE-2024-51627"
+    }
+  },
+  "CVE-2024-51628": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in EzyOnlineBookings EzyOnlineBookings Online Booking System Widget allows DOM-Based XSS.This issue affects EzyOnlineBookings Online Booking System Widget: from n/a through 1.3.",
+      "cveName": "CVE-2024-51628",
+      "cveUrl": "/vuln/detail/CVE-2024-51628"
+    }
+  },
+  "CVE-2024-51629": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in MetricThemes Header Footer Composer for Elementor allows DOM-Based XSS.This issue affects Header Footer Composer for Elementor: from n/a through 1.0.4.",
+      "cveName": "CVE-2024-51629",
+      "cveUrl": "/vuln/detail/CVE-2024-51629"
+    }
+  },
+  "CVE-2024-51630": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Lars Schenk Responsive Flickr Gallery allows Stored XSS.This issue affects Responsive Flickr Gallery: from n/a through 1.3.1.",
+      "cveName": "CVE-2024-51630",
+      "cveUrl": "/vuln/detail/CVE-2024-51630"
+    }
+  },
+  "CVE-2024-51647": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Chaser324 Featured Posts Scroll allows Stored XSS.This issue affects Featured Posts Scroll: from n/a through 1.25.",
+      "cveName": "CVE-2024-51647",
+      "cveUrl": "/vuln/detail/CVE-2024-51647"
     }
   },
   "CVE-2024-51661": {
@@ -33681,6 +34088,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-51661"
     }
   },
+  "CVE-2024-51662": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Modernaweb Studio Black Widgets For Elementor allows Stored XSS.This issue affects Black Widgets For Elementor: from n/a through 1.3.6.",
+      "cveName": "CVE-2024-51662",
+      "cveUrl": "/vuln/detail/CVE-2024-51662"
+    }
+  },
+  "CVE-2024-51663": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Bricksable Bricksable for Bricks Builder allows Stored XSS.This issue affects Bricksable for Bricks Builder: from n/a through 1.6.59.",
+      "cveName": "CVE-2024-51663",
+      "cveUrl": "/vuln/detail/CVE-2024-51663"
+    }
+  },
+  "CVE-2024-51664": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Mark Kinchin Beds24 Online Booking allows Stored XSS.This issue affects Beds24 Online Booking: from n/a through 2.0.25.",
+      "cveName": "CVE-2024-51664",
+      "cveUrl": "/vuln/detail/CVE-2024-51664"
+    }
+  },
   "CVE-2024-51665": {
     "cve": {
       "cveDate": [
@@ -33692,6 +34132,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51665"
     }
   },
+  "CVE-2024-51668": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Mark Tilly MyCurator Content Curation allows Stored XSS.This issue affects MyCurator Content Curation: from n/a through 3.78.",
+      "cveName": "CVE-2024-51668",
+      "cveUrl": "/vuln/detail/CVE-2024-51668"
+    }
+  },
   "CVE-2024-51672": {
     "cve": {
       "cveDate": [
@@ -33701,6 +34152,17 @@
       "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WPDeveloper BetterLinks allows SQL Injection.This issue affects BetterLinks: from n/a through 2.1.7.",
       "cveName": "CVE-2024-51672",
       "cveUrl": "/vuln/detail/CVE-2024-51672"
+    }
+  },
+  "CVE-2024-51676": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:05 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in WP Delicious Delisho allows Reflected XSS.This issue affects Delisho: from n/a through 1.0.6.",
+      "cveName": "CVE-2024-51676",
+      "cveUrl": "/vuln/detail/CVE-2024-51676"
     }
   },
   "CVE-2024-51677": {
@@ -33778,6 +34240,193 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Michael Gangolf Accordion title for Elementor allows Stored XSS.This issue affects Accordion title for Elementor: from n/a through 1.2.1.",
       "cveName": "CVE-2024-51685",
       "cveUrl": "/vuln/detail/CVE-2024-51685"
+    }
+  },
+  "CVE-2024-51689": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Tobias Conrad CF7 WOW Styler allows Reflected XSS.This issue affects CF7 WOW Styler: from n/a through 1.6.8.",
+      "cveName": "CVE-2024-51689",
+      "cveUrl": "/vuln/detail/CVE-2024-51689"
+    }
+  },
+  "CVE-2024-51690": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Neelam Samariya Thakor Wp Slide Categorywise allows Reflected XSS.This issue affects Wp Slide Categorywise: from n/a through 1.1.",
+      "cveName": "CVE-2024-51690",
+      "cveUrl": "/vuln/detail/CVE-2024-51690"
+    }
+  },
+  "CVE-2024-51691": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Aryan Duntley Admin Amplify allows Reflected XSS.This issue affects Admin Amplify: from n/a through 1.3.0.",
+      "cveName": "CVE-2024-51691",
+      "cveUrl": "/vuln/detail/CVE-2024-51691"
+    }
+  },
+  "CVE-2024-51692": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Askew Brook Bing Search API Integration allows Reflected XSS.This issue affects Bing Search API Integration: from n/a through 0.3.3.",
+      "cveName": "CVE-2024-51692",
+      "cveUrl": "/vuln/detail/CVE-2024-51692"
+    }
+  },
+  "CVE-2024-51693": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in laboratorio d’Avanguardia Search order by product SKU for WooCommerce allows Reflected XSS.This issue affects Search order by product SKU for WooCommerce: from n/a through 0.2.",
+      "cveName": "CVE-2024-51693",
+      "cveUrl": "/vuln/detail/CVE-2024-51693"
+    }
+  },
+  "CVE-2024-51694": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Digfish Geotagged Media allows Reflected XSS.This issue affects Geotagged Media: from n/a through 0.3.0.",
+      "cveName": "CVE-2024-51694",
+      "cveUrl": "/vuln/detail/CVE-2024-51694"
+    }
+  },
+  "CVE-2024-51695": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Fabrica Fabrica Synced Pattern Instances allows Reflected XSS.This issue affects Fabrica Synced Pattern Instances: from n/a through 1.0.8.",
+      "cveName": "CVE-2024-51695",
+      "cveUrl": "/vuln/detail/CVE-2024-51695"
+    }
+  },
+  "CVE-2024-51696": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Benjamin Moody Content Syndication Toolkit Reader allows Reflected XSS.This issue affects Content Syndication Toolkit Reader: from n/a through 1.5.",
+      "cveName": "CVE-2024-51696",
+      "cveUrl": "/vuln/detail/CVE-2024-51696"
+    }
+  },
+  "CVE-2024-51697": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Doofinder allows Reflected XSS.This issue affects Doofinder: from n/a through 0.5.4.",
+      "cveName": "CVE-2024-51697",
+      "cveUrl": "/vuln/detail/CVE-2024-51697"
+    }
+  },
+  "CVE-2024-51698": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Luis Rock Master Bar allows Reflected XSS.This issue affects Master Bar: from n/a through 1.0.",
+      "cveName": "CVE-2024-51698",
+      "cveUrl": "/vuln/detail/CVE-2024-51698"
+    }
+  },
+  "CVE-2024-51699": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Buooy Buooy Sticky Header allows Reflected XSS.This issue affects Buooy Sticky Header: from n/a through 0.5.2.",
+      "cveName": "CVE-2024-51699",
+      "cveUrl": "/vuln/detail/CVE-2024-51699"
+    }
+  },
+  "CVE-2024-51701": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Mahesh Waghmare MG Post Contributors allows Reflected XSS.This issue affects MG Post Contributors: from n/a through 1.3..",
+      "cveName": "CVE-2024-51701",
+      "cveUrl": "/vuln/detail/CVE-2024-51701"
+    }
+  },
+  "CVE-2024-51702": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Benjamin Moody, Eric Holmes SrcSet Responsive Images for WordPress allows Reflected XSS.This issue affects SrcSet Responsive Images for WordPress: from n/a through 1.4.",
+      "cveName": "CVE-2024-51702",
+      "cveUrl": "/vuln/detail/CVE-2024-51702"
+    }
+  },
+  "CVE-2024-51703": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:09 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Genethick WP-Basics allows Reflected XSS.This issue affects WP-Basics: from n/a through 2.0.",
+      "cveName": "CVE-2024-51703",
+      "cveUrl": "/vuln/detail/CVE-2024-51703"
+    }
+  },
+  "CVE-2024-51704": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:09 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Hanusek imPress allows Reflected XSS.This issue affects imPress: from n/a through 0.1.4.",
+      "cveName": "CVE-2024-51704",
+      "cveUrl": "/vuln/detail/CVE-2024-51704"
+    }
+  },
+  "CVE-2024-51705": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:09 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in James Bruner WP MMenu Lite allows Reflected XSS.This issue affects WP MMenu Lite: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-51705",
+      "cveUrl": "/vuln/detail/CVE-2024-51705"
+    }
+  },
+  "CVE-2024-51706": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "8:15:09 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Upeksha Wisidagama UW Freelancer allows Reflected XSS.This issue affects UW Freelancer: from n/a through 0.1.",
+      "cveName": "CVE-2024-51706",
+      "cveUrl": "/vuln/detail/CVE-2024-51706"
     }
   },
   "CVE-2024-51734": {
@@ -34207,6 +34856,17 @@
       "cveDis": "Atlantis is a self-hosted golang application that listens for Terraform pull request events via webhooks. Atlantis logs contains GitHub credentials (tokens `ghs_...`) when they are rotated. This enables an attacker able to read these logs to impersonate Atlantis application and to perform actions on GitHub. When Atlantis is used to administer a GitHub organization, this enables getting administration privileges on the organization. This was reported in #4060 and fixed in #4667 . The fix was included in Atlantis v0.30.0. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-52009",
       "cveUrl": "/vuln/detail/CVE-2024-52009"
+    }
+  },
+  "CVE-2024-52032": {
+    "cve": {
+      "cveDate": [
+        "November 09, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "Mattermost versions 10.0.x <= 10.0.0 and 9.11.x <= 9.11.2 fail to properly query ElasticSearch when searching for the channel name in channel switcher which allows an attacker to get private channels names of channels that they are not a member of, when Elasticsearch v8 was enabled.",
+      "cveName": "CVE-2024-52032",
+      "cveUrl": "/vuln/detail/CVE-2024-52032"
     }
   },
   "CVE-2024-52043": {
