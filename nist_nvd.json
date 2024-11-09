@@ -3079,6 +3079,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-10283"
     }
   },
+  "CVE-2024-10284": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "The CE21 Suite plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.2.0. This is due to hardcoded encryption key in the 'ce21_authentication_phrase' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email.",
+      "cveName": "CVE-2024-10284",
+      "cveUrl": "/vuln/detail/CVE-2024-10284"
+    }
+  },
+  "CVE-2024-102859-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "The CE21 Suite plugin for WordPress is vulnerable to sensitive information disclosure via the plugin-log.txt in versions up to, and including, 2.2.0. This makes it possible for unauthenticated attackers to log in the user associated with the JWT token.",
+      "cveName": "CVE-2024-102859-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-10285"
+    }
+  },
   "CVE-2024-10288": {
     "cve": {
       "cveDate": [
@@ -3143,6 +3165,17 @@
       "cveDis": "A vulnerability was found in ZZCMS 2023. It has been classified as critical. Affected is the function Ebak_SetGotoPak of the file 3/Ebbak5.1/upload/class/functions.php. The manipulation of the argument file leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10293",
       "cveUrl": "/vuln/detail/CVE-2024-10293"
+    }
+  },
+  "CVE-2024-102946-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "The CE21 Suite plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'ce21_single_sign_on_save_api_settings' function in versions up to, and including, 2.2.0. This makes it possible for unauthenticated attackers to change plugin settings.",
+      "cveName": "CVE-2024-102946-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10294"
     }
   },
   "CVE-2024-102955-9 MEDIUM": {
@@ -4531,6 +4564,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-10573"
     }
   },
+  "CVE-2024-105869-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "The Debug Tool plugin for WordPress is vulnerable to arbitrary file creation due to a missing capability check on the dbt_pull_image() function and missing file type validation in all versions up to, and including, 2.2. This makes it possible for unauthenticated attackers to to create arbitrary files such as .php files that can be leveraged for remote code execution.",
+      "cveName": "CVE-2024-105869-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-10586"
+    }
+  },
+  "CVE-2024-105884-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "The Debug Tool plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the info() function in all versions up to, and including, 2.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to obtain information from phpinfo(). When WP_DEBUG is enabled, this can be exploited by unauthenticated users as well.",
+      "cveName": "CVE-2024-105884-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10588"
+    }
+  },
   "CVE-2024-10594": {
     "cve": {
       "cveDate": [
@@ -4795,6 +4850,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-10621"
     }
   },
+  "CVE-2024-106259-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "The WooCommerce Support Ticket System plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the delete_tmp_uploaded_file() function in all versions up to, and including, 17.7. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).",
+      "cveName": "CVE-2024-106259-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-10625"
+    }
+  },
+  "CVE-2024-106268-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "The WooCommerce Support Ticket System plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the delete_uploaded_file() function in all versions up to, and including, 17.7. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).",
+      "cveName": "CVE-2024-106268-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10626"
+    }
+  },
+  "CVE-2024-106279-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "The WooCommerce Support Ticket System plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the ajax_manage_file_chunk_upload() function in all versions up to, and including, 17.7. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "cveName": "CVE-2024-106279-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-10627"
+    }
+  },
   "CVE-2024-106476-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -4894,6 +4982,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-10668"
     }
   },
+  "CVE-2024-106738-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "The Top Store theme for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the top_store_install_and_activate_callback() function in all versions up to, and including, 1.5.4. This makes it possible for authenticated attackers, with subscriber-level access and above, to install arbitrary plugins which can contain other exploitable vulnerabilities to elevate privileges and gain remote code execution.",
+      "cveName": "CVE-2024-106738-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10673"
+    }
+  },
+  "CVE-2024-106748-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "The Th Shop Mania theme for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the th_shop_mania_install_and_activate_callback() function in all versions up to, and including, 1.4.9. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install arbitrary plugins which can be leveraged to exploit other vulnerabilities and achieve remote code execution and privilege escalation.",
+      "cveName": "CVE-2024-106748-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10674"
+    }
+  },
   "CVE-2024-106879-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -4903,6 +5013,17 @@
       "cveDis": "The Photos, Files, YouTube, Twitter, Instagram, TikTok, Ecommerce Contest Gallery – Upload, Vote, Sell via PayPal, Social Share Buttons plugin for WordPress is vulnerable to time-based SQL Injection via the $collectedIds parameter in all versions up to, and including, 24.0.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
       "cveName": "CVE-2024-106879-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-10687"
+    }
+  },
+  "CVE-2024-106934-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "The SKT Addons for Elementor plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 3.3 via the Unfold widget due to insufficient restrictions on which posts can be included. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract data from private or draft posts created by Elementor that they should not have access to.",
+      "cveName": "CVE-2024-106934-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10693"
     }
   },
   "CVE-2024-10697": {
@@ -5389,6 +5510,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10768"
     }
   },
+  "CVE-2024-10779": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "The Cowidgets – Elementor Addons plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 1.2.0 via the 'ce_template' shortcode due to insufficient restrictions on which posts can be included. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract data from private or draft posts created by Elementor that they should not have access to.",
+      "cveName": "CVE-2024-10779",
+      "cveUrl": "/vuln/detail/CVE-2024-10779"
+    }
+  },
   "CVE-2024-10791": {
     "cve": {
       "cveDate": [
@@ -5642,6 +5774,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10947"
     }
   },
+  "CVE-2024-10953": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "8:15:03 PM -0500"
+      ],
+      "cveDis": "An authenticated data.all user is able to perform mutating UPDATE operations on persisted Notification records in data.all for group notifications that their user is not a member of.",
+      "cveName": "CVE-2024-10953",
+      "cveUrl": "/vuln/detail/CVE-2024-10953"
+    }
+  },
   "CVE-2024-109636-5 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -5871,6 +6014,17 @@
       "cveDis": "A vulnerability classified as problematic was found in CodeAstro Real Estate Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /aboutedit.php of the component About Us Page. The manipulation of the argument aimage leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-11000",
       "cveUrl": "/vuln/detail/CVE-2024-11000"
+    }
+  },
+  "CVE-2024-11026": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:14 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Intelligent Apps Freenow App 12.10.0 on Android. It has been rated as problematic. Affected by this issue is some unknown functionality of the file ch/qos/logback/core/net/ssl/SSL.java of the component Keystore Handler. The manipulation of the argument DEFAULT_KEYSTORE_PASSWORD with the input changeit leads to use of hard-coded password. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11026",
+      "cveUrl": "/vuln/detail/CVE-2024-11026"
     }
   },
   "CVE-2024-20090": {
@@ -7952,6 +8106,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-21538"
     }
   },
+  "CVE-2024-21994": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "4:15:16 PM -0500"
+      ],
+      "cveDis": "StorageGRID (formerly StorageGRID Webscale) versions prior to 11.9 are susceptible to a Denial of Service (DoS) vulnerability. Successful exploit by an authenticated attacker could lead to a service crash.",
+      "cveName": "CVE-2024-21994",
+      "cveUrl": "/vuln/detail/CVE-2024-21994"
+    }
+  },
   "CVE-2024-22032": {
     "cve": {
       "cveDate": [
@@ -8654,6 +8819,61 @@
       "cveDis": "A potential security vulnerability has been identified in the HP Hotkey Support software, which might allow local escalation of privilege. HP is releasing mitigation for the potential vulnerability. Customers using HP Programmable Key are recommended to update HP Hotkey Support.",
       "cveName": "CVE-2024-27458",
       "cveUrl": "/vuln/detail/CVE-2024-27458"
+    }
+  },
+  "CVE-2024-27527": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "wasm3 139076a is vulnerable to Denial of Service (DoS).",
+      "cveName": "CVE-2024-27527",
+      "cveUrl": "/vuln/detail/CVE-2024-27527"
+    }
+  },
+  "CVE-2024-27528": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "wasm3 139076a suffers from Invalid Memory Read, leading to DoS and potential Code Execution.",
+      "cveName": "CVE-2024-27528",
+      "cveUrl": "/vuln/detail/CVE-2024-27528"
+    }
+  },
+  "CVE-2024-27529": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "wasm3 139076a contains memory leaks in Read_utf8.",
+      "cveName": "CVE-2024-27529",
+      "cveUrl": "/vuln/detail/CVE-2024-27529"
+    }
+  },
+  "CVE-2024-27530": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "wasm3 139076a contains a Use-After-Free in ForEachModule.",
+      "cveName": "CVE-2024-27530",
+      "cveUrl": "/vuln/detail/CVE-2024-27530"
+    }
+  },
+  "CVE-2024-27532": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "wasm-micro-runtime (aka WebAssembly Micro Runtime or WAMR) 06df58f is vulnerable to NULL Pointer Dereference in function `block_type_get_result_types.",
+      "cveName": "CVE-2024-27532",
+      "cveUrl": "/vuln/detail/CVE-2024-27532"
     }
   },
   "CVE-2024-27766": {
@@ -10084,6 +10304,127 @@
       "cveDis": "A vulnerability in the Desktop Client of Mitel MiCollab through 9.7.1.110, and MiVoice Business Solution Virtual Instance (MiVB SVI) 1.0.0.25, could allow an authenticated attacker to conduct a privilege escalation attack due to improper file validation. A successful exploit could allow an attacker to run arbitrary code with elevated privileges.",
       "cveName": "CVE-2024-35315",
       "cveUrl": "/vuln/detail/CVE-2024-35315"
+    }
+  },
+  "CVE-2024-35410": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "wac commit 385e1 was discovered to contain a heap overflow via the interpret function at /wac-asan/wa.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted wasm file.",
+      "cveName": "CVE-2024-35410",
+      "cveUrl": "/vuln/detail/CVE-2024-35410"
+    }
+  },
+  "CVE-2024-35418": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "wac commit 385e1 was discovered to contain a heap overflow via the setup_call function at /wac-asan/wa.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted wasm file.",
+      "cveName": "CVE-2024-35418",
+      "cveUrl": "/vuln/detail/CVE-2024-35418"
+    }
+  },
+  "CVE-2024-35419": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "wac commit 385e1 was discovered to contain a heap overflow via the load_module function at /wac-asan/wa.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted wasm file.",
+      "cveName": "CVE-2024-35419",
+      "cveUrl": "/vuln/detail/CVE-2024-35419"
+    }
+  },
+  "CVE-2024-35420": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:16 PM -0500"
+      ],
+      "cveDis": "wac commit 385e1 was discovered to contain a heap overflow.",
+      "cveName": "CVE-2024-35420",
+      "cveUrl": "/vuln/detail/CVE-2024-35420"
+    }
+  },
+  "CVE-2024-35421": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:16 PM -0500"
+      ],
+      "cveDis": "vmir e8117 was discovered to contain a segmentation violation via the wasm_parse_block function at /src/vmir_wasm_parser.c.",
+      "cveName": "CVE-2024-35421",
+      "cveUrl": "/vuln/detail/CVE-2024-35421"
+    }
+  },
+  "CVE-2024-35422": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:16 PM -0500"
+      ],
+      "cveDis": "vmir e8117 was discovered to contain a heap buffer overflow via the wasm_call function at /src/vmir_wasm_parser.c.",
+      "cveName": "CVE-2024-35422",
+      "cveUrl": "/vuln/detail/CVE-2024-35422"
+    }
+  },
+  "CVE-2024-35423": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:16 PM -0500"
+      ],
+      "cveDis": "vmir e8117 was discovered to contain a heap buffer overflow via the wasm_parse_section_functions function at /src/vmir_wasm_parser.c.",
+      "cveName": "CVE-2024-35423",
+      "cveUrl": "/vuln/detail/CVE-2024-35423"
+    }
+  },
+  "CVE-2024-35424": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:16 PM -0500"
+      ],
+      "cveDis": "vmir e8117 was discovered to contain a segmentation violation via the import_function function at /src/vmir_wasm_parser.c.",
+      "cveName": "CVE-2024-35424",
+      "cveUrl": "/vuln/detail/CVE-2024-35424"
+    }
+  },
+  "CVE-2024-35425": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:16 PM -0500"
+      ],
+      "cveDis": "vmir e8117 was discovered to contain a segmentation violation via the function_prepare_parse function at /src/vmir_function.c.",
+      "cveName": "CVE-2024-35425",
+      "cveUrl": "/vuln/detail/CVE-2024-35425"
+    }
+  },
+  "CVE-2024-35426": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "vmir e8117 was discovered to contain a stack overflow via the init_local_vars function at /src/vmir_wasm_parser.c.",
+      "cveName": "CVE-2024-35426",
+      "cveUrl": "/vuln/detail/CVE-2024-35426"
+    }
+  },
+  "CVE-2024-35427": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "vmir e8117 was discovered to contain a segmentation violation via the export_function function at /src/vmir_wasm_parser.c.",
+      "cveName": "CVE-2024-35427",
+      "cveUrl": "/vuln/detail/CVE-2024-35427"
     }
   },
   "CVE-2024-35495": {
@@ -14528,6 +14869,17 @@
       "cveDis": "A discrepancy in error messages for invalid login attempts in Webmin Usermin v2.100 allows attackers to enumerate valid user accounts.",
       "cveName": "CVE-2024-44762",
       "cveUrl": "/vuln/detail/CVE-2024-44762"
+    }
+  },
+  "CVE-2024-44765": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "2:15:05 PM -0500"
+      ],
+      "cveDis": "An Improper Authorization (Access Control Misconfiguration) vulnerability in MGT-COMMERCE GmbH v2.0.0 to v2.4.2 allows attackers to escalate privileges and access sensitive information via manipulation of the Nginx configuration file.",
+      "cveName": "CVE-2024-44765",
+      "cveUrl": "/vuln/detail/CVE-2024-44765"
     }
   },
   "CVE-2024-44775": {
@@ -22822,6 +23174,17 @@
       "cveDis": "In PyTorch <=2.4.1, the RemoteModule has Deserialization RCE.",
       "cveName": "CVE-2024-48063",
       "cveUrl": "/vuln/detail/CVE-2024-48063"
+    }
+  },
+  "CVE-2024-48073": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "sunniwell HT3300 before 1.0.0.B022.2 is vulnerable to Insecure Permissions. The /usr/local/bin/update program, which is responsible for updating the software in the HT3300 device, is given the execution mode of sudo NOPASSWD. This program is vulnerable to a command injection vulnerability, which could allow an attacker to pass commands to this program via command line arguments to gain elevated root privileges.",
+      "cveName": "CVE-2024-48073",
+      "cveUrl": "/vuln/detail/CVE-2024-48073"
     }
   },
   "CVE-2024-48074": {
@@ -31404,6 +31767,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-50802"
     }
   },
+  "CVE-2024-50808": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "4:15:20 PM -0500"
+      ],
+      "cveDis": "SeaCms 13.1 is vulnerable to code injection in the notification module of the member message notification module in the backend user module, due to unsafe handling of the \"notify\" variable in admin_notify.php.",
+      "cveName": "CVE-2024-50808",
+      "cveUrl": "/vuln/detail/CVE-2024-50808"
+    }
+  },
+  "CVE-2024-50809": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "4:15:20 PM -0500"
+      ],
+      "cveDis": "The theme.php file in SDCMS 2.8 has a command execution vulnerability that allows for the execution of system commands",
+      "cveName": "CVE-2024-50809",
+      "cveUrl": "/vuln/detail/CVE-2024-50809"
+    }
+  },
+  "CVE-2024-50810": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "2:15:05 PM -0500"
+      ],
+      "cveDis": "hopetree izone lts c011b48 contains a Cross Site Scripting (XSS) vulnerability in the article comment function. In \\apps\\comment\\views.py, AddCommintView() does not securely filter user input and renders it directly to the frontend page through templates.",
+      "cveName": "CVE-2024-50810",
+      "cveUrl": "/vuln/detail/CVE-2024-50810"
+    }
+  },
+  "CVE-2024-50811": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "hopetree izone lts c011b48 contains a server-side request forgery (SSRF) vulnerability in the active push function as \\\\apps\\\\tool\\\\apis\\\\bd_push.py does not securely filter user input through push_urls() and get_urls().",
+      "cveName": "CVE-2024-50811",
+      "cveUrl": "/vuln/detail/CVE-2024-50811"
+    }
+  },
   "CVE-2024-50966": {
     "cve": {
       "cveDate": [
@@ -31446,6 +31853,17 @@
       "cveDis": "A Cross-site Scripting (XSS) vulnerability in manage_recipient.php of Sourcecodester Toll Tax Management System 1.0 allows remote authenticated users to inject arbitrary web scripts via the \"owner\" input field.",
       "cveName": "CVE-2024-51032",
       "cveUrl": "/vuln/detail/CVE-2024-51032"
+    }
+  },
+  "CVE-2024-51055": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "An issue Hoosk v1.7.1 allows a remote attacker to execute arbitrary code via a crafted script to the config.php component.",
+      "cveName": "CVE-2024-51055",
+      "cveUrl": "/vuln/detail/CVE-2024-51055"
     }
   },
   "CVE-2024-51060": {
@@ -31591,6 +32009,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51152"
     }
   },
+  "CVE-2024-51157": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "4:15:20 PM -0500"
+      ],
+      "cveDis": "07FLYCMS V1.3.9 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component http://erp.07fly.net:80/oa/OaSchedule/add.html.",
+      "cveName": "CVE-2024-51157",
+      "cveUrl": "/vuln/detail/CVE-2024-51157"
+    }
+  },
   "CVE-2024-51180": {
     "cve": {
       "cveDate": [
@@ -31611,6 +32040,17 @@
       "cveDis": "A Reflected Cross Site Scripting (XSS) vulnerability was found in /ifscfinder/admin/profile.php in PHPGurukul IFSC Code Finder Project v1.0, which allows remote attackers to execute arbitrary code via \" searchifsccode\" parameter.",
       "cveName": "CVE-2024-51181",
       "cveUrl": "/vuln/detail/CVE-2024-51181"
+    }
+  },
+  "CVE-2024-51211": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "SQL injection vulnerability exists in OS4ED openSIS-Classic Version 9.1, specifically in the resetuserinfo.php file. The vulnerability is due to improper input validation of the $username_stn_id parameter, which can be manipulated by an attacker to inject arbitrary SQL commands.",
+      "cveName": "CVE-2024-51211",
+      "cveUrl": "/vuln/detail/CVE-2024-51211"
     }
   },
   "CVE-2024-51240": {
@@ -33021,6 +33461,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51995"
     }
   },
+  "CVE-2024-51997": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "Trustee is a set of tools and components for attesting confidential guests and providing secrets to them. The ART (**Attestation Results Token**) token, generated by AS, could be manipulated by MITM attacker, but the verifier (CoCo Verification Demander like KBS) could still verify it successfully. In the payload of ART token, the ‘jwk’ could be replaced by attacker with his own pub key. Then attacker can use his own corresponding private key to sign the crafted ART token. Based on current code implementation (v0.8.0), such replacement and modification can not be detected. This issue has been addressed in version 0.8.2 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51997",
+      "cveUrl": "/vuln/detail/CVE-2024-51997"
+    }
+  },
   "CVE-2024-51998": {
     "cve": {
       "cveDate": [
@@ -33032,6 +33483,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-51998"
     }
   },
+  "CVE-2024-52000": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "Combodo iTop is a simple, web based IT Service Management tool. Affected versions are subject to a reflected Cross-site Scripting (XSS) exploit by way of editing a request's payload which can lead to malicious javascript execution. This issue has been addressed in version 3.2.0 via systematic escaping of error messages when rendering on the page. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52000",
+      "cveUrl": "/vuln/detail/CVE-2024-52000"
+    }
+  },
+  "CVE-2024-52001": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Combodo iTop is a simple, web based IT Service Management tool. In affected versions portal users are able to access forbidden services information. This issue has been addressed in version 3.2.0. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52001",
+      "cveUrl": "/vuln/detail/CVE-2024-52001"
+    }
+  },
+  "CVE-2024-52002": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Combodo iTop is a simple, web based IT Service Management tool. Several url endpoints are subject to a Cross-Site Request Forgery (CSRF) vulnerability. Please refer to the linked GHSA for the complete list. This issue has been addressed in version 3.2.0 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52002",
+      "cveUrl": "/vuln/detail/CVE-2024-52002"
+    }
+  },
+  "CVE-2024-52004": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "MediaCMS is an open source video and media CMS, written in Python/Django and React, featuring a REST API. MediaCMS has been prone to vulnerabilities that upon special cases can lead to remote code execution. All versions before v4.1.0 are susceptible, and users are highly recommended to upgrade. The vulnerabilities are related with insufficient input validation while uploading media content. The condition to exploit the vulnerability is that the portal allows users to upload content. This issue has been patched in version 4.1.0. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52004",
+      "cveUrl": "/vuln/detail/CVE-2024-52004"
+    }
+  },
+  "CVE-2024-52007": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "HAPI FHIR is a complete implementation of the HL7 FHIR standard for healthcare interoperability in Java. XSLT parsing performed by various components are vulnerable to XML external entity injections. A processed XML file with a malicious DTD tag ( <!DOCTYPE foo [<!ENTITY example SYSTEM \"/etc/passwd\"> ]> could produce XML containing data from the host system. This impacts use cases where org.hl7.fhir.core is being used to within a host where external clients can submit XML. This is related to GHSA-6cr6-ph3p-f5rf, in which its fix (#1571 & #1717) was incomplete. This issue has been addressed in release version 6.4.0 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52007",
+      "cveUrl": "/vuln/detail/CVE-2024-52007"
+    }
+  },
+  "CVE-2024-52009": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Atlantis is a self-hosted golang application that listens for Terraform pull request events via webhooks. Atlantis logs contains GitHub credentials (tokens `ghs_...`) when they are rotated. This enables an attacker able to read these logs to impersonate Atlantis application and to perform actions on GitHub. When Atlantis is used to administer a GitHub organization, this enables getting administration privileges on the organization. This was reported in #4060 and fixed in #4667 . The fix was included in Atlantis v0.30.0. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52009",
+      "cveUrl": "/vuln/detail/CVE-2024-52009"
+    }
+  },
   "CVE-2024-52043": {
     "cve": {
       "cveDate": [
@@ -33041,6 +33558,50 @@
       "cveDis": "Generation of Error Message Containing Sensitive Information in HumHub GmbH & Co. KG - HumHub on Linux allows: Excavation (user enumeration).This issue affects all released HumHub versions: through 1.16.2.",
       "cveName": "CVE-2024-52043",
       "cveUrl": "/vuln/detail/CVE-2024-52043"
+    }
+  },
+  "CVE-2024-52311": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "Authentication tokens issued via Cognito in data.all are not invalidated on log out, allowing for previously authenticated user to continue execution of authorized API Requests until token is expired.",
+      "cveName": "CVE-2024-52311",
+      "cveUrl": "/vuln/detail/CVE-2024-52311"
+    }
+  },
+  "CVE-2024-52312": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "Due to inconsistent authorization permissions, data.all may allow an external actor with an authenticated account to perform restricted operations against DataSets and Environments.",
+      "cveName": "CVE-2024-52312",
+      "cveUrl": "/vuln/detail/CVE-2024-52312"
+    }
+  },
+  "CVE-2024-52313": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "8:15:05 PM -0500"
+      ],
+      "cveDis": "An authenticated data.all user is able to manipulate a getDataset query to fetch additional information regarding the parent Environment resource that the user otherwise would not able to fetch by directly querying the object via getEnvironment in data.all.",
+      "cveName": "CVE-2024-52313",
+      "cveUrl": "/vuln/detail/CVE-2024-52313"
+    }
+  },
+  "CVE-2024-52314": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "8:15:05 PM -0500"
+      ],
+      "cveDis": "A data.all admin team member who has access to the customer-owned AWS Account where data.all is deployed may be able to extract user data from data.all application logs in data.all via CloudWatch log scanning for particular operations that interact with customer producer teams data.",
+      "cveName": "CVE-2024-52314",
+      "cveUrl": "/vuln/detail/CVE-2024-52314"
     }
   },
   "CVE-2024-5429": {
@@ -35782,6 +36343,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8959"
     }
   },
+  "CVE-2024-89606-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "The Cowidgets – Elementor Addons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.2.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-89606-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8960"
+    }
+  },
   "CVE-2024-89646-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -36629,6 +37201,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9225"
     }
   },
+  "CVE-2024-92266-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "The Landing Page Cat – Coming Soon Page, Maintenance Page & Squeeze Pages plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.7.6. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-92266-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9226"
+    }
+  },
   "CVE-2024-92286-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -36706,6 +37289,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9242"
     }
   },
+  "CVE-2024-92626-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "The User Meta – User Profile Builder and User management plugin plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 3.1 via the getUser() due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with Contributor-level access and above, to obtain user meta values from form fields. Please note that this requires a site administrator to create a form that displays potentially sensitive information like password hashes. This may also be exploited by unauthenticated users if the  'user-meta-public-profile' shortcode is used insecurely.",
+      "cveName": "CVE-2024-92626-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9262"
+    }
+  },
   "CVE-2024-9263": {
     "cve": {
       "cveDate": [
@@ -36770,6 +37364,17 @@
       "cveDis": "The Relogo plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 0.4.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
       "cveName": "CVE-2024-92696-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9269"
+    }
+  },
+  "CVE-2024-92706-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:06 PM -0500"
+      ],
+      "cveDis": "The Lenxel Core for Lenxel(LNX) LMS plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-92706-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9270"
     }
   },
   "CVE-2024-92716-4 MEDIUM": {
@@ -39520,6 +40125,17 @@
       "cveDis": "The The Uix Shortcodes – Compatible with Gutenberg plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.9.9. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
       "cveName": "CVE-2024-97727-3 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9772"
+    }
+  },
+  "CVE-2024-97755-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 08, 2024",
+        "10:15:06 PM -0500"
+      ],
+      "cveDis": "The Anih - Creative Agency WordPress Theme theme for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 2024 due to an incomplete blacklist, insufficient input sanitization, and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "cveName": "CVE-2024-97755-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9775"
     }
   },
   "CVE-2024-97764-4 MEDIUM": {
