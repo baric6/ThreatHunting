@@ -6115,6 +6115,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-11000"
     }
   },
+  "CVE-2024-110169-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:04 AM -0500"
+      ],
+      "cveDis": "Webopac from Grand Vice info has a SQL Injection vulnerability, allowing unauthenticated remote attacks to inject arbitrary SQL commands to read, modify, and delete database contents.",
+      "cveName": "CVE-2024-110169-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11016"
+    }
+  },
+  "CVE-2024-110178-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:04 AM -0500"
+      ],
+      "cveDis": "Webopac from Grand Vice info does not properly validate uploaded file types, allowing remote attackers with regular privileges to upload and execute webshells, which could lead to arbitrary code execution on the server.",
+      "cveName": "CVE-2024-110178-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11017"
+    }
+  },
+  "CVE-2024-110189-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:05 AM -0500"
+      ],
+      "cveDis": "Webopac from Grand Vice info does not properly validate uploaded file types, allowing unauthenticated remote attackers to upload and execute webshells, which could lead to arbitrary code execution on the server.",
+      "cveName": "CVE-2024-110189-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11018"
+    }
+  },
+  "CVE-2024-110196-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:05 AM -0500"
+      ],
+      "cveDis": "Webopac from Grand Vice info has a Reflected Cross-site Scripting vulnerability, allowing unauthenticated remote attackers to execute arbitrary JavaScript code in the user's browser through phishing techniques.",
+      "cveName": "CVE-2024-110196-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11019"
+    }
+  },
+  "CVE-2024-110209-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "Webopac from Grand Vice info has a SQL Injection vulnerability, allowing unauthenticated remote attacks to inject arbitrary SQL commands to read, modify, and delete database contents.",
+      "cveName": "CVE-2024-110209-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11020"
+    }
+  },
+  "CVE-2024-110215-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "Webopac from Grand Vice info has Stored Cross-site Scripting vulnerability. Remote attackers with regular privileges can inject arbitrary JavaScript code into the server. When users visit the compromised page, the code is automatically executed in their browser.",
+      "cveName": "CVE-2024-110215-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11021"
+    }
+  },
   "CVE-2024-11026": {
     "cve": {
       "cveDate": [
@@ -6278,6 +6344,83 @@
       "cveDis": "A vulnerability classified as critical was found in Tenda AC10 16.03.10.13. Affected by this vulnerability is the function FUN_0044db3c of the file /goform/fast_setting_wifi_set. The manipulation of the argument timeZone leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-11061",
       "cveUrl": "/vuln/detail/CVE-2024-11061"
+    }
+  },
+  "CVE-2024-11062": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:05 AM -0500"
+      ],
+      "cveDis": "The D-Link DSL6740C modem has an OS Command Injection vulnerability, allowing remote attackers with administrator privileges to inject and execute arbitrary system commands through a specific functionality provided by SSH and Telnet.",
+      "cveName": "CVE-2024-11062",
+      "cveUrl": "/vuln/detail/CVE-2024-11062"
+    }
+  },
+  "CVE-2024-110637-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "The D-Link DSL6740C modem has an OS Command Injection vulnerability, allowing remote attackers with administrator privileges to inject and execute arbitrary system commands through a specific functionality provided by SSH and Telnet.",
+      "cveName": "CVE-2024-110637-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11063"
+    }
+  },
+  "CVE-2024-110647-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "The D-Link DSL6740C modem has an OS Command Injection vulnerability, allowing remote attackers with administrator privileges to inject and execute arbitrary system commands through a specific functionality provided by SSH and Telnet.",
+      "cveName": "CVE-2024-110647-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11064"
+    }
+  },
+  "CVE-2024-110657-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:07 AM -0500"
+      ],
+      "cveDis": "The D-Link DSL6740C modem has an OS Command Injection vulnerability, allowing remote attackers with administrator privileges to inject and execute arbitrary system commands through a specific functionality provided by SSH and Telnet.",
+      "cveName": "CVE-2024-110657-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11065"
+    }
+  },
+  "CVE-2024-110667-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:07 AM -0500"
+      ],
+      "cveDis": "The D-Link DSL6740C modem has an OS Command Injection vulnerability, allowing remote attackers with administrator privileges to inject and execute arbitrary system commands through the specific web page.",
+      "cveName": "CVE-2024-110667-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11066"
+    }
+  },
+  "CVE-2024-110677-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:08 AM -0500"
+      ],
+      "cveDis": "The D-Link DSL6740C modem has a Path Traversal Vulnerability, allowing unauthenticated remote attackers to exploit this vulnerability to read arbitrary system files. Additionally, since the device's default password is a combination of the MAC address, attackers can obtain the MAC address through this vulnerability and attempt to log in to the device using the default password.",
+      "cveName": "CVE-2024-110677-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11067"
+    }
+  },
+  "CVE-2024-110689-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:08 AM -0500"
+      ],
+      "cveDis": "The D-Link DSL6740C modem has an Incorrect Use of Privileged APIs vulnerability, allowing unauthenticated remote attackers to modify any user’s password by leveraging the API, thereby granting access to Web, SSH, and Telnet services using that user’s account.",
+      "cveName": "CVE-2024-110689-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11068"
     }
   },
   "CVE-2024-20090": {
@@ -11371,6 +11514,17 @@
       "cveDis": "Spring WebFlux applications that have Spring Security authorization rules on static resources can be bypassed under certain circumstances.\n\nFor this to impact an application, all of the following must be true:\n\n  *  It must be a WebFlux application\n  *  It must be using Spring's static resources support\n  *  It must have a non-permitAll authorization rule applied to the static resources support",
       "cveName": "CVE-2024-38821",
       "cveUrl": "/vuln/detail/CVE-2024-38821"
+    }
+  },
+  "CVE-2024-38826": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:04 AM -0500"
+      ],
+      "cveDis": "Authenticated users can upload specifically crafted files to leak server resources. This behavior can potentially be used to run a denial of service attack against Cloud Controller.\n\nThe Cloud Foundry project recommends upgrading the following releases:\n\n  *  Upgrade capi release version to 1.194.0 or greater\n  *  Upgrade cf-deployment version to v44.1.0 or greater. This includes a patched capi release",
+      "cveName": "CVE-2024-38826",
+      "cveUrl": "/vuln/detail/CVE-2024-38826"
     }
   },
   "CVE-2024-38862": {
@@ -34022,6 +34176,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-51568"
     }
   },
+  "CVE-2024-51571": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:05 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in MasterBip MasterBip para Elementor allows DOM-Based XSS.This issue affects MasterBip para Elementor: from n/a through 1.6.3.",
+      "cveName": "CVE-2024-51571",
+      "cveUrl": "/vuln/detail/CVE-2024-51571"
+    }
+  },
+  "CVE-2024-51572": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:05 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Peter Shaw LH QR Codes allows Stored XSS.This issue affects LH QR Codes: from n/a through 1.06.",
+      "cveName": "CVE-2024-51572",
+      "cveUrl": "/vuln/detail/CVE-2024-51572"
+    }
+  },
+  "CVE-2024-51573": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:05 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Matthew Lillistone ML Responsive Audio player with playlist Shortcode allows Stored XSS.This issue affects ML Responsive Audio player with playlist Shortcode: from n/a through 0.2.",
+      "cveName": "CVE-2024-51573",
+      "cveUrl": "/vuln/detail/CVE-2024-51573"
+    }
+  },
+  "CVE-2024-51574": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Simple Goods allows Stored XSS.This issue affects Simple Goods: from n/a through 0.1.3.",
+      "cveName": "CVE-2024-51574",
+      "cveUrl": "/vuln/detail/CVE-2024-51574"
+    }
+  },
+  "CVE-2024-51575": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Abdullah Extender All In One For Elementor allows Stored XSS.This issue affects Extender All In One For Elementor: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-51575",
+      "cveUrl": "/vuln/detail/CVE-2024-51575"
+    }
+  },
   "CVE-2024-51576": {
     "cve": {
       "cveDate": [
@@ -35122,6 +35331,127 @@
       "cveUrl": "/vuln/detail/CVE-2024-51781"
     }
   },
+  "CVE-2024-51788": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Joshua Wolfe The Novel Design Store Directory allows Upload a Web Shell to a Web Server.This issue affects The Novel Design Store Directory: from n/a through 4.3.0.",
+      "cveName": "CVE-2024-51788",
+      "cveUrl": "/vuln/detail/CVE-2024-51788"
+    }
+  },
+  "CVE-2024-51789": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:07 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in UjW0L Image Classify allows Upload a Web Shell to a Web Server.This issue affects Image Classify: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-51789",
+      "cveUrl": "/vuln/detail/CVE-2024-51789"
+    }
+  },
+  "CVE-2024-51790": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:07 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Team HB WEBSOL HB AUDIO GALLERY allows Upload a Web Shell to a Web Server.This issue affects HB AUDIO GALLERY: from n/a through 3.0.",
+      "cveName": "CVE-2024-51790",
+      "cveUrl": "/vuln/detail/CVE-2024-51790"
+    }
+  },
+  "CVE-2024-51791": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:07 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Made I.T. Forms allows Upload a Web Shell to a Web Server.This issue affects Forms: from n/a through 2.8.0.",
+      "cveName": "CVE-2024-51791",
+      "cveUrl": "/vuln/detail/CVE-2024-51791"
+    }
+  },
+  "CVE-2024-51792": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:08 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Dang Ngoc Binh Audio Record allows Upload a Web Shell to a Web Server.This issue affects Audio Record: from n/a through 1.0.",
+      "cveName": "CVE-2024-51792",
+      "cveUrl": "/vuln/detail/CVE-2024-51792"
+    }
+  },
+  "CVE-2024-51793": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:08 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Webful Creations Computer Repair Shop allows Upload a Web Shell to a Web Server.This issue affects Computer Repair Shop: from n/a through 3.8115.",
+      "cveName": "CVE-2024-51793",
+      "cveUrl": "/vuln/detail/CVE-2024-51793"
+    }
+  },
+  "CVE-2024-51820": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in L Squared Support L Squared Hub WP allows SQL Injection.This issue affects L Squared Hub WP: from n/a through 1.0.",
+      "cveName": "CVE-2024-51820",
+      "cveUrl": "/vuln/detail/CVE-2024-51820"
+    }
+  },
+  "CVE-2024-51837": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in SONS Creative Development WP Contest allows SQL Injection.This issue affects WP Contest: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-51837",
+      "cveUrl": "/vuln/detail/CVE-2024-51837"
+    }
+  },
+  "CVE-2024-51843": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Olland.Biz Horsemanager allows Blind SQL Injection.This issue affects Horsemanager: from n/a through 1.3.",
+      "cveName": "CVE-2024-51843",
+      "cveUrl": "/vuln/detail/CVE-2024-51843"
+    }
+  },
+  "CVE-2024-51845": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Richteam Share Buttons – Social Media allows Blind SQL Injection.This issue affects Share Buttons – Social Media: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-51845",
+      "cveUrl": "/vuln/detail/CVE-2024-51845"
+    }
+  },
+  "CVE-2024-51882": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Ehues Gboy Custom Google Map allows Blind SQL Injection.This issue affects Gboy Custom Google Map: from n/a through 1.2.",
+      "cveName": "CVE-2024-51882",
+      "cveUrl": "/vuln/detail/CVE-2024-51882"
+    }
+  },
   "CVE-2024-51987": {
     "cve": {
       "cveDate": [
@@ -35351,6 +35681,105 @@
       "cveDis": "A data.all admin team member who has access to the customer-owned AWS Account where data.all is deployed may be able to extract user data from data.all application logs in data.all via CloudWatch log scanning for particular operations that interact with customer producer teams data.",
       "cveName": "CVE-2024-52314",
       "cveUrl": "/vuln/detail/CVE-2024-52314"
+    }
+  },
+  "CVE-2024-52350": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in CRM 2go allows DOM-Based XSS.This issue affects CRM 2go: from n/a through 1.0.",
+      "cveName": "CVE-2024-52350",
+      "cveUrl": "/vuln/detail/CVE-2024-52350"
+    }
+  },
+  "CVE-2024-52351": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Boston University (IS&T) BU Slideshow allows Stored XSS.This issue affects BU Slideshow: from n/a through 2.3.10.",
+      "cveName": "CVE-2024-52351",
+      "cveUrl": "/vuln/detail/CVE-2024-52351"
+    }
+  },
+  "CVE-2024-52352": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Andrew Milo Postcasa Shortcode allows DOM-Based XSS.This issue affects Postcasa Shortcode: from n/a through 1.0.",
+      "cveName": "CVE-2024-52352",
+      "cveUrl": "/vuln/detail/CVE-2024-52352"
+    }
+  },
+  "CVE-2024-52353": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Gabriel Serafini Christian Science Bible Lesson Subjects allows DOM-Based XSS.This issue affects Christian Science Bible Lesson Subjects: from n/a through 2.0.",
+      "cveName": "CVE-2024-52353",
+      "cveUrl": "/vuln/detail/CVE-2024-52353"
+    }
+  },
+  "CVE-2024-52354": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Cool Plugins Web Stories Widgets For Elementor allows Stored XSS.This issue affects Web Stories Widgets For Elementor: from n/a through 1.1.",
+      "cveName": "CVE-2024-52354",
+      "cveUrl": "/vuln/detail/CVE-2024-52354"
+    }
+  },
+  "CVE-2024-52355": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Hyumika OSM – OpenStreetMap allows Stored XSS.This issue affects OSM – OpenStreetMap: from n/a through 6.1.2.",
+      "cveName": "CVE-2024-52355",
+      "cveUrl": "/vuln/detail/CVE-2024-52355"
+    }
+  },
+  "CVE-2024-52356": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:10 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Webangon The Pack Elementor addons allows Stored XSS.This issue affects The Pack Elementor addons: from n/a through 2.1.0.",
+      "cveName": "CVE-2024-52356",
+      "cveUrl": "/vuln/detail/CVE-2024-52356"
+    }
+  },
+  "CVE-2024-52357": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:10 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in LIQUID DESIGN Ltd. LIQUID BLOCKS allows Stored XSS.This issue affects LIQUID BLOCKS: from n/a through 1.2.0.",
+      "cveName": "CVE-2024-52357",
+      "cveUrl": "/vuln/detail/CVE-2024-52357"
+    }
+  },
+  "CVE-2024-52358": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:10 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Cyberchimps Responsive Addons for Elementor allows DOM-Based XSS.This issue affects Responsive Addons for Elementor: from n/a through 1.5.4.",
+      "cveName": "CVE-2024-52358",
+      "cveUrl": "/vuln/detail/CVE-2024-52358"
     }
   },
   "CVE-2024-5429": {
