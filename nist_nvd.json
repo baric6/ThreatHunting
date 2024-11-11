@@ -3376,6 +3376,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10313"
     }
   },
+  "CVE-2024-10314": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "In Helix Core versions prior to 2024.2, an unauthenticated remote Denial of Service (DoS) via the auto-generation function was identified.  Reported by Karol Więsek.",
+      "cveName": "CVE-2024-10314",
+      "cveUrl": "/vuln/detail/CVE-2024-10314"
+    }
+  },
   "CVE-2024-10318": {
     "cve": {
       "cveDate": [
@@ -3528,6 +3539,28 @@
       "cveDis": "The Beek Widget Extention plugin for WordPress is vulnerable to Stored Cross-Site Scripting via shortcodes in versions up to, and including, 0.9.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-103436-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10343"
+    }
+  },
+  "CVE-2024-10344": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "In Helix Core versions prior to 2024.2, an unauthenticated remote Denial of Service (DoS) via the refuse function was identified.  Reported by Karol Więsek.",
+      "cveName": "CVE-2024-10344",
+      "cveUrl": "/vuln/detail/CVE-2024-10344"
+    }
+  },
+  "CVE-2024-10345": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "In Helix Core versions prior to 2024.2, an unauthenticated remote Denial of Service (DoS) via the shutdown function was identified.  Reported by Karol Więsek.",
+      "cveName": "CVE-2024-10345",
+      "cveUrl": "/vuln/detail/CVE-2024-10345"
     }
   },
   "CVE-2024-10348": {
@@ -5763,6 +5796,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10916"
     }
   },
+  "CVE-2024-10917": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "12:15:04 PM -0500"
+      ],
+      "cveDis": "In Eclipse OpenJ9 versions up to 0.47, the JNI function GetStringUTFLength may return an incorrect value which has wrapped around. From 0.48 the value is correct but may be truncated to include a smaller number of characters.",
+      "cveName": "CVE-2024-10917",
+      "cveUrl": "/vuln/detail/CVE-2024-10917"
+    }
+  },
   "CVE-2024-10919": {
     "cve": {
       "cveDate": [
@@ -6421,6 +6465,50 @@
       "cveDis": "The D-Link DSL6740C modem has an Incorrect Use of Privileged APIs vulnerability, allowing unauthenticated remote attackers to modify any user’s password by leveraging the API, thereby granting access to Web, SSH, and Telnet services using that user’s account.",
       "cveName": "CVE-2024-110689-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-11068"
+    }
+  },
+  "CVE-2024-11070": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "10:15:04 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, has been found in Sanluan PublicCMS 5.202406.d. This issue affects some unknown processing of the file /admin/cmsTagType/save of the component Tag Type Handler. The manipulation of the argument name leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11070",
+      "cveUrl": "/vuln/detail/CVE-2024-11070"
+    }
+  },
+  "CVE-2024-11073": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "12:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic has been found in SourceCodester Hospital Management System 1.0. This affects an unknown part of the file /vm/patient/delete-account.php. The manipulation of the argument id leads to improper authorization. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11073",
+      "cveUrl": "/vuln/detail/CVE-2024-11073"
+    }
+  },
+  "CVE-2024-11074": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in itsourcecode Tailoring Management System 1.0. This vulnerability affects unknown code of the file /incadd.php. The manipulation of the argument inccat/desc/date/amount leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher advisory only mentions the parameter \"inccat\" to be affected. But it must be assumed \"desc\", \"date\", and \"amount\" are affected as well.",
+      "cveName": "CVE-2024-11074",
+      "cveUrl": "/vuln/detail/CVE-2024-11074"
+    }
+  },
+  "CVE-2024-11076": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in code-projects Job Recruitment 1.0. This issue affects some unknown processing of the file /activation.php. The manipulation of the argument e_hash leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11076",
+      "cveUrl": "/vuln/detail/CVE-2024-11076"
     }
   },
   "CVE-2024-20090": {
@@ -10251,6 +10339,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-33700"
     }
   },
+  "CVE-2024-34014": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "Arbitrary file overwrite during recovery due to improper soft link handling. The following products are affected: Acronis Backup plugin for cPanel & WHM (Linux) before build 818, Acronis Backup extension for Plesk (Linux) before build 599, Acronis Backup plugin for DirectAdmin (Linux) before build 181.",
+      "cveName": "CVE-2024-34014",
+      "cveUrl": "/vuln/detail/CVE-2024-34014"
+    }
+  },
+  "CVE-2024-34015": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:14 AM -0500"
+      ],
+      "cveDis": "Sensitive information disclosure during file browsing due to improper soft link handling. The following products are affected: Acronis Backup plugin for cPanel & WHM (Linux) before build 818.",
+      "cveName": "CVE-2024-34015",
+      "cveUrl": "/vuln/detail/CVE-2024-34015"
+    }
+  },
   "CVE-2024-34535": {
     "cve": {
       "cveDate": [
@@ -11582,6 +11692,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-3935"
     }
   },
+  "CVE-2024-39354": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "10:15:05 AM -0500"
+      ],
+      "cveDis": "If an attacker tricks a valid user into running Delta Electronics DIAScreen with a file containing malicious code, a stack-based buffer overflow in CEtherIPTagItem can be exploited, allowing the attacker to remotely execute arbitrary code.",
+      "cveName": "CVE-2024-39354",
+      "cveUrl": "/vuln/detail/CVE-2024-39354"
+    }
+  },
   "CVE-2024-39364": {
     "cve": {
       "cveDate": [
@@ -11756,6 +11877,17 @@
       "cveDis": "Dell AppSync Server, version 4.3 through 4.6, contains an XML External Entity Injection vulnerability. An adjacent high privileged attacker could potentially exploit this vulnerability, leading to information disclosure.",
       "cveName": "CVE-2024-39586",
       "cveUrl": "/vuln/detail/CVE-2024-39586"
+    }
+  },
+  "CVE-2024-39605": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "10:15:05 AM -0500"
+      ],
+      "cveDis": "If an attacker tricks a valid user into running Delta Electronics DIAScreen with a file containing malicious code, a stack-based buffer overflow in BACnetParameter can be exploited, allowing the attacker to remotely execute arbitrary code.",
+      "cveName": "CVE-2024-39605",
+      "cveUrl": "/vuln/detail/CVE-2024-39605"
     }
   },
   "CVE-2024-39719": {
@@ -13034,6 +13166,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-43426"
     }
   },
+  "CVE-2024-43427": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:03 AM -0500"
+      ],
+      "cveDis": "A flaw was found in moodle. When creating an export of site administration presets, some sensitive secrets and keys are not being excluded from the export, which could result in them unintentionally being leaked if the presets are shared with a third party.",
+      "cveName": "CVE-2024-43427",
+      "cveUrl": "/vuln/detail/CVE-2024-43427"
+    }
+  },
   "CVE-2024-43428": {
     "cve": {
       "cveDate": [
@@ -13043,6 +13186,28 @@
       "cveDis": "To address a cache poisoning risk in Moodle, additional validation for local storage was required.",
       "cveName": "CVE-2024-43428",
       "cveUrl": "/vuln/detail/CVE-2024-43428"
+    }
+  },
+  "CVE-2024-43429": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:03 AM -0500"
+      ],
+      "cveDis": "A flaw was found in moodle. Some hidden user profile fields are visible in gradebook reports, which could result in users without the \"view hidden user fields\" capability having access to the information.",
+      "cveName": "CVE-2024-43429",
+      "cveUrl": "/vuln/detail/CVE-2024-43429"
+    }
+  },
+  "CVE-2024-43430": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "A flaw was found in moodle. External API access to Quiz can override contained insufficient access control.",
+      "cveName": "CVE-2024-43430",
+      "cveUrl": "/vuln/detail/CVE-2024-43430"
     }
   },
   "CVE-2024-43431": {
@@ -13056,6 +13221,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-43431"
     }
   },
+  "CVE-2024-43432": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "A flaw was found in moodle. The cURL wrapper in Moodle strips HTTPAUTH and USERPWD headers during emulated redirects, but retains other original request headers, so HTTP authorization header information could be unintentionally sent in requests to redirect URLs.",
+      "cveName": "CVE-2024-43432",
+      "cveUrl": "/vuln/detail/CVE-2024-43432"
+    }
+  },
+  "CVE-2024-43433": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "A flaw was found in moodle. Matrix room membership and power levels are incorrectly applied and revoked for suspended Moodle users.",
+      "cveName": "CVE-2024-43433",
+      "cveUrl": "/vuln/detail/CVE-2024-43433"
+    }
+  },
   "CVE-2024-43434": {
     "cve": {
       "cveDate": [
@@ -13065,6 +13252,17 @@
       "cveDis": "The bulk message sending feature in Moodle's Feedback module's non-respondents report had an incorrect CSRF token check, leading to a CSRF vulnerability.",
       "cveName": "CVE-2024-43434",
       "cveUrl": "/vuln/detail/CVE-2024-43434"
+    }
+  },
+  "CVE-2024-43435": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "A flaw was found in moodle. Insufficient capability checks make it possible for users with access to restore glossaries in courses to restore them into the global site glossary.",
+      "cveName": "CVE-2024-43435",
+      "cveUrl": "/vuln/detail/CVE-2024-43435"
     }
   },
   "CVE-2024-43436": {
@@ -13078,6 +13276,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-43436"
     }
   },
+  "CVE-2024-43437": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "A flaw was found in moodle. Insufficient sanitizing of data when performing a restore could result in a cross-site scripting (XSS) risk from malicious backup files.",
+      "cveName": "CVE-2024-43437",
+      "cveUrl": "/vuln/detail/CVE-2024-43437"
+    }
+  },
   "CVE-2024-43438": {
     "cve": {
       "cveDate": [
@@ -13087,6 +13296,17 @@
       "cveDis": "A flaw was found in Feedback. Bulk messaging in the activity's non-respondents report did not verify message recipients belonging to the set of users returned by the report.",
       "cveName": "CVE-2024-43438",
       "cveUrl": "/vuln/detail/CVE-2024-43438"
+    }
+  },
+  "CVE-2024-43439": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:14 AM -0500"
+      ],
+      "cveDis": "A flaw was found in moodle. H5P error messages require additional sanitizing to prevent a reflected cross-site scripting (XSS) risk.",
+      "cveName": "CVE-2024-43439",
+      "cveUrl": "/vuln/detail/CVE-2024-43439"
     }
   },
   "CVE-2024-43440": {
@@ -15441,6 +15661,28 @@
       "cveDis": "IBM WebSphere Application Server 8.5 and 9.0 is vulnerable to an XML external entity injection (XXE) attack when processing XML data. A privileged user could exploit this vulnerability to expose sensitive information or consume memory resources.",
       "cveName": "CVE-2024-450865-5 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-45086"
+    }
+  },
+  "CVE-2024-450874-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "12:15:04 PM -0500"
+      ],
+      "cveDis": "IBM WebSphere Application Server 8.5 and 9.0 is vulnerable to cross-site scripting. This vulnerability allows a privileged user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
+      "cveName": "CVE-2024-450874-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45087"
+    }
+  },
+  "CVE-2024-450886-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:14 AM -0500"
+      ],
+      "cveDis": "IBM Maximo Asset Management 7.6.1.3 is vulnerable to stored cross-site scripting. This vulnerability allows authenticated users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
+      "cveName": "CVE-2024-450886-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45088"
     }
   },
   "CVE-2024-451159-8 CRITICAL": {
@@ -18840,6 +19082,17 @@
       "cveDis": "Cross Site Scripting vulnerability in Follet School Solutions Destiny before v22.0.1 AU1 allows a remote attacker to run arbitrary client-side code via the expiredSupportMessage parameter of handleloginform.do.",
       "cveName": "CVE-2024-47095",
       "cveUrl": "/vuln/detail/CVE-2024-47095"
+    }
+  },
+  "CVE-2024-47131": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "If an attacker tricks a valid user into running Delta Electronics DIAScreen with a file containing malicious code, a stack-based buffer overflow in BACnetObjectInfo can be exploited, allowing the attacker to remotely execute arbitrary code.",
+      "cveName": "CVE-2024-47131",
+      "cveUrl": "/vuln/detail/CVE-2024-47131"
     }
   },
   "CVE-2024-47134": {
@@ -31415,6 +31668,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50262"
     }
   },
+  "CVE-2024-50263": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nfork: only invoke khugepaged, ksm hooks if no error\n\nThere is no reason to invoke these hooks early against an mm that is in an\nincomplete state.\n\nThe change in commit d24062914837 (\"fork: use __mt_dup() to duplicate\nmaple tree in dup_mmap()\") makes this more pertinent as we may be in a\nstate where entries in the maple tree are not yet consistent.\n\nTheir placement early in dup_mmap() only appears to have been meaningful\nfor early error checking, and since functionally it'd require a very small\nallocation to fail (in practice 'too small to fail') that'd only occur in\nthe most dire circumstances, meaning the fork would fail or be OOM'd in\nany case.\n\nSince both khugepaged and KSM tracking are there to provide optimisations\nto memory performance rather than critical functionality, it doesn't\nreally matter all that much if, under such dire memory pressure, we fail\nto register an mm with these.\n\nAs a result, we follow the example of commit d2081b2bf819 (\"mm:\nkhugepaged: make khugepaged_enter() void function\") and make ksm_fork() a\nvoid function also.\n\nWe only expose the mm to these functions once we are done with them and\nonly if no error occurred in the fork operation.",
+      "cveName": "CVE-2024-50263",
+      "cveUrl": "/vuln/detail/CVE-2024-50263"
+    }
+  },
   "CVE-2024-50307": {
     "cve": {
       "cveDate": [
@@ -32933,6 +33197,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-50966"
     }
   },
+  "CVE-2024-50989": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "A SQL injection vulnerability in /omrs/admin/search.php in PHPGurukul Online Marriage Registration System v1.0 allows an attacker to execute arbitrary SQL commands via the \"searchdata \" parameter.",
+      "cveName": "CVE-2024-50989",
+      "cveUrl": "/vuln/detail/CVE-2024-50989"
+    }
+  },
+  "CVE-2024-50990": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "A Reflected Cross Site Scriptng (XSS) vulnerability was found in /omrs/user/search.php in PHPGurukul Online Marriage Registration System v1.0, which allows remote attackers to execute arbitrary code via the \"searchdata\" POST request parameter.",
+      "cveName": "CVE-2024-50990",
+      "cveUrl": "/vuln/detail/CVE-2024-50990"
+    }
+  },
+  "CVE-2024-50991": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "A Cross Site Scripting (XSS) vulnerability was found in /ums-sp/admin/registered-users.php in PHPGurukul User Management System v1.0, which allows remote attackers to execute arbitrary code via the \"fname\" POST request parameter",
+      "cveName": "CVE-2024-50991",
+      "cveUrl": "/vuln/detail/CVE-2024-50991"
+    }
+  },
   "CVE-2024-51030": {
     "cve": {
       "cveDate": [
@@ -32964,6 +33261,17 @@
       "cveDis": "A Cross-site Scripting (XSS) vulnerability in manage_recipient.php of Sourcecodester Toll Tax Management System 1.0 allows remote authenticated users to inject arbitrary web scripts via the \"owner\" input field.",
       "cveName": "CVE-2024-51032",
       "cveUrl": "/vuln/detail/CVE-2024-51032"
+    }
+  },
+  "CVE-2024-51054": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "A Cross Site Scriptng (XSS) vulnerability was found in /omrs/admin/search.php in PHPGurukul Online Marriage Registration System 1.0, which allows remote attackers to execute arbitrary code via the \"searchdata\" POST request parameter.",
+      "cveName": "CVE-2024-51054",
+      "cveUrl": "/vuln/detail/CVE-2024-51054"
     }
   },
   "CVE-2024-51055": {
