@@ -164,6 +164,50 @@
       "cveUrl": "/vuln/detail/CVE-2019-25219"
     }
   },
+  "CVE-2020-10367": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Certain Cypress (and Broadcom) Wireless Combo chips, when a January 2021 firmware update is not present, allow memory access via a \"Spectra\" attack.",
+      "cveName": "CVE-2020-10367",
+      "cveUrl": "/vuln/detail/CVE-2020-10367"
+    }
+  },
+  "CVE-2020-10368": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Certain Cypress (and Broadcom) Wireless Combo chips, when a January 2021 firmware update is not present, allow memory read access via a \"Spectra\" attack.",
+      "cveName": "CVE-2020-10368",
+      "cveUrl": "/vuln/detail/CVE-2020-10368"
+    }
+  },
+  "CVE-2020-10369": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Certain Cypress (and Broadcom) Wireless Combo chips, when a January 2021 firmware update is not present, allow inferences about memory content via a \"Spectra\" attack.",
+      "cveName": "CVE-2020-10369",
+      "cveUrl": "/vuln/detail/CVE-2020-10369"
+    }
+  },
+  "CVE-2020-10370": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "7:15:13 PM -0500"
+      ],
+      "cveDis": "Certain Cypress (and Broadcom) Wireless Combo chips such as CYW43455, when a 2021-01-26 Bluetooth firmware update is not present, allow a Bluetooth outage via a \"Spectra\" attack.",
+      "cveName": "CVE-2020-10370",
+      "cveUrl": "/vuln/detail/CVE-2020-10370"
+    }
+  },
   "CVE-2020-11859": {
     "cve": {
       "cveDate": [
@@ -472,6 +516,17 @@
       "cveUrl": "/vuln/detail/CVE-2020-8007"
     }
   },
+  "CVE-2021-35473": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in LemonLDAP::NG before 2.0.12. There is a missing expiration check in the OAuth2.0 handler, i.e., it does not verify access token validity. An attacker can use a expired access token from an OIDC client to access the OAuth2 handler The earliest affected version is 2.0.4.",
+      "cveName": "CVE-2021-35473",
+      "cveUrl": "/vuln/detail/CVE-2021-35473"
+    }
+  },
   "CVE-2021-37577": {
     "cve": {
       "cveDate": [
@@ -481,6 +536,17 @@
       "cveDis": "Bluetooth LE and BR/EDR Secure Connections pairing and Secure Simple Pairing using the Passkey entry protocol in Bluetooth Core Specifications 2.1 through 5.3 may permit an unauthenticated man-in-the-middle attacker to identify the Passkey used during pairing by reflection of a crafted public key with the same X coordinate as the offered public key and by reflection of the authentication evidence of the initiating device, potentially permitting this attacker to complete authenticated pairing with the responding device using the correct Passkey for the pairing session. This is a related issue to CVE-2020-26558.",
       "cveName": "CVE-2021-37577",
       "cveUrl": "/vuln/detail/CVE-2021-37577"
+    }
+  },
+  "CVE-2021-41737": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "In Faust 2.23.1, an input file with the lines \"// r visualisation tCst\" and \"//process = +: L: abM-^Q;\" and \"process = route(3333333333333333333,2,1,2,3,1) : *;\" leads to stack consumption.",
+      "cveName": "CVE-2021-41737",
+      "cveUrl": "/vuln/detail/CVE-2021-41737"
     }
   },
   "CVE-2021-44439-8 CRITICAL": {
@@ -1031,6 +1097,17 @@
       "cveDis": "Insecure permissions in the sys_exec function of Oracle MYSQL MariaDB v10.5 allows authenticated attackers to execute arbitrary commands with elevated privileges.",
       "cveName": "CVE-2023-39593",
       "cveUrl": "/vuln/detail/CVE-2023-39593"
+    }
+  },
+  "CVE-2023-40457": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "7:15:13 PM -0500"
+      ],
+      "cveDis": "The BGP daemon in Extreme Networks ExtremeXOS (aka EXOS) 30.7.1.1 allows an attacker (who is not on a directly connected network) to cause a denial of service (BGP session reset) because of BGP attribute error mishandling (for attribute 21 and 25). NOTE: the vendor disputes this because it is \"evaluating support for RFC 7606 as a future feature\" and believes that \"customers that have chosen to not require or implement RFC 7606 have done so willingly and with knowledge of what is needed to defend against these types of attacks.\"",
+      "cveName": "CVE-2023-40457",
+      "cveUrl": "/vuln/detail/CVE-2023-40457"
     }
   },
   "CVE-2023-45359": {
@@ -6157,6 +6234,50 @@
       "cveDis": "A vulnerability has been found in Codezips Hospital Appointment System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /removeBranchResult.php. The manipulation of the argument ID/Name leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-11057",
       "cveUrl": "/vuln/detail/CVE-2024-11057"
+    }
+  },
+  "CVE-2024-11058": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in CodeAstro Real Estate Management System up to 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /aboutedit.php of the component About Us Page. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11058",
+      "cveUrl": "/vuln/detail/CVE-2024-11058"
+    }
+  },
+  "CVE-2024-11059": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "7:15:13 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Project Worlds Free Download Online Shopping System up to 192.168.1.88. It has been rated as critical. This issue affects some unknown processing of the file /online-shopping-webvsite-in-php-master/success.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11059",
+      "cveUrl": "/vuln/detail/CVE-2024-11059"
+    }
+  },
+  "CVE-2024-11060": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in Jinher Network Collaborative Management Platform 金和数字化智能办公平台 1.0. Affected is an unknown function of the file /C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11060",
+      "cveUrl": "/vuln/detail/CVE-2024-11060"
+    }
+  },
+  "CVE-2024-11061": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in Tenda AC10 16.03.10.13. Affected by this vulnerability is the function FUN_0044db3c of the file /goform/fast_setting_wifi_set. The manipulation of the argument timeZone leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11061",
+      "cveUrl": "/vuln/detail/CVE-2024-11061"
     }
   },
   "CVE-2024-20090": {
@@ -12341,6 +12462,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-41988"
     }
   },
+  "CVE-2024-41992": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "Wi-Fi Alliance wfa_dut (in Wi-Fi Test Suite) through 9.0.0 allows OS command injection via 802.11x frames because the system() library function is used. For example, on Arcadyan FMIMG51AX000J devices, this leads to wfaTGSendPing remote code execution as root via traffic to TCP port 8000 or 8080 on a LAN interface. On other devices, this may be exploitable over a WAN interface.",
+      "cveName": "CVE-2024-41992",
+      "cveUrl": "/vuln/detail/CVE-2024-41992"
+    }
+  },
   "CVE-2024-41997": {
     "cve": {
       "cveDate": [
@@ -17720,6 +17852,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46606"
     }
   },
+  "CVE-2024-46613": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "4:15:14 PM -0500"
+      ],
+      "cveDis": "WeeChat before 4.4.2 has an integer overflow and resultant buffer overflow at core/core-string.c when there are more than two billion items in a list. This affects string_free_split_shared , string_free_split, string_free_split_command, and string_free_split_tags.",
+      "cveName": "CVE-2024-46613",
+      "cveUrl": "/vuln/detail/CVE-2024-46613"
+    }
+  },
   "CVE-2024-46626": {
     "cve": {
       "cveDate": [
@@ -17916,6 +18059,72 @@
       "cveDis": "Northern.tech Mender before 3.6.5 and 3.7.x before 3.7.5 has Incorrect Access Control.",
       "cveName": "CVE-2024-46948",
       "cveUrl": "/vuln/detail/CVE-2024-46948"
+    }
+  },
+  "CVE-2024-46951": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "4:15:14 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in psi/zcolor.c in Artifex Ghostscript before 10.04.0. An unchecked Implementation pointer in Pattern color space could lead to arbitrary code execution.",
+      "cveName": "CVE-2024-46951",
+      "cveUrl": "/vuln/detail/CVE-2024-46951"
+    }
+  },
+  "CVE-2024-46952": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "5:15:12 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in pdf/pdf_xref.c in Artifex Ghostscript before 10.04.0. There is a buffer overflow during handling of a PDF XRef stream (related to W array values).",
+      "cveName": "CVE-2024-46952",
+      "cveUrl": "/vuln/detail/CVE-2024-46952"
+    }
+  },
+  "CVE-2024-46953": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "5:15:12 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in base/gsdevice.c in Artifex Ghostscript before 10.04.0. An integer overflow when parsing the filename format string (for the output filename) results in path truncation, and possible path traversal and code execution.",
+      "cveName": "CVE-2024-46953",
+      "cveUrl": "/vuln/detail/CVE-2024-46953"
+    }
+  },
+  "CVE-2024-46954": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "5:15:12 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in decode_utf8 in base/gp_utf8.c in Artifex Ghostscript before 10.04.0. Overlong UTF-8 encoding leads to possible ../ directory traversal.",
+      "cveName": "CVE-2024-46954",
+      "cveUrl": "/vuln/detail/CVE-2024-46954"
+    }
+  },
+  "CVE-2024-46955": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "5:15:12 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in psi/zcolor.c in Artifex Ghostscript before 10.04.0. There is an out-of-bounds read when reading color in Indexed color space.",
+      "cveName": "CVE-2024-46955",
+      "cveUrl": "/vuln/detail/CVE-2024-46955"
+    }
+  },
+  "CVE-2024-46956": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "5:15:12 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in psi/zfile.c in Artifex Ghostscript before 10.04.0. Out-of-bounds data access in filenameforall can lead to arbitrary code execution.",
+      "cveName": "CVE-2024-46956",
+      "cveUrl": "/vuln/detail/CVE-2024-46956"
     }
   },
   "CVE-2024-46960": {
@@ -25616,6 +25825,17 @@
       "cveDis": "Znuny before LTS 6.5.1 through 6.5.10 and 7.0.1 through 7.0.16 allows DoS/ReDos via email. Parsing the content of emails where HTML code is copied from Microsoft Word could lead to high CPU usage and block the parsing process.",
       "cveName": "CVE-2024-48938",
       "cveUrl": "/vuln/detail/CVE-2024-48938"
+    }
+  },
+  "CVE-2024-48939": {
+    "cve": {
+      "cveDate": [
+        "November 10, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "Insufficient validation performed on the REST API License file in Paxton Net2 before 6.07.14023.5015 (SR4) enables use of the REST API with an invalid License File. Attackers may be able to retrieve access-log data.",
+      "cveName": "CVE-2024-48939",
+      "cveUrl": "/vuln/detail/CVE-2024-48939"
     }
   },
   "CVE-2024-48941": {
