@@ -3387,6 +3387,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10314"
     }
   },
+  "CVE-2024-10315": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:17 PM -0500"
+      ],
+      "cveDis": "In Gliffy Online an insecure configuration was discovered in versions before 4.14.0-6",
+      "cveName": "CVE-2024-10315",
+      "cveUrl": "/vuln/detail/CVE-2024-10315"
+    }
+  },
   "CVE-2024-10318": {
     "cve": {
       "cveDate": [
@@ -4586,6 +4597,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10535"
     }
   },
+  "CVE-2024-105386-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "The Happy Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the before_label parameter in the Image Comparison widget in all versions up to, and including, 3.12.5 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-105386-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10538"
+    }
+  },
   "CVE-2024-105405-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -5103,6 +5125,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10668"
     }
   },
+  "CVE-2024-106722-7 LOW": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "The Multiple Page Generator Plugin – MPG plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the mpg_upsert_project_source_block() function in all versions up to, and including, 4.0.2. This makes it possible for authenticated attackers, with editor-level access and above, to delete limited files on the server.",
+      "cveName": "CVE-2024-106722-7 LOW",
+      "cveUrl": "/vuln/detail/CVE-2024-10672"
+    }
+  },
   "CVE-2024-106738-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -5125,6 +5158,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10674"
     }
   },
+  "CVE-2024-106856-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "The Contact Form 7 Redirect & Thank You Page plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'tab' parameter in all versions up to, and including, 1.0.6 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-106856-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10685"
+    }
+  },
   "CVE-2024-106879-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -5145,6 +5189,17 @@
       "cveDis": "The SKT Addons for Elementor plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 3.3 via the Unfold widget due to insufficient restrictions on which posts can be included. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract data from private or draft posts created by Elementor that they should not have access to.",
       "cveName": "CVE-2024-106934-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10693"
+    }
+  },
+  "CVE-2024-106954-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "The Futurio Extra plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 2.0.13 via the 'elementor-template' shortcode due to insufficient restrictions on which posts can be included. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract data from private or draft posts that they should not have access to.",
+      "cveName": "CVE-2024-106954-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10695"
     }
   },
   "CVE-2024-10697": {
@@ -6509,6 +6564,105 @@
       "cveDis": "A vulnerability, which was classified as critical, has been found in code-projects Job Recruitment 1.0. This issue affects some unknown processing of the file /activation.php. The manipulation of the argument e_hash leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-11076",
       "cveUrl": "/vuln/detail/CVE-2024-11076"
+    }
+  },
+  "CVE-2024-11077": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in code-projects Job Recruitment 1.0. Affected is an unknown function of the file /index.php. The manipulation of the argument email leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11077",
+      "cveUrl": "/vuln/detail/CVE-2024-11077"
+    }
+  },
+  "CVE-2024-11078": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:17 PM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in code-projects Job Recruitment 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /register.php. The manipulation of the argument e leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11078",
+      "cveUrl": "/vuln/detail/CVE-2024-11078"
+    }
+  },
+  "CVE-2024-110795-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "7:15:15 PM -0500"
+      ],
+      "cveDis": "A flaw was found in Ansible-Core. This vulnerability allows attackers to bypass unsafe content protections using the hostvars object to reference and execute templated content. This issue can lead to arbitrary code execution if remote data or module outputs are improperly templated within playbooks.",
+      "cveName": "CVE-2024-110795-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11079"
+    }
+  },
+  "CVE-2024-11096": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in code-projects Task Manager 1.0. This affects an unknown part of the file /newProject.php. The manipulation of the argument projectName leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11096",
+      "cveUrl": "/vuln/detail/CVE-2024-11096"
+    }
+  },
+  "CVE-2024-11097": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in SourceCodester Student Record Management System 1.0 and classified as problematic. This vulnerability affects unknown code of the component Main Menu. The manipulation leads to infinite loop. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11097",
+      "cveUrl": "/vuln/detail/CVE-2024-11097"
+    }
+  },
+  "CVE-2024-11099": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Job Recruitment 1.0 and classified as critical. This issue affects some unknown processing of the file /login.php. The manipulation of the argument email leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11099",
+      "cveUrl": "/vuln/detail/CVE-2024-11099"
+    }
+  },
+  "CVE-2024-11100": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 1000 Projects Beauty Parlour Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /index.php. The manipulation of the argument name leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11100",
+      "cveUrl": "/vuln/detail/CVE-2024-11100"
+    }
+  },
+  "CVE-2024-11101": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 1000 Projects Beauty Parlour Management System 1.0. It has been classified as critical. Affected is an unknown function of the file /admin/search-invoices.php. The manipulation of the argument searchdata leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11101",
+      "cveUrl": "/vuln/detail/CVE-2024-11101"
+    }
+  },
+  "CVE-2024-11102": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in SourceCodester Hospital Management System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /vm/doctor/edit-doc.php. The manipulation of the argument name leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-11102",
+      "cveUrl": "/vuln/detail/CVE-2024-11102"
     }
   },
   "CVE-2024-20090": {
@@ -8942,6 +9096,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-23967"
     }
   },
+  "CVE-2024-23983": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Improper handling of canonical URL-encoding may lead to bypass not properly constrained by request rules.",
+      "cveName": "CVE-2024-23983",
+      "cveUrl": "/vuln/detail/CVE-2024-23983"
+    }
+  },
   "CVE-2024-24116": {
     "cve": {
       "cveDate": [
@@ -9006,6 +9171,39 @@
       "cveDis": "Authenticated Gaia users can inject code or commands by global variables through special HTTP requests. A Security fix that mitigates this vulnerability is available.",
       "cveName": "CVE-2024-24914",
       "cveUrl": "/vuln/detail/CVE-2024-24914"
+    }
+  },
+  "CVE-2024-25253": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Driver Booster v10.6 was discovered to contain a buffer overflow via the Host parameter under the Customize proxy module.",
+      "cveName": "CVE-2024-25253",
+      "cveUrl": "/vuln/detail/CVE-2024-25253"
+    }
+  },
+  "CVE-2024-25254": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "SuperScan v4.1 was discovered to contain a buffer overflow via the Hostname/IP parameter.",
+      "cveName": "CVE-2024-25254",
+      "cveUrl": "/vuln/detail/CVE-2024-25254"
+    }
+  },
+  "CVE-2024-25255": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Sublime Text 4 was discovered to contain a command injection vulnerability via the New Build System module.",
+      "cveName": "CVE-2024-25255",
+      "cveUrl": "/vuln/detail/CVE-2024-25255"
     }
   },
   "CVE-2024-25282": {
@@ -11021,6 +11219,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-36060"
     }
   },
+  "CVE-2024-36061": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:17 PM -0500"
+      ],
+      "cveDis": "EnGenius EWS356-FIT devices through 1.1.30 allow blind OS command injection. This allows an attacker to execute arbitrary OS commands via shell metacharacters to the Ping and Speed Test utilities.",
+      "cveName": "CVE-2024-36061",
+      "cveUrl": "/vuln/detail/CVE-2024-36061"
+    }
+  },
   "CVE-2024-36062": {
     "cve": {
       "cveDate": [
@@ -12856,6 +13065,17 @@
       "cveDis": "Improper Validation of Specified Quantity in Input vulnerability in OpenText OpenText Application Automation Tools allows Exploiting Incorrectly Configured Access Control Security Levels.\n\n\nMultiple missing permission checks - ALM job config has been discovered in OpenText Application Automation Tools. The vulnerability could allow users with Overall/Read permission to enumerate ALM server names, usernames and client IDs configured to be used with ALM servers.\n\n\nThis issue affects OpenText Application Automation Tools: 24.1.0 and below.",
       "cveName": "CVE-2024-4211",
       "cveUrl": "/vuln/detail/CVE-2024-4211"
+    }
+  },
+  "CVE-2024-42372": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:03 PM -0500"
+      ],
+      "cveDis": "Due to missing authorization check in SAP NetWeaver AS Java (System Landscape Directory) an unauthorized user can read and modify some restricted global SLD configurations causing low impact on confidentiality and integrity of the application.",
+      "cveName": "CVE-2024-42372",
+      "cveUrl": "/vuln/detail/CVE-2024-42372"
     }
   },
   "CVE-2024-424158-4 HIGH": {
@@ -15441,6 +15661,17 @@
       "cveDis": "An issue in Shanghai Zhouma Network Technology CO., Ltd IMS Intelligent Manufacturing Collaborative Internet of Things System v.1.9.1 allows a remote attacker to escalate privileges via the open port.",
       "cveName": "CVE-2024-44439",
       "cveUrl": "/vuln/detail/CVE-2024-44439"
+    }
+  },
+  "CVE-2024-44546": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "Powerjob >= 3.20 is vulnerable to SQL injection via the version parameter.",
+      "cveName": "CVE-2024-44546",
+      "cveUrl": "/vuln/detail/CVE-2024-44546"
     }
   },
   "CVE-2024-44610": {
@@ -18545,6 +18776,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-46961"
     }
   },
+  "CVE-2024-46962": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "The SYQ com.downloader.video.fast (aka Master Video Downloader) application through 2.0 for Android allows an attacker to execute arbitrary JavaScript code via the com.downloader.video.fast.SpeedMainAct component.",
+      "cveName": "CVE-2024-46962",
+      "cveUrl": "/vuln/detail/CVE-2024-46962"
+    }
+  },
+  "CVE-2024-46963": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "The com.superfast.video.downloader (aka Super Unlimited Video Downloader - All in One) application through 5.1.9 for Android allows an attacker to execute arbitrary JavaScript code via the com.bluesky.browser.ui.BrowserMainActivity component.",
+      "cveName": "CVE-2024-46963",
+      "cveUrl": "/vuln/detail/CVE-2024-46963"
+    }
+  },
+  "CVE-2024-46964": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "The com.video.downloader.all (aka All Video Downloader) application through 11.28 for Android allows an attacker to execute arbitrary JavaScript code via the com.video.downloader.all.StartActivity component.",
+      "cveName": "CVE-2024-46964",
+      "cveUrl": "/vuln/detail/CVE-2024-46964"
+    }
+  },
+  "CVE-2024-46965": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:17 PM -0500"
+      ],
+      "cveDis": "The DS allvideo.downloader.browser (aka Fast Video Downloader: Browser) application through 1.6-RC1 for Android allows an attacker to execute arbitrary JavaScript code via the allvideo.downloader.browser.DefaultBrowserActivity component.",
+      "cveName": "CVE-2024-46965",
+      "cveUrl": "/vuln/detail/CVE-2024-46965"
+    }
+  },
+  "CVE-2024-46966": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "The Ikhgur mn.ikhgur.khotoch (aka Video Downloader Pro & Browser) application through 1.0.42 for Android allows an attacker to execute arbitrary JavaScript code via the mn.ikhgur.khotoch.MainActivity component.",
+      "cveName": "CVE-2024-46966",
+      "cveUrl": "/vuln/detail/CVE-2024-46966"
+    }
+  },
   "CVE-2024-46977": {
     "cve": {
       "cveDate": [
@@ -21273,6 +21559,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-47575"
     }
   },
+  "CVE-2024-47586": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "SAP NetWeaver Application Server for ABAP and ABAP Platform allows an unauthenticated attacker to send a maliciously crafted http request which could cause a null pointer dereference in the kernel. This dereference will result in the system crashing and rebooting, causing the system to be temporarily unavailable. There is no impact on Confidentiality or Integrity.",
+      "cveName": "CVE-2024-47586",
+      "cveUrl": "/vuln/detail/CVE-2024-47586"
+    }
+  },
+  "CVE-2024-47587": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "Cash Operations does not perform necessary authorization check for an authenticated user, resulting in escalation of privileges causing low impact to confidentiality to the application.",
+      "cveName": "CVE-2024-47587",
+      "cveUrl": "/vuln/detail/CVE-2024-47587"
+    }
+  },
+  "CVE-2024-47588": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "In SAP NetWeaver Java (Software Update Manager 1.1), under certain conditions when a software upgrade encounters errors, credentials are written in plaintext to a log file. An attacker with local access to the server, authenticated as a non-administrative user, can acquire the credentials from the logs. This leads to a high impact on confidentiality, with no impact on integrity or availability.",
+      "cveName": "CVE-2024-47588",
+      "cveUrl": "/vuln/detail/CVE-2024-47588"
+    }
+  },
+  "CVE-2024-47590": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "An unauthenticated attacker can create a malicious link which they can make publicly available. When an authenticated victim clicks on this malicious link, input data will be used by the web site page generation to create content which when executed in the victim's browser (XXS) or transmitted to another server (SSRF) gives the attacker the ability to execute arbitrary code on the server fully compromising confidentiality, integrity and availability.",
+      "cveName": "CVE-2024-47590",
+      "cveUrl": "/vuln/detail/CVE-2024-47590"
+    }
+  },
+  "CVE-2024-47592": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:05 PM -0500"
+      ],
+      "cveDis": "SAP NetWeaver AS Java allows an unauthenticated attacker to brute force the login functionality in order to identify the legitimate user IDs. This has an impact on confidentiality but not on integrity or availability.",
+      "cveName": "CVE-2024-47592",
+      "cveUrl": "/vuln/detail/CVE-2024-47592"
+    }
+  },
+  "CVE-2024-47593": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:05 PM -0500"
+      ],
+      "cveDis": "SAP NetWeaver Application Server ABAP allows an unauthenticated attacker with network access to read files from the server, which otherwise would be restricted.This attack is possible only if a Web Dispatcher or some sort of Proxy Server is in use and the file in question was previously opened or downloaded in an application based on SAP GUI for HTML Technology. This will not compromise the application's integrity or availability.",
+      "cveName": "CVE-2024-47593",
+      "cveUrl": "/vuln/detail/CVE-2024-47593"
+    }
+  },
   "CVE-2024-47594": {
     "cve": {
       "cveDate": [
@@ -21282,6 +21634,17 @@
       "cveDis": "SAP NetWeaver Enterprise Portal (KMC) does not sufficiently encode user-controlled inputs, resulting in Cross-Site Scripting vulnerability in KMC servlet. An attacker could craft a script and trick the user into clicking it. When a victim who is registered on the portal clicks on such link, confidentiality and integrity of their web browser session could be compromised.",
       "cveName": "CVE-2024-47594",
       "cveUrl": "/vuln/detail/CVE-2024-47594"
+    }
+  },
+  "CVE-2024-47595": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "8:15:05 PM -0500"
+      ],
+      "cveDis": "An attacker who gains local membership to sapsys group could replace local files usually protected by privileged access. On successful exploitation the attacker could cause high impact on confidentiality and integrity of the application.",
+      "cveName": "CVE-2024-47595",
+      "cveUrl": "/vuln/detail/CVE-2024-47595"
     }
   },
   "CVE-2024-47604": {
@@ -24705,6 +25068,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48312"
     }
   },
+  "CVE-2024-48322": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:17 PM -0500"
+      ],
+      "cveDis": "UsersController.php in Run.codes 1.5.2 and older has a reset password race condition vulnerability.",
+      "cveName": "CVE-2024-48322",
+      "cveUrl": "/vuln/detail/CVE-2024-48322"
+    }
+  },
   "CVE-2024-48325": {
     "cve": {
       "cveDate": [
@@ -25935,6 +26309,28 @@
       "cveDis": "An issue in sbondCo Watcharr v.1.43.0 allows a remote attacker to execute arbitrary code and escalate privileges via the Change Password function.",
       "cveName": "CVE-2024-48827",
       "cveUrl": "/vuln/detail/CVE-2024-48827"
+    }
+  },
+  "CVE-2024-48837": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "Dell SmartFabric OS10 Software, version(s) 10.5.6.x, 10.5.5.x, 10.5.4.x, 10.5.3.x, contain(s) an Execution with Unnecessary Privileges vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Command execution",
+      "cveName": "CVE-2024-48837",
+      "cveUrl": "/vuln/detail/CVE-2024-48837"
+    }
+  },
+  "CVE-2024-48838": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "Dell SmartFabric OS10 Software, version(s) 10.5.6.x, 10.5.5.x, 10.5.4.x, 10.5.3.x, contain(s) a Files or Directories Accessible to External Parties vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Filesystem access for attacker.",
+      "cveName": "CVE-2024-48838",
+      "cveUrl": "/vuln/detail/CVE-2024-48838"
     }
   },
   "CVE-2024-48870": {
@@ -27829,6 +28225,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-49392"
     }
   },
+  "CVE-2024-493937-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "In neomutt and mutt, the To and Cc email headers are not validated by cryptographic signing which allows an attacker that intercepts a message to change their value and include himself as a one of the recipients to compromise message confidentiality.",
+      "cveName": "CVE-2024-493937-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-49393"
+    }
+  },
+  "CVE-2024-493945-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "In mutt and neomutt the In-Reply-To email header field is not protected by cryptographic signing which allows an attacker to reuse an unencrypted but signed email message to impersonate the original sender.",
+      "cveName": "CVE-2024-493945-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-49394"
+    }
+  },
+  "CVE-2024-493955-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "10:15:03 PM -0500"
+      ],
+      "cveDis": "In mutt and neomutt, PGP encryption does not use the --hidden-recipient mode which may leak the Bcc email header field by inferring from the recipients info.",
+      "cveName": "CVE-2024-493955-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-49395"
+    }
+  },
   "CVE-2024-49396": {
     "cve": {
       "cveDate": [
@@ -28025,6 +28454,39 @@
       "cveDis": "Adobe Experience Manager versions 6.5.20 and earlier are affected by a DOM-based Cross-Site Scripting (XSS) vulnerability that could be exploited by an attacker to execute arbitrary code in the context of the victim's browser session. By manipulating a DOM element through a crafted URL or user input, the attacker can inject malicious scripts that run when the page is rendered. This type of attack requires user interaction, as the victim would need to access a manipulated URL or provide specific input to trigger the vulnerability.",
       "cveName": "CVE-2024-495245-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-49524"
+    }
+  },
+  "CVE-2024-49557": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:06 PM -0500"
+      ],
+      "cveDis": "Dell SmartFabric OS10 Software, version(s) 10.5.6.x, 10.5.5.x, 10.5.4.x, 10.5.3.x, contain(s) an Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Code execution.",
+      "cveName": "CVE-2024-49557",
+      "cveUrl": "/vuln/detail/CVE-2024-49557"
+    }
+  },
+  "CVE-2024-49558": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:06 PM -0500"
+      ],
+      "cveDis": "Dell SmartFabric OS10 Software, version(s) 10.5.6.x, 10.5.5.x, 10.5.4.x, 10.5.3.x, contain(s) an Improper Privilege Management vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Elevation of privileges.",
+      "cveName": "CVE-2024-49558",
+      "cveUrl": "/vuln/detail/CVE-2024-49558"
+    }
+  },
+  "CVE-2024-49560": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "11:15:06 PM -0500"
+      ],
+      "cveDis": "Dell SmartFabric OS10 Software, version(s) 10.5.6.x, 10.5.5.x, 10.5.4.x, 10.5.3.x, contain(s) a command injection vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Command execution.",
+      "cveName": "CVE-2024-49560",
+      "cveUrl": "/vuln/detail/CVE-2024-49560"
     }
   },
   "CVE-2024-49579": {
@@ -32977,6 +33439,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50599"
     }
   },
+  "CVE-2024-50601": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Persistent and reflected XSS vulnerabilities in the themeMode cookie and _h URL parameter of Axigen Mail Server up to version 10.5.28 allow attackers to execute arbitrary Javascript. Exploitation could lead to session hijacking, data leakage, and further exploitation via a multi-stage attack. Fixed in versions 10.3.3.67, 10.4.42, and 10.5.29.",
+      "cveName": "CVE-2024-50601",
+      "cveUrl": "/vuln/detail/CVE-2024-50601"
+    }
+  },
   "CVE-2024-50602": {
     "cve": {
       "cveDate": [
@@ -33098,6 +33571,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50634"
     }
   },
+  "CVE-2024-50636": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "PyMOL 2.5.0 contains a vulnerability in its \"Run Script\" function, which allows the execution of arbitrary Python code embedded within .PYM files. Attackers can craft a malicious .PYM file containing a Python reverse shell payload and exploit the function to achieve Remote Command Execution (RCE). This vulnerability arises because PyMOL treats .PYM files as Python scripts without properly validating or restricting the commands within the script, enabling attackers to run unauthorized commands in the context of the user running the application.",
+      "cveName": "CVE-2024-50636",
+      "cveUrl": "/vuln/detail/CVE-2024-50636"
+    }
+  },
   "CVE-2024-50637": {
     "cve": {
       "cveDate": [
@@ -33107,6 +33591,17 @@
       "cveDis": "UnoPim 0.1.3 and below is vulnerable to Cross Site Scripting (XSS) in the Create User function. ¶¶ The vulnerability allows attackers to perform XSS in SVG file extension, which can be used to stealing cookies.",
       "cveName": "CVE-2024-50637",
       "cveUrl": "/vuln/detail/CVE-2024-50637"
+    }
+  },
+  "CVE-2024-50667": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:03 PM -0500"
+      ],
+      "cveDis": "The boa httpd of Trendnet TEW-820AP 1.01.B01 has a stack overflow vulnerability in /boafrm/formIPv6Addr, /boafrm/formIpv6Setup, /boafrm/formDnsv6. The reason is that the check of ipv6 address is not sufficient, which allows attackers to construct payloads for attacks.",
+      "cveName": "CVE-2024-50667",
+      "cveUrl": "/vuln/detail/CVE-2024-50667"
     }
   },
   "CVE-2024-50766": {
@@ -33228,6 +33723,17 @@
       "cveDis": "A Cross Site Scripting (XSS) vulnerability was found in /ums-sp/admin/registered-users.php in PHPGurukul User Management System v1.0, which allows remote attackers to execute arbitrary code via the \"fname\" POST request parameter",
       "cveName": "CVE-2024-50991",
       "cveUrl": "/vuln/detail/CVE-2024-50991"
+    }
+  },
+  "CVE-2024-51026": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "The NetAdmin IAM system (version 4.0.30319) has a Cross Site Scripting (XSS) vulnerability in the /BalloonSave.ashx endpoint, where it is possible to inject a malicious payload into the Content= field.",
+      "cveName": "CVE-2024-51026",
+      "cveUrl": "/vuln/detail/CVE-2024-51026"
     }
   },
   "CVE-2024-51030": {
@@ -33406,6 +33912,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51132"
     }
   },
+  "CVE-2024-51135": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "2:15:04 PM -0500"
+      ],
+      "cveDis": "An XML External Entity (XXE) vulnerability in the component DocumentBuilderFactory of powertac-server v1.9.0 allows attackers to access sensitive information or execute arbitrary code via supplying a crafted request containing malicious XML entities.",
+      "cveName": "CVE-2024-51135",
+      "cveUrl": "/vuln/detail/CVE-2024-51135"
+    }
+  },
   "CVE-2024-51136": {
     "cve": {
       "cveDate": [
@@ -33461,6 +33978,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-51181"
     }
   },
+  "CVE-2024-51186": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:17 PM -0500"
+      ],
+      "cveDis": "D-Link DIR-820L 1.05b03 was discovered to contain a remote code execution (RCE) vulnerability via the ping_addr parameter in the ping_v4 and ping_v6 functions.",
+      "cveName": "CVE-2024-51186",
+      "cveUrl": "/vuln/detail/CVE-2024-51186"
+    }
+  },
+  "CVE-2024-51187": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:17 PM -0500"
+      ],
+      "cveDis": "TRENDnet TEW-651BR 2.04B1, TEW-652BRP 3.04b01, and TEW-652BRU 1.00b12 devices contain a Store Cross-site scripting (XSS) vulnerability via the firewallRule_Name_1.1.1.0.0 parameter on the /firewall_setting.htm page.",
+      "cveName": "CVE-2024-51187",
+      "cveUrl": "/vuln/detail/CVE-2024-51187"
+    }
+  },
+  "CVE-2024-51188": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "TRENDnet TEW-651BR 2.04B1, TEW-652BRP 3.04b01, and TEW-652BRU 1.00b12 devices contain a Store Cross-site scripting (XSS) vulnerability via the vsRule_VirtualServerName_1.1.10.0.0 parameter on the /virtual_server.htm page.",
+      "cveName": "CVE-2024-51188",
+      "cveUrl": "/vuln/detail/CVE-2024-51188"
+    }
+  },
+  "CVE-2024-51189": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "TRENDnet TEW-651BR 2.04B1, TEW-652BRP 3.04b01, and TEW-652BRU 1.00b12 devices contain a Store Cross-site scripting (XSS) vulnerability via the macList_Name_1.1.1.0.0 parameter on the /filters.htm page.",
+      "cveName": "CVE-2024-51189",
+      "cveUrl": "/vuln/detail/CVE-2024-51189"
+    }
+  },
+  "CVE-2024-51190": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "TRENDnet TEW-651BR 2.04B1, TEW-652BRP 3.04b01, and TEW-652BRU 1.00b12 devices contain a Store Cross-site scripting (XSS) vulnerability via the ptRule_ApplicationName_1.1.6.0.0 parameter on the /special_ap.htm page.",
+      "cveName": "CVE-2024-51190",
+      "cveUrl": "/vuln/detail/CVE-2024-51190"
+    }
+  },
   "CVE-2024-51211": {
     "cve": {
       "cveDate": [
@@ -33470,6 +34042,17 @@
       "cveDis": "SQL injection vulnerability exists in OS4ED openSIS-Classic Version 9.1, specifically in the resetuserinfo.php file. The vulnerability is due to improper input validation of the $username_stn_id parameter, which can be manipulated by an attacker to inject arbitrary SQL commands.",
       "cveName": "CVE-2024-51211",
       "cveUrl": "/vuln/detail/CVE-2024-51211"
+    }
+  },
+  "CVE-2024-51213": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in Online Shop Store v.1.0 allows a remote attacker to execute arbitrary code via the login.php component.",
+      "cveName": "CVE-2024-51213",
+      "cveUrl": "/vuln/detail/CVE-2024-51213"
     }
   },
   "CVE-2024-51240": {
@@ -34064,6 +34647,83 @@
       "cveDis": "changedetection.io is free, open source web page change detection software. Prior to version 0.47.5, when a WebDriver is used to fetch files, `source:file:///etc/passwd` can be used to retrieve local system files, where the more traditional `file:///etc/passwd` gets blocked. Version 0.47.5 fixes the issue.",
       "cveName": "CVE-2024-51483",
       "cveUrl": "/vuln/detail/CVE-2024-51483"
+    }
+  },
+  "CVE-2024-51484": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "Ampache is a web based audio/video streaming application and file manager. The current implementation of token parsing fails to properly validate CSRF tokens when activating or deactivating controllers. This vulnerability allows an attacker to exploit CSRF attacks, potentially enabling them to change website features that should only be managed by administrators through malicious requests. This issue has been addressed in version 7.0.1 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51484",
+      "cveUrl": "/vuln/detail/CVE-2024-51484"
+    }
+  },
+  "CVE-2024-51485": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "Ampache is a web based audio/video streaming application and file manager. The current implementation of token parsing fails to properly validate CSRF tokens when activating or deactivating plugins. This vulnerability allows an attacker to exploit CSRF attacks, potentially enabling them to change website features that should only be managed by administrators through malicious requests. This issue has been addressed in version 7.0.1 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51485",
+      "cveUrl": "/vuln/detail/CVE-2024-51485"
+    }
+  },
+  "CVE-2024-51486": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "Ampache is a web based audio/video streaming application and file manager. The vulnerability exists in the interface section of the Ampache menu, where users can change the \"Custom URL - Favicon\". This section is not properly sanitized, allowing for the input of strings that can execute JavaScript. This issue has been addressed in version 7.0.1 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51486",
+      "cveUrl": "/vuln/detail/CVE-2024-51486"
+    }
+  },
+  "CVE-2024-51487": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "Ampache is a web based audio/video streaming application and file manager. The current implementation of token parsing fails to properly validate CSRF tokens when activating or deactivating catalog. This vulnerability allows an attacker to exploit CSRF attacks, potentially enabling them to change website features that should only be managed by administrators through malicious requests. This issue has been addressed in version 7.0.1 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51487",
+      "cveUrl": "/vuln/detail/CVE-2024-51487"
+    }
+  },
+  "CVE-2024-51488": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "Ampache is a web based audio/video streaming application and file manager. The current implementation of token parsing does not adequately validate CSRF tokens when users delete messages. This vulnerability could be exploited to forge CSRF attacks, allowing an attacker to delete messages to any user, including administrators, if they interact with a malicious request. This issue has been addressed in version 7.0.1 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51488",
+      "cveUrl": "/vuln/detail/CVE-2024-51488"
+    }
+  },
+  "CVE-2024-51489": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "Ampache is a web based audio/video streaming application and file manager. The current implementation of token parsing does not adequately validate CSRF tokens when users send messages to one another. This vulnerability could be exploited to forge CSRF attacks, allowing an attacker to send messages to any user, including administrators, if they interact with a malicious request. This issue has been addressed in version 7.0.1 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51489",
+      "cveUrl": "/vuln/detail/CVE-2024-51489"
+    }
+  },
+  "CVE-2024-51490": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "Ampache is a web based audio/video streaming application and file manager. This vulnerability exists in the interface section of the Ampache menu, where users can change \"Custom URL - Logo\". This section is not properly sanitized, allowing for the input of strings that can execute JavaScript. This issue has been addressed in version 7.0.1 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51490",
+      "cveUrl": "/vuln/detail/CVE-2024-51490"
     }
   },
   "CVE-2024-51492": {
@@ -35463,6 +36123,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-51746"
     }
   },
+  "CVE-2024-51747": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "Kanboard is project management software that focuses on the Kanban methodology. An authenticated Kanboard admin can read and delete arbitrary files from the server. File attachments, that are viewable or downloadable in Kanboard are resolved through its `path` entry in the `project_has_files`  SQLite db. Thus, an attacker who can upload a modified sqlite.db through the dedicated feature, can set arbitrary file links, by abusing path traversals. Once the modified db is uploaded and the project page is accessed, a file download can be triggered and all files, readable in the context of the Kanboard application permissions, can be downloaded. This issue has been addressed in version 1.2.42 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51747",
+      "cveUrl": "/vuln/detail/CVE-2024-51747"
+    }
+  },
+  "CVE-2024-51748": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "Kanboard is project management software that focuses on the Kanban methodology. An authenticated Kanboard admin can run arbitrary php code on the server in combination with a file write possibility. The user interface language is determined and loaded by the setting `application_language` in the `settings` table. Thus, an attacker who can upload a modified sqlite.db through the dedicated feature, has control over the filepath, which is loaded. Exploiting this vulnerability has one constraint: the attacker must be able to place a file (called translations.php) on the system. However, this is not impossible, think of anonymous FTP server or another application that allows uploading files. Once the attacker has placed its file with the actual php code as the payload, the attacker can craft a sqlite db settings, which uses path traversal to point to the directory, where the `translations.php` file is stored. Then gaining code execution after importing the crafted sqlite.db. This issue has been addressed in version 1.2.42 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-51748",
+      "cveUrl": "/vuln/detail/CVE-2024-51748"
+    }
+  },
   "CVE-2024-51751": {
     "cve": {
       "cveDate": [
@@ -35804,6 +36486,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51990"
     }
   },
+  "CVE-2024-51992": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "Orchid is a @laravel package that allows for rapid application development of back-office applications, admin/user panels, and dashboards. This vulnerability is a method exposure issue (CWE-749: Exposed Dangerous Method or Function) in the Orchid Platform’s asynchronous modal functionality, affecting users of Orchid Platform version 8 through 14.42.x. Attackers could exploit this vulnerability to call arbitrary methods within the `Screen` class, leading to potential brute force of database tables, validation checks against user credentials, and disclosure of the server’s real IP address. The issue has been patched in the latest release, version 14.43.0, released on November 6, 2024. Users should upgrade to version 14.43.0 or later to address this vulnerability. If upgrading to version 14.43.0 is not immediately possible, users can mitigate the vulnerability by implementing middleware to intercept and validate requests to asynchronous modal endpoints, allowing only approved methods and parameters.",
+      "cveName": "CVE-2024-51992",
+      "cveUrl": "/vuln/detail/CVE-2024-51992"
+    }
+  },
   "CVE-2024-51993": {
     "cve": {
       "cveDate": [
@@ -35947,6 +36640,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-52043"
     }
   },
+  "CVE-2024-52286": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "Stirling-PDF is a locally hosted web application that allows you to perform various operations on PDF files. In affected versions the Merge functionality takes untrusted user input (file name) and uses it directly in the creation of HTML pages allowing any unauthenticated to execute JavaScript code in the context of the user. The issue stems to the code starting at `Line 24` in `src/main/resources/static/js/merge.js`. The file name is directly being input into InnerHTML with no sanitization on the file name, allowing a malicious user to be able to upload files with names containing HTML tags. As HTML tags can include JavaScript code, this can be used to execute JavaScript code in the context of the user. This is a self-injection style attack and relies on a user uploading the malicious file themselves and it impact only them, not other users. A user might be social engineered into running this to launch a phishing attack. Nevertheless, this breaks the expected security restrictions in place by the application. This issue has been addressed in version 0.32.0 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52286",
+      "cveUrl": "/vuln/detail/CVE-2024-52286"
+    }
+  },
+  "CVE-2024-52288": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "libosdp is an implementation of IEC 60839-11-5 OSDP (Open Supervised Device Protocol) and provides a C library with support for C++, Rust and Python3. In affected versions an unexpected `REPLY_CCRYPT` or `REPLY_RMAC_I` may be introduced into an active stream when they should not be. Once RMAC_I message can be sent during a session, attacker with MITM access to the communication may intercept the original RMAC_I reply and save it. While the session continues, the attacker will record all of the replies and save them, till capturing the message to be replied (can be detected by ID, length or time based on inspection of visual activity next to the reader) Once attacker captures a session with the message to be replayed, he stops resetting the connection and waits for signal to perform the replay to of the PD to CP message (ex: by signaling remotely to the MIMT device or setting a specific timing). In order to replay, the attacker will craft a specific RMAC_I message in the proper seq of the execution, which will result in reverting the RMAC to the beginning of the session. At that phase - attacker can replay all the messages from the beginning of the session. This issue has been addressed in commit `298576d9` which is included in release version 3.0.0. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52288",
+      "cveUrl": "/vuln/detail/CVE-2024-52288"
+    }
+  },
   "CVE-2024-52311": {
     "cve": {
       "cveDate": [
@@ -36088,6 +36803,50 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Cyberchimps Responsive Addons for Elementor allows DOM-Based XSS.This issue affects Responsive Addons for Elementor: from n/a through 1.5.4.",
       "cveName": "CVE-2024-52358",
       "cveUrl": "/vuln/detail/CVE-2024-52358"
+    }
+  },
+  "CVE-2024-52530": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "GNOME libsoup before 3.6.0 allows HTTP request smuggling in some configurations because '\\0' characters at the end of header names are ignored, i.e., a \"Transfer-Encoding\\0: chunked\" header is treated the same as a \"Transfer-Encoding: chunked\" header.",
+      "cveName": "CVE-2024-52530",
+      "cveUrl": "/vuln/detail/CVE-2024-52530"
+    }
+  },
+  "CVE-2024-52531": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "GNOME libsoup before 3.6.1 allows a buffer overflow in applications that perform conversion to UTF-8 in soup_header_parse_param_list_strict. Input received over the network cannot trigger this.",
+      "cveName": "CVE-2024-52531",
+      "cveUrl": "/vuln/detail/CVE-2024-52531"
+    }
+  },
+  "CVE-2024-52532": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "GNOME libsoup before 3.6.1 has an infinite loop, and memory consumption. during the reading of certain patterns of WebSocket data from clients.",
+      "cveName": "CVE-2024-52532",
+      "cveUrl": "/vuln/detail/CVE-2024-52532"
+    }
+  },
+  "CVE-2024-52533": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "gio/gsocks4aproxy.c in GNOME GLib before 2.82.1 has an off-by-one error and resultant buffer overflow because SOCKS4_CONN_MSG_LEN is not sufficient for a trailing '\\0' character.",
+      "cveName": "CVE-2024-52533",
+      "cveUrl": "/vuln/detail/CVE-2024-52533"
     }
   },
   "CVE-2024-5429": {
@@ -38618,6 +39377,28 @@
       "cveDis": "The Pricing Tables WordPress Plugin – Easy Pricing Tables plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 3.2.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-88716-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8871"
+    }
+  },
+  "CVE-2024-88816-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "A post-authentication command injection vulnerability in the CGI program in the Zyxel GS1900-48 switch firmware version V2.80(AAHN.1)C0 and earlier could allow an authenticated, LAN-based attacker with administrator privileges to execute some operating system (OS) commands on an affected device by sending a crafted HTTP request.",
+      "cveName": "CVE-2024-88816-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8881"
+    }
+  },
+  "CVE-2024-88824-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 11, 2024",
+        "9:15:19 PM -0500"
+      ],
+      "cveDis": "A buffer overflow vulnerability in the CGI program in the Zyxel GS1900-48 switch firmware version V2.80(AAHN.1)C0 and earlier could allow an authenticated, LAN-based attacker with administrator privileges to cause denial of service (DoS) conditions via a crafted URL.",
+      "cveName": "CVE-2024-88824-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8882"
     }
   },
   "CVE-2024-8884": {
