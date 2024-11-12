@@ -2749,6 +2749,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10176"
     }
   },
+  "CVE-2024-101796-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 12, 2024",
+        "2:15:03 AM -0500"
+      ],
+      "cveDis": "The Slickstream: Engagement and Conversions plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's slick-grid shortcode in all versions up to, and including, 1.4.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-101796-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10179"
+    }
+  },
   "CVE-2024-101806-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -3066,6 +3077,17 @@
       "cveDis": "Mattermost versions 9.5.x <= 9.5.9 fail to properly filter the channel data when ElasticSearch is enabled which allows a user to get private channel names by using cmd+K/ctrl+K.",
       "cveName": "CVE-2024-10241",
       "cveUrl": "/vuln/detail/CVE-2024-10241"
+    }
+  },
+  "CVE-2024-102459-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 12, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "The Relais 2FA plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 1.0. This is due to incorrect authentication and capability checking in the 'rl_do_ajax' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email.",
+      "cveName": "CVE-2024-102459-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-10245"
     }
   },
   "CVE-2024-102506-1 MEDIUM": {
@@ -3418,6 +3440,17 @@
       "cveDis": "The 140+ Widgets | Xpro Addons For Elementor – FREE plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.4.6 via the render function in widgets/content-toggle/layout/frontend.php. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive private, pending, and draft template data.",
       "cveName": "CVE-2024-103194-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10319"
+    }
+  },
+  "CVE-2024-10323": {
+    "cve": {
+      "cveDate": [
+        "November 12, 2024",
+        "2:15:03 AM -0500"
+      ],
+      "cveDis": "The JetWidgets For Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via REST API SVG File uploads in all versions up to, and including, 1.0.18 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-10323",
+      "cveUrl": "/vuln/detail/CVE-2024-10323"
     }
   },
   "CVE-2024-103256-4 MEDIUM": {
@@ -5695,6 +5728,17 @@
       "cveDis": "The Cowidgets – Elementor Addons plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 1.2.0 via the 'ce_template' shortcode due to insufficient restrictions on which posts can be included. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract data from private or draft posts created by Elementor that they should not have access to.",
       "cveName": "CVE-2024-10779",
       "cveUrl": "/vuln/detail/CVE-2024-10779"
+    }
+  },
+  "CVE-2024-107905-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 12, 2024",
+        "1:15:03 AM -0500"
+      ],
+      "cveDis": "The Admin and Site Enhancements (ASE) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 7.5.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with custom-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file. This feature must be enabled, and for specific roles in order to be exploitable.",
+      "cveName": "CVE-2024-107905-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10790"
     }
   },
   "CVE-2024-10791": {
@@ -9721,6 +9765,17 @@
       "cveDis": "Advantech ADAM-5630 contains a cross-site request forgery (CSRF) vulnerability. It allows an attacker to partly circumvent the same \norigin policy, which is designed to prevent different websites from \ninterfering with each other.",
       "cveName": "CVE-2024-28948",
       "cveUrl": "/vuln/detail/CVE-2024-28948"
+    }
+  },
+  "CVE-2024-29075": {
+    "cve": {
+      "cveDate": [
+        "November 12, 2024",
+        "1:15:03 AM -0500"
+      ],
+      "cveDis": "Active debug code vulnerability exists in Mesh Wi-Fi router RP562B firmware version v1.0.2 and earlier. If this vulnerability is exploited, a network-adjacent authenticated attacker may obtain or alter the settings of the device .",
+      "cveName": "CVE-2024-29075",
+      "cveUrl": "/vuln/detail/CVE-2024-29075"
     }
   },
   "CVE-2024-29155": {
@@ -17412,6 +17467,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45802"
     }
   },
+  "CVE-2024-45827": {
+    "cve": {
+      "cveDate": [
+        "November 12, 2024",
+        "1:15:03 AM -0500"
+      ],
+      "cveDis": "Improper neutralization of special elements used in an OS command ('OS Command Injection') issue exists in Mesh Wi-Fi router RP562B firmware version v1.0.2 and earlier. If this vulnerability is exploited, a network-adjacent authenticated attacker may execute an arbitrary OS command.",
+      "cveName": "CVE-2024-45827",
+      "cveUrl": "/vuln/detail/CVE-2024-45827"
+    }
+  },
   "CVE-2024-45829": {
     "cve": {
       "cveDate": [
@@ -22943,6 +23009,17 @@
       "cveDis": "in OpenHarmony v4.1.0 and prior versions allow a local attacker cause the common permission is upgraded to root and sensitive information leak through out-of-bounds write.",
       "cveName": "CVE-2024-47797",
       "cveUrl": "/vuln/detail/CVE-2024-47797"
+    }
+  },
+  "CVE-2024-47799": {
+    "cve": {
+      "cveDate": [
+        "November 12, 2024",
+        "1:15:04 AM -0500"
+      ],
+      "cveDis": "Exposure of sensitive system information to an unauthorized control sphere issue exists in Mesh Wi-Fi router RP562B firmware version v1.0.2 and earlier. If this vulnerability is exploited, a network-adjacent authenticated attacker may obtain information of the other devices connected through the Wi-Fi.",
+      "cveName": "CVE-2024-47799",
+      "cveUrl": "/vuln/detail/CVE-2024-47799"
     }
   },
   "CVE-2024-47801": {
@@ -41216,6 +41293,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9355"
     }
   },
+  "CVE-2024-93576-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 12, 2024",
+        "1:15:04 AM -0500"
+      ],
+      "cveDis": "The xili-tidy-tags plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'action' parameter in all versions up to, and including, 1.12.04 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-93576-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9357"
+    }
+  },
   "CVE-2024-9358": {
     "cve": {
       "cveDate": [
@@ -43898,6 +43986,28 @@
       "cveDis": "The Download Plugin plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability checks on the 'dpwap_handle_download_user' and 'dpwap_handle_download_comment' functions in all versions up to, and including, 2.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to download any comment, and download metadata for any user including user PII and sensitive information including username, email, hashed passwords and application passwords, session token information and more depending on set up and additional plugins installed.",
       "cveName": "CVE-2024-98296-5 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9829"
+    }
+  },
+  "CVE-2024-9835": {
+    "cve": {
+      "cveDate": [
+        "November 12, 2024",
+        "1:15:04 AM -0500"
+      ],
+      "cveDis": "The RSS Feed Widget WordPress plugin before 3.0.1 does not escape the $_SERVER['REQUEST_URI'] parameter before outputting it back in an attribute, which could lead to Reflected Cross-Site Scripting in old web browsers",
+      "cveName": "CVE-2024-9835",
+      "cveUrl": "/vuln/detail/CVE-2024-9835"
+    }
+  },
+  "CVE-2024-9836": {
+    "cve": {
+      "cveDate": [
+        "November 12, 2024",
+        "1:15:04 AM -0500"
+      ],
+      "cveDis": "The RSS Feed Widget WordPress plugin before 3.0.0 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.",
+      "cveName": "CVE-2024-9836",
+      "cveUrl": "/vuln/detail/CVE-2024-9836"
     }
   },
   "CVE-2024-98377-3 HIGH": {
