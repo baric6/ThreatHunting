@@ -659,6 +659,17 @@
       "cveUrl": "/vuln/detail/CVE-2021-4452"
     }
   },
+  "CVE-2022-22327-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "10:15:06 AM -0500"
+      ],
+      "cveDis": "A flaw was found in the Keycloak package. This flaw allows an attacker to utilize an LDAP injection to bypass the username lookup or potentially perform other malicious actions.",
+      "cveName": "CVE-2022-22327-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2022-2232"
+    }
+  },
   "CVE-2022-23861": {
     "cve": {
       "cveDate": [
@@ -5928,6 +5939,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10920"
     }
   },
+  "CVE-2024-10921": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "11:15:18 AM -0500"
+      ],
+      "cveDis": "An authorized user may trigger crashes or receive the contents of buffer over-reads of Server memory by issuing specially crafted requests that construct malformed BSON in the MongoDB Server. This issue affects MongoDB Server v5.0 versions prior to 5.0.30 , MongoDB Server v6.0 versions prior to 6.0.19, MongoDB Server v7.0 versions prior to 7.0.15 and MongoDB Server v8.0 versions prior to and including 8.0.2.",
+      "cveName": "CVE-2024-10921",
+      "cveUrl": "/vuln/detail/CVE-2024-10921"
+    }
+  },
   "CVE-2024-109226-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -6707,6 +6729,83 @@
       "cveDis": "A vulnerability was found in SourceCodester Hospital Management System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /vm/doctor/edit-doc.php. The manipulation of the argument name leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
       "cveName": "CVE-2024-11102",
       "cveUrl": "/vuln/detail/CVE-2024-11102"
+    }
+  },
+  "CVE-2024-11136": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "11:15:18 AM -0500"
+      ],
+      "cveDis": "The default TCL Camera application exposes a provider vulnerable to path traversal vulnerability. Malicious application can supply malicious URI path and delete arbitrary files from user’s external storage.",
+      "cveName": "CVE-2024-11136",
+      "cveUrl": "/vuln/detail/CVE-2024-11136"
+    }
+  },
+  "CVE-2024-11210": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "10:15:07 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in EyouCMS 1.51. It has been rated as critical. This issue affects the function editFile of the file application/admin/logic/FilemanagerLogic.php. The manipulation of the argument activepath leads to path traversal. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11210",
+      "cveUrl": "/vuln/detail/CVE-2024-11210"
+    }
+  },
+  "CVE-2024-11211": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in EyouCMS 1.5.6. Affected is an unknown function of the component Website Logo Handler. The manipulation leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11211",
+      "cveUrl": "/vuln/detail/CVE-2024-11211"
+    }
+  },
+  "CVE-2024-11212": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in SourceCodester Best Employee Management System 1.0. Affected by this issue is some unknown functionality of the file /admin/fetch_product_details.php. The manipulation of the argument barcode leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11212",
+      "cveUrl": "/vuln/detail/CVE-2024-11212"
+    }
+  },
+  "CVE-2024-11213": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "11:15:18 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in SourceCodester Best Employee Management System 1.0. This affects an unknown part of the file /admin/edit_role.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11213",
+      "cveUrl": "/vuln/detail/CVE-2024-11213"
+    }
+  },
+  "CVE-2024-11214": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "11:15:18 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in SourceCodester Best Employee Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/profile.php. The manipulation of the argument website_image leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher disclosure contains confusing vulnerability classes.",
+      "cveName": "CVE-2024-11214",
+      "cveUrl": "/vuln/detail/CVE-2024-11214"
+    }
+  },
+  "CVE-2024-1682": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:18 PM -0500"
+      ],
+      "cveDis": "An unclaimed Amazon S3 bucket, 'codeconf', is referenced in an audio file link within the .rst documentation file. This bucket has been claimed by an external party. The use of this unclaimed S3 bucket could lead to data integrity issues, data leakage, availability problems, loss of trustworthiness, and potential further attacks if the bucket is used to host malicious content or as a pivot point for further attacks.",
+      "cveName": "CVE-2024-1682",
+      "cveUrl": "/vuln/detail/CVE-2024-1682"
     }
   },
   "CVE-2024-20090": {
@@ -10592,6 +10691,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-33700"
     }
   },
+  "CVE-2024-3379": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:18 PM -0500"
+      ],
+      "cveDis": "In lunary-ai/lunary versions 1.2.2 through 1.2.6, an incorrect authorization vulnerability allows unprivileged users to re-generate the private key for projects they do not have access to. Specifically, a user with a 'Member' role can issue a request to regenerate the private key of a project without having the necessary permissions or being assigned to that project. This issue was fixed in version 1.2.7.",
+      "cveName": "CVE-2024-3379",
+      "cveUrl": "/vuln/detail/CVE-2024-3379"
+    }
+  },
   "CVE-2024-34014": {
     "cve": {
       "cveDate": [
@@ -10931,6 +11041,28 @@
       "cveDis": "Insufficiently protected credentials in DAV server settings in 1C-Bitrix Bitrix24 23.300.100 allows remote administrators to read Exchange account passwords via HTTP GET request.",
       "cveName": "CVE-2024-34891",
       "cveUrl": "/vuln/detail/CVE-2024-34891"
+    }
+  },
+  "CVE-2024-3501": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:18 PM -0500"
+      ],
+      "cveDis": "In lunary-ai/lunary versions up to and including 1.2.5, an information disclosure vulnerability exists due to the inclusion of single-use tokens in the responses of `GET /v1/users/me` and `GET /v1/users/me/org` API endpoints. These tokens, intended for sensitive operations such as password resets or account verification, are exposed to unauthorized actors, potentially allowing them to perform actions on behalf of the user. This issue was addressed in version 1.2.6, where the exposure of single-use tokens in user-facing queries was mitigated.",
+      "cveName": "CVE-2024-3501",
+      "cveUrl": "/vuln/detail/CVE-2024-3501"
+    }
+  },
+  "CVE-2024-3502": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:18 PM -0500"
+      ],
+      "cveDis": "In lunary-ai/lunary versions up to and including 1.2.5, an information disclosure vulnerability exists where account recovery hashes of users are inadvertently exposed to unauthorized actors. This issue occurs when authenticated users inspect responses from `GET /v1/users/me` and `GET /v1/users/me/org` endpoints. The exposed account recovery hashes, while not directly related to user passwords, represent sensitive information that should not be accessible to unauthorized parties. Exposing these hashes could potentially facilitate account recovery attacks or other malicious activities. The vulnerability was addressed in version 1.2.6.",
+      "cveName": "CVE-2024-3502",
+      "cveUrl": "/vuln/detail/CVE-2024-3502"
     }
   },
   "CVE-2024-3506": {
@@ -11393,6 +11525,17 @@
       "cveDis": "Advantech ADAM-5550 share user credentials with a low level of encryption, consisting of base 64 encoding.",
       "cveName": "CVE-2024-37187",
       "cveUrl": "/vuln/detail/CVE-2024-37187"
+    }
+  },
+  "CVE-2024-37285": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "A deserialization issue in Kibana can lead to arbitrary code execution when Kibana attempts to parse a YAML document containing a crafted payload. A successful attack requires a malicious user to have a combination of both specific  Elasticsearch indices privileges https://www.elastic.co/guide/en/elasticsearch/reference/current/defining-roles.html#roles-indices-priv  and  Kibana privileges https://www.elastic.co/guide/en/fleet/current/fleet-roles-and-privileges.html  assigned to them.\n\n\n\nThe following Elasticsearch indices permissions are required\n\n  *  write privilege on the system indices .kibana_ingest*\n  *  The allow_restricted_indices flag is set to true\n\n\nAny of the following Kibana privileges are additionally required\n\n  *  Under Fleet the All privilege is granted\n  *  Under Integration the Read or All privilege is granted\n  *  Access to the fleet-setup privilege is gained through the Fleet Server’s service account token",
+      "cveName": "CVE-2024-37285",
+      "cveUrl": "/vuln/detail/CVE-2024-37285"
     }
   },
   "CVE-2024-37404": {
@@ -13122,6 +13265,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-4211"
     }
   },
+  "CVE-2024-42188": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "11:15:19 AM -0500"
+      ],
+      "cveDis": "HCL Connections is vulnerable to a broken access control vulnerability that may allow an unauthorized user to update data in certain scenarios.",
+      "cveName": "CVE-2024-42188",
+      "cveUrl": "/vuln/detail/CVE-2024-42188"
+    }
+  },
   "CVE-2024-42372": {
     "cve": {
       "cveDate": [
@@ -13309,6 +13463,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-43047"
     }
   },
+  "CVE-2024-4311": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "zenml-io/zenml version 0.56.4 is vulnerable to an account takeover due to the lack of rate-limiting in the password change function. An attacker can brute-force the current password in the 'Update Password' function, allowing them to take over the user's account. This vulnerability is due to the absence of rate-limiting on the '/api/v1/current-user' endpoint, which does not restrict the number of attempts an attacker can make to guess the current password. Successful exploitation results in the attacker being able to change the password and take control of the account.",
+      "cveName": "CVE-2024-4311",
+      "cveUrl": "/vuln/detail/CVE-2024-4311"
+    }
+  },
   "CVE-2024-431733-7 LOW": {
     "cve": {
       "cveDate": [
@@ -13472,6 +13637,17 @@
       "cveDis": "A flaw was found in moodle. Some hidden user profile fields are visible in gradebook reports, which could result in users without the \"view hidden user fields\" capability having access to the information.",
       "cveName": "CVE-2024-43429",
       "cveUrl": "/vuln/detail/CVE-2024-43429"
+    }
+  },
+  "CVE-2024-4343": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "A Python command injection vulnerability exists in the `SagemakerLLM` class's `complete()` method within `./private_gpt/components/llm/custom/sagemaker.py` of the imartinez/privategpt application, versions up to and including 0.3.0. The vulnerability arises due to the use of the `eval()` function to parse a string received from a remote AWS SageMaker LLM endpoint into a dictionary. This method of parsing is unsafe as it can execute arbitrary Python code contained within the response. An attacker can exploit this vulnerability by manipulating the response from the AWS SageMaker LLM endpoint to include malicious Python code, leading to potential execution of arbitrary commands on the system hosting the application. The issue is fixed in version 0.6.0.",
+      "cveName": "CVE-2024-4343",
+      "cveUrl": "/vuln/detail/CVE-2024-4343"
     }
   },
   "CVE-2024-43430": {
@@ -25079,6 +25255,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48283"
     }
   },
+  "CVE-2024-48284": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "A Reflected Cross-Site Scripting (XSS) vulnerability was found in the /search-result.php page of the PHPGurukul User Registration & Login and User Management System 3.2. This vulnerability allows remote attackers to execute arbitrary scripts via the searchkey parameter in a POST HTTP request.",
+      "cveName": "CVE-2024-48284",
+      "cveUrl": "/vuln/detail/CVE-2024-48284"
+    }
+  },
   "CVE-2024-48289": {
     "cve": {
       "cveDate": [
@@ -28080,6 +28267,17 @@
       "cveDis": "ACON is a widely-used library of tools for machine learning that focuses on adaptive correlation optimization. A potential vulnerability has been identified in the input validation process, which could lead to arbitrary code execution if exploited. This issue could allow an attacker to submit malicious input data, bypassing input validation, resulting in remote code execution in certain machine learning applications using the ACON library. All users utilizing ACON’s input-handling functions are potentially at risk. Specifically, machine learning models or applications that ingest user-generated data without proper sanitization are the most vulnerable. Users running ACON on production servers are at heightened risk, as the vulnerability could be exploited remotely. As of time of publication, it is unclear whether a fix is available.",
       "cveName": "CVE-2024-49361",
       "cveUrl": "/vuln/detail/CVE-2024-49361"
+    }
+  },
+  "CVE-2024-49362": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "Joplin is a free, open source note taking and to-do application. Joplin-desktop has a vulnerability that leads to remote code execution (RCE) when a user clicks on an <a> link within untrusted notes. The issue arises due to insufficient sanitization of <a> tag attributes introduced by the Mermaid. This vulnerability allows the execution of untrusted HTML content within the Electron window, which has full access to Node.js APIs, enabling arbitrary shell command execution.",
+      "cveName": "CVE-2024-49362",
+      "cveUrl": "/vuln/detail/CVE-2024-49362"
     }
   },
   "CVE-2024-49366": {
@@ -33758,6 +33956,215 @@
       "cveUrl": "/vuln/detail/CVE-2024-50811"
     }
   },
+  "CVE-2024-50823": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /admin/login.php in kashipara E-learning Management System Project 1.0 via the username and password parameters.",
+      "cveName": "CVE-2024-50823",
+      "cveUrl": "/vuln/detail/CVE-2024-50823"
+    }
+  },
+  "CVE-2024-50824": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /admin/class.php in kashipara E-learning Management System Project 1.0 via the class_name parameter.",
+      "cveName": "CVE-2024-50824",
+      "cveUrl": "/vuln/detail/CVE-2024-50824"
+    }
+  },
+  "CVE-2024-50825": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /admin/school_year.php in kashipara E-learning Management System Project 1.0 via the school_year parameter.",
+      "cveName": "CVE-2024-50825",
+      "cveUrl": "/vuln/detail/CVE-2024-50825"
+    }
+  },
+  "CVE-2024-50826": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /admin/add_content.php in kashipara E-learning Management System Project 1.0 via the title and content parameters.",
+      "cveName": "CVE-2024-50826",
+      "cveUrl": "/vuln/detail/CVE-2024-50826"
+    }
+  },
+  "CVE-2024-50827": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /admin/add_subject.php in kashipara E-learning Management System Project 1.0 via the subject_code parameter.",
+      "cveName": "CVE-2024-50827",
+      "cveUrl": "/vuln/detail/CVE-2024-50827"
+    }
+  },
+  "CVE-2024-50828": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /admin/edit_department.php in kashipara E-learning Management System Project 1.0 via the d parameter.",
+      "cveName": "CVE-2024-50828",
+      "cveUrl": "/vuln/detail/CVE-2024-50828"
+    }
+  },
+  "CVE-2024-50829": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /admin/edit_subject.php in kashipara E-learning Management System Project 1.0 via the unit parameter.",
+      "cveName": "CVE-2024-50829",
+      "cveUrl": "/vuln/detail/CVE-2024-50829"
+    }
+  },
+  "CVE-2024-50830": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:21 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /admin/calendar_of_events.php in kashipara E-learning Management System Project 1.0 via the date_start, date_end, and title parameters.",
+      "cveName": "CVE-2024-50830",
+      "cveUrl": "/vuln/detail/CVE-2024-50830"
+    }
+  },
+  "CVE-2024-50831": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:21 PM -0500"
+      ],
+      "cveDis": "A SQL Injection was found in /admin/admin_user.php in kashipara E-learning Management System Project 1.0 via the username and password parameters.",
+      "cveName": "CVE-2024-50831",
+      "cveUrl": "/vuln/detail/CVE-2024-50831"
+    }
+  },
+  "CVE-2024-50832": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /admin/edit_class.php in kashipara E-learning Management System Project 1.0 via the class_name parameter.",
+      "cveName": "CVE-2024-50832",
+      "cveUrl": "/vuln/detail/CVE-2024-50832"
+    }
+  },
+  "CVE-2024-50833": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /login.php in KASHIPARA E-learning Management System Project 1.0 via the username and password parameters.",
+      "cveName": "CVE-2024-50833",
+      "cveUrl": "/vuln/detail/CVE-2024-50833"
+    }
+  },
+  "CVE-2024-50834": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "A SQL Injection was found in /admin/teachers.php in KASHIPARA E-learning Management System Project 1.0 via the firstname and lastname parameters.",
+      "cveName": "CVE-2024-50834",
+      "cveUrl": "/vuln/detail/CVE-2024-50834"
+    }
+  },
+  "CVE-2024-50835": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /admin/edit_student.php in KASHIPARA E-learning Management System Project 1.0 via the cys, un, ln, fn, and id parameters.",
+      "cveName": "CVE-2024-50835",
+      "cveUrl": "/vuln/detail/CVE-2024-50835"
+    }
+  },
+  "CVE-2024-50836": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "A Stored Cross-Site Scripting (XSS) vulnerability was found in /admin/teachers.php in KASHIPARA E-learning Management System Project 1.0. This vulnerability allows remote attackers to execute arbitrary scripts via the firstname and lastname parameters.",
+      "cveName": "CVE-2024-50836",
+      "cveUrl": "/vuln/detail/CVE-2024-50836"
+    }
+  },
+  "CVE-2024-50837": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "A Stored Cross-Site Scripting (XSS) vulnerability was found in /admin/admin_user.php in KASHIPARA E-learning Management System Project 1.0. This vulnerability allows remote attackers to execute arbitrary scripts via the firstname and username parameters.",
+      "cveName": "CVE-2024-50837",
+      "cveUrl": "/vuln/detail/CVE-2024-50837"
+    }
+  },
+  "CVE-2024-50838": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "10:15:09 AM -0500"
+      ],
+      "cveDis": "A Stored Cross-Site Scripting (XSS) vulnerability was found in /admin/department.php in KASHIPARA E-learning Management System Project 1.0. This vulnerability allows remote attackers to execute arbitrary scripts via the d and pi parameters.",
+      "cveName": "CVE-2024-50838",
+      "cveUrl": "/vuln/detail/CVE-2024-50838"
+    }
+  },
+  "CVE-2024-50841": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "A Stored Cross-Site Scripting (XSS) vulnerability was found in /admin/calendar_of_events.php in KASHIPARA E-learning Management System Project 1.0. This vulnerability allows remote attackers to execute arbitrary scripts via the date_start, date_end, and title parameters.",
+      "cveName": "CVE-2024-50841",
+      "cveUrl": "/vuln/detail/CVE-2024-50841"
+    }
+  },
+  "CVE-2024-50842": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "A Stored Cross-Site Scripting (XSS) vulnerability was found in /admin/school_year.php in KASHIPARA E-learning Management System Project 1.0. This vulnerability allows remote attackers to execute arbitrary scripts via the school_year parameter.",
+      "cveName": "CVE-2024-50842",
+      "cveUrl": "/vuln/detail/CVE-2024-50842"
+    }
+  },
+  "CVE-2024-50843": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "A Directory listing issue was found in PHPGurukul User Registration & Login and User Management System 3.2, which allows remote attackers attacker to access sensitive files and directories via /loginsystem/assets.",
+      "cveName": "CVE-2024-50843",
+      "cveUrl": "/vuln/detail/CVE-2024-50843"
+    }
+  },
   "CVE-2024-50966": {
     "cve": {
       "cveDate": [
@@ -34229,6 +34636,17 @@
       "cveDis": "In Draytek Vigor3900 1.5.1.3, attackers can inject malicious commands into mainfunction.cgi and execute arbitrary commands by calling the reboot function.",
       "cveName": "CVE-2024-51249",
       "cveUrl": "/vuln/detail/CVE-2024-51249"
+    }
+  },
+  "CVE-2024-5125": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:26 PM -0500"
+      ],
+      "cveDis": "parisneo/lollms-webui version 9.6 is vulnerable to Cross-Site Scripting (XSS) and Open Redirect due to inadequate input validation and processing of SVG files during the upload process. The XSS vulnerability allows attackers to embed malicious JavaScript code within SVG files, which is executed upon rendering, leading to potential credential theft and unauthorized data access. The Open Redirect vulnerability arises from insufficient URL validation within SVG files, enabling attackers to redirect users to malicious websites, thereby exposing them to phishing attacks, malware distribution, and reputation damage. These vulnerabilities are present in the application's functionality to send files to the AI module.",
+      "cveName": "CVE-2024-5125",
+      "cveUrl": "/vuln/detail/CVE-2024-5125"
     }
   },
   "CVE-2024-51251": {
@@ -36739,6 +37157,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52288"
     }
   },
+  "CVE-2024-52302": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "11:15:20 AM -0500"
+      ],
+      "cveDis": "common-user-management is a robust Spring Boot application featuring user management services designed to control user access dynamically. There is a critical security vulnerability in the application endpoint /api/v1/customer/profile-picture. This endpoint allows file uploads without proper validation or restrictions, enabling attackers to upload malicious files that can lead to Remote Code Execution (RCE).",
+      "cveName": "CVE-2024-52302",
+      "cveUrl": "/vuln/detail/CVE-2024-52302"
+    }
+  },
   "CVE-2024-52311": {
     "cve": {
       "cveDate": [
@@ -36880,6 +37309,204 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Cyberchimps Responsive Addons for Elementor allows DOM-Based XSS.This issue affects Responsive Addons for Elementor: from n/a through 1.5.4.",
       "cveName": "CVE-2024-52358",
       "cveUrl": "/vuln/detail/CVE-2024-52358"
+    }
+  },
+  "CVE-2024-52371": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:21 PM -0500"
+      ],
+      "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in DonnellC Global Gateway e4 | Payeezy Gateway.This issue affects Global Gateway e4 | Payeezy Gateway: from n/a through 2.0.",
+      "cveName": "CVE-2024-52371",
+      "cveUrl": "/vuln/detail/CVE-2024-52371"
+    }
+  },
+  "CVE-2024-52372": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:21 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in WebTechGlobal Easy CSV Importer BETA allows Upload a Web Shell to a Web Server.This issue affects Easy CSV Importer BETA: from n/a through 7.0.0.",
+      "cveName": "CVE-2024-52372",
+      "cveUrl": "/vuln/detail/CVE-2024-52372"
+    }
+  },
+  "CVE-2024-52373": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:21 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Team Devexhub Devexhub Gallery allows Upload a Web Shell to a Web Server.This issue affects Devexhub Gallery: from n/a through 2.0.1.",
+      "cveName": "CVE-2024-52373",
+      "cveUrl": "/vuln/detail/CVE-2024-52373"
+    }
+  },
+  "CVE-2024-52374": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:22 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in DoThatTask Do That Task allows Upload a Web Shell to a Web Server.This issue affects Do That Task: from n/a through 1.5.5.",
+      "cveName": "CVE-2024-52374",
+      "cveUrl": "/vuln/detail/CVE-2024-52374"
+    }
+  },
+  "CVE-2024-52375": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:23 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Arttia Creative Datasets Manager by Arttia Creative.This issue affects Datasets Manager by Arttia Creative: from n/a through 1.5.",
+      "cveName": "CVE-2024-52375",
+      "cveUrl": "/vuln/detail/CVE-2024-52375"
+    }
+  },
+  "CVE-2024-52376": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:23 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in cmsMinds Boat Rental Plugin for WordPress allows Upload a Web Shell to a Web Server.This issue affects Boat Rental Plugin for WordPress: from n/a through 1.0.1.",
+      "cveName": "CVE-2024-52376",
+      "cveUrl": "/vuln/detail/CVE-2024-52376"
+    }
+  },
+  "CVE-2024-52377": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:23 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in BdThemes Instant Image Generator allows Upload a Web Shell to a Web Server.This issue affects Instant Image Generator: from n/a through 1.5.4.",
+      "cveName": "CVE-2024-52377",
+      "cveUrl": "/vuln/detail/CVE-2024-52377"
+    }
+  },
+  "CVE-2024-52378": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:24 PM -0500"
+      ],
+      "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Labs64 DigiPass allows Absolute Path Traversal.This issue affects DigiPass: from n/a through 0.3.0.",
+      "cveName": "CVE-2024-52378",
+      "cveUrl": "/vuln/detail/CVE-2024-52378"
+    }
+  },
+  "CVE-2024-52379": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:24 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Kinetic Innovative Technologies Sdn Bhd kineticPay for WooCommerce allows Upload a Web Shell to a Web Server.This issue affects kineticPay for WooCommerce: from n/a through 2.0.8.",
+      "cveName": "CVE-2024-52379",
+      "cveUrl": "/vuln/detail/CVE-2024-52379"
+    }
+  },
+  "CVE-2024-52380": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:24 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Softpulse Infotech Picsmize allows Upload a Web Shell to a Web Server.This issue affects Picsmize: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-52380",
+      "cveUrl": "/vuln/detail/CVE-2024-52380"
+    }
+  },
+  "CVE-2024-52381": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:25 PM -0500"
+      ],
+      "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Shoaib Rehmat ZIJ KART allows PHP Local File Inclusion.This issue affects ZIJ KART: from n/a through 1.1.",
+      "cveName": "CVE-2024-52381",
+      "cveUrl": "/vuln/detail/CVE-2024-52381"
+    }
+  },
+  "CVE-2024-52382": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:25 PM -0500"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Medma Technologies Matix Popup Builder allows Privilege Escalation.This issue affects Matix Popup Builder: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-52382",
+      "cveUrl": "/vuln/detail/CVE-2024-52382"
+    }
+  },
+  "CVE-2024-52383": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:25 PM -0500"
+      ],
+      "cveDis": "Missing Authorization vulnerability in KCT Ai Auto Tool Content Writing Assistant (Gemini Writer, ChatGPT ) All in One allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Ai Auto Tool Content Writing Assistant (Gemini Writer, ChatGPT ) All in One: from n/a through 2.1.2.",
+      "cveName": "CVE-2024-52383",
+      "cveUrl": "/vuln/detail/CVE-2024-52383"
+    }
+  },
+  "CVE-2024-52384": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:25 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Sage AI Sage AI: Chatbots, OpenAI GPT-4 Bulk Articles, Dalle-3 Image Generation allows Upload a Web Shell to a Web Server.This issue affects Sage AI: Chatbots, OpenAI GPT-4 Bulk Articles, Dalle-3 Image Generation: from n/a through 2.4.9.",
+      "cveName": "CVE-2024-52384",
+      "cveUrl": "/vuln/detail/CVE-2024-52384"
+    }
+  },
+  "CVE-2024-52393": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:26 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements Used in a Template Engine vulnerability in Podlove Podlove Podcast Publisher.This issue affects Podlove Podcast Publisher: from n/a through 4.1.15.",
+      "cveName": "CVE-2024-52393",
+      "cveUrl": "/vuln/detail/CVE-2024-52393"
+    }
+  },
+  "CVE-2024-52396": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:26 PM -0500"
+      ],
+      "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in realmag777 WOLF allows Path Traversal.This issue affects WOLF: from n/a through 1.0.8.3.",
+      "cveName": "CVE-2024-52396",
+      "cveUrl": "/vuln/detail/CVE-2024-52396"
+    }
+  },
+  "CVE-2024-52505": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "11:15:20 AM -0500"
+      ],
+      "cveDis": "matrix-appservice-irc is a Node.js IRC bridge for the Matrix messaging protocol. The provisioning API of the matrix-appservice-irc bridge up to version 3.0.2 contains a vulnerability which can lead to arbitrary IRC command execution as the bridge IRC bot. The vulnerability has been patched in matrix-appservice-irc version 3.0.3.",
+      "cveName": "CVE-2024-52505",
+      "cveUrl": "/vuln/detail/CVE-2024-52505"
+    }
+  },
+  "CVE-2024-52524": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "1:15:26 PM -0500"
+      ],
+      "cveDis": "Giskard is an evaluation and testing framework for AI systems. A Remote Code Execution (ReDoS) vulnerability was discovered in Giskard component by the GitHub Security Lab team. When processing datasets with specific text patterns with Giskard detectors, this vulnerability could trigger exponential regex evaluation times, potentially leading to denial of service. Giskard versions prior to 2.15.5 are affected.",
+      "cveName": "CVE-2024-52524",
+      "cveUrl": "/vuln/detail/CVE-2024-52524"
     }
   },
   "CVE-2024-52530": {
@@ -37045,6 +37672,17 @@
       "cveDis": "Cross Application Scripting vulnerability in Vercom S.A. Redlink SDK in specific situations allows local code injection and to manipulate the view of a vulnerable application.This issue affects Redlink SDK versions through 1.13.",
       "cveName": "CVE-2024-6051",
       "cveUrl": "/vuln/detail/CVE-2024-6051"
+    }
+  },
+  "CVE-2024-6068": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "A memory corruption vulnerability exists in the affected products when parsing DFT files.  Local threat actors can exploit this issue to disclose information and to execute arbitrary code. To exploit this vulnerability a legitimate user must open a malicious DFT file.",
+      "cveName": "CVE-2024-6068",
+      "cveUrl": "/vuln/detail/CVE-2024-6068"
     }
   },
   "CVE-2024-6157": {
@@ -37452,6 +38090,17 @@
       "cveDis": "netease-youdao/qanything version 1.4.1 contains a vulnerability where unsafe data obtained from user input is concatenated in SQL queries, leading to SQL injection. The affected functions include `get_knowledge_base_name`, `from_status_to_status`, `delete_files`, and `get_file_by_status`. An attacker can exploit this vulnerability to execute arbitrary SQL queries, potentially stealing information from the database. The issue is fixed in version 1.4.2.",
       "cveName": "CVE-2024-7099",
       "cveUrl": "/vuln/detail/CVE-2024-7099"
+    }
+  },
+  "CVE-2024-7124": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "10:15:09 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation vulnerability in DInGO dLibra software in the parameter 'filter' in the endpoint 'indexsearch' allows a Reflected Cross-Site Scripting (XSS). An attacker might trick somebody into using a crafted URL, which will cause a script to be run in user's browser. This issue affects DInGO dLibra software in versions from 6.0 before 6.3.20.",
+      "cveName": "CVE-2024-7124",
+      "cveUrl": "/vuln/detail/CVE-2024-7124"
     }
   },
   "CVE-2024-7206": {
@@ -43150,6 +43799,17 @@
       "cveDis": "A flaw was found in the X.org server. Due to improperly tracked allocation size in _XkbSetCompatMap, a local attacker may be able to trigger a buffer overflow condition via a specially crafted payload, leading to denial of service or local privilege escalation in distributions where the X.org server is run with root privileges.",
       "cveName": "CVE-2024-96327-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9632"
+    }
+  },
+  "CVE-2024-9633": {
+    "cve": {
+      "cveDate": [
+        "November 14, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "An issue has been discovered in GitLab CE/EE affecting all versions starting from 16.3 before 17.3.7, all versions starting from 17.4 before 17.4.4, all versions starting from 17.5 before 17.5.2. This issue allows an attacker to create a group with a name matching an existing unique Pages domain, potentially leading to domain confusion attacks.",
+      "cveName": "CVE-2024-9633",
+      "cveUrl": "/vuln/detail/CVE-2024-9633"
     }
   },
   "CVE-2024-96349-8 CRITICAL": {
