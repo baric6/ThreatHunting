@@ -5378,6 +5378,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10588"
     }
   },
+  "CVE-2024-105926-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "The Mapster WP Maps plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the popup class parameter in all versions up to, and including, 1.6.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-105926-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10592"
+    }
+  },
   "CVE-2024-10594": {
     "cve": {
       "cveDate": [
@@ -5565,6 +5576,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10613"
     }
   },
+  "CVE-2024-106144-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "1:15:07 AM -0500"
+      ],
+      "cveDis": "The Customer Reviews for WooCommerce plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on the cancel_import() function in all versions up to, and including, 5.61.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to cancel and import or check on the status.",
+      "cveName": "CVE-2024-106144-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10614"
+    }
+  },
   "CVE-2024-10615": {
     "cve": {
       "cveDate": [
@@ -5673,6 +5695,17 @@
       "cveDis": "The WooCommerce Support Ticket System plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the ajax_manage_file_chunk_upload() function in all versions up to, and including, 17.7. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
       "cveName": "CVE-2024-106279-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-10627"
+    }
+  },
+  "CVE-2024-106457-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "The Blogger 301 Redirect plugin for WordPress is vulnerable to blind time-based SQL Injection via the ‘br’ parameter in all versions up to, and including, 2.5.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-106457-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10645"
     }
   },
   "CVE-2024-106476-1 MEDIUM": {
@@ -5937,6 +5970,17 @@
       "cveDis": "The MapPress Maps for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's Map block in all versions up to, and including, 2.94.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-107156-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10715"
+    }
+  },
+  "CVE-2024-107288-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "12:15:12 AM -0500"
+      ],
+      "cveDis": "The Post Grid Gutenberg Blocks and WordPress Blog Plugin – PostX plugin for WordPress is vulnerable to unauthorized plugin installation/activation due to a missing capability check on the 'install_required_plugin_callback' function in all versions up to, and including, 4.1.16. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated.",
+      "cveName": "CVE-2024-107288-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10728"
     }
   },
   "CVE-2024-10730": {
@@ -7422,6 +7466,17 @@
       "cveDis": "The SVGPlus plugin for WordPress is vulnerable to Stored Cross-Site Scripting via REST API SVG File uploads in all versions up to, and including, 1.1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
       "cveName": "CVE-2024-110926-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11092"
+    }
+  },
+  "CVE-2024-110945-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "The 404 Solution plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.35.17 via the export feature. This makes it possible for unauthenticated attackers to extract sensitive data such as redirects including GET parameters which may reveal sensitive information.",
+      "cveName": "CVE-2024-110945-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11094"
     }
   },
   "CVE-2024-11096": {
@@ -42228,6 +42283,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8852"
     }
   },
+  "CVE-2024-88569-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "12:15:13 AM -0500"
+      ],
+      "cveDis": "The Backup and Staging by WP Time Capsule plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the the UploadHandler.php file and no direct file access prevention in all versions up to, and including, 1.22.21. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "cveName": "CVE-2024-88569-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-8856"
+    }
+  },
   "CVE-2024-88706-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -47198,6 +47264,17 @@
       "cveDis": "The WP Baidu Map plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'baidu_map' shortcode in all versions up to, and including, 1.2.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-98866-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9886"
+    }
+  },
+  "CVE-2024-9887": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "The Login using WordPress Users ( WP as SAML IDP ) plugin for WordPress is vulnerable to time-based SQL Injection via the ‘id’ parameter in all versions up to, and including, 1.15.6 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-9887",
+      "cveUrl": "/vuln/detail/CVE-2024-9887"
     }
   },
   "CVE-2024-98894-3 MEDIUM": {
