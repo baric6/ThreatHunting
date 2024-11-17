@@ -39412,6 +39412,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52384"
     }
   },
+  "CVE-2024-52386": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:03 PM -0500"
+      ],
+      "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Business Directory Team by RadiusTheme Classified Listing classified-listing allows PHP Local File Inclusion.This issue affects Classified Listing: from n/a through 3.1.15.1.",
+      "cveName": "CVE-2024-52386",
+      "cveUrl": "/vuln/detail/CVE-2024-52386"
+    }
+  },
   "CVE-2024-52393": {
     "cve": {
       "cveDate": [
@@ -39432,6 +39443,204 @@
       "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in realmag777 WOLF allows Path Traversal.This issue affects WOLF: from n/a through 1.0.8.3.",
       "cveName": "CVE-2024-52396",
       "cveUrl": "/vuln/detail/CVE-2024-52396"
+    }
+  },
+  "CVE-2024-52397": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Davor Zeljkovic Convert Docx2post allows Upload a Web Shell to a Web Server.This issue affects Convert Docx2post: from n/a through 1.4.",
+      "cveName": "CVE-2024-52397",
+      "cveUrl": "/vuln/detail/CVE-2024-52397"
+    }
+  },
+  "CVE-2024-52398": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:04 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Halyra CDI.This issue affects CDI: from n/a through 5.5.3.",
+      "cveName": "CVE-2024-52398",
+      "cveUrl": "/vuln/detail/CVE-2024-52398"
+    }
+  },
+  "CVE-2024-52399": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:04 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Clarisse K. Writer Helper allows Upload a Web Shell to a Web Server.This issue affects Writer Helper: from n/a through 3.1.6.",
+      "cveName": "CVE-2024-52399",
+      "cveUrl": "/vuln/detail/CVE-2024-52399"
+    }
+  },
+  "CVE-2024-52400": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Subhasis Laha Gallerio allows Upload a Web Shell to a Web Server.This issue affects Gallerio: from n/a through 1.01.",
+      "cveName": "CVE-2024-52400",
+      "cveUrl": "/vuln/detail/CVE-2024-52400"
+    }
+  },
+  "CVE-2024-52403": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in WPExperts User Management allows Upload a Web Shell to a Web Server.This issue affects User Management: from n/a through 1.1.",
+      "cveName": "CVE-2024-52403",
+      "cveUrl": "/vuln/detail/CVE-2024-52403"
+    }
+  },
+  "CVE-2024-52404": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Bigfive CF7 Reply Manager.This issue affects CF7 Reply Manager: from n/a through 1.2.3.",
+      "cveName": "CVE-2024-52404",
+      "cveUrl": "/vuln/detail/CVE-2024-52404"
+    }
+  },
+  "CVE-2024-52405": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Bikram Joshi B-Banner Slider allows Upload a Web Shell to a Web Server.This issue affects B-Banner Slider: from n/a through 1.1.",
+      "cveName": "CVE-2024-52405",
+      "cveUrl": "/vuln/detail/CVE-2024-52405"
+    }
+  },
+  "CVE-2024-52406": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:06 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Wibergs Web CSV to html allows Upload a Web Shell to a Web Server.This issue affects CSV to html: from n/a through 3.04.",
+      "cveName": "CVE-2024-52406",
+      "cveUrl": "/vuln/detail/CVE-2024-52406"
+    }
+  },
+  "CVE-2024-52407": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:06 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in codeSavory BasePress Migration Tools allows Upload a Web Shell to a Web Server.This issue affects BasePress Migration Tools: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-52407",
+      "cveUrl": "/vuln/detail/CVE-2024-52407"
+    }
+  },
+  "CVE-2024-52408": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:06 PM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in Team PushAssist Push Notifications for WordPress by PushAssist allows Upload a Web Shell to a Web Server.This issue affects Push Notifications for WordPress by PushAssist: from n/a through 3.0.8.",
+      "cveName": "CVE-2024-52408",
+      "cveUrl": "/vuln/detail/CVE-2024-52408"
+    }
+  },
+  "CVE-2024-52409": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:06 PM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Phan An AJAX Random Posts allows Object Injection.This issue affects AJAX Random Posts: from n/a through 0.3.3.",
+      "cveName": "CVE-2024-52409",
+      "cveUrl": "/vuln/detail/CVE-2024-52409"
+    }
+  },
+  "CVE-2024-52410": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:06 PM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Phoenixheart Referrer Detector allows Object Injection.This issue affects Referrer Detector: from n/a through 4.2.1.0.",
+      "cveName": "CVE-2024-52410",
+      "cveUrl": "/vuln/detail/CVE-2024-52410"
+    }
+  },
+  "CVE-2024-52411": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:07 PM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Flowcraft UX Design Studio Advanced Personalization allows Object Injection.This issue affects Advanced Personalization: from n/a through 1.1.2.",
+      "cveName": "CVE-2024-52411",
+      "cveUrl": "/vuln/detail/CVE-2024-52411"
+    }
+  },
+  "CVE-2024-52412": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:07 PM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Stephen Cui Xin allows Object Injection.This issue affects Xin: from n/a through 1.0.8.1.",
+      "cveName": "CVE-2024-52412",
+      "cveUrl": "/vuln/detail/CVE-2024-52412"
+    }
+  },
+  "CVE-2024-52413": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:07 PM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in DMC Airin Blog allows Object Injection.This issue affects Airin Blog: from n/a through 1.6.1.",
+      "cveName": "CVE-2024-52413",
+      "cveUrl": "/vuln/detail/CVE-2024-52413"
+    }
+  },
+  "CVE-2024-52414": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:07 PM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Anthony Carbon WDES Responsive Mobile Menu allows Object Injection.This issue affects WDES Responsive Mobile Menu: from n/a through 5.3.18.",
+      "cveName": "CVE-2024-52414",
+      "cveUrl": "/vuln/detail/CVE-2024-52414"
+    }
+  },
+  "CVE-2024-52415": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:07 PM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Skpstorm SK WP Settings Backup allows Object Injection.This issue affects SK WP Settings Backup: from n/a through 1.0.",
+      "cveName": "CVE-2024-52415",
+      "cveUrl": "/vuln/detail/CVE-2024-52415"
+    }
+  },
+  "CVE-2024-52416": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "5:15:08 PM -0500"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Eugen Bobrowski Debug Tool allows Upload a Web Shell to a Web Server.This issue affects Debug Tool: from n/a through 2.2.",
+      "cveName": "CVE-2024-52416",
+      "cveUrl": "/vuln/detail/CVE-2024-52416"
     }
   },
   "CVE-2024-52505": {
@@ -39740,6 +39949,39 @@
       "cveDis": "A heap-based buffer under-read in tsMuxer version nightly-2024-05-12-02-01-18 allows attackers to cause Denial of Service (DoS) via a crafted MOV video file.",
       "cveName": "CVE-2024-52613",
       "cveUrl": "/vuln/detail/CVE-2024-52613"
+    }
+  },
+  "CVE-2024-52867": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "guix-daemon in GNU Guix before 5ab3c4c allows privilege escalation because build outputs are accessible by local users before file metadata concerns (e.g., for setuid and setgid programs) are properly addressed. The vulnerability can be remediated within the product via certain pull, reconfigure, and restart actions. Both 5ab3c4c and 5582241 are needed to resolve the vulnerability.",
+      "cveName": "CVE-2024-52867",
+      "cveUrl": "/vuln/detail/CVE-2024-52867"
+    }
+  },
+  "CVE-2024-52871": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "In Flagsmith before 2.134.1, it is possible to bypass the ALLOW_REGISTRATION_WITHOUT_INVITE setting.",
+      "cveName": "CVE-2024-52871",
+      "cveUrl": "/vuln/detail/CVE-2024-52871"
+    }
+  },
+  "CVE-2024-52872": {
+    "cve": {
+      "cveDate": [
+        "November 16, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "In Flagsmith before 2.134.1, the get_document endpoint is not correctly protected by permissions.",
+      "cveName": "CVE-2024-52872",
+      "cveUrl": "/vuln/detail/CVE-2024-52872"
     }
   },
   "CVE-2024-5429": {
