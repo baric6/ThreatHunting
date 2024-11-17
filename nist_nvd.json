@@ -1561,6 +1561,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-40457"
     }
   },
+  "CVE-2023-43091": {
+    "cve": {
+      "cveDate": [
+        "November 17, 2024",
+        "8:15:14 AM -0500"
+      ],
+      "cveDis": "A flaw was found in GNOME Maps, which is vulnerable to a code injection attack via its service.json configuration file. If the configuration file is malicious, it may execute arbitrary code.",
+      "cveName": "CVE-2023-43091",
+      "cveUrl": "/vuln/detail/CVE-2023-43091"
+    }
+  },
   "CVE-2023-45359": {
     "cve": {
       "cveDate": [
