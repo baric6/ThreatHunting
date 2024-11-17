@@ -362,6 +362,17 @@
       "cveUrl": "/vuln/detail/CVE-2020-11926"
     }
   },
+  "CVE-2020-257207-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 17, 2024",
+        "6:15:04 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Samba where a delegated administrator with permission to create objects in Active Directory can write to all attributes of the newly created object, including security-sensitive attributes, even after the object's creation. This issue occurs because the administrator owns the object due to the lack of an Access Control List (ACL) at the time of creation and later being recognized as the 'creator owner.' The retained significant rights of the delegated administrator may not be well understood, potentially leading to unintended privilege escalation or security risks.",
+      "cveName": "CVE-2020-257207-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2020-25720"
+    }
+  },
   "CVE-2020-26303": {
     "cve": {
       "cveDate": [
@@ -1220,6 +1231,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-0109"
     }
   },
+  "CVE-2023-06573-4 LOW": {
+    "cve": {
+      "cveDate": [
+        "November 17, 2024",
+        "6:15:05 AM -0500"
+      ],
+      "cveDis": "A flaw was found in Keycloak. This issue occurs due to improperly enforcing token types when validating signatures locally. This could allow an authenticated attacker to exchange a logout token for an access token and possibly gain access to data outside of enforced permissions.",
+      "cveName": "CVE-2023-06573-4 LOW",
+      "cveUrl": "/vuln/detail/CVE-2023-0657"
+    }
+  },
   "CVE-2023-0737": {
     "cve": {
       "cveDate": [
@@ -1229,6 +1251,17 @@
       "cveDis": "wallabag version 2.5.2 contains a Cross-Site Request Forgery (CSRF) vulnerability that allows attackers to arbitrarily delete user accounts via the /account/delete endpoint. This issue is fixed in version 2.5.4.",
       "cveName": "CVE-2023-0737",
       "cveUrl": "/vuln/detail/CVE-2023-0737"
+    }
+  },
+  "CVE-2023-14195-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 17, 2024",
+        "6:15:05 AM -0500"
+      ],
+      "cveDis": "A script injection vulnerability was found in the Debezium database connector, where it does not properly sanitize some parameters. This flaw allows an attacker to send a malicious request to inject a parameter that may allow the viewing of unauthorized data.",
+      "cveName": "CVE-2023-14195-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2023-1419"
     }
   },
   "CVE-2023-1932": {
@@ -1561,6 +1594,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-45872"
     }
   },
+  "CVE-2023-46397-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 17, 2024",
+        "6:15:05 AM -0500"
+      ],
+      "cveDis": "A flaw was found in Undertow, which incorrectly parses cookies with certain value-delimiting characters in incoming requests. This issue could allow an attacker to construct a cookie value to exfiltrate HttpOnly cookie values or spoof arbitrary additional cookie values, leading to unauthorized data access or modification. The main threat from this flaw impacts data confidentiality and integrity.",
+      "cveName": "CVE-2023-46397-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2023-4639"
+    }
+  },
   "CVE-2023-46586": {
     "cve": {
       "cveDate": [
@@ -1790,6 +1834,17 @@
       "cveDis": "Lakeside Software’s SysTrack LsiAgent Installer version 10.7.8 for Windows contains a local privilege escalation vulnerability which allows attackers SYSTEM level access.",
       "cveName": "CVE-2023-6080",
       "cveUrl": "/vuln/detail/CVE-2023-6080"
+    }
+  },
+  "CVE-2023-61105-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 17, 2024",
+        "6:15:06 AM -0500"
+      ],
+      "cveDis": "A flaw was found in OpenStack. When a user tries to delete a non-existing access rule in it's scope, it deletes other existing access rules which are not associated with any application credentials.",
+      "cveName": "CVE-2023-61105-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2023-6110"
     }
   },
   "CVE-2023-62434-3 MEDIUM": {
@@ -2164,6 +2219,17 @@
       "cveDis": "phpIPAM version 1.5.1 contains a vulnerability where an attacker can bypass the IP block mechanism to brute force passwords for users by using the 'X-Forwarded-For' header. The issue lies in the 'get_user_ip()' function in 'class.Common.php' at lines 1044 and 1045, where the presence of the 'X-Forwarded-For' header is checked and used instead of 'REMOTE_ADDR'. This vulnerability allows attackers to perform brute force attacks on user accounts, including the admin account. The issue is fixed in version 1.7.0.",
       "cveName": "CVE-2024-0787",
       "cveUrl": "/vuln/detail/CVE-2024-0787"
+    }
+  },
+  "CVE-2024-07937-7 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 17, 2024",
+        "6:15:06 AM -0500"
+      ],
+      "cveDis": "A flaw was found in kube-controller-manager. This issue occurs when the initial application of a HPA config YAML lacking a .spec.behavior.scaleUp block causes a denial of service due to KCM pods going into restart churn.",
+      "cveName": "CVE-2024-07937-7 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-0793"
     }
   },
   "CVE-2024-0875": {
@@ -39982,6 +40048,17 @@
       "cveDis": "In Flagsmith before 2.134.1, the get_document endpoint is not correctly protected by permissions.",
       "cveName": "CVE-2024-52872",
       "cveUrl": "/vuln/detail/CVE-2024-52872"
+    }
+  },
+  "CVE-2024-52876": {
+    "cve": {
+      "cveDate": [
+        "November 17, 2024",
+        "12:15:04 AM -0500"
+      ],
+      "cveDis": "Holy Stone Remote ID Module HSRID01, firmware distributed with the Drone Go2 mobile application before 1.1.8, allows unauthenticated \"remote power off\" actions (in broadcast mode) via multiple read operations on the ASTM Remote ID (0xFFFA) GATT.",
+      "cveName": "CVE-2024-52876",
+      "cveUrl": "/vuln/detail/CVE-2024-52876"
     }
   },
   "CVE-2024-5429": {
