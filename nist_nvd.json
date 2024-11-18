@@ -1561,6 +1561,39 @@
       "cveUrl": "/vuln/detail/CVE-2023-37822"
     }
   },
+  "CVE-2023-39176": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "A flaw was found within the parsing of SMB2 requests that have a transform header in the kernel ksmbd module. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this to disclose sensitive information on affected installations of Linux. Only systems with ksmbd enabled are vulnerable to this CVE.",
+      "cveName": "CVE-2023-39176",
+      "cveUrl": "/vuln/detail/CVE-2023-39176"
+    }
+  },
+  "CVE-2023-39179": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "A flaw was found within the handling of SMB2 read requests in the kernel ksmbd module. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this to disclose sensitive information on affected installations of Linux. Only systems with ksmbd enabled are vulnerable to this CVE.",
+      "cveName": "CVE-2023-39179",
+      "cveUrl": "/vuln/detail/CVE-2023-39179"
+    }
+  },
+  "CVE-2023-39180": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "A flaw was found within the handling of SMB2_READ commands in the kernel ksmbd module. The issue results from not releasing memory after its effective lifetime. An attacker can leverage this to create a denial-of-service condition on affected installations of Linux. Authentication is not required to exploit this vulnerability, but only systems with ksmbd enabled are vulnerable.",
+      "cveName": "CVE-2023-39180",
+      "cveUrl": "/vuln/detail/CVE-2023-39180"
+    }
+  },
   "CVE-2023-39593": {
     "cve": {
       "cveDate": [
@@ -7226,6 +7259,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11021"
     }
   },
+  "CVE-2024-11023": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "6:15:05 AM -0500"
+      ],
+      "cveDis": "Firebase JavaScript SDK utilizes a \"FIREBASE_DEFAULTS\" cookie to store configuration data, including an \"_authTokenSyncURL\" field used for session synchronization.  If this cookie field is preset via an attacker by any other method, the attacker can manipulate the \"_authTokenSyncURL\" to point to their own server and it would allow am actor to capture user session data transmitted by the SDK. We recommend upgrading Firebase JS SDK at least to 10.9.0.",
+      "cveName": "CVE-2024-11023",
+      "cveUrl": "/vuln/detail/CVE-2024-11023"
+    }
+  },
   "CVE-2024-11026": {
     "cve": {
       "cveDate": [
@@ -7895,6 +7939,94 @@
       "cveDis": "A vulnerability, which was classified as critical, has been found in Altenergy Power Control Software up to 20241108. This issue affects some unknown processing of the file /index.php/display/database/. The manipulation leads to improper authorization. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other endpoints might be affected as well. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-11306",
       "cveUrl": "/vuln/detail/CVE-2024-11306"
+    }
+  },
+  "CVE-2024-113086-2 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:04 AM -0500"
+      ],
+      "cveDis": "The DVC from TRCore encrypts files using a hardcoded key. Attackers can use this key to decrypt the files and restore the original content.",
+      "cveName": "CVE-2024-113086-2 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11308"
+    }
+  },
+  "CVE-2024-113097-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:04 AM -0500"
+      ],
+      "cveDis": "The DVC from TRCore has a Path Traversal vulnerability, allowing unauthenticated remote attackers to exploit this vulnerability to read arbitrary system files.",
+      "cveName": "CVE-2024-113097-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11309"
+    }
+  },
+  "CVE-2024-113107-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:04 AM -0500"
+      ],
+      "cveDis": "The DVC from TRCore has a Path Traversal vulnerability, allowing unauthenticated remote attackers to exploit this vulnerability to read arbitrary system files.",
+      "cveName": "CVE-2024-113107-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11310"
+    }
+  },
+  "CVE-2024-113119-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "2:15:13 AM -0500"
+      ],
+      "cveDis": "The DVC from TRCore has a Path Traversal vulnerability and does not restrict the types of uploaded files. This allows unauthenticated remote attackers to upload arbitrary files to any directory, leading to arbitrary code execution by uploading webshells.",
+      "cveName": "CVE-2024-113119-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11311"
+    }
+  },
+  "CVE-2024-113129-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "2:15:14 AM -0500"
+      ],
+      "cveDis": "The DVC from TRCore has a Path Traversal vulnerability and does not restrict the types of uploaded files. This allows unauthenticated remote attackers to upload arbitrary files to any directory, leading to arbitrary code execution by uploading webshells.",
+      "cveName": "CVE-2024-113129-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11312"
+    }
+  },
+  "CVE-2024-113139-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "2:15:15 AM -0500"
+      ],
+      "cveDis": "The DVC from TRCore has a Path Traversal vulnerability and does not restrict the types of uploaded files. This allows unauthenticated remote attackers to upload arbitrary files to any directory, leading to arbitrary code execution by uploading webshells.",
+      "cveName": "CVE-2024-113139-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11313"
+    }
+  },
+  "CVE-2024-113149-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "2:15:15 AM -0500"
+      ],
+      "cveDis": "The DVC from TRCore has a Path Traversal vulnerability and does not restrict the types of uploaded files. This allows unauthenticated remote attackers to upload arbitrary files to any directory, leading to arbitrary code execution by uploading webshells.",
+      "cveName": "CVE-2024-113149-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11314"
+    }
+  },
+  "CVE-2024-113159-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "2:15:16 AM -0500"
+      ],
+      "cveDis": "The DVC from TRCore has a Path Traversal vulnerability and does not restrict the types of uploaded files. This allows unauthenticated remote attackers to upload arbitrary files to any directory, leading to arbitrary code execution by uploading webshells.",
+      "cveName": "CVE-2024-113159-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11315"
     }
   },
   "CVE-2024-1240": {
@@ -10062,6 +10194,17 @@
       "cveDis": "There is a privilege escalation vulnerability in ZTE ZXR10 ZSR V2 intelligent multi service router . An authenticated attacker could use the vulnerability to obtain sensitive information about the device.",
       "cveName": "CVE-2024-22066",
       "cveUrl": "/vuln/detail/CVE-2024-22066"
+    }
+  },
+  "CVE-2024-22067": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "2:15:17 AM -0500"
+      ],
+      "cveDis": "ZTE NH8091 product has an improper permission control vulnerability. Due to improper permission control of the Web module interface, an authenticated attacker may exploit the vulnerability to execute arbitrary commands.",
+      "cveName": "CVE-2024-22067",
+      "cveUrl": "/vuln/detail/CVE-2024-22067"
     }
   },
   "CVE-2024-22068": {
@@ -13991,6 +14134,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-41128"
     }
   },
+  "CVE-2024-41151": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Apache HertzBeat.\n\nThis vulnerability can only be exploited by authorized attackers.\n\n\nThis issue affects Apache HertzBeat: before 1.6.1.\n\nUsers are recommended to upgrade to version 1.6.1, which fixes the issue.",
+      "cveName": "CVE-2024-41151",
+      "cveUrl": "/vuln/detail/CVE-2024-41151"
+    }
+  },
   "CVE-2024-41153": {
     "cve": {
       "cveDate": [
@@ -14563,6 +14717,94 @@
       "cveUrl": "/vuln/detail/CVE-2024-41925"
     }
   },
+  "CVE-2024-419678-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "A low privileged remote attacker may modify the boot mode configuration setup of the device, leading to modification of the firmware upgrade process or a denial-of-service attack.",
+      "cveName": "CVE-2024-419678-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-41967"
+    }
+  },
+  "CVE-2024-419685-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "A low privileged remote attacker may modify the docker settings setup of the device, leading to a limited DoS.",
+      "cveName": "CVE-2024-419685-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-41968"
+    }
+  },
+  "CVE-2024-419698-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "A low privileged remote attacker may modify the configuration of the CODESYS V3 service through a missing authentication vulnerability which could lead to full system access and/or DoS.",
+      "cveName": "CVE-2024-419698-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-41969"
+    }
+  },
+  "CVE-2024-419705-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "A low privileged remote attacker may gain access to forbidden diagnostic data due to incorrect permission assignment for critical resources.",
+      "cveName": "CVE-2024-419705-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-41970"
+    }
+  },
+  "CVE-2024-419718-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "A low privileged remote attacker can overwrite an arbitrary file on the filesystem leading to a DoS and data loss.",
+      "cveName": "CVE-2024-419718-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-41971"
+    }
+  },
+  "CVE-2024-419726-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "A low privileged remote attacker can overwrite an arbitrary file on the filesystem which may lead to an arbitrary file read with root privileges.",
+      "cveName": "CVE-2024-419726-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-41972"
+    }
+  },
+  "CVE-2024-419738-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "A low privileged remote attacker can specify an arbitrary file on the filesystem which may lead to an arbitrary file writes with root privileges.",
+      "cveName": "CVE-2024-419738-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-41973"
+    }
+  },
+  "CVE-2024-419747-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "A low privileged remote attacker may modify the BACNet service properties due to incorrect permission assignment for critical resources which may lead to a DoS limited to BACNet communication.",
+      "cveName": "CVE-2024-419747-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-41974"
+    }
+  },
   "CVE-2024-41981": {
     "cve": {
       "cveDate": [
@@ -14726,6 +14968,116 @@
       "cveDis": "Due to missing authorization check in SAP NetWeaver AS Java (System Landscape Directory) an unauthorized user can read and modify some restricted global SLD configurations causing low impact on confidentiality and integrity of the application.",
       "cveName": "CVE-2024-42372",
       "cveUrl": "/vuln/detail/CVE-2024-42372"
+    }
+  },
+  "CVE-2024-42383": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "Use of Out-of-range Pointer Offset vulnerability in Cesanta Mongoose Web Server v7.14 allows to write a NULL byte value beyond the memory space dedicated for the hostname field.",
+      "cveName": "CVE-2024-42383",
+      "cveUrl": "/vuln/detail/CVE-2024-42383"
+    }
+  },
+  "CVE-2024-42384": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "Integer Overflow or Wraparound vulnerability in Cesanta Mongoose Web Server v7.14 allows an attacker to send an unexpected TLS packet and produce a segmentation fault on the application.",
+      "cveName": "CVE-2024-42384",
+      "cveUrl": "/vuln/detail/CVE-2024-42384"
+    }
+  },
+  "CVE-2024-42385": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:07 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Delimiters vulnerability in Cesanta Mongoose Web Server v7.14 allows to trigger an out-of-bound memory write if the PEM certificate contains unexpected characters.",
+      "cveName": "CVE-2024-42385",
+      "cveUrl": "/vuln/detail/CVE-2024-42385"
+    }
+  },
+  "CVE-2024-42386": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:07 AM -0500"
+      ],
+      "cveDis": "Use of Out-of-range Pointer Offset vulnerability in Cesanta Mongoose Web Server v7.14 allows an attacker to send an unexpected TLS packet and produce a segmentation fault on the application.",
+      "cveName": "CVE-2024-42386",
+      "cveUrl": "/vuln/detail/CVE-2024-42386"
+    }
+  },
+  "CVE-2024-42387": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:07 AM -0500"
+      ],
+      "cveDis": "Use of Out-of-range Pointer Offset vulnerability in Cesanta Mongoose Web Server v7.14 allows an attacker to send an unexpected TLS packet and force the application to read unintended heap memory space.",
+      "cveName": "CVE-2024-42387",
+      "cveUrl": "/vuln/detail/CVE-2024-42387"
+    }
+  },
+  "CVE-2024-42388": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:07 AM -0500"
+      ],
+      "cveDis": "Use of Out-of-range Pointer Offset vulnerability in Cesanta Mongoose Web Server v7.14 allows an attacker to send an unexpected TLS packet and force the application to read unintended heap memory space.",
+      "cveName": "CVE-2024-42388",
+      "cveUrl": "/vuln/detail/CVE-2024-42388"
+    }
+  },
+  "CVE-2024-42389": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:08 AM -0500"
+      ],
+      "cveDis": "Use of Out-of-range Pointer Offset vulnerability in Cesanta Mongoose Web Server v7.14 allows an attacker to send an unexpected TLS packet and force the application to read unintended heap memory space.",
+      "cveName": "CVE-2024-42389",
+      "cveUrl": "/vuln/detail/CVE-2024-42389"
+    }
+  },
+  "CVE-2024-42390": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:08 AM -0500"
+      ],
+      "cveDis": "Use of Out-of-range Pointer Offset vulnerability in Cesanta Mongoose Web Server v7.14 allows an attacker to send an unexpected TLS packet and force the application to read unintended heap memory space.",
+      "cveName": "CVE-2024-42390",
+      "cveUrl": "/vuln/detail/CVE-2024-42390"
+    }
+  },
+  "CVE-2024-42391": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:08 AM -0500"
+      ],
+      "cveDis": "Use of Out-of-range Pointer Offset vulnerability in Cesanta Mongoose Web Server v7.14 allows an attacker to send an unexpected TLS packet and force the application to read unintended heap memory space.",
+      "cveName": "CVE-2024-42391",
+      "cveUrl": "/vuln/detail/CVE-2024-42391"
+    }
+  },
+  "CVE-2024-42392": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "5:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Delimiters vulnerability in Cesanta Mongoose Web Server v7.14 allows to trigger an infinite loop bug if the input string contains unexpected characters.",
+      "cveName": "CVE-2024-42392",
+      "cveUrl": "/vuln/detail/CVE-2024-42392"
     }
   },
   "CVE-2024-424158-4 HIGH": {
@@ -15980,6 +16332,17 @@
       "cveDis": "Software installed and run as a non-privileged user may conduct GPU system calls to read and write freed physical memory from the GPU.",
       "cveName": "CVE-2024-43701",
       "cveUrl": "/vuln/detail/CVE-2024-43701"
+    }
+  },
+  "CVE-2024-43704": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:04 AM -0500"
+      ],
+      "cveDis": "Software installed and run as a non-privileged user may conduct improper GPU system calls to gain access to the graphics buffers of a parent process.",
+      "cveName": "CVE-2024-43704",
+      "cveUrl": "/vuln/detail/CVE-2024-43704"
     }
   },
   "CVE-2024-43789": {
@@ -18732,6 +19095,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45477"
     }
   },
+  "CVE-2024-45505": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in Apache HertzBeat (incubating).\n\nThis vulnerability can only be exploited by authorized attackers.\nThis issue affects Apache HertzBeat (incubating): before 1.6.1.\n\nUsers are recommended to upgrade to version 1.6.1, which fixes the issue.",
+      "cveName": "CVE-2024-45505",
+      "cveUrl": "/vuln/detail/CVE-2024-45505"
+    }
+  },
   "CVE-2024-45518": {
     "cve": {
       "cveDate": [
@@ -19137,6 +19511,17 @@
       "cveDis": "MUSASI version 3 contains an issue with use of client-side authentication. If this vulnerability is exploited, other users' credential and sensitive information may be retrieved.",
       "cveName": "CVE-2024-45785",
       "cveUrl": "/vuln/detail/CVE-2024-45785"
+    }
+  },
+  "CVE-2024-45791": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache HertzBeat.\n\nThis issue affects Apache HertzBeat: before 1.6.1.\n\nUsers are recommended to upgrade to version 1.6.1, which fixes the issue.",
+      "cveName": "CVE-2024-45791",
+      "cveUrl": "/vuln/detail/CVE-2024-45791"
     }
   },
   "CVE-2024-45792": {
@@ -21546,6 +21931,17 @@
       "cveDis": "A vulnerability has been identified in ModelSim (All versions < V2024.3), Questa (All versions < V2024.3). vsimk.exe in affected applications allows a specific tcl file to be loaded from the current working directory. This could allow an authenticated local attacker to inject arbitrary code and escalate privileges in installations where administrators or processes with elevated privileges launch vsimk.exe from a user-writable directory.",
       "cveName": "CVE-2024-47196",
       "cveUrl": "/vuln/detail/CVE-2024-47196"
+    }
+  },
+  "CVE-2024-47208": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "4:15:06 AM -0500"
+      ],
+      "cveDis": "Server-Side Request Forgery (SSRF), Improper Control of Generation of Code ('Code Injection') vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: before 18.12.17.\n\nUsers are recommended to upgrade to version 18.12.17, which fixes the issue.",
+      "cveName": "CVE-2024-47208",
+      "cveUrl": "/vuln/detail/CVE-2024-47208"
     }
   },
   "CVE-2024-47211": {
@@ -28709,6 +29105,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48958"
     }
   },
+  "CVE-2024-48962": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "4:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Control of Generation of Code ('Code Injection'), Cross-Site Request Forgery (CSRF), : Improper Neutralization of Special Elements Used in a Template Engine vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: before 18.12.17.\n\nUsers are recommended to upgrade to version 18.12.17, which fixes the issue.",
+      "cveName": "CVE-2024-48962",
+      "cveUrl": "/vuln/detail/CVE-2024-48962"
+    }
+  },
   "CVE-2024-48963": {
     "cve": {
       "cveDate": [
@@ -30533,6 +30940,17 @@
       "cveDis": "Dell SmartFabric OS10 Software, version(s) 10.5.6.x, 10.5.5.x, 10.5.4.x, 10.5.3.x, contain(s) a command injection vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Command execution.",
       "cveName": "CVE-2024-49560",
       "cveUrl": "/vuln/detail/CVE-2024-49560"
+    }
+  },
+  "CVE-2024-49574": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "Zohocorp ManageEngine ADAudit Plus versions below 8123 are vulnerable to SQL Injection in the reports module.",
+      "cveName": "CVE-2024-49574",
+      "cveUrl": "/vuln/detail/CVE-2024-49574"
     }
   },
   "CVE-2024-49579": {
@@ -34229,6 +34647,17 @@
       "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nfork: only invoke khugepaged, ksm hooks if no error\n\nThere is no reason to invoke these hooks early against an mm that is in an\nincomplete state.\n\nThe change in commit d24062914837 (\"fork: use __mt_dup() to duplicate\nmaple tree in dup_mmap()\") makes this more pertinent as we may be in a\nstate where entries in the maple tree are not yet consistent.\n\nTheir placement early in dup_mmap() only appears to have been meaningful\nfor early error checking, and since functionally it'd require a very small\nallocation to fail (in practice 'too small to fail') that'd only occur in\nthe most dire circumstances, meaning the fork would fail or be OOM'd in\nany case.\n\nSince both khugepaged and KSM tracking are there to provide optimisations\nto memory performance rather than critical functionality, it doesn't\nreally matter all that much if, under such dire memory pressure, we fail\nto register an mm with these.\n\nAs a result, we follow the example of commit d2081b2bf819 (\"mm:\nkhugepaged: make khugepaged_enter() void function\") and make ksm_fork() a\nvoid function also.\n\nWe only expose the mm to these functions once we are done with them and\nonly if no error occurred in the fork operation.",
       "cveName": "CVE-2024-50263",
       "cveUrl": "/vuln/detail/CVE-2024-50263"
+    }
+  },
+  "CVE-2024-5030": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "The CM Table Of Contents  WordPress plugin before 1.2.3 does not have CSRF check in place when resetting its settings, which could allow attackers to make a logged in admin perform such action via a CSRF attack",
+      "cveName": "CVE-2024-5030",
+      "cveUrl": "/vuln/detail/CVE-2024-5030"
     }
   },
   "CVE-2024-50307": {
@@ -40257,6 +40686,94 @@
       "cveDis": "Delinea Privilege Manager before 12.0.2 mishandles the security of the Windows agent.",
       "cveName": "CVE-2024-52926",
       "cveUrl": "/vuln/detail/CVE-2024-52926"
+    }
+  },
+  "CVE-2024-52940": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:05 AM -0500"
+      ],
+      "cveDis": "AnyDesk through 8.1.0 on Windows, when Allow Direct Connections is enabled, inadvertently exposes a public IP address within network traffic. The attacker must know the victim's AnyDesk ID.",
+      "cveName": "CVE-2024-52940",
+      "cveUrl": "/vuln/detail/CVE-2024-52940"
+    }
+  },
+  "CVE-2024-52941": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:05 AM -0500"
+      ],
+      "cveDis": "An issue was discovered in Veritas Enterprise Vault before 15.1 UPD882911, ZDI-CAN-24695. It allows an authenticated remote attacker to inject a parameter into an HTTP request, allowing for Cross-Site Scripting (XSS) while viewing archived content. This could reflect back to an authenticated user without sanitization if executed by that user.",
+      "cveName": "CVE-2024-52941",
+      "cveUrl": "/vuln/detail/CVE-2024-52941"
+    }
+  },
+  "CVE-2024-52942": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:05 AM -0500"
+      ],
+      "cveDis": "An issue was discovered in Veritas Enterprise Vault before 15.1 UPD882911, ZDI-CAN-24696. It allows an authenticated remote attacker to inject a parameter into an HTTP request, allowing for Cross-Site Scripting (XSS) while viewing archived content. This could reflect back to an authenticated user without sanitization if executed by that user.",
+      "cveName": "CVE-2024-52942",
+      "cveUrl": "/vuln/detail/CVE-2024-52942"
+    }
+  },
+  "CVE-2024-52943": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:05 AM -0500"
+      ],
+      "cveDis": "An issue was discovered in Veritas Enterprise Vault before 15.1 UPD882911, ZDI-CAN-24697. It allows an authenticated remote attacker to inject a parameter into an HTTP request, allowing for Cross-Site Scripting (XSS) while viewing archived content. This could reflect back to an authenticated user without sanitization if executed by that user.",
+      "cveName": "CVE-2024-52943",
+      "cveUrl": "/vuln/detail/CVE-2024-52943"
+    }
+  },
+  "CVE-2024-52944": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "An issue was discovered in Veritas Enterprise Vault before 15.1 UPD882911, ZDI-CAN-24698. It allows an authenticated remote attacker to inject a parameter into an HTTP request, allowing for Cross-Site Scripting while viewing archived content. This could reflect back to an authenticated user without sanitization if executed by that user.",
+      "cveName": "CVE-2024-52944",
+      "cveUrl": "/vuln/detail/CVE-2024-52944"
+    }
+  },
+  "CVE-2024-52945": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "An issue was discovered in Veritas NetBackup before 10.5. This only applies to NetBackup components running on a Windows Operating System. If a user executes specific NetBackup commands or an attacker uses social engineering techniques to impel the user to execute the commands, a malicious DLL could be loaded, resulting in execution of the attacker's code in the user's security context.",
+      "cveName": "CVE-2024-52945",
+      "cveUrl": "/vuln/detail/CVE-2024-52945"
+    }
+  },
+  "CVE-2024-52946": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "An issue was discovered in LemonLDAP::NG before 2.20.1. An Improper Check during session refresh allows an authenticated user to raise their authentication level if the admin configured an \"Adaptative authentication rule\" with an increment instead of an absolute value.",
+      "cveName": "CVE-2024-52946",
+      "cveUrl": "/vuln/detail/CVE-2024-52946"
+    }
+  },
+  "CVE-2024-52947": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability in LemonLDAP::NG before 2.20.1 allows remote attackers to inject arbitrary web script or HTML via the url parameter of the upgrade session confirmation page (upgradeSession / forceUpgrade) if the \"Upgrade session\" plugin has been enabled by an admin",
+      "cveName": "CVE-2024-52947",
+      "cveUrl": "/vuln/detail/CVE-2024-52947"
     }
   },
   "CVE-2024-5429": {
