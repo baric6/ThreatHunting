@@ -395,6 +395,83 @@
       "cveUrl": "/vuln/detail/CVE-2020-25720"
     }
   },
+  "CVE-2020-260625-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:05 AM -0500"
+      ],
+      "cveDis": "A vulnerability in Cisco&nbsp;Integrated Management Controller could allow an unauthenticated, remote attacker to enumerate valid usernames within the vulnerable application.\nThe vulnerability is due to differences in authentication responses sent back from the application as part of an authentication attempt. An attacker could exploit this vulnerability by sending authentication requests to the affected application. A successful exploit could allow the attacker to confirm the names of administrative user accounts for use in further attacks.There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-260625-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-26062"
+    }
+  },
+  "CVE-2020-260635-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:05 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the API endpoints of Cisco&nbsp;Integrated Management Controller could allow an authenticated, remote attacker to bypass authorization and take actions on a vulnerable system without authorization.\nThe vulnerability is due to improper authorization checks on API endpoints. An attacker could exploit this vulnerability by sending malicious requests to an API endpoint. An exploit could allow the attacker to download files from or modify limited configuration options on the affected system.There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-260635-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-26063"
+    }
+  },
+  "CVE-2020-26066": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web UI of Cisco&nbsp;SD-WAN vManage Software could allow an authenticated, remote attacker to gain read and write access to information that is stored on an affected system.\nThe vulnerability is due to improper handling of XML External Entity (XXE) entries when parsing certain XML files. An attacker could exploit this vulnerability by persuading a user to import a crafted XML file with malicious entries. A successful exploit could allow the attacker to read and write files within the affected application.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-26066",
+      "cveUrl": "/vuln/detail/CVE-2020-26066"
+    }
+  },
+  "CVE-2020-260675-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based interface of Cisco&nbsp;Webex Teams could allow an authenticated, remote attacker to conduct cross-site scripting attacks.\nThe vulnerability is due to improper validation of usernames. An attacker could exploit this vulnerability by creating an account that contains malicious HTML or script content and joining a space using the malicious account name. A successful exploit could allow the attacker to conduct cross-site scripting attacks and potentially gain access to sensitive browser-based information.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-260675-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-26067"
+    }
+  },
+  "CVE-2020-260718-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:05 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the CLI of Cisco&nbsp;SD-WAN Software could allow an authenticated, local attacker to create or overwrite arbitrary files on an affected device, which could result in a denial of service (DoS) condition.\nThe vulnerability is due to insufficient input validation for specific commands. An attacker could exploit this vulnerability by including crafted arguments to those specific commands. A successful exploit could allow the attacker to create or overwrite arbitrary files on the affected device, which could result in a DoS condition.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-260718-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2020-26071"
+    }
+  },
+  "CVE-2020-260737-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:05 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the application data endpoints of Cisco&nbsp;SD-WAN vManage Software could allow an unauthenticated, remote attacker to gain access to sensitive information.\nThe vulnerability is due to improper validation of directory traversal character sequences within requests to application programmatic interfaces (APIs). An attacker could exploit this vulnerability by sending malicious requests to an API within the affected application. A successful exploit could allow the attacker to conduct directory traversal attacks and gain access to sensitive information including credentials or user tokens.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-260737-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2020-26073"
+    }
+  },
+  "CVE-2020-26074": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability in system file transfer functions of Cisco&nbsp;SD-WAN vManage Software could allow an authenticated, local attacker to gain escalated privileges on the underlying operating system.\nThe vulnerability is due to improper validation of path input to the system file transfer functions. An attacker could exploit this vulnerability by sending requests that contain specially crafted path variables to the vulnerable system. A successful exploit could allow the attacker to overwrite arbitrary files, allowing the attacker to modify the system in such a way that could allow the attacker to gain escalated privileges.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-26074",
+      "cveUrl": "/vuln/detail/CVE-2020-26074"
+    }
+  },
   "CVE-2020-26303": {
     "cve": {
       "cveDate": [
@@ -492,6 +569,94 @@
       "cveDis": "Useragent is a user agent parser for Node.js. All versions as of time of publication contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, no patches are available.",
       "cveName": "CVE-2020-26311",
       "cveUrl": "/vuln/detail/CVE-2020-26311"
+    }
+  },
+  "CVE-2020-271248-6 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the SSL/TLS handler of Cisco&nbsp;Adaptive Security Appliance (ASA) Software could allow an unauthenticated, remote attacker to cause the affected device to reload unexpectedly, leading to a denial of service (DoS) condition.\nThe vulnerability is due to improper error handling on established SSL/TLS connections. An attacker could exploit this vulnerability by establishing an SSL/TLS connection with the affected device and then sending a malicious SSL/TLS message within that connection. A successful exploit could allow the attacker to cause the device to reload.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-271248-6 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2020-27124"
+    }
+  },
+  "CVE-2020-3420": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface.\nThe vulnerability is due to insufficient validation of user-supplied input by the web-based management interface of the affected software. An attacker could exploit this vulnerability by inserting malicious data into a specific data field in the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive browser-based information.There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-3420",
+      "cveUrl": "/vuln/detail/CVE-2020-3420"
+    }
+  },
+  "CVE-2020-34316-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco&nbsp;Small Business RV042 Dual WAN VPN Routers and Cisco&nbsp;Small Business RV042G Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the web-based management interface of an affected device.\nThe vulnerability is due to insufficient validation of user-supplied input by the web-based management interface of the affected software. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive browser-based information.Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-34316-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-3431"
+    }
+  },
+  "CVE-2020-3525": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:07 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the Admin portal of Cisco&nbsp;Identity Services Engine (ISE) could allow an authenticated, remote attacker to recover service account passwords that are saved on an affected system.\nThe vulnerability is due to the incorrect inclusion of saved passwords when loading configuration pages in the Admin portal. An attacker with read or write access to the Admin portal could exploit this vulnerability by browsing to a page that contains sensitive data. A successful exploit could allow the attacker to recover passwords and expose those accounts to further attack.Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-3525",
+      "cveUrl": "/vuln/detail/CVE-2020-3525"
+    }
+  },
+  "CVE-2020-3532": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:07 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco&nbsp;Unified Communications Manager, Cisco&nbsp;Unified Communications Manager Session Management Edition, Cisco&nbsp;Unified Communications Manager IM &amp; Presence Service, and Cisco&nbsp;Unity Connection could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface.\nThe vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive browser-based information.There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-3532",
+      "cveUrl": "/vuln/detail/CVE-2020-3532"
+    }
+  },
+  "CVE-2020-35384-6 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:07 AM -0500"
+      ],
+      "cveDis": "A vulnerability in a certain REST API endpoint of Cisco&nbsp;Data Center Network Manager (DCNM) Software could allow an authenticated, remote attacker to perform a path traversal attack on an affected device.\nThe vulnerability is due to insufficient path restriction enforcement. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to overwrite or list arbitrary files on the affected device.Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-35384-6 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-3538"
+    }
+  },
+  "CVE-2020-35396-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:07 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco Data Center Network Manager (DCNM) could allow an authenticated, remote attacker to view, modify, and delete data without proper authorization.\nThe vulnerability is due to a failure to limit access to resources that are intended for users with Administrator privileges. An attacker could exploit this vulnerability by convincing a user to click a malicious URL. A successful exploit could allow a low-privileged attacker to list, view, create, edit, and delete templates in the same manner as a user with Administrator privileges.Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-35396-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-3539"
+    }
+  },
+  "CVE-2020-35485-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the Transport Layer Security (TLS) protocol implementation of Cisco&nbsp;AsyncOS software for Cisco&nbsp;Email Security Appliance (ESA) could allow an unauthenticated, remote attacker to cause high CPU usage on an affected device, resulting in a denial of service (DoS) condition.\nThe vulnerability is due to inefficient processing of incoming TLS traffic. An attacker could exploit this vulnerability by sending a series of crafted TLS packets to an affected device. A successful exploit could allow the attacker to trigger a prolonged state of high CPU utilization. The affected device would still be operative, but response time and overall performance may be degraded.There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2020-35485-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-3548"
     }
   },
   "CVE-2020-368315-0 MEDIUM": {
@@ -626,6 +791,138 @@
       "cveUrl": "/vuln/detail/CVE-2020-8007"
     }
   },
+  "CVE-2021-11325-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the API subsystem and in the web-management interface of Cisco&nbsp;Network Services Orchestrator (NSO) could allow an unauthenticated, remote attacker to access sensitive data.\nThis vulnerability exists because the web-management interface and certain HTTP-based APIs do not properly validate user-supplied input. An attacker could exploit this vulnerability by sending a crafted HTTP request that contains directory traversal character sequences to an affected system. A successful exploit could allow the attacker to access sensitive files on the affected system.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2021-11325-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-1132"
+    }
+  },
+  "CVE-2021-12326-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco&nbsp;SD-WAN vManage Software could allow an authenticated, remote attacker to read arbitrary files on the underlying filesystem of an affected system.\nThis vulnerability is due to insufficient access control for sensitive information that is written to an affected system. An attacker could exploit this vulnerability by accessing sensitive information that they are not authorized to access on an affected system. A successful exploit could allow the attacker to gain access to devices and other network management systems that they should not have access to.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2021-12326-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-1232"
+    }
+  },
+  "CVE-2021-12345-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the cluster management interface of Cisco&nbsp;SD-WAN vManage Software could allow an unauthenticated, remote attacker to view sensitive information on an affected system. To be affected by this vulnerability, the vManage software must be in cluster mode.\nThis vulnerability is due to the absence of authentication for sensitive information in the cluster management interface. An attacker could exploit this vulnerability by sending a crafted request to the cluster management interface of an affected system. A successful exploit could allow the attacker to view sensitive information on the affected system.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2021-12345-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-1234"
+    }
+  },
+  "CVE-2021-1285": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:09 AM -0500"
+      ],
+      "cveDis": "Multiple Cisco&nbsp;products are affected by a vulnerability in the Ethernet Frame Decoder of the Snort detection engine that could allow an unauthenticated, adjacent attacker to cause a denial of service (DoS) condition.\nThe vulnerability is due to improper handling of error conditions when processing Ethernet frames. An attacker could exploit this vulnerability by sending malicious Ethernet frames through an affected device. A successful exploit could allow the attacker to exhaust disk space on the affected device, which could result in administrators being unable to log in to the device or the device being unable to boot up correctly.Note: Manual intervention is required to recover from this situation. Customers are advised to contact the Cisco&nbsp;Technical Assistance Center (TAC) to help recover a device in this condition.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2021-1285",
+      "cveUrl": "/vuln/detail/CVE-2021-1285"
+    }
+  },
+  "CVE-2021-13796-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:09 AM -0500"
+      ],
+      "cveDis": "Multiple vulnerabilities in the Cisco&nbsp;Discovery Protocol and Link Layer Discovery Protocol (LLDP) implementations for Cisco&nbsp;IP Phone Series 68xx/78xx/88xx could allow an unauthenticated, adjacent attacker to execute code remotely or cause a reload of an affected IP phone.\nThese vulnerabilities are due to missing checks when the IP phone processes a Cisco&nbsp;Discovery Protocol or LLDP packet. An attacker could exploit these vulnerabilities by sending a malicious Cisco&nbsp;Discovery Protocol or LLDP packet to the targeted IP phone. A successful exploit could allow the attacker to execute code on the affected IP phone or cause it to reload unexpectedly, resulting in a denial of service (DoS) condition.Note: Cisco&nbsp;Discovery Protocol is a Layer 2 protocol. To exploit these vulnerabilities, an attacker must be in the same broadcast domain as the affected device (Layer 2 adjacent).Cisco&nbsp;has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.",
+      "cveName": "CVE-2021-13796-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-1379"
+    }
+  },
+  "CVE-2021-14104-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:09 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the distribution list feature of Cisco&nbsp;Webex Meetings could allow an authenticated, remote attacker to modify a distribution list that belongs to another user of their organization.\nThe vulnerability is due to insufficient authorization enforcement for requests to update distribution lists. An attacker could exploit this vulnerability by sending a crafted request to the Webex Meetings interface to modify an existing distribution list. A successful exploit could allow the attacker to modify a distribution list that belongs to a user other than themselves.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2021-14104-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-1410"
+    }
+  },
+  "CVE-2021-14245-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:09 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the ipsecmgr process of Cisco&nbsp;ASR 5000 Series Software (StarOS) could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition.\nThis vulnerability is due to insufficient validation of incoming Internet Key Exchange Version 2 (IKEv2) packets. An attacker could exploit this vulnerability by sending specifically malformed IKEv2 packets to an affected device. A successful exploit could allow the attacker to cause the ipsecmgr process to restart, which would disrupt ongoing IKE negotiations and result in a temporary DoS condition.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2021-14245-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-1424"
+    }
+  },
+  "CVE-2021-14254-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:10 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco&nbsp;AsyncOS Software for Cisco&nbsp;Content Security Management Appliance (SMA) could allow an authenticated, remote attacker to access sensitive information on an affected device.\nThe vulnerability exists because confidential information is being included in HTTP requests that are exchanged between the user and the device. An attacker could exploit this vulnerability by looking at the raw HTTP requests that are sent to the interface. A successful exploit could allow the attacker to obtain some of the passwords that are configured throughout the interface.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2021-14254-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-1425"
+    }
+  },
+  "CVE-2021-14406-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:10 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the implementation of the Resource Public Key Infrastructure (RPKI) feature of Cisco&nbsp;IOS XR Software could allow an unauthenticated, remote attacker to cause the Border Gateway Protocol (BGP) process to crash, resulting in a denial of service (DoS) condition.\nThis vulnerability is due to the incorrect handling of a specific RPKI to Router (RTR) Protocol packet header. An attacker could exploit this vulnerability by compromising the RPKI validator server and sending a specifically crafted RTR packet to an affected device. Alternatively, the attacker could use man-in-the-middle techniques to impersonate the RPKI validator server and send a specifically crafted RTR response packet over the established RTR TCP connection to the affected device. A successful exploit could allow the attacker to cause a DoS condition because the BGP process could constantly restart and BGP routing could become unstable.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.This advisory is part of the September 2021 release of the Cisco&nbsp;IOS XR Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see .",
+      "cveName": "CVE-2021-14406-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-1440"
+    }
+  },
+  "CVE-2021-14446-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:10 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the web services interface of Cisco&nbsp;Adaptive Security Appliance (ASA) Software and Cisco&nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct cross-site scripting (XSS) attacks against a user of the interface.\nThis vulnerability is due to insufficient validation of user-supplied input by the web services interface of an affected device. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or allow the attacker to access sensitive, browser-based information.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.This advisory is part of the October 2021 release of the Cisco&nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see .",
+      "cveName": "CVE-2021-14446-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-1444"
+    }
+  },
+  "CVE-2021-14614-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:10 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the Image Signature Verification feature of Cisco&nbsp;SD-WAN Software could allow an authenticated, remote attacker with Administrator-level credentials to install a malicious software patch on an affected device.\nThe vulnerability is due to improper verification of digital signatures for patch images. An attacker could exploit this vulnerability by crafting an unsigned software patch to bypass signature checks and loading it on an affected device. A successful exploit could allow the attacker to boot a malicious software patch image.Cisco&nbsp;has released software updates that address the vulnerability described in this advisory. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2021-14614-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-1461"
+    }
+  },
+  "CVE-2021-1462": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:11 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the CLI of Cisco&nbsp;SD-WAN vManage Software could allow an authenticated, local attacker to elevate privileges on an affected system. To exploit this vulnerability, an attacker would need to have a valid Administrator account on an affected system.\nThe vulnerability is due to incorrect privilege assignment. An attacker could exploit this vulnerability by logging in to an affected system with an Administrator account and creating a malicious file, which the system would parse at a later time. A successful exploit could allow the attacker to obtain root privileges on the affected system.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
+      "cveName": "CVE-2021-1462",
+      "cveUrl": "/vuln/detail/CVE-2021-1462"
+    }
+  },
   "CVE-2021-14645-0 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -635,6 +932,17 @@
       "cveDis": "A vulnerability in Cisco&nbsp;SD-WAN vManage Software could allow an authenticated, remote attacker to bypass authorization checking and gain restricted access to the configuration information of an affected system.\nThis vulnerability exists because the affected software has insufficient input validation for certain commands. An attacker could exploit this vulnerability by sending crafted requests to the affected commands of an affected system. A successful exploit could allow the attacker to bypass authorization checking and gain restricted access to the configuration data of the affected system.Cisco&nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.",
       "cveName": "CVE-2021-14645-0 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2021-1464"
+    }
+  },
+  "CVE-2021-1465": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:11 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the web-based management interface of Cisco SD-WAN vManage Software could allow an authenticated, remote attacker to conduct a directory traversal attack and obtain read access to sensitive files on an affected system.\n The vulnerability is due to insufficient validation of HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request that contains directory traversal character sequences to an affected system. A successful exploit could allow the attacker to write arbitrary files on the affected system.",
+      "cveName": "CVE-2021-1465",
+      "cveUrl": "/vuln/detail/CVE-2021-1465"
     }
   },
   "CVE-2021-1466": {
@@ -1726,6 +2034,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-49570"
     }
   },
+  "CVE-2023-49952": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:05 PM -0500"
+      ],
+      "cveDis": "Mastodon 4.1.x before 4.1.17 and 4.2.x before 4.2.9 allows a bypass of rate limiting via a crafted HTTP request header.",
+      "cveName": "CVE-2023-49952",
+      "cveUrl": "/vuln/detail/CVE-2023-49952"
+    }
+  },
   "CVE-2023-50355": {
     "cve": {
       "cveDate": [
@@ -2098,6 +2417,17 @@
       "cveDis": "The BigBlueButton plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the the moderator code and viewer code fields in versions up to, and including, 3.0.0-beta.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with author privileges or higher to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2023-7296",
       "cveUrl": "/vuln/detail/CVE-2023-7296"
+    }
+  },
+  "CVE-2024-0012": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:11 AM -0500"
+      ],
+      "cveDis": "An authentication bypass in Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to gain PAN-OS administrator privileges to perform administrative actions, tamper with the configuration, or exploit other authenticated privilege escalation vulnerabilities like  CVE-2024-9474 https://security.paloaltonetworks.com/CVE-2024-9474 .\n\nThe risk of this issue is greatly reduced if you secure access to the management web interface by restricting access to only trusted internal IP addresses according to our recommended  best practice deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .\n\nThis issue is applicable only to PAN-OS 10.2, PAN-OS 11.0, PAN-OS 11.1, and PAN-OS 11.2 software.\n\nCloud NGFW and Prisma Access are not impacted by this vulnerability.",
+      "cveName": "CVE-2024-0012",
+      "cveUrl": "/vuln/detail/CVE-2024-0012"
     }
   },
   "CVE-2024-0105": {
@@ -4507,6 +4837,17 @@
       "cveDis": "There exists a Path Traversal vulnerability in Safearchive on Platforms with Case-Insensitive Filesystems (e.g., NTFS). This allows Attackers to Write Arbitrary Files via Archive Extraction containing symbolic links. We recommend upgrading past commit f7ce9d7b6f9c6ecd72d0b0f16216b046e55e44dc",
       "cveName": "CVE-2024-10389",
       "cveUrl": "/vuln/detail/CVE-2024-10389"
+    }
+  },
+  "CVE-2024-103906-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:10 PM -0500"
+      ],
+      "cveDis": "The Elfsight Telegram Chat CC plugin for WordPress is vulnerable to unauthorized modification of data to a missing capability check on the 'updatePreferences' function in all versions up to, and including, 1.1.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-103906-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10390"
     }
   },
   "CVE-2024-103929-8 CRITICAL": {
@@ -15377,6 +15718,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-43383"
     }
   },
+  "CVE-2024-43416": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "GLPI is a free asset and IT management software package. Starting in version 0.80 and prior to version 10.0.17, an unauthenticated user can use an application endpoint to check if an email address corresponds to a valid GLPI user. Version 10.0.17 fixes the issue.",
+      "cveName": "CVE-2024-43416",
+      "cveUrl": "/vuln/detail/CVE-2024-43416"
+    }
+  },
   "CVE-2024-43417": {
     "cve": {
       "cveDate": [
@@ -17828,6 +18180,28 @@
       "cveDis": "An issue in Malwarebytes Premium Security v5.0.0.883 allows attackers to execute arbitrary code via placing crafted binaries into unspecified directories.",
       "cveName": "CVE-2024-44744",
       "cveUrl": "/vuln/detail/CVE-2024-44744"
+    }
+  },
+  "CVE-2024-44756": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "NUS-M9 ERP Management Software v3.0.0 was discovered to contain a SQL injection vulnerability via the usercode parameter at /UserWH/checkLogin.",
+      "cveName": "CVE-2024-44756",
+      "cveUrl": "/vuln/detail/CVE-2024-44756"
+    }
+  },
+  "CVE-2024-44757": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "An arbitrary file download vulnerability in the component /Basics/DownloadInpFile of NUS-M9 ERP Management Software v3.0.0 allows attackers to download arbitrary files and access sensitive information via a crafted interface request.",
+      "cveName": "CVE-2024-44757",
+      "cveUrl": "/vuln/detail/CVE-2024-44757"
     }
   },
   "CVE-2024-44758": {
@@ -23682,6 +24056,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47532"
     }
   },
+  "CVE-2024-47533": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "Cobbler, a Linux installation server that allows for rapid setup of network installation environments, has an improper authentication vulnerability starting in version 3.0.0 and prior to versions 3.2.3 and 3.3.7. `utils.get_shared_secret()` always returns `-1`, which allows anyone to connect to cobbler XML-RPC as user `''` password `-1` and make any changes. This gives anyone with network access to a cobbler server full control of the server. Versions 3.2.3 and 3.3.7 fix the issue.",
+      "cveName": "CVE-2024-47533",
+      "cveUrl": "/vuln/detail/CVE-2024-47533"
+    }
+  },
   "CVE-2024-47534": {
     "cve": {
       "cveDate": [
@@ -25420,6 +25805,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47819"
     }
   },
+  "CVE-2024-47820": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "MarkUs, a web application for the submission and grading of student assignments, is vulnerable to path traversal in versions prior to 2.4.8. Authenticated instructors may download any file on the web server MarkUs is running on, depending on the file permissions. MarkUs v2.4.8 has addressed this issue. No known workarounds are available at the application level aside from upgrading.",
+      "cveName": "CVE-2024-47820",
+      "cveUrl": "/vuln/detail/CVE-2024-47820"
+    }
+  },
   "CVE-2024-47821": {
     "cve": {
       "cveDate": [
@@ -25726,6 +26122,17 @@
       "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves **Cross-Site Scripting (XSS)** on any Gradio server that allows file uploads. Authenticated users can upload files such as HTML, JavaScript, or SVG files containing malicious scripts. When other users download or view these files, the scripts will execute in their browser, allowing attackers to perform unauthorized actions or steal sensitive information from their sessions. This impacts any Gradio server that allows file uploads, particularly those using components that process or display user-uploaded files. Users are advised to upgrade to `gradio>=5` to address this issue. As a workaround, users can restrict the types of files that can be uploaded to the Gradio server by limiting uploads to non-executable file types such as images or text. Additionally, developers can implement server-side validation to sanitize uploaded files, ensuring that HTML, JavaScript, and SVG files are properly handled or rejected before being stored or displayed to users.",
       "cveName": "CVE-2024-47872",
       "cveUrl": "/vuln/detail/CVE-2024-47872"
+    }
+  },
+  "CVE-2024-47873": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "PhpSpreadsheet is a PHP library for reading and writing spreadsheet files. The XmlScanner class has a scan method which should prevent XXE attacks. However, prior to versions 1.9.4, 2.1.3, 2.3.2, and 3.4.0, the regexes used in the `scan` method and the findCharSet method can be bypassed by using UCS-4 and encoding guessing. An attacker can bypass the sanitizer and achieve an XML external entity attack. Versions 1.9.4, 2.1.3, 2.3.2, and 3.4.0 fix the issue.",
+      "cveName": "CVE-2024-47873",
+      "cveUrl": "/vuln/detail/CVE-2024-47873"
     }
   },
   "CVE-2024-47874": {
@@ -27365,6 +27772,17 @@
       "cveDis": "dingfanzu CMS 1.0 was discovered to contain a Cross-Site Request Forgery (CSRF) via /admin/doAdminAction.php?act=editAdmin&id=17",
       "cveName": "CVE-2024-48291",
       "cveUrl": "/vuln/detail/CVE-2024-48291"
+    }
+  },
+  "CVE-2024-48292": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "1:15:06 PM -0500"
+      ],
+      "cveDis": "An issue in the wssrvc.exe service of QuickHeal Antivirus Pro Version v24.0 and Quick Heal Total Security v24.0 allows authenticated attackers to escalate privileges.",
+      "cveName": "CVE-2024-48292",
+      "cveUrl": "/vuln/detail/CVE-2024-48292"
     }
   },
   "CVE-2024-48307": {
@@ -40204,6 +40622,127 @@
       "cveUrl": "/vuln/detail/CVE-2024-52416"
     }
   },
+  "CVE-2024-52419": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Clipboard Team Copy Anything to Clipboard allows Stored XSS.This issue affects Copy Anything to Clipboard: from n/a through 4.0.3.",
+      "cveName": "CVE-2024-52419",
+      "cveUrl": "/vuln/detail/CVE-2024-52419"
+    }
+  },
+  "CVE-2024-52422": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Terry Lin WP Githuber MD allows Stored XSS.This issue affects WP Githuber MD: from n/a through 1.16.3.",
+      "cveName": "CVE-2024-52422",
+      "cveUrl": "/vuln/detail/CVE-2024-52422"
+    }
+  },
+  "CVE-2024-52423": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:26 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Themify Themify Builder allows Stored XSS.This issue affects Themify Builder: from n/a through 7.6.3.",
+      "cveName": "CVE-2024-52423",
+      "cveUrl": "/vuln/detail/CVE-2024-52423"
+    }
+  },
+  "CVE-2024-52424": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:26 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Suresh Kumar wp-login customizer allows Stored XSS.This issue affects wp-login customizer: from n/a through 1.0.",
+      "cveName": "CVE-2024-52424",
+      "cveUrl": "/vuln/detail/CVE-2024-52424"
+    }
+  },
+  "CVE-2024-52425": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:26 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Urchenko Drozd – Addons for Elementor allows Stored XSS.This issue affects Drozd – Addons for Elementor: from n/a through 1.1.1.",
+      "cveName": "CVE-2024-52425",
+      "cveUrl": "/vuln/detail/CVE-2024-52425"
+    }
+  },
+  "CVE-2024-52426": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:26 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Linear Oy Linear linear allows DOM-Based XSS.This issue affects Linear: from n/a through 2.7.11.",
+      "cveName": "CVE-2024-52426",
+      "cveUrl": "/vuln/detail/CVE-2024-52426"
+    }
+  },
+  "CVE-2024-52432": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "10:15:07 AM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in NIX Solutions Ltd NIX Anti-Spam Light allows Object Injection.This issue affects NIX Anti-Spam Light: from n/a through 0.0.4.",
+      "cveName": "CVE-2024-52432",
+      "cveUrl": "/vuln/detail/CVE-2024-52432"
+    }
+  },
+  "CVE-2024-52433": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Mindstien Technologies My Geo Posts Free allows Object Injection.This issue affects My Geo Posts Free: from n/a through 1.2.",
+      "cveName": "CVE-2024-52433",
+      "cveUrl": "/vuln/detail/CVE-2024-52433"
+    }
+  },
+  "CVE-2024-52434": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements Used in a Template Engine vulnerability in Supsystic Popup by Supsystic allows Command Injection.This issue affects Popup by Supsystic: from n/a through 1.10.29.",
+      "cveName": "CVE-2024-52434",
+      "cveUrl": "/vuln/detail/CVE-2024-52434"
+    }
+  },
+  "CVE-2024-52435": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in W3 Eden, Inc. Premium Packages allows SQL Injection.This issue affects Premium Packages: from n/a through 5.9.3.",
+      "cveName": "CVE-2024-52435",
+      "cveUrl": "/vuln/detail/CVE-2024-52435"
+    }
+  },
+  "CVE-2024-52436": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Post SMTP allows Blind SQL Injection.This issue affects Post SMTP: from n/a through 2.9.9.",
+      "cveName": "CVE-2024-52436",
+      "cveUrl": "/vuln/detail/CVE-2024-52436"
+    }
+  },
   "CVE-2024-52505": {
     "cve": {
       "cveDate": [
@@ -40499,6 +41038,116 @@
       "cveDis": "In JetBrains WebStorm before 2024.3 code execution in Untrusted Project mode was possible via type definitions installer script",
       "cveName": "CVE-2024-52555",
       "cveUrl": "/vuln/detail/CVE-2024-52555"
+    }
+  },
+  "CVE-2024-525657-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:27 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0018), Tecnomatix Plant Simulation V2404 (All versions < V2404.0007). The affected applications contain an out of bounds write vulnerability when parsing a specially crafted WRL file.\nThis could allow an attacker to execute code in the context of the current process. (ZDI-CAN-24231)",
+      "cveName": "CVE-2024-525657-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52565"
+    }
+  },
+  "CVE-2024-525667-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:27 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0018), Tecnomatix Plant Simulation V2404 (All versions < V2404.0007). The affected applications contain an out of bounds write vulnerability when parsing a specially crafted WRL file.\nThis could allow an attacker to execute code in the context of the current process. (ZDI-CAN-24233)",
+      "cveName": "CVE-2024-525667-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52566"
+    }
+  },
+  "CVE-2024-525677-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:27 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0018), Tecnomatix Plant Simulation V2404 (All versions < V2404.0007). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted WRL files.\nThis could allow an attacker to execute code in the context of the current process. (ZDI-CAN-24237)",
+      "cveName": "CVE-2024-525677-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52567"
+    }
+  },
+  "CVE-2024-525687-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:27 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0018), Tecnomatix Plant Simulation V2404 (All versions < V2404.0007). The affected applications contain a use-after-free vulnerability that could be triggered while parsing specially crafted WRL files.\nAn attacker could leverage this vulnerability to execute code in the context of the current process. (ZDI-CAN-24244)",
+      "cveName": "CVE-2024-525687-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52568"
+    }
+  },
+  "CVE-2024-525697-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:28 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0018), Tecnomatix Plant Simulation V2404 (All versions < V2404.0007). The affected applications contain an out of bounds write vulnerability when parsing a specially crafted WRL file.\nThis could allow an attacker to execute code in the context of the current process. (ZDI-CAN-24260)",
+      "cveName": "CVE-2024-525697-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52569"
+    }
+  },
+  "CVE-2024-525707-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:28 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0018), Tecnomatix Plant Simulation V2404 (All versions < V2404.0007). The affected applications contain an out of bounds write vulnerability when parsing a specially crafted WRL file.\nThis could allow an attacker to execute code in the context of the current process. (ZDI-CAN-24365)",
+      "cveName": "CVE-2024-525707-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52570"
+    }
+  },
+  "CVE-2024-525717-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:28 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0018), Tecnomatix Plant Simulation V2404 (All versions < V2404.0007). The affected applications contain an out of bounds write vulnerability when parsing a specially crafted WRL file.\nThis could allow an attacker to execute code in the context of the current process. (ZDI-CAN-24485)",
+      "cveName": "CVE-2024-525717-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52571"
+    }
+  },
+  "CVE-2024-52572": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:28 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0018), Tecnomatix Plant Simulation V2404 (All versions < V2404.0007). The affected applications contain a stack based overflow vulnerability while parsing specially crafted WRL files.\nThis could allow an attacker to execute code in the context of the current process. (ZDI-CAN-24486)",
+      "cveName": "CVE-2024-52572",
+      "cveUrl": "/vuln/detail/CVE-2024-52572"
+    }
+  },
+  "CVE-2024-525737-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:29 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0018), Tecnomatix Plant Simulation V2404 (All versions < V2404.0007). The affected applications contain an out of bounds write vulnerability when parsing a specially crafted WRL file.\nThis could allow an attacker to execute code in the context of the current process. (ZDI-CAN-24521)",
+      "cveName": "CVE-2024-525737-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52573"
+    }
+  },
+  "CVE-2024-525747-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:29 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been identified in Tecnomatix Plant Simulation V2302 (All versions < V2302.0018), Tecnomatix Plant Simulation V2404 (All versions < V2404.0007). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted WRL files.\nThis could allow an attacker to execute code in the context of the current process. (ZDI-CAN-24543)",
+      "cveName": "CVE-2024-525747-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52574"
     }
   },
   "CVE-2024-52613": {
@@ -46120,6 +46769,17 @@
       "cveDis": "A privilege escalation vulnerability in the Palo Alto Networks GlobalProtect app on Windows allows a locally authenticated non-administrative Windows user to escalate their privileges to NT AUTHORITY/SYSTEM through the use of the repair functionality offered by the .msi file used to install GlobalProtect.",
       "cveName": "CVE-2024-9473",
       "cveUrl": "/vuln/detail/CVE-2024-9473"
+    }
+  },
+  "CVE-2024-9474": {
+    "cve": {
+      "cveDate": [
+        "November 18, 2024",
+        "11:15:29 AM -0500"
+      ],
+      "cveDis": "A privilege escalation vulnerability in Palo Alto Networks PAN-OS software allows a PAN-OS administrator with access to the management web interface to perform actions on the firewall with root privileges.\n\nCloud NGFW and Prisma Access are not impacted by this vulnerability.",
+      "cveName": "CVE-2024-9474",
+      "cveUrl": "/vuln/detail/CVE-2024-9474"
     }
   },
   "CVE-2024-94754-9 MEDIUM": {
