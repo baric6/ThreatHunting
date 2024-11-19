@@ -3178,6 +3178,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10101"
     }
   },
+  "CVE-2024-10103": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "In the process of testing the MailPoet  WordPress plugin before 5.3.2, a vulnerability was found that allows you to implement Stored XSS on behalf of the editor by embedding malicious script, which entails account takeover backdoor",
+      "cveName": "CVE-2024-10103",
+      "cveUrl": "/vuln/detail/CVE-2024-10103"
+    }
+  },
   "CVE-2024-10104": {
     "cve": {
       "cveDate": [
@@ -4113,6 +4124,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10265"
     }
   },
+  "CVE-2024-102686-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:15 AM -0500"
+      ],
+      "cveDis": "The MP3 Audio Player – Music Player, Podcast Player & Radio by Sonaar plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's sonaar_audioplayer shortcode in all versions up to, and including, 5.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-102686-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10268"
+    }
+  },
   "CVE-2024-102696-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -4837,6 +4859,17 @@
       "cveDis": "CVE-2024-10387 IMPACT\n\n\n\nA Denial-of-Service\nvulnerability exists in the affected product. The vulnerability could allow a\nthreat actor with network access to send crafted messages to the device,\npotentially resulting in Denial-of-Service.",
       "cveName": "CVE-2024-10387",
       "cveUrl": "/vuln/detail/CVE-2024-10387"
+    }
+  },
+  "CVE-2024-103887-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:16 AM -0500"
+      ],
+      "cveDis": "The WordPress GDPR plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'gdpr_firstname' and 'gdpr_lastname' parameters in all versions up to, and including, 2.0.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-103887-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10388"
     }
   },
   "CVE-2024-10389": {
@@ -7644,6 +7677,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-11026"
     }
   },
+  "CVE-2024-110367-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "6:15:04 AM -0500"
+      ],
+      "cveDis": "The The GamiPress – The #1 gamification plugin to reward points, achievements, badges & ranks in WordPress plugin for WordPress is vulnerable to arbitrary shortcode execution via gamipress_get_user_earnings AJAX action in all versions up to, and including, 7.1.5. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
+      "cveName": "CVE-2024-110367-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11036"
+    }
+  },
+  "CVE-2024-110387-3 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "6:15:05 AM -0500"
+      ],
+      "cveDis": "The The WPB Popup for Contact Form 7 – Showing The Contact Form 7 Popup on Button Click – CF7 Popup plugin for WordPress is vulnerable to arbitrary shortcode execution via wpb_pcf_fire_contact_form AJAX action in all versions up to, and including, 1.7.5. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
+      "cveName": "CVE-2024-110387-3 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11038"
+    }
+  },
   "CVE-2024-11046": {
     "cve": {
       "cveDate": [
@@ -7875,6 +7930,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11068"
     }
   },
+  "CVE-2024-110696-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:16 AM -0500"
+      ],
+      "cveDis": "The WordPress GDPR plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the 'WordPress_GDPR_Data_Delete::check_action' function in all versions up to, and including, 2.0.2. This makes it possible for unauthenticated attackers to delete arbitrary users.",
+      "cveName": "CVE-2024-110696-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11069"
+    }
+  },
   "CVE-2024-11070": {
     "cve": {
       "cveDate": [
@@ -8007,6 +8073,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11097"
     }
   },
+  "CVE-2024-110985-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:16 AM -0500"
+      ],
+      "cveDis": "The SVG Block plugin for WordPress is vulnerable to Stored Cross-Site Scripting via REST API SVG File uploads in all versions up to, and including, 1.1.24 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Administrator-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-110985-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11098"
+    }
+  },
   "CVE-2024-11099": {
     "cve": {
       "cveDate": [
@@ -8093,6 +8170,17 @@
       "cveDis": "An XSS issue was discovered in \n\nMDaemon Email Server before version 24.5.1c. An attacker can send an HTML e-mail message \nwith \nJavaScript in an img tag. This could\n allow a remote attacker\n\nto load arbitrary JavaScript code in the context of a webmail user's browser window.",
       "cveName": "CVE-2024-11182",
       "cveUrl": "/vuln/detail/CVE-2024-11182"
+    }
+  },
+  "CVE-2024-11195": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "6:15:05 AM -0500"
+      ],
+      "cveDis": "The Email Subscription Popup plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's print_email_subscribe_form shortcode in all versions up to, and including, 1.2.22 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-11195",
+      "cveUrl": "/vuln/detail/CVE-2024-11195"
     }
   },
   "CVE-2024-11210": {
@@ -10504,6 +10592,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-21538"
     }
   },
+  "CVE-2024-21539": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "12:15:16 AM -0500"
+      ],
+      "cveDis": "Versions of the package @eslint/plugin-kit before 0.2.3 are vulnerable to Regular Expression Denial of Service (ReDoS) due to improper input sanitization. An attacker can increase the CPU usage and crash the program by exploiting this vulnerability.",
+      "cveName": "CVE-2024-21539",
+      "cveUrl": "/vuln/detail/CVE-2024-21539"
+    }
+  },
   "CVE-2024-21994": {
     "cve": {
       "cveDate": [
@@ -11932,6 +12031,17 @@
       "cveDis": "An issue in the server_handle_regular function of the test_coap_server.c file within the FreeCoAP project allows remote attackers to cause a Denial of Service through specially crafted packets.",
       "cveName": "CVE-2024-31029",
       "cveUrl": "/vuln/detail/CVE-2024-31029"
+    }
+  },
+  "CVE-2024-31141": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "4:15:03 AM -0500"
+      ],
+      "cveDis": "Files or Directories Accessible to External Parties, Improper Privilege Management vulnerability in Apache Kafka Clients.\n\nApache Kafka Clients accept configuration data for customizing behavior, and includes ConfigProvider plugins in order to manipulate these configurations. Apache Kafka also provides FileConfigProvider, DirectoryConfigProvider, and EnvVarConfigProvider implementations which include the ability to read from disk or environment variables.\nIn applications where Apache Kafka Clients configurations can be specified by an untrusted party, attackers may use these ConfigProviders to read arbitrary contents of the disk and environment variables.\n\nIn particular, this flaw may be used in Apache Kafka Connect to escalate from REST API access to filesystem/environment access, which may be undesirable in certain environments, including SaaS products.\nThis issue affects Apache Kafka Clients: from 2.3.0 through 3.5.2, 3.6.2, 3.7.0.\n\n\nUsers with affected applications are recommended to upgrade kafka-clients to version >=3.8.0, and set the JVM system property \"org.apache.kafka.automatic.config.providers=none\".\nUsers of Kafka Connect with one of the listed ConfigProvider implementations specified in their worker config are also recommended to add appropriate \"allowlist.pattern\" and \"allowed.paths\" to restrict their operation to appropriate bounds.\n\n\nFor users of Kafka Clients or Kafka Connect in environments that trust users with disk and environment variable access, it is not recommended to set the system property.\nFor users of the Kafka Broker, Kafka MirrorMaker 2.0, Kafka Streams, and Kafka command-line tools, it is not recommended to set the system property.",
+      "cveName": "CVE-2024-31141",
+      "cveUrl": "/vuln/detail/CVE-2024-31141"
     }
   },
   "CVE-2024-311518-1 HIGH": {
@@ -43810,6 +43920,17 @@
       "cveDis": "The WordPress Post Grid Layouts with Pagination – Sogrid plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 1.5.2 via the 'tab' parameter. This makes it possible for authenticated attackers, with Administrator-level access and above, to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included. This can also be exploited via CSRF techniques.",
       "cveName": "CVE-2024-83927-2 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-8392"
+    }
+  },
+  "CVE-2024-8403": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "Improper Validation of Specified Type of Input vulnerability in Mitsubishi Electric Corporation MELSEC iQ-F Series FX5-ENET versions 1.100 and later and FX5-ENET/IP versions 1.100 to 1.104 allows a remote attacker to cause a Denial of Service condition in Ethernet communication of the products by sending specially crafted SLMP packets.",
+      "cveName": "CVE-2024-8403",
+      "cveUrl": "/vuln/detail/CVE-2024-8403"
     }
   },
   "CVE-2024-84210-0 NONE": {
