@@ -494,6 +494,204 @@
       "cveUrl": "/vuln/detail/CVE-2018-9467"
     }
   },
+  "CVE-2018-9468": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "In query of DownloadManager.java, there is a possible read/write of arbitrary files due to a permissions bypass. This could lead to local information disclosure and file rewriting with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9468",
+      "cveUrl": "/vuln/detail/CVE-2018-9468"
+    }
+  },
+  "CVE-2018-9469": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "In multiple functions of ShortcutService.java, there is a possible creation of a spoofed shortcut due to a missing permission check. This could lead to local escalation of privilege in a privileged app with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9469",
+      "cveUrl": "/vuln/detail/CVE-2018-9469"
+    }
+  },
+  "CVE-2018-9470": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "In bff_Scanner_addOutPos of Scanner.c, there is a possible out-of-bounds write due to an incorrect bounds check. This could lead to remote escalation of privilege in an unprivileged app with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9470",
+      "cveUrl": "/vuln/detail/CVE-2018-9470"
+    }
+  },
+  "CVE-2018-9471": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "In the deserialization constructor of NanoAppFilter.java, there is a possible loss of data due to type confusion. This could lead to local escalation of privilege in the system server with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9471",
+      "cveUrl": "/vuln/detail/CVE-2018-9471"
+    }
+  },
+  "CVE-2018-9472": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "In xmlMemStrdupLoc of xmlmemory.c, there is a possible out-of-bounds write due to an integer overflow. This could lead to remote code execution in an unprivileged process with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9472",
+      "cveUrl": "/vuln/detail/CVE-2018-9472"
+    }
+  },
+  "CVE-2018-9474": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "In writeToParcel of MediaPlayer.java, there is a possible serialization/deserialization mismatch due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9474",
+      "cveUrl": "/vuln/detail/CVE-2018-9474"
+    }
+  },
+  "CVE-2018-9475": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "In HeadsetInterface::ClccResponse of btif_hf.cc, there is a possible out of bounds stack write due to a missing bounds check. This could lead to remote escalation of privilege via Bluetooth, if the recipient has enabled SIP calls with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9475",
+      "cveUrl": "/vuln/detail/CVE-2018-9475"
+    }
+  },
+  "CVE-2018-9477": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "In the development options section of the Settings app, there is a possible authentication bypass due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9477",
+      "cveUrl": "/vuln/detail/CVE-2018-9477"
+    }
+  },
+  "CVE-2018-9478": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "In process_service_attr_req and process_service_search_attr_req of sdp_server.cc, there is an out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed.  User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9478",
+      "cveUrl": "/vuln/detail/CVE-2018-9478"
+    }
+  },
+  "CVE-2018-9479": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "In process_service_attr_req and process_service_search_attr_req of sdp_server.cc, there is an out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed.  User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9479",
+      "cveUrl": "/vuln/detail/CVE-2018-9479"
+    }
+  },
+  "CVE-2018-9480": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "In bta_hd_get_report_act of bta_hd_act.cc, there is a possible out-of-bounds read due to improper input validation. This could lead to remote information disclosure in the Bluetooth service with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9480",
+      "cveUrl": "/vuln/detail/CVE-2018-9480"
+    }
+  },
+  "CVE-2018-9481": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "In bta_hd_set_report_act of bta_hd_act.cc, there is a possible out-of-bounds read due to an integer overflow. This could lead to remote information disclosure in the Bluetooth service with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9481",
+      "cveUrl": "/vuln/detail/CVE-2018-9481"
+    }
+  },
+  "CVE-2018-9482": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "In intr_data_copy_cb of btif_hd.cc, there is a possible out of bounds read due to an integer overflow. This could lead to local information disclosure in the Bluetooth service with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9482",
+      "cveUrl": "/vuln/detail/CVE-2018-9482"
+    }
+  },
+  "CVE-2018-9483": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "In bta_dm_remove_sec_dev_entry of bta_dm_act.cc, there is a possible out of bounds read due to a use after free. This could lead to remote information disclosure over bluetooth with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9483",
+      "cveUrl": "/vuln/detail/CVE-2018-9483"
+    }
+  },
+  "CVE-2018-9484": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "In l2cu_send_peer_config_rej of l2c_utils.cc, there is a possible out of bounds read due to a missing bounds check. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9484",
+      "cveUrl": "/vuln/detail/CVE-2018-9484"
+    }
+  },
+  "CVE-2018-9485": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "In l2cble_process_sig_cmd of l2c_ble.cc, there is a possible out of bounds read due to a missing bounds check. This could lead to remote information disclosure over bluetooth with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9485",
+      "cveUrl": "/vuln/detail/CVE-2018-9485"
+    }
+  },
+  "CVE-2018-9486": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "In hidh_l2cif_data_ind of hidh_conn.cc, there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure over bluetooth with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9486",
+      "cveUrl": "/vuln/detail/CVE-2018-9486"
+    }
+  },
+  "CVE-2018-9487": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "In setVpnForcedLocked of Vpn.java, there is a possible blocking of internet traffic through vpn due to a bad uid check. This could lead to local denial of service with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9487",
+      "cveUrl": "/vuln/detail/CVE-2018-9487"
+    }
+  },
   "CVE-2019-20457": {
     "cve": {
       "cveDate": [
@@ -3517,6 +3715,17 @@
       "cveDis": "A vulnerability, which was classified as critical, was found in VSO ConvertXtoDvd 7.0.0.83. Affected is an unknown function in the library avcodec.dll of the file ConvertXtoDvd.exe. The manipulation leads to uncontrolled search path. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-10093",
       "cveUrl": "/vuln/detail/CVE-2024-10093"
+    }
+  },
+  "CVE-2024-10094": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "Pega Platform versions 6.x to Infinity 24.1.1 are affected by an issue with Improper Control of Generation of Code",
+      "cveName": "CVE-2024-10094",
+      "cveUrl": "/vuln/detail/CVE-2024-10094"
     }
   },
   "CVE-2024-100978-1 HIGH": {
@@ -7666,6 +7875,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10900"
     }
   },
+  "CVE-2024-109138-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "The Clone plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.4.6 via deserialization of untrusted input in the 'recursive_unserialized_replace' function. This makes it possible for unauthenticated attackers to inject a PHP Object. No known POP chain is present in the vulnerable software. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code.",
+      "cveName": "CVE-2024-109138-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10913"
+    }
+  },
   "CVE-2024-10914": {
     "cve": {
       "cveDate": [
@@ -8689,6 +8909,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11136"
     }
   },
+  "CVE-2024-111544-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "The PublishPress Revisions: Duplicate Posts, Submit, Approve and Schedule Content Changes plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.5.15 via the 'actAjaxRevisionDiffs' function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to extract sensitive data including revisions of posts and pages.",
+      "cveName": "CVE-2024-111544-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11154"
+    }
+  },
   "CVE-2024-11176": {
     "cve": {
       "cveDate": [
@@ -9074,6 +9305,116 @@
       "cveUrl": "/vuln/detail/CVE-2024-11400"
     }
   },
+  "CVE-2024-11484": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "11:15:19 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in Code4Berry Decoration Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /decoration/admin/update_image.php of the component User Image Handler. The manipulation of the argument productimage1 leads to improper access controls. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11484",
+      "cveUrl": "/vuln/detail/CVE-2024-11484"
+    }
+  },
+  "CVE-2024-11485": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "11:15:19 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in Code4Berry Decoration Management System 1.0. Affected by this issue is some unknown functionality of the file /decoration/admin/userregister.php of the component User Handler. The manipulation leads to permission issues. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11485",
+      "cveUrl": "/vuln/detail/CVE-2024-11485"
+    }
+  },
+  "CVE-2024-11486": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "11:15:20 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, was found in Code4Berry Decoration Management System 1.0. This affects an unknown part of the file /decoration/admin/user_permission.php of the component User Permission Handler. The manipulation leads to permission issues. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11486",
+      "cveUrl": "/vuln/detail/CVE-2024-11486"
+    }
+  },
+  "CVE-2024-11487": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "11:15:20 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in Code4Berry Decoration Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /decoration/admin/btndates_report.php of the component Between Dates Reports. The manipulation of the argument fromdate/todate leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11487",
+      "cveUrl": "/vuln/detail/CVE-2024-11487"
+    }
+  },
+  "CVE-2024-11488": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:14 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 115cms up to 20240807 and classified as problematic. This issue affects some unknown processing of the file /app/admin/view/web_user.html. The manipulation of the argument ks leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11488",
+      "cveUrl": "/vuln/detail/CVE-2024-11488"
+    }
+  },
+  "CVE-2024-11489": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:14 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 115cms up to 20240807. It has been classified as problematic. Affected is an unknown function of the file /index.php/admin/web/file.html. The manipulation of the argument ks leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11489",
+      "cveUrl": "/vuln/detail/CVE-2024-11489"
+    }
+  },
+  "CVE-2024-11490": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 115cms up to 20240807. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /index.php/admin/web/set.html. The manipulation of the argument type leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11490",
+      "cveUrl": "/vuln/detail/CVE-2024-11490"
+    }
+  },
+  "CVE-2024-11491": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:16 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 115cms up to 20240807. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /index.php/admin/web/useradmin.html. The manipulation of the argument ks leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11491",
+      "cveUrl": "/vuln/detail/CVE-2024-11491"
+    }
+  },
+  "CVE-2024-11492": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:22 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic has been found in 115cms up to 20240807. This affects an unknown part of the file /index.php/admin/web/appurladd.html. The manipulation of the argument tid leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11492",
+      "cveUrl": "/vuln/detail/CVE-2024-11492"
+    }
+  },
+  "CVE-2024-11493": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:22 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic was found in 115cms up to 20240807. This vulnerability affects unknown code of the file /index.php/setpage/admin/pageAE.html. The manipulation of the argument tid leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11493",
+      "cveUrl": "/vuln/detail/CVE-2024-11493"
+    }
+  },
   "CVE-2024-114947-5 HIGH": {
     "cve": {
       "cveDate": [
@@ -9083,6 +9424,17 @@
       "cveDis": "**UNSUPPORTED WHEN ASSIGNED** The improper authentication vulnerability in the Zyxel P-6101C ADSL modem firmware version P-6101CSA6AP_20140331 could allow an unauthenticated attacker to read some device information via a crafted HTTP HEAD method.",
       "cveName": "CVE-2024-114947-5 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-11494"
+    }
+  },
+  "CVE-2024-11495": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "Buffer overflow vulnerability in OllyDbg, version 1.10, which could allow a local attacker to execute arbitrary code due to lack of proper bounds checking.",
+      "cveName": "CVE-2024-11495",
+      "cveUrl": "/vuln/detail/CVE-2024-11495"
     }
   },
   "CVE-2024-1240": {
@@ -12405,6 +12757,17 @@
       "cveDis": "Ivanti DSM < version 2024.2 allows authenticated users on the local machine to run code with elevated privileges due to insecure ACL via unspecified attack vector.",
       "cveName": "CVE-2024-29213",
       "cveUrl": "/vuln/detail/CVE-2024-29213"
+    }
+  },
+  "CVE-2024-29292": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:22 PM -0500"
+      ],
+      "cveDis": "Multiple OS Command Injection vulnerabilities affecting Kasda KW6512 router software version KW6512_Linux_V1.0 enable an authenticated remote attacker to execute arbitrary OS commands via Quick Setup and Internet page parameters passed to internet.cgi.",
+      "cveName": "CVE-2024-29292",
+      "cveUrl": "/vuln/detail/CVE-2024-29292"
     }
   },
   "CVE-2024-29821": {
@@ -38796,6 +39159,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-51157"
     }
   },
+  "CVE-2024-51162": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:18 PM -0500"
+      ],
+      "cveDis": "An issue in Audimex EE v.15.1.20 and before allows a remote attacker to escalate privileges.",
+      "cveName": "CVE-2024-51162",
+      "cveUrl": "/vuln/detail/CVE-2024-51162"
+    }
+  },
+  "CVE-2024-51163": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:18 PM -0500"
+      ],
+      "cveDis": "Local File Inclusion vulnerability in Vegam Solutions Vegam 4i v.6.3.47.0 and earlier allows a remote attacker to obtain sensitive information via the print labelling function.",
+      "cveName": "CVE-2024-51163",
+      "cveUrl": "/vuln/detail/CVE-2024-51163"
+    }
+  },
   "CVE-2024-51180": {
     "cve": {
       "cveDate": [
@@ -38871,6 +39256,28 @@
       "cveDis": "TRENDnet TEW-651BR 2.04B1, TEW-652BRP 3.04b01, and TEW-652BRU 1.00b12 devices contain a Store Cross-site scripting (XSS) vulnerability via the ptRule_ApplicationName_1.1.6.0.0 parameter on the /special_ap.htm page.",
       "cveName": "CVE-2024-51190",
       "cveUrl": "/vuln/detail/CVE-2024-51190"
+    }
+  },
+  "CVE-2024-51208": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "File Upload vulnerability in change-image.php in Anuj Kumar's Boat Booking System version 1.0 allows local attackers to upload a malicious PHP script via the Image Upload Mechanism parameter.",
+      "cveName": "CVE-2024-51208",
+      "cveUrl": "/vuln/detail/CVE-2024-51208"
+    }
+  },
+  "CVE-2024-51209": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "Cross-Site Scripting (XSS) vulnerabilities in Anuj Kumar's Client Management System Version 1.2 allow local attackers to inject arbitrary web script or HTML via the search input field parameter to admin search invoice page and client search invoice page.",
+      "cveName": "CVE-2024-51209",
+      "cveUrl": "/vuln/detail/CVE-2024-51209"
     }
   },
   "CVE-2024-51211": {
@@ -42635,6 +43042,149 @@
       "cveUrl": "/vuln/detail/CVE-2024-52436"
     }
   },
+  "CVE-2024-52443": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "7:15:20 AM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Nerijus Masikonis Geolocator allows Object Injection.This issue affects Geolocator: from n/a through 1.1.",
+      "cveName": "CVE-2024-52443",
+      "cveUrl": "/vuln/detail/CVE-2024-52443"
+    }
+  },
+  "CVE-2024-52444": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "7:15:20 AM -0500"
+      ],
+      "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in WPOPAL Opal Woo Custom Product Variation allows Path Traversal.This issue affects Opal Woo Custom Product Variation: from n/a through 1.1.3.",
+      "cveName": "CVE-2024-52444",
+      "cveUrl": "/vuln/detail/CVE-2024-52444"
+    }
+  },
+  "CVE-2024-52445": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "7:15:21 AM -0500"
+      ],
+      "cveDis": "Deserialization of Untrusted Data vulnerability in Modeltheme QRMenu Restaurant QR Menu Lite allows Object Injection.This issue affects QRMenu Restaurant QR Menu Lite: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-52445",
+      "cveUrl": "/vuln/detail/CVE-2024-52445"
+    }
+  },
+  "CVE-2024-52446": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "7:15:21 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Buying Buddy Buying Buddy IDX CRM allows Object Injection.This issue affects Buying Buddy IDX CRM: from n/a through 1.1.12.",
+      "cveName": "CVE-2024-52446",
+      "cveUrl": "/vuln/detail/CVE-2024-52446"
+    }
+  },
+  "CVE-2024-52447": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "7:15:21 AM -0500"
+      ],
+      "cveDis": "Path Traversal: '.../...//' vulnerability in Corporate Zen Contact Page With Google Map allows Path Traversal.This issue affects Contact Page With Google Map: from n/a through 1.6.1.",
+      "cveName": "CVE-2024-52447",
+      "cveUrl": "/vuln/detail/CVE-2024-52447"
+    }
+  },
+  "CVE-2024-52448": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "7:15:21 AM -0500"
+      ],
+      "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in WebCodingPlace Ultimate Classified Listings allows PHP Local File Inclusion.This issue affects Ultimate Classified Listings: from n/a through 1.4.",
+      "cveName": "CVE-2024-52448",
+      "cveUrl": "/vuln/detail/CVE-2024-52448"
+    }
+  },
+  "CVE-2024-52449": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "7:15:21 AM -0500"
+      ],
+      "cveDis": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Navneil Naicer Bootscraper allows PHP Local File Inclusion.This issue affects Bootscraper: from n/a through 2.1.0.",
+      "cveName": "CVE-2024-52449",
+      "cveUrl": "/vuln/detail/CVE-2024-52449"
+    }
+  },
+  "CVE-2024-52450": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "7:15:22 AM -0500"
+      ],
+      "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Official pro coders nBlocks allows PHP Local File Inclusion.This issue affects nBlocks: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-52450",
+      "cveUrl": "/vuln/detail/CVE-2024-52450"
+    }
+  },
+  "CVE-2024-52451": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "7:15:22 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Aaron Robbins Post Ideas allows SQL Injection.This issue affects Post Ideas: from n/a through 2.",
+      "cveName": "CVE-2024-52451",
+      "cveUrl": "/vuln/detail/CVE-2024-52451"
+    }
+  },
+  "CVE-2024-52470": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "10:15:10 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Brainvireinfo Dynamic URL SEO allows Reflected XSS.This issue affects Dynamic URL SEO: from n/a through 1.0.",
+      "cveName": "CVE-2024-52470",
+      "cveUrl": "/vuln/detail/CVE-2024-52470"
+    }
+  },
+  "CVE-2024-52471": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in petesheppard84 Extensions for Elementor allows Reflected XSS.This issue affects Extensions for Elementor: from n/a through 2.0.37.",
+      "cveName": "CVE-2024-52471",
+      "cveUrl": "/vuln/detail/CVE-2024-52471"
+    }
+  },
+  "CVE-2024-52472": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Weather Atlas Weather Atlas Widget allows Reflected XSS.This issue affects Weather Atlas Widget: from n/a through 3.0.1.",
+      "cveName": "CVE-2024-52472",
+      "cveUrl": "/vuln/detail/CVE-2024-52472"
+    }
+  },
+  "CVE-2024-52473": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Sandeep Verma HTML5 Lyrics Karaoke Player allows Reflected XSS.This issue affects HTML5 Lyrics Karaoke Player: from n/a through 2.4.",
+      "cveName": "CVE-2024-52473",
+      "cveUrl": "/vuln/detail/CVE-2024-52473"
+    }
+  },
   "CVE-2024-52505": {
     "cve": {
       "cveDate": [
@@ -43108,6 +43658,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-52595"
     }
   },
+  "CVE-2024-52597": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "2FAuth is a web app to manage Two-Factor Authentication (2FA) accounts and generate their security codes. Versions prior to 5.4.1 are vulnerable to stored cross-site scripting due to improper headers in direct access to uploaded SVGs. The application allows uploading images in several places. One of the accepted types of image is SVG, which allows JS scripting. Therefore, by uploading a malicious SVG which contains JS code, an attacker which is able to drive a victim to the uploaded image could compromise that victim's session and access to their tokens. Version 5.4.1 contains a patch for the issue.",
+      "cveName": "CVE-2024-52597",
+      "cveUrl": "/vuln/detail/CVE-2024-52597"
+    }
+  },
+  "CVE-2024-52598": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "2FAuth is a web app to manage Two-Factor Authentication (2FA) accounts and generate their security codes. Two interconnected vulnerabilities exist in version 5.4.1 a SSRF and URI validation bypass issue. The endpoint at POST /api/v1/twofaccounts/preview allows setting a remote URI to retrieve the image of a 2fa site. By abusing this functionality, it is possible to force the application to make a GET request to an arbitrary URL, whose content will be stored in an image file in the server if it looks like an image. Additionally, the library does some basic validation on the URI, attempting to filter our URIs which do not have an image extension. However, this can be easily bypassed by appending the string `#.svg` to the URI. The combination of these two issues allows an attacker to retrieve URIs accessible from the application, as long as their content type is text based. If not, the request is still sent, but the response is not reflected to the attacker. Version 5.4.1 fixes the issues.",
+      "cveName": "CVE-2024-52598",
+      "cveUrl": "/vuln/detail/CVE-2024-52598"
+    }
+  },
   "CVE-2024-52613": {
     "cve": {
       "cveDate": [
@@ -43141,6 +43713,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-52714"
     }
   },
+  "CVE-2024-52725": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:18 PM -0500"
+      ],
+      "cveDis": "SemCms v4.8 was discovered to contain a SQL injection vulnerability. This allows an attacker to execute arbitrary code via the ldgid parameter in the SEMCMS_SeoAndTag.php component.",
+      "cveName": "CVE-2024-52725",
+      "cveUrl": "/vuln/detail/CVE-2024-52725"
+    }
+  },
+  "CVE-2024-52739": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "1:15:23 PM -0500"
+      ],
+      "cveDis": "D-LINK DI-8400 v16.07.26A1 was discovered to contain multiple remote command execution (RCE) vulnerabilities in the msp_info_htm function via the flag and cmd parameters.",
+      "cveName": "CVE-2024-52739",
+      "cveUrl": "/vuln/detail/CVE-2024-52739"
+    }
+  },
   "CVE-2024-52759": {
     "cve": {
       "cveDate": [
@@ -43172,6 +43766,50 @@
       "cveDis": "A cross-site scripting (XSS) vulnerability in the component /graph_all_periods.php of Ganglia-web v3.73 to v3.75 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the \"g\" parameter.",
       "cveName": "CVE-2024-52763",
       "cveUrl": "/vuln/detail/CVE-2024-52763"
+    }
+  },
+  "CVE-2024-52769": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:19 PM -0500"
+      ],
+      "cveDis": "An arbitrary file upload vulnerability in the component /admin/friendlink_edit of DedeBIZ v6.3.0 allows attackers to execute arbitrary code via uploading a crafted file.",
+      "cveName": "CVE-2024-52769",
+      "cveUrl": "/vuln/detail/CVE-2024-52769"
+    }
+  },
+  "CVE-2024-52770": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:20 PM -0500"
+      ],
+      "cveDis": "An arbitrary file upload vulnerability in the component /admin/file_manage_control of DedeBIZ v6.3.0 allows attackers to execute arbitrary code via uploading a crafted file.",
+      "cveName": "CVE-2024-52770",
+      "cveUrl": "/vuln/detail/CVE-2024-52770"
+    }
+  },
+  "CVE-2024-52771": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:20 PM -0500"
+      ],
+      "cveDis": "DedeBIZ v6.3.0 was discovered to contain an arbitrary file deletion vulnerability via the component /admin/file_manage_view.",
+      "cveName": "CVE-2024-52771",
+      "cveUrl": "/vuln/detail/CVE-2024-52771"
+    }
+  },
+  "CVE-2024-52796": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "12:15:20 PM -0500"
+      ],
+      "cveDis": "Password Pusher, an open source application to communicate sensitive information over the web, comes with a configurable rate limiter.  In versions prior to v1.49.0, the rate limiter could be bypassed by forging proxy headers allowing bad actors to send unlimited traffic to the site potentially causing a denial of service. In v1.49.0, a fix was implemented to only authorize proxies on local IPs which resolves this issue. As a workaround, one may add rules to one's proxy and/or firewall to not accept external proxy headers such as `X-Forwarded-*` from clients.",
+      "cveName": "CVE-2024-52796",
+      "cveUrl": "/vuln/detail/CVE-2024-52796"
     }
   },
   "CVE-2024-52867": {
@@ -49354,6 +49992,28 @@
       "cveDis": "The Poll Maker – Versus Polls, Anonymous Polls, Image Polls plugin for WordPress is vulnerable to generic SQL Injection via the order_by parameter in all versions up to, and including, 5.4.6  due to insufficient escaping on the user-supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with administrator-level permissions and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
       "cveName": "CVE-2024-94754-9 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9475"
+    }
+  },
+  "CVE-2024-9478": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Improper Privilege Management vulnerability in upKeeper Solutions upKeeper Instant Privilege Access allows Privilege Escalation.This issue affects upKeeper Instant Privilege Access: before 1.2.",
+      "cveName": "CVE-2024-9478",
+      "cveUrl": "/vuln/detail/CVE-2024-9478"
+    }
+  },
+  "CVE-2024-9479": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Improper Privilege Management vulnerability in upKeeper Solutions upKeeper Instant Privilege Access allows Privilege Escalation.This issue affects upKeeper Instant Privilege Access: before 1.2.",
+      "cveName": "CVE-2024-9479",
+      "cveUrl": "/vuln/detail/CVE-2024-9479"
     }
   },
   "CVE-2024-9481": {
