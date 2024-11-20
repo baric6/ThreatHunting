@@ -142,6 +142,358 @@
       "cveUrl": "/vuln/detail/CVE-2018-25104"
     }
   },
+  "CVE-2018-9339": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:05 PM -0500"
+      ],
+      "cveDis": "In writeTypedArrayList and readTypedArrayList of Parcel.java, there is a possible escalation of privilege due to type confusion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9339",
+      "cveUrl": "/vuln/detail/CVE-2018-9339"
+    }
+  },
+  "CVE-2018-9340": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:05 PM -0500"
+      ],
+      "cveDis": "In ResStringPool::setTo of ResourceTypes.cpp, it's possible for an attacker to control the value of mStringPoolSize to be out of bounds, causing information disclosure.",
+      "cveName": "CVE-2018-9340",
+      "cveUrl": "/vuln/detail/CVE-2018-9340"
+    }
+  },
+  "CVE-2018-9341": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:05 PM -0500"
+      ],
+      "cveDis": "In impeg2d_mc_fullx_fully of impeg2d_mc.c there is a possible out of bound write due to missing bounds check. This could lead to remote arbitrary code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9341",
+      "cveUrl": "/vuln/detail/CVE-2018-9341"
+    }
+  },
+  "CVE-2018-9344": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:05 PM -0500"
+      ],
+      "cveDis": "In several functions of DescramblerImpl.cpp, there is a possible use after free due to improper locking. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9344",
+      "cveUrl": "/vuln/detail/CVE-2018-9344"
+    }
+  },
+  "CVE-2018-9345": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:05 PM -0500"
+      ],
+      "cveDis": "In BnAudioPolicyService::onTransact of AudioPolicyService.cpp, there is a possible information disclosure due to uninitialized data. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9345",
+      "cveUrl": "/vuln/detail/CVE-2018-9345"
+    }
+  },
+  "CVE-2018-9346": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "In BnAudioPolicyService::onTransact of AudioPolicyService.cpp, there is a possible information disclosure due to uninitialized data. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9346",
+      "cveUrl": "/vuln/detail/CVE-2018-9346"
+    }
+  },
+  "CVE-2018-9348": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:27 PM -0500"
+      ],
+      "cveDis": "In SMF_ParseMetaEvent of eas_smf.c, there is a possible integer overflow. This could lead to remote denial of service due to resource exhaustion with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9348",
+      "cveUrl": "/vuln/detail/CVE-2018-9348"
+    }
+  },
+  "CVE-2018-9364": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:27 PM -0500"
+      ],
+      "cveDis": "In the LG LAF component, there is a special command that allowed modification of certain partitions. This could lead to bypass of secure boot. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9364",
+      "cveUrl": "/vuln/detail/CVE-2018-9364"
+    }
+  },
+  "CVE-2018-9365": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "In smp_data_received of smp_l2c.cc, there is a possible out of bounds read followed by code execution due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9365",
+      "cveUrl": "/vuln/detail/CVE-2018-9365"
+    }
+  },
+  "CVE-2018-9366": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:27 PM -0500"
+      ],
+      "cveDis": "In IMSA_Recv_Thread and VT_IMCB_Thread of ImsaClient.cpp and VideoTelephony.c, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9366",
+      "cveUrl": "/vuln/detail/CVE-2018-9366"
+    }
+  },
+  "CVE-2018-9367": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:27 PM -0500"
+      ],
+      "cveDis": "In FT_ACDK_CCT_V2_OP_ISP_SET_TUNING_PARAS of Meta_CCAP_Para.cpp, there is a possible out of bounds write due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9367",
+      "cveUrl": "/vuln/detail/CVE-2018-9367"
+    }
+  },
+  "CVE-2018-9368": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:27 PM -0500"
+      ],
+      "cveDis": "In mtkscoaudio debugfs there is a possible arbitrary kernel memory write due to missing bounds check and weakened SELinux policies. This could lead to local escalation of privilege with system  execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9368",
+      "cveUrl": "/vuln/detail/CVE-2018-9368"
+    }
+  },
+  "CVE-2018-9369": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:27 PM -0500"
+      ],
+      "cveDis": "In bootloader there is fastboot command allowing user specified kernel command line arguments. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9369",
+      "cveUrl": "/vuln/detail/CVE-2018-9369"
+    }
+  },
+  "CVE-2018-9370": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:27 PM -0500"
+      ],
+      "cveDis": "In download.c there is a special mode allowing user to download data into memory and causing possible memory corruptions due to missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9370",
+      "cveUrl": "/vuln/detail/CVE-2018-9370"
+    }
+  },
+  "CVE-2018-9371": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:27 PM -0500"
+      ],
+      "cveDis": "In the Mediatek Preloader, there are out of bounds reads and writes due to an exposed interface that allows arbitrary peripheral memory mapping with insufficient blacklisting/whitelisting. This could lead to local elevation of privilege, given physical access to the device with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9371",
+      "cveUrl": "/vuln/detail/CVE-2018-9371"
+    }
+  },
+  "CVE-2018-9372": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:27 PM -0500"
+      ],
+      "cveDis": "In cmd_flash_mmc_sparse_img of dl_commands.c, there is a possible out of bounds write due to a missing bounds check. This could lead to a local escalation of privilege in the bootloader with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9372",
+      "cveUrl": "/vuln/detail/CVE-2018-9372"
+    }
+  },
+  "CVE-2018-9409": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:27 PM -0500"
+      ],
+      "cveDis": "In HWCSession::SetColorModeById of hwc_session.cpp, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9409",
+      "cveUrl": "/vuln/detail/CVE-2018-9409"
+    }
+  },
+  "CVE-2018-9410": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "In analyzeAxes of FontUtils.cpp, there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9410",
+      "cveUrl": "/vuln/detail/CVE-2018-9410"
+    }
+  },
+  "CVE-2018-9411": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:18 PM -0500"
+      ],
+      "cveDis": "In decrypt of ClearKeyCasPlugin.cpp there is a possible out-of-bounds write due to a missing bounds check. This could lead to remote arbitrary code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9411",
+      "cveUrl": "/vuln/detail/CVE-2018-9411"
+    }
+  },
+  "CVE-2018-9412": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:18 PM -0500"
+      ],
+      "cveDis": "In removeUnsynchronization of ID3.cpp there is a possible resource exhaustion due to improper input validation. This could lead to denial of service with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9412",
+      "cveUrl": "/vuln/detail/CVE-2018-9412"
+    }
+  },
+  "CVE-2018-9417": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:18 PM -0500"
+      ],
+      "cveDis": "In f_hidg_read and hidg_disable of f_hid.c, there is a possible use-after-free due to improper locking. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9417",
+      "cveUrl": "/vuln/detail/CVE-2018-9417"
+    }
+  },
+  "CVE-2018-9419": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:18 PM -0500"
+      ],
+      "cveDis": "In l2cble_process_sig_cmd of l2c_ble.cc, there is a possible out of bounds read due to a missing bounds check. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9419",
+      "cveUrl": "/vuln/detail/CVE-2018-9419"
+    }
+  },
+  "CVE-2018-9420": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "In BnCameraService::onTransact of CameraService.cpp, there is a possible information disclosure due to uninitialized data. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9420",
+      "cveUrl": "/vuln/detail/CVE-2018-9420"
+    }
+  },
+  "CVE-2018-9421": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "In writeInplace of Parcel.cpp, there is a possible information leak across processes, using Binder, due to uninitialized data. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9421",
+      "cveUrl": "/vuln/detail/CVE-2018-9421"
+    }
+  },
+  "CVE-2018-9424": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "In CryptoPlugin::decrypt of CryptoPlugin.cpp, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9424",
+      "cveUrl": "/vuln/detail/CVE-2018-9424"
+    }
+  },
+  "CVE-2018-9428": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "In startDevice of AAudioServiceStreamBase.cpp there is a possible out of bounds write due to a use after free. This could lead to local arbitrary code execution with no additional execution privileges needed. User interaction is needed for exploitation.  https://source.android.com/security/bulletin/2018-07-01",
+      "cveName": "CVE-2018-9428",
+      "cveUrl": "/vuln/detail/CVE-2018-9428"
+    }
+  },
+  "CVE-2018-9432": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "In createPhonebookDialogView and createMapDialogView of BluetoothPermissionActivity.java, there is a possible permissions bypass. This could lead to local escalation of privilege due to hiding and bypassing the user's ability to disable access to contacts, with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9432",
+      "cveUrl": "/vuln/detail/CVE-2018-9432"
+    }
+  },
+  "CVE-2018-9433": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "In ArrayConcatVisitor of builtins-array.cc, there is a possible type confusion due to improper input validation. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9433",
+      "cveUrl": "/vuln/detail/CVE-2018-9433"
+    }
+  },
+  "CVE-2018-9440": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "In parse of M3UParser.cpp there is a possible resource exhaustion due to improper input validation. This could lead to denial of service with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9440",
+      "cveUrl": "/vuln/detail/CVE-2018-9440"
+    }
+  },
+  "CVE-2018-9456": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "In sdpu_extract_attr_seq of sdp_utils.cc, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9456",
+      "cveUrl": "/vuln/detail/CVE-2018-9456"
+    }
+  },
+  "CVE-2018-9466": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "In the xmlSnprintfElementContent function of valid.c, there is a possible out of bounds write. This could lead to remote escalation of privilege in an unprivileged app with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9466",
+      "cveUrl": "/vuln/detail/CVE-2018-9466"
+    }
+  },
+  "CVE-2018-9467": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "7:15:16 PM -0500"
+      ],
+      "cveDis": "In the getHost() function of UriTest.java, there is the possibility of incorrect web origin determination. This could lead to incorrect security decisions with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9467",
+      "cveUrl": "/vuln/detail/CVE-2018-9467"
+    }
+  },
   "CVE-2019-20457": {
     "cve": {
       "cveDate": [
@@ -1735,6 +2087,17 @@
       "cveDis": "Trimble TM4Web 22.2.0 allows unauthenticated attackers to access /inc/tm_ajax.msw?func=UserfromUUID&uuid= to retrieve the last registration access code and use this access code to register a valid account. via a PUT /inc/tm_ajax.msw request. If the access code was used to create an Administrator account, attackers are also able to register new Administrator accounts with full privileges.",
       "cveName": "CVE-2023-27195",
       "cveUrl": "/vuln/detail/CVE-2023-27195"
+    }
+  },
+  "CVE-2023-27609": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in NetTantra WP Roles at Registration allows Stored XSS.This issue affects WP Roles at Registration: from n/a through 0.23.",
+      "cveName": "CVE-2023-27609",
+      "cveUrl": "/vuln/detail/CVE-2023-27609"
     }
   },
   "CVE-2023-29121": {
@@ -8524,6 +8887,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-11315"
     }
   },
+  "CVE-2024-11395": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:29 PM -0500"
+      ],
+      "cveDis": "Type Confusion in V8 in Google Chrome prior to 131.0.6778.85 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-11395",
+      "cveUrl": "/vuln/detail/CVE-2024-11395"
+    }
+  },
+  "CVE-2024-114006-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "The HUSKY – Products Filter Professional for WooCommerce plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the really_curr_tax parameter in all versions up to, and including, 1.3.6.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-114006-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11400"
+    }
+  },
   "CVE-2024-1240": {
     "cve": {
       "cveDate": [
@@ -10647,6 +11032,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-21539"
     }
   },
+  "CVE-2024-21697": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "This High severity RCE (Remote Code Execution) vulnerability was introduced in versions 4.2.8 of Sourcetree for Mac and 3.4.19 for Sourcetree for Windows.\n\nThis RCE (Remote Code Execution) vulnerability, with a CVSS Score of 8.8, allows an unauthenticated attacker to execute arbitrary code which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires user interaction.\n\nAtlassian recommends that Sourcetree for Mac and Sourcetree for Windows customers upgrade to latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions:\n Sourcetree for Mac 4.2: Upgrade to a release greater than or equal to 4.2.9\n Sourcetree for Windows 3.4: Upgrade to a release greater than or equal to 3.4.20\n\nSee the release notes ([https://www.sourcetreeapp.com/download-archives]). You can download the latest version of Sourcetree for Mac and Sourcetree for Windows from the download center ([https://www.sourcetreeapp.com/download-archives]).\n\nThis vulnerability was reported via our Penetration Testing program.",
+      "cveName": "CVE-2024-21697",
+      "cveUrl": "/vuln/detail/CVE-2024-21697"
+    }
+  },
   "CVE-2024-21994": {
     "cve": {
       "cveDate": [
@@ -11998,6 +12394,17 @@
       "cveDis": "A vulnerability in the Suite Applications Services component of Mitel MiCollab through 9.7.1.110 could allow an authenticated attacker with administrative privileges to conduct a Stored Cross-Site Scripting (XSS) attack due to insufficient validation of user input. A successful exploit could allow an attacker to execute arbitrary scripts.",
       "cveName": "CVE-2024-30160",
       "cveUrl": "/vuln/detail/CVE-2024-30160"
+    }
+  },
+  "CVE-2024-30424": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in WPZOOM Beaver Builder Addons by WPZOOM allows Stored XSS.This issue affects Beaver Builder Addons by WPZOOM: from n/a through 1.3.4.",
+      "cveName": "CVE-2024-30424",
+      "cveUrl": "/vuln/detail/CVE-2024-30424"
     }
   },
   "CVE-2024-3057": {
@@ -13494,6 +13901,17 @@
       "cveDis": "An arbitrary file read vulnerability in Adguard Home before v0.107.52 allows authenticated attackers to access arbitrary files as root on the underlying Operating System via placing a crafted file into a readable directory.",
       "cveName": "CVE-2024-36814",
       "cveUrl": "/vuln/detail/CVE-2024-36814"
+    }
+  },
+  "CVE-2024-370704-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:30 PM -0500"
+      ],
+      "cveDis": "IBM Concert Software 1.0.0, 1.0.1, 1.0.2, and 1.0.2.1 could allow an authenticated user to obtain sensitive information that could aid in further attacks against the system.",
+      "cveName": "CVE-2024-370704-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-37070"
     }
   },
   "CVE-2024-37187": {
@@ -18215,6 +18633,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-44302"
     }
   },
+  "CVE-2024-44306": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "7:15:16 PM -0500"
+      ],
+      "cveDis": "A buffer overflow issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.6. An app may be able to execute arbitrary code with kernel privileges.",
+      "cveName": "CVE-2024-44306",
+      "cveUrl": "/vuln/detail/CVE-2024-44306"
+    }
+  },
+  "CVE-2024-44307": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "A buffer overflow issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.6. An app may be able to execute arbitrary code with kernel privileges.",
+      "cveName": "CVE-2024-44307",
+      "cveUrl": "/vuln/detail/CVE-2024-44307"
+    }
+  },
+  "CVE-2024-44308": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "The issue was addressed with improved checks. This issue is fixed in Safari 18.1.1, iOS 17.7.2 and iPadOS 17.7.2, macOS Sequoia 15.1.1, iOS 18.1.1 and iPadOS 18.1.1, visionOS 2.1.1. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited on Intel-based Mac systems.",
+      "cveName": "CVE-2024-44308",
+      "cveUrl": "/vuln/detail/CVE-2024-44308"
+    }
+  },
+  "CVE-2024-44309": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "A cookie management issue was addressed with improved state management. This issue is fixed in Safari 18.1.1, iOS 17.7.2 and iPadOS 17.7.2, macOS Sequoia 15.1.1, iOS 18.1.1 and iPadOS 18.1.1, visionOS 2.1.1. Processing maliciously crafted web content may lead to a cross site scripting attack. Apple is aware of a report that this issue may have been actively exploited on Intel-based Mac systems.",
+      "cveName": "CVE-2024-44309",
+      "cveUrl": "/vuln/detail/CVE-2024-44309"
+    }
+  },
   "CVE-2024-44331": {
     "cve": {
       "cveDate": [
@@ -19478,6 +19940,39 @@
       "cveDis": "eLabFTW is an open source electronic lab notebook for research labs. An incorrect permission check has been found that could allow an authenticated user to access several kinds of otherwise restricted information. If anonymous access is allowed (something disabled by default), this extends to anyone. Users are advised to upgrade to at least version 5.1.0.  System administrators can disable anonymous access in the System configuration panel.",
       "cveName": "CVE-2024-45408",
       "cveUrl": "/vuln/detail/CVE-2024-45408"
+    }
+  },
+  "CVE-2024-45419": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:30 PM -0500"
+      ],
+      "cveDis": "Improper input validation in some Zoom Apps may allow an unauthenticated user to conduct a disclosure of information via network access.",
+      "cveName": "CVE-2024-45419",
+      "cveUrl": "/vuln/detail/CVE-2024-45419"
+    }
+  },
+  "CVE-2024-45420": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:31 PM -0500"
+      ],
+      "cveDis": "Uncontrolled resource consumption in some Zoom Apps before version 6.2.0 may allow an authenticated user to conduct a denial of service via network access.",
+      "cveName": "CVE-2024-45420",
+      "cveUrl": "/vuln/detail/CVE-2024-45420"
+    }
+  },
+  "CVE-2024-45422": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:31 PM -0500"
+      ],
+      "cveDis": "Improper input validation in some Zoom Apps before version 6.2.0 may allow an unauthenticated user to conduct a denial of service via network access.",
+      "cveName": "CVE-2024-45422",
+      "cveUrl": "/vuln/detail/CVE-2024-45422"
     }
   },
   "CVE-2024-45454": {
@@ -28753,6 +29248,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48657"
     }
   },
+  "CVE-2024-48694": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:08 PM -0500"
+      ],
+      "cveDis": "File Upload vulnerability in Xi'an Daxi Information technology OfficeWeb365 v.8.6.1.0 and v7.18.23.0 allows a remote attacker to execute arbitrary code via the pw/savedraw component.",
+      "cveName": "CVE-2024-48694",
+      "cveUrl": "/vuln/detail/CVE-2024-48694"
+    }
+  },
   "CVE-2024-48700": {
     "cve": {
       "cveDate": [
@@ -36277,6 +36783,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50428"
     }
   },
+  "CVE-2024-50430": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:08 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in The Beaver Builder Team Beaver Builder allows Stored XSS.This issue affects Beaver Builder: from n/a through 2.8.3.7.",
+      "cveName": "CVE-2024-50430",
+      "cveUrl": "/vuln/detail/CVE-2024-50430"
+    }
+  },
   "CVE-2024-50442": {
     "cve": {
       "cveDate": [
@@ -38928,6 +39445,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51502"
     }
   },
+  "CVE-2024-51503": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:08 PM -0500"
+      ],
+      "cveDis": "A security agent manual scan command injection vulnerability in the Trend Micro Deep Security 20 Agent could allow an attacker to escalate privileges and execute arbitrary code on an affected machine.  In certain circumstances, attackers that have legitimate access to the domain may be able to remotely inject commands to other machines in the same domain.\n\nPlease note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability locally and must have domain user privileges to affect other machines.",
+      "cveName": "CVE-2024-51503",
+      "cveUrl": "/vuln/detail/CVE-2024-51503"
+    }
+  },
   "CVE-2024-51504": {
     "cve": {
       "cveDate": [
@@ -39905,6 +40433,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Mark Tilly MyCurator Content Curation allows Stored XSS.This issue affects MyCurator Content Curation: from n/a through 3.78.",
       "cveName": "CVE-2024-51668",
       "cveUrl": "/vuln/detail/CVE-2024-51668"
+    }
+  },
+  "CVE-2024-51669": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Vivwebs Dynamic Widgets.This issue affects Dynamic Widgets: from n/a through 1.6.4.",
+      "cveName": "CVE-2024-51669",
+      "cveUrl": "/vuln/detail/CVE-2024-51669"
     }
   },
   "CVE-2024-51672": {
@@ -41227,6 +41766,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-52358"
     }
   },
+  "CVE-2024-52359": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:31 PM -0500"
+      ],
+      "cveDis": "IBM Concert Software 1.0.0, 1.0.1, 1.0.2, and 1.0.2.1 could allow an authenticated user to perform unauthorized actions that should be reserved to administrator used due to improper access controls.",
+      "cveName": "CVE-2024-52359",
+      "cveUrl": "/vuln/detail/CVE-2024-52359"
+    }
+  },
+  "CVE-2024-523607-6 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "3:15:32 PM -0500"
+      ],
+      "cveDis": "IBM Concert Software 1.0.0, 1.0.1, 1.0.2, and 1.0.2.1 is vulnerable to SQL injection. A remote attacker could send specially crafted SQL statements, which could allow the attacker to view, add, modify, or delete information in the back-end database.",
+      "cveName": "CVE-2024-523607-6 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52360"
+    }
+  },
   "CVE-2024-52369": {
     "cve": {
       "cveDate": [
@@ -41434,6 +41995,17 @@
       "cveDis": ": Path Traversal: '.../...//' vulnerability in CYAN Backup allows Path Traversal.This issue affects CYAN Backup: from n/a through 2.5.3.",
       "cveName": "CVE-2024-52390",
       "cveUrl": "/vuln/detail/CVE-2024-52390"
+    }
+  },
+  "CVE-2024-52392": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in W3speedster W3SPEEDSTER.This issue affects W3SPEEDSTER: from n/a through 7.25.",
+      "cveName": "CVE-2024-52392",
+      "cveUrl": "/vuln/detail/CVE-2024-52392"
     }
   },
   "CVE-2024-52393": {
@@ -42272,6 +42844,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52587"
     }
   },
+  "CVE-2024-52595": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "lxml_html_clean is a project for HTML cleaning functionalities copied from `lxml.html.clean`. Prior to version 0.4.0, the HTML Parser in lxml does not properly handle context-switching for special HTML tags such as `<svg>`, `<math>` and `<noscript>`. This behavior deviates from how web browsers parse and interpret such tags. Specifically, content in CSS comments is ignored by lxml_html_clean but may be interpreted differently by web browsers, enabling malicious scripts to bypass the cleaning process. This vulnerability could lead to Cross-Site Scripting (XSS) attacks, compromising the security of users relying on lxml_html_clean in default configuration for sanitizing untrusted HTML content. Users employing the HTML cleaner in a security-sensitive context should upgrade to lxml 0.4.0, which addresses this issue. As a temporary mitigation, users can configure lxml_html_clean with the following settings to prevent the exploitation of this vulnerability. Via `remove_tags`, one may specify tags to remove - their content is moved to their parents' tags. Via `kill_tags`, one may specify tags to be removed completely. Via `allow_tags`, one may restrict the set of permissible tags, excluding context-switching tags like `<svg>`, `<math>` and `<noscript>`.",
+      "cveName": "CVE-2024-52595",
+      "cveUrl": "/vuln/detail/CVE-2024-52595"
+    }
+  },
   "CVE-2024-52613": {
     "cve": {
       "cveDate": [
@@ -42281,6 +42864,50 @@
       "cveDis": "A heap-based buffer under-read in tsMuxer version nightly-2024-05-12-02-01-18 allows attackers to cause Denial of Service (DoS) via a crafted MOV video file.",
       "cveName": "CVE-2024-52613",
       "cveUrl": "/vuln/detail/CVE-2024-52613"
+    }
+  },
+  "CVE-2024-52714": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:08 PM -0500"
+      ],
+      "cveDis": "Tenda AC6 v2.0 v15.03.06.50 was discovered to contain a buffer overflow in the function 'fromSetSysTime.",
+      "cveName": "CVE-2024-52714",
+      "cveUrl": "/vuln/detail/CVE-2024-52714"
+    }
+  },
+  "CVE-2024-52759": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "2:15:08 PM -0500"
+      ],
+      "cveDis": "D-LINK DI-8003 v16.07.26A1 was discovered to contain a buffer overflow via the ip parameter in the ip_position_asp function.",
+      "cveName": "CVE-2024-52759",
+      "cveUrl": "/vuln/detail/CVE-2024-52759"
+    }
+  },
+  "CVE-2024-52762": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability in the component /master/header.php of Ganglia-web v3.73 to v3.76 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the \"tz\" parameter.",
+      "cveName": "CVE-2024-52762",
+      "cveUrl": "/vuln/detail/CVE-2024-52762"
+    }
+  },
+  "CVE-2024-52763": {
+    "cve": {
+      "cveDate": [
+        "November 19, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability in the component /graph_all_periods.php of Ganglia-web v3.73 to v3.75 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the \"g\" parameter.",
+      "cveName": "CVE-2024-52763",
+      "cveUrl": "/vuln/detail/CVE-2024-52763"
     }
   },
   "CVE-2024-52867": {
