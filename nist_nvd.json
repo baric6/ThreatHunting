@@ -12765,7 +12765,7 @@
         "November 20, 2024",
         "1:15:22 PM -0500"
       ],
-      "cveDis": "Multiple OS Command Injection vulnerabilities affecting Kasda KW6512 router software version KW6512_Linux_V1.0 enable an authenticated remote attacker to execute arbitrary OS commands via Quick Setup and Internet page parameters passed to internet.cgi.",
+      "cveDis": "Multiple OS Command Injection vulnerabilities affecting Kasda LinkSmart Router KW6512 <= v1.3 enable an authenticated remote attacker to execute arbitrary OS commands via various cgi parameters.",
       "cveName": "CVE-2024-29292",
       "cveUrl": "/vuln/detail/CVE-2024-29292"
     }
@@ -13472,6 +13472,17 @@
       "cveDis": "Directory Traversal vulnerability in Plasmoapp RPShare Fabric mod v.1.0.0 allows a remote attacker to execute arbitrary code via the getFileNameFromConnection method in DownloadTask",
       "cveName": "CVE-2024-33369",
       "cveUrl": "/vuln/detail/CVE-2024-33369"
+    }
+  },
+  "CVE-2024-33439": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "An issue in Kasda LinkSmart Router KW5515 v1.7 and before allows an authenticated remote attacker to execute arbitrary OS commands via cgi parameters.",
+      "cveName": "CVE-2024-33439",
+      "cveUrl": "/vuln/detail/CVE-2024-33439"
     }
   },
   "CVE-2024-33453": {
@@ -20721,6 +20732,28 @@
       "cveDis": "Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in Apache HertzBeat (incubating).\n\nThis vulnerability can only be exploited by authorized attackers.\nThis issue affects Apache HertzBeat (incubating): before 1.6.1.\n\nUsers are recommended to upgrade to version 1.6.1, which fixes the issue.",
       "cveName": "CVE-2024-45505",
       "cveUrl": "/vuln/detail/CVE-2024-45505"
+    }
+  },
+  "CVE-2024-45510": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "3:15:18 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Zimbra Collaboration (ZCS) through 10.0. Zimbra Webmail (Modern UI) is vulnerable to a stored Cross-Site Scripting (XSS) attack due to improper sanitization of user input. This allows an attacker to inject malicious code into specific fields of an e-mail message. When the victim adds the attacker to their contacts, the malicious code is stored and executed when viewing the contact list. This can lead to unauthorized actions such as arbitrary mail sending, mailbox exfiltration, profile picture alteration, and other malicious actions. Proper sanitization and escaping of input fields are necessary to mitigate this vulnerability.",
+      "cveName": "CVE-2024-45510",
+      "cveUrl": "/vuln/detail/CVE-2024-45510"
+    }
+  },
+  "CVE-2024-45511": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Zimbra Collaboration (ZCS) through 10.1. A reflected Cross-Site Scripting (XSS) issue exists through the Briefcase module due to improper sanitization of file content by the OnlyOffice formatter. This occurs when the victim opens a crafted URL pointing to a shared folder containing a malicious file uploaded by the attacker. The vulnerability allows the attacker to execute arbitrary JavaScript in the context of the victim's session.",
+      "cveName": "CVE-2024-45511",
+      "cveUrl": "/vuln/detail/CVE-2024-45511"
     }
   },
   "CVE-2024-45518": {
@@ -29490,6 +29523,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-48514"
     }
   },
+  "CVE-2024-48530": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:07 PM -0500"
+      ],
+      "cveDis": "An issue in the Instructor Appointment Availability module of eSoft Planner 3.24.08271-USA allows attackers to cause a Denial of Service (DoS) via a crafted POST request.",
+      "cveName": "CVE-2024-48530",
+      "cveUrl": "/vuln/detail/CVE-2024-48530"
+    }
+  },
+  "CVE-2024-48531": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:07 PM -0500"
+      ],
+      "cveDis": "A reflected cross-site scripting (XSS) vulnerability on the Rental Availability module of eSoft Planner 3.24.08271-USA allows attackers to execute arbitrary code in the context of a user's browser via injecting a crafted payload.",
+      "cveName": "CVE-2024-48531",
+      "cveUrl": "/vuln/detail/CVE-2024-48531"
+    }
+  },
+  "CVE-2024-48533": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:07 PM -0500"
+      ],
+      "cveDis": "A discrepancy between responses for valid and invalid e-mail accounts in the Forgot your Login? module of eSoft Planner 3.24.08271-USA allows attackers to enumerate valid user e-mail accounts.",
+      "cveName": "CVE-2024-48533",
+      "cveUrl": "/vuln/detail/CVE-2024-48533"
+    }
+  },
+  "CVE-2024-48534": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:07 PM -0500"
+      ],
+      "cveDis": "A reflected cross-site scripting (XSS) vulnerability on the Camp Details module of eSoft Planner 3.24.08271-USA allows attackers to execute arbitrary code in the context of a user's browser via injecting a crafted payload.",
+      "cveName": "CVE-2024-48534",
+      "cveUrl": "/vuln/detail/CVE-2024-48534"
+    }
+  },
+  "CVE-2024-48535": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:07 PM -0500"
+      ],
+      "cveDis": "A stored cross-site scripting (XSS) vulnerability in eSoft Planner 3.24.08271-USA allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name parameter.",
+      "cveName": "CVE-2024-48535",
+      "cveUrl": "/vuln/detail/CVE-2024-48535"
+    }
+  },
+  "CVE-2024-48536": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:07 PM -0500"
+      ],
+      "cveDis": "Incorrect access control in eSoft Planner 3.24.08271-USA allow attackers to view all transactions performed by the company via supplying a crafted web request.",
+      "cveName": "CVE-2024-48536",
+      "cveUrl": "/vuln/detail/CVE-2024-48536"
+    }
+  },
   "CVE-2024-48538": {
     "cve": {
       "cveDate": [
@@ -31008,6 +31107,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-48974"
     }
   },
+  "CVE-2024-48981": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in MBed OS 6.16.0. During processing of HCI packets, the software dynamically determines the length of the packet header by looking up the identifying first byte and matching it against a table of possible lengths. The initial parsing function, hciTrSerialRxIncoming does not drop packets with invalid identifiers but also does not set a safe default for the length of unknown packets' headers, leading to a buffer overflow. This can be leveraged into an arbitrary write by an attacker. It is possible to overwrite the pointer to a not-yet-allocated buffer that is supposed to receive the contents of the packet body. One can then overwrite the state variable used by the function to determine which state of packet parsing is currently occurring. Because the buffer is allocated when the last byte of the header has been copied, the combination of having a bad header length variable that will never match the counter variable and being able to overwrite the state variable with the resulting buffer overflow can be used to advance the function to the next step while skipping the buffer allocation and resulting pointer write. The next 16 bytes from the packet body are then written wherever the corrupted data pointer is pointing.",
+      "cveName": "CVE-2024-48981",
+      "cveUrl": "/vuln/detail/CVE-2024-48981"
+    }
+  },
+  "CVE-2024-48982": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:07 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in MBed OS 6.16.0. Its hci parsing software dynamically determines the length of certain hci packets by reading a byte from its header. This value is assumed to be greater than or equal to 3, but the software doesn't ensure that this is the case. Supplying a length less than 3 leads to a buffer overflow in a buffer that is allocated later. It is simultaneously possible to cause another integer overflow by supplying large length values because the provided length value is increased by a few bytes to account for additional information that is supposed to be stored there. This bug is trivial to exploit for a denial of service but is not certain to suffice to bring the system down and can generally not be exploited further because the exploitable buffer is dynamically allocated.",
+      "cveName": "CVE-2024-48982",
+      "cveUrl": "/vuln/detail/CVE-2024-48982"
+    }
+  },
+  "CVE-2024-48983": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in MBed OS 6.16.0. During processing of HCI packets, the software dynamically determines the length of the packet data by reading 2 bytes from the packet header. A buffer is then allocated to contain the entire packet, the size of which is calculated as the length of the packet body determined earlier plus the header length. WsfMsgAlloc then increments this again by sizeof(wsfMsg_t). This may cause an integer overflow that results in the buffer being significantly too small to contain the entire packet. This may cause a buffer overflow of up to 65 KB . This bug is trivial to exploit for a denial of service but can generally not be exploited further because the exploitable buffer is dynamically allocated.",
+      "cveName": "CVE-2024-48983",
+      "cveUrl": "/vuln/detail/CVE-2024-48983"
+    }
+  },
+  "CVE-2024-48984": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:07 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in MBed OS 6.16.0. When parsing hci reports, the hci parsing software dynamically determines the length of a list of reports by reading a byte from an input stream. It then fetches the length of the first report, uses it to calculate the beginning of the second report, etc. In doing this, it tracks the largest report so it can later allocate a buffer that fits every individual report (but only one at a time). It does not, however, validate that these addresses are all contained within the buffer passed to hciEvtProcessLeExtAdvReport. It is then possible, though unlikely, that the buffer designated to hold the reports is allocated in such a way that one of these out-of-bounds length fields is contained within the new buffer. When the (n-1)th report is copied, it overwrites the length field of the nth report. This now corrupted length field is then used for a memcpy into the new buffer, which may lead to a buffer overflow.",
+      "cveName": "CVE-2024-48984",
+      "cveUrl": "/vuln/detail/CVE-2024-48984"
+    }
+  },
+  "CVE-2024-48985": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in MBed OS 6.16.0. During processing of HCI packets, the software dynamically determines the length of the packet data by reading 2 bytes from the packet data. A buffer is then allocated to contain the entire packet, the size of which is calculated as the length of the packet body determined earlier and the header length. If the allocate fails because the specified packet is too large, no exception handling occurs and hciTrSerialRxIncoming continues to write bytes into the 4-byte large temporary header buffer, leading to a buffer overflow. This can be leveraged into an arbitrary write by an attacker. It is possible to overwrite the pointer to the buffer that is supposed to receive the contents of the packet body but which couldn't be allocated. One can then overwrite the state variable used by the function to determine which step of the parsing process is currently being executed. This advances the function to the next state, where it proceeds to copy data to that arbitrary location. The packet body is then written wherever the corrupted data pointer is pointing.",
+      "cveName": "CVE-2024-48985",
+      "cveUrl": "/vuln/detail/CVE-2024-48985"
+    }
+  },
+  "CVE-2024-48986": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:08 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in MBed OS 6.16.0. Its hci parsing software dynamically determines the length of certain hci packets by reading a byte from its header. Certain events cause a callback, the logic for which allocates a buffer (the length of which is determined by looking up the event type in a table). The subsequent write operation, however, copies the amount of data specified in the packet header, which may lead to a buffer overflow. This bug is trivial to exploit for a denial of service but is not certain to suffice to bring the system down and can generally not be exploited further because the exploitable buffer is dynamically allocated.",
+      "cveName": "CVE-2024-48986",
+      "cveUrl": "/vuln/detail/CVE-2024-48986"
+    }
+  },
   "CVE-2024-48990": {
     "cve": {
       "cveDate": [
@@ -31094,6 +31259,17 @@
       "cveDis": "Mbed TLS 3.5.x through 3.6.x before 3.6.2 has a buffer underrun in pkwrite when writing an opaque key pair",
       "cveName": "CVE-2024-49195",
       "cveUrl": "/vuln/detail/CVE-2024-49195"
+    }
+  },
+  "CVE-2024-49203": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:08 PM -0500"
+      ],
+      "cveDis": "Querydsl 5.1.0 allows SQL/HQL injection in orderBy in JPAQuery.",
+      "cveName": "CVE-2024-49203",
+      "cveUrl": "/vuln/detail/CVE-2024-49203"
     }
   },
   "CVE-2024-49208": {
@@ -43603,6 +43779,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52574"
     }
   },
+  "CVE-2024-52581": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:08 PM -0500"
+      ],
+      "cveDis": "Litestar is an Asynchronous Server Gateway Interface (ASGI) framework. Prior to version 2.13.0, the multipart form parser shipped with litestar expects the entire request body as a single byte string and there is no default limit for the total size of the request body. This allows an attacker to upload arbitrary large files wrapped in a `multipart/form-data` request and cause excessive memory consumption on the server. The multipart form parser in affected versions is vulnerable to this type of attack by design. The public method signature as well as its implementation both expect the entire request body to be available as a single byte string. It is not possible to accept large file uploads in a safe way using this parser. This may be a regression, as a variation of this issue was already reported in CVE-2023-25578. Limiting the part number is not sufficient to prevent out-of-memory errors on the server. A patch is available in version 2.13.0.",
+      "cveName": "CVE-2024-52581",
+      "cveUrl": "/vuln/detail/CVE-2024-52581"
+    }
+  },
   "CVE-2024-52583": {
     "cve": {
       "cveDate": [
@@ -43702,6 +43889,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-52614"
     }
   },
+  "CVE-2024-52677": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:08 PM -0500"
+      ],
+      "cveDis": "HkCms <= v2.3.2.240702 is vulnerable to file upload in the getFileName method in /app/common/library/Upload.php.",
+      "cveName": "CVE-2024-52677",
+      "cveUrl": "/vuln/detail/CVE-2024-52677"
+    }
+  },
+  "CVE-2024-52701": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:08 PM -0500"
+      ],
+      "cveDis": "A stored cross-site scripting (XSS) vulnerability in the Configuration page of Piwigo v14.5.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Page banner parameter.",
+      "cveName": "CVE-2024-52701",
+      "cveUrl": "/vuln/detail/CVE-2024-52701"
+    }
+  },
+  "CVE-2024-52702": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:08 PM -0500"
+      ],
+      "cveDis": "A stored cross-site scripting (XSS) vulnerability in the component install\\index.php of MyBB v1.8.38 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Website Name parameter.",
+      "cveName": "CVE-2024-52702",
+      "cveUrl": "/vuln/detail/CVE-2024-52702"
+    }
+  },
   "CVE-2024-52714": {
     "cve": {
       "cveDate": [
@@ -43735,6 +43955,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-52739"
     }
   },
+  "CVE-2024-52754": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "D-LINK DI-8003 v16.07.16A1 was discovered to contain a buffer overflow via the fn parameter in the tgfile_htm function.",
+      "cveName": "CVE-2024-52754",
+      "cveUrl": "/vuln/detail/CVE-2024-52754"
+    }
+  },
+  "CVE-2024-52757": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "D-LINK DI-8003 v16.07.16A1 was discovered to contain a buffer overflow via the notify parameter in the arp_sys_asp function.",
+      "cveName": "CVE-2024-52757",
+      "cveUrl": "/vuln/detail/CVE-2024-52757"
+    }
+  },
   "CVE-2024-52759": {
     "cve": {
       "cveDate": [
@@ -43766,6 +44008,17 @@
       "cveDis": "A cross-site scripting (XSS) vulnerability in the component /graph_all_periods.php of Ganglia-web v3.73 to v3.75 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the \"g\" parameter.",
       "cveName": "CVE-2024-52763",
       "cveUrl": "/vuln/detail/CVE-2024-52763"
+    }
+  },
+  "CVE-2024-52765": {
+    "cve": {
+      "cveDate": [
+        "November 20, 2024",
+        "4:15:08 PM -0500"
+      ],
+      "cveDis": "H3C GR-1800AX MiniGRW1B0V100R007 is vulnerable to remote code execution (RCE) via the aspForm parameter.",
+      "cveName": "CVE-2024-52765",
+      "cveUrl": "/vuln/detail/CVE-2024-52765"
     }
   },
   "CVE-2024-52769": {
