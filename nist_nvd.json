@@ -131,6 +131,17 @@
       "cveUrl": "/vuln/detail/CVE-2017-20194"
     }
   },
+  "CVE-2017-97116-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "5:15:03 AM -0500"
+      ],
+      "cveDis": "Certain unprivileged processes are able to perform IOCTL calls.",
+      "cveName": "CVE-2017-97116-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2017-9711"
+    }
+  },
   "CVE-2018-25104": {
     "cve": {
       "cveDate": [
@@ -1581,6 +1592,17 @@
       "cveDis": "Multiple Cisco products are affected by a vulnerability in the Snort detection engine that could allow an unauthenticated, remote attacker to bypass a configured file policy for HTTP.\n The vulnerability is due to incorrect handling of specific HTTP header parameters. An attacker could exploit this vulnerability by sending crafted HTTP packets through an affected device. A successful exploit could allow the attacker to bypass a configured file policy for HTTP packets and deliver a malicious payload.",
       "cveName": "CVE-2021-14945-8 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2021-1494"
+    }
+  },
+  "CVE-2021-302996-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "Possible out of bound access in audio module due to lack of validation of user provided input.",
+      "cveName": "CVE-2021-302996-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-30299"
     }
   },
   "CVE-2021-347504-3 MEDIUM": {
@@ -3440,6 +3462,17 @@
       "cveDis": "A vulnerability was found in aap-gateway. A Cross-site Scripting (XSS) vulnerability exists in the gateway component. This flaw allows a malicious user to perform actions that impact users by using the \"?next=\" in a URL, which can lead to redirecting, injecting malicious script, stealing sessions and data.",
       "cveName": "CVE-2024-100335-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10033"
+    }
+  },
+  "CVE-2024-100345-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "The Gallery Blocks with Lightbox. Image Gallery, (HTML5 video , YouTube, Vimeo) Video Gallery and Lightbox for native gallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the gallery link text parameter in all versions up to, and including, 3.2.4.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Editor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-100345-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10034"
     }
   },
   "CVE-2024-10035": {
@@ -6995,6 +7028,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10665"
     }
   },
+  "CVE-2024-106664-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:18 AM -0500"
+      ],
+      "cveDis": "The Easy Twitter Feed – Twitter feeds plugin for WP plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 1.2.6 via the [etf] shortcode. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract data from password protected, private, or draft posts that they should not have access to.",
+      "cveName": "CVE-2024-106664-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10666"
+    }
+  },
   "CVE-2024-10668": {
     "cve": {
       "cveDate": [
@@ -8898,6 +8942,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11102"
     }
   },
+  "CVE-2024-111048-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:19 AM -0500"
+      ],
+      "cveDis": "The Sky Addons for Elementor (Free Templates Library, Live Copy, Animations, Post Grid, Post Carousel, Particles, Sliders, Chart, Blogs) plugin for WordPress is vulnerable to unauthorized modification of data that can lead to a denial of service due to a missing capability check on the save_options() function in all versions up to, and including, 2.6.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to update arbitrary options on the WordPress site. Please note this is limited to option values that can be saved as arrays.",
+      "cveName": "CVE-2024-111048-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11104"
+    }
+  },
   "CVE-2024-111185-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9050,6 +9105,17 @@
       "cveDis": "A vulnerability was found in the OAuth-server. OAuth-server logs the OAuth2 client secret when the logLevel is Debug higher for OIDC/GitHub/GitLab/Google IDPs login options.",
       "cveName": "CVE-2024-112174-9 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11217"
+    }
+  },
+  "CVE-2024-112256-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:19 AM -0500"
+      ],
+      "cveDis": "The Premium Packages – Sell Digital Products Securely plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 5.9.3. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-112256-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11225"
     }
   },
   "CVE-2024-11247": {
@@ -9305,6 +9371,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-11315"
     }
   },
+  "CVE-2024-113554-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:19 AM -0500"
+      ],
+      "cveDis": "The Ultimate YouTube Video & Shorts Player With Vimeo plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the get_setting() function in all versions up to, and including, 3.3. This makes it possible for authenticated attackers, with Subscriber-level access and above, to view settings for playlists.",
+      "cveName": "CVE-2024-113554-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11355"
+    }
+  },
+  "CVE-2024-113816-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:19 AM -0500"
+      ],
+      "cveDis": "The Control horas plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'ch_registro' shortcode in all versions up to, and including, 1.0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-113816-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11381"
+    }
+  },
   "CVE-2024-11395": {
     "cve": {
       "cveDate": [
@@ -9501,6 +9589,17 @@
       "cveDis": "A vulnerability has been found in 1000 Projects Beauty Parlour Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/about-us.php. The manipulation of the argument pagetitle leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-11592",
       "cveUrl": "/vuln/detail/CVE-2024-11592"
+    }
+  },
+  "CVE-2024-116018-1 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:19 AM -0500"
+      ],
+      "cveDis": "The Sky Addons for Elementor (Free Templates Library, Live Copy, Animations, Post Grid, Post Carousel, Particles, Sliders, Chart, Blog, Video Gallery) plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.6.1. This is due to missing or incorrect nonce validation on the save_options() function. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. Please note this is limited to option values that can be saved as arrays.",
+      "cveName": "CVE-2024-116018-1 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11601"
     }
   },
   "CVE-2024-1240": {
@@ -46485,6 +46584,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-7826"
     }
   },
+  "CVE-2024-78378-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "4:15:12 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Firmanet Software ERP allows SQL Injection.This issue affects ERP: through 22.11.2024.\n\n\nNOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-78378-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-7837"
+    }
+  },
   "CVE-2024-7840": {
     "cve": {
       "cveDate": [
@@ -46560,6 +46670,17 @@
       "cveDis": "The WP ULike  WordPress plugin before 4.7.5 does not sanitise and escape some of its settings, which could allow high privilege users such as editors to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed",
       "cveName": "CVE-2024-7879",
       "cveUrl": "/vuln/detail/CVE-2024-7879"
+    }
+  },
+  "CVE-2024-78826-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "4:15:13 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Special Minds Design and Software e-Commerce allows SQL Injection.This issue affects e-Commerce: through 22.11.2024.\n\n\nNOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-78826-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-7882"
     }
   },
   "CVE-2024-7883": {
@@ -47915,6 +48036,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8733"
     }
   },
+  "CVE-2024-87356-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:20 AM -0500"
+      ],
+      "cveDis": "The MailMunch – Grow your Email List plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 3.1.8. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-87356-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8735"
+    }
+  },
   "CVE-2024-87396-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -48364,6 +48496,28 @@
       "cveDis": "In PHP versions 8.1.* before 8.1.30, 8.2.* before 8.2.24, 8.3.* before 8.3.12, HTTP_REDIRECT_STATUS variable is used to check whether or not CGI binary is being run by the HTTP server. However, in certain scenarios, the content of this variable can be controlled by the request submitter via HTTP headers, which can lead to cgi.force_redirect option not being correctly applied. In certain configurations this may lead to arbitrary file inclusion in PHP.",
       "cveName": "CVE-2024-8927",
       "cveUrl": "/vuln/detail/CVE-2024-8927"
+    }
+  },
+  "CVE-2024-8929": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "2:15:03 AM -0500"
+      ],
+      "cveDis": "In PHP versions 8.1.* before 8.1.31, 8.2.* before 8.2.26, 8.3.* before 8.3.14, a hostile MySQL server can cause the client to disclose the content of its heap containing data from other SQL requests and possible other data belonging to different users of the same server.",
+      "cveName": "CVE-2024-8929",
+      "cveUrl": "/vuln/detail/CVE-2024-8929"
+    }
+  },
+  "CVE-2024-8932": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:20 AM -0500"
+      ],
+      "cveDis": "In PHP versions 8.1.* before 8.1.31, 8.2.* before 8.2.26, 8.3.* before 8.3.14, uncontrolled long string inputs to ldap_escape() function on 32-bit systems can cause an integer overflow, resulting in an out-of-bounds write.",
+      "cveName": "CVE-2024-8932",
+      "cveUrl": "/vuln/detail/CVE-2024-8932"
     }
   },
   "CVE-2024-8934": {
@@ -50575,6 +50729,17 @@
       "cveDis": "The Login Logout Shortcode plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'class' parameter in all versions up to, and including, 1.1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-94216-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9421"
+    }
+  },
+  "CVE-2024-9422": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:20 AM -0500"
+      ],
+      "cveDis": "The GEO my WP WordPress plugin before 4.5, gmw-premium-settings WordPress plugin before 3.1 does not sufficiently validate files to be uploaded, which could allow attackers to upload arbitrary files such as PHP on the server.",
+      "cveName": "CVE-2024-9422",
+      "cveUrl": "/vuln/detail/CVE-2024-9422"
     }
   },
   "CVE-2024-9423": {
