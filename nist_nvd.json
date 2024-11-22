@@ -1594,6 +1594,17 @@
       "cveUrl": "/vuln/detail/CVE-2021-1494"
     }
   },
+  "CVE-2021-30299": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "Possible out of bound access in audio module due to lack of validation of user provided input.",
+      "cveName": "CVE-2021-30299",
+      "cveUrl": "/vuln/detail/CVE-2021-30299"
+    }
+  },
   "CVE-2021-302996-7 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -1702,6 +1713,72 @@
       "cveDis": "Bluetooth LE and BR/EDR Secure Connections pairing and Secure Simple Pairing using the Passkey entry protocol in Bluetooth Core Specifications 2.1 through 5.3 may permit an unauthenticated man-in-the-middle attacker to identify the Passkey used during pairing by reflection of a crafted public key with the same X coordinate as the offered public key and by reflection of the authentication evidence of the initiating device, potentially permitting this attacker to complete authenticated pairing with the responding device using the correct Passkey for the pairing session. This is a related issue to CVE-2020-26558.",
       "cveName": "CVE-2021-37577",
       "cveUrl": "/vuln/detail/CVE-2021-37577"
+    }
+  },
+  "CVE-2021-38116": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:18 AM -0500"
+      ],
+      "cveDis": "Possible Elevation of Privilege Vulnerability\n\nin iManager has been discovered in\nOpenText™ iManager. This impacts all versions before 3.2.5",
+      "cveName": "CVE-2021-38116",
+      "cveUrl": "/vuln/detail/CVE-2021-38116"
+    }
+  },
+  "CVE-2021-38117": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:18 AM -0500"
+      ],
+      "cveDis": "Possible Command injection Vulnerability\n\nin iManager has been discovered in\nOpenText™ iManager 3.2.4.0000.",
+      "cveName": "CVE-2021-38117",
+      "cveUrl": "/vuln/detail/CVE-2021-38117"
+    }
+  },
+  "CVE-2021-38118": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:18 AM -0500"
+      ],
+      "cveDis": "Possible improper input validation Vulnerability\n\nin iManager has been discovered in\nOpenText™ iManager 3.2.4.0000.",
+      "cveName": "CVE-2021-38118",
+      "cveUrl": "/vuln/detail/CVE-2021-38118"
+    }
+  },
+  "CVE-2021-38119": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:19 AM -0500"
+      ],
+      "cveDis": "Possible Reflected Cross-Site Scripting (XSS) Vulnerability\n\nin iManager has been discovered in\nOpenText™ iManager 3.2.4.0000.",
+      "cveName": "CVE-2021-38119",
+      "cveUrl": "/vuln/detail/CVE-2021-38119"
+    }
+  },
+  "CVE-2021-38134": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:19 AM -0500"
+      ],
+      "cveDis": "Possible XSS in iManager URL for access Component has been discovered in\nOpenText™ iManager 3.2.5.0000.",
+      "cveName": "CVE-2021-38134",
+      "cveUrl": "/vuln/detail/CVE-2021-38134"
+    }
+  },
+  "CVE-2021-38135": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:19 AM -0500"
+      ],
+      "cveDis": "Possible \nExternal Service Interaction attack\n\nin iManager has been discovered in\nOpenText™ iManager 3.2.6.0000.",
+      "cveName": "CVE-2021-38135",
+      "cveUrl": "/vuln/detail/CVE-2021-38135"
     }
   },
   "CVE-2021-3838": {
@@ -1979,6 +2056,17 @@
       "cveUrl": "/vuln/detail/CVE-2022-23862"
     }
   },
+  "CVE-2022-26324": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:19 AM -0500"
+      ],
+      "cveDis": "Possible XSS in iManager URL for access Component has been discovered in\nOpenText™ iManager 3.2.6.0000.",
+      "cveName": "CVE-2022-26324",
+      "cveUrl": "/vuln/detail/CVE-2022-26324"
+    }
+  },
   "CVE-2022-30354": {
     "cve": {
       "cveDate": [
@@ -2241,6 +2329,28 @@
       "cveDis": "A stored Cross-site Scripting (XSS) vulnerability exists in the Conditions tab of Pricing Rules in pimcore/pimcore versions 10.5.19. The vulnerability is present in the From and To fields of the Date Range section, allowing an attacker to inject malicious scripts. This can lead to the execution of arbitrary JavaScript code in the context of the user's browser, potentially stealing cookies or redirecting users to malicious sites. The issue is fixed in version 10.5.21.",
       "cveName": "CVE-2023-2332",
       "cveUrl": "/vuln/detail/CVE-2023-2332"
+    }
+  },
+  "CVE-2023-24466": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:19 AM -0500"
+      ],
+      "cveDis": "Possible XML External Entity Injection\n\n\n in iManager GET parameter has been discovered in\nOpenText™ iManager 3.2.6.0200.",
+      "cveName": "CVE-2023-24466",
+      "cveUrl": "/vuln/detail/CVE-2023-24466"
+    }
+  },
+  "CVE-2023-24467": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:19 AM -0500"
+      ],
+      "cveDis": "Possible Command Injection\n\n\n in iManager GET parameter has been discovered in\nOpenText™ iManager 3.2.6.0000.",
+      "cveName": "CVE-2023-24467",
+      "cveUrl": "/vuln/detail/CVE-2023-24467"
     }
   },
   "CVE-2023-25581": {
@@ -4606,6 +4716,17 @@
       "cveDis": "Mattermost versions 9.11.X <= 9.11.1, 9.5.x <= 9.5.9 icorrectly issues two sessions when using desktop SSO - one in the browser and one in desktop with incorrect settings.",
       "cveName": "CVE-2024-10214",
       "cveUrl": "/vuln/detail/CVE-2024-10214"
+    }
+  },
+  "CVE-2024-10220": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "12:15:06 PM -0500"
+      ],
+      "cveDis": "The Kubernetes kubelet component allows arbitrary command execution via specially crafted gitRepo volumes.This issue affects kubelet: through 1.28.11, from 1.29.0 through 1.29.6, from 1.30.0 through 1.30.2.",
+      "cveName": "CVE-2024-10220",
+      "cveUrl": "/vuln/detail/CVE-2024-10220"
     }
   },
   "CVE-2024-102236-4 MEDIUM": {
@@ -7829,6 +7950,17 @@
       "cveDis": "The Popup Box – Create Countdown, Coupon, Video, Contact Form Popups plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the deactivate_plugin_option() function in all versions up to, and including, 4.9.7. This makes it possible for unauthenticated attackers to update the 'ays_pb_upgrade_plugin' option with arbitrary data.",
       "cveName": "CVE-2024-108615-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10861"
+    }
+  },
+  "CVE-2024-10863": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:21 AM -0500"
+      ],
+      "cveDis": ": Insufficient Logging vulnerability in OpenText Secure Content Manager on Windows allows Audit Log Manipulation.This issue affects Secure Content Manager: from 10.1 before <24.4.\n\n\n\nEnd-users can potentially exploit the vulnerability to exclude audit trails from being recorded on the client side.",
+      "cveName": "CVE-2024-10863",
+      "cveUrl": "/vuln/detail/CVE-2024-10863"
     }
   },
   "CVE-2024-108726-4 MEDIUM": {
@@ -13485,6 +13617,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-32608"
     }
   },
+  "CVE-2024-32767": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:22 AM -0500"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability has been reported to affect Photo Station. If exploited, the vulnerability could allow remote attackers who have gained user access to inject malicious code.\n\nWe have already fixed the vulnerability in the following version:\nPhoto Station 6.4.3 ( 2024/07/12 ) and later",
+      "cveName": "CVE-2024-32767",
+      "cveUrl": "/vuln/detail/CVE-2024-32767"
+    }
+  },
+  "CVE-2024-32768": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:22 AM -0500"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability has been reported to affect Photo Station. If exploited, the vulnerability could allow remote attackers who have gained user access to inject malicious code.\n\nWe have already fixed the vulnerability in the following version:\nPhoto Station 6.4.3 ( 2024/07/12 ) and later",
+      "cveName": "CVE-2024-32768",
+      "cveUrl": "/vuln/detail/CVE-2024-32768"
+    }
+  },
+  "CVE-2024-32769": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:22 AM -0500"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability has been reported to affect Photo Station. If exploited, the vulnerability could allow remote attackers who have gained user access to inject malicious code.\n\nWe have already fixed the vulnerability in the following version:\nPhoto Station 6.4.3 ( 2024/07/12 ) and later",
+      "cveName": "CVE-2024-32769",
+      "cveUrl": "/vuln/detail/CVE-2024-32769"
+    }
+  },
+  "CVE-2024-32770": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:22 AM -0500"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability has been reported to affect Photo Station. If exploited, the vulnerability could allow remote attackers who have gained user access to inject malicious code.\n\nWe have already fixed the vulnerability in the following version:\nPhoto Station 6.4.3 ( 2024/07/12 ) and later",
+      "cveName": "CVE-2024-32770",
+      "cveUrl": "/vuln/detail/CVE-2024-32770"
+    }
+  },
   "CVE-2024-32870": {
     "cve": {
       "cveDate": [
@@ -14706,6 +14882,116 @@
       "cveUrl": "/vuln/detail/CVE-2024-36814"
     }
   },
+  "CVE-2024-37041": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "A buffer copy without checking size of input vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to execute code.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-37041",
+      "cveUrl": "/vuln/detail/CVE-2024-37041"
+    }
+  },
+  "CVE-2024-37042": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-37042",
+      "cveUrl": "/vuln/detail/CVE-2024-37042"
+    }
+  },
+  "CVE-2024-37043": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "A path traversal vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to read the contents of unexpected files and expose sensitive data.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-37043",
+      "cveUrl": "/vuln/detail/CVE-2024-37043"
+    }
+  },
+  "CVE-2024-37044": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "A buffer copy without checking size of input vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to execute code.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-37044",
+      "cveUrl": "/vuln/detail/CVE-2024-37044"
+    }
+  },
+  "CVE-2024-37045": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-37045",
+      "cveUrl": "/vuln/detail/CVE-2024-37045"
+    }
+  },
+  "CVE-2024-37046": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "A path traversal vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to read the contents of unexpected files and expose sensitive data.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-37046",
+      "cveUrl": "/vuln/detail/CVE-2024-37046"
+    }
+  },
+  "CVE-2024-37047": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "A buffer copy without checking size of input vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to execute code.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-37047",
+      "cveUrl": "/vuln/detail/CVE-2024-37047"
+    }
+  },
+  "CVE-2024-37048": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-37048",
+      "cveUrl": "/vuln/detail/CVE-2024-37048"
+    }
+  },
+  "CVE-2024-37049": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:24 AM -0500"
+      ],
+      "cveDis": "A buffer copy without checking size of input vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to execute code.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-37049",
+      "cveUrl": "/vuln/detail/CVE-2024-37049"
+    }
+  },
+  "CVE-2024-37050": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:24 AM -0500"
+      ],
+      "cveDis": "A buffer copy without checking size of input vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to execute code.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-37050",
+      "cveUrl": "/vuln/detail/CVE-2024-37050"
+    }
+  },
   "CVE-2024-370704-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -14770,6 +15056,28 @@
       "cveDis": "In lunary-ai/lunary version 1.2.7, there is a lack of rate limiting on the forgot password page, leading to an email bombing vulnerability. Attackers can exploit this by automating forgot password requests to flood targeted user accounts with a high volume of password reset emails. This not only overwhelms the victim's mailbox, making it difficult to manage and locate legitimate emails, but also significantly impacts mail servers by consuming their resources. The increased load can cause performance degradation and, in severe cases, make the mail servers unresponsive or unavailable, disrupting email services for the entire organization.",
       "cveName": "CVE-2024-3760",
       "cveUrl": "/vuln/detail/CVE-2024-3760"
+    }
+  },
+  "CVE-2024-37782": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "An LDAP injection vulnerability in the login page of Gladinet CentreStack v13.12.9934.54690 allows attackers to access sensitive data or execute arbitrary commands via a crafted payload injected into the username field.",
+      "cveName": "CVE-2024-37782",
+      "cveUrl": "/vuln/detail/CVE-2024-37782"
+    }
+  },
+  "CVE-2024-37783": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "A reflected cross-site scripting (XSS) vulnerability in Gladinet CentreStack v13.12.9934.54690 allows attackers to inject malicious JavaScript into the web browser of a victim via the sessionId parameter at /portal/ForgotPassword.aspx.",
+      "cveName": "CVE-2024-37783",
+      "cveUrl": "/vuln/detail/CVE-2024-37783"
     }
   },
   "CVE-2024-37844": {
@@ -15177,6 +15485,61 @@
       "cveDis": "Information disclosure while sending implicit broadcast containing APP launch information.",
       "cveName": "CVE-2024-384256-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-38425"
+    }
+  },
+  "CVE-2024-38643": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:24 AM -0500"
+      ],
+      "cveDis": "A missing authentication for critical function vulnerability has been reported to affect Notes Station 3. If exploited, the vulnerability could allow remote attackers to gain access to and execute certain functions.\n\nWe have already fixed the vulnerability in the following version:\nNotes Station 3 3.9.7 and later",
+      "cveName": "CVE-2024-38643",
+      "cveUrl": "/vuln/detail/CVE-2024-38643"
+    }
+  },
+  "CVE-2024-38644": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "An OS command injection vulnerability has been reported to affect Notes Station 3. If exploited, the vulnerability could allow remote authenticated attackers to execute commands.\n\nWe have already fixed the vulnerability in the following version:\nNotes Station 3 3.9.7 and later",
+      "cveName": "CVE-2024-38644",
+      "cveUrl": "/vuln/detail/CVE-2024-38644"
+    }
+  },
+  "CVE-2024-38645": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "A server-side request forgery (SSRF) vulnerability has been reported to affect Notes Station 3. If exploited, the vulnerability could allow remote authenticated attackers to read application data.\n\nWe have already fixed the vulnerability in the following version:\nNotes Station 3 3.9.7 and later",
+      "cveName": "CVE-2024-38645",
+      "cveUrl": "/vuln/detail/CVE-2024-38645"
+    }
+  },
+  "CVE-2024-38646": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "An incorrect permission assignment for critical resource vulnerability has been reported to affect Notes Station 3. If exploited, the vulnerability could allow local authenticated attackers who have gained administrator access to read or modify the resource.\n\nWe have already fixed the vulnerability in the following version:\nNotes Station 3 3.9.7 and later",
+      "cveName": "CVE-2024-38646",
+      "cveUrl": "/vuln/detail/CVE-2024-38646"
+    }
+  },
+  "CVE-2024-38647": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "An exposure of sensitive information vulnerability has been reported to affect QNAP AI Core. If exploited, the vulnerability could allow remote attackers to compromise the security of the system.\n\nWe have already fixed the vulnerability in the following version:\nQNAP AI Core 3.4.1 and later",
+      "cveName": "CVE-2024-38647",
+      "cveUrl": "/vuln/detail/CVE-2024-38647"
     }
   },
   "CVE-2024-38796": {
@@ -16431,6 +16794,28 @@
       "cveDis": "IBM CICS TX Standard is vulnerable to cross-site scripting. This vulnerability allows an unauthenticated attacker to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
       "cveName": "CVE-2024-417456-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-41745"
+    }
+  },
+  "CVE-2024-417799-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "7:15:18 AM -0500"
+      ],
+      "cveDis": "IBM Engineering Systems Design Rhapsody - Model Manager 7.0.2 and 7.0.3 could allow a remote attacker to bypass security restrictions, caused by a race condition. By sending a specially crafted request, an attacker could exploit this vulnerability to remotely execute code.",
+      "cveName": "CVE-2024-417799-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-41779"
+    }
+  },
+  "CVE-2024-417815-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "7:15:19 AM -0500"
+      ],
+      "cveDis": "IBM PowerVM Platform KeyStore (IBM PowerVM Hypervisor FW950.00 through FW950.90, FW1030.00 through FW1030.60, FW1050.00 through FW1050.20, and FW1060.00 through FW1060.10 functionality can be compromised if an attacker gains service access to the HMC.  An attacker that gains service access to the HMC can locate and through a series of service procedures decrypt data contained in the Platform KeyStore.",
+      "cveName": "CVE-2024-417815-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-41781"
     }
   },
   "CVE-2024-41798": {
@@ -19755,6 +20140,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-44775"
     }
   },
+  "CVE-2024-44786": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "Incorrect access control in Meabilis CMS 1.0 allows attackers to access other users' address books via unspecified vectors.",
+      "cveName": "CVE-2024-44786",
+      "cveUrl": "/vuln/detail/CVE-2024-44786"
+    }
+  },
   "CVE-2024-44807": {
     "cve": {
       "cveDate": [
@@ -21282,6 +21678,17 @@
       "cveDis": "The SolarWinds Platform was susceptible to a Cross-Site Scripting vulnerability when performing an edit function to existing elements.",
       "cveName": "CVE-2024-457157-1 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-45715"
+    }
+  },
+  "CVE-2024-45719": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "10:15:10 AM -0500"
+      ],
+      "cveDis": "Inadequate Encryption Strength vulnerability in Apache Answer.\n\nThis issue affects Apache Answer: through 1.4.0.\n\nThe ids generated using the UUID v1 version are to some extent not secure enough. It can cause the generated token to be predictable.\nUsers are recommended to upgrade to version 1.4.1, which fixes the issue.",
+      "cveName": "CVE-2024-45719",
+      "cveUrl": "/vuln/detail/CVE-2024-45719"
     }
   },
   "CVE-2024-45731": {
@@ -30920,6 +31327,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-48838"
     }
   },
+  "CVE-2024-48860": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:28 AM -0500"
+      ],
+      "cveDis": "An OS command injection vulnerability has been reported to affect several product versions. If exploited, the vulnerability could allow remote attackers to execute commands.\n\nWe have already fixed the vulnerability in the following version:\nQuRouter 2.4.3.103 and later",
+      "cveName": "CVE-2024-48860",
+      "cveUrl": "/vuln/detail/CVE-2024-48860"
+    }
+  },
+  "CVE-2024-48861": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:28 AM -0500"
+      ],
+      "cveDis": "An OS command injection vulnerability has been reported to affect several product versions. If exploited, the vulnerability could allow local network attackers to execute commands.\n\nWe have already fixed the vulnerability in the following versions:\nQuRouter 2.4.4.106 and later",
+      "cveName": "CVE-2024-48861",
+      "cveUrl": "/vuln/detail/CVE-2024-48861"
+    }
+  },
+  "CVE-2024-48862": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:28 AM -0500"
+      ],
+      "cveDis": "A link following vulnerability has been reported to affect QuLog Center. If exploited, the vulnerability could allow remote attackers to traverse the file system to unintended locations and read or overwrite the contents of unexpected files.\n\nWe have already fixed the vulnerability in the following versions:\nQuLog Center 1.7.0.831 ( 2024/10/15 ) and later\nQuLog Center 1.8.0.888 ( 2024/10/15 ) and later",
+      "cveName": "CVE-2024-48862",
+      "cveUrl": "/vuln/detail/CVE-2024-48862"
+    }
+  },
   "CVE-2024-48870": {
     "cve": {
       "cveDate": [
@@ -31611,6 +32051,17 @@
       "cveDis": "Microsoft Edge (Chromium-based) Information Disclosure Vulnerability",
       "cveName": "CVE-2024-490255-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-49025"
+    }
+  },
+  "CVE-2024-49054": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "10:15:13 AM -0500"
+      ],
+      "cveDis": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "cveName": "CVE-2024-49054",
+      "cveUrl": "/vuln/detail/CVE-2024-49054"
     }
   },
   "CVE-2024-490608-8 HIGH": {
@@ -37773,6 +38224,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-50383"
     }
   },
+  "CVE-2024-50395": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:32 AM -0500"
+      ],
+      "cveDis": "An authorization bypass through user-controlled key vulnerability has been reported to affect Media Streaming add-on. If exploited, the vulnerability could allow local network attackers to gain privilege.\n\nWe have already fixed the vulnerability in the following version:\nMedia Streaming add-on 500.1.1.6 ( 2024/08/02 ) and later",
+      "cveName": "CVE-2024-50395",
+      "cveUrl": "/vuln/detail/CVE-2024-50395"
+    }
+  },
+  "CVE-2024-50396": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:32 AM -0500"
+      ],
+      "cveDis": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-50396",
+      "cveUrl": "/vuln/detail/CVE-2024-50396"
+    }
+  },
+  "CVE-2024-50397": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:32 AM -0500"
+      ],
+      "cveDis": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained user access to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-50397",
+      "cveUrl": "/vuln/detail/CVE-2024-50397"
+    }
+  },
+  "CVE-2024-50398": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:32 AM -0500"
+      ],
+      "cveDis": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-50398",
+      "cveUrl": "/vuln/detail/CVE-2024-50398"
+    }
+  },
+  "CVE-2024-50399": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:33 AM -0500"
+      ],
+      "cveDis": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-50399",
+      "cveUrl": "/vuln/detail/CVE-2024-50399"
+    }
+  },
+  "CVE-2024-50400": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:33 AM -0500"
+      ],
+      "cveDis": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-50400",
+      "cveUrl": "/vuln/detail/CVE-2024-50400"
+    }
+  },
+  "CVE-2024-50401": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:33 AM -0500"
+      ],
+      "cveDis": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
+      "cveName": "CVE-2024-50401",
+      "cveUrl": "/vuln/detail/CVE-2024-50401"
+    }
+  },
   "CVE-2024-50408": {
     "cve": {
       "cveDate": [
@@ -39027,6 +39555,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50655"
     }
   },
+  "CVE-2024-50657": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "1:15:17 PM -0500"
+      ],
+      "cveDis": "An issue in Owncloud android apk v.4.3.1 allows a physically proximate attacker to escalate privileges via the PassCodeViewModel class, specifically in the checkPassCodeIsValid method",
+      "cveName": "CVE-2024-50657",
+      "cveUrl": "/vuln/detail/CVE-2024-50657"
+    }
+  },
   "CVE-2024-50667": {
     "cve": {
       "cveDate": [
@@ -39379,6 +39918,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50919"
     }
   },
+  "CVE-2024-50965": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:33 AM -0500"
+      ],
+      "cveDis": "Cross Site Scripting vulnerability in Public Knowledge Project PKP Platform OJS/OMP/OPS- before v.3.3.0.16 allows an attacker to execute arbitrary code and escalate privileges via a crafted script",
+      "cveName": "CVE-2024-50965",
+      "cveUrl": "/vuln/detail/CVE-2024-50965"
+    }
+  },
   "CVE-2024-50966": {
     "cve": {
       "cveDate": [
@@ -39597,6 +40147,39 @@
       "cveDis": "An Insecure Direct Object Reference (IDOR) vulnerability in appointment-detail.php in Phpgurukul's Beauty Parlour Management System v1.1 allows unauthorized access to the Personally Identifiable Information (PII) of other customers.",
       "cveName": "CVE-2024-51066",
       "cveUrl": "/vuln/detail/CVE-2024-51066"
+    }
+  },
+  "CVE-2024-51072": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:33 AM -0500"
+      ],
+      "cveDis": "An issue in Instrument Cluster KIA Seltos Software v1.0, Hardware v1.0 allows attackers to cause a Denial of Service (DoS).",
+      "cveName": "CVE-2024-51072",
+      "cveUrl": "/vuln/detail/CVE-2024-51072"
+    }
+  },
+  "CVE-2024-51073": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:33 AM -0500"
+      ],
+      "cveDis": "An issue in Instrument Cluster KIA Seltos Software v1.0, Hardware v1.0 allows attackers to disrupt communications between the Instrument cluster and CAN bus.",
+      "cveName": "CVE-2024-51073",
+      "cveUrl": "/vuln/detail/CVE-2024-51073"
+    }
+  },
+  "CVE-2024-51074": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:33 AM -0500"
+      ],
+      "cveDis": "Incorrect access control in Instrument Cluster KIA Seltos Software v1.0, Hardware v1.0 allows attackers to arbitrarily change odometer readings in the vehicle.",
+      "cveName": "CVE-2024-51074",
+      "cveUrl": "/vuln/detail/CVE-2024-51074"
     }
   },
   "CVE-2024-51075": {
@@ -42316,6 +42899,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51765"
     }
   },
+  "CVE-2024-51766": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "7:15:19 AM -0500"
+      ],
+      "cveDis": "A potential security vulnerability has been identified in the HPE NonStop DISK UTIL (T9208) product. This vulnerability could be exploited to cause a denial of service (DoS) to NonStop server. It exists in all prior DISK UTIL product versions of L-series and J-series.",
+      "cveName": "CVE-2024-51766",
+      "cveUrl": "/vuln/detail/CVE-2024-51766"
+    }
+  },
   "CVE-2024-51774": {
     "cve": {
       "cveDate": [
@@ -44516,6 +45110,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52714"
     }
   },
+  "CVE-2024-52723": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:33 AM -0500"
+      ],
+      "cveDis": "In TOTOLINK X6000R V9.4.0cu.1041_B20240224 in the shttpd file, the Uci_Set Str function is used without strict parameter filtering. An attacker can achieve arbitrary command execution by constructing the payload.",
+      "cveName": "CVE-2024-52723",
+      "cveUrl": "/vuln/detail/CVE-2024-52723"
+    }
+  },
   "CVE-2024-52725": {
     "cve": {
       "cveDate": [
@@ -44637,6 +45242,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52771"
     }
   },
+  "CVE-2024-52793": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:34 AM -0500"
+      ],
+      "cveDis": "The Deno Standard Library provides APIs for Deno and the Web. Prior to version 1.0.11, `http/file-server`'s `serveDir` with `showDirListing: true` option is vulnerable to cross-site scripting when the attacker is a user who can control file names in the source directory on systems with POSIX file names. Exploitation might also be possible on other systems but less trivial due to e.g. lack of file name support for `<>` in Windows. Version 1.0.11 fixes the issue.",
+      "cveName": "CVE-2024-52793",
+      "cveUrl": "/vuln/detail/CVE-2024-52793"
+    }
+  },
   "CVE-2024-52796": {
     "cve": {
       "cveDate": [
@@ -44659,6 +45275,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52799"
     }
   },
+  "CVE-2024-52802": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:34 AM -0500"
+      ],
+      "cveDis": "RIOT is an operating system for internet of things (IoT) devices. In version 2024.04 and prior, the function `_parse_advertise`, located in `/sys/net/application_layer/dhcpv6/client.c`, has no minimum header length check for `dhcpv6_opt_t` after processing `dhcpv6_msg_t`. This omission could lead to an out-of-bound read, causing system inconsistency. Additionally, the same lack of a header length check is present in the function `_preparse_advertise`, which is called by `_parse_advertise` before handling the request. As of time of publication, no known patched version exists.",
+      "cveName": "CVE-2024-52802",
+      "cveUrl": "/vuln/detail/CVE-2024-52802"
+    }
+  },
   "CVE-2024-52803": {
     "cve": {
       "cveDate": [
@@ -44668,6 +45295,28 @@
       "cveDis": "LLama Factory enables fine-tuning of large language models. A critical remote OS command injection vulnerability has been identified in the LLama Factory training process. This vulnerability arises from improper handling of user input, allowing malicious actors to execute arbitrary OS commands on the host system. The issue is caused by insecure usage of the `Popen` function with `shell=True`, coupled with unsanitized user input. Immediate remediation is required to mitigate the risk. This vulnerability is fixed in 0.9.1.",
       "cveName": "CVE-2024-52803",
       "cveUrl": "/vuln/detail/CVE-2024-52803"
+    }
+  },
+  "CVE-2024-52804": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:34 AM -0500"
+      ],
+      "cveDis": "Tornado is a Python web framework and asynchronous networking library. The algorithm used for parsing HTTP cookies in Tornado versions prior to 6.4.2 sometimes has quadratic complexity, leading to excessive CPU consumption when parsing maliciously-crafted cookie headers. This parsing occurs in the event loop thread and may block the processing of other requests. Version 6.4.2 fixes the issue.",
+      "cveName": "CVE-2024-52804",
+      "cveUrl": "/vuln/detail/CVE-2024-52804"
+    }
+  },
+  "CVE-2024-52814": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "11:15:34 AM -0500"
+      ],
+      "cveDis": "Argo Helm is a collection of community maintained charts for `argoproj.github.io` projects. Prior to version 0.45.0, the `workflow-role`) lacks granularity in its privileges, giving permissions to `workflowtasksets` and `workflowartifactgctasks` to all workflow Pods, when only certain types of Pods created by the Controller require these privileges. The impact is minimal, as an attack could only affect status reporting for certain types of Pods and templates. Version 0.45.0 fixes the issue.",
+      "cveName": "CVE-2024-52814",
+      "cveUrl": "/vuln/detail/CVE-2024-52814"
     }
   },
   "CVE-2024-52867": {
@@ -45603,6 +46252,17 @@
       "cveDis": "While parsing certain malformed PLY files, PCL version 1.14.1 crashes due to an uncaught std::out_of_range exception in PCLPointCloud2::at. This issue could potentially be exploited to cause a denial-of-service (DoS) attack when processing untrusted PLY files.",
       "cveName": "CVE-2024-53432",
       "cveUrl": "/vuln/detail/CVE-2024-53432"
+    }
+  },
+  "CVE-2024-53438": {
+    "cve": {
+      "cveDate": [
+        "November 22, 2024",
+        "12:15:10 PM -0500"
+      ],
+      "cveDis": "EventAttendance.php in ChurchCRM 5.7.0 is vulnerable to SQL injection. An attacker can exploit this vulnerability by manipulating the 'Event' parameter, which is directly interpolated into the SQL query without proper sanitization or validation, allowing attackers to execute arbitrary SQL commands.",
+      "cveName": "CVE-2024-53438",
+      "cveUrl": "/vuln/detail/CVE-2024-53438"
     }
   },
   "CVE-2024-5429": {
