@@ -9514,6 +9514,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-11231"
     }
   },
+  "CVE-2024-11233": {
+    "cve": {
+      "cveDate": [
+        "November 23, 2024",
+        "9:15:16 PM -0500"
+      ],
+      "cveDis": "In PHP versions 8.1.* before 8.1.31, 8.2.* before 8.2.26, 8.3.* before 8.3.14, due to an error in convert.quoted-printable-decode filter certain data can lead to buffer overread by one byte, which can in certain circumstances lead to crashes or disclose content of other memory areas.",
+      "cveName": "CVE-2024-11233",
+      "cveUrl": "/vuln/detail/CVE-2024-11233"
+    }
+  },
+  "CVE-2024-11234": {
+    "cve": {
+      "cveDate": [
+        "November 23, 2024",
+        "8:15:03 PM -0500"
+      ],
+      "cveDis": "In PHP versions 8.1.* before 8.1.31, 8.2.* before 8.2.26, 8.3.* before 8.3.14, when using streams with configured proxy and \"request_fulluri\" option, the URI is not properly sanitized which can lead to HTTP request smuggling and allow the attacker to use the proxy to perform arbitrary HTTP requests originating from the server, thus potentially gaining access to resources not normally available to the external user.",
+      "cveName": "CVE-2024-11234",
+      "cveUrl": "/vuln/detail/CVE-2024-11234"
+    }
+  },
+  "CVE-2024-11236": {
+    "cve": {
+      "cveDate": [
+        "November 23, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "In PHP versions 8.1.* before 8.1.31, 8.2.* before 8.2.26, 8.3.* before 8.3.14, uncontrolled long string inputs to ldap_escape() function on 32-bit systems can cause an integer overflow, resulting in an out-of-bounds write.",
+      "cveName": "CVE-2024-11236",
+      "cveUrl": "/vuln/detail/CVE-2024-11236"
+    }
+  },
   "CVE-2024-11247": {
     "cve": {
       "cveDate": [
