@@ -46793,6 +46793,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-53438"
     }
   },
+  "CVE-2024-53899": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "11:15:06 AM -0500"
+      ],
+      "cveDis": "virtualenv before 20.26.6 allows command injection through the activation scripts for a virtual environment. Magic template strings are not quoted correctly when replacing. NOTE: this is not the same as CVE-2024-9287.",
+      "cveName": "CVE-2024-53899",
+      "cveUrl": "/vuln/detail/CVE-2024-53899"
+    }
+  },
+  "CVE-2024-53901": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "12:15:04 PM -0500"
+      ],
+      "cveDis": "The Imager package before 1.025 for Perl has a heap-based buffer overflow leading to denial of service, or possibly unspecified other impact, when the trim() method is called on a crafted input image.",
+      "cveName": "CVE-2024-53901",
+      "cveUrl": "/vuln/detail/CVE-2024-53901"
+    }
+  },
   "CVE-2024-5429": {
     "cve": {
       "cveDate": [
