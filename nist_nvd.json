@@ -10185,6 +10185,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-11632"
     }
   },
+  "CVE-2024-11646": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "7:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in 1000 Projects Beauty Parlour Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/edit-services.php. The manipulation of the argument sername leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11646",
+      "cveUrl": "/vuln/detail/CVE-2024-11646"
+    }
+  },
+  "CVE-2024-11665": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in hardy-barth cph2_echarge_firmware allows OS Command Injection.This issue affects cph2_echarge_firmware: through 2.0.4.",
+      "cveName": "CVE-2024-11665",
+      "cveUrl": "/vuln/detail/CVE-2024-11665"
+    }
+  },
+  "CVE-2024-11666": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Affected devices beacon to eCharge cloud infrastructure asking if there are any command they should run. This communication is established over an insecure channel since peer verification is disabled everywhere. Therefore, remote unauthenticated users  suitably positioned on the network between an EV charger controller and eCharge infrastructure can execute arbitrary commands with elevated privileges on affected devices.\n\nThis issue affects cph2_echarge_firmware: through 2.0.4.",
+      "cveName": "CVE-2024-11666",
+      "cveUrl": "/vuln/detail/CVE-2024-11666"
+    }
+  },
   "CVE-2024-1240": {
     "cve": {
       "cveDate": [
@@ -46815,6 +46848,94 @@
       "cveUrl": "/vuln/detail/CVE-2024-53901"
     }
   },
+  "CVE-2024-53909": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "4:15:03 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in the server in Veritas Enterprise Vault before 15.2, ZDI-CAN-24334. It allows remote attackers to execute arbitrary code because untrusted data, received on a .NET Remoting TCP port, is deserialized.",
+      "cveName": "CVE-2024-53909",
+      "cveUrl": "/vuln/detail/CVE-2024-53909"
+    }
+  },
+  "CVE-2024-53910": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "4:15:03 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in the server in Veritas Enterprise Vault before 15.2, ZDI-CAN-24336. It allows remote attackers to execute arbitrary code because untrusted data, received on a .NET Remoting TCP port, is deserialized.",
+      "cveName": "CVE-2024-53910",
+      "cveUrl": "/vuln/detail/CVE-2024-53910"
+    }
+  },
+  "CVE-2024-53911": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "4:15:04 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in the server in Veritas Enterprise Vault before 15.2, ZDI-CAN-24339. It allows remote attackers to execute arbitrary code because untrusted data, received on a .NET Remoting TCP port, is deserialized.",
+      "cveName": "CVE-2024-53911",
+      "cveUrl": "/vuln/detail/CVE-2024-53911"
+    }
+  },
+  "CVE-2024-53912": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "4:15:04 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in the server in Veritas Enterprise Vault before 15.2, ZDI-CAN-24341. It allows remote attackers to execute arbitrary code because untrusted data, received on a .NET Remoting TCP port, is deserialized.",
+      "cveName": "CVE-2024-53912",
+      "cveUrl": "/vuln/detail/CVE-2024-53912"
+    }
+  },
+  "CVE-2024-53913": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "4:15:04 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in the server in Veritas Enterprise Vault before 15.2, ZDI-CAN-24343. It allows remote attackers to execute arbitrary code because untrusted data, received on a .NET Remoting TCP port, is deserialized.",
+      "cveName": "CVE-2024-53913",
+      "cveUrl": "/vuln/detail/CVE-2024-53913"
+    }
+  },
+  "CVE-2024-53914": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "4:15:04 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in the server in Veritas Enterprise Vault before 15.2, ZDI-CAN-24344. It allows remote attackers to execute arbitrary code because untrusted data, received on a .NET Remoting TCP port, is deserialized.",
+      "cveName": "CVE-2024-53914",
+      "cveUrl": "/vuln/detail/CVE-2024-53914"
+    }
+  },
+  "CVE-2024-53915": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "4:15:04 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in the server in Veritas Enterprise Vault before 15.2, ZDI-CAN-24405. It allows remote attackers to execute arbitrary code because untrusted data, received on a .NET Remoting TCP port, is deserialized.",
+      "cveName": "CVE-2024-53915",
+      "cveUrl": "/vuln/detail/CVE-2024-53915"
+    }
+  },
+  "CVE-2024-53916": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "7:15:04 PM -0500"
+      ],
+      "cveDis": "In OpenStack Neutron through 25.0.0, neutron/extensions/tagging.py can use an incorrect ID during policy enforcement. NOTE: 935883 has the \"Work in Progress\" status as of 2024-11-24.",
+      "cveName": "CVE-2024-53916",
+      "cveUrl": "/vuln/detail/CVE-2024-53916"
+    }
+  },
   "CVE-2024-5429": {
     "cve": {
       "cveDate": [
@@ -53074,6 +53195,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9506"
     }
   },
+  "CVE-2024-9511": {
+    "cve": {
+      "cveDate": [
+        "November 23, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "The FluentSMTP – WP SMTP Plugin with Amazon SES, SendGrid, MailGun, Postmark, Google and Any SMTP Provider plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.2.82 via deserialization of untrusted input in the 'formatResult' function. This makes it possible for unauthenticated attackers to inject a PHP Object. No known POP chain is present in the vulnerable software. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code. The vulnerability was partially patched in version 2.2.82.",
+      "cveName": "CVE-2024-9511",
+      "cveUrl": "/vuln/detail/CVE-2024-9511"
+    }
+  },
   "CVE-2024-95119-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -54117,6 +54249,17 @@
       "cveDis": "The Mynx Page Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 0.27.8 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
       "cveName": "CVE-2024-96566-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9656"
+    }
+  },
+  "CVE-2024-9659": {
+    "cve": {
+      "cveDate": [
+        "November 23, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "The School Management System for Wordpress plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the mj_smgt_user_avatar_image_upload() function in all versions up to, and including, 91.5.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "cveName": "CVE-2024-9659",
+      "cveUrl": "/vuln/detail/CVE-2024-9659"
     }
   },
   "CVE-2024-96599-8 CRITICAL": {
@@ -55659,6 +55802,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9940"
     }
   },
+  "CVE-2024-9941": {
+    "cve": {
+      "cveDate": [
+        "November 23, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "The WPGYM - Wordpress Gym Management System plugin for WordPress is vulnerable to privilege escalation due to a missing capability check on the MJ_gmgt_add_staff_member() function in all versions up to, and including, 67.1.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to create new user accounts with the administrator role.",
+      "cveName": "CVE-2024-9941",
+      "cveUrl": "/vuln/detail/CVE-2024-9941"
+    }
+  },
   "CVE-2024-99418-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -55668,6 +55822,17 @@
       "cveDis": "The WPGYM - Wordpress Gym Management System plugin for WordPress is vulnerable to privilege escalation due to a missing capability check on the MJ_gmgt_add_staff_member() function in all versions up to, and including, 67.1.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to create new user accounts with the administrator role.",
       "cveName": "CVE-2024-99418-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9941"
+    }
+  },
+  "CVE-2024-9942": {
+    "cve": {
+      "cveDate": [
+        "November 23, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "The WPGYM - Wordpress Gym Management System plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the MJ_gmgt_user_avatar_image_upload() function in all versions up to, and including, 67.1.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "cveName": "CVE-2024-9942",
+      "cveUrl": "/vuln/detail/CVE-2024-9942"
     }
   },
   "CVE-2024-99429-8 CRITICAL": {
