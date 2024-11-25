@@ -868,6 +868,17 @@
       "cveUrl": "/vuln/detail/CVE-2020-10370"
     }
   },
+  "CVE-2020-113116-2 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "12:15:05 AM -0500"
+      ],
+      "cveDis": "This record is rejected as duplicate. All references should point to CVE-2021-1904.",
+      "cveName": "CVE-2020-113116-2 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2020-11311"
+    }
+  },
   "CVE-2020-11859": {
     "cve": {
       "cveDate": [
@@ -943,6 +954,28 @@
       "cveDis": "An issue was discovered in Luvion Grand Elite 3 Connect through 2020-02-25. Clients can authenticate themselves to the device using a username and password. These credentials can be obtained through an unauthenticated web request, e.g., for a JavaScript file. Also, the disclosed information includes the SSID and WPA2 key for the Wi-Fi network the device is connected to.",
       "cveName": "CVE-2020-11926",
       "cveUrl": "/vuln/detail/CVE-2020-11926"
+    }
+  },
+  "CVE-2020-12491": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "Improper control of framework service permissions with possibility of some sensitive device information leakage.",
+      "cveName": "CVE-2020-12491",
+      "cveUrl": "/vuln/detail/CVE-2020-12491"
+    }
+  },
+  "CVE-2020-12492": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:21:14 AM -0500"
+      ],
+      "cveDis": "Improper handling of WiFi information by framework services can allow certain malicious applications to obtain sensitive information.",
+      "cveName": "CVE-2020-12492",
+      "cveUrl": "/vuln/detail/CVE-2020-12492"
     }
   },
   "CVE-2020-257207-5 HIGH": {
@@ -1594,6 +1627,17 @@
       "cveUrl": "/vuln/detail/CVE-2021-1494"
     }
   },
+  "CVE-2021-23282": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "Eaton Intelligent Power Manager (IPM) prior to 1.70 is vulnerable to stored Cross site scripting. The\nvulnerability exists due to insufficient validation of input from certain resources by the IPM software.\nThe attacker would need access to the local Subnet and an administrator interaction to compromise\nthe system",
+      "cveName": "CVE-2021-23282",
+      "cveUrl": "/vuln/detail/CVE-2021-23282"
+    }
+  },
   "CVE-2021-30299": {
     "cve": {
       "cveDate": [
@@ -2153,6 +2197,28 @@
       "cveDis": "OvalEdge 5.2.8.0 and earlier is affected by a Sensitive Data Exposure vulnerability via a GET request to /user/getUserType. No authentication is required. The information disclosed is associated with the registered user ID, status, email address, role(s), user type, license type, and personal details such as first name, last name, gender, and user preferences.",
       "cveName": "CVE-2022-30361",
       "cveUrl": "/vuln/detail/CVE-2022-30361"
+    }
+  },
+  "CVE-2022-33861": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "IPP software versions prior to v1.71 do not sufficiently verify the authenticity of data, in a\nway that causes it to accept invalid data.",
+      "cveName": "CVE-2022-33861",
+      "cveUrl": "/vuln/detail/CVE-2022-33861"
+    }
+  },
+  "CVE-2022-33862": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "IPP software prior to v1.71 is vulnerable to default credential vulnerability. This could\nlead attackers to identify and access vulnerable systems.",
+      "cveName": "CVE-2022-33862",
+      "cveUrl": "/vuln/detail/CVE-2022-33862"
     }
   },
   "CVE-2022-45345-3 MEDIUM": {
@@ -4982,6 +5048,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10269"
     }
   },
+  "CVE-2024-102706-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in the Keycloak-services package. If untrusted data is passed to the SearchQueryUtils method, it could lead to a denial of service (DoS) scenario by exhausting system resources due to a Regex complexity.",
+      "cveName": "CVE-2024-102706-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10270"
+    }
+  },
   "CVE-2024-10278": {
     "cve": {
       "cveDate": [
@@ -6269,6 +6346,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10450"
     }
   },
+  "CVE-2024-104515-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "3:15:07 AM -0500"
+      ],
+      "cveDis": "A flaw was found in Keycloak. This issue occurs because sensitive runtime values, such as passwords, may be captured during the Keycloak build process and embedded as default values in bytecode, leading to unintended information disclosure. In Keycloak 26, sensitive data specified directly in environment variables during the build process is also stored as a default values, making it accessible during runtime. Indirect usage of environment variables for SPI options and Quarkus properties is also vulnerable due to unconditional expansion by PropertyMapper logic, capturing sensitive data as default values in all Keycloak versions up to 26.0.2.",
+      "cveName": "CVE-2024-104515-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10451"
+    }
+  },
   "CVE-2024-10452": {
     "cve": {
       "cveDate": [
@@ -6465,6 +6553,17 @@
       "cveDis": "A vulnerability has been identified in the Express response.links function, allowing for arbitrary resource injection in the Link header when unsanitized data is used.\n\nThe issue arises from improper sanitization in `Link` header values, which can allow a combination of characters like `,`, `;`, and `<>` to preload malicious resources.\n\nThis vulnerability is especially relevant for dynamic parameters.",
       "cveName": "CVE-2024-10491",
       "cveUrl": "/vuln/detail/CVE-2024-10491"
+    }
+  },
+  "CVE-2024-10492": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "3:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Keycloak. A user with high privileges could read sensitive information from a Vault file that is not within the expected context. This attacker must have previous high access to the Keycloak server in order to perform resource creation, for example, an LDAP provider configuration and set up a Vault read file, which will only inform whether that file exists or not.",
+      "cveName": "CVE-2024-10492",
+      "cveUrl": "/vuln/detail/CVE-2024-10492"
     }
   },
   "CVE-2024-10500": {
@@ -7400,6 +7499,28 @@
       "cveDis": "A vulnerability classified as critical has been found in code-projects Simple Car Rental System 1.0. Affected is an unknown function of the file /signup.php. The manipulation of the argument fname leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-10702",
       "cveUrl": "/vuln/detail/CVE-2024-10702"
+    }
+  },
+  "CVE-2024-10709": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "1:15:04 AM -0500"
+      ],
+      "cveDis": "The YaDisk Files WordPress plugin through 1.2.5 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.",
+      "cveName": "CVE-2024-10709",
+      "cveUrl": "/vuln/detail/CVE-2024-10709"
+    }
+  },
+  "CVE-2024-10710": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "1:15:05 AM -0500"
+      ],
+      "cveDis": "The YaDisk Files WordPress plugin through 1.2.5 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
+      "cveName": "CVE-2024-10710",
+      "cveUrl": "/vuln/detail/CVE-2024-10710"
     }
   },
   "CVE-2024-10711": {
@@ -9965,6 +10086,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11463"
     }
   },
+  "CVE-2024-114835-0 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in the Ansible Automation Platform (AAP). This flaw allows attackers to escalate privileges by improperly leveraging read-scoped OAuth2 tokens to gain write access. This issue affects API endpoints that rely on ansible_base.oauth2_provider for OAuth2 authentication. While the impact is limited to actions within the user’s assigned permissions, it undermines scoped access controls, potentially allowing unintended modifications in the application and consuming services.",
+      "cveName": "CVE-2024-114835-0 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11483"
+    }
+  },
   "CVE-2024-11484": {
     "cve": {
       "cveDate": [
@@ -10194,6 +10326,204 @@
       "cveDis": "A vulnerability classified as critical was found in 1000 Projects Beauty Parlour Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/edit-services.php. The manipulation of the argument sername leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-11646",
       "cveUrl": "/vuln/detail/CVE-2024-11646"
+    }
+  },
+  "CVE-2024-11647": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in 1000 Projects Beauty Parlour Management System 1.0. Affected by this issue is some unknown functionality of the file /admin/view-appointment.php. The manipulation of the argument viewid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11647",
+      "cveUrl": "/vuln/detail/CVE-2024-11647"
+    }
+  },
+  "CVE-2024-11648": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in 1000 Projects Beauty Parlour Management System 1.0. This affects an unknown part of the file /admin/add-customer.php. The manipulation of the argument name leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11648",
+      "cveUrl": "/vuln/detail/CVE-2024-11648"
+    }
+  },
+  "CVE-2024-11649": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "9:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in 1000 Projects Beauty Parlour Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/search-appointment.php. The manipulation of the argument searchdata leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11649",
+      "cveUrl": "/vuln/detail/CVE-2024-11649"
+    }
+  },
+  "CVE-2024-11650": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "10:15:06 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Tenda i9 1.0.0.8(3828) and classified as critical. This issue affects the function websReadEvent of the file /goform/GetIPTV. The manipulation leads to null pointer dereference. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11650",
+      "cveUrl": "/vuln/detail/CVE-2024-11650"
+    }
+  },
+  "CVE-2024-11651": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "10:15:07 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in EnGenius ENH1350EXT, ENS500-AC and ENS620EXT up to 20241118. It has been classified as critical. Affected is an unknown function of the file /admin/network/wifi_schedule. The manipulation of the argument wifi_schedule_day_em_5 leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11651",
+      "cveUrl": "/vuln/detail/CVE-2024-11651"
+    }
+  },
+  "CVE-2024-11652": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "10:15:08 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in EnGenius ENH1350EXT, ENS500-AC and ENS620EXT up to 20241118. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /admin/sn_package/sn_https. The manipulation of the argument https_enable leads to command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11652",
+      "cveUrl": "/vuln/detail/CVE-2024-11652"
+    }
+  },
+  "CVE-2024-11653": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in EnGenius ENH1350EXT, ENS500-AC and ENS620EXT up to 20241118. It has been rated as critical. Affected by this issue is some unknown functionality of the file /admin/network/diag_traceroute. The manipulation of the argument diag_traceroute leads to command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11653",
+      "cveUrl": "/vuln/detail/CVE-2024-11653"
+    }
+  },
+  "CVE-2024-11654": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in EnGenius ENH1350EXT, ENS500-AC and ENS620EXT up to 20241118. This affects an unknown part of the file /admin/network/diag_traceroute6. The manipulation of the argument diag_traceroute6 leads to command injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11654",
+      "cveUrl": "/vuln/detail/CVE-2024-11654"
+    }
+  },
+  "CVE-2024-11655": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "12:15:09 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in EnGenius ENH1350EXT, ENS500-AC and ENS620EXT up to 20241118. This vulnerability affects unknown code of the file /admin/network/diag_pinginterface. The manipulation of the argument diag_ping leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11655",
+      "cveUrl": "/vuln/detail/CVE-2024-11655"
+    }
+  },
+  "CVE-2024-11656": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "12:15:10 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in EnGenius ENH1350EXT, ENS500-AC and ENS620EXT up to 20241118. This issue affects some unknown processing of the file /admin/network/diag_ping6. The manipulation of the argument diag_ping6 leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11656",
+      "cveUrl": "/vuln/detail/CVE-2024-11656"
+    }
+  },
+  "CVE-2024-11657": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in EnGenius ENH1350EXT, ENS500-AC and ENS620EXT up to 20241118. Affected is an unknown function of the file /admin/network/diag_nslookup. The manipulation of the argument diag_nslookup leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11657",
+      "cveUrl": "/vuln/detail/CVE-2024-11657"
+    }
+  },
+  "CVE-2024-11658": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in EnGenius ENH1350EXT, ENS500-AC and ENS620EXT up to 20241118 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /admin/network/ajax_getChannelList. The manipulation of the argument countryCode leads to command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11658",
+      "cveUrl": "/vuln/detail/CVE-2024-11658"
+    }
+  },
+  "CVE-2024-11659": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "2:15:04 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in EnGenius ENH1350EXT, ENS500-AC and ENS620EXT up to 20241118 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/network/diag_iperf. The manipulation of the argument iperf leads to command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11659",
+      "cveUrl": "/vuln/detail/CVE-2024-11659"
+    }
+  },
+  "CVE-2024-11660": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "2:15:05 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Farmacia 1.0. It has been classified as problematic. This affects an unknown part of the file usuario.php. The manipulation of the argument name leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-11660",
+      "cveUrl": "/vuln/detail/CVE-2024-11660"
+    }
+  },
+  "CVE-2024-11661": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "3:15:09 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Codezips Free Exam Hall Seating Management System 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file profile.php of the component Profile Image Handler. The manipulation of the argument image leads to unrestricted upload. The attack can be initiated remotely. The researcher submit confuses the vulnerability class of this issue.",
+      "cveName": "CVE-2024-11661",
+      "cveUrl": "/vuln/detail/CVE-2024-11661"
+    }
+  },
+  "CVE-2024-11662": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "3:15:09 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in welliamcao OpsManage 3.0.1/3.0.2/3.0.3/3.0.4/3.0.5. It has been rated as critical. This issue affects the function deploy_host_vars of the file /apps/api/views/deploy_api.py of the component API Endpoint. The manipulation leads to deserialization. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11662",
+      "cveUrl": "/vuln/detail/CVE-2024-11662"
+    }
+  },
+  "CVE-2024-11663": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "4:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in Codezips E-Commerce Site 1.0. Affected by this vulnerability is an unknown functionality of the file search.php. The manipulation of the argument keywords leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11663",
+      "cveUrl": "/vuln/detail/CVE-2024-11663"
+    }
+  },
+  "CVE-2024-11664": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "4:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in eNMS up to 4.2. Affected by this issue is the function multiselect_filtering of the file eNMS/controller.py of the component TGZ File Handler. The manipulation leads to path traversal. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The patch is identified as 22b0b443acca740fc83b5544165c1f53eff3f529. It is recommended to apply a patch to fix this issue.",
+      "cveName": "CVE-2024-11664",
+      "cveUrl": "/vuln/detail/CVE-2024-11664"
     }
   },
   "CVE-2024-11665": {
@@ -46936,6 +47266,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53916"
     }
   },
+  "CVE-2024-53930": {
+    "cve": {
+      "cveDate": [
+        "November 24, 2024",
+        "10:15:12 PM -0500"
+      ],
+      "cveDis": "WikiDocs before 1.0.65 allows stored XSS by authenticated users via data that comes after $$\\\\, which is mishandled by a KaTeX parser.",
+      "cveName": "CVE-2024-53930",
+      "cveUrl": "/vuln/detail/CVE-2024-53930"
+    }
+  },
   "CVE-2024-5429": {
     "cve": {
       "cveDate": [
@@ -47123,6 +47464,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-6360"
     }
   },
+  "CVE-2024-6393": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "The Photo Gallery, Sliders, Proofing and   WordPress plugin before 3.59.5 does not sanitise and escape some of its Images settings, which could allow high privilege users such as Admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)",
+      "cveName": "CVE-2024-6393",
+      "cveUrl": "/vuln/detail/CVE-2024-6393"
+    }
+  },
   "CVE-2024-6394": {
     "cve": {
       "cveDate": [
@@ -47231,6 +47583,17 @@
       "cveDis": "A cross-site scripting issue has been discovered in GitLab affecting all versions starting from 17.1 prior 17.2.9, starting from 17.3 prior to 17.3.5, and starting from 17.4 prior to 17.4.2. When adding a authorizing an application, it can be made to render as HTML under specific circumstances.",
       "cveName": "CVE-2024-6530",
       "cveUrl": "/vuln/detail/CVE-2024-6530"
+    }
+  },
+  "CVE-2024-65385-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "2:15:06 AM -0500"
+      ],
+      "cveDis": "A flaw was found in OpenShift Console. A Server Side Request Forgery (SSRF) attack can happen if an attacker supplies all or part of a URL to the server to query. The server is considered to be in a privileged network position and can often reach exposed services that aren't readily available to clients due to network filtering. Leveraging such an attack vector, the attacker can have an impact on other services and potentially disclose information or have other nefarious effects on the system.\nThe /api/dev-console/proxy/internet endpoint on the OpenShit Console allows authenticated users to have the console's pod perform arbitrary and fully controlled HTTP(s) requests. The full response to these requests is returned by the endpoint.\nWhile the name of this endpoint suggests the requests are only bound to the internet, no such checks are in place. An authenticated user can therefore ask the console to perform arbitrary HTTP requests from outside the cluster to a service inside the cluster.",
+      "cveName": "CVE-2024-65385-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-6538"
     }
   },
   "CVE-2024-6581": {
@@ -47495,6 +47858,17 @@
       "cveDis": "In version v0.3.8 of open-webui/open-webui, a vulnerability exists where a token is returned when a user with a pending role logs in. This allows the user to perform actions without admin confirmation, bypassing the intended approval process.",
       "cveName": "CVE-2024-7049",
       "cveUrl": "/vuln/detail/CVE-2024-7049"
+    }
+  },
+  "CVE-2024-7056": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "1:15:07 AM -0500"
+      ],
+      "cveDis": "The WPForms  WordPress plugin before 1.9.1.6 does not sanitise and escape some of its settings, which could allow high privilege users such as Admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
+      "cveName": "CVE-2024-7056",
+      "cveUrl": "/vuln/detail/CVE-2024-7056"
     }
   },
   "CVE-2024-7099": {
@@ -54282,6 +54656,17 @@
       "cveDis": "The School Management System for Wordpress plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the mj_smgt_load_documets_new() and mj_smgt_load_documets() functions in all versions up to, and including, 91.5.0. This makes it possible for authenticated attackers, with Student-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.",
       "cveName": "CVE-2024-96608-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9660"
+    }
+  },
+  "CVE-2024-96664-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "3:15:10 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in the Keycloak Server. The Keycloak Server is vulnerable to a denial of service (DoS) attack due to improper handling of proxy headers. When Keycloak is configured to accept incoming proxy headers, it may accept non-IP values, such as obfuscated identifiers, without proper validation. This issue can lead to costly DNS resolution operations, which an attacker could exploit to tie up IO threads and potentially cause a denial of service.\nThe attacker must have access to send requests to a Keycloak instance that is configured to accept proxy headers, specifically when reverse proxies do not overwrite incoming headers, and Keycloak is configured to trust these headers.",
+      "cveName": "CVE-2024-96664-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9666"
     }
   },
   "CVE-2024-96676-1 MEDIUM": {
