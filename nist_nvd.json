@@ -21,6 +21,17 @@
       "cveUrl": "/vuln/detail/CVE-2015-20111"
     }
   },
+  "CVE-2016-103948-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "Initial xbl_sec revision does not have all the debug policy features and critical checks.",
+      "cveName": "CVE-2016-103948-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2016-10394"
+    }
+  },
   "CVE-2016-150429-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -30,6 +41,17 @@
       "cveDis": "The Frontend File Manager (versions < 4.0), N-Media Post Front-end Form (versions < 1.1) plugins for WordPress are vulnerable to arbitrary file uploads due to missing file type validation via the `nm_filemanager_upload_file` and `nm_postfront_upload_file` AJAX actions. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.",
       "cveName": "CVE-2016-150429-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2016-15042"
+    }
+  },
+  "CVE-2017-110769-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "On some hardware revisions where VP9 decoding is hardware-accelerated, the frame size is not programmed correctly into the decoder hardware which can lead to an invalid memory access by the decoder.",
+      "cveName": "CVE-2017-110769-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2017-11076"
     }
   },
   "CVE-2017-13227": {
@@ -109,6 +131,39 @@
       "cveUrl": "/vuln/detail/CVE-2017-13314"
     }
   },
+  "CVE-2017-158328-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "Buffer overwrite in the WLAN host driver by leveraging a compromised WLAN FW",
+      "cveName": "CVE-2017-158328-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2017-15832"
+    }
+  },
+  "CVE-2017-177729-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "In multiple functions that process 802.11 frames, out-of-bounds reads can occur due to insufficient validation.",
+      "cveName": "CVE-2017-177729-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2017-17772"
+    }
+  },
+  "CVE-2017-181538-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "A race condition exists in a driver potentially leading to a use-after-free condition.",
+      "cveName": "CVE-2017-181538-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2017-18153"
+    }
+  },
   "CVE-2017-201934-7 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -140,6 +195,28 @@
       "cveDis": "Certain unprivileged processes are able to perform IOCTL calls.",
       "cveName": "CVE-2017-97116-7 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2017-9711"
+    }
+  },
+  "CVE-2018-119229-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "Wrong configuration in Touch Pal application can collect user behavior data without awareness by the user.",
+      "cveName": "CVE-2018-119229-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2018-11922"
+    }
+  },
+  "CVE-2018-119528-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "An image with a version lower than the fuse version may potentially be booted lead to improper authentication.",
+      "cveName": "CVE-2018-119528-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2018-11952"
     }
   },
   "CVE-2018-25104": {
@@ -5334,6 +5411,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10301"
     }
   },
+  "CVE-2024-103086-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:15:16 AM -0500"
+      ],
+      "cveDis": "The Jeg Elementor Kit plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's JKit - Countdown widget in all versions up to, and including, 2.6.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-103086-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10308"
+    }
+  },
   "CVE-2024-103106-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -6894,6 +6982,17 @@
       "cveDis": "An out-of-bounds write flaw was found in mpg123 when handling crafted streams. When decoding PCM, the libmpg123 may write past the end of a heap-located buffer. Consequently, heap corruption may happen, and arbitrary code execution is not discarded. The complexity required to exploit this flaw is considered high as the payload must be validated by the MPEG decoder and the PCM synth before execution. Additionally, to successfully execute the attack, the user must scan through the stream, making web live stream content (such as web radios) a very unlikely attack vector.",
       "cveName": "CVE-2024-105736-7 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10573"
+    }
+  },
+  "CVE-2024-105794-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:21:58 AM -0500"
+      ],
+      "cveDis": "The Hustle – Email Marketing, Lead Generation, Optins, Popups plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the preview_module() function in all versions up to, and including, 7.8.5. This makes it possible for authenticated attackers, with Subscriber-level access and above, to view unpublished forms.",
+      "cveName": "CVE-2024-105794-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10579"
     }
   },
   "CVE-2024-105824-3 MEDIUM": {
@@ -8854,6 +8953,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11000"
     }
   },
+  "CVE-2024-110026-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:05 AM -0500"
+      ],
+      "cveDis": "The The InPost Gallery plugin for WordPress is vulnerable to arbitrary shortcode execution via the inpost_gallery_get_shortcode_template AJAX action in all versions up to, and including, 2.1.4.2. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for authenticated attackers, with Subscriber-level access and above, to execute arbitrary shortcodes.",
+      "cveName": "CVE-2024-110026-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11002"
+    }
+  },
   "CVE-2024-11003": {
     "cve": {
       "cveDate": [
@@ -8942,6 +9052,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11023"
     }
   },
+  "CVE-2024-110249-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:21:58 AM -0500"
+      ],
+      "cveDis": "The AppPresser – Mobile App Framework plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 4.4.6. This is due to the plugin not properly validating a user's password reset code prior to updating their password. This makes it possible for unauthenticated attackers, with knowledge of a user's email address, to reset the user's password and gain access to their account.",
+      "cveName": "CVE-2024-110249-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11024"
+    }
+  },
   "CVE-2024-11026": {
     "cve": {
       "cveDate": [
@@ -8951,6 +9072,17 @@
       "cveDis": "A vulnerability was found in Intelligent Apps Freenow App 12.10.0 on Android. It has been rated as problematic. Affected by this issue is some unknown functionality of the file ch/qos/logback/core/net/ssl/SSL.java of the component Keystore Handler. The manipulation of the argument DEFAULT_KEYSTORE_PASSWORD with the input changeit leads to use of hard-coded password. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-11026",
       "cveUrl": "/vuln/detail/CVE-2024-11026"
+    }
+  },
+  "CVE-2024-110326-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "The Parsi Date plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 5.1.1. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-110326-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11032"
     }
   },
   "CVE-2024-110347-3 HIGH": {
@@ -9338,6 +9470,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11089"
     }
   },
+  "CVE-2024-110916-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "The Support SVG – Upload svg files in wordpress without hassle plugin for WordPress is vulnerable to Stored Cross-Site Scripting via REST API SVG File uploads in all versions up to, and including, 1.1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-110916-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11091"
+    }
+  },
   "CVE-2024-110926-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9459,6 +9602,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11118"
     }
   },
+  "CVE-2024-111196-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "The BNE Gallery Extended plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'gallery' shortcode in all versions up to, and including, 1.2.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-111196-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11119"
+    }
+  },
   "CVE-2024-111209-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -9536,6 +9690,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11188"
     }
   },
+  "CVE-2024-111926-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "The Spotify Play Button for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's spotifyplaybutton shortcode in all versions up to, and including, 2.11 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-111926-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11192"
+    }
+  },
   "CVE-2024-11195": {
     "cve": {
       "cveDate": [
@@ -9556,6 +9721,17 @@
       "cveDis": "The Rescue Shortcodes plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's rescue_progressbar shortcode in all versions up to, and including, 2.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-111996-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11199"
+    }
+  },
+  "CVE-2024-112026-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "Multiple plugins for WordPress are vulnerable to Reflected Cross-Site Scripting via the cminds_free_guide shortcode in various versions due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-112026-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11202"
     }
   },
   "CVE-2024-11210": {
@@ -10777,6 +10953,17 @@
       "cveDis": "A vulnerability was found in CodeAstro Hospital Management System 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file /backend/doc/his_doc_register_patient.php. The manipulation of the argument pat_fname/pat_ailment/pat_lname/pat_age/pat_dob/pat_number/pat_phone/pat_type/pat_addr leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-11678",
       "cveUrl": "/vuln/detail/CVE-2024-11678"
+    }
+  },
+  "CVE-2024-11680": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sending crafted HTTP requests to options.php, enabling unauthorized modification of the application's configuration. Successful exploitation allows attackers to create accounts, upload webshells, and embed malicious JavaScript.",
+      "cveName": "CVE-2024-11680",
+      "cveUrl": "/vuln/detail/CVE-2024-11680"
     }
   },
   "CVE-2024-1240": {
@@ -13980,6 +14167,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-28027"
     }
   },
+  "CVE-2024-28038": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "The web interface of the affected devices processes a cookie value improperly, leading to a stack buffer overflow. More precisely, giving too long character string to MFPSESSIONID parameter results in a stack buffer overflow. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-28038",
+      "cveUrl": "/vuln/detail/CVE-2024-28038"
+    }
+  },
   "CVE-2024-280525-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -14145,6 +14343,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-28948"
     }
   },
+  "CVE-2024-28955": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:05 AM -0500"
+      ],
+      "cveDis": "Affected devices create coredump files when crashed, storing them with world-readable permission. Any local user of the device can examine the coredump files, and research the memory contents. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-28955",
+      "cveUrl": "/vuln/detail/CVE-2024-28955"
+    }
+  },
   "CVE-2024-29075": {
     "cve": {
       "cveDate": [
@@ -14154,6 +14363,17 @@
       "cveDis": "Active debug code vulnerability exists in Mesh Wi-Fi router RP562B firmware version v1.0.2 and earlier. If this vulnerability is exploited, a network-adjacent authenticated attacker may obtain or alter the settings of the device .",
       "cveName": "CVE-2024-29075",
       "cveUrl": "/vuln/detail/CVE-2024-29075"
+    }
+  },
+  "CVE-2024-29146": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:05 AM -0500"
+      ],
+      "cveDis": "User passwords are decrypted and stored on memory before any user logged in. Those decrypted passwords can be retrieved from the coredump file. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-29146",
+      "cveUrl": "/vuln/detail/CVE-2024-29146"
     }
   },
   "CVE-2024-29155": {
@@ -14209,6 +14429,17 @@
       "cveDis": "Ivanti DSM < version 2024.2 allows authenticated users on the local machine to run code with elevated privileges due to insecure ACL via unspecified attack vector.",
       "cveName": "CVE-2024-29821",
       "cveUrl": "/vuln/detail/CVE-2024-29821"
+    }
+  },
+  "CVE-2024-29978": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:05 AM -0500"
+      ],
+      "cveDis": "User passwords are decrypted and stored on memory before any user logged in. Those decrypted passwords can be retrieved from the coredump file. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-29978",
+      "cveUrl": "/vuln/detail/CVE-2024-29978"
     }
   },
   "CVE-2024-30106": {
@@ -14662,6 +14893,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-31998"
     }
   },
+  "CVE-2024-32151": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:05 AM -0500"
+      ],
+      "cveDis": "User passwords are decrypted and stored on memory before any user logged in. Those decrypted passwords can be retrieved from the coredump file. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-32151",
+      "cveUrl": "/vuln/detail/CVE-2024-32151"
+    }
+  },
   "CVE-2024-32468": {
     "cve": {
       "cveDate": [
@@ -15069,6 +15311,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-33603"
     }
   },
+  "CVE-2024-33605": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:05 AM -0500"
+      ],
+      "cveDis": "Improper processing of some parameters of installed_emanual_list.html leads to a path traversal vulnerability. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-33605",
+      "cveUrl": "/vuln/detail/CVE-2024-33605"
+    }
+  },
+  "CVE-2024-33610": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:05 AM -0500"
+      ],
+      "cveDis": "\"sessionlist.html\" and \"sys_trayentryreboot.html\" are accessible with no authentication. \"sessionlist.html\" provides logged-in users' session information including session cookies, and \"sys_trayentryreboot.html\" allows to reboot the device. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-33610",
+      "cveUrl": "/vuln/detail/CVE-2024-33610"
+    }
+  },
+  "CVE-2024-33616": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:05 AM -0500"
+      ],
+      "cveDis": "Admin authentication can be bypassed with some specific invalid credentials, which allows logging in with an administrative privilege. Sharp Corporation states the telnet feature is implemented on older models only, and is planning to provide the firmware update to remove the feature. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-33616",
+      "cveUrl": "/vuln/detail/CVE-2024-33616"
+    }
+  },
   "CVE-2024-33623": {
     "cve": {
       "cveDate": [
@@ -15155,6 +15430,17 @@
       "cveDis": "Sensitive information disclosure during file browsing due to improper soft link handling. The following products are affected: Acronis Backup plugin for cPanel & WHM (Linux) before build 818.",
       "cveName": "CVE-2024-34015",
       "cveUrl": "/vuln/detail/CVE-2024-34015"
+    }
+  },
+  "CVE-2024-34162": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "The web interface of the affected devices is designed to hide the LDAP credentials even for administrative users. But configuring LDAP authentication to \"SIMPLE\", the device communicates with the LDAP server in clear-text. The LDAP password can be retrieved from this clear-text communication. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-34162",
+      "cveUrl": "/vuln/detail/CVE-2024-34162"
     }
   },
   "CVE-2024-34535": {
@@ -15542,6 +15828,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-35202"
     }
   },
+  "CVE-2024-35244": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "There are several hidden accounts. Some of them are intended for maintenance engineers, and with the knowledge of their passwords (e.g., by examining the coredump), these accounts can be used to re-configure the device. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-35244",
+      "cveUrl": "/vuln/detail/CVE-2024-35244"
+    }
+  },
   "CVE-2024-35285": {
     "cve": {
       "cveDate": [
@@ -15894,6 +16191,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-36064"
     }
   },
+  "CVE-2024-36248": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "API keys for some cloud services are hardcoded in the \"main\" binary. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-36248",
+      "cveUrl": "/vuln/detail/CVE-2024-36248"
+    }
+  },
+  "CVE-2024-36249": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "Cross-site scripting vulnerability exists in Sharp Corporation and Toshiba Tech Corporation multiple MFPs (multifunction printers). If this vulnerability is exploited, an arbitrary script may be executed on the administrative page of the affected MFPs. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-36249",
+      "cveUrl": "/vuln/detail/CVE-2024-36249"
+    }
+  },
   "CVE-2024-36250": {
     "cve": {
       "cveDate": [
@@ -15903,6 +16222,28 @@
       "cveDis": "Mattermost versions 9.11.x <= 9.11.2, and 9.5.x <= 9.5.10 fail to protect the mfa code against replay attacks, which allows an attacker to reuse the MFA code within ~30 seconds",
       "cveName": "CVE-2024-36250",
       "cveUrl": "/vuln/detail/CVE-2024-36250"
+    }
+  },
+  "CVE-2024-36251": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "The web interface of the affected devices process some crafted HTTP requests improperly, leading to a device crash. More precisely, a crafted parameter to billcodedef_sub_sel.html is not processed properly and device-crash happens. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
+      "cveName": "CVE-2024-36251",
+      "cveUrl": "/vuln/detail/CVE-2024-36251"
+    }
+  },
+  "CVE-2024-36254": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "Out-of-bounds read vulnerability exists in Sharp Corporation and Toshiba Tec Corporation multiple MFPs (multifunction printers), which may lead to a denial-of-service (DoS) condition.",
+      "cveName": "CVE-2024-36254",
+      "cveUrl": "/vuln/detail/CVE-2024-36254"
     }
   },
   "CVE-2024-3635": {
@@ -25594,6 +25935,17 @@
       "cveDis": "In 2N Access Commander versions 3.1.1.2 and prior, a local attacker can escalate their privileges in the system which could allow for arbitrary \ncode execution with root permissions.",
       "cveName": "CVE-2024-47255",
       "cveUrl": "/vuln/detail/CVE-2024-47255"
+    }
+  },
+  "CVE-2024-47257": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:07 AM -0500"
+      ],
+      "cveDis": "Florent Thiéry has found that selected Axis devices were vulnerable to handling certain ethernet frames which could lead to the Axis device becoming unavailable in the network. \nAxis has released patched AXIS OS versions for the highlighted flaw for products that are still under AXIS OS software support. Please refer to the Axis security advisory for more information and solution.",
+      "cveName": "CVE-2024-47257",
+      "cveUrl": "/vuln/detail/CVE-2024-47257"
     }
   },
   "CVE-2024-47295": {
@@ -39401,6 +39753,226 @@
       "cveUrl": "/vuln/detail/CVE-2024-50356"
     }
   },
+  "CVE-2024-50358": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:21:59 AM -0500"
+      ],
+      "cveDis": "A CWE-15 \"External Control of System or Configuration Setting\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The vulnerability can be exploited by authenticated users by restoring a tampered configuration backup.",
+      "cveName": "CVE-2024-50358",
+      "cveUrl": "/vuln/detail/CVE-2024-50358"
+    }
+  },
+  "CVE-2024-50359": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:00 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"scan_ap\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50359",
+      "cveUrl": "/vuln/detail/CVE-2024-50359"
+    }
+  },
+  "CVE-2024-50360": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:01 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"snmp_apply\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50360",
+      "cveUrl": "/vuln/detail/CVE-2024-50360"
+    }
+  },
+  "CVE-2024-50361": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:01 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"certificate_file_remove\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50361",
+      "cveUrl": "/vuln/detail/CVE-2024-50361"
+    }
+  },
+  "CVE-2024-50362": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:02 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"connection_profile_apply\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50362",
+      "cveUrl": "/vuln/detail/CVE-2024-50362"
+    }
+  },
+  "CVE-2024-50363": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:02 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"mp_apply\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50363",
+      "cveUrl": "/vuln/detail/CVE-2024-50363"
+    }
+  },
+  "CVE-2024-50364": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:02 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"export_log\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50364",
+      "cveUrl": "/vuln/detail/CVE-2024-50364"
+    }
+  },
+  "CVE-2024-50365": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:03 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"lan_apply\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50365",
+      "cveUrl": "/vuln/detail/CVE-2024-50365"
+    }
+  },
+  "CVE-2024-50366": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:03 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"applications_apply\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50366",
+      "cveUrl": "/vuln/detail/CVE-2024-50366"
+    }
+  },
+  "CVE-2024-50367": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:04 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"sta_log_htm\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50367",
+      "cveUrl": "/vuln/detail/CVE-2024-50367"
+    }
+  },
+  "CVE-2024-50368": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:04 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"basic_htm\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50368",
+      "cveUrl": "/vuln/detail/CVE-2024-50368"
+    }
+  },
+  "CVE-2024-50369": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:05 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The source of the vulnerability relies on multiple parameters belonging to the \"multiple_ssid_htm\" API which are not properly sanitized before being concatenated to OS level commands.",
+      "cveName": "CVE-2024-50369",
+      "cveUrl": "/vuln/detail/CVE-2024-50369"
+    }
+  },
+  "CVE-2024-50370": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:05 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The vulnerability can be exploited by remote unauthenticated users capable of interacting with the default \"edgserver\" service enabled on the access point and malicious commands are executed with root privileges. No authentication is enabled on the service and the source of the vulnerability resides in processing code associated to the \"cfg_cmd_set_eth_conf\" operation.",
+      "cveName": "CVE-2024-50370",
+      "cveUrl": "/vuln/detail/CVE-2024-50370"
+    }
+  },
+  "CVE-2024-50371": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:06 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The vulnerability can be exploited by remote unauthenticated users capable of interacting with the default \"edgserver\" service enabled on the access point and malicious commands are executed with root privileges. No authentication is enabled on the service and the source of the vulnerability resides in processing code associated to the \"wlan_scan\" operation.",
+      "cveName": "CVE-2024-50371",
+      "cveUrl": "/vuln/detail/CVE-2024-50371"
+    }
+  },
+  "CVE-2024-50372": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:06 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The vulnerability can be exploited by remote unauthenticated users capable of interacting with the default \"edgserver\" service enabled on the access point and malicious commands are executed with root privileges. No authentication is enabled on the service and the source of the vulnerability resides in processing code associated to the \"backup_config_to_utility\" operation.",
+      "cveName": "CVE-2024-50372",
+      "cveUrl": "/vuln/detail/CVE-2024-50372"
+    }
+  },
+  "CVE-2024-50373": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:06 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The vulnerability can be exploited by remote unauthenticated users capable of interacting with the default \"edgserver\" service enabled on the access point and malicious commands are executed with root privileges. No authentication is enabled on the service and the source of the vulnerability resides in processing code associated to the \"restore_config_from_utility\" operation.",
+      "cveName": "CVE-2024-50373",
+      "cveUrl": "/vuln/detail/CVE-2024-50373"
+    }
+  },
+  "CVE-2024-50374": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:07 AM -0500"
+      ],
+      "cveDis": "A CWE-78 \"Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The vulnerability can be exploited by remote unauthenticated users capable of interacting with the default \"edgserver\" service enabled on the access point and malicious commands are executed with root privileges. No authentication is enabled on the service and the source of the vulnerability resides in processing code associated to the \"capture_packages\" operation.",
+      "cveName": "CVE-2024-50374",
+      "cveUrl": "/vuln/detail/CVE-2024-50374"
+    }
+  },
+  "CVE-2024-50375": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:07 AM -0500"
+      ],
+      "cveDis": "A CWE-306 \"Missing Authentication for Critical Function\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The vulnerability can be exploited by remote unauthenticated users capable of interacting with the default \"edgserver\" service enabled on the access point.",
+      "cveName": "CVE-2024-50375",
+      "cveUrl": "/vuln/detail/CVE-2024-50375"
+    }
+  },
+  "CVE-2024-50376": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:08 AM -0500"
+      ],
+      "cveDis": "A CWE-79 \"Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The vulnerability can be exploited remotely leveraging a rogue Wi-Fi access point with a malicious SSID.",
+      "cveName": "CVE-2024-50376",
+      "cveUrl": "/vuln/detail/CVE-2024-50376"
+    }
+  },
+  "CVE-2024-50377": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:08 AM -0500"
+      ],
+      "cveDis": "A CWE-798 \"Use of Hard-coded Credentials\" was discovered affecting the following devices manufactured by Advantech: EKI-6333AC-2G (<= 1.6.3), EKI-6333AC-2GD (<= v1.6.3) and EKI-6333AC-1GPO (<= v1.2.1). The vulnerability is associated to the backup configuration functionality that by default encrypts the archives using a static password.",
+      "cveName": "CVE-2024-50377",
+      "cveUrl": "/vuln/detail/CVE-2024-50377"
+    }
+  },
   "CVE-2024-50378": {
     "cve": {
       "cveDate": [
@@ -48135,6 +48707,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-6444"
     }
   },
+  "CVE-2024-6476": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:05 AM -0500"
+      ],
+      "cveDis": "Gee-netics, member of the AXIS Camera Station Pro Bug Bounty Program has found that it is possible for a non-admin user to gain system privileges by redirecting a file deletion upon service restart. \n Axis has released patched versions for the highlighted flaw. Please refer to the Axis security advisory for more information and solution.",
+      "cveName": "CVE-2024-6476",
+      "cveUrl": "/vuln/detail/CVE-2024-6476"
+    }
+  },
   "CVE-2024-6479": {
     "cve": {
       "cveDate": [
@@ -48256,6 +48839,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-6747"
     }
   },
+  "CVE-2024-6749": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:05 AM -0500"
+      ],
+      "cveDis": "Seth Fogie, member of the AXIS Camera Station Pro Bug Bounty Program, has found that the Incident report feature may expose sensitive credentials on the AXIS Camera Station windows client. If Incident report is not being used with credentials configured this flaw does not apply. \n\n Axis has released patched versions for the highlighted flaw. Please refer to the Axis security advisory for more information and solution.",
+      "cveName": "CVE-2024-6749",
+      "cveUrl": "/vuln/detail/CVE-2024-6749"
+    }
+  },
   "CVE-2024-67574-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -48298,6 +48892,17 @@
       "cveDis": "An issue has been discovered in GitLab CE/EE affecting all versions from 11.2 before 17.3.6, 17.4 before 17.4.3, and 17.5 before 17.5.1. A denial of service could occur via importing a malicious crafted XML manifest file.",
       "cveName": "CVE-2024-6826",
       "cveUrl": "/vuln/detail/CVE-2024-6826"
+    }
+  },
+  "CVE-2024-6831": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:07 AM -0500"
+      ],
+      "cveDis": "Seth Fogie, member of AXIS Camera Station Pro Bug Bounty Program has found that it is possible to edit and/or remove views without the necessary permission due to a client-side-only check. \nAxis has released patched versions for the highlighted flaw. Please \nrefer to the Axis security advisory for more information and solution.",
+      "cveName": "CVE-2024-6831",
+      "cveUrl": "/vuln/detail/CVE-2024-6831"
     }
   },
   "CVE-2024-68617-5 HIGH": {
@@ -49519,6 +50124,17 @@
       "cveDis": "Deep Freeze 9.00.020.5760 is vulnerable to an out-of-bounds read vulnerability by triggering the 0x70014 IOCTL code of the FarDisk.sys driver.",
       "cveName": "CVE-2024-81596-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8159"
+    }
+  },
+  "CVE-2024-8160": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:07 AM -0500"
+      ],
+      "cveDis": "Erik de Jong, member of the AXIS OS Bug Bounty Program, has found that the VAPIX API ftptest.cgi did not have a sufficient input validation allowing for a possible command injection leading to being able to transfer files from/to the Axis device. This flaw can only be exploited after authenticating with an administrator-privileged service account. \nAxis has released patched AXIS OS versions for the highlighted flaw. Please refer to the Axis security advisory for more information and solution.",
+      "cveName": "CVE-2024-8160",
+      "cveUrl": "/vuln/detail/CVE-2024-8160"
     }
   },
   "CVE-2024-8184": {
@@ -50786,6 +51402,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8760"
     }
   },
+  "CVE-2024-8772": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:08 AM -0500"
+      ],
+      "cveDis": "51l3nc3, member of the AXIS OS Bug Bounty Program, has found that the VAPIX API managedoverlayimages.cgi was vulnerable to a race condition attack allowing for an attacker to block access to the overlay configuration page in the web interface of the Axis device. This flaw can only be exploited after authenticating with an operator- or administrator-privileged service account. Axis has released patched AXIS OS versions for the highlighted flaw. Please refer to the Axis security advisory for more information and solution.",
+      "cveName": "CVE-2024-8772",
+      "cveUrl": "/vuln/detail/CVE-2024-8772"
+    }
+  },
   "CVE-2024-8786": {
     "cve": {
       "cveDate": [
@@ -51015,6 +51642,17 @@
       "cveDis": "A maliciously crafted DXF file when parsed in acdb25.dll through Autodesk AutoCAD can force to access a variable prior to initialization. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.",
       "cveName": "CVE-2024-8896",
       "cveUrl": "/vuln/detail/CVE-2024-8896"
+    }
+  },
+  "CVE-2024-88994-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:22:09 AM -0500"
+      ],
+      "cveDis": "The Jeg Elementor Kit plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.6.9 via the render_content function in class/elements/views/class-tabs-view.php. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive private, pending, and draft template data.",
+      "cveName": "CVE-2024-88994-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8899"
     }
   },
   "CVE-2024-8901": {
@@ -51862,6 +52500,17 @@
       "cveDis": "Under specific circumstances, insecure permissions in Ivanti Velocity License Server before version 5.2 allows a local authenticated attacker to achieve local privilege escalation.",
       "cveName": "CVE-2024-9167",
       "cveUrl": "/vuln/detail/CVE-2024-9167"
+    }
+  },
+  "CVE-2024-91705-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:06 AM -0500"
+      ],
+      "cveDis": "The Booster for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wcj_product_meta shortcode in all versions up to, and including, 7.2.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with ShopManager-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-91705-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9170"
     }
   },
   "CVE-2024-91726-4 MEDIUM": {
@@ -54161,6 +54810,17 @@
       "cveDis": "The Wp Social Login and Register Social Counter plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 3.0.7. This is due to insufficient verification on the user being returned by the social login token. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email and the user does not have an already-existing account for the service returning the token.",
       "cveName": "CVE-2024-95019-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-9501"
+    }
+  },
+  "CVE-2024-95047-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:08 AM -0500"
+      ],
+      "cveDis": "The Booking calendar, Appointment Booking System plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 3.2.15 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
+      "cveName": "CVE-2024-95047-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9504"
     }
   },
   "CVE-2024-95056-4 MEDIUM": {
