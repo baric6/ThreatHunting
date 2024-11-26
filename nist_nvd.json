@@ -2441,6 +2441,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-26248"
     }
   },
+  "CVE-2023-26280": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "11:15:06 AM -0500"
+      ],
+      "cveDis": "IBM Jazz Foundation 7.0.2 and 7.0.3 could allow a user to change their dashboard using a specially crafted HTTP request due to improper access control.",
+      "cveName": "CVE-2023-26280",
+      "cveUrl": "/vuln/detail/CVE-2023-26280"
+    }
+  },
   "CVE-2023-262805-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -7578,6 +7589,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10728"
     }
   },
+  "CVE-2024-107298-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "9:15:16 PM -0500"
+      ],
+      "cveDis": "The Booking & Appointment Plugin for WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'save_google_calendar_data' function in versions up to, and including, 6.9.0. This makes it possible for authenticated attackers, with subscriber-level permissions or above to update the site options arbitrarily.",
+      "cveName": "CVE-2024-107298-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10729"
+    }
+  },
   "CVE-2024-10730": {
     "cve": {
       "cveDate": [
@@ -9976,6 +9998,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11332"
     }
   },
+  "CVE-2024-113426-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "The Skt NURCaptcha plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.5.0. This is due to missing or incorrect nonce validation in the skt-nurc-admin.php file. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-113426-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11342"
+    }
+  },
   "CVE-2024-113554-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -10084,6 +10117,17 @@
       "cveDis": "The WP-Orphanage Extended plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.2. This is due to missing or incorrect nonce validation on the wporphanageex_menu_settings() function. This makes it possible for unauthenticated attackers to escalate the privileges of all orphan accounts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-114158-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-11415"
+    }
+  },
+  "CVE-2024-114186-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "The Additional Order Filters for WooCommerce plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'shipping_method_filter' parameter in all versions up to, and including, 1.21 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-114186-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11418"
     }
   },
   "CVE-2024-114266-4 MEDIUM": {
@@ -10667,6 +10711,72 @@
       "cveDis": "Incorrect authorization in the add permission component in Devolutions Remote Desktop Manager 2024.2.21 and earlier on Windows allows an authenticated malicious user to bypass the \"Add\" permission via the import in vault feature.",
       "cveName": "CVE-2024-11672",
       "cveUrl": "/vuln/detail/CVE-2024-11672"
+    }
+  },
+  "CVE-2024-11673": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, has been found in 1000 Projects Bookstore Management System 1.0. This issue affects some unknown processing. The manipulation leads to cross-site request forgery. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11673",
+      "cveUrl": "/vuln/detail/CVE-2024-11673"
+    }
+  },
+  "CVE-2024-11674": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "7:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in CodeAstro Hospital Management System 1.0. Affected is an unknown function of the file /backend/doc/his_doc_update-account.php. The manipulation of the argument doc_dpic leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11674",
+      "cveUrl": "/vuln/detail/CVE-2024-11674"
+    }
+  },
+  "CVE-2024-11675": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in CodeAstro Hospital Management System 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /backend/admin/his_admin_register_patient.php of the component Add Patient Details Page. The manipulation of the argument pat_fname/pat_ailment/pat_lname/pat_age/pat_dob/pat_number/pat_phone/pat_type/pat_addr leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11675",
+      "cveUrl": "/vuln/detail/CVE-2024-11675"
+    }
+  },
+  "CVE-2024-11676": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "8:15:06 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in CodeAstro Hospital Management System 1.0 and classified as problematic. Affected by this issue is some unknown functionality of the file /backend/admin/his_admin_add_lab_equipment.php of the component Add Laboratory Equipment Page. The manipulation of the argument eqp_code/eqp_name/eqp_vendor/eqp_desc/eqp_dept/eqp_status/eqp_qty leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11676",
+      "cveUrl": "/vuln/detail/CVE-2024-11676"
+    }
+  },
+  "CVE-2024-11677": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in CodeAstro Hospital Management System 1.0. It has been classified as problematic. This affects an unknown part of the file /backend/admin/his_admin_add_vendor.php of the component Add Vendor Details Page. The manipulation of the argument v_name/v_adr/v_number/v_email/v_phone/v_desc leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11677",
+      "cveUrl": "/vuln/detail/CVE-2024-11677"
+    }
+  },
+  "CVE-2024-11678": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in CodeAstro Hospital Management System 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file /backend/doc/his_doc_register_patient.php. The manipulation of the argument pat_fname/pat_ailment/pat_lname/pat_age/pat_dob/pat_number/pat_phone/pat_type/pat_addr leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11678",
+      "cveUrl": "/vuln/detail/CVE-2024-11678"
     }
   },
   "CVE-2024-1240": {
@@ -14550,6 +14660,17 @@
       "cveDis": "Combodo iTop is a simple, web based IT Service Management tool. A CSRF can be performed on CSV import simulation. This issue has been fixed in versions 3.1.2 and 3.2.0. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-31998",
       "cveUrl": "/vuln/detail/CVE-2024-31998"
+    }
+  },
+  "CVE-2024-32468": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "2:15:09 PM -0500"
+      ],
+      "cveDis": "Deno is a runtime for JavaScript and TypeScript written in rust. Several cross-site scripting vulnerabilities existed in the `deno_doc` crate which lead to Self-XSS with deno doc --html. 1.) XSS in generated `search_index.js`, `deno_doc` outputs a JavaScript file for searching. However, the generated file used `innerHTML` on unsanitzed HTML input. 2.) XSS via property, method and enum names, `deno_doc` did not sanitize property names, method names and enum names. The first XSS most likely didn't have an impact since `deno doc --html` is expected to be used locally with own packages.",
+      "cveName": "CVE-2024-32468",
+      "cveUrl": "/vuln/detail/CVE-2024-32468"
     }
   },
   "CVE-2024-32608": {
@@ -34264,6 +34385,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-49340"
     }
   },
+  "CVE-2024-493515-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "IBM Workload Scheduler 9.5, 10.1, and 10.2 stores user credentials in plain text which can be read by a local user.",
+      "cveName": "CVE-2024-493515-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-49351"
+    }
+  },
+  "CVE-2024-493537-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "IBM Watson Speech Services Cartridge for IBM Cloud Pak for Data 4.0.0 through 5.0.2 does not properly check inputs to resources that are used concurrently, which might lead to unexpected states, possibly resulting in a crash.",
+      "cveName": "CVE-2024-493537-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-49353"
+    }
+  },
   "CVE-2024-49357": {
     "cve": {
       "cveDate": [
@@ -34889,6 +35032,39 @@
       "cveDis": "In Advanced Custom Fields (ACF) before 6.3.9 and Secure Custom Fields before 6.3.6.3 (plugins for WordPress), using the Field Group editor to edit one of the plugin's fields can result in execution of a stored XSS payload. NOTE: if you wish to use the WP Engine alternative update mechanism for the free version of ACF, then you can follow the process shown at the advancedcustomfields.com blog URL within the References section below.",
       "cveName": "CVE-2024-49593",
       "cveUrl": "/vuln/detail/CVE-2024-49593"
+    }
+  },
+  "CVE-2024-49595": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "10:15:06 PM -0500"
+      ],
+      "cveDis": "Dell Wyse Management Suite, version WMS 4.4 and before, contain an Authentication Bypass by Capture-replay vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Denial of service.",
+      "cveName": "CVE-2024-49595",
+      "cveUrl": "/vuln/detail/CVE-2024-49595"
+    }
+  },
+  "CVE-2024-49596": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "10:15:06 PM -0500"
+      ],
+      "cveDis": "Dell Wyse Management Suite, version WMS 4.4 and prior, contain a Missing Authorization vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Denial of service and arbitrary file deletion",
+      "cveName": "CVE-2024-49596",
+      "cveUrl": "/vuln/detail/CVE-2024-49596"
+    }
+  },
+  "CVE-2024-49597": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "10:15:06 PM -0500"
+      ],
+      "cveDis": "Dell Wyse Management Suite, versions WMS 4.4 and prior, contain an Improper Restriction of Excessive Authentication Attempts vulnerability. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Protection mechanism bypass.",
+      "cveName": "CVE-2024-49597",
+      "cveUrl": "/vuln/detail/CVE-2024-49597"
     }
   },
   "CVE-2024-49604": {
@@ -40611,6 +40787,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-50667"
     }
   },
+  "CVE-2024-50671": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "4:15:19 PM -0500"
+      ],
+      "cveDis": "Incorrect access control in Adapt Learning Adapt Authoring Tool <= 0.11.3 allows attackers with Authenticated User roles to obtain email addresses via the \"Get users\" feature. The vulnerability occurs due to a flaw in permission verification logic, where the wildcard character in permitted URLs grants unintended access to endpoints restricted to users with Super Admin roles. This makes it possible for attackers to disclose the email addresses of all users.",
+      "cveName": "CVE-2024-50671",
+      "cveUrl": "/vuln/detail/CVE-2024-50671"
+    }
+  },
+  "CVE-2024-50672": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "4:15:19 PM -0500"
+      ],
+      "cveDis": "A NoSQL injection vulnerability in Adapt Learning Adapt Authoring Tool <= 0.11.3 allows unauthenticated attackers to reset user and administrator account passwords via the \"Reset password\" feature. The vulnerability occurs due to insufficient validation of user input, which is used as a query in Mongoose's find() function. This makes it possible for attackers to perform a full takeover of the administrator account. Attackers can then use the newly gained administrative privileges to upload a custom plugin to perform remote code execution (RCE) on the server hosting the web application.",
+      "cveName": "CVE-2024-50672",
+      "cveUrl": "/vuln/detail/CVE-2024-50672"
+    }
+  },
   "CVE-2024-50766": {
     "cve": {
       "cveDate": [
@@ -43680,6 +43878,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51706"
     }
   },
+  "CVE-2024-51723": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "2:15:11 PM -0500"
+      ],
+      "cveDis": "A Stored Cross-Site Scripting (XSS) vulnerability in the Management Console of BlackBerry AtHoc version 7.15 could allow an attacker to potentially execute actions in the context of the victim's session.",
+      "cveName": "CVE-2024-51723",
+      "cveUrl": "/vuln/detail/CVE-2024-51723"
+    }
+  },
   "CVE-2024-51734": {
     "cve": {
       "cveDate": [
@@ -45814,6 +46023,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52528"
     }
   },
+  "CVE-2024-52529": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "2:15:11 PM -0500"
+      ],
+      "cveDis": "Cilium is a networking, observability, and security solution with an eBPF-based dataplane. For users with the following configuration: 1. An allow policy that selects a Layer 3 destination and a port range `AND` 2. A Layer 7 allow policy that selects a specific port within the first policy's range the Layer 7 enforcement would not occur for the traffic selected by the Layer 7 policy. This issue only affects users who use Cilium's port range functionality, which was introduced in Cilium v1.16. This issue is patched in PR #35150. This issue affects Cilium v1.16 between v1.16.0 and v1.16.3 inclusive. This issue is patched in Cilium v1.16.4. Users are advised to upgrade. Users with network policies that match the pattern described above can work around the issue by rewriting any policies that use port ranges to individually specify the ports permitted for traffic.",
+      "cveName": "CVE-2024-52529",
+      "cveUrl": "/vuln/detail/CVE-2024-52529"
+    }
+  },
   "CVE-2024-52530": {
     "cve": {
       "cveDate": [
@@ -46364,6 +46584,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52804"
     }
   },
+  "CVE-2024-52811": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "2:15:11 PM -0500"
+      ],
+      "cveDis": "The ngtcp2 project is an effort to implement IETF QUIC protocol in C. In affected versions acks are not validated before being written to the qlog leading to a buffer overflow. In `ngtcp2_conn::conn_recv_pkt` for an ACK, there was new logic that got added to skip `conn_recv_ack` if an ack has already been processed in the payload. However, this causes us to also skip `ngtcp2_pkt_validate_ack`. The ack which was skipped still got written to qlog. The bug occurs in `ngtcp2_qlog::write_ack_frame`. It is now possible to reach this code with an invalid ack, suppose `largest_ack=0` and `first_ack_range=15`. Subtracting `largest_ack - first_ack_range` will lead to an integer underflow which is 20 chars long. However, the ngtcp2 qlog code assumes the number written is a signed integer and only accounts for 19 characters of overhead (see `NGTCP2_QLOG_ACK_FRAME_RANGE_OVERHEAD`). Therefore, we overwrite the buffer causing a heap overflow. This is high priority and could potentially impact many users if they enable qlog. qlog is disabled by default. Due to its overhead, it is most likely used for debugging purpose, but the actual use is unknown. ngtcp2 v1.9.1 fixes the bug and users are advised to upgrade. Users unable to upgrade should not turn on qlog.",
+      "cveName": "CVE-2024-52811",
+      "cveUrl": "/vuln/detail/CVE-2024-52811"
+    }
+  },
   "CVE-2024-52814": {
     "cve": {
       "cveDate": [
@@ -46417,6 +46648,17 @@
       "cveDis": "Holy Stone Remote ID Module HSRID01, firmware distributed with the Drone Go2 mobile application before 1.1.8, allows unauthenticated \"remote power off\" actions (in broadcast mode) via multiple read operations on the ASTM Remote ID (0xFFFA) GATT.",
       "cveName": "CVE-2024-52876",
       "cveUrl": "/vuln/detail/CVE-2024-52876"
+    }
+  },
+  "CVE-2024-528998-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "8:15:07 PM -0500"
+      ],
+      "cveDis": "IBM Data Virtualization Manager for z/OS 1.1 and 1.2 could allow an authenticated user to inject malicious JDBC URL parameters and execute code on the server.",
+      "cveName": "CVE-2024-528998-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52899"
     }
   },
   "CVE-2024-52912": {
@@ -47233,6 +47475,138 @@
       "cveUrl": "/vuln/detail/CVE-2024-53095"
     }
   },
+  "CVE-2024-53096": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm: resolve faulty mmap_region() error path behaviour\n\nThe mmap_region() function is somewhat terrifying, with spaghetti-like\ncontrol flow and numerous means by which issues can arise and incomplete\nstate, memory leaks and other unpleasantness can occur.\n\nA large amount of the complexity arises from trying to handle errors late\nin the process of mapping a VMA, which forms the basis of recently\nobserved issues with resource leaks and observable inconsistent state.\n\nTaking advantage of previous patches in this series we move a number of\nchecks earlier in the code, simplifying things by moving the core of the\nlogic into a static internal function __mmap_region().\n\nDoing this allows us to perform a number of checks up front before we do\nany real work, and allows us to unwind the writable unmap check\nunconditionally as required and to perform a CONFIG_DEBUG_VM_MAPLE_TREE\nvalidation unconditionally also.\n\nWe move a number of things here:\n\n1. We preallocate memory for the iterator before we call the file-backed\n   memory hook, allowing us to exit early and avoid having to perform\n   complicated and error-prone close/free logic. We carefully free\n   iterator state on both success and error paths.\n\n2. The enclosing mmap_region() function handles the mapping_map_writable()\n   logic early. Previously the logic had the mapping_map_writable() at the\n   point of mapping a newly allocated file-backed VMA, and a matching\n   mapping_unmap_writable() on success and error paths.\n\n   We now do this unconditionally if this is a file-backed, shared writable\n   mapping. If a driver changes the flags to eliminate VM_MAYWRITE, however\n   doing so does not invalidate the seal check we just performed, and we in\n   any case always decrement the counter in the wrapper.\n\n   We perform a debug assert to ensure a driver does not attempt to do the\n   opposite.\n\n3. We also move arch_validate_flags() up into the mmap_region()\n   function. This is only relevant on arm64 and sparc64, and the check is\n   only meaningful for SPARC with ADI enabled. We explicitly add a warning\n   for this arch if a driver invalidates this check, though the code ought\n   eventually to be fixed to eliminate the need for this.\n\nWith all of these measures in place, we no longer need to explicitly close\nthe VMA on error paths, as we place all checks which might fail prior to a\ncall to any driver mmap hook.\n\nThis eliminates an entire class of errors, makes the code easier to reason\nabout and more robust.",
+      "cveName": "CVE-2024-53096",
+      "cveUrl": "/vuln/detail/CVE-2024-53096"
+    }
+  },
+  "CVE-2024-53097": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm: krealloc: Fix MTE false alarm in __do_krealloc\n\nThis patch addresses an issue introduced by commit 1a83a716ec233 (\"mm:\nkrealloc: consider spare memory for __GFP_ZERO\") which causes MTE\n(Memory Tagging Extension) to falsely report a slab-out-of-bounds error.\n\nThe problem occurs when zeroing out spare memory in __do_krealloc. The\noriginal code only considered software-based KASAN and did not account\nfor MTE. It does not reset the KASAN tag before calling memset, leading\nto a mismatch between the pointer tag and the memory tag, resulting\nin a false positive.\n\nExample of the error:\n==================================================================\nswapper/0: BUG: KASAN: slab-out-of-bounds in __memset+0x84/0x188\nswapper/0: Write at addr f4ffff8005f0fdf0 by task swapper/0/1\nswapper/0: Pointer tag: [f4], memory tag: [fe]\nswapper/0:\nswapper/0: CPU: 4 UID: 0 PID: 1 Comm: swapper/0 Not tainted 6.12.\nswapper/0: Hardware name: MT6991(ENG) (DT)\nswapper/0: Call trace:\nswapper/0:  dump_backtrace+0xfc/0x17c\nswapper/0:  show_stack+0x18/0x28\nswapper/0:  dump_stack_lvl+0x40/0xa0\nswapper/0:  print_report+0x1b8/0x71c\nswapper/0:  kasan_report+0xec/0x14c\nswapper/0:  __do_kernel_fault+0x60/0x29c\nswapper/0:  do_bad_area+0x30/0xdc\nswapper/0:  do_tag_check_fault+0x20/0x34\nswapper/0:  do_mem_abort+0x58/0x104\nswapper/0:  el1_abort+0x3c/0x5c\nswapper/0:  el1h_64_sync_handler+0x80/0xcc\nswapper/0:  el1h_64_sync+0x68/0x6c\nswapper/0:  __memset+0x84/0x188\nswapper/0:  btf_populate_kfunc_set+0x280/0x3d8\nswapper/0:  __register_btf_kfunc_id_set+0x43c/0x468\nswapper/0:  register_btf_kfunc_id_set+0x48/0x60\nswapper/0:  register_nf_nat_bpf+0x1c/0x40\nswapper/0:  nf_nat_init+0xc0/0x128\nswapper/0:  do_one_initcall+0x184/0x464\nswapper/0:  do_initcall_level+0xdc/0x1b0\nswapper/0:  do_initcalls+0x70/0xc0\nswapper/0:  do_basic_setup+0x1c/0x28\nswapper/0:  kernel_init_freeable+0x144/0x1b8\nswapper/0:  kernel_init+0x20/0x1a8\nswapper/0:  ret_from_fork+0x10/0x20\n==================================================================",
+      "cveName": "CVE-2024-53097",
+      "cveUrl": "/vuln/detail/CVE-2024-53097"
+    }
+  },
+  "CVE-2024-53098": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:15:16 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/xe/ufence: Prefetch ufence addr to catch bogus address\n\naccess_ok() only checks for addr overflow so also try to read the addr\nto catch invalid addr sent from userspace.\n\n(cherry picked from commit 9408c4508483ffc60811e910a93d6425b8e63928)",
+      "cveName": "CVE-2024-53098",
+      "cveUrl": "/vuln/detail/CVE-2024-53098"
+    }
+  },
+  "CVE-2024-53099": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:15:16 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Check validity of link->type in bpf_link_show_fdinfo()\n\nIf a newly-added link type doesn't invoke BPF_LINK_TYPE(), accessing\nbpf_link_type_strs[link->type] may result in an out-of-bounds access.\n\nTo spot such missed invocations early in the future, checking the\nvalidity of link->type in bpf_link_show_fdinfo() and emitting a warning\nwhen such invocations are missed.",
+      "cveName": "CVE-2024-53099",
+      "cveUrl": "/vuln/detail/CVE-2024-53099"
+    }
+  },
+  "CVE-2024-53100": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:15:16 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvme: tcp: avoid race between queue_lock lock and destroy\n\nCommit 76d54bf20cdc (\"nvme-tcp: don't access released socket during\nerror recovery\") added a mutex_lock() call for the queue->queue_lock\nin nvme_tcp_get_address(). However, the mutex_lock() races with\nmutex_destroy() in nvme_tcp_free_queue(), and causes the WARN below.\n\nDEBUG_LOCKS_WARN_ON(lock->magic != lock)\nWARNING: CPU: 3 PID: 34077 at kernel/locking/mutex.c:587 __mutex_lock+0xcf0/0x1220\nModules linked in: nvmet_tcp nvmet nvme_tcp nvme_fabrics iw_cm ib_cm ib_core pktcdvd nft_fib_inet nft_fib_ipv4 nft_fib_ipv6 nft_fib nft_reject_inet nf_reject_ipv4 nf_reject_ipv6 nft_reject nft_ct nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 ip_set nf_tables qrtr sunrpc ppdev 9pnet_virtio 9pnet pcspkr netfs parport_pc parport e1000 i2c_piix4 i2c_smbus loop fuse nfnetlink zram bochs drm_vram_helper drm_ttm_helper ttm drm_kms_helper xfs drm sym53c8xx floppy nvme scsi_transport_spi nvme_core nvme_auth serio_raw ata_generic pata_acpi dm_multipath qemu_fw_cfg [last unloaded: ib_uverbs]\nCPU: 3 UID: 0 PID: 34077 Comm: udisksd Not tainted 6.11.0-rc7 #319\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.3-2.fc40 04/01/2014\nRIP: 0010:__mutex_lock+0xcf0/0x1220\nCode: 08 84 d2 0f 85 c8 04 00 00 8b 15 ef b6 c8 01 85 d2 0f 85 78 f4 ff ff 48 c7 c6 20 93 ee af 48 c7 c7 60 91 ee af e8 f0 a7 6d fd <0f> 0b e9 5e f4 ff ff 48 b8 00 00 00 00 00 fc ff df 4c 89 f2 48 c1\nRSP: 0018:ffff88811305f760 EFLAGS: 00010286\nRAX: 0000000000000000 RBX: ffff88812c652058 RCX: 0000000000000000\nRDX: 0000000000000000 RSI: 0000000000000004 RDI: 0000000000000001\nRBP: ffff88811305f8b0 R08: 0000000000000001 R09: ffffed1075c36341\nR10: ffff8883ae1b1a0b R11: 0000000000010498 R12: 0000000000000000\nR13: 0000000000000000 R14: dffffc0000000000 R15: ffff88812c652058\nFS:  00007f9713ae4980(0000) GS:ffff8883ae180000(0000) knlGS:0000000000000000\nCS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\nCR2: 00007fcd78483c7c CR3: 0000000122c38000 CR4: 00000000000006f0\nDR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000\nDR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400\nCall Trace:\n <TASK>\n ? __warn.cold+0x5b/0x1af\n ? __mutex_lock+0xcf0/0x1220\n ? report_bug+0x1ec/0x390\n ? handle_bug+0x3c/0x80\n ? exc_invalid_op+0x13/0x40\n ? asm_exc_invalid_op+0x16/0x20\n ? __mutex_lock+0xcf0/0x1220\n ? nvme_tcp_get_address+0xc2/0x1e0 [nvme_tcp]\n ? __pfx___mutex_lock+0x10/0x10\n ? __lock_acquire+0xd6a/0x59e0\n ? nvme_tcp_get_address+0xc2/0x1e0 [nvme_tcp]\n nvme_tcp_get_address+0xc2/0x1e0 [nvme_tcp]\n ? __pfx_nvme_tcp_get_address+0x10/0x10 [nvme_tcp]\n nvme_sysfs_show_address+0x81/0xc0 [nvme_core]\n dev_attr_show+0x42/0x80\n ? __asan_memset+0x1f/0x40\n sysfs_kf_seq_show+0x1f0/0x370\n seq_read_iter+0x2cb/0x1130\n ? rw_verify_area+0x3b1/0x590\n ? __mutex_lock+0x433/0x1220\n vfs_read+0x6a6/0xa20\n ? lockdep_hardirqs_on+0x78/0x100\n ? __pfx_vfs_read+0x10/0x10\n ksys_read+0xf7/0x1d0\n ? __pfx_ksys_read+0x10/0x10\n ? __x64_sys_openat+0x105/0x1d0\n do_syscall_64+0x93/0x180\n ? lockdep_hardirqs_on_prepare+0x16d/0x400\n ? do_syscall_64+0x9f/0x180\n ? lockdep_hardirqs_on+0x78/0x100\n ? do_syscall_64+0x9f/0x180\n ? __pfx_ksys_read+0x10/0x10\n ? lockdep_hardirqs_on_prepare+0x16d/0x400\n ? do_syscall_64+0x9f/0x180\n ? lockdep_hardirqs_on+0x78/0x100\n ? do_syscall_64+0x9f/0x180\n ? lockdep_hardirqs_on_prepare+0x16d/0x400\n ? do_syscall_64+0x9f/0x180\n ? lockdep_hardirqs_on+0x78/0x100\n ? do_syscall_64+0x9f/0x180\n ? lockdep_hardirqs_on_prepare+0x16d/0x400\n ? do_syscall_64+0x9f/0x180\n ? lockdep_hardirqs_on+0x78/0x100\n ? do_syscall_64+0x9f/0x180\n ? lockdep_hardirqs_on_prepare+0x16d/0x400\n ? do_syscall_64+0x9f/0x180\n ? lockdep_hardirqs_on+0x78/0x100\n ? do_syscall_64+0x9f/0x180\n ? do_syscall_64+0x9f/0x180\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\nRIP: 0033:0x7f9713f55cfa\nCode: 55 48 89 e5 48 83 ec 20 48 89 55 e8 48 89 75 f0 89 7d f8 e8 e8 74 f8 ff 48 8b 55 e8 48 8b 75 f0 4\n---truncated---",
+      "cveName": "CVE-2024-53100",
+      "cveUrl": "/vuln/detail/CVE-2024-53100"
+    }
+  },
+  "CVE-2024-53101": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:15:17 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs: Fix uninitialized value issue in from_kuid and from_kgid\n\nocfs2_setattr() uses attr->ia_mode, attr->ia_uid and attr->ia_gid in\na trace point even though ATTR_MODE, ATTR_UID and ATTR_GID aren't set.\n\nInitialize all fields of newattrs to avoid uninitialized variables, by\nchecking if ATTR_MODE, ATTR_UID, ATTR_GID are initialized, otherwise 0.",
+      "cveName": "CVE-2024-53101",
+      "cveUrl": "/vuln/detail/CVE-2024-53101"
+    }
+  },
+  "CVE-2024-53102": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:15:17 PM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvme: make keep-alive synchronous operation\n\nThe nvme keep-alive operation, which executes at a periodic interval,\ncould potentially sneak in while shutting down a fabric controller.\nThis may lead to a race between the fabric controller admin queue\ndestroy code path (invoked while shutting down controller) and hw/hctx\nqueue dispatcher called from the nvme keep-alive async request queuing\noperation. This race could lead to the kernel crash shown below:\n\nCall Trace:\n    autoremove_wake_function+0x0/0xbc (unreliable)\n    __blk_mq_sched_dispatch_requests+0x114/0x24c\n    blk_mq_sched_dispatch_requests+0x44/0x84\n    blk_mq_run_hw_queue+0x140/0x220\n    nvme_keep_alive_work+0xc8/0x19c [nvme_core]\n    process_one_work+0x200/0x4e0\n    worker_thread+0x340/0x504\n    kthread+0x138/0x140\n    start_kernel_thread+0x14/0x18\n\nWhile shutting down fabric controller, if nvme keep-alive request sneaks\nin then it would be flushed off. The nvme_keep_alive_end_io function is\nthen invoked to handle the end of the keep-alive operation which\ndecrements the admin->q_usage_counter and assuming this is the last/only\nrequest in the admin queue then the admin->q_usage_counter becomes zero.\nIf that happens then blk-mq destroy queue operation (blk_mq_destroy_\nqueue()) which could be potentially running simultaneously on another\ncpu (as this is the controller shutdown code path) would forward\nprogress and deletes the admin queue. So, now from this point onward\nwe are not supposed to access the admin queue resources. However the\nissue here's that the nvme keep-alive thread running hw/hctx queue\ndispatch operation hasn't yet finished its work and so it could still\npotentially access the admin queue resource while the admin queue had\nbeen already deleted and that causes the above crash.\n\nThis fix helps avoid the observed crash by implementing keep-alive as a\nsynchronous operation so that we decrement admin->q_usage_counter only\nafter keep-alive command finished its execution and returns the command\nstatus back up to its caller (blk_execute_rq()). This would ensure that\nfabric shutdown code path doesn't destroy the fabric admin queue until\nkeep-alive request finished execution and also keep-alive thread is not\nrunning hw/hctx queue dispatch operation.",
+      "cveName": "CVE-2024-53102",
+      "cveUrl": "/vuln/detail/CVE-2024-53102"
+    }
+  },
+  "CVE-2024-53255": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "2:15:11 PM -0500"
+      ],
+      "cveDis": "BoidCMS is a free and open-source flat file CMS for building simple websites and blogs, developed using PHP and uses JSON as a database. In affected versions a reflected Cross-site Scripting (XSS) vulnerability exists in the /admin?page=media endpoint in the file parameter, allowing an attacker to inject arbitrary JavaScript code. This code could be used to steal the user's session cookie, perform phishing attacks, or deface the website. This issue has been addressed in version 2.1.2 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-53255",
+      "cveUrl": "/vuln/detail/CVE-2024-53255"
+    }
+  },
+  "CVE-2024-53258": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "3:15:10 PM -0500"
+      ],
+      "cveDis": "Autolab is a course management service that enables auto-graded programming assignments. From Autolab versions v.3.0.0 onward students can download all assignments from another student, as long as they are logged in, using the download_all_submissions feature. This can allow for leakage of submissions to unauthorized users, such as downloading submissions from other students in the class, or even instructor test submissions, given they know their user IDs. This issue has been patched in commit `1aa4c769` which is not yet in a release version, but is expected to be included in version 3.0.3. Users are advised to either manually patch or to wait for version 3.0.3. As a workaround administrators can disable the feature.",
+      "cveName": "CVE-2024-53258",
+      "cveUrl": "/vuln/detail/CVE-2024-53258"
+    }
+  },
+  "CVE-2024-53261": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "3:15:10 PM -0500"
+      ],
+      "cveDis": "SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte. \"Unsanitized input from *the request URL* flows into `end`, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).\" The files `packages/kit/src/exports/vite/dev/index.js` and `packages/kit/src/exports/vite/utils.js` both contain user controllable data which under specific conditions may flow to dev mode pages. There is little to no expected impact. The Vite development is not exposed to the network by default and even if someone were able to trick a developer into executing an XSS against themselves, a development database should not have any sensitive data. None the less this issue has been addressed in version 2.8.3 and all users are advised to upgrade.",
+      "cveName": "CVE-2024-53261",
+      "cveUrl": "/vuln/detail/CVE-2024-53261"
+    }
+  },
+  "CVE-2024-53262": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "3:15:10 PM -0500"
+      ],
+      "cveDis": "SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte. The static error.html template for errors contains placeholders that are replaced without escaping the content first. error.html is the page that is rendered when everything else fails. It can contain the following placeholders: %sveltekit.status% — the HTTP status, and %sveltekit.error.message% — the error message.  This leads to possible injection if an app explicitly creates an error with a message that contains user controlled content. Only applications where user provided input is used in the `Error` message will be vulnerable, so the vast majority of applications will not be vulnerable This issue has been addressed in version 2.8.3 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-53262",
+      "cveUrl": "/vuln/detail/CVE-2024-53262"
+    }
+  },
+  "CVE-2024-53268": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "3:15:10 PM -0500"
+      ],
+      "cveDis": "Joplin is an open source, privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS. In affected versions attackers are able to abuse the fact that openExternal is used without any filtering of URI schemes to obtain remote code execution in Windows environments. This issue has been addressed in version 3.0.3 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-53268",
+      "cveUrl": "/vuln/detail/CVE-2024-53268"
+    }
+  },
   "CVE-2024-53333": {
     "cve": {
       "cveDate": [
@@ -47319,6 +47693,61 @@
       "cveDis": "EventAttendance.php in ChurchCRM 5.7.0 is vulnerable to SQL injection. An attacker can exploit this vulnerability by manipulating the 'Event' parameter, which is directly interpolated into the SQL query without proper sanitization or validation, allowing attackers to execute arbitrary SQL commands.",
       "cveName": "CVE-2024-53438",
       "cveUrl": "/vuln/detail/CVE-2024-53438"
+    }
+  },
+  "CVE-2024-53554": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:15:18 PM -0500"
+      ],
+      "cveDis": "A Client-Side Template Injection (CSTI) vulnerability in the component /project/new/scrum of Taiga v 8.6.1 allows remote attackers to execute arbitrary code by injecting a malicious payload within the new project details.",
+      "cveName": "CVE-2024-53554",
+      "cveUrl": "/vuln/detail/CVE-2024-53554"
+    }
+  },
+  "CVE-2024-53556": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "4:15:21 PM -0500"
+      ],
+      "cveDis": "An Open Redirect vulnerability in Taiga v6.8.1 allows attackers to redirect users to arbitrary websites via appending a crafted link to /login?next= in the login page URL.",
+      "cveName": "CVE-2024-53556",
+      "cveUrl": "/vuln/detail/CVE-2024-53556"
+    }
+  },
+  "CVE-2024-53597": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "masterstack_imgcap v0.0.1 was discovered to contain a SQL injection vulnerability via the endpoint /submit.",
+      "cveName": "CVE-2024-53597",
+      "cveUrl": "/vuln/detail/CVE-2024-53597"
+    }
+  },
+  "CVE-2024-53599": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "2:15:11 PM -0500"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability in the /scroll.php endpoint of LafeLabs Chaos v0.0.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.",
+      "cveName": "CVE-2024-53599",
+      "cveUrl": "/vuln/detail/CVE-2024-53599"
+    }
+  },
+  "CVE-2024-53843": {
+    "cve": {
+      "cveDate": [
+        "November 25, 2024",
+        "7:15:07 PM -0500"
+      ],
+      "cveDis": "@dapperduckling/keycloak-connector-server is an opinionated series of libraries for Node.js applications and frontend clients to interface with keycloak. A Reflected Cross-Site Scripting (XSS) vulnerability was discovered in the authentication flow of the application. This issue arises due to improper sanitization of the URL parameters, allowing the URL bar's contents to be injected and reflected into the HTML page. An attacker could craft a malicious URL to execute arbitrary JavaScript in the browser of a victim who visits the link. Any application utilizing this authentication library is vulnerable. Users of the application are at risk if they can be lured into clicking on a crafted malicious link. The vulnerability has been patched in version 2.5.5 by ensuring proper sanitization and escaping of user input in the affected URL parameters. Users are strongly encouraged to upgrade. If upgrading is not immediately possible, users can implement the following workarounds: 1. Employ a Web Application Firewall (WAF) to block malicious requests containing suspicious URL parameters. or 2. Apply input validation and escaping directly within the application’s middleware or reverse proxy layer, specifically targeting the affected parameters.",
+      "cveName": "CVE-2024-53843",
+      "cveUrl": "/vuln/detail/CVE-2024-53843"
     }
   },
   "CVE-2024-53899": {
