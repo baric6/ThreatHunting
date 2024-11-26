@@ -32,6 +32,17 @@
       "cveUrl": "/vuln/detail/CVE-2016-10394"
     }
   },
+  "CVE-2016-10408": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "QSEE will randomly experience a fatal error during execution due to speculative instruction fetches from device memory. Device memory is not valid executable memory.",
+      "cveName": "CVE-2016-10408",
+      "cveUrl": "/vuln/detail/CVE-2016-10408"
+    }
+  },
   "CVE-2016-150429-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -164,6 +175,28 @@
       "cveUrl": "/vuln/detail/CVE-2017-18153"
     }
   },
+  "CVE-2017-18306": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Information disclosure due to uninitialized variable.",
+      "cveName": "CVE-2017-18306",
+      "cveUrl": "/vuln/detail/CVE-2017-18306"
+    }
+  },
+  "CVE-2017-18307": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Information disclosure possible while audio playback.",
+      "cveName": "CVE-2017-18307",
+      "cveUrl": "/vuln/detail/CVE-2017-18307"
+    }
+  },
   "CVE-2017-201934-7 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -197,6 +230,17 @@
       "cveUrl": "/vuln/detail/CVE-2017-9711"
     }
   },
+  "CVE-2018-11816": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Crafted Binder Request Causes Heap UAF in MediaServer",
+      "cveName": "CVE-2018-11816",
+      "cveUrl": "/vuln/detail/CVE-2018-11816"
+    }
+  },
   "CVE-2018-119229-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -228,6 +272,17 @@
       "cveDis": "A vulnerability was found in CoinGate Plugin up to 1.2.7 on PrestaShop. It has been rated as problematic. Affected by this issue is the function postProcess of the file modules/coingate/controllers/front/callback.php of the component Payment Handler. The manipulation leads to business logic errors. The attack may be launched remotely. Upgrading to version 1.2.8 is able to address this issue. The patch is identified as 0a3097db0aec7c5d66686c142c6abaa1e126ca16. It is recommended to upgrade the affected component.",
       "cveName": "CVE-2018-25104",
       "cveUrl": "/vuln/detail/CVE-2018-25104"
+    }
+  },
+  "CVE-2018-5852": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "An unsigned integer underflow vulnerability in IPA driver result into a buffer over-read while reading NAT entry using debugfs command 'cat /sys/kernel/debug/ipa/ip4_nat'",
+      "cveName": "CVE-2018-5852",
+      "cveUrl": "/vuln/detail/CVE-2018-5852"
     }
   },
   "CVE-2018-9339": {
@@ -2375,6 +2430,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-0109"
     }
   },
+  "CVE-2023-0163": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:17 AM -0500"
+      ],
+      "cveDis": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') vulnerability in Mozilla Convict.\n\nThis allows an attacker to inject attributes that are used in other components, or to override existing attributes with ones that have incompatible type, which may lead to a crash.\n\n\nThe main use case of Convict is for handling server-side \nconfigurations written by the admins owning the servers, and not random \nusers. So it's unlikely that an admin would deliberately sabotage their \nown server. Still, a situation can happen where an admin not \nknowledgeable about JavaScript could be tricked by an attacker into \nwriting the malicious JavaScript code into some config files.\n\n\n\nThis issue affects Convict: before 6.2.4.",
+      "cveName": "CVE-2023-0163",
+      "cveUrl": "/vuln/detail/CVE-2023-0163"
+    }
+  },
   "CVE-2023-06573-4 LOW": {
     "cve": {
       "cveDate": [
@@ -2408,6 +2474,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-1419"
     }
   },
+  "CVE-2023-1521": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:18 AM -0500"
+      ],
+      "cveDis": "On Linux the sccache client can execute arbitrary code with the privileges of a local sccache server, by preloading the code in a shared library passed to LD_PRELOAD.\n\n\nIf the server is run as root (which is the default when installing the  snap package https://snapcraft.io/sccache ), this means a user running the sccache client can get root privileges.",
+      "cveName": "CVE-2023-1521",
+      "cveUrl": "/vuln/detail/CVE-2023-1521"
+    }
+  },
   "CVE-2023-1932": {
     "cve": {
       "cveDate": [
@@ -2439,6 +2516,17 @@
       "cveDis": "In restorePermissionState of PermissionManagerServiceImpl.java, there is a possible way for an app to keep permissions that should be revoked due to incorrect permission flags cleared during an update. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.",
       "cveName": "CVE-2023-21270",
       "cveUrl": "/vuln/detail/CVE-2023-21270"
+    }
+  },
+  "CVE-2023-2142": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:18 AM -0500"
+      ],
+      "cveDis": "In Nunjucks versions prior to version 3.2.4, it was \npossible to bypass the restrictions which are provided by the autoescape\n functionality. If there are two user-controlled parameters on the same \nline used in the views, it was possible to inject cross site scripting \npayloads using the backslash \\ character.",
+      "cveName": "CVE-2023-2142",
+      "cveUrl": "/vuln/detail/CVE-2023-2142"
     }
   },
   "CVE-2023-22649": {
@@ -8403,6 +8491,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10875"
     }
   },
+  "CVE-2024-108786-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "1:15:18 PM -0500"
+      ],
+      "cveDis": "The Sugar Calendar – Simple Event Management plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg & remove_query_arg without appropriate escaping on the URL in all versions up to, and including, 3.3.0. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-108786-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10878"
+    }
+  },
   "CVE-2024-108806-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -10273,6 +10372,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11403"
     }
   },
+  "CVE-2024-11407": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "12:15:22 PM -0500"
+      ],
+      "cveDis": "There exists a denial of service through Data corruption in gRPC-C++ - gRPC-C++ servers with transmit zero copy enabled through the channel arg GRPC_ARG_TCP_TX_ZEROCOPY_ENABLED can experience data corruption issues. The data sent by the application may be corrupted before transmission over the network thus leading the receiver to receive an incorrect set of bytes causing RPC requests to fail. We recommend upgrading past commit e9046b2bbebc0cb7f5dc42008f807f6c7e98e791",
+      "cveName": "CVE-2024-11407",
+      "cveUrl": "/vuln/detail/CVE-2024-11407"
+    }
+  },
   "CVE-2024-114086-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -10964,6 +11074,193 @@
       "cveDis": "ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sending crafted HTTP requests to options.php, enabling unauthorized modification of the application's configuration. Successful exploitation allows attackers to create accounts, upload webshells, and embed malicious JavaScript.",
       "cveName": "CVE-2024-11680",
       "cveUrl": "/vuln/detail/CVE-2024-11680"
+    }
+  },
+  "CVE-2024-11691": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "An attacker could have caused memory corruption due to a flaw in Apple's GPU driver; this can be avoided by working around the flaw. \n*Note: This issue only affected macOS operating systems. Other operating systems are unaffected.* This vulnerability affects Firefox < 133, Firefox ESR < 128.5, Firefox ESR < 115.18, Thunderbird < 133, and Thunderbird < 128.5.",
+      "cveName": "CVE-2024-11691",
+      "cveUrl": "/vuln/detail/CVE-2024-11691"
+    }
+  },
+  "CVE-2024-11692": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "An attacker could cause a select dropdown to be shown over another tab; this could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 133, Firefox ESR < 128.5, Thunderbird < 133, and Thunderbird < 128.5.",
+      "cveName": "CVE-2024-11692",
+      "cveUrl": "/vuln/detail/CVE-2024-11692"
+    }
+  },
+  "CVE-2024-11693": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "The executable file warning was not presented when downloading .library-ms files.  \n*Note: This issue only affected Windows operating systems. Other operating systems are unaffected.* This vulnerability affects Firefox < 133, Firefox ESR < 128.5, Thunderbird < 133, and Thunderbird < 128.5.",
+      "cveName": "CVE-2024-11693",
+      "cveUrl": "/vuln/detail/CVE-2024-11693"
+    }
+  },
+  "CVE-2024-11694": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Enhanced Tracking Protection's Strict mode may have inadvertently allowed a CSP `frame-src` bypass and DOM-based XSS through the Google SafeFrame shim in the Web Compatibility extension. This issue could have exposed users to malicious frames masquerading as legitimate content. This vulnerability affects Firefox < 133, Firefox ESR < 128.5, Firefox ESR < 115.18, Thunderbird < 133, and Thunderbird < 128.5.",
+      "cveName": "CVE-2024-11694",
+      "cveUrl": "/vuln/detail/CVE-2024-11694"
+    }
+  },
+  "CVE-2024-11695": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "A crafted URL containing Arabic script and whitespace characters could have hidden the true origin of the page, resulting in a potential spoofing attack. This vulnerability affects Firefox < 133, Firefox ESR < 128.5, Thunderbird < 133, and Thunderbird < 128.5.",
+      "cveName": "CVE-2024-11695",
+      "cveUrl": "/vuln/detail/CVE-2024-11695"
+    }
+  },
+  "CVE-2024-11696": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "The application failed to account for exceptions thrown by the `loadManifestFromFile` method during add-on signature verification. This flaw, triggered by an invalid or unsupported extension manifest, could have caused runtime errors that disrupted the signature validation process. As a result, the enforcement of signature validation for unrelated add-ons may have been bypassed.  Signature validation in this context is used to ensure that third-party applications on the user's computer have not tampered with the user's extensions, limiting the impact of this issue. This vulnerability affects Firefox < 133, Firefox ESR < 128.5, Thunderbird < 133, and Thunderbird < 128.5.",
+      "cveName": "CVE-2024-11696",
+      "cveUrl": "/vuln/detail/CVE-2024-11696"
+    }
+  },
+  "CVE-2024-11697": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "When handling keypress events, an attacker may have been able to trick a user into bypassing the \"Open Executable File?\" confirmation dialog. This could have led to malicious code execution. This vulnerability affects Firefox < 133, Firefox ESR < 128.5, Thunderbird < 133, and Thunderbird < 128.5.",
+      "cveName": "CVE-2024-11697",
+      "cveUrl": "/vuln/detail/CVE-2024-11697"
+    }
+  },
+  "CVE-2024-11698": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "A flaw in handling fullscreen transitions may have inadvertently caused the application to become stuck in fullscreen mode when a modal dialog was opened during the transition. This issue left users unable to exit fullscreen mode using standard actions like pressing \"Esc\" or accessing right-click menus, resulting in a disrupted browsing experience until the browser is restarted.  \n*This bug only affects the application when running on macOS. Other operating systems are unaffected.* This vulnerability affects Firefox < 133, Firefox ESR < 128.5, Thunderbird < 133, and Thunderbird < 128.5.",
+      "cveName": "CVE-2024-11698",
+      "cveUrl": "/vuln/detail/CVE-2024-11698"
+    }
+  },
+  "CVE-2024-11699": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "Memory safety bugs present in Firefox 132, Firefox ESR 128.4, and Thunderbird 128.4. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 133, Firefox ESR < 128.5, Thunderbird < 133, and Thunderbird < 128.5.",
+      "cveName": "CVE-2024-11699",
+      "cveUrl": "/vuln/detail/CVE-2024-11699"
+    }
+  },
+  "CVE-2024-11700": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "Malicious websites may have been able to user intent confirmation through tapjacking. This could have led to users unknowingly approving the launch of external applications, potentially exposing them to underlying vulnerabilities. This vulnerability affects Firefox < 133 and Thunderbird < 133.",
+      "cveName": "CVE-2024-11700",
+      "cveUrl": "/vuln/detail/CVE-2024-11700"
+    }
+  },
+  "CVE-2024-11701": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "The incorrect domain may have been displayed in the address bar during an interrupted navigation attempt. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox < 133 and Thunderbird < 133.",
+      "cveName": "CVE-2024-11701",
+      "cveUrl": "/vuln/detail/CVE-2024-11701"
+    }
+  },
+  "CVE-2024-11702": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "Copying sensitive information from Private Browsing tabs on Android, such as passwords, may have inadvertently stored data in the cloud-based clipboard history if enabled. This vulnerability affects Firefox < 133 and Thunderbird < 133.",
+      "cveName": "CVE-2024-11702",
+      "cveUrl": "/vuln/detail/CVE-2024-11702"
+    }
+  },
+  "CVE-2024-11703": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "On Android, Firefox may have inadvertently allowed viewing saved passwords without the required device PIN authentication. This vulnerability affects Firefox < 133.",
+      "cveName": "CVE-2024-11703",
+      "cveUrl": "/vuln/detail/CVE-2024-11703"
+    }
+  },
+  "CVE-2024-11704": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "A double-free issue could have occurred in `sec_pkcs7_decoder_start_decrypt()` when handling an error path. Under specific conditions, the same symmetric key could have been freed twice, potentially leading to memory corruption. This vulnerability affects Firefox < 133 and Thunderbird < 133.",
+      "cveName": "CVE-2024-11704",
+      "cveUrl": "/vuln/detail/CVE-2024-11704"
+    }
+  },
+  "CVE-2024-11705": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "`NSC_DeriveKey` inadvertently assumed that the `phKey` parameter is always non-NULL. When it was passed as NULL, a segmentation fault (SEGV) occurred, leading to crashes. This behavior conflicted with the PKCS#11 v3.0 specification, which allows `phKey` to be NULL for certain mechanisms. This vulnerability affects Firefox < 133 and Thunderbird < 133.",
+      "cveName": "CVE-2024-11705",
+      "cveUrl": "/vuln/detail/CVE-2024-11705"
+    }
+  },
+  "CVE-2024-11706": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:20 AM -0500"
+      ],
+      "cveDis": "A null pointer dereference may have inadvertently occurred in `pk12util`, and specifically in the `SEC_ASN1DecodeItem_Util` function, when handling malformed or improperly formatted input files. This vulnerability affects Firefox < 133 and Thunderbird < 133.",
+      "cveName": "CVE-2024-11706",
+      "cveUrl": "/vuln/detail/CVE-2024-11706"
+    }
+  },
+  "CVE-2024-11708": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:20 AM -0500"
+      ],
+      "cveDis": "Missing thread synchronization primitives could have led to a data race on members of the PlaybackParams structure. This vulnerability affects Firefox < 133 and Thunderbird < 133.",
+      "cveName": "CVE-2024-11708",
+      "cveUrl": "/vuln/detail/CVE-2024-11708"
     }
   },
   "CVE-2024-1240": {
@@ -13208,6 +13505,17 @@
       "cveDis": "Improper Privilege Management vulnerability in ZTE ZXR10 1800-2S series ,ZXR10 2800-4,ZXR10 3800-8,ZXR10 160 series on 64 bit allows Functionality Bypass.This issue affects ZXR10 1800-2S series ,ZXR10 2800-4,ZXR10 3800-8,ZXR10 160 series: V4.00.10 and earlier.",
       "cveName": "CVE-2024-22068",
       "cveUrl": "/vuln/detail/CVE-2024-22068"
+    }
+  },
+  "CVE-2024-22117": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "10:15:31 AM -0500"
+      ],
+      "cveDis": "When a URL is added to the map element, it is recorded in the database with sequential IDs. Upon adding a new URL, the system retrieves the last sysmapelementurlid value and increments it by one. However, an issue arises when a user manually changes the sysmapelementurlid value by adding sysmapelementurlid + 1. This action prevents others from adding URLs to the map element.",
+      "cveName": "CVE-2024-22117",
+      "cveUrl": "/vuln/detail/CVE-2024-22117"
     }
   },
   "CVE-2024-22733": {
@@ -16257,6 +16565,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-3635"
     }
   },
+  "CVE-2024-36463": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "10:15:31 AM -0500"
+      ],
+      "cveDis": "The implementation of atob in \"Zabbix JS\" allows to create a string with arbitrary content and use it to access internal properties of objects.",
+      "cveName": "CVE-2024-36463",
+      "cveUrl": "/vuln/detail/CVE-2024-36463"
+    }
+  },
   "CVE-2024-364748-4 HIGH": {
     "cve": {
       "cveDate": [
@@ -17069,6 +17388,61 @@
       "cveDis": "Spring MVC controller methods with an @RequestBody byte[] method parameter are vulnerable to a DoS attack.",
       "cveName": "CVE-2024-38828",
       "cveUrl": "/vuln/detail/CVE-2024-38828"
+    }
+  },
+  "CVE-2024-38830": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:18 AM -0500"
+      ],
+      "cveDis": "VMware Aria Operations contains a local privilege escalation vulnerability. A malicious actor with local administrative privileges may trigger this vulnerability to escalate privileges to root user on the appliance running VMware Aria Operations.",
+      "cveName": "CVE-2024-38830",
+      "cveUrl": "/vuln/detail/CVE-2024-38830"
+    }
+  },
+  "CVE-2024-38831": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:18 AM -0500"
+      ],
+      "cveDis": "VMware Aria Operations contains a local privilege escalation vulnerability.  A malicious actor with local administrative privileges can insert malicious commands into the properties file to escalate privileges to  a root user on the appliance running VMware Aria Operations.",
+      "cveName": "CVE-2024-38831",
+      "cveUrl": "/vuln/detail/CVE-2024-38831"
+    }
+  },
+  "CVE-2024-38832": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:18 AM -0500"
+      ],
+      "cveDis": "VMware Aria Operations contains a stored cross-site scripting vulnerability. A malicious actor with editing access to views may be able to inject malicious script leading to stored cross-site scripting in the product VMware Aria Operations.",
+      "cveName": "CVE-2024-38832",
+      "cveUrl": "/vuln/detail/CVE-2024-38832"
+    }
+  },
+  "CVE-2024-38833": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:18 AM -0500"
+      ],
+      "cveDis": "VMware Aria Operations contains a stored cross-site scripting vulnerability. A malicious actor with editing access to email templates might inject malicious script leading to stored cross-site scripting in the product VMware Aria Operations.",
+      "cveName": "CVE-2024-38833",
+      "cveUrl": "/vuln/detail/CVE-2024-38833"
+    }
+  },
+  "CVE-2024-38834": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:18 AM -0500"
+      ],
+      "cveDis": "VMware Aria Operations contains a stored cross-site scripting vulnerability. A malicious actor with editing access to cloud provider might be able to inject malicious script leading to stored cross-site scripting in the product VMware Aria Operations.",
+      "cveName": "CVE-2024-38834",
+      "cveUrl": "/vuln/detail/CVE-2024-38834"
     }
   },
   "CVE-2024-38862": {
@@ -25902,6 +26276,39 @@
       "cveDis": "Dell Secure Connect Gateway (SCG) 5.0 Appliance - SRS, version(s) 5.24, contains an Improper Certificate Validation vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to unauthorized access and modification of transmitted data.",
       "cveName": "CVE-2024-47241",
       "cveUrl": "/vuln/detail/CVE-2024-47241"
+    }
+  },
+  "CVE-2024-47248": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:19 AM -0500"
+      ],
+      "cveDis": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability in Apache NimBLE.\n\nSpecially crafted MESH message could result in memory corruption when non-default build configuration is used.\nThis issue affects Apache NimBLE: through 1.7.0.\n\nUsers are recommended to upgrade to version 1.8.0, which fixes the issue.",
+      "cveName": "CVE-2024-47248",
+      "cveUrl": "/vuln/detail/CVE-2024-47248"
+    }
+  },
+  "CVE-2024-47249": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:19 AM -0500"
+      ],
+      "cveDis": "Improper Validation of Array Index vulnerability in Apache NimBLE.\n\nLack of input validation for HCI events from controller could result in out-of-bound memory corruption and crash.\nThis issue requires broken or bogus Bluetooth controller and thus severity is considered low.\nThis issue affects Apache NimBLE: through 1.7.0.\n\nUsers are recommended to upgrade to version 1.8.0, which fixes the issue.",
+      "cveName": "CVE-2024-47249",
+      "cveUrl": "/vuln/detail/CVE-2024-47249"
+    }
+  },
+  "CVE-2024-47250": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:19 AM -0500"
+      ],
+      "cveDis": "Out-of-bounds Read vulnerability in Apache NimBLE.\n\nMissing proper validation of HCI advertising report could lead to out-of-bound access when parsing HCI event and thus bogus GAP 'device found' events being sent.\nThis issue requires broken or bogus Bluetooth controller and thus severity is considered low.\nThis issue affects Apache NimBLE: through 1.7.0.\n\n\nUsers are recommended to upgrade to version 1.8.0, which fixes the issue.",
+      "cveName": "CVE-2024-47250",
+      "cveUrl": "/vuln/detail/CVE-2024-47250"
     }
   },
   "CVE-2024-47253": {
@@ -41898,6 +42305,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51055"
     }
   },
+  "CVE-2024-51058": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "1:15:19 PM -0500"
+      ],
+      "cveDis": "Local File Inclusion (LFI) vulnerability has been discovered in TCPDF 6.7.5. This vulnerability enables a user to read arbitrary files from the server's file system through <img> src tag, potentially exposing sensitive information.",
+      "cveName": "CVE-2024-51058",
+      "cveUrl": "/vuln/detail/CVE-2024-51058"
+    }
+  },
   "CVE-2024-51060": {
     "cve": {
       "cveDate": [
@@ -43480,6 +43898,17 @@
       "cveDis": "CyberPanel (aka Cyber Panel) before 2.3.5 allows Command Injection via completePath in the ProcessUtilities.outputExecutioner() sink. There is /filemanager/upload (aka File Manager upload) unauthenticated remote code execution via shell metacharacters.",
       "cveName": "CVE-2024-51568",
       "cveUrl": "/vuln/detail/CVE-2024-51568"
+    }
+  },
+  "CVE-2024-51569": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:21 AM -0500"
+      ],
+      "cveDis": "Out-of-bounds Read vulnerability in Apache NimBLE.\n\nMissing proper validation of HCI Number Of Completed Packets could lead to out-of-bound access when parsing HCI event and invalid read from HCI transport memory.\nThis issue requires broken or bogus Bluetooth controller and thus severity is considered low.\nThis issue affects Apache NimBLE: through 1.7.0.\n\n\nUsers are recommended to upgrade to version 1.8.0, which fixes the issue.",
+      "cveName": "CVE-2024-51569",
+      "cveUrl": "/vuln/detail/CVE-2024-51569"
     }
   },
   "CVE-2024-51571": {
@@ -45361,6 +45790,28 @@
       "cveDis": "A data.all admin team member who has access to the customer-owned AWS Account where data.all is deployed may be able to extract user data from data.all application logs in data.all via CloudWatch log scanning for particular operations that interact with customer producer teams data.",
       "cveName": "CVE-2024-52314",
       "cveUrl": "/vuln/detail/CVE-2024-52314"
+    }
+  },
+  "CVE-2024-523367-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "11:15:17 AM -0500"
+      ],
+      "cveDis": "A script injection vulnerability was identified in the Tuned package. The `instance_create()` D-Bus function can be called by locally logged-in users without authentication. This flaw allows a local non-privileged user to execute a D-Bus call with `script_pre` or `script_post` options that permit arbitrary scripts with their absolute paths to be passed. These user or attacker-controlled executable scripts or programs could then be executed by Tuned with root privileges that could allow attackers to local privilege escalation.",
+      "cveName": "CVE-2024-523367-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-52336"
+    }
+  },
+  "CVE-2024-523375-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "11:15:17 AM -0500"
+      ],
+      "cveDis": "A log spoofing flaw was found in the Tuned package due to improper sanitization of some API arguments. This flaw allows an attacker to pass a controlled sequence of characters; newlines can be inserted into the log. Instead of the 'evil' the attacker could mimic a valid TuneD log line and trick the administrator. The quotes '' are usually used in TuneD logs citing raw user input, so there will always be the ' character ending the spoofed input, and the administrator can easily overlook this. This logged string is later used in logging and in the output of utilities, for example, `tuned-adm get_instances` or other third-party programs that use Tuned's D-Bus interface for such operations.",
+      "cveName": "CVE-2024-523375-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-52337"
     }
   },
   "CVE-2024-52339": {
@@ -48212,6 +48663,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53335"
     }
   },
+  "CVE-2024-53365": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "12:15:26 PM -0500"
+      ],
+      "cveDis": "A stored cross-site scripting (XSS) vulnerability was identified in PHPGURUKUL Vehicle Parking Management System v1.13 in /users/profile.php. This vulnerability allows authenticated users to inject malicious XSS scripts into the profile name field.",
+      "cveName": "CVE-2024-53365",
+      "cveUrl": "/vuln/detail/CVE-2024-53365"
+    }
+  },
   "CVE-2024-53425": {
     "cve": {
       "cveDate": [
@@ -48276,6 +48738,17 @@
       "cveDis": "A Client-Side Template Injection (CSTI) vulnerability in the component /project/new/scrum of Taiga v 8.6.1 allows remote attackers to execute arbitrary code by injecting a malicious payload within the new project details.",
       "cveName": "CVE-2024-53554",
       "cveUrl": "/vuln/detail/CVE-2024-53554"
+    }
+  },
+  "CVE-2024-53555": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "12:15:26 PM -0500"
+      ],
+      "cveDis": "A CSV injection vulnerability in Taiga v6.8.1 allows attackers to execute arbitrary code via uploading a crafted CSV file.",
+      "cveName": "CVE-2024-53555",
+      "cveUrl": "/vuln/detail/CVE-2024-53555"
     }
   },
   "CVE-2024-53556": {
@@ -48441,6 +48914,28 @@
       "cveDis": "WikiDocs before 1.0.65 allows stored XSS by authenticated users via data that comes after $$\\\\, which is mishandled by a KaTeX parser.",
       "cveName": "CVE-2024-53930",
       "cveUrl": "/vuln/detail/CVE-2024-53930"
+    }
+  },
+  "CVE-2024-53975": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:21 AM -0500"
+      ],
+      "cveDis": "Accessing a non-secure HTTP site that uses a non-existent port may cause the SSL padlock icon in the location URL bar to, misleadingly, appear secure. This vulnerability affects Firefox for iOS < 133.",
+      "cveName": "CVE-2024-53975",
+      "cveUrl": "/vuln/detail/CVE-2024-53975"
+    }
+  },
+  "CVE-2024-53976": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:21 AM -0500"
+      ],
+      "cveDis": "Under certain circumstances, navigating to a webpage would result in the address missing from the location URL bar, making it unclear what the URL was for the loaded webpage. This vulnerability affects Firefox for iOS < 133.",
+      "cveName": "CVE-2024-53976",
+      "cveUrl": "/vuln/detail/CVE-2024-53976"
     }
   },
   "CVE-2024-5429": {
@@ -50179,6 +50674,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Payara Platform Payara Server (Admin Console modules) allows Remote Code Inclusion.This issue affects Payara Server: from 5.20.0 before 5.68.0, from 6.0.0 before 6.19.0, from 6.2022.1 before 6.2024.10, from 4.1.2.191.1 before 4.1.2.191.51.",
       "cveName": "CVE-2024-8215",
       "cveUrl": "/vuln/detail/CVE-2024-8215"
+    }
+  },
+  "CVE-2024-82366-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:22 AM -0500"
+      ],
+      "cveDis": "The Elementor Website Builder – More than Just a Page Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘url’ parameter of the Icon widget in all versions up to, and including, 3.25.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-82366-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8236"
     }
   },
   "CVE-2024-8239": {
@@ -54537,6 +55043,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-9460"
     }
   },
+  "CVE-2024-9461": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:22 AM -0500"
+      ],
+      "cveDis": "The Total Upkeep – WordPress Backup Plugin plus Restore & Migrate by BoldGrid plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.16.6 via the cron_interval parameter. This is due to missing input validation and sanitization. This makes it possible for authenticated attackers, with Administrator-level access and above, to execute code on the server.",
+      "cveName": "CVE-2024-9461",
+      "cveUrl": "/vuln/detail/CVE-2024-9461"
+    }
+  },
   "CVE-2024-94625-5 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -57362,6 +57879,28 @@
       "cveDis": "The WooCommerce Order Proposal plugin for WordPress is vulnerable to privilege escalation via order proposal in all versions up to and including 2.0.5. This is due to the improper implementation of allow_payment_without_login function. This makes it possible for authenticated attackers, with Shop Manager-level access and above, to log in to WordPress as an arbitrary user account, including administrators.",
       "cveName": "CVE-2024-99277-2 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-9927"
+    }
+  },
+  "CVE-2024-9928": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:22 AM -0500"
+      ],
+      "cveDis": "A vulnerability exists in NSD570 login panel that does not restrict excessive authentication attempts. If exploited, this could\ncause account takeover and unauthorized access to the system\nwhen an attacker conducts brute-force attacks against the\nequipment login. Note that the system supports only one concurrent session and implements a delay of more than a second\nbetween failed login attempts making it difficult to automate the\nattacks.",
+      "cveName": "CVE-2024-9928",
+      "cveUrl": "/vuln/detail/CVE-2024-9928"
+    }
+  },
+  "CVE-2024-9929": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "9:15:22 AM -0500"
+      ],
+      "cveDis": "A vulnerability exists in NSD570 that allows any authenticated\nuser to access all device logs disclosing login information with\ntimestamps.",
+      "cveName": "CVE-2024-9929",
+      "cveUrl": "/vuln/detail/CVE-2024-9929"
     }
   },
   "CVE-2024-99309-8 CRITICAL": {
