@@ -835,6 +835,17 @@
       "cveUrl": "/vuln/detail/CVE-2018-9487"
     }
   },
+  "CVE-2019-17082": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "Missing Authentication for Critical Function vulnerability in OpenText™ AccuRev for LDAP Integration allows Authentication Bypass. The vulnerability could allow \n\na valid AccuRev username to gain access to AccuRev source control without knowing the user’s password.\n\nThis issue affects AccuRev for LDAP Integration: 2017.1.",
+      "cveName": "CVE-2019-17082",
+      "cveUrl": "/vuln/detail/CVE-2019-17082"
+    }
+  },
   "CVE-2019-20457": {
     "cve": {
       "cveDate": [
@@ -5156,6 +5167,17 @@
       "cveDis": "A vulnerability was found in Wildfly, where a user may perform Cross-site scripting in the Wildfly deployment system. This flaw allows an attacker or insider to execute a deployment with a malicious payload, which could trigger undesired behavior against the server.",
       "cveName": "CVE-2024-102346-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10234"
+    }
+  },
+  "CVE-2024-10240": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:24 PM -0500"
+      ],
+      "cveDis": "An issue has been discovered in GitLab EE affecting all versions starting from 17.3 before 17.3.7, all versions starting from 17.4 before 17.4.4, all versions starting from 17.5 before 17.5.2 in which an unauthenticated user may be able to read some information about an MR in a private project, under certain circumstances.",
+      "cveName": "CVE-2024-10240",
+      "cveUrl": "/vuln/detail/CVE-2024-10240"
     }
   },
   "CVE-2024-10241": {
@@ -9734,6 +9756,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11136"
     }
   },
+  "CVE-2024-11145": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:25 PM -0500"
+      ],
+      "cveDis": "Valor Apps Easy Folder Listing Pro has a deserialization vulnerability that allows an unauthenticated, remote attacker to execute arbitrary code with the privileges of the Joomla! application. Fixed in versions 3.8 and 4.5.",
+      "cveName": "CVE-2024-11145",
+      "cveUrl": "/vuln/detail/CVE-2024-11145"
+    }
+  },
   "CVE-2024-111544-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -10669,6 +10702,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11601"
     }
   },
+  "CVE-2024-11622": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "5:15:17 PM -0500"
+      ],
+      "cveDis": "An XML external entity injection (XXE) vulnerability in HPE Insight Remote Support may allow remote users to disclose information in certain cases.",
+      "cveName": "CVE-2024-11622",
+      "cveUrl": "/vuln/detail/CVE-2024-11622"
+    }
+  },
   "CVE-2024-11631": {
     "cve": {
       "cveDate": [
@@ -10966,6 +11010,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-11666"
     }
   },
+  "CVE-2024-11668": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:22 PM -0500"
+      ],
+      "cveDis": "An issue has been discovered in GitLab CE/EE affecting all versions from 16.11 before 17.4.5, 17.5 before 17.5.3, and 17.6 before 17.6.1. Long-lived connections could potentially bypass authentication controls, allowing unauthorized access to streaming results.",
+      "cveName": "CVE-2024-11668",
+      "cveUrl": "/vuln/detail/CVE-2024-11668"
+    }
+  },
+  "CVE-2024-11669": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:22 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in GitLab CE/EE affecting all versions from 16.9.8 before 17.4.5, 17.5 before 17.5.3, and 17.6 before 17.6.1. Certain API endpoints could potentially allow unauthorized access to sensitive data due to overly broad application of token scopes.",
+      "cveName": "CVE-2024-11669",
+      "cveUrl": "/vuln/detail/CVE-2024-11669"
+    }
+  },
   "CVE-2024-11670": {
     "cve": {
       "cveDate": [
@@ -11261,6 +11327,105 @@
       "cveDis": "Missing thread synchronization primitives could have led to a data race on members of the PlaybackParams structure. This vulnerability affects Firefox < 133 and Thunderbird < 133.",
       "cveName": "CVE-2024-11708",
       "cveUrl": "/vuln/detail/CVE-2024-11708"
+    }
+  },
+  "CVE-2024-11742": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:25 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, has been found in SourceCodester Best House Rental Management System 1.0. This issue affects some unknown processing of the file /rental/ajax.php?action=save_tenant. The manipulation of the argument lastname/firstname/middlename leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-11742",
+      "cveUrl": "/vuln/detail/CVE-2024-11742"
+    }
+  },
+  "CVE-2024-11743": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:25 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, was found in SourceCodester Best House Rental Management System 1.0. Affected is an unknown function of the file /rental/ajax.php?action=delete_user of the component POST Request Handler. The manipulation leads to cross-site request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11743",
+      "cveUrl": "/vuln/detail/CVE-2024-11743"
+    }
+  },
+  "CVE-2024-11744": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in 1000 Projects Portfolio Management System MCA 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /register.php. The manipulation of the argument name leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-11744",
+      "cveUrl": "/vuln/detail/CVE-2024-11744"
+    }
+  },
+  "CVE-2024-11745": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:06 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Tenda AC8 16.03.34.09 and classified as critical. Affected by this issue is the function route_static_check of the file /goform/SetStaticRouteCfg. The manipulation of the argument list leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11745",
+      "cveUrl": "/vuln/detail/CVE-2024-11745"
+    }
+  },
+  "CVE-2024-11817": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in PHPGurukul User Registration & Login and User Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /admin/index.php. The manipulation of the argument username leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11817",
+      "cveUrl": "/vuln/detail/CVE-2024-11817"
+    }
+  },
+  "CVE-2024-11818": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in PHPGurukul User Registration & Login and User Management System 1.0. This affects an unknown part of the file /signup.php. The manipulation of the argument email leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11818",
+      "cveUrl": "/vuln/detail/CVE-2024-11818"
+    }
+  },
+  "CVE-2024-11819": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in 1000 Projects Portfolio Management System MCA 1.0. This vulnerability affects unknown code of the file /forgot_password_process.php. The manipulation of the argument username leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11819",
+      "cveUrl": "/vuln/detail/CVE-2024-11819"
+    }
+  },
+  "CVE-2024-11820": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, has been found in code-projects Crud Operation System 1.0. This issue affects some unknown processing of the file /add.php. The manipulation of the argument saddress leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-11820",
+      "cveUrl": "/vuln/detail/CVE-2024-11820"
+    }
+  },
+  "CVE-2024-11828": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:22 PM -0500"
+      ],
+      "cveDis": "A denial of service (DoS) condition was discovered in GitLab CE/EE affecting all versions from 13.2.4 before 17.4.5, 17.5 before 17.5.3, and 17.6 before 17.6.1. By leveraging this vulnerability an attacker could create a DoS condition by sending crafted API calls. This was a regression of an earlier patch.",
+      "cveName": "CVE-2024-11828",
+      "cveUrl": "/vuln/detail/CVE-2024-11828"
     }
   },
   "CVE-2024-1240": {
@@ -15298,6 +15463,17 @@
       "cveDis": "A vulnerability in the LevelOne WBR-6012 router's firmware version R0.40e6 allows sensitive information to be transmitted in cleartext via Web and FTP services, exposing it to network sniffing attacks.",
       "cveName": "CVE-2024-329465-9 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-32946"
+    }
+  },
+  "CVE-2024-32965": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:23 PM -0500"
+      ],
+      "cveDis": "Lobe Chat is an open-source, AI chat framework. Versions of lobe-chat prior to 1.19.13 have an unauthorized ssrf vulnerability. An attacker can construct malicious requests to cause SSRF without logging in, attack intranet services, and leak sensitive information. The jwt token header X-Lobe-Chat-Auth strored proxy address and OpenAI API Key, can be modified to scan an internal network in the target lobe-web environment. This issue has been addressed in release version 1.19.13 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-32965",
+      "cveUrl": "/vuln/detail/CVE-2024-32965"
     }
   },
   "CVE-2024-33029": {
@@ -20336,6 +20512,17 @@
       "cveDis": "Software installed and run as a non-privileged user may conduct improper GPU system calls to gain access to the graphics buffers of a parent process.",
       "cveName": "CVE-2024-43704",
       "cveUrl": "/vuln/detail/CVE-2024-43704"
+    }
+  },
+  "CVE-2024-43784": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:07 PM -0500"
+      ],
+      "cveDis": "lakeFS is an open-source tool that transforms object storage into a Git-like repository. Existing lakeFS users who have issued credentials to users who have been deleted are affected by this vulnerability. When creating a new user with the same username as a deleted user, that user will inherit all of the previous user's credentials. This issue has been addressed in release version 1.33.0 and all users are advised to upgrade. The only known workaround for those who cannot upgrade is to not reuse usernames.",
+      "cveName": "CVE-2024-43784",
+      "cveUrl": "/vuln/detail/CVE-2024-43784"
     }
   },
   "CVE-2024-43789": {
@@ -33956,6 +34143,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-49025"
     }
   },
+  "CVE-2024-490358-7 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:31 PM -0500"
+      ],
+      "cveDis": "An improper access control vulnerability in Partner.Microsoft.com allows an a unauthenticated attacker to elevate privileges over a network.",
+      "cveName": "CVE-2024-490358-7 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-49035"
+    }
+  },
+  "CVE-2024-490389-3 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:31 PM -0500"
+      ],
+      "cveDis": "Improper neutralization of input during web page generation ('Cross-site Scripting') in Copilot Studio by an unauthorized attacker leads to elevation of privilege over a network.",
+      "cveName": "CVE-2024-490389-3 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-49038"
+    }
+  },
+  "CVE-2024-490528-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:32 PM -0500"
+      ],
+      "cveDis": "Missing authentication for critical function in Microsoft Azure PolicyWatch allows an unauthorized attacker to elevate privileges over a network.",
+      "cveName": "CVE-2024-490528-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-49052"
+    }
+  },
+  "CVE-2024-490537-6 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:32 PM -0500"
+      ],
+      "cveDis": "Microsoft Dynamics 365 Sales Spoofing Vulnerability",
+      "cveName": "CVE-2024-490537-6 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-49053"
+    }
+  },
   "CVE-2024-49054": {
     "cve": {
       "cveDate": [
@@ -42129,6 +42360,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50919"
     }
   },
+  "CVE-2024-50942": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "4:15:07 PM -0500"
+      ],
+      "cveDis": "qiwen-file v1.4.0 was discovered to contain a SQL injection vulnerability via the component /mapper/NoticeMapper.xml.",
+      "cveName": "CVE-2024-50942",
+      "cveUrl": "/vuln/detail/CVE-2024-50942"
+    }
+  },
   "CVE-2024-50965": {
     "cve": {
       "cveDate": [
@@ -45528,6 +45770,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52007"
     }
   },
+  "CVE-2024-52008": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:29 PM -0500"
+      ],
+      "cveDis": "Fides is an open-source privacy engineering platform. The user invite acceptance API endpoint lacks server-side password policy enforcement, allowing users to set arbitrarily weak passwords by bypassing client-side validation. While the UI enforces password complexity requirements, direct API calls can circumvent these checks, enabling the creation of accounts with passwords as short as a single character. When an email messaging provider is enabled and a new user account is created in the system, an invite email containing a special link is sent to the new user's email address. This link directs the new user to a page where they can set their initial password. While the user interface implements password complexity checks, these validations are only performed client-side. The underlying `/api/v1/user/accept-invite` API endpoint does not implement the same password policy validations. This vulnerability allows an invited user to set an extremely weak password for their own account during the initial account setup process. Therefore that specific user's account can be compromised easily by an attacker guessing or brute forcing the password. The vulnerability has been patched in Fides version `2.50.0`. Users are advised to upgrade to this version or later to secure their systems against this threat. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52008",
+      "cveUrl": "/vuln/detail/CVE-2024-52008"
+    }
+  },
   "CVE-2024-52009": {
     "cve": {
       "cveDate": [
@@ -45792,6 +46045,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52314"
     }
   },
+  "CVE-2024-52336": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "11:15:17 AM -0500"
+      ],
+      "cveDis": "A script injection vulnerability was identified in the Tuned package. The `instance_create()` D-Bus function can be called by locally logged-in users without authentication. This flaw allows a local non-privileged user to execute a D-Bus call with `script_pre` or `script_post` options that permit arbitrary scripts with their absolute paths to be passed. These user or attacker-controlled executable scripts or programs could then be executed by Tuned with root privileges that could allow attackers to local privilege escalation.",
+      "cveName": "CVE-2024-52336",
+      "cveUrl": "/vuln/detail/CVE-2024-52336"
+    }
+  },
   "CVE-2024-523367-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -45801,6 +46065,17 @@
       "cveDis": "A script injection vulnerability was identified in the Tuned package. The `instance_create()` D-Bus function can be called by locally logged-in users without authentication. This flaw allows a local non-privileged user to execute a D-Bus call with `script_pre` or `script_post` options that permit arbitrary scripts with their absolute paths to be passed. These user or attacker-controlled executable scripts or programs could then be executed by Tuned with root privileges that could allow attackers to local privilege escalation.",
       "cveName": "CVE-2024-523367-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-52336"
+    }
+  },
+  "CVE-2024-52337": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "11:15:17 AM -0500"
+      ],
+      "cveDis": "A log spoofing flaw was found in the Tuned package due to improper sanitization of some API arguments. This flaw allows an attacker to pass a controlled sequence of characters; newlines can be inserted into the log. Instead of the 'evil' the attacker could mimic a valid TuneD log line and trick the administrator. The quotes '' are usually used in TuneD logs citing raw user input, so there will always be the ' character ending the spoofed input, and the administrator can easily overlook this. This logged string is later used in logging and in the output of utilities, for example, `tuned-adm get_instances` or other third-party programs that use Tuned's D-Bus interface for such operations.",
+      "cveName": "CVE-2024-52337",
+      "cveUrl": "/vuln/detail/CVE-2024-52337"
     }
   },
   "CVE-2024-523375-5 MEDIUM": {
@@ -48619,6 +48894,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53262"
     }
   },
+  "CVE-2024-53267": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:30 PM -0500"
+      ],
+      "cveDis": "sigstore-java is a sigstore java client for interacting with sigstore infrastructure. sigstore-java has insufficient verification for a situation where a validly-signed but \"mismatched\" bundle is presented as proof of inclusion into a transparency log. This bug impacts clients using any variation of KeylessVerifier.verify(). The verifier may accept a bundle with an unrelated log entry, cryptographically verifying everything but fails to ensure the log entry applies to the artifact in question, thereby \"verifying\" a bundle without any proof the signing event was logged. This allows the creation of a bundle without fulcio certificate and private key combined with an unrelated but time-correct log entry to fake logging of a signing event. A malicious actor using a compromised identity may want to do this to prevent discovery via rekor's log monitors. The signer's identity will still be available to the verifier. The signature on the bundle must still be on the correct artifact for the verifier to pass. sigstore-gradle-plugin and sigstore-maven-plugin are not affected by this as they only provide signing functionality. This issue has been patched in v1.1.0 release with PR #856. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-53267",
+      "cveUrl": "/vuln/detail/CVE-2024-53267"
+    }
+  },
   "CVE-2024-53268": {
     "cve": {
       "cveDate": [
@@ -48784,6 +49070,72 @@
       "cveUrl": "/vuln/detail/CVE-2024-53599"
     }
   },
+  "CVE-2024-53619": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:30 PM -0500"
+      ],
+      "cveDis": "An authenticated arbitrary file upload vulnerability in the Documents module of SPIP v4.3.3 allows attackers to execute arbitrary code via uploading a crafted PDF file.",
+      "cveName": "CVE-2024-53619",
+      "cveUrl": "/vuln/detail/CVE-2024-53619"
+    }
+  },
+  "CVE-2024-53620": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:31 PM -0500"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability in the Article module of SPIP v4.3.3 allows authenticated attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Title parameter.",
+      "cveName": "CVE-2024-53620",
+      "cveUrl": "/vuln/detail/CVE-2024-53620"
+    }
+  },
+  "CVE-2024-53673": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "5:15:18 PM -0500"
+      ],
+      "cveDis": "A java deserialization vulnerability in HPE Remote Insight Support allows an unauthenticated attacker to execute code.",
+      "cveName": "CVE-2024-53673",
+      "cveUrl": "/vuln/detail/CVE-2024-53673"
+    }
+  },
+  "CVE-2024-53674": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "5:15:18 PM -0500"
+      ],
+      "cveDis": "An XML external entity injection (XXE) vulnerability in HPE Insight Remote Support may allow remote users to disclose information in certain cases.",
+      "cveName": "CVE-2024-53674",
+      "cveUrl": "/vuln/detail/CVE-2024-53674"
+    }
+  },
+  "CVE-2024-53675": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "5:15:18 PM -0500"
+      ],
+      "cveDis": "An XML external entity injection (XXE) vulnerability in HPE Insight Remote Support may allow remote users to disclose information in certain cases.",
+      "cveName": "CVE-2024-53675",
+      "cveUrl": "/vuln/detail/CVE-2024-53675"
+    }
+  },
+  "CVE-2024-53676": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "8:15:05 PM -0500"
+      ],
+      "cveDis": "A directory traversal vulnerability in Hewlett Packard Enterprise Insight Remote Support may allow remote code execution.",
+      "cveName": "CVE-2024-53676",
+      "cveUrl": "/vuln/detail/CVE-2024-53676"
+    }
+  },
   "CVE-2024-53843": {
     "cve": {
       "cveDate": [
@@ -48793,6 +49145,28 @@
       "cveDis": "@dapperduckling/keycloak-connector-server is an opinionated series of libraries for Node.js applications and frontend clients to interface with keycloak. A Reflected Cross-Site Scripting (XSS) vulnerability was discovered in the authentication flow of the application. This issue arises due to improper sanitization of the URL parameters, allowing the URL bar's contents to be injected and reflected into the HTML page. An attacker could craft a malicious URL to execute arbitrary JavaScript in the browser of a victim who visits the link. Any application utilizing this authentication library is vulnerable. Users of the application are at risk if they can be lured into clicking on a crafted malicious link. The vulnerability has been patched in version 2.5.5 by ensuring proper sanitization and escaping of user input in the affected URL parameters. Users are strongly encouraged to upgrade. If upgrading is not immediately possible, users can implement the following workarounds: 1. Employ a Web Application Firewall (WAF) to block malicious requests containing suspicious URL parameters. or 2. Apply input validation and escaping directly within the application’s middleware or reverse proxy layer, specifically targeting the affected parameters.",
       "cveName": "CVE-2024-53843",
       "cveUrl": "/vuln/detail/CVE-2024-53843"
+    }
+  },
+  "CVE-2024-53844": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:31 PM -0500"
+      ],
+      "cveDis": "E.D.D.I (Enhanced Dialog Driven Interface) is a middleware to connect and manage LLM API bots. A path traversal vulnerability exists in the backup export functionality of EDDI, as implemented in `RestExportService.java`. This vulnerability allows an attacker to access sensitive files on the server by manipulating the `botFilename` parameter in requests. The application fails to sanitize user input, enabling malicious inputs such as `..%2f..%2fetc%2fpasswd` to access arbitrary files. However, the **severity of this vulnerability is significantly limited** because EDDI typically runs within a **Docker container**, which provides additional layers of isolation and restricted permissions. As a result, while this vulnerability exposes files within the container, it does not inherently threaten the underlying host system or other containers. A patch is required to sanitize and validate the botFilename input parameter. Users should ensure they are using version 5.4 which contains this patdch. For temporary mitigation, access to the vulnerable endpoint should be restricted through firewall rules or authentication mechanisms.",
+      "cveName": "CVE-2024-53844",
+      "cveUrl": "/vuln/detail/CVE-2024-53844"
+    }
+  },
+  "CVE-2024-53849": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "7:15:18 PM -0500"
+      ],
+      "cveDis": "editorconfig-core-c  is  theEditorConfig core library written in C (for use by plugins supporting EditorConfig parsing). In affected versions several overflows may occur in switch case '[' when the input pattern contains many escaped characters. The added backslashes leave too little space in the output pattern when processing nested brackets such that the remaining input length exceeds the output capacity. This issue has been addressed in release version 0.12.7. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-53849",
+      "cveUrl": "/vuln/detail/CVE-2024-53849"
     }
   },
   "CVE-2024-53899": {
@@ -49013,6 +49387,17 @@
       "cveDis": "A file overwrite vulnerability exists in gaizhenbiao/chuanhuchatgpt versions <= 20240410. This vulnerability allows an attacker to gain unauthorized access to overwrite critical configuration files within the system. Exploiting this vulnerability can lead to unauthorized changes in system behavior or security settings. Additionally, tampering with these configuration files can result in a denial of service (DoS) condition, disrupting normal system operation.",
       "cveName": "CVE-2024-5823",
       "cveUrl": "/vuln/detail/CVE-2024-5823"
+    }
+  },
+  "CVE-2024-5921": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "11:15:14 PM -0500"
+      ],
+      "cveDis": "An insufficient certification validation issue in the Palo Alto Networks GlobalProtect app enables attackers to connect the GlobalProtect app to arbitrary servers. This can enable a local non-administrative operating system user or an attacker on the same subnet to install malicious root certificates on the endpoint and subsequently install malicious software signed by the malicious root certificates on that endpoint.\n\nGlobalProtect App for Android is under evaluation. Please subscribe to  our RSS feed https://security.paloaltonetworks.com/rss.xml  to be alerted to new updates to this and other advisories.",
+      "cveName": "CVE-2024-5921",
+      "cveUrl": "/vuln/detail/CVE-2024-5921"
     }
   },
   "CVE-2024-5968": {
@@ -50577,6 +50962,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8107"
     }
   },
+  "CVE-2024-8114": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:31 PM -0500"
+      ],
+      "cveDis": "An issue has been discovered in GitLab CE/EE affecting all versions from 8.12 before 17.4.5, 17.5 before 17.5.3, and 17.6 before 17.6.1. This issue allows an attacker with access to a victim's Personal Access Token (PAT) to escalate privileges.",
+      "cveName": "CVE-2024-8114",
+      "cveUrl": "/vuln/detail/CVE-2024-8114"
+    }
+  },
   "CVE-2024-8143": {
     "cve": {
       "cveDate": [
@@ -50632,6 +51028,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8160"
     }
   },
+  "CVE-2024-8177": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:31 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in GitLab CE/EE affecting all versions starting from 15.6 prior to 17.4.5, starting from 17.5 prior to 17.5.3, starting from 17.6 prior to 17.6.1 which could cause Denial of Service via integrating a malicious harbor registry.",
+      "cveName": "CVE-2024-8177",
+      "cveUrl": "/vuln/detail/CVE-2024-8177"
+    }
+  },
   "CVE-2024-8184": {
     "cve": {
       "cveDate": [
@@ -50685,6 +51092,17 @@
       "cveDis": "The Elementor Website Builder – More than Just a Page Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘url’ parameter of the Icon widget in all versions up to, and including, 3.25.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-82366-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8236"
+    }
+  },
+  "CVE-2024-8237": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "2:15:32 PM -0500"
+      ],
+      "cveDis": "A Denial of Service (DoS) issue has been discovered in GitLab CE/EE affecting all versions prior to 12.6 prior to 17.4.5, 17.5 prior to 17.5.3, and 17.6 prior to 17.6.1. An attacker could cause a denial of service with a crafted cargo.toml file.",
+      "cveName": "CVE-2024-8237",
+      "cveUrl": "/vuln/detail/CVE-2024-8237"
     }
   },
   "CVE-2024-8239": {
@@ -51697,6 +52115,17 @@
       "cveDis": "The Soumettre.fr plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the soumettre_disconnect_gateway function in all versions up to, and including, 2.1.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to disconnect the gateway and delete the API key.",
       "cveName": "CVE-2024-86754-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8675"
+    }
+  },
+  "CVE-2024-86767-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 26, 2024",
+        "3:15:34 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in CRI-O, where it can be requested to take a checkpoint archive of a container and later be asked to restore it. When it does that restoration, it attempts to restore the mounts from the restore archive instead of the pod request. As a result, the validations run on the pod spec, verifying that the pod has access to the mounts it specifies are not applicable to a restored container. This flaw allows a malicious user to trick CRI-O into restoring a pod that doesn't have access to host mounts. The user needs access to the kubelet or cri-o socket to call the restore endpoint and trigger the restore.",
+      "cveName": "CVE-2024-86767-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8676"
     }
   },
   "CVE-2024-8712": {
