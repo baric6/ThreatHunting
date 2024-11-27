@@ -7127,6 +7127,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10579"
     }
   },
+  "CVE-2024-10580": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "2:15:07 AM -0500"
+      ],
+      "cveDis": "The Hustle – Email Marketing, Lead Generation, Optins, Popups plugin for WordPress is vulnerable to unauthorized form submissions due to a missing capability check on the submit_form() function in all versions up to, and including, 7.8.5. This makes it possible for unauthenticated attackers to submit unpublished forms.",
+      "cveName": "CVE-2024-10580",
+      "cveUrl": "/vuln/detail/CVE-2024-10580"
+    }
+  },
   "CVE-2024-105805-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9140,6 +9151,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11003"
     }
   },
+  "CVE-2024-110094-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "7:15:19 AM -0500"
+      ],
+      "cveDis": "The Internal Linking for SEO traffic & Ranking – Auto internal links (100% automatic) plugin for WordPress is vulnerable to time-based SQL Injection via the ‘post_id’ parameter in all versions up to, and including, 1.2.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-110094-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11009"
+    }
+  },
   "CVE-2024-110169-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -9613,6 +9635,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11079"
     }
   },
+  "CVE-2024-11083": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "The ProfilePress plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 4.15.18 via the WordPress core search feature. This makes it possible for unauthenticated attackers to extract sensitive data from posts that have been restricted to higher-level roles such as administrator.",
+      "cveName": "CVE-2024-11083",
+      "cveUrl": "/vuln/detail/CVE-2024-11083"
+    }
+  },
   "CVE-2024-110835-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9996,6 +10029,17 @@
       "cveDis": "A vulnerability was found in the OAuth-server. OAuth-server logs the OAuth2 client secret when the logLevel is Debug higher for OIDC/GitHub/GitLab/Google IDPs login options.",
       "cveName": "CVE-2024-112174-9 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11217"
+    }
+  },
+  "CVE-2024-11219": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "1:15:18 AM -0500"
+      ],
+      "cveDis": "The Otter Blocks – Gutenberg Blocks, Page Builder for Gutenberg Editor & FSE plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 3.0.6 via the get_image function. This makes it possible for unauthenticated attackers to view arbitrary images on the server, which can contain sensitive information.",
+      "cveName": "CVE-2024-11219",
+      "cveUrl": "/vuln/detail/CVE-2024-11219"
     }
   },
   "CVE-2024-112195-3 MEDIUM": {
@@ -11087,6 +11131,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11666"
     }
   },
+  "CVE-2024-11667": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "A directory traversal vulnerability in the web management interface of Zyxel ATP series firmware versions V5.00 through V5.38, USG FLEX series firmware versions V5.00 through V5.38, USG FLEX 50(W) series firmware versions V5.10 through V5.38, and USG20(W)-VPN series firmware versions V5.10 through V5.38 could allow an attacker to download or upload files via a crafted URL.",
+      "cveName": "CVE-2024-11667",
+      "cveUrl": "/vuln/detail/CVE-2024-11667"
+    }
+  },
   "CVE-2024-116677-5 HIGH": {
     "cve": {
       "cveDate": [
@@ -11514,6 +11569,28 @@
       "cveDis": "A denial of service (DoS) condition was discovered in GitLab CE/EE affecting all versions from 13.2.4 before 17.4.5, 17.5 before 17.5.3, and 17.6 before 17.6.1. By leveraging this vulnerability an attacker could create a DoS condition by sending crafted API calls. This was a regression of an earlier patch.",
       "cveName": "CVE-2024-11828",
       "cveUrl": "/vuln/detail/CVE-2024-11828"
+    }
+  },
+  "CVE-2024-11860": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "12:15:10 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in SourceCodester Best House Rental Management System 1.0. This affects an unknown part of the file /rental/ajax.php?action=delete_tenant of the component POST Request Handler. The manipulation of the argument id leads to improper authorization. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11860",
+      "cveUrl": "/vuln/detail/CVE-2024-11860"
+    }
+  },
+  "CVE-2024-11862": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "10:15:25 AM -0500"
+      ],
+      "cveDis": "Non constant time cryptographic operation in Devolutions.XTS.NET 2024.11.19 and earlier allows an attacker to render half of the encryption key obsolete via a timing attacks",
+      "cveName": "CVE-2024-11862",
+      "cveUrl": "/vuln/detail/CVE-2024-11862"
     }
   },
   "CVE-2024-1240": {
@@ -13650,6 +13727,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-21697"
     }
   },
+  "CVE-2024-21703": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "12:15:10 PM -0500"
+      ],
+      "cveDis": "This Medium severity Security Misconfiguration vulnerability was introduced in version 8.8.1 of Confluence Data Center and Server for Windows installations.\n\n\n\nThis Security Misconfiguration vulnerability, with a CVSS Score of 6.4 allows an authenticated attacker of the Windows host to read sensitive information about the Confluence Data Center configuration which has high impact to confidentiality, high impact to integrity,  high impact to availability, and no user interaction.\n\n\n\nAtlassian recommends that Confluence Data Center and Server customers upgrade to the latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions:\n\n* Confluence Data Center and Server 7.19: Upgrade to a release greater than or equal to 7.19.18 \n* Confluence Data Center and Server 8.5: Upgrade to a release greater than or equal to 8.5.5\n* Confluence Data Center and Server 8.7: Upgrade to a release greater than or equal to 8.7.2\n* Confluence Data Center and Server 8.8: Upgrade to a release greater than or equal to 8.8.0\n\n\n\nSee the release notes (https://confluence.atlassian.com/conf88/confluence-release-notes-1354501008.html ). You can download the latest version of Confluence Data Center and Server from the download center (https://www.atlassian.com/software/confluence/download-archives ). \n\nThis vulnerability was reported via our Atlassian Bug Bounty Program by Chris Elliot.",
+      "cveName": "CVE-2024-21703",
+      "cveUrl": "/vuln/detail/CVE-2024-21703"
+    }
+  },
   "CVE-2024-21786": {
     "cve": {
       "cveDate": [
@@ -15443,6 +15531,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-31975"
     }
   },
+  "CVE-2024-31976": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "12:15:10 PM -0500"
+      ],
+      "cveDis": "EnGenius EWS356-FIR 1.1.30 and earlier devices allow a remote attacker to execute arbitrary OS commands via the Controller connectivity parameter.",
+      "cveName": "CVE-2024-31976",
+      "cveUrl": "/vuln/detail/CVE-2024-31976"
+    }
+  },
   "CVE-2024-31998": {
     "cve": {
       "cveDate": [
@@ -16840,6 +16939,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-36463"
     }
   },
+  "CVE-2024-36464": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "When exporting media types, the password is exported in the YAML in plain text. This appears to be a best practices type issue and may have no actual impact. The user would need to have permissions to access the media types and therefore would be expected to have access to these passwords.",
+      "cveName": "CVE-2024-36464",
+      "cveUrl": "/vuln/detail/CVE-2024-36464"
+    }
+  },
   "CVE-2024-36467": {
     "cve": {
       "cveDate": [
@@ -16849,6 +16959,17 @@
       "cveDis": "An authenticated user with API access (e.g.: user with default User role), more specifically a user with access to the user.update API endpoint is enough to be able to add themselves to any group (e.g.: Zabbix Administrators), except to groups that are disabled or having restricted GUI access.",
       "cveName": "CVE-2024-36467",
       "cveUrl": "/vuln/detail/CVE-2024-36467"
+    }
+  },
+  "CVE-2024-36468": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "7:15:20 AM -0500"
+      ],
+      "cveDis": "The reported vulnerability is a stack buffer overflow in the zbx_snmp_cache_handle_engineid function within the Zabbix server/proxy code. This issue occurs when copying data from session->securityEngineID to local_record.engineid without proper bounds checking.",
+      "cveName": "CVE-2024-36468",
+      "cveUrl": "/vuln/detail/CVE-2024-36468"
     }
   },
   "CVE-2024-364748-4 HIGH": {
@@ -17091,6 +17212,17 @@
       "cveDis": "A reflected cross-site scripting (XSS) vulnerability in Gladinet CentreStack v13.12.9934.54690 allows attackers to inject malicious JavaScript into the web browser of a victim via the sessionId parameter at /portal/ForgotPassword.aspx.",
       "cveName": "CVE-2024-37783",
       "cveUrl": "/vuln/detail/CVE-2024-37783"
+    }
+  },
+  "CVE-2024-37816": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "Quectel EC25-EUX EC25EUXGAR08A05M1G was discovered to contain a stack overflow.",
+      "cveName": "CVE-2024-37816",
+      "cveUrl": "/vuln/detail/CVE-2024-37816"
     }
   },
   "CVE-2024-37844": {
@@ -19203,6 +19335,94 @@
       "cveDis": "HCL Connections is vulnerable to a broken access control vulnerability that may allow an unauthorized user to update data in certain scenarios.",
       "cveName": "CVE-2024-42188",
       "cveUrl": "/vuln/detail/CVE-2024-42188"
+    }
+  },
+  "CVE-2024-42326": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "7:15:20 AM -0500"
+      ],
+      "cveDis": "There was discovered a use after free bug in browser.c in the es_browser_get_variant function",
+      "cveName": "CVE-2024-42326",
+      "cveUrl": "/vuln/detail/CVE-2024-42326"
+    }
+  },
+  "CVE-2024-42327": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "7:15:20 AM -0500"
+      ],
+      "cveDis": "A non-admin user account on the Zabbix frontend with the default User role, or with any other role that gives API access can exploit this vulnerability. An SQLi exists in the CUser class in the addRelatedObjects function, this function is being called from the CUser.get function which is available for every user who has API access.",
+      "cveName": "CVE-2024-42327",
+      "cveUrl": "/vuln/detail/CVE-2024-42327"
+    }
+  },
+  "CVE-2024-42328": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "7:15:20 AM -0500"
+      ],
+      "cveDis": "When the webdriver for the Browser object downloads data from a HTTP server, the data pointer is set to NULL and is allocated only in curl_write_cb when receiving data. If the server's response is an empty document, then wd->data in the code below will remain NULL and an attempt to read from it will result in a crash.",
+      "cveName": "CVE-2024-42328",
+      "cveUrl": "/vuln/detail/CVE-2024-42328"
+    }
+  },
+  "CVE-2024-42329": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "7:15:20 AM -0500"
+      ],
+      "cveDis": "The webdriver for the Browser object expects an error object to be initialized when the webdriver_session_query function fails. But this function can fail for various reasons without an error description and then the wd->error will be NULL and trying to read from it will result in a crash.",
+      "cveName": "CVE-2024-42329",
+      "cveUrl": "/vuln/detail/CVE-2024-42329"
+    }
+  },
+  "CVE-2024-42330": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "7:15:21 AM -0500"
+      ],
+      "cveDis": "The HttpRequest object allows to get the HTTP headers from the server's response after sending the request. The problem is that the returned strings are created directly from the data returned by the server and are not correctly encoded for JavaScript. This allows to create internal strings that can be used to access hidden properties of objects.",
+      "cveName": "CVE-2024-42330",
+      "cveUrl": "/vuln/detail/CVE-2024-42330"
+    }
+  },
+  "CVE-2024-42331": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "7:15:21 AM -0500"
+      ],
+      "cveDis": "In the src/libs/zbxembed/browser.c file, the es_browser_ctor method retrieves a heap pointer from the Duktape JavaScript engine. This heap pointer is subsequently utilized by the browser_push_error method in the src/libs/zbxembed/browser_error.c file. A use-after-free bug can occur at this stage if the wd->browser heap pointer is freed by garbage collection.",
+      "cveName": "CVE-2024-42331",
+      "cveUrl": "/vuln/detail/CVE-2024-42331"
+    }
+  },
+  "CVE-2024-42332": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "7:15:21 AM -0500"
+      ],
+      "cveDis": "The researcher is showing that due to the way the SNMP trap log is parsed, an attacker can craft an SNMP trap with additional lines of information and have forged data show in the Zabbix UI. This attack requires SNMP auth to be off and/or the attacker to know the community/auth details. The attack requires an SNMP item to be configured as text on the target host.",
+      "cveName": "CVE-2024-42332",
+      "cveUrl": "/vuln/detail/CVE-2024-42332"
+    }
+  },
+  "CVE-2024-42333": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "7:15:21 AM -0500"
+      ],
+      "cveDis": "The researcher is showing that it is possible to leak a small amount of Zabbix Server memory using an out of bounds read in src/libs/zbxmedia/email.c",
+      "cveName": "CVE-2024-42333",
+      "cveUrl": "/vuln/detail/CVE-2024-42333"
     }
   },
   "CVE-2024-42372": {
@@ -24560,6 +24780,28 @@
       "cveDis": "IoT Haat Smart Plug IH-IN-16A-S v5.16.1 is vulnerable to Authentication Bypass by Capture-replay.",
       "cveName": "CVE-2024-46041",
       "cveUrl": "/vuln/detail/CVE-2024-46041"
+    }
+  },
+  "CVE-2024-46054": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "10:15:26 AM -0500"
+      ],
+      "cveDis": "OpenVidReview 1.0 is vulnerable to Incorrect Access Control. The /upload route is accessible without authentication, allowing any user to upload files.",
+      "cveName": "CVE-2024-46054",
+      "cveUrl": "/vuln/detail/CVE-2024-46054"
+    }
+  },
+  "CVE-2024-46055": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "10:15:26 AM -0500"
+      ],
+      "cveDis": "OpenVidReview 1.0 is vulnerable to Cross Site Scripting (XSS) in review names.",
+      "cveName": "CVE-2024-46055",
+      "cveUrl": "/vuln/detail/CVE-2024-46055"
     }
   },
   "CVE-2024-46076": {
@@ -43031,6 +43273,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51213"
     }
   },
+  "CVE-2024-51228": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "An issue in TOTOLINK-CX-A3002RU V1.0.4-B20171106.1512 and TOTOLINK-CX-N150RT V2.1.6-B20171121.1002 and TOTOLINK-CX-N300RT V2.1.6-B20170724.1420 and TOTOLINK-CX-N300RT V2.1.8-B20171113.1408 and TOTOLINK-CX-N300RT V2.1.8-B20191010.1107 and TOTOLINK-CX-N302RE V2.0.2-B20170511.1523 allows a remote attacker to execute arbitrary code via the /boafrm/formSysCmd component.",
+      "cveName": "CVE-2024-51228",
+      "cveUrl": "/vuln/detail/CVE-2024-51228"
+    }
+  },
   "CVE-2024-51240": {
     "cve": {
       "cveDate": [
@@ -48289,6 +48542,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52947"
     }
   },
+  "CVE-2024-52951": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "10:15:26 AM -0500"
+      ],
+      "cveDis": "Stored Cross-Site Scripting in the Access Request History in Omada Identity before version 15 update 1 allows an authenticated attacker to execute arbitrary code in the browser of a victim via a specially crafted link or by viewing a manipulated Access Request History",
+      "cveName": "CVE-2024-52951",
+      "cveUrl": "/vuln/detail/CVE-2024-52951"
+    }
+  },
   "CVE-2024-52958": {
     "cve": {
       "cveDate": [
@@ -49202,6 +49466,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-53599"
     }
   },
+  "CVE-2024-53603": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /covid-tms/password-recovery.php in PHPGurukul COVID 19 Testing Management System v1.0, which allows remote attackers to execute arbitrary code via the contactno POST request parameter.",
+      "cveName": "CVE-2024-53603",
+      "cveUrl": "/vuln/detail/CVE-2024-53603"
+    }
+  },
+  "CVE-2024-53604": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "A SQL Injection vulnerability was found in /covid-tms/check_availability.php in PHPGurukul COVID 19 Testing Management System v1.0, which allows remote attackers to execute arbitrary code via the mobnumber POST request parameter.",
+      "cveName": "CVE-2024-53604",
+      "cveUrl": "/vuln/detail/CVE-2024-53604"
+    }
+  },
   "CVE-2024-53619": {
     "cve": {
       "cveDate": [
@@ -49224,13 +49510,24 @@
       "cveUrl": "/vuln/detail/CVE-2024-53620"
     }
   },
+  "CVE-2024-53635": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "A Reflected Cross Site Scripting (XSS) vulnerability was found in /covid-tms/patient-search-report.php in PHPGurukul COVID 19 Testing Management System v1.0, which allows remote attackers to execute arbitrary code via the searchdata POST request parameter.",
+      "cveName": "CVE-2024-53635",
+      "cveUrl": "/vuln/detail/CVE-2024-53635"
+    }
+  },
   "CVE-2024-53673": {
     "cve": {
       "cveDate": [
         "November 26, 2024",
         "5:15:18 PM -0500"
       ],
-      "cveDis": "A java deserialization vulnerability in HPE Remote Insight Support allows an unauthenticated attacker to execute code.",
+      "cveDis": "A java deserialization vulnerability in HPE Remote Insight Support may allow an unauthenticated attacker to execute code.",
       "cveName": "CVE-2024-53673",
       "cveUrl": "/vuln/detail/CVE-2024-53673"
     }
@@ -49411,6 +49708,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53916"
     }
   },
+  "CVE-2024-53920": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "10:15:26 AM -0500"
+      ],
+      "cveDis": "In elisp-mode.el in GNU Emacs through 30.0.92, a user who chooses to invoke elisp-completion-at-point (for code completion) on untrusted Emacs Lisp source code can trigger unsafe Lisp macro expansion that allows attackers to execute arbitrary code. (This unsafe expansion also occurs if a user chooses to enable on-the-fly diagnosis that byte compiles untrusted Emacs Lisp source code.)",
+      "cveName": "CVE-2024-53920",
+      "cveUrl": "/vuln/detail/CVE-2024-53920"
+    }
+  },
   "CVE-2024-53930": {
     "cve": {
       "cveDate": [
@@ -49442,6 +49750,28 @@
       "cveDis": "Under certain circumstances, navigating to a webpage would result in the address missing from the location URL bar, making it unclear what the URL was for the loaded webpage. This vulnerability affects Firefox for iOS < 133.",
       "cveName": "CVE-2024-53976",
       "cveUrl": "/vuln/detail/CVE-2024-53976"
+    }
+  },
+  "CVE-2024-54003": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "12:15:15 PM -0500"
+      ],
+      "cveDis": "Jenkins Simple Queue Plugin 1.4.4 and earlier does not escape the view name, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with View/Create permission.",
+      "cveName": "CVE-2024-54003",
+      "cveUrl": "/vuln/detail/CVE-2024-54003"
+    }
+  },
+  "CVE-2024-54004": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "12:15:15 PM -0500"
+      ],
+      "cveDis": "Jenkins Filesystem List Parameter Plugin 0.0.14 and earlier does not restrict the path used for the File system objects list Parameter, allowing attackers with Item/Configure permission to enumerate file names on the Jenkins controller file system.",
+      "cveName": "CVE-2024-54004",
+      "cveUrl": "/vuln/detail/CVE-2024-54004"
     }
   },
   "CVE-2024-5429": {
@@ -49992,6 +50322,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Smarttek Informatics Smart Doctor allows Stored XSS.This issue affects Smart Doctor: through 21.11.2024.\n\n\nNOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-70165-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-7016"
+    }
+  },
+  "CVE-2024-7025": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "1:15:18 PM -0500"
+      ],
+      "cveDis": "Integer overflow in Layout in Google Chrome prior to 129.0.6668.89 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-7025",
+      "cveUrl": "/vuln/detail/CVE-2024-7025"
     }
   },
   "CVE-2024-7026": {
@@ -54931,6 +55272,17 @@
       "cveDis": "The Aggregator Advanced Settings plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.2.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
       "cveName": "CVE-2024-9368",
       "cveUrl": "/vuln/detail/CVE-2024-9368"
+    }
+  },
+  "CVE-2024-9369": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "1:15:18 PM -0500"
+      ],
+      "cveDis": "Insufficient data validation in Mojo in Google Chrome prior to 129.0.6668.89 allowed a remote attacker who had compromised the renderer process to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High)",
+      "cveName": "CVE-2024-9369",
+      "cveUrl": "/vuln/detail/CVE-2024-9369"
     }
   },
   "CVE-2024-93726-4 MEDIUM": {
