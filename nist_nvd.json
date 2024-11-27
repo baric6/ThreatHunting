@@ -4806,6 +4806,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10173"
     }
   },
+  "CVE-2024-101756-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "2:15:07 AM -0500"
+      ],
+      "cveDis": "The Pricing Tables For WPBakery Page Builder (formerly Visual Composer) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wdo_pricing_tables shortcode in all versions up to, and including, 1.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-101756-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10175"
+    }
+  },
   "CVE-2024-101766-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -6907,6 +6918,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10519"
     }
   },
+  "CVE-2024-105214-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "6:15:16 AM -0500"
+      ],
+      "cveDis": "The WordPress Contact Forms by Cimatti plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.9.2. This is due to missing or incorrect nonce validation on the process_bulk_action function. This makes it possible for unauthenticated attackers to delete forms via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-105214-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10521"
+    }
+  },
   "CVE-2024-10523": {
     "cve": {
       "cveDate": [
@@ -7103,6 +7125,17 @@
       "cveDis": "The Hustle – Email Marketing, Lead Generation, Optins, Popups plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the preview_module() function in all versions up to, and including, 7.8.5. This makes it possible for authenticated attackers, with Subscriber-level access and above, to view unpublished forms.",
       "cveName": "CVE-2024-105794-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10579"
+    }
+  },
+  "CVE-2024-105805-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "2:15:07 AM -0500"
+      ],
+      "cveDis": "The Hustle – Email Marketing, Lead Generation, Optins, Popups plugin for WordPress is vulnerable to unauthorized form submissions due to a missing capability check on the submit_form() function in all versions up to, and including, 7.8.5. This makes it possible for unauthenticated attackers to submit unpublished forms.",
+      "cveName": "CVE-2024-105805-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10580"
     }
   },
   "CVE-2024-105824-3 MEDIUM": {
@@ -8579,6 +8612,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10891"
     }
   },
+  "CVE-2024-108956-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "2:15:08 AM -0500"
+      ],
+      "cveDis": "The Counter Up – Animated Number Counter & Milestone Showcase plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'lgx-counter' shortcode in all versions up to, and including, 2.4.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-108956-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10895"
+    }
+  },
   "CVE-2024-108974-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9184,6 +9228,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11024"
     }
   },
+  "CVE-2024-110255-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "6:17:41 AM -0500"
+      ],
+      "cveDis": "An authenticated attacker with low privileges may use a SQL Injection vulnerability in the affected products administration panel to gain read and write access to a specific log file of the device.",
+      "cveName": "CVE-2024-110255-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11025"
+    }
+  },
   "CVE-2024-11026": {
     "cve": {
       "cveDate": [
@@ -9558,6 +9613,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11079"
     }
   },
+  "CVE-2024-110835-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "The ProfilePress plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 4.15.18 via the WordPress core search feature. This makes it possible for unauthenticated attackers to extract sensitive data from posts that have been restricted to higher-level roles such as administrator.",
+      "cveName": "CVE-2024-110835-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11083"
+    }
+  },
   "CVE-2024-110855-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9930,6 +9996,17 @@
       "cveDis": "A vulnerability was found in the OAuth-server. OAuth-server logs the OAuth2 client secret when the logLevel is Debug higher for OIDC/GitHub/GitLab/Google IDPs login options.",
       "cveName": "CVE-2024-112174-9 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11217"
+    }
+  },
+  "CVE-2024-112195-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "1:15:18 AM -0500"
+      ],
+      "cveDis": "The Otter Blocks – Gutenberg Blocks, Page Builder for Gutenberg Editor & FSE plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 3.0.6 via the get_image function. This makes it possible for unauthenticated attackers to view arbitrary images on the server, which can contain sensitive information.",
+      "cveName": "CVE-2024-112195-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11219"
     }
   },
   "CVE-2024-112256-1 MEDIUM": {
@@ -11008,6 +11085,17 @@
       "cveDis": "Affected devices beacon to eCharge cloud infrastructure asking if there are any command they should run. This communication is established over an insecure channel since peer verification is disabled everywhere. Therefore, remote unauthenticated users  suitably positioned on the network between an EV charger controller and eCharge infrastructure can execute arbitrary commands with elevated privileges on affected devices.\n\nThis issue affects cph2_echarge_firmware: through 2.0.4.",
       "cveName": "CVE-2024-11666",
       "cveUrl": "/vuln/detail/CVE-2024-11666"
+    }
+  },
+  "CVE-2024-116677-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "A directory traversal vulnerability in the web management interface of Zyxel ATP series firmware versions V5.00 through V5.38, USG FLEX series firmware versions V5.00 through V5.38, USG FLEX 50(W) series firmware versions V5.10 through V5.38, and USG20(W)-VPN series firmware versions V5.10 through V5.38 could allow an attacker to download or upload files via a crafted URL.",
+      "cveName": "CVE-2024-116677-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11667"
     }
   },
   "CVE-2024-11668": {
@@ -16750,6 +16838,17 @@
       "cveDis": "The implementation of atob in \"Zabbix JS\" allows to create a string with arbitrary content and use it to access internal properties of objects.",
       "cveName": "CVE-2024-36463",
       "cveUrl": "/vuln/detail/CVE-2024-36463"
+    }
+  },
+  "CVE-2024-36467": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "2:15:09 AM -0500"
+      ],
+      "cveDis": "An authenticated user with API access (e.g.: user with default User role), more specifically a user with access to the user.update API endpoint is enough to be able to add themselves to any group (e.g.: Zabbix Administrators), except to groups that are disabled or having restricted GUI access.",
+      "cveName": "CVE-2024-36467",
+      "cveUrl": "/vuln/detail/CVE-2024-36467"
     }
   },
   "CVE-2024-364748-4 HIGH": {
@@ -46045,6 +46144,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52314"
     }
   },
+  "CVE-2024-52323": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "Zohocorp ManageEngine Analytics Plus versions below 6100 are vulnerable to authenticated sensitive data exposure which allows the users to retrieve sensitive tokens associated to the org-admin account.",
+      "cveName": "CVE-2024-52323",
+      "cveUrl": "/vuln/detail/CVE-2024-52323"
+    }
+  },
   "CVE-2024-52336": {
     "cve": {
       "cveDate": [
@@ -48177,6 +48287,28 @@
       "cveDis": "A cross-site scripting (XSS) vulnerability in LemonLDAP::NG before 2.20.1 allows remote attackers to inject arbitrary web script or HTML via the url parameter of the upgrade session confirmation page (upgradeSession / forceUpgrade) if the \"Upgrade session\" plugin has been enabled by an admin",
       "cveName": "CVE-2024-52947",
       "cveUrl": "/vuln/detail/CVE-2024-52947"
+    }
+  },
+  "CVE-2024-52958": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "1:15:18 AM -0500"
+      ],
+      "cveDis": "A improper verification of cryptographic signature vulnerability in plugin management in iota C.ai Conversational Platform from 1.0.0 through 2.1.3 allows remote authenticated users to load a malicious DLL via upload plugin function.",
+      "cveName": "CVE-2024-52958",
+      "cveUrl": "/vuln/detail/CVE-2024-52958"
+    }
+  },
+  "CVE-2024-52959": {
+    "cve": {
+      "cveDate": [
+        "November 27, 2024",
+        "1:15:19 AM -0500"
+      ],
+      "cveDis": "A Improper Control of Generation of Code ('Code Injection') vulnerability in plugin management in iota C.ai Conversational Platform from 1.0.0 through 2.1.3 allows remote authenticated users to perform arbitrary system commands via a DLL file.",
+      "cveName": "CVE-2024-52959",
+      "cveUrl": "/vuln/detail/CVE-2024-52959"
     }
   },
   "CVE-2024-53042": {
