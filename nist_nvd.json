@@ -3299,6 +3299,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-52921"
     }
   },
+  "CVE-2023-52922": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "10:15:17 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ncan: bcm: Fix UAF in bcm_proc_show()\n\nBUG: KASAN: slab-use-after-free in bcm_proc_show+0x969/0xa80\nRead of size 8 at addr ffff888155846230 by task cat/7862\n\nCPU: 1 PID: 7862 Comm: cat Not tainted 6.5.0-rc1-00153-gc8746099c197 #230\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.15.0-1 04/01/2014\nCall Trace:\n <TASK>\n dump_stack_lvl+0xd5/0x150\n print_report+0xc1/0x5e0\n kasan_report+0xba/0xf0\n bcm_proc_show+0x969/0xa80\n seq_read_iter+0x4f6/0x1260\n seq_read+0x165/0x210\n proc_reg_read+0x227/0x300\n vfs_read+0x1d5/0x8d0\n ksys_read+0x11e/0x240\n do_syscall_64+0x35/0xb0\n entry_SYSCALL_64_after_hwframe+0x63/0xcd\n\nAllocated by task 7846:\n kasan_save_stack+0x1e/0x40\n kasan_set_track+0x21/0x30\n __kasan_kmalloc+0x9e/0xa0\n bcm_sendmsg+0x264b/0x44e0\n sock_sendmsg+0xda/0x180\n ____sys_sendmsg+0x735/0x920\n ___sys_sendmsg+0x11d/0x1b0\n __sys_sendmsg+0xfa/0x1d0\n do_syscall_64+0x35/0xb0\n entry_SYSCALL_64_after_hwframe+0x63/0xcd\n\nFreed by task 7846:\n kasan_save_stack+0x1e/0x40\n kasan_set_track+0x21/0x30\n kasan_save_free_info+0x27/0x40\n ____kasan_slab_free+0x161/0x1c0\n slab_free_freelist_hook+0x119/0x220\n __kmem_cache_free+0xb4/0x2e0\n rcu_core+0x809/0x1bd0\n\nbcm_op is freed before procfs entry be removed in bcm_release(),\nthis lead to bcm_proc_show() may read the freed bcm_op.",
+      "cveName": "CVE-2023-52922",
+      "cveUrl": "/vuln/detail/CVE-2023-52922"
+    }
+  },
   "CVE-2023-52952": {
     "cve": {
       "cveDate": [
@@ -12196,6 +12207,127 @@
       "cveDis": "Fuji Electric Monitouch V-SFT X1 File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Fuji Electric Monitouch V-SFT. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of X1 files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-24548.",
       "cveName": "CVE-2024-11933",
       "cveUrl": "/vuln/detail/CVE-2024-11933"
+    }
+  },
+  "CVE-2024-11959": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "10:15:18 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in D-Link DIR-605L 2.13B01. It has been classified as critical. This affects the function formResetStatistic of the file /goform/formResetStatistic. The manipulation of the argument curTime leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11959",
+      "cveUrl": "/vuln/detail/CVE-2024-11959"
+    }
+  },
+  "CVE-2024-11960": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "10:15:18 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in D-Link DIR-605L 2.13B01. It has been declared as critical. This vulnerability affects the function formSetPortTr of the file /goform/formSetPortTr. The manipulation of the argument curTime leads to buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11960",
+      "cveUrl": "/vuln/detail/CVE-2024-11960"
+    }
+  },
+  "CVE-2024-11961": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "10:15:18 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Guangzhou Huayi Intelligent Technology Jeewms 3.7. It has been rated as problematic. This issue affects the function preHandle of the file src/main/java/com/zzjee/wm/controller/WmOmNoticeHController.java. The manipulation of the argument request leads to information disclosure. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cveName": "CVE-2024-11961",
+      "cveUrl": "/vuln/detail/CVE-2024-11961"
+    }
+  },
+  "CVE-2024-11962": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "11:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in code-projects Simple Car Rental System 1.0. Affected by this vulnerability is an unknown functionality of the file /login.php. The manipulation of the argument uname leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11962",
+      "cveUrl": "/vuln/detail/CVE-2024-11962"
+    }
+  },
+  "CVE-2024-11963": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "11:15:06 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in code-projects Responsive Hotel Site 1.0. Affected by this issue is some unknown functionality of the file /admin/room.php. The manipulation of the argument troom leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11963",
+      "cveUrl": "/vuln/detail/CVE-2024-11963"
+    }
+  },
+  "CVE-2024-11964": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "12:15:18 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in PHPGurukul Complaint Management system 1.0. This affects an unknown part of the file /user/index.php. The manipulation of the argument emailid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11964",
+      "cveUrl": "/vuln/detail/CVE-2024-11964"
+    }
+  },
+  "CVE-2024-11965": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "12:15:19 PM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in PHPGurukul Complaint Management system 1.0 and classified as critical. This vulnerability affects unknown code of the file /user/reset-password.php. The manipulation of the argument email leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11965",
+      "cveUrl": "/vuln/detail/CVE-2024-11965"
+    }
+  },
+  "CVE-2024-11966": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "1:15:07 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in PHPGurukul Complaint Management system 1.0 and classified as critical. This issue affects some unknown processing of the file /admin/index.php. The manipulation of the argument username leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11966",
+      "cveUrl": "/vuln/detail/CVE-2024-11966"
+    }
+  },
+  "CVE-2024-11967": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "1:15:07 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in PHPGurukul Complaint Management system 1.0. It has been classified as critical. Affected is an unknown function of the file /admin/reset-password.php. The manipulation of the argument email leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11967",
+      "cveUrl": "/vuln/detail/CVE-2024-11967"
+    }
+  },
+  "CVE-2024-11968": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "1:15:07 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Farmacia up to 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file pagamento.php. The manipulation of the argument notaFiscal leads to sql injection. The attack can be launched remotely.",
+      "cveName": "CVE-2024-11968",
+      "cveUrl": "/vuln/detail/CVE-2024-11968"
+    }
+  },
+  "CVE-2024-11969": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "11:15:07 AM -0500"
+      ],
+      "cveDis": "The NetCloud Exchange client for Windows, version 1.110.50, contains an insecure file and folder permissions vulnerability. A normal (non-admin) user could exploit the weakness in file and folder permissions to escalate privileges, execute arbitrary code and maintain persistence on the compromised machine. It has been identified that full control permissions exist on the ‘Everyone’ group (i.e. any user who has local access to the operating system regardless of their privileges).",
+      "cveName": "CVE-2024-11969",
+      "cveUrl": "/vuln/detail/CVE-2024-11969"
     }
   },
   "CVE-2024-1240": {
@@ -47200,6 +47332,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52337"
     }
   },
+  "CVE-2024-52338": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "12:15:48 PM -0500"
+      ],
+      "cveDis": "Deserialization of untrusted data in IPC and Parquet readers in the Apache Arrow R package versions 4.0.0 through 16.1.0 allows arbitrary code execution. An application is vulnerable if it \nreads Arrow IPC, Feather or Parquet data from untrusted sources (for \nexample, user-supplied input files). This vulnerability only affects the arrow R package, not other Apache Arrow \nimplementations or bindings unless those bindings are specifically used via the R package (for example, an R application that embeds a Python interpreter and uses PyArrow to read files from untrusted sources is still vulnerable if the arrow R package is an affected version). It is recommended that users of the arrow R package upgrade to 17.0.0 or later. Similarly, it\n is recommended that downstream libraries upgrade their dependency \nrequirements to arrow 17.0.0 or later. If using an affected\nversion of the package, untrusted data can read into a Table and its internal to_data_frame() method can be used as a workaround (e.g., read_parquet(..., as_data_frame = FALSE)$to_data_frame()).\n\n\nThis issue affects the Apache Arrow R package: from 4.0.0 through 16.1.0.\n\n\nUsers are recommended to upgrade to version 17.0.0, which fixes the issue.",
+      "cveName": "CVE-2024-52338",
+      "cveUrl": "/vuln/detail/CVE-2024-52338"
+    }
+  },
   "CVE-2024-52339": {
     "cve": {
       "cveDate": [
@@ -50456,6 +50599,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53676"
     }
   },
+  "CVE-2024-53731": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "7:15:17 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Fintelligence Fintelligence Calculator allows Stored XSS.This issue affects Fintelligence Calculator: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-53731",
+      "cveUrl": "/vuln/detail/CVE-2024-53731"
+    }
+  },
   "CVE-2024-53732": {
     "cve": {
       "cveDate": [
@@ -51994,6 +52148,17 @@
       "cveDis": "A maliciously crafted DWF file, when parsed in w3dtk.dll through Autodesk Navisworks, can force a Use-After-Free. A malicious actor can leverage this vulnerability to cause a crash or execute arbitrary code in the context of the current process.",
       "cveName": "CVE-2024-7675",
       "cveUrl": "/vuln/detail/CVE-2024-7675"
+    }
+  },
+  "CVE-2024-77476-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "8:15:21 AM -0500"
+      ],
+      "cveDis": "The Wallet for WooCommerce plugin for WordPress is vulnerable to incorrect conversion between numeric types in all versions up to, and including, 1.5.6. This is due to a numerical logic flaw when transferring funds to another user. This makes it possible for authenticated attackers, with Subscriber-level access and above, to create funds during a transfer and distribute these funds to any number of other users or their own account, rendering products free. Attackers could also request to withdraw funds if the Wallet Withdrawal extension is used and the request is approved by an administrator.",
+      "cveName": "CVE-2024-77476-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-7747"
     }
   },
   "CVE-2024-7755": {
