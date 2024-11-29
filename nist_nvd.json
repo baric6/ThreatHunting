@@ -12418,6 +12418,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11971"
     }
   },
+  "CVE-2024-11978": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "10:15:14 PM -0500"
+      ],
+      "cveDis": "DreamMaker from Interinfo has a Path Traversal vulnerability, allowing unauthenticated remote attackers to exploit this vulnerability to read arbitrary system files.",
+      "cveName": "CVE-2024-11978",
+      "cveUrl": "/vuln/detail/CVE-2024-11978"
+    }
+  },
   "CVE-2024-119787-5 HIGH": {
     "cve": {
       "cveDate": [
@@ -12427,6 +12438,17 @@
       "cveDis": "DreamMaker from Interinfo has a Path Traversal vulnerability, allowing unauthenticated remote attackers to exploit this vulnerability to read arbitrary system files.",
       "cveName": "CVE-2024-119787-5 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-11978"
+    }
+  },
+  "CVE-2024-11979": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "10:15:15 PM -0500"
+      ],
+      "cveDis": "DreamMaker from Interinfo has a Path Traversal vulnerability and does not restrict the types of uploaded files. This allows unauthenticated remote attackers to upload arbitrary files to any directory, leading to arbitrary code execution by uploading webshells.",
+      "cveName": "CVE-2024-11979",
+      "cveUrl": "/vuln/detail/CVE-2024-11979"
     }
   },
   "CVE-2024-119799-8 CRITICAL": {
@@ -12440,6 +12462,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11979"
     }
   },
+  "CVE-2024-11980": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "Certain modes of routers from Billion Electric have a Missing Authentication vulnerability, allowing unauthenticated remote attackers to directly access the specific functionality to obtain partial device information, modify the WiFi SSID, and restart the device.",
+      "cveName": "CVE-2024-11980",
+      "cveUrl": "/vuln/detail/CVE-2024-11980"
+    }
+  },
   "CVE-2024-119808-6 HIGH": {
     "cve": {
       "cveDate": [
@@ -12449,6 +12482,17 @@
       "cveDis": "Certain modes of routers from Billion Electric have a Missing Authentication vulnerability, allowing unauthenticated remote attackers to directly access the specific functionality to obtain partial device information, modify the WiFi SSID, and restart the device.",
       "cveName": "CVE-2024-119808-6 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-11980"
+    }
+  },
+  "CVE-2024-11981": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:05 AM -0500"
+      ],
+      "cveDis": "Certain models of routers from Billion Electric has an Authentication Bypass vulnerability, allowing unautheticated attackers to retrive contents of arbitrary web pages.",
+      "cveName": "CVE-2024-11981",
+      "cveUrl": "/vuln/detail/CVE-2024-11981"
     }
   },
   "CVE-2024-119817-5 HIGH": {
@@ -12462,6 +12506,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11981"
     }
   },
+  "CVE-2024-11982": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "Certain models of routers from Billion Electric has a Plaintext Storage of a Password vulnerability. Remote attackers with administrator privileges can access the user settings page to retrieve plaintext passwords.",
+      "cveName": "CVE-2024-11982",
+      "cveUrl": "/vuln/detail/CVE-2024-11982"
+    }
+  },
   "CVE-2024-119827-2 HIGH": {
     "cve": {
       "cveDate": [
@@ -12473,6 +12528,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11982"
     }
   },
+  "CVE-2024-11983": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "Certain models of routers from Billion Electric has an OS Command Injection vulnerability, allowing remote attackers with administrator privileges to inject arbitrary system commands into a specific SSH function and execute them on the device.",
+      "cveName": "CVE-2024-11983",
+      "cveUrl": "/vuln/detail/CVE-2024-11983"
+    }
+  },
   "CVE-2024-119837-2 HIGH": {
     "cve": {
       "cveDate": [
@@ -12482,6 +12548,28 @@
       "cveDis": "Certain models of routers from Billion Electric has an OS Command Injection vulnerability, allowing remote attackers with administrator privileges to inject arbitrary system commands into a specific SSH function and execute them on the device.",
       "cveName": "CVE-2024-119837-2 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-11983"
+    }
+  },
+  "CVE-2024-11990": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "A Cross-Site Scripting (XSS) vulnerability in SurgeMail v78c2 could allow an attacker to execute arbitrary JavaScript code via an elaborate payload injected into vulnerable parameters.",
+      "cveName": "CVE-2024-11990",
+      "cveUrl": "/vuln/detail/CVE-2024-11990"
+    }
+  },
+  "CVE-2024-11992": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "8:15:05 AM -0500"
+      ],
+      "cveDis": "Absolute path traversal vulnerability in Quick.CMS, version 6.7, the exploitation of which could allow remote users to bypass the intended restrictions and download any file if it has the appropriate permissions outside of documentroot configured on the server via the aDirFiles%5B0%5D parameter in the admin.php page. This vulnerability allows an attacker to delete files stored on the server due to a lack of proper verification of user-supplied input.",
+      "cveName": "CVE-2024-11992",
+      "cveUrl": "/vuln/detail/CVE-2024-11992"
     }
   },
   "CVE-2024-1240": {
@@ -17522,6 +17610,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-35315"
     }
   },
+  "CVE-2024-35369": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "In FFmpeg version n6.1.1, specifically within the avcodec/speexdec.c module, a potential security vulnerability exists due to insufficient validation of certain parameters when parsing Speex codec extradata. This vulnerability could lead to integer overflow conditions, potentially resulting in undefined behavior or crashes during the decoding process.",
+      "cveName": "CVE-2024-35369",
+      "cveUrl": "/vuln/detail/CVE-2024-35369"
+    }
+  },
   "CVE-2024-35410": {
     "cve": {
       "cveDate": [
@@ -17938,6 +18037,127 @@
       "cveDis": "A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allows users to perform actions reserved for administrators, potentially leading to data breaches or system compromise.",
       "cveName": "CVE-2024-36568-1 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-3656"
+    }
+  },
+  "CVE-2024-36617": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:07 PM -0500"
+      ],
+      "cveDis": "FFmpeg n6.1.1 has an integer overflow vulnerability in the FFmpeg CAF decoder.",
+      "cveName": "CVE-2024-36617",
+      "cveUrl": "/vuln/detail/CVE-2024-36617"
+    }
+  },
+  "CVE-2024-36618": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:07 PM -0500"
+      ],
+      "cveDis": "FFmpeg n6.1.1 has a vulnerability in the AVI demuxer of the libavformat library which allows for an integer overflow, potentially resulting in a denial-of-service (DoS) condition.",
+      "cveName": "CVE-2024-36618",
+      "cveUrl": "/vuln/detail/CVE-2024-36618"
+    }
+  },
+  "CVE-2024-36619": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "FFmpeg n6.1.1 has a vulnerability in the WAVARC decoder of the libavcodec library which allows for an integer overflow when handling certain block types, leading to a denial-of-service (DoS) condition.",
+      "cveName": "CVE-2024-36619",
+      "cveUrl": "/vuln/detail/CVE-2024-36619"
+    }
+  },
+  "CVE-2024-36620": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:07 PM -0500"
+      ],
+      "cveDis": "moby v25.0.0 - v26.0.2 is vulnerable to NULL Pointer Dereference via daemon/images/image_history.go.",
+      "cveName": "CVE-2024-36620",
+      "cveUrl": "/vuln/detail/CVE-2024-36620"
+    }
+  },
+  "CVE-2024-36621": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:07 PM -0500"
+      ],
+      "cveDis": "moby v25.0.5 is affected by a Race Condition in builder/builder-next/adapters/snapshot/layer.go. The vulnerability could be used to trigger concurrent builds that call the EnsureLayer function resulting in resource leaks/exhaustion.",
+      "cveName": "CVE-2024-36621",
+      "cveUrl": "/vuln/detail/CVE-2024-36621"
+    }
+  },
+  "CVE-2024-36622": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:08 PM -0500"
+      ],
+      "cveDis": "In RaspAP raspap-webgui 3.0.9 and earlier, a command injection vulnerability exists in the clearlog.php script. The vulnerability is due to improper sanitization of user input passed via the logfile parameter.",
+      "cveName": "CVE-2024-36622",
+      "cveUrl": "/vuln/detail/CVE-2024-36622"
+    }
+  },
+  "CVE-2024-36623": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:08 PM -0500"
+      ],
+      "cveDis": "moby v25.0.3 has a Race Condition vulnerability in the streamformatter package which can be used to trigger multiple concurrent write operations resulting in data corruption or application crashes.",
+      "cveName": "CVE-2024-36623",
+      "cveUrl": "/vuln/detail/CVE-2024-36623"
+    }
+  },
+  "CVE-2024-36624": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:08 PM -0500"
+      ],
+      "cveDis": "Zulip 8.3 is vulnerable to Cross Site Scripting (XSS) via the construct_copy_div function in copy_and_paste.js.",
+      "cveName": "CVE-2024-36624",
+      "cveUrl": "/vuln/detail/CVE-2024-36624"
+    }
+  },
+  "CVE-2024-36625": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "Zulip 8.3 is vulnerable to Cross Site Scripting (XSS) via the replace_emoji_with_text function in ui_util.ts.",
+      "cveName": "CVE-2024-36625",
+      "cveUrl": "/vuln/detail/CVE-2024-36625"
+    }
+  },
+  "CVE-2024-36626": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:07 PM -0500"
+      ],
+      "cveDis": "In prestashop 8.1.4, a NULL pointer dereference was identified in the math_round function within Tools.php.",
+      "cveName": "CVE-2024-36626",
+      "cveUrl": "/vuln/detail/CVE-2024-36626"
+    }
+  },
+  "CVE-2024-36671": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "10:15:17 AM -0500"
+      ],
+      "cveDis": "nodemcu before v3.0.0-release_20240225 was discovered to contain an integer overflow via the getnum function at /modules/struct.c.",
+      "cveName": "CVE-2024-36671",
+      "cveUrl": "/vuln/detail/CVE-2024-36671"
     }
   },
   "CVE-2024-36814": {
@@ -27763,6 +27983,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47191"
     }
   },
+  "CVE-2024-47193": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "WithSecure Elements Agent for Mac before 24.3, MDR before 24.3, and Elements Client Security for Mac before 16.10 allow a remote Denial of Service.",
+      "cveName": "CVE-2024-47193",
+      "cveUrl": "/vuln/detail/CVE-2024-47193"
+    }
+  },
   "CVE-2024-47194": {
     "cve": {
       "cveDate": [
@@ -33571,6 +33802,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48396"
     }
   },
+  "CVE-2024-48406": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "10:15:17 AM -0500"
+      ],
+      "cveDis": "Buffer Overflow vulnerability in SunBK201 umicat through v.0.3.2 and fixed in v.0.3.3 allows an attacker to execute arbitrary code via the power(uct_int_t x, uct_int_t n) in src/uct_upstream.c.",
+      "cveName": "CVE-2024-48406",
+      "cveUrl": "/vuln/detail/CVE-2024-48406"
+    }
+  },
   "CVE-2024-48410": {
     "cve": {
       "cveDate": [
@@ -36827,6 +37069,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49359"
     }
   },
+  "CVE-2024-49360": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:09 PM -0500"
+      ],
+      "cveDis": "Sandboxie is a sandbox-based isolation software for 32-bit and 64-bit Windows NT-based operating systems. An authenticated user (**UserA**) with no privileges is authorized to read all files created in sandbox belonging to other users in the sandbox folders `C:\\Sandbox\\UserB\\xxx`. An authenticated attacker who can use `explorer.exe` or `cmd.exe` outside any sandbox can read other users' files in `C:\\Sandbox\\xxx`. By default in Windows 7+, the `C:\\Users\\UserA` folder is not readable by **UserB**.\nAll files edited or created during the sandbox processing are affected by the vulnerability. All files in C:\\Users are safe. If `UserB` runs a cmd in a sandbox, he will be able to access `C:\\Sandox\\UserA`. In addition, if **UserB** create a folder `C:\\Sandbox\\UserA` with malicious ACLs, when **UserA** will user the sandbox, Sandboxie doesn't reset ACLs ! This issue has not yet been fixed. Users are advised to limit access to their systems using Sandboxie.",
+      "cveName": "CVE-2024-49360",
+      "cveUrl": "/vuln/detail/CVE-2024-49360"
+    }
+  },
   "CVE-2024-49361": {
     "cve": {
       "cveDate": [
@@ -38387,6 +38640,50 @@
       "cveDis": "A heap-based buffer overflow in tsMuxer version nightly-2024-05-12-02-01-18 allows attackers to cause Denial of Service (DoS) and Code Execution via a crafted MOV video file.",
       "cveName": "CVE-2024-49778",
       "cveUrl": "/vuln/detail/CVE-2024-49778"
+    }
+  },
+  "CVE-2024-498039-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "IBM Security Verify Access Appliance 10.0.0 through 10.0.8 could allow a remote authenticated attacker to execute arbitrary commands on the system by sending a specially crafted request.",
+      "cveName": "CVE-2024-498039-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-49803"
+    }
+  },
+  "CVE-2024-498047-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "IBM Security Verify Access Appliance 10.0.0 through 10.0.8 \n\ncould allow a locally authenticated non-administrative user to escalate their privileges due to unnecessary permissions used to perform certain tasks.",
+      "cveName": "CVE-2024-498047-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-49804"
+    }
+  },
+  "CVE-2024-498059-4 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "IBM Security Verify Access Appliance 10.0.0 through 10.0.8 \n\ncontains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data.",
+      "cveName": "CVE-2024-498059-4 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-49805"
+    }
+  },
+  "CVE-2024-498069-4 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "IBM Security Verify Access Appliance 10.0.0 through 10.0.8 \n\ncontains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data.",
+      "cveName": "CVE-2024-498069-4 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-49806"
     }
   },
   "CVE-2024-49850": {
@@ -49387,6 +49684,72 @@
       "cveDis": "DedeBIZ v6.3.0 was discovered to contain an arbitrary file deletion vulnerability via the component /admin/file_manage_view.",
       "cveName": "CVE-2024-52771",
       "cveUrl": "/vuln/detail/CVE-2024-52771"
+    }
+  },
+  "CVE-2024-52777": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "11:15:10 AM -0500"
+      ],
+      "cveDis": "DCME-320 <=7.4.12.90, DCME-520 <=9.25.5.11, DCME-320-L, <=9.3.5.26, and DCME-720 <=9.1.5.11 are vulnerable to Remote Code Execution via /function/system/basic/license_update.php.",
+      "cveName": "CVE-2024-52777",
+      "cveUrl": "/vuln/detail/CVE-2024-52777"
+    }
+  },
+  "CVE-2024-52778": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "11:15:10 AM -0500"
+      ],
+      "cveDis": "DCME-320 <=7.4.12.90, DCME-520 <=9.25.5.11, DCME-320-L <=9.3.5.26, and DCME-720 <=9.1.5.11 are vulnerable to Remote Code Execution via /function/audit/newstatistics/mon_stat_hist.php.",
+      "cveName": "CVE-2024-52778",
+      "cveUrl": "/vuln/detail/CVE-2024-52778"
+    }
+  },
+  "CVE-2024-52779": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "11:15:10 AM -0500"
+      ],
+      "cveDis": "DCME-320 <=7.4.12.90, DCME-520 <=9.25.5.11, DCME-320-L <=9.3.5.26, and DCME-720 <=9.1.5.11 are vulnerable to Remote Code Execution via /function/audit/newstatistics/mon_stat_top10.php.",
+      "cveName": "CVE-2024-52779",
+      "cveUrl": "/vuln/detail/CVE-2024-52779"
+    }
+  },
+  "CVE-2024-52780": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "11:15:10 AM -0500"
+      ],
+      "cveDis": "DCME-320 <=7.4.12.90, DCME-520 <=9.25.5.11, DCME-320-L <=9.3.5.26, and DCME-720 <=9.1.5.11 are vulnerable to Remote Code Execution via /function/system/basic/mgmt_edit.php.",
+      "cveName": "CVE-2024-52780",
+      "cveUrl": "/vuln/detail/CVE-2024-52780"
+    }
+  },
+  "CVE-2024-52781": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "11:15:11 AM -0500"
+      ],
+      "cveDis": "DCME-320 <=7.4.12.90, DCME-520 <=9.25.5.11, DCME-320-L <=9.3.5.26, and DCME-720 <=9.1.5.11 are vulnerable to Remote Code Execution via /function/system/tool/traceroute.php.",
+      "cveName": "CVE-2024-52781",
+      "cveUrl": "/vuln/detail/CVE-2024-52781"
+    }
+  },
+  "CVE-2024-52782": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "11:15:11 AM -0500"
+      ],
+      "cveDis": "DCME-320 <=7.4.12.90, DCME-520 <=9.25.5.11, DCME-320-L <=9.3.5.26, and DCME-720 <=9.1.5.11 are vulnerable to Remote Code Execution via /function/audit/newstatistics/mon_stat_hist_new.php.",
+      "cveName": "CVE-2024-52782",
+      "cveUrl": "/vuln/detail/CVE-2024-52782"
     }
   },
   "CVE-2024-52787": {
