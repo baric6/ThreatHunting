@@ -12330,6 +12330,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-11969"
     }
   },
+  "CVE-2024-11970": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "5:15:14 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in code-projects Concert Ticket Ordering System 1.0. Affected is an unknown function of the file /tour(cor).php. The manipulation of the argument mai leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11970",
+      "cveUrl": "/vuln/detail/CVE-2024-11970"
+    }
+  },
+  "CVE-2024-11971": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "5:15:15 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic was found in Guizhou Xiaoma Technology jpress 5.1.2. Affected by this vulnerability is an unknown functionality of the file /commons/attachment/upload of the component Avatar Handler. The manipulation of the argument files leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11971",
+      "cveUrl": "/vuln/detail/CVE-2024-11971"
+    }
+  },
+  "CVE-2024-119787-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "10:15:14 PM -0500"
+      ],
+      "cveDis": "DreamMaker from Interinfo has a Path Traversal vulnerability, allowing unauthenticated remote attackers to exploit this vulnerability to read arbitrary system files.",
+      "cveName": "CVE-2024-119787-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11978"
+    }
+  },
+  "CVE-2024-119799-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "10:15:15 PM -0500"
+      ],
+      "cveDis": "DreamMaker from Interinfo has a Path Traversal vulnerability and does not restrict the types of uploaded files. This allows unauthenticated remote attackers to upload arbitrary files to any directory, leading to arbitrary code execution by uploading webshells.",
+      "cveName": "CVE-2024-119799-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-11979"
+    }
+  },
   "CVE-2024-1240": {
     "cve": {
       "cveDate": [
@@ -50918,6 +50962,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-54004"
     }
   },
+  "CVE-2024-54123": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "Backdrop CMS before 1.28.4 and 1.29.x before 1.29.2 allows XSS via an SVG document, if the SVG tag is allowed for a text format.",
+      "cveName": "CVE-2024-54123",
+      "cveUrl": "/vuln/detail/CVE-2024-54123"
+    }
+  },
+  "CVE-2024-54124": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "In Click Studios Passwordstate before build 9920, there is a potential permission escalation on the edit folder screen.",
+      "cveName": "CVE-2024-54124",
+      "cveUrl": "/vuln/detail/CVE-2024-54124"
+    }
+  },
   "CVE-2024-5429": {
     "cve": {
       "cveDate": [
@@ -52819,6 +52885,28 @@
       "cveDis": "The Guten Post Layout – An Advanced Post Grid Collection for WordPress Gutenberg plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘align’ attribute within the 'wp:guten-post-layout/post-grid' Gutenberg block in all versions up to, and including, 1.2.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-82886-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-8288"
+    }
+  },
+  "CVE-2024-8299": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "6:15:03 PM -0500"
+      ],
+      "cveDis": "Uncontrolled Search Path Element vulnerability in ICONICS GENESIS64 all versions, Mitsubishi Electric GENESIS64 all versions and Mitsubishi Electric MC Works64 all versions allows a local authenticated attacker to execute a malicious code by storing a specially crafted DLL in a specific folder. This could lead to disclose, tamper with, destroy, or delete information in the affected products, or cause a denial of service (DoS) condition on the products.",
+      "cveName": "CVE-2024-8299",
+      "cveUrl": "/vuln/detail/CVE-2024-8299"
+    }
+  },
+  "CVE-2024-8300": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Dead Code vulnerability in ICONICS GENESIS64 Version 10.97.2, 10.97.2 CFR1, 10.97.2 CRF2 and 10.97.3 and Mitsubishi Electric GENESIS64 Version 10.97.2, 10.97.2 CFR1, 10.97.2 CRF2 and 10.97.3 allows a local authenticated attacker to execute a malicious code by tampering with a specially crafted DLL. This could lead to disclose, tamper with, destroy, or delete information in the affected products, or cause a denial of service (DoS) condition on the products.",
+      "cveName": "CVE-2024-8300",
+      "cveUrl": "/vuln/detail/CVE-2024-8300"
     }
   },
   "CVE-2024-8305": {
@@ -59441,6 +59529,17 @@
       "cveDis": "The SVG Case Study plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.",
       "cveName": "CVE-2024-98506-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9850"
+    }
+  },
+  "CVE-2024-9852": {
+    "cve": {
+      "cveDate": [
+        "November 28, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Uncontrolled Search Path Element vulnerability in ICONICS GENESIS64 all versions, Mitsubishi Electric GENESIS64 all versions and Mitsubishi Electric MC Works64 all versions allows a local authenticated attacker to execute a malicious code by storing a specially crafted DLL in a specific folder. This could lead to disclose, tamper with, destroy, or delete information in the affected products, or cause a denial of service (DoS) condition on the products.",
+      "cveName": "CVE-2024-9852",
+      "cveUrl": "/vuln/detail/CVE-2024-9852"
     }
   },
   "CVE-2024-98536-4 MEDIUM": {
