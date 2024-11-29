@@ -7996,6 +7996,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10702"
     }
   },
+  "CVE-2024-10704": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "The Photo Gallery by 10Web  WordPress plugin before 1.8.31 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
+      "cveName": "CVE-2024-10704",
+      "cveUrl": "/vuln/detail/CVE-2024-10704"
+    }
+  },
   "CVE-2024-10709": {
     "cve": {
       "cveDate": [
@@ -9228,6 +9239,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10975"
     }
   },
+  "CVE-2024-10980": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "The Element Pack Elementor Addons (Header Footer, Template Library, Dynamic Grid, Carousel and Remote Arrows) WordPress plugin before 5.10.3 does not validate and escape some of its Cookie Consent block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.",
+      "cveName": "CVE-2024-10980",
+      "cveUrl": "/vuln/detail/CVE-2024-10980"
+    }
+  },
   "CVE-2024-10987": {
     "cve": {
       "cveDate": [
@@ -9402,6 +9424,28 @@
       "cveDis": "The Internal Linking for SEO traffic & Ranking – Auto internal links (100% automatic) plugin for WordPress is vulnerable to time-based SQL Injection via the ‘post_id’ parameter in all versions up to, and including, 1.2.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
       "cveName": "CVE-2024-110094-9 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11009"
+    }
+  },
+  "CVE-2024-11013": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:03 AM -0500"
+      ],
+      "cveDis": "Command Injection vulnerability in NEC Corporation UNIVERGE IX from Ver9.2 to Ver10.10.21, for Ver10.8 up to Ver10.8.27, for Ver10.9 up to Ver10.9.14 and UNIVERGE IX-R/IX-V Ver1.2.15 and earlier allows a attacker to inject an arbitrary CLI commands to be executed on the device via the management interface.",
+      "cveName": "CVE-2024-11013",
+      "cveUrl": "/vuln/detail/CVE-2024-11013"
+    }
+  },
+  "CVE-2024-11014": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "Cross-site request forgery (CSRF) vulnerability in NEC Corporation UNIVERGE IX from Ver9.2 to Ver10.10.21, for Ver10.8 up to Ver10.8.27 and for Ver10.9 up to Ver10.9.14 allows a attacker to hijack the authentication of screens on the device via the management interface.",
+      "cveName": "CVE-2024-11014",
+      "cveUrl": "/vuln/detail/CVE-2024-11014"
     }
   },
   "CVE-2024-110169-8 CRITICAL": {
@@ -10933,6 +10977,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-11463"
     }
   },
+  "CVE-2024-11481": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "A vulnerability in ESM 11.6.10 allows unauthenticated access to the internal Snowservice API. This leads to improper handling of path traversal, insecure forwarding to an AJP backend without adequate validation, and lack of authentication for accessing internal API endpoints.",
+      "cveName": "CVE-2024-11481",
+      "cveUrl": "/vuln/detail/CVE-2024-11481"
+    }
+  },
+  "CVE-2024-11482": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "A vulnerability in ESM 11.6.10 allows unauthenticated access to the internal Snowservice API and enables remote code execution through command injection, executed as the root user.",
+      "cveName": "CVE-2024-11482",
+      "cveUrl": "/vuln/detail/CVE-2024-11482"
+    }
+  },
   "CVE-2024-114835-0 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -12372,6 +12438,50 @@
       "cveDis": "DreamMaker from Interinfo has a Path Traversal vulnerability and does not restrict the types of uploaded files. This allows unauthenticated remote attackers to upload arbitrary files to any directory, leading to arbitrary code execution by uploading webshells.",
       "cveName": "CVE-2024-119799-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-11979"
+    }
+  },
+  "CVE-2024-119808-6 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "Certain modes of routers from Billion Electric have a Missing Authentication vulnerability, allowing unauthenticated remote attackers to directly access the specific functionality to obtain partial device information, modify the WiFi SSID, and restart the device.",
+      "cveName": "CVE-2024-119808-6 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11980"
+    }
+  },
+  "CVE-2024-119817-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:05 AM -0500"
+      ],
+      "cveDis": "Certain models of routers from Billion Electric has an Authentication Bypass vulnerability, allowing unautheticated attackers to retrive contents of arbitrary web pages.",
+      "cveName": "CVE-2024-119817-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11981"
+    }
+  },
+  "CVE-2024-119827-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "Certain models of routers from Billion Electric has a Plaintext Storage of a Password vulnerability. Remote attackers with administrator privileges can access the user settings page to retrieve plaintext passwords.",
+      "cveName": "CVE-2024-119827-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11982"
+    }
+  },
+  "CVE-2024-119837-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:04 AM -0500"
+      ],
+      "cveDis": "Certain models of routers from Billion Electric has an OS Command Injection vulnerability, allowing remote attackers with administrator privileges to inject arbitrary system commands into a specific SSH function and execute them on the device.",
+      "cveName": "CVE-2024-119837-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11983"
     }
   },
   "CVE-2024-1240": {
@@ -17533,6 +17643,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-35427"
     }
   },
+  "CVE-2024-35451": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:05 AM -0500"
+      ],
+      "cveDis": "LinkStack 2.7.9 through 4.7.7 allows resources\\views\\components\\favicon.blade.php link SSRF.",
+      "cveName": "CVE-2024-35451",
+      "cveUrl": "/vuln/detail/CVE-2024-35451"
+    }
+  },
   "CVE-2024-35495": {
     "cve": {
       "cveDate": [
@@ -18719,6 +18840,17 @@
       "cveDis": "Exposure of CSRF tokens in query parameters on specific requests in Checkmk GmbH's Checkmk versions <2.3.0p18, <2.2.0p35 and <2.1.0p48 could lead to a leak of the token to facilitate targeted phishing attacks.",
       "cveName": "CVE-2024-38863",
       "cveUrl": "/vuln/detail/CVE-2024-38863"
+    }
+  },
+  "CVE-2024-39162": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:06 AM -0500"
+      ],
+      "cveDis": "pyspider through 0.3.10 allows /update XSS. NOTE: This vulnerability only affects products that are no longer supported by the maintainer",
+      "cveName": "CVE-2024-39162",
+      "cveUrl": "/vuln/detail/CVE-2024-39162"
     }
   },
   "CVE-2024-39275": {
@@ -24595,6 +24727,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45477"
     }
   },
+  "CVE-2024-45495": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:05 AM -0500"
+      ],
+      "cveDis": "MSA FieldServer Gateway 5.0.0 through 6.5.2 allows cross-origin WebSocket hijacking.",
+      "cveName": "CVE-2024-45495",
+      "cveUrl": "/vuln/detail/CVE-2024-45495"
+    }
+  },
   "CVE-2024-45505": {
     "cve": {
       "cveDate": [
@@ -27321,6 +27464,17 @@
       "cveDis": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability is related to **CORS origin validation**, where the Gradio server fails to validate the request origin when a cookie is present. This allows an attacker’s website to make unauthorized requests to a local Gradio server. Potentially, attackers can upload files, steal authentication tokens, and access user data if the victim visits a malicious website while logged into Gradio. This impacts users who have deployed Gradio locally and use basic authentication. Users are advised to upgrade to `gradio>4.44` to address this issue. As a workaround, users can manually enforce stricter CORS origin validation by modifying the `CustomCORSMiddleware` class in their local Gradio server code. Specifically, they can bypass the condition that skips CORS validation for requests containing cookies to prevent potential exploitation.",
       "cveName": "CVE-2024-47084",
       "cveUrl": "/vuln/detail/CVE-2024-47084"
+    }
+  },
+  "CVE-2024-47094": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "5:15:10 AM -0500"
+      ],
+      "cveDis": "Insertion of Sensitive Information into Log File in Checkmk GmbH's Checkmk versions <2.3.0p22, <2.2.0p37, <2.1.0p50 (EOL) causes remote site secrets to be written to web log files accessible to local site users.",
+      "cveName": "CVE-2024-47094",
+      "cveUrl": "/vuln/detail/CVE-2024-47094"
     }
   },
   "CVE-2024-47095": {
@@ -33976,6 +34130,17 @@
       "cveDis": "A Reflected Cross-Site Scripting (XSS) vulnerability exists in the Sage 1000 v 7.0.0. This vulnerability allows attackers to inject malicious scripts into URLs, which are reflected back by the server in the response without proper sanitization or encoding.",
       "cveName": "CVE-2024-48648",
       "cveUrl": "/vuln/detail/CVE-2024-48648"
+    }
+  },
+  "CVE-2024-48651": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "12:15:05 AM -0500"
+      ],
+      "cveDis": "In ProFTPD through 1.3.8b before cec01cc, supplemental group inheritance grants unintended access to GID 0 because of the lack of supplemental groups from mod_sql.",
+      "cveName": "CVE-2024-48651",
+      "cveUrl": "/vuln/detail/CVE-2024-48651"
     }
   },
   "CVE-2024-48652": {
@@ -41643,6 +41808,17 @@
       "cveDis": "Press, a Frappe custom app that runs Frappe Cloud, manages infrastructure, subscription, marketplace, and software-as-a-service (SaaS). The password could be reset by anyone who have access to the mail inbox circumventing the 2FA. Even though they wouldn't be able to login by bypassing the 2FA. Only users who have enabled 2FA are affected. Commit ba0007c28ac814260f836849bc07d29beea7deb6 patches this bug.",
       "cveName": "CVE-2024-50356",
       "cveUrl": "/vuln/detail/CVE-2024-50356"
+    }
+  },
+  "CVE-2024-50357": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "5:15:10 AM -0500"
+      ],
+      "cveDis": "FutureNet NXR series routers provided by Century Systems Co., Ltd. have REST-APIs, which are configured as disabled in the initial (factory default) configuration. But, REST-APIs are unexpectedly enabled when the affected product is powered up, provided either http-server (GUI) or Web authentication is enabled. The factory default configuration makes http-server (GUI) enabled, which means REST-APIs are also enabled. The username and the password for REST-APIs are configured in the factory default configuration. As a result, an attacker may obtain and/or alter the affected product's settings via REST-APIs.",
+      "cveName": "CVE-2024-50357",
+      "cveUrl": "/vuln/detail/CVE-2024-50357"
     }
   },
   "CVE-2024-50358": {
@@ -50643,6 +50819,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53676"
     }
   },
+  "CVE-2024-53701": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "1:15:07 AM -0500"
+      ],
+      "cveDis": "Multiple FCNT Android devices provide the original security features such as \"privacy mode\" where arbitrary applications can be set not to be displayed, etc.\nUnder certain conditions, and when an attacker can directly operate the device which its screen is unlocked by a user, the provided security features' setting pages may be exposed and/or the settings may be altered, without authentication. For example, specific applications in the device configured to be hidden may be displayed and/or activated.",
+      "cveName": "CVE-2024-53701",
+      "cveUrl": "/vuln/detail/CVE-2024-53701"
+    }
+  },
   "CVE-2024-53731": {
     "cve": {
       "cveDate": [
@@ -54744,6 +54931,17 @@
       "cveDis": "In PHP versions 8.1.* before 8.1.30, 8.2.* before 8.2.24, 8.3.* before 8.3.12, when using PHP-FPM SAPI and it is configured to catch workers output through catch_workers_output = yes, it may be possible to pollute the final log or remove up to 4 characters from the log messages by manipulating log message content. Additionally, if PHP-FPM is configured to use syslog output, it may be possible to further remove log data using the same vulnerability.",
       "cveName": "CVE-2024-9026",
       "cveUrl": "/vuln/detail/CVE-2024-9026"
+    }
+  },
+  "CVE-2024-9044": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:05 AM -0500"
+      ],
+      "cveDis": "A XML External Entity (XXE) vulnerability has been identified in Easy Tax Client Software 2023 1.2 and earlier across multiple platforms, including Windows, Linux, and macOS.",
+      "cveName": "CVE-2024-9044",
+      "cveUrl": "/vuln/detail/CVE-2024-9044"
     }
   },
   "CVE-2024-9046": {
