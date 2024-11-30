@@ -12572,6 +12572,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11992"
     }
   },
+  "CVE-2024-11995": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "4:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in code-projects Farmacia 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /pagamento.php. The manipulation of the argument total leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-11995",
+      "cveUrl": "/vuln/detail/CVE-2024-11995"
+    }
+  },
   "CVE-2024-1240": {
     "cve": {
       "cveDate": [
@@ -17610,6 +17621,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-35315"
     }
   },
+  "CVE-2024-35366": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "FFmpeg n6.1.1 is Integer Overflow. The vulnerability exists in the parse_options function of sbgdec.c within the libavformat module. When parsing certain options, the software does not adequately validate the input. This allows for negative duration values to be accepted without proper bounds checking.",
+      "cveName": "CVE-2024-35366",
+      "cveUrl": "/vuln/detail/CVE-2024-35366"
+    }
+  },
+  "CVE-2024-35367": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:19 PM -0500"
+      ],
+      "cveDis": "FFmpeg n6.1.1 has an Out-of-bounds Read via libavcodec/ppc/vp8dsp_altivec.c, static const vec_s8 h_subpel_filters_outer",
+      "cveName": "CVE-2024-35367",
+      "cveUrl": "/vuln/detail/CVE-2024-35367"
+    }
+  },
+  "CVE-2024-35368": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "FFmpeg n7.0 is affected by a Double Free via the rkmpp_retrieve_frame function within libavcodec/rkmppdec.c.",
+      "cveName": "CVE-2024-35368",
+      "cveUrl": "/vuln/detail/CVE-2024-35368"
+    }
+  },
   "CVE-2024-35369": {
     "cve": {
       "cveDate": [
@@ -17619,6 +17663,17 @@
       "cveDis": "In FFmpeg version n6.1.1, specifically within the avcodec/speexdec.c module, a potential security vulnerability exists due to insufficient validation of certain parameters when parsing Speex codec extradata. This vulnerability could lead to integer overflow conditions, potentially resulting in undefined behavior or crashes during the decoding process.",
       "cveName": "CVE-2024-35369",
       "cveUrl": "/vuln/detail/CVE-2024-35369"
+    }
+  },
+  "CVE-2024-35371": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "Ant-Media-Serverv2.8.2 is affected by Improper Output Neutralization for Logs. The vulnerability stems from insufficient input sanitization in the logging mechanism. Without proper filtering or validation, user-controllable data, such as identifiers or other sensitive information, can be included in log entries without restrictions.",
+      "cveName": "CVE-2024-35371",
+      "cveUrl": "/vuln/detail/CVE-2024-35371"
     }
   },
   "CVE-2024-35410": {
@@ -18037,6 +18092,61 @@
       "cveDis": "A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allows users to perform actions reserved for administrators, potentially leading to data breaches or system compromise.",
       "cveName": "CVE-2024-36568-1 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-3656"
+    }
+  },
+  "CVE-2024-36610": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "A deserialization vulnerability exists in the Stub class of the VarDumper module in Symfony v7.0.3. The vulnerability stems from deficiencies in the original implementation when handling properties with null or uninitialized values. An attacker could construct specific serialized data and use this vulnerability to execute unauthorized code.",
+      "cveName": "CVE-2024-36610",
+      "cveUrl": "/vuln/detail/CVE-2024-36610"
+    }
+  },
+  "CVE-2024-36611": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:06 PM -0500"
+      ],
+      "cveDis": "In Symfony v7.07, a security vulnerability was identified in the FormLoginAuthenticator component, where it failed to adequately handle cases where the username or password field of a login request is empty. This flaw could lead to various security risks, including improper authentication logic handling or denial of service.",
+      "cveName": "CVE-2024-36611",
+      "cveUrl": "/vuln/detail/CVE-2024-36611"
+    }
+  },
+  "CVE-2024-36612": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "Zulip from 8.0 to 8.3 contains a memory leak vulnerability in the handling of popovers.",
+      "cveName": "CVE-2024-36612",
+      "cveUrl": "/vuln/detail/CVE-2024-36612"
+    }
+  },
+  "CVE-2024-36615": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "FFmpeg n7.0 has a race condition vulnerability in the VP9 decoder. This could lead to a data race if video encoding parameters were being exported, as the side data would be attached in the decoder thread while being read in the output thread.",
+      "cveName": "CVE-2024-36615",
+      "cveUrl": "/vuln/detail/CVE-2024-36615"
+    }
+  },
+  "CVE-2024-36616": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:07 PM -0500"
+      ],
+      "cveDis": "An integer overflow in the component /libavformat/westwood_vqa.c of FFmpeg n6.1.1 allows attackers to cause a denial of service in the application via a crafted VQA file.",
+      "cveName": "CVE-2024-36616",
+      "cveUrl": "/vuln/detail/CVE-2024-36616"
     }
   },
   "CVE-2024-36617": {
@@ -22041,6 +22151,28 @@
       "cveDis": "Software installed and run as a non-privileged user may conduct GPU system calls to read and write freed physical memory from the GPU.",
       "cveName": "CVE-2024-43701",
       "cveUrl": "/vuln/detail/CVE-2024-43701"
+    }
+  },
+  "CVE-2024-43702": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "10:15:13 PM -0500"
+      ],
+      "cveDis": "Software installed and run as a non-privileged user may conduct improper GPU system calls to allow unprivileged access to arbitrary physical memory page.",
+      "cveName": "CVE-2024-43702",
+      "cveUrl": "/vuln/detail/CVE-2024-43702"
+    }
+  },
+  "CVE-2024-43703": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "10:15:14 PM -0500"
+      ],
+      "cveDis": "Software installed and run as a non-privileged user may conduct improper GPU system calls to achieve unauthorised reads and writes of physical memory from the GPU HW.",
+      "cveName": "CVE-2024-43703",
+      "cveUrl": "/vuln/detail/CVE-2024-43703"
     }
   },
   "CVE-2024-43704": {
@@ -47486,6 +47618,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52002"
     }
   },
+  "CVE-2024-52003": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:08 PM -0500"
+      ],
+      "cveDis": "Traefik (pronounced traffic) is an HTTP reverse proxy and load balancer. There is a vulnerability in Traefik that allows the client to provide the X-Forwarded-Prefix header from an untrusted source. This issue has been addressed in versions 2.11.14 and 3.2.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52003",
+      "cveUrl": "/vuln/detail/CVE-2024-52003"
+    }
+  },
   "CVE-2024-52004": {
     "cve": {
       "cveDate": [
@@ -49796,6 +49939,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-52799"
     }
   },
+  "CVE-2024-52800": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:08 PM -0500"
+      ],
+      "cveDis": "veraPDF is an open source PDF/A validation library. Executing policy checks using custom schematron files via the CLI invokes an XSL transformation that may theoretically lead to a remote code execution (RCE) vulnerability. This doesn't affect the standard validation and policy checks functionality, veraPDF's common use cases. Most veraPDF users don't insert any custom XSLT code into policy profiles, which are based on Schematron syntax rather than direct XSL transforms. For users who do, only load custom policy files from sources you trust. This issue has not yet been patched. Users are advised to be cautious of XSLT code until a patch is available.",
+      "cveName": "CVE-2024-52800",
+      "cveUrl": "/vuln/detail/CVE-2024-52800"
+    }
+  },
+  "CVE-2024-52801": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:08 PM -0500"
+      ],
+      "cveDis": "sftpgo is a full-featured and highly configurable event-driven file transfer solution. Server protocols: SFTP, HTTP/S, FTP/S, WebDAV. The OpenID Connect implementation allows authenticated users to brute force session cookies and thereby gain access to other users' data, since the cookies are generated predictably using the xid library and are therefore unique but not cryptographically secure. This issue was fixed in version v2.6.4, where cookies are opaque and cryptographically secure strings. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52801",
+      "cveUrl": "/vuln/detail/CVE-2024-52801"
+    }
+  },
   "CVE-2024-52802": {
     "cve": {
       "cveDate": [
@@ -49827,6 +49992,28 @@
       "cveDis": "Tornado is a Python web framework and asynchronous networking library. The algorithm used for parsing HTTP cookies in Tornado versions prior to 6.4.2 sometimes has quadratic complexity, leading to excessive CPU consumption when parsing maliciously-crafted cookie headers. This parsing occurs in the event loop thread and may block the processing of other requests. Version 6.4.2 fixes the issue.",
       "cveName": "CVE-2024-52804",
       "cveUrl": "/vuln/detail/CVE-2024-52804"
+    }
+  },
+  "CVE-2024-52809": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:09 PM -0500"
+      ],
+      "cveDis": "vue-i18n  is an internationalization plugin for Vue.js. In affected versions vue-i18n can be passed locale messages to `createI18n` or `useI18n`. When locale message ASTs are generated in development mode there is a possibility of Cross-site Scripting attack. This issue has been addressed in versions 9.14.2, and 10.0.5. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52809",
+      "cveUrl": "/vuln/detail/CVE-2024-52809"
+    }
+  },
+  "CVE-2024-52810": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:09 PM -0500"
+      ],
+      "cveDis": "@intlify/shared is a shared library for the intlify project. The latest version of @intlify/shared (10.0.4) is vulnerable to Prototype Pollution through the entry function(s) lib.deepCopy. An attacker can supply a payload with Object.prototype setter to introduce or modify properties within the global prototype chain, causing denial of service (DoS) as the minimum consequence. Moreover, the consequences of this vulnerability can escalate to other injection-based attacks, depending on how the library integrates within the application. For instance, if the polluted property propagates to sensitive Node.js APIs (e.g., exec, eval), it could enable an attacker to execute arbitrary commands within the application's context. This issue has been addressed in versions 9.14.2, and 10.0.5. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-52810",
+      "cveUrl": "/vuln/detail/CVE-2024-52810"
     }
   },
   "CVE-2024-52811": {
@@ -51028,6 +51215,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-53438"
     }
   },
+  "CVE-2024-53504": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "A SQL injection vulnerability has been identified in Siyuan 3.1.11 via the notebook parameter in /searchHistory.",
+      "cveName": "CVE-2024-53504",
+      "cveUrl": "/vuln/detail/CVE-2024-53504"
+    }
+  },
+  "CVE-2024-53505": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "A SQL injection vulnerability has been identified in Siyuan 3.1.11 via the id parameter at /getAssetContent.",
+      "cveName": "CVE-2024-53505",
+      "cveUrl": "/vuln/detail/CVE-2024-53505"
+    }
+  },
+  "CVE-2024-53506": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "A SQL injection vulnerability has been identified in Siyuan 3.1.11 via the ids array parameter in /batchGetBlockAttrs.",
+      "cveName": "CVE-2024-53506",
+      "cveUrl": "/vuln/detail/CVE-2024-53506"
+    }
+  },
+  "CVE-2024-53507": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "3:15:21 PM -0500"
+      ],
+      "cveDis": "A SQL injection vulnerability was discovered in Siyuan 3.1.11 in /getHistoryItems.",
+      "cveName": "CVE-2024-53507",
+      "cveUrl": "/vuln/detail/CVE-2024-53507"
+    }
+  },
   "CVE-2024-53554": {
     "cve": {
       "cveDate": [
@@ -51125,6 +51356,17 @@
       "cveDis": "A cross-site scripting (XSS) vulnerability in the Article module of SPIP v4.3.3 allows authenticated attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Title parameter.",
       "cveName": "CVE-2024-53620",
       "cveUrl": "/vuln/detail/CVE-2024-53620"
+    }
+  },
+  "CVE-2024-53623": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "Incorrect access control in the component l_0_0.xml of TP-Link ARCHER-C7 v5 allows attackers to access sensitive information.",
+      "cveName": "CVE-2024-53623",
+      "cveUrl": "/vuln/detail/CVE-2024-53623"
     }
   },
   "CVE-2024-53635": {
@@ -51281,6 +51523,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53844"
     }
   },
+  "CVE-2024-53848": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:09 PM -0500"
+      ],
+      "cveDis": "check-jsonschema is a CLI and set of pre-commit hooks for jsonschema validation. The default cache strategy uses the basename of a remote schema as the name of the file in the cache, e.g. `https://example.org/schema.json` will be stored as `schema.json`. This naming allows for conflicts. If an attacker can get a user to run `check-jsonschema` against a malicious schema URL, e.g., `https://example.evil.org/schema.json`, they can insert their own schema into the cache and it will be picked up and used instead of the appropriate schema. Such a cache confusion attack could be used to allow data to pass validation which should have been rejected. This issue has been patched in version 0.30.0. All users are advised to upgrade. A few workarounds exist: 1. Users can use `--no-cache` to disable caching. 2. Users can use `--cache-filename` to select filenames for use in the cache, or to ensure that other usages do not overwrite the cached schema. (Note: this flag is being deprecated as part of the remediation effort.) 3. Users can explicitly download the schema before use as a local file, as in `curl -LOs https://example.org/schema.json; check-jsonschema --schemafile ./schema.json`",
+      "cveName": "CVE-2024-53848",
+      "cveUrl": "/vuln/detail/CVE-2024-53848"
+    }
+  },
   "CVE-2024-53849": {
     "cve": {
       "cveDate": [
@@ -51334,6 +51587,39 @@
       "cveDis": "sp-php-email-handler is a PHP package for handling contact form submissions. Messages sent using this script are vulnerable to abuse, as the script allows anybody to specify arbitrary email recipients and include user-provided content in confirmation emails. This could enable malicious actors to use your server to send spam, phishing emails, or other malicious content, potentially damaging your domain's reputation and leading to blacklisting by email providers. Patched in version 1.0.0 by removing user-provided content from confirmation emails. All pre-release versions (alpha and beta) are vulnerable to this issue and should not be used. There are no workarounds for this issue. Users must upgrade to version 1.0.0 to mitigate the vulnerability.",
       "cveName": "CVE-2024-53860",
       "cveUrl": "/vuln/detail/CVE-2024-53860"
+    }
+  },
+  "CVE-2024-53861": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:09 PM -0500"
+      ],
+      "cveDis": "pyjwt is a JSON Web Token implementation in Python. An incorrect string comparison is run for `iss` checking, resulting in `\"acb\"` being accepted for `\"_abc_\"`. This is a bug introduced in version 2.10.0: checking the \"iss\" claim changed from `isinstance(issuer, list)` to `isinstance(issuer, Sequence)`. Since str is a Sequnce, but not a list, `in` is also used for string comparison. This results in `if \"abc\" not in \"__abcd__\":` being checked instead of `if \"abc\" != \"__abc__\":`. Signature checks are still present so real world impact is likely limited to denial of service scenarios. This issue has been patched in version 2.10.1. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-53861",
+      "cveUrl": "/vuln/detail/CVE-2024-53861"
+    }
+  },
+  "CVE-2024-53864": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:09 PM -0500"
+      ],
+      "cveDis": "Ibexa Admin UI Bundle is all the necessary parts to run the Ibexa DXP Back Office interface. The Content name pattern is used to build Content names from one or more fields. An XSS vulnerability has been found in this mechanism. Content edit permission is required to exploit it. After the fix, any existing injected XSS will not run. This issue has been patched in version 4.6.14. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-53864",
+      "cveUrl": "/vuln/detail/CVE-2024-53864"
+    }
+  },
+  "CVE-2024-53865": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:09 PM -0500"
+      ],
+      "cveDis": "zhmcclient is a pure Python client library for the IBM Z HMC Web Services API. In affected versions the Python package \"zhmcclient\" writes password-like properties in clear text into its HMC and API logs in the following cases: 1. The 'boot-ftp-password' and 'ssc-master-pw' properties when creating or updating a partition in DPM mode, in the zhmcclient API and HMC logs. 2. The 'ssc-master-pw' and 'zaware-master-pw' properties when updating an LPAR in classic mode, in the zhmcclient API and HMC logs. 3. The 'ssc-master-pw' and 'zaware-master-pw' properties when creating or updating an image activation profile in classic mode, in the zhmcclient API and HMC logs. 4. The 'password' property when creating or updating an HMC user, in the zhmcclient API log. 5. The 'bind-password' property when creating or updating an LDAP server definition, in the zhmcclient API and HMC logs. This issue affects only users of the zhmcclient package that have enabled the Python loggers named \"zhmcclient.api\" (for the API log) or \"zhmcclient.hmc\" (for the HMC log) and that use the functions listed above. This issue has been fixed in zhmcclient version 1.18.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-53865",
+      "cveUrl": "/vuln/detail/CVE-2024-53865"
     }
   },
   "CVE-2024-53899": {
@@ -51490,6 +51776,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-53976"
     }
   },
+  "CVE-2024-53979": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:09 PM -0500"
+      ],
+      "cveDis": "ibm.ibm_zhmc is an Ansible collection for the IBM Z HMC. The Ansible collection \"ibm.ibm_zhmc\" writes password-like properties in clear text into its log file and into the output returned by some of its Ansible module in the following cases: 1. The 'boot_ftp_password' and 'ssc_master_pw' properties are passed as input to the zhmc_partition Ansible module. 2. The 'ssc_master_pw' and 'zaware_master_pw' properties are passed as input to the zhmc_lpar Ansible module. 3. The 'password' property is passed as input to the zhmc_user Ansible module (just in log file, not in module output). 4. The 'bind_password' property is passed as input to the zhmc_ldap_server_definition Ansible module. These properties appear in the module output only when they were specified in the module input and when creating or updating the corresponding resources. They do not appear in the output when retrieving facts for the corresponding resources. These properties appear in the log file only when the \"log_file\" module input parameter is used. By default, no log file is created. This issue has been fixed in ibm.ibm_zhmc version 1.9.3. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cveName": "CVE-2024-53979",
+      "cveUrl": "/vuln/detail/CVE-2024-53979"
+    }
+  },
+  "CVE-2024-53980": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:09 PM -0500"
+      ],
+      "cveDis": "RIOT is an open-source microcontroller operating system, designed to match the requirements of Internet of Things (IoT) devices and other embedded devices. A malicious actor can send a IEEE 802.15.4 packet with spoofed length byte and optionally spoofed FCS, which eventually results into an endless loop on a CC2538 as receiver. Before PR #20998, the receiver would check for the location of the CRC bit using the packet length byte by considering all 8 bits, instead of discarding bit 7, which is what the radio does. This then results into reading outside of the RX FIFO.  Although it prints an error when attempting to read outside of the RX FIFO, it will continue doing this. This may lead to a discrepancy in the CRC check according to the firmware and the radio. If the CPU judges the CRC as correct and the radio is set to `AUTO_ACK`, when the packet requests and acknowledgment the CPU will go into the state `CC2538_STATE_TX_ACK`. However, if the radio judged the CRC as incorrect, it will not send an acknowledgment, and thus the `TXACKDONE` event will not fire. It will then never return to the state `CC2538_STATE_READY` since the baseband processing is still disabled. Then the CPU will be in an endless loop. Since setting to idle is not forced, it won't do it if the radio's state is not `CC2538_STATE_READY`. A fix has not yet been made.",
+      "cveName": "CVE-2024-53980",
+      "cveUrl": "/vuln/detail/CVE-2024-53980"
+    }
+  },
+  "CVE-2024-53983": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "2:15:10 PM -0500"
+      ],
+      "cveDis": "The Backstage Scaffolder plugin Houses types and utilities for building scaffolder-related modules. A vulnerability is identified in Backstage Scaffolder template functionality where Server-Side Template Injection (SSTI) can be exploited to perform Git config injection. The vulnerability allows an attacker to capture privileged git tokens used by the Backstage Scaffolder plugin. With these tokens, unauthorized access to sensitive resources in git can be achieved. The impact is considered medium severity as the Backstage Threat Model recommends restricting access to adding and editing templates in the Backstage Catalog plugin. The issue has been resolved in versions `v0.4.12`, `v0.5.1` and `v0.6.1` of the `@backstage/plugin-scaffolder-node` package. Users are encouraged to upgrade to this version to mitigate the vulnerability. Users are advised to upgrade. Users unable to upgrade may ensure that templates do not change git config.",
+      "cveName": "CVE-2024-53983",
+      "cveUrl": "/vuln/detail/CVE-2024-53983"
+    }
+  },
   "CVE-2024-54003": {
     "cve": {
       "cveDate": [
@@ -51532,6 +51851,17 @@
       "cveDis": "In Click Studios Passwordstate before build 9920, there is a potential permission escalation on the edit folder screen.",
       "cveName": "CVE-2024-54124",
       "cveUrl": "/vuln/detail/CVE-2024-54124"
+    }
+  },
+  "CVE-2024-54159": {
+    "cve": {
+      "cveDate": [
+        "November 29, 2024",
+        "5:15:07 PM -0500"
+      ],
+      "cveDis": "stalld through 1.19.7 allows local users to cause a denial of service (file overwrite) via a /tmp/rtthrottle symlink attack.",
+      "cveName": "CVE-2024-54159",
+      "cveUrl": "/vuln/detail/CVE-2024-54159"
     }
   },
   "CVE-2024-5429": {
