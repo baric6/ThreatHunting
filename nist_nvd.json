@@ -6962,6 +6962,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10488"
     }
   },
+  "CVE-2024-10490": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "An “Authentication Bypass Using an Alternate Path or Channel” vulnerability in the OPC UA Server configuration required for B&R mapp Cockpit before 6.0, B&R mapp View before 6.0, B&R mapp Services before 6.0, B&R mapp Motion before 6.0 and B&R mapp Vision before 6.0 may be used by an unauthenticated network-based attacker to cause information disclosure, unintended change of data, or denial of service conditions.\nB&R mapp Services is only affected, when mpUserX or mpCodeBox are used in the Automation Studio project.",
+      "cveName": "CVE-2024-10490",
+      "cveUrl": "/vuln/detail/CVE-2024-10490"
+    }
+  },
   "CVE-2024-10491": {
     "cve": {
       "cveDate": [
@@ -16994,6 +17005,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-33033"
     }
   },
+  "CVE-2024-330366-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:06 AM -0500"
+      ],
+      "cveDis": "Memory corruption while parsing sensor packets in camera driver, user-space variable is used while allocating memory in kernel and parsing which can lead to huge allocation or invalid memory access.",
+      "cveName": "CVE-2024-330366-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33036"
+    }
+  },
+  "CVE-2024-330376-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:07 AM -0500"
+      ],
+      "cveDis": "Information disclosure as NPU firmware can send invalid IPC message to NPU driver as the driver doesn`t validate the IPC message received from the firmware.",
+      "cveName": "CVE-2024-330376-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33037"
+    }
+  },
+  "CVE-2024-330396-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:07 AM -0500"
+      ],
+      "cveDis": "Memory corruption when PAL client calls PAL service APIs by passing a random value as handle and the handle is not validated by the service.",
+      "cveName": "CVE-2024-330396-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33039"
+    }
+  },
+  "CVE-2024-330406-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:08 AM -0500"
+      ],
+      "cveDis": "Memory corruption while invoking redundant release command to release one buffer from user space as race condition can occur in kernel space between buffer release and buffer access.",
+      "cveName": "CVE-2024-330406-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33040"
+    }
+  },
+  "CVE-2024-330448-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:08 AM -0500"
+      ],
+      "cveDis": "Memory corruption while Configuring the SMR/S2CR register in Bypass mode.",
+      "cveName": "CVE-2024-330448-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33044"
+    }
+  },
   "CVE-2024-33049": {
     "cve": {
       "cveDate": [
@@ -17003,6 +17069,39 @@
       "cveDis": "Transient DOS while parsing noninheritance IE of Extension element when length of IE is 2 of beacon frame.",
       "cveName": "CVE-2024-33049",
       "cveUrl": "/vuln/detail/CVE-2024-33049"
+    }
+  },
+  "CVE-2024-330536-7 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:08 AM -0500"
+      ],
+      "cveDis": "Memory corruption when multiple threads try to unregister the CVP buffer at the same time.",
+      "cveName": "CVE-2024-330536-7 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-33053"
+    }
+  },
+  "CVE-2024-330568-4 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:08 AM -0500"
+      ],
+      "cveDis": "Memory corruption when allocating and accessing an entry in an SMEM partition continuously.",
+      "cveName": "CVE-2024-330568-4 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33056"
+    }
+  },
+  "CVE-2024-330637-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:08 AM -0500"
+      ],
+      "cveDis": "Transient DOS while parsing the ML IE when a beacon with common info length of the ML IE greater than the ML IE inside which this element is present.",
+      "cveName": "CVE-2024-330637-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-33063"
     }
   },
   "CVE-2024-330648-2 HIGH": {
@@ -21337,6 +21436,61 @@
       "cveDis": "Memory corruption while maintaining memory maps of HLOS memory.",
       "cveName": "CVE-2024-430477-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-43047"
+    }
+  },
+  "CVE-2024-430487-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:08 AM -0500"
+      ],
+      "cveDis": "Memory corruption when invalid input is passed to invoke GPU Headroom API call.",
+      "cveName": "CVE-2024-430487-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43048"
+    }
+  },
+  "CVE-2024-430497-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:09 AM -0500"
+      ],
+      "cveDis": "Memory corruption while invoking IOCTL calls from user space to set generic private command inside WLAN driver.",
+      "cveName": "CVE-2024-430497-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43049"
+    }
+  },
+  "CVE-2024-430507-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:09 AM -0500"
+      ],
+      "cveDis": "Memory corruption while invoking IOCTL calls from user space to issue factory test command inside WLAN driver.",
+      "cveName": "CVE-2024-430507-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43050"
+    }
+  },
+  "CVE-2024-430527-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:09 AM -0500"
+      ],
+      "cveDis": "Memory corruption while processing API calls to NPU with invalid input.",
+      "cveName": "CVE-2024-430527-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43052"
+    }
+  },
+  "CVE-2024-430537-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:09 AM -0500"
+      ],
+      "cveDis": "Memory corruption while invoking IOCTL calls from user space to read WLAN target diagnostic information.",
+      "cveName": "CVE-2024-430537-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-43053"
     }
   },
   "CVE-2024-4311": {
@@ -51301,6 +51455,28 @@
       "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvme: make keep-alive synchronous operation\n\nThe nvme keep-alive operation, which executes at a periodic interval,\ncould potentially sneak in while shutting down a fabric controller.\nThis may lead to a race between the fabric controller admin queue\ndestroy code path (invoked while shutting down controller) and hw/hctx\nqueue dispatcher called from the nvme keep-alive async request queuing\noperation. This race could lead to the kernel crash shown below:\n\nCall Trace:\n    autoremove_wake_function+0x0/0xbc (unreliable)\n    __blk_mq_sched_dispatch_requests+0x114/0x24c\n    blk_mq_sched_dispatch_requests+0x44/0x84\n    blk_mq_run_hw_queue+0x140/0x220\n    nvme_keep_alive_work+0xc8/0x19c [nvme_core]\n    process_one_work+0x200/0x4e0\n    worker_thread+0x340/0x504\n    kthread+0x138/0x140\n    start_kernel_thread+0x14/0x18\n\nWhile shutting down fabric controller, if nvme keep-alive request sneaks\nin then it would be flushed off. The nvme_keep_alive_end_io function is\nthen invoked to handle the end of the keep-alive operation which\ndecrements the admin->q_usage_counter and assuming this is the last/only\nrequest in the admin queue then the admin->q_usage_counter becomes zero.\nIf that happens then blk-mq destroy queue operation (blk_mq_destroy_\nqueue()) which could be potentially running simultaneously on another\ncpu (as this is the controller shutdown code path) would forward\nprogress and deletes the admin queue. So, now from this point onward\nwe are not supposed to access the admin queue resources. However the\nissue here's that the nvme keep-alive thread running hw/hctx queue\ndispatch operation hasn't yet finished its work and so it could still\npotentially access the admin queue resource while the admin queue had\nbeen already deleted and that causes the above crash.\n\nThis fix helps avoid the observed crash by implementing keep-alive as a\nsynchronous operation so that we decrement admin->q_usage_counter only\nafter keep-alive command finished its execution and returns the command\nstatus back up to its caller (blk_execute_rq()). This would ensure that\nfabric shutdown code path doesn't destroy the fabric admin queue until\nkeep-alive request finished execution and also keep-alive thread is not\nrunning hw/hctx queue dispatch operation.",
       "cveName": "CVE-2024-53102",
       "cveUrl": "/vuln/detail/CVE-2024-53102"
+    }
+  },
+  "CVE-2024-53103": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "3:15:08 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nhv_sock: Initializing vsk->trans to NULL to prevent a dangling pointer\n\nWhen hvs is released, there is a possibility that vsk->trans may not\nbe initialized to NULL, which could lead to a dangling pointer.\nThis issue is resolved by initializing vsk->trans to NULL.",
+      "cveName": "CVE-2024-53103",
+      "cveUrl": "/vuln/detail/CVE-2024-53103"
+    }
+  },
+  "CVE-2024-53104": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "3:15:08 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format\n\nThis can lead to out of bounds writes since frames of this type were not\ntaken into account when calculating the size of the frames buffer in\nuvc_parse_streaming.",
+      "cveName": "CVE-2024-53104",
+      "cveUrl": "/vuln/detail/CVE-2024-53104"
     }
   },
   "CVE-2024-53255": {
