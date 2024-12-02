@@ -12231,6 +12231,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11828"
     }
   },
+  "CVE-2024-11856": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "10:15:13 PM -0500"
+      ],
+      "cveDis": "A security vulnerability in HPE IceWall products could be exploited remotely to cause Unauthorized Data Modification.",
+      "cveName": "CVE-2024-11856",
+      "cveUrl": "/vuln/detail/CVE-2024-11856"
+    }
+  },
   "CVE-2024-11860": {
     "cve": {
       "cveDate": [
@@ -12660,6 +12671,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-12002"
     }
   },
+  "CVE-2024-12007": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in code-projects Farmacia 1.0. This affects an unknown part of the file /visualizar-produto.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12007",
+      "cveUrl": "/vuln/detail/CVE-2024-12007"
+    }
+  },
   "CVE-2024-1240": {
     "cve": {
       "cveDate": [
@@ -12957,6 +12979,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-20115"
     }
   },
+  "CVE-2024-20116": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "In cmdq, there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09057438; Issue ID: MSV-1696.",
+      "cveName": "CVE-2024-20116",
+      "cveUrl": "/vuln/detail/CVE-2024-20116"
+    }
+  },
   "CVE-2024-20117": {
     "cve": {
       "cveDate": [
@@ -13043,6 +13076,160 @@
       "cveDis": "In vdec, there is a possible out of bounds read due to improper structure design. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09008925; Issue ID: MSV-1568.",
       "cveName": "CVE-2024-20124",
       "cveUrl": "/vuln/detail/CVE-2024-20124"
+    }
+  },
+  "CVE-2024-20125": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "In vdec, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09046782; Issue ID: MSV-1728.",
+      "cveName": "CVE-2024-20125",
+      "cveUrl": "/vuln/detail/CVE-2024-20125"
+    }
+  },
+  "CVE-2024-20127": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "In Telephony, there is a possible out of bounds read due to a missing bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09289881; Issue ID: MSV-2023.",
+      "cveName": "CVE-2024-20127",
+      "cveUrl": "/vuln/detail/CVE-2024-20127"
+    }
+  },
+  "CVE-2024-20128": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "In Telephony, there is a possible out of bounds read due to a missing bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09289881; Issue ID: MSV-2024.",
+      "cveName": "CVE-2024-20128",
+      "cveUrl": "/vuln/detail/CVE-2024-20128"
+    }
+  },
+  "CVE-2024-20129": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "In Telephony, there is a possible out of bounds read due to a missing bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09289881; Issue ID: MSV-2025.",
+      "cveName": "CVE-2024-20129",
+      "cveUrl": "/vuln/detail/CVE-2024-20129"
+    }
+  },
+  "CVE-2024-20130": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "In power, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09193374; Issue ID: MSV-1982.",
+      "cveName": "CVE-2024-20130",
+      "cveUrl": "/vuln/detail/CVE-2024-20130"
+    }
+  },
+  "CVE-2024-20131": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "In Modem, there is a possible escalation of privilege due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY01395886; Issue ID: MSV-1873.",
+      "cveName": "CVE-2024-20131",
+      "cveUrl": "/vuln/detail/CVE-2024-20131"
+    }
+  },
+  "CVE-2024-20132": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "In Modem, there is a possible out of bonds write due to a mission bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY00957388; Issue ID: MSV-1872.",
+      "cveName": "CVE-2024-20132",
+      "cveUrl": "/vuln/detail/CVE-2024-20132"
+    }
+  },
+  "CVE-2024-20133": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "In Modem, there is a possible escalation of privilege due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY01395886; Issue ID: MSV-1871.",
+      "cveName": "CVE-2024-20133",
+      "cveUrl": "/vuln/detail/CVE-2024-20133"
+    }
+  },
+  "CVE-2024-20134": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "In ril, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09154589; Issue ID: MSV-1866.",
+      "cveName": "CVE-2024-20134",
+      "cveUrl": "/vuln/detail/CVE-2024-20134"
+    }
+  },
+  "CVE-2024-20135": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "In soundtrigger, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09142526; Issue ID: MSV-1841.",
+      "cveName": "CVE-2024-20135",
+      "cveUrl": "/vuln/detail/CVE-2024-20135"
+    }
+  },
+  "CVE-2024-20136": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "In da, there is a possible out of bounds read due to a missing bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09121847; Issue ID: MSV-1821.",
+      "cveName": "CVE-2024-20136",
+      "cveUrl": "/vuln/detail/CVE-2024-20136"
+    }
+  },
+  "CVE-2024-20137": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:06 PM -0500"
+      ],
+      "cveDis": "In wlan driver, there is a possible client disconnection due to improper handling of exceptional conditions. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: WCNCR00384543; Issue ID: MSV-1727.",
+      "cveName": "CVE-2024-20137",
+      "cveUrl": "/vuln/detail/CVE-2024-20137"
+    }
+  },
+  "CVE-2024-20138": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:06 PM -0500"
+      ],
+      "cveDis": "In wlan driver, there is a possible out of bound read due to improper input validation. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS08998291; Issue ID: MSV-1604.",
+      "cveName": "CVE-2024-20138",
+      "cveUrl": "/vuln/detail/CVE-2024-20138"
+    }
+  },
+  "CVE-2024-20139": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "11:15:06 PM -0500"
+      ],
+      "cveDis": "In Bluetooth firmware, there is a possible firmware asssert due to improper handling of exceptional conditions. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09001270; Issue ID: MSV-1600.",
+      "cveName": "CVE-2024-20139",
+      "cveUrl": "/vuln/detail/CVE-2024-20139"
     }
   },
   "CVE-2024-20260": {
@@ -25275,6 +25462,17 @@
       "cveDis": "The postjournal service in Zimbra Collaboration (ZCS) before 8.8.15 Patch 46, 9 before 9.0.0 Patch 41, 10 before 10.0.9, and 10.1 before 10.1.1 sometimes allows unauthenticated users to execute commands.",
       "cveName": "CVE-2024-455199-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-45519"
+    }
+  },
+  "CVE-2024-45520": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "4:15:04 PM -0500"
+      ],
+      "cveDis": "WithSecure Atlant (formerly F-Secure Atlant) 1.0.35-1 allows a remote Denial of Service because of memory corruption during scanning of a PE32 file.",
+      "cveName": "CVE-2024-45520",
+      "cveUrl": "/vuln/detail/CVE-2024-45520"
     }
   },
   "CVE-2024-45526": {
@@ -51413,6 +51611,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53604"
     }
   },
+  "CVE-2024-53605": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "Incorrect access control in the component content://com.handcent.messaging.provider.MessageProvider/ of Handcent NextSMS v10.9.9.7 allows attackers to access sensitive data.",
+      "cveName": "CVE-2024-53605",
+      "cveUrl": "/vuln/detail/CVE-2024-53605"
+    }
+  },
   "CVE-2024-53619": {
     "cve": {
       "cveDate": [
@@ -51598,6 +51807,116 @@
       "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Cool Plugins Cryptocurrency Widgets For Elementor allows PHP Local File Inclusion.This issue affects Cryptocurrency Widgets For Elementor: from n/a through 1.6.4.",
       "cveName": "CVE-2024-53739",
       "cveUrl": "/vuln/detail/CVE-2024-53739"
+    }
+  },
+  "CVE-2024-53742": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Prism I.T. Systems Multilevel Referral Affiliate Plugin for WooCommerce allows Reflected XSS.This issue affects Multilevel Referral Affiliate Plugin for WooCommerce: from n/a through 2.27.",
+      "cveName": "CVE-2024-53742",
+      "cveUrl": "/vuln/detail/CVE-2024-53742"
+    }
+  },
+  "CVE-2024-53743": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in FlickDevs Countdown Timer for Elementor allows Stored XSS.This issue affects Countdown Timer for Elementor: from n/a through 1.3.6.",
+      "cveName": "CVE-2024-53743",
+      "cveUrl": "/vuln/detail/CVE-2024-53743"
+    }
+  },
+  "CVE-2024-53744": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Skybootstrap Elementor Image Gallery Plugin allows Stored XSS.This issue affects Elementor Image Gallery Plugin: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-53744",
+      "cveUrl": "/vuln/detail/CVE-2024-53744"
+    }
+  },
+  "CVE-2024-53745": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in 코스모스팜 – Cosmosfarm 소셜 공유 버튼 By 코스모스팜 allows Stored XSS.This issue affects 소셜 공유 버튼 By 코스모스팜: from n/a through 1.9.",
+      "cveName": "CVE-2024-53745",
+      "cveUrl": "/vuln/detail/CVE-2024-53745"
+    }
+  },
+  "CVE-2024-53746": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in FlickDevs Elementor Button Plus allows Stored XSS.This issue affects Elementor Button Plus: from n/a through 1.3.3.",
+      "cveName": "CVE-2024-53746",
+      "cveUrl": "/vuln/detail/CVE-2024-53746"
+    }
+  },
+  "CVE-2024-53747": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NuttTaro Video Player for WPBakery allows Stored XSS.This issue affects Video Player for WPBakery: from n/a through 1.0.1.",
+      "cveName": "CVE-2024-53747",
+      "cveUrl": "/vuln/detail/CVE-2024-53747"
+    }
+  },
+  "CVE-2024-53748": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "5:15:05 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Terry Lin WP Mermaid allows Stored XSS.This issue affects WP Mermaid: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-53748",
+      "cveUrl": "/vuln/detail/CVE-2024-53748"
+    }
+  },
+  "CVE-2024-53749": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "5:15:06 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Plugin Devs Post Carousel Slider for Elementor allows Stored XSS.This issue affects Post Carousel Slider for Elementor: from n/a through 1.4.0.",
+      "cveName": "CVE-2024-53749",
+      "cveUrl": "/vuln/detail/CVE-2024-53749"
+    }
+  },
+  "CVE-2024-53750": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "5:15:06 PM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Maeve Lander PayPal Responder allows Stored XSS.This issue affects PayPal Responder: from n/a through 1.2.",
+      "cveName": "CVE-2024-53750",
+      "cveUrl": "/vuln/detail/CVE-2024-53750"
+    }
+  },
+  "CVE-2024-53752": {
+    "cve": {
+      "cveDate": [
+        "December 01, 2024",
+        "5:15:06 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Berg Informatik Stripe Donation allows Stored XSS.This issue affects Stripe Donation: from n/a through 1.2.5.",
+      "cveName": "CVE-2024-53752",
+      "cveUrl": "/vuln/detail/CVE-2024-53752"
     }
   },
   "CVE-2024-53756": {
