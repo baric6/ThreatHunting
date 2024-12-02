@@ -8931,6 +8931,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10900"
     }
   },
+  "CVE-2024-10905": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:10 AM -0500"
+      ],
+      "cveDis": "IdentityIQ 8.4 and all 8.4 patch levels prior to 8.4p2, IdentityIQ 8.3 and all 8.3 patch levels prior to 8.3p5, IdentityIQ 8.2 and all 8.2 patch levels prior to 8.2p8, and all prior versions allows HTTP access to static content in the IdentityIQ application directory that should be protected.",
+      "cveName": "CVE-2024-10905",
+      "cveUrl": "/vuln/detail/CVE-2024-10905"
+    }
+  },
   "CVE-2024-109138-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -16356,6 +16367,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-29292"
     }
   },
+  "CVE-2024-29645": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:10 AM -0500"
+      ],
+      "cveDis": "Buffer Overflow vulnerability in radarorg radare2 v.5.8.8 allows an attacker to execute arbitrary code via the parse_die function.",
+      "cveName": "CVE-2024-29645",
+      "cveUrl": "/vuln/detail/CVE-2024-29645"
+    }
+  },
   "CVE-2024-29821": {
     "cve": {
       "cveDate": [
@@ -16706,6 +16728,17 @@
       "cveDis": "Redis is an open source, in-memory database that persists on disk. An authenticated user may use a specially crafted Lua script to trigger a stack buffer overflow in the bit library, which may potentially lead to remote code execution. The problem exists in all versions of Redis with Lua scripting. This problem has been fixed in Redis versions 6.2.16, 7.2.6, and 7.4.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-31449",
       "cveUrl": "/vuln/detail/CVE-2024-31449"
+    }
+  },
+  "CVE-2024-31669": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "rizin before Release v0.6.3 is vulnerable to Uncontrolled Resource Consumption via bin_pe_parse_imports, Pe_r_bin_pe_parse_var, and estimate_slide.",
+      "cveName": "CVE-2024-31669",
+      "cveUrl": "/vuln/detail/CVE-2024-31669"
     }
   },
   "CVE-2024-31695": {
@@ -19445,6 +19478,17 @@
       "cveDis": "Authenticated users can upload specifically crafted files to leak server resources. This behavior can potentially be used to run a denial of service attack against Cloud Controller.\n\nThe Cloud Foundry project recommends upgrading the following releases:\n\n  *  Upgrade capi release version to 1.194.0 or greater\n  *  Upgrade cf-deployment version to v44.1.0 or greater. This includes a patched capi release",
       "cveName": "CVE-2024-38826",
       "cveUrl": "/vuln/detail/CVE-2024-38826"
+    }
+  },
+  "CVE-2024-38827": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "The usage of String.toLowerCase() and String.toUpperCase() has some Locale dependent exceptions that could potentially result in authorization rules not working properly.",
+      "cveName": "CVE-2024-38827",
+      "cveUrl": "/vuln/detail/CVE-2024-38827"
     }
   },
   "CVE-2024-38828": {
@@ -27519,6 +27563,61 @@
       "cveDis": "A vulnerability in Trend Micro Deep Discovery Inspector (DDI) versions 5.8 and above could allow an attacker to disclose sensitive information affected installations.\n\nPlease note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
       "cveName": "CVE-2024-46903",
       "cveUrl": "/vuln/detail/CVE-2024-46903"
+    }
+  },
+  "CVE-2024-46905": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "In WhatsUp Gold versions released before 2024.0.1, a SQL Injection vulnerability allows an authenticated lower-privileged user (at least Network Manager permissions required) to achieve privilege escalation to the admin account.",
+      "cveName": "CVE-2024-46905",
+      "cveUrl": "/vuln/detail/CVE-2024-46905"
+    }
+  },
+  "CVE-2024-46906": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "In WhatsUp Gold versions released before 2024.0.1, a SQL Injection vulnerability allows an authenticated low-privileged user (at least Report Viewer permissions required)  to achieve privilege escalation to the admin account.",
+      "cveName": "CVE-2024-46906",
+      "cveUrl": "/vuln/detail/CVE-2024-46906"
+    }
+  },
+  "CVE-2024-46907": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "In WhatsUp Gold versions released before 2024.0.1, a SQL Injection vulnerability allows an authenticated low-privileged user (at least Report Viewer permissions required) to achieve privilege escalation to the admin account.",
+      "cveName": "CVE-2024-46907",
+      "cveUrl": "/vuln/detail/CVE-2024-46907"
+    }
+  },
+  "CVE-2024-46908": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:11 AM -0500"
+      ],
+      "cveDis": "In WhatsUp Gold versions released before 2024.0.1, a SQL Injection vulnerability allows an authenticated low-privileged user (at least Report Viewer permissions required)\n\n to achieve privilege escalation to the admin account.",
+      "cveName": "CVE-2024-46908",
+      "cveUrl": "/vuln/detail/CVE-2024-46908"
+    }
+  },
+  "CVE-2024-46909": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:12 AM -0500"
+      ],
+      "cveDis": "In WhatsUp Gold versions released before 2024.0.1, a remote unauthenticated attacker could leverage this vulnerability to execute code in the context of the service account.",
+      "cveName": "CVE-2024-46909",
+      "cveUrl": "/vuln/detail/CVE-2024-46909"
     }
   },
   "CVE-2024-46911": {
@@ -39071,6 +39170,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49762"
     }
   },
+  "CVE-2024-49763": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "PlexRipper is a cross-platform media downloader for Plex. PlexRipper’s open CORS policy allows attackers to gain sensitive information from PlexRipper by getting the user to access the attacker’s domain. This allows an attacking website to access the /api/PlexAccount endpoint and steal the user’s Plex login. This vulnerability is fixed in 0.24.0.",
+      "cveName": "CVE-2024-49763",
+      "cveUrl": "/vuln/detail/CVE-2024-49763"
+    }
+  },
   "CVE-2024-49766": {
     "cve": {
       "cveDate": [
@@ -42908,6 +43018,28 @@
       "cveDis": "Airflow versions before 2.10.3 have a vulnerability that allows authenticated users with audit log access to see sensitive values in audit logs which they should not see. When sensitive variables were set via airflow CLI, values of those variables appeared in the audit log and were stored unencrypted in the Airflow database. While this risk is limited to users with audit log access, it is recommended to upgrade to Airflow 2.10.3 or a later version, which addresses this issue. Users who previously used the CLI to set secret variables should manually delete entries with those variables from the log table.",
       "cveName": "CVE-2024-50378",
       "cveUrl": "/vuln/detail/CVE-2024-50378"
+    }
+  },
+  "CVE-2024-50380": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "Snap One OVRC cloud uses the MAC address as an identifier to provide information when requested. An attacker can impersonate other devices by supplying enumerated MAC addresses and receive sensitive information about the device.",
+      "cveName": "CVE-2024-50380",
+      "cveUrl": "/vuln/detail/CVE-2024-50380"
+    }
+  },
+  "CVE-2024-50381": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "A vulnerability exists in Snap One OVRC cloud where an attacker can impersonate a Hub device and send requests to claim and unclaim devices. The attacker only needs to provide the MAC address of the targeted device and can make a request to unclaim it from its original connection and make a request to claim it.",
+      "cveName": "CVE-2024-50381",
+      "cveUrl": "/vuln/detail/CVE-2024-50381"
     }
   },
   "CVE-2024-50382": {
@@ -50016,6 +50148,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52595"
     }
   },
+  "CVE-2024-52596": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "SimpleSAMLphp xml-common is a common classes for handling XML-structures. When loading an (untrusted) XML document, for example the SAMLResponse, it's possible to induce an XXE. This vulnerability is fixed in 1.19.0.",
+      "cveName": "CVE-2024-52596",
+      "cveUrl": "/vuln/detail/CVE-2024-52596"
+    }
+  },
   "CVE-2024-52597": {
     "cve": {
       "cveDate": [
@@ -50146,6 +50289,17 @@
       "cveDis": "SemCms v4.8 was discovered to contain a SQL injection vulnerability. This allows an attacker to execute arbitrary code via the ldgid parameter in the SEMCMS_SeoAndTag.php component.",
       "cveName": "CVE-2024-52725",
       "cveUrl": "/vuln/detail/CVE-2024-52725"
+    }
+  },
+  "CVE-2024-52732": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:12 AM -0500"
+      ],
+      "cveDis": "Incorrect access control in wms-Warehouse management system-zeqp v2.20.9.1 due to the token value of the zeqp system being reused.",
+      "cveName": "CVE-2024-52732",
+      "cveUrl": "/vuln/detail/CVE-2024-52732"
     }
   },
   "CVE-2024-52739": {
@@ -50421,6 +50575,17 @@
       "cveDis": "Tornado is a Python web framework and asynchronous networking library. The algorithm used for parsing HTTP cookies in Tornado versions prior to 6.4.2 sometimes has quadratic complexity, leading to excessive CPU consumption when parsing maliciously-crafted cookie headers. This parsing occurs in the event loop thread and may block the processing of other requests. Version 6.4.2 fixes the issue.",
       "cveName": "CVE-2024-52804",
       "cveUrl": "/vuln/detail/CVE-2024-52804"
+    }
+  },
+  "CVE-2024-52806": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "SimpleSAMLphp SAML2 library is a PHP library for SAML2 related functionality. When loading an (untrusted) XML document, for example the SAMLResponse, it's possible to induce an XXE. This vulnerability is fixed in 4.6.14 and 5.0.0-alpha.18.",
+      "cveName": "CVE-2024-52806",
+      "cveUrl": "/vuln/detail/CVE-2024-52806"
     }
   },
   "CVE-2024-52809": {
@@ -51501,6 +51666,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53258"
     }
   },
+  "CVE-2024-53259": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "quic-go is an implementation of the QUIC protocol in Go. An off-path attacker can inject an ICMP Packet Too Large packet. Since affected quic-go versions used IP_PMTUDISC_DO, the kernel would then return a \"message too large\" error on sendmsg, i.e. when quic-go attempts to send a packet that exceeds the MTU claimed in that ICMP packet. By setting this value to smaller than 1200 bytes (the minimum MTU for QUIC), the attacker can disrupt a QUIC connection. Crucially, this can be done after completion of the handshake, thereby circumventing any TCP fallback that might be implemented on the application layer (for example, many browsers fall back to HTTP over TCP if they're unable to establish a QUIC connection). The attacker needs to at least know the client's IP and port tuple to mount an attack. This vulnerability is fixed in 0.48.2.",
+      "cveName": "CVE-2024-53259",
+      "cveUrl": "/vuln/detail/CVE-2024-53259"
+    }
+  },
   "CVE-2024-53260": {
     "cve": {
       "cveDate": [
@@ -51600,6 +51776,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53335"
     }
   },
+  "CVE-2024-53364": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "A SQL injection vulnerability was found in PHPGURUKUL Vehicle Parking Management System v1.13 in /users/view-detail.php. This vulnerability affects the viewid parameter, where improper input sanitization allows attackers to inject malicious SQL queries.",
+      "cveName": "CVE-2024-53364",
+      "cveUrl": "/vuln/detail/CVE-2024-53364"
+    }
+  },
   "CVE-2024-53365": {
     "cve": {
       "cveDate": [
@@ -51664,6 +51851,17 @@
       "cveDis": "EventAttendance.php in ChurchCRM 5.7.0 is vulnerable to SQL injection. An attacker can exploit this vulnerability by manipulating the 'Event' parameter, which is directly interpolated into the SQL query without proper sanitization or validation, allowing attackers to execute arbitrary SQL commands.",
       "cveName": "CVE-2024-53438",
       "cveUrl": "/vuln/detail/CVE-2024-53438"
+    }
+  },
+  "CVE-2024-53459": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "11:15:12 AM -0500"
+      ],
+      "cveDis": "Sysax Multi Server 6.99 is vulnerable to Cross Site Scripting (XSS) via the /scgi?sid parameter.",
+      "cveName": "CVE-2024-53459",
+      "cveUrl": "/vuln/detail/CVE-2024-53459"
     }
   },
   "CVE-2024-53504": {
@@ -51741,6 +51939,28 @@
       "cveDis": "An Open Redirect vulnerability in Taiga v6.8.1 allows attackers to redirect users to arbitrary websites via appending a crafted link to /login?next= in the login page URL.",
       "cveName": "CVE-2024-53556",
       "cveUrl": "/vuln/detail/CVE-2024-53556"
+    }
+  },
+  "CVE-2024-53564": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "1:15:11 PM -0500"
+      ],
+      "cveDis": "An authenticated arbitrary file upload vulnerability in the component /module_admin/upload.php of freepbx v17.0.19.17 allows attackers to execute arbitrary code via uploading a crafted file.",
+      "cveName": "CVE-2024-53564",
+      "cveUrl": "/vuln/detail/CVE-2024-53564"
+    }
+  },
+  "CVE-2024-53566": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "1:15:11 PM -0500"
+      ],
+      "cveDis": "An issue in the action_listcategories() function of Sangoma Asterisk v22/22.0.0/22.0.0-rc1/22.0.0-rc2/22.0.0-pre1 allows attackers to execute a path traversal.",
+      "cveName": "CVE-2024-53566",
+      "cveUrl": "/vuln/detail/CVE-2024-53566"
     }
   },
   "CVE-2024-53597": {
@@ -51897,6 +52117,127 @@
       "cveUrl": "/vuln/detail/CVE-2024-53701"
     }
   },
+  "CVE-2024-53720": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in ole1986 , MachineITSvcs WP-ISPConfig 3 allows Stored XSS.This issue affects WP-ISPConfig 3: from n/a through 1.5.6.",
+      "cveName": "CVE-2024-53720",
+      "cveUrl": "/vuln/detail/CVE-2024-53720"
+    }
+  },
+  "CVE-2024-53721": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Stachethemes Advanced Event Manager allows Stored XSS.This issue affects Advanced Event Manager: from n/a through 1.1.6.",
+      "cveName": "CVE-2024-53721",
+      "cveUrl": "/vuln/detail/CVE-2024-53721"
+    }
+  },
+  "CVE-2024-53722": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Rockemmusic Favicon My Blog allows Stored XSS.This issue affects Favicon My Blog: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-53722",
+      "cveUrl": "/vuln/detail/CVE-2024-53722"
+    }
+  },
+  "CVE-2024-53723": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in A.Cihangir BALTACI Google Plus Share and +1 Button allows Stored XSS.This issue affects Google Plus Share and +1 Button: from n/a through 1.0.",
+      "cveName": "CVE-2024-53723",
+      "cveUrl": "/vuln/detail/CVE-2024-53723"
+    }
+  },
+  "CVE-2024-53724": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Ronny L. Bull IceStats allows Stored XSS.This issue affects IceStats: from n/a through 1.3.",
+      "cveName": "CVE-2024-53724",
+      "cveUrl": "/vuln/detail/CVE-2024-53724"
+    }
+  },
+  "CVE-2024-53725": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Script-Recipes Post Hits Counter allows Reflected XSS.This issue affects Post Hits Counter: from n/a through 2.8.23.",
+      "cveName": "CVE-2024-53725",
+      "cveUrl": "/vuln/detail/CVE-2024-53725"
+    }
+  },
+  "CVE-2024-53726": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:15 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Realty Candy RealtyCandy IDX Broker Extended allows Stored XSS.This issue affects RealtyCandy IDX Broker Extended: from n/a through 1.5.1.",
+      "cveName": "CVE-2024-53726",
+      "cveUrl": "/vuln/detail/CVE-2024-53726"
+    }
+  },
+  "CVE-2024-53727": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in LinkLaunder.com LinkLaunder SEO allows Stored XSS.This issue affects LinkLaunder SEO: from n/a through 0.92.1.",
+      "cveName": "CVE-2024-53727",
+      "cveUrl": "/vuln/detail/CVE-2024-53727"
+    }
+  },
+  "CVE-2024-53728": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in SEO-Küche Internet Marketing GmbH & Co. KG Protect Your Content allows Stored XSS.This issue affects Protect Your Content: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-53728",
+      "cveUrl": "/vuln/detail/CVE-2024-53728"
+    }
+  },
+  "CVE-2024-53729": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Plumeria Web Design Blizzard Quotes allows Stored XSS.This issue affects Blizzard Quotes: from n/a through 1.3.",
+      "cveName": "CVE-2024-53729",
+      "cveUrl": "/vuln/detail/CVE-2024-53729"
+    }
+  },
+  "CVE-2024-53730": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Aaron Hodge Silver April's Call Posts allows Stored XSS.\n\nThis issue affects April's Call Posts: from n/a through 2.1.1.",
+      "cveName": "CVE-2024-53730",
+      "cveUrl": "/vuln/detail/CVE-2024-53730"
+    }
+  },
   "CVE-2024-53731": {
     "cve": {
       "cveDate": [
@@ -51983,6 +52324,28 @@
       "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Cool Plugins Cryptocurrency Widgets For Elementor allows PHP Local File Inclusion.This issue affects Cryptocurrency Widgets For Elementor: from n/a through 1.6.4.",
       "cveName": "CVE-2024-53739",
       "cveUrl": "/vuln/detail/CVE-2024-53739"
+    }
+  },
+  "CVE-2024-53740": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound WooCommerce Ultimate Gift Card - Create, Sell and Manage Gift Cards with Customized Email Templates allows Reflected XSS.This issue affects WooCommerce Ultimate Gift Card - Create, Sell and Manage Gift Cards with Customized Email Templates: from n/a through n/a.",
+      "cveName": "CVE-2024-53740",
+      "cveUrl": "/vuln/detail/CVE-2024-53740"
+    }
+  },
+  "CVE-2024-53741": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Garrett Grimm Simple Popup allows DOM-Based XSS.This issue affects Simple Popup: from n/a through 4.6.",
+      "cveName": "CVE-2024-53741",
+      "cveUrl": "/vuln/detail/CVE-2024-53741"
     }
   },
   "CVE-2024-53742": {
@@ -52084,6 +52447,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53750"
     }
   },
+  "CVE-2024-53751": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:16 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Abdul Hakeem Build App Online allows Cross Site Request Forgery.This issue affects Build App Online: from n/a through 1.0.22.",
+      "cveName": "CVE-2024-53751",
+      "cveUrl": "/vuln/detail/CVE-2024-53751"
+    }
+  },
   "CVE-2024-53752": {
     "cve": {
       "cveDate": [
@@ -52093,6 +52467,39 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Berg Informatik Stripe Donation allows Stored XSS.This issue affects Stripe Donation: from n/a through 1.2.5.",
       "cveName": "CVE-2024-53752",
       "cveUrl": "/vuln/detail/CVE-2024-53752"
+    }
+  },
+  "CVE-2024-53753": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in CultBooking CultBooking Hotel Booking Engine allows Stored XSS.This issue affects CultBooking Hotel Booking Engine: from n/a through 2.1.",
+      "cveName": "CVE-2024-53753",
+      "cveUrl": "/vuln/detail/CVE-2024-53753"
+    }
+  },
+  "CVE-2024-53754": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Arrow Design Out Of Stock Badge allows Cross Site Request Forgery.This issue affects Out Of Stock Badge: from n/a through 1.3.1.",
+      "cveName": "CVE-2024-53754",
+      "cveUrl": "/vuln/detail/CVE-2024-53754"
+    }
+  },
+  "CVE-2024-53755": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Andrea Pernici Third Party Cookie Eraser allows Stored XSS.This issue affects Third Party Cookie Eraser: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-53755",
+      "cveUrl": "/vuln/detail/CVE-2024-53755"
     }
   },
   "CVE-2024-53756": {
@@ -52128,6 +52535,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53758"
     }
   },
+  "CVE-2024-53759": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Planet Studio team ArCa Payment Gateway allows Stored XSS.This issue affects ArCa Payment Gateway: from n/a through 1.3.1.",
+      "cveName": "CVE-2024-53759",
+      "cveUrl": "/vuln/detail/CVE-2024-53759"
+    }
+  },
   "CVE-2024-53760": {
     "cve": {
       "cveDate": [
@@ -52137,6 +52555,28 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Capitalize My Title allows Stored XSS.This issue affects Capitalize My Title: from n/a through 0.5.3.",
       "cveName": "CVE-2024-53760",
       "cveUrl": "/vuln/detail/CVE-2024-53760"
+    }
+  },
+  "CVE-2024-53761": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in P. Roy WP Revisions Manager allows Cross Site Request Forgery.This issue affects WP Revisions Manager: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-53761",
+      "cveUrl": "/vuln/detail/CVE-2024-53761"
+    }
+  },
+  "CVE-2024-53762": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Faster Themes FastBook – Responsive Appointment Booking and Scheduling System allows Stored XSS.This issue affects FastBook – Responsive Appointment Booking and Scheduling System: from n/a through 1.1.",
+      "cveName": "CVE-2024-53762",
+      "cveUrl": "/vuln/detail/CVE-2024-53762"
     }
   },
   "CVE-2024-53763": {
@@ -52159,6 +52599,17 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in SoftHopper Softtemplates For Elementor allows DOM-Based XSS.This issue affects Softtemplates For Elementor: from n/a through 1.0.8.",
       "cveName": "CVE-2024-53764",
       "cveUrl": "/vuln/detail/CVE-2024-53764"
+    }
+  },
+  "CVE-2024-53765": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Think201 Mins To Read allows Stored XSS.This issue affects Mins To Read: from n/a through 1.2.2.",
+      "cveName": "CVE-2024-53765",
+      "cveUrl": "/vuln/detail/CVE-2024-53765"
     }
   },
   "CVE-2024-53766": {
@@ -52192,6 +52643,28 @@
       "cveDis": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in IDE Interactive Content Audit Exporter allows Retrieve Embedded Sensitive Data.This issue affects Content Audit Exporter: from n/a through 1.1.",
       "cveName": "CVE-2024-53768",
       "cveUrl": "/vuln/detail/CVE-2024-53768"
+    }
+  },
+  "CVE-2024-53769": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Ludovic RIAUDEL Custom Post Type to Map Store allows Stored XSS.This issue affects Custom Post Type to Map Store: from n/a through 1.1.0.",
+      "cveName": "CVE-2024-53769",
+      "cveUrl": "/vuln/detail/CVE-2024-53769"
+    }
+  },
+  "CVE-2024-53770": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Peter MacIntyre RingCentral Communications allows Stored XSS.This issue affects RingCentral Communications: from n/a through 1.6.1.",
+      "cveName": "CVE-2024-53770",
+      "cveUrl": "/vuln/detail/CVE-2024-53770"
     }
   },
   "CVE-2024-53771": {
@@ -52238,6 +52711,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-53774"
     }
   },
+  "CVE-2024-53775": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in TannerRitchie Web Applications/DancePress DancePress (TRWA) allows Cross Site Request Forgery.This issue affects DancePress (TRWA): from n/a through 3.1.11.",
+      "cveName": "CVE-2024-53775",
+      "cveUrl": "/vuln/detail/CVE-2024-53775"
+    }
+  },
+  "CVE-2024-53776": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Raphael Heide Donate Me allows Stored XSS.This issue affects Donate Me: from n/a through 1.2.5.",
+      "cveName": "CVE-2024-53776",
+      "cveUrl": "/vuln/detail/CVE-2024-53776"
+    }
+  },
+  "CVE-2024-53777": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Alberto Reineri Simple Header and Footer allows Stored XSS.This issue affects Simple Header and Footer: from n/a through 1.0.0.",
+      "cveName": "CVE-2024-53777",
+      "cveUrl": "/vuln/detail/CVE-2024-53777"
+    }
+  },
   "CVE-2024-53778": {
     "cve": {
       "cveDate": [
@@ -52249,6 +52755,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-53778"
     }
   },
+  "CVE-2024-53779": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Max Engel Yahoo! WebPlayer allows Stored XSS.This issue affects Yahoo! WebPlayer: from n/a through 2.0.6.",
+      "cveName": "CVE-2024-53779",
+      "cveUrl": "/vuln/detail/CVE-2024-53779"
+    }
+  },
+  "CVE-2024-53780": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Rajeev Chauhan Load More Posts allows Stored XSS.This issue affects Load More Posts: from n/a through 1.4.0.",
+      "cveName": "CVE-2024-53780",
+      "cveUrl": "/vuln/detail/CVE-2024-53780"
+    }
+  },
+  "CVE-2024-53781": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:18 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Home Junction SpatialMatch IDX allows Stored XSS.This issue affects SpatialMatch IDX: from n/a through 3.0.9.",
+      "cveName": "CVE-2024-53781",
+      "cveUrl": "/vuln/detail/CVE-2024-53781"
+    }
+  },
+  "CVE-2024-53782": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in CMSaccount Photo Video Store allows Cross-Site Scripting (XSS).This issue affects Photo Video Store: from n/a through 21.07.",
+      "cveName": "CVE-2024-53782",
+      "cveUrl": "/vuln/detail/CVE-2024-53782"
+    }
+  },
   "CVE-2024-53783": {
     "cve": {
       "cveDate": [
@@ -52258,6 +52808,17 @@
       "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Anzia Ni WooCommerce Cost Of Goods allows SQL Injection.This issue affects Ni WooCommerce Cost Of Goods: from n/a through 3.2.8.",
       "cveName": "CVE-2024-53783",
       "cveUrl": "/vuln/detail/CVE-2024-53783"
+    }
+  },
+  "CVE-2024-53784": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "Missing Authorization vulnerability in E-goi Smart Marketing SMS and Newsletters Forms allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Smart Marketing SMS and Newsletters Forms: from n/a through 5.0.9.",
+      "cveName": "CVE-2024-53784",
+      "cveUrl": "/vuln/detail/CVE-2024-53784"
     }
   },
   "CVE-2024-53786": {
@@ -52291,6 +52852,39 @@
       "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Portfoliohub WordPress Portfolio Builder – Portfolio Gallery allows Stored XSS.This issue affects WordPress Portfolio Builder – Portfolio Gallery: from n/a through 1.1.7.",
       "cveName": "CVE-2024-53788",
       "cveUrl": "/vuln/detail/CVE-2024-53788"
+    }
+  },
+  "CVE-2024-53789": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Ritesh Sanap Advanced What should we write next about allows Stored XSS.This issue affects Advanced What should we write next about: from n/a through 1.0.3.",
+      "cveName": "CVE-2024-53789",
+      "cveUrl": "/vuln/detail/CVE-2024-53789"
+    }
+  },
+  "CVE-2024-53792": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Kiboko Labs Watu Quiz allows SQL Injection.This issue affects Watu Quiz: from n/a through 3.4.2.",
+      "cveName": "CVE-2024-53792",
+      "cveUrl": "/vuln/detail/CVE-2024-53792"
+    }
+  },
+  "CVE-2024-53793": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in eDoc Intelligence LLC eDoc Easy Tables allows Blind SQL Injection.This issue affects eDoc Easy Tables: from n/a through 1.29.",
+      "cveName": "CVE-2024-53793",
+      "cveUrl": "/vuln/detail/CVE-2024-53793"
     }
   },
   "CVE-2024-53843": {
@@ -52390,6 +52984,17 @@
       "cveDis": "pyjwt is a JSON Web Token implementation in Python. An incorrect string comparison is run for `iss` checking, resulting in `\"acb\"` being accepted for `\"_abc_\"`. This is a bug introduced in version 2.10.0: checking the \"iss\" claim changed from `isinstance(issuer, list)` to `isinstance(issuer, Sequence)`. Since str is a Sequnce, but not a list, `in` is also used for string comparison. This results in `if \"abc\" not in \"__abcd__\":` being checked instead of `if \"abc\" != \"__abc__\":`. Signature checks are still present so real world impact is likely limited to denial of service scenarios. This issue has been patched in version 2.10.1. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-53861",
       "cveUrl": "/vuln/detail/CVE-2024-53861"
+    }
+  },
+  "CVE-2024-53862": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "11:15:14 AM -0500"
+      ],
+      "cveDis": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. When using `--auth-mode=client`, Archived Workflows can be retrieved with a fake or spoofed token via the GET Workflow endpoint: `/api/v1/workflows/{namespace}/{name}` or when using `--auth-mode=sso`, all Archived Workflows can be retrieved with a valid token via the GET Workflow endpoint: `/api/v1/workflows/{namespace}/{name}`. No authentication is performed by the Server itself on `client` tokens. Authentication & authorization is instead delegated to the k8s API server. However, the Workflow Archive does not interact with k8s, and so any token that looks valid will be considered authenticated, even if it is not a k8s token or even if the token has no RBAC for Argo. To handle the lack of pass-through k8s authN/authZ, the Workflow Archive specifically does the equivalent of a `kubectl auth can-i` check for respective methods. In 3.5.7 and 3.5.8, the auth check was accidentally removed on the GET Workflow endpoint's fallback to archived workflows on these lines, allowing archived workflows to be retrieved with a fake token. This vulnerability is fixed in 3.6.2 and 3.5.13.",
+      "cveName": "CVE-2024-53862",
+      "cveUrl": "/vuln/detail/CVE-2024-53862"
     }
   },
   "CVE-2024-53864": {
@@ -52590,6 +53195,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53980"
     }
   },
+  "CVE-2024-53981": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "11:15:14 AM -0500"
+      ],
+      "cveDis": "python-multipart is a streaming multipart parser for Python. When parsing form data, python-multipart skips line breaks (CR \\r or LF \\n) in front of the first boundary and any tailing bytes after the last boundary. This happens one byte at a time and emits a log event each time, which may cause excessive logging for certain inputs. An attacker could abuse this by sending a malicious request with lots of data before the first or after the last boundary, causing high CPU load and stalling the processing thread for a significant amount of time. In case of ASGI application, this could stall the event loop and prevent other requests from being processed, resulting in a denial of service (DoS). This vulnerability is fixed in 0.0.18.",
+      "cveName": "CVE-2024-53981",
+      "cveUrl": "/vuln/detail/CVE-2024-53981"
+    }
+  },
   "CVE-2024-53983": {
     "cve": {
       "cveDate": [
@@ -52599,6 +53215,39 @@
       "cveDis": "The Backstage Scaffolder plugin Houses types and utilities for building scaffolder-related modules. A vulnerability is identified in Backstage Scaffolder template functionality where Server-Side Template Injection (SSTI) can be exploited to perform Git config injection. The vulnerability allows an attacker to capture privileged git tokens used by the Backstage Scaffolder plugin. With these tokens, unauthorized access to sensitive resources in git can be achieved. The impact is considered medium severity as the Backstage Threat Model recommends restricting access to adding and editing templates in the Backstage Catalog plugin. The issue has been resolved in versions `v0.4.12`, `v0.5.1` and `v0.6.1` of the `@backstage/plugin-scaffolder-node` package. Users are encouraged to upgrade to this version to mitigate the vulnerability. Users are advised to upgrade. Users unable to upgrade may ensure that templates do not change git config.",
       "cveName": "CVE-2024-53983",
       "cveUrl": "/vuln/detail/CVE-2024-53983"
+    }
+  },
+  "CVE-2024-53984": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "11:15:14 AM -0500"
+      ],
+      "cveDis": "Nanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
+      "cveName": "CVE-2024-53984",
+      "cveUrl": "/vuln/detail/CVE-2024-53984"
+    }
+  },
+  "CVE-2024-53990": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "1:15:11 PM -0500"
+      ],
+      "cveDis": "The AsyncHttpClient (AHC) library allows Java applications to easily execute HTTP requests and asynchronously process HTTP responses. When making any HTTP request, the automatically enabled and self-managed CookieStore (aka cookie jar) will silently replace explicitly defined Cookies with any that have the same name from the cookie jar. For services that operate with multiple users, this can result in one user's Cookie being used for another user's requests.",
+      "cveName": "CVE-2024-53990",
+      "cveUrl": "/vuln/detail/CVE-2024-53990"
+    }
+  },
+  "CVE-2024-53992": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "12:15:14 PM -0500"
+      ],
+      "cveDis": "unzip-bot is a Telegram bot to extract various types of archives. Users could exploit unsanitized inputs to inject malicious commands that are executed through subprocess.Popen with shell=True. Attackers can exploit this vulnerability using a crafted archive name, password, or video name. This vulnerability is fixed in 7.0.3a.",
+      "cveName": "CVE-2024-53992",
+      "cveUrl": "/vuln/detail/CVE-2024-53992"
     }
   },
   "CVE-2024-54003": {
@@ -55767,6 +56416,17 @@
       "cveDis": "51l3nc3, member of the AXIS OS Bug Bounty Program, has found that the VAPIX API managedoverlayimages.cgi was vulnerable to a race condition attack allowing for an attacker to block access to the overlay configuration page in the web interface of the Axis device. This flaw can only be exploited after authenticating with an operator- or administrator-privileged service account. Axis has released patched AXIS OS versions for the highlighted flaw. Please refer to the Axis security advisory for more information and solution.",
       "cveName": "CVE-2024-8772",
       "cveUrl": "/vuln/detail/CVE-2024-8772"
+    }
+  },
+  "CVE-2024-8785": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:12 AM -0500"
+      ],
+      "cveDis": "In WhatsUp Gold versions released before 2024.0.1, a remote unauthenticated attacker could leverage NmAPI.exe to create or change an existing registry value in registry path HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Ipswitch\\.",
+      "cveName": "CVE-2024-8785",
+      "cveUrl": "/vuln/detail/CVE-2024-8785"
     }
   },
   "CVE-2024-8786": {
