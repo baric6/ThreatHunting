@@ -7083,6 +7083,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10479"
     }
   },
+  "CVE-2024-104846-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:07 AM -0500"
+      ],
+      "cveDis": "The Spectra – WordPress Gutenberg Blocks plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'Team' widget in all versions up to, and including, 2.16.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-104846-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10484"
+    }
+  },
   "CVE-2024-104865-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -9030,6 +9041,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10891"
     }
   },
+  "CVE-2024-10893": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:08 AM -0500"
+      ],
+      "cveDis": "The WP Booking Calendar WordPress plugin before 10.6.5 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
+      "cveName": "CVE-2024-10893",
+      "cveUrl": "/vuln/detail/CVE-2024-10893"
+    }
+  },
   "CVE-2024-108956-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -10911,6 +10933,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-11315"
     }
   },
+  "CVE-2024-113255-2 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "The AWeber Forms by Optin Cat plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 2.5.7. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-113255-2 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11325"
+    }
+  },
+  "CVE-2024-113266-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "6:15:04 AM -0500"
+      ],
+      "cveDis": "The Campaign Monitor Forms by Optin Cat plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 2.5.7. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-113266-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11326"
+    }
+  },
   "CVE-2024-113306-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -11142,6 +11186,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11446"
     }
   },
+  "CVE-2024-114536-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "3:15:05 AM -0500"
+      ],
+      "cveDis": "The WordPress Pinterest Plugin – Make a Popup, User Profile, Masonry and Gallery Layout plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'gs_pin_widget' shortcode in all versions up to, and including, 1.8.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-114536-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11453"
+    }
+  },
   "CVE-2024-114586-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -11151,6 +11206,17 @@
       "cveDis": "The FAQ Builder AYS plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'ays_faq_tab' parameter in all versions up to, and including, 1.7.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-114586-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11458"
+    }
+  },
+  "CVE-2024-114616-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "The Form Data Collector plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'page' parameter in all versions up to, and including, 2.2.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-114616-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11461"
     }
   },
   "CVE-2024-114636-1 MEDIUM": {
@@ -12088,6 +12154,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11706"
     }
   },
+  "CVE-2024-117076-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "The My auctions allegro plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'page' parameter in all versions up to, and including, 3.6.17 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-117076-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11707"
+    }
+  },
   "CVE-2024-11708": {
     "cve": {
       "cveDate": [
@@ -12097,6 +12174,17 @@
       "cveDis": "Missing thread synchronization primitives could have led to a data race on members of the PlaybackParams structure. This vulnerability affects Firefox < 133 and Thunderbird < 133.",
       "cveName": "CVE-2024-11708",
       "cveUrl": "/vuln/detail/CVE-2024-11708"
+    }
+  },
+  "CVE-2024-117326-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "The BP Profile Shortcodes Extra plugin for WordPress is vulnerable to time-based SQL Injection via the ‘tab’ parameter in all versions up to, and including, 2.6.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Contributor-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-117326-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11732"
     }
   },
   "CVE-2024-11742": {
@@ -12152,6 +12240,17 @@
       "cveDis": "The LegalWeb Cloud plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'legalweb-popup' shortcode in all versions up to, and including, 1.1.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-117616-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11761"
+    }
+  },
+  "CVE-2024-117826-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "The WP Mailster plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'mst_subscribe' shortcode in all versions up to, and including, 1.8.17.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-117826-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11782"
     }
   },
   "CVE-2024-117866-4 MEDIUM": {
@@ -12352,6 +12451,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11803"
     }
   },
+  "CVE-2024-118056-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "The Quick License Manager – WooCommerce Plugin plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'submit_qlm_products' parameter in all versions up to, and including, 2.4.17 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-118056-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11805"
+    }
+  },
   "CVE-2024-11817": {
     "cve": {
       "cveDate": [
@@ -12407,6 +12517,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-11828"
     }
   },
+  "CVE-2024-118444-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "4:15:04 AM -0500"
+      ],
+      "cveDis": "The IdeaPush plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the idea_push_taxonomy_save_routine function in all versions up to, and including, 8.71. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete terms for the \"boards\" taxonomy.",
+      "cveName": "CVE-2024-118444-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11844"
+    }
+  },
+  "CVE-2024-118536-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "The jAlbum Bridge plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘ar’ parameter in all versions up to, and including, 2.0.15 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-118536-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11853"
+    }
+  },
   "CVE-2024-11856": {
     "cve": {
       "cveDate": [
@@ -12438,6 +12570,28 @@
       "cveDis": "Non constant time cryptographic operation in Devolutions.XTS.NET 2024.11.19 and earlier allows an attacker to render half of the encryption key obsolete via a timing attacks",
       "cveName": "CVE-2024-11862",
       "cveUrl": "/vuln/detail/CVE-2024-11862"
+    }
+  },
+  "CVE-2024-118666-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "4:15:05 AM -0500"
+      ],
+      "cveDis": "The BMLT Tabbed Map plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'bmlt_tabbed_map' shortcode in all versions up to, and including, 1.1.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-118666-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11866"
+    }
+  },
+  "CVE-2024-118986-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "3:15:06 AM -0500"
+      ],
+      "cveDis": "The Scratch & Win – Giveaways and Contests. Boost subscribers, traffic, repeat visits,  referrals, sales and more plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'swin-campaign' shortcode in all versions up to, and including, 2.6.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-118986-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11898"
     }
   },
   "CVE-2024-119184-3 MEDIUM": {
@@ -12856,6 +13010,17 @@
       "cveDis": "A vulnerability, which was classified as critical, was found in code-projects Farmacia 1.0. This affects an unknown part of the file /visualizar-produto.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
       "cveName": "CVE-2024-12007",
       "cveUrl": "/vuln/detail/CVE-2024-12007"
+    }
+  },
+  "CVE-2024-120624-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "The Charity Addon for Elementor plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 1.3.2 via the 'nacharity_elementor_template' shortcode due to insufficient restrictions on which posts can be included. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract data from private or draft posts created by Elementor that they should not have access to.",
+      "cveName": "CVE-2024-120624-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-12062"
     }
   },
   "CVE-2024-1240": {
@@ -24595,6 +24760,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-45088"
     }
   },
+  "CVE-2024-45106": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "Improper authentication of an HTTP endpoint in the S3 Gateway of Apache Ozone 1.4.0 allows any authenticated Kerberos user to revoke and regenerate the S3 secrets of any other user. This is only possible if:\n  *  ozone.s3g.secret.http.enabled is set to true. The default value of this configuration is false.\n  *  The user configured in ozone.s3g.kerberos.principal is also configured in ozone.s3.administrators or ozone.administrators.\n\n\nUsers are recommended to upgrade to Apache Ozone version 1.4.1 which disables the affected endpoint.",
+      "cveName": "CVE-2024-45106",
+      "cveUrl": "/vuln/detail/CVE-2024-45106"
+    }
+  },
   "CVE-2024-451159-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -30291,6 +30467,17 @@
       "cveDis": "An authenticated Path Traversal vulnerability exists in Instant AOS-8 and AOS-10. Successful exploitation of this vulnerability allows an attacker to copy arbitrary files to a user readable location from the command line interface of the underlying operating system, which could lead to a remote unauthorized access to files.",
       "cveName": "CVE-2024-47464",
       "cveUrl": "/vuln/detail/CVE-2024-47464"
+    }
+  },
+  "CVE-2024-47476": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "Dell NetWorker Management Console, version(s) 19.11, contain(s) an Improper Verification of Cryptographic Signature vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to Code execution.",
+      "cveName": "CVE-2024-47476",
+      "cveUrl": "/vuln/detail/CVE-2024-47476"
     }
   },
   "CVE-2024-47481": {
@@ -38354,6 +38541,138 @@
       "cveDis": "Out-of-bounds write in Battery Full Capacity node prior to Firmware update Sep-2024 Release on Galaxy S24 allows local attackers to write out-of-bounds memory. System privilege is required for triggering this vulnerability.",
       "cveName": "CVE-2024-49409",
       "cveUrl": "/vuln/detail/CVE-2024-49409"
+    }
+  },
+  "CVE-2024-49410": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:08 AM -0500"
+      ],
+      "cveDis": "Out-of-bounds write in libswmfextractor.so prior to SMR Dec-2024 Release 1 allows local attackers to execute arbitrary code.",
+      "cveName": "CVE-2024-49410",
+      "cveUrl": "/vuln/detail/CVE-2024-49410"
+    }
+  },
+  "CVE-2024-49411": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Path Traversal in ThemeCenter prior to SMR Dec-2024 Release 1 allows physical attackers to copy apk files to arbitrary path with ThemeCenter privilege.",
+      "cveName": "CVE-2024-49411",
+      "cveUrl": "/vuln/detail/CVE-2024-49411"
+    }
+  },
+  "CVE-2024-49412": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Improper input validation in Settings prior to SMR Dec-2024 Release 1 allows local attackers to broadcast signal for discovering Bluetooth on Galaxy Watch.",
+      "cveName": "CVE-2024-49412",
+      "cveUrl": "/vuln/detail/CVE-2024-49412"
+    }
+  },
+  "CVE-2024-49413": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Improper Verification of Cryptographic Signature in SmartSwitch prior to SMR Dec-2024 Release 1 allows local attackers to install malicious applications.",
+      "cveName": "CVE-2024-49413",
+      "cveUrl": "/vuln/detail/CVE-2024-49413"
+    }
+  },
+  "CVE-2024-49414": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Authentication Bypass Using an Alternate Path in Dex Mode prior to SMR Dec-2024 Release 1 allows physical attackers to temporarily access to recent app list.",
+      "cveName": "CVE-2024-49414",
+      "cveUrl": "/vuln/detail/CVE-2024-49414"
+    }
+  },
+  "CVE-2024-49415": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Out-of-bound write in libsaped.so prior to SMR Dec-2024 Release 1 allows remote attackers to execute arbitrary code.",
+      "cveName": "CVE-2024-49415",
+      "cveUrl": "/vuln/detail/CVE-2024-49415"
+    }
+  },
+  "CVE-2024-49416": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Use of implicit intent for sensitive communication in SmartThings prior to version 1.8.21 allows local attackers to get sensitive information.",
+      "cveName": "CVE-2024-49416",
+      "cveUrl": "/vuln/detail/CVE-2024-49416"
+    }
+  },
+  "CVE-2024-49417": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Use of implicit intent for sensitive communication in Smart Touch Call prior to 1.0.0.8 allows local attackers to launch privileged activities. User interaction is required for triggering this vulnerability.",
+      "cveName": "CVE-2024-49417",
+      "cveUrl": "/vuln/detail/CVE-2024-49417"
+    }
+  },
+  "CVE-2024-49418": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:09 AM -0500"
+      ],
+      "cveDis": "Insufficient verification of url authenticity in GamingHub prior to version 6.1.03.4 in Korea, 7.1.02.4 in Global allows remote attackers to enable JavaScript in its webview.",
+      "cveName": "CVE-2024-49418",
+      "cveUrl": "/vuln/detail/CVE-2024-49418"
+    }
+  },
+  "CVE-2024-49419": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:10 AM -0500"
+      ],
+      "cveDis": "Insufficient verification of url authenticity in GamingHub prior to version 6.1.03.4 in Korea, 7.1.02.4 in Global allows remote attackers to load an arbitrary URL in its webview.",
+      "cveName": "CVE-2024-49419",
+      "cveUrl": "/vuln/detail/CVE-2024-49419"
+    }
+  },
+  "CVE-2024-49420": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:10 AM -0500"
+      ],
+      "cveDis": "Improper handling of responses in GamingHub prior to version 6.1.04.6 in Korea, 7.1.03.7 in Global allows remote attackers to launch arbitrary activity.",
+      "cveName": "CVE-2024-49420",
+      "cveUrl": "/vuln/detail/CVE-2024-49420"
+    }
+  },
+  "CVE-2024-49421": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:10 AM -0500"
+      ],
+      "cveDis": "Path traversal in Quick Share Agent prior to version 3.5.14.47 in Android 12, 3.5.19.41 in Android 13, and 3.5.19.42 in Android 14 allows adjacent attackers to write file in arbitrary location.",
+      "cveName": "CVE-2024-49421",
+      "cveUrl": "/vuln/detail/CVE-2024-49421"
     }
   },
   "CVE-2024-49501": {
@@ -57538,6 +57857,17 @@
       "cveDis": "The Curator.io: Show all your social media posts in a beautiful feed. plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘feed_id’ attribute in all versions up to, and including, 1.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-90576-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-9057"
+    }
+  },
+  "CVE-2024-90586-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "2:15:04 AM -0500"
+      ],
+      "cveDis": "The Element Pack Elementor Addons (Header Footer, Template Library, Dynamic Grid & Carousel, Remote Arrows) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Lightbox widget in all versions up to, and including, 5.10.5 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-90586-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9058"
     }
   },
   "CVE-2024-90606-4 MEDIUM": {
