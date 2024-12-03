@@ -2078,6 +2078,17 @@
       "cveUrl": "/vuln/detail/CVE-2021-23282"
     }
   },
+  "CVE-2021-298925-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:05 PM -0500"
+      ],
+      "cveDis": "IBM Cognos Controller 11.0.0 and 11.0.1 could allow a remote attacker to obtain sensitive information, caused by the failure to properly enable HTTP Strict Transport Security. An attacker could exploit this vulnerability to obtain sensitive information using man in the middle techniques.",
+      "cveName": "CVE-2021-298925-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2021-29892"
+    }
+  },
   "CVE-2021-30299": {
     "cve": {
       "cveDate": [
@@ -4375,6 +4386,17 @@
       "cveDis": "A vulnerability, which was classified as critical, was found in flairNLP flair 0.14.0. Affected is the function ClusteringModel of the file flair\\models\\clustering.py of the component Mode File Loader. The manipulation leads to code injection. It is possible to launch the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-10073",
       "cveUrl": "/vuln/detail/CVE-2024-10073"
+    }
+  },
+  "CVE-2024-10074": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "in OpenHarmony v4.1.1 and prior versions allow a local attacker cause the common permission is upgraded to root through use after free.",
+      "cveName": "CVE-2024-10074",
+      "cveUrl": "/vuln/detail/CVE-2024-10074"
     }
   },
   "CVE-2024-100787-3 HIGH": {
@@ -10460,6 +10482,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11199"
     }
   },
+  "CVE-2024-112006-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "The Goodlayers Core plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘font-family’ parameter in all versions up to, and including, 2.0.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-112006-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11200"
+    }
+  },
   "CVE-2024-112026-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -11063,6 +11096,17 @@
       "cveDis": "The Easy Liveblogs plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'elb_liveblog' shortcode in all versions up to, and including, 2.3.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-113876-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11387"
+    }
+  },
+  "CVE-2024-11391": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "10:15:09 AM -0500"
+      ],
+      "cveDis": "The Advanced File Manager plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation via the 'class_fma_connector.php' file in all versions up to, and including, 5.2.10. This makes it possible for authenticated attackers, with Subscriber-level access and above, and granted permissions by an Administrator, to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "cveName": "CVE-2024-11391",
+      "cveUrl": "/vuln/detail/CVE-2024-11391"
     }
   },
   "CVE-2024-11395": {
@@ -13021,6 +13065,17 @@
       "cveDis": "The Charity Addon for Elementor plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 1.3.2 via the 'nacharity_elementor_template' shortcode due to insufficient restrictions on which posts can be included. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract data from private or draft posts created by Elementor that they should not have access to.",
       "cveName": "CVE-2024-120624-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-12062"
+    }
+  },
+  "CVE-2024-12082": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "in OpenHarmony v4.0.0 and prior versions allow a local attacker cause information leak through out-of-bounds Read.",
+      "cveName": "CVE-2024-12082",
+      "cveUrl": "/vuln/detail/CVE-2024-12082"
     }
   },
   "CVE-2024-1240": {
@@ -15993,6 +16048,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-24914"
     }
   },
+  "CVE-2024-250195-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "IBM Cognos Controller 11.0.0 and 11.0.1 \n\ncould be vulnerable to malicious file upload by not validating the type of file uploaded to Journal entry attachments. Attackers can make use of this weakness and upload malicious executable files into the system that can be sent to victims for performing further attacks.",
+      "cveName": "CVE-2024-250195-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-25019"
+    }
+  },
+  "CVE-2024-250205-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:12 PM -0500"
+      ],
+      "cveDis": "IBM Cognos Controller 11.0.0 and 11.0.1 \n\n\n\n\n\n\n\n\n\n\n\n\n\nis vulnerable to malicious file upload by allowing unrestricted filetype attachments in the Journal entry page. Attackers can make use of this weakness and upload malicious executable files into the system and can be sent to victims for performing further attacks.",
+      "cveName": "CVE-2024-250205-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-25020"
+    }
+  },
+  "CVE-2024-250355-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "IBM Cognos Controller 11.0.0 and 11.0.1 \n\n\n\nexposes server details that could allow an attacker to obtain information of the application environment to conduct further attacks.",
+      "cveName": "CVE-2024-250355-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-25035"
+    }
+  },
+  "CVE-2024-250364-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "IBM Cognos Controller 11.0.0 and 11.0.1 \n\n\n\n\n\ncould allow an authenticated user with local access to bypass security allowing users to circumvent restrictions imposed on input fields.",
+      "cveName": "CVE-2024-250364-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-25036"
+    }
+  },
   "CVE-2024-25253": {
     "cve": {
       "cveDate": [
@@ -16684,6 +16783,17 @@
       "cveDis": "Multiple OS Command Injection vulnerabilities affecting Kasda LinkSmart Router KW6512 <= v1.3 enable an authenticated remote attacker to execute arbitrary OS commands via various cgi parameters.",
       "cveName": "CVE-2024-29292",
       "cveUrl": "/vuln/detail/CVE-2024-29292"
+    }
+  },
+  "CVE-2024-29404": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:10 PM -0500"
+      ],
+      "cveDis": "An issue in Razer Synapse 3 v.3.9.131.20813 and Synapse 3 App v.20240213 allows a local attacker to execute arbitrary code via the export parameter of the Chroma Effects function in the Profiles component.",
+      "cveName": "CVE-2024-29404",
+      "cveUrl": "/vuln/detail/CVE-2024-29404"
     }
   },
   "CVE-2024-29645": {
@@ -19139,6 +19249,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-37285"
     }
   },
+  "CVE-2024-37302": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:10 PM -0500"
+      ],
+      "cveDis": "Synapse is an open-source Matrix homeserver. Synapse versions before 1.106 are vulnerable to a disk fill attack, where an unauthenticated adversary can induce Synapse to download and cache large amounts of remote media. The default rate limit strategy is insufficient to mitigate this. This can lead to a denial of service, ranging from further media uploads/downloads failing to completely unavailability of the Synapse process, depending on how Synapse was deployed. Synapse 1.106 introduces a new \"leaky bucket\" rate limit on remote media downloads to reduce the amount of data a user can request at a time. This does not fully address the issue, but does limit an unauthenticated user's ability to request large amounts of data to be cached.",
+      "cveName": "CVE-2024-37302",
+      "cveUrl": "/vuln/detail/CVE-2024-37302"
+    }
+  },
+  "CVE-2024-37303": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:10 PM -0500"
+      ],
+      "cveDis": "Synapse is an open-source Matrix homeserver. Synapse before version 1.106 allows, by design, unauthenticated remote participants to trigger a download and caching of remote media from a remote homeserver to the local media repository. Such content then also becomes available for download from the local homeserver in an unauthenticated way. The implication is that unauthenticated remote adversaries can use this functionality to plant problematic content into the media repository. Synapse 1.106 introduces a partial mitigation in the form of new endpoints which require authentication for media downloads. The unauthenticated endpoints will be frozen in a future release, closing the attack vector.",
+      "cveName": "CVE-2024-37303",
+      "cveUrl": "/vuln/detail/CVE-2024-37303"
+    }
+  },
   "CVE-2024-37404": {
     "cve": {
       "cveDate": [
@@ -20481,6 +20613,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-40638"
     }
   },
+  "CVE-2024-406918-0 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "IBM Cognos Controller 11.0.0 and 11.0.1 \n\ncould be vulnerable to malicious file upload by not validating the content of the file uploaded to the web interface. Attackers can make use of this weakness and upload malicious executable files into the system, and it can be sent to victim for performing further attacks.",
+      "cveName": "CVE-2024-406918-0 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-40691"
+    }
+  },
   "CVE-2024-40715": {
     "cve": {
       "cveDate": [
@@ -21086,6 +21229,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-41761"
     }
   },
+  "CVE-2024-417755-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:13 PM -0500"
+      ],
+      "cveDis": "IBM Cognos Controller 11.0.0 and 11.0.1 uses weaker than expected cryptographic algorithms that could allow an attacker to decrypt highly sensitive information.",
+      "cveName": "CVE-2024-417755-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-41775"
+    }
+  },
+  "CVE-2024-417766-5 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "IBM Cognos Controller 11.0.0 and 11.0.1 \n\n\n\n\n\n\n\n\n\n\n\nis vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts.",
+      "cveName": "CVE-2024-417766-5 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-41776"
+    }
+  },
+  "CVE-2024-417777-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "IBM Cognos Controller 11.0.0 and 11.0.1 \n\n\n\n\n\n\n\n\n\ncontains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data.",
+      "cveName": "CVE-2024-417777-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-41777"
+    }
+  },
   "CVE-2024-417799-8 CRITICAL": {
     "cve": {
       "cveDate": [
@@ -21656,6 +21832,17 @@
       "cveDis": "Sharp and Toshiba Tec MFPs contain multiple Out-of-bounds Read vulnerabilities, due to improper processing of keyword search input and improper processing of SOAP messages.\nCrafted HTTP requests may cause affected products crashed.",
       "cveName": "CVE-2024-42420",
       "cveUrl": "/vuln/detail/CVE-2024-42420"
+    }
+  },
+  "CVE-2024-42422": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "Dell NetWorker, version(s) 19.10, contain(s) an Authorization Bypass Through User-Controlled Key vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Information disclosure.",
+      "cveName": "CVE-2024-42422",
+      "cveUrl": "/vuln/detail/CVE-2024-42422"
     }
   },
   "CVE-2024-42450": {
@@ -26100,6 +26287,17 @@
       "cveDis": "IBM Flexible Service Processor (FSP) FW860.00 through FW860.B3, FW950.00 through FW950.C0, FW1030.00 through FW1030.61, FW1050.00 through FW1050.21, and FW1060.00 through FW1060.10 has static credentials which may allow network users to gain service privileges to the FSP.",
       "cveName": "CVE-2024-456569-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-45656"
+    }
+  },
+  "CVE-2024-456764-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:14 PM -0500"
+      ],
+      "cveDis": "IBM Cognos Controller 11.0.0 and 11.0.1 \n\n\n\n\n\n\n\ncould allow an authenticated user to upload insecure files, due to insufficient file type distinction.",
+      "cveName": "CVE-2024-456764-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-45676"
     }
   },
   "CVE-2024-45689": {
@@ -50478,6 +50676,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-52533"
     }
   },
+  "CVE-2024-52544": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An unauthenticated attacker can trigger a stack based buffer overflow in the DP Service (TCP port 3500). This vulnerability has been resolved in firmware version 2.800.0000000.8.R.20241111.",
+      "cveName": "CVE-2024-52544",
+      "cveUrl": "/vuln/detail/CVE-2024-52544"
+    }
+  },
+  "CVE-2024-52545": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An unauthenticated attacker can perform an out of bounds heap read in the IQ Service (TCP port 9876). This vulnerability has been resolved in firmware version 2.800.0000000.8.R.20241111.",
+      "cveName": "CVE-2024-52545",
+      "cveUrl": "/vuln/detail/CVE-2024-52545"
+    }
+  },
+  "CVE-2024-52546": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An unauthenticated attacker can perform a null pointer dereference in the DHIP Service (UDP port 37810). This vulnerability has been resolved in firmware version 2.800.0000000.8.R.20241111.",
+      "cveName": "CVE-2024-52546",
+      "cveUrl": "/vuln/detail/CVE-2024-52546"
+    }
+  },
+  "CVE-2024-52547": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:15 PM -0500"
+      ],
+      "cveDis": "An authenticated attacker can trigger a stack based buffer overflow in the DHIP Service (TCP port 80). This vulnerability has been resolved in firmware version 2.800.0000000.8.R.20241111.",
+      "cveName": "CVE-2024-52547",
+      "cveUrl": "/vuln/detail/CVE-2024-52547"
+    }
+  },
+  "CVE-2024-52548": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "1:15:16 PM -0500"
+      ],
+      "cveDis": "An attacker who can execute arbitrary Operating Systems commands, can bypass code signing enforcements in the kernel, and execute arbitrary native code. This vulnerability has been resolved in firmware version 2.800.0000000.8.R.20241111.",
+      "cveName": "CVE-2024-52548",
+      "cveUrl": "/vuln/detail/CVE-2024-52548"
+    }
+  },
   "CVE-2024-52555": {
     "cve": {
       "cveDate": [
@@ -51105,6 +51358,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52804"
     }
   },
+  "CVE-2024-52805": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "Synapse is an open-source Matrix homeserver. In Synapse before 1.120.1, multipart/form-data requests can in certain configurations transiently increase memory consumption beyond expected levels while processing the request, which can be used to amplify denial of service attacks. Synapse 1.120.1 resolves the issue by denying requests with unsupported multipart/form-data content type.",
+      "cveName": "CVE-2024-52805",
+      "cveUrl": "/vuln/detail/CVE-2024-52805"
+    }
+  },
   "CVE-2024-52806": {
     "cve": {
       "cveDate": [
@@ -51158,6 +51422,17 @@
       "cveDis": "Argo Helm is a collection of community maintained charts for `argoproj.github.io` projects. Prior to version 0.45.0, the `workflow-role`) lacks granularity in its privileges, giving permissions to `workflowtasksets` and `workflowartifactgctasks` to all workflow Pods, when only certain types of Pods created by the Controller require these privileges. The impact is minimal, as an attack could only affect status reporting for certain types of Pods and templates. Version 0.45.0 fixes the issue.",
       "cveName": "CVE-2024-52814",
       "cveUrl": "/vuln/detail/CVE-2024-52814"
+    }
+  },
+  "CVE-2024-52815": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "Synapse is an open-source Matrix homeserver. Synapse versions before 1.120.1 fail to properly validate invites received over federation. This vulnerability allows a malicious server to send a specially crafted invite that disrupts the invited user's /sync functionality. Synapse 1.120.1 rejects such invalid invites received over federation and restores the ability to sync for affected users.",
+      "cveName": "CVE-2024-52815",
+      "cveUrl": "/vuln/detail/CVE-2024-52815"
     }
   },
   "CVE-2024-52867": {
@@ -52181,6 +52456,17 @@
       "cveDis": "BoidCMS is a free and open-source flat file CMS for building simple websites and blogs, developed using PHP and uses JSON as a database. In affected versions a reflected Cross-site Scripting (XSS) vulnerability exists in the /admin?page=media endpoint in the file parameter, allowing an attacker to inject arbitrary JavaScript code. This code could be used to steal the user's session cookie, perform phishing attacks, or deface the website. This issue has been addressed in version 2.1.2 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-53255",
       "cveUrl": "/vuln/detail/CVE-2024-53255"
+    }
+  },
+  "CVE-2024-53257": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "Vitess is a database clustering system for horizontal scaling of MySQL. The /debug/querylogz and /debug/env pages for vtgate and vttablet do not properly escape user input. The result is that queries executed by Vitess can write HTML into the monitoring page at will. These pages are rendered using text/template instead of rendering with a proper HTML templating engine. This vulnerability is fixed in 21.0.1, 20.0.4, and 19.0.8.",
+      "cveName": "CVE-2024-53257",
+      "cveUrl": "/vuln/detail/CVE-2024-53257"
     }
   },
   "CVE-2024-53258": {
@@ -53569,6 +53855,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53862"
     }
   },
+  "CVE-2024-53863": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "Synapse is an open-source Matrix homeserver. In Synapse versions before 1.120.1, enabling the dynamic_thumbnails option or processing a specially crafted request could trigger the decoding and thumbnail generation of uncommon image formats, potentially invoking external tools like Ghostscript for processing. This significantly expands the attack surface in a historically vulnerable area, presenting a risk that far outweighs the benefit, particularly since these formats are rarely used on the open web or within the Matrix ecosystem. Synapse 1.120.1 addresses the issue by restricting thumbnail generation to images in the following widely used formats: PNG, JPEG, GIF, and WebP. This vulnerability is fixed in 1.120.1.",
+      "cveName": "CVE-2024-53863",
+      "cveUrl": "/vuln/detail/CVE-2024-53863"
+    }
+  },
   "CVE-2024-53864": {
     "cve": {
       "cveDate": [
@@ -53589,6 +53886,17 @@
       "cveDis": "zhmcclient is a pure Python client library for the IBM Z HMC Web Services API. In affected versions the Python package \"zhmcclient\" writes password-like properties in clear text into its HMC and API logs in the following cases: 1. The 'boot-ftp-password' and 'ssc-master-pw' properties when creating or updating a partition in DPM mode, in the zhmcclient API and HMC logs. 2. The 'ssc-master-pw' and 'zaware-master-pw' properties when updating an LPAR in classic mode, in the zhmcclient API and HMC logs. 3. The 'ssc-master-pw' and 'zaware-master-pw' properties when creating or updating an image activation profile in classic mode, in the zhmcclient API and HMC logs. 4. The 'password' property when creating or updating an HMC user, in the zhmcclient API log. 5. The 'bind-password' property when creating or updating an LDAP server definition, in the zhmcclient API and HMC logs. This issue affects only users of the zhmcclient package that have enabled the Python loggers named \"zhmcclient.api\" (for the API log) or \"zhmcclient.hmc\" (for the HMC log) and that use the functions listed above. This issue has been fixed in zhmcclient version 1.18.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-53865",
       "cveUrl": "/vuln/detail/CVE-2024-53865"
+    }
+  },
+  "CVE-2024-53867": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "Synapse is an open-source Matrix homeserver. The Sliding Sync feature on Synapse versions between 1.113.0rc1 and 1.120.0 can leak partial room state changes to users no longer in a room. Non-state events, like messages, are unaffected. This vulnerability is fixed in 1.120.1.",
+      "cveName": "CVE-2024-53867",
+      "cveUrl": "/vuln/detail/CVE-2024-53867"
     }
   },
   "CVE-2024-53899": {
@@ -53941,6 +54249,28 @@
       "cveDis": "unzip-bot is a Telegram bot to extract various types of archives. Users could exploit unsanitized inputs to inject malicious commands that are executed through subprocess.Popen with shell=True. Attackers can exploit this vulnerability using a crafted archive name, password, or video name. This vulnerability is fixed in 7.0.3a.",
       "cveName": "CVE-2024-53992",
       "cveUrl": "/vuln/detail/CVE-2024-53992"
+    }
+  },
+  "CVE-2024-53999": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "11:15:24 AM -0500"
+      ],
+      "cveDis": "Mobile Security Framework (MobSF) is a pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis. The application allows users to upload files with scripts in the filename parameter. As a result, a malicious user can upload a script file to the system. When users in the application use the \"Diff or Compare\" functionality, they are affected by a Stored Cross-Site Scripting vulnerability. This vulnerability is fixed in 4.2.9.",
+      "cveName": "CVE-2024-53999",
+      "cveUrl": "/vuln/detail/CVE-2024-53999"
+    }
+  },
+  "CVE-2024-54000": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "11:15:24 AM -0500"
+      ],
+      "cveDis": "Mobile Security Framework (MobSF) is a pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis. In versions prior to 3.9.7, the requests.get() request in the _check_url method is specified as allow_redirects=True, which allows a server-side request forgery when a request to .well-known/assetlinks.json\" returns a 302 redirect. This is a bypass of the fix for CVE-2024-29190 and is fixed in 3.9.7.",
+      "cveName": "CVE-2024-54000",
+      "cveUrl": "/vuln/detail/CVE-2024-54000"
     }
   },
   "CVE-2024-54003": {
@@ -63709,6 +64039,17 @@
       "cveDis": "A vulnerability, which was classified as critical, was found in MitraStar GPT-2541GNAC BR_g5.6_1.11(WVK.0)b26. Affected is an unknown function of the file /cgi-bin/settings-firewall.cgi of the component Firewall Settings Page. The manipulation of the argument SrcInterface leads to os command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. We tried to contact the vendor early about the disclosure but the official mail address was not working properly.",
       "cveName": "CVE-2024-9977",
       "cveUrl": "/vuln/detail/CVE-2024-9977"
+    }
+  },
+  "CVE-2024-9978": {
+    "cve": {
+      "cveDate": [
+        "December 03, 2024",
+        "8:15:05 AM -0500"
+      ],
+      "cveDis": "in OpenHarmony v4.1.1 and prior versions allow a local attacker cause information leak through out-of-bounds Read.",
+      "cveName": "CVE-2024-9978",
+      "cveUrl": "/vuln/detail/CVE-2024-9978"
     }
   },
   "CVE-2024-99795-3 MEDIUM": {
