@@ -593,6 +593,17 @@
       "cveUrl": "/vuln/detail/CVE-2018-9374"
     }
   },
+  "CVE-2018-9376": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "4:15:09 PM -0500"
+      ],
+      "cveDis": "In rpc_msg_handler and related handlers of drivers/misc/mediatek/eccci/port_rpc.c, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9376",
+      "cveUrl": "/vuln/detail/CVE-2018-9376"
+    }
+  },
   "CVE-2018-9377": {
     "cve": {
       "cveDate": [
@@ -602,6 +613,28 @@
       "cveDis": "In BnAudioPolicyService::onTransact of IAudioPolicyService.cpp, there is a possible information disclosure due to uninitialized data. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
       "cveName": "CVE-2018-9377",
       "cveUrl": "/vuln/detail/CVE-2018-9377"
+    }
+  },
+  "CVE-2018-9380": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "3:15:04 PM -0500"
+      ],
+      "cveDis": "In l2c_lcc_proc_pdu of l2c_fcr.cc, there is a possible out of bounds write due to improper input validation. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9380",
+      "cveUrl": "/vuln/detail/CVE-2018-9380"
+    }
+  },
+  "CVE-2018-9381": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "3:15:05 PM -0500"
+      ],
+      "cveDis": "In gatts_process_read_by_type_req of gatt_sr.c, there is a possible information disclosure due to uninitialized data. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9381",
+      "cveUrl": "/vuln/detail/CVE-2018-9381"
     }
   },
   "CVE-2018-9409": {
@@ -648,6 +681,28 @@
       "cveUrl": "/vuln/detail/CVE-2018-9412"
     }
   },
+  "CVE-2018-9413": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "4:15:09 PM -0500"
+      ],
+      "cveDis": "In handle_notification_response of btif_rc.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9413",
+      "cveUrl": "/vuln/detail/CVE-2018-9413"
+    }
+  },
+  "CVE-2018-9414": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "4:15:09 PM -0500"
+      ],
+      "cveDis": "In gattServerSendResponseNative of com_android_bluetooth_gatt.cpp, there is a possible out of bounds stack write due to a missing bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9414",
+      "cveUrl": "/vuln/detail/CVE-2018-9414"
+    }
+  },
   "CVE-2018-9417": {
     "cve": {
       "cveDate": [
@@ -657,6 +712,17 @@
       "cveDis": "In f_hidg_read and hidg_disable of f_hid.c, there is a possible use-after-free due to improper locking. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
       "cveName": "CVE-2018-9417",
       "cveUrl": "/vuln/detail/CVE-2018-9417"
+    }
+  },
+  "CVE-2018-9418": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:08 PM -0500"
+      ],
+      "cveDis": "In handle_app_cur_val_response of dtif_rc.cc, there is a possible stack buffer overflow due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9418",
+      "cveUrl": "/vuln/detail/CVE-2018-9418"
     }
   },
   "CVE-2018-9419": {
@@ -692,6 +758,17 @@
       "cveUrl": "/vuln/detail/CVE-2018-9421"
     }
   },
+  "CVE-2018-9423": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:08 PM -0500"
+      ],
+      "cveDis": "In ihevcd_parse_slice_header of ihevcd_parse_slice_header.c there is a possible out of bound read due to missing bounds check. This could lead to denial of service with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9423",
+      "cveUrl": "/vuln/detail/CVE-2018-9423"
+    }
+  },
   "CVE-2018-9424": {
     "cve": {
       "cveDate": [
@@ -703,6 +780,17 @@
       "cveUrl": "/vuln/detail/CVE-2018-9424"
     }
   },
+  "CVE-2018-9426": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:08 PM -0500"
+      ],
+      "cveDis": "In  RsaKeyPairGenerator::getNumberOfIterations of RSAKeyPairGenerator.java, an incorrect implementation could cause weak RSA key pairs being generated. This could lead to crypto vulnerability with no additional execution privileges needed. User interaction is not needed for exploitation. Bulletin Fix: The fix is designed to correctly implement the key generation according to FIPS standard.",
+      "cveName": "CVE-2018-9426",
+      "cveUrl": "/vuln/detail/CVE-2018-9426"
+    }
+  },
   "CVE-2018-9428": {
     "cve": {
       "cveDate": [
@@ -712,6 +800,39 @@
       "cveDis": "In startDevice of AAudioServiceStreamBase.cpp there is a possible out of bounds write due to a use after free. This could lead to local arbitrary code execution with no additional execution privileges needed. User interaction is needed for exploitation.  https://source.android.com/security/bulletin/2018-07-01",
       "cveName": "CVE-2018-9428",
       "cveUrl": "/vuln/detail/CVE-2018-9428"
+    }
+  },
+  "CVE-2018-9429": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:09 PM -0500"
+      ],
+      "cveDis": "In buildImageItemsIfPossible of ItemTable.cpp there is a possible out of bound read due to uninitialized data. This could lead to information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9429",
+      "cveUrl": "/vuln/detail/CVE-2018-9429"
+    }
+  },
+  "CVE-2018-9430": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:09 PM -0500"
+      ],
+      "cveDis": "In prop2cfg of btif_storage.cc, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9430",
+      "cveUrl": "/vuln/detail/CVE-2018-9430"
+    }
+  },
+  "CVE-2018-9431": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:09 PM -0500"
+      ],
+      "cveDis": "In OSUInfo of OSUInfo.java, there is a possible escalation of privilege due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9431",
+      "cveUrl": "/vuln/detail/CVE-2018-9431"
     }
   },
   "CVE-2018-9432": {
@@ -736,6 +857,17 @@
       "cveUrl": "/vuln/detail/CVE-2018-9433"
     }
   },
+  "CVE-2018-9435": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:09 PM -0500"
+      ],
+      "cveDis": "In gatt_process_error_rsp of gatt_cl.cc, there is a possible out of bound read due to a missing bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9435",
+      "cveUrl": "/vuln/detail/CVE-2018-9435"
+    }
+  },
   "CVE-2018-9440": {
     "cve": {
       "cveDate": [
@@ -745,6 +877,28 @@
       "cveDis": "In parse of M3UParser.cpp there is a possible resource exhaustion due to improper input validation. This could lead to denial of service with no additional execution privileges needed. User interaction is needed for exploitation.",
       "cveName": "CVE-2018-9440",
       "cveUrl": "/vuln/detail/CVE-2018-9440"
+    }
+  },
+  "CVE-2018-9441": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "In sdp_copy_raw_data of sdp_discovery.cc, there is a possible out of bounds read due to an incorrect bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.",
+      "cveName": "CVE-2018-9441",
+      "cveUrl": "/vuln/detail/CVE-2018-9441"
+    }
+  },
+  "CVE-2018-9449": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "In process_service_search_attr_rsp of sdp_discovery.cc, there is a possible out of bound read due to a missing bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9449",
+      "cveUrl": "/vuln/detail/CVE-2018-9449"
     }
   },
   "CVE-2018-9456": {
@@ -19623,6 +19777,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-39332"
     }
   },
+  "CVE-2024-39343": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "3:15:06 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Samsung Mobile Processor and Wearable Processor Exynos 2100, 1280, 2200, 1330, 1380, 1480, 2400, 9110, Modem 5123, and Modem 5300. The baseband software does not properly check the length specified by the MM (Mobility Management) module, which can lead to Denial of Service.",
+      "cveName": "CVE-2024-39343",
+      "cveUrl": "/vuln/detail/CVE-2024-39343"
+    }
+  },
   "CVE-2024-3935": {
     "cve": {
       "cveDate": [
@@ -19929,6 +20094,17 @@
       "cveDis": "A privilege escalation vulnerability exists in the Veertu Anka Build 1.42.0. The vulnerability occurs during Anka node agent update. A low privilege user can trigger the update action which can result in unexpected elevation of privilege.",
       "cveName": "CVE-2024-397557-8 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-39755"
+    }
+  },
+  "CVE-2024-39890": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "4:15:10 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Samsung Mobile Processor, Wearable Processor, and Modem Exynos 9820, 9825, 980, 990, 850, 1080, 2100, 1280, 2200, 1330, 1380, 1480, 2400, 9110, W920, W930, W1000, Modem 5123, Modem 5300. The baseband software does not properly check the length specified by the CC (Call Control). This can lead to an Out-of-Bounds write.",
+      "cveName": "CVE-2024-39890",
+      "cveUrl": "/vuln/detail/CVE-2024-39890"
     }
   },
   "CVE-2024-40083": {
@@ -24329,6 +24505,17 @@
       "cveDis": "PHPSpreadsheet is a pure PHP library for reading and writing spreadsheet files. One of the sample scripts in PhpSpreadsheet is susceptible to a cross-site scripting (XSS) vulnerability due to improper handling of input where a number is expected leading to formula injection. The code in in `45_Quadratic_equation_solver.php` concatenates the user supplied parameters directly into spreadsheet formulas. This allows an attacker to take control over the formula and output unsanitized data into the page, resulting in JavaScript execution. This issue has been addressed in release versions 1.29.2, 2.1.1, and 2.3.0. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
       "cveName": "CVE-2024-45060",
       "cveUrl": "/vuln/detail/CVE-2024-45060"
+    }
+  },
+  "CVE-2024-45068": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:04 PM -0500"
+      ],
+      "cveDis": "Authentication credentials leakage vulnerability in Hitachi Ops Center Common Services within Hitachi Ops Center OVA.\n\n\nThis issue affects Hitachi Ops Center Common Services: from 10.9.3-00 before 11.0.3-00; Hitachi Ops Center OVA: from 10.9.3-00 before 11.0.2-01.",
+      "cveName": "CVE-2024-45068",
+      "cveUrl": "/vuln/detail/CVE-2024-45068"
     }
   },
   "CVE-2024-450715-5 MEDIUM": {
@@ -38323,6 +38510,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49580"
     }
   },
+  "CVE-2024-49581": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "4:15:10 PM -0500"
+      ],
+      "cveDis": "Restricted Views backed objects (OSV1) could be bypassed under specific circumstances due to a software bug, this could have allowed users that didn't have permission to see such objects to view them via Object Explorer directly. This software bug did not impact or otherwise make data available across organizational boundaries nor did it allow for data to be viewed or accessed by unauthenticated users.  \nThe affected service have been patched and automatically deployed to all Apollo-managed Foundry instances.",
+      "cveName": "CVE-2024-49581",
+      "cveUrl": "/vuln/detail/CVE-2024-49581"
+    }
+  },
   "CVE-2024-49588": {
     "cve": {
       "cveDate": [
@@ -50280,6 +50478,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52723"
     }
   },
+  "CVE-2024-52724": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "2:15:10 PM -0500"
+      ],
+      "cveDis": "ZZCMS 2023 was discovered to contain a SQL injection vulnerability in /q/show.php.",
+      "cveName": "CVE-2024-52724",
+      "cveUrl": "/vuln/detail/CVE-2024-52724"
+    }
+  },
   "CVE-2024-52725": {
     "cve": {
       "cveDate": [
@@ -51798,6 +52007,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53365"
     }
   },
+  "CVE-2024-53375": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:10 PM -0500"
+      ],
+      "cveDis": "Authenticated remote code execution (RCE) vulnerabilities affect TP-Link Archer, Deco, and Tapo series routers. A vulnerability exists in the \"tmp_get_sites\" function of the HomeShield functionality provided by TP-Link. This vulnerability is still exploitable without the installation or activation of the HomeShield functionality.",
+      "cveName": "CVE-2024-53375",
+      "cveUrl": "/vuln/detail/CVE-2024-53375"
+    }
+  },
   "CVE-2024-53425": {
     "cve": {
       "cveDate": [
@@ -51862,6 +52082,28 @@
       "cveDis": "Sysax Multi Server 6.99 is vulnerable to Cross Site Scripting (XSS) via the /scgi?sid parameter.",
       "cveName": "CVE-2024-53459",
       "cveUrl": "/vuln/detail/CVE-2024-53459"
+    }
+  },
+  "CVE-2024-53477": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "4:15:11 PM -0500"
+      ],
+      "cveDis": "JFinal CMS 5.1.0 is vulnerable to Command Execution via unauthorized execution of deserialization in the file ApiForm.java",
+      "cveName": "CVE-2024-53477",
+      "cveUrl": "/vuln/detail/CVE-2024-53477"
+    }
+  },
+  "CVE-2024-53484": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "2:15:10 PM -0500"
+      ],
+      "cveDis": "Ever Traduora 0.20.0 and below is vulnerable to Privilege Escalation due to the use of a hard-coded JWT signing key.",
+      "cveName": "CVE-2024-53484",
+      "cveUrl": "/vuln/detail/CVE-2024-53484"
     }
   },
   "CVE-2024-53504": {
@@ -52016,6 +52258,17 @@
       "cveDis": "Incorrect access control in the component content://com.handcent.messaging.provider.MessageProvider/ of Handcent NextSMS v10.9.9.7 allows attackers to access sensitive data.",
       "cveName": "CVE-2024-53605",
       "cveUrl": "/vuln/detail/CVE-2024-53605"
+    }
+  },
+  "CVE-2024-53617": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "2:15:10 PM -0500"
+      ],
+      "cveDis": "A Cross Site Scripting vulnerability in LibrePhotos before commit 32237 allows attackers to takeover any account via uploading an HTML file on behalf of the admin user using IDOR in file upload.",
+      "cveName": "CVE-2024-53617",
+      "cveUrl": "/vuln/detail/CVE-2024-53617"
     }
   },
   "CVE-2024-53619": {
@@ -53030,6 +53283,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53899"
     }
   },
+  "CVE-2024-53900": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "3:15:08 PM -0500"
+      ],
+      "cveDis": "Mongoose before 8.8.3 can improperly use $where in match.",
+      "cveName": "CVE-2024-53900",
+      "cveUrl": "/vuln/detail/CVE-2024-53900"
+    }
+  },
   "CVE-2024-53901": {
     "cve": {
       "cveDate": [
@@ -53151,6 +53415,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-53930"
     }
   },
+  "CVE-2024-53937": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "An issue was discovered on Victure RX1800 WiFi 6 Router (software EN_V1.0.0_r12_110933, hardware 1.0) devices. The TELNET service is enabled by default with admin/admin as default credentials and is exposed over the LAN. The allows attackers to execute arbitrary commands with root-level permissions. Device setup does not require this password to be changed during setup in order to utilize the device. (However, the TELNET password is dictated by the current GUI password.)",
+      "cveName": "CVE-2024-53937",
+      "cveUrl": "/vuln/detail/CVE-2024-53937"
+    }
+  },
+  "CVE-2024-53938": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:10 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Victure RX1800 WiFi 6 Router (software EN_V1.0.0_r12_110933, hardware 1.0) devices. The TELNET service is enabled by default and exposed over the LAN. The root account is accessible without a password, allowing attackers to achieve full control over the router remotely without any authentication.",
+      "cveName": "CVE-2024-53938",
+      "cveUrl": "/vuln/detail/CVE-2024-53938"
+    }
+  },
+  "CVE-2024-53939": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:10 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Victure RX1800 WiFi 6 Router (software EN_V1.0.0_r12_110933, hardware 1.0) devices. The /cgi-bin/luci/admin/opsw/Dual_freq_un_apple endpoint is vulnerable to command injection through the 2.4 GHz and 5 GHz name parameters, allowing an attacker to execute arbitrary commands on the device (with root-level permissions) via crafted input.",
+      "cveName": "CVE-2024-53939",
+      "cveUrl": "/vuln/detail/CVE-2024-53939"
+    }
+  },
+  "CVE-2024-53940": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:10 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Victure RX1800 WiFi 6 Router (software EN_V1.0.0_r12_110933, hardware 1.0) devices. Certain /cgi-bin/luci/admin endpoints are vulnerable to command injection. Attackers can exploit this by sending crafted payloads through parameters intended for the ping utility, enabling arbitrary command execution with root-level permissions on the device.",
+      "cveName": "CVE-2024-53940",
+      "cveUrl": "/vuln/detail/CVE-2024-53940"
+    }
+  },
+  "CVE-2024-53941": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:10 PM -0500"
+      ],
+      "cveDis": "An issue was discovered in Victure RX1800 WiFi 6 Router (software EN_V1.0.0_r12_110933, hardware 1.0) devices. A remote attacker (in proximity to a Wi-Fi network) can derive the default Wi-Fi PSK value via the last 4 octets of the BSSID.",
+      "cveName": "CVE-2024-53941",
+      "cveUrl": "/vuln/detail/CVE-2024-53941"
+    }
+  },
   "CVE-2024-53975": {
     "cve": {
       "cveDate": [
@@ -53226,6 +53545,61 @@
       "cveDis": "Nanopb is a small code-size Protocol Buffers implementation.  When the compile time option PB_ENABLE_MALLOC is enabled, the message contains at least one field with FT_POINTER field type, custom stream callback is used with unknown stream length. and the pb_decode_ex() function is used with flag PB_DECODE_DELIMITED, then the pb_decode_ex() function does not automatically call pb_release(), like is done for other failure cases. This could lead to memory leak and potential denial-of-service. This vulnerability is fixed in 0.4.9.1.",
       "cveName": "CVE-2024-53984",
       "cveUrl": "/vuln/detail/CVE-2024-53984"
+    }
+  },
+  "CVE-2024-53985": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:11 PM -0500"
+      ],
+      "cveDis": "rails-html-sanitizer is responsible for sanitizing HTML fragments in Rails applications. There is a possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer 1.6.0 when used with Rails >= 7.1.0 and Nokogiri < 1.15.7, or 1.16.x < 1.16.8. The XSS vulnerability with certain configurations of Rails::HTML::Sanitizer may allow an attacker to inject content if HTML5 sanitization is enabled and the application developer has overridden the sanitizer's allowed tags with both \"math\" and \"style\" elements or both both \"svg\" and \"style\" elements. This vulnerability is fixed in 1.6.1.",
+      "cveName": "CVE-2024-53985",
+      "cveUrl": "/vuln/detail/CVE-2024-53985"
+    }
+  },
+  "CVE-2024-53986": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:11 PM -0500"
+      ],
+      "cveDis": "rails-html-sanitizer is responsible for sanitizing HTML fragments in Rails applications. There is a possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer 1.6.0 when used with Rails >= 7.1.0. A possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer may allow an attacker to inject content if HTML5 sanitization is enabled and the application developer has overridden the sanitizer's allowed tags where the \"math\" and \"style\" elements are both explicitly allowed. This vulnerability is fixed in 1.6.1.",
+      "cveName": "CVE-2024-53986",
+      "cveUrl": "/vuln/detail/CVE-2024-53986"
+    }
+  },
+  "CVE-2024-53987": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:11 PM -0500"
+      ],
+      "cveDis": "rails-html-sanitizer is responsible for sanitizing HTML fragments in Rails applications. There is a possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer 1.6.0 when used with Rails >= 7.1.0. A possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer may allow an attacker to inject content if HTML5 sanitization is enabled and the application developer has overridden the sanitizer's allowed tags where the \"style\" element is explicitly allowed and the \"svg\" or \"math\" element is not allowed. This vulnerability is fixed in 1.6.1.",
+      "cveName": "CVE-2024-53987",
+      "cveUrl": "/vuln/detail/CVE-2024-53987"
+    }
+  },
+  "CVE-2024-53988": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "5:15:11 PM -0500"
+      ],
+      "cveDis": "rails-html-sanitizer is responsible for sanitizing HTML fragments in Rails applications. There is a possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer 1.6.0 when used with Rails >= 7.1.0. A possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer may allow an attacker to inject content if HTML5 sanitization is enabled and the application developer has overridden the sanitizer's allowed tags where the \"math\", \"mtext\", \"table\", and \"style\" elements are allowed and either either \"mglyph\" or \"malignmark\" are allowed. This vulnerability is fixed in 1.6.1.",
+      "cveName": "CVE-2024-53988",
+      "cveUrl": "/vuln/detail/CVE-2024-53988"
+    }
+  },
+  "CVE-2024-53989": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "4:15:11 PM -0500"
+      ],
+      "cveDis": "rails-html-sanitizer is responsible for sanitizing HTML fragments in Rails applications. There is a possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer 1.6.0 when used with Rails >= 7.1.0. A possible XSS vulnerability with certain configurations of Rails::HTML::Sanitizer may allow an attacker to inject content if HTML5 sanitization is enabled and the application developer has overridden the sanitizer's allowed tags for the the \"noscript\" element. This vulnerability is fixed in 1.6.1.",
+      "cveName": "CVE-2024-53989",
+      "cveUrl": "/vuln/detail/CVE-2024-53989"
     }
   },
   "CVE-2024-53990": {
@@ -53380,6 +53754,17 @@
       "cveDis": "A file overwrite vulnerability exists in gaizhenbiao/chuanhuchatgpt versions <= 20240410. This vulnerability allows an attacker to gain unauthorized access to overwrite critical configuration files within the system. Exploiting this vulnerability can lead to unauthorized changes in system behavior or security settings. Additionally, tampering with these configuration files can result in a denial of service (DoS) condition, disrupting normal system operation.",
       "cveName": "CVE-2024-5823",
       "cveUrl": "/vuln/detail/CVE-2024-5823"
+    }
+  },
+  "CVE-2024-5890": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "2:15:12 PM -0500"
+      ],
+      "cveDis": "ServiceNow has addressed an HTML injection vulnerability that was identified in the Now Platform. This vulnerability could potentially enable an unauthenticated user to modify a web page or redirect users to another website.\n\nServiceNow released updates to customers that addressed this vulnerability.  If you have not done so already, we recommend applying security patches relevant to your instance(s) as soon as possible.",
+      "cveName": "CVE-2024-5890",
+      "cveUrl": "/vuln/detail/CVE-2024-5890"
     }
   },
   "CVE-2024-5921": {
@@ -56374,6 +56759,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-8746"
     }
   },
+  "CVE-2024-87487-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "A buffer overflow vulnerability in the packet parser of the third-party library \"libclinkc\" in Zyxel VMG8825-T50K firmware versions through V5.50(ABOM.8.4)C0 could allow an attacker to cause a temporary denial of service (DoS) condition against the web management interface by sending a crafted HTTP POST request to a vulnerable device.",
+      "cveName": "CVE-2024-87487-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-8748"
+    }
+  },
   "CVE-2024-8755": {
     "cve": {
       "cveDate": [
@@ -57648,6 +58044,28 @@
       "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Linux and Microsoft Windows Octopus Server on Windows, Linux allows SQL Injection.This issue affects Octopus Server: from 2024.1.0 before 2024.1.13038, from 2024.2.0 before 2024.2.9482, from 2024.3.0 before 2024.3.12766.",
       "cveName": "CVE-2024-9194",
       "cveUrl": "/vuln/detail/CVE-2024-9194"
+    }
+  },
+  "CVE-2024-91974-9 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "A post-authentication buffer overflow vulnerability in the parameter \"action\" of the CGI program in Zyxel VMG3625-T50B firmware versions through V5.50(ABPM.9.2)C0 could allow an authenticated attacker with administrator privileges to cause a temporary denial of service (DoS) condition against the web management interface by sending a crafted HTTP GET request to a vulnerable device if the function ZyEE is enabled.",
+      "cveName": "CVE-2024-91974-9 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9197"
+    }
+  },
+  "CVE-2024-92007-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "A post-authentication command injection vulnerability in the \"host\" parameter of the diagnostic function in Zyxel VMG4005-B50A firmware versions through V5.15(ABQA.2.2)C0 could allow an authenticated attacker with administrator privileges to execute operating system (OS) commands on a vulnerable device.",
+      "cveName": "CVE-2024-92007-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-9200"
     }
   },
   "CVE-2024-9201": {
@@ -61157,6 +61575,17 @@
       "cveDis": "VIMESA VHF/FM Transmitter Blue Plus is suffering from a Denial-of-Service (DoS) vulnerability. An unauthenticated attacker can issue an unauthorized HTTP GET request to the unprotected endpoint 'doreboot' and restart the transmitter operations.",
       "cveName": "CVE-2024-9692",
       "cveUrl": "/vuln/detail/CVE-2024-9692"
+    }
+  },
+  "CVE-2024-96946-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 02, 2024",
+        "10:15:05 PM -0500"
+      ],
+      "cveDis": "The CMSMasters Elementor Addon plugin for WordPress is vulnerable to Stored Cross-Site Scripting via multiple widgets in all versions up to, and including, 1.14.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-96946-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9694"
     }
   },
   "CVE-2024-96966-4 MEDIUM": {
