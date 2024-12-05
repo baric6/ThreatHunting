@@ -681,6 +681,116 @@
       "cveUrl": "/vuln/detail/CVE-2018-9395"
     }
   },
+  "CVE-2018-9396": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "5:15:18 PM -0500"
+      ],
+      "cveDis": "In rpc_msg_handler and related handlers of drivers/misc/mediatek/eccci/port_rpc.c, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9396",
+      "cveUrl": "/vuln/detail/CVE-2018-9396"
+    }
+  },
+  "CVE-2018-9397": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:16 PM -0500"
+      ],
+      "cveDis": "In WMT_unlocked_ioctl of MTK WMT device driver, there is a possible OOB\n    write due to a missing bounds check. This could lead to local escalation of\n    privilege with System execution privileges needed. User interaction is not\n    needed for exploitation.",
+      "cveName": "CVE-2018-9397",
+      "cveUrl": "/vuln/detail/CVE-2018-9397"
+    }
+  },
+  "CVE-2018-9398": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "In fm_set_stat of mediatek FM radio driver, there is a possible OOB write\n    due to improper input validation. This could lead to local escalation of\n    privilege with System execution privileges needed. User interaction is not\n    needed for exploitation.",
+      "cveName": "CVE-2018-9398",
+      "cveUrl": "/vuln/detail/CVE-2018-9398"
+    }
+  },
+  "CVE-2018-9399": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "In /proc/driver/wmt_dbg driver, there are several possible out of bounds\n    writes. These could lead to local escalation of privilege with System\n    execution privileges needed. User interaction is not needed for\n    exploitation.",
+      "cveName": "CVE-2018-9399",
+      "cveUrl": "/vuln/detail/CVE-2018-9399"
+    }
+  },
+  "CVE-2018-9400": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "In gt1x_debug_write_proc and gt1x_tool_write of\n    drivers/input/touchscreen/mediatek/GT1151/gt1x_generic.c and gt1x_tools.c,\n    there is a possible out of bounds write due to a missing bounds check. This\n    could lead to local escalation of privilege with System execution privileges\n    needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9400",
+      "cveUrl": "/vuln/detail/CVE-2018-9400"
+    }
+  },
+  "CVE-2018-9402": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "In multiple functions of gl_proc.c, there is a buffer overwrite due to a missing bounds check. This could lead to escalation of privileges in the kernel.",
+      "cveName": "CVE-2018-9402",
+      "cveUrl": "/vuln/detail/CVE-2018-9402"
+    }
+  },
+  "CVE-2018-9403": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "In the MTK_FLP_MSG_HAL_DIAG_REPORT_DATA_NTF handler of flp2hal_-\n    interface.c, there is a possible stack buffer overflow due to a missing\n    bounds check. This could lead to local escalation of privilege in a\n    privileged process with System execution privileges needed. User interaction\n    is not needed for exploitation.",
+      "cveName": "CVE-2018-9403",
+      "cveUrl": "/vuln/detail/CVE-2018-9403"
+    }
+  },
+  "CVE-2018-9404": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "In oemCallback of ril.cpp, there is a possible out of bounds write due to an\n    integer overflow. This could lead to local escalation of privilege with\n    System execution privileges needed. User interaction is not needed for\n    exploitation.",
+      "cveName": "CVE-2018-9404",
+      "cveUrl": "/vuln/detail/CVE-2018-9404"
+    }
+  },
+  "CVE-2018-9407": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:17 PM -0500"
+      ],
+      "cveDis": "In emmc_rpmb_ioctl of emmc_rpmb.c, there is an Information Disclosure due to a Missing Bounds Check. This could lead to  Information Disclosure of kernel data.",
+      "cveName": "CVE-2018-9407",
+      "cveUrl": "/vuln/detail/CVE-2018-9407"
+    }
+  },
+  "CVE-2018-9408": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:18 PM -0500"
+      ],
+      "cveDis": "In m3326_gps_write and m3326_gps_read of gps.s, there is a possible Out Of\n    Bounds Read due to a missing bounds check. This could lead to a local\n    information disclosure with System execution privileges needed. User\n    interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9408",
+      "cveUrl": "/vuln/detail/CVE-2018-9408"
+    }
+  },
   "CVE-2018-9409": {
     "cve": {
       "cveDate": [
@@ -745,6 +855,17 @@
       "cveDis": "In gattServerSendResponseNative of com_android_bluetooth_gatt.cpp, there is a possible out of bounds stack write due to a missing bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.",
       "cveName": "CVE-2018-9414",
       "cveUrl": "/vuln/detail/CVE-2018-9414"
+    }
+  },
+  "CVE-2018-9416": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:18 PM -0500"
+      ],
+      "cveDis": "In sg_remove_scat of scsi/sg.c, there is a possible memory corruption due to\n    an unusual root cause. This could lead to local escalation of privilege with\n    System execution privileges needed. User interaction is not needed for\n    exploitation.",
+      "cveName": "CVE-2018-9416",
+      "cveUrl": "/vuln/detail/CVE-2018-9416"
     }
   },
   "CVE-2018-9417": {
@@ -912,6 +1033,17 @@
       "cveUrl": "/vuln/detail/CVE-2018-9435"
     }
   },
+  "CVE-2018-9439": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:18 PM -0500"
+      ],
+      "cveDis": "In __unregister_prot_hook and packet_release of af_packet.c, there is a\n    possible use-after-free due to improper locking. This could lead to local\n    escalation of privilege in the kernel with System execution privileges\n    needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9439",
+      "cveUrl": "/vuln/detail/CVE-2018-9439"
+    }
+  },
   "CVE-2018-9440": {
     "cve": {
       "cveDate": [
@@ -954,6 +1086,28 @@
       "cveDis": "In sdpu_extract_attr_seq of sdp_utils.cc, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.",
       "cveName": "CVE-2018-9456",
       "cveUrl": "/vuln/detail/CVE-2018-9456"
+    }
+  },
+  "CVE-2018-9462": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:18 PM -0500"
+      ],
+      "cveDis": "In store_cmd of ftm4_pdc.c, there is a possible out of bounds write due to\n    an incorrect bounds check. This could lead to local escalation of privilege\n    with System execution privileges needed. User interaction is not needed for\n    exploitation.",
+      "cveName": "CVE-2018-9462",
+      "cveUrl": "/vuln/detail/CVE-2018-9462"
+    }
+  },
+  "CVE-2018-9463": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:18 PM -0500"
+      ],
+      "cveDis": "In sw49408_irq_runtime_engine_debug of touch_sw49408.c, there is a possible\n    out of bounds write due to an incorrect bounds check. This could lead to\n    local escalation of privilege with System execution privileges needed. User\n    interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9463",
+      "cveUrl": "/vuln/detail/CVE-2018-9463"
     }
   },
   "CVE-2018-9466": {
@@ -9173,6 +9327,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10880"
     }
   },
+  "CVE-2024-108816-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "11:15:03 PM -0500"
+      ],
+      "cveDis": "The LUNA RADIO PLAYER plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'lunaradio' shortcode in versions up to, and including, 6.24.11.07 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-108816-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10881"
+    }
+  },
   "CVE-2024-108836-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -13560,6 +13725,94 @@
       "cveDis": "Incorrect permission assignment in the user migration feature in Devolutions Server 2024.3.8.0 and earlier allows users to retain their old permission sets.",
       "cveName": "CVE-2024-12151",
       "cveUrl": "/vuln/detail/CVE-2024-12151"
+    }
+  },
+  "CVE-2024-12180": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "5:15:22 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic has been found in DedeCMS 5.7.116. Affected is an unknown function of the file /member/article_add.php. The manipulation of the argument body leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12180",
+      "cveUrl": "/vuln/detail/CVE-2024-12180"
+    }
+  },
+  "CVE-2024-12181": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "5:15:22 PM -0500"
+      ],
+      "cveDis": "A vulnerability classified as problematic was found in DedeCMS 5.7.116. Affected by this vulnerability is an unknown functionality of the file /member/uploads_add.php of the component SWF File Handler. The manipulation of the argument mediatype leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12181",
+      "cveUrl": "/vuln/detail/CVE-2024-12181"
+    }
+  },
+  "CVE-2024-12182": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, has been found in DedeCMS 5.7.116. Affected by this issue is some unknown functionality of the file /member/soft_add.php. The manipulation of the argument body leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12182",
+      "cveUrl": "/vuln/detail/CVE-2024-12182"
+    }
+  },
+  "CVE-2024-12183": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, was found in DedeCMS 5.7.116. This affects the function RemoveXSS of the file /plus/carbuyaction.php of the component HTTP POST Request Handler. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12183",
+      "cveUrl": "/vuln/detail/CVE-2024-12183"
+    }
+  },
+  "CVE-2024-12185": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:18 PM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in code-projects Hotel Management System 1.0 and classified as problematic. This vulnerability affects unknown code of the component Administrator Login Password Handler. The manipulation of the argument Str2 leads to stack-based buffer overflow. An attack has to be approached locally. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12185",
+      "cveUrl": "/vuln/detail/CVE-2024-12185"
+    }
+  },
+  "CVE-2024-12186": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:18 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Hotel Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file hotelnew.c of the component Available Room Handler. The manipulation of the argument admin_entry leads to stack-based buffer overflow. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12186",
+      "cveUrl": "/vuln/detail/CVE-2024-12186"
+    }
+  },
+  "CVE-2024-12187": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 1000 Projects Library Management System 1.0. It has been classified as critical. Affected is an unknown function of the file /showbook.php. The manipulation of the argument q leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12187",
+      "cveUrl": "/vuln/detail/CVE-2024-12187"
+    }
+  },
+  "CVE-2024-12188": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "8:15:04 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 1000 Projects Library Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /brains/stu.php. The manipulation of the argument useri leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12188",
+      "cveUrl": "/vuln/detail/CVE-2024-12188"
     }
   },
   "CVE-2024-12196": {
@@ -20481,6 +20734,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-38828"
     }
   },
+  "CVE-2024-38829": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "4:15:24 PM -0500"
+      ],
+      "cveDis": "A vulnerability in VMware Tanzu Spring LDAP allows data exposure for case sensitive comparisons.This issue affects Spring LDAP: from 2.4.0 through 2.4.3, from 3.0.0 through 3.0.9, from 3.1.0 through 3.1.7, from 3.2.0 through 3.2.7, AND all versions prior to 2.4.0.\n\nThe usage of String.toLowerCase() and String.toUpperCase() has some Locale dependent exceptions that could potentially result in unintended columns from being queried\nRelated to  CVE-2024-38820 https://spring.io/security/cve-2024-38820",
+      "cveName": "CVE-2024-38829",
+      "cveUrl": "/vuln/detail/CVE-2024-38829"
+    }
+  },
   "CVE-2024-38830": {
     "cve": {
       "cveDate": [
@@ -20578,6 +20842,17 @@
       "cveDis": "binux pyspider up to v0.3.10 was discovered to contain a Cross-Site Request Forgery (CSRF) via the Flask endpoints.",
       "cveName": "CVE-2024-39163",
       "cveUrl": "/vuln/detail/CVE-2024-39163"
+    }
+  },
+  "CVE-2024-39219": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "4:15:24 PM -0500"
+      ],
+      "cveDis": "An issue in Aginode GigaSwitch V5 before version 7.06G allows authenticated attackers with Administrator privileges to upload an earlier firmware version, exposing the device to previously patched vulnerabilities.",
+      "cveName": "CVE-2024-39219",
+      "cveUrl": "/vuln/detail/CVE-2024-39219"
     }
   },
   "CVE-2024-39275": {
@@ -46276,6 +46551,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-50942"
     }
   },
+  "CVE-2024-50947": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "4:15:24 PM -0500"
+      ],
+      "cveDis": "An issue in kmqtt v0.2.7 allows attackers to cause a Denial of Service (DoS) via a crafted request.",
+      "cveName": "CVE-2024-50947",
+      "cveUrl": "/vuln/detail/CVE-2024-50947"
+    }
+  },
   "CVE-2024-50948": {
     "cve": {
       "cveDate": [
@@ -46835,6 +47121,17 @@
       "cveDis": "Cross-Site Scripting (XSS) vulnerabilities in Anuj Kumar's Client Management System Version 1.2 allow local attackers to inject arbitrary web script or HTML via the search input field parameter to admin search invoice page and client search invoice page.",
       "cveName": "CVE-2024-51209",
       "cveUrl": "/vuln/detail/CVE-2024-51209"
+    }
+  },
+  "CVE-2024-51210": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "4:15:24 PM -0500"
+      ],
+      "cveDis": "Firepad through 1.5.11 allows remote attackers, who have knowledge of a pad ID, to retrieve both the current text of a document and all content that has previously been pasted into the document. NOTE: in several similar products, this is the intentional behavior for anyone who knows the full document ID and corresponding URL. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
+      "cveName": "CVE-2024-51210",
+      "cveUrl": "/vuln/detail/CVE-2024-51210"
     }
   },
   "CVE-2024-51211": {
@@ -55307,6 +55604,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53981"
     }
   },
+  "CVE-2024-53982": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "ZOO-Project is a C-based WPS (Web Processing Service) implementation. A path traversal vulnerability was discovered in Zoo-Project Echo example. The Echo example available by default in Zoo installs implements file caching, which can be controlled by user-given parameters. No input validation is performed in this parameter, which allows an attacker to fully control the file which is returned in the response. Patch was committed in November 22nd, 2024.",
+      "cveName": "CVE-2024-53982",
+      "cveUrl": "/vuln/detail/CVE-2024-53982"
+    }
+  },
   "CVE-2024-53983": {
     "cve": {
       "cveDate": [
@@ -55461,6 +55769,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-54004"
     }
   },
+  "CVE-2024-54014": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "10:15:14 PM -0500"
+      ],
+      "cveDis": "Improper authorization in handler for custom URL scheme issue in 'Skylark' App for Android 6.2.13 and earlier and 'Skylark' App for iOS 6.2.13 and earlier allows an attacker to lead the application to access an arbitrary web site via another application installed on the user's device.",
+      "cveName": "CVE-2024-54014",
+      "cveUrl": "/vuln/detail/CVE-2024-54014"
+    }
+  },
   "CVE-2024-54123": {
     "cve": {
       "cveDate": [
@@ -55593,6 +55912,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-54159"
     }
   },
+  "CVE-2024-54221": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "7:15:19 PM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Roninwp FAT Services Booking.This issue affects FAT Services Booking: from n/a through 5.6.",
+      "cveName": "CVE-2024-54221",
+      "cveUrl": "/vuln/detail/CVE-2024-54221"
+    }
+  },
   "CVE-2024-5429": {
     "cve": {
       "cveDate": [
@@ -55624,6 +55954,28 @@
       "cveDis": "An issue was discovered in Veritas NetBackup before 10.5. This only applies to NetBackup components running on a Windows Operating System. If a user executes specific NetBackup commands or an attacker uses social engineering techniques to impel the user to execute the commands, a malicious DLL could be loaded, resulting in execution of the attacker's code in the user's security context, a different vulnerability than CVE-2024-52945.",
       "cveName": "CVE-2024-54664",
       "cveUrl": "/vuln/detail/CVE-2024-54664"
+    }
+  },
+  "CVE-2024-54674": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "4:15:25 PM -0500"
+      ],
+      "cveDis": "app/View/GalaxyClusters/cluster_export_misp_galaxy.ctp in MISP through 2.5.2 has stored XSS when exporting custom clusters into the misp-galaxy format.",
+      "cveName": "CVE-2024-54674",
+      "cveUrl": "/vuln/detail/CVE-2024-54674"
+    }
+  },
+  "CVE-2024-54675": {
+    "cve": {
+      "cveDate": [
+        "December 04, 2024",
+        "4:15:25 PM -0500"
+      ],
+      "cveDis": "app/webroot/js/workflows-editor/workflows-editor.js in MISP through 2.5.2 has stored XSS in the editor interface for an ad-hoc workflow.",
+      "cveName": "CVE-2024-54675",
+      "cveUrl": "/vuln/detail/CVE-2024-54675"
     }
   },
   "CVE-2024-5474": {
