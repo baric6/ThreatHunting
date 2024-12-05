@@ -8568,6 +8568,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10715"
     }
   },
+  "CVE-2024-10716": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "Pega Platform versions 8.1 to Infinity 24.2.0 are affected by an XSS issue with search.",
+      "cveName": "CVE-2024-10716",
+      "cveUrl": "/vuln/detail/CVE-2024-10716"
+    }
+  },
   "CVE-2024-107288-8 HIGH": {
     "cve": {
       "cveDate": [
@@ -10821,6 +10832,39 @@
       "cveDis": "The PublishPress Revisions: Duplicate Posts, Submit, Approve and Schedule Content Changes plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.5.15 via the 'actAjaxRevisionDiffs' function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to extract sensitive data including revisions of posts and pages.",
       "cveName": "CVE-2024-111544-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11154"
+    }
+  },
+  "CVE-2024-11155": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "1:15:20 PM -0500"
+      ],
+      "cveDis": "A “use after free”  code execution vulnerability exists in the Rockwell Automation Arena® that could allow a threat actor to craft a DOE file and force the software to use a resource that was already used. If exploited, a threat actor could leverage this vulnerability to execute arbitrary code. To exploit this vulnerability, a legitimate user must execute the malicious code crafted by the threat actor.",
+      "cveName": "CVE-2024-11155",
+      "cveUrl": "/vuln/detail/CVE-2024-11155"
+    }
+  },
+  "CVE-2024-11156": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "1:15:21 PM -0500"
+      ],
+      "cveDis": "An “out of bounds write”  code execution vulnerability exists in the\n\nRockwell Automation Arena®\n\n that could allow a threat actor to write beyond the boundaries of allocated memory in a DOE file. If exploited, a threat actor could leverage this vulnerability to execute arbitrary code. To exploit this vulnerability, a legitimate user must execute the malicious code crafted by the threat actor.",
+      "cveName": "CVE-2024-11156",
+      "cveUrl": "/vuln/detail/CVE-2024-11156"
+    }
+  },
+  "CVE-2024-11158": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "1:15:21 PM -0500"
+      ],
+      "cveDis": "An “uninitialized variable” code execution vulnerability exists in the \n\nRockwell Automation Arena®\n\n that could allow a threat actor to craft a DOE file and force the software to access a variable before it being initialized. If exploited, a threat actor could leverage this vulnerability to execute arbitrary code. To exploit this vulnerability, a legitimate user must execute the malicious code crafted by the threat actor.",
+      "cveName": "CVE-2024-11158",
+      "cveUrl": "/vuln/detail/CVE-2024-11158"
     }
   },
   "CVE-2024-11176": {
@@ -13309,6 +13353,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-11935"
     }
   },
+  "CVE-2024-11941": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability in Drupal Core allows Excessive Allocation.This issue affects Drupal Core: from 10.2.0 before 10.2.2, from 10.1.0 before 10.1.8.",
+      "cveName": "CVE-2024-11941",
+      "cveUrl": "/vuln/detail/CVE-2024-11941"
+    }
+  },
+  "CVE-2024-11942": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "A vulnerability in Drupal Core allows File Manipulation.This issue affects Drupal Core: from 10.0.0 before 10.2.10.",
+      "cveName": "CVE-2024-11942",
+      "cveUrl": "/vuln/detail/CVE-2024-11942"
+    }
+  },
   "CVE-2024-119527-5 HIGH": {
     "cve": {
       "cveDate": [
@@ -13760,6 +13826,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-12082"
     }
   },
+  "CVE-2024-12094": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:05 AM -0500"
+      ],
+      "cveDis": "This vulnerability exists in the Tinxy mobile app due to storage of logged-in user information in plaintext on the device database. An attacker with physical access to the rooted device could exploit this vulnerability by accessing its database leading to unauthorized access of user information such as username, email address and mobile number.",
+      "cveName": "CVE-2024-12094",
+      "cveUrl": "/vuln/detail/CVE-2024-12094"
+    }
+  },
   "CVE-2024-120994-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -13791,6 +13868,17 @@
       "cveDis": "A hidden field manipulation vulnerability was identified in Issuetrak version 17.1 that could be triggered by an authenticated user. \n\nWhen an authenticated user submits a ticket, the request can be intercepted and subsequently modified by using a proxy.  The ticket requester can be changed from the original requester to another user in the same application, \nwhich the application then accepts.",
       "cveName": "CVE-2024-12123",
       "cveUrl": "/vuln/detail/CVE-2024-12123"
+    }
+  },
+  "CVE-2024-12130": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "1:15:21 PM -0500"
+      ],
+      "cveDis": "An “out of bounds read” code execution vulnerability exists in the Rockwell Automation Arena®\n\n that could allow a threat actor to craft a DOE file and force the software to read beyond the boundaries of an allocated memory. If exploited, a threat actor could leverage this vulnerability to execute arbitrary code. To exploit this vulnerability, a legitimate user must execute the malicious code crafted by the threat actor.",
+      "cveName": "CVE-2024-12130",
+      "cveUrl": "/vuln/detail/CVE-2024-12130"
     }
   },
   "CVE-2024-12138": {
@@ -13945,6 +14033,116 @@
       "cveDis": "Incorrect authorization in the permission component in Devolutions Server 2024.3.7.0 and earlier allows an authenticated user to view the password history of an entry without the view password permission.",
       "cveName": "CVE-2024-12196",
       "cveUrl": "/vuln/detail/CVE-2024-12196"
+    }
+  },
+  "CVE-2024-12227": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:19 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as problematic, was found in MSI Dragon Center up to 2.0.146.0. This affects the function MmUnMapIoSpace in the library NTIOLib_X64.sys of the component IOCTL Handler. The manipulation leads to null pointer dereference. It is possible to launch the attack on the local host. Upgrading to version 2.0.148.0 is able to address this issue. It is recommended to upgrade the affected component.",
+      "cveName": "CVE-2024-12227",
+      "cveUrl": "/vuln/detail/CVE-2024-12227"
+    }
+  },
+  "CVE-2024-12228": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:20 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in PHPGurukul Complaint Management System 1.0. Affected is an unknown function of the file /admin/user-search.php. The manipulation of the argument search leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12228",
+      "cveUrl": "/vuln/detail/CVE-2024-12228"
+    }
+  },
+  "CVE-2024-12229": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "10:15:09 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical was found in PHPGurukul Complaint Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/complaint-search.php. The manipulation of the argument search leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12229",
+      "cveUrl": "/vuln/detail/CVE-2024-12229"
+    }
+  },
+  "CVE-2024-12230": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "10:15:09 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, has been found in PHPGurukul Complaint Management System 1.0. Affected by this issue is some unknown functionality of the file /admin/subcategory.php. The manipulation of the argument category leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12230",
+      "cveUrl": "/vuln/detail/CVE-2024-12230"
+    }
+  },
+  "CVE-2024-12231": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:24 AM -0500"
+      ],
+      "cveDis": "A vulnerability, which was classified as critical, was found in CodeZips Project Management System 1.0. This affects an unknown part of the file /index.php. The manipulation of the argument email leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12231",
+      "cveUrl": "/vuln/detail/CVE-2024-12231"
+    }
+  },
+  "CVE-2024-12232": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "A vulnerability has been found in code-projects Simple CRUD Functionality 1.0 and classified as problematic. This vulnerability affects unknown code of the file /index.php. The manipulation of the argument newtitle/newdescr leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12232",
+      "cveUrl": "/vuln/detail/CVE-2024-12232"
+    }
+  },
+  "CVE-2024-12233": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in code-projects Online Notice Board up to 1.0 and classified as critical. This issue affects some unknown processing of the file /registration.php of the component Profile Picture Handler. The manipulation of the argument img leads to unrestricted upload. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12233",
+      "cveUrl": "/vuln/detail/CVE-2024-12233"
+    }
+  },
+  "CVE-2024-12234": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "12:15:11 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in 1000 Projects Beauty Parlour Management System 1.0. It has been classified as critical. Affected is an unknown function of the file /admin/edit-customer-detailed.php. The manipulation of the argument name leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+      "cveName": "CVE-2024-12234",
+      "cveUrl": "/vuln/detail/CVE-2024-12234"
+    }
+  },
+  "CVE-2024-12235": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "1:15:21 PM -0500"
+      ],
+      "cveDis": "A vulnerability was found in Shenzhen Dashi Tongzhou Information Technology AgileBPM up to 1.0.0. It has been declared as critical. Affected by this vulnerability is the function doFilter of the file \\agile-bpm-basic-master\\ab-auth\\ab-auth-spring-security-oauth2\\src\\main\\java\\com\\dstz\\auth\\filter\\AuthorizationTokenCheckFilter.java. The manipulation leads to improper access controls. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12235",
+      "cveUrl": "/vuln/detail/CVE-2024-12235"
+    }
+  },
+  "CVE-2024-12247": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "Mattermost versions 9.7.x <= 9.7.5, 9.8.x <= 9.8.2 and 9.9.x <= 9.9.2 fail to properly propagate permission scheme updates across cluster nodes which allows a user to keep old permissions, even if the permission scheme has been updated.",
+      "cveName": "CVE-2024-12247",
+      "cveUrl": "/vuln/detail/CVE-2024-12247"
     }
   },
   "CVE-2024-1240": {
@@ -21614,6 +21812,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-40746"
     }
   },
+  "CVE-2024-40763": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:20 AM -0500"
+      ],
+      "cveDis": "Heap-based buffer overflow vulnerability in the SonicWall SMA100 SSLVPN due to the use of strcpy. This allows remote authenticated attackers to cause Heap-based buffer overflow and potentially lead to code execution.",
+      "cveName": "CVE-2024-40763",
+      "cveUrl": "/vuln/detail/CVE-2024-40763"
+    }
+  },
   "CVE-2024-40810": {
     "cve": {
       "cveDate": [
@@ -26859,6 +27068,28 @@
       "cveDis": "OneDev is a Git server with CI/CD, kanban, and packages. A vulnerability in versions prior to 11.0.9 allows unauthenticated users to read arbitrary files accessible by the OneDev server process. This issue has been fixed in version 11.0.9.",
       "cveName": "CVE-2024-45309",
       "cveUrl": "/vuln/detail/CVE-2024-45309"
+    }
+  },
+  "CVE-2024-45318": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:21 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the SonicWall SMA100 SSLVPN web management interface allows remote attackers to cause Stack-based buffer overflow and potentially lead to code execution.",
+      "cveName": "CVE-2024-45318",
+      "cveUrl": "/vuln/detail/CVE-2024-45318"
+    }
+  },
+  "CVE-2024-45319": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:21 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the SonicWall SMA100 SSLVPN \n\nfirmware 10.2.1.13-72sv and earlier versions allows a remote authenticated attacker can circumvent the certificate requirement during authentication.",
+      "cveName": "CVE-2024-45319",
+      "cveUrl": "/vuln/detail/CVE-2024-45319"
     }
   },
   "CVE-2024-45330": {
@@ -37474,6 +37705,83 @@
       "cveDis": "Dell SmartFabric OS10 Software, version(s) 10.5.6.x, 10.5.5.x, 10.5.4.x, 10.5.3.x, contain(s) a Files or Directories Accessible to External Parties vulnerability. A low privileged attacker with local access could potentially exploit this vulnerability, leading to Filesystem access for attacker.",
       "cveName": "CVE-2024-48838",
       "cveUrl": "/vuln/detail/CVE-2024-48838"
+    }
+  },
+  "CVE-2024-48839": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:06 AM -0500"
+      ],
+      "cveDis": "Improper Input Validation vulnerability allows Remote Code Execution. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-48839",
+      "cveUrl": "/vuln/detail/CVE-2024-48839"
+    }
+  },
+  "CVE-2024-48840": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:06 AM -0500"
+      ],
+      "cveDis": "Unauthorized Access vulnerabilities allow Remote Code Execution. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-48840",
+      "cveUrl": "/vuln/detail/CVE-2024-48840"
+    }
+  },
+  "CVE-2024-48843": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:06 AM -0500"
+      ],
+      "cveDis": "Denial of Service vulnerabilities where found providing a potiential for device service disruptions. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-48843",
+      "cveUrl": "/vuln/detail/CVE-2024-48843"
+    }
+  },
+  "CVE-2024-48844": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:06 AM -0500"
+      ],
+      "cveDis": "Denial of Service vulnerabilities where found providing a potiential for device service disruptions. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-48844",
+      "cveUrl": "/vuln/detail/CVE-2024-48844"
+    }
+  },
+  "CVE-2024-48845": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:06 AM -0500"
+      ],
+      "cveDis": "Weak Password  Reset Rules vulnerabilities where found providing a potiential for the storage of weak passwords that could  facilitate unauthorized admin/application access. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.07.02; \nNEXUS Series v3.07.02; \nMATRIX Series v3.07.02",
+      "cveName": "CVE-2024-48845",
+      "cveUrl": "/vuln/detail/CVE-2024-48845"
+    }
+  },
+  "CVE-2024-48846": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:06 AM -0500"
+      ],
+      "cveDis": "Cross Site Request Forgery vulnerabilities where found providing a potiential for exposing sensitive information or changing system settings. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-48846",
+      "cveUrl": "/vuln/detail/CVE-2024-48846"
+    }
+  },
+  "CVE-2024-48847": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:07 AM -0500"
+      ],
+      "cveDis": "MD5 Checksum Bypass vulnerabilities where found exploiting a weakness in the way an application dependency calculates or validates MD5 checksum hashes. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.01; \nNEXUS Series v3.08.01; \nMATRIX Series v3.08.01",
+      "cveName": "CVE-2024-48847",
+      "cveUrl": "/vuln/detail/CVE-2024-48847"
     }
   },
   "CVE-2024-48860": {
@@ -48465,6 +48773,138 @@
       "cveUrl": "/vuln/detail/CVE-2024-51528"
     }
   },
+  "CVE-2024-51541": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:07 AM -0500"
+      ],
+      "cveDis": "Local File Inclusion vulnerabilities allow access to sensitive system information. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-51541",
+      "cveUrl": "/vuln/detail/CVE-2024-51541"
+    }
+  },
+  "CVE-2024-51542": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:07 AM -0500"
+      ],
+      "cveDis": "Configuration Download vulnerabilities allow access to dependency configuration information. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-51542",
+      "cveUrl": "/vuln/detail/CVE-2024-51542"
+    }
+  },
+  "CVE-2024-51543": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:07 AM -0500"
+      ],
+      "cveDis": "Information Disclosure vulnerabilities allow access to application configuration information. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-51543",
+      "cveUrl": "/vuln/detail/CVE-2024-51543"
+    }
+  },
+  "CVE-2024-51544": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:07 AM -0500"
+      ],
+      "cveDis": "Service Control vulnerabilities allow access to service restart requests and vm configuration settings. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-51544",
+      "cveUrl": "/vuln/detail/CVE-2024-51544"
+    }
+  },
+  "CVE-2024-51545": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:07 AM -0500"
+      ],
+      "cveDis": "Username Enumeration vulnerabilities allow access to application level username add, delete, modify and list functions. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-51545",
+      "cveUrl": "/vuln/detail/CVE-2024-51545"
+    }
+  },
+  "CVE-2024-51546": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Credentials Disclosure vulnerabilities allow access to on board project back-up bundles. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-51546",
+      "cveUrl": "/vuln/detail/CVE-2024-51546"
+    }
+  },
+  "CVE-2024-51548": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Dangerous File Upload vulnerabilities allow upload of malicious scripts. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-51548",
+      "cveUrl": "/vuln/detail/CVE-2024-51548"
+    }
+  },
+  "CVE-2024-51549": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Absolute File Traversal  vulnerabilities allows access and modification of un-intended resources. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-51549",
+      "cveUrl": "/vuln/detail/CVE-2024-51549"
+    }
+  },
+  "CVE-2024-51550": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Data Validation / Data Sanitization  vulnerabilities in Linux allows unvalidated and unsanitized data to be injected in an Aspect device. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-51550",
+      "cveUrl": "/vuln/detail/CVE-2024-51550"
+    }
+  },
+  "CVE-2024-51551": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Default Credentail vulnerabilities in ASPECT on Linux allows access to the product using publicly available default credentials. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.07.02; \nNEXUS Series v3.07.02; \nMATRIX Series v3.07.02",
+      "cveName": "CVE-2024-51551",
+      "cveUrl": "/vuln/detail/CVE-2024-51551"
+    }
+  },
+  "CVE-2024-51554": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Default Credentail vulnerabilities in ASPECT on Linux allows access to the product using publicly available default credentials. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-51554",
+      "cveUrl": "/vuln/detail/CVE-2024-51554"
+    }
+  },
+  "CVE-2024-51555": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:08 AM -0500"
+      ],
+      "cveDis": "Default Credentail vulnerabilities allows access to an Aspect device using publicly available default credentials since the system does not require the installer to change default credentials. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.07.02; \nNEXUS Series v3.07.02; \nMATRIX Series v3.07.02",
+      "cveName": "CVE-2024-51555",
+      "cveUrl": "/vuln/detail/CVE-2024-51555"
+    }
+  },
   "CVE-2024-51556": {
     "cve": {
       "cveDate": [
@@ -50366,6 +50806,17 @@
       "cveDis": "User Interface (UI) Misrepresentation of Critical Information vulnerability in DropBox Sign(HelloSign) allows Content Spoofing.\nDisplayed version does not show the layer flattened version, once download, If printed (e.g. via Google Chrome -> Examine the print preview): Will render the vulnerability only, not all layers are flattened.\nThis issue affects DropBox Sign(HelloSign): through 2024-12-04.",
       "cveName": "CVE-2024-52270",
       "cveUrl": "/vuln/detail/CVE-2024-52270"
+    }
+  },
+  "CVE-2024-52271": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:21 AM -0500"
+      ],
+      "cveDis": "User Interface (UI) Misrepresentation of Critical Information vulnerability in Documenso allows Content Spoofing.Displayed version does not show the layer flattened version, once download, If printed (e.g. via Google Chrome -> Examine the print preview): Will render the vulnerability only, not all layers are flattened.\n\n\nThis issue affects Documenso: through 1.8.0, >1.8.0 and Documenso SaaS (Hosted) as of 2024-12-05.",
+      "cveName": "CVE-2024-52271",
+      "cveUrl": "/vuln/detail/CVE-2024-52271"
     }
   },
   "CVE-2024-52272": {
@@ -54273,6 +54724,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-53459"
     }
   },
+  "CVE-2024-53470": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "Multiple stored cross-site scripting (XSS) vulnerabilities in the component /configuracao/gateway_pagamento.php of WeGIA v3.2.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the id or name parameter.",
+      "cveName": "CVE-2024-53470",
+      "cveUrl": "/vuln/detail/CVE-2024-53470"
+    }
+  },
+  "CVE-2024-53471": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "Multiple stored cross-site scripting (XSS) vulnerabilities in the component /configuracao/meio_pagamento.php of WeGIA v3.2.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the id or name parameter.",
+      "cveName": "CVE-2024-53471",
+      "cveUrl": "/vuln/detail/CVE-2024-53471"
+    }
+  },
+  "CVE-2024-53472": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:25 AM -0500"
+      ],
+      "cveDis": "WeGIA v3.2.0 was discovered to contain a Cross-Site Request Forgery (CSRF).",
+      "cveName": "CVE-2024-53472",
+      "cveUrl": "/vuln/detail/CVE-2024-53472"
+    }
+  },
   "CVE-2024-53477": {
     "cve": {
       "cveDate": [
@@ -54293,6 +54777,17 @@
       "cveDis": "Ever Traduora 0.20.0 and below is vulnerable to Privilege Escalation due to the use of a hard-coded JWT signing key.",
       "cveName": "CVE-2024-53484",
       "cveUrl": "/vuln/detail/CVE-2024-53484"
+    }
+  },
+  "CVE-2024-53490": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "12:15:14 PM -0500"
+      ],
+      "cveDis": "Favorites-web 1.3.0 favorites-web has a directory traversal vulnerability in SecurityFilter.java.",
+      "cveName": "CVE-2024-53490",
+      "cveUrl": "/vuln/detail/CVE-2024-53490"
     }
   },
   "CVE-2024-53502": {
@@ -54590,6 +55085,28 @@
       "cveDis": "Multiple FCNT Android devices provide the original security features such as \"privacy mode\" where arbitrary applications can be set not to be displayed, etc.\nUnder certain conditions, and when an attacker can directly operate the device which its screen is unlocked by a user, the provided security features' setting pages may be exposed and/or the settings may be altered, without authentication. For example, specific applications in the device configured to be hidden may be displayed and/or activated.",
       "cveName": "CVE-2024-53701",
       "cveUrl": "/vuln/detail/CVE-2024-53701"
+    }
+  },
+  "CVE-2024-53702": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:21 AM -0500"
+      ],
+      "cveDis": "Use of cryptographically weak pseudo-random number generator (PRNG) vulnerability in the SonicWall SMA100 SSLVPN backup code generator that, in certain cases, can be predicted by an attacker, potentially exposing the generated secret.",
+      "cveName": "CVE-2024-53702",
+      "cveUrl": "/vuln/detail/CVE-2024-53702"
+    }
+  },
+  "CVE-2024-53703": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:22 AM -0500"
+      ],
+      "cveDis": "A vulnerability in the SonicWall SMA100 SSLVPN firmware 10.2.1.13-72sv and earlier versions mod_httprp library loaded by the Apache web server allows remote attackers to cause Stack-based buffer overflow and potentially lead to code execution.",
+      "cveName": "CVE-2024-53703",
+      "cveUrl": "/vuln/detail/CVE-2024-53703"
     }
   },
   "CVE-2024-53720": {
@@ -55384,6 +55901,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53844"
     }
   },
+  "CVE-2024-53846": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "12:15:14 PM -0500"
+      ],
+      "cveDis": "OTP is a set of Erlang libraries, which consists of the Erlang runtime system, a number of ready-to-use components mainly written in Erlang, and a set of design principles for Erlang programs. A regression was introduced into the ssl application of OTP starting at OTP-25.3.2.8, OTP-26.2, and OTP-27.0, resulting in a server or client verifying the peer when incorrect extended key usage is presented (i.e., a server will verify a client if they have server auth ext key usage and vice versa).",
+      "cveName": "CVE-2024-53846",
+      "cveUrl": "/vuln/detail/CVE-2024-53846"
+    }
+  },
   "CVE-2024-53848": {
     "cve": {
       "cveDate": [
@@ -55415,6 +55943,28 @@
       "cveDis": "Centurion ERP (Enterprise Rescource Planning) is a simple application developed to provide open source IT management with a large emphasis on the IT Service Management (ITSM) modules. A user who is authenticated and has view permissions for a ticket, can view the tickets of another organization they are not apart of. Users with following permissions are applicable: 1. `view_ticket_change` permission can view change tickets from organizations they are not apart of. 2. `view_ticket_incident` permission can view incident tickets from organizations they are not apart of. 3. `view_ticket_request` permission can view request tickets from organizations they are not apart of. 4. `view_ticket_problem` permission can view problem tickets from organizations they are not apart of. The access to view the tickets from different organizations is only applicable when browsing the API endpoints for the tickets in question. The Centurion UI is not affected. Project Tasks, although a \"ticket type\" are also **Not** affected. This issue has been addressed in release version 1.3.1 and users are advised to upgrade. Users unable to upgrade may remove the ticket view permissions from users which would alleviate this vulnerability, if this is deemed not-viable, Upgrading is recommended.",
       "cveName": "CVE-2024-53855",
       "cveUrl": "/vuln/detail/CVE-2024-53855"
+    }
+  },
+  "CVE-2024-53856": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:26 AM -0500"
+      ],
+      "cveDis": "rPGP is a pure Rust implementation of OpenPGP. Prior to 0.14.1, rPGP allows an attacker to trigger rpgp crashes by providing crafted data. This vulnerability is fixed in 0.14.1.",
+      "cveName": "CVE-2024-53856",
+      "cveUrl": "/vuln/detail/CVE-2024-53856"
+    }
+  },
+  "CVE-2024-53857": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:26 AM -0500"
+      ],
+      "cveDis": "rPGP is a pure Rust implementation of OpenPGP. Prior to 0.14.1, rPGP allows attackers to trigger resource exhaustion vulnerabilities in rpgp by providing crafted messages. This affects general message parsing and decryption with symmetric keys.",
+      "cveName": "CVE-2024-53857",
+      "cveUrl": "/vuln/detail/CVE-2024-53857"
     }
   },
   "CVE-2024-53858": {
@@ -55912,6 +56462,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-54000"
     }
   },
+  "CVE-2024-54001": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:26 AM -0500"
+      ],
+      "cveDis": "Kanboard is project management software that focuses on the Kanban methodology. HTML can be injected and stored into the application settings section. The fields application_language, application_date_format,application_timezone and application_time_format allow arbirary user input which is reflected. The vulnerability can become xss if the user input is javascript code that bypass CSP. This vulnerability is fixed in 1.2.41.",
+      "cveName": "CVE-2024-54001",
+      "cveUrl": "/vuln/detail/CVE-2024-54001"
+    }
+  },
   "CVE-2024-54002": {
     "cve": {
       "cveDate": [
@@ -55976,6 +56537,61 @@
       "cveDis": "In Click Studios Passwordstate before build 9920, there is a potential permission escalation on the edit folder screen.",
       "cveName": "CVE-2024-54124",
       "cveUrl": "/vuln/detail/CVE-2024-54124"
+    }
+  },
+  "CVE-2024-54126": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:09 AM -0500"
+      ],
+      "cveDis": "This vulnerability exists in the TP-Link Archer C50 due to improper signature verification mechanism in the firmware upgrade process at its web interface. An attacker with administrative privileges within the router’s Wi-Fi range could exploit this vulnerability by uploading and executing malicious firmware which could lead to complete compromise of the targeted device.",
+      "cveName": "CVE-2024-54126",
+      "cveUrl": "/vuln/detail/CVE-2024-54126"
+    }
+  },
+  "CVE-2024-54127": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:09 AM -0500"
+      ],
+      "cveDis": "This vulnerability exists in the TP-Link Archer C50 due to presence of terminal access on a serial interface without proper access control. An attacker with physical access could exploit this by accessing the UART shell on the vulnerable device. Successful exploitation of this vulnerability could allow the attacker to obtain Wi-Fi credentials of the targeted system.",
+      "cveName": "CVE-2024-54127",
+      "cveUrl": "/vuln/detail/CVE-2024-54127"
+    }
+  },
+  "CVE-2024-54128": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "12:15:15 PM -0500"
+      ],
+      "cveDis": "Directus is a real-time API and App dashboard for managing SQL database content. The Comment feature has implemented a filter to prevent users from adding restricted characters, such as HTML tags. However, this filter operates on the client-side, which can be bypassed, making the application vulnerable to HTML Injection.",
+      "cveName": "CVE-2024-54128",
+      "cveUrl": "/vuln/detail/CVE-2024-54128"
+    }
+  },
+  "CVE-2024-54129": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:26 AM -0500"
+      ],
+      "cveDis": "The NASA’s Interplanetary Overlay Network (ION) is an implementation of Delay/Disruption Tolerant Networking (DTN). A vulnerability exists in the version ION-DTN BPv7 implementation version 4.1.3 when receiving a bundle with an improper reference to the imc scheme with valid Service-Specific Part (SSP) in their Previous Node Block. The vulnerability can cause ION to become unresponsive. This vulnerability is fixed in 4.1.3s.",
+      "cveName": "CVE-2024-54129",
+      "cveUrl": "/vuln/detail/CVE-2024-54129"
+    }
+  },
+  "CVE-2024-54130": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:27 AM -0500"
+      ],
+      "cveDis": "The NASA’s Interplanetary Overlay Network (ION) is an implementation of Delay/Disruption Tolerant Networking (DTN). A segmentation fault occurs with ION-DTN BPv7 software version 4.1.3 when a bundle with a Destination Endpoint ID (EID) set to dtn:none is received. This causes the node to become unresponsive to incoming bundles, leading to a Denial of Service (DoS) condition. This vulnerability is fixed in 4.1.3s.",
+      "cveName": "CVE-2024-54130",
+      "cveUrl": "/vuln/detail/CVE-2024-54130"
     }
   },
   "CVE-2024-54131": {
@@ -56152,6 +56768,17 @@
       "cveDis": "app/webroot/js/workflows-editor/workflows-editor.js in MISP through 2.5.2 has stored XSS in the editor interface for an ad-hoc workflow.",
       "cveName": "CVE-2024-54675",
       "cveUrl": "/vuln/detail/CVE-2024-54675"
+    }
+  },
+  "CVE-2024-54679": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:22 AM -0500"
+      ],
+      "cveDis": "CyberPanel (aka Cyber Panel) before 6778ad1 does not require the FilemanagerAdmin capability for restartMySQL actions.",
+      "cveName": "CVE-2024-54679",
+      "cveUrl": "/vuln/detail/CVE-2024-54679"
     }
   },
   "CVE-2024-5474": {
@@ -56462,6 +57089,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-6480"
     }
   },
+  "CVE-2024-6515": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:10 AM -0500"
+      ],
+      "cveDis": "Web browser interface may manipulate application username/password in clear text or Base64 encoding providing a higher probability of  unintended credentails exposure. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-6515",
+      "cveUrl": "/vuln/detail/CVE-2024-6515"
+    }
+  },
+  "CVE-2024-6516": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:10 AM -0500"
+      ],
+      "cveDis": "Cross Site Scripting vulnerabilities where found providing a potential for malicious scripts to be injected into a client browser. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-6516",
+      "cveUrl": "/vuln/detail/CVE-2024-6516"
+    }
+  },
   "CVE-2024-6519": {
     "cve": {
       "cveDate": [
@@ -56603,6 +57252,17 @@
       "cveDis": "Eclipse Jetty is a lightweight, highly scalable, Java-based web server and Servlet engine . It includes a utility class, HttpURI, for URI/URL parsing.\n\nThe HttpURI class does insufficient validation on the authority segment of a URI.  However the behaviour of HttpURI\n differs from the common browsers in how it handles a URI that would be \nconsidered invalid if fully validated against the RRC.  Specifically HttpURI\n and the browser may differ on the value of the host extracted from an \ninvalid URI and thus a combination of Jetty and a vulnerable browser may\n be vulnerable to a open redirect attack or to a SSRF attack if the URI \nis used after passing validation checks.",
       "cveName": "CVE-2024-6763",
       "cveUrl": "/vuln/detail/CVE-2024-6763"
+    }
+  },
+  "CVE-2024-6784": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "8:15:10 AM -0500"
+      ],
+      "cveDis": "Server-Side Request Forgery vulnerabilities were found providing a potential for access to unauthorized resources and unintended information disclosure. \nAffected products:\n\n\nABB ASPECT - Enterprise v3.08.02; \nNEXUS Series v3.08.02; \nMATRIX Series v3.08.02",
+      "cveName": "CVE-2024-6784",
+      "cveUrl": "/vuln/detail/CVE-2024-6784"
     }
   },
   "CVE-2024-6826": {
