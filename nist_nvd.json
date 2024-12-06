@@ -76,6 +76,17 @@
       "cveUrl": "/vuln/detail/CVE-2017-13227"
     }
   },
+  "CVE-2017-13308": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "5:15:18 PM -0500"
+      ],
+      "cveDis": "In tscpu_write_GPIO_out and mtkts_Abts_write of mtk_ts_Abts.c, there is a possible buffer overflow in an sscanf due to improper input validation. This could lead to a local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.",
+      "cveName": "CVE-2017-13308",
+      "cveUrl": "/vuln/detail/CVE-2017-13308"
+    }
+  },
   "CVE-2017-13309": {
     "cve": {
       "cveDate": [
@@ -635,6 +646,50 @@
       "cveDis": "In gatts_process_read_by_type_req of gatt_sr.c, there is a possible information disclosure due to uninitialized data. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
       "cveName": "CVE-2018-9381",
       "cveUrl": "/vuln/detail/CVE-2018-9381"
+    }
+  },
+  "CVE-2018-9386": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "In reboot_block_command of htc reboot_block driver, there is a possible\n    stack buffer overflow due to a missing bounds check. This could lead to\n    local escalation of privilege with System execution privileges needed. User\n    interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9386",
+      "cveUrl": "/vuln/detail/CVE-2018-9386"
+    }
+  },
+  "CVE-2018-9388": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "In store_upgrade and store_cmd of drivers/input/touchscreen/stm/ftm4_pdc.c, there are out of bound writes due to missing bounds checks or integer underflows. These could lead to escalation of privilege.",
+      "cveName": "CVE-2018-9388",
+      "cveUrl": "/vuln/detail/CVE-2018-9388"
+    }
+  },
+  "CVE-2018-9390": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "In procfile_write of gl_proc.c, there is a possible out of  bounds read of a\n    function pointer due to an incorrect bounds check. This could lead to local\n    escalation of privilege with System execution privileges needed. User\n    interaction is not needed for exploitation.",
+      "cveName": "CVE-2018-9390",
+      "cveUrl": "/vuln/detail/CVE-2018-9390"
+    }
+  },
+  "CVE-2018-9391": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:04 PM -0500"
+      ],
+      "cveDis": "In update_gps_sv and output_vzw_debug of\n    vendor/mediatek/proprietary/hardware/connectivity/gps/gps_hal/src/gpshal_wor\n    ker.c, there is a possible out of bounds write due to a missing bounds\n    check. This could lead to local escalation of privilege with System\n    execution privileges needed. User interaction is not needed for\n    exploitation.",
+      "cveName": "CVE-2018-9391",
+      "cveUrl": "/vuln/detail/CVE-2018-9391"
     }
   },
   "CVE-2018-9392": {
@@ -3519,6 +3574,17 @@
       "cveUrl": "/vuln/detail/CVE-2023-4679"
     }
   },
+  "CVE-2023-48010": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "STMicroelectronics SPC58 is vulnerable to Missing Protection Mechanism for Alternate Hardware Interface. Code running as Supervisor on the SPC58 PowerPC microcontrollers may disable the System Memory Protection Unit and gain unabridged read/write access to protected assets.",
+      "cveName": "CVE-2023-48010",
+      "cveUrl": "/vuln/detail/CVE-2023-48010"
+    }
+  },
   "CVE-2023-48082": {
     "cve": {
       "cveDate": [
@@ -3583,6 +3649,17 @@
       "cveDis": "Apache ActiveMQ Artemis allows access to diagnostic information and controls through MBeans, which are also exposed through the authenticated Jolokia endpoint. Before version 2.29.0, this also included the Log4J2 MBean. This MBean is not meant for exposure to non-administrative users. This could eventually allow an authenticated attacker to write arbitrary files to the filesystem and indirectly achieve RCE.\n\n\nUsers are recommended to upgrade to version 2.29.0 or later, which fixes the issue.",
       "cveName": "CVE-2023-50780",
       "cveUrl": "/vuln/detail/CVE-2023-50780"
+    }
+  },
+  "CVE-2023-50913": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "3:15:20 PM -0500"
+      ],
+      "cveDis": "Oxide control plane software before 5 allows SSRF.",
+      "cveName": "CVE-2023-50913",
+      "cveUrl": "/vuln/detail/CVE-2023-50913"
     }
   },
   "CVE-2023-52044": {
@@ -5816,6 +5893,17 @@
       "cveDis": "The Relais 2FA plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 1.0. This is due to incorrect authentication and capability checking in the 'rl_do_ajax' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email.",
       "cveName": "CVE-2024-102459-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-10245"
+    }
+  },
+  "CVE-2024-102477-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:04 PM -0500"
+      ],
+      "cveDis": "The Video Gallery – Best WordPress YouTube Gallery Plugin plugin for WordPress is vulnerable to time-based SQL Injection via the orderby parameter in all versions up to, and including, 2.4.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-102477-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-10247"
     }
   },
   "CVE-2024-102506-1 MEDIUM": {
@@ -9250,6 +9338,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-10832"
     }
   },
+  "CVE-2024-108366-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "The Flixita theme for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘id’ parameter in all versions up to, and including, 1.0.82 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-108366-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10836"
+    }
+  },
   "CVE-2024-10839": {
     "cve": {
       "cveDate": [
@@ -9677,6 +9776,17 @@
       "cveDis": "A vulnerability was found in MonoCMS up to 20240528. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /monofiles/opensaved.php of the component Posts Page. The manipulation of the argument filtcategory/filtstatus leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cveName": "CVE-2024-10928",
       "cveUrl": "/vuln/detail/CVE-2024-10928"
+    }
+  },
+  "CVE-2024-10933": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "3:15:21 PM -0500"
+      ],
+      "cveDis": "In OpenBSD 7.5 before errata 009 and OpenBSD 7.4 before errata 022, exclude any '/' in readdir name validation to avoid unexpected directory traversal on untrusted file systems.",
+      "cveName": "CVE-2024-10933",
+      "cveUrl": "/vuln/detail/CVE-2024-10933"
     }
   },
   "CVE-2024-10934": {
@@ -10821,6 +10931,28 @@
       "cveDis": "Valor Apps Easy Folder Listing Pro has a deserialization vulnerability that allows an unauthenticated, remote attacker to execute arbitrary code with the privileges of the Joomla! application. Fixed in versions 3.8 and 4.5.",
       "cveName": "CVE-2024-11145",
       "cveUrl": "/vuln/detail/CVE-2024-11145"
+    }
+  },
+  "CVE-2024-11148": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "3:15:21 PM -0500"
+      ],
+      "cveDis": "In OpenBSD 7.4 before errata 006 and OpenBSD 7.3 before errata 020, httpd(8) is vulnerable to a NULL dereference when handling a malformed fastcgi request.",
+      "cveName": "CVE-2024-11148",
+      "cveUrl": "/vuln/detail/CVE-2024-11148"
+    }
+  },
+  "CVE-2024-11149": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "In OpenBSD 7.4 before errata 014, vmm(4) did not restore GDTR limits properly on Intel (VMX) CPUs.",
+      "cveName": "CVE-2024-11149",
+      "cveUrl": "/vuln/detail/CVE-2024-11149"
     }
   },
   "CVE-2024-111544-3 MEDIUM": {
@@ -18138,6 +18270,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-30875"
     }
   },
+  "CVE-2024-30961": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Open Robotics Robotic Operating System 2 (ROS2) navigation2- ROS2-humble and navigation 2-humble allows a local attacker to execute arbitrary code via the error-thrown mechanism in nav2_bt_navigator.",
+      "cveName": "CVE-2024-30961",
+      "cveUrl": "/vuln/detail/CVE-2024-30961"
+    }
+  },
+  "CVE-2024-30962": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Buffer Overflow vulnerability in Open Robotics Robotic Operating System 2 (ROS2) navigation2- ROS2-humble and navigation 2-humble allows a local attacker to execute arbitrary code via the nav2_amcl process",
+      "cveName": "CVE-2024-30962",
+      "cveUrl": "/vuln/detail/CVE-2024-30962"
+    }
+  },
+  "CVE-2024-30963": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Buffer Overflow vulnerability in Open Robotics Robotic Operating System 2 (ROS2) navigation2- ROS2-humble and navigation 2-humble allows a local attacker to execute arbitrary code via a crafted script.",
+      "cveName": "CVE-2024-30963",
+      "cveUrl": "/vuln/detail/CVE-2024-30963"
+    }
+  },
+  "CVE-2024-30964": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Open Robotics Robotic Operating System 2 (ROS2) navigation2- ROS2-humble and navigation 2-humble allows a local attacker to execute arbitrary code via the initial_pose_sub thread created by nav2_bt_navigator",
+      "cveName": "CVE-2024-30964",
+      "cveUrl": "/vuln/detail/CVE-2024-30964"
+    }
+  },
   "CVE-2024-31029": {
     "cve": {
       "cveDate": [
@@ -20481,6 +20657,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-37847"
     }
   },
+  "CVE-2024-37860": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Buffer Overflow vulnerability in Open Robotic Operating System 2 ROS2 navigation2- ROS2-humble&& navigation2-humble allows a local attacker to execute arbitrary code via a crafted .yaml file to the nav2_amcl process",
+      "cveName": "CVE-2024-37860",
+      "cveUrl": "/vuln/detail/CVE-2024-37860"
+    }
+  },
+  "CVE-2024-37861": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble versions were discovered to contain a buffer overflow via the nav2_amcl process. This vulnerability is triggered via sending a crafted .yaml file.",
+      "cveName": "CVE-2024-37861",
+      "cveUrl": "/vuln/detail/CVE-2024-37861"
+    }
+  },
+  "CVE-2024-37862": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Buffer Overflow vulnerability in Open Robotic Robotic Operating System 2 ROS2 navigation2- ROS2-humble&& navigation2-humble allows a local attacker to execute arbitrary code via a crafted .yaml file to the nav2_planner process.",
+      "cveName": "CVE-2024-37862",
+      "cveUrl": "/vuln/detail/CVE-2024-37862"
+    }
+  },
+  "CVE-2024-37863": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:05 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble versions were discovered to contain a buffer overflow via the nav2_amcl process. This vulnerability is triggered via sending a crafted .yaml file.",
+      "cveName": "CVE-2024-37863",
+      "cveUrl": "/vuln/detail/CVE-2024-37863"
+    }
+  },
   "CVE-2024-37868": {
     "cve": {
       "cveDate": [
@@ -21139,6 +21359,28 @@
       "cveDis": "Exposure of CSRF tokens in query parameters on specific requests in Checkmk GmbH's Checkmk versions <2.3.0p18, <2.2.0p35 and <2.1.0p48 could lead to a leak of the token to facilitate targeted phishing attacks.",
       "cveName": "CVE-2024-38863",
       "cveUrl": "/vuln/detail/CVE-2024-38863"
+    }
+  },
+  "CVE-2024-38910": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:06 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble version was discovered to contain a use-after-free in the nav2_amcl process. This vulnerability is triggered via sending a request to change dynamic parameters.",
+      "cveName": "CVE-2024-38910",
+      "cveUrl": "/vuln/detail/CVE-2024-38910"
+    }
+  },
+  "CVE-2024-38920": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:06 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble versions were discovered to contain a use-after-free via the nav2_amcl process. This vulnerability is triggerd via remotely sending a request for change the value of dynamic-parameter`/amcl max_beams` .",
+      "cveName": "CVE-2024-38920",
+      "cveUrl": "/vuln/detail/CVE-2024-38920"
     }
   },
   "CVE-2024-39162": {
@@ -22096,6 +22338,17 @@
       "cveDis": "A Reflected cross-site scripting (XSS) vulnerability in \"ccHandler.aspx\" CADClick <= 1.11.0 allows remote attackers to inject arbitrary web script or HTML via the \"bomid\" parameter.",
       "cveName": "CVE-2024-41516",
       "cveUrl": "/vuln/detail/CVE-2024-41516"
+    }
+  },
+  "CVE-2024-41579": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "3:15:22 PM -0500"
+      ],
+      "cveDis": "DTStack Taier 1.4.0 allows remote attackers to specify the jobName parameter in the console listNames function to cause a SQL injection vulnerability",
+      "cveName": "CVE-2024-41579",
+      "cveUrl": "/vuln/detail/CVE-2024-41579"
     }
   },
   "CVE-2024-41583": {
@@ -38532,6 +38785,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-49038"
     }
   },
+  "CVE-2024-490414-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "cveName": "CVE-2024-490414-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-49041"
+    }
+  },
   "CVE-2024-490528-2 HIGH": {
     "cve": {
       "cveDate": [
@@ -53151,6 +53415,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52796"
     }
   },
+  "CVE-2024-52798": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "6:15:06 PM -0500"
+      ],
+      "cveDis": "path-to-regexp turns path strings into a regular expressions. In certain cases, path-to-regexp will output a regular expression that can be exploited to cause poor performance. The regular expression that is vulnerable to backtracking can be generated in the 0.1.x release of path-to-regexp. Upgrade to 0.1.12. This vulnerability exists because of an incomplete fix for CVE-2024-45296.",
+      "cveName": "CVE-2024-52798",
+      "cveUrl": "/vuln/detail/CVE-2024-52798"
+    }
+  },
   "CVE-2024-52799": {
     "cve": {
       "cveDate": [
@@ -54713,6 +54988,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-53438"
     }
   },
+  "CVE-2024-53442": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "3:15:22 PM -0500"
+      ],
+      "cveDis": "whapa v1.59 is vulnerable to Command Injection via a crafted filename to the HTML reports component.",
+      "cveName": "CVE-2024-53442",
+      "cveUrl": "/vuln/detail/CVE-2024-53442"
+    }
+  },
+  "CVE-2024-53457": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "A stored cross-site scripting (XSS) vulnerability in the Device Settings section of LibreNMS v24.9.0 to v24.10.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Display Name parameter.",
+      "cveName": "CVE-2024-53457",
+      "cveUrl": "/vuln/detail/CVE-2024-53457"
+    }
+  },
   "CVE-2024-53459": {
     "cve": {
       "cveDate": [
@@ -54845,6 +55142,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53507"
     }
   },
+  "CVE-2024-53523": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "4:15:08 PM -0500"
+      ],
+      "cveDis": "JSFinder commit d70ab9bc5221e016c08cffaf0d9ac79646c90645 is vulnerable to Directory Traversal in the find_by_file function.",
+      "cveName": "CVE-2024-53523",
+      "cveUrl": "/vuln/detail/CVE-2024-53523"
+    }
+  },
   "CVE-2024-53554": {
     "cve": {
       "cveDate": [
@@ -54898,6 +55206,17 @@
       "cveDis": "An issue in the action_listcategories() function of Sangoma Asterisk v22/22.0.0/22.0.0-rc1/22.0.0-rc2/22.0.0-pre1 allows attackers to execute a path traversal.",
       "cveName": "CVE-2024-53566",
       "cveUrl": "/vuln/detail/CVE-2024-53566"
+    }
+  },
+  "CVE-2024-53589": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "3:15:22 PM -0500"
+      ],
+      "cveDis": "GNU objdump 2.43 is vulnerable to Buffer Overflow in the BFD (Binary File Descriptor) library's handling of tekhex format files.",
+      "cveName": "CVE-2024-53589",
+      "cveUrl": "/vuln/detail/CVE-2024-53589"
     }
   },
   "CVE-2024-53597": {
@@ -56567,7 +56886,7 @@
         "December 05, 2024",
         "12:15:15 PM -0500"
       ],
-      "cveDis": "Directus is a real-time API and App dashboard for managing SQL database content. The Comment feature has implemented a filter to prevent users from adding restricted characters, such as HTML tags. However, this filter operates on the client-side, which can be bypassed, making the application vulnerable to HTML Injection.",
+      "cveDis": "Directus is a real-time API and App dashboard for managing SQL database content. The Comment feature has implemented a filter to prevent users from adding restricted characters, such as HTML tags. However, this filter operates on the client-side, which can be bypassed, making the application vulnerable to HTML Injection. This vulerability is fixed in 10.13.4 and 11.2.0.",
       "cveName": "CVE-2024-54128",
       "cveUrl": "/vuln/detail/CVE-2024-54128"
     }
@@ -56625,6 +56944,17 @@
       "cveDis": "A publish-access account was compromised for `@solana/web3.js`, a JavaScript library that is commonly used by Solana dapps. This allowed an attacker to publish unauthorized and malicious packages that were modified, allowing them to steal private key material and drain funds from dapps, like bots, that handle private keys directly. This issue should not affect non-custodial wallets, as they generally do not expose private keys during transactions. This is not an issue with the Solana protocol itself, but with a specific JavaScript client library and only appears to affect projects that directly handle private keys and that updated within the window of 3:20pm UTC and 8:25pm UTC on Tuesday, December 3, 2024. These two unauthorized versions (1.95.6 and 1.95.7) were caught within hours and have since been unpublished. All Solana app developers should upgrade to version 1.95.8. Developers that suspect they might be compromised should rotate any suspect authority keys, including multisigs, program authorities, server keypairs, and so on.",
       "cveName": "CVE-2024-54134",
       "cveUrl": "/vuln/detail/CVE-2024-54134"
+    }
+  },
+  "CVE-2024-54140": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "sigstore-java is a sigstore java client for interacting with sigstore infrastructure. sigstore-java has insufficient verification for a situation where a bundle provides a invalid signature for a checkpoint. This bug impacts clients using any variation of KeylessVerifier.verify(). Currently checkpoints are only used to ensure the root hash of an inclusion proof was provided by the log in question. Failing to validate that means a bundle may provide an inclusion proof that doesn't actually correspond to the log in question. This may eventually lead a monitor/witness being unable to detect when a compromised logs are providing different views of themselves to different clients. There are other mechanisms right now that mitigate this, such as the signed entry timestamp. Sigstore-java currently requires a valid signed entry timestamp. By correctly verifying the signed entry timestamp we can make certain assertions about the log signing the log entry (like the log was aware of the artifact signing event and signed it). Therefore the impact on clients that are not monitors/witnesses is very low. This vulnerability is fixed in 1.2.0.",
+      "cveName": "CVE-2024-54140",
+      "cveUrl": "/vuln/detail/CVE-2024-54140"
     }
   },
   "CVE-2024-54153": {
@@ -56924,6 +57254,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-6068"
     }
   },
+  "CVE-2024-6156": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "7:15:04 PM -0500"
+      ],
+      "cveDis": "Mark Laing discovered that LXD's PKI mode, until version 5.21.2, could be bypassed if the client's certificate was present in the trust store.",
+      "cveName": "CVE-2024-6156",
+      "cveUrl": "/vuln/detail/CVE-2024-6156"
+    }
+  },
   "CVE-2024-6157": {
     "cve": {
       "cveDate": [
@@ -56944,6 +57285,17 @@
       "cveDis": "CVE 2021-22681 https://www.rockwellautomation.com/en-us/trust-center/security-advisories/advisory.PN1550.html  and send a specially crafted CIP message to the device.  If exploited, a threat actor could help prevent access to the legitimate user and end connections to connected devices including the workstation.  To recover the controllers, a download is required which ends any process that the controller is running.",
       "cveName": "CVE-2024-6207",
       "cveUrl": "/vuln/detail/CVE-2024-6207"
+    }
+  },
+  "CVE-2024-6219": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "7:15:04 PM -0500"
+      ],
+      "cveDis": "Mark Laing discovered in LXD's PKI mode, until version 5.21.1, that a restricted certificate could be added to the trust store with its restrictions not honoured.",
+      "cveName": "CVE-2024-6219",
+      "cveUrl": "/vuln/detail/CVE-2024-6219"
     }
   },
   "CVE-2024-6245": {
@@ -64842,6 +65194,17 @@
       "cveDis": "IrfanView SID File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of IrfanView. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the parsing of SID files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-23277.",
       "cveName": "CVE-2024-9767",
       "cveUrl": "/vuln/detail/CVE-2024-9767"
+    }
+  },
+  "CVE-2024-97694-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 05, 2024",
+        "11:15:05 PM -0500"
+      ],
+      "cveDis": "The Video Gallery – Best WordPress YouTube Gallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 2.4.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "cveName": "CVE-2024-97694-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-9769"
     }
   },
   "CVE-2024-97727-3 HIGH": {
