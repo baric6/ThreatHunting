@@ -11340,6 +11340,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11219"
     }
   },
+  "CVE-2024-11220": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "1:15:22 PM -0500"
+      ],
+      "cveDis": "A local low-level user on the server machine with credentials to the running OAS services can create and execute a report with an rdlx file on the server system itself. Any code within the rdlx file of the report executes with SYSTEM privileges, resulting in privilege escalation.",
+      "cveName": "CVE-2024-11220",
+      "cveUrl": "/vuln/detail/CVE-2024-11220"
+    }
+  },
   "CVE-2024-112256-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -13254,6 +13265,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11732"
     }
   },
+  "CVE-2024-117385-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "10:15:07 AM -0500"
+      ],
+      "cveDis": "A flaw was found in Rustls 0.23.13 and related APIs. This vulnerability allows denial of service (panic) via a fragmented TLS ClientHello message.",
+      "cveName": "CVE-2024-117385-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11738"
+    }
+  },
   "CVE-2024-11742": {
     "cve": {
       "cveDate": [
@@ -14682,6 +14704,17 @@
       "cveDis": "Mattermost versions 9.7.x <= 9.7.5, 9.8.x <= 9.8.2 and 9.9.x <= 9.9.2 fail to properly propagate permission scheme updates across cluster nodes which allows a user to keep old permissions, even if the permission scheme has been updated.",
       "cveName": "CVE-2024-12247",
       "cveUrl": "/vuln/detail/CVE-2024-12247"
+    }
+  },
+  "CVE-2024-12254": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "11:15:20 AM -0500"
+      ],
+      "cveDis": "Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writelines()\n method would not \"pause\" writing and signal to the Protocol to drain \nthe buffer to the wire once the write buffer reached the \"high-water \nmark\". Because of this, Protocols would not periodically drain the write\n buffer potentially leading to memory exhaustion.\n\n\n\n\n\nThis\n vulnerability likely impacts a small number of users, you must be using\n Python 3.12.0 or later, on macOS or Linux, using the asyncio module \nwith protocols, and using .writelines() method which had new \nzero-copy-on-write behavior in Python 3.12.0 and later. If not all of \nthese factors are true then your usage of Python is unaffected.",
+      "cveName": "CVE-2024-12254",
+      "cveUrl": "/vuln/detail/CVE-2024-12254"
     }
   },
   "CVE-2024-1240": {
@@ -18499,6 +18532,17 @@
       "cveDis": "HCL Sametime is impacted by insecure services in-use on the UIM client by default. An unused legacy REST service was enabled by default using the HTTP protocol. An attacker could potentially use this service endpoint maliciously.",
       "cveName": "CVE-2024-30124",
       "cveUrl": "/vuln/detail/CVE-2024-30124"
+    }
+  },
+  "CVE-2024-30129": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "11:15:20 AM -0500"
+      ],
+      "cveDis": "The HTTP host header can be manipulated and cause the application to behave in unexpected ways. Any changes made to the header would cause the request to be sent to a completely different domain/IP address.",
+      "cveName": "CVE-2024-30129",
+      "cveUrl": "/vuln/detail/CVE-2024-30129"
     }
   },
   "CVE-2024-30132": {
@@ -23440,6 +23484,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-42195"
     }
   },
+  "CVE-2024-42196": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "10:15:08 AM -0500"
+      ],
+      "cveDis": "HCL Launch stores potentially sensitive information in log files that could be read by a local user with access to HTTP request logs.",
+      "cveName": "CVE-2024-42196",
+      "cveUrl": "/vuln/detail/CVE-2024-42196"
+    }
+  },
   "CVE-2024-42326": {
     "cve": {
       "cveDate": [
@@ -23779,6 +23834,17 @@
       "cveDis": "A vulnerability in Veeam Backup & Replication allows users with certain operator roles to expose saved credentials by leveraging a combination of methods in a remote management interface. This can be achieved using a session object that allows for credential enumeration and exploitation, leading to the leak of plaintext credentials to a malicious host. The attack is facilitated by improper usage of a method that allows operators to add a new host with an attacker-controlled IP, enabling them to retrieve sensitive credentials in plaintext.",
       "cveName": "CVE-2024-42457",
       "cveUrl": "/vuln/detail/CVE-2024-42457"
+    }
+  },
+  "CVE-2024-42494": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "1:15:24 PM -0500"
+      ],
+      "cveDis": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x contains a a feature that could enable sub accounts or attackers to view and exfiltrate sensitive information from all cloud accounts registered to Ruijie's services",
+      "cveName": "CVE-2024-42494",
+      "cveUrl": "/vuln/detail/CVE-2024-42494"
     }
   },
   "CVE-2024-42496": {
@@ -30832,6 +30898,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-47041"
     }
   },
+  "CVE-2024-47043": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "1:15:24 PM -0500"
+      ],
+      "cveDis": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could enable an attacker to correlate a device serial number and the user's phone number and part of the email address.",
+      "cveName": "CVE-2024-47043",
+      "cveUrl": "/vuln/detail/CVE-2024-47043"
+    }
+  },
   "CVE-2024-47046": {
     "cve": {
       "cveDate": [
@@ -33151,6 +33228,17 @@
       "cveDis": "Citizen is a MediaWiki skin that makes extensions part of the cohesive experience. A user with the editmyprivateinfo right or who can otherwise change their name can XSS themselves by setting their \"real name\" to an XSS payload. This vulnerability is fixed in 2.31.0.",
       "cveName": "CVE-2024-47536",
       "cveUrl": "/vuln/detail/CVE-2024-47536"
+    }
+  },
+  "CVE-2024-47547": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "1:15:25 PM -0500"
+      ],
+      "cveDis": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x contains a weak mechanism for its users to change their passwords which leaves authentication vulnerable to brute force attacks.",
+      "cveName": "CVE-2024-47547",
+      "cveUrl": "/vuln/detail/CVE-2024-47547"
     }
   },
   "CVE-2024-47549": {
@@ -37773,6 +37861,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48700"
     }
   },
+  "CVE-2024-48703": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "1:15:25 PM -0500"
+      ],
+      "cveDis": "PhpGurukul Medical Card Generation System v1.0 is vulnerable to Cross Site Scripting (XSS) in /admin/search-medicalcard.php via the searchdata parameter.",
+      "cveName": "CVE-2024-48703",
+      "cveUrl": "/vuln/detail/CVE-2024-48703"
+    }
+  },
   "CVE-2024-48706": {
     "cve": {
       "cveDate": [
@@ -38444,6 +38543,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-48847"
     }
   },
+  "CVE-2024-48859": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "An improper authentication vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers to compromise the security of the system.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.9.2954 build 20241120 and later\nQTS 5.2.2.2950 build 20241114 and later\nQuTS hero h5.1.9.2954 build 20241120 and later\nQuTS hero h5.2.2.2952 build 20241116 and later",
+      "cveName": "CVE-2024-48859",
+      "cveUrl": "/vuln/detail/CVE-2024-48859"
+    }
+  },
   "CVE-2024-48860": {
     "cve": {
       "cveDate": [
@@ -38477,6 +38587,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-48862"
     }
   },
+  "CVE-2024-48863": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "A command injection vulnerability has been reported to affect License Center. If exploited, the vulnerability could allow remote attackers to execute arbitrary commands.\n\nWe have already fixed the vulnerability in the following version:\nLicense Center 1.9.43 and later",
+      "cveName": "CVE-2024-48863",
+      "cveUrl": "/vuln/detail/CVE-2024-48863"
+    }
+  },
+  "CVE-2024-48865": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "An improper certificate validation vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow attackers with local network access to compromise the security of the system.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.9.2954 build 20241120 and later\nQTS 5.2.2.2950 build 20241114 and later\nQuTS hero h5.1.9.2954 build 20241120 and later\nQuTS hero h5.2.2.2952 build 20241116 and later",
+      "cveName": "CVE-2024-48865",
+      "cveUrl": "/vuln/detail/CVE-2024-48865"
+    }
+  },
+  "CVE-2024-48866": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "An improper handling of URL encoding (Hex Encoding) vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers to run the system into unexpected state.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.9.2954 build 20241120 and later\nQTS 5.2.2.2950 build 20241114 and later\nQuTS hero h5.1.9.2954 build 20241120 and later\nQuTS hero h5.2.2.2952 build 20241116 and later",
+      "cveName": "CVE-2024-48866",
+      "cveUrl": "/vuln/detail/CVE-2024-48866"
+    }
+  },
+  "CVE-2024-48867": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:08 PM -0500"
+      ],
+      "cveDis": "An improper neutralization of CRLF sequences ('CRLF Injection') vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers to modify application data.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.9.2954 build 20241120 and later\nQTS 5.2.2.2950 build 20241114 and later\nQuTS hero h5.1.9.2954 build 20241120 and later\nQuTS hero h5.2.2.2952 build 20241116 and later",
+      "cveName": "CVE-2024-48867",
+      "cveUrl": "/vuln/detail/CVE-2024-48867"
+    }
+  },
+  "CVE-2024-48868": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "An improper neutralization of CRLF sequences ('CRLF Injection') vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers to modify application data.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.9.2954 build 20241120 and later\nQTS 5.2.2.2950 build 20241114 and later\nQuTS hero h5.1.9.2954 build 20241120 and later\nQuTS hero h5.2.2.2952 build 20241116 and later",
+      "cveName": "CVE-2024-48868",
+      "cveUrl": "/vuln/detail/CVE-2024-48868"
+    }
+  },
   "CVE-2024-48870": {
     "cve": {
       "cveDate": [
@@ -38486,6 +38651,17 @@
       "cveDis": "Sharp and Toshiba Tec MFPs improperly validate input data in URI data registration, resulting in a stored cross-site scripting vulnerability.\nIf crafted input is stored by an administrative user, malicious script may be executed on the web browsers of other victim users.",
       "cveName": "CVE-2024-48870",
       "cveUrl": "/vuln/detail/CVE-2024-48870"
+    }
+  },
+  "CVE-2024-48871": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "1:15:25 PM -0500"
+      ],
+      "cveDis": "The affected product is vulnerable to a stack-based buffer overflow. An unauthenticated attacker could send a malicious HTTP request that the webserver fails to properly check input size before copying data to the stack, potentially allowing remote code execution.",
+      "cveName": "CVE-2024-48871",
+      "cveUrl": "/vuln/detail/CVE-2024-48871"
     }
   },
   "CVE-2024-48878": {
@@ -45957,6 +46133,50 @@
       "cveUrl": "/vuln/detail/CVE-2024-50383"
     }
   },
+  "CVE-2024-50387": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "A SQL injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers to inject malicious code.\n\nWe have already fixed the vulnerability in the following version:\nSMB Service 4.15.002 and later\nSMB Service h4.15.002 and later",
+      "cveName": "CVE-2024-50387",
+      "cveUrl": "/vuln/detail/CVE-2024-50387"
+    }
+  },
+  "CVE-2024-50388": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "An OS command injection vulnerability has been reported to affect HBS 3 Hybrid Backup Sync. If exploited, the vulnerability could allow remote attackers to execute commands.\n\nWe have already fixed the vulnerability in the following version:\nHBS 3 Hybrid Backup Sync 25.1.1.673 and later",
+      "cveName": "CVE-2024-50388",
+      "cveUrl": "/vuln/detail/CVE-2024-50388"
+    }
+  },
+  "CVE-2024-50389": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "A SQL injection vulnerability has been reported to affect QuRouter. If exploited, the vulnerability could allow remote attackers to inject malicious code.\n\nWe have already fixed the vulnerability in the following version:\nQuRouter 2.4.5.032 and later",
+      "cveName": "CVE-2024-50389",
+      "cveUrl": "/vuln/detail/CVE-2024-50389"
+    }
+  },
+  "CVE-2024-50393": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "A command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers to execute arbitrary commands.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.9.2954 build 20241120 and later\nQTS 5.2.2.2950 build 20241114 and later\nQuTS hero h5.1.9.2954 build 20241120 and later\nQuTS hero h5.2.2.2952 build 20241116 and later",
+      "cveName": "CVE-2024-50393",
+      "cveUrl": "/vuln/detail/CVE-2024-50393"
+    }
+  },
   "CVE-2024-50395": {
     "cve": {
       "cveDate": [
@@ -46032,6 +46252,39 @@
       "cveDis": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.1.2930 build 20241025 and later\nQuTS hero h5.2.1.2929 build 20241025 and later",
       "cveName": "CVE-2024-50401",
       "cveUrl": "/vuln/detail/CVE-2024-50401"
+    }
+  },
+  "CVE-2024-50402": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.9.2954 build 20241120 and later\nQTS 5.2.2.2950 build 20241114 and later\nQuTS hero h5.1.9.2954 build 20241120 and later\nQuTS hero h5.2.2.2952 build 20241116 and later",
+      "cveName": "CVE-2024-50402",
+      "cveUrl": "/vuln/detail/CVE-2024-50402"
+    }
+  },
+  "CVE-2024-50403": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:09 PM -0500"
+      ],
+      "cveDis": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained administrator access to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.2.2950 build 20241114 and later\nQuTS hero h5.2.2.2952 build 20241116 and later",
+      "cveName": "CVE-2024-50403",
+      "cveUrl": "/vuln/detail/CVE-2024-50403"
+    }
+  },
+  "CVE-2024-50404": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:10 PM -0500"
+      ],
+      "cveDis": "A link following vulnerability has been reported to affect Qsync Central. If exploited, the vulnerability could allow remote attackers who have gained user access to traverse the file system to unintended locations.\n\nWe have already fixed the vulnerability in the following versions:\nQsync Central 4.4.0.16_20240819 ( 2024/08/19 ) and later",
+      "cveName": "CVE-2024-50404",
+      "cveUrl": "/vuln/detail/CVE-2024-50404"
     }
   },
   "CVE-2024-50408": {
@@ -47330,6 +47583,17 @@
       "cveDis": "A NoSQL injection vulnerability in Adapt Learning Adapt Authoring Tool <= 0.11.3 allows unauthenticated attackers to reset user and administrator account passwords via the \"Reset password\" feature. The vulnerability occurs due to insufficient validation of user input, which is used as a query in Mongoose's find() function. This makes it possible for attackers to perform a full takeover of the administrator account. Attackers can then use the newly gained administrative privileges to upload a custom plugin to perform remote code execution (RCE) on the server hosting the web application.",
       "cveName": "CVE-2024-50672",
       "cveUrl": "/vuln/detail/CVE-2024-50672"
+    }
+  },
+  "CVE-2024-50677": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "11:15:21 AM -0500"
+      ],
+      "cveDis": "A cross-site scripting (XSS) vulnerability in OroPlatform CMS v5.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Search parameter.",
+      "cveName": "CVE-2024-50677",
+      "cveUrl": "/vuln/detail/CVE-2024-50677"
     }
   },
   "CVE-2024-50766": {
@@ -50654,6 +50918,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-51723"
     }
   },
+  "CVE-2024-51727": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "1:15:25 PM -0500"
+      ],
+      "cveDis": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x contains a feature that could enable attackers to invalidate a legitimate user's session and cause a denial-of-service attack on a user's account.",
+      "cveName": "CVE-2024-51727",
+      "cveUrl": "/vuln/detail/CVE-2024-51727"
+    }
+  },
   "CVE-2024-51734": {
     "cve": {
       "cveDate": [
@@ -51719,6 +51994,17 @@
       "cveDis": "A data.all admin team member who has access to the customer-owned AWS Account where data.all is deployed may be able to extract user data from data.all application logs in data.all via CloudWatch log scanning for particular operations that interact with customer producer teams data.",
       "cveName": "CVE-2024-52314",
       "cveUrl": "/vuln/detail/CVE-2024-52314"
+    }
+  },
+  "CVE-2024-52320": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "1:15:25 PM -0500"
+      ],
+      "cveDis": "The affected product is vulnerable to a command injection. An unauthenticated attacker could send commands through a malicious HTTP request which could result in remote code execution.",
+      "cveName": "CVE-2024-52320",
+      "cveUrl": "/vuln/detail/CVE-2024-52320"
     }
   },
   "CVE-2024-52323": {
@@ -53248,6 +53534,17 @@
       "cveDis": "In JetBrains WebStorm before 2024.3 code execution in Untrusted Project mode was possible via type definitions installer script",
       "cveName": "CVE-2024-52555",
       "cveUrl": "/vuln/detail/CVE-2024-52555"
+    }
+  },
+  "CVE-2024-52558": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "1:15:26 PM -0500"
+      ],
+      "cveDis": "The affected product is vulnerable to an integer underflow. An unauthenticated attacker could send a malformed HTTP request, which could allow the attacker to crash the program.",
+      "cveName": "CVE-2024-52558",
+      "cveUrl": "/vuln/detail/CVE-2024-52558"
     }
   },
   "CVE-2024-52564": {
@@ -55824,6 +56121,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53676"
     }
   },
+  "CVE-2024-53691": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:10 PM -0500"
+      ],
+      "cveDis": "A link following vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow remote attackers who have gained user access to traverse the file system to unintended locations.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.8.2823 build 20240712 and later\nQTS 5.2.0.2802 build 20240620 and later\nQuTS hero h5.1.8.2823 build 20240712 and later\nQuTS hero h5.2.0.2802 build 20240620 and later",
+      "cveName": "CVE-2024-53691",
+      "cveUrl": "/vuln/detail/CVE-2024-53691"
+    }
+  },
   "CVE-2024-53701": {
     "cve": {
       "cveDate": [
@@ -56627,6 +56935,127 @@
       "cveUrl": "/vuln/detail/CVE-2024-53793"
     }
   },
+  "CVE-2024-53811": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:23 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in POSIMYTH WDesignkit allows Upload a Web Shell to a Web Server.This issue affects WDesignkit: from n/a through 1.0.40.",
+      "cveName": "CVE-2024-53811",
+      "cveUrl": "/vuln/detail/CVE-2024-53811"
+    }
+  },
+  "CVE-2024-53812": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:23 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Jacques Malgrange WP GeoNames allows Reflected XSS.This issue affects WP GeoNames: from n/a through 1.8.",
+      "cveName": "CVE-2024-53812",
+      "cveUrl": "/vuln/detail/CVE-2024-53812"
+    }
+  },
+  "CVE-2024-53813": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:23 AM -0500"
+      ],
+      "cveDis": "Missing Authorization vulnerability in WP Travel WP Travel allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WP Travel: from n/a through 9.6.0.",
+      "cveName": "CVE-2024-53813",
+      "cveUrl": "/vuln/detail/CVE-2024-53813"
+    }
+  },
+  "CVE-2024-53815": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:24 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in PINPOINT.WORLD Pinpoint Booking System allows Blind SQL Injection.This issue affects Pinpoint Booking System: from n/a through 2.9.9.5.1.",
+      "cveName": "CVE-2024-53815",
+      "cveUrl": "/vuln/detail/CVE-2024-53815"
+    }
+  },
+  "CVE-2024-53817": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:24 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Acowebs Product Labels For Woocommerce allows Blind SQL Injection.This issue affects Product Labels For Woocommerce: from n/a through 1.5.8.",
+      "cveName": "CVE-2024-53817",
+      "cveUrl": "/vuln/detail/CVE-2024-53817"
+    }
+  },
+  "CVE-2024-53820": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:24 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Captivate Audio Ltd Captivate Sync allows Stored XSS.This issue affects Captivate Sync: from n/a through 2.0.22.",
+      "cveName": "CVE-2024-53820",
+      "cveUrl": "/vuln/detail/CVE-2024-53820"
+    }
+  },
+  "CVE-2024-53821": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:24 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in NotFound Pie Register Premium allows Reflected XSS.This issue affects Pie Register Premium: from n/a through n/a.",
+      "cveName": "CVE-2024-53821",
+      "cveUrl": "/vuln/detail/CVE-2024-53821"
+    }
+  },
+  "CVE-2024-53823": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:24 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in POSIMYTH The Plus Addons for Elementor Page Builder Lite allows DOM-Based XSS.This issue affects The Plus Addons for Elementor Page Builder Lite: from n/a through 5.6.14.",
+      "cveName": "CVE-2024-53823",
+      "cveUrl": "/vuln/detail/CVE-2024-53823"
+    }
+  },
+  "CVE-2024-53824": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:24 AM -0500"
+      ],
+      "cveDis": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in AREOI All Bootstrap Blocks allows PHP Local File Inclusion.This issue affects All Bootstrap Blocks: from n/a through 1.3.19.",
+      "cveName": "CVE-2024-53824",
+      "cveUrl": "/vuln/detail/CVE-2024-53824"
+    }
+  },
+  "CVE-2024-53825": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:24 AM -0500"
+      ],
+      "cveDis": "Missing Authorization vulnerability in Ninja Team Filebird allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Filebird: from n/a through 6.3.2.",
+      "cveName": "CVE-2024-53825",
+      "cveUrl": "/vuln/detail/CVE-2024-53825"
+    }
+  },
+  "CVE-2024-53826": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:25 AM -0500"
+      ],
+      "cveDis": "Missing Authorization vulnerability in WPSight WPCasa allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects WPCasa: from n/a through 1.2.13.",
+      "cveName": "CVE-2024-53826",
+      "cveUrl": "/vuln/detail/CVE-2024-53826"
+    }
+  },
   "CVE-2024-53843": {
     "cve": {
       "cveDate": [
@@ -57375,6 +57804,39 @@
       "cveUrl": "/vuln/detail/CVE-2024-54134"
     }
   },
+  "CVE-2024-54135": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "11:15:22 AM -0500"
+      ],
+      "cveDis": "ClipBucket V5 provides open source video hosting with PHP. ClipBucket-v5 Version 2.0 to Version 5.5.1 Revision 199 are vulnerable to PHP Deserialization vulnerability. The vulnerability exists in upload/photo_upload.php  within the decode_key function. User inputs were supplied to this function without sanitization via collection GET parameter and photoIDS POST parameter respectively. The decode_key function invokes PHP unserialize function as defined in upload/includes/classes/photos.class.php. As a result, it is possible for an adversary to inject maliciously crafted PHP serialized object and utilize gadget chains to cause unexpected behaviors of the application. This vulnerability is fixed in 5.5.1 Revision 200.",
+      "cveName": "CVE-2024-54135",
+      "cveUrl": "/vuln/detail/CVE-2024-54135"
+    }
+  },
+  "CVE-2024-54136": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "11:15:22 AM -0500"
+      ],
+      "cveDis": "ClipBucket V5 provides open source video hosting with PHP. ClipBucket-v5 Version 5.5.1 Revision 199 and below is vulnerable to PHP Deserialization vulnerability. The vulnerability exists in upload/upload.php where the user supplied input via collection get parameter is directly provided to unserialize function. As a result, it is possible for an adversary to inject maliciously crafted PHP serialized object and utilize gadget chains to cause unexpected behaviors of the application. This vulnerability is fixed in 5.5.1 Revision 200.",
+      "cveName": "CVE-2024-54136",
+      "cveUrl": "/vuln/detail/CVE-2024-54136"
+    }
+  },
+  "CVE-2024-54137": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "11:15:22 AM -0500"
+      ],
+      "cveDis": "liboqs is a C-language cryptographic library that provides implementations of post-quantum cryptography algorithms. A correctness error has been identified in the reference implementation of the HQC key encapsulation mechanism. Due to an indexing error, part of the secret key is incorrectly treated as non-secret data. This results in an incorrect shared secret value being returned when the decapsulation function is called with a malformed ciphertext. This vulnerability is fixed in 0.12.0.",
+      "cveName": "CVE-2024-54137",
+      "cveUrl": "/vuln/detail/CVE-2024-54137"
+    }
+  },
   "CVE-2024-54140": {
     "cve": {
       "cveDate": [
@@ -57384,6 +57846,28 @@
       "cveDis": "sigstore-java is a sigstore java client for interacting with sigstore infrastructure. sigstore-java has insufficient verification for a situation where a bundle provides a invalid signature for a checkpoint. This bug impacts clients using any variation of KeylessVerifier.verify(). Currently checkpoints are only used to ensure the root hash of an inclusion proof was provided by the log in question. Failing to validate that means a bundle may provide an inclusion proof that doesn't actually correspond to the log in question. This may eventually lead a monitor/witness being unable to detect when a compromised logs are providing different views of themselves to different clients. There are other mechanisms right now that mitigate this, such as the signed entry timestamp. Sigstore-java currently requires a valid signed entry timestamp. By correctly verifying the signed entry timestamp we can make certain assertions about the log signing the log entry (like the log was aware of the artifact signing event and signed it). Therefore the impact on clients that are not monitors/witnesses is very low. This vulnerability is fixed in 1.2.0.",
       "cveName": "CVE-2024-54140",
       "cveUrl": "/vuln/detail/CVE-2024-54140"
+    }
+  },
+  "CVE-2024-54141": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "10:15:09 AM -0500"
+      ],
+      "cveDis": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. Prior to 4.0.0, phpMyFAQ exposes the database (ie postgreSQL) server's credential when connection to DB fails. This vulnerability is fixed in 4.0.0.",
+      "cveName": "CVE-2024-54141",
+      "cveUrl": "/vuln/detail/CVE-2024-54141"
+    }
+  },
+  "CVE-2024-54143": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "openwrt/asu is an image on demand server for OpenWrt based distributions. The request hashing mechanism truncates SHA-256 hashes to only 12 characters. This significantly reduces entropy, making it feasible for an attacker to generate collisions. By exploiting this, a previously built malicious image can be served in place of a legitimate one, allowing the attacker to \"poison\" the artifact cache and deliver compromised images to unsuspecting users. This can be combined with other attacks, such as a command injection in Imagebuilder that allows malicious users to inject arbitrary commands into the build process, resulting in the production of malicious firmware images signed with the legitimate build key. This has been patched with 920c8a1.",
+      "cveName": "CVE-2024-54143",
+      "cveUrl": "/vuln/detail/CVE-2024-54143"
     }
   },
   "CVE-2024-54153": {
@@ -57461,6 +57945,127 @@
       "cveDis": "stalld through 1.19.7 allows local users to cause a denial of service (file overwrite) via a /tmp/rtthrottle symlink attack.",
       "cveName": "CVE-2024-54159",
       "cveUrl": "/vuln/detail/CVE-2024-54159"
+    }
+  },
+  "CVE-2024-54205": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:25 AM -0500"
+      ],
+      "cveDis": "Cross-Site Request Forgery (CSRF) vulnerability in Paloma Paloma Widget allows Cross Site Request Forgery.This issue affects Paloma Widget: from n/a through 1.14.",
+      "cveName": "CVE-2024-54205",
+      "cveUrl": "/vuln/detail/CVE-2024-54205"
+    }
+  },
+  "CVE-2024-54206": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:25 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in URBAN BASE Z-Downloads allows Stored XSS.This issue affects Z-Downloads: from n/a through 1.11.7.",
+      "cveName": "CVE-2024-54206",
+      "cveUrl": "/vuln/detail/CVE-2024-54206"
+    }
+  },
+  "CVE-2024-54207": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:25 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Owen Cutajar & Hyder Jaffari WordPress Auction Plugin allows Stored XSS.This issue affects WordPress Auction Plugin: from n/a through 3.7.",
+      "cveName": "CVE-2024-54207",
+      "cveUrl": "/vuln/detail/CVE-2024-54207"
+    }
+  },
+  "CVE-2024-54208": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:25 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Joni Halabi Block Controller allows Reflected XSS.This issue affects Block Controller: from n/a through 1.4.2.",
+      "cveName": "CVE-2024-54208",
+      "cveUrl": "/vuln/detail/CVE-2024-54208"
+    }
+  },
+  "CVE-2024-54209": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:25 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPFactory Awesome Shortcodes allows Reflected XSS.This issue affects Awesome Shortcodes: from n/a through 1.7.2.",
+      "cveName": "CVE-2024-54209",
+      "cveUrl": "/vuln/detail/CVE-2024-54209"
+    }
+  },
+  "CVE-2024-54210": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:25 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CodexShaper Advanced Element Bucket Addons for Elementor allows Stored XSS.This issue affects Advanced Element Bucket Addons for Elementor: from n/a through 1.0.2.",
+      "cveName": "CVE-2024-54210",
+      "cveUrl": "/vuln/detail/CVE-2024-54210"
+    }
+  },
+  "CVE-2024-54211": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:26 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Visualmodo Borderless allows Cross-Site Scripting (XSS).This issue affects Borderless: from n/a through 1.5.8.",
+      "cveName": "CVE-2024-54211",
+      "cveUrl": "/vuln/detail/CVE-2024-54211"
+    }
+  },
+  "CVE-2024-54212": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:26 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Noor alam Magical Addons For Elementor allows Stored XSS.This issue affects Magical Addons For Elementor: from n/a through 1.2.6.",
+      "cveName": "CVE-2024-54212",
+      "cveUrl": "/vuln/detail/CVE-2024-54212"
+    }
+  },
+  "CVE-2024-54213": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:26 AM -0500"
+      ],
+      "cveDis": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in zionbuilder.io WordPress Page Builder – Zion Builder allows Stored XSS.This issue affects WordPress Page Builder – Zion Builder: from n/a through 3.6.12.",
+      "cveName": "CVE-2024-54213",
+      "cveUrl": "/vuln/detail/CVE-2024-54213"
+    }
+  },
+  "CVE-2024-54214": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:26 AM -0500"
+      ],
+      "cveDis": "Unrestricted Upload of File with Dangerous Type vulnerability in NotFound Revy allows Upload a Web Shell to a Web Server.This issue affects Revy: from n/a through 1.18.",
+      "cveName": "CVE-2024-54214",
+      "cveUrl": "/vuln/detail/CVE-2024-54214"
+    }
+  },
+  "CVE-2024-54216": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:26 AM -0500"
+      ],
+      "cveDis": "Path Traversal vulnerability in NotFound ARForms allows Path Traversal.This issue affects ARForms: from n/a through 6.4.1.",
+      "cveName": "CVE-2024-54216",
+      "cveUrl": "/vuln/detail/CVE-2024-54216"
     }
   },
   "CVE-2024-54221": {
@@ -57549,6 +58154,61 @@
       "cveDis": "A potential information disclosure vulnerability was reported in Lenovo's packaging of Dolby Vision Provisioning software prior to version 2.0.0.2 that could allow a local attacker to read files on the system with elevated privileges during installation of the package. Previously installed versions are not affected by this issue.",
       "cveName": "CVE-2024-5474",
       "cveUrl": "/vuln/detail/CVE-2024-5474"
+    }
+  },
+  "CVE-2024-54745": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "11:15:22 AM -0500"
+      ],
+      "cveDis": "WAVLINK WN701AE M01AE_V240305 was discovered to contain a hardcoded password vulnerability in /etc/shadow, which allows attackers to log in as root.",
+      "cveName": "CVE-2024-54745",
+      "cveUrl": "/vuln/detail/CVE-2024-54745"
+    }
+  },
+  "CVE-2024-54747": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "11:15:22 AM -0500"
+      ],
+      "cveDis": "WAVLINK WN531P3 202383 was discovered to contain a hardcoded password vulnerability in /etc/shadow, which allows attackers to log in as root.",
+      "cveName": "CVE-2024-54747",
+      "cveUrl": "/vuln/detail/CVE-2024-54747"
+    }
+  },
+  "CVE-2024-54749": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:12 PM -0500"
+      ],
+      "cveDis": "Ubiquiti U7-Pro 7.0.35 was discovered to contain a hardcoded password vulnerability in /etc/shadow, which allows attackers to log in as root.",
+      "cveName": "CVE-2024-54749",
+      "cveUrl": "/vuln/detail/CVE-2024-54749"
+    }
+  },
+  "CVE-2024-54750": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "11:15:23 AM -0500"
+      ],
+      "cveDis": "Ubiquiti U6-LR 6.6.65 was discovered to contain a hardcoded password vulnerability in /etc/shadow, which allows attackers to log in as root.",
+      "cveName": "CVE-2024-54750",
+      "cveUrl": "/vuln/detail/CVE-2024-54750"
+    }
+  },
+  "CVE-2024-55268": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "12:15:13 PM -0500"
+      ],
+      "cveDis": "A Reflected Cross Site Scripting (XSS) vulnerability was found in /covidtms/registered-user-testing.php in PHPGurukul COVID 19 Testing Management System 1.0 which allows remote attackers to execute arbitrary code via the regmobilenumber parameter.",
+      "cveName": "CVE-2024-55268",
+      "cveUrl": "/vuln/detail/CVE-2024-55268"
     }
   },
   "CVE-2024-5578": {
