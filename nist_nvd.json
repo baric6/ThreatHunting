@@ -10317,6 +10317,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11009"
     }
   },
+  "CVE-2024-110107-2 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "The FileOrganizer – Manage WordPress and Website Files plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 1.1.4 via the 'default_lang' parameter. This makes it possible for authenticated attackers, with Administrator-level access and above, to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.",
+      "cveName": "CVE-2024-110107-2 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11010"
+    }
+  },
   "CVE-2024-11013": {
     "cve": {
       "cveDate": [
@@ -11186,6 +11197,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11182"
     }
   },
+  "CVE-2024-11183": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "1:15:17 AM -0500"
+      ],
+      "cveDis": "The Simple Side Tab WordPress plugin before 2.2.0 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
+      "cveName": "CVE-2024-11183",
+      "cveUrl": "/vuln/detail/CVE-2024-11183"
+    }
+  },
   "CVE-2024-111886-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -11989,6 +12011,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11366"
     }
   },
+  "CVE-2024-113676-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "The Smoove connector for Elementor forms plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 4.1.0. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-113676-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11367"
+    }
+  },
   "CVE-2024-113686-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -11998,6 +12031,17 @@
       "cveDis": "The Splash Sync plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 2.0.6. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-113686-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11368"
+    }
+  },
+  "CVE-2024-113746-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "The TWChat – Send or receive messages from users plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of remove_query_arg without appropriate escaping on the URL in all versions up to, and including, 4.0.4. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-113746-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11374"
     }
   },
   "CVE-2024-113796-1 MEDIUM": {
@@ -14541,6 +14585,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-12123"
     }
   },
+  "CVE-2024-121286-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "5:15:05 AM -0500"
+      ],
+      "cveDis": "The Simple Ecommerce Shopping Cart Plugin- Sell products through Paypal plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘monthly_sales_current_year’ parameter in all versions up to, and including, 3.1.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-121286-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-12128"
+    }
+  },
   "CVE-2024-12130": {
     "cve": {
       "cveDate": [
@@ -14860,6 +14915,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-12247"
     }
   },
+  "CVE-2024-122535-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "The Simple Ecommerce Shopping Cart Plugin- Sell products through Paypal plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on the 'save_settings', 'export_csv', and 'simpleecommcart-action' actions in all versions up to, and including, 3.1.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to update the plugins settings and retrieve order and log data (which is also accessible to unauthenticated users).",
+      "cveName": "CVE-2024-122535-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-12253"
+    }
+  },
   "CVE-2024-12254": {
     "cve": {
       "cveDate": [
@@ -14880,6 +14946,17 @@
       "cveDis": "The CardGate Payments for WooCommerce plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'page' parameter in all versions up to, and including, 3.2.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-122576-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-12257"
+    }
+  },
+  "CVE-2024-122707-5 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "5:15:06 AM -0500"
+      ],
+      "cveDis": "The Beautiful taxonomy filters plugin for WordPress is vulnerable to SQL Injection via the 'selects[0][term]' parameter in all versions up to, and including, 2.4.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-122707-5 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-12270"
     }
   },
   "CVE-2024-12326": {
@@ -55932,6 +56009,17 @@
       "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\ninitramfs: avoid filename buffer overrun\n\nThe initramfs filename field is defined in\nDocumentation/driver-api/early-userspace/buffer-format.rst as:\n\n 37 cpio_file := ALGN(4) + cpio_header + filename + \"\\0\" + ALGN(4) + data\n...\n 55 ============= ================== =========================\n 56 Field name    Field size         Meaning\n 57 ============= ================== =========================\n...\n 70 c_namesize    8 bytes            Length of filename, including final \\0\n\nWhen extracting an initramfs cpio archive, the kernel's do_name() path\nhandler assumes a zero-terminated path at @collected, passing it\ndirectly to filp_open() / init_mkdir() / init_mknod().\n\nIf a specially crafted cpio entry carries a non-zero-terminated filename\nand is followed by uninitialized memory, then a file may be created with\ntrailing characters that represent the uninitialized memory. The ability\nto create an initramfs entry would imply already having full control of\nthe system, so the buffer overrun shouldn't be considered a security\nvulnerability.\n\nAppend the output of the following bash script to an existing initramfs\nand observe any created /initramfs_test_fname_overrunAA* path. E.g.\n  ./reproducer.sh | gzip >> /myinitramfs\n\nIt's easiest to observe non-zero uninitialized memory when the output is\ngzipped, as it'll overflow the heap allocated @out_buf in __gunzip(),\nrather than the initrd_start+initrd_size block.\n\n---- reproducer.sh ----\nnilchar=\"A\"\t# change to \"\\0\" to properly zero terminate / pad\nmagic=\"070701\"\nino=1\nmode=$(( 0100777 ))\nuid=0\ngid=0\nnlink=1\nmtime=1\nfilesize=0\ndevmajor=0\ndevminor=1\nrdevmajor=0\nrdevminor=0\ncsum=0\nfname=\"initramfs_test_fname_overrun\"\nnamelen=$(( ${#fname} + 1 ))\t# plus one to account for terminator\n\nprintf \"%s%08x%08x%08x%08x%08x%08x%08x%08x%08x%08x%08x%08x%08x%s\" \\\n\t$magic $ino $mode $uid $gid $nlink $mtime $filesize \\\n\t$devmajor $devminor $rdevmajor $rdevminor $namelen $csum $fname\n\ntermpadlen=$(( 1 + ((4 - ((110 + $namelen) & 3)) % 4) ))\nprintf \"%.s${nilchar}\" $(seq 1 $termpadlen)\n---- reproducer.sh ----\n\nSymlink filename fields handled in do_symlink() won't overrun past the\ndata segment, due to the explicit zero-termination of the symlink\ntarget.\n\nFix filename buffer overrun by aborting the initramfs FSM if any cpio\nentry doesn't carry a zero-terminator at the expected (name_len - 1)\noffset.",
       "cveName": "CVE-2024-53142",
       "cveUrl": "/vuln/detail/CVE-2024-53142"
+    }
+  },
+  "CVE-2024-53143": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "2:15:03 AM -0500"
+      ],
+      "cveDis": "In the Linux kernel, the following vulnerability has been resolved:\n\nfsnotify: Fix ordering of iput() and watched_objects decrement\n\nEnsure the superblock is kept alive until we're done with iput().\nHolding a reference to an inode is not allowed unless we ensure the\nsuperblock stays alive, which fsnotify does by keeping the\nwatched_objects count elevated, so iput() must happen before the\nwatched_objects decrement.\nThis can lead to a UAF of something like sb->s_fs_info in tmpfs, but the\nUAF is hard to hit because race orderings that oops are more likely, thanks\nto the CHECK_DATA_CORRUPTION() block in generic_shutdown_super().\n\nAlso, ensure that fsnotify_put_sb_watched_objects() doesn't call\nfsnotify_sb_watched_objects() on a superblock that may have already been\nfreed, which would cause a UAF read of sb->s_fsnotify_info.",
+      "cveName": "CVE-2024-53143",
+      "cveUrl": "/vuln/detail/CVE-2024-53143"
     }
   },
   "CVE-2024-53255": {
