@@ -12055,6 +12055,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11379"
     }
   },
+  "CVE-2024-113806-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "7:15:17 AM -0500"
+      ],
+      "cveDis": "The Mini Program API plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'qvideo' shortcode in all versions up to, and including, 1.4.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-113806-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11380"
+    }
+  },
   "CVE-2024-113816-4 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -12297,6 +12308,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11453"
     }
   },
+  "CVE-2024-114576-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "7:15:19 AM -0500"
+      ],
+      "cveDis": "The Feedpress Generator – External RSS Frontend Customizer plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'tab' parameter in all versions up to, and including, 1.2.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-114576-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11457"
+    }
+  },
   "CVE-2024-114586-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -12339,6 +12361,17 @@
       "cveDis": "The DeBounce Email Validator plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'from', 'to', and 'key' parameters in all versions up to, and including, 5.6.5 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-114636-1 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11463"
+    }
+  },
+  "CVE-2024-114646-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "7:15:19 AM -0500"
+      ],
+      "cveDis": "The Easy Code Snippets plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'page' parameter in all versions up to, and including, 1.0.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-114646-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11464"
     }
   },
   "CVE-2024-114666-1 MEDIUM": {
@@ -12537,6 +12570,17 @@
       "cveDis": "There exists a stack buffer overflow in libjxl. A specifically-crafted file can cause the JPEG XL decoder to use large amounts of stack space (up to 256mb is possible, maybe 512mb), potentially exhausting the stack. An attacker can craft a file that will cause excessive memory usage. We recommend upgrading past commit 65fbec56bc578b6b6ee02a527be70787bbd053b0.",
       "cveName": "CVE-2024-11498",
       "cveUrl": "/vuln/detail/CVE-2024-11498"
+    }
+  },
+  "CVE-2024-115018-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "7:15:19 AM -0500"
+      ],
+      "cveDis": "The Gallery plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.3 via deserialization of untrusted input from wd_gallery_$id parameter. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code.",
+      "cveName": "CVE-2024-115018-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-11501"
     }
   },
   "CVE-2024-115857-5 HIGH": {
@@ -21185,6 +21229,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-37070"
     }
   },
+  "CVE-2024-370715-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "8:15:04 AM -0500"
+      ],
+      "cveDis": "IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 could allow an authenticated user to cause a denial of service with a specially crafted query due to improper memory allocation.",
+      "cveName": "CVE-2024-370715-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-37071"
+    }
+  },
   "CVE-2024-37187": {
     "cve": {
       "cveDate": [
@@ -23515,6 +23570,17 @@
       "cveDis": "IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to a denial of service as the server may crash under certain conditions with a specially crafted query.",
       "cveName": "CVE-2024-417615-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-41761"
+    }
+  },
+  "CVE-2024-417625-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "9:15:17 AM -0500"
+      ],
+      "cveDis": "IBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to a denial of service as the server may crash under certain conditions with a specially crafted query.",
+      "cveName": "CVE-2024-417625-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-41762"
     }
   },
   "CVE-2024-417755-9 MEDIUM": {
@@ -31534,6 +31600,28 @@
       "cveDis": "Cross Site Scripting vulnerability in Follet School Solutions Destiny before v22.0.1 AU1 allows a remote attacker to run arbitrary client-side code via the expiredSupportMessage parameter of handleloginform.do.",
       "cveName": "CVE-2024-47095",
       "cveUrl": "/vuln/detail/CVE-2024-47095"
+    }
+  },
+  "CVE-2024-471076-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "10:15:04 AM -0500"
+      ],
+      "cveDis": "IBM QRadar SIEM 7.5 is vulnerable to stored cross-site scripting. This vulnerability allows authenticated users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
+      "cveName": "CVE-2024-471076-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-47107"
+    }
+  },
+  "CVE-2024-471157-8 HIGH": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "8:19:14 AM -0500"
+      ],
+      "cveDis": "IBM AIX 7.2, 7.3 and VIOS 3.1 and 4.1 could allow a local user to execute arbitrary commands on the system due to improper neutralization of input.",
+      "cveName": "CVE-2024-471157-8 HIGH",
+      "cveUrl": "/vuln/detail/CVE-2024-47115"
     }
   },
   "CVE-2024-47131": {
