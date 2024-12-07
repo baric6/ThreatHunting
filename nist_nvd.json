@@ -4267,6 +4267,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-0129"
     }
   },
+  "CVE-2024-0130": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "3:15:23 PM -0500"
+      ],
+      "cveDis": "NVIDIA UFM Enterprise, UFM Appliance, and UFM CyberAI contain a vulnerability where an attacker can cause an improper authentication issue by sending a malformed request through the Ethernet management interface. A successful exploit of this vulnerability might lead to escalation of privileges, data tampering, denial of service, and information disclosure.",
+      "cveName": "CVE-2024-0130",
+      "cveUrl": "/vuln/detail/CVE-2024-0130"
+    }
+  },
   "CVE-2024-0134": {
     "cve": {
       "cveDate": [
@@ -4287,6 +4298,17 @@
       "cveDis": "NVIDIA Base Command Manager contains a missing authentication vulnerability in the CMDaemon component. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
       "cveName": "CVE-2024-0138",
       "cveUrl": "/vuln/detail/CVE-2024-0138"
+    }
+  },
+  "CVE-2024-0139": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "3:15:23 PM -0500"
+      ],
+      "cveDis": "NVIDIA Base Command Manager and Bright Cluster Manager for Linux contain an insecure temporary file vulnerability. A successful exploit of this vulnerability might lead to denial of service.",
+      "cveName": "CVE-2024-0139",
+      "cveUrl": "/vuln/detail/CVE-2024-0139"
     }
   },
   "CVE-2024-0787": {
@@ -4584,6 +4606,17 @@
       "cveDis": "The Transients Manager plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.0.6. This is due to missing or incorrect nonce validation on the process_actions function. This makes it possible for unauthenticated attackers to delete transients via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
       "cveName": "CVE-2024-100454-3 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-10045"
+    }
+  },
+  "CVE-2024-100466-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "The افزونه پیامک ووکامرس Persian WooCommerce SMS plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of remove_query_arg without appropriate escaping on the URL in all versions up to, and including, 7.0.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-100466-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-10046"
     }
   },
   "CVE-2024-100486-1 MEDIUM": {
@@ -11802,6 +11835,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11326"
     }
   },
+  "CVE-2024-113296-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "The Comfino Payment Gateway plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg & remove_query_arg without appropriate escaping on the URL in all versions up to, and including, 4.1.1. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-113296-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11329"
+    }
+  },
   "CVE-2024-113306-1 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -11888,6 +11932,17 @@
       "cveDis": "The TwentyTwenty plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'twentytwenty' shortcode in all versions up to, and including, 1.0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-113526-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11352"
+    }
+  },
+  "CVE-2024-113534-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "The SMS for Lead Capture Forms plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the delete_message() function in all versions up to, and including, 1.1.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary messages.",
+      "cveName": "CVE-2024-113534-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11353"
     }
   },
   "CVE-2024-113554-3 MEDIUM": {
@@ -12132,6 +12187,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11431"
     }
   },
+  "CVE-2024-114366-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:17 PM -0500"
+      ],
+      "cveDis": "The Drag & Drop Builder, Human Face Detector, Pre-built Templates, Spam Protection, User Email Notifications & more! plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'page' parameter in all versions up to, and including, 1.4.19 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-114366-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11436"
+    }
+  },
   "CVE-2024-114444-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -12163,6 +12229,17 @@
       "cveDis": "The ONLYOFFICE Docs plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'onlyoffice' shortcode in all versions up to, and including, 2.0.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
       "cveName": "CVE-2024-114506-4 MEDIUM",
       "cveUrl": "/vuln/detail/CVE-2024-11450"
+    }
+  },
+  "CVE-2024-114516-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "The Zooom plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'zooom' shortcode in all versions up to, and including, 1.1.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-114516-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11451"
     }
   },
   "CVE-2024-114536-4 MEDIUM": {
@@ -13804,6 +13881,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-11903"
     }
   },
+  "CVE-2024-119046-4 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "The 코드엠샵 소셜톡 plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'msntt_add_plus_talk' shortcode in all versions up to, and including, 1.2.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cveName": "CVE-2024-119046-4 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11904"
+    }
+  },
   "CVE-2024-119184-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -13868,6 +13956,17 @@
       "cveDis": "A vulnerability in Drupal Core allows File Manipulation.This issue affects Drupal Core: from 10.0.0 before 10.2.10.",
       "cveName": "CVE-2024-11942",
       "cveUrl": "/vuln/detail/CVE-2024-11942"
+    }
+  },
+  "CVE-2024-119436-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "The 워드프레스 결제 심플페이 – 우커머스 결제 플러그인 plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 5.2.2. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-119436-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-11943"
     }
   },
   "CVE-2024-119527-5 HIGH": {
@@ -14288,6 +14387,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-12007"
     }
   },
+  "CVE-2024-120264-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "The Message Filter for Contact Form 7 plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the saveFilter() function in all versions up to, and including, 1.6.3. This makes it possible for authenticated attackers, with Subscriber-level access and above, to create new filters.",
+      "cveName": "CVE-2024-120264-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-12026"
+    }
+  },
   "CVE-2024-120274-3 MEDIUM": {
     "cve": {
       "cveDate": [
@@ -14409,6 +14519,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-12110"
     }
   },
+  "CVE-2024-121154-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "The Poll Maker – Versus Polls, Anonymous Polls, Image Polls plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 5.5.4. This is due to missing or incorrect nonce validation on the duplicate_poll() function. This makes it possible for unauthenticated attackers to duplicate polls via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-121154-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-12115"
+    }
+  },
   "CVE-2024-12123": {
     "cve": {
       "cveDate": [
@@ -14495,6 +14616,39 @@
       "cveDis": "The SV100 Companion plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the settings_import() function in all versions up to, and including, 2.0.02. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site.",
       "cveName": "CVE-2024-121559-8 CRITICAL",
       "cveUrl": "/vuln/detail/CVE-2024-12155"
+    }
+  },
+  "CVE-2024-121656-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "The Mollie for Contact Form 7 plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'page' parameter in all versions up to, and including, 5.0.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-121656-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-12165"
+    }
+  },
+  "CVE-2024-121666-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:18 PM -0500"
+      ],
+      "cveDis": "The Shortcodes Blocks Creator Ultimate plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'page' parameter in all versions up to, and including, 2.2.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-121666-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-12166"
+    }
+  },
+  "CVE-2024-121676-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:19 PM -0500"
+      ],
+      "cveDis": "The Shortcodes Blocks Creator Ultimate plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the '_wpnonce' parameter in all versions up to, and including, 2.2.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-121676-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-12167"
     }
   },
   "CVE-2024-12180": {
@@ -14715,6 +14869,28 @@
       "cveDis": "Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writelines()\n method would not \"pause\" writing and signal to the Protocol to drain \nthe buffer to the wire once the write buffer reached the \"high-water \nmark\". Because of this, Protocols would not periodically drain the write\n buffer potentially leading to memory exhaustion.\n\n\n\n\n\nThis\n vulnerability likely impacts a small number of users, you must be using\n Python 3.12.0 or later, on macOS or Linux, using the asyncio module \nwith protocols, and using .writelines() method which had new \nzero-copy-on-write behavior in Python 3.12.0 and later. If not all of \nthese factors are true then your usage of Python is unaffected.",
       "cveName": "CVE-2024-12254",
       "cveUrl": "/vuln/detail/CVE-2024-12254"
+    }
+  },
+  "CVE-2024-122576-1 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:19 PM -0500"
+      ],
+      "cveDis": "The CardGate Payments for WooCommerce plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'page' parameter in all versions up to, and including, 3.2.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+      "cveName": "CVE-2024-122576-1 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-12257"
+    }
+  },
+  "CVE-2024-12326": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "4:15:05 PM -0500"
+      ],
+      "cveDis": "Jirafeau normally prevents browser preview for SVG files due to the possibility that manipulated SVG files could be exploited for cross site scripting. This was done by storing the MIME type of a file and preventing the browser preview for MIME type image/svg+xml. This issue was first reported in CVE-2022-30110. However, it was still possible to do a browser preview of a SVG file by sending a manipulated MIME type during the upload, where the case of any letter in image/svg+xml had been changed (like image/svg+XML). The check for image/svg+xml has been changed to be case insensitive.",
+      "cveName": "CVE-2024-12326",
+      "cveUrl": "/vuln/detail/CVE-2024-12326"
     }
   },
   "CVE-2024-1240": {
@@ -21834,6 +22010,83 @@
       "cveUrl": "/vuln/detail/CVE-2024-38920"
     }
   },
+  "CVE-2024-38921": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble versions were discovered to contain a use-after-free via the nav2_amcl process. This vulnerability is triggered via remotely sending a request for change the value of dynamic-parameter`/amcl z_rand ` .",
+      "cveName": "CVE-2024-38921",
+      "cveUrl": "/vuln/detail/CVE-2024-38921"
+    }
+  },
+  "CVE-2024-38922": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble version was discovered to contain a heap overflow in the nav2_amcl process. This vulnerability is triggered via sending a crafted message to the component /initialpose.",
+      "cveName": "CVE-2024-38922",
+      "cveUrl": "/vuln/detail/CVE-2024-38922"
+    }
+  },
+  "CVE-2024-38923": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble versions were discovered to contain a use-after-free via the nav2_amcl process. This vulnerability is triggered via remotely sending a request to change the value of dynamic-parameter`/amcl odom_frame_id` .",
+      "cveName": "CVE-2024-38923",
+      "cveUrl": "/vuln/detail/CVE-2024-38923"
+    }
+  },
+  "CVE-2024-38924": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:19 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble versions were discovered to contain a use-after-free via the nav2_amcl process. This vulnerability is triggered via remotely sending a request to change the value of dynamic-parameter`/amcl laser_model_type` .",
+      "cveName": "CVE-2024-38924",
+      "cveUrl": "/vuln/detail/CVE-2024-38924"
+    }
+  },
+  "CVE-2024-38925": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble versions were discovered to contain a use-after-free via the nav2_amcl process. This vulnerability is triggered via remotely sending a request for change the value of dynamic-parameter`/amcl z_max` .",
+      "cveName": "CVE-2024-38925",
+      "cveUrl": "/vuln/detail/CVE-2024-38925"
+    }
+  },
+  "CVE-2024-38926": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble versions were discovered to contain a use-after-free via the nav2_amcl process. This vulnerability is triggered via remotely sending a request for change the value of dynamic-parameter `/amcl z_short`.",
+      "cveName": "CVE-2024-38926",
+      "cveUrl": "/vuln/detail/CVE-2024-38926"
+    }
+  },
+  "CVE-2024-38927": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 (ROS2) and Nav2 humble versions were discovered to contain a use-after-free via the nav2_amcl process. This vulnerability is triggered via remotely sending a request to change the value of dynamic-parameter `/amcl do_beamskip`.",
+      "cveName": "CVE-2024-38927",
+      "cveUrl": "/vuln/detail/CVE-2024-38927"
+    }
+  },
   "CVE-2024-39162": {
     "cve": {
       "cveDate": [
@@ -22976,6 +23229,83 @@
       "cveDis": "Money Manager EX WebApp (web-money-manager-ex) 1.2.2 is vulnerable to SQL Injection in the `transaction_delete_group` function. The vulnerability is due to improper sanitization of user input in the `TrDeleteArr` parameter, which is directly incorporated into an SQL query.",
       "cveName": "CVE-2024-41618",
       "cveUrl": "/vuln/detail/CVE-2024-41618"
+    }
+  },
+  "CVE-2024-41644": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble allows an attacker to execute arbitrary code via the dyn_param_handler_ component.",
+      "cveName": "CVE-2024-41644",
+      "cveUrl": "/vuln/detail/CVE-2024-41644"
+    }
+  },
+  "CVE-2024-41645": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble allows an attacker to execute arbitrary code via a crafted script to the nav2__amcl.",
+      "cveName": "CVE-2024-41645",
+      "cveUrl": "/vuln/detail/CVE-2024-41645"
+    }
+  },
+  "CVE-2024-41646": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble allows an attacker to execute arbitrary code via a crafted script to the nav2_dwb_controller.",
+      "cveName": "CVE-2024-41646",
+      "cveUrl": "/vuln/detail/CVE-2024-41646"
+    }
+  },
+  "CVE-2024-41647": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble allows an attacker to execute arbitrary code via a crafted script to the nav2_mppi_controller.",
+      "cveName": "CVE-2024-41647",
+      "cveUrl": "/vuln/detail/CVE-2024-41647"
+    }
+  },
+  "CVE-2024-41648": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:20 PM -0500"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble allows an attacker to execute arbitrary code via a crafted script to the nav2_regulated_pure_pursuit_controller.",
+      "cveName": "CVE-2024-41648",
+      "cveUrl": "/vuln/detail/CVE-2024-41648"
+    }
+  },
+  "CVE-2024-41649": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble allows an attacker to execute arbitrary code via a crafted script to the executor_thread_.",
+      "cveName": "CVE-2024-41649",
+      "cveUrl": "/vuln/detail/CVE-2024-41649"
+    }
+  },
+  "CVE-2024-41650": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Insecure Permissions vulnerability in Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble allows an attacker to execute arbitrary code via a crafted script to the nav2_costmap_2d.",
+      "cveName": "CVE-2024-41650",
+      "cveUrl": "/vuln/detail/CVE-2024-41650"
     }
   },
   "CVE-2024-41673": {
@@ -26817,6 +27147,61 @@
       "cveUrl": "/vuln/detail/CVE-2024-44812"
     }
   },
+  "CVE-2024-44852": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble was discovered to contain a segmentation violation via the component theta_star::ThetaStar::isUnsafeToPlan().",
+      "cveName": "CVE-2024-44852",
+      "cveUrl": "/vuln/detail/CVE-2024-44852"
+    }
+  },
+  "CVE-2024-44853": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble was discovered to contain a NULL pointer dereference via the component computeControl().",
+      "cveName": "CVE-2024-44853",
+      "cveUrl": "/vuln/detail/CVE-2024-44853"
+    }
+  },
+  "CVE-2024-44854": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble was discovered to contain a NULL pointer dereference via the component smoothPlan().",
+      "cveName": "CVE-2024-44854",
+      "cveUrl": "/vuln/detail/CVE-2024-44854"
+    }
+  },
+  "CVE-2024-44855": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble was discovered to contain a NULL pointer dereference via the component nav2_navfn_planner().",
+      "cveName": "CVE-2024-44855",
+      "cveUrl": "/vuln/detail/CVE-2024-44855"
+    }
+  },
+  "CVE-2024-44856": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "Open Robotics Robotic Operating System 2 ROS2 navigation2 v.humble was discovered to contain a NULL pointer dereference via the component nav2_smac_planner().",
+      "cveName": "CVE-2024-44856",
+      "cveUrl": "/vuln/detail/CVE-2024-44856"
+    }
+  },
   "CVE-2024-45031": {
     "cve": {
       "cveDate": [
@@ -28476,6 +28861,17 @@
       "cveDis": "Inadequate Encryption Strength vulnerability in Apache Answer.\n\nThis issue affects Apache Answer: through 1.4.0.\n\nThe ids generated using the UUID v1 version are to some extent not secure enough. It can cause the generated token to be predictable.\nUsers are recommended to upgrade to version 1.4.1, which fixes the issue.",
       "cveName": "CVE-2024-45719",
       "cveUrl": "/vuln/detail/CVE-2024-45719"
+    }
+  },
+  "CVE-2024-45722": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "2:15:12 PM -0500"
+      ],
+      "cveDis": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x uses weak credential mechanism that could allow an attacker to easily calculate MQTT credentials.",
+      "cveName": "CVE-2024-45722",
+      "cveUrl": "/vuln/detail/CVE-2024-45722"
     }
   },
   "CVE-2024-45731": {
@@ -30161,6 +30557,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-46872"
     }
   },
+  "CVE-2024-46874": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "2:15:12 PM -0500"
+      ],
+      "cveDis": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could allow MQTT clients connecting with device credentials to send messages to some topics. Attackers with device credentials could issue commands to other devices on behalf of Ruijie's cloud.",
+      "cveName": "CVE-2024-46874",
+      "cveUrl": "/vuln/detail/CVE-2024-46874"
+    }
+  },
   "CVE-2024-46886": {
     "cve": {
       "cveDate": [
@@ -31149,6 +31556,17 @@
       "cveDis": "AIPHONE IXG SYSTEM IXG-2C7 firmware Ver.2.03 and earlier and IXG-2C7-L firmware Ver.2.03 and earlier contain an issue with insufficiently protected credentials, which may allow a network-adjacent authenticated attacker to perform unintended operations.",
       "cveName": "CVE-2024-47142",
       "cveUrl": "/vuln/detail/CVE-2024-47142"
+    }
+  },
+  "CVE-2024-47146": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "2:15:12 PM -0500"
+      ],
+      "cveDis": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could allow an attacker to obtain the devices serial number if physically adjacent and sniffing the RAW WIFI signal.",
+      "cveName": "CVE-2024-47146",
+      "cveUrl": "/vuln/detail/CVE-2024-47146"
     }
   },
   "CVE-2024-47158": {
@@ -34768,6 +35186,17 @@
       "cveDis": "** UNSUPPORTED WHEN ASSIGNED ** This vulnerability exists in D3D Security IP Camera due to usage of insecure Real-Time Streaming Protocol (RTSP) version for live video streaming.  A remote attacker could exploit this vulnerability by crafting a RTSP packet leading to unauthorized access to live feed of the targeted device.    NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
       "cveName": "CVE-2024-47790",
       "cveUrl": "/vuln/detail/CVE-2024-47790"
+    }
+  },
+  "CVE-2024-47791": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "2:15:12 PM -0500"
+      ],
+      "cveDis": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could allow an attacker to subscribe to partial possible topics in Ruijie MQTT broker, and receive partial messages being sent to and from devices.",
+      "cveName": "CVE-2024-47791",
+      "cveUrl": "/vuln/detail/CVE-2024-47791"
     }
   },
   "CVE-2024-47793": {
@@ -38662,6 +39091,17 @@
       "cveDis": "The affected product is vulnerable to a stack-based buffer overflow. An unauthenticated attacker could send a malicious HTTP request that the webserver fails to properly check input size before copying data to the stack, potentially allowing remote code execution.",
       "cveName": "CVE-2024-48871",
       "cveUrl": "/vuln/detail/CVE-2024-48871"
+    }
+  },
+  "CVE-2024-48874": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "2:15:12 PM -0500"
+      ],
+      "cveDis": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could give attackers the ability to force Ruijie's proxy servers to perform any request the attackers choose. Using this, attackers could access internal services used by Ruijie and their internal cloud infrastructure via AWS cloud metadata services.",
+      "cveName": "CVE-2024-48874",
+      "cveUrl": "/vuln/detail/CVE-2024-48874"
     }
   },
   "CVE-2024-48878": {
@@ -52018,6 +52458,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-52323"
     }
   },
+  "CVE-2024-52324": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "2:15:13 PM -0500"
+      ],
+      "cveDis": "Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x uses an inherently dangerous function which could allow an attacker to send a malicious MQTT message resulting in devices executing arbitrary OS commands.",
+      "cveName": "CVE-2024-52324",
+      "cveUrl": "/vuln/detail/CVE-2024-52324"
+    }
+  },
   "CVE-2024-52336": {
     "cve": {
       "cveDate": [
@@ -57837,6 +58288,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-54137"
     }
   },
+  "CVE-2024-54138": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "5:15:21 PM -0500"
+      ],
+      "cveDis": "NuGet Gallery is a package repository that powers nuget.org. The NuGetGallery has a security vulnerability related to its handling of autolinks in Markdown content. While the platform properly filters out JavaScript from standard links, it does not adequately sanitize autolinks. This oversight allows attackers to exploit autolinks as a vector for Cross-Site Scripting (XSS) attacks. This vulnerability is fixed in 2024.12.06.",
+      "cveName": "CVE-2024-54138",
+      "cveUrl": "/vuln/detail/CVE-2024-54138"
+    }
+  },
   "CVE-2024-54140": {
     "cve": {
       "cveDate": [
@@ -59663,6 +60125,28 @@
       "cveUrl": "/vuln/detail/CVE-2024-7869"
     }
   },
+  "CVE-2024-7874": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "4:15:09 PM -0500"
+      ],
+      "cveDis": "Tungsten Automation (Kofax) TotalAgility in versions all through 7.9.0.25.0.954 is vulnerable to a Reflected XSS attacks through mfpConnectionId parameter manipulation in a form sent to endpoints \"/TotalAgility/Kofax/BrowserDevice/ScanFront.aspx\" \nand \"/TotalAgility/Kofax/BrowserDevice/ScanFrontDebug.aspx\"\nThis allows for injection of a malicious JavaScript code, leading to a possible information leak. \nExploitation is possible only while using POST requests and also requires retrieving/generating a proper VIEWSTATE parameter, which limits the risk of a successful attack.",
+      "cveName": "CVE-2024-7874",
+      "cveUrl": "/vuln/detail/CVE-2024-7874"
+    }
+  },
+  "CVE-2024-7875": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "4:15:09 PM -0500"
+      ],
+      "cveDis": "Tungsten Automation (Kofax) TotalAgility in versions all through 7.9.0.25.0.954 is vulnerable to a Reflected XSS attacks through mfpScreenResolutionWidth parameter manipulation in a form sent to an endpoint /TotalAgility/Kofax/BrowserDevice/ScanFront.aspx\nThis allows for injection of a malicious JavaScript code, leading to a possible information leak. \nExploitation is possible only while using POST requests and also requires retrieving/generating a proper VIEWSTATE parameter, which limits the risk of a successful attack.",
+      "cveName": "CVE-2024-7875",
+      "cveUrl": "/vuln/detail/CVE-2024-7875"
+    }
+  },
   "CVE-2024-7876": {
     "cve": {
       "cveDate": [
@@ -59716,6 +60200,17 @@
       "cveDis": "When using Arm Cortex-M Security Extensions (CMSE), Secure stack \ncontents can be leaked to Non-secure state via floating-point registers \nwhen a Secure to Non-secure function call is made that returns a \nfloating-point value and when this is the first use of floating-point \nsince entering Secure state. This allows an attacker to read a limited \nquantity of Secure stack contents with an impact on confidentiality. \nThis issue is specific to code generated using LLVM-based compilers.",
       "cveName": "CVE-2024-7883",
       "cveUrl": "/vuln/detail/CVE-2024-7883"
+    }
+  },
+  "CVE-2024-78945-3 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:19 PM -0500"
+      ],
+      "cveDis": "The If Menu plugin for WordPress is vulnerable to unauthorized modification of the plugin's license key due to a missing capability check on the 'actions' function in versions up to, and including, 0.19.1. This makes it possible for unauthenticated attackers to modify delete or modify the license key.",
+      "cveName": "CVE-2024-78945-3 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-7894"
     }
   },
   "CVE-2024-7915": {
@@ -61157,6 +61652,17 @@
       "cveDis": "A vulnerability was found in CRI-O, where it can be requested to take a checkpoint archive of a container and later be asked to restore it. When it does that restoration, it attempts to restore the mounts from the restore archive instead of the pod request. As a result, the validations run on the pod spec, verifying that the pod has access to the mounts it specifies are not applicable to a restored container. This flaw allows a malicious user to trick CRI-O into restoring a pod that doesn't have access to host mounts. The user needs access to the kubelet or cri-o socket to call the restore endpoint and trigger the restore.",
       "cveName": "CVE-2024-86767-4 HIGH",
       "cveUrl": "/vuln/detail/CVE-2024-8676"
+    }
+  },
+  "CVE-2024-86796-8 MEDIUM": {
+    "cve": {
+      "cveDate": [
+        "December 06, 2024",
+        "9:15:19 PM -0500"
+      ],
+      "cveDis": "The Library Management System – Manage e-Digital Books Library plugin for WordPress is vulnerable to SQL Injection via the ‘value' parameter of the owt_lib_handler AJAX action in all versions up to, and including, 3.0.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Administrator-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cveName": "CVE-2024-86796-8 MEDIUM",
+      "cveUrl": "/vuln/detail/CVE-2024-8679"
     }
   },
   "CVE-2024-8712": {
