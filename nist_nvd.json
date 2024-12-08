@@ -56407,6 +56407,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-53472"
     }
   },
+  "CVE-2024-53473": {
+    "cve": {
+      "cveDate": [
+        "December 07, 2024",
+        "6:15:34 PM -0500"
+      ],
+      "cveDis": "WeGIA 3.2.0 before 3998672 does not verify permission to change a password.",
+      "cveName": "CVE-2024-53473",
+      "cveUrl": "/vuln/detail/CVE-2024-53473"
+    }
+  },
   "CVE-2024-53477": {
     "cve": {
       "cveDate": [
