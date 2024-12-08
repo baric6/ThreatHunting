@@ -14849,6 +14849,17 @@
       "cveUrl": "/vuln/detail/CVE-2024-12196"
     }
   },
+  "CVE-2024-122099-8 CRITICAL": {
+    "cve": {
+      "cveDate": [
+        "December 08, 2024",
+        "1:15:04 AM -0500"
+      ],
+      "cveDis": "The WP Umbrella: Update Backup Restore & Monitoring plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.17.0 via the 'filename' parameter of the 'umbrella-restore' action. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.",
+      "cveName": "CVE-2024-122099-8 CRITICAL",
+      "cveUrl": "/vuln/detail/CVE-2024-12209"
+    }
+  },
   "CVE-2024-12227": {
     "cve": {
       "cveDate": [
@@ -15012,6 +15023,28 @@
       "cveDis": "Jirafeau normally prevents browser preview for SVG files due to the possibility that manipulated SVG files could be exploited for cross site scripting. This was done by storing the MIME type of a file and preventing the browser preview for MIME type image/svg+xml. This issue was first reported in CVE-2022-30110. However, it was still possible to do a browser preview of a SVG file by sending a manipulated MIME type during the upload, where the case of any letter in image/svg+xml had been changed (like image/svg+XML). The check for image/svg+xml has been changed to be case insensitive.",
       "cveName": "CVE-2024-12326",
       "cveUrl": "/vuln/detail/CVE-2024-12326"
+    }
+  },
+  "CVE-2024-12342": {
+    "cve": {
+      "cveDate": [
+        "December 08, 2024",
+        "2:15:04 AM -0500"
+      ],
+      "cveDis": "A vulnerability was found in TP-Link VN020 F3v(T) TT_V6.2.1021. It has been rated as critical. This issue affects some unknown processing of the file /control/WANIPConnection of the component Incomplete SOAP Request Handler. The manipulation leads to denial of service. The attack can only be initiated within the local network. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12342",
+      "cveUrl": "/vuln/detail/CVE-2024-12342"
+    }
+  },
+  "CVE-2024-12343": {
+    "cve": {
+      "cveDate": [
+        "December 08, 2024",
+        "5:15:04 AM -0500"
+      ],
+      "cveDis": "A vulnerability classified as critical has been found in TP-Link VN020 F3v(T) TT_V6.2.1021. Affected is an unknown function of the file /control/WANIPConnection of the component SOAP Request Handler. The manipulation of the argument NewConnectionType leads to buffer overflow. The attack needs to be done within the local network. The exploit has been disclosed to the public and may be used.",
+      "cveName": "CVE-2024-12343",
+      "cveUrl": "/vuln/detail/CVE-2024-12343"
     }
   },
   "CVE-2024-1240": {
