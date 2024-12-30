@@ -3717,6 +3717,18 @@
     "CVE-2023-2288": [
       "https://wpscan.com/vulnerability/93acb4ee-1053-48e1-8b69-c09dc3b2f302"
     ],
+    "CVE-2023-22880": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-22881": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-22882": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-22883": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
     "CVE-2023-22893": [
       "https://www.ghostccamm.com/blog/multi_strapi_vulns/"
     ],
@@ -7062,6 +7074,30 @@
     "CVE-2023-2859": [
       "https://huntr.dev/bounties/d7b8ea75-c74a-4721-89bb-12e5c80fb0ba"
     ],
+    "CVE-2023-28596": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-28597": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-28598": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-28599": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-28600": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-28601": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-28602": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-28603": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
     "CVE-2023-28613": [
       "http://packetstormsecurity.com/files/172177/Shannon-Baseband-Integer-Overflow.html"
     ],
@@ -9900,6 +9936,30 @@
     "CVE-2023-34112": [
       "https://securitylab.github.com/research/github-actions-untrusted-input/"
     ],
+    "CVE-2023-34114": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-34115": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-34116": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-34117": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-34118": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-34119": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-34120": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-34121": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
     "CVE-2023-34124": [
       "http://packetstormsecurity.com/files/174571/Sonicwall-GMS-9.9.9320-Remote-Code-Execution.html"
     ],
@@ -10844,6 +10904,36 @@
     ],
     "CVE-2023-3650": [
       "https://wpscan.com/vulnerability/0a0ecdff-c961-4947-bf7e-bd2392501e33"
+    ],
+    "CVE-2023-36532": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-36533": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-36534": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-36535": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-36536": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-36537": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-36538": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-36539": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-36540": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-36541": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
     ],
     "CVE-2023-36542": [
       "http://seclists.org/fulldisclosure/2023/Jul/43"
@@ -12090,8 +12180,62 @@
     "CVE-2023-39172": [
       "https://seclists.org/fulldisclosure/2023/Nov/4"
     ],
+    "CVE-2023-39199": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
     "CVE-2023-3920": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/417481"
+    ],
+    "CVE-2023-39201": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39202": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39203": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39204": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39205": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39206": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39208": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39209": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39210": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39211": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39212": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39213": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39214": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39215": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39216": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39217": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-39218": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
     ],
     "CVE-2023-39265": [
       "http://packetstormsecurity.com/files/175094/Apache-Superset-2.0.0-Remote-Code-Execution.html"
@@ -13799,6 +13943,18 @@
     ],
     "CVE-2023-43581": [
       "https://support.lenovo.com/us/en/product_security/LEN-141775"
+    ],
+    "CVE-2023-43582": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-43588": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-43590": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
+    ],
+    "CVE-2023-43591": [
+      "https://explore.zoom.us/en/trust/security/security-bulletin/"
     ],
     "CVE-2023-43608": [
       "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1845"
@@ -20279,6 +20435,21 @@
     "CVE-2024-12969": [
       "https://github.com/Rocky-Bull/myCVE/blob/main/Hospital_Management_System_SQLi.md"
     ],
+    "CVE-2024-12976": [
+      "https://github.com/nexus-wkx/CVE/blob/main/SQL_Injection_in_Hospital_Management_System.md"
+    ],
+    "CVE-2024-12977": [
+      "https://github.com/AngrySheep2003/cve/blob/main/Complaint_Management_System_SQL_Injection.md"
+    ],
+    "CVE-2024-12978": [
+      "https://github.com/UnrealdDei/cve/blob/main/sql7.md"
+    ],
+    "CVE-2024-12979": [
+      "https://github.com/705298066/cve/blob/main/xss-1.md"
+    ],
+    "CVE-2024-12980": [
+      "https://github.com/705298066/cve/blob/main/xss-2.md"
+    ],
     "CVE-2024-1306": [
       "https://wpscan.com/vulnerability/c7ce2649-b2b0-43f4-994d-07b1023405e9/"
     ],
@@ -25067,6 +25238,9 @@
     "CVE-2024-2984": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/FH/FH1202/formSetCfm.md"
     ],
+    "CVE-2024-29847": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
     "CVE-2024-2985": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/FH/FH1202/formQuickIndex.md"
     ],
@@ -26294,6 +26468,24 @@
     "CVE-2024-3282": [
       "https://wpscan.com/vulnerability/12bf5e8e-24c9-48b9-b94c-c14ed60d7c15/"
     ],
+    "CVE-2024-32840": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
+    "CVE-2024-32842": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
+    "CVE-2024-32843": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
+    "CVE-2024-32845": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
+    "CVE-2024-32846": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
+    "CVE-2024-32848": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
     "CVE-2024-32866": [
       "https://github.com/edmundhung/conform/security/advisories/GHSA-624g-8qjg-8qxf"
     ],
@@ -27038,8 +27230,17 @@
     "CVE-2024-3477": [
       "https://wpscan.com/vulnerability/ca5e59e6-c500-4129-997b-391cdf9aa9c7/"
     ],
+    "CVE-2024-34779": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
     "CVE-2024-3478": [
       "https://wpscan.com/vulnerability/09f1a696-86ee-47cc-99de-57cfd2a3219d/"
+    ],
+    "CVE-2024-34783": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
+    "CVE-2024-34785": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
     ],
     "CVE-2024-3481": [
       "https://wpscan.com/vulnerability/0c441293-e7f9-4634-8f3a-09925cd2b696/"
@@ -27910,6 +28111,9 @@
     ],
     "CVE-2024-37393": [
       "https://www.optistream.io/blogs/tech/securenvoy-cve-2024-37393"
+    ],
+    "CVE-2024-37397": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
     ],
     "CVE-2024-37407": [
       "https://github.com/libarchive/libarchive/pull/2145"
@@ -34178,6 +34382,9 @@
     "CVE-2024-8174": [
       "https://github.com/prankfulin/cve/blob/main/xss.md"
     ],
+    "CVE-2024-8191": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
     "CVE-2024-8193": [
       "https://issues.chromium.org/issues/360265320"
     ],
@@ -34268,6 +34475,15 @@
     "CVE-2024-8303": [
       "https://github.com/Xor-Gerke/webray.com.cn/blob/main/cve/dingfanzu-CMS/dingfanzu-CMS%20getBasicInfo.php%20username%20SQL-inject.md"
     ],
+    "CVE-2024-8320": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
+    "CVE-2024-8321": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
+    "CVE-2024-8322": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
     "CVE-2024-8336": [
       "https://github.com/LiuHaoBin6/cve/blob/main/sql5.md"
     ],
@@ -34333,6 +34549,9 @@
     ],
     "CVE-2024-8417": [
       "https://wiki.shikangsi.com/post/share/d31fefa1-ca08-48d7-a671-727d63bfaf65"
+    ],
+    "CVE-2024-8441": [
+      "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
     ],
     "CVE-2024-8444": [
       "https://wpscan.com/vulnerability/bf2f5aa8-a161-43ff-a6ee-8603aaba8012/"
@@ -35016,7 +35235,7 @@
       "https://wpscan.com/vulnerability/53e640a7-833e-40de-93d4-acea28aff5a5/"
     ],
     "CVE-2024-9952": [
-      "https://gist.github.com/higordiego/bedd395e74a335f0145872c96d7cb92d"
+      "https://vuldb.com/?submit.423229"
     ],
     "CVE-2024-9958": [
       "https://issues.chromium.org/issues/40076120"
