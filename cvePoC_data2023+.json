@@ -16572,6 +16572,9 @@
     "CVE-2023-5023": [
       "https://github.com/RCEraser/cve/blob/main/sql_inject_3.md"
     ],
+    "CVE-2023-50231": [
+      "https://kb.netgear.com/000065901/Security-Advisory-for-Stored-Cross-Site-Scripting-on-the-NMS300-PSV-2023-0106"
+    ],
     "CVE-2023-50239": [
       "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1893"
     ],
@@ -18258,6 +18261,9 @@
     "CVE-2023-6274": [
       "https://vuldb.com/?id.246103"
     ],
+    "CVE-2023-6275": [
+      "https://vuldb.com/?id.246104"
+    ],
     "CVE-2023-6277": [
       "https://gitlab.com/libtiff/libtiff/-/issues/614"
     ],
@@ -18390,6 +18396,9 @@
     "CVE-2023-6461": [
       "https://huntr.com/bounties/9a97d163-1738-4a09-b284-a04716e69dd0"
     ],
+    "CVE-2023-6473": [
+      "https://vuldb.com/?id.246639"
+    ],
     "CVE-2023-6474": [
       "https://github.com/dhabaleshwar/niv_testing_csrf/blob/main/exploit.md"
     ],
@@ -18470,6 +18479,9 @@
     ],
     "CVE-2023-6599": [
       "https://huntr.com/bounties/6198785c-bf60-422e-9b80-68a6e658a10e"
+    ],
+    "CVE-2023-6609": [
+      "https://vuldb.com/?id.247245"
     ],
     "CVE-2023-6620": [
       "https://wpscan.com/vulnerability/ab5c42ca-ee7d-4344-bd88-0d727ed3d9c4"
@@ -23045,6 +23057,12 @@
     "CVE-2024-25410": [
       "https://github.com/flusity/flusity-CMS/issues/9"
     ],
+    "CVE-2024-25411": [
+      "https://github.com/paragbagul111/CVE-2024-25411"
+    ],
+    "CVE-2024-25412": [
+      "https://github.com/paragbagul111/CVE-2024-25412"
+    ],
     "CVE-2024-25413": [
       "https://packetstormsecurity.com/files/175801/FireBear-Improved-Import-And-Export-3.8.6-XSLT-Server-Side-Injection.html"
     ],
@@ -23071,6 +23089,9 @@
     ],
     "CVE-2024-2543": [
       "https://gist.github.com/Xib3rR4dAr/a248426dfee107c6fda08e80f98fa894"
+    ],
+    "CVE-2024-25431": [
+      "https://github.com/bytecodealliance/wasm-micro-runtime/issues/3122"
     ],
     "CVE-2024-25434": [
       "https://github.com/machisri/CVEs-and-Vulnerabilities/blob/main/CVE-2024-25434%20-%3E%20Stored%20XSS%20in%20input%20public%20name%20of%20the%20Component"
@@ -27419,6 +27440,9 @@
     "CVE-2024-36052": [
       "https://sdushantha.medium.com/ansi-escape-injection-vulnerability-in-winrar-a2cbfac4b983"
     ],
+    "CVE-2024-36062": [
+      "https://github.com/actuator/com.callassistant.android/blob/main/CVE-2024-36062"
+    ],
     "CVE-2024-36080": [
       "https://www.westermo.com/-/media/Files/Cyber-security/westermo_sa_EDW-100_24-05.pdf"
     ],
@@ -27593,6 +27617,9 @@
     "CVE-2024-36536": [
       "https://gist.github.com/HouqiyuA/381f100f2ba82a8ada03994aac5bb2e8"
     ],
+    "CVE-2024-36537": [
+      "https://gist.github.com/HouqiyuA/27879a6366a65fcd5f6c6fcbcf68d8e3"
+    ],
     "CVE-2024-36538": [
       "https://gist.github.com/HouqiyuA/f06d1fa07b5287b862c1e0b288f301e5"
     ],
@@ -27601,6 +27628,9 @@
     ],
     "CVE-2024-36540": [
       "https://gist.github.com/HouqiyuA/a4834f3c8450f9d89e2bc4d5c4beef6a"
+    ],
+    "CVE-2024-36541": [
+      "https://gist.github.com/HouqiyuA/f972d1c152f3b8127af01206f7c2af0d"
     ],
     "CVE-2024-36542": [
       "https://gist.github.com/HouqiyuA/e1685843b6f42b47dbf97e2e92e63428"
@@ -27661,6 +27691,9 @@
     ],
     "CVE-2024-3661": [
       "https://www.leviathansecurity.com/research/tunnelvision"
+    ],
+    "CVE-2024-36626": [
+      "https://gist.github.com/1047524396/25c45b61a6374e0fdaf720c9863c6bcd"
     ],
     "CVE-2024-36650": [
       "https://gist.github.com/Swind1er/f442fcac520a48c05c744c7b72362483"
@@ -31637,6 +31670,9 @@
     "CVE-2024-5257": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/463149"
     ],
+    "CVE-2024-52726": [
+      "https://github.com/sec-Kode/cve3/blob/main/cve3.md"
+    ],
     "CVE-2024-5274": [
       "https://issues.chromium.org/issues/341663589"
     ],
@@ -31897,6 +31933,9 @@
     ],
     "CVE-2024-5488": [
       "https://wpscan.com/vulnerability/28507376-ded0-4e1a-b2fc-2182895aa14c/"
+    ],
+    "CVE-2024-54907": [
+      "https://github.com/MnrikSrins/totolink_A3002R_RCE"
     ],
     "CVE-2024-5499": [
       "https://issues.chromium.org/issues/339877167"
