@@ -20162,6 +20162,9 @@
     "CVE-2024-1195": [
       "https://vuldb.com/?id.252685"
     ],
+    "CVE-2024-11972": [
+      "https://wpscan.com/vulnerability/4963560b-e4ae-451d-8f94-482779c415e4/"
+    ],
     "CVE-2024-12000": [
       "https://github.com/jaychou8023/cve/blob/main/xss3.md"
     ],
@@ -31176,7 +31179,7 @@
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1875248"
     ],
     "CVE-2024-47745": [
-      "https://git.kernel.org/stable/c/49d3a4ad57c57227c3b0fd6cd4188b2a5ebd6178"
+      "https://git.kernel.org/stable/c/ea7e2d5e49c05e5db1922387b09ca74aa40f46e2"
     ],
     "CVE-2024-4775": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1887332"
