@@ -20465,6 +20465,12 @@
     "CVE-2024-12980": [
       "https://github.com/705298066/cve/blob/main/xss-2.md"
     ],
+    "CVE-2024-12981": [
+      "https://github.com/CharilYang/cve/issues/1"
+    ],
+    "CVE-2024-12983": [
+      "https://github.com/Rocky-Bull/myCVE/blob/main/Hospital_Management_System_XSS.md"
+    ],
     "CVE-2024-1306": [
       "https://wpscan.com/vulnerability/c7ce2649-b2b0-43f4-994d-07b1023405e9/"
     ],
