@@ -7677,6 +7677,9 @@
     "CVE-2023-29748": [
       "https://github.com/LianKee/SO-CVEs/blob/main/CVEs/CVE-2023-29748/CVE%20detail.md"
     ],
+    "CVE-2023-29749": [
+      "https://github.com/LianKee/SO-CVEs/blob/main/CVEs/CVE-2023-29749/CVE%20detailed.md"
+    ],
     "CVE-2023-29751": [
       "https://github.com/LianKee/SO-CVEs/blob/main/CVEs/CVE-2023-29751/CVE%20detailed.md"
     ],
@@ -7686,6 +7689,9 @@
     "CVE-2023-29753": [
       "https://github.com/LianKee/SO-CVEs/blob/main/CVEs/CVE-2023-29753/CVE%20detailed.md"
     ],
+    "CVE-2023-29755": [
+      "https://github.com/LianKee/SO-CVEs/blob/main/CVEs/CVE-2023-29755/CVE%20detailed.md"
+    ],
     "CVE-2023-29756": [
       "https://github.com/LianKee/SO-CVEs/blob/main/CVEs/CVE-2023-29756/CVE%20detailed.md"
     ],
@@ -7694,6 +7700,9 @@
     ],
     "CVE-2023-29759": [
       "https://github.com/LianKee/SO-CVEs/blob/main/CVEs/CVE-2023-29759/CVE%20detailed.md"
+    ],
+    "CVE-2023-29761": [
+      "https://github.com/LianKee/SO-CVEs/blob/main/CVEs/CVE-2023-29761/CVE%20detailed.md"
     ],
     "CVE-2023-29766": [
       "https://github.com/LianKee/SO-CVEs/blob/main/CVEs/CVE-2023-29766/CVE%20detailed.md"
@@ -19700,6 +19709,9 @@
     "CVE-2024-10027": [
       "https://wpscan.com/vulnerability/a94c7b64-720a-47f1-a74a-691c3a9ed3a1/"
     ],
+    "CVE-2024-10073": [
+      "https://vuldb.com/?submit.420055"
+    ],
     "CVE-2024-1008": [
       "https://vuldb.com/?id.252277"
     ],
@@ -31162,6 +31174,9 @@
     ],
     "CVE-2024-4773": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1875248"
+    ],
+    "CVE-2024-47745": [
+      "https://git.kernel.org/stable/c/49d3a4ad57c57227c3b0fd6cd4188b2a5ebd6178"
     ],
     "CVE-2024-4775": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1887332"
