@@ -16455,8 +16455,14 @@
     "CVE-2023-49484": [
       "https://github.com/jiaofj/cms/blob/main/There%20is%20a%20storage%20based%20XSS%20in%20the%20article%20management%20department.md"
     ],
+    "CVE-2023-49485": [
+      "https://github.com/Rabb1ter/cms/blob/main/There%20is%20a%20storage%20type%20XSS%20in%20the%20column%20management%20department.md"
+    ],
     "CVE-2023-49486": [
       "https://github.com/Rabb1ter/cms/blob/main/There%20is%20a%20stored%20XSS%20in%20the%20model%20management%20department.md"
+    ],
+    "CVE-2023-49487": [
+      "https://github.com/Rabb1ter/cms/blob/main/There%20is%20a%20stored%20XSS%20in%20the%20navigation%20management%20office.md"
     ],
     "CVE-2023-49492": [
       "https://github.com/Hebing123/cve/issues/2"
@@ -20155,6 +20161,9 @@
     ],
     "CVE-2024-11842": [
       "https://wpscan.com/vulnerability/2545f054-b6ca-4ee5-ac6f-f42193db21b1/"
+    ],
+    "CVE-2024-11846": [
+      "https://wpscan.com/vulnerability/eedaf2d8-171c-4785-99cc-ab33113308d1/"
     ],
     "CVE-2024-1185": [
       "https://fitoxs.com/vuldb/11-exploit-perl.txt"
@@ -34629,7 +34638,7 @@
       "https://vuldb.com/?submit.402384"
     ],
     "CVE-2024-8555": [
-      "https://github.com/gurudattch/CVEs/blob/main/Sourcecodester-Clinic's-Patient-Management-System-Open-Redirect.md"
+      "https://vuldb.com/?submit.402386"
     ],
     "CVE-2024-8557": [
       "https://github.com/tldjgggg/cve/blob/main/sql2.md"
