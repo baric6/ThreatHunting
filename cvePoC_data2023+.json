@@ -8271,6 +8271,9 @@
     "CVE-2023-30868": [
       "http://packetstormsecurity.com/files/172730/WordPress-Tree-Page-View-1.6.7-Cross-Site-Scripting.html"
     ],
+    "CVE-2023-30876": [
+      "https://patchstack.com/database/vulnerability/daves-wordpress-live-search/wordpress-dave-s-wordpress-live-search-plugin-4-8-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    ],
     "CVE-2023-3090": [
       "http://packetstormsecurity.com/files/175072/Kernel-Live-Patch-Security-Notice-LSN-0098-1.html"
     ],
@@ -16281,6 +16284,9 @@
     "CVE-2023-4933": [
       "https://wpscan.com/vulnerability/882f6c36-44c6-4273-81cd-2eaaf5e81fa7"
     ],
+    "CVE-2023-49340": [
+      "https://github.com/n0obit4/Vulnerability_Disclosure/tree/main/CVE-2023-49340"
+    ],
     "CVE-2023-49355": [
       "https://github.com/linzc21/bug-reports/blob/main/reports/jq/1.7-37-g88f01a7/heap-buffer-overflow/CVE-2023-49355.md"
     ],
@@ -16446,6 +16452,9 @@
     "CVE-2023-49473": [
       "https://github.com/Hack404-007/cves-info/blob/main/JF6000-exp"
     ],
+    "CVE-2023-49484": [
+      "https://github.com/jiaofj/cms/blob/main/There%20is%20a%20storage%20based%20XSS%20in%20the%20article%20management%20department.md"
+    ],
     "CVE-2023-49486": [
       "https://github.com/Rabb1ter/cms/blob/main/There%20is%20a%20stored%20XSS%20in%20the%20model%20management%20department.md"
     ],
@@ -16476,8 +16485,14 @@
     "CVE-2023-49549": [
       "https://github.com/cesanta/mjs/issues/251"
     ],
+    "CVE-2023-49550": [
+      "https://github.com/cesanta/mjs/issues/252"
+    ],
     "CVE-2023-49551": [
       "https://github.com/cesanta/mjs/issues/257"
+    ],
+    "CVE-2023-49552": [
+      "https://github.com/cesanta/mjs/issues/256"
     ],
     "CVE-2023-49553": [
       "https://github.com/cesanta/mjs/issues/253"
@@ -16556,6 +16571,9 @@
     ],
     "CVE-2023-4979": [
       "https://huntr.dev/bounties/e67f8f5d-4048-404f-9b86-cb6b8719b77f"
+    ],
+    "CVE-2023-49793": [
+      "https://github.com/Ericsson/codechecker/security/advisories/GHSA-h26w-r4m5-8rrf"
     ],
     "CVE-2023-49794": [
       "https://github.com/tiann/KernelSU/security/advisories/GHSA-8rc5-x54x-5qc4"
@@ -19799,6 +19817,9 @@
     "CVE-2024-10349": [
       "https://github.com/will121351/wenqin.webray.com.cn/blob/main/CVE-project/house-rentalmanagement-system1.md"
     ],
+    "CVE-2024-1035": [
+      "https://vuldb.com/?id.252310"
+    ],
     "CVE-2024-10369": [
       "https://github.com/ppp-src/CVE/issues/18"
     ],
@@ -20161,6 +20182,9 @@
     ],
     "CVE-2024-1195": [
       "https://vuldb.com/?id.252685"
+    ],
+    "CVE-2024-1197": [
+      "https://vuldb.com/?id.252695"
     ],
     "CVE-2024-11972": [
       "https://wpscan.com/vulnerability/4963560b-e4ae-451d-8f94-482779c415e4/"
@@ -31562,6 +31586,9 @@
     "CVE-2024-49778": [
       "https://github.com/justdan96/tsMuxer/issues/879"
     ],
+    "CVE-2024-49863": [
+      "https://git.kernel.org/stable/c/ace9c778a214da9c98d7b69d904d1b0816f4f681"
+    ],
     "CVE-2024-5002": [
       "https://wpscan.com/vulnerability/da09b99a-fa40-428f-80b4-0af764fd2f4f/"
     ],
@@ -35285,5 +35312,6 @@
     "CVE-2024-9986": [
       "https://github.com/Lanxiy7th/lx_CVE_report-/issues/16"
     ]
-  }
+  },
+  "2025": {}
 }
