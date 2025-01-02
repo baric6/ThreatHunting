@@ -6511,7 +6511,7 @@
       "https://huntr.dev/bounties/efdf5b24-6d30-4d57-a5b0-13b253ba3ea4"
     ],
     "CVE-2023-27524": [
-      "http://packetstormsecurity.com/files/175094/Apache-Superset-2.0.0-Remote-Code-Execution.html"
+      "https://packetstormsecurity.com/files/175094/Apache-Superset-2.0.0-Remote-Code-Execution.html"
     ],
     "CVE-2023-2753": [
       "https://huntr.dev/bounties/eca2284d-e81a-4ab8-91bb-7afeca557628"
@@ -12019,7 +12019,7 @@
       "https://github.com/0x727/ShuiZe_0x727/issues/160"
     ],
     "CVE-2023-38947": [
-      "https://gitee.com/CTF-hacker/pwn/issues/I7LH2N"
+      "https://packetstormsecurity.com/files/176018/WBCE-CMS-1.6.1-Shell-Upload.html"
     ],
     "CVE-2023-38948": [
       "https://gitee.com/CTF-hacker/pwn/issues/I7LI4E"
@@ -16035,6 +16035,15 @@
     "CVE-2023-48894": [
       "https://github.com/jishenghua/jshERP/issues/98"
     ],
+    "CVE-2023-48901": [
+      "https://packetstormsecurity.com/files/177660/Tramyardg-Autoexpress-1.3.0-SQL-Injection.html"
+    ],
+    "CVE-2023-48902": [
+      "https://packetstormsecurity.com/files/177661/Tramyardg-Autoexpress-1.3.0-Authentication-Bypass.html"
+    ],
+    "CVE-2023-48903": [
+      "https://packetstormsecurity.com/files/177662/Tramyardg-Autoexpress-1.3.0-Cross-Site-Scripting.html"
+    ],
     "CVE-2023-48906": [
       "https://www.cnblogs.com/focu5/p/18070469"
     ],
@@ -17248,13 +17257,13 @@
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1849704"
     ],
     "CVE-2023-51764": [
-      "https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide/"
+      "https://www.youtube.com/watch?v=V8KPV96g1To"
     ],
     "CVE-2023-51765": [
-      "https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide/"
+      "https://www.youtube.com/watch?v=V8KPV96g1To"
     ],
     "CVE-2023-51766": [
-      "https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide/"
+      "https://www.youtube.com/watch?v=V8KPV96g1To"
     ],
     "CVE-2023-5177": [
       "https://wpscan.com/vulnerability/a67b9c21-a35a-4cdb-9627-a5932334e5f0"
@@ -19805,6 +19814,9 @@
     "CVE-2024-1024": [
       "https://vuldb.com/?id.252292"
     ],
+    "CVE-2024-10247": [
+      "https://packetstormsecurity.com/files/179387/WordPress-Video-Gallery-YouTube-Gallery-And-Vimeo-Gallery-2.3.6-SQL-Injection.html"
+    ],
     "CVE-2024-1028": [
       "https://vuldb.com/?id.252301"
     ],
@@ -20086,6 +20098,9 @@
     ],
     "CVE-2024-11108": [
       "https://wpscan.com/vulnerability/7790af9d-621b-474c-b28c-c774e2a292bb/"
+    ],
+    "CVE-2024-11111": [
+      "https://issues.chromium.org/issues/360520331"
     ],
     "CVE-2024-11121": [
       "https://wiki.shikangsi.com/post/share/4d05b8c3-5464-48f3-bb14-a852b6e70abc"
@@ -32030,6 +32045,9 @@
     "CVE-2024-53442": [
       "https://1d8.github.io/cves/cve_2024_53442/"
     ],
+    "CVE-2024-53459": [
+      "https://packetstormsecurity.com/files/182467/Sysax-Multi-Server-6.99-Cross-Site-Scripting.html"
+    ],
     "CVE-2024-5350": [
       "https://github.com/anji-plus/report/files/15363269/aj-report.pdf"
     ],
@@ -34839,7 +34857,7 @@
       "https://github.com/jeanmarc77/123solar/issues/73#issuecomment-2357648077"
     ],
     "CVE-2024-9008": [
-      "https://github.com/gurudattch/CVEs/blob/main/Sourcecodester-News-Portal-Comment-Blind-SQLi.md"
+      "https://vuldb.com/?submit.409956"
     ],
     "CVE-2024-9009": [
       "https://github.com/ZTurNA/cve/issues/1"
@@ -35138,6 +35156,9 @@
     "CVE-2024-9600": [
       "https://wpscan.com/vulnerability/d1c78389-29eb-4dce-848c-e0eab85ff5cd/"
     ],
+    "CVE-2024-9602": [
+      "https://issues.chromium.org/issues/368241697"
+    ],
     "CVE-2024-9641": [
       "https://wpscan.com/vulnerability/81aa922a-3b51-4cfe-9098-53234827610c/"
     ],
@@ -35149,6 +35170,9 @@
     ],
     "CVE-2024-9768": [
       "https://wpscan.com/vulnerability/3c4ff11b-4a06-433d-8f0e-4069865721c0/"
+    ],
+    "CVE-2024-9769": [
+      "https://packetstormsecurity.com/files/179304/WordPress-Gallery-2.3.6-Cross-Site-Scripting.html"
     ],
     "CVE-2024-9782": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/D-Link/DIR-619L/formEasySetupWWConfig.md"
@@ -35240,8 +35264,14 @@
     "CVE-2024-9856": [
       "https://github.com/DeepMountains/zzz/blob/main/CVE6-2.md"
     ],
+    "CVE-2024-9874": [
+      "https://packetstormsecurity.com/files/179500/WordPress-Poll-Maker-5.3.2-SQL-Injection.html"
+    ],
     "CVE-2024-9875": [
       "https://help.okta.com/asa/en-us/content/topics/releasenotes/advanced-server-access-release-notes.htm"
+    ],
+    "CVE-2024-9878": [
+      "https://packetstormsecurity.com/files/179357/WordPress-Photo-Gallery-1.8.26-Cross-Site-Scripting.html"
     ],
     "CVE-2024-9881": [
       "https://wpscan.com/vulnerability/ec76f73a-7ad4-432d-8216-7cdb5603cef9/"
