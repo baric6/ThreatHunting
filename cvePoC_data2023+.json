@@ -20102,6 +20102,9 @@
     "CVE-2024-11183": [
       "https://wpscan.com/vulnerability/ff3f2788-d1a1-4a62-a247-39a931308f51/"
     ],
+    "CVE-2024-11184": [
+      "https://wpscan.com/vulnerability/fc982bcb-9974-481f-aef4-580ae9edc3c8/"
+    ],
     "CVE-2024-11223": [
       "https://wpscan.com/vulnerability/82989909-9745-4c9a-abc7-c1adf8c2b047/"
     ],
@@ -20119,6 +20122,9 @@
     ],
     "CVE-2024-11319": [
       "https://iltosec.com/blog/post/django-cms-413-stored-xss-vulnerability-exploiting-the-page-title-field/"
+    ],
+    "CVE-2024-11357": [
+      "https://wpscan.com/vulnerability/7e8c6816-9b7a-43e8-9508-789c8051dd9b/"
     ],
     "CVE-2024-11404": [
       "https://iltosec.com/blog/post/cve-2024-11404-medium-severity-file-upload-vulnerabilities-in-django-filer-323/"
@@ -20291,6 +20297,9 @@
     "CVE-2024-12344": [
       "https://vuldb.com/?submit.452658"
     ],
+    "CVE-2024-12346": [
+      "https://vuldb.com/?submit.453609"
+    ],
     "CVE-2024-12349": [
       "https://github.com/hadagaga/vuln/blob/master/JFinalCMS/Cross_Site_Request_Forgery/Cross-Site-Request-Forgery.md"
     ],
@@ -20317,6 +20326,9 @@
     ],
     "CVE-2024-12581": [
       "https://wpscan.com/vulnerability/df688dcc-9617-4f58-a310-891bfaea3695/"
+    ],
+    "CVE-2024-12595": [
+      "https://wpscan.com/vulnerability/7a506438-3106-477f-816d-b9b116ec8555/"
     ],
     "CVE-2024-12632": [
       "https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"
