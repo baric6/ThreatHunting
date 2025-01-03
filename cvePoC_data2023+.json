@@ -8172,14 +8172,32 @@
     "CVE-2023-3069": [
       "https://huntr.dev/bounties/00544982-365a-476b-b5fe-42f02f11d367"
     ],
+    "CVE-2023-30690": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=10"
+    ],
+    "CVE-2023-30692": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=10"
+    ],
     "CVE-2023-3070": [
       "https://huntr.dev/bounties/e193068e-0b95-403a-8453-e015241b8f1b"
     ],
     "CVE-2023-3071": [
       "https://huntr.dev/bounties/3e8d5166-9bc6-46e7-94a8-cad52434a39e"
     ],
+    "CVE-2023-30727": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=10"
+    ],
     "CVE-2023-3073": [
       "https://huntr.dev/bounties/a4d6a082-2ea8-49a5-8e48-6d39b5cc62e1"
+    ],
+    "CVE-2023-30731": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=10"
+    ],
+    "CVE-2023-30732": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=10"
+    ],
+    "CVE-2023-30733": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=10"
     ],
     "CVE-2023-30740": [
       "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html"
@@ -19775,6 +19793,9 @@
     "CVE-2024-1014": [
       "https://www.hackplayers.com/2024/01/cve-2024-1014-and-cve-2024-1015.html"
     ],
+    "CVE-2024-10140": [
+      "https://vuldb.com/?id.280928"
+    ],
     "CVE-2024-10146": [
       "https://wpscan.com/vulnerability/9ee74a0f-83ff-4c15-a114-f8f6baab8bf5/"
     ],
@@ -19928,6 +19949,9 @@
     "CVE-2024-10573": [
       "https://mpg123.org/cgi-bin/news.cgi#2024-10-26"
     ],
+    "CVE-2024-10597": [
+      "https://vuldb.com/?id.282609"
+    ],
     "CVE-2024-10605": [
       "https://github.com/bevennyamande/receiver_request_sample_csrf"
     ],
@@ -19966,6 +19990,9 @@
     ],
     "CVE-2024-10752": [
       "https://github.com/primaryboy/CVE/issues/1"
+    ],
+    "CVE-2024-10757": [
+      "https://vuldb.com/?id.282926"
     ],
     "CVE-2024-10758": [
       "https://github.com/EmilGallajov/zero-day/blob/main/content_management_system_sqli.md"
@@ -30502,6 +30529,9 @@
     ],
     "CVE-2024-4372": [
       "https://wpscan.com/vulnerability/13dcfd8a-e378-44b4-af6f-940bc41539a4/"
+    ],
+    "CVE-2024-43762": [
+      "https://android.googlesource.com/platform/frameworks/base/+/ae43ac7f3d3d5112b0f54b5315a15b08208acf9c"
     ],
     "CVE-2024-4377": [
       "https://wpscan.com/vulnerability/778cebec-bdbb-4538-9518-c5bd50f76961/"
