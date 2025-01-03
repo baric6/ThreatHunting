@@ -25271,6 +25271,9 @@
     "CVE-2024-2944": [
       "https://vuldb.com/?id.258035"
     ],
+    "CVE-2024-29447": [
+      "https://github.com/yashpatelphd/CVE-2024-29447"
+    ],
     "CVE-2024-29461": [
       "https://github.com/floodlight/floodlight/issues/867"
     ],
