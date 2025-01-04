@@ -2673,6 +2673,9 @@
     "CVE-2023-20937": [
       "http://packetstormsecurity.com/files/171239/Android-GKI-Kernels-Contain-Broken-Non-Upstream-Speculative-Page-Faults-MM-Code.html"
     ],
+    "CVE-2023-2096": [
+      "https://vuldb.com/?id.226104"
+    ],
     "CVE-2023-2097": [
       "https://github.com/E1CHO/cve_hub/blob/main/Vehicle%20Service%20Management%20System/Vehicle%20Service%20Management%20System%20-%20vuln%206.pdf"
     ],
@@ -10563,6 +10566,9 @@
     "CVE-2023-35386": [
       "http://packetstormsecurity.com/files/174567/Microsoft-Windows-Kernel-Integer-Overflow-Out-Of-Bounds-Read.html"
     ],
+    "CVE-2023-3542": [
+      "https://vuldb.com/?id.233294"
+    ],
     "CVE-2023-3545": [
       "https://starlabs.sg/advisories/23/23-3545/"
     ],
@@ -11857,7 +11863,7 @@
       "http://packetstormsecurity.com/files/173691/mooDating-1.2-Cross-Site-Scripting.html"
     ],
     "CVE-2023-3848": [
-      "http://packetstormsecurity.com/files/173691/mooDating-1.2-Cross-Site-Scripting.html"
+      "https://vuldb.com/?id.235199"
     ],
     "CVE-2023-38487": [
       "https://github.com/hedgedoc/hedgedoc/security/advisories/GHSA-7494-7hcf-vxpg"
