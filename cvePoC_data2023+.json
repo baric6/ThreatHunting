@@ -20189,6 +20189,9 @@
     "CVE-2024-1142": [
       "https://support.sonatype.com/hc/en-us/articles/27034479038739-CVE-2024-1142-Sonatype-IQ-Server-Path-Traversal-2024-03-06"
     ],
+    "CVE-2024-11422": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
     "CVE-2024-11605": [
       "https://wpscan.com/vulnerability/91c5ee70-2ff5-46cd-a0f5-54987fc2e060/"
     ],
@@ -20288,6 +20291,12 @@
     "CVE-2024-1215": [
       "https://github.com/PrecursorYork/crud-without-refresh-reload-Reflected_XSS-POC/blob/main/README.md"
     ],
+    "CVE-2024-12178": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
+    "CVE-2024-12179": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
     "CVE-2024-12180": [
       "https://github.com/Hebing123/cve/issues/76"
     ],
@@ -20314,6 +20323,30 @@
     ],
     "CVE-2024-1219": [
       "https://wpscan.com/vulnerability/ce4ac9c4-d293-4464-b6a0-82ddf8d4860b/"
+    ],
+    "CVE-2024-12191": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
+    "CVE-2024-12192": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
+    "CVE-2024-12193": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
+    "CVE-2024-12194": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
+    "CVE-2024-12197": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
+    "CVE-2024-12198": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
+    "CVE-2024-12199": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
+    "CVE-2024-12200": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
     ],
     "CVE-2024-12228": [
       "https://github.com/PunyHunter/CVE/issues/2"
@@ -20395,6 +20428,15 @@
     ],
     "CVE-2024-12665": [
       "https://github.com/cydtseng/Vulnerability-Research/blob/main/rebuild/StoredXSS-TaskCommentAttachments.md"
+    ],
+    "CVE-2024-12669": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
+    "CVE-2024-12670": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    ],
+    "CVE-2024-12671": [
+      "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
     ],
     "CVE-2024-1269": [
       "https://github.com/PrecursorYork/Product-Management-System-Using-PHP-and-MySQL-Reflected-XSS-POC/blob/main/README.md"
@@ -20570,17 +20612,80 @@
     "CVE-2024-12983": [
       "https://github.com/Rocky-Bull/myCVE/blob/main/Hospital_Management_System_XSS.md"
     ],
+    "CVE-2024-13004": [
+      "https://github.com/alc9700jmo/CVE/issues/6"
+    ],
+    "CVE-2024-13006": [
+      "https://github.com/Sakurapan/CVE/issues/1"
+    ],
+    "CVE-2024-13008": [
+      "https://github.com/Lanxiy7th/lx_CVE_report-/issues/18"
+    ],
+    "CVE-2024-13024": [
+      "https://github.com/isRainy/VULDB/blob/main/Blood_Bank_Management_System.md"
+    ],
+    "CVE-2024-13025": [
+      "https://github.com/shaturo1337/POCs/blob/main/SQL%20Injection%20in%20College%20Management%20System.md"
+    ],
+    "CVE-2024-13028": [
+      "https://github.com/cydtseng/Vulnerability-Research/blob/main/white-jotter/ObservableDiscrepancy-UserLogin.md"
+    ],
+    "CVE-2024-13029": [
+      "https://github.com/cydtseng/Vulnerability-Research/blob/main/white-jotter/ServerSideRequestForgery-BookCoverURL.md"
+    ],
+    "CVE-2024-13030": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-823G/SetAutoRebootSettings.md"
+    ],
+    "CVE-2024-13031": [
+      "https://github.com/cydtseng/Vulnerability-Research/blob/main/white-jotter/ReflectedXSS-ContentEditor.md"
+    ],
+    "CVE-2024-13032": [
+      "https://github.com/cydtseng/Vulnerability-Research/blob/main/white-jotter/ServerSideRequestForgery-ArticleCoverURL.md"
+    ],
+    "CVE-2024-13038": [
+      "https://github.com/shaturo1337/POCs/blob/main/Blind%20SQL%20Injection%20in%20Simple%20Loan%20Management%20System.md"
+    ],
+    "CVE-2024-13042": [
+      "https://github.com/BxYQ/zg_fileread/blob/main/poc.py"
+    ],
     "CVE-2024-1306": [
       "https://wpscan.com/vulnerability/c7ce2649-b2b0-43f4-994d-07b1023405e9/"
     ],
     "CVE-2024-1307": [
       "https://wpscan.com/vulnerability/bbc6cebd-e9bf-4b08-a474-f9312b3c0947/"
     ],
+    "CVE-2024-13070": [
+      "https://github.com/shaturo1337/POCs/blob/main/RCE%20via%20SQL%20Injection%20in%20Online%20Food%20Ordering%20System.md"
+    ],
+    "CVE-2024-13072": [
+      "https://github.com/lings3346/CVE/blob/main/SQL_Injection_in_Beauty_Parlour_Management_System.md"
+    ],
     "CVE-2024-1309": [
       "https://www.kb.cert.org/vuls/id/417980"
     ],
+    "CVE-2024-13092": [
+      "https://github.com/UnrealdDei/cve/blob/main/sql9.md"
+    ],
     "CVE-2024-1310": [
       "https://wpscan.com/vulnerability/a7735feb-876e-461c-9a56-ea6067faf277/"
+    ],
+    "CVE-2024-13102": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/DDNS.md"
+    ],
+    "CVE-2024-13103": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2AddVrtsrv.md"
+    ],
+    "CVE-2024-13104": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2AdvanceSetup.md"
+    ],
+    "CVE-2024-13105": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2Dhcpd.md"
+    ],
+    "CVE-2024-13107": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2LocalAclEditcfg.md"
+    ],
+    "CVE-2024-13129": [
+      "https://github.com/roxy-wi/roxy-wi/pull/410/commits/32313928eb9ce906887b8a30bf7b9a3d5c0de1be"
     ],
     "CVE-2024-1316": [
       "https://wpscan.com/vulnerability/d80dfe2f-207d-4cdf-8c71-27936c6318e5/"
@@ -32411,8 +32516,26 @@
     "CVE-2024-5606": [
       "https://wpscan.com/vulnerability/e3eee6bc-1f69-4be1-b323-0c9b5fe7535e/"
     ],
+    "CVE-2024-56082": [
+      "https://github.com/andrewnguonly/Lumos/issues/193"
+    ],
     "CVE-2024-56128": [
       "https://kafka.apache.org/documentation/#security_sasl_scram_security"
+    ],
+    "CVE-2024-56137": [
+      "https://github.com/1Panel-dev/MaxKB/security/advisories/GHSA-76w2-2g72-cg85"
+    ],
+    "CVE-2024-56139": [
+      "https://github.com/leonhad/pdftools/security/advisories/GHSA-hgvf-4pf3-fwc9"
+    ],
+    "CVE-2024-56159": [
+      "https://github.com/withastro/astro/security/advisories/GHSA-49w6-73cw-chjr"
+    ],
+    "CVE-2024-56198": [
+      "https://github.com/cabraviva/path-sanitizer/security/advisories/GHSA-94p5-r7cc-3rpr"
+    ],
+    "CVE-2024-56199": [
+      "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-ww33-jppq-qfrp"
     ],
     "CVE-2024-5626": [
       "https://wpscan.com/vulnerability/6b03f450-4982-4f6c-a6f1-f7e85b1deec1/"
@@ -32423,17 +32546,59 @@
     "CVE-2024-5630": [
       "https://wpscan.com/vulnerability/538c875f-4c20-4be0-8098-5bddb7aecff4/"
     ],
+    "CVE-2024-56318": [
+      "https://github.com/project-chip/connectedhomeip/issues/36750"
+    ],
+    "CVE-2024-56331": [
+      "https://github.com/louislam/uptime-kuma/security/advisories/GHSA-2qgm-m29m-cj2h"
+    ],
+    "CVE-2024-56334": [
+      "https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-cvv5-9h9w-qp2m"
+    ],
     "CVE-2024-5635": [
       "https://vuldb.com/?id.267091"
     ],
     "CVE-2024-5636": [
       "https://github.com/L1OudFd8cl09/CVE/blob/main/03_06_2024_b.md"
     ],
+    "CVE-2024-56361": [
+      "https://github.com/tltneon/lgsl/security/advisories/GHSA-xx95-62h6-h7v3"
+    ],
+    "CVE-2024-56363": [
+      "https://github.com/APTRS/APTRS/security/advisories/GHSA-h4w2-hvcg-938j"
+    ],
+    "CVE-2024-56366": [
+      "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-c6fv-7vh8-2rhr"
+    ],
     "CVE-2024-56378": [
       "https://gitlab.freedesktop.org/poppler/poppler/-/issues/1553"
     ],
+    "CVE-2024-56408": [
+      "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-x88g-h956-m5xg"
+    ],
+    "CVE-2024-56409": [
+      "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-j2xg-cjcx-4677"
+    ],
+    "CVE-2024-56430": [
+      "https://github.com/UnionTech-Software/openfhe-PoC"
+    ],
+    "CVE-2024-56431": [
+      "https://github.com/UnionTech-Software/libtheora-CVE-2024-56431-PoC"
+    ],
     "CVE-2024-5644": [
       "https://wpscan.com/vulnerability/afe14c7a-95b2-4d3f-901a-e53ecef70d49/"
+    ],
+    "CVE-2024-56507": [
+      "https://github.com/Kovah/LinkAce/security/advisories/GHSA-cjcg-wj4p-pgc5"
+    ],
+    "CVE-2024-56508": [
+      "https://github.com/Kovah/LinkAce/security/advisories/GHSA-2wvv-4576-8862"
+    ],
+    "CVE-2024-56509": [
+      "https://github.com/dgtlmoon/changedetection.io/security/advisories/GHSA-j5vv-6wjg-cfr8"
+    ],
+    "CVE-2024-56517": [
+      "https://github.com/tltneon/lgsl/security/advisories/GHSA-ggwq-xc72-33r3"
     ],
     "CVE-2024-5656": [
       "https://wpscan.com/vulnerability/adc6ea6d-29d8-4ad0-b0db-2540e8b3f9a9/"
@@ -32449,6 +32614,9 @@
     ],
     "CVE-2024-5676": [
       "https://github.com/sbaresearch/advisories/tree/public/2024/SBA-ADV-20240321-01_Paradox_Cross_Site_Request_Forgery"
+    ],
+    "CVE-2024-56829": [
+      "https://github.com/Zerone0x00/CVE/blob/main/%E9%BB%84%E8%8D%AF%E5%B8%88%E8%8D%AF%E4%B8%9A%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/UploadFile%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md"
     ],
     "CVE-2024-5713": [
       "https://wpscan.com/vulnerability/eb3f24a7-3171-42c3-9016-e29da4f384fa/"
