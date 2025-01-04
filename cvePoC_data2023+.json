@@ -9297,6 +9297,9 @@
     "CVE-2023-32837": [
       "http://packetstormsecurity.com/files/175665/mtk-jpeg-Driver-Out-Of-Bounds-Read-Write.html"
     ],
+    "CVE-2023-32890": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
     "CVE-2023-3291": [
       "https://huntr.dev/bounties/526954e6-8683-4697-bfa2-886c3204a1d5"
     ],
@@ -20063,6 +20066,9 @@
     "CVE-2024-10926": [
       "https://docs.google.com/document/d/1h9LlTV1FVvOSDBWc7qwU_5qcboCKd6H99Oqg3rZdBRQ/edit?usp=sharing"
     ],
+    "CVE-2024-10927": [
+      "https://vuldb.com/?id.283326"
+    ],
     "CVE-2024-10939": [
       "https://wpscan.com/vulnerability/fcf50077-b360-4b63-bece-9806b4bc8bea/"
     ],
@@ -20875,6 +20881,57 @@
     ],
     "CVE-2024-2002": [
       "https://github.com/davea42/libdwarf-code/blob/main/bugxml/data.txt"
+    ],
+    "CVE-2024-20039": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20040": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20041": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20042": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20043": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20044": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20045": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20046": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20047": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20048": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20049": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20050": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20051": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20052": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20053": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20054": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-20055": [
+      "https://corp.mediatek.com/product-security-bulletin/April-2024"
     ],
     "CVE-2024-2014": [
       "https://github.com/mashroompc0527/CVE/blob/main/vul.md"
