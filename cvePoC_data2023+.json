@@ -2323,7 +2323,7 @@
       "https://wpscan.com/vulnerability/57f0a078-fbeb-4b05-8892-e6d99edb82c1"
     ],
     "CVE-2023-1826": [
-      "http://packetstormsecurity.com/files/171790/Online-Computer-And-Laptop-Store-1.0-Shell-Upload.html"
+      "https://vuldb.com/?id.224841"
     ],
     "CVE-2023-1829": [
       "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8c710f75256bb3cf05ac7b1672c82b92c43f3d28"
