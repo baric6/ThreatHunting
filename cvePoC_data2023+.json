@@ -5922,6 +5922,9 @@
     "CVE-2023-2668": [
       "https://github.com/tht1997/CVE_2023/blob/main/Lost%20and%20Found%20Information%20System/CVE-2023-2668.md"
     ],
+    "CVE-2023-26689": [
+      "https://github.com/cybrops-io/CVEs/tree/main/CVE-2023-26689%20-%20Insufficient%20Authorization%20for%20API%20key%20creation%20in%20CS-Cart%20MultiVendor%204.16.1"
+    ],
     "CVE-2023-2669": [
       "https://github.com/tht1997/CVE_2023/blob/main/Lost%20and%20Found%20Information%20System/CVE-2023-2669.md"
     ],
@@ -5987,6 +5990,9 @@
     ],
     "CVE-2023-26777": [
       "http://packetstormsecurity.com/files/171699/Uptime-Kuma-1.19.6-Cross-Site-Scripting.html"
+    ],
+    "CVE-2023-26793": [
+      "https://github.com/stephane/libmodbus/issues/683"
     ],
     "CVE-2023-26800": [
       "https://github.com/winmt/my-vuls/tree/main/RG-EW1200"
@@ -11175,6 +11181,12 @@
     "CVE-2023-37049": [
       "https://github.com/Num-Nine/CVE/issues/1"
     ],
+    "CVE-2023-37057": [
+      "https://github.com/ri5c/Jlink-Router-RCE"
+    ],
+    "CVE-2023-37058": [
+      "https://github.com/ri5c/Jlink-Router-RCE"
+    ],
     "CVE-2023-3706": [
       "https://wpscan.com/vulnerability/daa4d93a-f8b1-4809-a18e-8ab63a05de5a"
     ],
@@ -11234,6 +11246,9 @@
     ],
     "CVE-2023-37153": [
       "https://www.chtsecurity.com/news/13a86b33-7e49-4167-9682-7ff3f51cbcba%20"
+    ],
+    "CVE-2023-37154": [
+      "https://github.com/monitoring-plugins/monitoring-plugins/security/advisories/GHSA-p3gv-vmpx-hhw4"
     ],
     "CVE-2023-37164": [
       "https://www.exploit-db.com/exploits/51529"
@@ -11627,6 +11642,9 @@
     ],
     "CVE-2023-37895": [
       "http://seclists.org/fulldisclosure/2023/Jul/43"
+    ],
+    "CVE-2023-37898": [
+      "https://github.com/laurent22/joplin/security/advisories/GHSA-hjmq-3qh4-g2r8"
     ],
     "CVE-2023-3790": [
       "https://www.vulnerability-lab.com/get_content.php?id=2274"
@@ -13038,6 +13056,9 @@
     "CVE-2023-41013": [
       "https://medium.com/@katikitala.sushmitha078/cve-2023-41013-789841dcad91"
     ],
+    "CVE-2023-41036": [
+      "https://github.com/macvim-dev/macvim/security/advisories/GHSA-9jgj-jfwg-99fv"
+    ],
     "CVE-2023-4104": [
       "https://github.com/mozilla-mobile/mozilla-vpn-client/pull/7110"
     ],
@@ -13493,6 +13514,9 @@
     ],
     "CVE-2023-42284": [
       "https://github.com/andreysanyuk/CVE-2023-42284"
+    ],
+    "CVE-2023-42286": [
+      "https://github.com/Nacl122/CVEReport/blob/main/CVE-2023-42286/CVE-2023-42286.md"
     ],
     "CVE-2023-42295": [
       "https://github.com/OpenImageIO/oiio/issues/3947"
@@ -17124,6 +17148,9 @@
     "CVE-2023-5105": [
       "https://wpscan.com/vulnerability/d40c7108-bad6-4ed3-8539-35c0f57e62cc"
     ],
+    "CVE-2023-51062": [
+      "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51062.md"
+    ],
     "CVE-2023-51063": [
       "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51063.md"
     ],
@@ -17135,6 +17162,9 @@
     ],
     "CVE-2023-51070": [
       "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51070.md"
+    ],
+    "CVE-2023-51071": [
+      "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51071.md"
     ],
     "CVE-2023-51074": [
       "https://github.com/json-path/JsonPath/issues/973"
@@ -17169,11 +17199,23 @@
     "CVE-2023-51098": [
       "https://github.com/GD008/TENDA/blob/main/W9/W9_setDiagnoseInfo/W9_setDiagnoseInfo.md"
     ],
+    "CVE-2023-51100": [
+      "https://github.com/GD008/TENDA/blob/main/W9/W9_getDiagnoseInfo/W9_getDiagnoseInfo.md"
+    ],
+    "CVE-2023-51101": [
+      "https://github.com/GD008/TENDA/blob/main/W9/W9_setUplinkInfo/W9_setUplinkInfo.md"
+    ],
     "CVE-2023-51102": [
       "https://github.com/GD008/TENDA/blob/main/W9/W9_WifiMacFilterSet/W9_WifiMacFilterSet.md"
     ],
     "CVE-2023-51123": [
       "https://github.com/WhereisRain/dir-815/blob/main/README.md"
+    ],
+    "CVE-2023-51141": [
+      "https://gist.github.com/ipxsec/1680d29c49fe368be81b037168175b10"
+    ],
+    "CVE-2023-51142": [
+      "https://gist.github.com/ipxsec/b20383620c9e1d5300f7716e62e8a82f"
     ],
     "CVE-2023-5119": [
       "https://wpscan.com/vulnerability/229207bb-8f8d-4579-a8e2-54516474ccb4"
@@ -17205,6 +17247,9 @@
     "CVE-2023-51385": [
       "https://vin01.github.io/piptagole/ssh/security/openssh/libssh/remote-code-execution/2023/12/20/openssh-proxycommand-libssh-rce.html"
     ],
+    "CVE-2023-51387": [
+      "https://github.com/dromara/hertzbeat/security/advisories/GHSA-4576-m8px-w9qj"
+    ],
     "CVE-2023-5139": [
       "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-rhrc-pcxp-4453"
     ],
@@ -17228,6 +17273,12 @@
     ],
     "CVE-2023-51443": [
       "http://packetstormsecurity.com/files/176393/FreeSWITCH-Denial-Of-Service.html"
+    ],
+    "CVE-2023-51445": [
+      "https://github.com/geoserver/geoserver/security/advisories/GHSA-fh7p-5f6g-vj2w"
+    ],
+    "CVE-2023-51448": [
+      "https://github.com/Cacti/cacti/security/advisories/GHSA-w85f-7c4w-7594"
     ],
     "CVE-2023-5145": [
       "https://github.com/llixixi/cve/blob/main/D-LINK-DAR-7000_upload_%20licence.md"
@@ -17258,6 +17309,9 @@
     ],
     "CVE-2023-5154": [
       "https://github.com/llixixi/cve/blob/main/D-LINK-DAR-8000-10_upload_%20changelogo.md"
+    ],
+    "CVE-2023-51650": [
+      "https://github.com/dromara/hertzbeat/security/advisories/GHSA-rrc5-qpxr-5jm2"
     ],
     "CVE-2023-51661": [
       "https://github.com/wasmerio/wasmer/security/advisories/GHSA-4mq4-7rw3-vm5j"
@@ -17330,6 +17384,9 @@
     ],
     "CVE-2023-5181": [
       "https://wpscan.com/vulnerability/564ad2b0-6ba6-4415-98d7-8d41bc1c3d44"
+    ],
+    "CVE-2023-51810": [
+      "https://github.com/Pastea/CVE-2023-51810"
     ],
     "CVE-2023-51820": [
       "https://infosec.rm-it.de/2024/02/01/blurams-lumi-security-camera-analysis/"
@@ -17405,6 +17462,9 @@
     ],
     "CVE-2023-52064": [
       "https://github.com/wuzhicms/wuzhicms/issues/208"
+    ],
+    "CVE-2023-52066": [
+      "https://github.com/karlseguin/http.zig/issues/25"
     ],
     "CVE-2023-52072": [
       "https://github.com/zouyang0714/cms/blob/main/2.md"
