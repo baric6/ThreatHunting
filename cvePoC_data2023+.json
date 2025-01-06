@@ -14347,7 +14347,7 @@
       "https://github.com/modzero/MZ-23-01-Poly-VoIP-Devices"
     ],
     "CVE-2023-4468": [
-      "https://github.com/modzero/MZ-23-01-Poly-VoIP-Devices"
+      "https://vuldb.com/?id.249261"
     ],
     "CVE-2023-44694": [
       "https://github.com/llixixi/cve/blob/main/D-LINK-DAR-7000_rce_%20mailrecvview.md"
@@ -24811,6 +24811,9 @@
     ],
     "CVE-2024-2821": [
       "https://vuldb.com/?id.257708"
+    ],
+    "CVE-2024-2822": [
+      "https://vuldb.com/?id.257709"
     ],
     "CVE-2024-28224": [
       "https://research.nccgroup.com/2024/04/08/technical-advisory-ollama-dns-rebinding-attack-cve-2024-28224/"
