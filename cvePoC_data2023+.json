@@ -20240,6 +20240,9 @@
     "CVE-2024-11319": [
       "https://iltosec.com/blog/post/django-cms-413-stored-xss-vulnerability-exploiting-the-page-title-field/"
     ],
+    "CVE-2024-11356": [
+      "https://wpscan.com/vulnerability/d70df54e-e99e-4539-9fd9-002c0642137e/"
+    ],
     "CVE-2024-11357": [
       "https://wpscan.com/vulnerability/7e8c6816-9b7a-43e8-9508-789c8051dd9b/"
     ],
@@ -20290,6 +20293,9 @@
     ],
     "CVE-2024-11846": [
       "https://wpscan.com/vulnerability/eedaf2d8-171c-4785-99cc-ab33113308d1/"
+    ],
+    "CVE-2024-11849": [
+      "https://wpscan.com/vulnerability/85b25a5b-c30b-4a2a-96c1-f05b4eba8a9b/"
     ],
     "CVE-2024-1185": [
       "https://fitoxs.com/vuldb/11-exploit-perl.txt"
@@ -20438,8 +20444,14 @@
     "CVE-2024-12254": [
       "https://github.com/python/cpython/pull/127656"
     ],
+    "CVE-2024-12302": [
+      "https://wpscan.com/vulnerability/ed860dac-8c4a-482f-8826-31f1a894b6ce/"
+    ],
     "CVE-2024-1231": [
       "https://wpscan.com/vulnerability/7d3968d9-61ed-4c00-8764-0360cf03255e/"
+    ],
+    "CVE-2024-12311": [
+      "https://wpscan.com/vulnerability/5e00ba37-da7f-4703-a0b9-65237696fbdd/"
     ],
     "CVE-2024-1232": [
       "https://wpscan.com/vulnerability/2a29b509-4cd5-43c8-84f4-f86251dd28f8/"
@@ -25937,8 +25949,14 @@
     "CVE-2024-30613": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AC15/V15.03.05.18/setSmartPowerManagement.md"
     ],
+    "CVE-2024-30616": [
+      "https://github.com/bahadoumi/Vulnerability-Research/tree/main/CVE-2024-30616"
+    ],
     "CVE-2024-30617": [
       "https://github.com/bahadoumi/Vulnerability-Research/tree/main/CVE-2024-30617"
+    ],
+    "CVE-2024-30618": [
+      "https://github.com/bahadoumi/Vulnerability-Research/tree/main/CVE-2024-30618"
     ],
     "CVE-2024-30620": [
       "https://github.com/re1wn/IoT_vuln/blob/main/Tenda_AX1803_v1.0.0.1_contains_a_stack_overflow_via_the_serviceName_parameter_in_the_function_fromAdvSetMacMtuWan.md"
@@ -26077,6 +26095,9 @@
     ],
     "CVE-2024-30891": [
       "https://github.com/Lantern-r/IoT-vuln/blob/main/Tenda/AC18/formexeCommand.md"
+    ],
+    "CVE-2024-30896": [
+      "https://github.com/influxdata/influxdb/issues/24797"
     ],
     "CVE-2024-30915": [
       "https://github.com/OpenDDS/OpenDDS/issues/4527"
@@ -29860,6 +29881,9 @@
     ],
     "CVE-2024-41358": [
       "https://github.com/phpipam/phpipam/issues/4148"
+    ],
+    "CVE-2024-41361": [
+      "https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/2398"
     ],
     "CVE-2024-41364": [
       "https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/2400"
