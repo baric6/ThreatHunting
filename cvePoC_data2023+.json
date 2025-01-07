@@ -18684,6 +18684,9 @@
     "CVE-2023-6461": [
       "https://huntr.com/bounties/9a97d163-1738-4a09-b284-a04716e69dd0"
     ],
+    "CVE-2023-6465": [
+      "https://vuldb.com/?id.246615"
+    ],
     "CVE-2023-6473": [
       "https://vuldb.com/?id.246639"
     ],
@@ -18791,6 +18794,9 @@
     ],
     "CVE-2023-6633": [
       "https://wpscan.com/vulnerability/eb983d82-b894-41c5-b51f-94d4bba3ba39/"
+    ],
+    "CVE-2023-6651": [
+      "https://vuldb.com/?id.247344"
     ],
     "CVE-2023-6653": [
       "https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/blob/main/csrf_add_sub.md"
@@ -31751,6 +31757,9 @@
     "CVE-2024-48956": [
       "https://security.serviceware-se.com/CVE-2024-48956/"
     ],
+    "CVE-2024-48987": [
+      "https://www.synacktiv.com/advisories/snipe-it-unauthenticated-remote-command-execution-when-appkey-known"
+    ],
     "CVE-2024-4899": [
       "https://wpscan.com/vulnerability/15346ae9-9a29-4968-a6a9-81d1116ac448/"
     ],
@@ -32531,6 +32540,9 @@
     "CVE-2024-54774": [
       "https://github.com/taynes-llllzt/taynes/issues/4"
     ],
+    "CVE-2024-54879": [
+      "https://blog.csdn.net/weixin_46686336/article/details/144797242"
+    ],
     "CVE-2024-5488": [
       "https://wpscan.com/vulnerability/28507376-ded0-4e1a-b2fc-2182895aa14c/"
     ],
@@ -32584,6 +32596,12 @@
     ],
     "CVE-2024-55548": [
       "https://cyberdanube.com/security-research/st-polten-uas-multiple-vulnerabilities-in-oring-iap/"
+    ],
+    "CVE-2024-55555": [
+      "https://www.synacktiv.com/advisories/invoiceninja-unauthenticated-remote-command-execution-when-appkey-known"
+    ],
+    "CVE-2024-55556": [
+      "https://www.synacktiv.com/advisories/crater-invoice-unauthenticated-remote-command-execution-when-appkey-known"
     ],
     "CVE-2024-55557": [
       "https://www.partywave.site/show/research/CVE-2024-55557%20-%20Weasis%204.5.1"
@@ -34576,6 +34594,9 @@
     ],
     "CVE-2024-7892": [
       "https://wpscan.com/vulnerability/c07a4992-c9a1-46a4-9a52-9e38b6d15440/"
+    ],
+    "CVE-2024-7896": [
+      "https://vuldb.com/?submit.387131"
     ],
     "CVE-2024-7897": [
       "https://vuldb.com/?submit.387406"
