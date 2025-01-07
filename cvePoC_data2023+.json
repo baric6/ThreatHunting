@@ -19844,6 +19844,9 @@
     "CVE-2024-1010": [
       "https://github.com/jomskiller/Employee-Management-System---Stored-XSS/"
     ],
+    "CVE-2024-10102": [
+      "https://wpscan.com/vulnerability/3b34d1ec-5370-40a8-964e-663f4f9f42f8/"
+    ],
     "CVE-2024-10103": [
       "https://wpscan.com/vulnerability/89660883-5f34-426a-ad06-741c0c213ecc/"
     ],
@@ -20014,6 +20017,9 @@
     ],
     "CVE-2024-10557": [
       "https://github.com/bevennyamande/bloodbank_profile_update_csrf"
+    ],
+    "CVE-2024-10562": [
+      "https://wpscan.com/vulnerability/317f6cb7-774f-4381-a855-858c051aa1d5/"
     ],
     "CVE-2024-10568": [
       "https://wpscan.com/vulnerability/1676aef0-be5d-4335-933d-dc0d54416fd4/"
@@ -20260,6 +20266,9 @@
     ],
     "CVE-2024-11605": [
       "https://wpscan.com/vulnerability/91c5ee70-2ff5-46cd-a0f5-54987fc2e060/"
+    ],
+    "CVE-2024-11606": [
+      "https://wpscan.com/vulnerability/76ae8f5b-2d0e-4bf5-9ae3-f76cd52dea8d/"
     ],
     "CVE-2024-11607": [
       "https://wpscan.com/vulnerability/132b5193-156b-40b8-b5c7-08646e1f6866/"
@@ -35150,8 +35159,14 @@
     "CVE-2024-8784": [
       "https://github.com/bytium/vulnerability-research/blob/main/Advisory%20for%20Time-Based%20Blind%20SQL%20Injection%20in%20QDocs%20Smart%20School.md"
     ],
+    "CVE-2024-8855": [
+      "https://wpscan.com/vulnerability/04084f2a-45b8-4249-a472-f156fad0c90a/"
+    ],
     "CVE-2024-8856": [
       "https://hacked.be/posts/CVE-2024-8856"
+    ],
+    "CVE-2024-8857": [
+      "https://wpscan.com/vulnerability/08ca6daa-09f4-4604-ac9e-15a1b33d599d/"
     ],
     "CVE-2024-8866": [
       "https://github.com/Hebing123/cve/issues/68"
@@ -35533,6 +35548,9 @@
     ],
     "CVE-2024-9602": [
       "https://issues.chromium.org/issues/368241697"
+    ],
+    "CVE-2024-9638": [
+      "https://wpscan.com/vulnerability/119d5249-48e4-429e-8a1d-ad112e0c966d/"
     ],
     "CVE-2024-9641": [
       "https://wpscan.com/vulnerability/81aa922a-3b51-4cfe-9098-53234827610c/"
