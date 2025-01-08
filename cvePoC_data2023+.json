@@ -949,7 +949,7 @@
       "https://vuldb.com/?id.220018"
     ],
     "CVE-2023-0641": [
-      "https://github.com/ctflearner/Vulnerability/blob/main/Employee%20Leaves%20Management%20System/ELMS.md"
+      "https://vuldb.com/?id.220021"
     ],
     "CVE-2023-0642": [
       "https://huntr.dev/bounties/3bbdafe6-e152-47bb-88a7-fd031725323d"
@@ -32033,6 +32033,9 @@
     "CVE-2024-50593": [
       "https://r.sec-consult.com/hasomed"
     ],
+    "CVE-2024-50603": [
+      "https://www.securing.pl/en/cve-2024-50603-aviatrix-network-controller-command-injection-vulnerability/"
+    ],
     "CVE-2024-50611": [
       "https://github.com/CycloneDX/cdxgen/issues/1328"
     ],
@@ -32214,7 +32217,7 @@
       "https://github.com/BurakSevben/CVEs/blob/main/Directory%20Management%20System/Directory%20Management%20System%20-%20Cross-Site-Scripting%20-%202.md"
     ],
     "CVE-2024-51378": [
-      "https://refr4g.github.io/posts/cyberpanel-command-injection-vulnerability/"
+      "https://www.bleepingcomputer.com/news/security/massive-psaux-ransomware-attack-targets-22-000-cyberpanel-instances/"
     ],
     "CVE-2024-5138": [
       "https://bugs.launchpad.net/snapd/+bug/2065077"
@@ -32232,7 +32235,7 @@
       "https://wpscan.com/vulnerability/f1e90a8a-d959-4316-a5d4-e183854944bd/"
     ],
     "CVE-2024-51567": [
-      "https://dreyand.rs/code/review/2024/10/27/what-are-my-options-cyberpanel-v236-pre-auth-rce"
+      "https://www.bleepingcomputer.com/news/security/massive-psaux-ransomware-attack-targets-22-000-cyberpanel-instances/"
     ],
     "CVE-2024-51568": [
       "https://dreyand.rs/code/review/2024/10/27/what-are-my-options-cyberpanel-v236-pre-auth-rce"
@@ -32371,6 +32374,9 @@
     ],
     "CVE-2024-5352": [
       "https://github.com/anji-plus/report/files/15363269/aj-report.pdf"
+    ],
+    "CVE-2024-53522": [
+      "https://www.safecloud.co.th/researches/blog/CVE-2024-53522"
     ],
     "CVE-2024-5353": [
       "https://github.com/anji-plus/report/files/15363269/aj-report.pdf"
@@ -32575,6 +32581,9 @@
     ],
     "CVE-2024-5519": [
       "https://github.com/L1OudFd8cl09/CVE/issues/2"
+    ],
+    "CVE-2024-55218": [
+      "https://resources.s4e.io/blog/icewarp-server-10-2-1-reflected-xss-vulnerability-cve-2024-55218/"
     ],
     "CVE-2024-5522": [
       "https://wpscan.com/vulnerability/bc76ef95-a2a9-4185-8ed9-1059097a506a/"
