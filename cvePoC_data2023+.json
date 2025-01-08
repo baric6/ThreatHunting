@@ -3657,6 +3657,9 @@
     "CVE-2023-22653": [
       "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1714"
     ],
+    "CVE-2023-22654": [
+      "https://www.monitoring.especmic.co.jp/post/VulnerabilityInRT-12N_RS-12N_RT-22BNandTEU-12N"
+    ],
     "CVE-2023-22659": [
       "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1699"
     ],
@@ -4073,6 +4076,9 @@
     ],
     "CVE-2023-23529": [
       "http://seclists.org/fulldisclosure/2023/Mar/20"
+    ],
+    "CVE-2023-23545": [
+      "https://www.monitoring.especmic.co.jp/post/VulnerabilityInRT-12N_RS-12N_RT-22BNandTEU-12N"
     ],
     "CVE-2023-23546": [
       "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1705"
@@ -6452,6 +6458,12 @@
     ],
     "CVE-2023-27380": [
       "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1780"
+    ],
+    "CVE-2023-27387": [
+      "https://www.monitoring.especmic.co.jp/post/VulnerabilityInRT-12N_RS-12N_RT-22BNandTEU-12N"
+    ],
+    "CVE-2023-27388": [
+      "https://www.monitoring.especmic.co.jp/post/VulnerabilityInRT-12N_RS-12N_RT-22BNandTEU-12N"
     ],
     "CVE-2023-27390": [
       "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1744"
@@ -19883,6 +19895,9 @@
     "CVE-2024-1015": [
       "https://www.hackplayers.com/2024/01/cve-2024-1014-and-cve-2024-1015.html"
     ],
+    "CVE-2024-10151": [
+      "https://wpscan.com/vulnerability/487facf7-8880-48b3-b1b2-0d09823d3c46/"
+    ],
     "CVE-2024-1016": [
       "https://vuldb.com/?id.252286"
     ],
@@ -20503,6 +20518,9 @@
     ],
     "CVE-2024-12581": [
       "https://wpscan.com/vulnerability/df688dcc-9617-4f58-a310-891bfaea3695/"
+    ],
+    "CVE-2024-12585": [
+      "https://wpscan.com/vulnerability/afecf367-d298-4f4c-8f47-4e19b3937d3e/"
     ],
     "CVE-2024-12595": [
       "https://wpscan.com/vulnerability/7a506438-3106-477f-816d-b9b116ec8555/"
@@ -27085,6 +27103,9 @@
     ],
     "CVE-2024-33438": [
       "https://github.com/julio-cfa/CVE-2024-33438"
+    ],
+    "CVE-2024-33439": [
+      "https://gist.github.com/QuartzDust/848acfddff02c881eb86dd302e859e80"
     ],
     "CVE-2024-33443": [
       "https://github.com/liu21st/onethink/issues/40"
@@ -34482,7 +34503,7 @@
       "https://github.com/Peanut886/Vulnerability/blob/main/webray.com.cn/2024/daily%20expenses%20monitoring%20app%20-%20delete-expense.php%20sql%20injection%20vulnerability.md"
     ],
     "CVE-2024-7812": [
-      "https://github.com/lscjl/lsi.webray.com.cn/blob/main/CVE-project/rental%20management%20system%20Stored%20Cross-Site%20Scripting(XSS).md"
+      "https://vuldb.com/?submit.390953"
     ],
     "CVE-2024-7813": [
       "https://github.com/CYB84/CVE_Writeup/blob/main/Directory%20Listing.md"
