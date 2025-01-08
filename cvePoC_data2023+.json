@@ -20216,6 +20216,9 @@
     "CVE-2024-1106": [
       "https://wpscan.com/vulnerability/0672f8af-33e2-459c-ac8a-7351247a8a26/"
     ],
+    "CVE-2024-11073": [
+      "https://vuldb.com/?submit.440799"
+    ],
     "CVE-2024-11075": [
       "https://www.first.org/cvss/calculator/3.1"
     ],
@@ -32611,6 +32614,9 @@
     ],
     "CVE-2024-5529": [
       "https://wpscan.com/vulnerability/66d0b4b7-cd4b-4ec4-95c0-d50773cb0b8f/"
+    ],
+    "CVE-2024-55517": [
+      "https://hackmd.io/@AowPhwc/SyvEiDsIye"
     ],
     "CVE-2024-55544": [
       "https://cyberdanube.com/security-research/st-polten-uas-multiple-vulnerabilities-in-oring-iap/"
