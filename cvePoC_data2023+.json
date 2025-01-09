@@ -13059,6 +13059,12 @@
     "CVE-2023-40970": [
       "https://github.com/slims/slims9_bulian/issues/205"
     ],
+    "CVE-2023-40997": [
+      "https://www.trendmicro.com/en_us/research/23/l/the-current-state-of-open-ran-security.html"
+    ],
+    "CVE-2023-40998": [
+      "https://www.trendmicro.com/en_us/research/23/l/the-current-state-of-open-ran-security.html"
+    ],
     "CVE-2023-41000": [
       "https://github.com/gpac/gpac/issues/2550"
     ],
@@ -13285,7 +13291,7 @@
       "https://medium.com/@guravtushar231/reflected-xss-in-admin-panel-7a459dcb9476"
     ],
     "CVE-2023-41627": [
-      "https://jira.o-ran-sc.org/browse/RIC-1001"
+      "https://www.trendmicro.com/en_us/research/23/l/the-current-state-of-open-ran-security.html"
     ],
     "CVE-2023-41628": [
       "https://jira.o-ran-sc.org/browse/RIC-1002"
@@ -20129,6 +20135,9 @@
     "CVE-2024-10809": [
       "https://github.com/Xueweian/cve/blob/main/sql18.md"
     ],
+    "CVE-2024-10815": [
+      "https://wpscan.com/vulnerability/309a445a-6261-4bd1-bac0-a78096d0c12b/"
+    ],
     "CVE-2024-10840": [
       "https://github.com/2537463005/a/blob/main/WEB-Sekolah%E5%90%8E%E5%8F%B0%E5%AD%98%E5%82%A8%E5%9E%8Bxss.md"
     ],
@@ -20552,8 +20561,23 @@
     "CVE-2024-1269": [
       "https://github.com/PrecursorYork/Product-Management-System-Using-PHP-and-MySQL-Reflected-XSS-POC/blob/main/README.md"
     ],
+    "CVE-2024-12714": [
+      "https://wpscan.com/vulnerability/f7fb2aef-16ce-4ae7-927c-2ffbc45fbda5/"
+    ],
+    "CVE-2024-12715": [
+      "https://wpscan.com/vulnerability/e1456295-75ba-4dc2-9b1a-dc16a2000db2/"
+    ],
+    "CVE-2024-12717": [
+      "https://wpscan.com/vulnerability/5564926a-6b1d-43f4-8147-128472f6b93a/"
+    ],
     "CVE-2024-1273": [
       "https://wpscan.com/vulnerability/9784d7c8-e3aa-42af-ace8-5b2b37ebc9cb/"
+    ],
+    "CVE-2024-12731": [
+      "https://wpscan.com/vulnerability/e1c3754f-60e0-4a89-b4fc-89056dba3616/"
+    ],
+    "CVE-2024-12736": [
+      "https://wpscan.com/vulnerability/d3c6a4c1-8358-4f8b-b58d-3f712052668f/"
     ],
     "CVE-2024-1274": [
       "https://wpscan.com/vulnerability/91dba45b-9930-4bfb-a7bf-903c46864e9f/"
@@ -20803,6 +20827,15 @@
     ],
     "CVE-2024-1319": [
       "https://wpscan.com/vulnerability/5904dc7e-1058-4c40-bca3-66ba57b1414b/"
+    ],
+    "CVE-2024-13203": [
+      "https://www.websecurityinsights.my.id/2024/12/ecommerce-php-by-kurniaramadhan-sql.html?m=1"
+    ],
+    "CVE-2024-13204": [
+      "https://www.websecurityinsights.my.id/2024/12/ecommerce-php-by-kurniaramadhan-sql.html?m=1"
+    ],
+    "CVE-2024-13205": [
+      "https://www.websecurityinsights.my.id/2024/12/ecommerce-php-by-kurniaramadhan-sql.html?m=1"
     ],
     "CVE-2024-1330": [
       "https://wpscan.com/vulnerability/1988815b-7a53-4657-9b1c-1f83c9f9ccfd/"
@@ -32573,8 +32606,14 @@
     "CVE-2024-5475": [
       "https://wpscan.com/vulnerability/cee66543-b5d6-4205-8f9b-0febd7fee445/"
     ],
+    "CVE-2024-54764": [
+      "https://github.com/Shuanunio/CVE_Requests/blob/main/ipTIME/A2004/ipTIME_A2004_unauthorized_access_vulnerability_second.md"
+    ],
     "CVE-2024-54774": [
       "https://github.com/taynes-llllzt/taynes/issues/4"
+    ],
+    "CVE-2024-54819": [
+      "https://github.com/partywavesec/CVE-2024-55557"
     ],
     "CVE-2024-54879": [
       "https://blog.csdn.net/weixin_46686336/article/details/144797242"
