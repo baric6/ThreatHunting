@@ -19652,6 +19652,9 @@
     "CVE-2024-0773": [
       "https://drive.google.com/drive/folders/1YjJFvxis3gLWX95990Y-nJMbWCQHB02U?usp=sharing"
     ],
+    "CVE-2024-0774": [
+      "https://youtu.be/f_4eHkISrZg"
+    ],
     "CVE-2024-0776": [
       "https://vuldb.com/?id.251678"
     ],
@@ -32621,6 +32624,9 @@
     "CVE-2024-5488": [
       "https://wpscan.com/vulnerability/28507376-ded0-4e1a-b2fc-2182895aa14c/"
     ],
+    "CVE-2024-54880": [
+      "https://blog.csdn.net/weixin_46686336/article/details/144797063"
+    ],
     "CVE-2024-54907": [
       "https://github.com/MnrikSrins/totolink_A3002R_RCE"
     ],
@@ -35651,6 +35657,9 @@
     "CVE-2024-9602": [
       "https://issues.chromium.org/issues/368241697"
     ],
+    "CVE-2024-9603": [
+      "https://issues.chromium.org/issues/367818758"
+    ],
     "CVE-2024-9638": [
       "https://wpscan.com/vulnerability/119d5249-48e4-429e-8a1d-ad112e0c966d/"
     ],
@@ -35833,6 +35842,9 @@
     ],
     "CVE-2024-9952": [
       "https://vuldb.com/?submit.423229"
+    ],
+    "CVE-2024-9954": [
+      "https://issues.chromium.org/issues/367755363"
     ],
     "CVE-2024-9958": [
       "https://issues.chromium.org/issues/40076120"
