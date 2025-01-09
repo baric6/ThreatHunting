@@ -32339,6 +32339,9 @@
     "CVE-2024-52867": [
       "https://guix.gnu.org/en/blog/2024/build-user-takeover-vulnerability/"
     ],
+    "CVE-2024-52869": [
+      "https://chrismanson.com/CVE/cve-2024-52869.html"
+    ],
     "CVE-2024-5287": [
       "https://wpscan.com/vulnerability/b4fd535c-a273-419d-9e2e-be1cbd822793/"
     ],
@@ -32482,6 +32485,9 @@
     ],
     "CVE-2024-5397": [
       "https://github.com/Lanxiy7th/lx_CVE_report-/issues/10"
+    ],
+    "CVE-2024-53995": [
+      "https://securitylab.github.com/advisories/GHSL-2024-283_GHSL-2024-291_sickchill_sickchill/"
     ],
     "CVE-2024-54001": [
       "https://github.com/kanboard/kanboard/security/advisories/GHSA-4vvp-jf72-chrj"
