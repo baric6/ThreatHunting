@@ -11851,7 +11851,7 @@
       "https://github.com/esnet/iperf/issues/1542"
     ],
     "CVE-2023-38408": [
-      "https://news.ycombinator.com/item?id=36790196"
+      "https://www.vicarius.io/vsociety/posts/exploring-opensshs-agent-forwarding-rce-cve-2023-38408"
     ],
     "CVE-2023-38409": [
       "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.2.12"
@@ -32635,6 +32635,9 @@
     ],
     "CVE-2024-54880": [
       "https://blog.csdn.net/weixin_46686336/article/details/144797063"
+    ],
+    "CVE-2024-54887": [
+      "https://github.com/JBince/vulnerability-research/tree/main/CVE-2024-54887"
     ],
     "CVE-2024-54907": [
       "https://github.com/MnrikSrins/totolink_A3002R_RCE"
