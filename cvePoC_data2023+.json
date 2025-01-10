@@ -19853,6 +19853,15 @@
     "CVE-2024-10010": [
       "https://wpscan.com/vulnerability/8a258d33-a354-4cbb-bfcb-31b7f1b1a036/"
     ],
+    "CVE-2024-10021": [
+      "https://gist.github.com/higordiego/439f2af836c2c7d6075ba9de2e1169da"
+    ],
+    "CVE-2024-10022": [
+      "https://gist.github.com/higordiego/2bd0a94e480906a60ce83b8a4ec26957"
+    ],
+    "CVE-2024-10023": [
+      "https://gist.github.com/higordiego/01a35a20a4e20e937d384b677c000921"
+    ],
     "CVE-2024-10024": [
       "https://gist.github.com/higordiego/b0083f7f12dee245c2fbe7102e31d9a4"
     ],
@@ -19889,17 +19898,32 @@
     "CVE-2024-10111": [
       "https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/"
     ],
+    "CVE-2024-10123": [
+      "https://github.com/JohenanLi/router_vuls/blob/main/ac8v4/compare_parentcontrol_time_vul.md"
+    ],
     "CVE-2024-10130": [
       "https://github.com/JohenanLi/router_vuls/blob/main/ac8v4/FUN_004a8838.md"
     ],
+    "CVE-2024-10136": [
+      "https://gist.github.com/higordiego/f6411aecc606b015a37382b2be828831"
+    ],
     "CVE-2024-10137": [
       "https://gist.github.com/higordiego/edd15afd508c51c95e5ce29544165320"
+    ],
+    "CVE-2024-10138": [
+      "https://gist.github.com/higordiego/26694ace59cbc1e1f8366bef96953569"
+    ],
+    "CVE-2024-10139": [
+      "https://gist.github.com/higordiego/155be99b5314d97b276a7b30b9e6dec0"
     ],
     "CVE-2024-1014": [
       "https://www.hackplayers.com/2024/01/cve-2024-1014-and-cve-2024-1015.html"
     ],
     "CVE-2024-10140": [
       "https://vuldb.com/?id.280928"
+    ],
+    "CVE-2024-10141": [
+      "https://github.com/jsbroks/coco-annotator/issues/626#issue-2582440109"
     ],
     "CVE-2024-10146": [
       "https://wpscan.com/vulnerability/9ee74a0f-83ff-4c15-a114-f8f6baab8bf5/"
@@ -19913,8 +19937,17 @@
     "CVE-2024-1016": [
       "https://vuldb.com/?id.252286"
     ],
+    "CVE-2024-10165": [
+      "https://github.com/ppp-src/CVE/issues/14"
+    ],
     "CVE-2024-10166": [
       "https://github.com/ppp-src/CVE/issues/15"
+    ],
+    "CVE-2024-10167": [
+      "https://github.com/ppp-src/CVE/issues/16"
+    ],
+    "CVE-2024-10169": [
+      "https://github.com/RainFo666/cve/issues/1"
     ],
     "CVE-2024-1017": [
       "https://www.youtube.com/watch?v=wwHuXfYS8yQ"
@@ -19922,14 +19955,23 @@
     "CVE-2024-10171": [
       "https://github.com/cdl00/cve/blob/main/sql8-message-book.md"
     ],
+    "CVE-2024-10173": [
+      "https://github.com/didi/DDMQ/issues/37#issue-2577905007"
+    ],
     "CVE-2024-1019": [
       "https://owasp.org/www-project-modsecurity/tab_cves#cve-2024-1019-2024-01-30"
+    ],
+    "CVE-2024-10196": [
+      "https://gist.github.com/higordiego/be616d2853a9f1820d8558fc00e97e24"
     ],
     "CVE-2024-10197": [
       "https://gist.github.com/higordiego/bc051be4a8c6b6641578cad533742aab"
     ],
     "CVE-2024-10198": [
       "https://gist.github.com/higordiego/93343006341d3799de0cb8912cc328ec"
+    ],
+    "CVE-2024-10199": [
+      "https://gist.github.com/higordiego/0dae6dd4a36acd12bcc408caf1c787d9"
     ],
     "CVE-2024-1020": [
       "https://www.yuque.com/mailemonyeyongjuan/tha8tr/gdd3hiwz8uo6ylab"
@@ -19961,23 +20003,47 @@
     "CVE-2024-10327": [
       "https://help.okta.com/en-us/content/topics/releasenotes/okta-verify-release-notes.htm#panel2"
     ],
+    "CVE-2024-10348": [
+      "https://github.com/will121351/wenqin.webray.com.cn/blob/main/CVE-project/house-rental-management-system.md"
+    ],
     "CVE-2024-10349": [
       "https://github.com/will121351/wenqin.webray.com.cn/blob/main/CVE-project/house-rentalmanagement-system1.md"
     ],
     "CVE-2024-1035": [
       "https://vuldb.com/?id.252310"
     ],
+    "CVE-2024-10350": [
+      "https://github.com/RTio7/cve/issues/1"
+    ],
+    "CVE-2024-10368": [
+      "https://github.com/ppp-src/CVE/issues/17"
+    ],
     "CVE-2024-10369": [
       "https://github.com/ppp-src/CVE/issues/18"
     ],
+    "CVE-2024-10370": [
+      "https://github.com/ppp-src/CVE/issues/19"
+    ],
+    "CVE-2024-10408": [
+      "https://gist.github.com/higordiego/46090516ba1b13fe3d2607ab4c0114f1"
+    ],
+    "CVE-2024-10409": [
+      "https://gist.github.com/higordiego/5f927c5e0502b4ec31b3f7ef12556942"
+    ],
     "CVE-2024-10415": [
       "https://gist.github.com/higordiego/2aba05ef2277d85ea4148dc42189eae0"
+    ],
+    "CVE-2024-10416": [
+      "https://gist.github.com/higordiego/18cf04067697c8ceb2cba68980139dcc"
     ],
     "CVE-2024-10417": [
       "https://gist.github.com/higordiego/bf0cf963ec56cfe0dcaba2956352bafd"
     ],
     "CVE-2024-10418": [
       "https://gist.github.com/higordiego/25a103a1fe84c4db4530e68d2f998d11"
+    ],
+    "CVE-2024-10419": [
+      "https://gist.github.com/higordiego/62ad5208270c67834d02818d6ba44126"
     ],
     "CVE-2024-10426": [
       "https://github.com/ppp-src/CVE/issues/21"
@@ -19987,6 +20053,9 @@
     ],
     "CVE-2024-10430": [
       "https://github.com/ppp-src/CVE/issues/23"
+    ],
+    "CVE-2024-10431": [
+      "https://github.com/ppp-src/CVE/issues/24"
     ],
     "CVE-2024-10434": [
       "https://github.com/physicszq/Routers/blob/main/Tenda/README.md"
@@ -19999,6 +20068,9 @@
     ],
     "CVE-2024-10449": [
       "https://github.com/ppp-src/CVE/issues/25"
+    ],
+    "CVE-2024-10450": [
+      "https://github.com/will121351/wenqin.webray.com.cn/blob/main/CVE-project/Advocate-office-management-system.md"
     ],
     "CVE-2024-10471": [
       "https://wpscan.com/vulnerability/85d590c9-c96d-40c9-aa59-48302ba3d63c/"
@@ -20020,6 +20092,9 @@
     ],
     "CVE-2024-10499": [
       "https://wpscan.com/vulnerability/8606a93a-f61d-40df-a67e-0ac75eeadee8/"
+    ],
+    "CVE-2024-10506": [
+      "https://github.com/xxx-www/cve/blob/main/sql8.md"
     ],
     "CVE-2024-10507": [
       "https://github.com/ppp-src/CVE/issues/26"
@@ -20048,8 +20123,14 @@
     "CVE-2024-10555": [
       "https://wpscan.com/vulnerability/fcc97635-e939-4cb4-9851-6f6ac4f6ad47/"
     ],
+    "CVE-2024-10556": [
+      "https://github.com/ppp-src/CVE/issues/28"
+    ],
     "CVE-2024-10557": [
       "https://github.com/bevennyamande/bloodbank_profile_update_csrf"
+    ],
+    "CVE-2024-10561": [
+      "https://github.com/ppp-src/CVE/issues/29"
     ],
     "CVE-2024-10562": [
       "https://wpscan.com/vulnerability/317f6cb7-774f-4381-a855-858c051aa1d5/"
@@ -20066,17 +20147,35 @@
     "CVE-2024-10605": [
       "https://github.com/bevennyamande/receiver_request_sample_csrf"
     ],
+    "CVE-2024-10607": [
+      "https://github.com/yanhuoshanjin/cve/issues/1"
+    ],
+    "CVE-2024-10608": [
+      "https://github.com/AXUyaku/cve/issues/1"
+    ],
+    "CVE-2024-10609": [
+      "https://github.com/Lanxiy7th/lx_CVE_report-/issues/17"
+    ],
     "CVE-2024-1061": [
       "https://www.tenable.com/security/research/tra-2024-02"
     ],
     "CVE-2024-10637": [
       "https://wpscan.com/vulnerability/df688dcc-9617-4f58-a310-891bfaea3695/"
     ],
+    "CVE-2024-10654": [
+      "https://github.com/c0nyy/IoT_vuln/blob/main/TOTOLINK%20LR350%20Vuln.md"
+    ],
     "CVE-2024-10678": [
       "https://wpscan.com/vulnerability/9342c6a1-4f9a-45f3-911d-0dfee4657243/"
     ],
     "CVE-2024-1068": [
       "https://wpscan.com/vulnerability/25e3c1a1-3c45-41df-ae50-0e20d86c5484/"
+    ],
+    "CVE-2024-10699": [
+      "https://github.com/lan041221/cve/blob/main/sql9.md"
+    ],
+    "CVE-2024-10700": [
+      "https://github.com/aa1928992772/CVE/blob/main/sqlInjection.md"
     ],
     "CVE-2024-10702": [
       "https://github.com/imTedCao/cve/issues/1"
@@ -20096,8 +20195,35 @@
     "CVE-2024-10710": [
       "https://wpscan.com/vulnerability/165ab698-c8b5-4412-a621-c5365d621fc5/"
     ],
+    "CVE-2024-10733": [
+      "https://github.com/415Curry/cve/issues/1"
+    ],
     "CVE-2024-10736": [
       "https://github.com/EddieAy/cve/issues/3"
+    ],
+    "CVE-2024-10737": [
+      "https://github.com/Scholar-XD/CVE/issues/1"
+    ],
+    "CVE-2024-10738": [
+      "https://github.com/Nightmaremassacre/cve/issues/3"
+    ],
+    "CVE-2024-10739": [
+      "https://github.com/UnrealdDei/cve/blob/main/sql11.md"
+    ],
+    "CVE-2024-10740": [
+      "https://github.com/1270512529/cve/blob/main/sql.md"
+    ],
+    "CVE-2024-10741": [
+      "https://github.com/maxihongtatum/cve/blob/main/sql14.md"
+    ],
+    "CVE-2024-10742": [
+      "https://github.com/xiaokka/cve/blob/main/sql.md"
+    ],
+    "CVE-2024-10750": [
+      "https://github.com/xiaobor123/tenda-vul-i22"
+    ],
+    "CVE-2024-10751": [
+      "https://github.com/JiangJiangCC/CVE/issues/1"
     ],
     "CVE-2024-10752": [
       "https://github.com/primaryboy/CVE/issues/1"
@@ -20108,8 +20234,17 @@
     "CVE-2024-10758": [
       "https://github.com/EmilGallajov/zero-day/blob/main/content_management_system_sqli.md"
     ],
+    "CVE-2024-10759": [
+      "https://github.com/liujiaquan1122/cve/issues/2"
+    ],
     "CVE-2024-1076": [
       "https://wpscan.com/vulnerability/9c3e9c72-3d6c-4e2c-bb8a-f4efce1371d5/"
+    ],
+    "CVE-2024-10760": [
+      "https://github.com/MurphyEutopia/cve/blob/main/sql15.md"
+    ],
+    "CVE-2024-10764": [
+      "https://github.com/xiaobsss/CVE/issues/1"
     ],
     "CVE-2024-10765": [
       "https://github.com/hbuzs/CVE/issues/1"
@@ -20135,11 +20270,17 @@
     "CVE-2024-10791": [
       "https://github.com/3127434/CVE/issues/2"
     ],
+    "CVE-2024-10805": [
+      "https://github.com/yhcyhc981/cve/blob/main/sql16.md"
+    ],
     "CVE-2024-10808": [
       "https://github.com/koevas257/cve/blob/main/sql.md"
     ],
     "CVE-2024-10809": [
       "https://github.com/Xueweian/cve/blob/main/sql18.md"
+    ],
+    "CVE-2024-10810": [
+      "https://github.com/wsy149433/cve/blob/main/sql19.md"
     ],
     "CVE-2024-10815": [
       "https://wpscan.com/vulnerability/309a445a-6261-4bd1-bac0-a78096d0c12b/"
@@ -20152,6 +20293,9 @@
     ],
     "CVE-2024-10842": [
       "https://github.com/2537463005/a/blob/main/WEB-Sekolah%E5%90%8E%E5%8F%B0%E5%AD%98%E5%82%A8%E5%9E%8Bxss.md"
+    ],
+    "CVE-2024-10844": [
+      "https://github.com/sbm-98/CVE/issues/1"
     ],
     "CVE-2024-10845": [
       "https://github.com/hbuzs/CVE/issues/3"
@@ -20174,6 +20318,9 @@
     "CVE-2024-10903": [
       "https://wpscan.com/vulnerability/39027390-ce01-4dd5-a979-426785aa7acb/"
     ],
+    "CVE-2024-10919": [
+      "https://github.com/didi/super-jacoco/issues/49"
+    ],
     "CVE-2024-10926": [
       "https://docs.google.com/document/d/1h9LlTV1FVvOSDBWc7qwU_5qcboCKd6H99Oqg3rZdBRQ/edit?usp=sharing"
     ],
@@ -20192,11 +20339,26 @@
     "CVE-2024-10966": [
       "https://github.com/Dreamy-elfland/240914"
     ],
+    "CVE-2024-10967": [
+      "https://github.com/1104533685/cve/blob/main/sql.md"
+    ],
+    "CVE-2024-10968": [
+      "https://github.com/NG0324/CVE/issues/1"
+    ],
+    "CVE-2024-10969": [
+      "https://github.com/ppp-src/CVE/issues/31"
+    ],
     "CVE-2024-1098": [
       "https://www.yuque.com/mailemonyeyongjuan/tha8tr/ouiw375l0m8mw5ls"
     ],
     "CVE-2024-10980": [
       "https://wpscan.com/vulnerability/915daad8-d14c-4457-a3a0-aa21744f4ae0/"
+    ],
+    "CVE-2024-10987": [
+      "https://github.com/qqqbalabala/cve/blob/main/sql20.md"
+    ],
+    "CVE-2024-10988": [
+      "https://github.com/20241018/cve/blob/main/sql.md"
     ],
     "CVE-2024-10989": [
       "https://github.com/miaoyum/cve/blob/main/sql21.md"
@@ -20204,8 +20366,26 @@
     "CVE-2024-1099": [
       "https://www.yuque.com/mailemonyeyongjuan/tha8tr/dcilugg0htp973nx"
     ],
+    "CVE-2024-10990": [
+      "https://github.com/AspirePig/Cve_report/blob/main/online-veterinary-appointment-system/SQLi-1.md"
+    ],
     "CVE-2024-10991": [
       "https://github.com/ppp-src/CVE/issues/30"
+    ],
+    "CVE-2024-10993": [
+      "https://github.com/NG0324/CVE/issues/2"
+    ],
+    "CVE-2024-10994": [
+      "https://github.com/Hacker0xone/CVE/issues/1"
+    ],
+    "CVE-2024-10995": [
+      "https://github.com/Hacker0xone/CVE/issues/2"
+    ],
+    "CVE-2024-10996": [
+      "https://github.com/ppp-src/CVE/issues/32"
+    ],
+    "CVE-2024-10998": [
+      "https://github.com/090913/CVE/issues/1"
     ],
     "CVE-2024-10999": [
       "https://github.com/EmilGallajov/zero-day/blob/main/codeastro_real_estate_ms_authenticated_rce.md"
@@ -20276,6 +20456,18 @@
     "CVE-2024-11243": [
       "https://youtu.be/QThAqddl5Dk"
     ],
+    "CVE-2024-11257": [
+      "https://github.com/Hacker0xone/CVE/issues/10"
+    ],
+    "CVE-2024-11258": [
+      "https://github.com/Hacker0xone/CVE/issues/11"
+    ],
+    "CVE-2024-11261": [
+      "https://github.com/Hacker0xone/CVE/issues/12"
+    ],
+    "CVE-2024-11262": [
+      "https://github.com/Hacker0xone/CVE/issues/13"
+    ],
     "CVE-2024-11303": [
       "https://cyberdanube.com/en/en-st-polten-uas-path-traversal-in-korenix-jetport/"
     ],
@@ -20303,6 +20495,12 @@
     "CVE-2024-11422": [
       "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
     ],
+    "CVE-2024-11591": [
+      "https://github.com/Hacker0xone/CVE/issues/14"
+    ],
+    "CVE-2024-11592": [
+      "https://github.com/Hacker0xone/CVE/issues/15"
+    ],
     "CVE-2024-11605": [
       "https://wpscan.com/vulnerability/91c5ee70-2ff5-46cd-a0f5-54987fc2e060/"
     ],
@@ -20320,6 +20518,9 @@
     ],
     "CVE-2024-11645": [
       "https://wpscan.com/vulnerability/7771a76b-bc8c-426f-a125-5bd74ccf2845/"
+    ],
+    "CVE-2024-11673": [
+      "https://github.com/Hacker0xone/CVE/issues/16"
     ],
     "CVE-2024-11675": [
       "https://www.youtube.com/watch?v=UsScmd8Xzuw"
@@ -32618,8 +32819,14 @@
     "CVE-2024-54761": [
       "https://gist.github.com/nscan9/a31982c90ab40a8e00373bf15efbf52a"
     ],
+    "CVE-2024-54763": [
+      "https://github.com/Shuanunio/CVE_Requests/blob/main/ipTIME/A2004/ipTIME_A2004_unauthorized_access_vulnerability_first.md"
+    ],
     "CVE-2024-54764": [
       "https://github.com/Shuanunio/CVE_Requests/blob/main/ipTIME/A2004/ipTIME_A2004_unauthorized_access_vulnerability_second.md"
+    ],
+    "CVE-2024-54767": [
+      "https://github.com/Shuanunio/CVE_Requests/blob/main/AVM/fritz/AVM_FRITZ!Box_7530%20AX_unauthorized_access_vulnerability_first.md"
     ],
     "CVE-2024-54774": [
       "https://github.com/taynes-llllzt/taynes/issues/4"
@@ -32902,6 +33109,12 @@
     ],
     "CVE-2024-5775": [
       "https://github.com/CveSecLook/cve/issues/44"
+    ],
+    "CVE-2024-57822": [
+      "https://github.com/pedrib/PoC/blob/master/fuzzing/raptor-fuzz.md"
+    ],
+    "CVE-2024-57823": [
+      "https://github.com/pedrib/PoC/blob/master/fuzzing/raptor-fuzz.md"
     ],
     "CVE-2024-5799": [
       "https://wpscan.com/vulnerability/3ee3023a-541c-40e6-8d62-24b4b110633c/"
