@@ -10932,6 +10932,9 @@
     "CVE-2023-36359": [
       "https://github.com/a101e-IoTvul/iotvul/blob/main/tp-link/8/TP-Link%20TL-WR940N%20TL-WR841N%20TL-WR941ND%20wireless%20router%20userRpmQoSRuleListRpm%20buffer%20read%20out-of-bounds%20vulnerability.md"
     ],
+    "CVE-2023-36361": [
+      "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2023-36361"
+    ],
     "CVE-2023-36375": [
       "https://packetstormsecurity.com"
     ],
@@ -31403,6 +31406,9 @@
     "CVE-2024-46486": [
       "https://yuhehe88.github.io/2024/09/04/TL-WDR5620-Gigabit-Edition-v2-3/"
     ],
+    "CVE-2024-46505": [
+      "https://jayaramyalla.medium.com/bloxone-business-logic-flaw-due-to-thick-client-vulnerabilities-cve-2024-46505-04a4f1966f4b"
+    ],
     "CVE-2024-46528": [
       "https://okankurtulus.com.tr/2024/09/09/idor-vulnerability-in-kubesphere/"
     ],
@@ -32608,6 +32614,9 @@
     ],
     "CVE-2024-5475": [
       "https://wpscan.com/vulnerability/cee66543-b5d6-4205-8f9b-0febd7fee445/"
+    ],
+    "CVE-2024-54761": [
+      "https://gist.github.com/nscan9/a31982c90ab40a8e00373bf15efbf52a"
     ],
     "CVE-2024-54764": [
       "https://github.com/Shuanunio/CVE_Requests/blob/main/ipTIME/A2004/ipTIME_A2004_unauthorized_access_vulnerability_second.md"
@@ -34820,6 +34829,9 @@
     "CVE-2024-8003": [
       "https://vuldb.com/?submit.393987"
     ],
+    "CVE-2024-8022": [
+      "https://vuldb.com/?id.275291"
+    ],
     "CVE-2024-8023": [
       "https://gist.github.com/topsky979/74dcbe81062718f314d81fb6ad5dc1e0"
     ],
@@ -34950,7 +34962,7 @@
       "https://github.com/t4rrega/cve/issues/2"
     ],
     "CVE-2024-8169": [
-      "https://github.com/t4rrega/cve/issues/5"
+      "https://vuldb.com/?id.275768"
     ],
     "CVE-2024-8171": [
       "https://github.com/t4rrega/cve/issues/6"
