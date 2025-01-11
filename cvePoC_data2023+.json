@@ -32895,7 +32895,7 @@
       "https://wpscan.com/vulnerability/cee66543-b5d6-4205-8f9b-0febd7fee445/"
     ],
     "CVE-2024-54761": [
-      "https://gist.github.com/nscan9/a31982c90ab40a8e00373bf15efbf52a"
+      "https://github.com/nscan9/BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection/"
     ],
     "CVE-2024-54763": [
       "https://github.com/Shuanunio/CVE_Requests/blob/main/ipTIME/A2004/ipTIME_A2004_unauthorized_access_vulnerability_first.md"
