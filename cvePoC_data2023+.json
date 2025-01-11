@@ -5934,6 +5934,9 @@
     "CVE-2023-2668": [
       "https://github.com/tht1997/CVE_2023/blob/main/Lost%20and%20Found%20Information%20System/CVE-2023-2668.md"
     ],
+    "CVE-2023-26688": [
+      "https://github.com/cybrops-io/CVEs/tree/main/CVE-2023-26688%20-%20Cross%20Site%20Scripting%20(XSS)%20vulnerability%20in%20CS-Cart%20MultiVendor%204.16.1"
+    ],
     "CVE-2023-26689": [
       "https://github.com/cybrops-io/CVEs/tree/main/CVE-2023-26689%20-%20Insufficient%20Authorization%20for%20API%20key%20creation%20in%20CS-Cart%20MultiVendor%204.16.1"
     ],
@@ -7898,6 +7901,9 @@
     ],
     "CVE-2023-3007": [
       "https://github.com/Xor-Gerke/webray.com.cn/blob/main/cve/student-management-system/password_reset.md"
+    ],
+    "CVE-2023-3008": [
+      "https://github.com/Xor-Gerke/webray.com.cn/blob/main/cve/student-management-system/sql_inject.md"
     ],
     "CVE-2023-30082": [
       "https://github.com/manavparekh/CVEs/blob/main/CVE-2023-30082/Steps%20to%20reproduce.txt"
@@ -14280,6 +14286,9 @@
     "CVE-2023-44249": [
       "https://github.com/orangecertcc/security-research/security/advisories/GHSA-x8rp-jfwc-gqqj"
     ],
+    "CVE-2023-44253": [
+      "https://github.com/orangecertcc/security-research/security/advisories/GHSA-25j8-69h7-83h2"
+    ],
     "CVE-2023-44256": [
       "https://github.com/orangecertcc/security-research/security/advisories/GHSA-2hc5-p5mc-8vrh"
     ],
@@ -14375,6 +14384,9 @@
     ],
     "CVE-2023-4468": [
       "https://vuldb.com/?id.249261"
+    ],
+    "CVE-2023-44693": [
+      "https://github.com/llixixi/cve/blob/main/D-LINK-DAR-7000_sql_%20importexport.md"
     ],
     "CVE-2023-44694": [
       "https://github.com/llixixi/cve/blob/main/D-LINK-DAR-7000_rce_%20mailrecvview.md"
@@ -20753,6 +20765,9 @@
     "CVE-2024-12585": [
       "https://wpscan.com/vulnerability/afecf367-d298-4f4c-8f47-4e19b3937d3e/"
     ],
+    "CVE-2024-12587": [
+      "https://wpscan.com/vulnerability/7cb040f5-d154-48ea-a54e-80451054bad8/"
+    ],
     "CVE-2024-12595": [
       "https://wpscan.com/vulnerability/7a506438-3106-477f-816d-b9b116ec8555/"
     ],
@@ -20972,11 +20987,20 @@
     "CVE-2024-13004": [
       "https://github.com/alc9700jmo/CVE/issues/6"
     ],
+    "CVE-2024-13005": [
+      "https://github.com/Hacker0xOne/CVE/issues/18"
+    ],
     "CVE-2024-13006": [
       "https://github.com/Sakurapan/CVE/issues/1"
     ],
+    "CVE-2024-13007": [
+      "https://github.com/T3rm1n4L-LYC/Vuldb/blob/main/SQL_Injection_in_Event_Management_System.md"
+    ],
     "CVE-2024-13008": [
       "https://github.com/Lanxiy7th/lx_CVE_report-/issues/18"
+    ],
+    "CVE-2024-13021": [
+      "https://github.com/shaturo1337/POCs/blob/main/Stored%20XSS%20Vulnerability%20in%20Road%20Accident%20Map%20Marker.md"
     ],
     "CVE-2024-13024": [
       "https://github.com/isRainy/VULDB/blob/main/Blood_Bank_Management_System.md"
@@ -21002,11 +21026,20 @@
     "CVE-2024-13038": [
       "https://github.com/shaturo1337/POCs/blob/main/Blind%20SQL%20Injection%20in%20Simple%20Loan%20Management%20System.md"
     ],
+    "CVE-2024-13039": [
+      "https://github.com/Curious-L/-/issues/1"
+    ],
     "CVE-2024-13042": [
       "https://github.com/BxYQ/zg_fileread/blob/main/poc.py"
     ],
     "CVE-2024-1306": [
       "https://wpscan.com/vulnerability/c7ce2649-b2b0-43f4-994d-07b1023405e9/"
+    ],
+    "CVE-2024-13067": [
+      "https://github.com/shaturo1337/POCs/blob/main/Broken%20Access%20Control%20in%20Online%20Food%20Ordering%20System.md"
+    ],
+    "CVE-2024-13069": [
+      "https://github.com/shaturo1337/POCs/blob/main/Stored%20XSS%20Vulnerability%20in%20Multi%20Role%20Login%20System.md"
     ],
     "CVE-2024-1307": [
       "https://wpscan.com/vulnerability/bbc6cebd-e9bf-4b08-a474-f9312b3c0947/"
@@ -21023,6 +21056,9 @@
     "CVE-2024-13092": [
       "https://github.com/UnrealdDei/cve/blob/main/sql9.md"
     ],
+    "CVE-2024-13093": [
+      "https://github.com/UnrealdDei/cve/blob/main/sql10.md"
+    ],
     "CVE-2024-1310": [
       "https://wpscan.com/vulnerability/a7735feb-876e-461c-9a56-ea6067faf277/"
     ],
@@ -21038,17 +21074,41 @@
     "CVE-2024-13105": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2Dhcpd.md"
     ],
+    "CVE-2024-13106": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2IPQoSTcAdd.md"
+    ],
     "CVE-2024-13107": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2LocalAclEditcfg.md"
+    ],
+    "CVE-2024-13108": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2NetSniper.md"
     ],
     "CVE-2024-13129": [
       "https://github.com/roxy-wi/roxy-wi/pull/410/commits/32313928eb9ce906887b8a30bf7b9a3d5c0de1be"
     ],
+    "CVE-2024-13140": [
+      "https://github.com/emlog/emlog/issues/312#issue-2758546837"
+    ],
+    "CVE-2024-13141": [
+      "https://github.com/Hebing123/cve/issues/83"
+    ],
     "CVE-2024-1316": [
       "https://wpscan.com/vulnerability/d80dfe2f-207d-4cdf-8c71-27936c6318e5/"
     ],
+    "CVE-2024-13188": [
+      "https://github.com/hawkteam404/RnD_Public/blob/main/escan_incorrect_default_perm.md"
+    ],
     "CVE-2024-1319": [
       "https://wpscan.com/vulnerability/5904dc7e-1058-4c40-bca3-66ba57b1414b/"
+    ],
+    "CVE-2024-13192": [
+      "https://github.com/ZeroWdd/myblog/issues/4#issue-2759845658"
+    ],
+    "CVE-2024-13198": [
+      "https://github.com/cydtseng/Vulnerability-Research/blob/main/mblog/ObservableDiscrepancy-UserLogin.md"
+    ],
+    "CVE-2024-13199": [
+      "https://github.com/cydtseng/Vulnerability-Research/blob/main/mblog/ReflectedXSS-Search.md"
     ],
     "CVE-2024-13203": [
       "https://www.websecurityinsights.my.id/2024/12/ecommerce-php-by-kurniaramadhan-sql.html?m=1"
@@ -32978,6 +33038,9 @@
     "CVE-2024-56082": [
       "https://github.com/andrewnguonly/Lumos/issues/193"
     ],
+    "CVE-2024-56114": [
+      "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2024-56114"
+    ],
     "CVE-2024-56128": [
       "https://kafka.apache.org/documentation/#security_sasl_scram_security"
     ],
@@ -33073,6 +33136,9 @@
     ],
     "CVE-2024-5676": [
       "https://github.com/sbaresearch/advisories/tree/public/2024/SBA-ADV-20240321-01_Paradox_Cross_Site_Request_Forgery"
+    ],
+    "CVE-2024-56828": [
+      "https://github.com/Zerone0x00/CVE/blob/main/ChestnutCMS/CVE-2024-56828.md"
     ],
     "CVE-2024-56829": [
       "https://github.com/Zerone0x00/CVE/blob/main/%E9%BB%84%E8%8D%AF%E5%B8%88%E8%8D%AF%E4%B8%9A%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/UploadFile%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md"
