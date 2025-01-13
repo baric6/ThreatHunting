@@ -11748,6 +11748,9 @@
     "CVE-2023-38128": [
       "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1809"
     ],
+    "CVE-2023-38130": [
+      "https://forums.cubecart.com/topic/58736-cubecart-653-released-security-update/"
+    ],
     "CVE-2023-38139": [
       "http://packetstormsecurity.com/files/174849/Microsoft-Windows-Kernel-Refcount-Overflow-Use-After-Free.html"
     ],
@@ -13589,6 +13592,9 @@
     ],
     "CVE-2023-42406": [
       "https://github.com/flyyue2001/cve/blob/main/D-LINK%20-DAR-7000_sql_:sysmanage:editrole.php.md"
+    ],
+    "CVE-2023-42428": [
+      "https://forums.cubecart.com/topic/58736-cubecart-653-released-security-update/"
     ],
     "CVE-2023-42448": [
       "https://github.com/input-output-hk/hydra/security/advisories/GHSA-mgcx-6p7h-5996"
@@ -15492,6 +15498,9 @@
     "CVE-2023-47271": [
       "http://seclists.org/fulldisclosure/2023/Dec/23"
     ],
+    "CVE-2023-47283": [
+      "https://forums.cubecart.com/topic/58736-cubecart-653-released-security-update/"
+    ],
     "CVE-2023-47308": [
       "https://github.com/friends-of-presta/security-advisories/blob/main/_posts/2023-11-09-newsletterpop.md"
     ],
@@ -15689,6 +15698,9 @@
     ],
     "CVE-2023-47643": [
       "https://github.com/salesagility/SuiteCRM-Core/security/advisories/GHSA-fxww-jqfv-9rrr"
+    ],
+    "CVE-2023-47675": [
+      "https://forums.cubecart.com/topic/58736-cubecart-653-released-security-update/"
     ],
     "CVE-2023-4776": [
       "https://wpscan.com/vulnerability/59dd3917-01cb-479f-a557-021b2a5147df"
@@ -16853,6 +16865,9 @@
     ],
     "CVE-2023-50137": [
       "https://github.com/yukino-hiki/CVE/blob/main/3/There%20is%20a%20storage%20type%20xss%20in%20the%20site%20management%20office.md"
+    ],
+    "CVE-2023-5014": [
+      "https://github.com/TheCyberDiver/Public-Disclosures-CVE-/blob/main/Food-Ordering-Website%20SQLi.md"
     ],
     "CVE-2023-50164": [
       "http://packetstormsecurity.com/files/176157/Struts-S2-066-File-Upload-Remote-Code-Execution.html"
@@ -21540,7 +21555,7 @@
       "https://github.com/skid-nochizplz/skid-nochizplz/blob/main/TrashBin/CVE/SOURCECODESTER%20Petrol%20pump%20management%20software/edit_categories.php%20SQL%20Injection.md"
     ],
     "CVE-2024-2063": [
-      "https://github.com/skid-nochizplz/skid-nochizplz/blob/main/TrashBin/CVE/SOURCECODESTER%20Petrol%20pump%20management%20software/profile_crud.php%20Unauthenticated%20STORED%20XSS.md"
+      "https://vuldb.com/?id.255378"
     ],
     "CVE-2024-2064": [
       "https://github.com/Andriesces/SelectCours-_Sever-side-Template-injection/blob/main/README.md"
