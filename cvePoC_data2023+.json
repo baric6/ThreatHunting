@@ -31946,6 +31946,9 @@
     "CVE-2024-47769": [
       "https://github.com/idurar/idurar-erp-crm/security/advisories/GHSA-948g-2vm7-mfv7"
     ],
+    "CVE-2024-47796": [
+      "https://git.dcmtk.org/?p=dcmtk.git;a=commit;h=89a6e399f1e17d08a8bc8cdaa05b2ac9a50cd4f6"
+    ],
     "CVE-2024-47810": [
       "https://talosintelligence.com/vulnerability_reports/TALOS-2024-2094"
     ],
@@ -32648,6 +32651,9 @@
     "CVE-2024-5217": [
       "https://www.darkreading.com/cloud-security/patchnow-servicenow-critical-rce-bugs-active-exploit"
     ],
+    "CVE-2024-52333": [
+      "https://git.dcmtk.org/?p=dcmtk.git;a=commit;h=03e851b0586d05057c3268988e180ffb426b2e03"
+    ],
     "CVE-2024-52336": [
       "https://www.openwall.com/lists/oss-security/2024/11/28/1"
     ],
@@ -33211,6 +33217,12 @@
     ],
     "CVE-2024-5745": [
       "https://github.com/L1OudFd8cl09/CVE/blob/main/07_06_2024_a.md"
+    ],
+    "CVE-2024-57487": [
+      "https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488"
+    ],
+    "CVE-2024-57488": [
+      "https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488"
     ],
     "CVE-2024-5758": [
       "https://wpscan.com/vulnerability/635be98d-4c17-4e75-871f-9794d85a2eb1/"
@@ -35292,7 +35304,7 @@
       "https://github.com/DeepMountains/zzz/blob/main/CVE4-2.md"
     ],
     "CVE-2024-8165": [
-      "https://github.com/DeepMountains/Mirage/blob/main/CVE18-1.md"
+      "https://vuldb.com/?submit.393376"
     ],
     "CVE-2024-8167": [
       "https://github.com/t4rrega/cve/issues/1"
