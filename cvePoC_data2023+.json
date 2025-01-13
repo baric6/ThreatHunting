@@ -10194,6 +10194,9 @@
     "CVE-2023-34488": [
       "https://github.com/emqx/nanomq/issues/1181"
     ],
+    "CVE-2023-3449": [
+      "https://vuldb.com/?id.232546"
+    ],
     "CVE-2023-34494": [
       "https://github.com/emqx/nanomq/issues/1180"
     ],
@@ -13546,7 +13549,7 @@
       "https://github.com/dromara/hutool/issues/3289"
     ],
     "CVE-2023-42282": [
-      "https://cosmosofcyberspace.github.io/npm_ip_cve/npm_ip_cve.html"
+      "https://www.bleepingcomputer.com/news/security/dev-rejects-cve-severity-makes-his-github-repo-read-only/"
     ],
     "CVE-2023-42283": [
       "https://github.com/andreysanyuk/CVE-2023-42283"
@@ -20054,6 +20057,9 @@
     "CVE-2024-10350": [
       "https://github.com/RTio7/cve/issues/1"
     ],
+    "CVE-2024-10355": [
+      "https://vuldb.com/?id.281702"
+    ],
     "CVE-2024-10368": [
       "https://github.com/ppp-src/CVE/issues/17"
     ],
@@ -20552,6 +20558,9 @@
     "CVE-2024-1163": [
       "https://huntr.com/bounties/c1cbc18b-e4ab-4332-ad13-0033f0f976f5"
     ],
+    "CVE-2024-11636": [
+      "https://wpscan.com/vulnerability/da616c20-3d74-4d3a-95f5-2d71d9ada094/"
+    ],
     "CVE-2024-11644": [
       "https://wpscan.com/vulnerability/5b6a80f1-369c-4dd2-877e-60b724084819/"
     ],
@@ -20732,6 +20741,9 @@
     "CVE-2024-12254": [
       "https://github.com/python/cpython/pull/127656"
     ],
+    "CVE-2024-12274": [
+      "https://wpscan.com/vulnerability/e3176c9a-63f3-4a28-a8a7-8abb2b4100ef/"
+    ],
     "CVE-2024-12302": [
       "https://wpscan.com/vulnerability/ed860dac-8c4a-482f-8826-31f1a894b6ce/"
     ],
@@ -20773,6 +20785,15 @@
     ],
     "CVE-2024-1254": [
       "https://github.com/rockersiyuan/CVE/blob/main/Smart%20S20.md"
+    ],
+    "CVE-2024-12566": [
+      "https://wpscan.com/vulnerability/9206064a-d54e-44ad-9670-65520ee166a6/"
+    ],
+    "CVE-2024-12567": [
+      "https://wpscan.com/vulnerability/82051ccc-c528-4ff3-900a-3b8e8ad34145/"
+    ],
+    "CVE-2024-12568": [
+      "https://wpscan.com/vulnerability/0ce9075a-754b-474e-9620-17da8ee29b56/"
     ],
     "CVE-2024-12581": [
       "https://wpscan.com/vulnerability/df688dcc-9617-4f58-a310-891bfaea3695/"
