@@ -6450,8 +6450,29 @@
     "CVE-2023-2731": [
       "https://gitlab.com/libtiff/libtiff/-/issues/548"
     ],
+    "CVE-2023-27329": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-27330": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-27331": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
     "CVE-2023-27350": [
       "https://news.sophos.com/en-us/2023/04/27/increased-exploitation-of-papercut-drawing-blood-around-the-internet/"
+    ],
+    "CVE-2023-27363": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-27364": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-27365": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-27366": [
+      "https://www.foxit.com/support/security-bulletins.html"
     ],
     "CVE-2023-27372": [
       "http://packetstormsecurity.com/files/173044/SPIP-4.2.1-Remote-Code-Execution.html"
@@ -9423,6 +9444,9 @@
     "CVE-2023-33239": [
       "https://www.moxa.com/en/support/product-support/security-advisory/mpsa-230402-tn-5900-and-tn-4900-series-web-server-multiple-vulnerabilities"
     ],
+    "CVE-2023-33240": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
     "CVE-2023-33241": [
       "https://www.fireblocks.com/blog/gg18-and-gg20-paillier-key-vulnerability-technical-report/"
     ],
@@ -11745,8 +11769,53 @@
     "CVE-2023-38043": [
       "https://northwave-cybersecurity.com/vulnerability-notice/arbitrary-kernel-function-call-in-ivanti-secure-access-client"
     ],
+    "CVE-2023-38105": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38106": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38107": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38108": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38109": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
     "CVE-2023-3811": [
       "https://vuldb.com/?id.235079"
+    ],
+    "CVE-2023-38110": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38111": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38112": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38113": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38114": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38115": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38116": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38117": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38118": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-38119": [
+      "https://www.foxit.com/support/security-bulletins.html"
     ],
     "CVE-2023-38127": [
       "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1808"
@@ -13491,8 +13560,38 @@
     "CVE-2023-4203": [
       "https://cyberdanube.com/en/en-st-polten-uas-multiple-vulnerabilities-in-advantech-eki-15xx-series/"
     ],
+    "CVE-2023-42089": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
     "CVE-2023-4209": [
       "https://wpscan.com/vulnerability/b2c6fa7d-1b0f-444b-8ca5-8c1c06cea1d9"
+    ],
+    "CVE-2023-42090": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-42091": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-42092": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-42093": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-42094": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-42095": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-42096": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-42097": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-42098": [
+      "https://www.foxit.com/support/security-bulletins.html"
     ],
     "CVE-2023-42133": [
       "https://blog.stmcyber.com/pax-pos-cves-2023/"
@@ -17376,6 +17475,45 @@
     "CVE-2023-5154": [
       "https://github.com/llixixi/cve/blob/main/D-LINK-DAR-8000-10_upload_%20changelogo.md"
     ],
+    "CVE-2023-51549": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51550": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51551": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51552": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51553": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51554": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51555": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51556": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51557": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51558": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51560": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51561": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-51562": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
     "CVE-2023-51650": [
       "https://github.com/dromara/hertzbeat/security/advisories/GHSA-rrc5-qpxr-5jm2"
     ],
@@ -20855,6 +20993,15 @@
     "CVE-2024-1274": [
       "https://wpscan.com/vulnerability/91dba45b-9930-4bfb-a7bf-903c46864e9f/"
     ],
+    "CVE-2024-12751": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-12752": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-12753": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
     "CVE-2024-12788": [
       "https://github.com/laowuzi/cve/tree/main/Technical_Discussion_Forum"
     ],
@@ -21022,6 +21169,9 @@
     ],
     "CVE-2024-12983": [
       "https://github.com/Rocky-Bull/myCVE/blob/main/Hospital_Management_System_XSS.md"
+    ],
+    "CVE-2024-12988": [
+      "https://github.com/physicszq/Routers/tree/main/Netgear/1.3.3.154"
     ],
     "CVE-2024-13004": [
       "https://github.com/alc9700jmo/CVE/issues/6"
@@ -25659,7 +25809,7 @@
       "https://github.com/isaacs/node-tar/security/advisories/GHSA-f5x3-32g6-xq36"
     ],
     "CVE-2024-28888": [
-      "https://talosintelligence.com/vulnerability_reports/TALOS-2024-1967"
+      "https://www.foxit.com/support/security-bulletins.html"
     ],
     "CVE-2024-2891": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AC7/v1/formQuickIndex.md"
@@ -30391,6 +30541,9 @@
     ],
     "CVE-2024-41597": [
       "https://gist.github.com/DefensiumDevelopers/608be4d10b016dce0566925368a8b08c#file-cve-2024-41597-md"
+    ],
+    "CVE-2024-41605": [
+      "https://www.foxit.com/support/security-bulletins.html"
     ],
     "CVE-2024-41610": [
       "https://www.dlink.com/en/security-bulletin/"
@@ -35621,6 +35774,9 @@
     "CVE-2024-8368": [
       "https://github.com/qingluan-bot/cve/issues/1"
     ],
+    "CVE-2024-8370": [
+      "https://vuldb.com/?submit.400844"
+    ],
     "CVE-2024-8372": [
       "https://www.herodevs.com/vulnerability-directory/cve-2024-8372"
     ],
@@ -35995,6 +36151,45 @@
     ],
     "CVE-2024-9191": [
       "https://help.okta.com/oie/en-us/content/topics/releasenotes/oie-ov-release-notes.htm#panel4"
+    ],
+    "CVE-2024-9244": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9245": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9246": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9247": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9248": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9249": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9250": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9251": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9252": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9253": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9254": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9255": [
+      "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-9256": [
+      "https://www.foxit.com/support/security-bulletins.html"
     ],
     "CVE-2024-9266": [
       "https://www.herodevs.com/vulnerability-directory/cve-2024-9266"
