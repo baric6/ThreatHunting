@@ -7506,6 +7506,9 @@
     "CVE-2023-29528": [
       "https://jira.xwiki.org/browse/XWIKI-20348"
     ],
+    "CVE-2023-29531": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1794292"
+    ],
     "CVE-2023-29532": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1806394"
     ],
