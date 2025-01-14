@@ -31361,6 +31361,9 @@
     "CVE-2024-4477": [
       "https://wpscan.com/vulnerability/ab551552-944c-4e2a-9355-7011cbe553b0/"
     ],
+    "CVE-2024-44771": [
+      "https://www.appgate.com/blog/cross-site-scripting-xss-in-bigid-privacy-portal"
+    ],
     "CVE-2024-44776": [
       "https://packetstormsecurity.com/files/180461/vTiger-CRM-7.4.0-Open-Redirection.html"
     ],
@@ -33227,8 +33230,158 @@
     "CVE-2024-5758": [
       "https://wpscan.com/vulnerability/635be98d-4c17-4e75-871f-9794d85a2eb1/"
     ],
+    "CVE-2024-57615": [
+      "https://github.com/MonetDB/MonetDB/issues/7413"
+    ],
+    "CVE-2024-57616": [
+      "https://github.com/MonetDB/MonetDB/issues/7412"
+    ],
+    "CVE-2024-57617": [
+      "https://github.com/MonetDB/MonetDB/issues/7432"
+    ],
+    "CVE-2024-57618": [
+      "https://github.com/MonetDB/MonetDB/issues/7418"
+    ],
+    "CVE-2024-57619": [
+      "https://github.com/MonetDB/MonetDB/issues/7416"
+    ],
+    "CVE-2024-57620": [
+      "https://github.com/MonetDB/MonetDB/issues/7417"
+    ],
+    "CVE-2024-57621": [
+      "https://github.com/MonetDB/MonetDB/issues/7414"
+    ],
+    "CVE-2024-57622": [
+      "https://github.com/MonetDB/MonetDB/issues/7434"
+    ],
+    "CVE-2024-57623": [
+      "https://github.com/MonetDB/MonetDB/issues/7415"
+    ],
+    "CVE-2024-57624": [
+      "https://github.com/MonetDB/MonetDB/issues/7433"
+    ],
+    "CVE-2024-57625": [
+      "https://github.com/MonetDB/MonetDB/issues/7443"
+    ],
+    "CVE-2024-57626": [
+      "https://github.com/MonetDB/MonetDB/issues/7442"
+    ],
+    "CVE-2024-57627": [
+      "https://github.com/MonetDB/MonetDB/issues/7440"
+    ],
+    "CVE-2024-57628": [
+      "https://github.com/MonetDB/MonetDB/issues/7437"
+    ],
+    "CVE-2024-57629": [
+      "https://github.com/MonetDB/MonetDB/issues/7472"
+    ],
+    "CVE-2024-57630": [
+      "https://github.com/MonetDB/MonetDB/issues/7439"
+    ],
+    "CVE-2024-57631": [
+      "https://github.com/MonetDB/MonetDB/issues/7436"
+    ],
+    "CVE-2024-57632": [
+      "https://github.com/MonetDB/MonetDB/issues/7441"
+    ],
+    "CVE-2024-57633": [
+      "https://github.com/MonetDB/MonetDB/issues/7438"
+    ],
+    "CVE-2024-57634": [
+      "https://github.com/MonetDB/MonetDB/issues/7435"
+    ],
+    "CVE-2024-57635": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1182"
+    ],
+    "CVE-2024-57636": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1194"
+    ],
+    "CVE-2024-57637": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1192"
+    ],
+    "CVE-2024-57638": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1190"
+    ],
+    "CVE-2024-57639": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1185"
+    ],
+    "CVE-2024-57640": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1184"
+    ],
+    "CVE-2024-57641": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1183"
+    ],
+    "CVE-2024-57642": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1191"
+    ],
+    "CVE-2024-57643": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1181"
+    ],
+    "CVE-2024-57644": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1193"
+    ],
+    "CVE-2024-57645": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1197"
+    ],
+    "CVE-2024-57646": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1199"
+    ],
+    "CVE-2024-57647": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1207"
+    ],
+    "CVE-2024-57648": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1195"
+    ],
+    "CVE-2024-57649": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1206"
+    ],
     "CVE-2024-5765": [
       "https://wpscan.com/vulnerability/0b73f84c-611e-4681-b362-35e721478ba4/"
+    ],
+    "CVE-2024-57650": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1204"
+    ],
+    "CVE-2024-57651": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1196"
+    ],
+    "CVE-2024-57652": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1198"
+    ],
+    "CVE-2024-57653": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1208"
+    ],
+    "CVE-2024-57654": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1205"
+    ],
+    "CVE-2024-57655": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1216"
+    ],
+    "CVE-2024-57656": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1210"
+    ],
+    "CVE-2024-57657": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1219"
+    ],
+    "CVE-2024-57658": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1209"
+    ],
+    "CVE-2024-57659": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1212"
+    ],
+    "CVE-2024-57660": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1221"
+    ],
+    "CVE-2024-57661": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1220"
+    ],
+    "CVE-2024-57662": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1217"
+    ],
+    "CVE-2024-57663": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1218"
+    ],
+    "CVE-2024-57664": [
+      "https://github.com/openlink/virtuoso-opensource/issues/1211"
     ],
     "CVE-2024-5767": [
       "https://wpscan.com/vulnerability/e4ba26b4-5f4f-4c9e-aa37-885b30ef8088/"
@@ -33244,6 +33397,9 @@
     ],
     "CVE-2024-5775": [
       "https://github.com/CveSecLook/cve/issues/44"
+    ],
+    "CVE-2024-57811": [
+      "https://github.com/google/security-research/security/advisories/GHSA-xf7j-4x67-6h93"
     ],
     "CVE-2024-57822": [
       "https://github.com/pedrib/PoC/blob/master/fuzzing/raptor-fuzz.md"
@@ -35593,6 +35749,9 @@
     ],
     "CVE-2024-8638": [
       "https://issues.chromium.org/issues/362539773"
+    ],
+    "CVE-2024-8650": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/486300"
     ],
     "CVE-2024-8698": [
       "https://github.com/keycloak/keycloak/blob/main/saml-core/src/main/java/org/keycloak/saml/processing/core/util/XMLSignatureUtil.java#L415"
