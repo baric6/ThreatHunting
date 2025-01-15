@@ -12405,6 +12405,9 @@
     "CVE-2023-39265": [
       "http://packetstormsecurity.com/files/175094/Apache-Superset-2.0.0-Remote-Code-Execution.html"
     ],
+    "CVE-2023-39293": [
+      "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-23-0009"
+    ],
     "CVE-2023-3932": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/417594"
     ],
