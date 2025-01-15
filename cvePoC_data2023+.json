@@ -19177,10 +19177,13 @@
       "https://github.com/g1an123/POC/blob/main/Unauthorized%20file%20read.md"
     ],
     "CVE-2023-7041": [
-      "https://github.com/g1an123/POC/blob/main/Unauthorized%20file%20overwrite.md"
+      "https://vuldb.com/?id.248690"
     ],
     "CVE-2023-7045": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/436358"
+    ],
+    "CVE-2023-7050": [
+      "https://vuldb.com/?id.248737"
     ],
     "CVE-2023-7051": [
       "https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/blob/main/csrf_delete_notes.md"
@@ -19276,7 +19279,7 @@
       "https://github.com/h4md153v63n/CVEs/blob/main/Intern_Membership_Management_System/Intern_Membership_Management_System-SQL-Injection.md"
     ],
     "CVE-2023-7132": [
-      "https://github.com/h4md153v63n/CVEs/blob/main/Intern_Membership_Management_System/Intern_Membership_Management_System-Stored_Cross_site_Scripting.md"
+      "https://vuldb.com/?id.249135"
     ],
     "CVE-2023-7134": [
       "https://medium.com/@2839549219ljk/medicine-tracking-system-rce-vulnerability-1f009165b915"
@@ -19294,7 +19297,7 @@
       "https://github.com/h4md153v63n/CVEs/blob/main/Client_Details_System/Client_Details_System-SQL_Injection_2.md"
     ],
     "CVE-2023-7139": [
-      "https://github.com/h4md153v63n/CVEs/blob/main/Client_Details_System/Client_Details_System-SQL_Injection_3.md"
+      "https://vuldb.com/?id.249142"
     ],
     "CVE-2023-7140": [
       "https://github.com/h4md153v63n/CVEs/blob/main/Client_Details_System/Client_Details_System-SQL_Injection_4.md"
@@ -19353,6 +19356,9 @@
     "CVE-2023-7170": [
       "https://wpscan.com/vulnerability/218fb3af-3a40-486f-8ea9-80211a986fb3/"
     ],
+    "CVE-2023-7171": [
+      "https://vuldb.com/?id.249307"
+    ],
     "CVE-2023-7172": [
       "https://github.com/sharathc213/CVE-2023-7172"
     ],
@@ -19376,6 +19382,9 @@
     ],
     "CVE-2023-7181": [
       "https://vuldb.com/?id.249368"
+    ],
+    "CVE-2023-7184": [
+      "https://vuldb.com/?id.249386"
     ],
     "CVE-2023-7194": [
       "https://wpscan.com/vulnerability/e20292af-939a-4cb1-91e4-5ff6aa0c7fbe"
@@ -19403,6 +19412,9 @@
     ],
     "CVE-2023-7208": [
       "https://github.com/unpWn4bL3/iot-security/blob/main/13.md"
+    ],
+    "CVE-2023-7211": [
+      "https://vuldb.com/?id.249766"
     ],
     "CVE-2023-7215": [
       "https://vuldb.com/?id.249779"
@@ -20668,6 +20680,9 @@
     ],
     "CVE-2024-11319": [
       "https://iltosec.com/blog/post/django-cms-413-stored-xss-vulnerability-exploiting-the-page-title-field/"
+    ],
+    "CVE-2024-11322": [
+      "https://www.tenable.com/security/research/tra-2025-01"
     ],
     "CVE-2024-11356": [
       "https://wpscan.com/vulnerability/d70df54e-e99e-4539-9fd9-002c0642137e/"
@@ -33358,6 +33373,51 @@
     ],
     "CVE-2024-56829": [
       "https://github.com/Zerone0x00/CVE/blob/main/%E9%BB%84%E8%8D%AF%E5%B8%88%E8%8D%AF%E4%B8%9A%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/UploadFile%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md"
+    ],
+    "CVE-2024-57011": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md"
+    ],
+    "CVE-2024-57012": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md"
+    ],
+    "CVE-2024-57013": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md"
+    ],
+    "CVE-2024-57014": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md"
+    ],
+    "CVE-2024-57015": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md"
+    ],
+    "CVE-2024-57016": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setVpnAccountCfg/setVpnAccountCfg.md"
+    ],
+    "CVE-2024-57017": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setVpnAccountCfg/setVpnAccountCfg.md"
+    ],
+    "CVE-2024-57018": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setVpnAccountCfg/setVpnAccountCfg.md"
+    ],
+    "CVE-2024-57019": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setVpnAccountCfg/setVpnAccountCfg.md"
+    ],
+    "CVE-2024-57020": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md"
+    ],
+    "CVE-2024-57021": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md"
+    ],
+    "CVE-2024-57022": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md"
+    ],
+    "CVE-2024-57023": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md"
+    ],
+    "CVE-2024-57024": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md"
+    ],
+    "CVE-2024-57025": [
+      "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md"
     ],
     "CVE-2024-5713": [
       "https://wpscan.com/vulnerability/eb3f24a7-3171-42c3-9016-e29da4f384fa/"
