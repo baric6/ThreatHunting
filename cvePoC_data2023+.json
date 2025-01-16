@@ -5943,6 +5943,9 @@
     "CVE-2023-2669": [
       "https://github.com/tht1997/CVE_2023/blob/main/Lost%20and%20Found%20Information%20System/CVE-2023-2669.md"
     ],
+    "CVE-2023-26690": [
+      "https://github.com/cybrops-io/CVEs/tree/main/CVE-2023-26690%20-%20%20File%20Upload%20vulnerability%20in%20File%20Manager%20of%20CS-Cart%20MultiVendor%204.16.1"
+    ],
     "CVE-2023-26692": [
       "http://packetstormsecurity.com/files/171787/ZCBS-ZBBS-ZPBS-4.14k-Cross-Site-Scripting.html"
     ],
@@ -10895,6 +10898,9 @@
     ],
     "CVE-2023-36220": [
       "https://packetstormsecurity.com/files/172967/Textpattern-CMS-4.8.8-Command-Injection.html"
+    ],
+    "CVE-2023-3623": [
+      "https://github.com/luoshaokai/cve/blob/main/one.md"
     ],
     "CVE-2023-36239": [
       "https://github.com/libming/libming/issues/273"
@@ -33161,6 +33167,9 @@
     "CVE-2024-54996": [
       "https://github.com/p314dO/CVEs/tree/main/CVE-2024-54996"
     ],
+    "CVE-2024-54998": [
+      "https://github.com/p314dO/CVEs/tree/main/CVE-2024-54998"
+    ],
     "CVE-2024-54999": [
       "https://github.com/p314dO/CVEs/tree/main/CVE-2024-54999"
     ],
@@ -35671,6 +35680,9 @@
     ],
     "CVE-2024-8150": [
       "https://github.com/Chiexf/cve/issues/2"
+    ],
+    "CVE-2024-8152": [
+      "https://vuldb.com/?id.275740"
     ],
     "CVE-2024-8155": [
       "https://github.com/Chiexf/cve/issues/3"
