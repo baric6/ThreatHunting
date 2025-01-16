@@ -17209,7 +17209,7 @@
       "https://wpscan.com/vulnerability/3b45cc0b-7378-49f3-900e-d0e18cd4b878"
     ],
     "CVE-2023-50883": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2023-027.txt"
+      "https://www.syss.de/pentest-blog/cross-site-scripting-schwachstelle-in-onlyoffice-docs-syss-2023-027"
     ],
     "CVE-2023-5089": [
       "https://wpscan.com/vulnerability/2b547488-187b-44bc-a57d-f876a7d4c87d"
@@ -19172,6 +19172,9 @@
     ],
     "CVE-2023-7027": [
       "http://packetstormsecurity.com/files/176525/WordPress-POST-SMTP-Mailer-2.8.7-Authorization-Bypass-Cross-Site-Scripting.html"
+    ],
+    "CVE-2023-7033": [
+      "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2023-023_en.pdf"
     ],
     "CVE-2023-7038": [
       "https://github.com/screetsec/VDD/tree/main/Automad%20CMS/Cross-Site%20Request%20Forgery%20(CSRF)"
@@ -27782,6 +27785,9 @@
     "CVE-2024-33835": [
       "https://github.com/isBigChen/iot/blob/main/tenda/formSetSafeWanWebMan.md"
     ],
+    "CVE-2024-33849": [
+      "https://www.syss.de/pentest-blog/rechteausweitung-durch-unsichere-standardkonfiguration-im-ci-out-of-office-manager-syss-2024-013"
+    ],
     "CVE-2024-33891": [
       "https://straightblast.medium.com/all-your-secrets-are-belong-to-us-a-delinea-secret-server-authn-authz-bypass-adc26c800ad3"
     ],
@@ -28695,7 +28701,7 @@
       "https://wpscan.com/vulnerability/698277e6-56f9-4688-9a84-c2fa3ea9f7dc/"
     ],
     "CVE-2024-36438": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-044.txt"
+      "https://www.syss.de/pentest-blog/"
     ],
     "CVE-2024-36439": [
       "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-038.txt"
@@ -28989,7 +28995,7 @@
       "https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0009"
     ],
     "CVE-2024-37016": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-045.txt"
+      "https://www.syss.de/pentest-blog/"
     ],
     "CVE-2024-37017": [
       "https://github.com/cinecert/asdcplib/issues/138"
@@ -30147,7 +30153,7 @@
       "https://wpscan.com/vulnerability/175a9f3a-1f8d-44d1-8a12-e037251b025d/"
     ],
     "CVE-2024-40614": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-047.txt"
+      "https://www.syss.de/pentest-blog/sql-injection-schwachstelle-in-egroupware-syss-2024-047"
     ],
     "CVE-2024-40624": [
       "https://github.com/torrentpier/torrentpier/security/advisories/GHSA-fg86-4c2r-7wxw"
@@ -31431,7 +31437,7 @@
       "https://github.com/Azvanzed/IdaMeme"
     ],
     "CVE-2024-44085": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2023-027.txt"
+      "https://www.syss.de/pentest-blog/cross-site-scripting-schwachstelle-in-onlyoffice-docs-syss-2023-027"
     ],
     "CVE-2024-44333": [
       "https://gist.github.com/Swind1er/c8656b32058e28e64f92d100c92ca12c"
@@ -31680,28 +31686,28 @@
       "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-024.txt"
     ],
     "CVE-2024-45171": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-026.txt"
+      "https://www.syss.de/pentest-blog/mehrere-sicherheitsschwachstellen-in-videoueberwachungssoftware-c-mor-syss-2024-020-bis-030"
     ],
     "CVE-2024-45172": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-022.txt"
+      "https://www.syss.de/pentest-blog/mehrere-sicherheitsschwachstellen-in-videoueberwachungssoftware-c-mor-syss-2024-020-bis-030"
     ],
     "CVE-2024-45173": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-027.txt"
+      "https://www.syss.de/pentest-blog/mehrere-sicherheitsschwachstellen-in-videoueberwachungssoftware-c-mor-syss-2024-020-bis-030"
     ],
     "CVE-2024-45174": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-023.txt"
+      "https://www.syss.de/pentest-blog/mehrere-sicherheitsschwachstellen-in-videoueberwachungssoftware-c-mor-syss-2024-020-bis-030"
     ],
     "CVE-2024-45175": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-028.txt"
+      "https://www.syss.de/pentest-blog/mehrere-sicherheitsschwachstellen-in-videoueberwachungssoftware-c-mor-syss-2024-020-bis-030"
     ],
     "CVE-2024-45176": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-020.txt"
+      "https://www.syss.de/pentest-blog/mehrere-sicherheitsschwachstellen-in-videoueberwachungssoftware-c-mor-syss-2024-020-bis-030"
     ],
     "CVE-2024-45177": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-021.txt"
+      "https://www.syss.de/pentest-blog/mehrere-sicherheitsschwachstellen-in-videoueberwachungssoftware-c-mor-syss-2024-020-bis-030"
     ],
     "CVE-2024-45178": [
-      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-025.txt"
+      "https://www.syss.de/pentest-blog/mehrere-sicherheitsschwachstellen-in-videoueberwachungssoftware-c-mor-syss-2024-020-bis-030"
     ],
     "CVE-2024-45179": [
       "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-030.txt"
@@ -35816,6 +35822,9 @@
     "CVE-2024-8303": [
       "https://github.com/Xor-Gerke/webray.com.cn/blob/main/cve/dingfanzu-CMS/dingfanzu-CMS%20getBasicInfo.php%20username%20SQL-inject.md"
     ],
+    "CVE-2024-8308": [
+      "https://www.syss.de/pentest-blog/sql-injection-in-siempelkamp-nis-umweltoffice"
+    ],
     "CVE-2024-8320": [
       "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
     ],
@@ -36393,7 +36402,7 @@
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/D-Link/DIR-605L/formEasySetPassword.md"
     ],
     "CVE-2024-9535": [
-      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/D-Link/DIR-605L/formEasySetupWWConfig.md"
+      "https://vuldb.com/?id.279241"
     ],
     "CVE-2024-9537": [
       "https://arcticwolf.com/resources/blog/rackspace-breach-linked-to-zero-day-vulnerability-sciencelogic-sl1s-third-party-utility/"
