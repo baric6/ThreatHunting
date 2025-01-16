@@ -1203,6 +1203,33 @@
     "CVE-2023-0848": [
       "https://vuldb.com/?id.221147"
     ],
+    "CVE-2023-0851": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-0852": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-0853": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-0854": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-0855": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-0856": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-0857": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-0858": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-0859": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
     "CVE-2023-0860": [
       "https://huntr.dev/bounties/64f3ab93-1357-4468-8ff4-52bbcec18cca"
     ],
@@ -6861,6 +6888,9 @@
     "CVE-2023-2795": [
       "https://wpscan.com/vulnerability/2d6ecd21-3dd4-423d-80e7-277c45080a9f"
     ],
+    "CVE-2023-27952": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
     "CVE-2023-2796": [
       "https://wpscan.com/vulnerability/e9ef793c-e5a3-4c55-beee-56b0909f7a0d"
     ],
@@ -12081,6 +12111,9 @@
     "CVE-2023-38702": [
       "https://github.com/KnowageLabs/Knowage-Server/security/advisories/GHSA-7mjh-73q3-c3fc"
     ],
+    "CVE-2023-38709": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
     "CVE-2023-3878": [
       "https://github.com/E1CHO/cve_hub/blob/main/Beauty%20Salon%20Management%20System/Beauty%20Salon%20Management%20System%20-%20vuln%2010.pdf"
     ],
@@ -14874,6 +14907,9 @@
     "CVE-2023-45672": [
       "https://securitylab.github.com/advisories/GHSL-2023-190_Frigate/"
     ],
+    "CVE-2023-45673": [
+      "https://github.com/laurent22/joplin/security/advisories/GHSA-g8qx-5vcm-3x59"
+    ],
     "CVE-2023-4568": [
       "https://www.tenable.com/security/research/tra-2023-31"
     ],
@@ -14990,6 +15026,9 @@
     ],
     "CVE-2023-45898": [
       "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.5.4"
+    ],
+    "CVE-2023-45912": [
+      "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2023-45912"
     ],
     "CVE-2023-4596": [
       "https://www.exploit-db.com/exploits/51664"
@@ -17247,6 +17286,9 @@
     "CVE-2023-50982": [
       "https://rehmeinfosec.de/labor/cve-2023-50982"
     ],
+    "CVE-2023-51006": [
+      "https://github.com/firmianay/security-issues/tree/main/app/cn.etouch.ecalendar"
+    ],
     "CVE-2023-51010": [
       "https://github.com/firmianay/security-issues/tree/main/app/com.sdjictec.qdmetro"
     ],
@@ -17322,14 +17364,23 @@
     "CVE-2023-5105": [
       "https://wpscan.com/vulnerability/d40c7108-bad6-4ed3-8539-35c0f57e62cc"
     ],
+    "CVE-2023-51059": [
+      "https://github.com/sbaresearch/advisories/tree/public/2022/SBA-ADV-20220120-01_MOKOSmart_MKGW1_Gateway_Improper_Session_Management"
+    ],
     "CVE-2023-51062": [
       "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51062.md"
     ],
     "CVE-2023-51063": [
       "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51063.md"
     ],
+    "CVE-2023-51064": [
+      "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51064.md"
+    ],
     "CVE-2023-51066": [
       "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51066.md"
+    ],
+    "CVE-2023-51067": [
+      "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51067.md"
     ],
     "CVE-2023-51068": [
       "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51068.md"
@@ -17355,8 +17406,14 @@
     "CVE-2023-51084": [
       "https://github.com/PoppingSnack/VulReport/issues/12"
     ],
+    "CVE-2023-51090": [
+      "https://github.com/GD008/TENDA/blob/main/M3/getWeiXinConfig/M3_getWeiXinConfig.md"
+    ],
     "CVE-2023-51091": [
       "https://github.com/GD008/TENDA/blob/main/M3/cookie/M3_cookie.md"
+    ],
+    "CVE-2023-51092": [
+      "https://github.com/GD008/TENDA/blob/main/M3/upgrade/M3_upgrade.md"
     ],
     "CVE-2023-51093": [
       "https://github.com/GD008/TENDA/blob/main/M3/setVlanInfo/M3_setVlanInfo.md"
@@ -17373,6 +17430,9 @@
     "CVE-2023-51098": [
       "https://github.com/GD008/TENDA/blob/main/W9/W9_setDiagnoseInfo/W9_setDiagnoseInfo.md"
     ],
+    "CVE-2023-51099": [
+      "https://github.com/GD008/TENDA/blob/main/W9/W9_execommand/W9_execommand.md"
+    ],
     "CVE-2023-51100": [
       "https://github.com/GD008/TENDA/blob/main/W9/W9_getDiagnoseInfo/W9_getDiagnoseInfo.md"
     ],
@@ -17385,11 +17445,23 @@
     "CVE-2023-51123": [
       "https://github.com/WhereisRain/dir-815/blob/main/README.md"
     ],
+    "CVE-2023-51126": [
+      "https://github.com/risuxx/CVE-2023-51126"
+    ],
     "CVE-2023-51141": [
       "https://gist.github.com/ipxsec/1680d29c49fe368be81b037168175b10"
     ],
     "CVE-2023-51142": [
       "https://gist.github.com/ipxsec/b20383620c9e1d5300f7716e62e8a82f"
+    ],
+    "CVE-2023-51146": [
+      "https://github.com/SpikeReply/advisories/blob/main/cve/trendnet/cve-2023-51146.md"
+    ],
+    "CVE-2023-51147": [
+      "https://github.com/SpikeReply/advisories/blob/main/cve/trendnet/cve-2023-51147.md"
+    ],
+    "CVE-2023-51148": [
+      "https://github.com/SpikeReply/advisories/blob/main/cve/trendnet/cve-2023-51148.md"
     ],
     "CVE-2023-5119": [
       "https://wpscan.com/vulnerability/229207bb-8f8d-4579-a8e2-54516474ccb4"
@@ -17408,6 +17480,9 @@
     ],
     "CVE-2023-51257": [
       "https://github.com/jasper-software/jasper/issues/367"
+    ],
+    "CVE-2023-51258": [
+      "https://github.com/hanxuer/crashes/blob/main/yasm/04/readme.md"
     ],
     "CVE-2023-51277": [
       "https://www.youtube.com/watch?v=c0nawqA_bdI"
@@ -17447,6 +17522,9 @@
     ],
     "CVE-2023-51443": [
       "http://packetstormsecurity.com/files/176393/FreeSWITCH-Denial-Of-Service.html"
+    ],
+    "CVE-2023-51444": [
+      "https://github.com/geoserver/geoserver/security/advisories/GHSA-9v5q-2gwq-q9hq"
     ],
     "CVE-2023-51445": [
       "https://github.com/geoserver/geoserver/security/advisories/GHSA-fh7p-5f6g-vj2w"
@@ -17535,6 +17613,12 @@
     "CVE-2023-5167": [
       "https://wpscan.com/vulnerability/78ea6fe0-5fac-4923-949c-023c85fe2437"
     ],
+    "CVE-2023-51698": [
+      "https://github.com/mate-desktop/atril/security/advisories/GHSA-34rr-j8v9-v4p2"
+    ],
+    "CVE-2023-51702": [
+      "https://github.com/apache/airflow/pull/36492"
+    ],
     "CVE-2023-51717": [
       "https://dataiku.com"
     ],
@@ -17571,8 +17655,14 @@
     "CVE-2023-51775": [
       "https://bitbucket.org/b_c/jose4j/issues/212"
     ],
+    "CVE-2023-51790": [
+      "https://github.com/Piwigo/Piwigo/issues/2069"
+    ],
     "CVE-2023-51791": [
       "https://trac.ffmpeg.org/ticket/10738"
+    ],
+    "CVE-2023-51792": [
+      "https://github.com/strukturag/libde265/issues/427"
     ],
     "CVE-2023-51793": [
       "https://trac.ffmpeg.org/ticket/10743"
@@ -17600,6 +17690,9 @@
     ],
     "CVE-2023-51810": [
       "https://github.com/Pastea/CVE-2023-51810"
+    ],
+    "CVE-2023-51813": [
+      "https://github.com/xxxxfang/CVE-Apply/blob/main/csrf-1.md"
     ],
     "CVE-2023-51820": [
       "https://infosec.rm-it.de/2024/02/01/blurams-lumi-security-camera-analysis/"
@@ -18726,6 +18819,24 @@
     "CVE-2023-6222": [
       "https://wpscan.com/vulnerability/df892e99-c0f6-42b8-a834-fc55d1bde130"
     ],
+    "CVE-2023-6229": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-6230": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-6231": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-6232": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-6233": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
+    "CVE-2023-6234": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
     "CVE-2023-6246": [
       "https://www.qualys.com/2024/01/30/cve-2023-6246/syslog.txt"
     ],
@@ -19532,6 +19643,9 @@
     "CVE-2024-0243": [
       "https://huntr.com/bounties/370904e7-10ac-40a4-a8d4-e2d16e1ca861"
     ],
+    "CVE-2024-0244": [
+      "https://www.canon-europe.com/support/product-security-latest-news/"
+    ],
     "CVE-2024-0248": [
       "https://wpscan.com/vulnerability/faf50bc0-64c5-4ccc-a8ac-e73ed44a74df/"
     ],
@@ -20192,6 +20306,9 @@
     "CVE-2024-1022": [
       "https://drive.google.com/file/d/1lPZ1yL9UlU-uB03xz17q4OR9338X_1am/view?usp=sharing"
     ],
+    "CVE-2024-10229": [
+      "https://issues.chromium.org/issues/371011220"
+    ],
     "CVE-2024-1024": [
       "https://vuldb.com/?id.252292"
     ],
@@ -20549,6 +20666,9 @@
     "CVE-2024-10946": [
       "https://wiki.shikangsi.com/post/share/cfb12573-ca11-433d-b9a0-fce47837a1f5"
     ],
+    "CVE-2024-10947": [
+      "https://wiki.shikangsi.com/post/share/9dbc9639-ee9d-4328-9ed2-bc1bfbb2e741"
+    ],
     "CVE-2024-10966": [
       "https://github.com/Dreamy-elfland/240914"
     ],
@@ -20621,14 +20741,47 @@
     "CVE-2024-11051": [
       "https://wiki.shikangsi.com/post/share/ab8e6804-5c8e-442b-8a37-c6b376bcc86f"
     ],
+    "CVE-2024-11055": [
+      "https://github.com/Hacker0xone/CVE/issues/3"
+    ],
+    "CVE-2024-11057": [
+      "https://github.com/Hacker0xone/CVE/issues/4"
+    ],
+    "CVE-2024-11058": [
+      "https://github.com/EmilGallajov/zero-day/blob/main/codeastro_real_estate_ms_sqli.md"
+    ],
     "CVE-2024-1106": [
       "https://wpscan.com/vulnerability/0672f8af-33e2-459c-ac8a-7351247a8a26/"
     ],
     "CVE-2024-11073": [
       "https://vuldb.com/?submit.440799"
     ],
+    "CVE-2024-11074": [
+      "https://github.com/dimongshi/cve/issues/1"
+    ],
     "CVE-2024-11075": [
       "https://www.first.org/cvss/calculator/3.1"
+    ],
+    "CVE-2024-11076": [
+      "https://github.com/UnrealdDei/cve/blob/main/sql2-rce.md"
+    ],
+    "CVE-2024-11077": [
+      "https://github.com/UnrealdDei/cve/blob/main/sql3.md"
+    ],
+    "CVE-2024-11078": [
+      "https://github.com/UnrealdDei/cve/blob/main/xss.md"
+    ],
+    "CVE-2024-11096": [
+      "https://github.com/UnrealdDei/cve/blob/main/sql4.md"
+    ],
+    "CVE-2024-11099": [
+      "https://github.com/Kenton868/CVE/blob/main/sqlInjection1.md"
+    ],
+    "CVE-2024-11100": [
+      "https://github.com/Hacker0xone/CVE/issues/6"
+    ],
+    "CVE-2024-11101": [
+      "https://github.com/Hacker0xone/CVE/issues/7"
     ],
     "CVE-2024-11102": [
       "https://vuldb.com/?submit.441694"
@@ -20651,6 +20804,12 @@
     "CVE-2024-11123": [
       "https://wiki.shikangsi.com/post/share/39d736ad-73d1-49cd-a97f-59f396a58626"
     ],
+    "CVE-2024-11125": [
+      "https://github.com/Zeynalxan/zero-day/blob/main/GetSimpleCMS-CVE.md"
+    ],
+    "CVE-2024-11127": [
+      "https://github.com/ljllll123/cve/blob/main/sql-1.md"
+    ],
     "CVE-2024-1114": [
       "https://vuldb.com/?id.252472"
     ],
@@ -20660,20 +20819,68 @@
     "CVE-2024-11184": [
       "https://wpscan.com/vulnerability/fc982bcb-9974-481f-aef4-580ae9edc3c8/"
     ],
+    "CVE-2024-11207": [
+      "https://gist.github.com/0xArthurSouza/68295d8fa20f18161945260fcdf842a2"
+    ],
+    "CVE-2024-11208": [
+      "https://gist.github.com/0xArthurSouza/ce3b89887b03cc899d5e8cb6e472b04e"
+    ],
+    "CVE-2024-11209": [
+      "https://gist.github.com/0xArthurSouza/281e8ea8a797abc8371a8ced31dc5562"
+    ],
+    "CVE-2024-11213": [
+      "https://github.com/sh3rl0ckpggp/0day/blob/main/authenticated_sqli_Employee_management_system.md"
+    ],
+    "CVE-2024-11214": [
+      "https://github.com/sh3rl0ckpggp/0day/blob/main/Employee_management%20_system_RCE.md"
+    ],
     "CVE-2024-11223": [
       "https://wpscan.com/vulnerability/82989909-9745-4c9a-abc7-c1adf8c2b047/"
+    ],
+    "CVE-2024-11233": [
+      "https://github.com/php/php-src/security/advisories/GHSA-r977-prxv-hc43"
+    ],
+    "CVE-2024-11234": [
+      "https://github.com/php/php-src/security/advisories/GHSA-c5f2-jwm7-mmq2"
+    ],
+    "CVE-2024-11237": [
+      "https://github.com/Zephkek/TP-Thumper/blob/main/poc.c"
     ],
     "CVE-2024-11240": [
       "https://docs.google.com/document/d/1_kk14QhqJuqMGzAD_SUlOSvCGwYdeF4gI8m7mVTPBAQ/edit?usp=sharing"
     ],
+    "CVE-2024-11241": [
+      "https://github.com/Anti-Entropy-Zhurong/cve/blob/main/sql-1.md"
+    ],
+    "CVE-2024-11242": [
+      "https://github.com/En0t5/vul/blob/main/zzcms/zzcms-add_list-sql-inject.md"
+    ],
     "CVE-2024-11243": [
       "https://youtu.be/QThAqddl5Dk"
+    ],
+    "CVE-2024-11244": [
+      "https://github.com/zsx020121/cve/blob/main/sql.md"
+    ],
+    "CVE-2024-11245": [
+      "https://github.com/WEFNNTT/cve/blob/main/sql.md"
+    ],
+    "CVE-2024-11246": [
+      "https://github.com/curry136/cve/blob/main/xss8.md"
+    ],
+    "CVE-2024-11247": [
+      "https://github.com/Fl4g-Pshacker/cve/blob/main/xss.md"
+    ],
+    "CVE-2024-11256": [
+      "https://github.com/Hacker0xone/CVE/issues/8"
     ],
     "CVE-2024-11257": [
       "https://github.com/Hacker0xone/CVE/issues/10"
     ],
     "CVE-2024-11258": [
       "https://github.com/Hacker0xone/CVE/issues/11"
+    ],
+    "CVE-2024-11259": [
+      "https://github.com/13u11erFly/cve/blob/main/xss.md"
     ],
     "CVE-2024-11261": [
       "https://github.com/Hacker0xone/CVE/issues/12"
@@ -20711,6 +20918,33 @@
     "CVE-2024-11422": [
       "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
     ],
+    "CVE-2024-11488": [
+      "https://github.com/Hebing123/cve/issues/70"
+    ],
+    "CVE-2024-11489": [
+      "https://github.com/Hebing123/cve/issues/70"
+    ],
+    "CVE-2024-11490": [
+      "https://github.com/Hebing123/cve/issues/70"
+    ],
+    "CVE-2024-11491": [
+      "https://github.com/Hebing123/cve/issues/70"
+    ],
+    "CVE-2024-11492": [
+      "https://github.com/Hebing123/cve/issues/70"
+    ],
+    "CVE-2024-11493": [
+      "https://github.com/Hebing123/cve/issues/70"
+    ],
+    "CVE-2024-11587": [
+      "https://github.com/Hebing123/cve/issues/75"
+    ],
+    "CVE-2024-11589": [
+      "https://github.com/kevin27392/cve/issues/1"
+    ],
+    "CVE-2024-11590": [
+      "https://github.com/1ighttack/CVE/issues/1"
+    ],
     "CVE-2024-11591": [
       "https://github.com/Hacker0xone/CVE/issues/14"
     ],
@@ -20729,6 +20963,15 @@
     "CVE-2024-1163": [
       "https://huntr.com/bounties/c1cbc18b-e4ab-4332-ad13-0033f0f976f5"
     ],
+    "CVE-2024-11630": [
+      "https://github.com/I3eg1nner/iot-vuln/blob/main/E-lins/Hard-Coded%20Credential%20Vulnerability%20in%20E-Lins%20Routers.md"
+    ],
+    "CVE-2024-11631": [
+      "https://github.com/sil3n/cve/issues/1"
+    ],
+    "CVE-2024-11632": [
+      "https://github.com/sil3n/cve/issues/2"
+    ],
     "CVE-2024-11636": [
       "https://wpscan.com/vulnerability/da616c20-3d74-4d3a-95f5-2d71d9ada094/"
     ],
@@ -20738,8 +20981,38 @@
     "CVE-2024-11645": [
       "https://wpscan.com/vulnerability/7771a76b-bc8c-426f-a125-5bd74ccf2845/"
     ],
+    "CVE-2024-11646": [
+      "https://github.com/ppp-src/CVE/issues/33"
+    ],
+    "CVE-2024-11647": [
+      "https://github.com/ppp-src/CVE/issues/34"
+    ],
+    "CVE-2024-11648": [
+      "https://github.com/Calmgh/CVE/issues/1"
+    ],
+    "CVE-2024-11649": [
+      "https://github.com/zgaz/CVE/issues/1"
+    ],
+    "CVE-2024-11650": [
+      "https://github.com/xiaobor123/tenda-vul-i9"
+    ],
+    "CVE-2024-11660": [
+      "https://github.com/evo-ose/cve/blob/main/xss9.md"
+    ],
+    "CVE-2024-11661": [
+      "https://github.com/anqi12301/CVE/issues/1"
+    ],
+    "CVE-2024-11663": [
+      "https://github.com/disinroot/CVE/issues/1"
+    ],
+    "CVE-2024-11664": [
+      "https://github.com/eNMS-automation/eNMS/pull/419/commits/22b0b443acca740fc83b5544165c1f53eff3f529"
+    ],
     "CVE-2024-11673": [
       "https://github.com/Hacker0xone/CVE/issues/16"
+    ],
+    "CVE-2024-11674": [
+      "https://github.com/EmilGallajov/zero-day/blob/main/codeastro_hms_rce.md"
     ],
     "CVE-2024-11675": [
       "https://www.youtube.com/watch?v=UsScmd8Xzuw"
@@ -20749,6 +21022,39 @@
     ],
     "CVE-2024-11677": [
       "https://www.youtube.com/watch?v=UsScmd8Xzuw"
+    ],
+    "CVE-2024-11678": [
+      "https://github.com/EmilGallajov/zero-day/blob/main/codeastro_hms_stored_xss.md"
+    ],
+    "CVE-2024-11681": [
+      "https://github.com/google/security-research/security/advisories/GHSA-2j38-pjh8-wfxw"
+    ],
+    "CVE-2024-11716": [
+      "https://seclists.org/fulldisclosure/2024/Dec/21"
+    ],
+    "CVE-2024-11717": [
+      "https://seclists.org/fulldisclosure/2024/Dec/21"
+    ],
+    "CVE-2024-11742": [
+      "https://github.com/YasserREED/YasserREED-CVEs/blob/main/Best%20house%20rental%20management%20system%20project%20in%20php/Stored%20Cross-Site%20Scripting%20(XSS).md"
+    ],
+    "CVE-2024-11743": [
+      "https://github.com/YasserREED/YasserREED-CVEs/blob/main/Best%20house%20rental%20management%20system%20project%20in%20php/Cross-Site%20Request%20Forgery%20(CSRF).md"
+    ],
+    "CVE-2024-11744": [
+      "https://github.com/zdwf-klm/CVE/issues/1"
+    ],
+    "CVE-2024-11817": [
+      "https://github.com/wackymaker/CVE/issues/1"
+    ],
+    "CVE-2024-11818": [
+      "https://github.com/wackymaker/CVE/issues/3"
+    ],
+    "CVE-2024-11819": [
+      "https://github.com/wackymaker/CVE/issues/2"
+    ],
+    "CVE-2024-11820": [
+      "https://github.com/xiaobai19198/cve/blob/main/xss.md"
     ],
     "CVE-2024-1184": [
       "https://fitoxs.com/vuldb/10-exploit-perl.txt"
@@ -20772,7 +21078,7 @@
       "https://www.exploit-db.com/exploits/45884"
     ],
     "CVE-2024-11860": [
-      "https://drive.google.com/file/d/1CyjtknGVqn5QO_R1WZX-hoGH8ae5DjRq/view"
+      "https://github.com/YasserREED/YasserREED-CVEs/blob/main/Best%20house%20rental%20management%20system%20project%20in%20php/Unauthorized%20Tenant%20Deletion.md"
     ],
     "CVE-2024-1187": [
       "https://fitoxs.com/vuldb/13-exploit-perl.txt"
@@ -20792,11 +21098,53 @@
     "CVE-2024-1195": [
       "https://vuldb.com/?id.252685"
     ],
+    "CVE-2024-11959": [
+      "https://github.com/offshore0315/loT-vulnerable/blob/main/D-Link/formResetStatistic.md"
+    ],
+    "CVE-2024-11960": [
+      "https://github.com/offshore0315/loT-vulnerable/blob/main/D-Link/formSetPortTr.md"
+    ],
+    "CVE-2024-11962": [
+      "https://github.com/w0r1dtr33/cve/issues/1"
+    ],
+    "CVE-2024-11963": [
+      "https://github.com/w0r1dtr33/cve/issues/2"
+    ],
+    "CVE-2024-11964": [
+      "https://github.com/Aurora0x1/CVE/issues/1"
+    ],
+    "CVE-2024-11965": [
+      "https://github.com/Aurora0x1/CVE/issues/2"
+    ],
+    "CVE-2024-11966": [
+      "https://github.com/Aurora0x1/CVE/issues/3"
+    ],
+    "CVE-2024-11967": [
+      "https://github.com/Aurora0x1/CVE/issues/4"
+    ],
+    "CVE-2024-11968": [
+      "https://github.com/xiaobai19198/cve/blob/main/sql-cve.md"
+    ],
     "CVE-2024-1197": [
       "https://vuldb.com/?id.252695"
     ],
+    "CVE-2024-11970": [
+      "https://github.com/halhalz/1/issues/1"
+    ],
     "CVE-2024-11972": [
       "https://wpscan.com/vulnerability/4963560b-e4ae-451d-8f94-482779c415e4/"
+    ],
+    "CVE-2024-11995": [
+      "https://github.com/5p4rk/cve/blob/main/xss.md"
+    ],
+    "CVE-2024-11996": [
+      "https://github.com/jaychou8023/cve/blob/main/xss1.md"
+    ],
+    "CVE-2024-11997": [
+      "https://github.com/jaychou8023/cve/blob/main/xss2.md"
+    ],
+    "CVE-2024-11998": [
+      "https://github.com/jaychou8023/cve/blob/main/sql1.md"
     ],
     "CVE-2024-12000": [
       "https://github.com/jaychou8023/cve/blob/main/xss3.md"
@@ -21640,6 +21988,9 @@
     ],
     "CVE-2024-20039": [
       "https://corp.mediatek.com/product-security-bulletin/April-2024"
+    ],
+    "CVE-2024-2004": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
     ],
     "CVE-2024-20040": [
       "https://corp.mediatek.com/product-security-bulletin/April-2024"
@@ -23270,6 +23621,9 @@
     "CVE-2024-23767": [
       "https://sensepost.com/blog/2024/targeting-an-industrial-protocol-gateway/"
     ],
+    "CVE-2024-2379": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
     "CVE-2024-23817": [
       "https://github.com/Dolibarr/dolibarr/security/advisories/GHSA-7947-48q7-cp5m"
     ],
@@ -23317,6 +23671,9 @@
     ],
     "CVE-2024-23940": [
       "https://medium.com/@s1kr10s/av-when-a-friend-becomes-an-enemy-55f41aba42b1"
+    ],
+    "CVE-2024-2398": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
     ],
     "CVE-2024-23983": [
       "https://docs.pingidentity.com/pingaccess/latest/release_notes/pa_811_rn.html"
@@ -23707,6 +24064,9 @@
     ],
     "CVE-2024-24578": [
       "https://github.com/jens-maus/RaspberryMatic/security/advisories/GHSA-q967-q4j8-637h"
+    ],
+    "CVE-2024-2466": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
     ],
     "CVE-2024-24692": [
       "https://www.zoom.com/en/trust/security-bulletin/zsb-24009/"
@@ -24977,6 +25337,9 @@
     "CVE-2024-27302": [
       "https://github.com/zeromicro/go-zero/security/advisories/GHSA-fgxv-gw55-r5fq"
     ],
+    "CVE-2024-27316": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
     "CVE-2024-27318": [
       "https://security.snyk.io/vuln/SNYK-PYTHON-ONNX-2395479"
     ],
@@ -25210,6 +25573,39 @@
     ],
     "CVE-2024-27766": [
       "https://github.com/Ant1sec-ops/CVE-2024-27766"
+    ],
+    "CVE-2024-27826": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-27862": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-27863": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-27871": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-27872": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-27873": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-27877": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-27878": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-27881": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-27882": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-27883": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
     ],
     "CVE-2024-27916": [
       "https://github.com/stacklok/minder/security/advisories/GHSA-v627-69v2-xx37"
@@ -30263,8 +30659,155 @@
     "CVE-2024-40767": [
       "https://launchpad.net/bugs/2071734"
     ],
+    "CVE-2024-40774": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40775": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40776": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-40777": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40778": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-40779": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-40780": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-40781": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40782": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40783": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40784": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40785": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40786": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40787": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40788": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40789": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40793": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40794": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-40795": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40796": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40798": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40799": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
     "CVE-2024-40800": [
       "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-2010"
+    ],
+    "CVE-2024-40802": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40803": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40804": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-40805": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40806": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40807": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40809": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40811": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-40812": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40813": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40814": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-40815": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40816": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40817": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40818": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40821": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40822": [
+      "http://seclists.org/fulldisclosure/2024/Jul/16"
+    ],
+    "CVE-2024-40823": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40824": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-40827": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40828": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40829": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40832": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
+    ],
+    "CVE-2024-40833": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40834": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40835": [
+      "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-40836": [
+      "http://seclists.org/fulldisclosure/2024/Jul/18"
     ],
     "CVE-2024-40892": [
       "https://www.labs.greynoise.io/grimoire/2024-08-20-bluuid-firewalla/"
@@ -30592,6 +31135,9 @@
     ],
     "CVE-2024-41622": [
       "https://github.com/yali-1002/some-poc/blob/main/CVE-2024-41622"
+    ],
+    "CVE-2024-41629": [
+      "https://seclists.org/fulldisclosure/2024/Sep/1"
     ],
     "CVE-2024-41637": [
       "https://blog.0xzon.dev/2024-07-27-CVE-2024-41637/"
@@ -32696,6 +33242,18 @@
     "CVE-2024-50848": [
       "https://github.com/Wh1teSnak3/CVE-2024-50848"
     ],
+    "CVE-2024-50857": [
+      "https://github.com/maxibelino/CVEs/tree/main/CVE-2024-50857"
+    ],
+    "CVE-2024-50858": [
+      "https://github.com/maxibelino/CVEs/tree/main/CVE-2024-50858"
+    ],
+    "CVE-2024-50859": [
+      "https://github.com/maxibelino/CVEs/tree/main/CVE-2024-50859"
+    ],
+    "CVE-2024-50861": [
+      "https://github.com/maxibelino/CVEs/tree/main/CVE-2024-50861"
+    ],
     "CVE-2024-5093": [
       "https://github.com/BurakSevben/CVEs/blob/main/House%20Rental%20Management%20System/House%20Rental%20Management%20System%20-%20Authentication%20Bypass.md"
     ],
@@ -33170,8 +33728,14 @@
     "CVE-2024-5499": [
       "https://issues.chromium.org/issues/339877167"
     ],
+    "CVE-2024-54994": [
+      "https://github.com/p314dO/CVEs/tree/main/CVE-2024-54994"
+    ],
     "CVE-2024-54996": [
       "https://github.com/p314dO/CVEs/tree/main/CVE-2024-54996"
+    ],
+    "CVE-2024-54997": [
+      "https://github.com/p314dO/CVEs/tree/main/CVE-2024-54997"
     ],
     "CVE-2024-54998": [
       "https://github.com/p314dO/CVEs/tree/main/CVE-2024-54998"
@@ -36091,6 +36655,9 @@
     ],
     "CVE-2024-8925": [
       "https://github.com/php/php-src/security/advisories/GHSA-9pqp-7h25-4f32"
+    ],
+    "CVE-2024-8929": [
+      "https://github.com/php/php-src/security/advisories/GHSA-h35g-vwh6-m678"
     ],
     "CVE-2024-8944": [
       "https://github.com/65241/cve/issues/1"
