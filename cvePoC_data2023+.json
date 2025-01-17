@@ -4296,6 +4296,15 @@
     "CVE-2023-2401": [
       "https://wpscan.com/vulnerability/0746ea56-dd88-4fc3-86a3-54408eef1f94"
     ],
+    "CVE-2023-24010": [
+      "https://gist.github.com/vmayoral/235c02d0b0ef85a29812eff6980ff80d"
+    ],
+    "CVE-2023-24011": [
+      "https://gist.github.com/vmayoral/235c02d0b0ef85a29812eff6980ff80d"
+    ],
+    "CVE-2023-24012": [
+      "https://gist.github.com/vmayoral/235c02d0b0ef85a29812eff6980ff80d"
+    ],
     "CVE-2023-24018": [
       "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1715"
     ],
@@ -17379,6 +17388,9 @@
     "CVE-2023-51064": [
       "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51064.md"
     ],
+    "CVE-2023-51065": [
+      "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51065.md"
+    ],
     "CVE-2023-51066": [
       "https://github.com/Oracle-Security/CVEs/blob/main/QStar%20Archive%20Solutions/CVE-2023-51066.md"
     ],
@@ -17480,6 +17492,9 @@
     ],
     "CVE-2023-51252": [
       "https://github.com/sanluan/PublicCMS/issues/79"
+    ],
+    "CVE-2023-51254": [
+      "https://github.com/yukino-hiki/CVE/blob/main/4/There%20is%20a%20stored%20xss%20at%20the%20friendship%20link.md"
     ],
     "CVE-2023-51257": [
       "https://github.com/jasper-software/jasper/issues/367"
@@ -32216,14 +32231,44 @@
     "CVE-2024-45038": [
       "https://github.com/meshtastic/firmware/security/advisories/GHSA-3x3r-vw9f-pxq5"
     ],
+    "CVE-2024-45039": [
+      "https://github.com/Consensys/gnark/security/advisories/GHSA-q3hw-3gm4-w5cr"
+    ],
+    "CVE-2024-45040": [
+      "https://github.com/Consensys/gnark/security/advisories/GHSA-9xcg-3q8v-7fq6"
+    ],
     "CVE-2024-45041": [
       "https://github.com/external-secrets/external-secrets/security/advisories/GHSA-qwgc-rr35-h4x9"
+    ],
+    "CVE-2024-45043": [
+      "https://github.com/open-telemetry/opentelemetry-collector-contrib/security/advisories/GHSA-prf6-xjxh-p698"
+    ],
+    "CVE-2024-45046": [
+      "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-wgmf-q9vr-vww6"
+    ],
+    "CVE-2024-45047": [
+      "https://github.com/sveltejs/svelte/security/advisories/GHSA-8266-84wp-wv5c"
+    ],
+    "CVE-2024-45048": [
+      "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-ghg6-32f9-2jp7"
+    ],
+    "CVE-2024-45052": [
+      "https://github.com/ethyca/fides/security/advisories/GHSA-2h46-8gf5-fmxv"
+    ],
+    "CVE-2024-45053": [
+      "https://github.com/ethyca/fides/security/advisories/GHSA-c34r-238x-f7qx"
     ],
     "CVE-2024-45054": [
       "https://github.com/hwameistor/hwameistor/issues/1460"
     ],
+    "CVE-2024-45057": [
+      "https://github.com/portabilis/i-educar/security/advisories/GHSA-fqwh-c3c8-7gwj"
+    ],
     "CVE-2024-45058": [
       "https://github.com/portabilis/i-educar/security/advisories/GHSA-53vj-fq8x-2mvg"
+    ],
+    "CVE-2024-45059": [
+      "https://github.com/portabilis/i-educar/security/advisories/GHSA-2v4w-7xqr-hxmr"
     ],
     "CVE-2024-45060": [
       "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-v66g-p9x6-v98p"
@@ -32297,8 +32342,14 @@
     "CVE-2024-45190": [
       "https://research.jfrog.com/vulnerabilities/mage-ai-pipeline-interaction-request-remote-arbitrary-file-leak-jfsa-2024-001039605/"
     ],
+    "CVE-2024-45200": [
+      "https://github.com/latte-soft/kartlanpwn"
+    ],
     "CVE-2024-45256": [
       "https://github.com/chebuya/exploits/tree/main/BYOB-RCE"
+    ],
+    "CVE-2024-45258": [
+      "https://github.com/imroc/req/commit/04e3ece5b380ecad9da3551c449f1b8a9aa76d3d"
     ],
     "CVE-2024-4528": [
       "https://github.com/yylmm/CVE/blob/main/Prison%20Management%20System/xss2.md"
@@ -32312,14 +32363,35 @@
     "CVE-2024-45291": [
       "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-w9xv-qf98-ccq4"
     ],
+    "CVE-2024-45292": [
+      "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-r8w8-74ww-j4wh"
+    ],
     "CVE-2024-45293": [
       "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-6hwr-6v2f-3m88"
+    ],
+    "CVE-2024-45298": [
+      "https://github.com/requarks/wiki/security/advisories/GHSA-vwww-c5vg-xgfc"
+    ],
+    "CVE-2024-45299": [
+      "https://github.com/alfio-event/alf.io/security/advisories/GHSA-mcx6-25f8-8rqw"
     ],
     "CVE-2024-4530": [
       "https://wpscan.com/vulnerability/952f6b5c-7728-4c87-8826-6b493f51a979/"
     ],
+    "CVE-2024-45300": [
+      "https://github.com/alfio-event/alf.io/security/advisories/GHSA-67jg-m6f3-473g"
+    ],
+    "CVE-2024-45302": [
+      "https://github.com/restsharp/RestSharp/security/advisories/GHSA-4rr6-2v9v-wcpc"
+    ],
     "CVE-2024-45305": [
       "https://github.com/Byron/gitoxide/security/advisories/GHSA-v26r-4c9c-h3j6"
+    ],
+    "CVE-2024-45306": [
+      "https://github.com/vim/vim/security/advisories/GHSA-wxf9-c5gx-qrwr"
+    ],
+    "CVE-2024-45308": [
+      "https://github.com/hedgedoc/hedgedoc/security/advisories/GHSA-pjf2-269h-cx7p"
     ],
     "CVE-2024-4531": [
       "https://wpscan.com/vulnerability/18c1b3bb-9998-416f-a972-c4a51643579c/"
@@ -32345,11 +32417,20 @@
     "CVE-2024-45389": [
       "https://github.com/webpack/webpack/security/advisories/GHSA-4vvj-4cpr-p986"
     ],
+    "CVE-2024-45405": [
+      "https://github.com/Byron/gitoxide/security/advisories/GHSA-m8rp-vv92-46c7"
+    ],
     "CVE-2024-45406": [
       "https://github.com/craftcms/cms/security/advisories/GHSA-28h4-788g-rh42"
     ],
+    "CVE-2024-45410": [
+      "https://github.com/traefik/traefik/security/advisories/GHSA-62c8-mh53-4cqv"
+    ],
     "CVE-2024-4542": [
       "https://wpscan.com/vulnerability/9eef8b29-2c62-4daa-ae90-467ff9be18d8/"
+    ],
+    "CVE-2024-45435": [
+      "https://gist.github.com/tariqhawis/c67177164d3b7975210caddb25b60d62"
     ],
     "CVE-2024-4547": [
       "https://www.tenable.com/security/research/tra-2024-13"
@@ -32366,11 +32447,20 @@
     "CVE-2024-45508": [
       "https://github.com/michaelrsweet/htmldoc/issues/528"
     ],
+    "CVE-2024-45527": [
+      "https://github.com/ShellFighter/Reports/blob/main/Vanderbilt%20REDCap%2014.7.0.md"
+    ],
     "CVE-2024-4558": [
       "https://issues.chromium.org/issues/337766133"
     ],
     "CVE-2024-45589": [
       "https://benrogozinski.github.io/CVE-2024-45589/"
+    ],
+    "CVE-2024-45592": [
+      "https://github.com/DamienHarper/auditor-bundle/security/advisories/GHSA-78vg-7v27-hj67"
+    ],
+    "CVE-2024-45596": [
+      "https://github.com/directus/directus/security/advisories/GHSA-cff8-x7jv-4fm8"
     ],
     "CVE-2024-45622": [
       "https://github.com/atoz-chevara/cve/blob/main/2024/ASIS_AplikasiSistemSekolah_Using_CodeIgniter3-SQL_Injection_Authentication_Bypass.md"
@@ -32393,6 +32483,18 @@
     "CVE-2024-45794": [
       "https://github.com/devtron-labs/devtron/security/advisories/GHSA-q78v-cv36-8fxj"
     ],
+    "CVE-2024-45798": [
+      "https://github.com/espressif/arduino-esp32/security/advisories/GHSA-h52q-xhg2-6jw8"
+    ],
+    "CVE-2024-45803": [
+      "https://github.com/wireui/wireui/security/advisories/GHSA-rw5h-g8xq-6877"
+    ],
+    "CVE-2024-45805": [
+      "https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-42mm-c8x3-g5q6"
+    ],
+    "CVE-2024-45806": [
+      "https://github.com/envoyproxy/envoy/security/advisories/GHSA-ffhv-fvxq-r6mf"
+    ],
     "CVE-2024-45808": [
       "https://github.com/envoyproxy/envoy/security/advisories/GHSA-p222-xhp9-39rc"
     ],
@@ -32401,6 +32503,9 @@
     ],
     "CVE-2024-45811": [
       "https://github.com/vitejs/vite/security/advisories/GHSA-9cwx-2883-4wfx"
+    ],
+    "CVE-2024-45812": [
+      "https://github.com/webpack/webpack/security/advisories/GHSA-4vvj-4cpr-p986"
     ],
     "CVE-2024-4585": [
       "https://github.com/Hckwzh/cms/blob/main/16.md"
@@ -32471,11 +32576,26 @@
     "CVE-2024-45979": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-45979"
     ],
+    "CVE-2024-45981": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-45981"
+    ],
     "CVE-2024-45982": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-45982"
     ],
+    "CVE-2024-45983": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-45983"
+    ],
     "CVE-2024-45984": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-45984"
+    ],
+    "CVE-2024-45986": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-45986"
+    ],
+    "CVE-2024-45987": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-45987"
+    ],
+    "CVE-2024-45989": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-45989"
     ],
     "CVE-2024-4602": [
       "https://wpscan.com/vulnerability/bc15bac7-8241-472a-a7c1-58070714501d/"
