@@ -20327,6 +20327,9 @@
     "CVE-2024-10229": [
       "https://issues.chromium.org/issues/371011220"
     ],
+    "CVE-2024-10230": [
+      "https://issues.chromium.org/issues/371565065"
+    ],
     "CVE-2024-1024": [
       "https://vuldb.com/?id.252292"
     ],
@@ -32498,6 +32501,9 @@
     "CVE-2024-45808": [
       "https://github.com/envoyproxy/envoy/security/advisories/GHSA-p222-xhp9-39rc"
     ],
+    "CVE-2024-45809": [
+      "https://github.com/envoyproxy/envoy/security/advisories/GHSA-wqr5-qmq7-3qw3"
+    ],
     "CVE-2024-45810": [
       "https://github.com/envoyproxy/envoy/security/advisories/GHSA-qm74-x36m-555q"
     ],
@@ -32576,6 +32582,9 @@
     "CVE-2024-45979": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-45979"
     ],
+    "CVE-2024-45980": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-45980"
+    ],
     "CVE-2024-45981": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-45981"
     ],
@@ -32587,6 +32596,9 @@
     ],
     "CVE-2024-45984": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-45984"
+    ],
+    "CVE-2024-45985": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-45985"
     ],
     "CVE-2024-45986": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-45986"
@@ -33460,6 +33472,9 @@
     ],
     "CVE-2024-50966": [
       "https://github.com/evenomn/YangYiWen/tree/main/11"
+    ],
+    "CVE-2024-50967": [
+      "https://medium.com/@0xbytehunter/my-first-cve-discovery-of-broken-access-control-in-the-datagerry-platform-7b0404f88a43"
     ],
     "CVE-2024-5097": [
       "https://github.com/rockersiyuan/CVE/blob/main/SourceCodester%20Simple%20Inventory%20System%20CSRF.md"
