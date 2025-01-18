@@ -19062,6 +19062,9 @@
     "CVE-2023-6532": [
       "https://wpscan.com/vulnerability/05a730bc-2d72-49e3-a608-e4390b19e97f"
     ],
+    "CVE-2023-6533": [
+      "https://community.silabs.com/068Vm000001HdNm"
+    ],
     "CVE-2023-6553": [
       "https://www.synacktiv.com/en/publications/php-filters-chain-what-is-it-and-how-to-use-it"
     ],
@@ -19133,6 +19136,9 @@
     ],
     "CVE-2023-6633": [
       "https://wpscan.com/vulnerability/eb983d82-b894-41c5-b51f-94d4bba3ba39/"
+    ],
+    "CVE-2023-6640": [
+      "https://community.silabs.com/068Vm000001HdNm"
     ],
     "CVE-2023-6651": [
       "https://vuldb.com/?id.247344"
@@ -37123,6 +37129,9 @@
     ],
     "CVE-2024-9011": [
       "https://github.com/ppp-src/a/issues/14"
+    ],
+    "CVE-2024-9020": [
+      "https://wpscan.com/vulnerability/6caa4e5d-8112-4d00-8e97-b41df611a071/"
     ],
     "CVE-2024-9021": [
       "https://wpscan.com/vulnerability/5f25646d-b80b-40b1-bcaf-3b860ddc4059/"
