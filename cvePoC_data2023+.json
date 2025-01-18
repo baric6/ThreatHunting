@@ -20336,6 +20336,9 @@
     "CVE-2024-10230": [
       "https://issues.chromium.org/issues/371565065"
     ],
+    "CVE-2024-10231": [
+      "https://issues.chromium.org/issues/372269618"
+    ],
     "CVE-2024-1024": [
       "https://vuldb.com/?id.252292"
     ],
