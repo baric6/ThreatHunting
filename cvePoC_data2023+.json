@@ -33866,6 +33866,9 @@
     "CVE-2024-5287": [
       "https://wpscan.com/vulnerability/b4fd535c-a273-419d-9e2e-be1cbd822793/"
     ],
+    "CVE-2024-52870": [
+      "https://chrismanson.com/CVE/cve-2024-52870.html"
+    ],
     "CVE-2024-5290": [
       "https://snyk.io/blog/abusing-ubuntu-root-privilege-escalation/"
     ],
@@ -34432,6 +34435,12 @@
     ],
     "CVE-2024-5737": [
       "https://github.com/sectroyer/CVEs/tree/main/CVE-2024-5737"
+    ],
+    "CVE-2024-57370": [
+      "https://royblume.github.io/CVE-2024-57370/"
+    ],
+    "CVE-2024-57372": [
+      "https://royblume.github.io/CVE-2024-57372/"
     ],
     "CVE-2024-5744": [
       "https://wpscan.com/vulnerability/ba50e25c-7250-4025-a72f-74f8eb756246/"
