@@ -37334,6 +37334,9 @@
     "CVE-2024-9320": [
       "https://github.com/zz0zz0/CVE/blob/main/Online%20Timesheet%20App%20--XSS/Online%20Timesheet%20App%20--XSS.md"
     ],
+    "CVE-2024-9324": [
+      "https://vuldb.com/?submit.375614"
+    ],
     "CVE-2024-9327": [
       "https://github.com/Lynn1236-cell/cve1/blob/main/sql3.md"
     ],
