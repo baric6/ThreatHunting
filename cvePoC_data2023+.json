@@ -13047,6 +13047,9 @@
     "CVE-2023-40610": [
       "https://github.com/orangecertcc/security-research/security/advisories/GHSA-f678-j579-4xf5"
     ],
+    "CVE-2023-40617": [
+      "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-40617"
+    ],
     "CVE-2023-40660": [
       "https://github.com/OpenSC/OpenSC/issues/2792#issuecomment-1674806651"
     ],
