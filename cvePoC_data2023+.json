@@ -19569,6 +19569,9 @@
     "CVE-2023-7208": [
       "https://github.com/unpWn4bL3/iot-security/blob/main/13.md"
     ],
+    "CVE-2023-7210": [
+      "https://vuldb.com/?id.249765"
+    ],
     "CVE-2023-7211": [
       "https://vuldb.com/?id.249766"
     ],
@@ -37351,6 +37354,9 @@
     ],
     "CVE-2024-9360": [
       "https://github.com/halhalz/-/issues/1"
+    ],
+    "CVE-2024-9387": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/496659"
     ],
     "CVE-2024-9422": [
       "https://wpscan.com/vulnerability/81320923-767c-43f0-a8eb-b398c306c16f/"
