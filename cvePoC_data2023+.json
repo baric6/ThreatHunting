@@ -32801,6 +32801,9 @@
     "CVE-2024-47191": [
       "https://gitlab.com/oath-toolkit/oath-toolkit/-/issues/43"
     ],
+    "CVE-2024-4720": [
+      "https://vuldb.com/?id.263798"
+    ],
     "CVE-2024-47226": [
       "https://github.com/tu3n4nh/netbox/issues/1"
     ],
@@ -33385,6 +33388,24 @@
     ],
     "CVE-2024-5051": [
       "https://vuldb.com/?id.264748"
+    ],
+    "CVE-2024-50557": [
+      "https://cert-portal.siemens.com/productcert/html/ssa-354112.html"
+    ],
+    "CVE-2024-50558": [
+      "https://cert-portal.siemens.com/productcert/html/ssa-354112.html"
+    ],
+    "CVE-2024-50559": [
+      "https://cert-portal.siemens.com/productcert/html/ssa-354112.html"
+    ],
+    "CVE-2024-50560": [
+      "https://cert-portal.siemens.com/productcert/html/ssa-354112.html"
+    ],
+    "CVE-2024-50561": [
+      "https://cert-portal.siemens.com/productcert/html/ssa-354112.html"
+    ],
+    "CVE-2024-50572": [
+      "https://cert-portal.siemens.com/productcert/html/ssa-354112.html"
     ],
     "CVE-2024-50584": [
       "https://r.sec-consult.com/imageaccess"
@@ -34165,6 +34186,12 @@
     ],
     "CVE-2024-54774": [
       "https://github.com/taynes-llllzt/taynes/issues/4"
+    ],
+    "CVE-2024-54792": [
+      "https://github.com/MarioTesoro/CVE-2024-54792"
+    ],
+    "CVE-2024-54794": [
+      "https://github.com/MarioTesoro/CVE-2024-54794"
     ],
     "CVE-2024-54819": [
       "https://github.com/partywavesec/CVE-2024-55557"
@@ -37780,6 +37807,9 @@
     ],
     "CVE-2024-9962": [
       "https://issues.chromium.org/issues/364508693"
+    ],
+    "CVE-2024-9963": [
+      "https://issues.chromium.org/issues/328278718"
     ],
     "CVE-2024-9965": [
       "https://issues.chromium.org/issues/352651673"
