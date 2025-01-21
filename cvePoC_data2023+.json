@@ -33056,6 +33056,12 @@
     "CVE-2024-4820": [
       "https://github.com/jxm68868/cve/blob/main/upload.md"
     ],
+    "CVE-2024-48228": [
+      "https://github.com/funadmin/funadmin/issues/31"
+    ],
+    "CVE-2024-48230": [
+      "https://github.com/funadmin/funadmin/issues/30"
+    ],
     "CVE-2024-48312": [
       "https://medium.com/@wagneralves_87750/poc-cve-weblaudos-d1ec40cfc183"
     ],
