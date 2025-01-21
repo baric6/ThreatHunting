@@ -8253,6 +8253,9 @@
     "CVE-2023-30591": [
       "https://starlabs.sg/advisories/23/23-30591/"
     ],
+    "CVE-2023-30612": [
+      "https://github.com/cloud-hypervisor/cloud-hypervisor/pull/5373"
+    ],
     "CVE-2023-30613": [
       "https://huntr.dev/bounties/c30d3503-600d-4d00-9571-98826a51f12c"
     ],
@@ -10542,6 +10545,9 @@
     "CVE-2023-35019": [
       "https://www.ibm.com/support/pages/node/7014397"
     ],
+    "CVE-2023-3503": [
+      "https://vuldb.com/?id.232951"
+    ],
     "CVE-2023-35055": [
       "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1761"
     ],
@@ -11505,6 +11511,9 @@
     "CVE-2023-37543": [
       "https://medium.com/@hussainfathy99/exciting-news-my-first-cve-discovery-cve-2023-37543-idor-vulnerability-in-cacti-bbb6c386afed"
     ],
+    "CVE-2023-3756": [
+      "https://vuldb.com/?id.234428"
+    ],
     "CVE-2023-37569": [
       "http://packetstormsecurity.com/files/174084/Emagic-Data-Center-Management-Suite-6.0-Remote-Command-Execution.html"
     ],
@@ -11762,6 +11771,9 @@
     ],
     "CVE-2023-37907": [
       "https://github.com/cryptomator/cryptomator/security/advisories/GHSA-9c9p-c3mg-hpjq"
+    ],
+    "CVE-2023-3791": [
+      "https://github.com/zry-wyj/cve/blob/main/ibos.md"
     ],
     "CVE-2023-37910": [
       "https://jira.xwiki.org/browse/XWIKI-20334"
@@ -19107,6 +19119,9 @@
     "CVE-2023-6571": [
       "https://huntr.com/bounties/f02781e7-2a53-4c66-aa32-babb16434632"
     ],
+    "CVE-2023-6574": [
+      "https://vuldb.com/?id.247154"
+    ],
     "CVE-2023-6575": [
       "https://github.com/houhuidong/cve/blob/main/rce.md"
     ],
@@ -20418,7 +20433,7 @@
       "https://gist.github.com/higordiego/bf0cf963ec56cfe0dcaba2956352bafd"
     ],
     "CVE-2024-10418": [
-      "https://gist.github.com/higordiego/25a103a1fe84c4db4530e68d2f998d11"
+      "https://vuldb.com/?submit.431782"
     ],
     "CVE-2024-10419": [
       "https://gist.github.com/higordiego/62ad5208270c67834d02818d6ba44126"
@@ -34442,11 +34457,38 @@
     "CVE-2024-57025": [
       "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md"
     ],
+    "CVE-2024-57030": [
+      "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-57030"
+    ],
+    "CVE-2024-57031": [
+      "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-57031"
+    ],
+    "CVE-2024-57032": [
+      "https://github.com/nmmorette/vulnerability-research/blob/main/CVE-2024-57032"
+    ],
+    "CVE-2024-57033": [
+      "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-57033"
+    ],
+    "CVE-2024-57034": [
+      "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-57034"
+    ],
+    "CVE-2024-57035": [
+      "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-57035"
+    ],
     "CVE-2024-5713": [
       "https://wpscan.com/vulnerability/eb3f24a7-3171-42c3-9016-e29da4f384fa/"
     ],
     "CVE-2024-5715": [
       "https://wpscan.com/vulnerability/d86bc001-51ae-4dcc-869b-80c91251cc2e/"
+    ],
+    "CVE-2024-57159": [
+      "https://github.com/1091101/yang.xian/tree/main/6/readme.md"
+    ],
+    "CVE-2024-57160": [
+      "https://github.com/1091101/yang.xian/tree/main/7/readme.md"
+    ],
+    "CVE-2024-57161": [
+      "https://github.com/1091101/yang.xian/tree/main/8/readme.md"
     ],
     "CVE-2024-5727": [
       "https://wpscan.com/vulnerability/5f677863-2f4f-474f-ba48-f490f9d6e71c/"
@@ -34489,6 +34531,18 @@
     ],
     "CVE-2024-5758": [
       "https://wpscan.com/vulnerability/635be98d-4c17-4e75-871f-9794d85a2eb1/"
+    ],
+    "CVE-2024-57580": [
+      "https://github.com/qijiale/Tenda/tree/main/7"
+    ],
+    "CVE-2024-57581": [
+      "https://github.com/qijiale/Tenda/tree/main/8"
+    ],
+    "CVE-2024-57582": [
+      "https://github.com/qijiale/Tenda/tree/main/9"
+    ],
+    "CVE-2024-57611": [
+      "https://github.com/daodaoshao/Yunpeng-Yin/tree/main/7/readme.md"
     ],
     "CVE-2024-57615": [
       "https://github.com/MonetDB/MonetDB/issues/7413"
@@ -34645,6 +34699,39 @@
     ],
     "CVE-2024-5767": [
       "https://wpscan.com/vulnerability/e4ba26b4-5f4f-4c9e-aa37-885b30ef8088/"
+    ],
+    "CVE-2024-57676": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2WlanBasicSetup.md"
+    ],
+    "CVE-2024-57677": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2Wan.md"
+    ],
+    "CVE-2024-57678": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2WlAc.md"
+    ],
+    "CVE-2024-57679": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2RepeaterSetup.md"
+    ],
+    "CVE-2024-57680": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2PortriggerRule.md"
+    ],
+    "CVE-2024-57681": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2alg.md"
+    ],
+    "CVE-2024-57682": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/d_status.md"
+    ],
+    "CVE-2024-57683": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/websURLFilterAddDel.md"
+    ],
+    "CVE-2024-57684": [
+      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/formDMZ.md"
+    ],
+    "CVE-2024-57703": [
+      "https://github.com/Pr0b1em/IoT/blob/master/Tenda%20AC8v4%20V16.03.34.06.md"
+    ],
+    "CVE-2024-57704": [
+      "https://github.com/Pr0b1em/IoT/blob/master/Tenda%20AC8v4%20V16.03.34.06.md"
     ],
     "CVE-2024-5772": [
       "https://github.com/charliecatsec/cve1/blob/main/NS-ASG-sql-deleteiscuser.md"
