@@ -8697,6 +8697,9 @@
     "CVE-2023-31473": [
       "https://github.com/gl-inet/CVE-issues/blob/main/3.215/Arbitrary_File_Read.md"
     ],
+    "CVE-2023-31474": [
+      "https://github.com/gl-inet/CVE-issues/blob/main/3.215/Directory_Listing.md"
+    ],
     "CVE-2023-31475": [
       "https://justinapplegate.me/2023/glinet-CVE-2023-31475/"
     ],
@@ -12111,6 +12114,9 @@
     "CVE-2023-38502": [
       "https://github.com/taosdata/TDengine/security/advisories/GHSA-w23f-r2fm-27hf"
     ],
+    "CVE-2023-38506": [
+      "https://github.com/laurent22/joplin/security/advisories/GHSA-m59c-9rrj-c399"
+    ],
     "CVE-2023-38507": [
       "https://github.com/strapi/strapi/security/advisories/GHSA-24q2-59hm-rh9r"
     ],
@@ -12240,6 +12246,30 @@
     "CVE-2023-3887": [
       "https://vuldb.com/?id.235249"
     ],
+    "CVE-2023-38870": [
+      "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-38870"
+    ],
+    "CVE-2023-38872": [
+      "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-38872"
+    ],
+    "CVE-2023-38875": [
+      "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-38875"
+    ],
+    "CVE-2023-38876": [
+      "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-38876"
+    ],
+    "CVE-2023-38877": [
+      "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-38877"
+    ],
+    "CVE-2023-38879": [
+      "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-38879"
+    ],
+    "CVE-2023-38881": [
+      "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-38881"
+    ],
+    "CVE-2023-38882": [
+      "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-38882"
+    ],
     "CVE-2023-38886": [
       "https://akerva.com/wp-content/uploads/2023/09/AKERVA_Security-Advisory_CVE-2023-38886_Dolibarr_RCE-1.pdf"
     ],
@@ -12320,6 +12350,12 @@
     ],
     "CVE-2023-38971": [
       "https://panda002.hashnode.dev/badaso-version-297-has-xss-vulnerability-in-add-ranks"
+    ],
+    "CVE-2023-38973": [
+      "https://github.com/anh91/uasoft-indonesia--badaso/blob/main/xss5.md"
+    ],
+    "CVE-2023-38974": [
+      "https://github.com/anh91/uasoft-indonesia--badaso/blob/main/XSS4.md"
     ],
     "CVE-2023-38975": [
       "https://github.com/qdrant/qdrant/issues/2268"
@@ -13401,6 +13437,9 @@
     "CVE-2023-41330": [
       "https://github.com/KnpLabs/snappy/security/advisories/GHSA-gq6w-q6wh-jggc"
     ],
+    "CVE-2023-41334": [
+      "https://github.com/astropy/astropy/security/advisories/GHSA-h2x6-5jx5-46hf"
+    ],
     "CVE-2023-41336": [
       "https://symfony.com/bundles/ux-autocomplete/current/index.html#usage-in-a-form-with-ajax"
     ],
@@ -13427,6 +13466,9 @@
     ],
     "CVE-2023-41442": [
       "https://writeups.ayyappan.me/v/tor-iot-mqtt/"
+    ],
+    "CVE-2023-41443": [
+      "https://github.com/Deng-JunFeng/cve-lists/tree/main/novel-plus/vuln"
     ],
     "CVE-2023-41444": [
       "https://gist.github.com/dru1d-foofus/1af21179f253879f101c3a8d4f718bf0"
@@ -13616,6 +13658,9 @@
     ],
     "CVE-2023-4188": [
       "https://huntr.dev/bounties/fe9809b6-40ad-4e81-9197-a9aa42e8a7bf"
+    ],
+    "CVE-2023-41884": [
+      "https://github.com/ZoneMinder/zoneminder/security/advisories/GHSA-2qp3-fwpv-mc96"
     ],
     "CVE-2023-41885": [
       "https://github.com/piccolo-orm/piccolo/security/advisories/GHSA-h7cm-mrvq-wcfr"
@@ -15335,6 +15380,9 @@
     ],
     "CVE-2023-4642": [
       "https://wpscan.com/vulnerability/6f481d34-6feb-4af2-914c-1f3288f69207"
+    ],
+    "CVE-2023-46427": [
+      "https://github.com/gpac/gpac/issues/2641"
     ],
     "CVE-2023-4643": [
       "https://wpscan.com/vulnerability/d9125604-2236-435c-a67c-07951a1fc5b1"
@@ -17841,6 +17889,12 @@
     "CVE-2023-52032": [
       "https://815yang.github.io/2023/12/24/cve6/EX1200T_V4.1.2cu.5232_B20210713_downloadFlile/"
     ],
+    "CVE-2023-52038": [
+      "https://github.com/Beckaf/vunl/blob/main/TOTOLINK/X6000R/1/1.md"
+    ],
+    "CVE-2023-52039": [
+      "https://github.com/Beckaf/vunl/blob/main/TOTOLINK/X6000R/2/2.md"
+    ],
     "CVE-2023-5204": [
       "http://packetstormsecurity.com/files/175371/WordPress-AI-ChatBot-4.8.9-SQL-Injection-Traversal-File-Deletion.html"
     ],
@@ -18969,6 +19023,9 @@
     "CVE-2023-6275": [
       "https://vuldb.com/?id.246104"
     ],
+    "CVE-2023-6276": [
+      "https://github.com/YXuanZ1216/cve/blob/main/sql.md"
+    ],
     "CVE-2023-6277": [
       "https://gitlab.com/libtiff/libtiff/-/issues/614"
     ],
@@ -19311,6 +19368,9 @@
     "CVE-2023-6893": [
       "https://github.com/willchen0011/cve/blob/main/download.md"
     ],
+    "CVE-2023-6895": [
+      "https://github.com/willchen0011/cve/blob/main/rce.md"
+    ],
     "CVE-2023-6901": [
       "https://github.com/g1an123/POC/blob/main/README.md"
     ],
@@ -19383,6 +19443,15 @@
     "CVE-2023-7018": [
       "https://huntr.com/bounties/e1a3e548-e53a-48df-b708-9ee62140963c"
     ],
+    "CVE-2023-7020": [
+      "https://github.com/zte12321/cve/blob/main/sql.md"
+    ],
+    "CVE-2023-7021": [
+      "https://github.com/qq956801985/cve/blob/main/sql.md"
+    ],
+    "CVE-2023-7023": [
+      "https://github.com/xiatiandeyu123/cve/blob/main/sql.md"
+    ],
     "CVE-2023-7026": [
       "https://github.com/willchen0011/cve/blob/main/upload2.md"
     ],
@@ -19418,6 +19487,9 @@
     ],
     "CVE-2023-7059": [
       "https://github.com/will121351/wenqin.webray.com.cn/blob/main/CVE-project/school-visitors-log-e-book.md"
+    ],
+    "CVE-2023-7060": [
+      "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-fjc8-223c-qgqr"
     ],
     "CVE-2023-7074": [
       "https://wpscan.com/vulnerability/7906c349-97b0-4d82-aef0-97a1175ae88e/"
@@ -19604,6 +19676,9 @@
     ],
     "CVE-2023-7179": [
       "https://medium.com/@heishou/libsystem-foreground-sql-injection-vulnerability-a98949964faf"
+    ],
+    "CVE-2023-7180": [
+      "https://github.com/Bobjones7/cve/blob/main/sql.md"
     ],
     "CVE-2023-7181": [
       "https://vuldb.com/?id.249368"
@@ -19885,6 +19960,9 @@
     ],
     "CVE-2024-0455": [
       "https://huntr.com/bounties/07d83b49-7ebb-40d2-83fc-78381e3c5c9c"
+    ],
+    "CVE-2024-0459": [
+      "https://vuldb.com/?id.250564"
     ],
     "CVE-2024-0464": [
       "https://vuldb.com/?id.250569"
@@ -28685,6 +28763,9 @@
     "CVE-2024-34580": [
       "https://www.sonatype.com/blog/the-exploited-ivanti-connect-ssrf-vulnerability-stems-from-xmltooling-oss-library"
     ],
+    "CVE-2024-34581": [
+      "https://www.w3.org/TR/2013/NOTE-xmldsig-bestpractices-20130411/"
+    ],
     "CVE-2024-34582": [
       "https://github.com/silent6trinity/CVE-2024-34582"
     ],
@@ -29771,6 +29852,9 @@
     "CVE-2024-37726": [
       "https://github.com/carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation"
     ],
+    "CVE-2024-37728": [
+      "https://github.com/xuetang1125/OfficeWeb365/blob/main/OfficeWeb365_%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%E6%BC%8F%E6%B4%9E%20.md"
+    ],
     "CVE-2024-37734": [
       "https://github.com/A3h1nt/CVEs/tree/main/OpenEMR"
     ],
@@ -29836,6 +29920,9 @@
     ],
     "CVE-2024-37859": [
       "https://packetstormsecurity.com/files/179081/Lost-And-Found-Information-System-1.0-Cross-Site-Scripting.html"
+    ],
+    "CVE-2024-37868": [
+      "https://github.com/TERRENCE-REX/CVE/issues/1"
     ],
     "CVE-2024-37870": [
       "https://github.com/TThuyyy/cve1/issues/3"
@@ -31883,6 +31970,9 @@
     "CVE-2024-4293": [
       "https://github.com/Sospiro014/zday1/blob/main/doctor_appointment_management_system_xss.md"
     ],
+    "CVE-2024-42936": [
+      "https://gist.github.com/smrx86/2008111b12ab47882b3928d0cbc9e415"
+    ],
     "CVE-2024-4294": [
       "https://github.com/Sospiro014/zday1/blob/main/doctor_appointment_management_system_idor.md"
     ],
@@ -33161,6 +33251,18 @@
     "CVE-2024-48120": [
       "https://okankurtulus.com.tr/2024/09/12/x2crm-v8-5-stored-cross-site-scripting-xss-authenticated/"
     ],
+    "CVE-2024-48139": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-48139"
+    ],
+    "CVE-2024-48141": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-48141"
+    ],
+    "CVE-2024-48144": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-48144"
+    ],
+    "CVE-2024-48145": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-48145"
+    ],
     "CVE-2024-4817": [
       "https://github.com/yylmm/CVE/blob/main/Online%20Laundry%20Management%20System/IDOR_manage_user.md"
     ],
@@ -33173,20 +33275,83 @@
     "CVE-2024-4820": [
       "https://github.com/jxm68868/cve/blob/main/upload.md"
     ],
+    "CVE-2024-48202": [
+      "https://github.com/Lunax0/LogLunax/blob/main/icecms/CVE-2024-48202.md"
+    ],
+    "CVE-2024-48218": [
+      "https://github.com/funadmin/funadmin/issues/21"
+    ],
+    "CVE-2024-48222": [
+      "https://github.com/funadmin/funadmin/issues/22"
+    ],
+    "CVE-2024-48223": [
+      "https://github.com/funadmin/funadmin/issues/23"
+    ],
     "CVE-2024-48228": [
       "https://github.com/funadmin/funadmin/issues/31"
     ],
     "CVE-2024-48230": [
       "https://github.com/funadmin/funadmin/issues/30"
     ],
+    "CVE-2024-48233": [
+      "https://github.com/sansanyun/mipjz/issues/16"
+    ],
+    "CVE-2024-48234": [
+      "https://github.com/sansanyun/mipjz/issues/18"
+    ],
+    "CVE-2024-48238": [
+      "https://github.com/taosir/wtcms/issues/14"
+    ],
+    "CVE-2024-48270": [
+      "https://github.com/majic-banana/vulnerability/blob/main/POC/Verification%20Code%20Reuse--misstt123oasys.md"
+    ],
+    "CVE-2024-48272": [
+      "https://gist.github.com/stevenyu113228/e264c145d6e6e6b59cf53fddc27409ad#2--predictable-wifi-password-in-d-link-dsl6740c-modem"
+    ],
+    "CVE-2024-48278": [
+      "https://github.com/m14r41/Writeups/blob/main/CVE/phpGurukul/User%20Registration%20%26%20Login%20and%20User%20Management%20System%20With%20admin%20panel/CSRF%20-%20Profile.md"
+    ],
+    "CVE-2024-48286": [
+      "https://github.com/GroundCTL2MajorTom/pocs/blob/main/Cisco_Linksys_E3000_rce.md"
+    ],
+    "CVE-2024-48288": [
+      "https://github.com/GroundCTL2MajorTom/pocs/blob/main/Cisco_Linksys_E3000_rce.md"
+    ],
+    "CVE-2024-48291": [
+      "https://github.com/Gxxxxxxxxxxxxxxxxxx/cms/tree/main/4/readme.md"
+    ],
+    "CVE-2024-48292": [
+      "https://github.com/Nero22k/Disclosures/blob/main/QuickHealAV/CVE-2024-48292.md"
+    ],
+    "CVE-2024-48293": [
+      "https://github.com/Nero22k/Disclosures/blob/main/QuickHealAV/CVE-2024-48293.md"
+    ],
+    "CVE-2024-48307": [
+      "https://github.com/jeecgboot/JeecgBoot/issues/7237"
+    ],
     "CVE-2024-48312": [
       "https://medium.com/@wagneralves_87750/poc-cve-weblaudos-d1ec40cfc183"
+    ],
+    "CVE-2024-48322": [
+      "https://github.com/runcodes-icmc/server/issues/12"
+    ],
+    "CVE-2024-48336": [
+      "https://github.com/canyie/MagiskEoP"
     ],
     "CVE-2024-4835": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/461328"
     ],
+    "CVE-2024-48360": [
+      "https://github.com/OpenXP-Research/CVE-2024-48360"
+    ],
+    "CVE-2024-48392": [
+      "https://github.com/Renzusclarke/CVE-2024-48392-PoC/blob/main/poc.txt"
+    ],
     "CVE-2024-48396": [
       "https://jacobmasse.medium.com/reflected-xss-in-popular-ai-chatbot-application-79de74ea0cc8"
+    ],
+    "CVE-2024-48425": [
+      "https://github.com/assimp/assimp/issues/5791"
     ],
     "CVE-2024-48440": [
       "https://medium.com/@sengkyaut/unauthenticated-factory-mode-reset-and-at-command-injection-in-jboneos-or-jbonecloud-firmware-1dec156b7ddd"
@@ -33197,6 +33362,15 @@
     "CVE-2024-48442": [
       "https://medium.com/@sengkyaut/unauthenticated-factory-mode-reset-and-at-command-injection-in-jboneos-or-jbonecloud-firmware-1dec156b7ddd"
     ],
+    "CVE-2024-48450": [
+      "https://github.com/b-hermes/vulnerability-research/tree/main/CVE-2024-48450"
+    ],
+    "CVE-2024-48463": [
+      "https://gist.github.com/opcod3r/ab69f36d52367df7ffac32a597dff31c"
+    ],
+    "CVE-2024-48514": [
+      "https://github.com/marcoris/CVEs/tree/master/CVE-2024-48514"
+    ],
     "CVE-2024-4853": [
       "https://gitlab.com/wireshark/wireshark/-/issues/19724"
     ],
@@ -33206,8 +33380,20 @@
     "CVE-2024-4856": [
       "https://wpscan.com/vulnerability/6cf90a27-55e2-4b2c-9df1-5fa34c1bd9d1/"
     ],
+    "CVE-2024-48569": [
+      "https://github.com/MarioTesoro/CVE-2024-48569"
+    ],
     "CVE-2024-4857": [
       "https://wpscan.com/vulnerability/bf1b8434-b361-4666-9058-d9f08c09d083/"
+    ],
+    "CVE-2024-48570": [
+      "https://github.com/Luc1f3r066/Client-Management-System-v1.0-"
+    ],
+    "CVE-2024-48579": [
+      "https://github.com/baineoli/CVE/blob/main/2024/house%20rental%20management%20system%20-%20SQL%20Injection%20(Admin%20Login).md"
+    ],
+    "CVE-2024-48580": [
+      "https://github.com/baineoli/CVE/blob/main/2024/courier%20management%20system%20-%20SQL%20Injection%20(Admin%20Login).md"
     ],
     "CVE-2024-4860": [
       "https://www.tenable.com/security/research/tra-2024-16"
@@ -33215,14 +33401,50 @@
     "CVE-2024-48605": [
       "https://www.exploit-db.com/exploits/51461"
     ],
+    "CVE-2024-48622": [
+      "https://github.com/domainmod/domainmod/issues/174"
+    ],
+    "CVE-2024-48624": [
+      "https://github.com/domainmod/domainmod/issues/175"
+    ],
+    "CVE-2024-48646": [
+      "https://github.com/hx381/Sage-1000-v7.0.0-Exploit/blob/main/README.md"
+    ],
+    "CVE-2024-48647": [
+      "https://github.com/hx381/Sage-1000-v7.0.0-Exploit/blob/main/README.md"
+    ],
+    "CVE-2024-48648": [
+      "https://github.com/hx381/Sage-1000-v7.0.0-Exploit/blob/main/README.md"
+    ],
     "CVE-2024-48655": [
       "https://medium.com/@0x0d0x0a/cve-2024-48655-server-side-javascript-code-injection-in-total-js-cms-c5fc18359bdc"
+    ],
+    "CVE-2024-48706": [
+      "https://github.com/anoncoder01/Collabtive_StoredXSS/blob/master/vulnerabilities/XSS2.md"
+    ],
+    "CVE-2024-48707": [
+      "https://github.com/anoncoder01/Collabtive_StoredXSS/blob/master/vulnerabilities/XSS3.md"
+    ],
+    "CVE-2024-48708": [
+      "https://github.com/anoncoder01/Collabtive_StoredXSS/blob/master/vulnerabilities/XSS4.md"
+    ],
+    "CVE-2024-48709": [
+      "https://github.com/anoncoder01/PHP_CodeAstro_Stored_XSS/blob/master/vulnerabilities/XSS_2.md"
     ],
     "CVE-2024-4879": [
       "https://www.darkreading.com/cloud-security/patchnow-servicenow-critical-rce-bugs-active-exploit"
     ],
     "CVE-2024-4886": [
       "https://wpscan.com/vulnerability/76e8591f-120c-4cd7-b9a2-79f8d4d98aa8/"
+    ],
+    "CVE-2024-48913": [
+      "https://github.com/honojs/hono/security/advisories/GHSA-2234-fmw7-43wr"
+    ],
+    "CVE-2024-48914": [
+      "https://github.com/vendure-ecommerce/vendure/security/advisories/GHSA-r9mq-3c9r-fmjq"
+    ],
+    "CVE-2024-48921": [
+      "https://github.com/kyverno/kyverno/security/advisories/GHSA-qjvc-p88j-j9rm"
     ],
     "CVE-2024-48941": [
       "https://syracom-bee.atlassian.net/wiki/spaces/SL/pages/3236560898/2024-09-16+-+Secure+Login+security+advisory+-+Insecure+default+configuration"
@@ -33841,6 +34063,9 @@
     ],
     "CVE-2024-51409": [
       "https://github.com/fireknight-hJ/Tenda-cve-pocs/blob/main/Tenda%20O3V1.0.0.5(4180)/websReadEvent.md"
+    ],
+    "CVE-2024-51417": [
+      "https://github.com/zzzprojects/System.Linq.Dynamic.Core/issues/867"
     ],
     "CVE-2024-51431": [
       "https://github.com/MatJosephs/CVEs/tree/main/CVE-2024-51431"
