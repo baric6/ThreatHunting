@@ -11292,6 +11292,75 @@
     "CVE-2023-36970": [
       "https://okankurtulus.com.tr/2023/06/27/cms-made-simple-v2-2-17-stored-cross-site-scripting-xss-authenticated/"
     ],
+    "CVE-2023-36998": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37002": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37003": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37004": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37005": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37006": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37007": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37008": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37009": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37010": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37011": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37012": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37013": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37014": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37015": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37016": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37017": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37018": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37019": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37020": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37021": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37022": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2023-37023": [
+      "https://cellularsecurity.org/ransacked"
+    ],
     "CVE-2023-37024": [
       "https://cellularsecurity.org/ransacked"
     ],
@@ -17787,6 +17856,9 @@
     "CVE-2023-51766": [
       "https://www.youtube.com/watch?v=V8KPV96g1To"
     ],
+    "CVE-2023-51767": [
+      "https://ubuntu.com/security/CVE-2023-51767"
+    ],
     "CVE-2023-5177": [
       "https://wpscan.com/vulnerability/a67b9c21-a35a-4cdb-9627-a5932334e5f0"
     ],
@@ -24137,7 +24209,16 @@
     "CVE-2024-24428": [
       "https://cellularsecurity.org/ransacked"
     ],
+    "CVE-2024-24429": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2024-24430": [
+      "https://cellularsecurity.org/ransacked"
+    ],
     "CVE-2024-24431": [
+      "https://cellularsecurity.org/ransacked"
+    ],
+    "CVE-2024-24432": [
       "https://cellularsecurity.org/ransacked"
     ],
     "CVE-2024-2444": [
@@ -28598,6 +28679,9 @@
     "CVE-2024-34231": [
       "https://github.com/Amrita2000/CVES/blob/main/CVE-2024-34231.md"
     ],
+    "CVE-2024-34235": [
+      "https://cellularsecurity.org/ransacked"
+    ],
     "CVE-2024-34246": [
       "https://github.com/wasm3/wasm3/issues/484"
     ],
@@ -32147,6 +32231,9 @@
     "CVE-2024-43410": [
       "https://github.com/Eugeny/russh/security/advisories/GHSA-vgvv-x7xg-6cqg"
     ],
+    "CVE-2024-43415": [
+      "https://pentest.ait.ac.at/security-advisory/decidim-awesome-sql-injection-in-adminaccountability"
+    ],
     "CVE-2024-4348": [
       "https://vuldb.com/?submit.320855"
     ],
@@ -32796,7 +32883,7 @@
       "https://github.com/Hckwzh/cms/blob/main/23.md"
     ],
     "CVE-2024-4593": [
-      "https://github.com/Hckwzh/cms/blob/main/24.md"
+      "https://vuldb.com/?id.263315"
     ],
     "CVE-2024-4594": [
       "https://github.com/Hckwzh/cms/blob/main/25.md"
@@ -33262,6 +33349,9 @@
     ],
     "CVE-2024-48145": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-48145"
+    ],
+    "CVE-2024-4816": [
+      "https://vuldb.com/?id.263937"
     ],
     "CVE-2024-4817": [
       "https://github.com/yylmm/CVE/blob/main/Online%20Laundry%20Management%20System/IDOR_manage_user.md"
@@ -37198,6 +37288,9 @@
     ],
     "CVE-2024-8198": [
       "https://issues.chromium.org/issues/360758697"
+    ],
+    "CVE-2024-8208": [
+      "https://vuldb.com/?submit.393511"
     ],
     "CVE-2024-8209": [
       "https://vuldb.com/?submit.393512"
