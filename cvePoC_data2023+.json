@@ -1683,8 +1683,14 @@
     "CVE-2023-1247": [
       "https://huntr.dev/bounties/04447124-c7d4-477f-8364-91fe5b59cda0"
     ],
+    "CVE-2023-1248": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-01/"
+    ],
     "CVE-2023-1249": [
       "http://packetstormsecurity.com/files/171912/CentOS-Stream-9-Missing-Kernel-Security-Fix.html"
+    ],
+    "CVE-2023-1250": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-02/"
     ],
     "CVE-2023-1258": [
       "http://packetstormsecurity.com/files/173610/ABB-FlowX-4.00-Information-Disclosure.html"
@@ -5258,6 +5264,9 @@
     ],
     "CVE-2023-25330": [
       "https://github.com/FCncdn/MybatisPlusTenantPluginSQLInjection-POC/blob/master/Readme.en.md"
+    ],
+    "CVE-2023-2534": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-03/"
     ],
     "CVE-2023-25344": [
       "https://www.gem-love.com/2023/02/01/Swig%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E0day%E6%8C%96%E6%8E%98-%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%92%8C%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96/"
@@ -8928,6 +8937,9 @@
     "CVE-2023-31714": [
       "https://www.exploit-db.com/exploits/51383"
     ],
+    "CVE-2023-31717": [
+      "https://youtu.be/IBMXTEI_5wY"
+    ],
     "CVE-2023-31718": [
       "https://youtu.be/VCQkEGntN04"
     ],
@@ -11954,6 +11966,21 @@
     ],
     "CVE-2023-38043": [
       "https://northwave-cybersecurity.com/vulnerability-notice/arbitrary-kernel-function-call-in-ivanti-secure-access-client"
+    ],
+    "CVE-2023-38056": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-05/"
+    ],
+    "CVE-2023-38057": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-06/"
+    ],
+    "CVE-2023-38058": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-07/"
+    ],
+    "CVE-2023-38059": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-08/"
+    ],
+    "CVE-2023-38060": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-04/"
     ],
     "CVE-2023-38105": [
       "https://www.foxit.com/support/security-bulletins.html"
@@ -18312,6 +18339,12 @@
     "CVE-2023-5390": [
       "https://www.honeywell.com/us/en/product-security"
     ],
+    "CVE-2023-5421": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-09/"
+    ],
+    "CVE-2023-5422": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-10/"
+    ],
     "CVE-2023-5427": [
       "http://packetstormsecurity.com/files/176029/ARM-Mali-r44p0-Use-After-Free.html"
     ],
@@ -19076,6 +19109,9 @@
     ],
     "CVE-2023-6253": [
       "https://r.sec-consult.com/fortra"
+    ],
+    "CVE-2023-6254": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2023-11/"
     ],
     "CVE-2023-6257": [
       "https://wpscan.com/vulnerability/19a86448-8d7c-4f02-9290-d9f93810e6e1/"
@@ -21067,6 +21103,9 @@
     ],
     "CVE-2024-11111": [
       "https://issues.chromium.org/issues/360520331"
+    ],
+    "CVE-2024-11116": [
+      "https://issues.chromium.org/issues/40942531"
     ],
     "CVE-2024-11121": [
       "https://wiki.shikangsi.com/post/share/4d05b8c3-5464-48f3-bb14-a852b6e70abc"
@@ -23899,6 +23938,21 @@
     ],
     "CVE-2024-2379": [
       "http://seclists.org/fulldisclosure/2024/Jul/19"
+    ],
+    "CVE-2024-23790": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2024-01/"
+    ],
+    "CVE-2024-23791": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2024-02/"
+    ],
+    "CVE-2024-23792": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2024-03/"
+    ],
+    "CVE-2024-23793": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2024-05/"
+    ],
+    "CVE-2024-23794": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2024-06/"
     ],
     "CVE-2024-23817": [
       "https://github.com/Dolibarr/dolibarr/security/advisories/GHSA-7947-48q7-cp5m"
@@ -32246,6 +32300,15 @@
     "CVE-2024-43415": [
       "https://pentest.ait.ac.at/security-advisory/decidim-awesome-sql-injection-in-adminaccountability"
     ],
+    "CVE-2024-43442": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2024-10/"
+    ],
+    "CVE-2024-43443": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2024-11/"
+    ],
+    "CVE-2024-43444": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2024-12/"
+    ],
     "CVE-2024-4348": [
       "https://vuldb.com/?submit.320855"
     ],
@@ -35815,6 +35878,9 @@
     ],
     "CVE-2024-6536": [
       "https://wpscan.com/vulnerability/ee40c1c6-4186-4b97-866c-fb0e76cedeb8/"
+    ],
+    "CVE-2024-6540": [
+      "https://otrs.com/release-notes/otrs-security-advisory-2024-07/"
     ],
     "CVE-2024-6585": [
       "https://github.com/google/security-research/security/advisories/GHSA-6529-6jv3-66q2"
