@@ -30008,6 +30008,9 @@
     "CVE-2024-37868": [
       "https://github.com/TERRENCE-REX/CVE/issues/1"
     ],
+    "CVE-2024-37869": [
+      "https://github.com/TERRENCE-REX/CVE/issues/2"
+    ],
     "CVE-2024-37870": [
       "https://github.com/TThuyyy/cve1/issues/3"
     ],
@@ -34646,6 +34649,21 @@
     "CVE-2024-54999": [
       "https://github.com/p314dO/CVEs/tree/main/CVE-2024-54999"
     ],
+    "CVE-2024-55000": [
+      "https://github.com/tang-0717/VUL/blob/main/House%20Rental%20Management%20system%20-%20Storage%20XSS%20on%20(rentalmanage_categories.php).md"
+    ],
+    "CVE-2024-55056": [
+      "https://github.com/SCR-athif/CVE/tree/main/CVE-2024-55056"
+    ],
+    "CVE-2024-55057": [
+      "https://github.com/SCR-athif/CVE/tree/main/CVE-2024-55057"
+    ],
+    "CVE-2024-55058": [
+      "https://github.com/SCR-athif/CVE/tree/main/CVE-2024-55058"
+    ],
+    "CVE-2024-55059": [
+      "https://github.com/SCR-athif/CVE/tree/main/CVE-2024-55059"
+    ],
     "CVE-2024-55074": [
       "https://m10x.de/posts/2024/11/all-your-recipe-are-belong-to-us-part-1/3-stored-xss-csrf-and-broken-access-control-vulnerabilities-in-grocy/"
     ],
@@ -34654,6 +34672,18 @@
     ],
     "CVE-2024-55076": [
       "https://m10x.de/posts/2024/11/all-your-recipe-are-belong-to-us-part-1/3-stored-xss-csrf-and-broken-access-control-vulnerabilities-in-grocy/"
+    ],
+    "CVE-2024-55099": [
+      "https://github.com/kuzgunaka/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-"
+    ],
+    "CVE-2024-55100": [
+      "https://github.com/kuzgunaka/test1/blob/main/CVE-2024-55100-Online-Nurse-Hiring-System-v1.0-Stored-Cross-Site-Scripting-Vulnerability.md"
+    ],
+    "CVE-2024-55103": [
+      "https://github.com/kuzgunaka/test1/blob/main/CVE-2024-55103-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability.md"
+    ],
+    "CVE-2024-55104": [
+      "https://github.com/kuzgunaka/test1/blob/main/CVE-2024-55104-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability.md"
     ],
     "CVE-2024-5515": [
       "https://vuldb.com/?submit.345714"
@@ -34670,14 +34700,44 @@
     "CVE-2024-5519": [
       "https://github.com/L1OudFd8cl09/CVE/issues/2"
     ],
+    "CVE-2024-55196": [
+      "https://github.com/hexkaster/SecurityResearch/blob/main/CVE-2024-55196.md"
+    ],
     "CVE-2024-55218": [
       "https://resources.s4e.io/blog/icewarp-server-10-2-1-reflected-xss-vulnerability-cve-2024-55218/"
     ],
     "CVE-2024-5522": [
       "https://wpscan.com/vulnerability/bc76ef95-a2a9-4185-8ed9-1059097a506a/"
     ],
+    "CVE-2024-55231": [
+      "https://github.com/CV1523/CVEs/blob/main/CVE-2024-55231.md"
+    ],
+    "CVE-2024-55232": [
+      "https://github.com/CV1523/CVEs/blob/main/CVE-2024-55232.md"
+    ],
+    "CVE-2024-55239": [
+      "https://github.com/RegularUs3r/CVE-Research/blob/main/CVE-2024/Portabilis%20-%20iEducar/CVE-2024-55649%20-%20Reflected%20Cross-Site%20Scripting.md"
+    ],
     "CVE-2024-5529": [
       "https://wpscan.com/vulnerability/66d0b4b7-cd4b-4ec4-95c0-d50773cb0b8f/"
+    ],
+    "CVE-2024-55451": [
+      "https://github.com/cydtseng/Vulnerability-Research/blob/main/ujcms/StoredXSS-SVGUpload.md"
+    ],
+    "CVE-2024-55496": [
+      "https://github.com/wpc1122/CVE/issues/1"
+    ],
+    "CVE-2024-55505": [
+      "https://github.com/CV1523/CVEs/blob/main/CVE-2024-55505.md"
+    ],
+    "CVE-2024-55506": [
+      "https://github.com/CV1523/CVEs/blob/main/CVE-2024-55506.md"
+    ],
+    "CVE-2024-55507": [
+      "https://github.com/CV1523/CVEs/blob/main/CVE-2024-55507.md"
+    ],
+    "CVE-2024-55509": [
+      "https://github.com/prithivilakshmanan/CSV/blob/main/CVE-2024-55509.md"
     ],
     "CVE-2024-55517": [
       "https://hackmd.io/@AowPhwc/SyvEiDsIye"
@@ -34709,11 +34769,29 @@
     "CVE-2024-55563": [
       "https://gnusha.org/pi/bitcoindev/CALZpt+EptER=p+P7VN3QAb9n=dODA9_LnR9xZwWpRsdAwedv=w@mail.gmail.com/T/#u"
     ],
+    "CVE-2024-55587": [
+      "https://github.com/smartfile/python-libarchive/issues/42"
+    ],
+    "CVE-2024-55602": [
+      "https://github.com/pwndoc/pwndoc/security/advisories/GHSA-2mqc-gg7h-76p6"
+    ],
+    "CVE-2024-55603": [
+      "https://github.com/kanboard/kanboard/security/advisories/GHSA-gv5c-8pxr-p484"
+    ],
     "CVE-2024-5561": [
       "https://wpscan.com/vulnerability/6a87cc25-bd7d-40e3-96f9-26646cd6f736/"
     ],
     "CVE-2024-5565": [
       "https://research.jfrog.com/vulnerabilities/vanna-prompt-injection-rce-jfsa-2024-001034449/"
+    ],
+    "CVE-2024-55652": [
+      "https://github.com/pwndoc/pwndoc/security/advisories/GHSA-jw5r-6927-hwpc"
+    ],
+    "CVE-2024-55653": [
+      "https://github.com/pwndoc/pwndoc/security/advisories/GHSA-ggqg-3f7v-c8rc"
+    ],
+    "CVE-2024-55656": [
+      "https://github.com/RedisBloom/RedisBloom/security/advisories/GHSA-x5rx-rmq3-ff3h"
     ],
     "CVE-2024-5570": [
       "https://wpscan.com/vulnerability/49b3a8cb-f606-4cf7-80ec-bfdafd74e848/"
@@ -34730,17 +34808,32 @@
     "CVE-2024-5585": [
       "https://github.com/php/php-src/security/advisories/GHSA-9fcc-425m-g385"
     ],
+    "CVE-2024-55875": [
+      "https://github.com/http4k/http4k/security/advisories/GHSA-7mj5-hjjj-8rgw"
+    ],
     "CVE-2024-5588": [
       "https://github.com/Lanxiy7th/lx_CVE_report-/issues/12"
     ],
     "CVE-2024-55884": [
       "https://news.ycombinator.com/item?id=42390768"
     ],
+    "CVE-2024-55888": [
+      "https://github.com/scidsg/hushline/security/advisories/GHSA-m592-g8qv-hrqx"
+    ],
+    "CVE-2024-55889": [
+      "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-m3r7-8gw7-qwvc"
+    ],
     "CVE-2024-5590": [
       "https://github.com/flyyue2001/cve/blob/main/NS-ASG-sql-uploadiscuser.md"
     ],
+    "CVE-2024-55947": [
+      "https://github.com/gogs/gogs/security/advisories/GHSA-qf5v-rp47-55gg"
+    ],
     "CVE-2024-5595": [
       "https://wpscan.com/vulnerability/f2b8f092-4fc0-4edc-ba0f-d4312c2e5dec/"
+    ],
+    "CVE-2024-55954": [
+      "https://github.com/openobserve/openobserve/security/advisories/GHSA-m8gj-6r85-3r6m"
     ],
     "CVE-2024-5604": [
       "https://wpscan.com/vulnerability/29985150-8d49-4a3f-8411-5d7263b424d8/"
