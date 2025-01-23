@@ -11910,6 +11910,9 @@
     "CVE-2023-37918": [
       "https://github.com/dapr/dapr/security/advisories/GHSA-59m6-82qm-vqgj"
     ],
+    "CVE-2023-3792": [
+      "https://github.com/CYN521/cve/blob/main/NS-ASG.md"
+    ],
     "CVE-2023-37927": [
       "https://bugprove.com/knowledge-hub/cve-2023-37927-and-cve-2023-37928-multiple-post-auth-blind-os-command-and-python-code-injection-vulnerabilities-in-zyxel-s-nas-326-devices/"
     ],
@@ -11918,6 +11921,9 @@
     ],
     "CVE-2023-37941": [
       "http://packetstormsecurity.com/files/175094/Apache-Superset-2.0.0-Remote-Code-Execution.html"
+    ],
+    "CVE-2023-3797": [
+      "https://github.com/segonse/cve/blob/main/sichuang/sichuang.md"
     ],
     "CVE-2023-37979": [
       "http://packetstormsecurity.com/files/173983/WordPress-Ninja-Forms-3.6.25-Cross-Site-Scripting.html"
@@ -11942,6 +11948,9 @@
     ],
     "CVE-2023-38035": [
       "http://packetstormsecurity.com/files/174643/Ivanti-Sentry-Authentication-Bypass-Remote-Code-Execution.html"
+    ],
+    "CVE-2023-3804": [
+      "https://github.com/yueying638/cve/blob/main/upload.md"
     ],
     "CVE-2023-38043": [
       "https://northwave-cybersecurity.com/vulnerability-notice/arbitrary-kernel-function-call-in-ivanti-secure-access-client"
@@ -21135,7 +21144,7 @@
       "https://github.com/Fl4g-Pshacker/cve/blob/main/xss.md"
     ],
     "CVE-2024-11250": [
-      "https://github.com/sh3rl0ckpggp/0day/blob/main/inventory-management_authenticated_sqli.md"
+      "https://vuldb.com/?submit.443272"
     ],
     "CVE-2024-11256": [
       "https://github.com/Hacker0xone/CVE/issues/8"
