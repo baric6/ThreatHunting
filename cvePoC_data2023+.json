@@ -21125,6 +21125,9 @@
     "CVE-2024-1114": [
       "https://vuldb.com/?id.252472"
     ],
+    "CVE-2024-11175": [
+      "https://vuldb.com/?id.284351"
+    ],
     "CVE-2024-11183": [
       "https://wpscan.com/vulnerability/ff3f2788-d1a1-4a62-a247-39a931308f51/"
     ],
@@ -21233,6 +21236,9 @@
     "CVE-2024-11422": [
       "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
     ],
+    "CVE-2024-11487": [
+      "https://vuldb.com/?id.285502"
+    ],
     "CVE-2024-11488": [
       "https://github.com/Hebing123/cve/issues/70"
     ],
@@ -21306,10 +21312,13 @@
       "https://github.com/Calmgh/CVE/issues/1"
     ],
     "CVE-2024-11649": [
-      "https://github.com/zgaz/CVE/issues/1"
+      "https://vuldb.com/?id.285970"
     ],
     "CVE-2024-11650": [
-      "https://github.com/xiaobor123/tenda-vul-i9"
+      "https://vuldb.com/?id.285971"
+    ],
+    "CVE-2024-11652": [
+      "https://vuldb.com/?id.285973"
     ],
     "CVE-2024-11660": [
       "https://github.com/evo-ose/cve/blob/main/xss9.md"
@@ -21393,7 +21402,7 @@
       "https://www.exploit-db.com/exploits/45884"
     ],
     "CVE-2024-11860": [
-      "https://github.com/YasserREED/YasserREED-CVEs/blob/main/Best%20house%20rental%20management%20system%20project%20in%20php/Unauthorized%20Tenant%20Deletion.md"
+      "https://vuldb.com/?id.286245"
     ],
     "CVE-2024-1187": [
       "https://fitoxs.com/vuldb/13-exploit-perl.txt"
