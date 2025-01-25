@@ -20498,6 +20498,9 @@
     "CVE-2024-10027": [
       "https://wpscan.com/vulnerability/a94c7b64-720a-47f1-a74a-691c3a9ed3a1/"
     ],
+    "CVE-2024-10043": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/499577"
+    ],
     "CVE-2024-10073": [
       "https://vuldb.com/?submit.420055"
     ],
@@ -21607,6 +21610,9 @@
     ],
     "CVE-2024-12349": [
       "https://github.com/hadagaga/vuln/blob/master/JFinalCMS/Cross_Site_Request_Forgery/Cross-Site-Request-Forgery.md"
+    ],
+    "CVE-2024-12478": [
+      "https://vuldb.com/?submit.459910"
     ],
     "CVE-2024-12483": [
       "https://github.com/cydtseng/Vulnerability-Research/blob/main/ujcms/IDOR-UsernameEnumeration.md"
@@ -37538,6 +37544,9 @@
     "CVE-2024-8231": [
       "https://github.com/abcdefg-png/AHU-IoT-vulnerable/blob/main/Tenda/web-bridge/O6V3.0/fromVirtualSet.md"
     ],
+    "CVE-2024-8233": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/480867"
+    ],
     "CVE-2024-8239": [
       "https://wpscan.com/vulnerability/02796da0-218d-4cbb-98ca-49eeea83cac5/"
     ],
@@ -37735,6 +37744,9 @@
     ],
     "CVE-2024-8638": [
       "https://issues.chromium.org/issues/362539773"
+    ],
+    "CVE-2024-8647": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/486051"
     ],
     "CVE-2024-8650": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/486300"
@@ -38218,6 +38230,9 @@
     ],
     "CVE-2024-9603": [
       "https://issues.chromium.org/issues/367818758"
+    ],
+    "CVE-2024-9633": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/498257"
     ],
     "CVE-2024-9638": [
       "https://wpscan.com/vulnerability/119d5249-48e4-429e-8a1d-ad112e0c966d/"
