@@ -951,6 +951,9 @@
     "CVE-2023-0638": [
       "https://vuldb.com/?id.220018"
     ],
+    "CVE-2023-0640": [
+      "https://vuldb.com/?id.220020"
+    ],
     "CVE-2023-0641": [
       "https://vuldb.com/?id.220021"
     ],
@@ -33717,7 +33720,7 @@
       "https://github.com/IceWhaleTech/ZimaOS/security/advisories/GHSA-3f6g-8r88-3mx5"
     ],
     "CVE-2024-49359": [
-      "https://github.com/IceWhaleTech/ZimaOS/security/advisories/GHSA-mwpw-fhrm-728x"
+      "https://youtu.be/IuaEH09ot9s"
     ],
     "CVE-2024-49360": [
       "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-4chj-3c28-gvmp"
@@ -34530,7 +34533,7 @@
       "https://grimthereaperteam.medium.com/ec1e8714c02e"
     ],
     "CVE-2024-5363": [
-      "https://github.com/rockersiyuan/CVE/blob/main/SourceCodester_House_Rental_Management_System_Sql_Inject-1.md"
+      "https://vuldb.com/?id.266275"
     ],
     "CVE-2024-5364": [
       "https://github.com/rockersiyuan/CVE/blob/main/SourceCodester_House_Rental_Management_System_Sql_Inject-2.md"
@@ -34587,7 +34590,7 @@
       "https://github.com/Lanxiy7th/lx_CVE_report-/issues/9"
     ],
     "CVE-2024-5397": [
-      "https://github.com/Lanxiy7th/lx_CVE_report-/issues/10"
+      "https://vuldb.com/?id.266311"
     ],
     "CVE-2024-53995": [
       "https://securitylab.github.com/advisories/GHSL-2024-283_GHSL-2024-291_sickchill_sickchill/"
@@ -35151,7 +35154,7 @@
       "https://wpscan.com/vulnerability/ba50e25c-7250-4025-a72f-74f8eb756246/"
     ],
     "CVE-2024-5745": [
-      "https://github.com/L1OudFd8cl09/CVE/blob/main/07_06_2024_a.md"
+      "https://vuldb.com/?id.267414"
     ],
     "CVE-2024-57487": [
       "https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488"
