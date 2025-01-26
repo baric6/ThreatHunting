@@ -7962,6 +7962,9 @@
     "CVE-2023-30013": [
       "https://github.com/Kazamayc/vuln/tree/main/TOTOLINK/X5000R/2"
     ],
+    "CVE-2023-3003": [
+      "https://vuldb.com/?id.230347"
+    ],
     "CVE-2023-30053": [
       "https://github.com/Am1ngl/ttt/tree/main/160"
     ],
@@ -31553,6 +31556,9 @@
     "CVE-2024-41614": [
       "https://github.com/OoLs5/VulDiscovery/blob/main/Symphony_CMS_XSS.pdf"
     ],
+    "CVE-2024-41617": [
+      "https://youtu.be/JaOrlT9G3yo?t=88"
+    ],
     "CVE-2024-41622": [
       "https://github.com/yali-1002/some-poc/blob/main/CVE-2024-41622"
     ],
@@ -37366,6 +37372,9 @@
     ],
     "CVE-2024-8087": [
       "https://github.com/0xffaaa/cve/blob/main/ecommerce-Unauthorized%20sql%20union%20injection.md"
+    ],
+    "CVE-2024-8088": [
+      "https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e"
     ],
     "CVE-2024-8089": [
       "https://github.com/0xffaaa/cve/blob/main/ecommerce-Unauthorized%20arbitrary%20file%20upload%20vulnerability.md"
