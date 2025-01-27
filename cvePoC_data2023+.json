@@ -7830,8 +7830,29 @@
     "CVE-2023-2979": [
       "https://popalltheshells.medium.com/multiple-cves-affecting-pydio-cells-4-2-0-321e7e4712be"
     ],
+    "CVE-2023-29798": [
+      "https://sore-pail-31b.notion.site/Command-Injection-4-ea4969f635f54fe5b2f575e93443a4e0"
+    ],
+    "CVE-2023-29799": [
+      "https://sore-pail-31b.notion.site/Command-Inject-6-3ee0faa243134ae2bc20e6670d80bada"
+    ],
     "CVE-2023-2980": [
       "https://popalltheshells.medium.com/multiple-cves-affecting-pydio-cells-4-2-0-321e7e4712be"
+    ],
+    "CVE-2023-29800": [
+      "https://sore-pail-31b.notion.site/Command-Injection-5-e88b72309a3c4e20b7469b3679c0c7d9"
+    ],
+    "CVE-2023-29801": [
+      "https://sore-pail-31b.notion.site/Command-Injection-2-af41252fe96244209589d4e6da9aa7b7"
+    ],
+    "CVE-2023-29802": [
+      "https://sore-pail-31b.notion.site/Command-Injection-3-8eb94b608bcd48f8aa4e983d2d1c4526"
+    ],
+    "CVE-2023-29803": [
+      "https://sore-pail-31b.notion.site/Command-Inject-1-4a37b0679f69478285d1ba640e5f0897"
+    ],
+    "CVE-2023-29804": [
+      "https://sore-pail-31b.notion.site/command-injection-WFS-SR03-7cddf0ac85e54f8ba81d9b26b00ca5cd"
     ],
     "CVE-2023-29808": [
       "https://packetstormsecurity.com/files/172145/Companymaps-8.0-Cross-Site-Scripting.html"
@@ -14595,6 +14616,12 @@
     "CVE-2023-43907": [
       "https://github.com/Frank-Z7/z-vulnerabilitys/blob/main/optipng-global-buffer-overflow1/optipng-global-buffer-overflow1.md"
     ],
+    "CVE-2023-43909": [
+      "https://www.notion.so/SQL-Injection-vulnerability-in-app_contact-parameter-on-appsearch-php-directory-2e3daa8975164ee18217c52c43ae1a22"
+    ],
+    "CVE-2023-43944": [
+      "https://purring-climb-52a.notion.site/Reflected-Cross-site-scripting-b6fd50b94b464313847bb52d4049154f?pvs=4"
+    ],
     "CVE-2023-4395": [
       "https://huntr.dev/bounties/60e38563-7ac8-4a13-ac04-2980cc48b0da"
     ],
@@ -17976,8 +18003,71 @@
     "CVE-2023-51951": [
       "https://www.wizlynxgroup.com/security-research-advisories/vuln/WLX-2023-004"
     ],
+    "CVE-2023-51952": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-formSetIptv-d758f5dba8f646afaf5cddc6f8d3ec70"
+    ],
+    "CVE-2023-51953": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-formSetIptv-d758f5dba8f646afaf5cddc6f8d3ec70"
+    ],
+    "CVE-2023-51954": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-formSetIptv-d758f5dba8f646afaf5cddc6f8d3ec70"
+    ],
+    "CVE-2023-51955": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-formSetIptv-d758f5dba8f646afaf5cddc6f8d3ec70"
+    ],
+    "CVE-2023-51956": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-formSetIptv-d758f5dba8f646afaf5cddc6f8d3ec70"
+    ],
+    "CVE-2023-51957": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-formGetIptv-0fcc584fcda44b1c837e42d5d732957a"
+    ],
+    "CVE-2023-51958": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-formGetIptv-0fcc584fcda44b1c837e42d5d732957a"
+    ],
+    "CVE-2023-51959": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-formGetIptv-0fcc584fcda44b1c837e42d5d732957a"
+    ],
+    "CVE-2023-51960": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-formGetIptv-0fcc584fcda44b1c837e42d5d732957a"
+    ],
+    "CVE-2023-51961": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-formGetIptv-0fcc584fcda44b1c837e42d5d732957a"
+    ],
+    "CVE-2023-51962": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-setIptvInfo-944beaf189db4bf49f99a7a7418c7bdd"
+    ],
+    "CVE-2023-51963": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-setIptvInfo-944beaf189db4bf49f99a7a7418c7bdd"
+    ],
+    "CVE-2023-51964": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-setIptvInfo-944beaf189db4bf49f99a7a7418c7bdd"
+    ],
+    "CVE-2023-51965": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-setIptvInfo-944beaf189db4bf49f99a7a7418c7bdd"
+    ],
+    "CVE-2023-51966": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-setIptvInfo-944beaf189db4bf49f99a7a7418c7bdd"
+    ],
+    "CVE-2023-51967": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-getIptvInfo-f5918cc2828c49e78554f456bf7d4b36"
+    ],
+    "CVE-2023-51968": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-getIptvInfo-f5918cc2828c49e78554f456bf7d4b36"
+    ],
+    "CVE-2023-51969": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-getIptvInfo-f5918cc2828c49e78554f456bf7d4b36"
+    ],
     "CVE-2023-5197": [
       "http://packetstormsecurity.com/files/175963/Kernel-Live-Patch-Security-Notice-LSN-0099-1.html"
+    ],
+    "CVE-2023-51970": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-getIptvInfo-f5918cc2828c49e78554f456bf7d4b36"
+    ],
+    "CVE-2023-51971": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Buffer-Overflow-in-getIptvInfo-f5918cc2828c49e78554f456bf7d4b36"
+    ],
+    "CVE-2023-51972": [
+      "https://grove-laser-8ad.notion.site/Tenda-AX1803-Command-Injection-in-fromAdvSetLanIp-7b2892fac8234cff90ca15af4947a8e7"
     ],
     "CVE-2023-5198": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/416957"
@@ -22035,7 +22125,7 @@
       "https://github.com/roxy-wi/roxy-wi/pull/410/commits/32313928eb9ce906887b8a30bf7b9a3d5c0de1be"
     ],
     "CVE-2024-13140": [
-      "https://github.com/emlog/emlog/issues/312#issue-2758546837"
+      "https://vuldb.com/?submit.468753"
     ],
     "CVE-2024-13141": [
       "https://github.com/Hebing123/cve/issues/83"
@@ -25456,6 +25546,9 @@
     ],
     "CVE-2024-26312": [
       "https://www.archerirm.community/t5/platform-announcements/archer-update-for-multiple-vulnerabilities/ta-p/720963"
+    ],
+    "CVE-2024-26317": [
+      "https://rashidkhanpathan.github.io/posts/CVE-2024-26317-Elliptic-curve-point-addition-error/"
     ],
     "CVE-2024-26329": [
       "https://x41-dsec.de/lab/advisories/x41-2024-001-chilkat-prng/"
@@ -34664,6 +34757,12 @@
     "CVE-2024-54141": [
       "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-vrjr-p3xp-xx2x"
     ],
+    "CVE-2024-54145": [
+      "https://github.com/Cacti/cacti/security/advisories/GHSA-fh3x-69rr-qqpp"
+    ],
+    "CVE-2024-54146": [
+      "https://github.com/Cacti/cacti/security/advisories/GHSA-vj9g-p7f2-4wqj"
+    ],
     "CVE-2024-54147": [
       "https://github.com/altair-graphql/altair/security/advisories/GHSA-8v9h-hxp5-9jcx"
     ],
@@ -34738,6 +34837,9 @@
     ],
     "CVE-2024-54761": [
       "https://github.com/nscan9/BigAnt-Office-Messenger-5.6.06-RCE-via-SQL-Injection/"
+    ],
+    "CVE-2024-54762": [
+      "https://locrian-lightning-dc7.notion.site/CVE-2024-54762-1748e5e2b1a280b4a549dcce2c4823e8"
     ],
     "CVE-2024-54763": [
       "https://github.com/Shuanunio/CVE_Requests/blob/main/ipTIME/A2004/ipTIME_A2004_unauthorized_access_vulnerability_first.md"
