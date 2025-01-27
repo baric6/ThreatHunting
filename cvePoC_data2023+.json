@@ -21218,6 +21218,9 @@
     "CVE-2024-11262": [
       "https://github.com/Hacker0xone/CVE/issues/13"
     ],
+    "CVE-2024-11274": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/504707"
+    ],
     "CVE-2024-11303": [
       "https://cyberdanube.com/en/en-st-polten-uas-path-traversal-in-korenix-jetport/"
     ],
@@ -21432,7 +21435,7 @@
       "https://vuldb.com/?id.252683"
     ],
     "CVE-2024-1195": [
-      "https://vuldb.com/?id.252685"
+      "https://www.youtube.com/watch?v=JdQMINPVJd8"
     ],
     "CVE-2024-11959": [
       "https://github.com/offshore0315/loT-vulnerable/blob/main/D-Link/formResetStatistic.md"
@@ -21599,6 +21602,9 @@
     "CVE-2024-12274": [
       "https://wpscan.com/vulnerability/e3176c9a-63f3-4a28-a8a7-8abb2b4100ef/"
     ],
+    "CVE-2024-12280": [
+      "https://wpscan.com/vulnerability/2b32c0b8-28bb-4220-800b-4c369bca91c5/"
+    ],
     "CVE-2024-12302": [
       "https://wpscan.com/vulnerability/ed860dac-8c4a-482f-8826-31f1a894b6ce/"
     ],
@@ -21611,6 +21617,9 @@
     "CVE-2024-1232": [
       "https://wpscan.com/vulnerability/2a29b509-4cd5-43c8-84f4-f86251dd28f8/"
     ],
+    "CVE-2024-12321": [
+      "https://wpscan.com/vulnerability/d4c55d30-1c15-41ee-95e0-670891d67684/"
+    ],
     "CVE-2024-12344": [
       "https://vuldb.com/?submit.452658"
     ],
@@ -21619,6 +21628,9 @@
     ],
     "CVE-2024-12349": [
       "https://github.com/hadagaga/vuln/blob/master/JFinalCMS/Cross_Site_Request_Forgery/Cross-Site-Request-Forgery.md"
+    ],
+    "CVE-2024-12436": [
+      "https://wpscan.com/vulnerability/3345a403-f62c-40c1-b7ae-bc947591e02a/"
     ],
     "CVE-2024-12478": [
       "https://vuldb.com/?submit.459910"
@@ -21718,6 +21730,12 @@
     ],
     "CVE-2024-12753": [
       "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2024-12773": [
+      "https://wpscan.com/vulnerability/fab64105-599f-49a4-b01d-c873ff34b590/"
+    ],
+    "CVE-2024-12774": [
+      "https://wpscan.com/vulnerability/8decbef5-f106-488b-925c-42b3b280460a/"
     ],
     "CVE-2024-12788": [
       "https://github.com/laowuzi/cve/tree/main/Technical_Discussion_Forum"
@@ -21938,6 +21956,18 @@
     "CVE-2024-13042": [
       "https://github.com/BxYQ/zg_fileread/blob/main/poc.py"
     ],
+    "CVE-2024-13052": [
+      "https://wpscan.com/vulnerability/671d5eef-c496-4047-9d01-8ab8a94cdc72/"
+    ],
+    "CVE-2024-13055": [
+      "https://wpscan.com/vulnerability/91178272-ed7e-412c-a187-e360a1313004/"
+    ],
+    "CVE-2024-13056": [
+      "https://wpscan.com/vulnerability/a6acb608-a23e-461d-af48-a6669a45594a/"
+    ],
+    "CVE-2024-13057": [
+      "https://wpscan.com/vulnerability/6f869a3d-1ac1-4d31-8fe5-9b9795b15b5b/"
+    ],
     "CVE-2024-1306": [
       "https://wpscan.com/vulnerability/c7ce2649-b2b0-43f4-994d-07b1023405e9/"
     ],
@@ -21965,6 +21995,12 @@
     "CVE-2024-13093": [
       "https://github.com/UnrealdDei/cve/blob/main/sql10.md"
     ],
+    "CVE-2024-13094": [
+      "https://wpscan.com/vulnerability/7a75809e-824e-458e-bd01-50dadcea7713/"
+    ],
+    "CVE-2024-13095": [
+      "https://wpscan.com/vulnerability/74e95fb5-025b-4d4d-a279-844b6ee3e57d/"
+    ],
     "CVE-2024-1310": [
       "https://wpscan.com/vulnerability/a7735feb-876e-461c-9a56-ea6067faf277/"
     ],
@@ -21988,6 +22024,12 @@
     ],
     "CVE-2024-13108": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2NetSniper.md"
+    ],
+    "CVE-2024-13116": [
+      "https://wpscan.com/vulnerability/1755c8ad-7620-4b12-bba0-013e80c2691b/"
+    ],
+    "CVE-2024-13117": [
+      "https://wpscan.com/vulnerability/3234cdac-f328-4f1e-a1de-31fbd86aefb9/"
     ],
     "CVE-2024-13129": [
       "https://github.com/roxy-wi/roxy-wi/pull/410/commits/32313928eb9ce906887b8a30bf7b9a3d5c0de1be"
@@ -38107,6 +38149,9 @@
     ],
     "CVE-2024-9360": [
       "https://github.com/halhalz/-/issues/1"
+    ],
+    "CVE-2024-9367": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/496631"
     ],
     "CVE-2024-9387": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/496659"
