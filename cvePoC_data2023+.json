@@ -22274,6 +22274,9 @@
     "CVE-2024-12717": [
       "https://wpscan.com/vulnerability/5564926a-6b1d-43f4-8147-128472f6b93a/"
     ],
+    "CVE-2024-12723": [
+      "https://wpscan.com/vulnerability/d9053b8b-c05c-42fd-913e-f85c799df807/"
+    ],
     "CVE-2024-1273": [
       "https://wpscan.com/vulnerability/9784d7c8-e3aa-42af-ace8-5b2b37ebc9cb/"
     ],
@@ -22318,6 +22321,9 @@
     ],
     "CVE-2024-12794": [
       "https://github.com/laowuzi/cve/blob/main/E-commerce/E-commerce_editorder.md"
+    ],
+    "CVE-2024-12807": [
+      "https://wpscan.com/vulnerability/fcce0839-bb1d-4aa3-b236-ff5f5e9b6120/"
     ],
     "CVE-2024-12841": [
       "https://github.com/emlog/emlog/issues/305"
@@ -32717,6 +32723,9 @@
     "CVE-2024-42010": [
       "https://sonarsource.com/blog/government-emails-at-risk-critical-cross-site-scripting-vulnerability-in-roundcube-webmail/"
     ],
+    "CVE-2024-42011": [
+      "https://luminous-reminder-337.notion.site/Buffer-Overflow-Vulnerability-in-Spotify-iOS-App-Steps-to-Reproduce-By-0xRushy-5114aa2548e2401eb6812a12af888b8c"
+    ],
     "CVE-2024-42029": [
       "https://github.com/hyprwm/xdg-desktop-portal-hyprland/issues/242"
     ],
@@ -38911,6 +38920,9 @@
     ],
     "CVE-2024-8862": [
       "https://rumbling-slice-eb0.notion.site/Unauthenticated-Remote-Command-Execution-via-Panda-df-query-9dc40f0477ee4b65806de7921876c222?pvs=4"
+    ],
+    "CVE-2024-8863": [
+      "https://rumbling-slice-eb0.notion.site/Stored-XSS-through-TEXT-EXPLORER-in-aimhubio-aim-d0f07b7194724950a673498546d80d43?pvs=4"
     ],
     "CVE-2024-8864": [
       "https://rumbling-slice-eb0.notion.site/Composio-s-Local-tools-Mathematical-has-a-code-injection-risk-in-composiohq-composio-ea0e89ee10fe4edfb9a8cfeed158c765?pvs=4"
