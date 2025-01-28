@@ -2784,11 +2784,170 @@
     "CVE-2023-21400": [
       "http://packetstormsecurity.com/files/175072/Kernel-Live-Patch-Security-Notice-LSN-0098-1.html"
     ],
+    "CVE-2023-21419": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21420": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21421": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21422": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21423": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21424": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21425": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21426": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21427": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21428": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21429": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
     "CVE-2023-2143": [
       "https://wpscan.com/vulnerability/91898762-aa7d-4fbc-a016-3de48901e5de"
     ],
+    "CVE-2023-21430": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=01"
+    ],
+    "CVE-2023-21435": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=02"
+    ],
+    "CVE-2023-21436": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=02"
+    ],
+    "CVE-2023-21437": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=02"
+    ],
+    "CVE-2023-21438": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=02"
+    ],
+    "CVE-2023-21439": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=02"
+    ],
+    "CVE-2023-21440": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=02"
+    ],
+    "CVE-2023-21449": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21452": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21453": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21454": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21455": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21456": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21457": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21458": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21459": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21460": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21461": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=03"
+    ],
+    "CVE-2023-21484": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21485": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21486": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21487": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21488": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21489": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21490": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21491": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21492": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21493": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21494": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21495": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21496": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21497": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21498": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21499": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
     "CVE-2023-2150": [
       "https://youtu.be/o46oHLvY2-E"
+    ],
+    "CVE-2023-21500": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21501": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21502": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21503": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21504": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=05"
+    ],
+    "CVE-2023-21512": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=06"
+    ],
+    "CVE-2023-21513": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=06"
+    ],
+    "CVE-2023-21517": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=06"
     ],
     "CVE-2023-2152": [
       "https://vuldb.com/?id.226273"
@@ -7854,6 +8013,9 @@
     "CVE-2023-29804": [
       "https://sore-pail-31b.notion.site/command-injection-WFS-SR03-7cddf0ac85e54f8ba81d9b26b00ca5cd"
     ],
+    "CVE-2023-29805": [
+      "https://sore-pail-31b.notion.site/Command-Injection-2-WFS-SR03-436d09790c2f4e31b197c39711e17775"
+    ],
     "CVE-2023-29808": [
       "https://packetstormsecurity.com/files/172145/Companymaps-8.0-Cross-Site-Scripting.html"
     ],
@@ -8307,8 +8469,137 @@
     "CVE-2023-30628": [
       "https://securitylab.github.com/research/github-actions-untrusted-input/"
     ],
+    "CVE-2023-30640": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30641": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30642": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30643": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30644": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30645": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30646": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30647": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30648": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30649": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30650": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30651": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30652": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30653": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30654": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30655": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30656": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30657": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30658": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30659": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30660": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30661": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30662": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30663": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30664": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30665": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30666": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30667": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30668": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30669": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
     "CVE-2023-3067": [
       "https://huntr.dev/bounties/4772ceb7-1594-414d-9b20-5b82029da7b6"
+    ],
+    "CVE-2023-30670": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30671": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=07"
+    ],
+    "CVE-2023-30679": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30680": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30681": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30682": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30683": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30684": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30685": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30686": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30687": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30688": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30689": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
     ],
     "CVE-2023-3069": [
       "https://huntr.dev/bounties/00544982-365a-476b-b5fe-42f02f11d367"
@@ -8316,14 +8607,89 @@
     "CVE-2023-30690": [
       "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=10"
     ],
+    "CVE-2023-30691": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
     "CVE-2023-30692": [
       "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=10"
+    ],
+    "CVE-2023-30693": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30694": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30696": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30697": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30698": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30699": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
     ],
     "CVE-2023-3070": [
       "https://huntr.dev/bounties/e193068e-0b95-403a-8453-e015241b8f1b"
     ],
+    "CVE-2023-30700": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30701": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=08"
+    ],
+    "CVE-2023-30706": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30707": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30708": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30709": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
     "CVE-2023-3071": [
       "https://huntr.dev/bounties/3e8d5166-9bc6-46e7-94a8-cad52434a39e"
+    ],
+    "CVE-2023-30710": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30711": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30712": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30713": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30714": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30715": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30716": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30717": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30718": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30719": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30720": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
+    "CVE-2023-30721": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
     ],
     "CVE-2023-30727": [
       "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=10"
@@ -8339,6 +8705,9 @@
     ],
     "CVE-2023-30733": [
       "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=10"
+    ],
+    "CVE-2023-30739": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
     ],
     "CVE-2023-30740": [
       "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html"
@@ -13125,6 +13494,9 @@
     "CVE-2023-40178": [
       "https://github.com/node-saml/node-saml/security/advisories/GHSA-vx8m-6fhw-pccw"
     ],
+    "CVE-2023-4018": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/420301"
+    ],
     "CVE-2023-40181": [
       "https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-mxp4-rx7x-h2g8"
     ],
@@ -13184,6 +13556,9 @@
     ],
     "CVE-2023-40293": [
       "https://autohack.in/2023/07/26/dude-its-my-car-how-to-develop-intimacy-with-your-car/"
+    ],
+    "CVE-2023-40297": [
+      "https://github.com/sahar042/CVE-2023-40297"
     ],
     "CVE-2023-40305": [
       "https://savannah.gnu.org/bugs/index.php?64503"
@@ -14037,8 +14412,44 @@
     "CVE-2023-4252": [
       "https://wpscan.com/vulnerability/d2019e59-db6c-4014-8057-0644c9a00665"
     ],
+    "CVE-2023-42527": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
+    "CVE-2023-42528": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
+    "CVE-2023-42529": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
     "CVE-2023-4253": [
       "https://wpscan.com/vulnerability/1cbbab9e-be3d-4081-bc0e-c52d500d9871"
+    ],
+    "CVE-2023-42530": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
+    "CVE-2023-42531": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
+    "CVE-2023-42532": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
+    "CVE-2023-42533": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
+    "CVE-2023-42534": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
+    "CVE-2023-42535": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
+    "CVE-2023-42536": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
+    "CVE-2023-42537": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
+    ],
+    "CVE-2023-42538": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=11"
     ],
     "CVE-2023-4254": [
       "https://wpscan.com/vulnerability/0dfffe48-e60d-4bab-b194-8a63554246c3"
@@ -14046,11 +14457,56 @@
     "CVE-2023-4255": [
       "https://github.com/tats/w3m/issues/268"
     ],
+    "CVE-2023-42556": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42557": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42558": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42559": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
     "CVE-2023-4256": [
       "https://github.com/appneta/tcpreplay/issues/813"
     ],
+    "CVE-2023-42560": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42561": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42562": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42563": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42564": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42565": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42566": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42567": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42568": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
+    "CVE-2023-42569": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
+    ],
     "CVE-2023-4257": [
       "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-853q-q69w-gf5j"
+    ],
+    "CVE-2023-42570": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=12"
     ],
     "CVE-2023-4259": [
       "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-gghm-c696-f4j4"
@@ -14529,6 +14985,9 @@
     "CVE-2023-43835": [
       "https://packetstormsecurity.com/files/174756/Super-Store-Finder-3.7-Remote-Command-Execution.html"
     ],
+    "CVE-2023-4384": [
+      "https://l6x.notion.site/PoC-7041cf9625554273b17148de85705d06?pvs=4"
+    ],
     "CVE-2023-43860": [
       "https://github.com/YTrick/vuln/blob/main/DIR-619L%20Buffer%20Overflow_1.md"
     ],
@@ -14618,6 +15077,9 @@
     ],
     "CVE-2023-43909": [
       "https://www.notion.so/SQL-Injection-vulnerability-in-app_contact-parameter-on-appsearch-php-directory-2e3daa8975164ee18217c52c43ae1a22"
+    ],
+    "CVE-2023-4392": [
+      "https://l6x.notion.site/PoC-Improper-Authentication-efe05964ff604beeac15f693c1e01dd6?pvs=4"
     ],
     "CVE-2023-43944": [
       "https://purring-climb-52a.notion.site/Reflected-Cross-site-scripting-b6fd50b94b464313847bb52d4049154f?pvs=4"
@@ -18300,6 +18762,9 @@
     "CVE-2023-52430": [
       "https://blog.trailofbits.com/2023/09/18/security-flaws-in-an-sso-plugin-for-caddy/"
     ],
+    "CVE-2023-52432": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2023&month=09"
+    ],
     "CVE-2023-5244": [
       "https://huntr.dev/bounties/a3bd58ba-ca59-4cba-85d1-799f73a76470"
     ],
@@ -21615,7 +22080,7 @@
       "https://github.com/Hebing123/cve/issues/76"
     ],
     "CVE-2024-12181": [
-      "https://github.com/Hebing123/cve/issues/77"
+      "https://vuldb.com/?submit.452983"
     ],
     "CVE-2024-12182": [
       "https://vuldb.com/?submit.453003"
@@ -21769,6 +22234,15 @@
     ],
     "CVE-2024-12632": [
       "https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"
+    ],
+    "CVE-2024-12647": [
+      "https://www.canon-europe.com/support/product-security/#news"
+    ],
+    "CVE-2024-12648": [
+      "https://www.canon-europe.com/support/product-security/#news"
+    ],
+    "CVE-2024-12649": [
+      "https://www.canon-europe.com/support/product-security/#news"
     ],
     "CVE-2024-1266": [
       "https://drive.google.com/file/d/16a9lQqUFBICw-Hhbe9bT5sSB7qwZjMwA/view?usp=sharing"
@@ -22615,6 +23089,216 @@
     ],
     "CVE-2024-2077": [
       "https://github.com/yethu123/vulns-finding/blob/main/Simple%20Online%20Bidding%20System.md"
+    ],
+    "CVE-2024-20802": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=01"
+    ],
+    "CVE-2024-20803": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=01"
+    ],
+    "CVE-2024-20804": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=01"
+    ],
+    "CVE-2024-20805": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=01"
+    ],
+    "CVE-2024-20806": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=01"
+    ],
+    "CVE-2024-20810": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20811": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20812": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20813": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20814": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20815": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20816": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20817": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20818": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20819": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20820": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=02"
+    ],
+    "CVE-2024-20830": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=03"
+    ],
+    "CVE-2024-20831": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=03"
+    ],
+    "CVE-2024-20832": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=03"
+    ],
+    "CVE-2024-20833": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=03"
+    ],
+    "CVE-2024-20834": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=03"
+    ],
+    "CVE-2024-20835": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=03"
+    ],
+    "CVE-2024-20836": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=03"
+    ],
+    "CVE-2024-20842": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=04"
+    ],
+    "CVE-2024-20843": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=04"
+    ],
+    "CVE-2024-20844": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=04"
+    ],
+    "CVE-2024-20845": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=04"
+    ],
+    "CVE-2024-20846": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=04"
+    ],
+    "CVE-2024-20847": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=04"
+    ],
+    "CVE-2024-20848": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=04"
+    ],
+    "CVE-2024-20849": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=04"
+    ],
+    "CVE-2024-20855": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20856": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20857": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20858": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20859": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20860": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20861": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20862": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20863": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20864": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20865": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20866": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=05"
+    ],
+    "CVE-2024-20873": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20874": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20875": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20876": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20877": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20878": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20879": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20880": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20881": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20882": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20883": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20884": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20885": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=06"
+    ],
+    "CVE-2024-20888": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20889": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20890": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20891": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20892": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20893": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20894": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20895": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20896": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20897": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20898": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20899": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20900": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-20901": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
     ],
     "CVE-2024-2093": [
       "https://github.com/vektor-inc/vk-all-in-one-expansion-unit/pull/1072"
@@ -29075,6 +29759,210 @@
     "CVE-2024-34582": [
       "https://github.com/silent6trinity/CVE-2024-34582"
     ],
+    "CVE-2024-34583": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34585": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34586": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34587": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34588": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34589": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34590": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34591": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34592": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34593": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34594": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34595": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34602": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34603": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=07"
+    ],
+    "CVE-2024-34604": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34605": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34606": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34607": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34608": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34609": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34610": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34611": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34612": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34613": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34614": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34615": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34616": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34617": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34618": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34619": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34620": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34637": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34638": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34639": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=08"
+    ],
+    "CVE-2024-34640": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34641": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34642": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34643": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34644": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34645": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34646": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34647": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34648": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34649": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34650": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34651": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34652": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34653": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34654": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34655": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=09"
+    ],
+    "CVE-2024-34662": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=10"
+    ],
+    "CVE-2024-34663": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=10"
+    ],
+    "CVE-2024-34664": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=10"
+    ],
+    "CVE-2024-34665": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=10"
+    ],
+    "CVE-2024-34666": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=10"
+    ],
+    "CVE-2024-34667": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=10"
+    ],
+    "CVE-2024-34668": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=10"
+    ],
+    "CVE-2024-34669": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=10"
+    ],
+    "CVE-2024-34673": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-34674": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-34675": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-34676": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-34677": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-34678": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-34679": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-34680": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-34681": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-34682": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
     "CVE-2024-34694": [
       "https://github.com/lnbits/lnbits/security/advisories/GHSA-3j4h-h3fp-vwww"
     ],
@@ -31859,6 +32747,9 @@
     "CVE-2024-42349": [
       "https://github.com/FOGProject/fogproject/security/advisories/GHSA-697m-3c4p-g29h"
     ],
+    "CVE-2024-4235": [
+      "https://netsecfish.notion.site/Netgear-DG834Gv5-Plain-Text-Credentials-Exposure-22e94fe066014490bebd349775d10b27?pvs=4"
+    ],
     "CVE-2024-42352": [
       "https://github.com/nuxt/icon/security/advisories/GHSA-cxgv-px37-4mp2"
     ],
@@ -33020,6 +33911,9 @@
     "CVE-2024-45596": [
       "https://github.com/directus/directus/security/advisories/GHSA-cff8-x7jv-4fm8"
     ],
+    "CVE-2024-45598": [
+      "https://github.com/Cacti/cacti/security/advisories/GHSA-pv2c-97pp-vxwg"
+    ],
     "CVE-2024-45622": [
       "https://github.com/atoz-chevara/cve/blob/main/2024/ASIS_AplikasiSistemSekolah_Using_CodeIgniter3-SQL_Injection_Authentication_Bypass.md"
     ],
@@ -33067,6 +33961,12 @@
     ],
     "CVE-2024-45812": [
       "https://github.com/webpack/webpack/security/advisories/GHSA-4vvj-4cpr-p986"
+    ],
+    "CVE-2024-4582": [
+      "https://netsecfish.notion.site/Command-Injection-in-Faraday-Technology-GM828x-GM8181-DVR-1bc02d17ee5540a08273da2850e809c4?pvs=4"
+    ],
+    "CVE-2024-4583": [
+      "https://netsecfish.notion.site/Unauthorized-Credential-Exposure-in-Faraday-Technology-Grain-Media-GM828x-GM8181-DVR-Devices-6a501c33e5d44beab7148074d2214b8f?pvs=4"
     ],
     "CVE-2024-4585": [
       "https://github.com/Hckwzh/cms/blob/main/16.md"
@@ -33563,6 +34463,24 @@
     "CVE-2024-48024": [
       "https://patchstack.com/database/vulnerability/keep-backup-daily/wordpress-keep-backup-daily-plugin-2-0-7-sensitive-data-exposure-vulnerability?_s_id=cve"
     ],
+    "CVE-2024-48050": [
+      "https://rumbling-slice-eb0.notion.site/Unauthenticated-Remote-Code-Execution-via-The-use-of-eval-in-is_callable_expression-and-sanitize_nod-cd4ea6c576da4e0b965ef596855c298d"
+    ],
+    "CVE-2024-48052": [
+      "https://rumbling-slice-eb0.notion.site/FULL-SSRF-in-gr-DownloadButton-in-gradio-app-gradio-870b21e0908b48cbafd914719ac1a4e6?pvs=4"
+    ],
+    "CVE-2024-48057": [
+      "https://rumbling-slice-eb0.notion.site/LocalAI-deleted-model-with-storage-XSS-CSRF-vulnerability-in-mudler-localai-101e3cda9e8c80e0ac12fe418d5dd982?pvs=4"
+    ],
+    "CVE-2024-48059": [
+      "https://rumbling-slice-eb0.notion.site/Stored-XSS-via-Chat-message-in-gaizhenbiao-chuanhuchatgpt-104e3cda9e8c80b4b611dfc491c488d8?pvs=4"
+    ],
+    "CVE-2024-48061": [
+      "https://rumbling-slice-eb0.notion.site/There-is-a-Remote-Code-Execution-RCE-vulnerability-in-the-repository-https-github-com-langflow-a-105e3cda9e8c800fac92f1b571bd40d8"
+    ],
+    "CVE-2024-48063": [
+      "https://rumbling-slice-eb0.notion.site/Distributed-RPC-Framework-RemoteModule-has-Deserialization-RCE-in-pytorch-pytorch-111e3cda9e8c8021a7d3cbc61ee1a20c"
+    ],
     "CVE-2024-4809": [
       "https://github.com/CveSecLook/cve/issues/26"
     ],
@@ -33604,6 +34522,9 @@
     ],
     "CVE-2024-48202": [
       "https://github.com/Lunax0/LogLunax/blob/main/icecms/CVE-2024-48202.md"
+    ],
+    "CVE-2024-48206": [
+      "https://rumbling-slice-eb0.notion.site/chainer-s-chainermn-has-MPI-Deserialization-vulnerability-in-chainer-chainer-c6a004feb53a447e8fb440968d73d6fd?pvs=4"
     ],
     "CVE-2024-48218": [
       "https://github.com/funadmin/funadmin/issues/21"
@@ -33886,6 +34807,33 @@
     ],
     "CVE-2024-49379": [
       "https://securitylab.github.com/advisories/GHSL-2024-164_Umbrel/"
+    ],
+    "CVE-2024-49401": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-49402": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=11"
+    ],
+    "CVE-2024-49410": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=12"
+    ],
+    "CVE-2024-49411": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=12"
+    ],
+    "CVE-2024-49412": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=12"
+    ],
+    "CVE-2024-49413": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=12"
+    ],
+    "CVE-2024-49414": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=12"
+    ],
+    "CVE-2024-49415": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=12"
+    ],
+    "CVE-2024-49422": [
+      "https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=10"
     ],
     "CVE-2024-4946": [
       "https://github.com/CveSecLook/cve/issues/29"
@@ -34667,6 +35615,9 @@
     "CVE-2024-5356": [
       "https://github.com/anji-plus/report/files/15363269/aj-report.pdf"
     ],
+    "CVE-2024-53605": [
+      "https://cidy.notion.site/Improper-Access-Control-to-content-Provider-in-NextSMS-13cafb72d1d3807dbc2cebcb8574ccf9?pvs=74"
+    ],
     "CVE-2024-53619": [
       "https://grimthereaperteam.medium.com/spip-4-3-3-malicious-file-upload-xss-in-pdf-526c03bb1776"
     ],
@@ -34825,6 +35776,9 @@
     ],
     "CVE-2024-5472": [
       "https://wpscan.com/vulnerability/dcddc2de-c32c-4f8c-8490-f3d980b05822/"
+    ],
+    "CVE-2024-54728": [
+      "https://gist.github.com/xu-yanbo202000460009/00dacd7bfede713a0f052a531da4fabd"
     ],
     "CVE-2024-5473": [
       "https://wpscan.com/vulnerability/9c70cfc4-5759-469a-a6a3-510c405bd28a/"
@@ -37955,6 +38909,15 @@
     "CVE-2024-8857": [
       "https://wpscan.com/vulnerability/08ca6daa-09f4-4604-ac9e-15a1b33d599d/"
     ],
+    "CVE-2024-8862": [
+      "https://rumbling-slice-eb0.notion.site/Unauthenticated-Remote-Command-Execution-via-Panda-df-query-9dc40f0477ee4b65806de7921876c222?pvs=4"
+    ],
+    "CVE-2024-8864": [
+      "https://rumbling-slice-eb0.notion.site/Composio-s-Local-tools-Mathematical-has-a-code-injection-risk-in-composiohq-composio-ea0e89ee10fe4edfb9a8cfeed158c765?pvs=4"
+    ],
+    "CVE-2024-8865": [
+      "https://rumbling-slice-eb0.notion.site/There-is-an-arbitrary-file-read-vulnerability-at-api-download-in-composiohq-composio-f0ec1ec26a5f434a97bb1ffde435a35b?pvs=4"
+    ],
     "CVE-2024-8866": [
       "https://github.com/Hebing123/cve/issues/68"
     ],
@@ -38200,6 +39163,9 @@
     ],
     "CVE-2024-9275": [
       "https://github.com/jeanmarc77/123solar/issues/75"
+    ],
+    "CVE-2024-9277": [
+      "https://rumbling-slice-eb0.notion.site/Remote-Redos-in-https-github-com-langflow-ai-langflow-067159ced0d5494e91b06071384969c4?pvs=4"
     ],
     "CVE-2024-9278": [
       "https://wiki.shikangsi.com/post/share/96b7d919-1749-4e2b-bda2-b80d2fd23865"
