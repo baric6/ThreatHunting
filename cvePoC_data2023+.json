@@ -21065,6 +21065,9 @@
     "CVE-2024-10043": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/499577"
     ],
+    "CVE-2024-1007": [
+      "https://www.youtube.com/watch?v=1yesMwvWcL4"
+    ],
     "CVE-2024-10073": [
       "https://vuldb.com/?submit.420055"
     ],
@@ -21991,6 +21994,12 @@
     ],
     "CVE-2024-1195": [
       "https://www.youtube.com/watch?v=JdQMINPVJd8"
+    ],
+    "CVE-2024-11954": [
+      "https://github.com/pimcore/pimcore/security/advisories/GHSA-xr3m-6gq6-22cg"
+    ],
+    "CVE-2024-11956": [
+      "https://github.com/pimcore/pimcore/security/advisories/GHSA-q53r-9hh9-w277"
     ],
     "CVE-2024-11959": [
       "https://github.com/offshore0315/loT-vulnerable/blob/main/D-Link/formResetStatistic.md"
@@ -39298,6 +39307,9 @@
     ],
     "CVE-2024-9535": [
       "https://vuldb.com/?id.279241"
+    ],
+    "CVE-2024-9536": [
+      "https://vuldb.com/?id.279242"
     ],
     "CVE-2024-9537": [
       "https://arcticwolf.com/resources/blog/rackspace-breach-linked-to-zero-day-vulnerability-sciencelogic-sl1s-third-party-utility/"
