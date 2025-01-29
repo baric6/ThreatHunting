@@ -1206,6 +1206,9 @@
     "CVE-2023-0848": [
       "https://vuldb.com/?id.221147"
     ],
+    "CVE-2023-0850": [
+      "https://vuldb.com/?id.221153"
+    ],
     "CVE-2023-0851": [
       "https://www.canon-europe.com/support/product-security-latest-news/"
     ],
@@ -21293,6 +21296,9 @@
     "CVE-2024-10482": [
       "https://wpscan.com/vulnerability/46cbd4bb-b6f3-49e8-8d79-8c378c617e7c/"
     ],
+    "CVE-2024-10488": [
+      "https://issues.chromium.org/issues/374310077"
+    ],
     "CVE-2024-10491": [
       "https://www.herodevs.com/vulnerability-directory/cve-2024-10491"
     ],
@@ -24612,7 +24618,7 @@
       "https://wpscan.com/vulnerability/c740ed3b-d6b8-4afc-8c6b-a1ec37597055/"
     ],
     "CVE-2024-2329": [
-      "https://github.com/flyyue2001/cve/blob/main/NS-ASG-sql-list_resource_icon.md"
+      "https://vuldb.com/?id.256280"
     ],
     "CVE-2024-2330": [
       "https://github.com/jikedaodao/cve/blob/main/NS-ASG-sql-addmacbind.md"
@@ -32071,6 +32077,9 @@
     ],
     "CVE-2024-4068": [
       "https://github.com/micromatch/braces/pull/37"
+    ],
+    "CVE-2024-40689": [
+      "https://www.ibm.com/support/pages/node/7160579"
     ],
     "CVE-2024-40726": [
       "https://github.com/minhquan202/Vuln-Netbox"
