@@ -22298,6 +22298,9 @@
     "CVE-2024-1274": [
       "https://wpscan.com/vulnerability/91dba45b-9930-4bfb-a7bf-903c46864e9f/"
     ],
+    "CVE-2024-12749": [
+      "https://wpscan.com/vulnerability/478316b9-9f47-4aa6-92c6-03879f16a3e5/"
+    ],
     "CVE-2024-12751": [
       "https://www.foxit.com/support/security-bulletins.html"
     ],
