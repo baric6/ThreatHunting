@@ -21999,7 +21999,7 @@
       "https://github.com/pimcore/pimcore/security/advisories/GHSA-xr3m-6gq6-22cg"
     ],
     "CVE-2024-11956": [
-      "https://github.com/pimcore/pimcore/security/advisories/GHSA-q53r-9hh9-w277"
+      "https://vuldb.com/?submit.451863"
     ],
     "CVE-2024-11959": [
       "https://github.com/offshore0315/loT-vulnerable/blob/main/D-Link/formResetStatistic.md"
@@ -31625,6 +31625,9 @@
     "CVE-2024-39202": [
       "https://gist.github.com/Swind1er/40c33f1b1549028677cb4e2e5ef69109"
     ],
+    "CVE-2024-39205": [
+      "https://github.com/Marven11/CVE-2024-39205-Pyload-RCE/tree/main"
+    ],
     "CVE-2024-39206": [
       "https://www.proactivelabs.com.au/2024/06/19/cloudberry.html"
     ],
@@ -35921,6 +35924,9 @@
     "CVE-2024-5519": [
       "https://github.com/L1OudFd8cl09/CVE/issues/2"
     ],
+    "CVE-2024-55193": [
+      "https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/4551"
+    ],
     "CVE-2024-55196": [
       "https://github.com/hexkaster/SecurityResearch/blob/main/CVE-2024-55196.md"
     ],
@@ -35929,6 +35935,12 @@
     ],
     "CVE-2024-5522": [
       "https://wpscan.com/vulnerability/bc76ef95-a2a9-4185-8ed9-1059097a506a/"
+    ],
+    "CVE-2024-55227": [
+      "https://github.com/Dolibarr/dolibarr/security/policy"
+    ],
+    "CVE-2024-55228": [
+      "https://github.com/Dolibarr/dolibarr/security/policy"
     ],
     "CVE-2024-55231": [
       "https://github.com/CV1523/CVEs/blob/main/CVE-2024-55231.md"
@@ -36286,6 +36298,9 @@
     ],
     "CVE-2024-57488": [
       "https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488"
+    ],
+    "CVE-2024-57514": [
+      "https://www.zyenra.com/blog/xss-in-tplink-archer-a20.html"
     ],
     "CVE-2024-5758": [
       "https://wpscan.com/vulnerability/635be98d-4c17-4e75-871f-9794d85a2eb1/"
