@@ -21212,6 +21212,9 @@
     "CVE-2024-1030": [
       "https://vuldb.com/?id.252303"
     ],
+    "CVE-2024-10309": [
+      "https://wpscan.com/vulnerability/9eb21250-34bd-4600-a0a5-7c5117f69f04/"
+    ],
     "CVE-2024-10327": [
       "https://help.okta.com/en-us/content/topics/releasenotes/okta-verify-release-notes.htm#panel2"
     ],
@@ -22088,6 +22091,9 @@
     "CVE-2024-1215": [
       "https://github.com/PrecursorYork/crud-without-refresh-reload-Reflected_XSS-POC/blob/main/README.md"
     ],
+    "CVE-2024-12163": [
+      "https://wpscan.com/vulnerability/ea704054-fb66-4014-89bd-1c61074f64e5/"
+    ],
     "CVE-2024-12178": [
       "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
     ],
@@ -22202,6 +22208,9 @@
     "CVE-2024-12349": [
       "https://github.com/hadagaga/vuln/blob/master/JFinalCMS/Cross_Site_Request_Forgery/Cross-Site-Request-Forgery.md"
     ],
+    "CVE-2024-12400": [
+      "https://wpscan.com/vulnerability/3542315c-93c3-41dd-a99e-02a38cfd58fb/"
+    ],
     "CVE-2024-12436": [
       "https://wpscan.com/vulnerability/3345a403-f62c-40c1-b7ae-bc947591e02a/"
     ],
@@ -22253,6 +22262,9 @@
     "CVE-2024-12632": [
       "https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"
     ],
+    "CVE-2024-12638": [
+      "https://wpscan.com/vulnerability/a6f5b0fe-00a0-4e30-aec6-87882c035beb/"
+    ],
     "CVE-2024-12647": [
       "https://www.canon-europe.com/support/product-security/#news"
     ],
@@ -22282,6 +22294,12 @@
     ],
     "CVE-2024-1269": [
       "https://github.com/PrecursorYork/Product-Management-System-Using-PHP-and-MySQL-Reflected-XSS-POC/blob/main/README.md"
+    ],
+    "CVE-2024-12708": [
+      "https://wpscan.com/vulnerability/8f30a37e-b9d0-467b-a0e3-20dc0a9f2b61/"
+    ],
+    "CVE-2024-12709": [
+      "https://wpscan.com/vulnerability/d93056f1-1a6e-405f-a094-d4d270393f87/"
     ],
     "CVE-2024-12714": [
       "https://wpscan.com/vulnerability/f7fb2aef-16ce-4ae7-927c-2ffbc45fbda5/"
@@ -26597,6 +26615,9 @@
     "CVE-2024-27302": [
       "https://github.com/zeromicro/go-zero/security/advisories/GHSA-fgxv-gw55-r5fq"
     ],
+    "CVE-2024-27304": [
+      "https://www.youtube.com/watch?v=Tfg1B8u1yvE"
+    ],
     "CVE-2024-27316": [
       "http://seclists.org/fulldisclosure/2024/Jul/18"
     ],
@@ -29023,6 +29044,9 @@
     ],
     "CVE-2024-32653": [
       "https://github.com/skylot/jadx/security/advisories/GHSA-3pp3-hg2q-9gpm"
+    ],
+    "CVE-2024-32655": [
+      "https://www.youtube.com/watch?v=Tfg1B8u1yvE"
     ],
     "CVE-2024-32735": [
       "https://www.tenable.com/security/research/tra-2024-14"
@@ -31970,6 +31994,9 @@
     "CVE-2024-40422": [
       "https://medium.com/@alpernae/uncovering-path-traversal-in-devika-v1-a-deep-dive-into-cve-2024-40422-f8ce81398b99"
     ],
+    "CVE-2024-40427": [
+      "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-55wq-2hgm-75m4"
+    ],
     "CVE-2024-40430": [
       "https://github.com/github/advisory-database/pull/4645"
     ],
@@ -31987,6 +32014,9 @@
     ],
     "CVE-2024-40442": [
       "https://github.com/gian2dchris/CVEs/tree/main/CVE-2024-40442"
+    ],
+    "CVE-2024-40457": [
+      "https://github.com/jeppojeps/CVE-2024-40457-PoC"
     ],
     "CVE-2024-40492": [
       "https://github.com/minendie/POC_CVE-2024-40492"
