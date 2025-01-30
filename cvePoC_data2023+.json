@@ -16788,6 +16788,9 @@
     "CVE-2023-48192": [
       "https://github.com/zxsssd/TotoLink-"
     ],
+    "CVE-2023-48194": [
+      "https://github.com/zt20xx/CVE-2023-48194"
+    ],
     "CVE-2023-48197": [
       "https://nitipoom-jar.github.io/CVE-2023-48197/"
     ],
@@ -22654,6 +22657,9 @@
     ],
     "CVE-2024-13205": [
       "https://www.websecurityinsights.my.id/2024/12/ecommerce-php-by-kurniaramadhan-sql.html?m=1"
+    ],
+    "CVE-2024-13255": [
+      "https://www.drupal.org/sa-contrib-2024-019"
     ],
     "CVE-2024-1330": [
       "https://wpscan.com/vulnerability/1988815b-7a53-4657-9b1c-1f83c9f9ccfd/"
@@ -31961,6 +31967,9 @@
     "CVE-2024-40420": [
       "https://github.com/A3h1nt/CVEs/blob/main/OpenCart/Readme.md"
     ],
+    "CVE-2024-40422": [
+      "https://medium.com/@alpernae/uncovering-path-traversal-in-devika-v1-a-deep-dive-into-cve-2024-40422-f8ce81398b99"
+    ],
     "CVE-2024-40430": [
       "https://github.com/github/advisory-database/pull/4645"
     ],
@@ -35597,6 +35606,24 @@
     "CVE-2024-5318": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/427526"
     ],
+    "CVE-2024-53255": [
+      "https://github.com/BoidCMS/BoidCMS/security/advisories/GHSA-7q7m-cgw8-px4r"
+    ],
+    "CVE-2024-53262": [
+      "https://github.com/sveltejs/kit/security/advisories/GHSA-mh2x-fcqh-fmqv"
+    ],
+    "CVE-2024-53264": [
+      "https://github.com/bunkerity/bunkerweb/security/advisories/GHSA-q9rr-h3hx-m87g"
+    ],
+    "CVE-2024-53268": [
+      "https://github.com/laurent22/joplin/security/advisories/GHSA-pc5v-xp44-5mgv"
+    ],
+    "CVE-2024-53269": [
+      "https://github.com/envoyproxy/envoy/security/advisories/GHSA-mfqp-7mmj-rm53"
+    ],
+    "CVE-2024-53271": [
+      "https://github.com/envoyproxy/envoy/security/advisories/GHSA-rmm5-h2wv-mg4f"
+    ],
     "CVE-2024-53272": [
       "https://securitylab.github.com/advisories/GHSL-2024-109_GHSL-2024-111_habitica/"
     ],
@@ -35615,17 +35642,65 @@
     "CVE-2024-5333": [
       "https://wpscan.com/vulnerability/764b5a23-8b51-4882-b899-beb54f684984/"
     ],
+    "CVE-2024-53333": [
+      "https://github.com/luckysmallbird/Totolink-EX200-Vulnerability-1/blob/main/README.md"
+    ],
+    "CVE-2024-53334": [
+      "https://github.com/luckysmallbird/Totolink-A810R-Vulnerability-1/blob/main/1.md"
+    ],
+    "CVE-2024-53364": [
+      "https://github.com/SCR-athif/CVE/tree/main/CVE-2024-53364"
+    ],
+    "CVE-2024-53365": [
+      "https://github.com/SCR-athif/CVE/tree/main/CVE-2024-53365"
+    ],
+    "CVE-2024-53375": [
+      "https://github.com/ThottySploity/CVE-2024-53375"
+    ],
     "CVE-2024-53376": [
       "https://thottysploity.github.io/posts/cve-2024-53376"
+    ],
+    "CVE-2024-53426": [
+      "https://github.com/ntop/ntopng/issues/8793"
+    ],
+    "CVE-2024-53429": [
+      "https://github.com/open62541/open62541/issues/6825"
+    ],
+    "CVE-2024-53432": [
+      "https://github.com/PointCloudLibrary/pcl/issues/6162"
     ],
     "CVE-2024-53442": [
       "https://1d8.github.io/cves/cve_2024_53442/"
     ],
+    "CVE-2024-53457": [
+      "https://github.com/tCu0n9/Stored-XSS-LibreNMS-Display-Name.git"
+    ],
     "CVE-2024-53459": [
       "https://packetstormsecurity.com/files/182467/Sysax-Multi-Server-6.99-Cross-Site-Scripting.html"
     ],
+    "CVE-2024-53470": [
+      "https://github.com/nmmorette/vulnerability-research/blob/main/CVE-2024-53470/README.md"
+    ],
+    "CVE-2024-53471": [
+      "https://github.com/nmmorette/vulnerability-research/blob/main/CVE-2024-53471/README.md"
+    ],
+    "CVE-2024-53472": [
+      "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-53472"
+    ],
+    "CVE-2024-53476": [
+      "https://github.com/simplcommerce/SimplCommerce/issues/1111"
+    ],
+    "CVE-2024-53481": [
+      "https://github.com/sbksibi/CVEs/blob/main/CVE-2024-53481.md"
+    ],
     "CVE-2024-5350": [
       "https://github.com/anji-plus/report/files/15363269/aj-report.pdf"
+    ],
+    "CVE-2024-53504": [
+      "https://github.com/siyuan-note/siyuan/issues/13058"
+    ],
+    "CVE-2024-53507": [
+      "https://github.com/siyuan-note/siyuan/issues/13057"
     ],
     "CVE-2024-5351": [
       "https://github.com/anji-plus/report/files/15363269/aj-report.pdf"
@@ -35648,6 +35723,9 @@
     "CVE-2024-5356": [
       "https://github.com/anji-plus/report/files/15363269/aj-report.pdf"
     ],
+    "CVE-2024-53580": [
+      "https://gist.github.com/neolead/663badf2ebefefa6fe4303695e7aa7a3"
+    ],
     "CVE-2024-53605": [
       "https://cidy.notion.site/Improper-Access-Control-to-content-Provider-in-NextSMS-13cafb72d1d3807dbc2cebcb8574ccf9?pvs=74"
     ],
@@ -35659,6 +35737,9 @@
     ],
     "CVE-2024-53620": [
       "https://grimthereaperteam.medium.com/ec1e8714c02e"
+    ],
+    "CVE-2024-53623": [
+      "https://github.com/Crane-c/CVE_Request/blob/main/TP-Link/C7v5/TPLink_ARCHERC7v5_unauthorized_access_vulnerability_first.md"
     ],
     "CVE-2024-5363": [
       "https://vuldb.com/?id.266275"
@@ -35684,11 +35765,26 @@
     "CVE-2024-5381": [
       "https://github.com/Lanxiy7th/lx_CVE_report-/issues/2"
     ],
+    "CVE-2024-53829": [
+      "https://github.com/Ericsson/codechecker/security/advisories/GHSA-f8c8-4pm7-w885"
+    ],
     "CVE-2024-5384": [
       "https://vuldb.com/?id.266302"
     ],
+    "CVE-2024-53846": [
+      "https://github.com/erlang/otp/security/advisories/GHSA-qw6r-qh9v-638v"
+    ],
     "CVE-2024-5385": [
       "https://vuldb.com/?id.266303"
+    ],
+    "CVE-2024-53861": [
+      "https://github.com/jpadilla/pyjwt/security/advisories/GHSA-75c5-xw7c-p5pm"
+    ],
+    "CVE-2024-53862": [
+      "https://github.com/argoproj/argo-workflows/security/advisories/GHSA-h36c-m3rf-34h9"
+    ],
+    "CVE-2024-53866": [
+      "https://github.com/pnpm/pnpm/security/advisories/GHSA-vm32-9rqf-rh3r"
     ],
     "CVE-2024-5390": [
       "https://github.com/Lanxiy7th/lx_CVE_report-/issues/3"
@@ -35720,8 +35816,17 @@
     "CVE-2024-5397": [
       "https://vuldb.com/?id.266311"
     ],
+    "CVE-2024-53980": [
+      "https://github.com/RIOT-OS/RIOT/security/advisories/GHSA-m75q-8vj8-wppw"
+    ],
+    "CVE-2024-53990": [
+      "https://github.com/AsyncHttpClient/async-http-client/security/advisories/GHSA-mfj5-cf8g-g2fv"
+    ],
     "CVE-2024-53995": [
       "https://securitylab.github.com/advisories/GHSL-2024-283_GHSL-2024-291_sickchill_sickchill/"
+    ],
+    "CVE-2024-53999": [
+      "https://github.com/MobSF/Mobile-Security-Framework-MobSF/security/advisories/GHSA-5jc6-h9w7-jm3p"
     ],
     "CVE-2024-54001": [
       "https://github.com/kanboard/kanboard/security/advisories/GHSA-4vvp-jf72-chrj"
@@ -35851,6 +35956,12 @@
     ],
     "CVE-2024-54819": [
       "https://github.com/partywavesec/CVE-2024-55557"
+    ],
+    "CVE-2024-54851": [
+      "https://github.com/Tanguy-Boisset/CVE/blob/master/CVE-2024-54851/README.md"
+    ],
+    "CVE-2024-54852": [
+      "https://github.com/Tanguy-Boisset/CVE/blob/master/CVE-2024-54852/README.md"
     ],
     "CVE-2024-54879": [
       "https://blog.csdn.net/weixin_46686336/article/details/144797242"
