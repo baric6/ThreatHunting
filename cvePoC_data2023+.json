@@ -12774,6 +12774,9 @@
     "CVE-2023-38882": [
       "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-38882"
     ],
+    "CVE-2023-38883": [
+      "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-38883"
+    ],
     "CVE-2023-38886": [
       "https://akerva.com/wp-content/uploads/2023/09/AKERVA_Security-Advisory_CVE-2023-38886_Dolibarr_RCE-1.pdf"
     ],
@@ -14754,6 +14757,9 @@
     "CVE-2023-43278": [
       "https://blog.csdn.net/sugaryzheng/article/details/133283101?spm=1001.2014.3001.5501"
     ],
+    "CVE-2023-43279": [
+      "https://github.com/appneta/tcpreplay/issues/824"
+    ],
     "CVE-2023-43284": [
       "https://github.com/MateusTesser/CVE-2023-43284"
     ],
@@ -15068,6 +15074,9 @@
     ],
     "CVE-2023-43893": [
       "https://github.com/adhikara13/CVE/blob/main/netis_N3/blind%20command%20injection%20in%20wake%20on%20lan%20functionality%20in%20wakeup_mac%20parameter.md"
+    ],
+    "CVE-2023-43898": [
+      "https://github.com/nothings/stb/pull/1454"
     ],
     "CVE-2023-4390": [
       "https://wpscan.com/vulnerability/9fd2eb81-185d-4d42-8acf-925664b7cb2f"
@@ -15945,6 +15954,9 @@
     "CVE-2023-46363": [
       "https://github.com/agl/jbig2enc/issues/85"
     ],
+    "CVE-2023-46371": [
+      "https://github.com/Jianchun-Ding/CVE-poc-update"
+    ],
     "CVE-2023-46375": [
       "https://narrow-payment-2cd.notion.site/zentao-4-1-3-is-vulnerable-to-csrf-CVE-2023-46375-2d9d9fc2371f483eb436af20508df915"
     ],
@@ -16052,6 +16064,9 @@
     ],
     "CVE-2023-46522": [
       "https://github.com/Jianchun-Ding/CVE-POC-update2/tree/main"
+    ],
+    "CVE-2023-46527": [
+      "https://github.com/Jianchun-Ding/CVE-poc-update"
     ],
     "CVE-2023-4653": [
       "https://huntr.dev/bounties/e0bf7e95-fc8c-4fd4-8575-8b46b9431c6d"
@@ -18573,6 +18588,9 @@
     "CVE-2023-5204": [
       "http://packetstormsecurity.com/files/175371/WordPress-AI-ChatBot-4.8.9-SQL-Injection-Traversal-File-Deletion.html"
     ],
+    "CVE-2023-52040": [
+      "https://github.com/Beckaf/vunl/blob/main/TOTOLINK/X6000R/3/3.md"
+    ],
     "CVE-2023-52041": [
       "https://kee02p.github.io/2024/01/13/CVE-2023-52041/"
     ],
@@ -19749,6 +19767,9 @@
     "CVE-2023-6298": [
       "https://vuldb.com/?id.246124"
     ],
+    "CVE-2023-6300": [
+      "https://github.com/BigTiger2020/2023/blob/main/best-courier-management-system/best-courier-management-system%20-%20reflected%20xss.md"
+    ],
     "CVE-2023-6301": [
       "https://vuldb.com/?id.246127"
     ],
@@ -19922,6 +19943,9 @@
     ],
     "CVE-2023-6579": [
       "http://packetstormsecurity.com/files/176124/osCommerce-4-SQL-Injection.html"
+    ],
+    "CVE-2023-6580": [
+      "https://github.com/c2dc/cve-reported/blob/main/CVE-2023-6580/CVE-2023-6580.md"
     ],
     "CVE-2023-6584": [
       "https://wpscan.com/vulnerability/e528e3cd-a45c-4bf7-a37a-101f5c257acd/"
@@ -36080,6 +36104,9 @@
     "CVE-2024-55193": [
       "https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/4551"
     ],
+    "CVE-2024-55195": [
+      "https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/4553"
+    ],
     "CVE-2024-55196": [
       "https://github.com/hexkaster/SecurityResearch/blob/main/CVE-2024-55196.md"
     ],
@@ -36284,6 +36311,9 @@
     "CVE-2024-56366": [
       "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-c6fv-7vh8-2rhr"
     ],
+    "CVE-2024-56377": [
+      "https://github.com/ping-oui-no/Vulnerability-Research-CVESS/blob/main/RedCap/CVE-2024-56377/README.md"
+    ],
     "CVE-2024-56378": [
       "https://gitlab.freedesktop.org/poppler/poppler/-/issues/1553"
     ],
@@ -36311,6 +36341,9 @@
     "CVE-2024-56509": [
       "https://github.com/dgtlmoon/changedetection.io/security/advisories/GHSA-j5vv-6wjg-cfr8"
     ],
+    "CVE-2024-56511": [
+      "https://github.com/dataease/dataease/security/advisories/GHSA-9f69-p73j-m73x"
+    ],
     "CVE-2024-56517": [
       "https://github.com/tltneon/lgsl/security/advisories/GHSA-ggwq-xc72-33r3"
     ],
@@ -36329,11 +36362,20 @@
     "CVE-2024-5676": [
       "https://github.com/sbaresearch/advisories/tree/public/2024/SBA-ADV-20240321-01_Paradox_Cross_Site_Request_Forgery"
     ],
+    "CVE-2024-56826": [
+      "https://github.com/uclouvain/openjpeg/issues/1563"
+    ],
+    "CVE-2024-56827": [
+      "https://github.com/uclouvain/openjpeg/issues/1564"
+    ],
     "CVE-2024-56828": [
       "https://github.com/Zerone0x00/CVE/blob/main/ChestnutCMS/CVE-2024-56828.md"
     ],
     "CVE-2024-56829": [
       "https://github.com/Zerone0x00/CVE/blob/main/%E9%BB%84%E8%8D%AF%E5%B8%88%E8%8D%AF%E4%B8%9A%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/UploadFile%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md"
+    ],
+    "CVE-2024-56924": [
+      "https://github.com/ipratheep/CVE-2024-56924"
     ],
     "CVE-2024-57011": [
       "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md"
