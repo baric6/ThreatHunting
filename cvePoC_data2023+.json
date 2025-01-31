@@ -18951,6 +18951,9 @@
     "CVE-2023-5458": [
       "https://wpscan.com/vulnerability/47d15f1c-b9ca-494d-be8f-63c30e92f9b8"
     ],
+    "CVE-2023-5461": [
+      "https://drive.google.com/drive/folders/17nBJt3tejqipE_L-lMEhYXeGhG0eii-_"
+    ],
     "CVE-2023-5463": [
       "https://drive.google.com/drive/folders/1mpRxWOPjxVS980r0qu1IY_Hf0irKO-cu"
     ],
@@ -36488,6 +36491,9 @@
     "CVE-2024-57035": [
       "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-57035"
     ],
+    "CVE-2024-57036": [
+      "https://github.com/luckysmallbird/Totolink-A810R-Vulnerability-1/blob/main/3.md"
+    ],
     "CVE-2024-5713": [
       "https://wpscan.com/vulnerability/eb3f24a7-3171-42c3-9016-e29da4f384fa/"
     ],
@@ -36515,6 +36521,15 @@
     "CVE-2024-5730": [
       "https://wpscan.com/vulnerability/17482b2c-c9ba-480a-8000-879baf835af7/"
     ],
+    "CVE-2024-57326": [
+      "https://github.com/fatihtuzunn/CVEs/tree/main/CVE-2024-57326"
+    ],
+    "CVE-2024-57328": [
+      "https://github.com/fatihtuzunn/CVEs/tree/main/CVE-2024-57328"
+    ],
+    "CVE-2024-57329": [
+      "https://github.com/fatihtuzunn/CVEs/tree/main/CVE-2024-57329"
+    ],
     "CVE-2024-5733": [
       "https://github.com/kingshao0312/cve/issues/1"
     ],
@@ -36530,6 +36545,9 @@
     "CVE-2024-57372": [
       "https://royblume.github.io/CVE-2024-57372/"
     ],
+    "CVE-2024-57386": [
+      "https://github.com/PawaritSanguanpang/CVEs/tree/main/Wallos/CVE-2024-57386"
+    ],
     "CVE-2024-5744": [
       "https://wpscan.com/vulnerability/ba50e25c-7250-4025-a72f-74f8eb756246/"
     ],
@@ -36544,6 +36562,33 @@
     ],
     "CVE-2024-57514": [
       "https://www.zyenra.com/blog/xss-in-tplink-archer-a20.html"
+    ],
+    "CVE-2024-57536": [
+      "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/8/8.md"
+    ],
+    "CVE-2024-57537": [
+      "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/1/1.md"
+    ],
+    "CVE-2024-57539": [
+      "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/3/3.md"
+    ],
+    "CVE-2024-57540": [
+      "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/2/2.md"
+    ],
+    "CVE-2024-57542": [
+      "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/4/4.md"
+    ],
+    "CVE-2024-57543": [
+      "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/7/7.md"
+    ],
+    "CVE-2024-57544": [
+      "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/6/6.md"
+    ],
+    "CVE-2024-57545": [
+      "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/5/5.md"
+    ],
+    "CVE-2024-57546": [
+      "https://github.com/h4ckr4v3n/cmsimple5.16_research/blob/main/CMSimple%205.16%20Validate%20links%20SSRF.md"
     ],
     "CVE-2024-5758": [
       "https://wpscan.com/vulnerability/635be98d-4c17-4e75-871f-9794d85a2eb1/"
@@ -36749,8 +36794,26 @@
     "CVE-2024-57704": [
       "https://github.com/Pr0b1em/IoT/blob/master/Tenda%20AC8v4%20V16.03.34.06.md"
     ],
+    "CVE-2024-57719": [
+      "https://github.com/sammycage/lunasvg/issues/209"
+    ],
     "CVE-2024-5772": [
       "https://github.com/charliecatsec/cve1/blob/main/NS-ASG-sql-deleteiscuser.md"
+    ],
+    "CVE-2024-57720": [
+      "https://github.com/sammycage/lunasvg/issues/209"
+    ],
+    "CVE-2024-57721": [
+      "https://github.com/sammycage/lunasvg/issues/209"
+    ],
+    "CVE-2024-57722": [
+      "https://github.com/sammycage/lunasvg/issues/209"
+    ],
+    "CVE-2024-57723": [
+      "https://github.com/sammycage/lunasvg/issues/209"
+    ],
+    "CVE-2024-57724": [
+      "https://github.com/sammycage/lunasvg/issues/209"
     ],
     "CVE-2024-5773": [
       "https://github.com/L1OudFd8cl09/CVE/issues/3"
