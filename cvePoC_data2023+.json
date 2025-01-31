@@ -22205,6 +22205,9 @@
     "CVE-2024-12274": [
       "https://wpscan.com/vulnerability/e3176c9a-63f3-4a28-a8a7-8abb2b4100ef/"
     ],
+    "CVE-2024-12275": [
+      "https://wpscan.com/vulnerability/ca5bf8bd-a124-4088-a267-fd8a01cb4f4a/"
+    ],
     "CVE-2024-12280": [
       "https://wpscan.com/vulnerability/2b32c0b8-28bb-4220-800b-4c369bca91c5/"
     ],
@@ -22361,6 +22364,9 @@
     "CVE-2024-12753": [
       "https://www.foxit.com/support/security-bulletins.html"
     ],
+    "CVE-2024-12772": [
+      "https://wpscan.com/vulnerability/7b6d0f95-6632-4079-8c1b-517a8d02c330/"
+    ],
     "CVE-2024-12773": [
       "https://wpscan.com/vulnerability/fab64105-599f-49a4-b01d-c873ff34b590/"
     ],
@@ -22414,6 +22420,9 @@
     ],
     "CVE-2024-1287": [
       "https://wpscan.com/vulnerability/169e5756-4e12-4add-82e9-47471c30f08c/"
+    ],
+    "CVE-2024-12872": [
+      "https://wpscan.com/vulnerability/a8a706c6-7f0f-4148-9f6f-40c0ca95dd9a/"
     ],
     "CVE-2024-12883": [
       "https://github.com/su-co/cve/blob/main/xss-su-co.md"
@@ -22637,6 +22646,12 @@
     "CVE-2024-1310": [
       "https://wpscan.com/vulnerability/a7735feb-876e-461c-9a56-ea6067faf277/"
     ],
+    "CVE-2024-13100": [
+      "https://wpscan.com/vulnerability/b9261010-ab55-4d18-8fd2-2003f8692ae8/"
+    ],
+    "CVE-2024-13101": [
+      "https://wpscan.com/vulnerability/03f51b54-0ec2-40ce-a0fa-ef0c4ab0ea99/"
+    ],
     "CVE-2024-13102": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/DDNS.md"
     ],
@@ -22657,6 +22672,9 @@
     ],
     "CVE-2024-13108": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Unauthorized_Vulnerability/D-Link/DIR-816/form2NetSniper.md"
+    ],
+    "CVE-2024-13112": [
+      "https://wpscan.com/vulnerability/155df231-30ef-47bb-aa91-a7deb1779bd1/"
     ],
     "CVE-2024-13116": [
       "https://wpscan.com/vulnerability/1755c8ad-7620-4b12-bba0-013e80c2691b/"
@@ -22699,6 +22717,33 @@
     ],
     "CVE-2024-13205": [
       "https://www.websecurityinsights.my.id/2024/12/ecommerce-php-by-kurniaramadhan-sql.html?m=1"
+    ],
+    "CVE-2024-13218": [
+      "https://wpscan.com/vulnerability/79eb9432-3e3c-4a23-88a8-05aa3146061c/"
+    ],
+    "CVE-2024-13219": [
+      "https://wpscan.com/vulnerability/3ad02238-dce1-48ce-986f-fef36b110b2d/"
+    ],
+    "CVE-2024-13220": [
+      "https://wpscan.com/vulnerability/33ef27b4-e88f-46ec-9b3f-0a3e16d6f82e/"
+    ],
+    "CVE-2024-13221": [
+      "https://wpscan.com/vulnerability/693f4cc4-a082-46bc-abc9-a08919f70157/"
+    ],
+    "CVE-2024-13222": [
+      "https://wpscan.com/vulnerability/069e1f81-448d-4d27-b288-87111dade2f2/"
+    ],
+    "CVE-2024-13223": [
+      "https://wpscan.com/vulnerability/e3a52af1-7cb6-4361-b1c7-a50e0cc62fb1/"
+    ],
+    "CVE-2024-13224": [
+      "https://wpscan.com/vulnerability/32a90907-e82f-41b3-b20e-d10a722e2999/"
+    ],
+    "CVE-2024-13225": [
+      "https://wpscan.com/vulnerability/8efd7d62-3f74-4108-970e-bd5ed24914ff/"
+    ],
+    "CVE-2024-13226": [
+      "https://wpscan.com/vulnerability/dd09fe99-2334-4d6f-8a70-e1cd856b1486/"
     ],
     "CVE-2024-13255": [
       "https://www.drupal.org/sa-contrib-2024-019"
@@ -35638,6 +35683,9 @@
     ],
     "CVE-2024-52870": [
       "https://chrismanson.com/CVE/cve-2024-52870.html"
+    ],
+    "CVE-2024-52875": [
+      "https://karmainsecurity.com/hacking-kerio-control-via-cve-2024-52875"
     ],
     "CVE-2024-5290": [
       "https://snyk.io/blog/abusing-ubuntu-root-privilege-escalation/"
