@@ -21347,6 +21347,9 @@
     "CVE-2024-10482": [
       "https://wpscan.com/vulnerability/46cbd4bb-b6f3-49e8-8d79-8c378c617e7c/"
     ],
+    "CVE-2024-10487": [
+      "https://issues.chromium.org/issues/375123371"
+    ],
     "CVE-2024-10488": [
       "https://issues.chromium.org/issues/374310077"
     ],
@@ -21550,6 +21553,9 @@
     ],
     "CVE-2024-10815": [
       "https://wpscan.com/vulnerability/309a445a-6261-4bd1-bac0-a78096d0c12b/"
+    ],
+    "CVE-2024-10826": [
+      "https://issues.chromium.org/issues/370217726"
     ],
     "CVE-2024-10840": [
       "https://github.com/2537463005/a/blob/main/WEB-Sekolah%E5%90%8E%E5%8F%B0%E5%AD%98%E5%82%A8%E5%9E%8Bxss.md"
