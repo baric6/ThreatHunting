@@ -6093,6 +6093,9 @@
     "CVE-2023-2657": [
       "https://github.com/xiahao90/CVEproject/blob/main/xiahao.webray.com.cn/Online-Computer-and-Laptop-Store---Multiple-vulnerabilities.md#1xss-vulnerability-in-productsphp"
     ],
+    "CVE-2023-26575": [
+      "https://www.themissinglink.com.au/security-advisories/cve-2023-26575"
+    ],
     "CVE-2023-2658": [
       "https://vuldb.com/?id.228800"
     ],
@@ -10349,6 +10352,9 @@
     ],
     "CVE-2023-33829": [
       "https://github.com/n3gox/Stored-XSS-on-SCM-Manager-1.60"
+    ],
+    "CVE-2023-33831": [
+      "https://youtu.be/Xxa6yRB2Fpw"
     ],
     "CVE-2023-33849": [
       "https://www.ibm.com/support/pages/node/7001687"
@@ -20492,6 +20498,18 @@
     "CVE-2024-0051": [
       "https://android.googlesource.com/platform/frameworks/av/+/a52c14a5b49f26efafa581dea653b4179d66909e"
     ],
+    "CVE-2024-0146": [
+      "https://nvidia.custhelp.com/app/answers/detail/a_id/5614"
+    ],
+    "CVE-2024-0147": [
+      "https://nvidia.custhelp.com/app/answers/detail/a_id/5614"
+    ],
+    "CVE-2024-0149": [
+      "https://nvidia.custhelp.com/app/answers/detail/a_id/5614"
+    ],
+    "CVE-2024-0150": [
+      "https://nvidia.custhelp.com/app/answers/detail/a_id/5614"
+    ],
     "CVE-2024-0181": [
       "https://vuldb.com/?id.249433"
     ],
@@ -22367,6 +22385,9 @@
     "CVE-2024-12753": [
       "https://www.foxit.com/support/security-bulletins.html"
     ],
+    "CVE-2024-12768": [
+      "https://wpscan.com/vulnerability/fe2e47f4-b89e-4c22-8d27-672da0fb99af/"
+    ],
     "CVE-2024-12772": [
       "https://wpscan.com/vulnerability/7b6d0f95-6632-4079-8c1b-517a8d02c330/"
     ],
@@ -22645,6 +22666,18 @@
     ],
     "CVE-2024-13095": [
       "https://wpscan.com/vulnerability/74e95fb5-025b-4d4d-a279-844b6ee3e57d/"
+    ],
+    "CVE-2024-13096": [
+      "https://wpscan.com/vulnerability/ca65c478-30bf-4109-93e0-3aedbf4a8264/"
+    ],
+    "CVE-2024-13097": [
+      "https://wpscan.com/vulnerability/d83d7274-55ae-4f35-b65e-6d6e19e36fac/"
+    ],
+    "CVE-2024-13098": [
+      "https://wpscan.com/vulnerability/eac71f70-993e-4353-8550-affb24c61c02/"
+    ],
+    "CVE-2024-13099": [
+      "https://wpscan.com/vulnerability/a0cabf5c-7b01-4163-834b-a134db3a90b4/"
     ],
     "CVE-2024-1310": [
       "https://wpscan.com/vulnerability/a7735feb-876e-461c-9a56-ea6067faf277/"
@@ -35890,6 +35923,12 @@
     ],
     "CVE-2024-53866": [
       "https://github.com/pnpm/pnpm/security/advisories/GHSA-vm32-9rqf-rh3r"
+    ],
+    "CVE-2024-53869": [
+      "https://nvidia.custhelp.com/app/answers/detail/a_id/5614"
+    ],
+    "CVE-2024-53881": [
+      "https://nvidia.custhelp.com/app/answers/detail/a_id/5614"
     ],
     "CVE-2024-5390": [
       "https://github.com/Lanxiy7th/lx_CVE_report-/issues/3"
