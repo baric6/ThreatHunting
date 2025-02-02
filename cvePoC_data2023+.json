@@ -36206,8 +36206,14 @@
     "CVE-2024-5519": [
       "https://github.com/L1OudFd8cl09/CVE/issues/2"
     ],
+    "CVE-2024-55192": [
+      "https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/4550"
+    ],
     "CVE-2024-55193": [
       "https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/4551"
+    ],
+    "CVE-2024-55194": [
+      "https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/4552"
     ],
     "CVE-2024-55195": [
       "https://github.com/AcademySoftwareFoundation/OpenImageIO/issues/4553"
@@ -36241,6 +36247,9 @@
     ],
     "CVE-2024-55451": [
       "https://github.com/cydtseng/Vulnerability-Research/blob/main/ujcms/StoredXSS-SVGUpload.md"
+    ],
+    "CVE-2024-55452": [
+      "https://github.com/cydtseng/Vulnerability-Research/blob/main/ujcms/OpenRedirect-BlockItemUpload.md"
     ],
     "CVE-2024-55496": [
       "https://github.com/wpc1122/CVE/issues/1"
@@ -36352,6 +36361,9 @@
     ],
     "CVE-2024-55954": [
       "https://github.com/openobserve/openobserve/security/advisories/GHSA-m8gj-6r85-3r6m"
+    ],
+    "CVE-2024-55968": [
+      "https://github.com/null-event/CVE-2024-55968"
     ],
     "CVE-2024-5604": [
       "https://wpscan.com/vulnerability/29985150-8d49-4a3f-8411-5d7263b424d8/"
