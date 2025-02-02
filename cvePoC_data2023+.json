@@ -2688,6 +2688,9 @@
     "CVE-2023-2074": [
       "https://vuldb.com/?id.226052"
     ],
+    "CVE-2023-2076": [
+      "https://vuldb.com/?id.226054"
+    ],
     "CVE-2023-20854": [
       "https://www.vmware.com/security/advisories/VMSA-2023-0003.html"
     ],
@@ -4349,6 +4352,9 @@
     ],
     "CVE-2023-2366": [
       "https://vuldb.com/?id.227642"
+    ],
+    "CVE-2023-2370": [
+      "https://vuldb.com/?id.227646"
     ],
     "CVE-2023-2374": [
       "https://vuldb.com/?id.227650"
@@ -6091,7 +6097,7 @@
       "https://github.com/xiahao90/CVEproject/blob/main/xiahao.webray.com.cn/AC-Repair-and-Services-System---SQL-injections.md"
     ],
     "CVE-2023-2657": [
-      "https://github.com/xiahao90/CVEproject/blob/main/xiahao.webray.com.cn/Online-Computer-and-Laptop-Store---Multiple-vulnerabilities.md#1xss-vulnerability-in-productsphp"
+      "https://vuldb.com/?id.228799"
     ],
     "CVE-2023-26575": [
       "https://www.themissinglink.com.au/security-advisories/cve-2023-26575"
@@ -21960,7 +21966,7 @@
       "https://vuldb.com/?id.285973"
     ],
     "CVE-2024-11660": [
-      "https://github.com/evo-ose/cve/blob/main/xss9.md"
+      "https://vuldb.com/?id.285981"
     ],
     "CVE-2024-11661": [
       "https://github.com/anqi12301/CVE/issues/1"
