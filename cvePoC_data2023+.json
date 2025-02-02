@@ -20498,6 +20498,9 @@
     "CVE-2024-0051": [
       "https://android.googlesource.com/platform/frameworks/av/+/a52c14a5b49f26efafa581dea653b4179d66909e"
     ],
+    "CVE-2024-0134": [
+      "https://nvidia.custhelp.com/app/answers/detail/a_id/5585"
+    ],
     "CVE-2024-0146": [
       "https://nvidia.custhelp.com/app/answers/detail/a_id/5614"
     ],
@@ -26196,7 +26199,7 @@
       "https://github.com/TimeSeg/IOT_CVE/blob/main/tenda/AC9V3/0218/fromSetIpMacBind.md"
     ],
     "CVE-2024-2575": [
-      "https://github.com/skid-nochizplz/skid-nochizplz/blob/main/TrashBin/CVE/SOURCECODESTER%20Employee%20Task%20Management%20System/IDOR%20-%20task-details.php.md"
+      "https://vuldb.com/?id.257078"
     ],
     "CVE-2024-25751": [
       "https://github.com/TimeSeg/IOT_CVE/blob/main/tenda/AC9V3/0218/fromSetSysTime.md"
