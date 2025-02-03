@@ -21860,6 +21860,9 @@
     "CVE-2024-11304": [
       "https://cyberdanube.com/en/en-st-polten-uas-stored-cross-site-scripting-in-seh-utnserver-pro/index.html"
     ],
+    "CVE-2024-11306": [
+      "https://vuldb.com/?id.284915"
+    ],
     "CVE-2024-11319": [
       "https://iltosec.com/blog/post/django-cms-413-stored-xss-vulnerability-exploiting-the-page-title-field/"
     ],
@@ -22810,6 +22813,9 @@
     ],
     "CVE-2024-1333": [
       "https://wpscan.com/vulnerability/30546402-03b8-4e18-ad7e-04a6b556ffd7/"
+    ],
+    "CVE-2024-13347": [
+      "https://wpscan.com/vulnerability/e2f97636-4c67-409a-83c6-ad6255aa2cc5/"
     ],
     "CVE-2024-1401": [
       "https://wpscan.com/vulnerability/91064ba5-cf65-46e6-88df-0e4d96a3ef9f/"
