@@ -8067,6 +8067,12 @@
     "CVE-2023-2986": [
       "https://github.com/TycheSoftwares/woocommerce-abandoned-cart/pull/885#issuecomment-1601813615"
     ],
+    "CVE-2023-29861": [
+      "https://woolly-espadrille-ed5.notion.site/The-FLIR-DVTEL-camera-device-has-a-logic-flaw-vulnerability-363a2158e372440b80a2be739271c6f3"
+    ],
+    "CVE-2023-29862": [
+      "https://woolly-espadrille-ed5.notion.site/Agasio-Camera-device-has-a-logic-flaw-vulnerability-d4514e7217c54dd7ac62582b6664aa66"
+    ],
     "CVE-2023-29863": [
       "https://medium.com/@waadalbyalii5/sql-injection-in-wsdl-file-c66fa00042f5"
     ],
@@ -15372,6 +15378,9 @@
     "CVE-2023-44821": [
       "https://github.com/kohler/gifsicle/issues/65"
     ],
+    "CVE-2023-44824": [
+      "https://abstracted-howler-727.notion.site/Vulnerability-Description-ccc2e6489a0d43859c61a7982e649da1"
+    ],
     "CVE-2023-44846": [
       "https://blog.csdn.net/2301_79997870/article/details/133661890?spm=1001.2014.3001.5502"
     ],
@@ -15380,6 +15389,12 @@
     ],
     "CVE-2023-44848": [
       "https://blog.csdn.net/2301_79997870/article/details/133661890?spm=1001.2014.3001.5502"
+    ],
+    "CVE-2023-44853": [
+      "https://pine-amphibian-9b9.notion.site/SAILOR-Ku-Software-RCE-and-Privilege-Escalation-Diagnostics-report-0f3923d0ed434705b7ed4a6174218c2b?pvs=4"
+    ],
+    "CVE-2023-44857": [
+      "https://pine-amphibian-9b9.notion.site/SAILOR-Ku-Software-RCE-and-Privilege-Escalation-Statistics-report-b8e953249468429d9f60b89ff653847a"
     ],
     "CVE-2023-44860": [
       "https://github.com/adhikara13/CVE/blob/main/netis_N3/Improper%20Authentication%20Mechanism%20Leading%20to%20Denial-of-Service%20(DoS).md"
@@ -16995,6 +17010,45 @@
     "CVE-2023-48795": [
       "https://www.theregister.com/2023/12/20/terrapin_attack_ssh"
     ],
+    "CVE-2023-48799": [
+      "https://www.notion.so/X6000R-632dd667b4574a2c84b04035d04afb5c?pvs=4"
+    ],
+    "CVE-2023-48800": [
+      "https://www.notion.so/X6000R-sub_417338-ad96548d06c645738daf3ab77575fd74?pvs=4"
+    ],
+    "CVE-2023-48801": [
+      "https://www.notion.so/X6000R-sub_415534-40d4553fc7a649fe833201fcecf76f2b?pvs=4"
+    ],
+    "CVE-2023-48802": [
+      "https://www.notion.so/X6000R-sub_4119A0-6-9541a9b3387a40de856a1cad692ba8d4?pvs=4"
+    ],
+    "CVE-2023-48803": [
+      "https://www.notion.so/X6000R-sub_4119A0-4-aead0a851416422ea2e282409eec3351?pvs=4"
+    ],
+    "CVE-2023-48804": [
+      "https://www.notion.so/X6000R-sub_4119A0-1-e9697e90e8b04e05a6d10c9fb7288750?pvs=4"
+    ],
+    "CVE-2023-48805": [
+      "https://www.notion.so/X6000R-sub_4119A0-2-6a912e23617244409ae8c5837d4288b4?pvs=4"
+    ],
+    "CVE-2023-48806": [
+      "https://www.notion.so/X6000R-sub_4119A0-5-92b3d1e22e764ae7a18cdf0d8ac24e4f?pvs=4"
+    ],
+    "CVE-2023-48807": [
+      "https://www.notion.so/X6000R-sub_4119A0-3-1e21686eebf94cee8a7819d1d7aa29b9?pvs=4"
+    ],
+    "CVE-2023-48808": [
+      "https://www.notion.so/X6000R-sub_4119A0-9-075ccc78275a4381a65e114eb1fddd6e?pvs=4"
+    ],
+    "CVE-2023-48810": [
+      "https://www.notion.so/X6000R-sub_4119A0-7-d5387bf8d16846c2b4f19b15a808aa4c?pvs=4"
+    ],
+    "CVE-2023-48811": [
+      "https://www.notion.so/X6000R-sub_4119A0-8-2332305e3d8044c09f093404a8ae59f4?pvs=4"
+    ],
+    "CVE-2023-48812": [
+      "https://www.notion.so/X6000R-sub_4119A0-10-82467d98d07c45a59ec3729ec712cb57?pvs=4"
+    ],
     "CVE-2023-48813": [
       "https://github.com/slims/slims9_bulian/issues/217"
     ],
@@ -17975,6 +18029,9 @@
     ],
     "CVE-2023-50630": [
       "https://github.com/xiweicheng/tms/issues/19"
+    ],
+    "CVE-2023-50651": [
+      "https://palm-jump-676.notion.site/X6000R-sub_4119A0-11-b35b4ca36ce84e07afff85c98414d293"
     ],
     "CVE-2023-50685": [
       "https://github.com/UnderwaterCoder/Hipcam-RTSP-Format-Validation-Vulnerability"
@@ -20810,6 +20867,9 @@
     "CVE-2024-0647": [
       "https://www.youtube.com/watch?v=KtDjoJlrpAc"
     ],
+    "CVE-2024-0650": [
+      "https://torada.notion.site/XSS-at-datatest-php-660aabd1437d4df7a492d19a461a1f3c?pvs=4"
+    ],
     "CVE-2024-0670": [
       "https://checkmk.com/werk/16361"
     ],
@@ -20854,6 +20914,12 @@
     ],
     "CVE-2024-0725": [
       "https://packetstormsecurity.com/files/176544/ProSSHD-1.2-20090726-Denial-Of-Service.html"
+    ],
+    "CVE-2024-0726": [
+      "https://torada.notion.site/Reflected-Cross-site-scripting-at-Project-Allocation-System-d94c7c489c2d48efa23b21a90dd0e03f?pvs=4"
+    ],
+    "CVE-2024-0730": [
+      "https://torada.notion.site/SQL-injection-at-course_ajax-php-485d8cca5f8c43dfb1f76c7336a4a45e"
     ],
     "CVE-2024-0731": [
       "https://fitoxs.com/vuldb/01-PCMan%20v2.0.7-exploit.txt"
@@ -21020,8 +21086,11 @@
     "CVE-2024-0917": [
       "https://huntr.com/bounties/2d840735-e255-4700-9709-6f7361829119"
     ],
+    "CVE-2024-0918": [
+      "https://warp-desk-89d.notion.site/TEW-800MB-1f9576ce12234b72b08b9c7f4c7d32a6?pvs=4"
+    ],
     "CVE-2024-0919": [
-      "https://vuldb.com/?id.252123"
+      "https://warp-desk-89d.notion.site/TEW-815DAP-94a631c20dee4f399268dbcc880f1f4c?pvs=4"
     ],
     "CVE-2024-0921": [
       "https://github.com/xiyuanhuaigu/cve/blob/main/rce.md"
@@ -21698,6 +21767,9 @@
     "CVE-2024-11055": [
       "https://github.com/Hacker0xone/CVE/issues/3"
     ],
+    "CVE-2024-11056": [
+      "https://tasty-foxtrot-3a8.notion.site/Tenda-AC10v4-stack-overflow-1380448e619580409bb1e1ac85f45570"
+    ],
     "CVE-2024-11057": [
       "https://github.com/Hacker0xone/CVE/issues/4"
     ],
@@ -21706,6 +21778,9 @@
     ],
     "CVE-2024-1106": [
       "https://wpscan.com/vulnerability/0672f8af-33e2-459c-ac8a-7351247a8a26/"
+    ],
+    "CVE-2024-11061": [
+      "https://tasty-foxtrot-3a8.notion.site/Tenda-AC10v4-FUN_0044db3c-stack-overflow-13a0448e619580ae96fee2899545e159"
     ],
     "CVE-2024-11073": [
       "https://vuldb.com/?submit.440799"
@@ -21829,6 +21904,9 @@
     ],
     "CVE-2024-11247": [
       "https://github.com/Fl4g-Pshacker/cve/blob/main/xss.md"
+    ],
+    "CVE-2024-11248": [
+      "https://tasty-foxtrot-3a8.notion.site/Tenda-AC10v4-formSetRebootTimer-stack-overflow-13d0448e619580bf8ab1df7cfb6c018b"
     ],
     "CVE-2024-11250": [
       "https://vuldb.com/?submit.443272"
@@ -22018,6 +22096,9 @@
     ],
     "CVE-2024-11744": [
       "https://github.com/zdwf-klm/CVE/issues/1"
+    ],
+    "CVE-2024-11745": [
+      "https://tasty-foxtrot-3a8.notion.site/Tenda-AC8v4-route_static_check-stack-overflow-1460448e6195803087a5d39755d2bb6b?pvs=74"
     ],
     "CVE-2024-11817": [
       "https://github.com/wackymaker/CVE/issues/1"
@@ -22217,6 +22298,9 @@
     "CVE-2024-12200": [
       "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
     ],
+    "CVE-2024-12227": [
+      "https://shareforall.notion.site/MSI-Dragon-Center-NTIOLib_X64-0xC3506104-MmMapIoSpace-DOS-15160437bb1e801daf58d4aea052970e"
+    ],
     "CVE-2024-12228": [
       "https://github.com/PunyHunter/CVE/issues/2"
     ],
@@ -22343,8 +22427,35 @@
     "CVE-2024-12649": [
       "https://www.canon-europe.com/support/product-security/#news"
     ],
+    "CVE-2024-12653": [
+      "https://shareforall.notion.site/FabulaTech-USB-over-Network-Client-ftusbbus2-0x22040C-NPD-DOS-15160437bb1e80228995f9a74a5c233c?pvs=4"
+    ],
+    "CVE-2024-12654": [
+      "https://shareforall.notion.site/FabulaTech-USB-over-Network-Client-ftusbbus2-0x220408-NPD-DOS-15160437bb1e803e9b3df784e61c6dcd"
+    ],
+    "CVE-2024-12655": [
+      "https://shareforall.notion.site/FabulaTech-USB-over-Network-Client-ftusbbus2-0x220420-NPD-DOS-15160437bb1e80898c8bf2dc1f7a24e7"
+    ],
+    "CVE-2024-12656": [
+      "https://shareforall.notion.site/FabulaTech-USB-over-Network-Client-ftusbbus2-0x220448-NPD-DOS-15160437bb1e80cb837cd715680be6ea"
+    ],
+    "CVE-2024-12657": [
+      "https://shareforall.notion.site/IOBit-Advanced-SystemCare-Utimate-AscRegistryFilter-0x8001E000-NPD-DOS-15160437bb1e8068a470ca1611fd7317"
+    ],
+    "CVE-2024-12658": [
+      "https://shareforall.notion.site/IOBit-Advanced-SystemCare-Utimate-AscRegistryFilter-0x8001E01C-NPD-DOS-15160437bb1e800eb1cadd53b224d088"
+    ],
     "CVE-2024-1266": [
       "https://drive.google.com/file/d/16a9lQqUFBICw-Hhbe9bT5sSB7qwZjMwA/view?usp=sharing"
+    ],
+    "CVE-2024-12660": [
+      "https://shareforall.notion.site/IOBit-Advanced-SystemCare-Utimate-AscRegistryFilter-0x8001E018-NPD-DOS-15260437bb1e80c5ab28da895ed46227"
+    ],
+    "CVE-2024-12661": [
+      "https://shareforall.notion.site/IOBit-Advanced-SystemCare-Utimate-AscRegistryFilter-0x8001E024-NPD-DOS-15260437bb1e80f28c03f548645c8ec9"
+    ],
+    "CVE-2024-12662": [
+      "https://shareforall.notion.site/IOBit-Advanced-SystemCare-Utimate-AscRegistryFilter-0x8001E040-NPD-DOS-15260437bb1e804e86b4e1de92ff0d09"
     ],
     "CVE-2024-12664": [
       "https://github.com/cydtseng/Vulnerability-Research/blob/main/rebuild/StoredXSS-TaskComments.md"
@@ -23023,6 +23134,9 @@
     ],
     "CVE-2024-1874": [
       "https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-w9w7"
+    ],
+    "CVE-2024-1875": [
+      "https://toradah.notion.site/Remote-Code-Execution-RCE-via-Unrestricted-File-Upload-6ed7ae9c833c4d8baaae7d64ae0c4a47?pvs=4"
     ],
     "CVE-2024-1876": [
       "https://github.com/skid-nochizplz/skid-nochizplz/blob/main/TrashBin/CVE/SOURCECODESTER%20EMPLOYEE%20MANAGEMENT%20SYSTEM/Employee%20Project%20SQL%20Injection%20Update.md"
@@ -24344,6 +24458,12 @@
     "CVE-2024-22532": [
       "https://github.com/pwndorei/CVE-2024-22532"
     ],
+    "CVE-2024-22545": [
+      "https://warp-desk-89d.notion.site/TEW-824DRU-e7228d462ce24fa1a9fecb0bee57caad"
+    ],
+    "CVE-2024-22546": [
+      "https://warp-desk-89d.notion.site/TEW-815DAP-94a631c20dee4f399268dbcc880f1f4c"
+    ],
     "CVE-2024-22549": [
       "https://github.com/cccbbbttt/cms/blob/main/1.md"
     ],
@@ -25576,6 +25696,9 @@
     ],
     "CVE-2024-24945": [
       "https://portswigger.net/web-security/cross-site-scripting"
+    ],
+    "CVE-2024-2497": [
+      "https://toradah.notion.site/Code-Injection-Leading-to-Remote-Code-Execution-RCE-in-RaspAP-Web-GUI-d321e1a416694520bec7099253c65060?pvs=4"
     ],
     "CVE-2024-25003": [
       "https://blog.defcesco.io/CVE-2024-25003-CVE-2024-25004"
@@ -26909,6 +27032,30 @@
     "CVE-2024-2764": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AC10U/v1.V15.03.06.48/more/formSetPPTPServer.md"
     ],
+    "CVE-2024-27655": [
+      "https://calm-healer-839.notion.site/D-LINK-DIR-823G-OOBW-0x41E094-f1bd478368644136ad2e3a33e59041b2?pvs=4"
+    ],
+    "CVE-2024-27656": [
+      "https://calm-healer-839.notion.site/D-LINK-DIR-823G-OOBW-0x41E2A0-8ea57277c7cd4ea18dbc40bcb41a98f2?pvs=4"
+    ],
+    "CVE-2024-27657": [
+      "https://calm-healer-839.notion.site/D-LINK-DIR-823G-OOBW-0x41D5B0-462500887ea3464692e3e697cc43838c?pvs=4"
+    ],
+    "CVE-2024-27658": [
+      "https://calm-healer-839.notion.site/D-LINK-DIR-823G-NPD-0x44900C-8f23082721854117bdea70b6113433fd?pvs=4"
+    ],
+    "CVE-2024-27659": [
+      "https://calm-healer-839.notion.site/D-LINK-DIR-823G-NPD-0x42B4C4-dfeae31d711f414796e1d9eb9cea7d31?pvs=4"
+    ],
+    "CVE-2024-27660": [
+      "https://calm-healer-839.notion.site/D-LINK-DIR-823G-NPD-0x41C708-e46f864c48114f45894f4563588d7968?pvs=4"
+    ],
+    "CVE-2024-27661": [
+      "https://calm-healer-839.notion.site/D-LINK-DIR-823G-NPD-0x42444C-34458f12482346b291f334eea12e6fd0?pvs=4"
+    ],
+    "CVE-2024-27662": [
+      "https://calm-healer-839.notion.site/D-LINK-DIR-823G-NPD-0x4116F0-5befc4a65457482c8c4dcb16910ab820?pvs=4"
+    ],
     "CVE-2024-27665": [
       "https://github.com/Thirukrishnan/CVE-2024-27665/"
     ],
@@ -27238,6 +27385,9 @@
     ],
     "CVE-2024-28275": [
       "https://paste.sr.ht/~edaigle/0b4a037fbd3166c8c72fee18efaa7decaf75b0ab"
+    ],
+    "CVE-2024-28283": [
+      "https://d05004.notion.site/Linksys-E1000-BOF-37b98eec45ea4fc991b9b5bea3db091d?pvs=4"
     ],
     "CVE-2024-28286": [
       "https://github.com/mz-automation/libiec61850/issues/496"
@@ -29315,11 +29465,38 @@
     "CVE-2024-33113": [
       "https://github.com/yj94/Yj_learning/blob/main/Week16/D-LINK-POC.md"
     ],
+    "CVE-2024-33180": [
+      "https://palm-vertebra-fe9.notion.site/saveParentControlInfo_1-7c9695d0251945ae8006db705b9b80ac"
+    ],
+    "CVE-2024-33181": [
+      "https://palm-vertebra-fe9.notion.site/addWifiMacFilter_2-0f7fab42d4254867b46fe92b25dc7c40"
+    ],
+    "CVE-2024-33182": [
+      "https://palm-vertebra-fe9.notion.site/addWifiMacFilter_1-067fa6984f0d4933b88c63efd7486479"
+    ],
     "CVE-2024-33209": [
       "https://github.com/paragbagul111/CVE-2024-33209"
     ],
     "CVE-2024-33210": [
       "https://github.com/paragbagul111/CVE-2024-33210"
+    ],
+    "CVE-2024-33211": [
+      "https://palm-vertebra-fe9.notion.site/formQuickIndex-e1f24466830f4cb4a7756d6997f411b4"
+    ],
+    "CVE-2024-33212": [
+      "https://palm-vertebra-fe9.notion.site/formSetCfm-7d199da0fd0740988a498304905e2dd1"
+    ],
+    "CVE-2024-33213": [
+      "https://palm-vertebra-fe9.notion.site/fromRouteStatic_2-e98a555978be404583fef5f5c1e50efa"
+    ],
+    "CVE-2024-33214": [
+      "https://palm-vertebra-fe9.notion.site/fromRouteStatic_1-c8b6c87ee247481c9728a4ed4c6ac853"
+    ],
+    "CVE-2024-33215": [
+      "https://palm-vertebra-fe9.notion.site/fromAddressNat_mitInterface-20fb36254513485082243e393b11fd1c"
+    ],
+    "CVE-2024-33217": [
+      "https://palm-vertebra-fe9.notion.site/fromAddressNat_page-e9c05fb00f89482fa340d21bbda30642"
     ],
     "CVE-2024-3322": [
       "https://github.com/parisneo/lollms-webui/commit/1e17df01e01d4d33599db2afaafe91d90b6f0189"
@@ -30236,6 +30413,21 @@
     "CVE-2024-34921": [
       "https://github.com/cainiao159357/x5000r_poc/blob/main/README.md"
     ],
+    "CVE-2024-34942": [
+      "https://palm-vertebra-fe9.notion.site/formexeCommand-200db77a90d34c708b903c935c7c65c0"
+    ],
+    "CVE-2024-34943": [
+      "https://palm-vertebra-fe9.notion.site/fromNatStaticSetting-fae26e1bfbe64b49a46230a629b6d198"
+    ],
+    "CVE-2024-34945": [
+      "https://palm-vertebra-fe9.notion.site/fromWizardHandle-98e188c072984620a907ea5df0d80ad5"
+    ],
+    "CVE-2024-34946": [
+      "https://palm-vertebra-fe9.notion.site/fromDhcpListClient_page-c9ee71f670534555a5ef2d99320da48e"
+    ],
+    "CVE-2024-34950": [
+      "https://dear-sunshine-ba5.notion.site/D-Link-DIR-822-v1-0-5-Stack-Overflow-e77ff3d9c31f4a98bfa0fa71eca54000"
+    ],
     "CVE-2024-34952": [
       "https://github.com/taurusxin/ncmdump/issues/18"
     ],
@@ -30397,6 +30589,12 @@
     ],
     "CVE-2024-35333": [
       "https://github.com/momo1239/CVE-2024-35333"
+    ],
+    "CVE-2024-35339": [
+      "https://palm-vertebra-fe9.notion.site/formWriteFacMac_RCE-d70cf636739e4a769b1f919ffed4a2a0"
+    ],
+    "CVE-2024-35340": [
+      "https://palm-vertebra-fe9.notion.site/formexeCommand_RCE-91a5f12ae23a42b4a25f5d1d4de308da"
     ],
     "CVE-2024-35361": [
       "https://github.com/Hebing123/cve/issues/37"
@@ -32075,6 +32273,9 @@
     "CVE-2024-4019": [
       "https://github.com/scausoft/cve/blob/main/rce.md"
     ],
+    "CVE-2024-4020": [
+      "https://palm-vertebra-fe9.notion.site/fromAddressNat_entrys-b04d5356e5f04e30b37cb9037b94e1b2"
+    ],
     "CVE-2024-40322": [
       "https://github.com/KakeruJ/CVE/blob/main/JFinalCMS_SQL.md"
     ],
@@ -33329,6 +33530,9 @@
     "CVE-2024-42852": [
       "https://github.com/Hebing123/cve/issues/64"
     ],
+    "CVE-2024-42885": [
+      "https://supervisor0.notion.site/ESAFENET-CDG-SQL-Injection-17d7e244810147f697c3c42a884f932b"
+    ],
     "CVE-2024-4289": [
       "https://wpscan.com/vulnerability/072785de-0ce5-42a4-a3fd-4eb1d1a2f1be/"
     ],
@@ -33668,6 +33872,9 @@
     "CVE-2024-44337": [
       "https://github.com/Brinmon/CVE-2024-44337"
     ],
+    "CVE-2024-4434": [
+      "https://inky-knuckle-2c2.notion.site/Unauthenticated-SQLI-in-Learnpress-plugin-Latest-Version-4-2-6-5-a86fe63bcc7b4c9988802688211817fd?pvs=25"
+    ],
     "CVE-2024-44340": [
       "https://github.com/yali-1002/some-poc/blob/main/CVE-2024-44340"
     ],
@@ -33707,8 +33914,17 @@
     "CVE-2024-44415": [
       "https://github.com/IotChan/cve/blob/main/dlink/DI-8200/Dlink%20DI-8200.md"
     ],
+    "CVE-2024-4444": [
+      "https://inky-knuckle-2c2.notion.site/Improper-Authentication-in-checkout-leads-privilege-escalation-of-unauthenticated-to-create-accoun-09da24a043884219a891dd1a0fc01af6"
+    ],
     "CVE-2024-44466": [
       "https://github.com/CurryRaid/iot_vul/tree/main/comfast"
+    ],
+    "CVE-2024-44563": [
+      "https://detailed-stetson-767.notion.site/Tenda-AX1806-Buffer-Overflow-in-getIptvInfo-d15d44b770e24213a8dcb13a4812e3f4?pvs=4"
+    ],
+    "CVE-2024-44565": [
+      "https://detailed-stetson-767.notion.site/Tenda-AX1806-Buffer-Overflow-in-form_fast_setting_internet_set-fe072267132d42be935ea4d7a53f7369?pvs=4"
     ],
     "CVE-2024-44587": [
       "https://github.com/Lejeremiah/excavation/blob/main/cms-sql1.md"
@@ -34129,6 +34345,9 @@
     ],
     "CVE-2024-45752": [
       "https://bugzilla.suse.com/show_bug.cgi?id=1226598"
+    ],
+    "CVE-2024-45758": [
+      "https://spear-shield.notion.site/Unauthenticated-Remote-Code-Execution-via-Unrestricted-JDBC-Connection-87a958a4874044199cbb86422d1f6068"
     ],
     "CVE-2024-4577": [
       "https://www.imperva.com/blog/imperva-protects-against-critical-php-vulnerability-cve-2024-4577/"
