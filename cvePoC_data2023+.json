@@ -16500,6 +16500,9 @@
     "CVE-2023-4740": [
       "https://vuldb.com/?id.238629"
     ],
+    "CVE-2023-47430": [
+      "https://sourceforge.net/p/minidlna/bugs/361/"
+    ],
     "CVE-2023-4744": [
       "https://github.com/GleamingEyes/vul/blob/main/tenda_ac8/ac8_1.md"
     ],
