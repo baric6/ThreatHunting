@@ -10809,6 +10809,9 @@
     "CVE-2023-34666": [
       "https://www.exploit-db.com/exploits/49204"
     ],
+    "CVE-2023-34669": [
+      "https://w3b5h3ll.notion.site/w3b5h3ll/TOTOLINK-CP300-c96d775881f0476b9ef465dba9c6d9b8"
+    ],
     "CVE-2023-3469": [
       "https://huntr.dev/bounties/3565cfc9-82c4-4db8-9b8f-494dd81b56ca"
     ],
@@ -15262,7 +15265,7 @@
       "https://vuldb.com/?id.237569"
     ],
     "CVE-2023-44487": [
-      "https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event"
+      "https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack"
     ],
     "CVE-2023-4451": [
       "https://huntr.dev/bounties/4e111c3e-6cf3-4b4c-b3c1-a540bf30f8fa"
@@ -22445,6 +22448,9 @@
     "CVE-2024-12658": [
       "https://shareforall.notion.site/IOBit-Advanced-SystemCare-Utimate-AscRegistryFilter-0x8001E01C-NPD-DOS-15160437bb1e800eb1cadd53b224d088"
     ],
+    "CVE-2024-12659": [
+      "https://shareforall.notion.site/IOBit-Advanced-SystemCare-Utimate-AscRegistryFilter-0x8001E004-NPD-DOS-15160437bb1e804cbe8fd4d826f8564f"
+    ],
     "CVE-2024-1266": [
       "https://drive.google.com/file/d/16a9lQqUFBICw-Hhbe9bT5sSB7qwZjMwA/view?usp=sharing"
     ],
@@ -28145,6 +28151,9 @@
     "CVE-2024-29937": [
       "https://www.youtube.com/watch?v=i_JOkHaCdzk"
     ],
+    "CVE-2024-29946": [
+      "https://research.splunk.com/application/1cf58ae1-9177-40b8-a26c-8966040f11ae/"
+    ],
     "CVE-2024-2995": [
       "https://vuldb.com/?id.258197"
     ],
@@ -31190,6 +31199,15 @@
     "CVE-2024-3695": [
       "https://vuldb.com/?id.260482"
     ],
+    "CVE-2024-36983": [
+      "https://research.splunk.com/application/1cf58ae1-9177-40b8-a26c-8966040f11ae/"
+    ],
+    "CVE-2024-36984": [
+      "https://research.splunk.com/application/1cf58ae1-9177-40b8-a26c-8966040f11ae/"
+    ],
+    "CVE-2024-36986": [
+      "https://research.splunk.com/application/1cf58ae1-9177-40b8-a26c-8966040f11ae/"
+    ],
     "CVE-2024-37000": [
       "https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0009"
     ],
@@ -32989,6 +33007,9 @@
     ],
     "CVE-2024-41629": [
       "https://seclists.org/fulldisclosure/2024/Sep/1"
+    ],
+    "CVE-2024-41630": [
+      "https://palm-vertebra-fe9.notion.site/form_fast_setting_wifi_set-fd47294cf4bb460bb95f804d39e53f34"
     ],
     "CVE-2024-41637": [
       "https://blog.0xzon.dev/2024-07-27-CVE-2024-41637/"
@@ -36803,8 +36824,20 @@
     "CVE-2024-57161": [
       "https://github.com/1091101/yang.xian/tree/main/8/readme.md"
     ],
+    "CVE-2024-57175": [
+      "https://github.com/Ajmal101/CVE-2024-57175/blob/main/README.md"
+    ],
+    "CVE-2024-57237": [
+      "https://prolink2u.com/products/dl-7203e-b"
+    ],
+    "CVE-2024-57238": [
+      "https://prolink2u.com/products/dl-7203e-b"
+    ],
     "CVE-2024-5727": [
       "https://wpscan.com/vulnerability/5f677863-2f4f-474f-ba48-f490f9d6e71c/"
+    ],
+    "CVE-2024-57277": [
+      "https://github.com/yamerooo123/ResearchNBugBountyEncyclopedia/blob/main/Researches/Innocommerce/Findings.md"
     ],
     "CVE-2024-5728": [
       "https://wpscan.com/vulnerability/287c4e8c-9092-4cb9-9642-e4f3d10f46fa/"
@@ -36848,6 +36881,15 @@
     "CVE-2024-5745": [
       "https://vuldb.com/?id.267414"
     ],
+    "CVE-2024-57450": [
+      "https://locrian-lightning-dc7.notion.site/File-Upload-1628e5e2b1a2806a99b8faf140bd5e42"
+    ],
+    "CVE-2024-57451": [
+      "https://locrian-lightning-dc7.notion.site/Directory-traversal-1628e5e2b1a280fdb463c2235acc7f75"
+    ],
+    "CVE-2024-57452": [
+      "https://locrian-lightning-dc7.notion.site/File-Delete-1628e5e2b1a280cfb497de7b8bcff128"
+    ],
     "CVE-2024-57487": [
       "https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488"
     ],
@@ -36857,11 +36899,20 @@
     "CVE-2024-57514": [
       "https://www.zyenra.com/blog/xss-in-tplink-archer-a20.html"
     ],
+    "CVE-2024-57519": [
+      "https://github.com/open5gs/open5gs/issues/3635"
+    ],
+    "CVE-2024-57522": [
+      "https://github.com/HackWidMaddy/CVE-2024-57522"
+    ],
     "CVE-2024-57536": [
       "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/8/8.md"
     ],
     "CVE-2024-57537": [
       "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/1/1.md"
+    ],
+    "CVE-2024-57538": [
+      "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/10/10.md"
     ],
     "CVE-2024-57539": [
       "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/3/3.md"
@@ -36883,6 +36934,15 @@
     ],
     "CVE-2024-57546": [
       "https://github.com/h4ckr4v3n/cmsimple5.16_research/blob/main/CMSimple%205.16%20Validate%20links%20SSRF.md"
+    ],
+    "CVE-2024-57547": [
+      "https://github.com/h4ckr4v3n/cmsimple5.16_research/blob/main/CMSimple%205.16%20Remote%20Code%20Execution%20via%20backup%20file%20editing.md"
+    ],
+    "CVE-2024-57548": [
+      "https://github.com/h4ckr4v3n/cmsimple5.16_research/blob/main/CMSimple%205.16%20Broken%20Access%20Control%20to%20log.php.md"
+    ],
+    "CVE-2024-57549": [
+      "https://github.com/h4ckr4v3n/cmsimple5.16_research/blob/main/CMSimple%205.16%20Sensitive%20information%20disclosure.md"
     ],
     "CVE-2024-5758": [
       "https://wpscan.com/vulnerability/635be98d-4c17-4e75-871f-9794d85a2eb1/"
@@ -37408,6 +37468,9 @@
     ],
     "CVE-2024-6188": [
       "https://vuldb.com/?submit.354924"
+    ],
+    "CVE-2024-6189": [
+      "https://military-hail-377.notion.site/Tenda-A301V2-0-stack-overflow-c95f23f03b2b4eb5b8ffd3912e9982fd"
     ],
     "CVE-2024-6190": [
       "https://github.com/HryspaHodor/CVE/issues/2"
