@@ -23066,6 +23066,12 @@
     "CVE-2024-13347": [
       "https://wpscan.com/vulnerability/e2f97636-4c67-409a-83c6-ad6255aa2cc5/"
     ],
+    "CVE-2024-13722": [
+      "https://korelogic.com/Resources/Advisories/KL-001-2025-001.txt"
+    ],
+    "CVE-2024-13723": [
+      "https://korelogic.com/Resources/Advisories/KL-001-2025-002.txt"
+    ],
     "CVE-2024-1401": [
       "https://wpscan.com/vulnerability/91064ba5-cf65-46e6-88df-0e4d96a3ef9f/"
     ],
@@ -33207,7 +33213,7 @@
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/W30E/fromWizardHandle.md"
     ],
     "CVE-2024-4172": [
-      "https://github.com/bigbigbigbaby/cms2/blob/main/1.md"
+      "https://vuldb.com/?id.261991"
     ],
     "CVE-2024-4180": [
       "https://wpscan.com/vulnerability/b2a92316-e404-4a5e-8426-f88df6e87550/"
@@ -33336,7 +33342,7 @@
       "https://github.com/asterisk/asterisk/security/advisories/GHSA-c4cg-9275-6w44"
     ],
     "CVE-2024-4237": [
-      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AX/AX1806/R7WebsSecurityHandler.md"
+      "https://vuldb.com/?id.262128"
     ],
     "CVE-2024-42370": [
       "https://github.com/litestar-org/litestar/security/advisories/GHSA-4hq2-rpgc-r8r7"
@@ -34812,7 +34818,7 @@
       "https://github.com/yylmm/CVE/blob/main/Legal%20Case%20Management%20System/xss_admin_case-type.md"
     ],
     "CVE-2024-4725": [
-      "https://github.com/yylmm/CVE/blob/main/Legal%20Case%20Management%20System/xss_admin_client_user.md"
+      "https://vuldb.com/?id.263803"
     ],
     "CVE-2024-4726": [
       "https://github.com/yylmm/CVE/blob/main/Legal%20Case%20Management%20System/xss_admin_clients.md"
@@ -35392,6 +35398,9 @@
     ],
     "CVE-2024-4929": [
       "https://github.com/Hefei-Coffee/cve/blob/main/csrf.md"
+    ],
+    "CVE-2024-4931": [
+      "https://vuldb.com/?id.264467"
     ],
     "CVE-2024-4934": [
       "https://wpscan.com/vulnerability/a2270ee1-3211-4b16-b3d7-6cdd732f7155/"
