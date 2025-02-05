@@ -26777,11 +26777,17 @@
     "CVE-2024-26633": [
       "https://git.kernel.org/stable/c/da23bd709b46168f7dfc36055801011222b076cd"
     ],
+    "CVE-2024-2676": [
+      "https://vuldb.com/?id.257376"
+    ],
     "CVE-2024-26798": [
       "https://git.kernel.org/stable/c/a2c881413dcc5d801bdc9535e51270cc88cb9cd8"
     ],
     "CVE-2024-26817": [
       "https://git.kernel.org/stable/c/e6768c6737f4c02cba193a3339f0cc2907f0b86a"
+    ],
+    "CVE-2024-2686": [
+      "https://vuldb.com/?id.257386"
     ],
     "CVE-2024-26899": [
       "https://git.kernel.org/stable/c/5a87c1f7993bc8ac358a3766bac5dc7126e01e98"
@@ -39684,7 +39690,7 @@
       "https://vuldb.com/?id.276726"
     ],
     "CVE-2024-8523": [
-      "https://github.com/gaorenyusi/gaorenyusi/blob/main/lmx.md"
+      "https://vuldb.com/?id.276728"
     ],
     "CVE-2024-8536": [
       "https://wpscan.com/vulnerability/abd5b6c6-f541-4739-882d-2011436f7a8b/"
@@ -39837,7 +39843,7 @@
       "https://vuldb.com/?submit.408014"
     ],
     "CVE-2024-8868": [
-      "https://github.com/ppp-src/a/issues/7"
+      "https://vuldb.com/?id.277505"
     ],
     "CVE-2024-8876": [
       "https://wiki.shikangsi.com/post/share/12da81ed-2dad-4a75-9b1a-db9afe1e7b7b"
@@ -40276,6 +40282,9 @@
     ],
     "CVE-2024-9603": [
       "https://issues.chromium.org/issues/367818758"
+    ],
+    "CVE-2024-9631": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/480867"
     ],
     "CVE-2024-9633": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/498257"
