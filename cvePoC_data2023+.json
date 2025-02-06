@@ -23193,7 +23193,7 @@
       "https://www.huntress.com/blog/a-catastrophe-for-control-understanding-the-screenconnect-authentication-bypass"
     ],
     "CVE-2024-1709": [
-      "https://www.huntress.com/blog/vulnerability-reproduced-immediately-patch-screenconnect-23-9-8"
+      "https://www.securityweek.com/connectwise-confirms-screenconnect-flaw-under-active-exploitation/"
     ],
     "CVE-2024-1712": [
       "https://wpscan.com/vulnerability/23805a61-9fcd-4744-a60d-05c8cb43ee01/"
@@ -33979,6 +33979,9 @@
     ],
     "CVE-2024-4377": [
       "https://wpscan.com/vulnerability/778cebec-bdbb-4538-9518-c5bd50f76961/"
+    ],
+    "CVE-2024-43779": [
+      "https://talosintelligence.com/vulnerability_reports/TALOS-2024-2112"
     ],
     "CVE-2024-43785": [
       "https://github.com/Byron/gitoxide/security/advisories/GHSA-88g2-r9rw-g55h"
