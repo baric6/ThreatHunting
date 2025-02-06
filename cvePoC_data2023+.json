@@ -2490,6 +2490,9 @@
     "CVE-2023-1960": [
       "https://vuldb.com/?id.225347"
     ],
+    "CVE-2023-1961": [
+      "https://vuldb.com/?id.225348"
+    ],
     "CVE-2023-1965": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/406235"
     ],
