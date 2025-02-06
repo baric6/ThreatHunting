@@ -37022,6 +37022,12 @@
     "CVE-2024-57036": [
       "https://github.com/luckysmallbird/Totolink-A810R-Vulnerability-1/blob/main/3.md"
     ],
+    "CVE-2024-57065": [
+      "https://gist.github.com/tariqhawis/7b2c50ccdec39a030091e48a4ccde688"
+    ],
+    "CVE-2024-57072": [
+      "https://gist.github.com/tariqhawis/8b1fe301dd1ea52952cef347daddee67"
+    ],
     "CVE-2024-5713": [
       "https://wpscan.com/vulnerability/eb3f24a7-3171-42c3-9016-e29da4f384fa/"
     ],
