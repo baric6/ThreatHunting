@@ -19245,6 +19245,9 @@
     "CVE-2023-5573": [
       "https://huntr.dev/bounties/46a2bb2c-712a-4008-a147-b862e3af7d72"
     ],
+    "CVE-2023-5580": [
+      "https://vuldb.com/?id.242145"
+    ],
     "CVE-2023-5586": [
       "https://huntr.dev/bounties/d2a6ea71-3555-47a6-9b18-35455d103740"
     ],
@@ -22098,7 +22101,7 @@
       "https://github.com/Hebing123/cve/issues/70"
     ],
     "CVE-2024-11493": [
-      "https://github.com/Hebing123/cve/issues/70"
+      "https://vuldb.com/?submit.442037"
     ],
     "CVE-2024-11587": [
       "https://github.com/Hebing123/cve/issues/75"
@@ -36220,6 +36223,18 @@
     ],
     "CVE-2024-52875": [
       "https://karmainsecurity.com/hacking-kerio-control-via-cve-2024-52875"
+    ],
+    "CVE-2024-52881": [
+      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-079.txt"
+    ],
+    "CVE-2024-52882": [
+      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-076.txt"
+    ],
+    "CVE-2024-52883": [
+      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-075.txt"
+    ],
+    "CVE-2024-52884": [
+      "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-078.txt"
     ],
     "CVE-2024-5290": [
       "https://snyk.io/blog/abusing-ubuntu-root-privilege-escalation/"
