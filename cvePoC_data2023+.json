@@ -29933,6 +29933,9 @@
     "CVE-2024-33891": [
       "https://straightblast.medium.com/all-your-secrets-are-belong-to-us-a-delinea-secret-server-authn-authz-bypass-adc26c800ad3"
     ],
+    "CVE-2024-33898": [
+      "https://www.nsideattacklogic.de/advisories/NSIDE-SA-2024-002"
+    ],
     "CVE-2024-33899": [
       "https://sdushantha.medium.com/ansi-escape-injection-vulnerability-in-winrar-a2cbfac4b983"
     ],
@@ -36709,6 +36712,9 @@
     ],
     "CVE-2024-55239": [
       "https://github.com/RegularUs3r/CVE-Research/blob/main/CVE-2024/Portabilis%20-%20iEducar/CVE-2024-55649%20-%20Reflected%20Cross-Site%20Scripting.md"
+    ],
+    "CVE-2024-55241": [
+      "https://diamond-bath-fd4.notion.site/Remote-Code-Execution-vulnerability-in-load_model-in-deep-diver-LLM-As-Chatbot-14d4a5b4bb28806795e8e5e8ef9ae27b"
     ],
     "CVE-2024-5529": [
       "https://wpscan.com/vulnerability/66d0b4b7-cd4b-4ec4-95c0-d50773cb0b8f/"
