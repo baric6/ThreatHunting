@@ -1587,6 +1587,9 @@
     "CVE-2023-1157": [
       "https://github.com/10cksYiqiyinHangzhouTechnology/elf-parser_segments_poc"
     ],
+    "CVE-2023-1158": [
+      "https://support.pentaho.com/hc/en-us/articles/14456024873741-IMPORTANT-Resolved-Pentaho-BA-Server-Incorrect-Authorization-Versions-before-9-4-0-1-and-9-3-0-3-including-8-3-x-Impacted-CVE-2023-1158-"
+    ],
     "CVE-2023-1160": [
       "https://huntr.dev/bounties/3ce480dc-1b1c-4230-9287-0dc3b31c2f87"
     ],
@@ -12747,6 +12750,9 @@
     "CVE-2023-38709": [
       "http://seclists.org/fulldisclosure/2024/Jul/18"
     ],
+    "CVE-2023-38730": [
+      "https://www.ibm.com/support/pages/node/7028841"
+    ],
     "CVE-2023-3878": [
       "https://github.com/E1CHO/cve_hub/blob/main/Beauty%20Salon%20Management%20System/Beauty%20Salon%20Management%20System%20-%20vuln%2010.pdf"
     ],
@@ -20377,7 +20383,7 @@
       "https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/blob/main/csrf_delete_notes.md"
     ],
     "CVE-2023-7052": [
-      "https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/blob/main/csrf_profile_notes.md"
+      "https://vuldb.com/?id.248739"
     ],
     "CVE-2023-7059": [
       "https://github.com/will121351/wenqin.webray.com.cn/blob/main/CVE-project/school-visitors-log-e-book.md"
@@ -23068,6 +23074,12 @@
     ],
     "CVE-2024-13347": [
       "https://wpscan.com/vulnerability/e2f97636-4c67-409a-83c6-ad6255aa2cc5/"
+    ],
+    "CVE-2024-13352": [
+      "https://wpscan.com/vulnerability/2c141cc0-f79e-42bd-97a6-98829647104c/"
+    ],
+    "CVE-2024-13492": [
+      "https://wpscan.com/vulnerability/a4a75b75-4801-4ed4-bcc6-4874ac169562/"
     ],
     "CVE-2024-13722": [
       "https://korelogic.com/Resources/Advisories/KL-001-2025-001.txt"
