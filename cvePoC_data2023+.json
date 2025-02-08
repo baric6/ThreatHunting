@@ -21485,6 +21485,9 @@
     "CVE-2024-10370": [
       "https://github.com/ppp-src/CVE/issues/19"
     ],
+    "CVE-2024-10395": [
+      "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-hfww-j92m-x8fv"
+    ],
     "CVE-2024-10408": [
       "https://gist.github.com/higordiego/46090516ba1b13fe3d2607ab4c0114f1"
     ],
@@ -30665,6 +30668,9 @@
     "CVE-2024-35099": [
       "https://github.com/s4ndw1ch136/IOT-vuln-reports/blob/main/V9.3.5u.6698_B20230810/README.md"
     ],
+    "CVE-2024-35106": [
+      "https://gist.github.com/laskdjlaskdj12/571db73f18be1da1271fa1eb09f488de"
+    ],
     "CVE-2024-35108": [
       "https://github.com/FirstLIF/cms/blob/main/1.md"
     ],
@@ -30682,6 +30688,9 @@
     ],
     "CVE-2024-35175": [
       "https://github.com/tg123/sshpiper/security/advisories/GHSA-4w53-6jvp-gg52"
+    ],
+    "CVE-2024-35177": [
+      "https://github.com/wazuh/wazuh/security/advisories/GHSA-pmr2-2r83-h3cv"
     ],
     "CVE-2024-35179": [
       "https://github.com/stalwartlabs/mail-server/security/advisories/GHSA-5pfx-j27j-4c6h"
@@ -31279,6 +31288,9 @@
     ],
     "CVE-2024-3673": [
       "https://wpscan.com/vulnerability/0e8930cb-e176-4406-a43f-a6032471debf/"
+    ],
+    "CVE-2024-36751": [
+      "https://gist.github.com/6en6ar/78168687da94e8aa2e0357f2456b0233"
     ],
     "CVE-2024-36773": [
       "https://github.com/OoLs5/VulDiscovery/blob/main/cve-2024-36773.md"
@@ -33914,6 +33926,18 @@
     "CVE-2024-43360": [
       "https://github.com/ZoneMinder/zoneminder/security/advisories/GHSA-9cmr-7437-v9fj"
     ],
+    "CVE-2024-43362": [
+      "https://github.com/Cacti/cacti/security/advisories/GHSA-wh9c-v56x-v77c"
+    ],
+    "CVE-2024-43363": [
+      "https://github.com/Cacti/cacti/security/advisories/GHSA-gxq4-mv8h-6qj4"
+    ],
+    "CVE-2024-43364": [
+      "https://github.com/Cacti/cacti/security/advisories/GHSA-fgc6-g8gc-wcg5"
+    ],
+    "CVE-2024-43365": [
+      "https://github.com/Cacti/cacti/security/advisories/GHSA-49f2-hwx9-qffr"
+    ],
     "CVE-2024-43373": [
       "https://github.com/j4k0xb/webcrack/security/advisories/GHSA-ccqh-278p-xq6w"
     ],
@@ -34688,6 +34712,15 @@
     "CVE-2024-4602": [
       "https://wpscan.com/vulnerability/bc15bac7-8241-472a-a7c1-58070714501d/"
     ],
+    "CVE-2024-46044": [
+      "https://github.com/BenJpopo/V/blob/main/Tenda/CH22/fromqossetting.md"
+    ],
+    "CVE-2024-46047": [
+      "https://github.com/BenJpopo/V/blob/main/Tenda/FH451/DhcpListClient.md"
+    ],
+    "CVE-2024-46049": [
+      "https://github.com/BenJpopo/V/blob/main/Tenda/O6/formexeCommand.md"
+    ],
     "CVE-2024-46077": [
       "https://packetstormsecurity.com"
     ],
@@ -34703,6 +34736,9 @@
     "CVE-2024-46083": [
       "https://blog.hawktesters.com/zero-day-alert-scriptcase-vulnerabilities-xss/"
     ],
+    "CVE-2024-46097": [
+      "https://github.com/Alkatraz97/CVEs/blob/main/CVE-2024-46097.md"
+    ],
     "CVE-2024-4616": [
       "https://wpscan.com/vulnerability/d203bf3b-aee9-4755-b429-d6bbdd940890/"
     ],
@@ -34712,8 +34748,38 @@
     "CVE-2024-4621": [
       "https://wpscan.com/vulnerability/33a366d9-6c81-4957-a101-768487aae735/"
     ],
+    "CVE-2024-46213": [
+      "https://github.com/Purposex7/Vulns4Study/blob/main/REDAXO%20Cronjobs%20%20AddOns%20RCE.md"
+    ],
+    "CVE-2024-46242": [
+      "https://gist.github.com/salvatore-abello/4f01f3fa54672febc0a492a11a26592c"
+    ],
+    "CVE-2024-46256": [
+      "https://github.com/NginxProxyManager/nginx-proxy-manager/pull/4073/commits/c39d5433bcd13993def222bbb2b6988bbb810a05"
+    ],
+    "CVE-2024-46257": [
+      "https://github.com/NginxProxyManager/nginx-proxy-manager/pull/4073/commits/c39d5433bcd13993def222bbb2b6988bbb810a05"
+    ],
+    "CVE-2024-46259": [
+      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r1-cp_unfilter-cute_png-1019c11/vulDescription.md"
+    ],
+    "CVE-2024-46263": [
+      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/stkof-w1-cp_dynamic-cute_png-601c71/poc/sample15.png"
+    ],
+    "CVE-2024-46264": [
+      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r4-cp_find-cute_png-979c8/vulDescription.md"
+    ],
+    "CVE-2024-46267": [
+      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-w98-cp_block-5c0-cute_png-642c5/vulDescription.md"
+    ],
     "CVE-2024-4627": [
       "https://wpscan.com/vulnerability/c0058fcc-36f6-40bf-9848-fbe2d751d754/"
+    ],
+    "CVE-2024-46276": [
+      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r4-cp_chunk-cute_png-956c7/poc/sample7.png"
+    ],
+    "CVE-2024-46278": [
+      "https://github.com/ayato-shitomi/teedy_1.11_account-takeover"
     ],
     "CVE-2024-46280": [
       "https://0xmupa.github.io/pixlink-weak-telnet"
@@ -34724,17 +34790,41 @@
     "CVE-2024-46300": [
       "https://portswigger.net/web-security/cross-site-scripting/stored"
     ],
+    "CVE-2024-46326": [
+      "https://github.com/beraoudabdelkhalek/research/blob/main/CVEs/CVE-2024-46326/README.md"
+    ],
+    "CVE-2024-46362": [
+      "https://github.com/ohuquq/cms/tree/main/13/readme.md"
+    ],
+    "CVE-2024-46383": [
+      "https://github.com/nitinronge91/Sensitive-Information-disclosure-via-SPI-flash-firmware-for-Hathway-router-CVE-2024-46383"
+    ],
+    "CVE-2024-46394": [
+      "https://github.com/fffccx1/cms/tree/main/14/readme.md"
+    ],
     "CVE-2024-46409": [
       "https://packetstormsecurity.com/files/181974/SeedDMS-6.0.28-Cross-Site-Scripting.html"
     ],
     "CVE-2024-4644": [
       "https://github.com/yylmm/CVE/blob/main/Prison%20Management%20System/xss3.md"
     ],
+    "CVE-2024-46446": [
+      "https://github.com/Sp1d3rL1/Mecha-cms-Arbitrary-File-Deletion-Vulnerability"
+    ],
     "CVE-2024-4645": [
       "https://github.com/yylmm/CVE/blob/main/Prison%20Management%20System/xss4.md"
     ],
+    "CVE-2024-46451": [
+      "https://github.com/offshore0315/loT-vulnerable/blob/main/TOTOLINK/AC1200%20T8/setWiFiAclRules.md"
+    ],
+    "CVE-2024-46470": [
+      "https://github.com/JonMoriSenpai/CVE-WriteUps/blob/main/CodeAstro%20-%20MembershipM-PHP/CVE-2024-46470/writeup.md"
+    ],
     "CVE-2024-46475": [
       "https://blog.csdn.net/qq_45744104/article/details/141903463"
+    ],
+    "CVE-2024-46478": [
+      "https://github.com/michaelrsweet/htmldoc/issues/529"
     ],
     "CVE-2024-46486": [
       "https://yuhehe88.github.io/2024/09/04/TL-WDR5620-Gigabit-Edition-v2-3/"
@@ -34748,17 +34838,62 @@
     "CVE-2024-4653": [
       "https://github.com/Hefei-Coffee/cve/blob/main/sql.md"
     ],
+    "CVE-2024-46531": [
+      "https://github.com/shouvikdutta1998/Vehicle_Record_Management_System"
+    ],
+    "CVE-2024-46532": [
+      "https://github.com/KamenRiderDarker/CVE-2024-46532/tree/main/README.md"
+    ],
     "CVE-2024-4654": [
       "https://github.com/Hefei-Coffee/cve/blob/main/sql2.md"
     ],
     "CVE-2024-4655": [
       "https://wpscan.com/vulnerability/a0dc73b3-3c51-4d03-963f-00fa7d8b0d51/"
     ],
+    "CVE-2024-46600": [
+      "https://github.com/loading15678/cms/tree/main/3/readme.md"
+    ],
     "CVE-2024-46605": [
       "https://drive.google.com/file/d/1-OiaEitTaY7tpEPZMZ8GYtyUH3QWVn22/view?usp=drive_link"
     ],
+    "CVE-2024-46607": [
+      "https://github.com/Lunax0/LogLunax/blob/main/icecms/CVE-2024-46607.md"
+    ],
+    "CVE-2024-46609": [
+      "https://github.com/Lunax0/LogLunax/blob/main/icecms/CVE-2024-46609.md"
+    ],
+    "CVE-2024-46624": [
+      "https://github.com/EchoSl0w/Research/blob/main/2024/CVE-2024-46624.md"
+    ],
+    "CVE-2024-46639": [
+      "https://github.com/0xashfaq/-HelpDeskZ-v2.0.2---Stored-Cross-Site-Scripting-XSS-"
+    ],
     "CVE-2024-4664": [
       "https://wpscan.com/vulnerability/46ada0b4-f3cd-44fb-a568-3345e639bdb6/"
+    ],
+    "CVE-2024-46644": [
+      "https://github.com/skit-cyber-security/eNMS_vulnerabilities"
+    ],
+    "CVE-2024-46645": [
+      "https://github.com/skit-cyber-security/eNMS_vulnerabilities"
+    ],
+    "CVE-2024-46646": [
+      "https://github.com/skit-cyber-security/eNMS_vulnerabilities"
+    ],
+    "CVE-2024-46647": [
+      "https://github.com/skit-cyber-security/eNMS_vulnerabilities"
+    ],
+    "CVE-2024-46648": [
+      "https://github.com/skit-cyber-security/eNMS_vulnerabilities"
+    ],
+    "CVE-2024-46649": [
+      "https://github.com/skit-cyber-security/eNMS_vulnerabilities"
+    ],
+    "CVE-2024-46654": [
+      "https://github.com/magicblack/maccms10/issues/1183"
+    ],
+    "CVE-2024-46946": [
+      "https://gist.github.com/12end/68c0c58d2564ef4141bccd4651480820#file-cve-2024-46946-txt"
     ],
     "CVE-2024-46977": [
       "https://securitylab.github.com/advisories/GHSL-2024-127_GHSL-2024-129_OpenC3_COSMOS"
@@ -34768,6 +34903,9 @@
     ],
     "CVE-2024-46979": [
       "https://jira.xwiki.org/browse/XWIKI-20336"
+    ],
+    "CVE-2024-46986": [
+      "https://github.com/owen2345/camaleon-cms/security/advisories/GHSA-wmjg-vqhv-q5p5"
     ],
     "CVE-2024-4699": [
       "https://github.com/I-Schnee-I/cev/blob/main/D-LINK-DAR-8000-10_rce_importhtml.md"
@@ -34969,6 +35107,9 @@
     ],
     "CVE-2024-47769": [
       "https://github.com/idurar/idurar-erp-crm/security/advisories/GHSA-948g-2vm7-mfv7"
+    ],
+    "CVE-2024-47770": [
+      "https://github.com/wazuh/wazuh/security/advisories/GHSA-648q-8m78-5cwv"
     ],
     "CVE-2024-47796": [
       "https://git.dcmtk.org/?p=dcmtk.git;a=commit;h=89a6e399f1e17d08a8bc8cdaa05b2ac9a50cd4f6"
@@ -39753,7 +39894,7 @@
       "https://vuldb.com/?id.276778"
     ],
     "CVE-2024-8565": [
-      "https://github.com/gurudattch/CVEs/blob/main/Sourcecodester-Clinic's-Patient-Management-System-SQLi.md"
+      "https://vuldb.com/?submit.402425"
     ],
     "CVE-2024-8566": [
       "https://vuldb.com/?submit.403671"
