@@ -35702,6 +35702,9 @@
     "CVE-2024-4817": [
       "https://github.com/yylmm/CVE/blob/main/Online%20Laundry%20Management%20System/IDOR_manage_user.md"
     ],
+    "CVE-2024-48170": [
+      "https://medium.com/@jose.inaciot/cve-2024-48170-bee6ccb773d4"
+    ],
     "CVE-2024-4818": [
       "https://github.com/yylmm/CVE/blob/main/Online%20Laundry%20Management%20System/LFI.md"
     ],
