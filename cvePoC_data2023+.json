@@ -6615,6 +6615,12 @@
     "CVE-2023-2711": [
       "https://wpscan.com/vulnerability/71c5b5b5-8694-4738-8e4b-8670a8d21c86"
     ],
+    "CVE-2023-27112": [
+      "https://github.com/a54552239/pearProjectApi/issues/32"
+    ],
+    "CVE-2023-27113": [
+      "https://github.com/a54552239/pearProjectApi/issues/31"
+    ],
     "CVE-2023-27114": [
       "https://github.com/radareorg/radare2/issues/21363"
     ],
@@ -9331,7 +9337,7 @@
       "https://github.com/FRRouting/frr/issues/13099"
     ],
     "CVE-2023-31492": [
-      "http://packetstormsecurity.com/files/177091/ManageEngine-ADManager-Plus-Recovery-Password-Disclosure.html"
+      "https://github.com/passtheticket/vulnerability-research/blob/main/manage-engine-apps/admanager-recovery-password-disclosure.md"
     ],
     "CVE-2023-31493": [
       "https://medium.com/@dk50u1/rce-remote-code-execution-in-zoneminder-up-to-1-36-33-0686f5bcd370"
@@ -9476,6 +9482,9 @@
     ],
     "CVE-2023-31631": [
       "https://github.com/openlink/virtuoso-opensource/issues/1137"
+    ],
+    "CVE-2023-31634": [
+      "https://github.com/XC9409/CVE-2023-31634/blob/main/PoC"
     ],
     "CVE-2023-3164": [
       "https://gitlab.com/libtiff/libtiff/-/issues/542"
@@ -16260,6 +16269,9 @@
     "CVE-2023-46059": [
       "https://github.com/CrownZTX/vulnerabilities/blob/main/geeklog/reflected_XSS_in_editservice.md"
     ],
+    "CVE-2023-46060": [
+      "https://github.com/peris-navince/founded-0-days/blob/main/Tenda/ac500/fromSetVlanInfo/1.md"
+    ],
     "CVE-2023-46116": [
       "https://github.com/tutao/tutanota/security/advisories/GHSA-mxgj-pq62-f644"
     ],
@@ -20217,6 +20229,9 @@
     "CVE-2023-6301": [
       "https://vuldb.com/?id.246127"
     ],
+    "CVE-2023-6305": [
+      "https://github.com/BigTiger2020/2023/blob/main/Free%20and%20Open%20Source%20inventory%20management%20system/Free%20and%20Open%20Source%20inventory%20management%20system.md"
+    ],
     "CVE-2023-6306": [
       "https://vuldb.com/?id.246132"
     ],
@@ -20406,8 +20421,17 @@
     "CVE-2023-6599": [
       "https://huntr.com/bounties/6198785c-bf60-422e-9b80-68a6e658a10e"
     ],
+    "CVE-2023-6607": [
+      "https://github.com/willchen0011/cve/blob/main/sql.md"
+    ],
+    "CVE-2023-6608": [
+      "https://github.com/willchen0011/cve/blob/main/sql2.md"
+    ],
     "CVE-2023-6609": [
       "https://vuldb.com/?id.247245"
+    ],
+    "CVE-2023-6611": [
+      "https://github.com/13223355/cve/blob/main/sql.md"
     ],
     "CVE-2023-6620": [
       "https://wpscan.com/vulnerability/ab5c42ca-ee7d-4344-bd88-0d727ed3d9c4"
@@ -20459,6 +20483,9 @@
     ],
     "CVE-2023-6753": [
       "https://huntr.com/bounties/b397b83a-527a-47e7-b912-a12a17a6cfb4"
+    ],
+    "CVE-2023-6766": [
+      "https://github.com/dhabaleshwar/Open-Source-Vulnerabilities/blob/main/csrf_delete_course.md"
     ],
     "CVE-2023-6773": [
       "https://drive.google.com/drive/folders/1yuc1n6tr57wD8qsT0HAFDVAuii7iibDM?usp=sharing"
@@ -20512,7 +20539,7 @@
       "http://packetstormsecurity.com/files/176525/WordPress-POST-SMTP-Mailer-2.8.7-Authorization-Bypass-Cross-Site-Scripting.html"
     ],
     "CVE-2023-6888": [
-      "http://www.huiyao.love/2023/12/08/rtspserver-stackoverflow-vulnerability/"
+      "https://github.com/hu1y40/PoC/blob/main/rtspserver_stackoverflow_poc.py"
     ],
     "CVE-2023-6889": [
       "https://huntr.com/bounties/52897778-fad7-4169-bf04-a68a0646df0c"
