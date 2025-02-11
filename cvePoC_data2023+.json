@@ -23342,6 +23342,15 @@
     "CVE-2024-13492": [
       "https://wpscan.com/vulnerability/a4a75b75-4801-4ed4-bcc6-4874ac169562/"
     ],
+    "CVE-2024-13543": [
+      "https://wpscan.com/vulnerability/04a545c4-75d3-4672-8530-00bb879991ca/"
+    ],
+    "CVE-2024-13544": [
+      "https://wpscan.com/vulnerability/91884263-62a7-436e-b19f-682b1aeb37d6/"
+    ],
+    "CVE-2024-13570": [
+      "https://wpscan.com/vulnerability/26019036-f7e4-4ef5-85d4-7d5fda18823e/"
+    ],
     "CVE-2024-13722": [
       "https://korelogic.com/Resources/Advisories/KL-001-2025-001.txt"
     ],
