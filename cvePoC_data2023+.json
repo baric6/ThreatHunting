@@ -18405,6 +18405,9 @@
     "CVE-2023-50694": [
       "https://github.com/dom96/httpbeast/issues/95"
     ],
+    "CVE-2023-50702": [
+      "https://www.youtube.com/watch?v=3dCoV33y1WY"
+    ],
     "CVE-2023-50715": [
       "https://github.com/home-assistant/core/security/advisories/GHSA-jqpc-rc7g-vf83"
     ],
@@ -20209,7 +20212,7 @@
       "https://vuldb.com/?id.246124"
     ],
     "CVE-2023-6300": [
-      "https://github.com/BigTiger2020/2023/blob/main/best-courier-management-system/best-courier-management-system%20-%20reflected%20xss.md"
+      "https://vuldb.com/?id.246126"
     ],
     "CVE-2023-6301": [
       "https://vuldb.com/?id.246127"
@@ -21133,6 +21136,9 @@
     ],
     "CVE-2024-0464": [
       "https://vuldb.com/?id.250569"
+    ],
+    "CVE-2024-0466": [
+      "https://vuldb.com/?id.250571"
     ],
     "CVE-2024-0472": [
       "https://vuldb.com/?id.250577"
@@ -35233,6 +35239,33 @@
     ],
     "CVE-2024-46409": [
       "https://packetstormsecurity.com/files/181974/SeedDMS-6.0.28-Cross-Site-Scripting.html"
+    ],
+    "CVE-2024-46429": [
+      "https://reddassolutions.com/blog/tenda_w18e_security_research"
+    ],
+    "CVE-2024-46430": [
+      "https://reddassolutions.com/blog/tenda_w18e_security_research"
+    ],
+    "CVE-2024-46431": [
+      "https://reddassolutions.com/blog/tenda_w18e_security_research"
+    ],
+    "CVE-2024-46432": [
+      "https://reddassolutions.com/blog/tenda_w18e_security_research"
+    ],
+    "CVE-2024-46433": [
+      "https://reddassolutions.com/blog/tenda_w18e_security_research"
+    ],
+    "CVE-2024-46434": [
+      "https://reddassolutions.com/blog/tenda_w18e_security_research"
+    ],
+    "CVE-2024-46435": [
+      "https://reddassolutions.com/blog/tenda_w18e_security_research"
+    ],
+    "CVE-2024-46436": [
+      "https://reddassolutions.com/blog/tenda_w18e_security_research"
+    ],
+    "CVE-2024-46437": [
+      "https://reddassolutions.com/blog/tenda_w18e_security_research"
     ],
     "CVE-2024-4644": [
       "https://github.com/yylmm/CVE/blob/main/Prison%20Management%20System/xss3.md"
