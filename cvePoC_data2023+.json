@@ -19594,7 +19594,7 @@
       "https://wpscan.com/vulnerability/32a23d0d-7ece-4870-a99d-f3f344be2d67"
     ],
     "CVE-2023-5681": [
-      "https://github.com/Wsecpro/cve1/blob/main/NS-ASG-sql-list_addr_fwresource_ip.md"
+      "https://vuldb.com/?id.243057"
     ],
     "CVE-2023-5682": [
       "https://github.com/Godfather-onec/cve/blob/main/sql.md"
@@ -37207,6 +37207,9 @@
     ],
     "CVE-2024-54151": [
       "https://github.com/directus/directus/security/advisories/GHSA-849r-qrwj-8rv4"
+    ],
+    "CVE-2024-54160": [
+      "https://github.com/Jflye/CVE-2024-54160--Opensearch-HTML-Injection"
     ],
     "CVE-2024-5417": [
       "https://wpscan.com/vulnerability/fb7d6839-9ccb-4a0f-9dca-d6841f666a1b/"
