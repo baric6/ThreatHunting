@@ -37280,6 +37280,9 @@
     "CVE-2024-54767": [
       "https://github.com/Shuanunio/CVE_Requests/blob/main/AVM/fritz/AVM_FRITZ!Box_7530%20AX_unauthorized_access_vulnerability_first.md"
     ],
+    "CVE-2024-54772": [
+      "https://github.com/deauther890/CVE-2024-54772"
+    ],
     "CVE-2024-54774": [
       "https://github.com/taynes-llllzt/taynes/issues/4"
     ],
@@ -37315,6 +37318,9 @@
     ],
     "CVE-2024-54907": [
       "https://github.com/MnrikSrins/totolink_A3002R_RCE"
+    ],
+    "CVE-2024-54916": [
+      "https://github.com/SAHALLL/CVE-2024-54916"
     ],
     "CVE-2024-5499": [
       "https://issues.chromium.org/issues/339877167"
