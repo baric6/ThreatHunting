@@ -6654,6 +6654,9 @@
     "CVE-2023-27135": [
       "https://github.com/Am1ngl/ttt/tree/main/29"
     ],
+    "CVE-2023-27151": [
+      "https://www.esecforte.com/cve-2023-27151-html-injection-activity-tracker/"
+    ],
     "CVE-2023-27159": [
       "https://gist.github.com/b33t1e/e9e8192317c111e7897e04d2f9bf5fdb"
     ],
@@ -36634,6 +36637,9 @@
     ],
     "CVE-2024-51243": [
       "https://github.com/shadia0/Patienc/blob/main/eladmin_rce.md"
+    ],
+    "CVE-2024-51324": [
+      "https://github.com/magicsword-io/LOLDrivers/issues/204"
     ],
     "CVE-2024-51326": [
       "https://github.com/redtrib3/CVEs/tree/main/CVE-2024-51326%20-%20Union%20SQLi"
