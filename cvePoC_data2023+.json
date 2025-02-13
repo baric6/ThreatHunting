@@ -36680,6 +36680,9 @@
     "CVE-2024-5137": [
       "https://github.com/BurakSevben/CVEs/blob/main/Directory%20Management%20System/Directory%20Management%20System%20-%20Cross-Site-Scripting%20-%202.md"
     ],
+    "CVE-2024-51376": [
+      "https://github.com/yeqifu/carRental/issues/43"
+    ],
     "CVE-2024-51378": [
       "https://www.bleepingcomputer.com/news/security/massive-psaux-ransomware-attack-targets-22-000-cyberpanel-instances/"
     ],
@@ -37915,6 +37918,21 @@
     ],
     "CVE-2024-57595": [
       "https://www.dlink.com/en/security-bulletin/"
+    ],
+    "CVE-2024-57601": [
+      "https://hkohi.ca/vulnerability/13"
+    ],
+    "CVE-2024-57602": [
+      "https://hkohi.ca/vulnerability/12"
+    ],
+    "CVE-2024-57603": [
+      "https://hkohi.ca/vulnerability/1"
+    ],
+    "CVE-2024-57604": [
+      "https://hkohi.ca/vulnerability/2"
+    ],
+    "CVE-2024-57605": [
+      "https://hkohi.ca/vulnerability/3"
     ],
     "CVE-2024-57611": [
       "https://github.com/daodaoshao/Yunpeng-Yin/tree/main/7/readme.md"
@@ -40318,6 +40336,9 @@
     ],
     "CVE-2024-8239": [
       "https://wpscan.com/vulnerability/02796da0-218d-4cbb-98ca-49eeea83cac5/"
+    ],
+    "CVE-2024-8266": [
+      "https://gitlab.com/gitlab-org/gitlab/-/issues/481531"
     ],
     "CVE-2024-8283": [
       "https://wpscan.com/vulnerability/a60aed55-c0a2-4912-8844-cdddf31d90b6/"
