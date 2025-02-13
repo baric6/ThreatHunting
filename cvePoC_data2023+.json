@@ -22811,6 +22811,9 @@
     "CVE-2024-12585": [
       "https://wpscan.com/vulnerability/afecf367-d298-4f4c-8f47-4e19b3937d3e/"
     ],
+    "CVE-2024-12586": [
+      "https://wpscan.com/vulnerability/2ce05a44-762b-4aaf-b88a-92c830fd8ec4/"
+    ],
     "CVE-2024-12587": [
       "https://wpscan.com/vulnerability/7cb040f5-d154-48ea-a54e-80451054bad8/"
     ],
@@ -23263,6 +23266,18 @@
     ],
     "CVE-2024-13117": [
       "https://wpscan.com/vulnerability/3234cdac-f328-4f1e-a1de-31fbd86aefb9/"
+    ],
+    "CVE-2024-13119": [
+      "https://wpscan.com/vulnerability/32600a45-a8cd-446c-9aa2-0621a02a9754/"
+    ],
+    "CVE-2024-13120": [
+      "https://wpscan.com/vulnerability/5b70798c-c30d-42e6-ac72-821c5568b9b5/"
+    ],
+    "CVE-2024-13121": [
+      "https://wpscan.com/vulnerability/59ee8fe5-4820-4d52-b17a-7044631c40c1/"
+    ],
+    "CVE-2024-13125": [
+      "https://wpscan.com/vulnerability/f60a8358-1765-4cae-9c89-0d75c5e394ec/"
     ],
     "CVE-2024-13129": [
       "https://github.com/roxy-wi/roxy-wi/pull/410/commits/32313928eb9ce906887b8a30bf7b9a3d5c0de1be"
