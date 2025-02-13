@@ -22560,7 +22560,7 @@
       "https://www.youtube.com/watch?v=JdQMINPVJd8"
     ],
     "CVE-2024-11954": [
-      "https://github.com/pimcore/pimcore/security/advisories/GHSA-xr3m-6gq6-22cg"
+      "https://vuldb.com/?submit.451774"
     ],
     "CVE-2024-11956": [
       "https://vuldb.com/?submit.451863"
@@ -37781,6 +37781,9 @@
     "CVE-2024-57072": [
       "https://gist.github.com/tariqhawis/8b1fe301dd1ea52952cef347daddee67"
     ],
+    "CVE-2024-57081": [
+      "https://gist.github.com/tariqhawis/4b2c7273054f0d70ef162aa5b6daec01"
+    ],
     "CVE-2024-5713": [
       "https://wpscan.com/vulnerability/eb3f24a7-3171-42c3-9016-e29da4f384fa/"
     ],
@@ -40378,6 +40381,9 @@
     ],
     "CVE-2024-8322": [
       "https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022"
+    ],
+    "CVE-2024-8334": [
+      "https://github.com/master-nan/sweet-cms/commit/2024c370e6c78b07b358c9d4257fa5d1be732c38"
     ],
     "CVE-2024-8336": [
       "https://github.com/LiuHaoBin6/cve/blob/main/sql5.md"
