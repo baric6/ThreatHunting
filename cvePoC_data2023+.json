@@ -10860,6 +10860,33 @@
     "CVE-2023-3439": [
       "https://github.com/torvalds/linux/commit/b561275d633bcd8e0e8055ab86f1a13df75a0269"
     ],
+    "CVE-2023-34397": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2023-34398": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2023-34399": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2023-34400": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2023-34401": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2023-34402": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2023-34403": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2023-34404": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2023-34406": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
     "CVE-2023-34407": [
       "https://cybir.com/2023/cve/proof-of-concept-checkpoint-learning-harbinger-systems-offline-player-multiple-poc-for-cl-4-0-6-0-2-lfi-excessive-rights/"
     ],
@@ -32003,6 +32030,18 @@
     "CVE-2024-37569": [
       "https://www.youtube.com/watch?v=I9TQqfP5qzM"
     ],
+    "CVE-2024-37600": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2024-37601": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2024-37602": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
+    "CVE-2024-37603": [
+      "https://securelist.com/mercedes-benz-head-unit-security-research/115218/"
+    ],
     "CVE-2024-37605": [
       "https://www.dlink.com/en/security-bulletin/"
     ],
@@ -32685,7 +32724,7 @@
       "https://gist.github.com/Swind1er/40c33f1b1549028677cb4e2e5ef69109"
     ],
     "CVE-2024-39205": [
-      "https://github.com/Marven11/CVE-2024-39205-Pyload-RCE/tree/main"
+      "https://github.com/pyload/pyload/security/advisories/GHSA-r9pp-r4xf-597r"
     ],
     "CVE-2024-39206": [
       "https://www.proactivelabs.com.au/2024/06/19/cloudberry.html"
@@ -36965,6 +37004,9 @@
     "CVE-2024-53255": [
       "https://github.com/BoidCMS/BoidCMS/security/advisories/GHSA-7q7m-cgw8-px4r"
     ],
+    "CVE-2024-53257": [
+      "https://github.com/vitessio/vitess/security/advisories/GHSA-7mwh-q3xm-qh6p"
+    ],
     "CVE-2024-53262": [
       "https://github.com/sveltejs/kit/security/advisories/GHSA-mh2x-fcqh-fmqv"
     ],
@@ -36976,6 +37018,9 @@
     ],
     "CVE-2024-53269": [
       "https://github.com/envoyproxy/envoy/security/advisories/GHSA-mfqp-7mmj-rm53"
+    ],
+    "CVE-2024-53270": [
+      "https://github.com/envoyproxy/envoy/security/advisories/GHSA-q9qv-8j52-77p3"
     ],
     "CVE-2024-53271": [
       "https://github.com/envoyproxy/envoy/security/advisories/GHSA-rmm5-h2wv-mg4f"
@@ -37043,6 +37088,9 @@
     "CVE-2024-53472": [
       "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-53472"
     ],
+    "CVE-2024-53473": [
+      "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-53473"
+    ],
     "CVE-2024-53476": [
       "https://github.com/simplcommerce/SimplCommerce/issues/1111"
     ],
@@ -37054,6 +37102,9 @@
     ],
     "CVE-2024-53504": [
       "https://github.com/siyuan-note/siyuan/issues/13058"
+    ],
+    "CVE-2024-53505": [
+      "https://github.com/siyuan-note/siyuan/issues/13059"
     ],
     "CVE-2024-53507": [
       "https://github.com/siyuan-note/siyuan/issues/13057"
@@ -37709,6 +37760,9 @@
     "CVE-2024-56924": [
       "https://github.com/ipratheep/CVE-2024-56924"
     ],
+    "CVE-2024-57000": [
+      "https://github.com/honysyang/Ray.git"
+    ],
     "CVE-2024-57011": [
       "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setScheduleCfg/setScheduleCfg.md"
     ],
@@ -37780,6 +37834,9 @@
     ],
     "CVE-2024-57072": [
       "https://gist.github.com/tariqhawis/8b1fe301dd1ea52952cef347daddee67"
+    ],
+    "CVE-2024-57076": [
+      "https://gist.github.com/tariqhawis/c432b93ee7d967c2e65bc1bf39241664"
     ],
     "CVE-2024-57081": [
       "https://gist.github.com/tariqhawis/4b2c7273054f0d70ef162aa5b6daec01"
