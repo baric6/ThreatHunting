@@ -23414,6 +23414,9 @@
     "CVE-2024-13492": [
       "https://wpscan.com/vulnerability/a4a75b75-4801-4ed4-bcc6-4874ac169562/"
     ],
+    "CVE-2024-13493": [
+      "https://wpscan.com/vulnerability/dfbdd474-92e5-422b-a185-e441a6014557/"
+    ],
     "CVE-2024-13543": [
       "https://wpscan.com/vulnerability/04a545c4-75d3-4672-8530-00bb879991ca/"
     ],
@@ -39112,6 +39115,9 @@
     ],
     "CVE-2024-7024": [
       "https://issues.chromium.org/issues/334120897"
+    ],
+    "CVE-2024-7052": [
+      "https://wpscan.com/vulnerability/4e52cab5-821c-4ca8-9024-67f716cf78fe/"
     ],
     "CVE-2024-7055": [
       "https://github.com/CookedMelon/ReportCVE/tree/main/FFmpeg/poc3"
