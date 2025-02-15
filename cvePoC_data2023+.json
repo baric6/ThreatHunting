@@ -35825,6 +35825,9 @@
     "CVE-2024-48141": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-48141"
     ],
+    "CVE-2024-48142": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-48142"
+    ],
     "CVE-2024-48144": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-48144"
     ],
@@ -35854,6 +35857,9 @@
     ],
     "CVE-2024-48206": [
       "https://rumbling-slice-eb0.notion.site/chainer-s-chainermn-has-MPI-Deserialization-vulnerability-in-chainer-chainer-c6a004feb53a447e8fb440968d73d6fd?pvs=4"
+    ],
+    "CVE-2024-48217": [
+      "https://github.com/ajrielrm/CVE-2024-48217"
     ],
     "CVE-2024-48218": [
       "https://github.com/funadmin/funadmin/issues/21"
@@ -35930,6 +35936,12 @@
     "CVE-2024-48396": [
       "https://jacobmasse.medium.com/reflected-xss-in-popular-ai-chatbot-application-79de74ea0cc8"
     ],
+    "CVE-2024-48417": [
+      "https://github.com/SpikeReply/advisories/blob/c271ddb997bc0263274118acc380bc71ce9c316b/cve/edimax/cve-2024-48417.md"
+    ],
+    "CVE-2024-48423": [
+      "https://github.com/assimp/assimp/issues/5788"
+    ],
     "CVE-2024-48425": [
       "https://github.com/assimp/assimp/issues/5791"
     ],
@@ -35974,6 +35986,9 @@
     ],
     "CVE-2024-48580": [
       "https://github.com/baineoli/CVE/blob/main/2024/courier%20management%20system%20-%20SQL%20Injection%20(Admin%20Login).md"
+    ],
+    "CVE-2024-48581": [
+      "https://github.com/baineoli/CVE/blob/main/2024/courier%20management%20system%20-%20Unrestricted%20File%20Upload%20to%20RCE%20(Sign%20Up).md"
     ],
     "CVE-2024-4860": [
       "https://www.tenable.com/security/research/tra-2024-16"
@@ -36044,6 +36059,12 @@
     "CVE-2024-4879": [
       "https://www.darkreading.com/cloud-security/patchnow-servicenow-critical-rce-bugs-active-exploit"
     ],
+    "CVE-2024-48809": [
+      "https://gist.github.com/bergen876/5a21f78e266c12aa2586beb2178443b0"
+    ],
+    "CVE-2024-48826": [
+      "https://github.com/ixout/iotVuls/blob/main/Tenda/ac7_006/report.md"
+    ],
     "CVE-2024-4886": [
       "https://wpscan.com/vulnerability/76e8591f-120c-4cd7-b9a2-79f8d4d98aa8/"
     ],
@@ -36061,6 +36082,9 @@
     ],
     "CVE-2024-48942": [
       "https://syracom-bee.atlassian.net/wiki/spaces/SL/pages/3236560898/2024-09-16+-+Secure+Login+security+advisory+-+Insecure+default+configuration"
+    ],
+    "CVE-2024-48948": [
+      "https://github.com/indutny/elliptic/issues/321"
     ],
     "CVE-2024-48956": [
       "https://security.serviceware-se.com/CVE-2024-48956/"
