@@ -22887,7 +22887,7 @@
       "https://drive.google.com/file/d/16a9lQqUFBICw-Hhbe9bT5sSB7qwZjMwA/view?usp=sharing"
     ],
     "CVE-2024-12660": [
-      "https://shareforall.notion.site/IOBit-Advanced-SystemCare-Utimate-AscRegistryFilter-0x8001E018-NPD-DOS-15260437bb1e80c5ab28da895ed46227"
+      "https://vuldb.com/?id.288529"
     ],
     "CVE-2024-12661": [
       "https://shareforall.notion.site/IOBit-Advanced-SystemCare-Utimate-AscRegistryFilter-0x8001E024-NPD-DOS-15260437bb1e80f28c03f548645c8ec9"
@@ -22966,6 +22966,9 @@
     ],
     "CVE-2024-12774": [
       "https://wpscan.com/vulnerability/8decbef5-f106-488b-925c-42b3b280460a/"
+    ],
+    "CVE-2024-12786": [
+      "https://vuldb.com/?id.288966"
     ],
     "CVE-2024-12788": [
       "https://github.com/laowuzi/cve/tree/main/Technical_Discussion_Forum"
@@ -23049,7 +23052,7 @@
       "https://github.com/bug3536/CVE/issues/1"
     ],
     "CVE-2024-12941": [
-      "https://github.com/Bea1ee/cve/issues/1"
+      "https://vuldb.com/?id.289301"
     ],
     "CVE-2024-12942": [
       "https://github.com/dawatermelon/CVE/blob/main/Portfolio%20Management%20System%20MCA%20Project/README.md"
@@ -23071,6 +23074,9 @@
     ],
     "CVE-2024-1295": [
       "https://wpscan.com/vulnerability/3cffbeb0-545a-4002-b02c-0fa38cada1db/"
+    ],
+    "CVE-2024-12950": [
+      "https://vuldb.com/?id.289313"
     ],
     "CVE-2024-12951": [
       "https://github.com/dawatermelon/CVE/blob/main/Portfolio%20Management%20System%20MCA%20Project/README3.md"
@@ -35252,11 +35258,20 @@
     "CVE-2024-46044": [
       "https://github.com/BenJpopo/V/blob/main/Tenda/CH22/fromqossetting.md"
     ],
+    "CVE-2024-46046": [
+      "https://github.com/BenJpopo/V/blob/main/Tenda/FH451/RouteStatic.md"
+    ],
     "CVE-2024-46047": [
       "https://github.com/BenJpopo/V/blob/main/Tenda/FH451/DhcpListClient.md"
     ],
+    "CVE-2024-46048": [
+      "https://github.com/BenJpopo/V/blob/main/Tenda/FH451/formexeCommand.md"
+    ],
     "CVE-2024-46049": [
       "https://github.com/BenJpopo/V/blob/main/Tenda/O6/formexeCommand.md"
+    ],
+    "CVE-2024-46073": [
+      "https://github.com/manisashank/CVE-Publish/blob/main/CVE-2024-46073.md"
     ],
     "CVE-2024-46077": [
       "https://packetstormsecurity.com"
@@ -35288,14 +35303,23 @@
     "CVE-2024-46213": [
       "https://github.com/Purposex7/Vulns4Study/blob/main/REDAXO%20Cronjobs%20%20AddOns%20RCE.md"
     ],
+    "CVE-2024-46239": [
+      "https://github.com/anoncoder01/PHP_Gurukul_Hospital_Management_System_XSS/blob/master/vulnerabilities/XSS3.md"
+    ],
+    "CVE-2024-46240": [
+      "https://github.com/anoncoder01/Collabtive_StoredXSS/blob/master/vulnerabilities/XSS1.md"
+    ],
     "CVE-2024-46242": [
       "https://gist.github.com/salvatore-abello/4f01f3fa54672febc0a492a11a26592c"
     ],
     "CVE-2024-46256": [
-      "https://github.com/NginxProxyManager/nginx-proxy-manager/pull/4073/commits/c39d5433bcd13993def222bbb2b6988bbb810a05"
+      "https://github.com/barttran2k/POC_CVE-2024-46256"
     ],
     "CVE-2024-46257": [
-      "https://github.com/NginxProxyManager/nginx-proxy-manager/pull/4073/commits/c39d5433bcd13993def222bbb2b6988bbb810a05"
+      "https://github.com/barttran2k/POC_CVE-2024-46256"
+    ],
+    "CVE-2024-46258": [
+      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r1-cp_load_png_mem-cute_png-1105c15/vulDescription.md"
     ],
     "CVE-2024-46259": [
       "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r1-cp_unfilter-cute_png-1019c11/vulDescription.md"
@@ -35327,6 +35351,9 @@
     "CVE-2024-46300": [
       "https://portswigger.net/web-security/cross-site-scripting/stored"
     ],
+    "CVE-2024-46310": [
+      "https://github.com/PRX5Y/CVE-2024-46310"
+    ],
     "CVE-2024-46326": [
       "https://github.com/beraoudabdelkhalek/research/blob/main/CVEs/CVE-2024-46326/README.md"
     ],
@@ -35341,6 +35368,9 @@
     ],
     "CVE-2024-46409": [
       "https://packetstormsecurity.com/files/181974/SeedDMS-6.0.28-Cross-Site-Scripting.html"
+    ],
+    "CVE-2024-46419": [
+      "https://github.com/TTTJJJWWW/AHU-IoT-vulnerable/blob/main/TOTOLINK/AC1200T8/setWizardCfg.md"
     ],
     "CVE-2024-46429": [
       "https://reddassolutions.com/blog/tenda_w18e_security_research"
@@ -35418,7 +35448,10 @@
       "https://github.com/loading15678/cms/tree/main/3/readme.md"
     ],
     "CVE-2024-46605": [
-      "https://drive.google.com/file/d/1-OiaEitTaY7tpEPZMZ8GYtyUH3QWVn22/view?usp=drive_link"
+      "https://github.com/achufistov/cve-achufistov/blob/main/CVE-2024-46605.md"
+    ],
+    "CVE-2024-46606": [
+      "https://github.com/achufistov/cve-achufistov/blob/main/CVE-2024-46606.md"
     ],
     "CVE-2024-46607": [
       "https://github.com/Lunax0/LogLunax/blob/main/icecms/CVE-2024-46607.md"
@@ -35426,8 +35459,14 @@
     "CVE-2024-46609": [
       "https://github.com/Lunax0/LogLunax/blob/main/icecms/CVE-2024-46609.md"
     ],
+    "CVE-2024-46610": [
+      "https://github.com/Lunax0/LogLunax/blob/main/icecms/CVE-2024-46610.md"
+    ],
     "CVE-2024-46624": [
       "https://github.com/EchoSl0w/Research/blob/main/2024/CVE-2024-46624.md"
+    ],
+    "CVE-2024-46628": [
+      "https://github.com/Question-h/vuln/blob/master/Remote%20Code%20Execution%20Vulnerability%20in%20Tenda%20G3%20Router.md"
     ],
     "CVE-2024-46639": [
       "https://github.com/0xashfaq/-HelpDeskZ-v2.0.2---Stored-Cross-Site-Scripting-XSS-"
