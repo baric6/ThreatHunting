@@ -22391,6 +22391,9 @@
     "CVE-2024-11357": [
       "https://wpscan.com/vulnerability/7e8c6816-9b7a-43e8-9508-789c8051dd9b/"
     ],
+    "CVE-2024-11395": [
+      "https://issues.chromium.org/issues/377384894"
+    ],
     "CVE-2024-11404": [
       "https://iltosec.com/blog/post/cve-2024-11404-medium-severity-file-upload-vulnerabilities-in-django-filer-323/"
     ],
@@ -37000,6 +37003,9 @@
     ],
     "CVE-2024-52337": [
       "https://www.openwall.com/lists/oss-security/2024/11/28/1"
+    ],
+    "CVE-2024-5236": [
+      "https://vuldb.com/?id.265987"
     ],
     "CVE-2024-5257": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/463149"
