@@ -10956,6 +10956,9 @@
     "CVE-2023-34569": [
       "https://hackmd.io/@0dayResearch/HymuzffSh"
     ],
+    "CVE-2023-3457": [
+      "https://vuldb.com/?id.232674"
+    ],
     "CVE-2023-34570": [
       "https://hackmd.io/@0dayResearch/S1eI91_l2"
     ],
@@ -40188,7 +40191,7 @@
       "https://github.com/Pingxy/cve/blob/main/sql3.md"
     ],
     "CVE-2024-7933": [
-      "https://github.com/DeepMountains/zzz/blob/main/CVE3-1.md"
+      "https://vuldb.com/?submit.392945"
     ],
     "CVE-2024-7934": [
       "https://vuldb.com/?submit.392946"
