@@ -28812,7 +28812,7 @@
       "https://pierrekim.github.io/blog/2024-06-27-sharp-mfp-17-vulnerabilities.html"
     ],
     "CVE-2024-3000": [
-      "https://github.com/BurakSevben/CVEs/blob/main/Online%20Book%20System/Online%20Book%20System%20-%20Authentication%20Bypass.md"
+      "https://vuldb.com/?id.258202"
     ],
     "CVE-2024-3001": [
       "https://github.com/BurakSevben/CVEs/blob/main/Online%20Book%20System/Online%20Book%20System-%20SQL%20Injection%20-%203.md"
@@ -37882,6 +37882,12 @@
     ],
     "CVE-2024-56829": [
       "https://github.com/Zerone0x00/CVE/blob/main/%E9%BB%84%E8%8D%AF%E5%B8%88%E8%8D%AF%E4%B8%9A%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6/UploadFile%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md"
+    ],
+    "CVE-2024-56882": [
+      "https://cves.at/posts/cve-cve-2024-56882/writeup/"
+    ],
+    "CVE-2024-56883": [
+      "https://cves.at/posts/cve-cve-2024-56883/writeup/"
     ],
     "CVE-2024-56924": [
       "https://github.com/ipratheep/CVE-2024-56924"
