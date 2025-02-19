@@ -36527,6 +36527,12 @@
     "CVE-2024-50603": [
       "https://www.securing.pl/en/cve-2024-50603-aviatrix-network-controller-command-injection-vulnerability/"
     ],
+    "CVE-2024-50608": [
+      "https://www.ebryx.com/blogs/exploring-cve-2024-50608-and-cve-2024-50609"
+    ],
+    "CVE-2024-50609": [
+      "https://www.ebryx.com/blogs/exploring-cve-2024-50608-and-cve-2024-50609"
+    ],
     "CVE-2024-50611": [
       "https://github.com/CycloneDX/cdxgen/issues/1328"
     ],
@@ -37780,6 +37786,9 @@
     ],
     "CVE-2024-56159": [
       "https://github.com/withastro/astro/security/advisories/GHSA-49w6-73cw-chjr"
+    ],
+    "CVE-2024-56171": [
+      "https://gitlab.gnome.org/GNOME/libxml2/-/issues/828"
     ],
     "CVE-2024-56198": [
       "https://github.com/cabraviva/path-sanitizer/security/advisories/GHSA-94p5-r7cc-3rpr"
