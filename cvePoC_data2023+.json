@@ -22682,6 +22682,9 @@
     "CVE-2024-12163": [
       "https://wpscan.com/vulnerability/ea704054-fb66-4014-89bd-1c61074f64e5/"
     ],
+    "CVE-2024-12173": [
+      "https://wpscan.com/vulnerability/0f35be0e-0f63-4e33-aa4d-c47b1f1e0595/"
+    ],
     "CVE-2024-12178": [
       "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
     ],
@@ -35354,8 +35357,11 @@
     "CVE-2024-46259": [
       "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r1-cp_unfilter-cute_png-1019c11/vulDescription.md"
     ],
+    "CVE-2024-46261": [
+      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r1-cp_make32-cute_png-948c10/vulDescription.md"
+    ],
     "CVE-2024-46263": [
-      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/stkof-w1-cp_dynamic-cute_png-601c71/poc/sample15.png"
+      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/stkof-w1-cp_dynamic-cute_png-601c71/vulDescription.md"
     ],
     "CVE-2024-46264": [
       "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r4-cp_find-cute_png-979c8/vulDescription.md"
@@ -35365,6 +35371,9 @@
     ],
     "CVE-2024-4627": [
       "https://wpscan.com/vulnerability/c0058fcc-36f6-40bf-9848-fbe2d751d754/"
+    ],
+    "CVE-2024-46274": [
+      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r65280-cp_stored-cute_png-543c2/vulDescription.md"
     ],
     "CVE-2024-46276": [
       "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r4-cp_chunk-cute_png-956c7/poc/sample7.png"
@@ -35384,6 +35393,9 @@
     "CVE-2024-46310": [
       "https://github.com/PRX5Y/CVE-2024-46310"
     ],
+    "CVE-2024-46316": [
+      "https://github.com/glkfc/IoT-Vulnerability/blob/main/DaryTek/vigor3900_4.md"
+    ],
     "CVE-2024-46326": [
       "https://github.com/beraoudabdelkhalek/research/blob/main/CVEs/CVE-2024-46326/README.md"
     ],
@@ -35401,6 +35413,9 @@
     ],
     "CVE-2024-46419": [
       "https://github.com/TTTJJJWWW/AHU-IoT-vulnerable/blob/main/TOTOLINK/AC1200T8/setWizardCfg.md"
+    ],
+    "CVE-2024-46424": [
+      "https://github.com/TTTJJJWWW/AHU-IoT-vulnerable/blob/main/TOTOLINK/AC1200T8/UploadCustomModule.md"
     ],
     "CVE-2024-46429": [
       "https://reddassolutions.com/blog/tenda_w18e_security_research"
@@ -35444,14 +35459,23 @@
     "CVE-2024-46470": [
       "https://github.com/JonMoriSenpai/CVE-WriteUps/blob/main/CodeAstro%20-%20MembershipM-PHP/CVE-2024-46470/writeup.md"
     ],
+    "CVE-2024-46471": [
+      "https://github.com/JonMoriSenpai/CVE-WriteUps/blob/main/CodeAstro%20-%20MembershipM-PHP/CVE-2024-46471/writeup.md"
+    ],
     "CVE-2024-46475": [
       "https://blog.csdn.net/qq_45744104/article/details/141903463"
     ],
     "CVE-2024-46478": [
       "https://github.com/michaelrsweet/htmldoc/issues/529"
     ],
+    "CVE-2024-46485": [
+      "https://github.com/kikaku-ship/cms/tree/main/1/readme.md"
+    ],
     "CVE-2024-46486": [
       "https://yuhehe88.github.io/2024/09/04/TL-WDR5620-Gigabit-Edition-v2-3/"
+    ],
+    "CVE-2024-46488": [
+      "https://github.com/VulnSphere/LLMVulnSphere/blob/main/VectorDB/sqlite-vec/OOBR_2.md"
     ],
     "CVE-2024-46505": [
       "https://jayaramyalla.medium.com/bloxone-business-logic-flaw-due-to-thick-client-vulnerabilities-cve-2024-46505-04a4f1966f4b"
@@ -35470,6 +35494,9 @@
     ],
     "CVE-2024-4654": [
       "https://github.com/Hefei-Coffee/cve/blob/main/sql2.md"
+    ],
+    "CVE-2024-46547": [
+      "https://gist.github.com/omkar170/232236c38b6e795fb73921e555e1a609"
     ],
     "CVE-2024-4655": [
       "https://wpscan.com/vulnerability/a0dc73b3-3c51-4d03-963f-00fa7d8b0d51/"
@@ -35495,8 +35522,14 @@
     "CVE-2024-46624": [
       "https://github.com/EchoSl0w/Research/blob/main/2024/CVE-2024-46624.md"
     ],
+    "CVE-2024-46625": [
+      "https://github.com/EchoSl0w/Research/blob/main/2024/CVE-2024-46625.md"
+    ],
     "CVE-2024-46628": [
       "https://github.com/Question-h/vuln/blob/master/Remote%20Code%20Execution%20Vulnerability%20in%20Tenda%20G3%20Router.md"
+    ],
+    "CVE-2024-46632": [
+      "https://github.com/assimp/assimp/issues/5771"
     ],
     "CVE-2024-46639": [
       "https://github.com/0xashfaq/-HelpDeskZ-v2.0.2---Stored-Cross-Site-Scripting-XSS-"
@@ -35539,6 +35572,9 @@
     ],
     "CVE-2024-46986": [
       "https://github.com/owen2345/camaleon-cms/security/advisories/GHSA-wmjg-vqhv-q5p5"
+    ],
+    "CVE-2024-46987": [
+      "https://github.com/owen2345/camaleon-cms/security/advisories/GHSA-cp65-5m9r-vc2c"
     ],
     "CVE-2024-4699": [
       "https://github.com/I-Schnee-I/cev/blob/main/D-LINK-DAR-8000-10_rce_importhtml.md"
@@ -36337,6 +36373,9 @@
     ],
     "CVE-2024-4950": [
       "https://issues.chromium.org/issues/40065403"
+    ],
+    "CVE-2024-49504": [
+      "https://bugzilla.suse.com/show_bug.cgi?id=CVE-2024-49504"
     ],
     "CVE-2024-4956": [
       "https://support.sonatype.com/hc/en-us/articles/29416509323923"
@@ -38639,6 +38678,9 @@
     "CVE-2024-6138": [
       "https://wpscan.com/vulnerability/9ef2a8d8-39d5-45d3-95de-e7bac4b7382d/"
     ],
+    "CVE-2024-6156": [
+      "https://github.com/canonical/lxd/security/advisories/GHSA-4c49-9fpc-hc3v"
+    ],
     "CVE-2024-6158": [
       "https://wpscan.com/vulnerability/8adb219f-f0a6-4e87-8626-db26e300c220/"
     ],
@@ -38698,6 +38740,9 @@
     ],
     "CVE-2024-6218": [
       "https://github.com/HryspaHodor/CVE/issues/7"
+    ],
+    "CVE-2024-6219": [
+      "https://github.com/canonical/lxd/security/advisories/GHSA-jpmc-7p9c-4rxf"
     ],
     "CVE-2024-6223": [
       "https://wpscan.com/vulnerability/cf7d1cea-0bf4-4b9e-bab4-71d5719a7c30/"
@@ -38824,6 +38869,12 @@
     ],
     "CVE-2024-6439": [
       "https://github.com/GAO-UNO/cve/blob/main/upload.md"
+    ],
+    "CVE-2024-6442": [
+      "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-m22j-ccg7-4v4h"
+    ],
+    "CVE-2024-6443": [
+      "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-gg46-3rh2-v765"
     ],
     "CVE-2024-6451": [
       "https://wpscan.com/vulnerability/fc06d413-a227-470c-a5b7-cdab57aeab34/"
@@ -38998,6 +39049,9 @@
     ],
     "CVE-2024-6746": [
       "https://github.com/NaiboWang/EasySpider/issues/466"
+    ],
+    "CVE-2024-6763": [
+      "https://github.com/jetty/jetty.project/security/advisories/GHSA-qh8g-58pp-2wxh"
     ],
     "CVE-2024-6766": [
       "https://wpscan.com/vulnerability/77bb1dcf-4e84-497a-955e-f3c0b649ad1c/"
@@ -41367,7 +41421,7 @@
       "https://github.com/RonenWen/cve/blob/main/sql6-update-name.md"
     ],
     "CVE-2024-9818": [
-      "https://github.com/fezzyang/CVE_report/blob/main/online-veterinary-appointment-system/SQLi.md"
+      "https://vuldb.com/?submit.421548"
     ],
     "CVE-2024-9828": [
       "https://wpscan.com/vulnerability/eb2d0932-fd47-4aef-9d08-4377c742bb6e/"
