@@ -15939,6 +15939,9 @@
     "CVE-2023-45303": [
       "https://herolab.usd.de/security-advisories/usd-2023-0010/"
     ],
+    "CVE-2023-45311": [
+      "https://security.snyk.io/vuln/SNYK-JS-FSEVENTS-5487987"
+    ],
     "CVE-2023-45312": [
       "https://medium.com/@_sadshade/almost-2000-telegram-proxy-servers-are-potentially-vulnerable-to-rce-since-2018-742a455be16b"
     ],
@@ -39217,6 +39220,9 @@
     ],
     "CVE-2024-6947": [
       "https://github.com/DeepMountains/Mirage/blob/main/CVE5-3.md"
+    ],
+    "CVE-2024-6948": [
+      "https://vuldb.com/?id.272070"
     ],
     "CVE-2024-6949": [
       "https://github.com/DeepMountains/Mirage/blob/main/CVE4-2.md"
