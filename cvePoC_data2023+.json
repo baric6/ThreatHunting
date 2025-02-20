@@ -37532,6 +37532,9 @@
     "CVE-2024-54819": [
       "https://github.com/partywavesec/CVE-2024-55557"
     ],
+    "CVE-2024-54840": [
+      "https://gist.github.com/Hurdano/8244855ef8ec364fd98a2693de6e30c5"
+    ],
     "CVE-2024-54851": [
       "https://github.com/Tanguy-Boisset/CVE/blob/master/CVE-2024-54851/README.md"
     ],
