@@ -19164,6 +19164,9 @@
     "CVE-2023-5222": [
       "https://github.com/Push3AX/vul/blob/main/viessmann/Vitogate300_HardcodedPassword.md"
     ],
+    "CVE-2023-5223": [
+      "https://vuldb.com/?id.240365"
+    ],
     "CVE-2023-52240": [
       "https://kantega-sso.atlassian.net/wiki/spaces/KSE/pages/1226473473/Security+Vulnerability+HTML+injection+Cross-site+scripting+in+SAML+POST+binding+Kantega+SSO+Enterprise"
     ],
@@ -19358,6 +19361,9 @@
     ],
     "CVE-2023-5325": [
       "https://wpscan.com/vulnerability/e93841ef-e113-41d3-9fa1-b21af85bd812"
+    ],
+    "CVE-2023-5326": [
+      "https://vuldb.com/?id.241027"
     ],
     "CVE-2023-5340": [
       "https://wpscan.com/vulnerability/91a5847a-62e7-4b98-a554-5eecb6a06e5b"
@@ -19745,6 +19751,9 @@
     ],
     "CVE-2023-5826": [
       "https://vuldb.com/?id.243716"
+    ],
+    "CVE-2023-5829": [
+      "https://vuldb.com/?id.243728"
     ],
     "CVE-2023-5832": [
       "https://huntr.com/bounties/afee3726-571f-416e-bba5-0828c815f5df"
