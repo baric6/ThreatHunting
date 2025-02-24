@@ -37652,6 +37652,9 @@
     "CVE-2024-5515": [
       "https://vuldb.com/?submit.345714"
     ],
+    "CVE-2024-55159": [
+      "https://github.com/SuperDu1/CVE/issues/1"
+    ],
     "CVE-2024-5516": [
       "https://github.com/ppp-src/ha/issues/3"
     ],
@@ -37720,6 +37723,12 @@
     ],
     "CVE-2024-55456": [
       "https://github.com/sammycage/lunasvg/issues/199"
+    ],
+    "CVE-2024-55457": [
+      "https://github.com/h13nh04ng/CVE-2024-55457-PoC"
+    ],
+    "CVE-2024-55460": [
+      "https://github.com/Ap0k4L1p5/CVE-research/tree/master/CVE-2024-55460"
     ],
     "CVE-2024-55496": [
       "https://github.com/wpc1122/CVE/issues/1"
