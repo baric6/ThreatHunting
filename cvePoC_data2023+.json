@@ -22796,6 +22796,9 @@
     "CVE-2024-12302": [
       "https://wpscan.com/vulnerability/ed860dac-8c4a-482f-8826-31f1a894b6ce/"
     ],
+    "CVE-2024-12308": [
+      "https://wpscan.com/vulnerability/fa82ada7-357b-4f01-a0d6-ff633b188a80/"
+    ],
     "CVE-2024-1231": [
       "https://wpscan.com/vulnerability/7d3968d9-61ed-4c00-8764-0360cf03255e/"
     ],
@@ -23474,6 +23477,9 @@
     "CVE-2024-13603": [
       "https://wpscan.com/vulnerability/234a8d22-e6c6-4819-9ac0-434a96b3462d/"
     ],
+    "CVE-2024-13605": [
+      "https://wpscan.com/vulnerability/d5543b3b-1c28-481b-aba4-9a07d160e1f2/"
+    ],
     "CVE-2024-13608": [
       "https://wpscan.com/vulnerability/408e6cad-f02d-455a-9943-32da77537da1/"
     ],
@@ -23494,6 +23500,9 @@
     ],
     "CVE-2024-13726": [
       "https://wpscan.com/vulnerability/ec226d22-0c09-4e7c-86ec-b64819089b60/"
+    ],
+    "CVE-2024-13822": [
+      "https://wpscan.com/vulnerability/1f0f1553-1987-428c-9fe3-ffb3f6b0aecc/"
     ],
     "CVE-2024-13869": [
       "https://ryankozak.com/posts/cve-2024-13869/"
