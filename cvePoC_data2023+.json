@@ -38042,6 +38042,9 @@
     "CVE-2024-57025": [
       "https://github.com/tiger5671/Vulnerabilities/blob/main/TOTOLINK%20X5000R/setWiFiScheduleCfg/setWiFiScheduleCfg.md"
     ],
+    "CVE-2024-57026": [
+      "https://cosmosofcyberspace.github.io/tawk_to_cve.html"
+    ],
     "CVE-2024-57030": [
       "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-57030"
     ],
@@ -39363,7 +39366,7 @@
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/O3V2.0/formQosSet.md"
     ],
     "CVE-2024-6963": [
-      "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/O3V2.0/formexeCommand.md"
+      "https://vuldb.com/?id.272117"
     ],
     "CVE-2024-6964": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/O3V2.0/fromDhcpSetSer.md"
@@ -41629,6 +41632,9 @@
     ],
     "CVE-2024-9954": [
       "https://issues.chromium.org/issues/367755363"
+    ],
+    "CVE-2024-9956": [
+      "https://issues.chromium.org/issues/370482421"
     ],
     "CVE-2024-9958": [
       "https://issues.chromium.org/issues/40076120"
