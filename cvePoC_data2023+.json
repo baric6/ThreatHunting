@@ -21923,6 +21923,9 @@
     "CVE-2024-10518": [
       "https://wpscan.com/vulnerability/a1e5ad16-6240-4920-888a-36fbac22cc71/"
     ],
+    "CVE-2024-10545": [
+      "https://wpscan.com/vulnerability/e969e5f8-17cb-489b-988d-cae31719da36/"
+    ],
     "CVE-2024-10546": [
       "https://wiki.shikangsi.com/post/share/dfde9afc-8d64-4022-a6ca-3c1a323c5e66"
     ],
@@ -23046,7 +23049,7 @@
       "https://vuldb.com/?submit.462477"
     ],
     "CVE-2024-12846": [
-      "https://github.com/emlog/emlog/issues/307"
+      "https://vuldb.com/?submit.462614"
     ],
     "CVE-2024-12847": [
       "https://www.exploit-db.com/exploits/43055"
@@ -26457,7 +26460,7 @@
       "https://github.com/skid-nochizplz/skid-nochizplz/blob/main/TrashBin/CVE/MAGESH-K21%20%20Online-College-Event-Hall-Reservation-System/Reflected%20XSS%20-%20book_history.php.md"
     ],
     "CVE-2024-25180": [
-      "https://security.snyk.io/vuln/SNYK-JS-PDFMAKE-6347243"
+      "https://www.youtube.com/watch?v=QcOlrWUGo6o"
     ],
     "CVE-2024-2519": [
       "https://vuldb.com/?id.256956"
@@ -36324,7 +36327,7 @@
       "https://github.com/IceWhaleTech/ZimaOS/security/advisories/GHSA-hg2h-q5h6-r5c4"
     ],
     "CVE-2024-49358": [
-      "https://github.com/IceWhaleTech/ZimaOS/security/advisories/GHSA-3f6g-8r88-3mx5"
+      "https://youtu.be/BClx2u8DMfM"
     ],
     "CVE-2024-49359": [
       "https://youtu.be/IuaEH09ot9s"
@@ -37294,6 +37297,9 @@
     ],
     "CVE-2024-53476": [
       "https://github.com/simplcommerce/SimplCommerce/issues/1111"
+    ],
+    "CVE-2024-53480": [
+      "https://github.com/sbksibi/CVEs/blob/main/CVE-2024-53480.md"
     ],
     "CVE-2024-53481": [
       "https://github.com/sbksibi/CVEs/blob/main/CVE-2024-53481.md"
@@ -38756,6 +38762,9 @@
     "CVE-2024-6076": [
       "https://wpscan.com/vulnerability/8369a2d8-1780-40c3-90ff-a826b9e9afd4/"
     ],
+    "CVE-2024-6082": [
+      "https://vuldb.com/?id.268823"
+    ],
     "CVE-2024-6084": [
       "https://github.com/Laster-dev/CVE/issues/2"
     ],
@@ -38790,7 +38799,7 @@
       "https://github.com/wangyuan-ui/CVE/issues/5"
     ],
     "CVE-2024-6116": [
-      "https://github.com/wangyuan-ui/CVE/issues/6"
+      "https://vuldb.com/?id.268868"
     ],
     "CVE-2024-6127": [
       "https://vulncheck.com/advisories/empire-unauth-rce"
@@ -39295,6 +39304,9 @@
     ],
     "CVE-2024-6893": [
       "https://korelogic.com/Resources/Advisories/KL-001-2024-010.txt"
+    ],
+    "CVE-2024-6899": [
+      "https://vuldb.com/?id.271924"
     ],
     "CVE-2024-6910": [
       "https://wpscan.com/vulnerability/468373c6-7e47-489a-92c1-75025c543fd5/"
