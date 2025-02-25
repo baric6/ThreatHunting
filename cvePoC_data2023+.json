@@ -21164,6 +21164,9 @@
     "CVE-2024-0357": [
       "https://vuldb.com/?id.250124"
     ],
+    "CVE-2024-0360": [
+      "https://vuldb.com/?id.250127"
+    ],
     "CVE-2024-0361": [
       "https://vuldb.com/?id.250128"
     ],
@@ -30655,6 +30658,9 @@
     ],
     "CVE-2024-34249": [
       "https://github.com/wasm3/wasm3/issues/485"
+    ],
+    "CVE-2024-3425": [
+      "https://github.com/thisissuperann/Vul/blob/Online-Courseware/Online-Courseware-10.md"
     ],
     "CVE-2024-34250": [
       "https://github.com/bytecodealliance/wasm-micro-runtime/issues/3346"
