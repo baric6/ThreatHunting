@@ -22718,6 +22718,9 @@
     "CVE-2024-1204": [
       "https://wpscan.com/vulnerability/03191b00-0b05-42db-9ce2-fc525981b6c9/"
     ],
+    "CVE-2024-12053": [
+      "https://issues.chromium.org/issues/379009132"
+    ],
     "CVE-2024-12096": [
       "https://wpscan.com/vulnerability/aff431fa-d984-40de-8a15-21f18db97859/"
     ],
@@ -26494,6 +26497,9 @@
     ],
     "CVE-2024-25126": [
       "https://github.com/rack/rack/security/advisories/GHSA-22f2-v57c-j9cx"
+    ],
+    "CVE-2024-25140": [
+      "https://serverfault.com/questions/837994"
     ],
     "CVE-2024-2515": [
       "https://github.com/skid-nochizplz/skid-nochizplz/blob/main/TrashBin/CVE/MAGESH-K21%20%20Online-College-Event-Hall-Reservation-System/Reflected%20XSS%20-%20home.php.md"
@@ -35458,6 +35464,9 @@
     ],
     "CVE-2024-46213": [
       "https://github.com/Purposex7/Vulns4Study/blob/main/REDAXO%20Cronjobs%20%20AddOns%20RCE.md"
+    ],
+    "CVE-2024-46226": [
+      "https://www.exploit-db.com/exploits/52068"
     ],
     "CVE-2024-46239": [
       "https://github.com/anoncoder01/PHP_Gurukul_Hospital_Management_System_XSS/blob/master/vulnerabilities/XSS3.md"
