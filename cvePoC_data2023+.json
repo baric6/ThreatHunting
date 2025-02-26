@@ -6789,6 +6789,9 @@
     "CVE-2023-27350": [
       "https://news.sophos.com/en-us/2023/04/27/increased-exploitation-of-papercut-drawing-blood-around-the-internet/"
     ],
+    "CVE-2023-27357": [
+      "https://kb.netgear.com/000065619/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2022-0348"
+    ],
     "CVE-2023-27363": [
       "https://www.foxit.com/support/security-bulletins.html"
     ],
@@ -6800,6 +6803,18 @@
     ],
     "CVE-2023-27366": [
       "https://www.foxit.com/support/security-bulletins.html"
+    ],
+    "CVE-2023-27367": [
+      "https://kb.netgear.com/000065619/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2022-0348"
+    ],
+    "CVE-2023-27368": [
+      "https://kb.netgear.com/000065619/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2022-0348"
+    ],
+    "CVE-2023-27369": [
+      "https://kb.netgear.com/000065619/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2022-0348"
+    ],
+    "CVE-2023-27370": [
+      "https://kb.netgear.com/000065619/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2022-0348"
     ],
     "CVE-2023-27372": [
       "http://packetstormsecurity.com/files/173044/SPIP-4.2.1-Remote-Code-Execution.html"
@@ -21722,6 +21737,9 @@
     "CVE-2024-10151": [
       "https://wpscan.com/vulnerability/487facf7-8880-48b3-b1b2-0d09823d3c46/"
     ],
+    "CVE-2024-10152": [
+      "https://wpscan.com/vulnerability/b4d17da2-4c47-4fd1-a6bd-6692b07cf710/"
+    ],
     "CVE-2024-1016": [
       "https://vuldb.com/?id.252286"
     ],
@@ -21890,6 +21908,9 @@
     "CVE-2024-10482": [
       "https://wpscan.com/vulnerability/46cbd4bb-b6f3-49e8-8d79-8c378c617e7c/"
     ],
+    "CVE-2024-10483": [
+      "https://wpscan.com/vulnerability/c7e3c473-09b2-473b-87d7-0a01d8f52086/"
+    ],
     "CVE-2024-10487": [
       "https://issues.chromium.org/issues/375123371"
     ],
@@ -21949,6 +21970,9 @@
     ],
     "CVE-2024-10562": [
       "https://wpscan.com/vulnerability/317f6cb7-774f-4381-a855-858c051aa1d5/"
+    ],
+    "CVE-2024-10563": [
+      "https://wpscan.com/vulnerability/08ed69f6-9c9b-4548-9dbb-05b602530ef7/"
     ],
     "CVE-2024-10568": [
       "https://wpscan.com/vulnerability/1676aef0-be5d-4335-933d-dc0d54416fd4/"
@@ -22985,6 +23009,9 @@
     "CVE-2024-12736": [
       "https://wpscan.com/vulnerability/d3c6a4c1-8358-4f8b-b58d-3f712052668f/"
     ],
+    "CVE-2024-12737": [
+      "https://wpscan.com/vulnerability/997eb9f6-80e1-4bc5-be72-bd6a6f52379c/"
+    ],
     "CVE-2024-1274": [
       "https://wpscan.com/vulnerability/91dba45b-9930-4bfb-a7bf-903c46864e9f/"
     ],
@@ -23065,6 +23092,9 @@
     ],
     "CVE-2024-12872": [
       "https://wpscan.com/vulnerability/a8a706c6-7f0f-4148-9f6f-40c0ca95dd9a/"
+    ],
+    "CVE-2024-12878": [
+      "https://wpscan.com/vulnerability/827444d1-87cb-4057-827a-d802eac82cf8/"
     ],
     "CVE-2024-12883": [
       "https://github.com/su-co/cve/blob/main/xss-su-co.md"
@@ -23333,6 +23363,9 @@
     "CVE-2024-13112": [
       "https://wpscan.com/vulnerability/155df231-30ef-47bb-aa91-a7deb1779bd1/"
     ],
+    "CVE-2024-13113": [
+      "https://wpscan.com/vulnerability/ffc31d9d-d245-4c4b-992d-394a01798117/"
+    ],
     "CVE-2024-13114": [
       "https://wpscan.com/vulnerability/0cecda12-590a-42a6-b10b-e0efe7fb3a3a/"
     ],
@@ -23486,6 +23519,9 @@
     "CVE-2024-13570": [
       "https://wpscan.com/vulnerability/26019036-f7e4-4ef5-85d4-7d5fda18823e/"
     ],
+    "CVE-2024-13571": [
+      "https://wpscan.com/vulnerability/ad6ad44d-fdc3-494c-a371-5d7959d1fd23/"
+    ],
     "CVE-2024-13585": [
       "https://wpscan.com/vulnerability/270f213a-2fde-471c-ad09-2b44d11891ec/"
     ],
@@ -23498,6 +23534,9 @@
     "CVE-2024-13608": [
       "https://wpscan.com/vulnerability/408e6cad-f02d-455a-9943-32da77537da1/"
     ],
+    "CVE-2024-13624": [
+      "https://wpscan.com/vulnerability/c19b56cc-634f-420f-b6a0-9a10ad159049/"
+    ],
     "CVE-2024-13625": [
       "https://wpscan.com/vulnerability/6bfabf1d-86f2-4d29-bc55-d618d757dcc6/"
     ],
@@ -23506,6 +23545,33 @@
     ],
     "CVE-2024-13627": [
       "https://wpscan.com/vulnerability/f7e425a1-ae49-4ea6-abe4-42ba2713af8f/"
+    ],
+    "CVE-2024-13628": [
+      "https://wpscan.com/vulnerability/34d6c8a2-e70d-485c-a217-4a569c16b079/"
+    ],
+    "CVE-2024-13629": [
+      "https://wpscan.com/vulnerability/5ffb548c-14f1-499d-8bbf-6ecc632cbb8c/"
+    ],
+    "CVE-2024-13630": [
+      "https://wpscan.com/vulnerability/15eed487-01ac-4c1e-88f8-26cfa036fb54/"
+    ],
+    "CVE-2024-13631": [
+      "https://wpscan.com/vulnerability/c991fdd0-cb9d-43ea-bafa-df3b2e806013/"
+    ],
+    "CVE-2024-13632": [
+      "https://wpscan.com/vulnerability/85c5b465-afce-4c68-b5e3-214ec4b5c9f2/"
+    ],
+    "CVE-2024-13633": [
+      "https://wpscan.com/vulnerability/4291d5eb-c006-42b0-accf-90f09f26b6a0/"
+    ],
+    "CVE-2024-13634": [
+      "https://wpscan.com/vulnerability/0e60bf74-19fb-441c-85a8-005def36af9a/"
+    ],
+    "CVE-2024-13669": [
+      "https://wpscan.com/vulnerability/71e69cf2-7d41-479c-9721-662b57571c90/"
+    ],
+    "CVE-2024-13678": [
+      "https://wpscan.com/vulnerability/ba759796-a152-4f13-a474-f0368b4bc1f6/"
     ],
     "CVE-2024-13722": [
       "https://korelogic.com/Resources/Advisories/KL-001-2025-001.txt"
