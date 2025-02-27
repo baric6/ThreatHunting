@@ -21845,6 +21845,9 @@
     "CVE-2024-10370": [
       "https://github.com/ppp-src/CVE/issues/19"
     ],
+    "CVE-2024-10371": [
+      "https://github.com/CveSecLook/cve/issues/63"
+    ],
     "CVE-2024-10395": [
       "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-hfww-j92m-x8fv"
     ],
@@ -21964,6 +21967,9 @@
     ],
     "CVE-2024-10557": [
       "https://github.com/bevennyamande/bloodbank_profile_update_csrf"
+    ],
+    "CVE-2024-10559": [
+      "https://github.com/CveSecLook/cve/issues/64"
     ],
     "CVE-2024-10561": [
       "https://github.com/ppp-src/CVE/issues/29"
@@ -28028,6 +28034,9 @@
     "CVE-2024-2811": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/AC15/V1.0%20V15.03.20_multi/formWifiWpsStart.md"
     ],
+    "CVE-2024-28114": [
+      "https://stackoverflow.com/questions/73939573/how-to-sanitise-string-of-python-code-with-python"
+    ],
     "CVE-2024-28116": [
       "https://github.com/getgrav/grav/security/advisories/GHSA-c9gp-64c4-2rrh"
     ],
@@ -29480,6 +29489,9 @@
     "CVE-2024-31005": [
       "https://github.com/axiomatic-systems/Bento4/issues/941"
     ],
+    "CVE-2024-31007": [
+      "https://github.com/kirito999/IrfanViewBug"
+    ],
     "CVE-2024-31008": [
       "https://github.com/majic-banana/vulnerability/blob/main/POC/WUZHICMS4.1.0-Captcha%20bypass%20(logic%20vulnerability).md"
     ],
@@ -29750,6 +29762,9 @@
     "CVE-2024-31819": [
       "https://github.com/Chocapikk/CVE-2024-31819"
     ],
+    "CVE-2024-31835": [
+      "https://github.com/paragbagul111/CVE-2024-31835"
+    ],
     "CVE-2024-31839": [
       "https://blog.chebuya.com/posts/remote-code-execution-on-chaos-rat-via-spoofed-agents/"
     ],
@@ -29791,6 +29806,9 @@
     ],
     "CVE-2024-3188": [
       "https://wpscan.com/vulnerability/bc273e75-7faf-4eaf-8ebd-efc5d6e9261f/"
+    ],
+    "CVE-2024-31973": [
+      "https://github.com/actuator/cve/blob/main/Hitron/CVE-2024-31973"
     ],
     "CVE-2024-31982": [
       "https://www.vicarius.io/vsociety/posts/xwiki-rce-cve-2024-31982"
@@ -34370,6 +34388,9 @@
     "CVE-2024-42640": [
       "https://www.zyenra.com/blog/unauthenticated-rce-in-angular-base64-upload.html"
     ],
+    "CVE-2024-42671": [
+      "https://github.com/abbisQQ/Appointment-Scheduler-Host-Header-Poisoning-Open-Redirect/blob/main/README.md"
+    ],
     "CVE-2024-4268": [
       "https://www.wordfence.com/threat-intel/vulnerabilities/id/00b60b53-77bf-4640-bf2b-84e011014623?source=cve"
     ],
@@ -34447,6 +34468,9 @@
     ],
     "CVE-2024-4289": [
       "https://wpscan.com/vulnerability/072785de-0ce5-42a4-a3fd-4eb1d1a2f1be/"
+    ],
+    "CVE-2024-42898": [
+      "https://github.com/simalamuel/Research/tree/main/CVE-2024-42898"
     ],
     "CVE-2024-4290": [
       "https://wpscan.com/vulnerability/a9a10d0f-d8f2-4f3e-92bf-94fc08416d87/"
@@ -35450,6 +35474,12 @@
     "CVE-2024-46083": [
       "https://blog.hawktesters.com/zero-day-alert-scriptcase-vulnerabilities-xss/"
     ],
+    "CVE-2024-46085": [
+      "https://github.com/RainingSEC/cms/tree/main/11/readme.md"
+    ],
+    "CVE-2024-46086": [
+      "https://github.com/PG2Stom/cms/tree/main/12/readme.md"
+    ],
     "CVE-2024-46097": [
       "https://github.com/Alkatraz97/CVEs/blob/main/CVE-2024-46097.md"
     ],
@@ -35462,11 +35492,17 @@
     "CVE-2024-4621": [
       "https://wpscan.com/vulnerability/33a366d9-6c81-4957-a101-768487aae735/"
     ],
+    "CVE-2024-46212": [
+      "https://github.com/Purposex7/Vulns4Study/blob/main/REDAXO%20File%20Download%20Exploit.md"
+    ],
     "CVE-2024-46213": [
       "https://github.com/Purposex7/Vulns4Study/blob/main/REDAXO%20Cronjobs%20%20AddOns%20RCE.md"
     ],
     "CVE-2024-46226": [
       "https://www.exploit-db.com/exploits/52068"
+    ],
+    "CVE-2024-46238": [
+      "https://github.com/anoncoder01/PHP_Gurukul_Hospital_Management_System_XSS/blob/master/vulnerabilities/XSS2.md"
     ],
     "CVE-2024-46239": [
       "https://github.com/anoncoder01/PHP_Gurukul_Hospital_Management_System_XSS/blob/master/vulnerabilities/XSS3.md"
@@ -35594,6 +35630,9 @@
     "CVE-2024-46471": [
       "https://github.com/JonMoriSenpai/CVE-WriteUps/blob/main/CodeAstro%20-%20MembershipM-PHP/CVE-2024-46471/writeup.md"
     ],
+    "CVE-2024-46472": [
+      "https://github.com/JonMoriSenpai/CVE-WriteUps/blob/main/CodeAstro%20-%20MembershipM-PHP/CVE-2024-46472/writeup.md"
+    ],
     "CVE-2024-46475": [
       "https://blog.csdn.net/qq_45744104/article/details/141903463"
     ],
@@ -35710,6 +35749,9 @@
     ],
     "CVE-2024-4699": [
       "https://github.com/I-Schnee-I/cev/blob/main/D-LINK-DAR-8000-10_rce_importhtml.md"
+    ],
+    "CVE-2024-46997": [
+      "https://github.com/dataease/dataease/security/advisories/GHSA-h7mj-m72h-qm8w"
     ],
     "CVE-2024-4704": [
       "https://wpscan.com/vulnerability/8bdcdb5a-9026-4157-8592-345df8fb1a17/"
@@ -37175,6 +37217,12 @@
     "CVE-2024-5217": [
       "https://www.darkreading.com/cloud-security/patchnow-servicenow-critical-rce-bugs-active-exploit"
     ],
+    "CVE-2024-52271": [
+      "https://github.com/documenso/documenso/issues/1512"
+    ],
+    "CVE-2024-52293": [
+      "https://github.com/craftcms/cms/security/advisories/GHSA-f3cw-hg6r-chfv"
+    ],
     "CVE-2024-52333": [
       "https://git.dcmtk.org/?p=dcmtk.git;a=commit;h=03e851b0586d05057c3268988e180ffb426b2e03"
     ],
@@ -37187,11 +37235,20 @@
     "CVE-2024-5236": [
       "https://vuldb.com/?id.265987"
     ],
+    "CVE-2024-52522": [
+      "https://github.com/rclone/rclone/security/advisories/GHSA-hrxh-9w67-g4cv"
+    ],
+    "CVE-2024-52526": [
+      "https://github.com/librenms/librenms/security/advisories/GHSA-8fh4-942r-jf2g"
+    ],
     "CVE-2024-5257": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/463149"
     ],
     "CVE-2024-52602": [
       "https://learn.snyk.io/lesson/ssrf-server-side-request-forgery"
+    ],
+    "CVE-2024-52702": [
+      "https://github.com/mybb/mybb/issues/4859"
     ],
     "CVE-2024-52726": [
       "https://github.com/sec-Kode/cve3/blob/main/cve3.md"
@@ -37214,8 +37271,20 @@
     "CVE-2024-5276": [
       "https://www.tenable.com/security/research/tra-2024-25"
     ],
+    "CVE-2024-52762": [
+      "https://github.com/ganglia/ganglia-web/issues/382"
+    ],
+    "CVE-2024-52763": [
+      "https://github.com/ganglia/ganglia-web/issues/382"
+    ],
     "CVE-2024-52765": [
       "http://tjr181.com/2024/11/08/H3C%20GR-1800AX/"
+    ],
+    "CVE-2024-52792": [
+      "https://github.com/LDAPAccountManager/lam/security/advisories/GHSA-6cp9-j5r7-xhcc"
+    ],
+    "CVE-2024-52793": [
+      "https://github.com/denoland/std/security/advisories/GHSA-32fx-h446-h8pf"
     ],
     "CVE-2024-5280": [
       "https://wpscan.com/vulnerability/bbc214ba-4e97-4b3a-a21b-2931a9e36973/"
@@ -37273,6 +37342,9 @@
     ],
     "CVE-2024-52918": [
       "https://bitcoincore.org/en/2024/07/03/disclose-bip70-crash/"
+    ],
+    "CVE-2024-52940": [
+      "https://github.com/ebrasha/abdal-anydesk-remote-ip-detector"
     ],
     "CVE-2024-52949": [
       "https://www.gruppotim.it/it/footer/red-team.html"
@@ -41272,6 +41344,9 @@
     ],
     "CVE-2024-9087": [
       "https://github.com/ppp-src/a/issues/19"
+    ],
+    "CVE-2024-9088": [
+      "https://github.com/CveSecLook/cve/issues/61"
     ],
     "CVE-2024-9091": [
       "https://github.com/ppp-src/a/issues/21"
