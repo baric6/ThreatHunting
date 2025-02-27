@@ -30053,6 +30053,9 @@
     "CVE-2024-32467": [
       "https://github.com/metersphere/metersphere/security/advisories/GHSA-7499-q88f-mxqp"
     ],
+    "CVE-2024-32468": [
+      "https://github.com/denoland/deno/security/advisories/GHSA-qqwr-j9mm-fhw6"
+    ],
     "CVE-2024-3247": [
       "https://forum.xpdfreader.com/viewtopic.php?t=43597"
     ],
@@ -30437,8 +30440,14 @@
     "CVE-2024-3346": [
       "https://github.com/Yu1e/vuls/blob/main/Byzro%20Networks%20Smart%20S80%20management%20platform%20has%20rce%20vulnerability.md"
     ],
+    "CVE-2024-33469": [
+      "https://github.com/blackbeard666/security-research/tree/main/CVE-2024-33469"
+    ],
     "CVE-2024-33485": [
       "https://github.com/CveSecLook/cve/issues/17"
+    ],
+    "CVE-2024-33504": [
+      "https://github.com/orangecertcc/security-research/security/advisories/GHSA-pgc3-m5p5-4vc3"
     ],
     "CVE-2024-33525": [
       "https://insinuator.net/2024/05/security-advisory-achieving-php-code-execution-in-ilias-elearning-lms-before-v7-30-v8-11-v9-1/"
