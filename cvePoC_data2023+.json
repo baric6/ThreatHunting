@@ -33344,6 +33344,9 @@
     "CVE-2024-40630": [
       "https://github.com/AcademySoftwareFoundation/OpenImageIO/security/advisories/GHSA-jjm9-9m4m-c8p2"
     ],
+    "CVE-2024-40631": [
+      "https://stackoverflow.com/a/43467144"
+    ],
     "CVE-2024-40632": [
       "https://github.com/linkerd/linkerd2/security/advisories/GHSA-6v94-gj6x-jqj7"
     ],
@@ -35453,6 +35456,9 @@
     "CVE-2024-46044": [
       "https://github.com/BenJpopo/V/blob/main/Tenda/CH22/fromqossetting.md"
     ],
+    "CVE-2024-46045": [
+      "https://github.com/BenJpopo/V/blob/main/Tenda/CH22/frmL7PlotForm.md"
+    ],
     "CVE-2024-46046": [
       "https://github.com/BenJpopo/V/blob/main/Tenda/FH451/RouteStatic.md"
     ],
@@ -35510,6 +35516,12 @@
     "CVE-2024-46226": [
       "https://www.exploit-db.com/exploits/52068"
     ],
+    "CVE-2024-46236": [
+      "https://github.com/anoncoder01/PHP_CodeAstro_Stored_XSS/blob/master/vulnerabilities/XSS_1.md"
+    ],
+    "CVE-2024-46237": [
+      "https://github.com/anoncoder01/PHP_Gurukul_Hospital_Management_System_XSS/blob/master/vulnerabilities/XSS1.md"
+    ],
     "CVE-2024-46238": [
       "https://github.com/anoncoder01/PHP_Gurukul_Hospital_Management_System_XSS/blob/master/vulnerabilities/XSS2.md"
     ],
@@ -35518,6 +35530,9 @@
     ],
     "CVE-2024-46240": [
       "https://github.com/anoncoder01/Collabtive_StoredXSS/blob/master/vulnerabilities/XSS1.md"
+    ],
+    "CVE-2024-46241": [
+      "https://github.com/npemma2/PHP_DairyFarm_XSS"
     ],
     "CVE-2024-46242": [
       "https://gist.github.com/salvatore-abello/4f01f3fa54672febc0a492a11a26592c"
@@ -35553,7 +35568,7 @@
       "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r65280-cp_stored-cute_png-543c2/vulDescription.md"
     ],
     "CVE-2024-46276": [
-      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r4-cp_chunk-cute_png-956c7/poc/sample7.png"
+      "https://github.com/Helson-S/FuzzyTesting/blob/master/cute_headers/cute_png/heapof-r4-cp_chunk-cute_png-956c7/vulDescription.md"
     ],
     "CVE-2024-46278": [
       "https://github.com/ayato-shitomi/teedy_1.11_account-takeover"
@@ -35704,6 +35719,9 @@
     ],
     "CVE-2024-46625": [
       "https://github.com/EchoSl0w/Research/blob/main/2024/CVE-2024-46625.md"
+    ],
+    "CVE-2024-46626": [
+      "https://github.com/d0ub1edd/CVE-Reference/blob/main/CVE-2024-46626.md"
     ],
     "CVE-2024-46628": [
       "https://github.com/Question-h/vuln/blob/master/Remote%20Code%20Execution%20Vulnerability%20in%20Tenda%20G3%20Router.md"
@@ -38255,6 +38273,9 @@
     "CVE-2024-57036": [
       "https://github.com/luckysmallbird/Totolink-A810R-Vulnerability-1/blob/main/3.md"
     ],
+    "CVE-2024-57045": [
+      "https://github.com/Shuanunio/CVE_Requests/blob/main/D-Link/DIR-859/ACL%20bypass%20Vulnerability%20in%20D-Link%20DIR-859.md"
+    ],
     "CVE-2024-57046": [
       "https://github.com/Shuanunio/CVE_Requests/blob/main/Netgear/DGN2200/ACL%20bypass%20Vulnerability%20in%20Netgear%20DGN2200.md"
     ],
@@ -38299,6 +38320,9 @@
     ],
     "CVE-2024-57084": [
       "https://gist.github.com/tariqhawis/3dbeb208c3e22f90a601818ccd06a948"
+    ],
+    "CVE-2024-57097": [
+      "https://github.com/ClassCMS/ClassCMS/issues/5"
     ],
     "CVE-2024-57098": [
       "https://github.com/deep-project/moss/issues/13"
@@ -38372,11 +38396,20 @@
     "CVE-2024-57386": [
       "https://github.com/PawaritSanguanpang/CVEs/tree/main/Wallos/CVE-2024-57386"
     ],
+    "CVE-2024-57423": [
+      "https://github.com/harshad-alt/CVE/blob/main/CVE-2024-57423.md"
+    ],
     "CVE-2024-57426": [
       "https://github.com/iamsinghmanish/My-CVEs/tree/main/CVE-2024-57426"
     ],
     "CVE-2024-57428": [
       "https://github.com/ahrixia/CVE-2024-57428"
+    ],
+    "CVE-2024-57429": [
+      "https://github.com/ahrixia/CVE-2024-57429"
+    ],
+    "CVE-2024-57430": [
+      "https://github.com/ahrixia/CVE-2024-57430"
     ],
     "CVE-2024-5744": [
       "https://wpscan.com/vulnerability/ba50e25c-7250-4025-a72f-74f8eb756246/"
@@ -38398,6 +38431,9 @@
     ],
     "CVE-2024-57488": [
       "https://github.com/aaryan-11-x/CVE-2024-57487-and-CVE-2024-57488"
+    ],
+    "CVE-2024-57498": [
+      "https://github.com/saysky/ForestBlog/issues/102"
     ],
     "CVE-2024-57514": [
       "https://www.zyenra.com/blog/xss-in-tplink-archer-a20.html"
@@ -38479,6 +38515,9 @@
     ],
     "CVE-2024-57605": [
       "https://hkohi.ca/vulnerability/3"
+    ],
+    "CVE-2024-57606": [
+      "https://github.com/jeecgboot/JeecgBoot/issues/7665"
     ],
     "CVE-2024-57611": [
       "https://github.com/daodaoshao/Yunpeng-Yin/tree/main/7/readme.md"
@@ -38710,6 +38749,9 @@
     ],
     "CVE-2024-5775": [
       "https://github.com/CveSecLook/cve/issues/44"
+    ],
+    "CVE-2024-57782": [
+      "https://github.com/tzzhang123456/test123/issues/2"
     ],
     "CVE-2024-57811": [
       "https://github.com/google/security-research/security/advisories/GHSA-xf7j-4x67-6h93"
