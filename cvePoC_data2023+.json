@@ -31694,6 +31694,9 @@
     "CVE-2024-3596": [
       "https://www.blastradius.fail/"
     ],
+    "CVE-2024-35973": [
+      "https://git.kernel.org/stable/c/d8a6213d70accb403b82924a1c229e733433a5ef"
+    ],
     "CVE-2024-35978": [
       "https://git.kernel.org/stable/c/45d355a926ab40f3ae7bc0b0a00cb0e3e8a5a810"
     ],
@@ -35054,6 +35057,9 @@
     "CVE-2024-4495": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/i/i21/formWifiMacFilterGet.md"
     ],
+    "CVE-2024-44953": [
+      "https://git.kernel.org/stable/c/3911af778f208e5f49d43ce739332b91e26bc48e"
+    ],
     "CVE-2024-4496": [
       "https://github.com/abcdefg-png/IoT-vulnerable/blob/main/Tenda/i/i21/formWifiMacFilterSet.md"
     ],
@@ -37382,6 +37388,12 @@
     "CVE-2024-5310": [
       "https://gitee.com/heyewei/JFinalcms/issues/I8VHM2"
     ],
+    "CVE-2024-53150": [
+      "https://git.kernel.org/stable/c/45a92cbc88e4013bfed7fd2ccab3ade45f8e896b"
+    ],
+    "CVE-2024-53171": [
+      "https://git.kernel.org/stable/c/4d9807048b851d7a58d5bd089c16254af896e4df"
+    ],
     "CVE-2024-5318": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/427526"
     ],
@@ -37444,6 +37456,9 @@
     ],
     "CVE-2024-53376": [
       "https://thottysploity.github.io/posts/cve-2024-53376"
+    ],
+    "CVE-2024-53408": [
+      "https://cosmosofcyberspace.github.io/ave-system-cve.html"
     ],
     "CVE-2024-53426": [
       "https://github.com/ntop/ntopng/issues/8793"
