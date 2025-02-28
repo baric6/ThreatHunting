@@ -23249,6 +23249,9 @@
     "CVE-2024-13008": [
       "https://github.com/Lanxiy7th/lx_CVE_report-/issues/18"
     ],
+    "CVE-2024-13013": [
+      "https://vuldb.com/?id.289704"
+    ],
     "CVE-2024-13021": [
       "https://github.com/shaturo1337/POCs/blob/main/Stored%20XSS%20Vulnerability%20in%20Road%20Accident%20Map%20Marker.md"
     ],
@@ -27412,6 +27415,9 @@
     ],
     "CVE-2024-26817": [
       "https://git.kernel.org/stable/c/e6768c6737f4c02cba193a3339f0cc2907f0b86a"
+    ],
+    "CVE-2024-26840": [
+      "https://git.kernel.org/stable/c/43eccc5823732ba6daab2511ed32dfc545a666d8"
     ],
     "CVE-2024-2686": [
       "https://vuldb.com/?id.257386"
