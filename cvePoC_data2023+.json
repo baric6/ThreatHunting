@@ -9708,6 +9708,9 @@
     "CVE-2023-31922": [
       "https://github.com/bellard/quickjs/issues/178"
     ],
+    "CVE-2023-31923": [
+      "https://nobugescapes.com/blog/creating-a-new-user-with-admin-privilege/"
+    ],
     "CVE-2023-31940": [
       "https://github.com/DiliLearngent/BugReport/blob/main/php/Online-Travel-Agency-System/bug7-SQL-Injection-page_id.md"
     ],
@@ -35594,6 +35597,9 @@
     "CVE-2024-46300": [
       "https://portswigger.net/web-security/cross-site-scripting/stored"
     ],
+    "CVE-2024-46307": [
+      "http://sparkshop.com"
+    ],
     "CVE-2024-46310": [
       "https://github.com/PRX5Y/CVE-2024-46310"
     ],
@@ -36128,8 +36134,14 @@
     "CVE-2024-4809": [
       "https://github.com/CveSecLook/cve/issues/26"
     ],
+    "CVE-2024-48091": [
+      "https://gist.github.com/singhmanpreet493/0f1df7fa4e744a3317877ab85d187937#file-gistfile1-txt"
+    ],
     "CVE-2024-48093": [
       "https://youtu.be/rCYIohrQdxM"
+    ],
+    "CVE-2024-48112": [
+      "https://github.com/nn0nkey/nn0nkey/blob/main/Thinkphp/CVE-2024-48112.md"
     ],
     "CVE-2024-48119": [
       "https://okankurtulus.com.tr/2024/09/12/vtiger-crm-v8-2-0-html-injection-authenticated/"
@@ -36139,6 +36151,9 @@
     ],
     "CVE-2024-48139": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-48139"
+    ],
+    "CVE-2024-48140": [
+      "https://github.com/soursec/CVEs/tree/main/CVE-2024-48140"
     ],
     "CVE-2024-48141": [
       "https://github.com/soursec/CVEs/tree/main/CVE-2024-48141"
@@ -36167,6 +36182,9 @@
     "CVE-2024-4819": [
       "https://vuldb.com/?id.263940"
     ],
+    "CVE-2024-48191": [
+      "https://github.com/xiaoyin0226/cms/tree/main/5/readme.md"
+    ],
     "CVE-2024-4820": [
       "https://github.com/jxm68868/cve/blob/main/upload.md"
     ],
@@ -36175,6 +36193,9 @@
     ],
     "CVE-2024-48206": [
       "https://rumbling-slice-eb0.notion.site/chainer-s-chainermn-has-MPI-Deserialization-vulnerability-in-chainer-chainer-c6a004feb53a447e8fb440968d73d6fd?pvs=4"
+    ],
+    "CVE-2024-48208": [
+      "https://github.com/jedisct1/pure-ftpd/pull/176"
     ],
     "CVE-2024-48217": [
       "https://github.com/ajrielrm/CVE-2024-48217"
@@ -36193,6 +36214,12 @@
     ],
     "CVE-2024-48230": [
       "https://github.com/funadmin/funadmin/issues/30"
+    ],
+    "CVE-2024-48231": [
+      "https://github.com/funadmin/funadmin/issues/29"
+    ],
+    "CVE-2024-48232": [
+      "https://github.com/sansanyun/mipjz/issues/17"
     ],
     "CVE-2024-48233": [
       "https://github.com/sansanyun/mipjz/issues/16"
@@ -36219,7 +36246,7 @@
       "https://github.com/GroundCTL2MajorTom/pocs/blob/main/Cisco_Linksys_E3000_rce.md"
     ],
     "CVE-2024-48288": [
-      "https://github.com/GroundCTL2MajorTom/pocs/blob/main/Cisco_Linksys_E3000_rce.md"
+      "https://github.com/GroundCTL2MajorTom/pocs/blob/main/TP-Link_TL-IPC42C_RCE.md"
     ],
     "CVE-2024-48291": [
       "https://github.com/Gxxxxxxxxxxxxxxxxxx/cms/tree/main/4/readme.md"
@@ -36239,11 +36266,17 @@
     "CVE-2024-48322": [
       "https://github.com/runcodes-icmc/server/issues/12"
     ],
+    "CVE-2024-48325": [
+      "https://github.com/osvaldotenorio/cve-2024-48325"
+    ],
     "CVE-2024-48336": [
       "https://github.com/canyie/MagiskEoP"
     ],
     "CVE-2024-4835": [
       "https://gitlab.com/gitlab-org/gitlab/-/issues/461328"
+    ],
+    "CVE-2024-48359": [
+      "https://github.com/OpenXP-Research/CVE-2024-48359"
     ],
     "CVE-2024-48360": [
       "https://github.com/OpenXP-Research/CVE-2024-48360"
@@ -36254,14 +36287,29 @@
     "CVE-2024-48396": [
       "https://jacobmasse.medium.com/reflected-xss-in-popular-ai-chatbot-application-79de74ea0cc8"
     ],
+    "CVE-2024-48416": [
+      "https://github.com/SpikeReply/advisories/blob/c271ddb997bc0263274118acc380bc71ce9c316b/cve/edimax/cve-2024-48416.md"
+    ],
     "CVE-2024-48417": [
       "https://github.com/SpikeReply/advisories/blob/c271ddb997bc0263274118acc380bc71ce9c316b/cve/edimax/cve-2024-48417.md"
+    ],
+    "CVE-2024-48418": [
+      "https://github.com/SpikeReply/advisories/blob/c271ddb997bc0263274118acc380bc71ce9c316b/cve/edimax/cve-2024-48418.md"
+    ],
+    "CVE-2024-48419": [
+      "https://github.com/SpikeReply/advisories/blob/c271ddb997bc0263274118acc380bc71ce9c316b/cve/edimax/cve-2024-48419.md"
+    ],
+    "CVE-2024-48420": [
+      "https://github.com/SpikeReply/advisories/blob/c271ddb997bc0263274118acc380bc71ce9c316b/cve/edimax/cve-2024-48420.md"
     ],
     "CVE-2024-48423": [
       "https://github.com/assimp/assimp/issues/5788"
     ],
     "CVE-2024-48425": [
       "https://github.com/assimp/assimp/issues/5791"
+    ],
+    "CVE-2024-48426": [
+      "https://github.com/assimp/assimp/issues/5789"
     ],
     "CVE-2024-48440": [
       "https://medium.com/@sengkyaut/unauthenticated-factory-mode-reset-and-at-command-injection-in-jboneos-or-jbonecloud-firmware-1dec156b7ddd"
@@ -36272,8 +36320,14 @@
     "CVE-2024-48442": [
       "https://medium.com/@sengkyaut/unauthenticated-factory-mode-reset-and-at-command-injection-in-jboneos-or-jbonecloud-firmware-1dec156b7ddd"
     ],
+    "CVE-2024-48448": [
+      "https://github.com/b-hermes/vulnerability-research/tree/main/CVE-2024-48448"
+    ],
     "CVE-2024-48450": [
       "https://github.com/b-hermes/vulnerability-research/tree/main/CVE-2024-48450"
+    ],
+    "CVE-2024-48459": [
+      "https://gist.github.com/Swind1er/da24125da98f6616a50a35a3e60141f4"
     ],
     "CVE-2024-48463": [
       "https://gist.github.com/opcod3r/ab69f36d52367df7ffac32a597dff31c"
@@ -36307,6 +36361,12 @@
     ],
     "CVE-2024-48581": [
       "https://github.com/baineoli/CVE/blob/main/2024/courier%20management%20system%20-%20Unrestricted%20File%20Upload%20to%20RCE%20(Sign%20Up).md"
+    ],
+    "CVE-2024-48589": [
+      "https://github.com/Exek1el/CVE-2024-48589"
+    ],
+    "CVE-2024-48594": [
+      "https://github.com/Aa1b/mycve/blob/main/Readme.md"
     ],
     "CVE-2024-4860": [
       "https://www.tenable.com/security/research/tra-2024-16"
@@ -36362,6 +36422,12 @@
     "CVE-2024-48655": [
       "https://medium.com/@0x0d0x0a/cve-2024-48655-server-side-javascript-code-injection-in-total-js-cms-c5fc18359bdc"
     ],
+    "CVE-2024-48659": [
+      "https://gist.github.com/CLan-nad/a879f7696a58656b384c46bf4ba74e80"
+    ],
+    "CVE-2024-48694": [
+      "https://github.com/xuetang1125/OfficeWeb365/blob/main/OfficeWeb365%20SaveDraw%20%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%20(2).md"
+    ],
     "CVE-2024-48706": [
       "https://github.com/anoncoder01/Collabtive_StoredXSS/blob/master/vulnerabilities/XSS2.md"
     ],
@@ -36374,11 +36440,17 @@
     "CVE-2024-48709": [
       "https://github.com/anoncoder01/PHP_CodeAstro_Stored_XSS/blob/master/vulnerabilities/XSS_2.md"
     ],
+    "CVE-2024-48758": [
+      "https://github.com/Yllxx03/CVE/blob/main/CVE-2024-48758/CVE-2024-48758.md"
+    ],
     "CVE-2024-4879": [
       "https://www.darkreading.com/cloud-security/patchnow-servicenow-critical-rce-bugs-active-exploit"
     ],
     "CVE-2024-48809": [
       "https://gist.github.com/bergen876/5a21f78e266c12aa2586beb2178443b0"
+    ],
+    "CVE-2024-48825": [
+      "https://github.com/ixout/iotVuls/blob/main/Tenda/ac7_005/report.md"
     ],
     "CVE-2024-48826": [
       "https://github.com/ixout/iotVuls/blob/main/Tenda/ac7_006/report.md"
@@ -36392,8 +36464,17 @@
     "CVE-2024-48914": [
       "https://github.com/vendure-ecommerce/vendure/security/advisories/GHSA-r9mq-3c9r-fmjq"
     ],
+    "CVE-2024-48917": [
+      "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-7cc9-j4mv-vcjp"
+    ],
     "CVE-2024-48921": [
       "https://github.com/kyverno/kyverno/security/advisories/GHSA-qjvc-p88j-j9rm"
+    ],
+    "CVE-2024-48930": [
+      "https://github.com/cryptocoinjs/secp256k1-node/security/advisories/GHSA-584q-6j8j-r5pm"
+    ],
+    "CVE-2024-48932": [
+      "https://github.com/IceWhaleTech/ZimaOS/security/advisories/GHSA-9mrr-px2c-w42c"
     ],
     "CVE-2024-48941": [
       "https://syracom-bee.atlassian.net/wiki/spaces/SL/pages/3236560898/2024-09-16+-+Secure+Login+security+advisory+-+Insecure+default+configuration"
@@ -36402,7 +36483,7 @@
       "https://syracom-bee.atlassian.net/wiki/spaces/SL/pages/3236560898/2024-09-16+-+Secure+Login+security+advisory+-+Insecure+default+configuration"
     ],
     "CVE-2024-48948": [
-      "https://github.com/indutny/elliptic/issues/321"
+      "https://github.com/indutny/elliptic/pull/322"
     ],
     "CVE-2024-48956": [
       "https://security.serviceware-se.com/CVE-2024-48956/"
