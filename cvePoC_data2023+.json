@@ -30224,6 +30224,9 @@
     "CVE-2024-32964": [
       "https://github.com/lobehub/lobe-chat/security/advisories/GHSA-mxhq-xw3g-rphc"
     ],
+    "CVE-2024-32965": [
+      "https://github.com/lobehub/lobe-chat/security/advisories/GHSA-2xcc-vm3f-m8rw"
+    ],
     "CVE-2024-32966": [
       "https://github.com/static-web-server/static-web-server/security/advisories/GHSA-rwfq-v4hq-h7fg"
     ],
@@ -36323,6 +36326,9 @@
     "CVE-2024-48423": [
       "https://github.com/assimp/assimp/issues/5788"
     ],
+    "CVE-2024-48424": [
+      "https://github.com/assimp/assimp/issues/5787"
+    ],
     "CVE-2024-48425": [
       "https://github.com/assimp/assimp/issues/5791"
     ],
@@ -36349,6 +36355,9 @@
     ],
     "CVE-2024-48463": [
       "https://gist.github.com/opcod3r/ab69f36d52367df7ffac32a597dff31c"
+    ],
+    "CVE-2024-48465": [
+      "https://github.com/4459gif/zo/blob/main/index.html"
     ],
     "CVE-2024-48514": [
       "https://github.com/marcoris/CVEs/tree/master/CVE-2024-48514"
@@ -36395,6 +36404,9 @@
     "CVE-2024-48622": [
       "https://github.com/domainmod/domainmod/issues/174"
     ],
+    "CVE-2024-48623": [
+      "https://github.com/domainmod/domainmod/issues/176"
+    ],
     "CVE-2024-48624": [
       "https://github.com/domainmod/domainmod/issues/175"
     ],
@@ -36427,6 +36439,9 @@
     ],
     "CVE-2024-48638": [
       "https://www.dlink.com/en/security-bulletin/"
+    ],
+    "CVE-2024-48644": [
+      "https://github.com/rosembergpro/CVE-2024-48644"
     ],
     "CVE-2024-48646": [
       "https://github.com/hx381/Sage-1000-v7.0.0-Exploit/blob/main/README.md"
@@ -36490,6 +36505,9 @@
     ],
     "CVE-2024-48930": [
       "https://github.com/cryptocoinjs/secp256k1-node/security/advisories/GHSA-584q-6j8j-r5pm"
+    ],
+    "CVE-2024-48931": [
+      "https://github.com/IceWhaleTech/ZimaOS/security/advisories/GHSA-hjw2-9gq5-qgwj"
     ],
     "CVE-2024-48932": [
       "https://github.com/IceWhaleTech/ZimaOS/security/advisories/GHSA-9mrr-px2c-w42c"
