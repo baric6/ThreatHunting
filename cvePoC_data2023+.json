@@ -29375,6 +29375,9 @@
     "CVE-2024-30851": [
       "https://github.com/chebuya/CVE-2024-30851-jasmin-ransomware-path-traversal-poc"
     ],
+    "CVE-2024-3086": [
+      "https://vuldb.com/?id.258679"
+    ],
     "CVE-2024-30862": [
       "https://github.com/hundanchen69/cve/blob/main/NS-ASG-sql-index.md"
     ],
@@ -35930,6 +35933,9 @@
     "CVE-2024-4738": [
       "https://github.com/yylmm/CVE/blob/main/Legal%20Case%20Management%20System/xss_admin_appointment.md"
     ],
+    "CVE-2024-47408": [
+      "https://git.kernel.org/stable/c/a36364d8d4fabb105001f992fb8ff2d3546203d6"
+    ],
     "CVE-2024-4749": [
       "https://wpscan.com/vulnerability/6cc05a33-6592-4d35-8e66-9b6a9884df7e/"
     ],
@@ -36781,6 +36787,9 @@
     ],
     "CVE-2024-49863": [
       "https://git.kernel.org/stable/c/ace9c778a214da9c98d7b69d904d1b0816f4f681"
+    ],
+    "CVE-2024-50001": [
+      "https://git.kernel.org/stable/c/fc357e78176945ca7bcacf92ab794b9ccd41b4f4"
     ],
     "CVE-2024-5002": [
       "https://wpscan.com/vulnerability/da09b99a-fa40-428f-80b4-0af764fd2f4f/"
