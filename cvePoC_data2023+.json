@@ -4446,6 +4446,12 @@
     "CVE-2023-2366": [
       "https://vuldb.com/?id.227642"
     ],
+    "CVE-2023-23693": [
+      "https://www.dell.com/support/kbdoc/en-us/000213011/dsa-2023-071-dell-vxrail-security-update-for-multiple-third-party-component-vulnerabilities-7-0-450"
+    ],
+    "CVE-2023-23694": [
+      "https://www.dell.com/support/kbdoc/en-us/000213011/dsa-2023-071-dell-vxrail-security-update-for-multiple-third-party-component-vulnerabilities-7-0-450"
+    ],
     "CVE-2023-2370": [
       "https://vuldb.com/?id.227646"
     ],
@@ -9914,6 +9920,9 @@
     ],
     "CVE-2023-3245": [
       "https://wpscan.com/vulnerability/f9f8ae7e-6621-4e29-9257-b8306dbe8811"
+    ],
+    "CVE-2023-32464": [
+      "https://www.dell.com/support/kbdoc/en-us/000213011/dsa-2023-071-dell-vxrail-security-update-for-multiple-third-party-component-vulnerabilities-7-0-450"
     ],
     "CVE-2023-3247": [
       "https://github.com/php/php-src/security/advisories/GHSA-76gg-c692-v2mw"
@@ -38219,6 +38228,9 @@
     "CVE-2024-56082": [
       "https://github.com/andrewnguonly/Lumos/issues/193"
     ],
+    "CVE-2024-56113": [
+      "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2024-56113"
+    ],
     "CVE-2024-56114": [
       "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2024-56114"
     ],
@@ -38230,6 +38242,9 @@
     ],
     "CVE-2024-56139": [
       "https://github.com/leonhad/pdftools/security/advisories/GHSA-hgvf-4pf3-fwc9"
+    ],
+    "CVE-2024-56144": [
+      "https://github.com/librenms/librenms/security/advisories/GHSA-2f4w-6mc7-4w78"
     ],
     "CVE-2024-56159": [
       "https://github.com/withastro/astro/security/advisories/GHSA-49w6-73cw-chjr"
@@ -38276,6 +38291,9 @@
     "CVE-2024-56366": [
       "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-c6fv-7vh8-2rhr"
     ],
+    "CVE-2024-56376": [
+      "https://github.com/ping-oui-no/Vulnerability-Research-CVESS/blob/main/RedCap/CVE-2024-56376/README.md"
+    ],
     "CVE-2024-56377": [
       "https://github.com/ping-oui-no/Vulnerability-Research-CVESS/blob/main/RedCap/CVE-2024-56377/README.md"
     ],
@@ -38312,6 +38330,9 @@
     "CVE-2024-56517": [
       "https://github.com/tltneon/lgsl/security/advisories/GHSA-ggwq-xc72-33r3"
     ],
+    "CVE-2024-56529": [
+      "https://github.com/mailcow/mailcow-dockerized/security/advisories/GHSA-23c8-4wwr-g3c6"
+    ],
     "CVE-2024-5656": [
       "https://wpscan.com/vulnerability/adc6ea6d-29d8-4ad0-b0db-2540e8b3f9a9/"
     ],
@@ -38345,8 +38366,26 @@
     "CVE-2024-56883": [
       "https://cves.at/posts/cve-cve-2024-56883/writeup/"
     ],
+    "CVE-2024-56889": [
+      "https://github.com/vigneshr232/CVE-2024-56889/blob/main/CVE-2024-56889.md"
+    ],
+    "CVE-2024-56898": [
+      "https://github.com/DRAGOWN/CVE-2024-56898"
+    ],
+    "CVE-2024-56901": [
+      "https://github.com/DRAGOWN/CVE-2024-56901"
+    ],
+    "CVE-2024-56902": [
+      "https://github.com/DRAGOWN/CVE-2024-56902"
+    ],
+    "CVE-2024-56903": [
+      "https://github.com/DRAGOWN/CVE-2024-56903"
+    ],
     "CVE-2024-56924": [
       "https://github.com/ipratheep/CVE-2024-56924"
+    ],
+    "CVE-2024-56973": [
+      "https://gist.github.com/VAMorales/1092a29ac7d0b4b80d5c853b9a22a65d"
     ],
     "CVE-2024-57000": [
       "https://github.com/honysyang/Ray.git"
