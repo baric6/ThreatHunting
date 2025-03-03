@@ -11901,6 +11901,9 @@
     "CVE-2023-36816": [
       "https://github.com/Bubka/2FAuth/security/advisories/GHSA-cwhq-2mcq-pp9q"
     ],
+    "CVE-2023-3682": [
+      "https://vuldb.com/?id.234228"
+    ],
     "CVE-2023-36820": [
       "https://github.com/micronaut-projects/micronaut-security/security/advisories/GHSA-qw22-8w9r-864h"
     ],
@@ -14267,6 +14270,12 @@
     ],
     "CVE-2023-4126": [
       "https://huntr.dev/bounties/7f50bf1c-bcb9-46ca-8cec-211493d280c5"
+    ],
+    "CVE-2023-41265": [
+      "https://community.qlik.com/t5/Release-Notes/tkb-p/ReleaseNotes"
+    ],
+    "CVE-2023-41266": [
+      "https://community.qlik.com/t5/Release-Notes/tkb-p/ReleaseNotes"
     ],
     "CVE-2023-4127": [
       "https://huntr.dev/bounties/cf7d19e3-1318-4c77-8366-d8d04a0b41ba"
