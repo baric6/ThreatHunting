@@ -19338,6 +19338,9 @@
     "CVE-2023-5265": [
       "https://github.com/YaGaoT/cve/blob/main/sql.md"
     ],
+    "CVE-2023-52664": [
+      "https://git.kernel.org/stable/c/b3cb7a830a24527877b0bc900b9bd74a96aea928"
+    ],
     "CVE-2023-5267": [
       "https://github.com/kpz-wm/cve/blob/main/sql.md"
     ],
@@ -27445,6 +27448,9 @@
     ],
     "CVE-2024-2697": [
       "https://wpscan.com/vulnerability/c430b30d-61db-45f5-8499-91b491503b9c/"
+    ],
+    "CVE-2024-26974": [
+      "https://git.kernel.org/stable/c/7d42e097607c4d246d99225bf2b195b6167a210c"
     ],
     "CVE-2024-26979": [
       "https://git.kernel.org/stable/c/ff41e0d4f3fa10d7cdd7d40f8026bea9fcc8b000"
