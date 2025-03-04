@@ -23618,6 +23618,9 @@
     "CVE-2024-13678": [
       "https://wpscan.com/vulnerability/ba759796-a152-4f13-a474-f0368b4bc1f6/"
     ],
+    "CVE-2024-13685": [
+      "https://wpscan.com/vulnerability/72c61904-253d-42d1-9edd-7ea2162a2f85/"
+    ],
     "CVE-2024-13722": [
       "https://korelogic.com/Resources/Advisories/KL-001-2025-001.txt"
     ],
@@ -36289,6 +36292,9 @@
     ],
     "CVE-2024-48238": [
       "https://github.com/taosir/wtcms/issues/14"
+    ],
+    "CVE-2024-48248": [
+      "https://labs.watchtowr.com/the-best-security-is-when-we-all-agree-to-keep-everything-secret-except-the-secrets-nakivo-backup-replication-cve-2024-48248/"
     ],
     "CVE-2024-48270": [
       "https://github.com/majic-banana/vulnerability/blob/main/POC/Verification%20Code%20Reuse--misstt123oasys.md"
