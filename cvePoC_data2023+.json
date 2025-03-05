@@ -19335,6 +19335,9 @@
     "CVE-2023-5245": [
       "https://research.jfrog.com/vulnerabilities/mleap-path-traversal-rce-xray-532656/"
     ],
+    "CVE-2023-52504": [
+      "https://git.kernel.org/stable/c/d35652a5fc9944784f6f50a5c979518ff8dacf61"
+    ],
     "CVE-2023-52555": [
       "https://github.com/mongo-express/mongo-express/issues/1338"
     ],
@@ -27446,6 +27449,9 @@
     "CVE-2024-2676": [
       "https://vuldb.com/?id.257376"
     ],
+    "CVE-2024-26773": [
+      "https://git.kernel.org/stable/c/260fc96283c0f594de18a1b045faf6d8fb42874d"
+    ],
     "CVE-2024-26798": [
       "https://git.kernel.org/stable/c/a2c881413dcc5d801bdc9535e51270cc88cb9cd8"
     ],
@@ -28207,6 +28213,9 @@
     ],
     "CVE-2024-28255": [
       "https://github.com/open-metadata/OpenMetadata/security/advisories/GHSA-6wx7-qw5p-wh84"
+    ],
+    "CVE-2024-28265": [
+      "https://github.com/A7cc/cve/issues/1"
     ],
     "CVE-2024-28275": [
       "https://paste.sr.ht/~edaigle/0b4a037fbd3166c8c72fee18efaa7decaf75b0ab"
@@ -38063,6 +38072,9 @@
     "CVE-2024-5516": [
       "https://github.com/ppp-src/ha/issues/3"
     ],
+    "CVE-2024-55160": [
+      "https://github.com/SuperDu1/CVE/issues/2"
+    ],
     "CVE-2024-5517": [
       "https://github.com/ppp-src/ha/issues/4"
     ],
@@ -38377,6 +38389,9 @@
     ],
     "CVE-2024-5658": [
       "https://github.com/sbaresearch/advisories/tree/public/2024/SBA-ADV-20240202-02_CraftCMS_Plugin_Two-Factor_Authentication_TOTP_Valid_After_Use"
+    ],
+    "CVE-2024-56705": [
+      "https://git.kernel.org/stable/c/0c25ab93f2878cab07d37ca5afd302283201e5af"
     ],
     "CVE-2024-5672": [
       "http://seclists.org/fulldisclosure/2024/Jul/6"
