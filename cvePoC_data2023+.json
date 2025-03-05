@@ -16632,6 +16632,9 @@
     "CVE-2023-46685": [
       "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1871"
     ],
+    "CVE-2023-46694": [
+      "https://github.com/invisiblebyte/CVE-2023-46694"
+    ],
     "CVE-2023-46722": [
       "https://github.com/pimcore/admin-ui-classic-bundle/security/advisories/GHSA-jfxw-6c5v-c42f"
     ],
@@ -19343,6 +19346,9 @@
     ],
     "CVE-2023-5259": [
       "https://github.com/RCEraser/cve/blob/main/ForU-CMS.md"
+    ],
+    "CVE-2023-52603": [
+      "https://git.kernel.org/stable/c/6e2902ecc77e9760a9fc447f56d598383e2372d2"
     ],
     "CVE-2023-5261": [
       "https://github.com/csbsong/bug_report/blob/main/sql2.md"
