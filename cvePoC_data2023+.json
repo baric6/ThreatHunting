@@ -19344,6 +19344,9 @@
     "CVE-2023-52555": [
       "https://github.com/mongo-express/mongo-express/issues/1338"
     ],
+    "CVE-2023-52588": [
+      "https://git.kernel.org/stable/c/7c972c89457511007dfc933814c06786905e515c"
+    ],
     "CVE-2023-5259": [
       "https://github.com/RCEraser/cve/blob/main/ForU-CMS.md"
     ],
@@ -27449,6 +27452,9 @@
     "CVE-2024-26577": [
       "https://github.com/guusec/VSeeDoS"
     ],
+    "CVE-2024-26593": [
+      "https://git.kernel.org/stable/c/491528935c9c48bf341d8b40eabc6c4fc5df6f2c"
+    ],
     "CVE-2024-26633": [
       "https://git.kernel.org/stable/c/da23bd709b46168f7dfc36055801011222b076cd"
     ],
@@ -27460,6 +27466,9 @@
     ],
     "CVE-2024-26798": [
       "https://git.kernel.org/stable/c/a2c881413dcc5d801bdc9535e51270cc88cb9cd8"
+    ],
+    "CVE-2024-26801": [
+      "https://git.kernel.org/stable/c/98fb98fd37e42fd4ce13ff657ea64503e24b6090"
     ],
     "CVE-2024-26817": [
       "https://git.kernel.org/stable/c/e6768c6737f4c02cba193a3339f0cc2907f0b86a"
@@ -31732,6 +31741,9 @@
     ],
     "CVE-2024-3567": [
       "https://gitlab.com/qemu-project/qemu/-/issues/2273"
+    ],
+    "CVE-2024-35793": [
+      "https://git.kernel.org/stable/c/e88b5ae01901c4a655a53158397746334778a57b"
     ],
     "CVE-2024-3580": [
       "https://wpscan.com/vulnerability/31f401c4-735a-4efb-b81f-ab98c00c526b/"
@@ -36862,6 +36874,9 @@
     ],
     "CVE-2024-5011": [
       "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1934"
+    ],
+    "CVE-2024-50153": [
+      "https://git.kernel.org/stable/c/39e02fa90323243187c91bb3e8f2f5f6a9aacfc7"
     ],
     "CVE-2024-5017": [
       "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1932"
