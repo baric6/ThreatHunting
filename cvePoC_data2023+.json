@@ -19368,6 +19368,9 @@
     "CVE-2023-5267": [
       "https://github.com/kpz-wm/cve/blob/main/sql.md"
     ],
+    "CVE-2023-52699": [
+      "https://git.kernel.org/stable/c/13b33feb2ebddc2b1aa607f553566b18a4af1d76"
+    ],
     "CVE-2023-52813": [
       "https://git.kernel.org/stable/c/e97bf4ada7dddacd184c3e196bd063b0dc71b41d"
     ],
@@ -23647,6 +23650,9 @@
     ],
     "CVE-2024-13822": [
       "https://wpscan.com/vulnerability/1f0f1553-1987-428c-9fe3-ffb3f6b0aecc/"
+    ],
+    "CVE-2024-13868": [
+      "https://wpscan.com/vulnerability/0bff1645-dd53-4416-a90f-7cf4a6b33c1a/"
     ],
     "CVE-2024-13869": [
       "https://ryankozak.com/posts/cve-2024-13869/"
@@ -36884,6 +36890,9 @@
     "CVE-2024-5011": [
       "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1934"
     ],
+    "CVE-2024-50114": [
+      "https://git.kernel.org/stable/c/ae8f8b37610269009326f4318df161206c59843e"
+    ],
     "CVE-2024-50153": [
       "https://git.kernel.org/stable/c/39e02fa90323243187c91bb3e8f2f5f6a9aacfc7"
     ],
@@ -38474,6 +38483,9 @@
     "CVE-2024-56924": [
       "https://github.com/ipratheep/CVE-2024-56924"
     ],
+    "CVE-2024-5693": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1891319"
+    ],
     "CVE-2024-56973": [
       "https://gist.github.com/VAMorales/1092a29ac7d0b4b80d5c853b9a22a65d"
     ],
@@ -39584,11 +39596,20 @@
     "CVE-2024-6586": [
       "https://github.com/google/security-research/security/advisories/GHSA-4h7x-6vxh-7hjf"
     ],
+    "CVE-2024-6600": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1888340"
+    ],
     "CVE-2024-6602": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1895032"
     ],
     "CVE-2024-6607": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1694513"
+    ],
+    "CVE-2024-6611": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1844827"
+    ],
+    "CVE-2024-6612": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1880374"
     ],
     "CVE-2024-6617": [
       "https://wpscan.com/vulnerability/9c5efe3c-95a8-4647-86c0-20aa7dd92b66/"
