@@ -38480,6 +38480,9 @@
     "CVE-2024-5691": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1888695"
     ],
+    "CVE-2024-5692": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1891234"
+    ],
     "CVE-2024-56924": [
       "https://github.com/ipratheep/CVE-2024-56924"
     ],
