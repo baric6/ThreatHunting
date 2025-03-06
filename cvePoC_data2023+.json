@@ -19368,6 +19368,9 @@
     "CVE-2023-5267": [
       "https://github.com/kpz-wm/cve/blob/main/sql.md"
     ],
+    "CVE-2023-52813": [
+      "https://git.kernel.org/stable/c/e97bf4ada7dddacd184c3e196bd063b0dc71b41d"
+    ],
     "CVE-2023-5284": [
       "https://vuldb.com/?id.240912"
     ],
@@ -32183,6 +32186,9 @@
     "CVE-2024-3695": [
       "https://vuldb.com/?id.260482"
     ],
+    "CVE-2024-36978": [
+      "https://git.kernel.org/stable/c/52b1aa07cda6a199cd6754d3798c7759023bc70f"
+    ],
     "CVE-2024-36983": [
       "https://research.splunk.com/application/1cf58ae1-9177-40b8-a26c-8966040f11ae/"
     ],
@@ -35861,6 +35867,9 @@
     "CVE-2024-46654": [
       "https://github.com/magicblack/maccms10/issues/1183"
     ],
+    "CVE-2024-46829": [
+      "https://git.kernel.org/stable/c/6a976e9a47e8e5b326de671811561cab12e6fb1f"
+    ],
     "CVE-2024-46946": [
       "https://gist.github.com/12end/68c0c58d2564ef4141bccd4651480820#file-cve-2024-46946-txt"
     ],
@@ -37187,6 +37196,9 @@
     "CVE-2024-51142": [
       "https://infosecwriteups.com/chamilo-lms-authentication-bypass-and-cross-site-scripting-stored-3fcb874ac7c1"
     ],
+    "CVE-2024-51144": [
+      "https://nitipoom-jar.github.io/CVE-2024-51144/"
+    ],
     "CVE-2024-5115": [
       "https://vuldb.com/?id.265105"
     ],
@@ -38441,6 +38453,9 @@
     "CVE-2024-56889": [
       "https://github.com/vigneshr232/CVE-2024-56889/blob/main/CVE-2024-56889.md"
     ],
+    "CVE-2024-5689": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1389707"
+    ],
     "CVE-2024-56898": [
       "https://github.com/DRAGOWN/CVE-2024-56898"
     ],
@@ -38452,6 +38467,9 @@
     ],
     "CVE-2024-56903": [
       "https://github.com/DRAGOWN/CVE-2024-56903"
+    ],
+    "CVE-2024-5691": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1888695"
     ],
     "CVE-2024-56924": [
       "https://github.com/ipratheep/CVE-2024-56924"
@@ -39565,6 +39583,12 @@
     ],
     "CVE-2024-6586": [
       "https://github.com/google/security-research/security/advisories/GHSA-4h7x-6vxh-7hjf"
+    ],
+    "CVE-2024-6602": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1895032"
+    ],
+    "CVE-2024-6607": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1694513"
     ],
     "CVE-2024-6617": [
       "https://wpscan.com/vulnerability/9c5efe3c-95a8-4647-86c0-20aa7dd92b66/"
