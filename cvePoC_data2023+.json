@@ -38615,6 +38615,9 @@
     "CVE-2024-57049": [
       "https://github.com/Shuanunio/CVE_Requests/blob/main/TP-Link/archer%20c20/ACL%20bypass%20Vulnerability%20in%20TP-Link%20archer%20c20.md"
     ],
+    "CVE-2024-57050": [
+      "https://github.com/Shuanunio/CVE_Requests/blob/main/TP-Link/WR840N%20v6/ACL%20bypass%20Vulnerability%20in%20TP-Link%20TL-WR840N.md"
+    ],
     "CVE-2024-57063": [
       "https://gist.github.com/tariqhawis/dcb93b4788273c3ffb15f70dc45ca4e7"
     ],
@@ -38624,11 +38627,17 @@
     "CVE-2024-57065": [
       "https://gist.github.com/tariqhawis/7b2c50ccdec39a030091e48a4ccde688"
     ],
+    "CVE-2024-57066": [
+      "https://gist.github.com/tariqhawis/8ee7327cc8b78df738cd32505cbbbd44"
+    ],
     "CVE-2024-57067": [
       "https://gist.github.com/tariqhawis/07dca101d8fe059dd11b3b0e1b4a6d46"
     ],
     "CVE-2024-57068": [
       "https://gist.github.com/tariqhawis/47fe5b1e584e9e573c0933588248d533"
+    ],
+    "CVE-2024-57069": [
+      "https://gist.github.com/tariqhawis/68e06b00e3258d0d427257c6906bd300"
     ],
     "CVE-2024-57071": [
       "https://gist.github.com/tariqhawis/b56500d3a8866467ee769df7453eedaa"
@@ -38650,6 +38659,9 @@
     ],
     "CVE-2024-57078": [
       "https://gist.github.com/tariqhawis/b58d7274d67e7b9fed4bd51368388a23"
+    ],
+    "CVE-2024-57079": [
+      "https://gist.github.com/tariqhawis/4778fc57084766b7b7fb6d25d20b7b9b"
     ],
     "CVE-2024-57081": [
       "https://gist.github.com/tariqhawis/4b2c7273054f0d70ef162aa5b6daec01"
@@ -38698,6 +38710,9 @@
     ],
     "CVE-2024-57238": [
       "https://prolink2u.com/products/dl-7203e-b"
+    ],
+    "CVE-2024-57240": [
+      "https://gist.github.com/devom3/43c328e23ec854090ed555a13541ca94"
     ],
     "CVE-2024-57241": [
       "https://github.com/woshidaheike/dedecms-url-redirection"
@@ -38816,6 +38831,9 @@
     "CVE-2024-57540": [
       "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/2/2.md"
     ],
+    "CVE-2024-57541": [
+      "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/9/9.md"
+    ],
     "CVE-2024-57542": [
       "https://github.com/Wood1314/Linksys_E8450_vul/blob/main/4/4.md"
     ],
@@ -38875,6 +38893,12 @@
     ],
     "CVE-2024-57608": [
       "https://github.com/Zkplo/AppVulHub/blob/main/mark.via.Shell/CWE-94.md"
+    ],
+    "CVE-2024-57609": [
+      "https://github.com/nca785/CVE-2024-57609/"
+    ],
+    "CVE-2024-57610": [
+      "https://github.com/nca785/CVE-2024-57610"
     ],
     "CVE-2024-57611": [
       "https://github.com/daodaoshao/Yunpeng-Yin/tree/main/7/readme.md"
@@ -39033,7 +39057,7 @@
       "https://github.com/openlink/virtuoso-opensource/issues/1211"
     ],
     "CVE-2024-57669": [
-      "https://github.com/94fzb/zrlog/issues/193"
+      "https://github.com/HypeDuke/vulnerable-research/blob/main/CVE-2024-57669"
     ],
     "CVE-2024-5767": [
       "https://wpscan.com/vulnerability/e4ba26b4-5f4f-4c9e-aa37-885b30ef8088/"
