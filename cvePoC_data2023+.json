@@ -1488,6 +1488,9 @@
     "CVE-2023-1070": [
       "https://huntr.dev/bounties/318bfdc4-7782-4979-956f-9ba2cc44889c"
     ],
+    "CVE-2023-1078": [
+      "https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=f753a68980cf4b59a80fe677619da2b1804f526d"
+    ],
     "CVE-2023-1086": [
       "https://wpscan.com/vulnerability/e2bda716-76dc-4a26-b26a-7a2a764757b0"
     ],
@@ -23633,6 +23636,9 @@
     "CVE-2024-13634": [
       "https://wpscan.com/vulnerability/0e60bf74-19fb-441c-85a8-005def36af9a/"
     ],
+    "CVE-2024-13668": [
+      "https://wpscan.com/vulnerability/a7bfc094-b235-419d-882d-96b439651f65/"
+    ],
     "CVE-2024-13669": [
       "https://wpscan.com/vulnerability/71e69cf2-7d41-479c-9721-662b57571c90/"
     ],
@@ -37236,7 +37242,7 @@
       "https://github.com/BurakSevben/CVEs/blob/main/Event%20Registration%20System/Event%20Registration%20System%20-%20SQL%20Injection%20-%201.md"
     ],
     "CVE-2024-5118": [
-      "https://github.com/BurakSevben/CVEs/blob/main/Event%20Registration%20System/Event%20Registration%20System%20-%20SQL%20Injection%20-%201.md"
+      "https://vuldb.com/?id.265198"
     ],
     "CVE-2024-51186": [
       "https://www.dlink.com/en/security-bulletin/"
@@ -37688,11 +37694,32 @@
     "CVE-2024-53376": [
       "https://thottysploity.github.io/posts/cve-2024-53376"
     ],
+    "CVE-2024-53382": [
+      "https://gist.github.com/jackfromeast/aeb128e44f05f95828a1a824708df660"
+    ],
+    "CVE-2024-53384": [
+      "https://gist.github.com/jackfromeast/36f98bf7542d11835c883c1d175d9b92"
+    ],
+    "CVE-2024-53386": [
+      "https://gist.github.com/jackfromeast/31d56f1ad17673aabb6ab541e65a5534"
+    ],
+    "CVE-2024-53387": [
+      "https://gist.github.com/jackfromeast/d52c506113f33b8871d0e647411df894"
+    ],
+    "CVE-2024-53388": [
+      "https://gist.github.com/jackfromeast/a61a5429a97985e7ff4c1d39e339d5d8"
+    ],
     "CVE-2024-53408": [
       "https://cosmosofcyberspace.github.io/ave-system-cve.html"
     ],
+    "CVE-2024-53425": [
+      "https://github.com/assimp/assimp/issues/5860"
+    ],
     "CVE-2024-53426": [
       "https://github.com/ntop/ntopng/issues/8793"
+    ],
+    "CVE-2024-53427": [
+      "https://github.com/jqlang/jq/issues/3196"
     ],
     "CVE-2024-53429": [
       "https://github.com/open62541/open62541/issues/6825"
@@ -37739,6 +37766,9 @@
     "CVE-2024-53505": [
       "https://github.com/siyuan-note/siyuan/issues/13059"
     ],
+    "CVE-2024-53506": [
+      "https://github.com/siyuan-note/siyuan/issues/13060"
+    ],
     "CVE-2024-53507": [
       "https://github.com/siyuan-note/siyuan/issues/13057"
     ],
@@ -37750,6 +37780,9 @@
     ],
     "CVE-2024-53522": [
       "https://www.safecloud.co.th/researches/blog/CVE-2024-53522"
+    ],
+    "CVE-2024-53526": [
+      "https://github.com/ComposioHQ/composio/issues/1073"
     ],
     "CVE-2024-5353": [
       "https://github.com/anji-plus/report/files/15363269/aj-report.pdf"
@@ -38582,6 +38615,9 @@
     "CVE-2024-57049": [
       "https://github.com/Shuanunio/CVE_Requests/blob/main/TP-Link/archer%20c20/ACL%20bypass%20Vulnerability%20in%20TP-Link%20archer%20c20.md"
     ],
+    "CVE-2024-57063": [
+      "https://gist.github.com/tariqhawis/dcb93b4788273c3ffb15f70dc45ca4e7"
+    ],
     "CVE-2024-57064": [
       "https://gist.github.com/tariqhawis/1b40dc7f3836813663c871535039760e"
     ],
@@ -38590,6 +38626,9 @@
     ],
     "CVE-2024-57067": [
       "https://gist.github.com/tariqhawis/07dca101d8fe059dd11b3b0e1b4a6d46"
+    ],
+    "CVE-2024-57068": [
+      "https://gist.github.com/tariqhawis/47fe5b1e584e9e573c0933588248d533"
     ],
     "CVE-2024-57071": [
       "https://gist.github.com/tariqhawis/b56500d3a8866467ee769df7453eedaa"
@@ -38621,6 +38660,15 @@
     "CVE-2024-57084": [
       "https://gist.github.com/tariqhawis/3dbeb208c3e22f90a601818ccd06a948"
     ],
+    "CVE-2024-57085": [
+      "https://gist.github.com/tariqhawis/f59355f62dad6f8b53b42317f143ba0c"
+    ],
+    "CVE-2024-57086": [
+      "https://gist.github.com/tariqhawis/30acc3632cf595ca5825b7ec2b2f795a"
+    ],
+    "CVE-2024-57095": [
+      "https://github.com/Xi-Yuer/GO-CMS/issues/6"
+    ],
     "CVE-2024-57097": [
       "https://github.com/ClassCMS/ClassCMS/issues/5"
     ],
@@ -38651,6 +38699,9 @@
     "CVE-2024-57238": [
       "https://prolink2u.com/products/dl-7203e-b"
     ],
+    "CVE-2024-57241": [
+      "https://github.com/woshidaheike/dedecms-url-redirection"
+    ],
     "CVE-2024-5727": [
       "https://wpscan.com/vulnerability/5f677863-2f4f-474f-ba48-f490f9d6e71c/"
     ],
@@ -38680,6 +38731,9 @@
     ],
     "CVE-2024-5734": [
       "https://github.com/kingshao0312/cve/issues/2"
+    ],
+    "CVE-2024-57357": [
+      "https://github.com/c10uds/tplink-wpa8630-rce-vulnerability"
     ],
     "CVE-2024-5737": [
       "https://github.com/sectroyer/CVEs/tree/main/CVE-2024-5737"
@@ -38818,6 +38872,9 @@
     ],
     "CVE-2024-57606": [
       "https://github.com/jeecgboot/JeecgBoot/issues/7665"
+    ],
+    "CVE-2024-57608": [
+      "https://github.com/Zkplo/AppVulHub/blob/main/mark.via.Shell/CWE-94.md"
     ],
     "CVE-2024-57611": [
       "https://github.com/daodaoshao/Yunpeng-Yin/tree/main/7/readme.md"
@@ -38975,6 +39032,9 @@
     "CVE-2024-57664": [
       "https://github.com/openlink/virtuoso-opensource/issues/1211"
     ],
+    "CVE-2024-57669": [
+      "https://github.com/94fzb/zrlog/issues/193"
+    ],
     "CVE-2024-5767": [
       "https://wpscan.com/vulnerability/e4ba26b4-5f4f-4c9e-aa37-885b30ef8088/"
     ],
@@ -39049,6 +39109,9 @@
     ],
     "CVE-2024-5775": [
       "https://github.com/CveSecLook/cve/issues/44"
+    ],
+    "CVE-2024-57778": [
+      "https://github.com/KUK3N4N/CVE-2024-57778"
     ],
     "CVE-2024-57782": [
       "https://github.com/tzzhang123456/test123/issues/2"
@@ -41872,6 +41935,9 @@
     ],
     "CVE-2024-9440": [
       "https://github.com/brianvoe/slim-select/issues/564"
+    ],
+    "CVE-2024-9458": [
+      "https://wpscan.com/vulnerability/1157d6ae-af8b-4508-97e9-b9e86f612550/"
     ],
     "CVE-2024-9464": [
       "https://www.horizon3.ai/attack-research/palo-alto-expedition-from-n-day-to-full-compromise/"
