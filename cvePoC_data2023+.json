@@ -6684,6 +6684,9 @@
     "CVE-2023-27167": [
       "https://www.linkedin.com/in/yuriy-tsarenko-a1453aa4/"
     ],
+    "CVE-2023-27170": [
+      "https://balwurk.com/cve-2023-27170-improper-limitation-of-a-pathname-to-a-restricted-directory/"
+    ],
     "CVE-2023-27179": [
       "http://packetstormsecurity.com/files/171894/GDidees-CMS-3.9.1-Local-File-Disclosure-Directory-Traversal.html"
     ],
@@ -37175,6 +37178,9 @@
     "CVE-2024-51066": [
       "https://github.com/0x1c1ph3r/CVEs/tree/main/CVE-2024-51066"
     ],
+    "CVE-2024-51091": [
+      "https://gist.github.com/jackfromeast/176413c3bd73f825f7aeeb05e80e02a6"
+    ],
     "CVE-2024-51111": [
       "https://github.com/Zehraakmanlar/Bortecine-s_CVEs/blob/main/README.md"
     ],
@@ -38468,6 +38474,9 @@
     "CVE-2024-56898": [
       "https://github.com/DRAGOWN/CVE-2024-56898"
     ],
+    "CVE-2024-5690": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1883693"
+    ],
     "CVE-2024-56901": [
       "https://github.com/DRAGOWN/CVE-2024-56901"
     ],
@@ -39604,6 +39613,12 @@
     ],
     "CVE-2024-6602": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1895032"
+    ],
+    "CVE-2024-6605": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1836786"
+    ],
+    "CVE-2024-6606": [
+      "https://bugzilla.mozilla.org/show_bug.cgi?id=1902305"
     ],
     "CVE-2024-6607": [
       "https://bugzilla.mozilla.org/show_bug.cgi?id=1694513"
