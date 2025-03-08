@@ -16263,6 +16263,9 @@
     "CVE-2023-45912": [
       "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2023-45912"
     ],
+    "CVE-2023-45925": [
+      "https://midnight-commander.org/ticket/4484"
+    ],
     "CVE-2023-4596": [
       "https://www.exploit-db.com/exploits/51664"
     ],
@@ -27497,6 +27500,9 @@
     "CVE-2024-2686": [
       "https://vuldb.com/?id.257386"
     ],
+    "CVE-2024-26862": [
+      "https://git.kernel.org/stable/c/ef7eed7e11d23337310ecc2c014ecaeea52719c5"
+    ],
     "CVE-2024-26899": [
       "https://git.kernel.org/stable/c/5a87c1f7993bc8ac358a3766bac5dc7126e01e98"
     ],
@@ -37621,6 +37627,9 @@
     ],
     "CVE-2024-52951": [
       "https://sec-consult.com/vulnerability-lab/advisory/stored-cross-site-scripting-in-omada-identity/"
+    ],
+    "CVE-2024-53093": [
+      "https://git.kernel.org/stable/c/4a57f42e5ed42cb8f1beb262c4f6d3e698939e4e"
     ],
     "CVE-2024-5310": [
       "https://gitee.com/heyewei/JFinalcms/issues/I8VHM2"
