@@ -14004,6 +14004,9 @@
     "CVE-2023-40618": [
       "https://github.com/dub-flow/vulnerability-research/tree/main/CVE-2023-40618"
     ],
+    "CVE-2023-4065": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2224630"
+    ],
     "CVE-2023-40660": [
       "https://github.com/OpenSC/OpenSC/issues/2792#issuecomment-1674806651"
     ],
@@ -14556,6 +14559,9 @@
     "CVE-2023-4193": [
       "https://github.com/Yesec/Resort-Reservation-System/blob/main/SQL%20Injection%20in%20view_fee.php/vuln.md"
     ],
+    "CVE-2023-4194": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2229498"
+    ],
     "CVE-2023-4195": [
       "https://huntr.dev/bounties/0bd5da2f-0e29-47ce-90f3-06518656bfd6"
     ],
@@ -14711,6 +14717,9 @@
     ],
     "CVE-2023-42323": [
       "https://github.com/mnbvcxz131421/douhaocms/blob/main/README.md"
+    ],
+    "CVE-2023-4235": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2255402"
     ],
     "CVE-2023-42358": [
       "https://jira.o-ran-sc.org/browse/RIC-1009"
@@ -32753,6 +32762,9 @@
     "CVE-2024-38600": [
       "https://git.kernel.org/stable/c/87988a534d8e12f2e6fc01fe63e6c1925dc5307c"
     ],
+    "CVE-2024-38661": [
+      "https://git.kernel.org/stable/c/d4f9d5a99a3fd1b1c691b7a1a6f8f3f25f4116c9"
+    ],
     "CVE-2024-3873": [
       "https://vuldb.com/?submit.312623"
     ],
@@ -37661,6 +37673,9 @@
     "CVE-2024-53257": [
       "https://github.com/vitessio/vitess/security/advisories/GHSA-7mwh-q3xm-qh6p"
     ],
+    "CVE-2024-53261": [
+      "https://github.com/sveltejs/kit/security/advisories/GHSA-rjjv-87mx-6x3h"
+    ],
     "CVE-2024-53262": [
       "https://github.com/sveltejs/kit/security/advisories/GHSA-mh2x-fcqh-fmqv"
     ],
@@ -37702,6 +37717,9 @@
     ],
     "CVE-2024-53334": [
       "https://github.com/luckysmallbird/Totolink-A810R-Vulnerability-1/blob/main/1.md"
+    ],
+    "CVE-2024-53335": [
+      "https://github.com/luckysmallbird/Totolink-A810R-Vulnerability-1/blob/main/2.md"
     ],
     "CVE-2024-53364": [
       "https://github.com/SCR-athif/CVE/tree/main/CVE-2024-53364"
@@ -37750,6 +37768,9 @@
     ],
     "CVE-2024-53442": [
       "https://1d8.github.io/cves/cve_2024_53442/"
+    ],
+    "CVE-2024-53450": [
+      "https://github.com/thanhtung4102/Unauthentication-in-Ragflow"
     ],
     "CVE-2024-53457": [
       "https://github.com/tCu0n9/Stored-XSS-LibreNMS-Display-Name.git"
@@ -37832,6 +37853,9 @@
     "CVE-2024-53605": [
       "https://cidy.notion.site/Improper-Access-Control-to-content-Provider-in-NextSMS-13cafb72d1d3807dbc2cebcb8574ccf9?pvs=74"
     ],
+    "CVE-2024-53617": [
+      "https://github.com/ii5mai1/CVE-2024-53617"
+    ],
     "CVE-2024-53619": [
       "https://grimthereaperteam.medium.com/spip-4-3-3-malicious-file-upload-xss-in-pdf-526c03bb1776"
     ],
@@ -37876,6 +37900,9 @@
     ],
     "CVE-2024-53846": [
       "https://github.com/erlang/otp/security/advisories/GHSA-qw6r-qh9v-638v"
+    ],
+    "CVE-2024-53847": [
+      "https://github.com/basecamp/trix/commit/272c7e27e722608732a67108ad3fe7870e233ac8"
     ],
     "CVE-2024-5385": [
       "https://vuldb.com/?id.266303"
