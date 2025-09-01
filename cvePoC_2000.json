@@ -1,0 +1,173 @@
+{
+  "CVE-2000-0045": [
+    "http://www.securityfocus.com/bid/926"
+  ],
+  "CVE-2000-0052": [
+    "http://www.l0pht.com/advisories/pam_advisory"
+  ],
+  "CVE-2000-0119": [
+    "http://marc.info/?l=bugtraq&m=94936267131123&w=2"
+  ],
+  "CVE-2000-0219": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10053"
+  ],
+  "CVE-2000-0267": [
+    "http://www.cisco.com/warp/public/707/catos-enable-bypass-pub.shtml"
+  ],
+  "CVE-2000-0268": [
+    "http://www.cisco.com/warp/public/707/iostelnetopt-pub.shtml"
+  ],
+  "CVE-2000-0275": [
+    "http://www.l0pht.com/advisories/cc-pinextract.txt"
+  ],
+  "CVE-2000-0342": [
+    "http://news.cnet.com/news/0-1005-200-1773077.html?tag=st.ne.fd.lthd.1005-200-1773077"
+  ],
+  "CVE-2000-0359": [
+    "http://www.securityfocus.com/bid/1248"
+  ],
+  "CVE-2000-0368": [
+    "http://www.cisco.com/warp/public/770/ioshist-pub.shtml"
+  ],
+  "CVE-2000-0380": [
+    "http://www.cisco.com/warp/public/707/ioshttpserver-pub.shtml"
+  ],
+  "CVE-2000-0384": [
+    "http://www.l0pht.com/advisories/ipivot7180.html"
+  ],
+  "CVE-2000-0405": [
+    "http://www.l0pht.com/advisories/asniff_advisory.txt"
+  ],
+  "CVE-2000-0427": [
+    "http://www.l0pht.com/advisories/etoken-piepa.txt"
+  ],
+  "CVE-2000-0428": [
+    "http://www.nai.com/nai_labs/asp_set/advisory/39_Trend.asp"
+  ],
+  "CVE-2000-0455": [
+    "http://www.nai.com/nai_labs/asp_set/advisory/41initialized.asp"
+  ],
+  "CVE-2000-0497": [
+    "http://www-4.ibm.com/software/webservers/appserv/efix.html"
+  ],
+  "CVE-2000-0500": [
+    "http://marc.info/?l=bugtraq&m=96161462915381&w=2"
+  ],
+  "CVE-2000-0538": [
+    "http://marc.info/?l=bugtraq&m=96045469627806&w=2"
+  ],
+  "CVE-2000-0613": [
+    "http://www.cisco.com/warp/public/707/pixtcpreset-pub.shtml"
+  ],
+  "CVE-2000-0622": [
+    "http://www.nai.com/research/covert/advisories/043.asp"
+  ],
+  "CVE-2000-0625": [
+    "http://www.l0pht.com/advisories/netzero.txt"
+  ],
+  "CVE-2000-0632": [
+    "http://www.nai.com/nai_labs/asp_set/advisory/43_Advisory.asp"
+  ],
+  "CVE-2000-0635": [
+    "http://www.zdnet.com/zdnn/stories/news/0,4586,2600258,00.html"
+  ],
+  "CVE-2000-0660": [
+    "http://www.altn.com/Downloads/WorldClient/Release/RelNotes.txt"
+  ],
+  "CVE-2000-0673": [
+    "http://www.nai.com/research/covert/advisories/044.asp"
+  ],
+  "CVE-2000-0700": [
+    "http://www.cisco.com/warp/public/707/gsraclbypassdos-pub.shtml"
+  ],
+  "CVE-2000-0778": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A927"
+  ],
+  "CVE-2000-0848": [
+    "http://www-4.ibm.com/software/webservers/appserv/doc/v3022/fxpklst.htm#Security"
+  ],
+  "CVE-2000-0867": [
+    "http://www.redhat.com/support/errata/RHSA-2000-061.html"
+  ],
+  "CVE-2000-0892": [
+    "http://www.kb.cert.org/vuls/id/22404"
+  ],
+  "CVE-2000-0979": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A996"
+  ],
+  "CVE-2000-0984": [
+    "http://www.cisco.com/warp/public/707/ioshttpserverquery-pub.shtml"
+  ],
+  "CVE-2000-1022": [
+    "http://www.cisco.com/warp/public/707/PIXfirewallSMTPfilter-pub.shtml"
+  ],
+  "CVE-2000-1034": [
+    "http://www.securityfocus.com/bid/1899"
+  ],
+  "CVE-2000-1038": [
+    "http://as400service.rochester.ibm.com/n_dir/nas4apar.NSF/5ec6cdc6ab42894a862568f90073c74a/9ce636030a58807186256955003d128d?OpenDocument"
+  ],
+  "CVE-2000-1049": [
+    "http://marc.info/?l=bugtraq&m=97310314724964&w=2"
+  ],
+  "CVE-2000-1050": [
+    "http://marc.info/?l=bugtraq&m=97236316510117&w=2"
+  ],
+  "CVE-2000-1053": [
+    "http://marc.info/?l=bugtraq&m=97236125107957&w=2"
+  ],
+  "CVE-2000-1054": [
+    "http://www.cisco.com/warp/public/707/csecureacsnt-pub.shtml"
+  ],
+  "CVE-2000-1055": [
+    "http://www.cisco.com/warp/public/707/csecureacsnt-pub.shtml"
+  ],
+  "CVE-2000-1056": [
+    "http://www.cisco.com/warp/public/707/csecureacsnt-pub.shtml"
+  ],
+  "CVE-2000-1079": [
+    "http://www.nai.com/research/covert/advisories/045.asp"
+  ],
+  "CVE-2000-1081": [
+    "http://marc.info/?l=bugtraq&m=97570878710037&w=2"
+  ],
+  "CVE-2000-1082": [
+    "http://marc.info/?l=bugtraq&m=97570878710037&w=2"
+  ],
+  "CVE-2000-1083": [
+    "http://marc.info/?l=bugtraq&m=97570878710037&w=2"
+  ],
+  "CVE-2000-1084": [
+    "http://marc.info/?l=bugtraq&m=97570878710037&w=2"
+  ],
+  "CVE-2000-1085": [
+    "http://marc.info/?l=bugtraq&m=97570884410184&w=2"
+  ],
+  "CVE-2000-1086": [
+    "http://marc.info/?l=bugtraq&m=97570884410184&w=2"
+  ],
+  "CVE-2000-1087": [
+    "http://marc.info/?l=bugtraq&m=97570884410184&w=2"
+  ],
+  "CVE-2000-1088": [
+    "http://marc.info/?l=bugtraq&m=97570884410184&w=2"
+  ],
+  "CVE-2000-1103": [
+    "http://www.securityfocus.com/archive/1/147120"
+  ],
+  "CVE-2000-1196": [
+    "http://packetstormsecurity.org/0004-exploits/ooo1.txt"
+  ],
+  "CVE-2000-1207": [
+    "http://marc.info/?l=bugtraq&m=97034397026473&w=2"
+  ],
+  "CVE-2000-1216": [
+    "http://www.kb.cert.org/vuls/id/433499"
+  ],
+  "CVE-2000-1220": [
+    "http://www.l0pht.com/advisories/lpd_advisory"
+  ],
+  "CVE-2000-1221": [
+    "http://www.l0pht.com/advisories/lpd_advisory"
+  ]
+}
