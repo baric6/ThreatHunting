@@ -1,0 +1,6053 @@
+{
+  "CVE-2010-0003": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-0007": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9630"
+  ],
+  "CVE-2010-0008": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-0010": [
+    "http://site.pi3.com.pl/adv/mod_proxy.txt"
+  ],
+  "CVE-2010-0012": [
+    "https://launchpad.net/bugs/500625"
+  ],
+  "CVE-2010-0027": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-002"
+  ],
+  "CVE-2010-0066": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0067": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0068": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0069": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0070": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0071": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0072": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0074": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0075": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0076": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0077": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0078": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0079": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0080": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2010-084891.html"
+  ],
+  "CVE-2010-0081": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0082": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0083": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0084": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0085": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0086": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0087": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0088": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0089": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0090": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0091": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9855"
+  ],
+  "CVE-2010-0092": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0093": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9877"
+  ],
+  "CVE-2010-0094": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0095": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0097": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9357"
+  ],
+  "CVE-2010-0103": [
+    "http://www.symantec.com/connect/blogs/trojan-found-usb-battery-charger-software"
+  ],
+  "CVE-2010-0105": [
+    "http://securityreason.com/achievement_securityalert/83"
+  ],
+  "CVE-2010-0128": [
+    "http://www.coresecurity.com/content/adobe-director-invalid-read"
+  ],
+  "CVE-2010-0149": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b1910c.shtml"
+  ],
+  "CVE-2010-0150": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b1910c.shtml"
+  ],
+  "CVE-2010-0151": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b1910c.shtml"
+  ],
+  "CVE-2010-0156": [
+    "https://puppet.com/security/cve/cve-2010-0156"
+  ],
+  "CVE-2010-0157": [
+    "http://packetstormsecurity.org/1001-exploits/joomlabiblestudy-lfi.txt"
+  ],
+  "CVE-2010-0158": [
+    "http://packetstormsecurity.org/1001-exploits/joomlabamboo-sql.txt"
+  ],
+  "CVE-2010-0159": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9590"
+  ],
+  "CVE-2010-0160": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=533000"
+  ],
+  "CVE-2010-0164": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=547143"
+  ],
+  "CVE-2010-0167": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9835"
+  ],
+  "CVE-2010-0174": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9502"
+  ],
+  "CVE-2010-0175": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9834"
+  ],
+  "CVE-2010-0176": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=538308"
+  ],
+  "CVE-2010-0177": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=538310"
+  ],
+  "CVE-2010-0179": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9446"
+  ],
+  "CVE-2010-0182": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9375"
+  ],
+  "CVE-2010-0183": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A12586"
+  ],
+  "CVE-2010-0184": [
+    "http://www.tibco.com/mk/advisory.jsp"
+  ],
+  "CVE-2010-0187": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=564287"
+  ],
+  "CVE-2010-0189": [
+    "http://aviv.raffon.net/2010/02/18/SkeletonsInAdobesSecurityCloset.aspx"
+  ],
+  "CVE-2010-0195": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A7420"
+  ],
+  "CVE-2010-0211": [
+    "http://www.openldap.org/its/index.cgi/Software%20Bugs?id=6570"
+  ],
+  "CVE-2010-0212": [
+    "http://www.openldap.org/its/index.cgi/Software%20Bugs?id=6570"
+  ],
+  "CVE-2010-0216": [
+    "http://securityreason.com/securityalert/8245"
+  ],
+  "CVE-2010-0217": [
+    "http://securityreason.com/securityalert/8255"
+  ],
+  "CVE-2010-0219": [
+    "http://www.exploit-db.com/exploits/15869"
+  ],
+  "CVE-2010-0220": [
+    "http://isc.sans.org/diary.html?storyid=7897"
+  ],
+  "CVE-2010-0221": [
+    "http://www.h-online.com/security/news/item/NIST-certified-USB-Flash-drives-with-hardware-encryption-cracked-895308.html"
+  ],
+  "CVE-2010-0222": [
+    "http://www.h-online.com/security/news/item/NIST-certified-USB-Flash-drives-with-hardware-encryption-cracked-895308.html"
+  ],
+  "CVE-2010-0224": [
+    "http://www.h-online.com/security/news/item/NIST-certified-USB-Flash-drives-with-hardware-encryption-cracked-895308.html"
+  ],
+  "CVE-2010-0225": [
+    "http://www.h-online.com/security/news/item/NIST-certified-USB-Flash-drives-with-hardware-encryption-cracked-895308.html"
+  ],
+  "CVE-2010-0227": [
+    "http://www.h-online.com/security/news/item/NIST-certified-USB-Flash-drives-with-hardware-encryption-cracked-895308.html"
+  ],
+  "CVE-2010-0228": [
+    "http://www.h-online.com/security/news/item/NIST-certified-USB-Flash-drives-with-hardware-encryption-cracked-895308.html"
+  ],
+  "CVE-2010-0244": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-002"
+  ],
+  "CVE-2010-0245": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-002"
+  ],
+  "CVE-2010-0246": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-002"
+  ],
+  "CVE-2010-0247": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-002"
+  ],
+  "CVE-2010-0248": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-002"
+  ],
+  "CVE-2010-0249": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-002"
+  ],
+  "CVE-2010-0252": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-034"
+  ],
+  "CVE-2010-0254": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-028"
+  ],
+  "CVE-2010-0255": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-035"
+  ],
+  "CVE-2010-0256": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-028"
+  ],
+  "CVE-2010-0266": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-045"
+  ],
+  "CVE-2010-0267": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-018"
+  ],
+  "CVE-2010-0277": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9421"
+  ],
+  "CVE-2010-0280": [
+    "http://www.coresecurity.com/content/google-sketchup-vulnerability"
+  ],
+  "CVE-2010-0287": [
+    "http://www.exploit-db.com/exploits/11141"
+  ],
+  "CVE-2010-0288": [
+    "http://www.exploit-db.com/exploits/11141"
+  ],
+  "CVE-2010-0291": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-0296": [
+    "https://seclists.org/bugtraq/2019/Jun/14"
+  ],
+  "CVE-2010-0304": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9933"
+  ],
+  "CVE-2010-0307": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-0315": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0319": [
+    "http://packetstormsecurity.org/1001-exploits/docmintcms-xss.txt"
+  ],
+  "CVE-2010-0320": [
+    "http://packetstormsecurity.org/1001-exploits/glittercentral-xss.txt"
+  ],
+  "CVE-2010-0321": [
+    "http://packetstormsecurity.org/1001-exploits/jamitjobboard-xss.txt"
+  ],
+  "CVE-2010-0365": [
+    "http://www.packetstormsecurity.com/1001-exploits/bitsvs-xssuploadrfi.txt"
+  ],
+  "CVE-2010-0366": [
+    "http://www.packetstormsecurity.com/1001-exploits/bitsvs-xssuploadrfi.txt"
+  ],
+  "CVE-2010-0367": [
+    "http://www.packetstormsecurity.com/1001-exploits/bitsvs-xssuploadrfi.txt"
+  ],
+  "CVE-2010-0370": [
+    "http://packetstormsecurity.org/1001-exploits/drupalnb-xss.txt"
+  ],
+  "CVE-2010-0371": [
+    "http://packetstormsecurity.org/1001-exploits/galleriehitmaaan-xss.txt"
+  ],
+  "CVE-2010-0372": [
+    "http://packetstormsecurity.org/1001-exploits/joomlaarticlemanager-sql.txt"
+  ],
+  "CVE-2010-0373": [
+    "http://packetstormsecurity.org/1001-exploits/joomlalibros-sql.txt"
+  ],
+  "CVE-2010-0374": [
+    "http://www.packetstormsecurity.com/1001-exploits/joomlamarketplace-xss.txt"
+  ],
+  "CVE-2010-0376": [
+    "http://packetstormsecurity.org/1001-exploits/phpcalendars-xss.txt"
+  ],
+  "CVE-2010-0377": [
+    "http://packetstormsecurity.org/1001-exploits/phpmyspace-sql.txt"
+  ],
+  "CVE-2010-0380": [
+    "http://packetstormsecurity.org/1001-exploits/phpcalendars-xss.txt"
+  ],
+  "CVE-2010-0395": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0405": [
+    "http://www.vmware.com/security/advisories/VMSA-2010-0019.html"
+  ],
+  "CVE-2010-0408": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9935"
+  ],
+  "CVE-2010-0410": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-0411": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9675"
+  ],
+  "CVE-2010-0415": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9399"
+  ],
+  "CVE-2010-0421": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9417"
+  ],
+  "CVE-2010-0423": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9842"
+  ],
+  "CVE-2010-0425": [
+    "https://www.exploit-db.com/exploits/11650"
+  ],
+  "CVE-2010-0433": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9856"
+  ],
+  "CVE-2010-0434": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2010-0436": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9999"
+  ],
+  "CVE-2010-0437": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-0440": [
+    "http://www.coresecurity.com/content/cisco-secure-desktop-xss"
+  ],
+  "CVE-2010-0442": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9720"
+  ],
+  "CVE-2010-0453": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0454": [
+    "http://packetstormsecurity.org/1001-exploits/publique-sql.txt"
+  ],
+  "CVE-2010-0455": [
+    "http://www.packetstormsecurity.com/1001-exploits/punbb13-xss.txt"
+  ],
+  "CVE-2010-0456": [
+    "http://www.exploit-db.com/exploits/11222"
+  ],
+  "CVE-2010-0457": [
+    "http://packetstormsecurity.org/1001-exploits/magicportal-sql.txt"
+  ],
+  "CVE-2010-0458": [
+    "http://packetstormsecurity.org/0512-exploits/blog12SQL.txt"
+  ],
+  "CVE-2010-0459": [
+    "http://www.exploit-db.com/exploits/11243"
+  ],
+  "CVE-2010-0460": [
+    "http://packetstormsecurity.org/1001-advisories/kayako-xss.txt"
+  ],
+  "CVE-2010-0461": [
+    "http://packetstormsecurity.org/1001-exploits/joomlacasino1-sql.txt"
+  ],
+  "CVE-2010-0467": [
+    "http://www.exploit-db.com/exploits/11277"
+  ],
+  "CVE-2010-0469": [
+    "http://packetstormsecurity.org/1001-advisories/DDIVRT-2009-27.txt"
+  ],
+  "CVE-2010-0470": [
+    "http://packetstormsecurity.org/1001-exploits/comtrend-xss.txt"
+  ],
+  "CVE-2010-0478": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-025"
+  ],
+  "CVE-2010-0480": [
+    "http://securityreason.com/securityalert/8336"
+  ],
+  "CVE-2010-0483": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A7170"
+  ],
+  "CVE-2010-0484": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-032"
+  ],
+  "CVE-2010-0485": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-032"
+  ],
+  "CVE-2010-0486": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-019"
+  ],
+  "CVE-2010-0487": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-019"
+  ],
+  "CVE-2010-0488": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-018"
+  ],
+  "CVE-2010-0489": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-018"
+  ],
+  "CVE-2010-0490": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-018"
+  ],
+  "CVE-2010-0491": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-018"
+  ],
+  "CVE-2010-0492": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-018"
+  ],
+  "CVE-2010-0494": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-018"
+  ],
+  "CVE-2010-0550": [
+    "http://www.redteam-pentesting.de/en/advisories/rt-sa-2010-003/-geo-r-gncaster-faulty-implementation-of-http-digest-authentication"
+  ],
+  "CVE-2010-0551": [
+    "http://www.redteam-pentesting.de/en/advisories/rt-sa-2010-003/-geo-r-gncaster-faulty-implementation-of-http-digest-authentication"
+  ],
+  "CVE-2010-0552": [
+    "http://www.redteam-pentesting.de/en/advisories/rt-sa-2010-001/-geo-r-gncaster-insecure-handling-of-long-urls"
+  ],
+  "CVE-2010-0553": [
+    "http://www.redteam-pentesting.de/en/advisories/rt-sa-2010-002/-geo-r-gncaster-insecure-handling-of-nmea-data"
+  ],
+  "CVE-2010-0554": [
+    "http://www.redteam-pentesting.de/en/advisories/rt-sa-2010-003/-geo-r-gncaster-faulty-implementation-of-http-digest-authentication"
+  ],
+  "CVE-2010-0555": [
+    "http://www.coresecurity.com/content/internet-explorer-dynamic-object-tag"
+  ],
+  "CVE-2010-0556": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0565": [
+    "https://exchange.xforce.ibmcloud.com/vulnerabilities/56339"
+  ],
+  "CVE-2010-0566": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b1910c.shtml"
+  ],
+  "CVE-2010-0567": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b1910c.shtml"
+  ],
+  "CVE-2010-0568": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b1910c.shtml"
+  ],
+  "CVE-2010-0569": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b1910c.shtml"
+  ],
+  "CVE-2010-0601": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b2c519.shtml"
+  ],
+  "CVE-2010-0602": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b2c519.shtml"
+  ],
+  "CVE-2010-0603": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b2c519.shtml"
+  ],
+  "CVE-2010-0604": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b2c519.shtml"
+  ],
+  "CVE-2010-0605": [
+    "http://www.exploit-db.com/exploits/11380"
+  ],
+  "CVE-2010-0606": [
+    "http://packetstormsecurity.org/1002-exploits/osTicket-1.6-RC5-ReflectedXSS.pdf"
+  ],
+  "CVE-2010-0607": [
+    "http://packetstormsecurity.org/1002-exploits/sterlite-xss.txt"
+  ],
+  "CVE-2010-0608": [
+    "http://packetstormsecurity.org/1001-exploits/novaboard112-sql.txt"
+  ],
+  "CVE-2010-0610": [
+    "http://packetstormsecurity.org/1002-exploits/joomlaphotoblog-bsql.txt"
+  ],
+  "CVE-2010-0611": [
+    "http://www.exploit-db.com/exploits/11346"
+  ],
+  "CVE-2010-0614": [
+    "http://packetstormsecurity.org/1002-exploits/corelan-10-008-evalmsi.txt"
+  ],
+  "CVE-2010-0615": [
+    "http://packetstormsecurity.org/1002-exploits/corelan-10-008-evalmsi.txt"
+  ],
+  "CVE-2010-0616": [
+    "http://packetstormsecurity.org/1002-exploits/corelan-10-008-evalmsi.txt"
+  ],
+  "CVE-2010-0622": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9655"
+  ],
+  "CVE-2010-0628": [
+    "http://web.mit.edu/kerberos/advisories/MITKRB5-SA-2010-002.txt"
+  ],
+  "CVE-2010-0629": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9489"
+  ],
+  "CVE-2010-0630": [
+    "http://packetstormsecurity.org/1002-exploits/evernewfjs-sql.txt"
+  ],
+  "CVE-2010-0632": [
+    "http://packetstormsecurity.org/1001-exploits/joomlasimplefaq-sql.txt"
+  ],
+  "CVE-2010-0643": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0644": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0645": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0646": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0647": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0649": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0650": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0651": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0655": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0656": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0657": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0658": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0659": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0660": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0661": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0662": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0663": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0664": [
+    "http://sites.google.com/a/chromium.org/dev/Home/chromium-security/chromium-security-bugs"
+  ],
+  "CVE-2010-0671": [
+    "http://packetstormsecurity.org/1002-exploits/pogodnycms-sql.txt"
+  ],
+  "CVE-2010-0672": [
+    "http://packetstormsecurity.org/1002-exploits/wsnguest102-sql.txt"
+  ],
+  "CVE-2010-0673": [
+    "http://packetstormsecurity.org/1002-exploits/wpcopperleaf-sql.txt"
+  ],
+  "CVE-2010-0674": [
+    "http://packetstormsecurity.org/1002-exploits/statcountex-disclose.txt"
+  ],
+  "CVE-2010-0675": [
+    "http://packetstormsecurity.org/1002-exploits/bgscms-xss.txt"
+  ],
+  "CVE-2010-0676": [
+    "http://packetstormsecurity.org/1002-exploits/joomlarwcards-lfi.txt"
+  ],
+  "CVE-2010-0677": [
+    "http://packetstormsecurity.org/1002-exploits/katalog-rfisql.txt"
+  ],
+  "CVE-2010-0678": [
+    "http://packetstormsecurity.org/1002-exploits/katalog-rfisql.txt"
+  ],
+  "CVE-2010-0679": [
+    "http://packetstormsecurity.org/1002-exploits/hyleoschemview-heap.rb.txt"
+  ],
+  "CVE-2010-0682": [
+    "http://hakre.wordpress.com/2010/02/16/the-short-memory-of-wordpress-org-security/"
+  ],
+  "CVE-2010-0683": [
+    "http://www.tibco.com/services/support/advisories/adminstrator-advisory_20100223.jsp"
+  ],
+  "CVE-2010-0689": [
+    "http://sotiriu.de/adv/NSOADV-2010-003.txt"
+  ],
+  "CVE-2010-0690": [
+    "http://packetstormsecurity.org/1002-exploits/videogamesrental-sql.txt"
+  ],
+  "CVE-2010-0693": [
+    "http://packetstormsecurity.org/1002-exploits/trademanager-sql.txt"
+  ],
+  "CVE-2010-0694": [
+    "http://packetstormsecurity.org/1001-exploits/joomlaperchagallery-sql.txt"
+  ],
+  "CVE-2010-0695": [
+    "http://packetstormsecurity.org/1002-exploits/basiccms-sqlxss.txt"
+  ],
+  "CVE-2010-0698": [
+    "http://packetstormsecurity.org/1002-exploits/wsccms-sql.txt"
+  ],
+  "CVE-2010-0699": [
+    "http://packetstormsecurity.org/1002-exploits/vss-xss.txt"
+  ],
+  "CVE-2010-0700": [
+    "http://zeroscience.mk/en/vulnerabilities/ZSL-2010-4926.php"
+  ],
+  "CVE-2010-0701": [
+    "http://packetstormsecurity.org/1002-exploits/omnidocs-sql.txt"
+  ],
+  "CVE-2010-0702": [
+    "http://packetstormsecurity.org/1002-exploits/tribox-sql.txt"
+  ],
+  "CVE-2010-0703": [
+    "http://packetstormsecurity.org/1002-exploits/PR09-04.txt"
+  ],
+  "CVE-2010-0706": [
+    "http://www.packetstormsecurity.org/1002-exploits/nikara-xss.txt"
+  ],
+  "CVE-2010-0709": [
+    "http://www.exploit-db.com/exploits/11478"
+  ],
+  "CVE-2010-0711": [
+    "http://packetstormsecurity.org/1002-exploits/aspcodecms-xssxsrf.txt"
+  ],
+  "CVE-2010-0719": [
+    "http://www.scmagazineus.com/malta-researchers-find-windows-bug-that-crashes-pcs/article/164439/"
+  ],
+  "CVE-2010-0720": [
+    "http://packetstormsecurity.org/1002-exploits/erotik-sql.txt"
+  ],
+  "CVE-2010-0721": [
+    "http://packetstormsecurity.org/1002-exploits/auktionshausgelb-sql.txt"
+  ],
+  "CVE-2010-0723": [
+    "http://packetstormsecurity.org/1002-exploits/eroauktion2010-sql.txt"
+  ],
+  "CVE-2010-0724": [
+    "http://packetstormsecurity.org/1002-exploits/arabcart-sqlxss.txt"
+  ],
+  "CVE-2010-0725": [
+    "http://packetstormsecurity.org/1002-exploits/arabcart-sqlxss.txt"
+  ],
+  "CVE-2010-0726": [
+    "http://tdiary.svn.sourceforge.net/viewvc/tdiary/branches/Stable-2_2/plugin/tb-send.rb?r1=3238&r2=3573"
+  ],
+  "CVE-2010-0730": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-0731": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9759"
+  ],
+  "CVE-2010-0733": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=546621"
+  ],
+  "CVE-2010-0734": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-0738": [
+    "http://securityreason.com/securityalert/8408"
+  ],
+  "CVE-2010-0740": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0746": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=523178"
+  ],
+  "CVE-2010-0753": [
+    "http://www.packetstormsecurity.com/1002-exploits/joomlasqlreport-sql.txt"
+  ],
+  "CVE-2010-0754": [
+    "http://www.darksecurity.de/advisories/2012/SSCHADV2012-006.txt"
+  ],
+  "CVE-2010-0755": [
+    "http://packetstormsecurity.org/1002-exploits/wikyblog-rfishellxss.txt"
+  ],
+  "CVE-2010-0756": [
+    "http://packetstormsecurity.org/1002-exploits/wikyblog-rfishellxss.txt"
+  ],
+  "CVE-2010-0757": [
+    "http://packetstormsecurity.org/1002-exploits/wikyblog-rfishellxss.txt"
+  ],
+  "CVE-2010-0758": [
+    "http://packetstormsecurity.org/1002-exploits/softbizjobs-sql.txt"
+  ],
+  "CVE-2010-0759": [
+    "http://packetstormsecurity.org/1002-exploits/joomlascriptegrator-lfi.txt"
+  ],
+  "CVE-2010-0761": [
+    "http://www.exploit-db.com/exploits/11402"
+  ],
+  "CVE-2010-0762": [
+    "http://www.exploit-db.com/exploits/11401"
+  ],
+  "CVE-2010-0764": [
+    "http://packetstormsecurity.org/1002-exploits/esmile-sql.txt"
+  ],
+  "CVE-2010-0765": [
+    "http://packetstormsecurity.org/1001-exploits/fipsforum-disclose.txt"
+  ],
+  "CVE-2010-0766": [
+    "http://www.coresecurity.com/content/luxology-modo-lxo-vulnerability"
+  ],
+  "CVE-2010-0795": [
+    "http://www.exploit-db.com/exploits/11292"
+  ],
+  "CVE-2010-0796": [
+    "http://www.exploit-db.com/exploits/11287"
+  ],
+  "CVE-2010-0799": [
+    "http://packetstormsecurity.org/1001-exploits/phpunity-lfi.txt"
+  ],
+  "CVE-2010-0801": [
+    "http://packetstormsecurity.org/1001-exploits/joomlaautartitarot-traversal.txt"
+  ],
+  "CVE-2010-0802": [
+    "http://packetstormsecurity.org/1001-exploits/ipbawards-sql.txt"
+  ],
+  "CVE-2010-0803": [
+    "http://www.exploit-db.com/exploits/11280"
+  ],
+  "CVE-2010-0804": [
+    "http://packetstormsecurity.org/1001-exploits/iboutique-xss.txt"
+  ],
+  "CVE-2010-0805": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-018"
+  ],
+  "CVE-2010-0806": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-018"
+  ],
+  "CVE-2010-0807": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-018"
+  ],
+  "CVE-2010-0808": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-071"
+  ],
+  "CVE-2010-0811": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-027"
+  ],
+  "CVE-2010-0814": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-044"
+  ],
+  "CVE-2010-0815": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-031"
+  ],
+  "CVE-2010-0816": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-030"
+  ],
+  "CVE-2010-0817": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-039"
+  ],
+  "CVE-2010-0819": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-037"
+  ],
+  "CVE-2010-0825": [
+    "https://bugs.launchpad.net/ubuntu/+bug/531569"
+  ],
+  "CVE-2010-0826": [
+    "http://www.ubuntu.com/usn/USN-922-1"
+  ],
+  "CVE-2010-0828": [
+    "http://www.ubuntu.com/usn/USN-925-1"
+  ],
+  "CVE-2010-0829": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9718"
+  ],
+  "CVE-2010-0832": [
+    "http://www.h-online.com/security/news/item/Ubuntu-closes-root-hole-1034618.html"
+  ],
+  "CVE-2010-0835": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0836": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0837": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10680"
+  ],
+  "CVE-2010-0838": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0839": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A13357"
+  ],
+  "CVE-2010-0840": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9974"
+  ],
+  "CVE-2010-0841": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0842": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0843": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0844": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0845": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9896"
+  ],
+  "CVE-2010-0846": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0847": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0848": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9899"
+  ],
+  "CVE-2010-0849": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0850": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0851": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0852": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0853": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0854": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0855": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0856": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0857": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0858": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0859": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0860": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0861": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0862": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0863": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0864": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0865": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0866": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0867": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0868": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0869": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0870": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0871": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0872": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0873": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0874": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0875": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0876": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0877": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0878": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0879": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0880": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0881": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0882": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0883": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0884": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0885": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0886": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-0888": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0889": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0890": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0891": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0892": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0893": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0894": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0895": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0896": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0897": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2010-099504.html"
+  ],
+  "CVE-2010-0898": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0899": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0900": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0901": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0902": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0903": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0904": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0905": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0906": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0907": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0908": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0909": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0910": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0911": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0912": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0913": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0914": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0915": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0916": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-0917": [
+    "http://www.theregister.co.uk/2010/03/01/ie_code_execution_bug/"
+  ],
+  "CVE-2010-0924": [
+    "http://nobytes.com/exploits/Safari_4.0.4_background_DoS_pl.txt"
+  ],
+  "CVE-2010-0925": [
+    "http://nobytes.com/exploits/Safari_4.0.4_background_DoS_pl.txt"
+  ],
+  "CVE-2010-0928": [
+    "http://www.theregister.co.uk/2010/03/04/severe_openssl_vulnerability/"
+  ],
+  "CVE-2010-0938": [
+    "http://packetstormsecurity.org/1001-exploits/todooforum-xss.txt"
+  ],
+  "CVE-2010-0939": [
+    "http://packetstormsecurity.org/1001-exploits/abbforums-dislclose.txt"
+  ],
+  "CVE-2010-0940": [
+    "http://packetstormsecurity.org/1001-exploits/simplephpgb-xss.txt"
+  ],
+  "CVE-2010-0941": [
+    "http://packetstormsecurity.org/1001-exploits/hitcounter-xss.txt"
+  ],
+  "CVE-2010-0942": [
+    "http://packetstormsecurity.org/1001-exploits/joomlajvideodirect-traversal.txt"
+  ],
+  "CVE-2010-0943": [
+    "http://packetstormsecurity.org/1001-exploits/joomlajashowcase-traversal.txt"
+  ],
+  "CVE-2010-0944": [
+    "http://packetstormsecurity.org/1001-exploits/joomlajcollection-traversal.txt"
+  ],
+  "CVE-2010-0945": [
+    "http://www.packetstormsecurity.org/0912-exploits/joomlahotbrackets-sql.txt"
+  ],
+  "CVE-2010-0947": [
+    "http://packetstormsecurity.org/1003-exploits/bbsmax-xss.txt"
+  ],
+  "CVE-2010-0948": [
+    "http://packetstormsecurity.org/1003-exploits/bigforum-sql.txt"
+  ],
+  "CVE-2010-0949": [
+    "http://www.packetstormsecurity.com/1003-exploits/natychmiast-sqlxss.txt"
+  ],
+  "CVE-2010-0950": [
+    "http://www.packetstormsecurity.com/1003-exploits/natychmiast-sqlxss.txt"
+  ],
+  "CVE-2010-0951": [
+    "http://packetstormsecurity.org/1003-exploits/dev4u-sql.txt"
+  ],
+  "CVE-2010-0952": [
+    "http://packetstormsecurity.org/1003-exploits/onecmsv25-sql.txt"
+  ],
+  "CVE-2010-0954": [
+    "http://www.packetstormsecurity.com/1003-exploits/preelearningportal-sql.txt"
+  ],
+  "CVE-2010-0955": [
+    "http://packetstormsecurity.org/1003-exploits/bildflirt-sql.txt"
+  ],
+  "CVE-2010-0956": [
+    "http://packetstormsecurity.org/1003-exploits/opencart-sql.txt"
+  ],
+  "CVE-2010-0957": [
+    "http://packetstormsecurity.org/1002-exploits/saskiashopsystem-lfi.txt"
+  ],
+  "CVE-2010-0958": [
+    "http://www.exploit-db.com/exploits/11655"
+  ],
+  "CVE-2010-0964": [
+    "http://packetstormsecurity.org/1003-exploits/eroserotikwebkat-sql.txt"
+  ],
+  "CVE-2010-0965": [
+    "http://packetstormsecurity.org/1003-exploits/jevci-disclose.txt"
+  ],
+  "CVE-2010-0966": [
+    "http://www.exploit-db.com/exploits/11735"
+  ],
+  "CVE-2010-0970": [
+    "http://www.exploit-db.com/exploits/11737"
+  ],
+  "CVE-2010-0971": [
+    "http://packetstormsecurity.org/1003-exploits/atutor-xss.txt"
+  ],
+  "CVE-2010-0974": [
+    "http://www.packetstormsecurity.com/1003-exploits/phpcityportal-sqlrfi.txt"
+  ],
+  "CVE-2010-0975": [
+    "http://packetstormsecurity.org/1003-exploits/phpcityportal-sqlrfi.txt"
+  ],
+  "CVE-2010-0976": [
+    "http://packetstormsecurity.org/1001-exploits/acidcatcms-disclose.txt"
+  ],
+  "CVE-2010-0977": [
+    "http://packetstormsecurity.org/1001-exploits/pdportal-disclose.txt"
+  ],
+  "CVE-2010-0978": [
+    "http://packetstormsecurity.org/1001-exploits/kmsoftgb-disclose.txt"
+  ],
+  "CVE-2010-0979": [
+    "http://packetstormsecurity.org/1001-exploits/odig-xss.txt"
+  ],
+  "CVE-2010-0980": [
+    "http://www.exploit-db.com/exploits/10930"
+  ],
+  "CVE-2010-0981": [
+    "http://packetstormsecurity.org/0912-exploits/joomlatpjobs-sql.txt"
+  ],
+  "CVE-2010-0982": [
+    "http://packetstormsecurity.org/1001-exploits/joomlacartweberp-lfi.txt"
+  ],
+  "CVE-2010-0983": [
+    "http://www.exploit-db.com/exploits/10967"
+  ],
+  "CVE-2010-0984": [
+    "http://packetstormsecurity.org/1001-exploits/acidcatcms-disclose.txt"
+  ],
+  "CVE-2010-1000": [
+    "http://www.ubuntu.com/usn/USN-938-1"
+  ],
+  "CVE-2010-10001": [
+    "https://www.scip.ch/publikationen/advisories/scip_advisory-4143_shemes_grabbit_malicious_nzb_date_denial_of_service.txt"
+  ],
+  "CVE-2010-10011": [
+    "https://www.exploit-db.com/exploits/15445"
+  ],
+  "CVE-2010-10012": [
+    "https://www.vulncheck.com/advisories/httpasm-path-traversal"
+  ],
+  "CVE-2010-10013": [
+    "https://www.vulncheck.com/advisories/ajaxplorer-unauth-rce"
+  ],
+  "CVE-2010-10014": [
+    "https://www.vulncheck.com/advisories/odin-secure-ftp-stack-buffer-overflow-via-list-response"
+  ],
+  "CVE-2010-10015": [
+    "https://www.vulncheck.com/advisories/aol-phobos-playlist-import-stack-based-buffer-overflow"
+  ],
+  "CVE-2010-10016": [
+    "https://www.vulncheck.com/advisories/bs-player-buffer-overflow-via-m3u-playlist-import"
+  ],
+  "CVE-2010-10017": [
+    "https://www.vulncheck.com/advisories/wm-downloader-buffer-overflow-via-malformed-m3u-file"
+  ],
+  "CVE-2010-1003": [
+    "http://www.coresecurity.com/content/efront-php-file-inclusion"
+  ],
+  "CVE-2010-1028": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=552216"
+  ],
+  "CVE-2010-1029": [
+    "http://www.exploit-db.com/exploits/11567"
+  ],
+  "CVE-2010-1044": [
+    "http://packetstormsecurity.org/1002-exploits/oputils_5-sql.txt"
+  ],
+  "CVE-2010-1046": [
+    "http://www.exploit-db.com/exploits/11356"
+  ],
+  "CVE-2010-1047": [
+    "http://packetstormsecurity.org/1002-exploits/masa2elmc-sql.txt"
+  ],
+  "CVE-2010-1050": [
+    "http://packetstormsecurity.org/1002-exploits/audistats-sql.txt"
+  ],
+  "CVE-2010-1053": [
+    "http://www.exploit-db.com/exploits/11345"
+  ],
+  "CVE-2010-1054": [
+    "http://packetstormsecurity.org/1003-exploits/parscms-sql.txt"
+  ],
+  "CVE-2010-1055": [
+    "http://evilc0de.blogspot.com/2010/03/osdate-rfi-vuln.html"
+  ],
+  "CVE-2010-1056": [
+    "http://packetstormsecurity.org/1003-exploits/joomlarokdownloads-lfi.txt"
+  ],
+  "CVE-2010-1058": [
+    "http://packetstormsecurity.org/1003-exploits/addressbookscript-lfi.txt"
+  ],
+  "CVE-2010-1060": [
+    "http://packetstormsecurity.org/1003-exploits/shorturl-lfi.txt"
+  ],
+  "CVE-2010-1062": [
+    "http://packetstormsecurity.org/1003-exploits/frecf-lfi.txt"
+  ],
+  "CVE-2010-1064": [
+    "http://packetstormsecurity.org/1001-exploits/erolife-disclose.txt"
+  ],
+  "CVE-2010-1066": [
+    "http://packetstormsecurity.org/1001-exploits/awcm-backup.txt"
+  ],
+  "CVE-2010-1068": [
+    "http://packetstormsecurity.org/1001-exploits/surgeftp-xss.txt"
+  ],
+  "CVE-2010-1069": [
+    "http://packetstormsecurity.org/1001-exploits/proarcadescripttogame-sql.txt"
+  ],
+  "CVE-2010-1070": [
+    "http://packetstormsecurity.org/1001-exploits/imagoscriptsdac-sql.txt"
+  ],
+  "CVE-2010-1071": [
+    "http://packetstormsecurity.org/1001-exploits/phpmdj103-sql.txt"
+  ],
+  "CVE-2010-1072": [
+    "http://packetstormsecurity.org/1001-exploits/sniggabocms-xss.txt"
+  ],
+  "CVE-2010-1075": [
+    "http://packetstormsecurity.org/1002-exploits/elcms-sql.txt"
+  ],
+  "CVE-2010-1077": [
+    "http://packetstormsecurity.org/1002-exploits/vbseo-lfi.txt"
+  ],
+  "CVE-2010-1078": [
+    "http://www.packetstormsecurity.org/1002-exploits/spherecms-sql.txt"
+  ],
+  "CVE-2010-1080": [
+    "http://packetstormsecurity.org/1002-exploits/pulsecms-xss.txt"
+  ],
+  "CVE-2010-1081": [
+    "http://packetstormsecurity.org/1002-exploits/joomlacp-lfi.txt"
+  ],
+  "CVE-2010-1083": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-1084": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-1085": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-1086": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-1087": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-1088": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-1089": [
+    "http://packetstormsecurity.org/1003-exploits/phptroubleticket-sql.txt"
+  ],
+  "CVE-2010-1090": [
+    "http://www.exploit-db.com/exploits/11588"
+  ],
+  "CVE-2010-1091": [
+    "http://www.exploit-db.com/exploits/11588"
+  ],
+  "CVE-2010-1105": [
+    "http://www.packetstormsecurity.com/1001-exploits/advertisemanager-xssrfitraversal.txt"
+  ],
+  "CVE-2010-1106": [
+    "http://www.packetstormsecurity.com/1001-exploits/advertisemanager-xssrfitraversal.txt"
+  ],
+  "CVE-2010-1109": [
+    "http://phpmysport.sourceforge.net/en/forum/bugs/sujet_2851.html"
+  ],
+  "CVE-2010-1110": [
+    "http://phpmysport.sourceforge.net/en/forum/bugs/sujet_2851.html"
+  ],
+  "CVE-2010-1111": [
+    "http://www.packetstormsecurity.com/1001-exploits/jokescomplete-xss.txt"
+  ],
+  "CVE-2010-1112": [
+    "http://packetstormsecurity.org/1001-exploits/klonews-xss.txt"
+  ],
+  "CVE-2010-1113": [
+    "http://www.packetstormsecurity.com/1001-exploits/webservercreator-traversalxssrfi.txt"
+  ],
+  "CVE-2010-1114": [
+    "http://www.packetstormsecurity.com/1001-exploits/webservercreator-traversalxssrfi.txt"
+  ],
+  "CVE-2010-1115": [
+    "http://www.packetstormsecurity.com/1001-exploits/webservercreator-traversalxssrfi.txt"
+  ],
+  "CVE-2010-1116": [
+    "http://www.packetstormsecurity.com/1001-exploits/lookmer-disclose.txt"
+  ],
+  "CVE-2010-1121": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=555109"
+  ],
+  "CVE-2010-1122": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=552216"
+  ],
+  "CVE-2010-1125": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=552255"
+  ],
+  "CVE-2010-1126": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=552255"
+  ],
+  "CVE-2010-1127": [
+    "http://securityreason.com/exploitalert/7731"
+  ],
+  "CVE-2010-1130": [
+    "http://securityreason.com/securityalert/7008"
+  ],
+  "CVE-2010-1132": [
+    "http://www.exploit-db.com/exploits/11662"
+  ],
+  "CVE-2010-1138": [
+    "http://www.vmware.com/security/advisories/VMSA-2010-0007.html"
+  ],
+  "CVE-2010-1139": [
+    "http://www.vmware.com/security/advisories/VMSA-2010-0007.html"
+  ],
+  "CVE-2010-1140": [
+    "http://www.vmware.com/security/advisories/VMSA-2010-0007.html"
+  ],
+  "CVE-2010-1141": [
+    "http://www.vmware.com/security/advisories/VMSA-2010-0007.html"
+  ],
+  "CVE-2010-1142": [
+    "http://www.vmware.com/security/advisories/VMSA-2010-0007.html"
+  ],
+  "CVE-2010-1150": [
+    "http://svn.wikimedia.org/svnroot/mediawiki/tags/REL1_16_0beta2/phase3/RELEASE-NOTES"
+  ],
+  "CVE-2010-1157": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A19492"
+  ],
+  "CVE-2010-1158": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=580605"
+  ],
+  "CVE-2010-1163": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9382"
+  ],
+  "CVE-2010-1168": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9807"
+  ],
+  "CVE-2010-1171": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0434.html"
+  ],
+  "CVE-2010-1173": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-1176": [
+    "http://www.exploit-db.com/exploits/11891"
+  ],
+  "CVE-2010-1179": [
+    "http://www.exploit-db.com/exploits/11890"
+  ],
+  "CVE-2010-1184": [
+    "http://www.theregister.co.uk/2010/03/26/open_source_wireless_sniffer/"
+  ],
+  "CVE-2010-1186": [
+    "http://www.exploit-db.com/exploits/12098"
+  ],
+  "CVE-2010-1187": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9832"
+  ],
+  "CVE-2010-1188": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9878"
+  ],
+  "CVE-2010-1190": [
+    "http://svn.wikimedia.org/svnroot/mediawiki/tags/REL1_15_2/phase3/RELEASE-NOTES"
+  ],
+  "CVE-2010-1196": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=534666"
+  ],
+  "CVE-2010-1197": [
+    "http://www.ubuntu.com/usn/usn-930-2"
+  ],
+  "CVE-2010-1198": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=532246"
+  ],
+  "CVE-2010-1199": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=554255"
+  ],
+  "CVE-2010-1200": [
+    "http://www.ubuntu.com/usn/usn-930-2"
+  ],
+  "CVE-2010-1201": [
+    "http://www.ubuntu.com/usn/usn-930-2"
+  ],
+  "CVE-2010-1202": [
+    "http://www.ubuntu.com/usn/usn-930-2"
+  ],
+  "CVE-2010-1203": [
+    "http://www.ubuntu.com/usn/usn-930-2"
+  ],
+  "CVE-2010-1208": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=572986"
+  ],
+  "CVE-2010-1209": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=552110"
+  ],
+  "CVE-2010-1213": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=568148"
+  ],
+  "CVE-2010-1214": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=572985"
+  ],
+  "CVE-2010-1216": [
+    "http://www.exploit-db.com/exploits/11832"
+  ],
+  "CVE-2010-1217": [
+    "http://www.packetstormsecurity.org/1003-exploits/joomlajetooltip-lfi.txt"
+  ],
+  "CVE-2010-1225": [
+    "http://www.coresecurity.com/content/virtual-pc-2007-hypervisor-memory-protection-bug"
+  ],
+  "CVE-2010-1226": [
+    "http://www.exploit-db.com/exploits/11769"
+  ],
+  "CVE-2010-1227": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-1236": [
+    "http://flock.com/security/"
+  ],
+  "CVE-2010-1238": [
+    "http://www.ubuntu.com/usn/USN-925-1"
+  ],
+  "CVE-2010-1239": [
+    "http://blog.didierstevens.com/2010/03/31/escape-from-foxit-reader/"
+  ],
+  "CVE-2010-1240": [
+    "http://blog.didierstevens.com/2010/06/29/quickpost-no-escape-from-pdf/"
+  ],
+  "CVE-2010-1241": [
+    "http://www.blackhat.com/html/bh-eu-10/bh-eu-10-briefings.html#Li"
+  ],
+  "CVE-2010-1255": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-032"
+  ],
+  "CVE-2010-1256": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-040"
+  ],
+  "CVE-2010-1257": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-039"
+  ],
+  "CVE-2010-1258": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-053"
+  ],
+  "CVE-2010-1259": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-035"
+  ],
+  "CVE-2010-1260": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-035"
+  ],
+  "CVE-2010-1261": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-035"
+  ],
+  "CVE-2010-1262": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-035"
+  ],
+  "CVE-2010-1263": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-036"
+  ],
+  "CVE-2010-1264": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-039"
+  ],
+  "CVE-2010-1265": [
+    "http://packetstormsecurity.org/1003-exploits/joomladcsflashgames-sql.txt"
+  ],
+  "CVE-2010-1266": [
+    "http://www.exploit-db.com/exploits/11831"
+  ],
+  "CVE-2010-1267": [
+    "http://www.exploit-db.com/exploits/11831"
+  ],
+  "CVE-2010-1268": [
+    "http://packetstormsecurity.org/1003-exploits/justvisual-lfi.txt"
+  ],
+  "CVE-2010-1269": [
+    "http://packetstormsecurity.org/1003-exploits/phpscripte24-sql.txt"
+  ],
+  "CVE-2010-1270": [
+    "http://packetstormsecurity.org/1003-exploits/multiauktions-sql.txt"
+  ],
+  "CVE-2010-1271": [
+    "http://packetstormsecurity.org/1003-exploits/smartplugs-sql.txt"
+  ],
+  "CVE-2010-1272": [
+    "http://www.exploit-db.com/exploits/11621"
+  ],
+  "CVE-2010-1277": [
+    "http://legalhackers.com/advisories/zabbix181api-sql.txt"
+  ],
+  "CVE-2010-1280": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2010-4937.php"
+  ],
+  "CVE-2010-1296": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2010-4940.php"
+  ],
+  "CVE-2010-1297": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-1299": [
+    "http://www.exploit-db.com/exploits/11994"
+  ],
+  "CVE-2010-1300": [
+    "http://packetstormsecurity.org/1003-exploits/yamamah-sql.txt"
+  ],
+  "CVE-2010-1301": [
+    "http://www.exploit-db.com/exploits/11979"
+  ],
+  "CVE-2010-1302": [
+    "http://packetstormsecurity.org/1003-exploits/joomladwgraph-lfi.txt"
+  ],
+  "CVE-2010-1303": [
+    "http://drupal.org/node/758756"
+  ],
+  "CVE-2010-1305": [
+    "http://packetstormsecurity.org/1004-exploits/jinventory-lfi.txt"
+  ],
+  "CVE-2010-1306": [
+    "http://www.exploit-db.com/exploits/12058"
+  ],
+  "CVE-2010-1307": [
+    "http://www.exploit-db.com/exploits/12070"
+  ],
+  "CVE-2010-1308": [
+    "http://www.exploit-db.com/exploits/12066"
+  ],
+  "CVE-2010-1312": [
+    "http://www.exploit-db.com/exploits/12077"
+  ],
+  "CVE-2010-1313": [
+    "http://www.exploit-db.com/exploits/12082"
+  ],
+  "CVE-2010-1314": [
+    "http://www.exploit-db.com/exploits/12086"
+  ],
+  "CVE-2010-1315": [
+    "http://packetstormsecurity.org/1004-exploits/joomlaweberpcustomer-lfi.txt"
+  ],
+  "CVE-2010-1320": [
+    "http://web.mit.edu/kerberos/advisories/MITKRB5-SA-2010-004.txt"
+  ],
+  "CVE-2010-1321": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-1323": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-1324": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0925.html"
+  ],
+  "CVE-2010-1335": [
+    "http://packetstormsecurity.org/1003-exploits/inskycms-rfi.txt"
+  ],
+  "CVE-2010-1337": [
+    "http://www.packetstormsecurity.com/1003-exploits/vanilla-rfi.txt"
+  ],
+  "CVE-2010-1338": [
+    "http://packetstormsecurity.org/1003-exploits/woltlabb-sql.txt"
+  ],
+  "CVE-2010-1340": [
+    "http://packetstormsecurity.org/1003-exploits/joomlajresearch-lfi.txt"
+  ],
+  "CVE-2010-1344": [
+    "http://packetstormsecurity.org/1003-exploits/joomlackforms-lfisql.txt"
+  ],
+  "CVE-2010-1345": [
+    "http://packetstormsecurity.org/1003-exploits/joomlackforms-lfisql.txt"
+  ],
+  "CVE-2010-1346": [
+    "http://www.exploit-db.com/exploits/11835"
+  ],
+  "CVE-2010-1349": [
+    "http://www.exploit-db.com/exploits/11622"
+  ],
+  "CVE-2010-1350": [
+    "http://packetstormsecurity.org/1004-exploits/joomlajpjobs-sql.txt"
+  ],
+  "CVE-2010-1352": [
+    "http://www.exploit-db.com/exploits/12084"
+  ],
+  "CVE-2010-1353": [
+    "http://www.exploit-db.com/exploits/12068"
+  ],
+  "CVE-2010-1354": [
+    "http://www.exploit-db.com/exploits/12102"
+  ],
+  "CVE-2010-1357": [
+    "http://packetstormsecurity.org/1001-exploits/sbddirectory-xss.txt"
+  ],
+  "CVE-2010-1360": [
+    "http://packetstormsecurity.org/1001-exploits/faqengine-rfi.txt"
+  ],
+  "CVE-2010-1361": [
+    "http://packetstormsecurity.org/1001-exploits/phpeppershopws-xss.txt"
+  ],
+  "CVE-2010-1363": [
+    "http://packetstormsecurity.org/1001-exploits/joomlajprojects-sql.txt"
+  ],
+  "CVE-2010-1364": [
+    "http://packetstormsecurity.org/1002-exploits/uigapersonalportal-sql.txt"
+  ],
+  "CVE-2010-1365": [
+    "http://packetstormsecurity.org/1002-exploits/uigafc-sql.txt"
+  ],
+  "CVE-2010-1366": [
+    "http://www.exploit-db.com/exploits/11593"
+  ],
+  "CVE-2010-1368": [
+    "http://packetstormsecurity.org/1002-exploits/gamescript-sql.txt"
+  ],
+  "CVE-2010-1369": [
+    "http://www.exploit-db.com/exploits/11589"
+  ],
+  "CVE-2010-1370": [
+    "http://packetstormsecurity.org/0812-exploits/preclass-sqlxss.txt"
+  ],
+  "CVE-2010-1371": [
+    "http://packetstormsecurity.org/0812-exploits/preclass-sqlxss.txt"
+  ],
+  "CVE-2010-1372": [
+    "http://packetstormsecurity.org/1002-exploits/joomlahdflvplayer-sql.txt"
+  ],
+  "CVE-2010-1422": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=552255"
+  ],
+  "CVE-2010-1429": [
+    "https://www.exploit-db.com/exploits/44009/"
+  ],
+  "CVE-2010-1431": [
+    "http://seclists.org/fulldisclosure/2010/Apr/272"
+  ],
+  "CVE-2010-1436": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-1437": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9715"
+  ],
+  "CVE-2010-1439": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9232"
+  ],
+  "CVE-2010-1457": [
+    "http://ftpmain.gnustep.org/pub/gnustep/core/gnustep-base-1.20.0.tar.gz"
+  ],
+  "CVE-2010-1461": [
+    "http://www.exploit-db.com/exploits/12232"
+  ],
+  "CVE-2010-1466": [
+    "http://www.exploit-db.com/exploits/12193"
+  ],
+  "CVE-2010-1467": [
+    "http://www.exploit-db.com/exploits/12193"
+  ],
+  "CVE-2010-1468": [
+    "http://packetstormsecurity.org/1004-exploits/joomlamvrmm-sql.txt"
+  ],
+  "CVE-2010-1469": [
+    "http://www.exploit-db.com/exploits/12146"
+  ],
+  "CVE-2010-1470": [
+    "http://www.exploit-db.com/exploits/12166"
+  ],
+  "CVE-2010-1471": [
+    "http://www.exploit-db.com/exploits/12170"
+  ],
+  "CVE-2010-1472": [
+    "http://www.exploit-db.com/exploits/12167"
+  ],
+  "CVE-2010-1473": [
+    "http://www.exploit-db.com/exploits/12171"
+  ],
+  "CVE-2010-1474": [
+    "http://www.exploit-db.com/exploits/12182"
+  ],
+  "CVE-2010-1475": [
+    "http://www.exploit-db.com/exploits/12147"
+  ],
+  "CVE-2010-1476": [
+    "http://www.exploit-db.com/exploits/12150"
+  ],
+  "CVE-2010-1477": [
+    "http://packetstormsecurity.org/1004-exploits/joomlasermonspeaker-sql.txt"
+  ],
+  "CVE-2010-1478": [
+    "http://www.exploit-db.com/exploits/12145"
+  ],
+  "CVE-2010-1479": [
+    "http://www.exploit-db.com/exploits/12148"
+  ],
+  "CVE-2010-1486": [
+    "http://www.coresecurity.com/content/cactushop-xss-persistent-vulnerability"
+  ],
+  "CVE-2010-1489": [
+    "http://p42.us/ie8xss/Abusing_IE8s_XSS_Filters.pdf"
+  ],
+  "CVE-2010-1491": [
+    "http://www.exploit-db.com/exploits/12318"
+  ],
+  "CVE-2010-1493": [
+    "http://www.exploit-db.com/exploits/12113"
+  ],
+  "CVE-2010-1494": [
+    "http://www.exploit-db.com/exploits/12113"
+  ],
+  "CVE-2010-1495": [
+    "http://www.exploit-db.com/exploits/12286"
+  ],
+  "CVE-2010-1496": [
+    "http://packetstormsecurity.org/1004-exploits/joomlajoltcard-sql.txt"
+  ],
+  "CVE-2010-1497": [
+    "http://packetstormsecurity.org/1004-exploits/dlstats-sqlxssadmin.txt"
+  ],
+  "CVE-2010-1498": [
+    "http://packetstormsecurity.org/1004-exploits/dlstats-sqlxssadmin.txt"
+  ],
+  "CVE-2010-1499": [
+    "http://packetstormsecurity.org/1004-exploits/musicbox33-sql.txt"
+  ],
+  "CVE-2010-1511": [
+    "http://www.ubuntu.com/usn/USN-938-1"
+  ],
+  "CVE-2010-1523": [
+    "http://forums.winamp.com/showthread.php?t=322995"
+  ],
+  "CVE-2010-1529": [
+    "http://packetstormsecurity.org/1004-exploits/joomlafreestyle-sql.txt"
+  ],
+  "CVE-2010-1531": [
+    "http://www.exploit-db.com/exploits/12054"
+  ],
+  "CVE-2010-1532": [
+    "http://www.exploit-db.com/exploits/12118"
+  ],
+  "CVE-2010-1533": [
+    "http://www.exploit-db.com/exploits/12142"
+  ],
+  "CVE-2010-1534": [
+    "http://www.exploit-db.com/exploits/12067"
+  ],
+  "CVE-2010-1535": [
+    "http://www.exploit-db.com/exploits/12151"
+  ],
+  "CVE-2010-1537": [
+    "http://www.exploit-db.com/exploits/11585"
+  ],
+  "CVE-2010-1538": [
+    "http://www.exploit-db.com/exploits/11586"
+  ],
+  "CVE-2010-1544": [
+    "http://packetstormsecurity.org/1002-exploits/rcadcm425-dos.txt"
+  ],
+  "CVE-2010-1546": [
+    "http://www.madirish.net/?article=458"
+  ],
+  "CVE-2010-1547": [
+    "http://www.madirish.net/?article=458"
+  ],
+  "CVE-2010-1548": [
+    "http://www.madirish.net/?article=458"
+  ],
+  "CVE-2010-1549": [
+    "https://www.exploit-db.com/exploits/43411/"
+  ],
+  "CVE-2010-1552": [
+    "http://securityreason.com/securityalert/8157"
+  ],
+  "CVE-2010-1553": [
+    "http://securityreason.com/securityalert/8153"
+  ],
+  "CVE-2010-1554": [
+    "http://securityreason.com/securityalert/8154"
+  ],
+  "CVE-2010-1561": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b2c519.shtml"
+  ],
+  "CVE-2010-1562": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b2c519.shtml"
+  ],
+  "CVE-2010-1563": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b2c519.shtml"
+  ],
+  "CVE-2010-1565": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b2c519.shtml"
+  ],
+  "CVE-2010-1567": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b2c519.shtml"
+  ],
+  "CVE-2010-1583": [
+    "http://www.madirish.net/?article=456"
+  ],
+  "CVE-2010-1584": [
+    "http://www.theregister.co.uk/2010/05/10/drupal_security_bug/"
+  ],
+  "CVE-2010-1586": [
+    "http://yehg.net/lab/pr0js/advisories/hp_system_management_homepage_url_redirection_abuse"
+  ],
+  "CVE-2010-1594": [
+    "http://packetstormsecurity.org/1001-exploits/ocsinventoryng-sqlxss.txt"
+  ],
+  "CVE-2010-1595": [
+    "http://packetstormsecurity.org/1001-exploits/ocsinventoryng-sqlxss.txt"
+  ],
+  "CVE-2010-1599": [
+    "http://packetstormsecurity.org/1004-exploits/nkinfoweb-sql.txt"
+  ],
+  "CVE-2010-1600": [
+    "http://www.packetstormsecurity.com/1004-exploits/joomlamediamallfactory-bsql.txt"
+  ],
+  "CVE-2010-1601": [
+    "http://www.exploit-db.com/exploits/12236"
+  ],
+  "CVE-2010-1602": [
+    "http://www.exploit-db.com/exploits/12283"
+  ],
+  "CVE-2010-1603": [
+    "http://www.exploit-db.com/exploits/12284"
+  ],
+  "CVE-2010-1604": [
+    "http://packetstormsecurity.org/1004-exploits/nctjobsportal-sqlxss.txt"
+  ],
+  "CVE-2010-1606": [
+    "http://packetstormsecurity.org/1004-exploits/nctjobsportal-sqlxss.txt"
+  ],
+  "CVE-2010-1607": [
+    "http://www.exploit-db.com/exploits/12316"
+  ],
+  "CVE-2010-1611": [
+    "http://packetstormsecurity.org/1002-exploits/alegrocart-xsrf.txt"
+  ],
+  "CVE-2010-1618": [
+    "http://www.ja-sig.org/issues/browse/PHPCAS-52"
+  ],
+  "CVE-2010-1620": [
+    "http://ftpmain.gnustep.org/pub/gnustep/core/gnustep-base-1.20.0.tar.gz"
+  ],
+  "CVE-2010-1622": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2015-2367953.html"
+  ],
+  "CVE-2010-1624": [
+    "http://www.securityfocus.com/bid/40138"
+  ],
+  "CVE-2010-1626": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9490"
+  ],
+  "CVE-2010-1634": [
+    "http://www.ubuntu.com/usn/USN-1616-1"
+  ],
+  "CVE-2010-1635": [
+    "https://bugzilla.samba.org/show_bug.cgi?id=7229"
+  ],
+  "CVE-2010-1637": [
+    "http://squirrelmail.svn.sourceforge.net/viewvc/squirrelmail/branches/SM-1_4-STABLE/squirrelmail/plugins/mail_fetch/options.php?r1=13951&r2=13950&pathrev=13951"
+  ],
+  "CVE-2010-1638": [
+    "http://conference.hitb.org/hitbsecconf2010dxb/materials/D1%20-%20Laurent%20Oudot%20-%20Improving%20the%20Stealthiness%20of%20Web%20Hacking.pdf#page=74"
+  ],
+  "CVE-2010-1641": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9916"
+  ],
+  "CVE-2010-1651": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg1PM15829"
+  ],
+  "CVE-2010-1652": [
+    "http://www.exploit-db.com/exploits/12421"
+  ],
+  "CVE-2010-1653": [
+    "http://www.exploit-db.com/exploits/12430"
+  ],
+  "CVE-2010-1654": [
+    "http://packetstormsecurity.org/1004-exploits/ireee-sql.txt"
+  ],
+  "CVE-2010-1657": [
+    "http://www.exploit-db.com/exploits/12428"
+  ],
+  "CVE-2010-1658": [
+    "http://www.exploit-db.com/exploits/12427"
+  ],
+  "CVE-2010-1659": [
+    "http://www.exploit-db.com/exploits/12426"
+  ],
+  "CVE-2010-1660": [
+    "http://packetstormsecurity.org/1004-exploits/clscriptclassfieds-sql.txt"
+  ],
+  "CVE-2010-1661": [
+    "http://www.exploit-db.com/exploits/12416"
+  ],
+  "CVE-2010-1662": [
+    "http://www.exploit-db.com/exploits/12416"
+  ],
+  "CVE-2010-1681": [
+    "http://www.coresecurity.com/content/ms-visio-dxf-buffer-overflow"
+  ],
+  "CVE-2010-1685": [
+    "https://seclists.org/fulldisclosure/2010/Apr/331"
+  ],
+  "CVE-2010-1689": [
+    "http://www.coresecurity.com/content/CORE-2010-0424-windows-smtp-dns-query-id-bugs"
+  ],
+  "CVE-2010-1690": [
+    "http://www.coresecurity.com/content/CORE-2010-0424-windows-smtp-dns-query-id-bugs"
+  ],
+  "CVE-2010-1702": [
+    "http://packetstormsecurity.org/1004-exploits/whmcs-sql.txt"
+  ],
+  "CVE-2010-1703": [
+    "http://packetstormsecurity.org/1004-exploits/aps-sqlxss.txt"
+  ],
+  "CVE-2010-1704": [
+    "http://packetstormsecurity.org/1004-exploits/aps-sqlxss.txt"
+  ],
+  "CVE-2010-1706": [
+    "http://packetstormsecurity.org/1004-exploits/2daybizauctionscript-sql.txt"
+  ],
+  "CVE-2010-1708": [
+    "http://packetstormsecurity.org/1004-exploits/freerealty-sql.txt"
+  ],
+  "CVE-2010-1710": [
+    "http://packetstormsecurity.org/1004-exploits/siestta-lfixss.txt"
+  ],
+  "CVE-2010-1711": [
+    "http://packetstormsecurity.org/1004-exploits/siestta-lfixss.txt"
+  ],
+  "CVE-2010-1713": [
+    "http://packetstormsecurity.org/1004-exploits/postnukemodload-sql.txt"
+  ],
+  "CVE-2010-1714": [
+    "http://www.exploit-db.com/exploits/12168"
+  ],
+  "CVE-2010-1715": [
+    "http://www.exploit-db.com/exploits/12174"
+  ],
+  "CVE-2010-1717": [
+    "http://www.exploit-db.com/exploits/12291"
+  ],
+  "CVE-2010-1718": [
+    "http://www.exploit-db.com/exploits/12282"
+  ],
+  "CVE-2010-1719": [
+    "http://www.exploit-db.com/exploits/12233"
+  ],
+  "CVE-2010-1722": [
+    "http://www.exploit-db.com/exploits/12177"
+  ],
+  "CVE-2010-1723": [
+    "http://www.exploit-db.com/exploits/12289"
+  ],
+  "CVE-2010-1725": [
+    "http://packetstormsecurity.org/1004-exploits/alibabacloneplatinum-sql.txt"
+  ],
+  "CVE-2010-1726": [
+    "http://packetstormsecurity.org/1004-exploits/ec21clone-sql.txt"
+  ],
+  "CVE-2010-1727": [
+    "http://packetstormsecurity.org/1004-exploits/jobpost-sql.txt"
+  ],
+  "CVE-2010-1734": [
+    "http://vigilance.fr/vulnerability/Windows-denials-of-service-of-win32k-sys-9607"
+  ],
+  "CVE-2010-1735": [
+    "http://vigilance.fr/vulnerability/Windows-denials-of-service-of-win32k-sys-9607"
+  ],
+  "CVE-2010-1736": [
+    "http://packetstormsecurity.org/1004-exploits/krmhaber-disclose.txt"
+  ],
+  "CVE-2010-1737": [
+    "http://www.exploit-db.com/exploits/12488"
+  ],
+  "CVE-2010-1739": [
+    "http://packetstormsecurity.org/1004-exploits/joomlanewsfeeds-sql.txt"
+  ],
+  "CVE-2010-1740": [
+    "http://packetstormsecurity.org/1005-exploits/guppy-sql.txt"
+  ],
+  "CVE-2010-1741": [
+    "http://packetstormsecurity.org/1005-exploits/billwerx-sql.txt"
+  ],
+  "CVE-2010-1742": [
+    "http://packetstormsecurity.org/1004-exploits/scratcher-sqlxss.txt"
+  ],
+  "CVE-2010-1743": [
+    "http://packetstormsecurity.org/1004-exploits/scratcher-sqlxss.txt"
+  ],
+  "CVE-2010-1744": [
+    "http://packetstormsecurity.org/1004-exploits/b2bgoldscript-sql.txt"
+  ],
+  "CVE-2010-1748": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9723"
+  ],
+  "CVE-2010-1818": [
+    "http://threatpost.com/en_us/blogs/new-remote-flaw-apple-quicktime-bypasses-aslr-and-dep-083010"
+  ],
+  "CVE-2010-1851": [
+    "http://www.cnet.com/8301-31361_1-20004265-254.html"
+  ],
+  "CVE-2010-1852": [
+    "http://www.cnet.com/8301-31361_1-20004265-254.html"
+  ],
+  "CVE-2010-1855": [
+    "http://packetstormsecurity.org/1003-exploits/ppwb-sql.txt"
+  ],
+  "CVE-2010-1856": [
+    "http://packetstormsecurity.org/1003-exploits/repairshop2-xss.txt"
+  ],
+  "CVE-2010-1858": [
+    "http://packetstormsecurity.org/1003-exploits/joomlasmestorage-lfi.txt"
+  ],
+  "CVE-2010-1870": [
+    "http://www.exploit-db.com/exploits/14360"
+  ],
+  "CVE-2010-1872": [
+    "http://packetstormsecurity.org/1004-exploits/flashcard-xss.txt"
+  ],
+  "CVE-2010-1873": [
+    "http://www.exploit-db.com/exploits/12190"
+  ],
+  "CVE-2010-1876": [
+    "http://packetstormsecurity.org/1004-exploits/ajshoppingcart-sql.txt"
+  ],
+  "CVE-2010-1877": [
+    "http://packetstormsecurity.org/1004-exploits/joomlajtmreseller-sql.txt"
+  ],
+  "CVE-2010-1878": [
+    "http://www.exploit-db.com/exploits/12317"
+  ],
+  "CVE-2010-1881": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-044"
+  ],
+  "CVE-2010-1886": [
+    "http://support.microsoft.com/kb/982316"
+  ],
+  "CVE-2010-1887": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-048"
+  ],
+  "CVE-2010-1891": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-069"
+  ],
+  "CVE-2010-1894": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-048"
+  ],
+  "CVE-2010-1895": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-048"
+  ],
+  "CVE-2010-1896": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-048"
+  ],
+  "CVE-2010-1897": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-048"
+  ],
+  "CVE-2010-1918": [
+    "http://packetstormsecurity.org/1005-exploits/MOPS-2010-018.pdf"
+  ],
+  "CVE-2010-1919": [
+    "http://www.packetstormsecurity.org/1005-advisories/ESA-2010-007.txt"
+  ],
+  "CVE-2010-1920": [
+    "http://www.exploit-db.com/exploits/12486"
+  ],
+  "CVE-2010-1921": [
+    "http://www.exploit-db.com/exploits/12486"
+  ],
+  "CVE-2010-1922": [
+    "http://packetstormsecurity.org/1005-exploits/29o3cms-rfi.txt"
+  ],
+  "CVE-2010-1923": [
+    "http://packetstormsecurity.org/1005-exploits/web20snfcs-sql.txt"
+  ],
+  "CVE-2010-1925": [
+    "http://packetstormsecurity.org/1005-exploits/teknoportal-sql.txt"
+  ],
+  "CVE-2010-1926": [
+    "http://www.exploit-db.com/exploits/12398"
+  ],
+  "CVE-2010-1927": [
+    "http://www.exploit-db.com/exploits/12398"
+  ],
+  "CVE-2010-1928": [
+    "http://www.exploit-db.com/exploits/12365"
+  ],
+  "CVE-2010-1929": [
+    "http://www.exploit-db.com/exploits/14010"
+  ],
+  "CVE-2010-1930": [
+    "http://www.exploit-db.com/exploits/14010"
+  ],
+  "CVE-2010-1931": [
+    "http://www.coresecurity.com/content/cubecart-php-shopping-cart-sql-injection"
+  ],
+  "CVE-2010-1932": [
+    "http://www.coresecurity.com/content/XnView-MBM-Processing-Heap-Overflow"
+  ],
+  "CVE-2010-1934": [
+    "http://www.exploit-db.com/exploits/12365"
+  ],
+  "CVE-2010-1935": [
+    "http://www.exploit-db.com/exploits/12364"
+  ],
+  "CVE-2010-1936": [
+    "http://www.exploit-db.com/exploits/12396"
+  ],
+  "CVE-2010-1938": [
+    "http://www.exploit-db.com/exploits/12762"
+  ],
+  "CVE-2010-1939": [
+    "http://h07.w.interia.pl/Safari.rar"
+  ],
+  "CVE-2010-1944": [
+    "http://www.exploit-db.com/exploits/12476"
+  ],
+  "CVE-2010-1945": [
+    "http://www.exploit-db.com/exploits/12366"
+  ],
+  "CVE-2010-1946": [
+    "http://www.exploit-db.com/exploits/12313"
+  ],
+  "CVE-2010-1947": [
+    "http://www.exploit-db.com/exploits/12313"
+  ],
+  "CVE-2010-1948": [
+    "http://www.exploit-db.com/exploits/12366"
+  ],
+  "CVE-2010-1949": [
+    "http://www.exploit-db.com/exploits/12305"
+  ],
+  "CVE-2010-1951": [
+    "http://www.exploit-db.com/exploits/12249"
+  ],
+  "CVE-2010-1952": [
+    "http://www.exploit-db.com/exploits/12239"
+  ],
+  "CVE-2010-1953": [
+    "http://www.exploit-db.com/exploits/12288"
+  ],
+  "CVE-2010-1954": [
+    "http://www.exploit-db.com/exploits/12287"
+  ],
+  "CVE-2010-1955": [
+    "http://www.exploit-db.com/exploits/12238"
+  ],
+  "CVE-2010-1956": [
+    "http://www.exploit-db.com/exploits/12285"
+  ],
+  "CVE-2010-1957": [
+    "http://www.exploit-db.com/exploits/12235"
+  ],
+  "CVE-2010-1958": [
+    "http://www.madirish.net/?article=461"
+  ],
+  "CVE-2010-1964": [
+    "http://securityreason.com/securityalert/8155"
+  ],
+  "CVE-2010-1977": [
+    "http://www.exploit-db.com/exploits/12083"
+  ],
+  "CVE-2010-1979": [
+    "http://www.exploit-db.com/exploits/12088"
+  ],
+  "CVE-2010-1980": [
+    "http://www.exploit-db.com/exploits/12085"
+  ],
+  "CVE-2010-1981": [
+    "http://www.exploit-db.com/exploits/12087"
+  ],
+  "CVE-2010-1982": [
+    "http://packetstormsecurity.org/1004-exploits/joomlajavoice-lfi.txt"
+  ],
+  "CVE-2010-1983": [
+    "http://www.exploit-db.com/exploits/12055"
+  ],
+  "CVE-2010-1987": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A12013"
+  ],
+  "CVE-2010-1997": [
+    "http://packetstormsecurity.org/1005-exploits/sauruscms-xss.txt"
+  ],
+  "CVE-2010-1999": [
+    "http://www.exploit-db.com/exploits/12475"
+  ],
+  "CVE-2010-2000": [
+    "http://drupal.org/node/797192"
+  ],
+  "CVE-2010-20007": [
+    "https://www.vulncheck.com/advisories/seagull-ftp-stack-buffer-overflow"
+  ],
+  "CVE-2010-20010": [
+    "https://www.vulncheck.com/advisories/foxit-pdf-reader-title-stack-buffer-overflow"
+  ],
+  "CVE-2010-2003": [
+    "http://packetstormsecurity.org/1005-exploits/advancedpoll208-xss.txt"
+  ],
+  "CVE-2010-20034": [
+    "https://www.vulncheck.com/advisories/gekko-manager-ftp-client-stack-buffer-overflow"
+  ],
+  "CVE-2010-20042": [
+    "https://www.vulncheck.com/advisories/xion-audio-player-unicode-stack-buffer-overflow"
+  ],
+  "CVE-2010-20045": [
+    "https://www.vulncheck.com/advisories/filewrangler-stack-buffer-overflow"
+  ],
+  "CVE-2010-20049": [
+    "https://www.vulncheck.com/advisories/leapftp-stack-buffer-overflow"
+  ],
+  "CVE-2010-2005": [
+    "http://www.packetstormsecurity.com/1001-exploits/datalifeengine83-rfi.txt"
+  ],
+  "CVE-2010-20059": [
+    "https://www.vulncheck.com/advisories/freenas-arbitrary-command-execution"
+  ],
+  "CVE-2010-2008": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-2009": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2010-4932.php"
+  ],
+  "CVE-2010-20103": [
+    "https://www.vulncheck.com/advisories/proftpd-backdoor-command-execution"
+  ],
+  "CVE-2010-20107": [
+    "https://www.vulncheck.com/advisories/ftp-synchronizer-professional-stack-buffer-overflow"
+  ],
+  "CVE-2010-20108": [
+    "https://www.vulncheck.com/advisories/ftppad-stack-buffer-overflow"
+  ],
+  "CVE-2010-20109": [
+    "https://www.vulncheck.com/advisories/barracuda-multiple-products-locale-path-traversal"
+  ],
+  "CVE-2010-20111": [
+    "https://www.vulncheck.com/advisories/digital-music-pad-stack-buffer-overflow"
+  ],
+  "CVE-2010-20112": [
+    "https://www.vulncheck.com/advisories/amlibweb-netopacs-stack-buffer-overflow"
+  ],
+  "CVE-2010-20113": [
+    "https://www.vulncheck.com/advisories/easyftp-server-list-html-stack-buffer-overflow"
+  ],
+  "CVE-2010-20114": [
+    "https://www.vulncheck.com/advisories/varicad-en-dwb-file-stack-buffer-overflow"
+  ],
+  "CVE-2010-20115": [
+    "https://www.vulncheck.com/advisories/vermillion-ftp-daemon-port-command-memory-corruption"
+  ],
+  "CVE-2010-20119": [
+    "https://www.vulncheck.com/advisories/communicrypt-mail-activex-control-buffer-overflow"
+  ],
+  "CVE-2010-2012": [
+    "http://packetstormsecurity.org/1005-exploits/migascms-sql.txt"
+  ],
+  "CVE-2010-20120": [
+    "https://www.vulncheck.com/advisories/maple-maplet-file-creation-command-execution"
+  ],
+  "CVE-2010-20121": [
+    "https://www.vulncheck.com/advisories/easyftp-server-cwd-command-stack-buffer-overflow"
+  ],
+  "CVE-2010-20122": [
+    "https://www.vulncheck.com/advisories/xftp-ftp-client-pwd-response-buffer-overflow"
+  ],
+  "CVE-2010-20123": [
+    "https://www.vulncheck.com/advisories/steinburg-mymp3player-buffer-overflow"
+  ],
+  "CVE-2010-2016": [
+    "http://packetstormsecurity.org/1005-exploits/iceberg-sql.txt"
+  ],
+  "CVE-2010-2017": [
+    "http://packetstormsecurity.org/1005-exploits/lokomediacms-xss.txt"
+  ],
+  "CVE-2010-2018": [
+    "http://packetstormsecurity.org/1005-exploits/lokomediacms-disclose.txt"
+  ],
+  "CVE-2010-2021": [
+    "http://www.madirish.net/?article=460"
+  ],
+  "CVE-2010-2031": [
+    "http://www.exploit-db.com/exploits/12710"
+  ],
+  "CVE-2010-2032": [
+    "http://packetstormsecurity.org/1005-exploits/cauchoresin312-xss.txt"
+  ],
+  "CVE-2010-2033": [
+    "http://packetstormsecurity.org/1005-exploits/joomlaperchact-lfi.txt"
+  ],
+  "CVE-2010-2034": [
+    "http://packetstormsecurity.org/1005-exploits/joomlaperchaia-lfi.txt"
+  ],
+  "CVE-2010-2035": [
+    "http://packetstormsecurity.org/1005-exploits/joomlaperchagl-lfi.txt"
+  ],
+  "CVE-2010-2036": [
+    "http://packetstormsecurity.org/1005-exploits/joomlaperchafa-lfi.txt"
+  ],
+  "CVE-2010-2037": [
+    "http://packetstormsecurity.org/1005-exploits/joomlaperchada-lfi.txt"
+  ],
+  "CVE-2010-2038": [
+    "http://packetstormsecurity.org/1005-exploits/gpeasycms-xss.txt"
+  ],
+  "CVE-2010-2039": [
+    "http://packetstormsecurity.org/1004-exploits/gpeasy-xsrf.txt"
+  ],
+  "CVE-2010-2040": [
+    "http://www.packetstormsecurity.org/1005-exploits/shopzillaas-xss.txt"
+  ],
+  "CVE-2010-2041": [
+    "http://packetstormsecurity.org/1005-advisories/phpcalendar-xss.txt"
+  ],
+  "CVE-2010-2042": [
+    "http://packetstormsecurity.org/1005-exploits/ecshopsearch-sql.txt"
+  ],
+  "CVE-2010-2043": [
+    "http://packetstormsecurity.org/1005-exploits/datatrackserver35-xss.txt"
+  ],
+  "CVE-2010-2044": [
+    "http://packetstormsecurity.org/1005-exploits/joomlakonsultasi-sql.txt"
+  ],
+  "CVE-2010-2045": [
+    "http://www.exploit-db.com/exploits/12595"
+  ],
+  "CVE-2010-2046": [
+    "http://packetstormsecurity.org/1005-exploits/joomlaactivehelper-xss.txt"
+  ],
+  "CVE-2010-2047": [
+    "http://www.exploit-db.com/exploits/12641"
+  ],
+  "CVE-2010-2050": [
+    "http://packetstormsecurity.org/1005-exploits/joomlamscomment-lfi.txt"
+  ],
+  "CVE-2010-2051": [
+    "http://packetstormsecurity.org/1005-exploits/dbcart-sql.txt"
+  ],
+  "CVE-2010-2054": [
+    "http://sourceforge.net/tracker/index.php?func=detail&aid=3001915&group_id=128809&atid=712784"
+  ],
+  "CVE-2010-2055": [
+    "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=583316"
+  ],
+  "CVE-2010-2062": [
+    "https://dzcore.wordpress.com/2009/07/27/dzc-2009-001-the-movie-player-and-vlc-media-player-real-data-transport-parsing-integer-underflow/"
+  ],
+  "CVE-2010-2063": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9859"
+  ],
+  "CVE-2010-2066": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-2068": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2010-2070": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-2078": [
+    "http://packetstormsecurity.org/1005-exploits/datatrackserver35-xss.txt"
+  ],
+  "CVE-2010-2079": [
+    "http://packetstormsecurity.org/1005-exploits/datatrackserver35-xss.txt"
+  ],
+  "CVE-2010-2085": [
+    "http://www.blackhat.com/presentations/bh-dc-10/Byrne_David/BlackHat-DC-2010-Byrne-SGUI-slides.pdf"
+  ],
+  "CVE-2010-2086": [
+    "http://www.blackhat.com/presentations/bh-dc-10/Byrne_David/BlackHat-DC-2010-Byrne-SGUI-slides.pdf"
+  ],
+  "CVE-2010-2087": [
+    "http://www.blackhat.com/presentations/bh-dc-10/Byrne_David/BlackHat-DC-2010-Byrne-SGUI-slides.pdf"
+  ],
+  "CVE-2010-2088": [
+    "http://www.blackhat.com/presentations/bh-dc-10/Byrne_David/BlackHat-DC-2010-Byrne-SGUI-slides.pdf"
+  ],
+  "CVE-2010-2089": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=598197"
+  ],
+  "CVE-2010-2102": [
+    "http://www.exploit-db.com/exploits/12740"
+  ],
+  "CVE-2010-2103": [
+    "http://www.exploit-db.com/exploits/12689"
+  ],
+  "CVE-2010-2111": [
+    "http://cross-site-scripting.blogspot.com/2010/05/pacific-timesheet-674-cross-site.html"
+  ],
+  "CVE-2010-2113": [
+    "http://cross-site-scripting.blogspot.com/2010/05/uniform-server-565-xsrf.html"
+  ],
+  "CVE-2010-2114": [
+    "http://cross-site-scripting.blogspot.com/2010/05/brekeke-pbx-2448-cross-site-request.html"
+  ],
+  "CVE-2010-2121": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11622"
+  ],
+  "CVE-2010-2122": [
+    "http://packetstormsecurity.org/1005-exploits/joomlasimpledownload-lfi.txt"
+  ],
+  "CVE-2010-2124": [
+    "http://packetstormsecurity.org/1005-exploits/conpresso407-sql.txt"
+  ],
+  "CVE-2010-2126": [
+    "http://packetstormsecurity.org/1004-exploits/snipegallery-rfi.txt"
+  ],
+  "CVE-2010-2127": [
+    "http://packetstormsecurity.org/1005-exploits/jv2foldergallery-rfi.txt"
+  ],
+  "CVE-2010-2129": [
+    "http://packetstormsecurity.org/1005-exploits/joomlaajaxec-lfi.txt"
+  ],
+  "CVE-2010-2130": [
+    "http://packetstormsecurity.org/1002-exploits/arisg5-xss.txt"
+  ],
+  "CVE-2010-2132": [
+    "http://www.packetstormsecurity.com/1002-exploits/oes-rfi.txt"
+  ],
+  "CVE-2010-2133": [
+    "http://packetstormsecurity.org/1003-exploits/mlf-sql.txt"
+  ],
+  "CVE-2010-2134": [
+    "http://www.exploit-db.com/exploits/11584"
+  ],
+  "CVE-2010-2135": [
+    "http://www.exploit-db.com/exploits/11602"
+  ],
+  "CVE-2010-2136": [
+    "http://www.packetstormsecurity.com/1002-exploits/articlefriendly-lfi.txt"
+  ],
+  "CVE-2010-2137": [
+    "http://www.exploit-db.com/exploits/11587"
+  ],
+  "CVE-2010-2138": [
+    "http://www.exploit-db.com/exploits/11587"
+  ],
+  "CVE-2010-2141": [
+    "http://packetstormsecurity.org/1005-exploits/nitro-sql.txt"
+  ],
+  "CVE-2010-2142": [
+    "http://packetstormsecurity.org/1005-exploits/cyberhost-sql.txt"
+  ],
+  "CVE-2010-2143": [
+    "http://www.exploit-db.com/exploits/12809"
+  ],
+  "CVE-2010-2144": [
+    "http://packetstormsecurity.org/1005-exploits/zeeways-xss.txt"
+  ],
+  "CVE-2010-2153": [
+    "http://www.packetstormsecurity.org/1006-exploits/tcexam-shell.txt"
+  ],
+  "CVE-2010-2160": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2161": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2162": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2163": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2164": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2165": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2166": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2167": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2169": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2170": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2171": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2172": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2173": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2174": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2175": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2176": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2177": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2178": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2179": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2180": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2181": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2182": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2183": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A7278"
+  ],
+  "CVE-2010-2184": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2185": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2186": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2187": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2188": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0470.html"
+  ],
+  "CVE-2010-2208": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A7188"
+  ],
+  "CVE-2010-2226": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-2227": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-2235": [
+    "http://people.fedoraproject.org/~shenson/cobbler/cobbler-2.0.8.tar.gz"
+  ],
+  "CVE-2010-2240": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0670.html"
+  ],
+  "CVE-2010-2243": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ad6759fbf35d104dbf573cd6f4c6784ad6823f7e"
+  ],
+  "CVE-2010-2248": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-2249": [
+    "http://libpng.git.sourceforge.net/git/gitweb.cgi?p=libpng/libpng%3Ba=commitdiff%3Bh=90cfcecc09febb8d6c8c1d37ea7bb7cf0f4b00f3#patch20"
+  ],
+  "CVE-2010-2252": [
+    "http://lists.gnu.org/archive/html/bug-wget/2010-05/msg00031.html"
+  ],
+  "CVE-2010-2254": [
+    "http://packetstormsecurity.org/1001-exploits/joomlaboh-sql.txt"
+  ],
+  "CVE-2010-2255": [
+    "http://packetstormsecurity.org/1001-exploits/joomlabfsurveypro-sql.txt"
+  ],
+  "CVE-2010-2256": [
+    "http://packetstormsecurity.org/1001-exploits/ppmvcs-sqlxss.txt"
+  ],
+  "CVE-2010-2257": [
+    "http://packetstormsecurity.org/1001-exploits/ppmvcs-sqlxss.txt"
+  ],
+  "CVE-2010-2258": [
+    "http://packetstormsecurity.org/1001-exploits/phpbannerexchange-xss.txt"
+  ],
+  "CVE-2010-2259": [
+    "http://packetstormsecurity.org/1001-exploits/joomlabfsurvey-lfi.txt"
+  ],
+  "CVE-2010-2260": [
+    "http://packetstormsecurity.org/1001-exploits/bandwidthmeter-xss.txt"
+  ],
+  "CVE-2010-2263": [
+    "http://www.exploit-db.com/exploits/13822"
+  ],
+  "CVE-2010-2273": [
+    "http://www.gdssecurity.com/l/b/2010/03/12/multiple-dom-based-xss-in-dojo-toolkit-sdk/"
+  ],
+  "CVE-2010-2274": [
+    "http://www-1.ibm.com/support/docview.wss?uid=swg1LO50833"
+  ],
+  "CVE-2010-2275": [
+    "http://www.gdssecurity.com/l/b/2010/03/12/multiple-dom-based-xss-in-dojo-toolkit-sdk/"
+  ],
+  "CVE-2010-2276": [
+    "http://www-1.ibm.com/support/docview.wss?uid=swg1LO50833"
+  ],
+  "CVE-2010-2290": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10010"
+  ],
+  "CVE-2010-2295": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=552255"
+  ],
+  "CVE-2010-2301": [
+    "https://bugs.webkit.org/show_bug.cgi?id=38922"
+  ],
+  "CVE-2010-2311": [
+    "http://www.exploit-db.com/exploits/13820"
+  ],
+  "CVE-2010-2313": [
+    "http://www.exploit-db.com/exploits/12848/"
+  ],
+  "CVE-2010-2314": [
+    "http://www.exploit-db.com/exploits/12790/"
+  ],
+  "CVE-2010-2318": [
+    "http://packetstormsecurity.org/1001-exploits/phpcityportal-xss.txt"
+  ],
+  "CVE-2010-2321": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2010-4941.php"
+  ],
+  "CVE-2010-2324": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg1PM15829"
+  ],
+  "CVE-2010-2328": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg1PM15829"
+  ],
+  "CVE-2010-2329": [
+    "http://packetstormsecurity.org/1006-exploits/rosoft444-overflow.txt"
+  ],
+  "CVE-2010-2330": [
+    "http://www.exploit-db.com/exploits/13876"
+  ],
+  "CVE-2010-2335": [
+    "http://www.exploit-db.com/exploits/13845"
+  ],
+  "CVE-2010-2336": [
+    "http://www.exploit-db.com/exploits/13845"
+  ],
+  "CVE-2010-2338": [
+    "http://packetstormsecurity.org/1006-exploits/vuwebvisitoranalyst-sql.txt"
+  ],
+  "CVE-2010-2339": [
+    "http://packetstormsecurity.org/1006-advisories/major_rls73.txt"
+  ],
+  "CVE-2010-2340": [
+    "http://packetstormsecurity.org/1006-exploits/arabportal22x-sql.txt"
+  ],
+  "CVE-2010-2341": [
+    "http://packetstormsecurity.org/1006-exploits/ezpxphotoblog-rfi.txt"
+  ],
+  "CVE-2010-2343": [
+    "http://www.exploit-db.com/exploits/13763"
+  ],
+  "CVE-2010-2349": [
+    "http://www.exploit-db.com/exploits/13920"
+  ],
+  "CVE-2010-2351": [
+    "http://www.exploit-db.com/exploits/13906"
+  ],
+  "CVE-2010-2354": [
+    "http://packetstormsecurity.org/1006-exploits/elms-sql-xss.txt"
+  ],
+  "CVE-2010-2356": [
+    "http://packetstormsecurity.org/1006-exploits/elms-sql-xss.txt"
+  ],
+  "CVE-2010-2358": [
+    "http://packetstormsecurity.org/1006-exploits/nakid-rfi.txt"
+  ],
+  "CVE-2010-2359": [
+    "http://packetstormsecurity.org/1006-exploits/ewebquizv8-sql.txt"
+  ],
+  "CVE-2010-2370": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2371": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2372": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2373": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2374": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2375": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2376": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2377": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2378": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2379": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2380": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2381": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2382": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2383": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2384": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2385": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2386": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2388": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2389": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2390": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2391": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2392": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2393": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2394": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2395": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2396": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2397": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2398": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2399": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2400": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2401": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2402": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2403": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2404": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2405": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2406": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2407": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2408": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2409": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2410": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2411": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2412": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2413": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2414": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2415": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2416": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2417": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2418": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2419": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-2429": [
+    "http://www.splunk.com/view/SP-CAAAFHY"
+  ],
+  "CVE-2010-2435": [
+    "http://freshmeat.net/projects/weborf/releases/318531"
+  ],
+  "CVE-2010-2439": [
+    "http://www.exploit-db.com/exploits/13934"
+  ],
+  "CVE-2010-2440": [
+    "http://www.exploit-db.com/exploits/13965"
+  ],
+  "CVE-2010-2441": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=552255"
+  ],
+  "CVE-2010-2442": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=552255"
+  ],
+  "CVE-2010-2445": [
+    "http://packetstormsecurity.com/files/163311/Android-2.0-FreeCIV-Arbitrary-Code-Execution.html"
+  ],
+  "CVE-2010-2456": [
+    "http://packetstormsecurity.org/1006-exploits/linkerimg-rfi.txt"
+  ],
+  "CVE-2010-2458": [
+    "http://packetstormsecurity.org/1006-exploits/2daybizvcp-sql.txt"
+  ],
+  "CVE-2010-2459": [
+    "http://packetstormsecurity.org/1006-exploits/2daybizvcp-sql.txt"
+  ],
+  "CVE-2010-2461": [
+    "http://packetstormsecurity.org/1006-exploits/overstock-sql.txt"
+  ],
+  "CVE-2010-2462": [
+    "http://packetstormsecurity.org/1006-exploits/orohyip-sql.txt"
+  ],
+  "CVE-2010-2464": [
+    "http://packetstormsecurity.org/1006-exploits/joomlarscomments-xss.txt"
+  ],
+  "CVE-2010-2465": [
+    "http://www.slideshare.net/shawn_merdinger/we-dont-need-no-stinkin-badges-hacking-electronic-door-access-controllersquot-shawn-merdinger-carolinacon"
+  ],
+  "CVE-2010-2466": [
+    "http://www.slideshare.net/shawn_merdinger/we-dont-need-no-stinkin-badges-hacking-electronic-door-access-controllersquot-shawn-merdinger-carolinacon"
+  ],
+  "CVE-2010-2467": [
+    "http://www.slideshare.net/shawn_merdinger/we-dont-need-no-stinkin-badges-hacking-electronic-door-access-controllersquot-shawn-merdinger-carolinacon"
+  ],
+  "CVE-2010-2468": [
+    "http://www.slideshare.net/shawn_merdinger/we-dont-need-no-stinkin-badges-hacking-electronic-door-access-controllersquot-shawn-merdinger-carolinacon"
+  ],
+  "CVE-2010-2469": [
+    "http://www.slideshare.net/shawn_merdinger/we-dont-need-no-stinkin-badges-hacking-electronic-door-access-controllersquot-shawn-merdinger-carolinacon"
+  ],
+  "CVE-2010-2478": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-2480": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=609573"
+  ],
+  "CVE-2010-2490": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-2490"
+  ],
+  "CVE-2010-2491": [
+    "http://sourceforge.net/mailarchive/message.php?msg_name=AANLkTimIYtyRzTAReGmTSCEqPYBvwkkxrP6YKrdVm_nU%40mail.gmail.com"
+  ],
+  "CVE-2010-2492": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-2495": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-2502": [
+    "http://www.splunk.com/view/SP-CAAAFGD"
+  ],
+  "CVE-2010-2503": [
+    "http://www.splunk.com/view/SP-CAAAFGD"
+  ],
+  "CVE-2010-2504": [
+    "http://www.splunk.com/view/SP-CAAAFGD"
+  ],
+  "CVE-2010-2505": [
+    "http://www.exploit-db.com/exploits/13888"
+  ],
+  "CVE-2010-2507": [
+    "http://packetstormsecurity.org/1006-exploits/joomlapicasa2gallery-lfi.txt"
+  ],
+  "CVE-2010-2513": [
+    "http://packetstormsecurity.org/1006-exploits/joomlajeajax-sql.txt"
+  ],
+  "CVE-2010-2514": [
+    "http://packetstormsecurity.org/1006-exploits/joomlajfaq-sqlxss.txt"
+  ],
+  "CVE-2010-2515": [
+    "http://packetstormsecurity.org/1006-exploits/joomlajfaq-sqlxss.txt"
+  ],
+  "CVE-2010-2521": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-2524": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-2525": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2646a1f61a3b5525914757f10fa12b5b94713648"
+  ],
+  "CVE-2010-2526": [
+    "http://www.ubuntu.com/usn/USN-1001-1"
+  ],
+  "CVE-2010-2535": [
+    "http://www.openwall.com/lists/oss-security/2010/07/21/8"
+  ],
+  "CVE-2010-2537": [
+    "http://www.ubuntu.com/usn/USN-1041-1"
+  ],
+  "CVE-2010-2538": [
+    "http://www.ubuntu.com/usn/USN-1041-1"
+  ],
+  "CVE-2010-2549": [
+    "http://www.exploit-db.com/exploits/14156"
+  ],
+  "CVE-2010-2556": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-053"
+  ],
+  "CVE-2010-2557": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-053"
+  ],
+  "CVE-2010-2558": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-053"
+  ],
+  "CVE-2010-2559": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-053"
+  ],
+  "CVE-2010-2560": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-053"
+  ],
+  "CVE-2010-2561": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-051"
+  ],
+  "CVE-2010-2563": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-067"
+  ],
+  "CVE-2010-2568": [
+    "http://isc.sans.edu/diary.html?storyid=9190"
+  ],
+  "CVE-2010-2586": [
+    "http://forums.winamp.com/showthread.php?threadid=159785"
+  ],
+  "CVE-2010-2609": [
+    "http://packetstormsecurity.org/1006-exploits/jobsearchengine-sql.txt"
+  ],
+  "CVE-2010-2611": [
+    "http://packetstormsecurity.org/1006-exploits/inetsolutionjobsearch-sql.txt"
+  ],
+  "CVE-2010-2613": [
+    "http://packetstormsecurity.org/1006-exploits/joomlaawdsong-xss.txt"
+  ],
+  "CVE-2010-2616": [
+    "http://www.packetstormsecurity.com/1006-exploits/phpbiblesearch-sqlxss.txt"
+  ],
+  "CVE-2010-2617": [
+    "http://www.packetstormsecurity.com/1006-exploits/phpbiblesearch-sqlxss.txt"
+  ],
+  "CVE-2010-2618": [
+    "http://www.exploit-db.com/exploits/14016"
+  ],
+  "CVE-2010-2621": [
+    "http://aluigi.org/poc/qtsslame.zip"
+  ],
+  "CVE-2010-2632": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-2669": [
+    "http://cross-site-scripting.blogspot.com/2010/07/orbis-102-reflected-xss.html"
+  ],
+  "CVE-2010-2673": [
+    "http://packetstormsecurity.org/1003-exploits/devana-sql.txt"
+  ],
+  "CVE-2010-2674": [
+    "http://packetstormsecurity.org/1003-exploits/tsokacms-sqlxss.txt"
+  ],
+  "CVE-2010-2675": [
+    "http://packetstormsecurity.org/1003-exploits/tsokacms-sqlxss.txt"
+  ],
+  "CVE-2010-2676": [
+    "http://packetstormsecurity.org/1003-exploits/owa123-lfirfi.txt"
+  ],
+  "CVE-2010-2677": [
+    "http://packetstormsecurity.org/1003-exploits/owa123-lfirfi.txt"
+  ],
+  "CVE-2010-2679": [
+    "http://packetstormsecurity.org/1003-exploits/joomlaweblinks-sql.txt"
+  ],
+  "CVE-2010-2680": [
+    "http://packetstormsecurity.org/1006-exploits/joomlajesectionfinder-lfi.txt"
+  ],
+  "CVE-2010-2682": [
+    "http://packetstormsecurity.org/1004-exploits/joomlarealtyna-lfi.txt"
+  ],
+  "CVE-2010-2683": [
+    "http://www.exploit-db.com/exploits/14112"
+  ],
+  "CVE-2010-2684": [
+    "http://packetstormsecurity.org/1006-exploits/pagedirector-sqladdadmin.txt"
+  ],
+  "CVE-2010-2685": [
+    "http://packetstormsecurity.org/1006-exploits/pagedirector-sqladdadmin.txt"
+  ],
+  "CVE-2010-2687": [
+    "http://packetstormsecurity.org/1006-exploits/boatclassifieds-sql.txt"
+  ],
+  "CVE-2010-2688": [
+    "http://packetstormsecurity.org/1006-exploits/boatclassdetail-sql.txt"
+  ],
+  "CVE-2010-2689": [
+    "http://packetstormsecurity.org/1006-exploits/webdm-sql.txt"
+  ],
+  "CVE-2010-2690": [
+    "http://www.exploit-db.com/exploits/14126"
+  ],
+  "CVE-2010-2691": [
+    "http://www.packetstormsecurity.com/1006-exploits/2daybiztshirt-sql.txt"
+  ],
+  "CVE-2010-2692": [
+    "http://www.packetstormsecurity.com/1006-exploits/2daybiztshirt-sql.txt"
+  ],
+  "CVE-2010-2694": [
+    "http://www.exploit-db.com/exploits/14312"
+  ],
+  "CVE-2010-2702": [
+    "http://aluigi.altervista.org/adv/unrealcbof-adv.txt"
+  ],
+  "CVE-2010-2709": [
+    "http://www.exploit-db.com/exploits/14547"
+  ],
+  "CVE-2010-2716": [
+    "http://packetstormsecurity.org/1007-exploits/psnews-sql.txt"
+  ],
+  "CVE-2010-2718": [
+    "http://packetstormsecurity.org/1007-exploits/cruxpa-xss.txt"
+  ],
+  "CVE-2010-2721": [
+    "http://packetstormsecurity.org/1007-exploits/lyrics-sql.txt"
+  ],
+  "CVE-2010-2743": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-073"
+  ],
+  "CVE-2010-2744": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-073"
+  ],
+  "CVE-2010-2751": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=536466"
+  ],
+  "CVE-2010-2752": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=574059"
+  ],
+  "CVE-2010-2753": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=571106"
+  ],
+  "CVE-2010-2754": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=568564"
+  ],
+  "CVE-2010-2760": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=585815"
+  ],
+  "CVE-2010-2761": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=591165"
+  ],
+  "CVE-2010-2765": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=576447"
+  ],
+  "CVE-2010-2766": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=580445"
+  ],
+  "CVE-2010-2768": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=579744"
+  ],
+  "CVE-2010-2769": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=520189"
+  ],
+  "CVE-2010-2770": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=583520"
+  ],
+  "CVE-2010-2772": [
+    "http://www.wired.com/threatlevel/2010/07/siemens-scada/"
+  ],
+  "CVE-2010-2791": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2010-2795": [
+    "https://wiki.jasig.org/display/CASC/phpCAS+ChangeLog"
+  ],
+  "CVE-2010-2796": [
+    "https://wiki.jasig.org/display/CASC/phpCAS+ChangeLog"
+  ],
+  "CVE-2010-2797": [
+    "http://cross-site-scripting.blogspot.com/2010/07/cms-made-simple-18-local-file-inclusion.html"
+  ],
+  "CVE-2010-2798": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-2800": [
+    "http://libmspack.svn.sourceforge.net/viewvc/libmspack?view=revision&revision=95"
+  ],
+  "CVE-2010-2801": [
+    "http://libmspack.svn.sourceforge.net/viewvc/libmspack?view=revision&revision=118"
+  ],
+  "CVE-2010-2806": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=621980"
+  ],
+  "CVE-2010-2809": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=621965"
+  ],
+  "CVE-2010-2812": [
+    "http://znc.svn.sourceforge.net/viewvc/znc/trunk/Client.cpp?r1=2093&r2=2092&pathrev=2093"
+  ],
+  "CVE-2010-2844": [
+    "http://packetstormsecurity.org/1007-exploits/newsoffice-xss.txt"
+  ],
+  "CVE-2010-2845": [
+    "http://packetstormsecurity.org/1007-exploits/joomlaquickfaq-sql.txt"
+  ],
+  "CVE-2010-2846": [
+    "http://packetstormsecurity.org/1007-exploits/joomlaartforms-sqltraversalxss.txt"
+  ],
+  "CVE-2010-2847": [
+    "http://packetstormsecurity.org/1007-exploits/joomlaartforms-sqltraversalxss.txt"
+  ],
+  "CVE-2010-2848": [
+    "http://packetstormsecurity.org/1007-exploits/joomlaartforms-sqltraversalxss.txt"
+  ],
+  "CVE-2010-2849": [
+    "http://packetstormsecurity.org/1007-exploits/nubuilder-xss.txt"
+  ],
+  "CVE-2010-2850": [
+    "http://packetstormsecurity.org/1007-exploits/nubuilder-lfi.txt"
+  ],
+  "CVE-2010-2852": [
+    "http://cross-site-scripting.blogspot.com/2010/07/runcms-21-magpie-rss-module-reflected.html"
+  ],
+  "CVE-2010-2853": [
+    "http://packetstormsecurity.org/1004-exploits/iscriptsvisualcaster-sql.txt"
+  ],
+  "CVE-2010-2857": [
+    "http://packetstormsecurity.org/1007-exploits/joomlamusicmanager-lfi.txt"
+  ],
+  "CVE-2010-2858": [
+    "http://packetstormsecurity.org/1007-exploits/simpnews-xss.txt"
+  ],
+  "CVE-2010-2859": [
+    "http://packetstormsecurity.org/1007-exploits/simpnews-xss.txt"
+  ],
+  "CVE-2010-2861": [
+    "http://www.gnucitizen.org/blog/coldfusion-directory-traversal-faq-cve-2010-2861/"
+  ],
+  "CVE-2010-2862": [
+    "http://www.zdnet.co.uk/news/security-threats/2010/08/04/adobe-confirms-pdf-security-hole-in-reader-40089737/"
+  ],
+  "CVE-2010-2863": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2864": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2865": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2866": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2867": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2868": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2869": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2870": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2871": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2872": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2873": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2874": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2875": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2876": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2877": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2878": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2879": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2880": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2881": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2882": [
+    "http://www.adobe.com/support/security/bulletins/apsb10-20.html"
+  ],
+  "CVE-2010-2891": [
+    "http://www.exploit-db.com/exploits/15293"
+  ],
+  "CVE-2010-2892": [
+    "http://www.exploit-db.com/exploits/15488"
+  ],
+  "CVE-2010-2904": [
+    "http://packetstormsecurity.org/1007-advisories/DSECRG-09-068.txt"
+  ],
+  "CVE-2010-2907": [
+    "http://packetstormsecurity.org/1004-exploits/joomlahuruhelpdesk-sql.txt"
+  ],
+  "CVE-2010-2908": [
+    "http://packetstormsecurity.org/1007-exploits/joomlajoomdle-sql.txt"
+  ],
+  "CVE-2010-2910": [
+    "http://packetstormsecurity.org/1007-exploits/joomlaoziogallery-sql.txt"
+  ],
+  "CVE-2010-2911": [
+    "http://packetstormsecurity.org/1007-exploits/kayakoesupport37002-sql.txt"
+  ],
+  "CVE-2010-2912": [
+    "http://packetstormsecurity.org/1007-exploits/kayakoesupport-sql.txt"
+  ],
+  "CVE-2010-2915": [
+    "http://www.exploit-db.com/exploits/14435"
+  ],
+  "CVE-2010-2916": [
+    "http://www.exploit-db.com/exploits/14436"
+  ],
+  "CVE-2010-2917": [
+    "http://packetstormsecurity.org/1007-exploits/ajarticle-xss.txt"
+  ],
+  "CVE-2010-2918": [
+    "http://packetstormsecurity.org/0804-exploits/joomlavisites-rfi.txt"
+  ],
+  "CVE-2010-2919": [
+    "http://packetstormsecurity.org/1007-exploits/joomlastaticxt-sql.txt"
+  ],
+  "CVE-2010-2920": [
+    "http://www.exploit-db.com/exploits/12120"
+  ],
+  "CVE-2010-2921": [
+    "http://packetstormsecurity.org/1007-exploits/joomlagolfcourseguide-sql.txt"
+  ],
+  "CVE-2010-2922": [
+    "http://packetstormsecurity.org/1007-exploits/akyblog-sql.txt"
+  ],
+  "CVE-2010-2923": [
+    "http://packetstormsecurity.org/1007-exploits/joomlayoutube-sql.txt"
+  ],
+  "CVE-2010-2925": [
+    "http://packetstormsecurity.org/1007-exploits/freewaycms-sql.txt"
+  ],
+  "CVE-2010-2928": [
+    "http://www.vmware.com/support/vsphere4/doc/vsp_vc41_u1_rel_notes.html"
+  ],
+  "CVE-2010-2932": [
+    "http://www.exploit-db.com/exploits/14504"
+  ],
+  "CVE-2010-2934": [
+    "http://znc.svn.sourceforge.net/viewvc/znc?view=revision&revision=2095"
+  ],
+  "CVE-2010-2935": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-2936": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=622529#c6"
+  ],
+  "CVE-2010-2938": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-2939": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-2942": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-2943": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-2946": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-2947": [
+    "http://libhx.git.sourceforge.net/git/gitweb.cgi?p=libhx/libhx%3Ba=commit%3Bh=904a46f90dd3f046bfac0b64a5e813d7cd4fca59"
+  ],
+  "CVE-2010-2950": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=598537"
+  ],
+  "CVE-2010-2954": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-2955": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-2960": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-2962": [
+    "http://www.ubuntu.com/usn/USN-1041-1"
+  ],
+  "CVE-2010-2963": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-2965": [
+    "http://www.kb.cert.org/vuls/id/MAPG-86EPFA"
+  ],
+  "CVE-2010-2975": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2976": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2977": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2978": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2979": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2980": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2981": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2982": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2983": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2984": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2986": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2987": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-2988": [
+    "http://www.cisco.com/en/US/docs/wireless/controller/release/notes/crn7.0.html"
+  ],
+  "CVE-2010-3015": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3023": [
+    "http://packetstormsecurity.org/1008-exploits/diamondlist-xssxsrf.txt"
+  ],
+  "CVE-2010-3024": [
+    "http://www.exploit-db.com/exploits/14565"
+  ],
+  "CVE-2010-3025": [
+    "http://packetstormsecurity.org/1008-exploits/openblog-xssxsrf.txt"
+  ],
+  "CVE-2010-3026": [
+    "http://www.exploit-db.com/exploits/14562"
+  ],
+  "CVE-2010-3027": [
+    "http://packetstormsecurity.org/1008-exploits/tycoonrecord-sql.txt"
+  ],
+  "CVE-2010-3039": [
+    "http://seclists.org/fulldisclosure/2010/Nov/40"
+  ],
+  "CVE-2010-3048": [
+    "http://www.fuzzmyapp.com/advisories/FMA-2010-002/FMA-2010-002-EN.xml"
+  ],
+  "CVE-2010-3056": [
+    "http://yehg.net/lab/pr0js/advisories/phpmyadmin/%5Bphpmyadmin-3.3.5%5D_cross_site_scripting%28XSS%29"
+  ],
+  "CVE-2010-3066": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3067": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3069": [
+    "http://www.vmware.com/security/advisories/VMSA-2010-0019.html"
+  ],
+  "CVE-2010-3073": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=630460"
+  ],
+  "CVE-2010-3074": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=630460"
+  ],
+  "CVE-2010-3075": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=630460"
+  ],
+  "CVE-2010-3076": [
+    "http://packetstormsecurity.org/1009-exploits/smbind-sql.txt"
+  ],
+  "CVE-2010-3077": [
+    "http://seclists.org/fulldisclosure/2010/Sep/82"
+  ],
+  "CVE-2010-3078": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3079": [
+    "http://www.ubuntu.com/usn/USN-1041-1"
+  ],
+  "CVE-2010-3080": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-3081": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3084": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-3086": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3107": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A12074"
+  ],
+  "CVE-2010-3113": [
+    "http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=628032"
+  ],
+  "CVE-2010-3125": [
+    "http://www.exploit-db.com/exploits/14747"
+  ],
+  "CVE-2010-3127": [
+    "http://blog.zoller.lu/2010/08/cve-2010-xn-loadlibrarygetprocaddress.html"
+  ],
+  "CVE-2010-3130": [
+    "http://www.exploit-db.com/exploits/14764"
+  ],
+  "CVE-2010-3131": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=579593"
+  ],
+  "CVE-2010-3138": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2012/ms12-014"
+  ],
+  "CVE-2010-3139": [
+    "http://www.exploit-db.com/exploits/14758"
+  ],
+  "CVE-2010-3144": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-097"
+  ],
+  "CVE-2010-3145": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-001"
+  ],
+  "CVE-2010-3146": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-016"
+  ],
+  "CVE-2010-3147": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A12352"
+  ],
+  "CVE-2010-3148": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-055"
+  ],
+  "CVE-2010-3166": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=579655"
+  ],
+  "CVE-2010-3167": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=576070"
+  ],
+  "CVE-2010-3168": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=576075"
+  ],
+  "CVE-2010-3171": [
+    "http://www.trusteer.com/sites/default/files/Cross_domain_Math_Random_leakage_in_FF_3.6.4-3.6.8.pdf"
+  ],
+  "CVE-2010-3173": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=587234"
+  ],
+  "CVE-2010-3175": [
+    "http://www.ubuntu.com/usn/USN-998-1"
+  ],
+  "CVE-2010-3176": [
+    "http://www.ubuntu.com/usn/USN-998-1"
+  ],
+  "CVE-2010-3178": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=576616"
+  ],
+  "CVE-2010-3179": [
+    "http://www.ubuntu.com/usn/USN-998-1"
+  ],
+  "CVE-2010-3180": [
+    "http://www.ubuntu.com/usn/USN-998-1"
+  ],
+  "CVE-2010-3182": [
+    "http://www.ubuntu.com/usn/USN-998-1"
+  ],
+  "CVE-2010-3183": [
+    "http://www.ubuntu.com/usn/USN-998-1"
+  ],
+  "CVE-2010-3187": [
+    "http://seclists.org/fulldisclosure/2010/Jul/337"
+  ],
+  "CVE-2010-3201": [
+    "https://www.exploit-db.com/exploits/34797/"
+  ],
+  "CVE-2010-3202": [
+    "http://flock.com/security/"
+  ],
+  "CVE-2010-3204": [
+    "http://packetstormsecurity.org/1008-exploits/peciocms-rfi.txt"
+  ],
+  "CVE-2010-3205": [
+    "http://packetstormsecurity.org/1008-exploits/textpattern-rfi.txt"
+  ],
+  "CVE-2010-3206": [
+    "http://packetstormsecurity.org/1008-exploits/diycms-rfi.txt"
+  ],
+  "CVE-2010-3207": [
+    "http://packetstormsecurity.org/1008-exploits/galeriashqip-sql.txt"
+  ],
+  "CVE-2010-3208": [
+    "http://www.packetstormsecurity.com/1008-exploits/wiccle-xss.txt"
+  ],
+  "CVE-2010-3209": [
+    "http://packetstormsecurity.org/1008-exploits/seagull-rfi.txt"
+  ],
+  "CVE-2010-3210": [
+    "http://packetstormsecurity.org/1008-exploits/mlecomsys-rfi.txt"
+  ],
+  "CVE-2010-3212": [
+    "http://www.exploit-db.com/exploits/14838"
+  ],
+  "CVE-2010-3213": [
+    "http://www.exploit-db.com/exploits/14285"
+  ],
+  "CVE-2010-3222": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-084"
+  ],
+  "CVE-2010-3227": [
+    "http://www.exploit-db.com/exploits/13921/"
+  ],
+  "CVE-2010-3243": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-072"
+  ],
+  "CVE-2010-3262": [
+    "http://flock.com/security/"
+  ],
+  "CVE-2010-3266": [
+    "http://www.exploit-db.com/exploits/15653"
+  ],
+  "CVE-2010-3267": [
+    "http://www.exploit-db.com/exploits/15653"
+  ],
+  "CVE-2010-3268": [
+    "http://www.coresecurity.com/content/symantec-intel-handler-service-remote-dos"
+  ],
+  "CVE-2010-3269": [
+    "http://www.coresecurity.com/content/webex-atp-and-wrf-overflow-vulnerabilities"
+  ],
+  "CVE-2010-3270": [
+    "http://www.coresecurity.com/content/webex-atp-and-wrf-overflow-vulnerabilities"
+  ],
+  "CVE-2010-3271": [
+    "http://www.exploit-db.com/exploits/17404"
+  ],
+  "CVE-2010-3272": [
+    "http://www.coresecurity.com/content/zoho-manageengine-vulnerabilities"
+  ],
+  "CVE-2010-3273": [
+    "http://www.coresecurity.com/content/zoho-manageengine-vulnerabilities"
+  ],
+  "CVE-2010-3274": [
+    "http://www.coresecurity.com/content/zoho-manageengine-vulnerabilities"
+  ],
+  "CVE-2010-3275": [
+    "http://www.coresecurity.com/content/vlc-vulnerabilities-amv-nsv-files"
+  ],
+  "CVE-2010-3276": [
+    "http://www.coresecurity.com/content/vlc-vulnerabilities-amv-nsv-files"
+  ],
+  "CVE-2010-3282": [
+    "https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c02522633&docLocale=en_US"
+  ],
+  "CVE-2010-3296": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3297": [
+    "http://www.ubuntu.com/usn/USN-1041-1"
+  ],
+  "CVE-2010-3298": [
+    "http://www.ubuntu.com/usn/USN-1041-1"
+  ],
+  "CVE-2010-3301": [
+    "http://www.ubuntu.com/usn/USN-1041-1"
+  ],
+  "CVE-2010-3305": [
+    "https://www.openwall.com/lists/oss-security/2010/09/17/7"
+  ],
+  "CVE-2010-3310": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-3313": [
+    "http://www.exploit-db.com/exploits/11777/"
+  ],
+  "CVE-2010-3314": [
+    "http://www.exploit-db.com/exploits/11777/"
+  ],
+  "CVE-2010-3315": [
+    "http://www.ubuntu.com/usn/USN-1053-1"
+  ],
+  "CVE-2010-3322": [
+    "http://www.splunk.com/view/SP-CAAAFQ6"
+  ],
+  "CVE-2010-3323": [
+    "http://www.splunk.com/view/SP-CAAAFQ6"
+  ],
+  "CVE-2010-3324": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-072"
+  ],
+  "CVE-2010-3325": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-071"
+  ],
+  "CVE-2010-3326": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-071"
+  ],
+  "CVE-2010-3327": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-071"
+  ],
+  "CVE-2010-3328": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-071"
+  ],
+  "CVE-2010-3329": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-071"
+  ],
+  "CVE-2010-3330": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-071"
+  ],
+  "CVE-2010-3331": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-071"
+  ],
+  "CVE-2010-3332": [
+    "http://threatpost.com/en_us/blogs/new-crypto-attack-affects-millions-aspnet-apps-091310"
+  ],
+  "CVE-2010-3333": [
+    "http://securityreason.com/securityalert/8293"
+  ],
+  "CVE-2010-3338": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-092"
+  ],
+  "CVE-2010-3340": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-090"
+  ],
+  "CVE-2010-3342": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-090"
+  ],
+  "CVE-2010-3343": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-090"
+  ],
+  "CVE-2010-3345": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-090"
+  ],
+  "CVE-2010-3346": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-090"
+  ],
+  "CVE-2010-3348": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-090"
+  ],
+  "CVE-2010-3399": [
+    "http://www.trusteer.com/sites/default/files/Cross_domain_Math_Random_leakage_in_FF_3.6.4-3.6.8.pdf"
+  ],
+  "CVE-2010-3405": [
+    "http://aix.software.ibm.com/aix/efixes/security/sa_snap_advisory.asc"
+  ],
+  "CVE-2010-3406": [
+    "http://aix.software.ibm.com/aix/efixes/security/sa_snap_advisory.asc"
+  ],
+  "CVE-2010-3407": [
+    "http://www.exploit-db.com/exploits/15005"
+  ],
+  "CVE-2010-3419": [
+    "http://packetstormsecurity.org/1009-exploits/fcms-rfi.txt"
+  ],
+  "CVE-2010-3425": [
+    "http://cloudscan.blogspot.com/2010/09/vendorsmarterstats-bug-cross-site.html"
+  ],
+  "CVE-2010-3426": [
+    "http://packetstormsecurity.org/1009-exploits/joomlajphone-lfi.txt"
+  ],
+  "CVE-2010-3429": [
+    "http://www.openwall.com/lists/oss-security/2010/09/28/4"
+  ],
+  "CVE-2010-3432": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3437": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-3439": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-3439"
+  ],
+  "CVE-2010-3442": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3444": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=565997"
+  ],
+  "CVE-2010-3450": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2010-3451": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2010-3452": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2010-3453": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2010-3454": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2010-3455": [
+    "http://packetstormsecurity.org/1009-exploits/achecker-xss.txt"
+  ],
+  "CVE-2010-3456": [
+    "http://packetstormsecurity.org/1009-exploits/essimpledownload-lfi.txt"
+  ],
+  "CVE-2010-3457": [
+    "http://packetstormsecurity.org/1009-exploits/symphony-sqlxss.txt"
+  ],
+  "CVE-2010-3458": [
+    "http://packetstormsecurity.org/1009-exploits/symphony-sqlxss.txt"
+  ],
+  "CVE-2010-3460": [
+    "http://packetstormsecurity.org/1009-exploits/axigen741-traversal.txt"
+  ],
+  "CVE-2010-3462": [
+    "http://packetstormsecurity.org/1009-exploits/mollify16-xss.txt"
+  ],
+  "CVE-2010-3463": [
+    "http://packetstormsecurity.org/1009-exploits/santafox-xssxsrf.txt"
+  ],
+  "CVE-2010-3464": [
+    "http://packetstormsecurity.org/1009-exploits/santafox-xssxsrf.txt"
+  ],
+  "CVE-2010-3467": [
+    "http://packetstormsecurity.org/1009-exploits/exoopport-sql.txt"
+  ],
+  "CVE-2010-3468": [
+    "http://www.exploit-db.com/exploits/15120"
+  ],
+  "CVE-2010-3477": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3479": [
+    "http://packetstormsecurity.org/1009-exploits/boutikone-sql.txt"
+  ],
+  "CVE-2010-3480": [
+    "http://www.exploit-db.com/exploits/15011"
+  ],
+  "CVE-2010-3481": [
+    "http://www.exploit-db.com/exploits/15011"
+  ],
+  "CVE-2010-3482": [
+    "http://www.exploit-db.com/exploits/15064"
+  ],
+  "CVE-2010-3483": [
+    "http://www.exploit-db.com/exploits/15064"
+  ],
+  "CVE-2010-3484": [
+    "http://www.exploit-db.com/exploits/15060"
+  ],
+  "CVE-2010-3486": [
+    "http://packetstormsecurity.org/1009-exploits/smartermail-traversal.txt"
+  ],
+  "CVE-2010-3487": [
+    "http://packetstormsecurity.org/1009-exploits/pinky10-traversal.txt"
+  ],
+  "CVE-2010-3488": [
+    "http://packetstormsecurity.org/1009-exploits/quickshare10-traversal.txt"
+  ],
+  "CVE-2010-3489": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2010-4964.php"
+  ],
+  "CVE-2010-3491": [
+    "http://www.tibco.com/services/support/advisories/activematrix-advisory_20101019.jsp"
+  ],
+  "CVE-2010-3493": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=632200"
+  ],
+  "CVE-2010-3494": [
+    "http://code.google.com/p/pyftpdlib/source/browse/trunk/HISTORY"
+  ],
+  "CVE-2010-3496": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10012"
+  ],
+  "CVE-2010-3497": [
+    "http://www.n00bz.net/antivirus-cve"
+  ],
+  "CVE-2010-3498": [
+    "http://www.n00bz.net/antivirus-cve"
+  ],
+  "CVE-2010-3499": [
+    "http://www.n00bz.net/antivirus-cve"
+  ],
+  "CVE-2010-3500": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3501": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3502": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3503": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3504": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3505": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3506": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3507": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3508": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3509": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3510": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3511": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3512": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3513": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3514": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3515": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3516": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3517": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3518": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3519": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3520": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3521": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3522": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3523": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3524": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3525": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3526": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3527": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3528": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3529": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3530": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3531": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3532": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3533": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3534": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3535": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3536": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3537": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3538": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3539": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3540": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3541": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3542": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3544": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3545": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3546": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3547": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3548": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3549": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=642180"
+  ],
+  "CVE-2010-3550": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3551": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3552": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2010-176258.html"
+  ],
+  "CVE-2010-3553": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3554": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3555": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-3556": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3557": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3558": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-3559": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3560": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-3561": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3562": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3563": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-3564": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0865.html"
+  ],
+  "CVE-2010-3565": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3566": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3567": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3568": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3569": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3570": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2010-176258.html"
+  ],
+  "CVE-2010-3571": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3572": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3573": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3574": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3575": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3576": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3577": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3578": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3579": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3580": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3581": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3582": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3583": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3584": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3585": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2010-175626.html"
+  ],
+  "CVE-2010-3586": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3587": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3588": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3589": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3590": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3591": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3592": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3593": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3594": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3595": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3596": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3597": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3598": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3599": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3600": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-3601": [
+    "http://packetstormsecurity.org/1009-exploits/ibphotohost-sql.txt"
+  ],
+  "CVE-2010-3602": [
+    "http://www.mojoportal.com/mojoportal-2352-released.aspx"
+  ],
+  "CVE-2010-3603": [
+    "http://www.mojoportal.com/mojoportal-2352-released.aspx"
+  ],
+  "CVE-2010-3608": [
+    "http://packetstormsecurity.org/1009-exploits/wpquiz27-sql.txt"
+  ],
+  "CVE-2010-3629": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A7007"
+  ],
+  "CVE-2010-3654": [
+    "http://contagiodump.blogspot.com/2010/10/potential-new-adobe-flash-player-zero.html"
+  ],
+  "CVE-2010-3658": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A7225"
+  ],
+  "CVE-2010-3659": [
+    "https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-sa-2010-012/"
+  ],
+  "CVE-2010-3660": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#XSS"
+  ],
+  "CVE-2010-3661": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#Open_Redirection"
+  ],
+  "CVE-2010-3662": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#SQL_Injection"
+  ],
+  "CVE-2010-3663": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#Arbitrary_Code_Execution"
+  ],
+  "CVE-2010-3664": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#Information_Disclosure"
+  ],
+  "CVE-2010-3665": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#XSS"
+  ],
+  "CVE-2010-3666": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#Insecure_Randomness"
+  ],
+  "CVE-2010-3667": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#Spam_Abuse"
+  ],
+  "CVE-2010-3668": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#Header_Injection"
+  ],
+  "CVE-2010-3669": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#XSS"
+  ],
+  "CVE-2010-3670": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#Insecure_Randomness"
+  ],
+  "CVE-2010-3671": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#Broken_Authentication_and_Session_Management"
+  ],
+  "CVE-2010-3672": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#XSS"
+  ],
+  "CVE-2010-3673": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#Information_Disclosure"
+  ],
+  "CVE-2010-3674": [
+    "https://typo3.org/security/advisory/typo3-sa-2010-012/#XSS"
+  ],
+  "CVE-2010-3676": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=628660"
+  ],
+  "CVE-2010-3677": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=628040"
+  ],
+  "CVE-2010-3678": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3679": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3680": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3681": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3682": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=628328"
+  ],
+  "CVE-2010-3683": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3689": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2010-3690": [
+    "https://issues.jasig.org/browse/PHPCAS-80"
+  ],
+  "CVE-2010-3691": [
+    "https://issues.jasig.org/browse/PHPCAS-80"
+  ],
+  "CVE-2010-3692": [
+    "https://issues.jasig.org/browse/PHPCAS-80"
+  ],
+  "CVE-2010-3695": [
+    "http://securityreason.com/securityalert/8170"
+  ],
+  "CVE-2010-3699": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3705": [
+    "http://www.ubuntu.com/usn/USN-1000-1"
+  ],
+  "CVE-2010-3709": [
+    "http://www.exploit-db.com/exploits/15431"
+  ],
+  "CVE-2010-3712": [
+    "http://yehg.net/lab/pr0js/advisories/joomla/core/%5Bjoomla_1.5.20%5D_cross_site_scripting(XSS)"
+  ],
+  "CVE-2010-3742": [
+    "http://packetstormsecurity.org/1008-exploits/freesimplesoftware-rfi.txt"
+  ],
+  "CVE-2010-3747": [
+    "http://securityreason.com/securityalert/8147"
+  ],
+  "CVE-2010-3765": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=607222#c53"
+  ],
+  "CVE-2010-3766": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=590771"
+  ],
+  "CVE-2010-3767": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=599468"
+  ],
+  "CVE-2010-3768": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0966.html"
+  ],
+  "CVE-2010-3769": [
+    "http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00002.html"
+  ],
+  "CVE-2010-3770": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0966.html"
+  ],
+  "CVE-2010-3771": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0966.html"
+  ],
+  "CVE-2010-3772": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=594547"
+  ],
+  "CVE-2010-3773": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0966.html"
+  ],
+  "CVE-2010-3774": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=602780"
+  ],
+  "CVE-2010-3775": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0966.html"
+  ],
+  "CVE-2010-3776": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0966.html"
+  ],
+  "CVE-2010-3777": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0966.html"
+  ],
+  "CVE-2010-3778": [
+    "http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00002.html"
+  ],
+  "CVE-2010-3787": [
+    "http://www.kb.cert.org/vuls/id/309873"
+  ],
+  "CVE-2010-3833": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3834": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3835": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3836": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3837": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3838": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3839": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3840": [
+    "http://www.ubuntu.com/usn/USN-1017-1"
+  ],
+  "CVE-2010-3847": [
+    "https://www.exploit-db.com/exploits/44025/"
+  ],
+  "CVE-2010-3856": [
+    "https://www.exploit-db.com/exploits/44025/"
+  ],
+  "CVE-2010-3858": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3859": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3861": [
+    "http://www.ubuntu.com/usn/USN-1041-1"
+  ],
+  "CVE-2010-3864": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0003.html"
+  ],
+  "CVE-2010-3865": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3874": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0007.html"
+  ],
+  "CVE-2010-3876": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3877": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3879": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=651183"
+  ],
+  "CVE-2010-3880": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-3888": [
+    "http://www.symantec.com/connect/blogs/stuxnet-using-three-additional-zero-day-vulnerabilities"
+  ],
+  "CVE-2010-3889": [
+    "http://www.symantec.com/connect/blogs/stuxnet-using-three-additional-zero-day-vulnerabilities"
+  ],
+  "CVE-2010-3904": [
+    "https://www.exploit-db.com/exploits/44677/"
+  ],
+  "CVE-2010-3906": [
+    "http://www.exploit-db.com/exploits/15744"
+  ],
+  "CVE-2010-3908": [
+    "http://ffmpeg.mplayerhq.hu/"
+  ],
+  "CVE-2010-3909": [
+    "http://www.ush.it/team/ush/hack-vtigercrm_520/vtigercrm_520.txt"
+  ],
+  "CVE-2010-3910": [
+    "http://www.ush.it/team/ush/hack-vtigercrm_520/vtigercrm_520.txt"
+  ],
+  "CVE-2010-3911": [
+    "http://www.ush.it/team/ush/hack-vtigercrm_520/vtigercrm_520.txt"
+  ],
+  "CVE-2010-3915": [
+    "http://www.symantec.com/connect/blogs/new-ichitaro-vulnerability-confirmed"
+  ],
+  "CVE-2010-3934": [
+    "http://packetstormsecurity.org/1009-exploits/blackberry-crossorigin.txt"
+  ],
+  "CVE-2010-3961": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A12323"
+  ],
+  "CVE-2010-3962": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-090"
+  ],
+  "CVE-2010-3970": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-006"
+  ],
+  "CVE-2010-3971": [
+    "http://blogs.technet.com/b/srd/archive/2011/01/07/assessing-the-risk-of-public-issues-currently-being-tracked-by-the-msrc.aspx"
+  ],
+  "CVE-2010-3972": [
+    "http://www.exploit-db.com/exploits/15803"
+  ],
+  "CVE-2010-3973": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-027"
+  ],
+  "CVE-2010-3974": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-024"
+  ],
+  "CVE-2010-3976": [
+    "http://core.yehg.net/lab/pr0js/advisories/dll_hijacking/%5Bflash_player%5D_10.1.x_insecure_dll_hijacking_%28dwmapi.dll%29"
+  ],
+  "CVE-2010-3979": [
+    "http://spl0it.org/files/talks/source_barcelona10/Hacking%20SAP%20BusinessObjects.pdf"
+  ],
+  "CVE-2010-3980": [
+    "http://spl0it.org/files/talks/source_barcelona10/Hacking%20SAP%20BusinessObjects.pdf"
+  ],
+  "CVE-2010-3981": [
+    "http://spl0it.org/files/talks/source_barcelona10/Hacking%20SAP%20BusinessObjects.pdf"
+  ],
+  "CVE-2010-3982": [
+    "http://spl0it.org/files/talks/source_barcelona10/Hacking%20SAP%20BusinessObjects.pdf"
+  ],
+  "CVE-2010-3983": [
+    "http://spl0it.org/files/talks/source_barcelona10/Hacking%20SAP%20BusinessObjects.pdf"
+  ],
+  "CVE-2010-4006": [
+    "http://www.exploit-db.com/exploits/15607"
+  ],
+  "CVE-2010-4020": [
+    "http://www.redhat.com/support/errata/RHSA-2010-0925.html"
+  ],
+  "CVE-2010-4021": [
+    "http://web.mit.edu/kerberos/advisories/MITKRB5-SA-2010-007.txt"
+  ],
+  "CVE-2010-4051": [
+    "http://www.exploit-db.com/exploits/15935"
+  ],
+  "CVE-2010-4052": [
+    "http://www.exploit-db.com/exploits/15935"
+  ],
+  "CVE-2010-4055": [
+    "http://www.exploit-db.com/exploits/15261"
+  ],
+  "CVE-2010-4056": [
+    "http://www.exploit-db.com/exploits/15261"
+  ],
+  "CVE-2010-4057": [
+    "http://www.exploit-db.com/exploits/15261"
+  ],
+  "CVE-2010-4072": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4073": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4074": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0007.html"
+  ],
+  "CVE-2010-4075": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4076": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=648661"
+  ],
+  "CVE-2010-4077": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0007.html"
+  ],
+  "CVE-2010-4079": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0007.html"
+  ],
+  "CVE-2010-4080": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4081": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4082": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0007.html"
+  ],
+  "CVE-2010-4083": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4093": [
+    "http://www.kb.cert.org/vuls/id/189929"
+  ],
+  "CVE-2010-4099": [
+    "http://www.exploit-db.com/exploits/15318"
+  ],
+  "CVE-2010-4107": [
+    "http://www.exploit-db.com/exploits/15631"
+  ],
+  "CVE-2010-4142": [
+    "http://www.exploit-db.com/exploits/15259"
+  ],
+  "CVE-2010-4144": [
+    "http://packetstormsecurity.org/1010-exploits/kisiselradyoscript-disclose.txt"
+  ],
+  "CVE-2010-4145": [
+    "http://packetstormsecurity.org/1010-exploits/kisiselradyoscript-disclose.txt"
+  ],
+  "CVE-2010-4148": [
+    "http://packetstormsecurity.org/1010-exploits/anyconnect-traversal.txt"
+  ],
+  "CVE-2010-4149": [
+    "http://packetstormsecurity.org/1010-exploits/freshftp-traversal.txt"
+  ],
+  "CVE-2010-4151": [
+    "http://packetstormsecurity.org/1010-exploits/deluxebb13x-sql.txt"
+  ],
+  "CVE-2010-4154": [
+    "http://packetstormsecurity.org/1010-exploits/ftpvoyager-traversal.txt"
+  ],
+  "CVE-2010-4155": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2010-4970.php"
+  ],
+  "CVE-2010-4157": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4158": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4160": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0007.html"
+  ],
+  "CVE-2010-4161": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4162": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0007.html"
+  ],
+  "CVE-2010-4163": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0007.html"
+  ],
+  "CVE-2010-4165": [
+    "http://securityreason.com/securityalert/8111"
+  ],
+  "CVE-2010-4167": [
+    "http://www.ubuntu.com/usn/USN-1028-1"
+  ],
+  "CVE-2010-4170": [
+    "https://www.exploit-db.com/exploits/46730/"
+  ],
+  "CVE-2010-4185": [
+    "http://www.exploit-db.com/exploits/15327"
+  ],
+  "CVE-2010-4193": [
+    "http://www.kb.cert.org/vuls/id/189929"
+  ],
+  "CVE-2010-4194": [
+    "http://www.kb.cert.org/vuls/id/189929"
+  ],
+  "CVE-2010-4195": [
+    "http://www.kb.cert.org/vuls/id/189929"
+  ],
+  "CVE-2010-4196": [
+    "http://www.kb.cert.org/vuls/id/189929"
+  ],
+  "CVE-2010-4210": [
+    "https://www.exploit-db.com/exploits/15206/"
+  ],
+  "CVE-2010-4228": [
+    "http://securityreason.com/securityalert/8149"
+  ],
+  "CVE-2010-4230": [
+    "https://www.trustwave.com/spiderlabs/advisories/TWSL2010-006.txt"
+  ],
+  "CVE-2010-4231": [
+    "https://www.trustwave.com/spiderlabs/advisories/TWSL2010-006.txt"
+  ],
+  "CVE-2010-4232": [
+    "https://www.trustwave.com/spiderlabs/advisories/TWSL2010-006.txt"
+  ],
+  "CVE-2010-4233": [
+    "https://www.trustwave.com/spiderlabs/advisories/TWSL2010-006.txt"
+  ],
+  "CVE-2010-4234": [
+    "https://www.trustwave.com/spiderlabs/advisories/TWSL2010-006.txt"
+  ],
+  "CVE-2010-4238": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4239": [
+    "https://dl.packetstormsecurity.net/1009-exploits/tikiwiki52-lfi.txt"
+  ],
+  "CVE-2010-4240": [
+    "https://dl.packetstormsecurity.net/1009-exploits/tikiwiki52-xss.txt"
+  ],
+  "CVE-2010-4241": [
+    "https://dl.packetstormsecurity.net/1009-exploits/tikiwiki52-xsrf.txt"
+  ],
+  "CVE-2010-4242": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4243": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4247": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4248": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4249": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4251": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4252": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=659297"
+  ],
+  "CVE-2010-4253": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2010-4254": [
+    "http://www.exploit-db.com/exploits/15974"
+  ],
+  "CVE-2010-4255": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4257": [
+    "http://www.xakep.ru/magazine/xa/124/052/1.asp"
+  ],
+  "CVE-2010-4258": [
+    "https://lkml.org/lkml/2010/12/1/543"
+  ],
+  "CVE-2010-4259": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=659359"
+  ],
+  "CVE-2010-4262": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=659676"
+  ],
+  "CVE-2010-4263": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4268": [
+    "http://packetstormsecurity.org/1011-exploits/joomlaflipwall-sql.txt"
+  ],
+  "CVE-2010-4269": [
+    "http://www.exploit-db.com/exploits/15381"
+  ],
+  "CVE-2010-4272": [
+    "http://packetstormsecurity.org/1011-exploits/joomlasponsorwall-sql.txt"
+  ],
+  "CVE-2010-4273": [
+    "http://packetstormsecurity.org/1010-exploits/accimoveis-sql.txt"
+  ],
+  "CVE-2010-4276": [
+    "http://www.conviso.com.br/livezilla-cross-site-scripting-vulnerability-cve-2010-4276/"
+  ],
+  "CVE-2010-4278": [
+    "http://www.exploit-db.com/exploits/15640"
+  ],
+  "CVE-2010-4279": [
+    "https://www.exploit-db.com/exploits/35731/"
+  ],
+  "CVE-2010-4280": [
+    "http://www.exploit-db.com/exploits/15642"
+  ],
+  "CVE-2010-4281": [
+    "http://www.exploit-db.com/exploits/15643"
+  ],
+  "CVE-2010-4282": [
+    "http://www.exploit-db.com/exploits/15643"
+  ],
+  "CVE-2010-4283": [
+    "http://www.exploit-db.com/exploits/15643"
+  ],
+  "CVE-2010-4300": [
+    "http://www.exploit-db.com/exploits/15676"
+  ],
+  "CVE-2010-4301": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14713"
+  ],
+  "CVE-2010-4313": [
+    "http://www.exploit-db.com/exploits/15636"
+  ],
+  "CVE-2010-4323": [
+    "http://securityreason.com/securityalert/8094"
+  ],
+  "CVE-2010-4328": [
+    "http://securityreason.com/securityalert/8096"
+  ],
+  "CVE-2010-4329": [
+    "http://phpmyadmin.git.sourceforge.net/git/gitweb.cgi?p=phpmyadmin/phpmyadmin;a=commitdiff;h=e1f4901ffc400b6d2df15eac0ba5015fe48a27c4"
+  ],
+  "CVE-2010-4330": [
+    "http://www.exploit-db.com/exploits/15691"
+  ],
+  "CVE-2010-4331": [
+    "http://www.exploit-db.com/exploits/16000"
+  ],
+  "CVE-2010-4332": [
+    "http://www.exploit-db.com/exploits/15740"
+  ],
+  "CVE-2010-4333": [
+    "http://www.securityfocus.com/archive/1/515306/100/0/threaded"
+  ],
+  "CVE-2010-4335": [
+    "http://www.exploit-db.com/exploits/16011"
+  ],
+  "CVE-2010-4343": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4344": [
+    "http://www.theregister.co.uk/2010/12/11/exim_code_execution_peril/"
+  ],
+  "CVE-2010-4345": [
+    "http://www.theregister.co.uk/2010/12/11/exim_code_execution_peril/"
+  ],
+  "CVE-2010-4346": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=662189"
+  ],
+  "CVE-2010-4348": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=663230"
+  ],
+  "CVE-2010-4349": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=663230"
+  ],
+  "CVE-2010-4350": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=663230"
+  ],
+  "CVE-2010-4352": [
+    "https://bugs.freedesktop.org/show_bug.cgi?id=32321"
+  ],
+  "CVE-2010-4358": [
+    "http://evuln.com/vulns/144/summary.html"
+  ],
+  "CVE-2010-4363": [
+    "http://evuln.com/vulns/146/summary.html"
+  ],
+  "CVE-2010-4367": [
+    "http://awstats.sourceforge.net/docs/awstats_changelog.txt"
+  ],
+  "CVE-2010-4368": [
+    "http://awstats.sourceforge.net/docs/awstats_changelog.txt"
+  ],
+  "CVE-2010-4369": [
+    "http://awstats.sourceforge.net/docs/awstats_changelog.txt"
+  ],
+  "CVE-2010-4370": [
+    "http://forums.winamp.com/showthread.php?threadid=159785"
+  ],
+  "CVE-2010-4371": [
+    "http://forums.winamp.com/showthread.php?threadid=159785"
+  ],
+  "CVE-2010-4372": [
+    "http://forums.winamp.com/showthread.php?threadid=159785"
+  ],
+  "CVE-2010-4373": [
+    "http://forums.winamp.com/showthread.php?threadid=159785"
+  ],
+  "CVE-2010-4374": [
+    "http://forums.winamp.com/showthread.php?threadid=159785"
+  ],
+  "CVE-2010-4398": [
+    "http://www.exploit-db.com/exploits/15609/"
+  ],
+  "CVE-2010-4399": [
+    "http://www.exploit-db.com/exploits/15646"
+  ],
+  "CVE-2010-4400": [
+    "http://www.exploit-db.com/exploits/15646"
+  ],
+  "CVE-2010-4401": [
+    "http://www.exploit-db.com/exploits/15646"
+  ],
+  "CVE-2010-4406": [
+    "http://www.exploit-db.com/exploits/15656"
+  ],
+  "CVE-2010-4407": [
+    "http://evuln.com/vulns/151/summary.html"
+  ],
+  "CVE-2010-4409": [
+    "http://www.exploit-db.com/exploits/15722"
+  ],
+  "CVE-2010-4411": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=591165"
+  ],
+  "CVE-2010-4413": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4414": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4415": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4416": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4417": [
+    "https://www.exploit-db.com/exploits/38859/"
+  ],
+  "CVE-2010-4418": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4419": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4420": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4421": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4422": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4423": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4424": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4425": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4426": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4427": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4428": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4429": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4430": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4431": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4432": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4433": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4434": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4435": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4436": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4437": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4438": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4439": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4440": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4441": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4442": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4443": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4444": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4445": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4446": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4447": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4448": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4449": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4450": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html"
+  ],
+  "CVE-2010-4451": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html"
+  ],
+  "CVE-2010-4452": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4453": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4454": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4455": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4456": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4457": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4458": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4459": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4460": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4461": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4462": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4463": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4464": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html"
+  ],
+  "CVE-2010-4465": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14034"
+  ],
+  "CVE-2010-4466": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4467": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4468": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4469": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html"
+  ],
+  "CVE-2010-4470": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html"
+  ],
+  "CVE-2010-4471": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4472": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html"
+  ],
+  "CVE-2010-4473": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4474": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html"
+  ],
+  "CVE-2010-4475": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4476": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0880.html"
+  ],
+  "CVE-2010-4478": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=659297"
+  ],
+  "CVE-2010-4480": [
+    "http://www.exploit-db.com/exploits/15699"
+  ],
+  "CVE-2010-4486": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11630"
+  ],
+  "CVE-2010-4496": [
+    "http://www.tibco.com/services/support/advisories/cim-advisory_20100105.jsp"
+  ],
+  "CVE-2010-4497": [
+    "http://www.tibco.com/services/support/advisories/cim-advisory_20100105.jsp"
+  ],
+  "CVE-2010-4498": [
+    "http://www.tibco.com/services/support/advisories/cim-advisory_20100105.jsp"
+  ],
+  "CVE-2010-4499": [
+    "http://www.tibco.com/services/support/advisories/cim-advisory_20100105.jsp"
+  ],
+  "CVE-2010-4508": [
+    "https://wiki.mozilla.org/Platform/2010-12-07"
+  ],
+  "CVE-2010-4512": [
+    "http://people.fedoraproject.org/~shenson/cobbler/cobbler-2.0.8.tar.gz"
+  ],
+  "CVE-2010-4513": [
+    "http://marc.info/?l=bugtraq&m=129182251500541&w=2"
+  ],
+  "CVE-2010-4523": [
+    "http://www.h-online.com/open/news/item/When-a-smart-card-can-root-your-computer-1154829.html"
+  ],
+  "CVE-2010-4524": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=664718"
+  ],
+  "CVE-2010-4525": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0007.html"
+  ],
+  "CVE-2010-4526": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4538": [
+    "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=5539"
+  ],
+  "CVE-2010-4539": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=667407"
+  ],
+  "CVE-2010-4540": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=666793"
+  ],
+  "CVE-2010-4541": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=666793"
+  ],
+  "CVE-2010-4542": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=666793"
+  ],
+  "CVE-2010-4543": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=666793"
+  ],
+  "CVE-2010-4566": [
+    "http://securityreason.com/securityalert/8119"
+  ],
+  "CVE-2010-4567": [
+    "http://www.bugzilla.org/security/3.2.9/"
+  ],
+  "CVE-2010-4568": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=619594"
+  ],
+  "CVE-2010-4569": [
+    "http://www.bugzilla.org/security/3.2.9/"
+  ],
+  "CVE-2010-4570": [
+    "http://www.bugzilla.org/security/3.2.9/"
+  ],
+  "CVE-2010-4572": [
+    "http://www.bugzilla.org/security/3.2.9/"
+  ],
+  "CVE-2010-4588": [
+    "http://blogs.technet.com/b/srd/archive/2011/01/07/assessing-the-risk-of-public-issues-currently-being-tracked-by-the-msrc.aspx"
+  ],
+  "CVE-2010-4595": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg1IZ86207"
+  ],
+  "CVE-2010-4597": [
+    "http://www.exploit-db.com/exploits/15767"
+  ],
+  "CVE-2010-4603": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg1PM22186"
+  ],
+  "CVE-2010-4604": [
+    "http://www.securityfocus.com/archive/1/515263/100/0/threaded"
+  ],
+  "CVE-2010-4607": [
+    "http://www.exploit-db.com/exploits/15799"
+  ],
+  "CVE-2010-4608": [
+    "http://www.exploit-db.com/exploits/15799"
+  ],
+  "CVE-2010-4609": [
+    "http://www.exploit-db.com/exploits/15800"
+  ],
+  "CVE-2010-4610": [
+    "http://www.exploit-db.com/exploits/15800"
+  ],
+  "CVE-2010-4611": [
+    "http://www.exploit-db.com/exploits/15800"
+  ],
+  "CVE-2010-4612": [
+    "http://www.exploit-db.com/exploits/15797"
+  ],
+  "CVE-2010-4613": [
+    "http://www.exploit-db.com/exploits/15797"
+  ],
+  "CVE-2010-4614": [
+    "http://www.exploit-db.com/exploits/15769"
+  ],
+  "CVE-2010-4630": [
+    "http://packetstormsecurity.org/1011-exploits/wpsurvey-xss.txt"
+  ],
+  "CVE-2010-4631": [
+    "http://packetstormsecurity.org/1011-exploits/aspilotpilotcart-sqlxssinject.txt"
+  ],
+  "CVE-2010-4632": [
+    "http://packetstormsecurity.org/1011-exploits/aspilotpilotcart-sqlxssinject.txt"
+  ],
+  "CVE-2010-4633": [
+    "http://packetstormsecurity.org/1011-exploits/digishop-sql.txt"
+  ],
+  "CVE-2010-4634": [
+    "http://www.attrition.org/pipermail/vim/2010-November/002469.html"
+  ],
+  "CVE-2010-4635": [
+    "http://packetstormsecurity.org/1011-exploits/site2nitevr-sql.txt"
+  ],
+  "CVE-2010-4637": [
+    "http://packetstormsecurity.org/1011-exploits/wpfeedlist-xss.txt"
+  ],
+  "CVE-2010-4639": [
+    "http://packetstormsecurity.org/1011-exploits/mysourcematrix-sql.txt"
+  ],
+  "CVE-2010-4643": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2010-4644": [
+    "http://www.ubuntu.com/usn/USN-1053-1"
+  ],
+  "CVE-2010-4647": [
+    "http://yehg.net/lab/pr0js/advisories/eclipse/%5Beclipse_help_server%5D_cross_site_scripting"
+  ],
+  "CVE-2010-4655": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2010-4662": [
+    "https://packetstormsecurity.com/files/cve/CVE-2010-4662"
+  ],
+  "CVE-2010-4668": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0007.html"
+  ],
+  "CVE-2010-4669": [
+    "http://www.youtube.com/watch?v=00yjWB6gGy8"
+  ],
+  "CVE-2010-4670": [
+    "http://www.youtube.com/watch?v=00yjWB6gGy8"
+  ],
+  "CVE-2010-4671": [
+    "http://www.youtube.com/watch?v=00yjWB6gGy8"
+  ],
+  "CVE-2010-4694": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=547515"
+  ],
+  "CVE-2010-4695": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=547515"
+  ],
+  "CVE-2010-4698": [
+    "http://seclists.org/fulldisclosure/2010/Dec/180"
+  ],
+  "CVE-2010-4701": [
+    "http://www.exploit-db.com/exploits/15839"
+  ],
+  "CVE-2010-4704": [
+    "http://ffmpeg.mplayerhq.hu/"
+  ],
+  "CVE-2010-4709": [
+    "http://www.exploit-db.com/exploits/16040"
+  ],
+  "CVE-2010-4721": [
+    "http://www.exploit-db.com/exploits/15754"
+  ],
+  "CVE-2010-4740": [
+    "http://www.kb.cert.org/vuls/id/660688"
+  ],
+  "CVE-2010-4748": [
+    "http://securityreason.com/securityalert/8113"
+  ],
+  "CVE-2010-4749": [
+    "http://www.exploit-db.com/exploits/15743"
+  ],
+  "CVE-2010-4750": [
+    "http://www.exploit-db.com/exploits/15743"
+  ],
+  "CVE-2010-4754": [
+    "http://securityreason.com/securityalert/8116"
+  ],
+  "CVE-2010-4755": [
+    "http://securityreason.com/securityalert/8116"
+  ],
+  "CVE-2010-4756": [
+    "http://securityreason.com/exploitalert/9223"
+  ],
+  "CVE-2010-4770": [
+    "http://securityreason.com/securityalert/8159"
+  ],
+  "CVE-2010-4774": [
+    "http://www.exploit-db.com/exploits/15594"
+  ],
+  "CVE-2010-4776": [
+    "http://securityreason.com/securityalert/8158"
+  ],
+  "CVE-2010-4780": [
+    "http://www.exploit-db.com/exploits/15645"
+  ],
+  "CVE-2010-4781": [
+    "http://www.exploit-db.com/exploits/15645"
+  ],
+  "CVE-2010-4782": [
+    "http://securityreason.com/securityalert/8185"
+  ],
+  "CVE-2010-4783": [
+    "http://evuln.com/vulns/148/summary.html"
+  ],
+  "CVE-2010-4784": [
+    "http://securityreason.com/securityalert/8184"
+  ],
+  "CVE-2010-4790": [
+    "http://packetstormsecurity.org/1010-exploits/filterftp-traversal.txt"
+  ],
+  "CVE-2010-4791": [
+    "http://www.exploit-db.com/exploits/15227"
+  ],
+  "CVE-2010-4792": [
+    "http://securityreason.com/securityalert/8220"
+  ],
+  "CVE-2010-4793": [
+    "http://packetstormsecurity.org/1010-exploits/autoemanager-sql.txt"
+  ],
+  "CVE-2010-4797": [
+    "http://packetstormsecurity.org/1010-exploits/flextimesheet-sql.txt"
+  ],
+  "CVE-2010-4798": [
+    "http://www.exploit-db.com/exploits/15232"
+  ],
+  "CVE-2010-4799": [
+    "http://packetstormsecurity.org/1010-exploits/chipmunkpwngame-sql.txt"
+  ],
+  "CVE-2010-4800": [
+    "http://www.exploit-db.com/exploits/15233"
+  ],
+  "CVE-2010-4801": [
+    "http://www.exploit-db.com/exploits/15234"
+  ],
+  "CVE-2010-4804": [
+    "http://www.csc.ncsu.edu/faculty/jiang/nexuss.html"
+  ],
+  "CVE-2010-4805": [
+    "http://kerneltrap.org/mailarchive/linux-netdev/2010/3/3/6271093/thread"
+  ],
+  "CVE-2010-4819": [
+    "https://bugs.freedesktop.org/show_bug.cgi?id=28801"
+  ],
+  "CVE-2010-4839": [
+    "http://www.exploit-db.com/exploits/15513"
+  ],
+  "CVE-2010-4843": [
+    "http://securityreason.com/securityalert/8395"
+  ],
+  "CVE-2010-4844": [
+    "http://www.exploit-db.com/exploits/15755"
+  ],
+  "CVE-2010-4847": [
+    "http://www.exploit-db.com/exploits/15756"
+  ],
+  "CVE-2010-4848": [
+    "http://evuln.com/vulns/139/summary.html"
+  ],
+  "CVE-2010-4850": [
+    "http://www.exploit-db.com/exploits/15633"
+  ],
+  "CVE-2010-4851": [
+    "http://www.exploit-db.com/exploits/15644"
+  ],
+  "CVE-2010-4852": [
+    "http://www.exploit-db.com/exploits/15644"
+  ],
+  "CVE-2010-4853": [
+    "http://packetstormsecurity.org/1011-exploits/joomlaccinvoices-sql.txt"
+  ],
+  "CVE-2010-4855": [
+    "http://packetstormsecurity.org/1010-exploits/xweblog22-sql.txt"
+  ],
+  "CVE-2010-4857": [
+    "http://www.exploit-db.com/exploits/15210"
+  ],
+  "CVE-2010-4858": [
+    "http://www.exploit-db.com/exploits/15204"
+  ],
+  "CVE-2010-4859": [
+    "http://packetstormsecurity.org/1005-exploits/webasyst-sql.txt"
+  ],
+  "CVE-2010-4860": [
+    "http://packetstormsecurity.org/1009-exploits/myphpauction-sql.txt"
+  ],
+  "CVE-2010-4861": [
+    "http://packetstormsecurity.org/1009-exploits/webspell421-sql.txt"
+  ],
+  "CVE-2010-4863": [
+    "http://securityreason.com/securityalert/8420"
+  ],
+  "CVE-2010-4864": [
+    "http://packetstormsecurity.org/1010-exploits/joomlaclubmanager-sql.txt"
+  ],
+  "CVE-2010-4866": [
+    "http://www.exploit-db.com/exploits/15175"
+  ],
+  "CVE-2010-4868": [
+    "http://packetstormsecurity.org/1010-exploits/wagora-lfixss.txt"
+  ],
+  "CVE-2010-4869": [
+    "http://www.exploit-db.com/exploits/15309"
+  ],
+  "CVE-2010-4870": [
+    "http://www.exploit-db.com/exploits/15328"
+  ],
+  "CVE-2010-4873": [
+    "http://securityreason.com/securityalert/8429"
+  ],
+  "CVE-2010-4874": [
+    "http://www.exploit-db.com/exploits/15330"
+  ],
+  "CVE-2010-4875": [
+    "http://securityreason.com/securityalert/8431"
+  ],
+  "CVE-2010-4877": [
+    "http://securityreason.com/securityalert/8432"
+  ],
+  "CVE-2010-4880": [
+    "http://securityreason.com/securityalert/8433"
+  ],
+  "CVE-2010-4881": [
+    "http://securityreason.com/securityalert/8433"
+  ],
+  "CVE-2010-4882": [
+    "http://securityreason.com/securityalert/8434"
+  ],
+  "CVE-2010-4883": [
+    "http://securityreason.com/securityalert/8435"
+  ],
+  "CVE-2010-4884": [
+    "http://securityreason.com/securityalert/8436"
+  ],
+  "CVE-2010-4893": [
+    "http://www.exploit-db.com/exploits/14948"
+  ],
+  "CVE-2010-4894": [
+    "http://www.exploit-db.com/exploits/14897"
+  ],
+  "CVE-2010-4895": [
+    "http://www.exploit-db.com/exploits/14897"
+  ],
+  "CVE-2010-4899": [
+    "http://websecurity.com.ua/4146/"
+  ],
+  "CVE-2010-4900": [
+    "http://websecurity.com.ua/4146/"
+  ],
+  "CVE-2010-4901": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2010-4962.php"
+  ],
+  "CVE-2010-4902": [
+    "http://securityreason.com/securityalert/8440"
+  ],
+  "CVE-2010-4903": [
+    "http://securityreason.com/securityalert/8441"
+  ],
+  "CVE-2010-4904": [
+    "http://www.exploit-db.com/exploits/14922"
+  ],
+  "CVE-2010-4906": [
+    "http://securityreason.com/securityalert/8442"
+  ],
+  "CVE-2010-4907": [
+    "http://securityreason.com/securityalert/8442"
+  ],
+  "CVE-2010-4908": [
+    "http://securityreason.com/securityalert/8443"
+  ],
+  "CVE-2010-4909": [
+    "http://securityreason.com/securityalert/8444"
+  ],
+  "CVE-2010-4910": [
+    "http://securityreason.com/securityalert/8445"
+  ],
+  "CVE-2010-4911": [
+    "http://securityreason.com/securityalert/8447"
+  ],
+  "CVE-2010-4912": [
+    "http://securityreason.com/securityalert/8446"
+  ],
+  "CVE-2010-4913": [
+    "http://securityreason.com/securityalert/8448"
+  ],
+  "CVE-2010-4915": [
+    "http://www.exploit-db.com/exploits/14933"
+  ],
+  "CVE-2010-4916": [
+    "http://securityreason.com/securityalert/8448"
+  ],
+  "CVE-2010-4917": [
+    "http://packetstormsecurity.org/1009-exploits/ablog-sql.txt"
+  ],
+  "CVE-2010-4918": [
+    "http://packetstormsecurity.org/1009-exploits/ijoomlamagazine-rfi.txt"
+  ],
+  "CVE-2010-4921": [
+    "http://packetstormsecurity.org/1009-exploits/dmxreadypbm-sql.txt"
+  ],
+  "CVE-2010-4922": [
+    "http://securityreason.com/securityalert/8453"
+  ],
+  "CVE-2010-4923": [
+    "http://securityreason.com/securityalert/8460"
+  ],
+  "CVE-2010-4925": [
+    "http://packetstormsecurity.org/1008-exploits/nukedklanpartenaires-sql.txt"
+  ],
+  "CVE-2010-4926": [
+    "http://packetstormsecurity.org/1009-exploits/joomlatimetrack-sql.txt"
+  ],
+  "CVE-2010-4927": [
+    "http://packetstormsecurity.org/1009-exploits/joomlarestaurantguide-sqlxsslfi.txt"
+  ],
+  "CVE-2010-4928": [
+    "http://packetstormsecurity.org/1009-exploits/joomlarestaurantguide-sqlxsslfi.txt"
+  ],
+  "CVE-2010-4930": [
+    "http://securityreason.com/securityalert/8455"
+  ],
+  "CVE-2010-4933": [
+    "http://packetstormsecurity.org/1009-exploits/geeklog138-sql.txt"
+  ],
+  "CVE-2010-4936": [
+    "http://packetstormsecurity.org/1008-exploits/joomlaslideshow-sql.txt"
+  ],
+  "CVE-2010-4940": [
+    "http://packetstormsecurity.org/1009-exploits/wanewsletter-sql.txt"
+  ],
+  "CVE-2010-4942": [
+    "http://packetstormsecurity.org/1009-exploits/exoopportecal-sql.txt"
+  ],
+  "CVE-2010-4945": [
+    "http://packetstormsecurity.org/1008-exploits/joomlacamelcitydb2-sql.txt"
+  ],
+  "CVE-2010-4949": [
+    "http://forum.joomla.org/viewtopic.php?p=2209586"
+  ],
+  "CVE-2010-4950": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-sa-2010-015/"
+  ],
+  "CVE-2010-4951": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-sa-2010-015/"
+  ],
+  "CVE-2010-4952": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-sa-2010-015/"
+  ],
+  "CVE-2010-4953": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-sa-2010-015/"
+  ],
+  "CVE-2010-4954": [
+    "http://packetstormsecurity.org/1009-exploits/xtcommercegambio-sql.txt"
+  ],
+  "CVE-2010-4955": [
+    "http://packetstormsecurity.org/1008-exploits/apboard-sql.txt"
+  ],
+  "CVE-2010-4956": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-sa-2010-015/"
+  ],
+  "CVE-2010-4957": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-sa-2010-015/"
+  ],
+  "CVE-2010-4958": [
+    "http://securityreason.com/securityalert/8468"
+  ],
+  "CVE-2010-4959": [
+    "http://www.packetstormsecurity.com/1007-exploits/prepodcastportal-sql.txt"
+  ],
+  "CVE-2010-4960": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-sa-2010-015/"
+  ],
+  "CVE-2010-4961": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-sa-2010-015/"
+  ],
+  "CVE-2010-4962": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-sa-2010-015/"
+  ],
+  "CVE-2010-4963": [
+    "http://securityreason.com/securityalert/8470"
+  ],
+  "CVE-2010-4968": [
+    "http://packetstormsecurity.org/1007-exploits/joomlawmtpic-sql.txt"
+  ],
+  "CVE-2010-4969": [
+    "http://www.exploit-db.com/exploits/14241"
+  ],
+  "CVE-2010-4970": [
+    "http://www.exploit-db.com/exploits/14217"
+  ],
+  "CVE-2010-4971": [
+    "http://packetstormsecurity.org/1006-exploits/joomlavideowhisper-xss.txt"
+  ],
+  "CVE-2010-4972": [
+    "http://www.exploit-db.com/exploits/14107"
+  ],
+  "CVE-2010-4974": [
+    "http://www.exploit-db.com/exploits/14239"
+  ],
+  "CVE-2010-4976": [
+    "http://www.packetstormsecurity.com/1006-exploits/metinfo-xss.txt"
+  ],
+  "CVE-2010-4977": [
+    "http://packetstormsecurity.org/1007-exploits/joomlacanteen-lfisql.txt"
+  ],
+  "CVE-2010-4978": [
+    "http://www.packetstormsecurity.com/1006-exploits/candid-sql.txt"
+  ],
+  "CVE-2010-4979": [
+    "http://www.packetstormsecurity.com/1006-exploits/candid-sql.txt"
+  ],
+  "CVE-2010-4980": [
+    "http://packetstormsecurity.org/1007-exploits/reservelogic-sql.txt"
+  ],
+  "CVE-2010-4982": [
+    "http://www.exploit-db.com/exploits/14326"
+  ],
+  "CVE-2010-4983": [
+    "http://www.salvatorefresta.net/files/adv/iScripts%20CyberMatch%201.0%20Blind%20SQL%20Injection%20Vulnerability-02072010.txt"
+  ],
+  "CVE-2010-4984": [
+    "http://packetstormsecurity.org/1007-exploits/mykazaamnms-sqlxss.txt"
+  ],
+  "CVE-2010-4985": [
+    "http://packetstormsecurity.org/1007-exploits/mykazaamnms-sqlxss.txt"
+  ],
+  "CVE-2010-4992": [
+    "http://packetstormsecurity.org/1007-exploits/joomlapaymentsplus-sql.txt"
+  ],
+  "CVE-2010-4993": [
+    "http://packetstormsecurity.org/1007-exploits/joomlaeventcal-sql.txt"
+  ],
+  "CVE-2010-4994": [
+    "http://packetstormsecurity.org/1007-exploits/joomlajobspro-sql.txt"
+  ],
+  "CVE-2010-4995": [
+    "http://packetstormsecurity.org/1007-exploits/joomlaneorecruit-sql.txt"
+  ],
+  "CVE-2010-4998": [
+    "http://www.exploit-db.com/exploits/13832/"
+  ],
+  "CVE-2010-5000": [
+    "http://packetstormsecurity.org/1006-exploits/mcloginsystem-sql.txt"
+  ],
+  "CVE-2010-5002": [
+    "http://securityreason.com/securityalert/8485"
+  ],
+  "CVE-2010-5003": [
+    "http://packetstormsecurity.org/1007-exploits/joomlaautartimonial-sql.txt"
+  ],
+  "CVE-2010-5006": [
+    "http://packetstormsecurity.org/1006-exploits/emorealtymanager-sql.txt"
+  ],
+  "CVE-2010-5007": [
+    "http://packetstormsecurity.org/1006-exploits/utstats-sqlxss.txt"
+  ],
+  "CVE-2010-5008": [
+    "http://packetstormsecurity.org/1006-exploits/brightsuite-sql.txt"
+  ],
+  "CVE-2010-5009": [
+    "http://packetstormsecurity.org/1006-exploits/utstats-sqlxss.txt"
+  ],
+  "CVE-2010-5010": [
+    "http://packetstormsecurity.org/1006-exploits/schoolmation-sqlxss.txt"
+  ],
+  "CVE-2010-5011": [
+    "http://packetstormsecurity.org/1006-exploits/schoolmation-sqlxss.txt"
+  ],
+  "CVE-2010-5012": [
+    "http://packetstormsecurity.org/1006-exploits/dalogin-sqlxssdisclose.txt"
+  ],
+  "CVE-2010-5013": [
+    "http://packetstormsecurity.org/1006-exploits/virtualrealestate-sql.txt"
+  ],
+  "CVE-2010-5015": [
+    "http://www.packetstormsecurity.com/1006-exploits/2daybiz-sqlxss.txt"
+  ],
+  "CVE-2010-5017": [
+    "http://www.exploit-db.com/exploits/10978"
+  ],
+  "CVE-2010-5018": [
+    "http://packetstormsecurity.org/1006-exploits/2daybizocs-sqlxss.txt"
+  ],
+  "CVE-2010-5019": [
+    "http://packetstormsecurity.org/1006-exploits/2daybizocs-sqlxss.txt"
+  ],
+  "CVE-2010-5021": [
+    "http://packetstormsecurity.org/1006-exploits/digitalinterchangelibrary-sql.txt"
+  ],
+  "CVE-2010-5023": [
+    "http://packetstormsecurity.org/1006-exploits/digitalinterchange-sql.txt"
+  ],
+  "CVE-2010-5024": [
+    "http://securityreason.com/securityalert/8515"
+  ],
+  "CVE-2010-5025": [
+    "http://securityreason.com/securityalert/8514"
+  ],
+  "CVE-2010-5026": [
+    "http://packetstormsecurity.org/1006-exploits/fairinabox-sqlxss.txt"
+  ],
+  "CVE-2010-5027": [
+    "http://packetstormsecurity.org/1006-exploits/fairinabox-sqlxss.txt"
+  ],
+  "CVE-2010-5029": [
+    "http://securityreason.com/securityalert/8518"
+  ],
+  "CVE-2010-5030": [
+    "http://securityreason.com/securityalert/8517"
+  ],
+  "CVE-2010-5031": [
+    "http://packetstormsecurity.org/1006-exploits/filenicescript-xss.txt"
+  ],
+  "CVE-2010-5032": [
+    "http://www.packetstormsecurity.org/1005-exploits/joomlabfquiz-sql.txt"
+  ],
+  "CVE-2010-5033": [
+    "http://www.exploit-db.com/exploits/12786"
+  ],
+  "CVE-2010-5034": [
+    "http://packetstormsecurity.org/1006-exploits/iscriptseasybiller-sql.txt"
+  ],
+  "CVE-2010-5035": [
+    "http://packetstormsecurity.org/1006-exploits/iscriptsewap-sqlxss.txt"
+  ],
+  "CVE-2010-5036": [
+    "http://packetstormsecurity.org/1006-exploits/iscriptsewap-sqlxss.txt"
+  ],
+  "CVE-2010-5037": [
+    "http://packetstormsecurity.org/1006-exploits/commonsensecms-sql.txt"
+  ],
+  "CVE-2010-5038": [
+    "http://packetstormsecurity.org/1005-exploits/groonescf-rfi.txt"
+  ],
+  "CVE-2010-5040": [
+    "http://www.exploit-db.com/exploits/12787/"
+  ],
+  "CVE-2010-5041": [
+    "http://www.exploit-db.com/exploits/12787/"
+  ],
+  "CVE-2010-5046": [
+    "http://packetstormsecurity.org/1005-exploits/ecocms-xss.txt"
+  ],
+  "CVE-2010-5047": [
+    "http://packetstormsecurity.org/1005-exploits/pressrelease-sql.txt"
+  ],
+  "CVE-2010-5048": [
+    "http://packetstormsecurity.org/1005-exploits/joomlajcomments-xss.txt"
+  ],
+  "CVE-2010-5049": [
+    "http://packetstormsecurity.org/1004-exploits/zabbix181-sql.txt"
+  ],
+  "CVE-2010-5053": [
+    "http://www.exploit-db.com/exploits/12097"
+  ],
+  "CVE-2010-5055": [
+    "http://packetstormsecurity.org/1004-exploits/almnrzm-sql.txt"
+  ],
+  "CVE-2010-5056": [
+    "http://packetstormsecurity.org/1004-exploits/joomlagbufacebook-sql.txt"
+  ],
+  "CVE-2010-5057": [
+    "http://packetstormsecurity.org/1004-exploits/cmsariadna-sql.txt"
+  ],
+  "CVE-2010-5059": [
+    "http://packetstormsecurity.org/1004-exploits/cmscout-sql.txt"
+  ],
+  "CVE-2010-5060": [
+    "http://packetstormsecurity.org/1003-exploits/nusnewssystem-sql.txt"
+  ],
+  "CVE-2010-5061": [
+    "http://packetstormsecurity.org/1003-exploits/rsstatic-sql.txt"
+  ],
+  "CVE-2010-5062": [
+    "http://packetstormsecurity.org/1003-exploits/mhproducts-sql.txt"
+  ],
+  "CVE-2010-5063": [
+    "http://seclists.org/fulldisclosure/2010/Aug/235"
+  ],
+  "CVE-2010-5064": [
+    "http://seclists.org/fulldisclosure/2010/Aug/235"
+  ],
+  "CVE-2010-5065": [
+    "http://seclists.org/fulldisclosure/2010/Aug/235"
+  ],
+  "CVE-2010-5066": [
+    "http://seclists.org/fulldisclosure/2010/Aug/235"
+  ],
+  "CVE-2010-5067": [
+    "http://seclists.org/fulldisclosure/2010/Aug/235"
+  ],
+  "CVE-2010-5074": [
+    "http://blog.mozilla.com/security/2010/03/31/plugging-the-css-history-leak/"
+  ],
+  "CVE-2010-5082": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2012/ms12-012"
+  ],
+  "CVE-2010-5083": [
+    "http://www.exploit-db.com/exploits/14589"
+  ],
+  "CVE-2010-5085": [
+    "http://marc.info/?l=bugtraq&m=128104795219200&w=2"
+  ],
+  "CVE-2010-5086": [
+    "http://cross-site-scripting.blogspot.com/2010/07/bit-weaver-27-local-file-inclusion.html"
+  ],
+  "CVE-2010-5091": [
+    "http://dl.packetstormsecurity.net/1006-exploits/silverstripe-shell.txt"
+  ],
+  "CVE-2010-5102": [
+    "http://bugs.typo3.org/view.php?id=16362"
+  ],
+  "CVE-2010-5107": [
+    "http://www.oracle.com/technetwork/topics/security/linuxbulletinjan2016-2867209.html"
+  ],
+  "CVE-2010-5143": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10014"
+  ],
+  "CVE-2010-5144": [
+    "http://mrhinkydink.blogspot.com/2010/05/websense-633-via-bypass.html"
+  ],
+  "CVE-2010-5150": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5151": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5152": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5153": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5154": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5155": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5156": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5157": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5158": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5159": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5160": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5161": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5162": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5163": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5164": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5165": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5166": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5167": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5168": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5169": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5170": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5171": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5172": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5173": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5174": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5175": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5176": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5177": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5178": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5179": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5180": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5181": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5182": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5183": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5184": [
+    "http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/"
+  ],
+  "CVE-2010-5203": [
+    "http://www.ncp-e.com/fileadmin/pdf/service_support/NCP_Client_Vulnerability_Statement_EN.pdf"
+  ],
+  "CVE-2010-5204": [
+    "http://core.yehg.net/lab/pr0js/advisories/dll_hijacking/%5Bibm_lotus_symphony%5D_3-beta-4_insecure_dll_hijacking"
+  ],
+  "CVE-2010-5205": [
+    "http://core.yehg.net/lab/pr0js/advisories/dll_hijacking/%5Be-press-one_office%5D_insecure_dll_hijacking"
+  ],
+  "CVE-2010-5206": [
+    "http://core.yehg.net/lab/pr0js/advisories/dll_hijacking/%5Be-press-one_office%5D_insecure_dll_hijacking"
+  ],
+  "CVE-2010-5207": [
+    "http://core.yehg.net/lab/pr0js/advisories/dll_hijacking/%5Bcelframe_office%5D_2008_insecure_dll_hijacking"
+  ],
+  "CVE-2010-5208": [
+    "http://core.yehg.net/lab/pr0js/advisories/dll_hijacking/%5Bkingsoft_office%5D_2010_insecure_dll_hijacking"
+  ],
+  "CVE-2010-5209": [
+    "http://core.yehg.net/lab/pr0js/advisories/dll_hijacking/%5Bnuance_pdf_reader%5D_6.0_insecure_dll_hijacking"
+  ],
+  "CVE-2010-5210": [
+    "http://core.yehg.net/lab/pr0js/advisories/dll_hijacking/%5Bsorax_pdf_reader%5D_2.0_insecure_dll_hijacking"
+  ],
+  "CVE-2010-5211": [
+    "http://core.yehg.net/lab/pr0js/advisories/dll_hijacking/%5Balsee%5D_6.20.0.1_insecure_dll_hijacking"
+  ],
+  "CVE-2010-5218": [
+    "http://packetstormsecurity.org/1010-exploits/dupehunter-dllhijack.txt"
+  ],
+  "CVE-2010-5219": [
+    "http://packetstormsecurity.org/1010-exploits/smartftp4-dllhijack.txt"
+  ],
+  "CVE-2010-5220": [
+    "http://packetstormsecurity.org/1010-exploits/meo-dllhijack.txt"
+  ],
+  "CVE-2010-5221": [
+    "http://packetstormsecurity.org/1010-exploits/stdu-dllhijack.txt"
+  ],
+  "CVE-2010-5223": [
+    "http://packetstormsecurity.org/1010-exploits/phoenix-dllhijack.txt"
+  ],
+  "CVE-2010-5224": [
+    "http://packetstormsecurity.org/1010-exploits/cooliphoneringtone-dllhijack.txt"
+  ],
+  "CVE-2010-5225": [
+    "http://xlocux.wordpress.com/2010/11/22/babylon-pro-8-xx-dll-hijacking/"
+  ],
+  "CVE-2010-5231": [
+    "http://secunia.com/blog/120"
+  ],
+  "CVE-2010-5232": [
+    "http://secunia.com/blog/120"
+  ],
+  "CVE-2010-5237": [
+    "http://extraexploit.blogspot.com/2010/08/dll-hijacking-my-test-cases-on-default.html"
+  ],
+  "CVE-2010-5238": [
+    "http://extraexploit.blogspot.com/2010/08/dll-hijacking-my-test-cases-on-default.html"
+  ],
+  "CVE-2010-5240": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2010-4954.php"
+  ],
+  "CVE-2010-5243": [
+    "http://extraexploit.blogspot.com/2010/08/dll-hijacking-my-test-cases-on-default.html"
+  ],
+  "CVE-2010-5263": [
+    "http://packetstormsecurity.org/1009-exploits/sothinkswf-dllhijack.txt"
+  ],
+  "CVE-2010-5264": [
+    "http://packetstormsecurity.org/1009-exploits/yloader-dllhijack.txt"
+  ],
+  "CVE-2010-5265": [
+    "http://packetstormsecurity.org/1009-exploits/smartsniff-dllhijack.txt"
+  ],
+  "CVE-2010-5266": [
+    "http://packetstormsecurity.org/1009-exploits/videocharge-dllhijack.txt"
+  ],
+  "CVE-2010-5267": [
+    "http://packetstormsecurity.org/1009-exploits/seasyofficerecovery-dllhijack.txt"
+  ],
+  "CVE-2010-5268": [
+    "http://www.coresecurity.com/content/amazon-kindle-for-pc-wintab32-dll-hijacking-exploit-10-5"
+  ],
+  "CVE-2010-5278": [
+    "http://packetstormsecurity.org/1009-exploits/modx202pl-lfi.txt"
+  ],
+  "CVE-2010-5279": [
+    "http://seclists.org/fulldisclosure/2010/Aug/235"
+  ],
+  "CVE-2010-5280": [
+    "http://www.exploit-db.com/exploits/15222"
+  ],
+  "CVE-2010-5281": [
+    "http://packetstormsecurity.org/1009-exploits/cmscout209-lfi.txt"
+  ],
+  "CVE-2010-5282": [
+    "http://packetstormsecurity.org/1009-exploits/opentext-xsrfxss.txt"
+  ],
+  "CVE-2010-5283": [
+    "http://packetstormsecurity.org/1009-exploits/opentext-xsrfxss.txt"
+  ],
+  "CVE-2010-5284": [
+    "http://www.exploit-db.com/exploits/15240"
+  ],
+  "CVE-2010-5285": [
+    "http://www.exploit-db.com/exploits/15240"
+  ],
+  "CVE-2010-5286": [
+    "http://packetstormsecurity.org/1010-exploits/joomlajstore-lfi.txt"
+  ],
+  "CVE-2010-5289": [
+    "http://www.exploit-db.com/exploits/12030/"
+  ],
+  "CVE-2010-5290": [
+    "http://www.gnucitizen.org/blog/coldfusion-directory-traversal-faq-cve-2010-2861/"
+  ],
+  "CVE-2010-5298": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10075"
+  ],
+  "CVE-2010-5299": [
+    "http://packetstormsecurity.com/files/125723/MicroP-0.1.1.1600-Buffer-Overflow.html"
+  ],
+  "CVE-2010-5300": [
+    "http://www.exploit-db.com/exploits/32899"
+  ],
+  "CVE-2010-5306": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2010-5307": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2010-5308": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2010-5309": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2010-5310": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2010-5312": [
+    "https://www.drupal.org/sa-core-2022-002"
+  ],
+  "CVE-2010-5313": [
+    "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html"
+  ],
+  "CVE-2010-5322": [
+    "https://github.com/ZeusCart/zeuscart/issues/28"
+  ],
+  "CVE-2010-5324": [
+    "http://tucanalamigo.blogspot.com/2010/04/pdc-de-zdi-10-078.html"
+  ],
+  "CVE-2010-5325": [
+    "http://www.oracle.com/technetwork/topics/security/linuxbulletinapr2016-2952096.html"
+  ],
+  "CVE-2010-5327": [
+    "https://issues.liferay.com/browse/LPS-7087"
+  ],
+  "CVE-2010-5329": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=fc0a80798576f80ca10b3f6c9c7097f12fd1d64e"
+  ],
+  "CVE-2010-5330": [
+    "https://www.exploit-db.com/exploits/14146"
+  ],
+  "CVE-2010-5331": [
+    "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=0031c41be5c529f8329e327b63cde92ba1284842"
+  ],
+  "CVE-2010-5333": [
+    "https://www.exploit-db.com/exploits/15016"
+  ],
+  "CVE-2010-5334": [
+    "https://vuldb.com/?id.142994"
+  ],
+  "CVE-2010-5335": [
+    "https://vuldb.com/?id.142994"
+  ],
+  "CVE-2010-5336": [
+    "https://vuldb.com/?id.142993"
+  ],
+  "CVE-2010-5337": [
+    "https://vuldb.com/?id.142993"
+  ],
+  "CVE-2010-5338": [
+    "https://vuldb.com/?id.142993"
+  ],
+  "CVE-2010-5339": [
+    "https://vuldb.com/?id.142993"
+  ],
+  "CVE-2010-5340": [
+    "https://vuldb.com/?id.142993"
+  ]
+}
