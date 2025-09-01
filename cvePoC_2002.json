@@ -1,0 +1,659 @@
+{
+  "CVE-2002-0022": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A925"
+  ],
+  "CVE-2002-0027": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A974"
+  ],
+  "CVE-2002-0058": [
+    "http://marc.info/?l=bugtraq&m=101534535304228&w=2"
+  ],
+  "CVE-2002-0071": [
+    "http://www.cisco.com/warp/public/707/Microsoft-IIS-vulnerabilities-MS02-018.shtml"
+  ],
+  "CVE-2002-0072": [
+    "http://www.cisco.com/warp/public/707/Microsoft-IIS-vulnerabilities-MS02-018.shtml"
+  ],
+  "CVE-2002-0073": [
+    "http://www.cisco.com/warp/public/707/Microsoft-IIS-vulnerabilities-MS02-018.shtml"
+  ],
+  "CVE-2002-0074": [
+    "http://www.cisco.com/warp/public/707/Microsoft-IIS-vulnerabilities-MS02-018.shtml"
+  ],
+  "CVE-2002-0075": [
+    "http://www.cisco.com/warp/public/707/Microsoft-IIS-vulnerabilities-MS02-018.shtml"
+  ],
+  "CVE-2002-0078": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A96"
+  ],
+  "CVE-2002-0079": [
+    "http://www.cisco.com/warp/public/707/Microsoft-IIS-vulnerabilities-MS02-018.shtml"
+  ],
+  "CVE-2002-0081": [
+    "http://security.e-matters.de/advisories/012002.html"
+  ],
+  "CVE-2002-0082": [
+    "http://packetstormsecurity.com/files/153567/Apache-mod_ssl-OpenSSL-Remote-Buffer-Overflow.html"
+  ],
+  "CVE-2002-0084": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A97"
+  ],
+  "CVE-2002-0098": [
+    "http://www.boozt.com/news_detail.php?id=3"
+  ],
+  "CVE-2002-0133": [
+    "http://marc.info/?l=bugtraq&m=101424723728817&w=2"
+  ],
+  "CVE-2002-0134": [
+    "http://marc.info/?l=bugtraq&m=101424723728817&w=2"
+  ],
+  "CVE-2002-0137": [
+    "http://marc.info/?l=bugtraq&m=101102759631000&w=2"
+  ],
+  "CVE-2002-0138": [
+    "http://marc.info/?l=bugtraq&m=101111688819855&w=2"
+  ],
+  "CVE-2002-0147": [
+    "http://www.cisco.com/warp/public/707/Microsoft-IIS-vulnerabilities-MS02-018.shtml"
+  ],
+  "CVE-2002-0148": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A92"
+  ],
+  "CVE-2002-0149": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A95"
+  ],
+  "CVE-2002-0150": [
+    "http://www.cisco.com/warp/public/707/Microsoft-IIS-vulnerabilities-MS02-018.shtml"
+  ],
+  "CVE-2002-0159": [
+    "http://www.cisco.com/warp/public/707/ACS-Win-Web.shtml"
+  ],
+  "CVE-2002-0160": [
+    "http://www.cisco.com/warp/public/707/ACS-Win-Web.shtml"
+  ],
+  "CVE-2002-0162": [
+    "http://marc.info/?l=bugtraq&m=101724766216872"
+  ],
+  "CVE-2002-0184": [
+    "http://marc.info/?l=bugtraq&m=101974610509912&w=2"
+  ],
+  "CVE-2002-0190": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A923"
+  ],
+  "CVE-2002-0191": [
+    "http://marc.info/?l=bugtraq&m=101778302030981&w=2"
+  ],
+  "CVE-2002-0193": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A99"
+  ],
+  "CVE-2002-0200": [
+    "http://marc.info/?l=bugtraq&m=101174569103289&w=2"
+  ],
+  "CVE-2002-0201": [
+    "http://marc.info/?l=bugtraq&m=101174569103289&w=2"
+  ],
+  "CVE-2002-0231": [
+    "http://www.uuuppz.com/research/adv-001-mirc.htm"
+  ],
+  "CVE-2002-0241": [
+    "http://www.cisco.com/warp/public/707/ciscosecure-acs-nds-authentication-vuln-pub.shtml"
+  ],
+  "CVE-2002-0244": [
+    "http://marc.info/?l=bugtraq&m=101310622531303&w=2"
+  ],
+  "CVE-2002-0252": [
+    "https://www.exploit-db.com/exploits/4673"
+  ],
+  "CVE-2002-0280": [
+    "http://freshmeat.net/releases/71514/"
+  ],
+  "CVE-2002-0283": [
+    "http://marc.info/?l=bugtraq&m=101408718030099&w=2"
+  ],
+  "CVE-2002-0287": [
+    "http://marc.info/?l=bugtraq&m=101389284625019&w=2"
+  ],
+  "CVE-2002-0288": [
+    "http://marc.info/?l=bugtraq&m=101408906001958&w=2"
+  ],
+  "CVE-2002-0289": [
+    "http://marc.info/?l=bugtraq&m=101408906001958&w=2"
+  ],
+  "CVE-2002-0292": [
+    "http://marc.info/?l=bugtraq&m=101414005501708&w=2"
+  ],
+  "CVE-2002-0309": [
+    "http://marc.info/?l=bugtraq&m=101424307617060&w=2"
+  ],
+  "CVE-2002-0314": [
+    "http://marc.info/?l=bugtraq&m=101441689224760&w=2"
+  ],
+  "CVE-2002-0315": [
+    "http://marc.info/?l=bugtraq&m=101441689224760&w=2"
+  ],
+  "CVE-2002-0319": [
+    "http://marc.info/?l=bugtraq&m=101446366708757&w=2"
+  ],
+  "CVE-2002-0326": [
+    "http://marc.info/?l=bugtraq&m=101474387016066&w=2"
+  ],
+  "CVE-2002-0339": [
+    "http://www.cisco.com/warp/public/707/IOS-CEF-pub.shtml"
+  ],
+  "CVE-2002-0346": [
+    "http://marc.info/?l=bugtraq&m=101495944202452&w=2"
+  ],
+  "CVE-2002-0347": [
+    "http://marc.info/?l=bugtraq&m=101495944202452&w=2"
+  ],
+  "CVE-2002-0348": [
+    "http://marc.info/?l=bugtraq&m=101495944202452&w=2"
+  ],
+  "CVE-2002-0354": [
+    "http://marc.info/?l=ntbugtraq&m=102020343728766&w=2"
+  ],
+  "CVE-2002-0359": [
+    "http://marc.info/?l=bugtraq&m=102459162909825&w=2"
+  ],
+  "CVE-2002-0370": [
+    "http://securityreason.com/securityalert/587"
+  ],
+  "CVE-2002-0371": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A98"
+  ],
+  "CVE-2002-0391": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9"
+  ],
+  "CVE-2002-0440": [
+    "http://seclists.org/lists/bugtraq/2002/Mar/0162.html"
+  ],
+  "CVE-2002-0470": [
+    "http://seclists.org/bugtraq/2002/Mar/0263.html"
+  ],
+  "CVE-2002-0471": [
+    "http://seclists.org/bugtraq/2002/Mar/0263.html"
+  ],
+  "CVE-2002-0473": [
+    "http://prdownloads.sourceforge.net/phpbb/phpBB-2.0.1.zip"
+  ],
+  "CVE-2002-0505": [
+    "http://www.cisco.com/warp/public/707/callmanager-ctifw-leak-pub.shtml"
+  ],
+  "CVE-2002-0541": [
+    "http://www.tivoli.com/support/storage_mgr/flash_httpport.html"
+  ],
+  "CVE-2002-0545": [
+    "http://www.cisco.com/warp/public/707/Aironet-Telnet.shtml"
+  ],
+  "CVE-2002-0598": [
+    "http://www.foundstone.com/knowledge/fscan112_advisory.html"
+  ],
+  "CVE-2002-0619": [
+    "http://marc.info/?l=bugtraq&m=102139136019862&w=2"
+  ],
+  "CVE-2002-0648": [
+    "http://marc.info/?l=bugtraq&m=103011639524314&w=2"
+  ],
+  "CVE-2002-0652": [
+    "http://marc.info/?l=bugtraq&m=102459162909825&w=2"
+  ],
+  "CVE-2002-0653": [
+    "http://marc.info/?l=bugtraq&m=102513970919836&w=2"
+  ],
+  "CVE-2002-0662": [
+    "http://marc.info/?l=bugtraq&m=103098575826031&w=2"
+  ],
+  "CVE-2002-0677": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A91"
+  ],
+  "CVE-2002-0693": [
+    "http://marc.info/?l=bugtraq&m=103419115517344&w=2"
+  ],
+  "CVE-2002-0717": [
+    "http://marc.info/?l=bugtraq&m=102734516023281&w=2"
+  ],
+  "CVE-2002-0727": [
+    "http://marc.info/?l=bugtraq&m=101829645415486&w=2"
+  ],
+  "CVE-2002-0769": [
+    "http://www.cisco.com/warp/public/707/ata186-password-disclosure.shtml"
+  ],
+  "CVE-2002-0778": [
+    "http://www.cisco.com/warp/public/707/transparentcache-tcp-relay-vuln-pub.shtml"
+  ],
+  "CVE-2002-0792": [
+    "http://www.cisco.com/warp/public/707/css-http-post-pub.shtml"
+  ],
+  "CVE-2002-0797": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A94"
+  ],
+  "CVE-2002-0813": [
+    "http://www.cisco.com/warp/public/707/ios-tftp-long-filename-pub.shtml"
+  ],
+  "CVE-2002-0816": [
+    "http://marc.info/?l=bugtraq&m=102709593117171&w=2"
+  ],
+  "CVE-2002-0817": [
+    "http://marc.info/?l=bugtraq&m=102812622416695&w=2"
+  ],
+  "CVE-2002-0820": [
+    "http://marc.info/?l=bugtraq&m=102979180524452&w=2"
+  ],
+  "CVE-2002-0823": [
+    "http://marc.info/?l=bugtraq&m=102822806329440&w=2"
+  ],
+  "CVE-2002-0838": [
+    "http://marc.info/?l=bugtraq&m=103305615613319&w=2"
+  ],
+  "CVE-2002-0848": [
+    "http://www.cisco.com/warp/public/707/vpn5k-radius-pap-vuln-pub.shtml"
+  ],
+  "CVE-2002-0852": [
+    "http://www.cisco.com/warp/public/707/vpnclient-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-0853": [
+    "http://www.cisco.com/warp/public/707/vpnclient-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-0859": [
+    "http://marc.info/?l=bugtraq&m=102450188620081&w=2"
+  ],
+  "CVE-2002-0860": [
+    "http://marc.info/?l=bugtraq&m=101829911018463&w=2"
+  ],
+  "CVE-2002-0861": [
+    "http://marc.info/?l=bugtraq&m=101829726516346&w=2"
+  ],
+  "CVE-2002-0866": [
+    "http://www.kb.cert.org/vuls/id/307306"
+  ],
+  "CVE-2002-0869": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A983"
+  ],
+  "CVE-2002-0870": [
+    "http://www.cisco.com/warp/public/707/arrowpoint-webmgmt-vuln-pub.shtml"
+  ],
+  "CVE-2002-0880": [
+    "http://www.cisco.com/warp/public/707/multiple-ip-phone-vulnerabilities-pub.shtml"
+  ],
+  "CVE-2002-0881": [
+    "http://www.cisco.com/warp/public/707/multiple-ip-phone-vulnerabilities-pub.shtml"
+  ],
+  "CVE-2002-0882": [
+    "http://www.cisco.com/warp/public/707/multiple-ip-phone-vulnerabilities-pub.shtml"
+  ],
+  "CVE-2002-0886": [
+    "http://www.cisco.com/warp/public/707/CBOS-DoS.shtml"
+  ],
+  "CVE-2002-0887": [
+    "http://marc.info/?l=bugtraq&m=99057164129869&w=2"
+  ],
+  "CVE-2002-0898": [
+    "http://marc.info/?l=ntbugtraq&m=102256058220402&w=2"
+  ],
+  "CVE-2002-0909": [
+    "http://marc.info/?l=vuln-dev&m=102297259123103&w=2"
+  ],
+  "CVE-2002-0945": [
+    "http://www.seanox.de/projects.devwex.php"
+  ],
+  "CVE-2002-0946": [
+    "http://www.seanox.de/projects.devwex.php"
+  ],
+  "CVE-2002-0952": [
+    "http://www.cisco.com/warp/public/707/ons-tos-vuln-pub.shtml"
+  ],
+  "CVE-2002-0968": [
+    "http://marc.info/?l=bugtraq&m=102563702928443&w=2"
+  ],
+  "CVE-2002-0985": [
+    "http://www.redhat.com/support/errata/RHSA-2002-213.html"
+  ],
+  "CVE-2002-0986": [
+    "http://www.redhat.com/support/errata/RHSA-2002-213.html"
+  ],
+  "CVE-2002-1011": [
+    "http://www.tivoli.com/secure/support/documents/security/mgt-fwk-http-vul.html"
+  ],
+  "CVE-2002-1012": [
+    "http://www.tivoli.com/secure/support/documents/security/mgt-fwk-http-vul.html"
+  ],
+  "CVE-2002-1024": [
+    "http://www.cisco.com/warp/public/707/SSH-scanning.shtml"
+  ],
+  "CVE-2002-1037": [
+    "http://dcl.sourceforge.net/index.php"
+  ],
+  "CVE-2002-1038": [
+    "http://dcl.sourceforge.net/index.php"
+  ],
+  "CVE-2002-1039": [
+    "http://dcl.sourceforge.net/index.php"
+  ],
+  "CVE-2002-1053": [
+    "http://www.w3.org/Jigsaw/RelNotes.html#2.2.1"
+  ],
+  "CVE-2002-1079": [
+    "http://www.osvdb.org/3285"
+  ],
+  "CVE-2002-1091": [
+    "http://marc.info/?l=bugtraq&m=103134051120770&w=2"
+  ],
+  "CVE-2002-1092": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1093": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1094": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1095": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1096": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1097": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1098": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1099": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1100": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1101": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1102": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1103": [
+    "http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1104": [
+    "http://www.cisco.com/warp/public/707/vpnclient-multiple2-vuln-pub.shtml"
+  ],
+  "CVE-2002-1105": [
+    "http://www.cisco.com/warp/public/707/vpnclient-multiple2-vuln-pub.shtml"
+  ],
+  "CVE-2002-1106": [
+    "http://www.cisco.com/warp/public/707/vpnclient-multiple2-vuln-pub.shtml"
+  ],
+  "CVE-2002-1107": [
+    "http://www.cisco.com/warp/public/707/vpnclient-multiple2-vuln-pub.shtml"
+  ],
+  "CVE-2002-1108": [
+    "http://www.cisco.com/warp/public/707/vpnclient-multiple2-vuln-pub.shtml"
+  ],
+  "CVE-2002-1119": [
+    "http://www.redhat.com/support/errata/RHSA-2003-048.html"
+  ],
+  "CVE-2002-1120": [
+    "https://www.exploit-db.com/exploits/16770/"
+  ],
+  "CVE-2002-1137": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030126-ms02-061.shtml"
+  ],
+  "CVE-2002-1142": [
+    "http://www.foundstone.com/knowledge/randd-advisories-display.html?id=337"
+  ],
+  "CVE-2002-1143": [
+    "http://marc.info/?l=bugtraq&m=103252858816401&w=2"
+  ],
+  "CVE-2002-1145": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030126-ms02-061.shtml"
+  ],
+  "CVE-2002-1155": [
+    "http://marc.info/?l=bugtraq&m=105577912106710&w=2"
+  ],
+  "CVE-2002-1156": [
+    "http://www.securityfocus.com/bid/6065"
+  ],
+  "CVE-2002-1160": [
+    "http://www.kb.cert.org/vuls/id/911505"
+  ],
+  "CVE-2002-1170": [
+    "http://www.redhat.com/support/errata/RHSA-2002-228.html"
+  ],
+  "CVE-2002-1174": [
+    "http://marc.info/?l=bugtraq&m=103340148625187&w=2"
+  ],
+  "CVE-2002-1175": [
+    "http://marc.info/?l=bugtraq&m=103340148625187&w=2"
+  ],
+  "CVE-2002-1180": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A931"
+  ],
+  "CVE-2002-1181": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A944"
+  ],
+  "CVE-2002-1182": [
+    "http://www.securityfocus.com/bid/6068"
+  ],
+  "CVE-2002-1187": [
+    "http://marc.info/?l=bugtraq&m=103158601431054&w=2"
+  ],
+  "CVE-2002-1189": [
+    "http://www.cisco.com/warp/public/707/toll-fraud-pub.shtml"
+  ],
+  "CVE-2002-1190": [
+    "http://www.cisco.com/warp/public/707/toll-fraud-pub.shtml"
+  ],
+  "CVE-2002-1217": [
+    "http://marc.info/?l=ntbugtraq&m=103470202010570&w=2"
+  ],
+  "CVE-2002-1222": [
+    "http://www.cisco.com/warp/public/707/catos-http-overflow-vuln.shtml"
+  ],
+  "CVE-2002-1254": [
+    "http://marc.info/?l=bugtraq&m=103530131201191&w=2"
+  ],
+  "CVE-2002-1265": [
+    "http://www-1.ibm.com/services/continuity/recover1.nsf/mss/MSS-OAR-E01-2004.0800.1"
+  ],
+  "CVE-2002-1317": [
+    "http://www.securityfocus.com/bid/6241"
+  ],
+  "CVE-2002-1337": [
+    "http://marc.info/?l=bugtraq&m=104678739608479&w=2"
+  ],
+  "CVE-2002-1338": [
+    "http://marc.info/?l=bugtraq&m=101830175621193&w=2"
+  ],
+  "CVE-2002-1339": [
+    "http://marc.info/?l=bugtraq&m=101830175621193&w=2"
+  ],
+  "CVE-2002-1340": [
+    "http://marc.info/?l=bugtraq&m=101830175621193&w=2"
+  ],
+  "CVE-2002-1357": [
+    "http://www.kb.cert.org/vuls/id/389665"
+  ],
+  "CVE-2002-1364": [
+    "http://marc.info/?l=bugtraq&m=103858895600963&w=2"
+  ],
+  "CVE-2002-1365": [
+    "http://security.e-matters.de/advisories/052002.html"
+  ],
+  "CVE-2002-1366": [
+    "http://marc.info/?l=bugtraq&m=104032149026670&w=2"
+  ],
+  "CVE-2002-1367": [
+    "http://marc.info/?l=bugtraq&m=104032149026670&w=2"
+  ],
+  "CVE-2002-1368": [
+    "http://marc.info/?l=bugtraq&m=104032149026670&w=2"
+  ],
+  "CVE-2002-1369": [
+    "http://marc.info/?l=bugtraq&m=104032149026670&w=2"
+  ],
+  "CVE-2002-1371": [
+    "http://marc.info/?l=bugtraq&m=104032149026670&w=2"
+  ],
+  "CVE-2002-1372": [
+    "http://marc.info/?l=bugtraq&m=104032149026670&w=2"
+  ],
+  "CVE-2002-1373": [
+    "http://security.e-matters.de/advisories/042002.html"
+  ],
+  "CVE-2002-1374": [
+    "http://security.e-matters.de/advisories/042002.html"
+  ],
+  "CVE-2002-1375": [
+    "http://security.e-matters.de/advisories/042002.html"
+  ],
+  "CVE-2002-1376": [
+    "http://security.e-matters.de/advisories/042002.html"
+  ],
+  "CVE-2002-1383": [
+    "http://marc.info/?l=bugtraq&m=104032149026670&w=2"
+  ],
+  "CVE-2002-1398": [
+    "http://www.novell.com/linux/security/advisories/2002_038_postgresql.html"
+  ],
+  "CVE-2002-1400": [
+    "http://www.novell.com/linux/security/advisories/2002_038_postgresql.html"
+  ],
+  "CVE-2002-1444": [
+    "http://www.securityfocus.com/bid/5477"
+  ],
+  "CVE-2002-1447": [
+    "http://www.cisco.com/warp/public/707/cisco-unix-vpnclient-buffer-overflow-pub.shtml"
+  ],
+  "CVE-2002-1456": [
+    "http://marc.info/?l=ntbugtraq&m=103046138631893&w=2"
+  ],
+  "CVE-2002-1458": [
+    "http://sourceforge.net/tracker/download.php?group_id=53716&atid=471343&file_id=26687&aid=579278"
+  ],
+  "CVE-2002-1459": [
+    "http://sourceforge.net/tracker/download.php?group_id=53716&atid=471343&file_id=26687&aid=579278"
+  ],
+  "CVE-2002-1460": [
+    "http://sourceforge.net/tracker/download.php?group_id=53716&atid=471343&file_id=26687&aid=579278"
+  ],
+  "CVE-2002-1491": [
+    "http://www.cisco.com/warp/public/707/vpn5k-client-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1492": [
+    "http://www.cisco.com/warp/public/707/vpn5k-client-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1553": [
+    "http://www.cisco.com/warp/public/707/ons-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1554": [
+    "http://www.cisco.com/warp/public/707/ons-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1555": [
+    "http://www.cisco.com/warp/public/707/ons-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1556": [
+    "http://www.cisco.com/warp/public/707/ons-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1557": [
+    "http://www.cisco.com/warp/public/707/ons-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1558": [
+    "http://www.cisco.com/warp/public/707/ons-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-1590": [
+    "http://www.securityfocus.com/bid/6061"
+  ],
+  "CVE-2002-1595": [
+    "http://www.cisco.com/warp/public/707/SN-multiple-pub.shtml"
+  ],
+  "CVE-2002-1596": [
+    "http://www.cisco.com/warp/public/707/SN-multiple-pub.shtml"
+  ],
+  "CVE-2002-1597": [
+    "http://www.cisco.com/warp/public/707/SN-multiple-pub.shtml"
+  ],
+  "CVE-2002-1706": [
+    "http://www.cisco.com/warp/public/707/cmts-MD5-bypass-pub.shtml"
+  ],
+  "CVE-2002-1896": [
+    "http://cvs.sourceforge.net/viewcvs.py/alsaplayer/alsaplayer/app/Main.cpp.diff?r1=1.66&r2=1.67"
+  ],
+  "CVE-2002-1914": [
+    "http://www.redhat.com/support/errata/RHSA-2005-583.html"
+  ],
+  "CVE-2002-1996": [
+    "http://sourceforge.net/tracker/index.php?func=detail&aid=524777&group_id=27927&atid=392228"
+  ],
+  "CVE-2002-20001": [
+    "https://www.reddit.com/r/netsec/comments/qdoosy/server_overload_by_enforcing_dhe_key_exchange/"
+  ],
+  "CVE-2002-2037": [
+    "http://www.cisco.com/warp/public/707/Solaris-for-MGC-pub.shtml"
+  ],
+  "CVE-2002-2048": [
+    "http://marc.info/?l=vuln-dev&m=102321152215055&w=2"
+  ],
+  "CVE-2002-2139": [
+    "http://www.cisco.com/warp/public/707/pix-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-2140": [
+    "http://www.cisco.com/warp/public/707/pix-multiple-vuln-pub.shtml"
+  ],
+  "CVE-2002-2175": [
+    "http://marc.info/?l=bugtraq&m=102508071021631&w=2"
+  ],
+  "CVE-2002-2177": [
+    "http://dev2dev.bea.com/pub/advisory/38"
+  ],
+  "CVE-2002-2181": [
+    "http://www.securityfocus.com/bid/6063"
+  ],
+  "CVE-2002-2185": [
+    "http://www.securityfocus.com/archive/1/428028/100/0/threaded"
+  ],
+  "CVE-2002-2208": [
+    "http://www.cisco.com/warp/public/707/eigrp_issue.pdf"
+  ],
+  "CVE-2002-2217": [
+    "https://www.exploit-db.com/exploits/2318"
+  ],
+  "CVE-2002-2226": [
+    "http://securityreason.com/securityalert/3160"
+  ],
+  "CVE-2002-2239": [
+    "http://www.cisco.com/warp/public/707/osm-lc-ios-pkt-vuln-pub.shtml"
+  ],
+  "CVE-2002-2246": [
+    "http://www.deerfield.com/products/visnetic_website/"
+  ],
+  "CVE-2002-2281": [
+    "http://marc.info/?l=bugtraq&m=103798147613151&w=2"
+  ],
+  "CVE-2002-2284": [
+    "http://marc.info/?l=bugtraq&m=103798147613151&w=2"
+  ],
+  "CVE-2002-2380": [
+    "http://www.securityfocus.com/bid/6064"
+  ],
+  "CVE-2002-2381": [
+    "http://www.securityfocus.com/bid/6062"
+  ],
+  "CVE-2002-2426": [
+    "http://packetstormsecurity.org/0210-exploits/hackingcitrix.txt"
+  ],
+  "CVE-2002-2435": [
+    "http://bugzilla.mozilla.org/show_bug.cgi?id=147777"
+  ],
+  "CVE-2002-2436": [
+    "http://bugzilla.mozilla.org/show_bug.cgi?id=147777"
+  ],
+  "CVE-2002-2437": [
+    "http://bugzilla.mozilla.org/show_bug.cgi?id=147777"
+  ],
+  "CVE-2002-2445": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2002-2446": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ]
+}
