@@ -1,0 +1,362 @@
+{
+  "CVE-2001-0002": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A920"
+  ],
+  "CVE-2001-0010": [
+    "http://www.nai.com/research/covert/advisories/047.asp"
+  ],
+  "CVE-2001-0011": [
+    "http://www.nai.com/research/covert/advisories/047.asp"
+  ],
+  "CVE-2001-0012": [
+    "http://www.nai.com/research/covert/advisories/047.asp"
+  ],
+  "CVE-2001-0013": [
+    "http://www.nai.com/research/covert/advisories/047.asp"
+  ],
+  "CVE-2001-0019": [
+    "http://www.cisco.com/warp/public/707/arrowpoint-cli-filesystem-pub.shtml"
+  ],
+  "CVE-2001-0020": [
+    "http://www.cisco.com/warp/public/707/arrowpoint-cli-filesystem-pub.shtml"
+  ],
+  "CVE-2001-0041": [
+    "http://www.cisco.com/warp/public/707/catalyst-memleak-pub.shtml"
+  ],
+  "CVE-2001-0055": [
+    "http://www.cisco.com/warp/public/707/CBOS-multiple.shtml"
+  ],
+  "CVE-2001-0056": [
+    "http://www.cisco.com/warp/public/707/CBOS-multiple.shtml"
+  ],
+  "CVE-2001-0057": [
+    "http://www.cisco.com/warp/public/707/CBOS-multiple.shtml"
+  ],
+  "CVE-2001-0058": [
+    "http://www.cisco.com/warp/public/707/CBOS-multiple.shtml"
+  ],
+  "CVE-2001-0080": [
+    "http://www.cisco.com/warp/public/707/catalyst-ssh-protocolmismatch-pub.shtml"
+  ],
+  "CVE-2001-0115": [
+    "http://marc.info/?l=bugtraq&m=97934312727101&w=2"
+  ],
+  "CVE-2001-0122": [
+    "http://www-4.ibm.com/software/webservers/security.html"
+  ],
+  "CVE-2001-0134": [
+    "http://marc.info/?l=bugtraq&m=97967435023835&w=2"
+  ],
+  "CVE-2001-0151": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A90"
+  ],
+  "CVE-2001-0241": [
+    "http://marc.info/?l=bugtraq&m=98874912915948&w=2"
+  ],
+  "CVE-2001-0247": [
+    "http://www.nai.com/research/covert/advisories/048.asp"
+  ],
+  "CVE-2001-0248": [
+    "http://www.nai.com/research/covert/advisories/048.asp"
+  ],
+  "CVE-2001-0249": [
+    "http://www.nai.com/research/covert/advisories/048.asp"
+  ],
+  "CVE-2001-0288": [
+    "http://www.cisco.com/warp/public/707/ios-tcp-isn-random-pub.shtml"
+  ],
+  "CVE-2001-0319": [
+    "http://www-4.ibm.com/software/webservers/commerce/netcomletter.html"
+  ],
+  "CVE-2001-0323": [
+    "http://www.oracle.com/technetwork/topics/security/cpujul2012-392727.html"
+  ],
+  "CVE-2001-0328": [
+    "http://securityreason.com/securityalert/57"
+  ],
+  "CVE-2001-0341": [
+    "http://marc.info/?l=bugtraq&m=99348216322147&w=2"
+  ],
+  "CVE-2001-0375": [
+    "http://www.cisco.com/warp/public/707/pixfirewall-authen-flood-pub.shtml"
+  ],
+  "CVE-2001-0412": [
+    "http://www.cisco.com/warp/public/707/arrowpoint-useraccnt-debug-pub.shtml"
+  ],
+  "CVE-2001-0414": [
+    "http://marc.info/?l=bugtraq&m=98642418618512&w=2"
+  ],
+  "CVE-2001-0427": [
+    "http://www.cisco.com/warp/public/707/vpn3k-telnet-vuln-pub.shtml"
+  ],
+  "CVE-2001-0428": [
+    "http://www.cisco.com/warp/public/707/vpn3k-ipoptions-vuln-pub.shtml"
+  ],
+  "CVE-2001-0429": [
+    "http://www.cisco.com/warp/public/707/cat5k-8021x-vuln-pub.shtml"
+  ],
+  "CVE-2001-0441": [
+    "http://www.redhat.com/support/errata/RHSA-2001-028.html"
+  ],
+  "CVE-2001-0455": [
+    "http://www.cisco.com/warp/public/707/Aironet340-pub.shtml"
+  ],
+  "CVE-2001-0457": [
+    "https://exchange.xforce.ibmcloud.com/vulnerabilities/6211"
+  ],
+  "CVE-2001-0464": [
+    "http://marc.info/?l=bugtraq&m=98761402029302&w=2"
+  ],
+  "CVE-2001-0465": [
+    "http://www.turbotax.com/atr/update/"
+  ],
+  "CVE-2001-0486": [
+    "http://marc.info/?l=bugtraq&m=98865027328391&w=2"
+  ],
+  "CVE-2001-0498": [
+    "http://www.nai.com/research/covert/advisories/049.asp"
+  ],
+  "CVE-2001-0499": [
+    "http://www.nai.com/research/covert/advisories/050.asp"
+  ],
+  "CVE-2001-0507": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A912"
+  ],
+  "CVE-2001-0515": [
+    "http://otn.oracle.com/deploy/security/pdf/net8_dos_alert.pdf"
+  ],
+  "CVE-2001-0516": [
+    "http://otn.oracle.com/deploy/security/pdf/net8_dos_alert.pdf"
+  ],
+  "CVE-2001-0517": [
+    "http://otn.oracle.com/deploy/security/pdf/net8_dos_alert.pdf"
+  ],
+  "CVE-2001-0533": [
+    "http://www-1.ibm.com/services/continuity/recover1.nsf/advisories/85256A3400529A8685256A8D00804A37/$file/oar271.txt"
+  ],
+  "CVE-2001-0537": [
+    "http://www.cisco.com/warp/public/707/IOS-httplevel-pub.html"
+  ],
+  "CVE-2001-0548": [
+    "http://marc.info/?l=bugtraq&m=99598918914068&w=2"
+  ],
+  "CVE-2001-0550": [
+    "http://marc.info/?l=bugtraq&m=100700363414799&w=2"
+  ],
+  "CVE-2001-0554": [
+    "http://www.redhat.com/support/errata/RHSA-2001-099.html"
+  ],
+  "CVE-2001-0557": [
+    "https://exchange.xforce.ibmcloud.com/vulnerabilities/6513"
+  ],
+  "CVE-2001-0621": [
+    "http://www.cisco.com/warp/public/707/arrowpoint-ftp-pub.shtml"
+  ],
+  "CVE-2001-0622": [
+    "http://www.cisco.com/warp/public/707/arrowpoint-webmgmt-vuln-pub.shtml"
+  ],
+  "CVE-2001-0650": [
+    "http://www.cisco.com/warp/public/707/ios-bgp-attr-corruption-pub.shtml"
+  ],
+  "CVE-2001-0652": [
+    "http://marc.info/?l=bugtraq&m=99745571104126&w=2"
+  ],
+  "CVE-2001-0669": [
+    "http://www.cisco.com/warp/public/707/cisco-intrusion-detection-obfuscation-vuln-pub.shtml"
+  ],
+  "CVE-2001-0685": [
+    "http://marc.info/?l=bugtraq&m=98339581702282&w=2"
+  ],
+  "CVE-2001-0711": [
+    "http://www.cisco.com/warp/public/707/ios-snmp-ilmi-vuln-pub.shtml"
+  ],
+  "CVE-2001-0727": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A921"
+  ],
+  "CVE-2001-0740": [
+    "http://marc.info/?l=bugtraq&m=100119572524232&w=2"
+  ],
+  "CVE-2001-0748": [
+    "http://www.cisco.com/warp/public/707/acmeweb-acsunix-dirtravers-vuln-pub.shtml"
+  ],
+  "CVE-2001-0750": [
+    "http://www.cisco.com/warp/public/707/ios-tcp-scanner-reload-pub.shtml"
+  ],
+  "CVE-2001-0751": [
+    "http://www.cisco.com/warp/public/707/CBOS-multiple2-pub.html"
+  ],
+  "CVE-2001-0752": [
+    "http://www.cisco.com/warp/public/707/CBOS-multiple2-pub.html"
+  ],
+  "CVE-2001-0753": [
+    "http://www.cisco.com/warp/public/707/CBOS-multiple2-pub.html"
+  ],
+  "CVE-2001-0754": [
+    "http://www.cisco.com/warp/public/707/CBOS-multiple2-pub.html"
+  ],
+  "CVE-2001-0757": [
+    "http://www.cisco.com/warp/public/707/6400-nrp2-telnet-vuln-pub.shtml"
+  ],
+  "CVE-2001-0758": [
+    "http://www.securiteam.com/windowsntfocus/5SP011P4KC.html"
+  ],
+  "CVE-2001-0820": [
+    "http://marc.info/?l=bugtraq&m=99406263214417&w=2"
+  ],
+  "CVE-2001-0836": [
+    "http://marc.info/?l=bugtraq&m=100342151132277&w=2"
+  ],
+  "CVE-2001-0853": [
+    "http://marc.info/?l=bugtraq&m=100498111712723&w=2"
+  ],
+  "CVE-2001-0861": [
+    "http://www.cisco.com/warp/public/707/GSR-unreachables-pub.shtml"
+  ],
+  "CVE-2001-0862": [
+    "http://www.cisco.com/warp/public/707/GSR-ACL-pub.shtml"
+  ],
+  "CVE-2001-0863": [
+    "http://www.cisco.com/warp/public/707/GSR-ACL-pub.shtml"
+  ],
+  "CVE-2001-0864": [
+    "http://www.cisco.com/warp/public/707/GSR-ACL-pub.shtml"
+  ],
+  "CVE-2001-0865": [
+    "http://www.cisco.com/warp/public/707/GSR-ACL-pub.shtml"
+  ],
+  "CVE-2001-0866": [
+    "http://www.cisco.com/warp/public/707/GSR-ACL-pub.shtml"
+  ],
+  "CVE-2001-0867": [
+    "http://www.cisco.com/warp/public/707/GSR-ACL-pub.shtml"
+  ],
+  "CVE-2001-0895": [
+    "http://www.cisco.com/warp/public/707/IOS-arp-overwrite-vuln-pub.shtml"
+  ],
+  "CVE-2001-0920": [
+    "http://marc.info/?l=bugtraq&m=100680319004162&w=2"
+  ],
+  "CVE-2001-0927": [
+    "http://marc.info/?l=bugtraq&m=100689302316077&w=2"
+  ],
+  "CVE-2001-0929": [
+    "http://www.cisco.com/warp/public/707/IOS-cbac-dynacl-pub.shtml"
+  ],
+  "CVE-2001-0931": [
+    "http://marc.info/?l=bugtraq&m=100698397818175&w=2"
+  ],
+  "CVE-2001-0932": [
+    "http://marc.info/?l=bugtraq&m=100698397818175&w=2"
+  ],
+  "CVE-2001-0933": [
+    "http://marc.info/?l=bugtraq&m=100698397818175&w=2"
+  ],
+  "CVE-2001-0934": [
+    "http://marc.info/?l=bugtraq&m=100698397818175&w=2"
+  ],
+  "CVE-2001-0946": [
+    "http://marc.info/?l=bugtraq&m=100743394701962&w=2"
+  ],
+  "CVE-2001-0998": [
+    "http://www-1.ibm.com/support/search.wss?rs=0&q=IY20943&apar=only"
+  ],
+  "CVE-2001-1002": [
+    "http://marc.info/?l=bugtraq&m=99892644616749&w=2"
+  ],
+  "CVE-2001-1020": [
+    "http://sourceforge.net/project/shownotes.php?release_id=51589"
+  ],
+  "CVE-2001-1037": [
+    "http://www.cisco.com/warp/public/707/SN-kernel-pub.html"
+  ],
+  "CVE-2001-1038": [
+    "http://www.cisco.com/warp/public/707/SN-kernel-pub.html"
+  ],
+  "CVE-2001-1064": [
+    "http://www.cisco.com/warp/public/707/cisco-cbos-webserver-pub.shtml"
+  ],
+  "CVE-2001-1065": [
+    "http://www.cisco.com/warp/public/707/cisco-cbos-webserver-pub.shtml"
+  ],
+  "CVE-2001-1080": [
+    "http://www-1.ibm.com/services/continuity/recover1.nsf/MSS/MSS-OAR-E01-2001.225.1/$file/oar225.txt"
+  ],
+  "CVE-2001-1081": [
+    "http://freshmeat.net/releases/52020/"
+  ],
+  "CVE-2001-1082": [
+    "http://freshmeat.net/releases/52020/"
+  ],
+  "CVE-2001-1105": [
+    "http://www.cisco.com/warp/public/707/SSL-J-pub.html"
+  ],
+  "CVE-2001-1183": [
+    "http://www.cisco.com/warp/public/707/PPTP-vulnerability-pub.html"
+  ],
+  "CVE-2001-1201": [
+    "http://marc.info/?l=bugtraq&m=100863301405266&w=2"
+  ],
+  "CVE-2001-1231": [
+    "http://support.novell.com/padlock/details.htm"
+  ],
+  "CVE-2001-1288": [
+    "http://marc.info/?l=vuln-dev&m=99651044701417&w=2"
+  ],
+  "CVE-2001-1295": [
+    "http://www.greenepa.net/~averett/cerberus-releasenotes.htm#ReleaseNotes"
+  ],
+  "CVE-2001-1362": [
+    "http://freshmeat.net/releases/51981/"
+  ],
+  "CVE-2001-1390": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1391": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1392": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1393": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1394": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1395": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1396": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1397": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1398": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1399": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1400": [
+    "http://www.redhat.com/support/errata/RHSA-2001-047.html"
+  ],
+  "CVE-2001-1410": [
+    "http://marc.info/?l=bugtraq&m=105829174431769&w=2"
+  ],
+  "CVE-2001-1434": [
+    "http://www.cisco.com/warp/public/707/ios-snmp-community-vulns-pub.shtml"
+  ],
+  "CVE-2001-1455": [
+    "http://www.securityfocus.com/bid/6060"
+  ],
+  "CVE-2001-1458": [
+    "http://www.foundstone.com/index.htm?subnav=resources/navigation.htm&subcontent=/resources/advisories_template.htm%3Findexid%3D12"
+  ],
+  "CVE-2001-1499": [
+    "http://www.osvdb.org/20210"
+  ],
+  "CVE-2001-1594": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ]
+}
