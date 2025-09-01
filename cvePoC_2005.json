@@ -1,0 +1,3572 @@
+{
+  "CVE-2005-0001": [
+    "http://www.redhat.com/support/errata/RHSA-2005-017.html"
+  ],
+  "CVE-2005-0003": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9512"
+  ],
+  "CVE-2005-0005": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9925"
+  ],
+  "CVE-2005-0006": [
+    "http://www.redhat.com/support/errata/RHSA-2005-037.html"
+  ],
+  "CVE-2005-0007": [
+    "http://www.redhat.com/support/errata/RHSA-2005-037.html"
+  ],
+  "CVE-2005-0008": [
+    "http://www.redhat.com/support/errata/RHSA-2005-037.html"
+  ],
+  "CVE-2005-0009": [
+    "http://www.redhat.com/support/errata/RHSA-2005-037.html"
+  ],
+  "CVE-2005-0010": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9521"
+  ],
+  "CVE-2005-0021": [
+    "http://www.redhat.com/support/errata/RHSA-2005-025.html"
+  ],
+  "CVE-2005-0022": [
+    "http://www.redhat.com/support/errata/RHSA-2005-025.html"
+  ],
+  "CVE-2005-0023": [
+    "http://bugzilla.gnome.org/show_bug.cgi?id=317312"
+  ],
+  "CVE-2005-0040": [
+    "http://www.securityfocus.com/bid/13646"
+  ],
+  "CVE-2005-0044": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-012"
+  ],
+  "CVE-2005-0045": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-011"
+  ],
+  "CVE-2005-0047": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A901"
+  ],
+  "CVE-2005-0048": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-019"
+  ],
+  "CVE-2005-0049": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-006"
+  ],
+  "CVE-2005-0050": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-010"
+  ],
+  "CVE-2005-0051": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-007"
+  ],
+  "CVE-2005-0053": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-014"
+  ],
+  "CVE-2005-0054": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-014"
+  ],
+  "CVE-2005-0055": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-014"
+  ],
+  "CVE-2005-0056": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-014"
+  ],
+  "CVE-2005-0057": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A2570"
+  ],
+  "CVE-2005-0058": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-040"
+  ],
+  "CVE-2005-0059": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-017"
+  ],
+  "CVE-2005-0060": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-018"
+  ],
+  "CVE-2005-0061": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-018"
+  ],
+  "CVE-2005-0063": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-016"
+  ],
+  "CVE-2005-0069": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9402"
+  ],
+  "CVE-2005-0075": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9587"
+  ],
+  "CVE-2005-0078": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9260"
+  ],
+  "CVE-2005-0084": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9140"
+  ],
+  "CVE-2005-0089": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9811"
+  ],
+  "CVE-2005-0100": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9408"
+  ],
+  "CVE-2005-0102": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9616"
+  ],
+  "CVE-2005-0108": [
+    "http://marc.info/?l=bugtraq&m=110548193312050&w=2"
+  ],
+  "CVE-2005-0109": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9747"
+  ],
+  "CVE-2005-0116": [
+    "http://packetstormsecurity.org/0501-exploits/AWStatsVulnAnalysis.pdf"
+  ],
+  "CVE-2005-0124": [
+    "http://www.securityfocus.com/archive/1/428028/100/0/threaded"
+  ],
+  "CVE-2005-0135": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9040"
+  ],
+  "CVE-2005-0142": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9543"
+  ],
+  "CVE-2005-0147": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9578"
+  ],
+  "CVE-2005-0160": [
+    "http://www.novell.com/linux/security/advisories/2005_16_sr.html"
+  ],
+  "CVE-2005-0161": [
+    "http://www.novell.com/linux/security/advisories/2005_16_sr.html"
+  ],
+  "CVE-2005-0179": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9890"
+  ],
+  "CVE-2005-0182": [
+    "http://marc.info/?l=bugtraq&m=110547469530582&w=2"
+  ],
+  "CVE-2005-0183": [
+    "http://marc.info/?l=bugtraq&m=110549426300953&w=2"
+  ],
+  "CVE-2005-0184": [
+    "http://marc.info/?l=bugtraq&m=110549426300953&w=2"
+  ],
+  "CVE-2005-0186": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050119-itscme.shtml"
+  ],
+  "CVE-2005-0193": [
+    "http://marc.info/?l=bugtraq&m=110642400018425&w=2"
+  ],
+  "CVE-2005-0195": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050126-ipv6.shtml"
+  ],
+  "CVE-2005-0196": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050126-bgp.shtml"
+  ],
+  "CVE-2005-0197": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050126-les.shtml"
+  ],
+  "CVE-2005-0202": [
+    "http://www.redhat.com/support/errata/RHSA-2005-136.html"
+  ],
+  "CVE-2005-0205": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9596"
+  ],
+  "CVE-2005-0207": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0209": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0211": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9573"
+  ],
+  "CVE-2005-0212": [
+    "http://marc.info/?l=bugtraq&m=110503597505648&w=2"
+  ],
+  "CVE-2005-0213": [
+    "http://marc.info/?l=bugtraq&m=110505334903257&w=2"
+  ],
+  "CVE-2005-0215": [
+    "http://marc.info/?l=bugtraq&m=110512665029209&w=2"
+  ],
+  "CVE-2005-0216": [
+    "http://marc.info/?l=bugtraq&m=110537385427004&w=2"
+  ],
+  "CVE-2005-0218": [
+    "http://seclists.org/lists/fulldisclosure/2005/Jan/0332.html"
+  ],
+  "CVE-2005-0229": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-001.txt"
+  ],
+  "CVE-2005-0230": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=279945"
+  ],
+  "CVE-2005-0231": [
+    "http://marc.info/?l=bugtraq&m=110781134617144&w=2"
+  ],
+  "CVE-2005-0232": [
+    "http://marc.info/?l=bugtraq&m=110781055630856&w=2"
+  ],
+  "CVE-2005-0233": [
+    "http://marc.info/?l=bugtraq&m=110782704923280&w=2"
+  ],
+  "CVE-2005-0234": [
+    "http://marc.info/?l=bugtraq&m=110782704923280&w=2"
+  ],
+  "CVE-2005-0235": [
+    "http://marc.info/?l=bugtraq&m=110782704923280&w=2"
+  ],
+  "CVE-2005-0236": [
+    "http://marc.info/?l=bugtraq&m=110782704923280&w=2"
+  ],
+  "CVE-2005-0247": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9345"
+  ],
+  "CVE-2005-0251": [
+    "http://marc.info/?l=full-disclosure&m=110864983905770&w=2"
+  ],
+  "CVE-2005-0252": [
+    "http://marc.info/?l=full-disclosure&m=110864983905770&w=2"
+  ],
+  "CVE-2005-0253": [
+    "http://marc.info/?l=full-disclosure&m=110864983905770&w=2"
+  ],
+  "CVE-2005-0254": [
+    "http://marc.info/?l=full-disclosure&m=110864983905770&w=2"
+  ],
+  "CVE-2005-0255": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9111"
+  ],
+  "CVE-2005-0273": [
+    "http://marc.info/?l=bugtraq&m=110486165802196&w=2"
+  ],
+  "CVE-2005-0274": [
+    "http://marc.info/?l=bugtraq&m=110486165802196&w=2"
+  ],
+  "CVE-2005-0279": [
+    "http://marc.info/?l=bugtraq&m=110486654213504&w=2"
+  ],
+  "CVE-2005-0280": [
+    "http://marc.info/?l=bugtraq&m=110486654213504&w=2"
+  ],
+  "CVE-2005-0281": [
+    "http://marc.info/?l=bugtraq&m=110486654213504&w=2"
+  ],
+  "CVE-2005-0282": [
+    "http://marc.info/?l=bugtraq&m=110486566600980&w=2"
+  ],
+  "CVE-2005-0290": [
+    "http://marc.info/?l=bugtraq&m=110599727631560&w=2"
+  ],
+  "CVE-2005-0291": [
+    "http://marc.info/?l=bugtraq&m=110599727631560&w=2"
+  ],
+  "CVE-2005-0295": [
+    "http://marc.info/?l=bugtraq&m=110608422029555&w=2"
+  ],
+  "CVE-2005-0299": [
+    "http://marc.info/?l=bugtraq&m=110627132209963&w=2"
+  ],
+  "CVE-2005-0300": [
+    "http://marc.info/?l=bugtraq&m=110627201120011&w=2"
+  ],
+  "CVE-2005-0304": [
+    "http://marc.info/?l=bugtraq&m=110642748517854&w=2"
+  ],
+  "CVE-2005-0308": [
+    "http://marc.info/?l=bugtraq&m=110661194108205&w=2"
+  ],
+  "CVE-2005-0309": [
+    "http://marc.info/?l=bugtraq&m=110666998407073&w=2"
+  ],
+  "CVE-2005-0310": [
+    "http://marc.info/?l=bugtraq&m=110666998407073&w=2"
+  ],
+  "CVE-2005-0312": [
+    "http://marc.info/?l=bugtraq&m=110687202332039&w=2"
+  ],
+  "CVE-2005-0316": [
+    "http://www.oliverkarow.de/research/WebWasherCONNECT.txt"
+  ],
+  "CVE-2005-0325": [
+    "http://marc.info/?l=bugtraq&m=110720064811485&w=2"
+  ],
+  "CVE-2005-0330": [
+    "http://marc.info/?l=bugtraq&m=110736915015707&w=2"
+  ],
+  "CVE-2005-0332": [
+    "http://marc.info/?l=bugtraq&m=110737616324614&w=2"
+  ],
+  "CVE-2005-0333": [
+    "http://marc.info/?l=bugtraq&m=110746524021133&w=2"
+  ],
+  "CVE-2005-0339": [
+    "http://marc.info/?l=bugtraq&m=110763204301080&w=2"
+  ],
+  "CVE-2005-0340": [
+    "http://marc.info/?l=bugtraq&m=110791369419784&w=2"
+  ],
+  "CVE-2005-0343": [
+    "http://marc.info/?l=bugtraq&m=110782042532295&w=2"
+  ],
+  "CVE-2005-0345": [
+    "http://www.securityfocus.com/bid/12482"
+  ],
+  "CVE-2005-0347": [
+    "http://marc.info/?l=bugtraq&m=110792779115794&w=2"
+  ],
+  "CVE-2005-0348": [
+    "http://marc.info/?l=bugtraq&m=110792779115794&w=2"
+  ],
+  "CVE-2005-0353": [
+    "http://marc.info/?l=full-disclosure&m=111072872816405&w=2"
+  ],
+  "CVE-2005-0356": [
+    "http://www.cisco.com/warp/public/707/cisco-sn-20050518-tcpts.shtml"
+  ],
+  "CVE-2005-0369": [
+    "http://marc.info/?l=bugtraq&m=110811699206052&w=2"
+  ],
+  "CVE-2005-0370": [
+    "http://marc.info/?l=bugtraq&m=110811699206052&w=2"
+  ],
+  "CVE-2005-0371": [
+    "http://marc.info/?l=bugtraq&m=110811699206052&w=2"
+  ],
+  "CVE-2005-0372": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9923"
+  ],
+  "CVE-2005-0374": [
+    "http://marc.info/?l=bugtraq&m=110555988111899&w=2"
+  ],
+  "CVE-2005-0375": [
+    "http://www.waraxe.us/advisory-39.html"
+  ],
+  "CVE-2005-0376": [
+    "http://www.waraxe.us/advisory-39.html"
+  ],
+  "CVE-2005-0377": [
+    "http://www.waraxe.us/advisory-39.html"
+  ],
+  "CVE-2005-0379": [
+    "http://marc.info/?l=bugtraq&m=110565373407474&w=2"
+  ],
+  "CVE-2005-0380": [
+    "http://marc.info/?l=bugtraq&m=110565373407474&w=2"
+  ],
+  "CVE-2005-0382": [
+    "http://marc.info/?l=bugtraq&m=110565587010998&w=2"
+  ],
+  "CVE-2005-0384": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9562"
+  ],
+  "CVE-2005-0398": [
+    "http://sourceforge.net/mailarchive/forum.php?thread_id=6787713&forum_id=32000"
+  ],
+  "CVE-2005-0400": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0401": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9650"
+  ],
+  "CVE-2005-0403": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9435"
+  ],
+  "CVE-2005-0404": [
+    "http://bugs.kde.org/show_bug.cgi?id=96020"
+  ],
+  "CVE-2005-0406": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-008.txt"
+  ],
+  "CVE-2005-0407": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-007.txt"
+  ],
+  "CVE-2005-0408": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-002.txt"
+  ],
+  "CVE-2005-0409": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-003.txt"
+  ],
+  "CVE-2005-0410": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-004.txt"
+  ],
+  "CVE-2005-0411": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-005.txt"
+  ],
+  "CVE-2005-0413": [
+    "https://www.exploit-db.com/exploits/4822"
+  ],
+  "CVE-2005-0414": [
+    "http://marc.info/?l=bugtraq&m=110797495532358&w=2"
+  ],
+  "CVE-2005-0415": [
+    "http://sourceforge.net/tracker/index.php?func=detail&aid=1116935&group_id=37219&atid=419458"
+  ],
+  "CVE-2005-0416": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-002"
+  ],
+  "CVE-2005-0419": [
+    "http://marc.info/?l=bugtraq&m=110780306326130&w=2"
+  ],
+  "CVE-2005-0430": [
+    "http://marc.info/?l=bugtraq&m=110824822224025&w=2"
+  ],
+  "CVE-2005-0449": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0468": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9640"
+  ],
+  "CVE-2005-0469": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9708"
+  ],
+  "CVE-2005-0476": [
+    "http://marc.info/?l=bugtraq&m=110869187805397&w=2"
+  ],
+  "CVE-2005-0488": [
+    "http://www.novell.com/linux/security/advisories/2005_16_sr.html"
+  ],
+  "CVE-2005-0492": [
+    "http://marc.info/?l=bugtraq&m=110879063511486&w=2"
+  ],
+  "CVE-2005-0501": [
+    "http://aluigi.altervista.org/adv/bontagobof-adv.txt"
+  ],
+  "CVE-2005-0504": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9770"
+  ],
+  "CVE-2005-0511": [
+    "http://marc.info/?l=bugtraq&m=110910899415763&w=2"
+  ],
+  "CVE-2005-0519": [
+    "http://www.securityfocus.com/bid/12487"
+  ],
+  "CVE-2005-0524": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9310"
+  ],
+  "CVE-2005-0526": [
+    "http://marc.info/?l=bugtraq&m=110917768511595&w=2"
+  ],
+  "CVE-2005-0527": [
+    "http://marc.info/?l=bugtraq&m=110935267500395&w=2"
+  ],
+  "CVE-2005-0529": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0530": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0531": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0550": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-018"
+  ],
+  "CVE-2005-0551": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-018"
+  ],
+  "CVE-2005-0553": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-020"
+  ],
+  "CVE-2005-0554": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-020"
+  ],
+  "CVE-2005-0555": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-020"
+  ],
+  "CVE-2005-0558": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-023"
+  ],
+  "CVE-2005-0560": [
+    "http://marc.info/?l=bugtraq&m=111393947713420&w=2"
+  ],
+  "CVE-2005-0563": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-029"
+  ],
+  "CVE-2005-0568": [
+    "http://marc.info/?l=bugtraq&m=110927288423807&w=2"
+  ],
+  "CVE-2005-0569": [
+    "http://marc.info/?l=bugtraq&m=110927754230666&w=2"
+  ],
+  "CVE-2005-0570": [
+    "http://marc.info/?l=bugtraq&m=110927754230666&w=2"
+  ],
+  "CVE-2005-0571": [
+    "http://marc.info/?l=bugtraq&m=110927754230666&w=2"
+  ],
+  "CVE-2005-0575": [
+    "http://www.exploit-db.com/exploits/24950"
+  ],
+  "CVE-2005-0585": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9924"
+  ],
+  "CVE-2005-0591": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=260560"
+  ],
+  "CVE-2005-0593": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9533"
+  ],
+  "CVE-2005-0597": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050224-acnsdos.shtml"
+  ],
+  "CVE-2005-0598": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050224-acnsdos.shtml"
+  ],
+  "CVE-2005-0599": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050224-acnsdos.shtml"
+  ],
+  "CVE-2005-0600": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050224-acnsdos.shtml"
+  ],
+  "CVE-2005-0601": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050224-acnsdos.shtml"
+  ],
+  "CVE-2005-0606": [
+    "http://lostmon.blogspot.com/2005/02/cubecart-20x-multiple-variable-xss.html"
+  ],
+  "CVE-2005-0607": [
+    "http://lostmon.blogspot.com/2005/02/cubecart-20x-multiple-variable-xss.html"
+  ],
+  "CVE-2005-0619": [
+    "https://www.exploit-db.com/exploits/846"
+  ],
+  "CVE-2005-0621": [
+    "http://marc.info/?l=full-disclosure&m=110961578504928&w=2"
+  ],
+  "CVE-2005-0627": [
+    "http://bugs.gentoo.org/show_bug.cgi?id=75181"
+  ],
+  "CVE-2005-0628": [
+    "http://marc.info/?l=bugtraq&m=110971101826900&w=2"
+  ],
+  "CVE-2005-0629": [
+    "http://marc.info/?l=bugtraq&m=110970911514167&w=2"
+  ],
+  "CVE-2005-0630": [
+    "http://marc.info/?l=bugtraq&m=110971002211589&w=2"
+  ],
+  "CVE-2005-0631": [
+    "http://marc.info/?l=bugtraq&m=110970738214608&w=2"
+  ],
+  "CVE-2005-0632": [
+    "http://marc.info/?l=bugtraq&m=110989169008570&w=2"
+  ],
+  "CVE-2005-0633": [
+    "http://marc.info/?l=bugtraq&m=111023000624809&w=2"
+  ],
+  "CVE-2005-0638": [
+    "http://support.avaya.com/elmodocs2/security/ASA-2005-134_RHSA-2005-332.pdf"
+  ],
+  "CVE-2005-0658": [
+    "http://marc.info/?l=bugtraq&m=110995289619649&w=2"
+  ],
+  "CVE-2005-0671": [
+    "http://aluigi.altervista.org/adv/ca3dex-adv.txt"
+  ],
+  "CVE-2005-0672": [
+    "http://aluigi.altervista.org/adv/ca3dex-adv.txt"
+  ],
+  "CVE-2005-0686": [
+    "https://sourceforge.net/project/shownotes.php?release_id=310416"
+  ],
+  "CVE-2005-0688": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2006/ms06-064"
+  ],
+  "CVE-2005-0693": [
+    "http://aluigi.altervista.org/adv/chasercool-adv.txt"
+  ],
+  "CVE-2005-0696": [
+    "http://securityreason.com/securityalert/494"
+  ],
+  "CVE-2005-0699": [
+    "http://marc.info/?l=bugtraq&m=111083125521813&w=2"
+  ],
+  "CVE-2005-0709": [
+    "http://marc.info/?l=bugtraq&m=111066115808506&w=2"
+  ],
+  "CVE-2005-0710": [
+    "http://marc.info/?l=bugtraq&m=111065974004648&w=2"
+  ],
+  "CVE-2005-0711": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9591"
+  ],
+  "CVE-2005-0726": [
+    "http://marc.info/?l=bugtraq&m=111056135818279&w=2"
+  ],
+  "CVE-2005-0729": [
+    "http://aluigi.altervista.org/adv/xprallyfs-adv.txt"
+  ],
+  "CVE-2005-0736": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9870"
+  ],
+  "CVE-2005-0739": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9687"
+  ],
+  "CVE-2005-0749": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0750": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0753": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9688"
+  ],
+  "CVE-2005-0758": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9797"
+  ],
+  "CVE-2005-0762": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9736"
+  ],
+  "CVE-2005-0766": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9866"
+  ],
+  "CVE-2005-0767": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0768": [
+    "http://marc.info/?l=bugtraq&m=111092012415193&w=2"
+  ],
+  "CVE-2005-0770": [
+    "http://pb.specialised.info/all/adv/ida-debugger-adv.txt"
+  ],
+  "CVE-2005-0774": [
+    "http://marc.info/?l=bugtraq&m=111065868402859&w=2"
+  ],
+  "CVE-2005-0775": [
+    "http://marc.info/?l=bugtraq&m=111065868402859&w=2"
+  ],
+  "CVE-2005-0776": [
+    "http://marc.info/?l=bugtraq&m=111065868402859&w=2"
+  ],
+  "CVE-2005-0777": [
+    "http://marc.info/?l=bugtraq&m=111065868402859&w=2"
+  ],
+  "CVE-2005-0778": [
+    "http://marc.info/?l=bugtraq&m=111065868402859&w=2"
+  ],
+  "CVE-2005-0782": [
+    "http://marc.info/?l=bugtraq&m=111221940107161&w=2"
+  ],
+  "CVE-2005-0786": [
+    "http://marc.info/?l=bugtraq&m=111082702422979&w=2"
+  ],
+  "CVE-2005-0790": [
+    "http://securityreason.com/adv/%5BphpAdsNew%202.0.4-pr1%20Multiple%20vulnerabilities%20cXIb8O3.9%5D.asc"
+  ],
+  "CVE-2005-0791": [
+    "http://securityreason.com/adv/%5BphpAdsNew%202.0.4-pr1%20Multiple%20vulnerabilities%20cXIb8O3.9%5D.asc"
+  ],
+  "CVE-2005-0799": [
+    "http://marc.info/?l=bugtraq&m=111091250923281&w=2"
+  ],
+  "CVE-2005-0803": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-053"
+  ],
+  "CVE-2005-0804": [
+    "http://marc.info/?l=bugtraq&m=111108519331738&w=2"
+  ],
+  "CVE-2005-0815": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9307"
+  ],
+  "CVE-2005-0826": [
+    "http://marc.info/?l=bugtraq&m=111125734701262&w=2"
+  ],
+  "CVE-2005-0836": [
+    "http://marc.info/?l=full-disclosure&m=111117284323657&w=2"
+  ],
+  "CVE-2005-0839": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9460"
+  ],
+  "CVE-2005-0841": [
+    "http://marc.info/?l=bugtraq&m=111143649730845&w=2"
+  ],
+  "CVE-2005-0847": [
+    "https://www.exploit-db.com/exploits/893"
+  ],
+  "CVE-2005-0848": [
+    "http://aluigi.altervista.org/adv/funlabsboom-adv.txt"
+  ],
+  "CVE-2005-0849": [
+    "http://aluigi.altervista.org/adv/funlabsboom-adv.txt"
+  ],
+  "CVE-2005-0853": [
+    "https://www.exploit-db.com/exploits/7499"
+  ],
+  "CVE-2005-0859": [
+    "https://www.exploit-db.com/exploits/2009"
+  ],
+  "CVE-2005-0867": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10867"
+  ],
+  "CVE-2005-0876": [
+    "http://www.thekelleys.org.uk/dnsmasq/CHANGELOG"
+  ],
+  "CVE-2005-0877": [
+    "http://www.thekelleys.org.uk/dnsmasq/CHANGELOG"
+  ],
+  "CVE-2005-0888": [
+    "http://sourceforge.net/project/shownotes.php?release_id=315160"
+  ],
+  "CVE-2005-0891": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9710"
+  ],
+  "CVE-2005-0894": [
+    "http://marc.info/?l=bugtraq&m=111176899423078&w=2"
+  ],
+  "CVE-2005-0897": [
+    "http://marc.info/?l=bugtraq&m=111186424600509&w=2"
+  ],
+  "CVE-2005-0898": [
+    "http://marc.info/?l=bugtraq&m=111186424600509&w=2"
+  ],
+  "CVE-2005-0905": [
+    "http://marc.info/?l=full-disclosure&m=111175236620942&w=2"
+  ],
+  "CVE-2005-0906": [
+    "http://aluigi.altervista.org/adv/tincat2bof-adv.txt"
+  ],
+  "CVE-2005-0919": [
+    "http://marc.info/?l=full-disclosure&m=111211930330410&w=2"
+  ],
+  "CVE-2005-0924": [
+    "http://marc.info/?l=full-disclosure&m=111211945505635&w=2"
+  ],
+  "CVE-2005-0928": [
+    "http://marc.info/?l=bugtraq&m=111205342909640&w=2"
+  ],
+  "CVE-2005-0929": [
+    "http://marc.info/?l=bugtraq&m=111205342909640&w=2"
+  ],
+  "CVE-2005-0935": [
+    "http://marc.info/?l=bugtraq&m=111221890614271&w=2"
+  ],
+  "CVE-2005-0936": [
+    "http://marc.info/?l=bugtraq&m=111221890614271&w=2"
+  ],
+  "CVE-2005-0941": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9106"
+  ],
+  "CVE-2005-0943": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050330-vpn3k.shtml"
+  ],
+  "CVE-2005-0948": [
+    "http://marc.info/?l=bugtraq&m=111213291118273&w=2"
+  ],
+  "CVE-2005-0949": [
+    "http://marc.info/?l=bugtraq&m=111213291118273&w=2"
+  ],
+  "CVE-2005-0952": [
+    "http://marc.info/?l=bugtraq&m=111221940107161&w=2"
+  ],
+  "CVE-2005-0955": [
+    "http://marc.info/?l=bugtraq&m=111230101127767&w=2"
+  ],
+  "CVE-2005-0956": [
+    "http://marc.info/?l=bugtraq&m=111230101127767&w=2"
+  ],
+  "CVE-2005-0961": [
+    "http://www.novell.com/linux/security/advisories/2005_16_sr.html"
+  ],
+  "CVE-2005-0966": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9185"
+  ],
+  "CVE-2005-0967": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9657"
+  ],
+  "CVE-2005-0977": [
+    "http://www.redhat.com/support/errata/RHSA-2005-366.html"
+  ],
+  "CVE-2005-0979": [
+    "http://marc.info/?l=bugtraq&m=111238364916500&w=2"
+  ],
+  "CVE-2005-0980": [
+    "http://marc.info/?l=bugtraq&m=111247198021626&w=2"
+  ],
+  "CVE-2005-0981": [
+    "http://marc.info/?l=bugtraq&m=111247198021626&w=2"
+  ],
+  "CVE-2005-0983": [
+    "http://marc.info/?l=bugtraq&m=111246796918067&w=2"
+  ],
+  "CVE-2005-0984": [
+    "http://marc.info/?l=bugtraq&m=111246855213653&w=2"
+  ],
+  "CVE-2005-0989": [
+    "http://www.redhat.com/support/errata/RHSA-2005-601.html"
+  ],
+  "CVE-2005-0990": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9613"
+  ],
+  "CVE-2005-0992": [
+    "http://www.arrelnet.com/advisories/adv20050403.html"
+  ],
+  "CVE-2005-10001": [
+    "https://vuldb.com/?id.1022"
+  ],
+  "CVE-2005-10002": [
+    "https://github.com/wp-plugins/secure-files/commit/cab025e5fc2bcdad8032d833ebc38e6bd2a13c92"
+  ],
+  "CVE-2005-10003": [
+    "https://vuldb.com/?id.280359"
+  ],
+  "CVE-2005-10004": [
+    "https://www.vulncheck.com/advisories/cacti-graph-view-rce"
+  ],
+  "CVE-2005-1003": [
+    "http://marc.info/?l=bugtraq&m=111264602406090&w=2"
+  ],
+  "CVE-2005-1004": [
+    "http://marc.info/?l=bugtraq&m=111264602406090&w=2"
+  ],
+  "CVE-2005-1005": [
+    "http://marc.info/?l=bugtraq&m=111264602406090&w=2"
+  ],
+  "CVE-2005-1007": [
+    "http://www.stalker.com/CommuniGatePro/History.html"
+  ],
+  "CVE-2005-1009": [
+    "http://www.hat-squad.com/en/000165.html"
+  ],
+  "CVE-2005-1013": [
+    "http://marc.info/?l=bugtraq&m=111273637518494&w=2"
+  ],
+  "CVE-2005-1019": [
+    "http://marc.info/?l=bugtraq&m=111262942708249&w=2"
+  ],
+  "CVE-2005-1020": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050406-ssh.shtml"
+  ],
+  "CVE-2005-1021": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050406-ssh.shtml"
+  ],
+  "CVE-2005-1023": [
+    "http://www.securityreason.com/adv/PHPNuke%206.x-7.6-p1.txt"
+  ],
+  "CVE-2005-1024": [
+    "http://www.securityreason.com/adv/PHPNuke%206.x-7.6-p1.txt"
+  ],
+  "CVE-2005-1029": [
+    "http://marc.info/?l=bugtraq&m=111280834000432&w=2"
+  ],
+  "CVE-2005-1030": [
+    "http://marc.info/?l=bugtraq&m=111280834000432&w=2"
+  ],
+  "CVE-2005-1041": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9487"
+  ],
+  "CVE-2005-1046": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A5802"
+  ],
+  "CVE-2005-1048": [
+    "http://marc.info/?l=bugtraq&m=111298226029957&w=2"
+  ],
+  "CVE-2005-1049": [
+    "http://marc.info/?l=bugtraq&m=111298226029957&w=2"
+  ],
+  "CVE-2005-1050": [
+    "http://marc.info/?l=bugtraq&m=111298226029957&w=2"
+  ],
+  "CVE-2005-1051": [
+    "http://marc.info/?l=bugtraq&m=111306207306155&w=2"
+  ],
+  "CVE-2005-1055": [
+    "http://marc.info/?l=bugtraq&m=111323802003019&w=2"
+  ],
+  "CVE-2005-1057": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050406-xauth.shtml"
+  ],
+  "CVE-2005-1058": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050406-xauth.shtml"
+  ],
+  "CVE-2005-1071": [
+    "http://marc.info/?l=bugtraq&m=111331738223323&w=2"
+  ],
+  "CVE-2005-1077": [
+    "http://marc.info/?l=full-disclosure&m=111330048629182&w=2"
+  ],
+  "CVE-2005-1078": [
+    "http://marc.info/?l=full-disclosure&m=111330048629182&w=2"
+  ],
+  "CVE-2005-1079": [
+    "http://marc.info/?l=bugtraq&m=111340031132596&w=2"
+  ],
+  "CVE-2005-1080": [
+    "http://rhn.redhat.com/errata/RHSA-2015-0857.html"
+  ],
+  "CVE-2005-1089": [
+    "http://dcplusplus.sourceforge.net/index.php?t=8&s=1"
+  ],
+  "CVE-2005-1099": [
+    "http://www.gasmi.net/down/gld-history"
+  ],
+  "CVE-2005-1100": [
+    "http://marc.info/?l=bugtraq&m=111339935903880&w=2"
+  ],
+  "CVE-2005-1111": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9783"
+  ],
+  "CVE-2005-1113": [
+    "http://marc.info/?l=bugtraq&m=111343406309969&w=2"
+  ],
+  "CVE-2005-1114": [
+    "http://marc.info/?l=bugtraq&m=111343406309969&w=2"
+  ],
+  "CVE-2005-1115": [
+    "http://marc.info/?l=bugtraq&m=111343406309969&w=2"
+  ],
+  "CVE-2005-1116": [
+    "http://marc.info/?l=bugtraq&m=111343406309969&w=2"
+  ],
+  "CVE-2005-1134": [
+    "http://seclists.org/lists/bugtraq/2005/Apr/0195.html"
+  ],
+  "CVE-2005-1141": [
+    "http://marc.info/?l=bugtraq&m=111358557823673&w=2"
+  ],
+  "CVE-2005-1142": [
+    "http://marc.info/?l=bugtraq&m=111358557823673&w=2"
+  ],
+  "CVE-2005-1143": [
+    "http://www.snkenjoi.com/secadv/secadv4.txt"
+  ],
+  "CVE-2005-1144": [
+    "http://www.snkenjoi.com/secadv/secadv4.txt"
+  ],
+  "CVE-2005-1145": [
+    "http://www.snkenjoi.com/secadv/secadv3.txt"
+  ],
+  "CVE-2005-1146": [
+    "http://www.snkenjoi.com/secadv/secadv3.txt"
+  ],
+  "CVE-2005-1147": [
+    "http://www.snkenjoi.com/secadv/secadv3.txt"
+  ],
+  "CVE-2005-1148": [
+    "http://www.snkenjoi.com/secadv/secadv3.txt"
+  ],
+  "CVE-2005-1153": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9584"
+  ],
+  "CVE-2005-1154": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10339"
+  ],
+  "CVE-2005-1155": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=290036"
+  ],
+  "CVE-2005-1157": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9961"
+  ],
+  "CVE-2005-1158": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A100019"
+  ],
+  "CVE-2005-1159": [
+    "http://www.redhat.com/support/errata/RHSA-2005-601.html"
+  ],
+  "CVE-2005-1160": [
+    "http://www.redhat.com/support/errata/RHSA-2005-601.html"
+  ],
+  "CVE-2005-1161": [
+    "http://marc.info/?l=bugtraq&m=111352017704126&w=2"
+  ],
+  "CVE-2005-1162": [
+    "http://marc.info/?l=bugtraq&m=111352017704126&w=2"
+  ],
+  "CVE-2005-1163": [
+    "http://marc.info/?l=bugtraq&m=111352154820865&w=2"
+  ],
+  "CVE-2005-1164": [
+    "http://marc.info/?l=bugtraq&m=111352154820865&w=2"
+  ],
+  "CVE-2005-1165": [
+    "http://marc.info/?l=bugtraq&m=111352154820865&w=2"
+  ],
+  "CVE-2005-1173": [
+    "http://marc.info/?l=bugtraq&m=111384806002021&w=2"
+  ],
+  "CVE-2005-1175": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9902"
+  ],
+  "CVE-2005-1180": [
+    "http://marc.info/?l=bugtraq&m=111359804013536&w=2"
+  ],
+  "CVE-2005-1184": [
+    "http://seclists.org/lists/fulldisclosure/2005/Apr/0358.html"
+  ],
+  "CVE-2005-1191": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-024"
+  ],
+  "CVE-2005-1192": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A935"
+  ],
+  "CVE-2005-1193": [
+    "http://www.kb.cert.org/vuls/id/113196"
+  ],
+  "CVE-2005-1194": [
+    "http://www.redhat.com/support/errata/RHSA-2005-381.html"
+  ],
+  "CVE-2005-1199": [
+    "http://marc.info/?l=bugtraq&m=111393619021575&w=2"
+  ],
+  "CVE-2005-1205": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-033"
+  ],
+  "CVE-2005-1206": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-027"
+  ],
+  "CVE-2005-1207": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-028"
+  ],
+  "CVE-2005-1208": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-026"
+  ],
+  "CVE-2005-1211": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-025"
+  ],
+  "CVE-2005-1212": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-031"
+  ],
+  "CVE-2005-1213": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A989"
+  ],
+  "CVE-2005-1214": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A906"
+  ],
+  "CVE-2005-1215": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-034"
+  ],
+  "CVE-2005-1216": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-034"
+  ],
+  "CVE-2005-1218": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-041"
+  ],
+  "CVE-2005-1220": [
+    "http://marc.info/?l=bugtraq&m=111402253108991&w=2"
+  ],
+  "CVE-2005-1223": [
+    "http://marc.info/?l=bugtraq&m=111401502007772&w=2"
+  ],
+  "CVE-2005-1224": [
+    "http://marc.info/?l=bugtraq&m=111401172901705&w=2"
+  ],
+  "CVE-2005-1233": [
+    "http://www.snkenjoi.com/secadv/secadv7.txt"
+  ],
+  "CVE-2005-1234": [
+    "http://www.snkenjoi.com/secadv/secadv9.txt"
+  ],
+  "CVE-2005-1235": [
+    "http://www.snkenjoi.com/secadv/secadv9.txt"
+  ],
+  "CVE-2005-1237": [
+    "https://www.exploit-db.com/exploits/3631"
+  ],
+  "CVE-2005-1262": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10861"
+  ],
+  "CVE-2005-1263": [
+    "http://www.securityfocus.com/archive/1/428028/100/0/threaded"
+  ],
+  "CVE-2005-1267": [
+    "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=159208"
+  ],
+  "CVE-2005-1268": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9589"
+  ],
+  "CVE-2005-1269": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9544"
+  ],
+  "CVE-2005-1275": [
+    "http://www.imagemagick.org/script/changelog.php"
+  ],
+  "CVE-2005-1279": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9601"
+  ],
+  "CVE-2005-1286": [
+    "http://marc.info/?l=bugtraq&m=111420400316397&w=2"
+  ],
+  "CVE-2005-1287": [
+    "http://marc.info/?l=bugtraq&m=111428133317901&w=2"
+  ],
+  "CVE-2005-1291": [
+    "http://marc.info/?l=bugtraq&m=111428393022389&w=2"
+  ],
+  "CVE-2005-1292": [
+    "http://marc.info/?l=bugtraq&m=111428393022389&w=2"
+  ],
+  "CVE-2005-1293": [
+    "http://marc.info/?l=bugtraq&m=111445131808328&w=2"
+  ],
+  "CVE-2005-1294": [
+    "http://www.digitalmunition.com/DMA%5B2005-0423a%5D.txt"
+  ],
+  "CVE-2005-1306": [
+    "http://www.securityfocus.com/bid/13962"
+  ],
+  "CVE-2005-1328": [
+    "http://lostmon.blogspot.com/2005/04/oneworldstore-critical-failure.html"
+  ],
+  "CVE-2005-1329": [
+    "http://lostmon.blogspot.com/2005/04/oneworldstore-user-information.html"
+  ],
+  "CVE-2005-1348": [
+    "http://marc.info/?l=bugtraq&m=111445834220015&w=2"
+  ],
+  "CVE-2005-1360": [
+    "http://marc.info/?l=bugtraq&m=111454354214982&w=2"
+  ],
+  "CVE-2005-1361": [
+    "http://marc.info/?l=bugtraq&m=111453994718211&w=2"
+  ],
+  "CVE-2005-1362": [
+    "http://marc.info/?l=bugtraq&m=111454090503662&w=2"
+  ],
+  "CVE-2005-1363": [
+    "http://marc.info/?l=bugtraq&m=111454142832023&w=2"
+  ],
+  "CVE-2005-1364": [
+    "http://marc.info/?l=bugtraq&m=111454192928364&w=2"
+  ],
+  "CVE-2005-1365": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-010.txt"
+  ],
+  "CVE-2005-1366": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-011.txt"
+  ],
+  "CVE-2005-1367": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-012.txt"
+  ],
+  "CVE-2005-1384": [
+    "http://pridels0.blogspot.com/2006/03/phpcoin-poc.html"
+  ],
+  "CVE-2005-1393": [
+    "http://www.digitalmunition.com/DMA%5B2005-0425a%5D.txt"
+  ],
+  "CVE-2005-1394": [
+    "http://www.digitalmunition.com/DMA%5B2005-0425a%5D.txt"
+  ],
+  "CVE-2005-1398": [
+    "http://lostmon.blogspot.com/2005/04/phpcart-price-manipulation.html"
+  ],
+  "CVE-2005-1401": [
+    "http://aluigi.altervista.org/adv/mtpbugs-adv.txt"
+  ],
+  "CVE-2005-1402": [
+    "http://aluigi.altervista.org/adv/mtpbugs-adv.txt"
+  ],
+  "CVE-2005-1410": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9343"
+  ],
+  "CVE-2005-1415": [
+    "http://www.cuteftp.com/gsftps/history.asp"
+  ],
+  "CVE-2005-1425": [
+    "https://www.exploit-db.com/exploits/8609"
+  ],
+  "CVE-2005-1426": [
+    "https://www.exploit-db.com/exploits/8610"
+  ],
+  "CVE-2005-1431": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9238"
+  ],
+  "CVE-2005-1440": [
+    "http://lostmon.blogspot.com/2005/04/viart-shop-enterprise-multiple.html"
+  ],
+  "CVE-2005-1454": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9610"
+  ],
+  "CVE-2005-1455": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9579"
+  ],
+  "CVE-2005-1456": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9700"
+  ],
+  "CVE-2005-1457": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9825"
+  ],
+  "CVE-2005-1460": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9970"
+  ],
+  "CVE-2005-1461": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9853"
+  ],
+  "CVE-2005-1462": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9713"
+  ],
+  "CVE-2005-1464": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9534"
+  ],
+  "CVE-2005-1467": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9654"
+  ],
+  "CVE-2005-1469": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9598"
+  ],
+  "CVE-2005-1471": [
+    "http://marc.info/?l=full-disclosure&m=111537013104724&w=2"
+  ],
+  "CVE-2005-1476": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=293302"
+  ],
+  "CVE-2005-1477": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9231"
+  ],
+  "CVE-2005-1480": [
+    "http://marc.info/?l=bugtraq&m=111507556127582&w=2"
+  ],
+  "CVE-2005-1481": [
+    "http://marc.info/?l=bugtraq&m=111530675909673&w=2"
+  ],
+  "CVE-2005-1482": [
+    "http://marc.info/?l=bugtraq&m=111530871724865&w=2"
+  ],
+  "CVE-2005-1483": [
+    "http://marc.info/?l=bugtraq&m=111530871724865&w=2"
+  ],
+  "CVE-2005-1484": [
+    "http://marc.info/?l=bugtraq&m=111530871716145&w=2"
+  ],
+  "CVE-2005-1485": [
+    "http://marc.info/?l=bugtraq&m=111530871716145&w=2"
+  ],
+  "CVE-2005-1486": [
+    "http://marc.info/?l=bugtraq&m=111530799109755&w=2"
+  ],
+  "CVE-2005-1487": [
+    "http://marc.info/?l=bugtraq&m=111530799109755&w=2"
+  ],
+  "CVE-2005-1495": [
+    "http://www.kb.cert.org/vuls/id/777773"
+  ],
+  "CVE-2005-1496": [
+    "http://www.red-database-security.com/exploits/oracle_exploit_dbms_scheduler_select_user.html"
+  ],
+  "CVE-2005-1497": [
+    "http://mywebland.com/forums/viewtopic.php?t=180"
+  ],
+  "CVE-2005-1498": [
+    "http://mywebland.com/forums/viewtopic.php?t=180"
+  ],
+  "CVE-2005-1499": [
+    "http://mywebland.com/forums/viewtopic.php?t=180"
+  ],
+  "CVE-2005-1500": [
+    "http://mywebland.com/forums/viewtopic.php?t=180"
+  ],
+  "CVE-2005-1504": [
+    "http://marc.info/?l=bugtraq&m=111539740212818&w=2"
+  ],
+  "CVE-2005-1507": [
+    "http://marc.info/?l=bugtraq&m=111541709402784&w=2"
+  ],
+  "CVE-2005-1513": [
+    "http://www.openwall.com/lists/oss-security/2023/06/06/3"
+  ],
+  "CVE-2005-1514": [
+    "http://www.openwall.com/lists/oss-security/2020/05/19/8"
+  ],
+  "CVE-2005-1515": [
+    "http://www.openwall.com/lists/oss-security/2020/05/19/8"
+  ],
+  "CVE-2005-1517": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050511-url.shtml"
+  ],
+  "CVE-2005-1519": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9976"
+  ],
+  "CVE-2005-1532": [
+    "http://www.redhat.com/support/errata/RHSA-2005-601.html"
+  ],
+  "CVE-2005-1547": [
+    "http://marc.info/?l=bugtraq&m=111600439331242&w=2"
+  ],
+  "CVE-2005-1554": [
+    "http://marc.info/?l=bugtraq&m=111575905112831&w=2"
+  ],
+  "CVE-2005-1556": [
+    "http://marc.info/?l=bugtraq&m=111575820116969&w=2"
+  ],
+  "CVE-2005-1561": [
+    "http://marc.info/?l=bugtraq&m=111584883727605&w=2"
+  ],
+  "CVE-2005-1562": [
+    "http://marc.info/?l=bugtraq&m=111584883727605&w=2"
+  ],
+  "CVE-2005-1567": [
+    "http://marc.info/?l=bugtraq&m=111592417803514&w=2"
+  ],
+  "CVE-2005-1568": [
+    "http://marc.info/?l=bugtraq&m=111592417803514&w=2"
+  ],
+  "CVE-2005-1569": [
+    "http://marc.info/?l=bugtraq&m=111592417803514&w=2"
+  ],
+  "CVE-2005-1593": [
+    "http://lostmon.blogspot.com/2005/05/codethat-shoppingcart-critical.html"
+  ],
+  "CVE-2005-1594": [
+    "http://lostmon.blogspot.com/2005/05/codethat-shoppingcart-critical.html"
+  ],
+  "CVE-2005-1595": [
+    "http://lostmon.blogspot.com/2005/05/codethat-shoppingcart-critical.html"
+  ],
+  "CVE-2005-1598": [
+    "https://www.exploit-db.com/exploits/1013"
+  ],
+  "CVE-2005-1612": [
+    "http://marc.info/?l=bugtraq&m=111601780332632&w=2"
+  ],
+  "CVE-2005-1613": [
+    "http://marc.info/?l=bugtraq&m=111601780332632&w=2"
+  ],
+  "CVE-2005-1614": [
+    "http://marc.info/?l=bugtraq&m=111600262424876&w=2"
+  ],
+  "CVE-2005-1615": [
+    "http://marc.info/?l=bugtraq&m=111600262424876&w=2"
+  ],
+  "CVE-2005-1616": [
+    "http://marc.info/?l=bugtraq&m=111600262424876&w=2"
+  ],
+  "CVE-2005-1618": [
+    "http://marc.info/?l=bugtraq&m=111601904204055&w=2"
+  ],
+  "CVE-2005-1619": [
+    "http://marc.info/?l=bugtraq&m=111602076500031&w=2"
+  ],
+  "CVE-2005-1620": [
+    "http://marc.info/?l=bugtraq&m=111609838307070&w=2"
+  ],
+  "CVE-2005-1621": [
+    "http://marc.info/?l=bugtraq&m=111627124301526&w=2"
+  ],
+  "CVE-2005-1636": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9504"
+  ],
+  "CVE-2005-1640": [
+    "http://www.ignition-project.com/security/20050414-hosts-delete-owner-access-entries"
+  ],
+  "CVE-2005-1641": [
+    "http://www.ignition-project.com/security/20050515-protected-opers-cannot-join-channel-with-key"
+  ],
+  "CVE-2005-1643": [
+    "http://aluigi.altervista.org/adv/zoidboom-adv.txt"
+  ],
+  "CVE-2005-1658": [
+    "http://cvs.sourceforge.net/viewcvs.py/myserverweb/myserverweb/source/filemanager.cpp?rev=1.116&view=log"
+  ],
+  "CVE-2005-1659": [
+    "http://cvs.sourceforge.net/viewcvs.py/myserverweb/myserverweb/source/filemanager.cpp?rev=1.116&view=log"
+  ],
+  "CVE-2005-1667": [
+    "https://www.exploit-db.com/exploits/983"
+  ],
+  "CVE-2005-1671": [
+    "http://marc.info/?l=bugtraq&m=111643475210982&w=2"
+  ],
+  "CVE-2005-1679": [
+    "http://marc.info/?l=bugtraq&m=111661253517089&w=2"
+  ],
+  "CVE-2005-1681": [
+    "http://marc.info/?l=bugtraq&m=111653168810937&w=2"
+  ],
+  "CVE-2005-1683": [
+    "http://marc.info/?l=bugtraq&m=111653088303057&w=2"
+  ],
+  "CVE-2005-1686": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9845"
+  ],
+  "CVE-2005-1689": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9819"
+  ],
+  "CVE-2005-1692": [
+    "http://marc.info/?l=bugtraq&m=111670637812128&w=2"
+  ],
+  "CVE-2005-1702": [
+    "http://marc.info/?l=bugtraq&m=111686776303832&w=2"
+  ],
+  "CVE-2005-1703": [
+    "http://marc.info/?l=bugtraq&m=111686776303832&w=2"
+  ],
+  "CVE-2005-1704": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9071"
+  ],
+  "CVE-2005-1712": [
+    "http://sourceforge.net/project/shownotes.php?release_id=328092"
+  ],
+  "CVE-2005-1713": [
+    "http://sourceforge.net/project/shownotes.php?release_id=328092"
+  ],
+  "CVE-2005-1718": [
+    "http://aluigi.altervista.org/adv/wartimesboom-adv.txt"
+  ],
+  "CVE-2005-1739": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A960"
+  ],
+  "CVE-2005-1741": [
+    "http://aluigi.altervista.org/adv/haloloop-adv.txt"
+  ],
+  "CVE-2005-1751": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9639"
+  ],
+  "CVE-2005-1752": [
+    "http://marc.info/?l=bugtraq&m=111695779919830&w=2"
+  ],
+  "CVE-2005-1760": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9522"
+  ],
+  "CVE-2005-1766": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9509"
+  ],
+  "CVE-2005-1769": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9852"
+  ],
+  "CVE-2005-1770": [
+    "http://pb.specialised.info/all/adv/avast-adv.txt"
+  ],
+  "CVE-2005-1772": [
+    "http://marc.info/?l=bugtraq&m=111713248227479&w=2"
+  ],
+  "CVE-2005-1775": [
+    "http://marc.info/?l=bugtraq&m=111713248227479&w=2"
+  ],
+  "CVE-2005-1776": [
+    "http://marc.info/?l=bugtraq&m=111713300212601&w=2"
+  ],
+  "CVE-2005-1787": [
+    "http://marc.info/?l=bugtraq&m=111721290726958&w=2"
+  ],
+  "CVE-2005-1790": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1508"
+  ],
+  "CVE-2005-1791": [
+    "http://marc.info/?l=bugtraq&m=111746303509720&w=2"
+  ],
+  "CVE-2005-1792": [
+    "http://www.networksecurity.fi/advisories/windows-wmi-rpc.html"
+  ],
+  "CVE-2005-1797": [
+    "http://cr.yp.to/antiforgery/cachetiming-20050414.pdf"
+  ],
+  "CVE-2005-1808": [
+    "http://marc.info/?l=bugtraq&m=111747562806999&w=2"
+  ],
+  "CVE-2005-1814": [
+    "http://marc.info/?l=bugtraq&m=111746551802380&w=2"
+  ],
+  "CVE-2005-1829": [
+    "http://marc.info/?l=bugtraq&m=111746441220149&w=2"
+  ],
+  "CVE-2005-1830": [
+    "http://pb.specialised.info/all/adv/sice-adv.txt"
+  ],
+  "CVE-2005-1832": [
+    "http://marc.info/?l=bugtraq&m=111757191118050&w=2"
+  ],
+  "CVE-2005-1833": [
+    "http://marc.info/?l=bugtraq&m=111757191118050&w=2"
+  ],
+  "CVE-2005-1840": [
+    "http://marc.info/?l=bugtraq&m=111773774916907&w=2"
+  ],
+  "CVE-2005-1849": [
+    "http://www.ubuntulinux.org/usn/usn-151-3"
+  ],
+  "CVE-2005-1852": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9532"
+  ],
+  "CVE-2005-1858": [
+    "http://www.sven-tantau.de/public_files/fuse/fuse_20050603.txt"
+  ],
+  "CVE-2005-1874": [
+    "http://bugs.gentoo.org/show_bug.cgi?id=93079"
+  ],
+  "CVE-2005-1875": [
+    "http://marc.info/?l=bugtraq&m=111773894525119&w=2"
+  ],
+  "CVE-2005-1891": [
+    "http://marc.info/?l=bugtraq&m=111816939928640&w=2"
+  ],
+  "CVE-2005-1892": [
+    "http://flatnuke.sourceforge.net/index.php?mod=read&id=1117979256"
+  ],
+  "CVE-2005-1893": [
+    "http://flatnuke.sourceforge.net/index.php?mod=read&id=1117979256"
+  ],
+  "CVE-2005-1894": [
+    "http://flatnuke.sourceforge.net/index.php?mod=read&id=1117979256"
+  ],
+  "CVE-2005-1895": [
+    "http://flatnuke.sourceforge.net/index.php?mod=read&id=1117979256"
+  ],
+  "CVE-2005-1896": [
+    "http://flatnuke.sourceforge.net/index.php?mod=read&id=1117979256"
+  ],
+  "CVE-2005-1899": [
+    "http://marc.info/?l=bugtraq&m=111809312423958&w=2"
+  ],
+  "CVE-2005-1900": [
+    "http://www.networksecurity.fi/advisories/sawmill-admin.html"
+  ],
+  "CVE-2005-1901": [
+    "http://www.networksecurity.fi/advisories/sawmill-admin.html"
+  ],
+  "CVE-2005-1907": [
+    "http://www.networksecurity.fi/advisories/windows-isa-firewall.html"
+  ],
+  "CVE-2005-1918": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9946"
+  ],
+  "CVE-2005-1920": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9434"
+  ],
+  "CVE-2005-1921": [
+    "http://www.drupal.org/security/drupal-sa-2005-003/advisory.txt"
+  ],
+  "CVE-2005-1924": [
+    "https://www.exploit-db.com/exploits/4173"
+  ],
+  "CVE-2005-1928": [
+    "http://securityreason.com/securityalert/259"
+  ],
+  "CVE-2005-1929": [
+    "http://securityreason.com/securityalert/257"
+  ],
+  "CVE-2005-1930": [
+    "http://securityreason.com/securityalert/258"
+  ],
+  "CVE-2005-1937": [
+    "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=160202"
+  ],
+  "CVE-2005-1942": [
+    "http://www.cisco.com/warp/public/707/cisco-sn-20050608-8021x.shtml"
+  ],
+  "CVE-2005-1949": [
+    "http://marc.info/?l=bugtraq&m=111835539312985&w=2"
+  ],
+  "CVE-2005-1952": [
+    "http://marc.info/?l=bugtraq&m=111852830111316&w=2"
+  ],
+  "CVE-2005-1953": [
+    "http://marc.info/?l=bugtraq&m=111852830111316&w=2"
+  ],
+  "CVE-2005-1967": [
+    "http://echo.or.id/adv/adv16-theday-2005.txt"
+  ],
+  "CVE-2005-1968": [
+    "http://echo.or.id/adv/adv16-theday-2005.txt"
+  ],
+  "CVE-2005-1974": [
+    "http://securityreason.com/securityalert/56"
+  ],
+  "CVE-2005-1978": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-051"
+  ],
+  "CVE-2005-1979": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-051"
+  ],
+  "CVE-2005-1980": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-051"
+  ],
+  "CVE-2005-1981": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-042"
+  ],
+  "CVE-2005-1982": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-042"
+  ],
+  "CVE-2005-1983": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-039"
+  ],
+  "CVE-2005-1984": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-043"
+  ],
+  "CVE-2005-1985": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A910"
+  ],
+  "CVE-2005-1987": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-048"
+  ],
+  "CVE-2005-1988": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-038"
+  ],
+  "CVE-2005-1989": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-038"
+  ],
+  "CVE-2005-1990": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-038"
+  ],
+  "CVE-2005-1994": [
+    "http://marc.info/?l=bugtraq&m=111877410528692&w=2"
+  ],
+  "CVE-2005-2002": [
+    "http://marc.info/?l=bugtraq&m=111885974124936&w=2"
+  ],
+  "CVE-2005-2003": [
+    "http://marc.info/?l=bugtraq&m=111893777504821&w=2"
+  ],
+  "CVE-2005-2004": [
+    "http://marc.info/?l=bugtraq&m=111893777504821&w=2"
+  ],
+  "CVE-2005-2005": [
+    "http://marc.info/?l=bugtraq&m=111893777504821&w=2"
+  ],
+  "CVE-2005-2006": [
+    "http://securityreason.com/securityalert/439"
+  ],
+  "CVE-2005-2008": [
+    "http://marc.info/?l=bugtraq&m=111927717726371&w=2"
+  ],
+  "CVE-2005-2009": [
+    "http://marc.info/?l=bugtraq&m=111928552304897&w=2"
+  ],
+  "CVE-2005-2010": [
+    "http://marc.info/?l=bugtraq&m=111928552304897&w=2"
+  ],
+  "CVE-2005-2011": [
+    "http://marc.info/?l=bugtraq&m=111928841328681&w=2"
+  ],
+  "CVE-2005-2012": [
+    "http://marc.info/?l=bugtraq&m=111928841328681&w=2"
+  ],
+  "CVE-2005-2013": [
+    "http://marc.info/?l=bugtraq&m=111928841328681&w=2"
+  ],
+  "CVE-2005-2014": [
+    "http://marc.info/?l=bugtraq&m=111928841328681&w=2"
+  ],
+  "CVE-2005-2023": [
+    "http://www.novell.com/linux/security/advisories/2005_16_sr.html"
+  ],
+  "CVE-2005-2030": [
+    "http://marc.info/?l=bugtraq&m=111893777504821&w=2"
+  ],
+  "CVE-2005-2035": [
+    "http://seclists.org/lists/fulldisclosure/2005/Jun/0205.html"
+  ],
+  "CVE-2005-2036": [
+    "http://seclists.org/lists/fulldisclosure/2005/Jun/0205.html"
+  ],
+  "CVE-2005-2053": [
+    "http://marc.info/?l=bugtraq&m=111954840611126&w=2"
+  ],
+  "CVE-2005-2062": [
+    "https://www.exploit-db.com/exploits/3550"
+  ],
+  "CVE-2005-2063": [
+    "http://marc.info/?l=bugtraq&m=111963341429906&w=2"
+  ],
+  "CVE-2005-2064": [
+    "http://marc.info/?l=bugtraq&m=111989223906484&w=2"
+  ],
+  "CVE-2005-2065": [
+    "http://marc.info/?l=bugtraq&m=111989223906484&w=2"
+  ],
+  "CVE-2005-2066": [
+    "http://marc.info/?l=bugtraq&m=111989223906484&w=2"
+  ],
+  "CVE-2005-2067": [
+    "http://marc.info/?l=bugtraq&m=111989828622112&w=2"
+  ],
+  "CVE-2005-2069": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9445"
+  ],
+  "CVE-2005-2071": [
+    "http://marc.info/?l=bugtraq&m=111963068714114&w=2"
+  ],
+  "CVE-2005-2081": [
+    "http://marc.info/?l=bugtraq&m=111946399501080&w=2"
+  ],
+  "CVE-2005-2082": [
+    "http://marc.info/?l=bugtraq&m=112006605026261&w=2"
+  ],
+  "CVE-2005-2086": [
+    "http://marc.info/?l=bugtraq&m=111999905917019&w=2"
+  ],
+  "CVE-2005-2087": [
+    "http://www.kb.cert.org/vuls/id/939605"
+  ],
+  "CVE-2005-2090": [
+    "http://community.ca.com/blogs/casecurityresponseblog/archive/2009/01/23.aspx"
+  ],
+  "CVE-2005-2096": [
+    "http://www.ubuntulinux.org/usn/usn-151-3"
+  ],
+  "CVE-2005-2098": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9638"
+  ],
+  "CVE-2005-2099": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9079"
+  ],
+  "CVE-2005-2102": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9283"
+  ],
+  "CVE-2005-2104": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9411"
+  ],
+  "CVE-2005-2105": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050629-aaa.shtml"
+  ],
+  "CVE-2005-2106": [
+    "http://www.drupal.org/security/drupal-sa-2005-002/advisory.txt"
+  ],
+  "CVE-2005-2107": [
+    "http://marc.info/?l=bugtraq&m=112006967221438&w=2"
+  ],
+  "CVE-2005-2108": [
+    "http://marc.info/?l=bugtraq&m=112006967221438&w=2"
+  ],
+  "CVE-2005-2109": [
+    "http://marc.info/?l=bugtraq&m=112006967221438&w=2"
+  ],
+  "CVE-2005-2110": [
+    "http://marc.info/?l=bugtraq&m=112006967221438&w=2"
+  ],
+  "CVE-2005-2111": [
+    "http://marc.info/?l=bugtraq&m=112006558125309&w=2"
+  ],
+  "CVE-2005-2114": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9628"
+  ],
+  "CVE-2005-2117": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-049"
+  ],
+  "CVE-2005-2118": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-049"
+  ],
+  "CVE-2005-2119": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-051"
+  ],
+  "CVE-2005-2120": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-047"
+  ],
+  "CVE-2005-2122": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-049"
+  ],
+  "CVE-2005-2123": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-053"
+  ],
+  "CVE-2005-2124": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-053"
+  ],
+  "CVE-2005-2126": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-044"
+  ],
+  "CVE-2005-2127": [
+    "http://www.kb.cert.org/vuls/id/740372"
+  ],
+  "CVE-2005-2128": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-050"
+  ],
+  "CVE-2005-2143": [
+    "http://www.freewebs.com/xxosfilexx/HungFPage.html"
+  ],
+  "CVE-2005-2153": [
+    "http://seclists.org/lists/bugtraq/2005/Jul/0009.html"
+  ],
+  "CVE-2005-2154": [
+    "http://seclists.org/lists/bugtraq/2005/Jul/0009.html"
+  ],
+  "CVE-2005-2159": [
+    "http://marc.info/?l=bugtraq&m=112051398718830&w=2"
+  ],
+  "CVE-2005-2160": [
+    "http://marc.info/?l=bugtraq&m=112060187204457&w=2"
+  ],
+  "CVE-2005-2163": [
+    "http://marc.info/?l=bugtraq&m=112059745606348&w=2"
+  ],
+  "CVE-2005-2177": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9986"
+  ],
+  "CVE-2005-2178": [
+    "http://marc.info/?l=bugtraq&m=112059815028059&w=2"
+  ],
+  "CVE-2005-2179": [
+    "http://marc.info/?l=bugtraq&m=112067013827970&w=2"
+  ],
+  "CVE-2005-2180": [
+    "http://marc.info/?l=bugtraq&m=112066901231154&w=2"
+  ],
+  "CVE-2005-2184": [
+    "http://marc.info/?l=bugtraq&m=112069267700034&w=2"
+  ],
+  "CVE-2005-2185": [
+    "http://marc.info/?l=bugtraq&m=112069267700034&w=2"
+  ],
+  "CVE-2005-2186": [
+    "http://marc.info/?l=bugtraq&m=112066594312876&w=2"
+  ],
+  "CVE-2005-2187": [
+    "http://marc.info/?l=bugtraq&m=112066594312876&w=2"
+  ],
+  "CVE-2005-2188": [
+    "http://marc.info/?l=bugtraq&m=112066594312876&w=2"
+  ],
+  "CVE-2005-2190": [
+    "http://marc.info/?l=bugtraq&m=112077057001064&w=2"
+  ],
+  "CVE-2005-2191": [
+    "http://marc.info/?l=bugtraq&m=112077057001064&w=2"
+  ],
+  "CVE-2005-2192": [
+    "http://marc.info/?l=bugtraq&m=112075901100640&w=2"
+  ],
+  "CVE-2005-2193": [
+    "http://marc.info/?l=bugtraq&m=112084384928950&w=2"
+  ],
+  "CVE-2005-2204": [
+    "http://marc.info/?l=bugtraq&m=112110963416714&w=2"
+  ],
+  "CVE-2005-2220": [
+    "http://marc.info/?l=bugtraq&m=112121930328341&w=2"
+  ],
+  "CVE-2005-2221": [
+    "http://marc.info/?l=bugtraq&m=112121930328341&w=2"
+  ],
+  "CVE-2005-2227": [
+    "http://marc.info/?l=bugtraq&m=112120030308592&w=2"
+  ],
+  "CVE-2005-2229": [
+    "http://marc.info/?l=bugtraq&m=112110868021563&w=2"
+  ],
+  "CVE-2005-2241": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050712-ccm.shtml"
+  ],
+  "CVE-2005-2242": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050712-ccm.shtml"
+  ],
+  "CVE-2005-2243": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050712-ccm.shtml"
+  ],
+  "CVE-2005-2244": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050712-ccm.shtml"
+  ],
+  "CVE-2005-2246": [
+    "https://www.exploit-db.com/exploits/3596"
+  ],
+  "CVE-2005-2251": [
+    "https://www.exploit-db.com/exploits/2452"
+  ],
+  "CVE-2005-2260": [
+    "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=160202"
+  ],
+  "CVE-2005-2261": [
+    "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=160202"
+  ],
+  "CVE-2005-2262": [
+    "http://www.networksecurity.fi/advisories/netscape-multiple-issues.html"
+  ],
+  "CVE-2005-2263": [
+    "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=160202"
+  ],
+  "CVE-2005-2264": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9887"
+  ],
+  "CVE-2005-2265": [
+    "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=160202"
+  ],
+  "CVE-2005-2266": [
+    "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=160202"
+  ],
+  "CVE-2005-2267": [
+    "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=160202"
+  ],
+  "CVE-2005-2268": [
+    "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=160202"
+  ],
+  "CVE-2005-2269": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9777"
+  ],
+  "CVE-2005-2270": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A550"
+  ],
+  "CVE-2005-2278": [
+    "http://marc.info/?l=bugtraq&m=112127188609993&w=2"
+  ],
+  "CVE-2005-2279": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050713-ons.shtml"
+  ],
+  "CVE-2005-2280": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050713-csa.shtml"
+  ],
+  "CVE-2005-2287": [
+    "http://marc.info/?l=bugtraq&m=112122500308722&w=2"
+  ],
+  "CVE-2005-2295": [
+    "http://marc.info/?l=bugtraq&m=112129258221823&w=2"
+  ],
+  "CVE-2005-2307": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-045"
+  ],
+  "CVE-2005-2314": [
+    "http://packetstorm.linuxsecurity.com/0507-exploits/phpsftpd.txt"
+  ],
+  "CVE-2005-2327": [
+    "https://www.exploit-db.com/exploits/1106"
+  ],
+  "CVE-2005-2328": [
+    "http://sourceforge.net/tracker/index.php?func=detail&aid=1235463&group_id=101249&atid=629313"
+  ],
+  "CVE-2005-2330": [
+    "http://sourceforge.net/mailarchive/message.php?msg_id=12318248"
+  ],
+  "CVE-2005-2337": [
+    "http://securityreason.com/securityalert/59"
+  ],
+  "CVE-2005-2365": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9118"
+  ],
+  "CVE-2005-2373": [
+    "http://marc.info/?l=bugtraq&m=112196537312610&w=2"
+  ],
+  "CVE-2005-2387": [
+    "http://seclists.org/lists/bugtraq/2005/Jul/0402.html"
+  ],
+  "CVE-2005-2389": [
+    "http://www.hat-squad.com/en/000170.html"
+  ],
+  "CVE-2005-2392": [
+    "http://lostmon.blogspot.com/2005/07/cmsimple-search-variable-xss.html"
+  ],
+  "CVE-2005-2395": [
+    "http://securityreason.com/securityalert/8"
+  ],
+  "CVE-2005-2403": [
+    "http://seclists.org/lists/bugtraq/2005/Jul/0403.html"
+  ],
+  "CVE-2005-2414": [
+    "http://marc.info/?l=bugtraq&m=112199282029269&w=2"
+  ],
+  "CVE-2005-2415": [
+    "http://marc.info/?l=bugtraq&m=112206702015439&w=2"
+  ],
+  "CVE-2005-2416": [
+    "http://marc.info/?l=bugtraq&m=112206702015439&w=2"
+  ],
+  "CVE-2005-2417": [
+    "http://marc.info/?l=bugtraq&m=112206702015439&w=2"
+  ],
+  "CVE-2005-2419": [
+    "http://marc.info/?l=bugtraq&m=112230649106740&w=2"
+  ],
+  "CVE-2005-2428": [
+    "https://www.exploit-db.com/exploits/39495/"
+  ],
+  "CVE-2005-2430": [
+    "http://marc.info/?l=bugtraq&m=112259845904350&w=2"
+  ],
+  "CVE-2005-2431": [
+    "http://marc.info/?l=bugtraq&m=112259845904350&w=2"
+  ],
+  "CVE-2005-2438": [
+    "http://marc.info/?l=bugtraq&m=112264706213040&w=2"
+  ],
+  "CVE-2005-2439": [
+    "http://marc.info/?l=bugtraq&m=112264706213040&w=2"
+  ],
+  "CVE-2005-2442": [
+    "http://marc.info/?l=bugtraq&m=112239353829324&w=2"
+  ],
+  "CVE-2005-2451": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050729-ipv6.shtml"
+  ],
+  "CVE-2005-2458": [
+    "http://www.securityfocus.com/archive/1/428028/100/0/threaded"
+  ],
+  "CVE-2005-2467": [
+    "http://marc.info/?l=bugtraq&m=112292193807958&w=2"
+  ],
+  "CVE-2005-2468": [
+    "http://marc.info/?l=bugtraq&m=112292193807958&w=2"
+  ],
+  "CVE-2005-2475": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9975"
+  ],
+  "CVE-2005-2483": [
+    "http://sourceforge.net/mailarchive/message.php?msg_id=12539317"
+  ],
+  "CVE-2005-2490": [
+    "http://www.securityfocus.com/archive/1/428028/100/0/threaded"
+  ],
+  "CVE-2005-2494": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9388"
+  ],
+  "CVE-2005-2495": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A998"
+  ],
+  "CVE-2005-2496": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9669"
+  ],
+  "CVE-2005-2498": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9569"
+  ],
+  "CVE-2005-2499": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9538"
+  ],
+  "CVE-2005-2537": [
+    "http://marc.info/?l=bugtraq&m=112327238030127&w=2"
+  ],
+  "CVE-2005-2538": [
+    "http://marc.info/?l=bugtraq&m=112327238030127&w=2"
+  ],
+  "CVE-2005-2539": [
+    "http://marc.info/?l=bugtraq&m=112327238030127&w=2"
+  ],
+  "CVE-2005-2540": [
+    "http://marc.info/?l=bugtraq&m=112327238030127&w=2"
+  ],
+  "CVE-2005-2549": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9553"
+  ],
+  "CVE-2005-2553": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9647"
+  ],
+  "CVE-2005-2556": [
+    "http://marc.info/?l=bugtraq&m=112786017426276&w=2"
+  ],
+  "CVE-2005-2557": [
+    "http://marc.info/?l=bugtraq&m=112786017426276&w=2"
+  ],
+  "CVE-2005-2562": [
+    "http://marc.info/?l=bugtraq&m=112351740803443&w=2"
+  ],
+  "CVE-2005-2563": [
+    "http://marc.info/?l=bugtraq&m=112351740803443&w=2"
+  ],
+  "CVE-2005-2564": [
+    "http://marc.info/?l=bugtraq&m=112351740803443&w=2"
+  ],
+  "CVE-2005-2565": [
+    "http://marc.info/?l=bugtraq&m=112351740803443&w=2"
+  ],
+  "CVE-2005-2567": [
+    "http://marc.info/?l=bugtraq&m=112352095923614&w=2"
+  ],
+  "CVE-2005-2568": [
+    "http://marc.info/?l=bugtraq&m=112352095923614&w=2"
+  ],
+  "CVE-2005-2569": [
+    "http://marc.info/?l=bugtraq&m=112360702307424&w=2"
+  ],
+  "CVE-2005-2570": [
+    "http://marc.info/?l=bugtraq&m=112360702307424&w=2"
+  ],
+  "CVE-2005-2571": [
+    "http://marc.info/?l=bugtraq&m=112360702307424&w=2"
+  ],
+  "CVE-2005-2577": [
+    "http://marc.info/?l=bugtraq&m=112379283900586&w=2"
+  ],
+  "CVE-2005-2580": [
+    "http://marc.info/?l=bugtraq&m=112387501519835&w=2"
+  ],
+  "CVE-2005-2588": [
+    "http://lostmon.blogspot.com/2005/08/dvbbs-multiple-variable-cross-site.html"
+  ],
+  "CVE-2005-2602": [
+    "http://www.scip.ch/cgi-bin/smss/showadvf.pl?id=1682"
+  ],
+  "CVE-2005-2609": [
+    "http://www.packetstormsecurity.org/0508-exploits/vegadns-dyn0.txt"
+  ],
+  "CVE-2005-2610": [
+    "http://www.packetstormsecurity.org/0508-exploits/vegadns-dyn0.txt"
+  ],
+  "CVE-2005-2616": [
+    "http://packetstorm.linuxsecurity.com/0508-exploits/ezuploadRemote.txt"
+  ],
+  "CVE-2005-2628": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2006/ms06-020"
+  ],
+  "CVE-2005-2629": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9550"
+  ],
+  "CVE-2005-2631": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050817-cca.shtml"
+  ],
+  "CVE-2005-2635": [
+    "http://www.securityreason.com/adv/phpAdsnew.SR.16.asc"
+  ],
+  "CVE-2005-2639": [
+    "http://marc.info/?l=bugtraq&m=112431235221271&w=2"
+  ],
+  "CVE-2005-2650": [
+    "http://www.securityfocus.com/bid/14599"
+  ],
+  "CVE-2005-2651": [
+    "http://marc.info/?l=bugtraq&m=112438781604862&w=2"
+  ],
+  "CVE-2005-2652": [
+    "http://marc.info/?l=bugtraq&m=112438781604862&w=2"
+  ],
+  "CVE-2005-2660": [
+    "http://securityreason.com/securityalert/38"
+  ],
+  "CVE-2005-2661": [
+    "http://securityreason.com/securityalert/547"
+  ],
+  "CVE-2005-2665": [
+    "http://marc.info/?l=bugtraq&m=112472951529964&w=2"
+  ],
+  "CVE-2005-2672": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9993"
+  ],
+  "CVE-2005-2678": [
+    "http://marc.info/?l=bugtraq&m=112474727903399&w=2"
+  ],
+  "CVE-2005-2681": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050824-ips.shtml"
+  ],
+  "CVE-2005-2683": [
+    "http://marc.info/?l=bugtraq&m=112474427221031&w=2"
+  ],
+  "CVE-2005-2694": [
+    "http://marc.info/?l=bugtraq&m=112447630109392&w=2"
+  ],
+  "CVE-2005-2695": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050824-idsmc.shtml"
+  ],
+  "CVE-2005-2699": [
+    "http://marc.info/?l=bugtraq&m=112474427221031&w=2"
+  ],
+  "CVE-2005-2701": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9323"
+  ],
+  "CVE-2005-2704": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9784"
+  ],
+  "CVE-2005-2708": [
+    "http://www.securityfocus.com/archive/1/428028/100/0/threaded"
+  ],
+  "CVE-2005-2709": [
+    "http://www.securityfocus.com/archive/1/428028/100/0/threaded"
+  ],
+  "CVE-2005-2710": [
+    "http://securityreason.com/securityalert/41"
+  ],
+  "CVE-2005-2718": [
+    "https://bugs.gentoo.org/show_bug.cgi?id=103555"
+  ],
+  "CVE-2005-2719": [
+    "http://marc.info/?l=bugtraq&m=112483407515020&w=2"
+  ],
+  "CVE-2005-2726": [
+    "http://marc.info/?l=bugtraq&m=112490496918102&w=2"
+  ],
+  "CVE-2005-2727": [
+    "http://marc.info/?l=bugtraq&m=112490496918102&w=2"
+  ],
+  "CVE-2005-2733": [
+    "http://marc.info/?l=bugtraq&m=112511159821143&w=2"
+  ],
+  "CVE-2005-2753": [
+    "http://www.securityfocus.com/bid/15306"
+  ],
+  "CVE-2005-2754": [
+    "http://pb.specialised.info/all/adv/quicktime-mov-io2-adv.txt"
+  ],
+  "CVE-2005-2755": [
+    "http://securityreason.com/securityalert/145"
+  ],
+  "CVE-2005-2756": [
+    "http://securityreason.com/securityalert/144"
+  ],
+  "CVE-2005-2758": [
+    "http://securityreason.com/securityalert/48"
+  ],
+  "CVE-2005-2776": [
+    "http://marc.info/?l=bugtraq&m=112516327607001&w=2"
+  ],
+  "CVE-2005-2777": [
+    "http://marc.info/?l=bugtraq&m=112516327607001&w=2"
+  ],
+  "CVE-2005-2779": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-014.txt"
+  ],
+  "CVE-2005-2789": [
+    "http://marc.info/?l=bugtraq&m=112534155318828&w=2"
+  ],
+  "CVE-2005-2790": [
+    "http://marc.info/?l=bugtraq&m=112534155318828&w=2"
+  ],
+  "CVE-2005-2791": [
+    "http://marc.info/?l=bugtraq&m=112534155318828&w=2"
+  ],
+  "CVE-2005-2792": [
+    "http://marc.info/?l=bugtraq&m=112542447219235&w=2"
+  ],
+  "CVE-2005-2793": [
+    "http://marc.info/?l=bugtraq&m=112542447219235&w=2"
+  ],
+  "CVE-2005-2798": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9717"
+  ],
+  "CVE-2005-2800": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9954"
+  ],
+  "CVE-2005-2813": [
+    "http://seclists.org/lists/bugtraq/2005/Aug/0440.html"
+  ],
+  "CVE-2005-2814": [
+    "http://seclists.org/lists/bugtraq/2005/Aug/0440.html"
+  ],
+  "CVE-2005-2815": [
+    "http://seclists.org/lists/bugtraq/2005/Aug/0440.html"
+  ],
+  "CVE-2005-2827": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-055"
+  ],
+  "CVE-2005-2829": [
+    "http://securityreason.com/securityalert/254"
+  ],
+  "CVE-2005-2841": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20050907-auth_proxy.shtml"
+  ],
+  "CVE-2005-2842": [
+    "https://www.exploit-db.com/exploits/42703/"
+  ],
+  "CVE-2005-2844": [
+    "http://marc.info/?l=bugtraq&m=112550635826169&w=2"
+  ],
+  "CVE-2005-2847": [
+    "http://marc.info/?l=bugtraq&m=112560044813390&w=2"
+  ],
+  "CVE-2005-2848": [
+    "http://marc.info/?l=bugtraq&m=112560044813390&w=2"
+  ],
+  "CVE-2005-2849": [
+    "http://marc.info/?l=bugtraq&m=112560044813390&w=2"
+  ],
+  "CVE-2005-2855": [
+    "http://packetstormsecurity.org/0509-exploits/unb153.html"
+  ],
+  "CVE-2005-2856": [
+    "http://securityreason.com/securityalert/49"
+  ],
+  "CVE-2005-2860": [
+    "http://seclists.org/lists/vulnwatch/2005/Jul-Sep/0032.html"
+  ],
+  "CVE-2005-2861": [
+    "http://seclists.org/lists/vulnwatch/2005/Jul-Sep/0032.html"
+  ],
+  "CVE-2005-2871": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9608"
+  ],
+  "CVE-2005-2873": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9838"
+  ],
+  "CVE-2005-2874": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9774"
+  ],
+  "CVE-2005-2880": [
+    "http://marc.info/?l=bugtraq&m=112605610624004&w=2"
+  ],
+  "CVE-2005-2881": [
+    "http://marc.info/?l=bugtraq&m=112605610624004&w=2"
+  ],
+  "CVE-2005-2882": [
+    "http://marc.info/?l=bugtraq&m=112605610624004&w=2"
+  ],
+  "CVE-2005-2890": [
+    "http://marc.info/?l=bugtraq&m=112610983428771&w=2"
+  ],
+  "CVE-2005-2892": [
+    "http://marc.info/?l=bugtraq&m=112611338417979&w=2"
+  ],
+  "CVE-2005-2893": [
+    "http://marc.info/?l=bugtraq&m=112611338417979&w=2"
+  ],
+  "CVE-2005-2894": [
+    "http://marc.info/?l=bugtraq&m=112611338417979&w=2"
+  ],
+  "CVE-2005-2895": [
+    "http://marc.info/?l=bugtraq&m=112611338417979&w=2"
+  ],
+  "CVE-2005-2898": [
+    "http://marc.info/?l=bugtraq&m=112605448327521&w=2"
+  ],
+  "CVE-2005-2902": [
+    "http://marc.info/?l=bugtraq&m=112629627512785&w=2"
+  ],
+  "CVE-2005-2929": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9712"
+  ],
+  "CVE-2005-2933": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9858"
+  ],
+  "CVE-2005-2943": [
+    "http://securityreason.com/securityalert/81"
+  ],
+  "CVE-2005-2947": [
+    "http://marc.info/?l=bugtraq&m=112629480300071&w=2"
+  ],
+  "CVE-2005-2948": [
+    "http://marc.info/?l=bugtraq&m=112629480300071&w=2"
+  ],
+  "CVE-2005-2949": [
+    "http://securityreason.com/securityalert/2"
+  ],
+  "CVE-2005-2950": [
+    "http://securityreason.com/securityalert/1"
+  ],
+  "CVE-2005-2951": [
+    "http://securityreason.com/securityalert/5"
+  ],
+  "CVE-2005-2952": [
+    "http://securityreason.com/securityalert/4"
+  ],
+  "CVE-2005-2968": [
+    "http://www.ubuntu.com/usn/usn-186-2"
+  ],
+  "CVE-2005-2969": [
+    "http://www.cisco.com/warp/public/707/cisco-response-20051202-openssl.shtml"
+  ],
+  "CVE-2005-2973": [
+    "http://www.securityfocus.com/archive/1/428028/100/0/threaded"
+  ],
+  "CVE-2005-2974": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=494826"
+  ],
+  "CVE-2005-2975": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9697"
+  ],
+  "CVE-2005-2977": [
+    "https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=168181"
+  ],
+  "CVE-2005-2981": [
+    "http://marc.info/?l=bugtraq&m=112680922318639&w=2"
+  ],
+  "CVE-2005-2982": [
+    "http://marc.info/?l=bugtraq&m=112680922318639&w=2"
+  ],
+  "CVE-2005-2991": [
+    "http://securityreason.com/securityalert/12"
+  ],
+  "CVE-2005-2992": [
+    "http://securityreason.com/securityalert/11"
+  ],
+  "CVE-2005-2993": [
+    "http://securityreason.com/securityalert/360"
+  ],
+  "CVE-2005-3010": [
+    "http://securityreason.com/securityalert/14"
+  ],
+  "CVE-2005-3011": [
+    "http://www.vmware.com/support/vi3/doc/esx-2559638-patch.html"
+  ],
+  "CVE-2005-3026": [
+    "http://securityreason.com/securityalert/13"
+  ],
+  "CVE-2005-3043": [
+    "http://packetstormsecurity.org/0509-exploits/mall23.txt"
+  ],
+  "CVE-2005-3044": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9561"
+  ],
+  "CVE-2005-3045": [
+    "http://marc.info/?l=bugtraq&m=112741430006983&w=2"
+  ],
+  "CVE-2005-3046": [
+    "http://marc.info/?l=bugtraq&m=112749230124091&w=2"
+  ],
+  "CVE-2005-3047": [
+    "http://marc.info/?l=bugtraq&m=112749230124091&w=2"
+  ],
+  "CVE-2005-3048": [
+    "http://marc.info/?l=bugtraq&m=112749230124091&w=2"
+  ],
+  "CVE-2005-3049": [
+    "http://marc.info/?l=bugtraq&m=112749230124091&w=2"
+  ],
+  "CVE-2005-3050": [
+    "http://marc.info/?l=bugtraq&m=112749230124091&w=2"
+  ],
+  "CVE-2005-3051": [
+    "http://www.vuln.sg/turbosearcher330-en.html"
+  ],
+  "CVE-2005-3052": [
+    "http://securityreason.com/securityalert/20"
+  ],
+  "CVE-2005-3053": [
+    "http://www.redhat.com/support/errata/RHSA-2005-808.html"
+  ],
+  "CVE-2005-3055": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9472"
+  ],
+  "CVE-2005-3063": [
+    "http://securityreason.com/securityalert/21"
+  ],
+  "CVE-2005-3064": [
+    "http://aluigi.altervista.org/adv/mtaboom-adv.txt"
+  ],
+  "CVE-2005-3065": [
+    "http://securityreason.com/securityalert/26"
+  ],
+  "CVE-2005-3066": [
+    "http://exploitlabs.com/files/advisories/EXPL-A-2005-014-perldiver.txt"
+  ],
+  "CVE-2005-3067": [
+    "http://exploitlabs.com/files/advisories/EXPL-A-2005-014-perldiver.txt"
+  ],
+  "CVE-2005-3080": [
+    "http://sourceforge.net/project/shownotes.php?release_id=358285"
+  ],
+  "CVE-2005-3089": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9280"
+  ],
+  "CVE-2005-3090": [
+    "http://marc.info/?l=bugtraq&m=112786017426276&w=2"
+  ],
+  "CVE-2005-3092": [
+    "http://securityreason.com/securityalert/25"
+  ],
+  "CVE-2005-3099": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A943"
+  ],
+  "CVE-2005-3106": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9108"
+  ],
+  "CVE-2005-3108": [
+    "http://www.redhat.com/support/errata/RHSA-2005-808.html"
+  ],
+  "CVE-2005-3110": [
+    "http://www.redhat.com/support/errata/RHSA-2005-808.html"
+  ],
+  "CVE-2005-3116": [
+    "http://seer.support.veritas.com/docs/279553.htm"
+  ],
+  "CVE-2005-3119": [
+    "http://www.redhat.com/support/errata/RHSA-2005-808.html"
+  ],
+  "CVE-2005-3120": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9257"
+  ],
+  "CVE-2005-3130": [
+    "http://securityreason.com/securityalert/33"
+  ],
+  "CVE-2005-3134": [
+    "http://securityreason.com/securityalert/39"
+  ],
+  "CVE-2005-3135": [
+    "http://marc.info/?l=bugtraq&m=112811771331997&w=2"
+  ],
+  "CVE-2005-3136": [
+    "http://securityreason.com/securityalert/40"
+  ],
+  "CVE-2005-3141": [
+    "http://securityreason.com/securityalert/43"
+  ],
+  "CVE-2005-3142": [
+    "http://www.kaspersky.com/news?id=171512144"
+  ],
+  "CVE-2005-3152": [
+    "http://securityreason.com/securityalert/35"
+  ],
+  "CVE-2005-3153": [
+    "http://securityreason.com/securityalert/42"
+  ],
+  "CVE-2005-3154": [
+    "http://securityreason.com/securityalert/45"
+  ],
+  "CVE-2005-3156": [
+    "http://marc.info/?l=bugtraq&m=112812059917394&w=2"
+  ],
+  "CVE-2005-3157": [
+    "http://marc.info/?l=bugtraq&m=112793982604963&w=2"
+  ],
+  "CVE-2005-3158": [
+    "http://marc.info/?l=bugtraq&m=112801702000944&w=2"
+  ],
+  "CVE-2005-3161": [
+    "http://securityreason.com/securityalert/54"
+  ],
+  "CVE-2005-3177": [
+    "http://support.microsoft.com/kb/831374"
+  ],
+  "CVE-2005-3178": [
+    "http://www.redhat.com/support/errata/RHSA-2005-802.html"
+  ],
+  "CVE-2005-3180": [
+    "http://www.securityfocus.com/archive/1/428028/100/0/threaded"
+  ],
+  "CVE-2005-3181": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9467"
+  ],
+  "CVE-2005-3182": [
+    "http://securityreason.com/securityalert/74"
+  ],
+  "CVE-2005-3183": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9653"
+  ],
+  "CVE-2005-3185": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9810"
+  ],
+  "CVE-2005-3186": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9503"
+  ],
+  "CVE-2005-3188": [
+    "http://securityreason.com/securityalert/397"
+  ],
+  "CVE-2005-3191": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9760"
+  ],
+  "CVE-2005-3192": [
+    "http://www.securityfocus.com/archive/1/418883/100/0/threaded"
+  ],
+  "CVE-2005-3193": [
+    "http://www.securityfocus.com/archive/1/418883/100/0/threaded"
+  ],
+  "CVE-2005-3196": [
+    "http://securityreason.com/securityalert/53"
+  ],
+  "CVE-2005-3198": [
+    "http://securityreason.com/securityalert/55"
+  ],
+  "CVE-2005-3199": [
+    "http://securityreason.com/securityalert/52"
+  ],
+  "CVE-2005-3200": [
+    "http://marc.info/?l=bugtraq&m=112872691119874&w=2"
+  ],
+  "CVE-2005-3201": [
+    "http://marc.info/?l=bugtraq&m=112872691119874&w=2"
+  ],
+  "CVE-2005-3208": [
+    "http://marc.info/?l=bugtraq&m=112872593432359&w=2"
+  ],
+  "CVE-2005-3209": [
+    "http://marc.info/?l=bugtraq&m=112872593432359&w=2"
+  ],
+  "CVE-2005-3210": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3211": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3212": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3213": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3214": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3215": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3216": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3217": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3218": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3219": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3220": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3221": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3222": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3223": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3224": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3225": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3226": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3227": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3228": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3229": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3230": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3231": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3232": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3233": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3234": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3235": [
+    "http://marc.info/?l=bugtraq&m=112879611919750&w=2"
+  ],
+  "CVE-2005-3236": [
+    "http://securityreason.com/securityalert/70"
+  ],
+  "CVE-2005-3237": [
+    "http://securityreason.com/securityalert/70"
+  ],
+  "CVE-2005-3243": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9836"
+  ],
+  "CVE-2005-3244": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9665"
+  ],
+  "CVE-2005-3249": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9313"
+  ],
+  "CVE-2005-3257": [
+    "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=334113"
+  ],
+  "CVE-2005-3259": [
+    "http://marc.info/?l=bugtraq&m=112907535528616&w=2"
+  ],
+  "CVE-2005-3260": [
+    "http://marc.info/?l=bugtraq&m=112907535528616&w=2"
+  ],
+  "CVE-2005-3261": [
+    "http://marc.info/?l=bugtraq&m=112907535528616&w=2"
+  ],
+  "CVE-2005-3267": [
+    "http://securityreason.com/securityalert/115"
+  ],
+  "CVE-2005-3269": [
+    "http://securityreason.com/securityalert/51"
+  ],
+  "CVE-2005-3273": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9552"
+  ],
+  "CVE-2005-3274": [
+    "http://www.securityfocus.com/archive/1/427981/100/0/threaded"
+  ],
+  "CVE-2005-3275": [
+    "http://www.securityfocus.com/archive/1/428028/100/0/threaded"
+  ],
+  "CVE-2005-3276": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9748"
+  ],
+  "CVE-2005-3284": [
+    "http://securityreason.com/securityalert/80"
+  ],
+  "CVE-2005-3286": [
+    "http://securityreason.com/securityalert/78"
+  ],
+  "CVE-2005-3294": [
+    "http://www.exploitlabs.com/files/advisories/EXPL-A-2005-016-typsoft-ftpd.txt"
+  ],
+  "CVE-2005-3295": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A992"
+  ],
+  "CVE-2005-3299": [
+    "http://securityreason.com/securityalert/69"
+  ],
+  "CVE-2005-3300": [
+    "http://marc.info/?l=bugtraq&m=113017591414699&w=2"
+  ],
+  "CVE-2005-3303": [
+    "http://securityreason.com/securityalert/146"
+  ],
+  "CVE-2005-3304": [
+    "http://marc.info/?l=bugtraq&m=113017049702436&w=2"
+  ],
+  "CVE-2005-3310": [
+    "http://marc.info/?l=bugtraq&m=113017003617987&w=2"
+  ],
+  "CVE-2005-3312": [
+    "http://www.scip.ch/cgi-bin/smss/showadvf.pl?id=1746"
+  ],
+  "CVE-2005-3314": [
+    "http://www.securityfocus.com/bid/15491"
+  ],
+  "CVE-2005-3319": [
+    "http://securityreason.com/securityalert/525"
+  ],
+  "CVE-2005-3330": [
+    "http://securityreason.com/securityalert/117"
+  ],
+  "CVE-2005-3336": [
+    "http://sourceforge.net/project/shownotes.php?release_id=362673"
+  ],
+  "CVE-2005-3337": [
+    "http://sourceforge.net/project/shownotes.php?release_id=362673"
+  ],
+  "CVE-2005-3347": [
+    "https://exchange.xforce.ibmcloud.com/vulnerabilities/23107"
+  ],
+  "CVE-2005-3348": [
+    "https://exchange.xforce.ibmcloud.com/vulnerabilities/23107"
+  ],
+  "CVE-2005-3350": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9314"
+  ],
+  "CVE-2005-3352": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2005-3353": [
+    "http://securityreason.com/securityalert/525"
+  ],
+  "CVE-2005-3356": [
+    "http://www.securityfocus.com/archive/1/427981/100/0/threaded"
+  ],
+  "CVE-2005-3358": [
+    "http://www.securityfocus.com/archive/1/427981/100/0/threaded"
+  ],
+  "CVE-2005-3363": [
+    "https://www.exploit-db.com/exploits/1530"
+  ],
+  "CVE-2005-3365": [
+    "https://www.exploit-db.com/exploits/4853"
+  ],
+  "CVE-2005-3383": [
+    "http://marc.info/?l=bugtraq&m=113035773010381&w=2"
+  ],
+  "CVE-2005-3384": [
+    "http://marc.info/?l=bugtraq&m=113035773010381&w=2"
+  ],
+  "CVE-2005-3385": [
+    "http://marc.info/?l=bugtraq&m=113035773010381&w=2"
+  ],
+  "CVE-2005-3386": [
+    "http://securityreason.com/securityalert/120"
+  ],
+  "CVE-2005-3388": [
+    "http://securityreason.com/securityalert/133"
+  ],
+  "CVE-2005-3389": [
+    "http://securityreason.com/securityalert/134"
+  ],
+  "CVE-2005-3390": [
+    "http://securityreason.com/securityalert/132"
+  ],
+  "CVE-2005-3391": [
+    "http://securityreason.com/securityalert/525"
+  ],
+  "CVE-2005-3392": [
+    "http://securityreason.com/securityalert/525"
+  ],
+  "CVE-2005-3396": [
+    "http://securityreason.com/securityalert/261"
+  ],
+  "CVE-2005-3402": [
+    "http://marc.info/?l=bugtraq&m=113028017608146&w=2"
+  ],
+  "CVE-2005-3406": [
+    "http://cvs.sourceforge.net/viewcvs.py/phpesp/phpESP/docs/CHANGES?rev=.&content-type=text/plain"
+  ],
+  "CVE-2005-3407": [
+    "http://cvs.sourceforge.net/viewcvs.py/phpesp/phpESP/docs/CHANGES?rev=.&content-type=text/plain"
+  ],
+  "CVE-2005-3412": [
+    "http://securityreason.com/securityalert/136"
+  ],
+  "CVE-2005-3415": [
+    "http://securityreason.com/securityalert/130"
+  ],
+  "CVE-2005-3416": [
+    "http://securityreason.com/securityalert/130"
+  ],
+  "CVE-2005-3417": [
+    "http://securityreason.com/securityalert/130"
+  ],
+  "CVE-2005-3418": [
+    "http://securityreason.com/securityalert/130"
+  ],
+  "CVE-2005-3419": [
+    "http://securityreason.com/securityalert/130"
+  ],
+  "CVE-2005-3420": [
+    "http://securityreason.com/securityalert/130"
+  ],
+  "CVE-2005-3426": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20051019-css.shtml"
+  ],
+  "CVE-2005-3427": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20051101-ipsmc.shtml"
+  ],
+  "CVE-2005-3455": [
+    "http://www.kb.cert.org/vuls/id/150508"
+  ],
+  "CVE-2005-3473": [
+    "http://securityreason.com/securityalert/138"
+  ],
+  "CVE-2005-3477": [
+    "http://securityreason.com/securityalert/105"
+  ],
+  "CVE-2005-3481": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20051102-timers.shtml"
+  ],
+  "CVE-2005-3482": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20051102-lwapp.shtml"
+  ],
+  "CVE-2005-3483": [
+    "http://marc.info/?l=full-disclosure&m=113095918810489&w=2"
+  ],
+  "CVE-2005-3485": [
+    "http://marc.info/?l=full-disclosure&m=113095975721571&w=2"
+  ],
+  "CVE-2005-3486": [
+    "http://marc.info/?l=full-disclosure&m=113095941031946&w=2"
+  ],
+  "CVE-2005-3487": [
+    "http://marc.info/?l=full-disclosure&m=113095941031946&w=2"
+  ],
+  "CVE-2005-3488": [
+    "http://marc.info/?l=full-disclosure&m=113095941031946&w=2"
+  ],
+  "CVE-2005-3489": [
+    "http://marc.info/?l=full-disclosure&m=113096055302614&w=2"
+  ],
+  "CVE-2005-3490": [
+    "http://marc.info/?l=full-disclosure&m=113096055302614&w=2"
+  ],
+  "CVE-2005-3491": [
+    "http://marc.info/?l=full-disclosure&m=113096078606274&w=2"
+  ],
+  "CVE-2005-3492": [
+    "http://marc.info/?l=full-disclosure&m=113096078606274&w=2"
+  ],
+  "CVE-2005-3493": [
+    "http://marc.info/?l=full-disclosure&m=113096122630102&w=2"
+  ],
+  "CVE-2005-3505": [
+    "http://securityreason.com/securityalert/148"
+  ],
+  "CVE-2005-3510": [
+    "http://community.ca.com/blogs/casecurityresponseblog/archive/2009/01/23.aspx"
+  ],
+  "CVE-2005-3521": [
+    "http://marc.info/?l=bugtraq&m=112967223222966&w=2"
+  ],
+  "CVE-2005-3522": [
+    "http://marc.info/?l=bugtraq&m=112967149509401&w=2"
+  ],
+  "CVE-2005-3525": [
+    "http://securityreason.com/securityalert/481"
+  ],
+  "CVE-2005-3526": [
+    "http://securityreason.com/securityalert/577"
+  ],
+  "CVE-2005-3527": [
+    "http://www.securityfocus.com/archive/1/427981/100/0/threaded"
+  ],
+  "CVE-2005-3555": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-001.txt"
+  ],
+  "CVE-2005-3556": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-001.txt"
+  ],
+  "CVE-2005-3557": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-001.txt"
+  ],
+  "CVE-2005-3560": [
+    "http://securityreason.com/securityalert/155"
+  ],
+  "CVE-2005-3569": [
+    "http://www.osvdb.org/20708"
+  ],
+  "CVE-2005-3571": [
+    "http://securityreason.com/securityalert/176"
+  ],
+  "CVE-2005-3575": [
+    "http://securityreason.com/securityalert/180"
+  ],
+  "CVE-2005-3579": [
+    "http://securityreason.com/securityalert/179"
+  ],
+  "CVE-2005-3583": [
+    "http://securityreason.com/securityalert/143"
+  ],
+  "CVE-2005-3589": [
+    "http://marc.info/?l=bugtraq&m=113140190521377&w=2"
+  ],
+  "CVE-2005-3591": [
+    "http://securityreason.com/securityalert/149"
+  ],
+  "CVE-2005-3596": [
+    "http://marc.info/?l=bugtraq&m=113156859811594&w=2"
+  ],
+  "CVE-2005-3622": [
+    "http://securityreason.com/securityalert/185"
+  ],
+  "CVE-2005-3624": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9437"
+  ],
+  "CVE-2005-3625": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9575"
+  ],
+  "CVE-2005-3626": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9992"
+  ],
+  "CVE-2005-3633": [
+    "http://securityreason.com/securityalert/164"
+  ],
+  "CVE-2005-3634": [
+    "http://securityreason.com/securityalert/163"
+  ],
+  "CVE-2005-3635": [
+    "http://securityreason.com/securityalert/162"
+  ],
+  "CVE-2005-3636": [
+    "http://securityreason.com/securityalert/162"
+  ],
+  "CVE-2005-3644": [
+    "https://www.exploit-db.com/exploits/1328"
+  ],
+  "CVE-2005-3646": [
+    "http://securityreason.com/securityalert/172"
+  ],
+  "CVE-2005-3648": [
+    "http://marc.info/?l=bugtraq&m=113165668814241&w=2"
+  ],
+  "CVE-2005-3649": [
+    "http://securityreason.com/securityalert/168"
+  ],
+  "CVE-2005-3652": [
+    "http://securityreason.com/securityalert/266"
+  ],
+  "CVE-2005-3654": [
+    "http://securityreason.com/securityalert/322"
+  ],
+  "CVE-2005-3657": [
+    "http://securityreason.com/securityalert/279"
+  ],
+  "CVE-2005-3662": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9583"
+  ],
+  "CVE-2005-3663": [
+    "http://securityreason.com/securityalert/187"
+  ],
+  "CVE-2005-3669": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20051114-ipsec.shtml"
+  ],
+  "CVE-2005-3671": [
+    "http://www.securityfocus.com/bid/15416"
+  ],
+  "CVE-2005-3672": [
+    "http://www.stonesoft.com/support/Security_Advisories/7244.html"
+  ],
+  "CVE-2005-3679": [
+    "http://marc.info/?l=bugtraq&m=113201260613863&w=2"
+  ],
+  "CVE-2005-3680": [
+    "http://marc.info/?l=bugtraq&m=113199244824660&w=2"
+  ],
+  "CVE-2005-3681": [
+    "http://marc.info/?l=bugtraq&m=113199244824660&w=2"
+  ],
+  "CVE-2005-3682": [
+    "http://securityreason.com/securityalert/181"
+  ],
+  "CVE-2005-3684": [
+    "http://marc.info/?l=full-disclosure&m=113222358007499&w=2"
+  ],
+  "CVE-2005-3686": [
+    "http://packetstormsecurity.org/0511-exploits/unb153pl3_xpl.html"
+  ],
+  "CVE-2005-3694": [
+    "https://bugs.gentoo.org/show_bug.cgi?id=100519"
+  ],
+  "CVE-2005-3732": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9857"
+  ],
+  "CVE-2005-3734": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-004.txt"
+  ],
+  "CVE-2005-3737": [
+    "http://securityreason.com/securityalert/58"
+  ],
+  "CVE-2005-3749": [
+    "http://www-1.ibm.com/support/search.wss?rs=0&q=IY78801&apar=only"
+  ],
+  "CVE-2005-3774": [
+    "http://www.cisco.com/warp/public/707/cisco-response-20051122-pix.shtml"
+  ],
+  "CVE-2005-3784": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9080"
+  ],
+  "CVE-2005-3790": [
+    "http://securityreason.com/securityalert/182"
+  ],
+  "CVE-2005-3792": [
+    "http://www.waraxe.us/advisory-46.html"
+  ],
+  "CVE-2005-3796": [
+    "http://securityreason.com/securityalert/184"
+  ],
+  "CVE-2005-3797": [
+    "http://securityreason.com/securityalert/189"
+  ],
+  "CVE-2005-3798": [
+    "http://securityreason.com/securityalert/189"
+  ],
+  "CVE-2005-3799": [
+    "http://securityreason.com/achievement_exploitalert/4"
+  ],
+  "CVE-2005-3802": [
+    "http://securityreason.com/securityalert/186"
+  ],
+  "CVE-2005-3803": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20051116-7920.shtml"
+  ],
+  "CVE-2005-3804": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20051116-7920.shtml"
+  ],
+  "CVE-2005-3805": [
+    "http://www.securityfocus.com/archive/1/427981/100/0/threaded"
+  ],
+  "CVE-2005-3806": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9903"
+  ],
+  "CVE-2005-3807": [
+    "http://www.ubuntulinux.org/usn/usn-231-1"
+  ],
+  "CVE-2005-3808": [
+    "http://seclists.org/lists/linux-kernel/2005/Nov/7839.html"
+  ],
+  "CVE-2005-3813": [
+    "http://securityreason.com/securityalert/205"
+  ],
+  "CVE-2005-3822": [
+    "http://securityreason.com/securityalert/203"
+  ],
+  "CVE-2005-3854": [
+    "http://packetstorm.linuxsecurity.com/0511-exploits/EasyPageCMSXSS.txt"
+  ],
+  "CVE-2005-3857": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9727"
+  ],
+  "CVE-2005-3858": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9396"
+  ],
+  "CVE-2005-3859": [
+    "http://securityreason.com/securityalert/209"
+  ],
+  "CVE-2005-3861": [
+    "http://securityreason.com/securityalert/210"
+  ],
+  "CVE-2005-3867": [
+    "http://pridels0.blogspot.com/2005/11/revenuepilot-search-engine-xss-vuln.html"
+  ],
+  "CVE-2005-3886": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20051129-csa.shtml"
+  ],
+  "CVE-2005-3887": [
+    "http://marc.info/?l=bugtraq&m=113261573023912&w=2"
+  ],
+  "CVE-2005-3888": [
+    "http://marc.info/?l=bugtraq&m=113261573023912&w=2"
+  ],
+  "CVE-2005-3889": [
+    "http://marc.info/?l=bugtraq&m=113261573023912&w=2"
+  ],
+  "CVE-2005-3890": [
+    "http://marc.info/?l=bugtraq&m=113261573023912&w=2"
+  ],
+  "CVE-2005-3891": [
+    "http://marc.info/?l=bugtraq&m=113261573023912&w=2"
+  ],
+  "CVE-2005-3892": [
+    "http://marc.info/?l=bugtraq&m=113261573023912&w=2"
+  ],
+  "CVE-2005-3903": [
+    "http://securityreason.com/securityalert/251"
+  ],
+  "CVE-2005-3915": [
+    "http://www.clavister.com/support/support_update_ISAKMP.html"
+  ],
+  "CVE-2005-3919": [
+    "http://securityreason.com/securityalert/211"
+  ],
+  "CVE-2005-3921": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20051201-http.shtml"
+  ],
+  "CVE-2005-3922": [
+    "http://securityreason.com/securityalert/216"
+  ],
+  "CVE-2005-3924": [
+    "http://securityreason.com/securityalert/213"
+  ],
+  "CVE-2005-3927": [
+    "http://securityreason.com/securityalert/212"
+  ],
+  "CVE-2005-3929": [
+    "http://securityreason.com/securityalert/217"
+  ],
+  "CVE-2005-3931": [
+    "http://securityreason.com/securityalert/218"
+  ],
+  "CVE-2005-3949": [
+    "http://securityreason.com/securityalert/215"
+  ],
+  "CVE-2005-3952": [
+    "https://www.exploit-db.com/exploits/3456"
+  ],
+  "CVE-2005-3961": [
+    "http://securityreason.com/securityalert/215"
+  ],
+  "CVE-2005-3964": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9393"
+  ],
+  "CVE-2005-3967": [
+    "http://pridels0.blogspot.com/2005/12/confluence-enterprise-wiki-xss-vuln.html"
+  ],
+  "CVE-2005-3983": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1582"
+  ],
+  "CVE-2005-3991": [
+    "http://securityreason.com/securityalert/221"
+  ],
+  "CVE-2005-3992": [
+    "http://securityreason.com/securityalert/226"
+  ],
+  "CVE-2005-4005": [
+    "http://securityreason.com/securityalert/31"
+  ],
+  "CVE-2005-4015": [
+    "http://securityreason.com/securityalert/214"
+  ],
+  "CVE-2005-4058": [
+    "http://evuln.com/vulns/40/summary.html"
+  ],
+  "CVE-2005-4065": [
+    "http://securityreason.com/securityalert/222"
+  ],
+  "CVE-2005-4066": [
+    "http://www.networksecurity.fi/advisories/total-commander.html"
+  ],
+  "CVE-2005-4079": [
+    "http://securityreason.com/securityalert/237"
+  ],
+  "CVE-2005-4080": [
+    "http://securityreason.com/securityalert/232"
+  ],
+  "CVE-2005-4087": [
+    "http://securityreason.com/securityalert/239"
+  ],
+  "CVE-2005-4089": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2006/ms06-021"
+  ],
+  "CVE-2005-4092": [
+    "http://www.security-protocols.com/modules.php?name=News&file=article&sid=3133"
+  ],
+  "CVE-2005-4131": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2006/ms06-012"
+  ],
+  "CVE-2005-4134": [
+    "http://www.redhat.com/support/errata/RHSA-2006-0199.html"
+  ],
+  "CVE-2005-4140": [
+    "http://securityreason.com/securityalert/244"
+  ],
+  "CVE-2005-4151": [
+    "http://www.osvdb.org/21569"
+  ],
+  "CVE-2005-4152": [
+    "http://securityreason.com/securityalert/243"
+  ],
+  "CVE-2005-4154": [
+    "http://pear.php.net/advisory-20051104.txt"
+  ],
+  "CVE-2005-4164": [
+    "http://www.osvdb.org/21456"
+  ],
+  "CVE-2005-4195": [
+    "https://www.exploit-db.com/exploits/5540"
+  ],
+  "CVE-2005-4199": [
+    "http://www.trapkit.de/advisories/TKADV2005-12-001.txt"
+  ],
+  "CVE-2005-4218": [
+    "https://www.exploit-db.com/exploits/1324"
+  ],
+  "CVE-2005-4219": [
+    "http://securityreason.com/securityalert/250"
+  ],
+  "CVE-2005-4249": [
+    "http://securityreason.com/securityalert/253"
+  ],
+  "CVE-2005-4267": [
+    "http://securityreason.com/securityalert/277"
+  ],
+  "CVE-2005-4268": [
+    "http://frontal1.mandriva.com/security/advisories?name=MDKSA-2005:237"
+  ],
+  "CVE-2005-4270": [
+    "http://securityreason.com/securityalert/260"
+  ],
+  "CVE-2005-4272": [
+    "http://www-1.ibm.com/support/search.wss?rs=0&q=IY78226&apar=only"
+  ],
+  "CVE-2005-4287": [
+    "http://securityreason.com/securityalert/263"
+  ],
+  "CVE-2005-4288": [
+    "http://securityreason.com/securityalert/264"
+  ],
+  "CVE-2005-4294": [
+    "http://www.scip.ch/cgi-bin/smss/showadvf.pl?id=1910"
+  ],
+  "CVE-2005-4317": [
+    "http://securityreason.com/securityalert/255"
+  ],
+  "CVE-2005-4318": [
+    "http://securityreason.com/securityalert/255"
+  ],
+  "CVE-2005-4319": [
+    "http://securityreason.com/securityalert/255"
+  ],
+  "CVE-2005-4325": [
+    "http://freshmeat.net/projects/driverse/?branch_id=61426&release_id=212356"
+  ],
+  "CVE-2005-4327": [
+    "http://securityreason.com/securityalert/267"
+  ],
+  "CVE-2005-4329": [
+    "http://securityreason.com/securityalert/268"
+  ],
+  "CVE-2005-4332": [
+    "http://www.osvdb.org/21956"
+  ],
+  "CVE-2005-4348": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9659"
+  ],
+  "CVE-2005-4349": [
+    "http://securityreason.com/securityalert/270"
+  ],
+  "CVE-2005-4351": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-15.txt"
+  ],
+  "CVE-2005-4352": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2005-16.txt"
+  ],
+  "CVE-2005-4357": [
+    "http://securityreason.com/securityalert/269"
+  ],
+  "CVE-2005-4358": [
+    "http://securityreason.com/securityalert/269"
+  ],
+  "CVE-2005-4360": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2007/ms07-041"
+  ],
+  "CVE-2005-4398": [
+    "http://pridels0.blogspot.com/2005/12/lemoon-xss-vuln.html"
+  ],
+  "CVE-2005-4400": [
+    "http://www.osvdb.org/21812"
+  ],
+  "CVE-2005-4402": [
+    "http://marc.info/?l=full-disclosure&m=113502692010867&w=2"
+  ],
+  "CVE-2005-4411": [
+    "https://www.exploit-db.com/exploits/1375"
+  ],
+  "CVE-2005-4415": [
+    "http://packetstormsecurity.org/0512-exploits/ztml.txt"
+  ],
+  "CVE-2005-4416": [
+    "http://packetstormsecurity.org/0512-exploits/ztml.txt"
+  ],
+  "CVE-2005-4424": [
+    "http://securityreason.com/securityalert/157"
+  ],
+  "CVE-2005-4432": [
+    "http://marc.info/?l=full-disclosure&m=113970096305873&w=2"
+  ],
+  "CVE-2005-4437": [
+    "http://securityreason.com/securityalert/274"
+  ],
+  "CVE-2005-4438": [
+    "http://securityreason.com/securityalert/276"
+  ],
+  "CVE-2005-4449": [
+    "http://securityreason.com/securityalert/248"
+  ],
+  "CVE-2005-4459": [
+    "http://securityreason.com/securityalert/282"
+  ],
+  "CVE-2005-4460": [
+    "http://cvs.sourceforge.net/viewcvs.py/beehiveforum/beehiveforum/forum/index.php?rev=1.121&view=log"
+  ],
+  "CVE-2005-4461": [
+    "http://securityreason.com/securityalert/284"
+  ],
+  "CVE-2005-4462": [
+    "http://securityreason.com/securityalert/288"
+  ],
+  "CVE-2005-4463": [
+    "http://securityreason.com/securityalert/286"
+  ],
+  "CVE-2005-4466": [
+    "http://www.hat-squad.com/en/000171.html"
+  ],
+  "CVE-2005-4469": [
+    "http://cvs.sourceforge.net/viewcvs.py/phpgedview/phpGedView/login_register.php?r1=1.71.2.36&r2=1.71.2.37"
+  ],
+  "CVE-2005-4494": [
+    "http://pridels0.blogspot.com/2005/12/spip-xss-vuln.html"
+  ],
+  "CVE-2005-4496": [
+    "http://pridels0.blogspot.com/2005/12/syntaxcms-xss-vuln.html"
+  ],
+  "CVE-2005-4504": [
+    "http://security-protocols.com/advisory/sp-x22-advisory.txt"
+  ],
+  "CVE-2005-4506": [
+    "http://www.exploitlabs.com/files/advisories/EXPL-A-2005-017-devhound.txt"
+  ],
+  "CVE-2005-4507": [
+    "http://www.exploitlabs.com/files/advisories/EXPL-A-2005-017-devhound.txt"
+  ],
+  "CVE-2005-4508": [
+    "http://www.exploitlabs.com/files/advisories/EXPL-A-2005-017-devhound.txt"
+  ],
+  "CVE-2005-4514": [
+    "http://securityreason.com/securityalert/293"
+  ],
+  "CVE-2005-4516": [
+    "http://securityreason.com/securityalert/272"
+  ],
+  "CVE-2005-4517": [
+    "http://securityreason.com/securityalert/272"
+  ],
+  "CVE-2005-4518": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-002.txt"
+  ],
+  "CVE-2005-4519": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-002.txt"
+  ],
+  "CVE-2005-4520": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-002.txt"
+  ],
+  "CVE-2005-4521": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-002.txt"
+  ],
+  "CVE-2005-4522": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-002.txt"
+  ],
+  "CVE-2005-4523": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-002.txt"
+  ],
+  "CVE-2005-4524": [
+    "http://www.trapkit.de/advisories/TKADV2005-11-002.txt"
+  ],
+  "CVE-2005-4549": [
+    "http://securityreason.com/securityalert/298"
+  ],
+  "CVE-2005-4550": [
+    "http://securityreason.com/securityalert/297"
+  ],
+  "CVE-2005-4563": [
+    "http://securityreason.com/securityalert/278"
+  ],
+  "CVE-2005-4573": [
+    "http://securityreason.com/securityalert/273"
+  ],
+  "CVE-2005-4574": [
+    "http://pridels0.blogspot.com/2005/12/commonspot-content-server-vuln.html"
+  ],
+  "CVE-2005-4575": [
+    "http://pridels0.blogspot.com/2005/12/commonspot-content-server-vuln.html"
+  ],
+  "CVE-2005-4576": [
+    "http://pridels0.blogspot.com/2005/12/fatwire-updateengine-62-multiple-xss.html"
+  ],
+  "CVE-2005-4584": [
+    "http://aluigi.altervista.org/adv/bzflagboom-adv.txt"
+  ],
+  "CVE-2005-4585": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9678"
+  ],
+  "CVE-2005-4593": [
+    "http://securityreason.com/securityalert/303"
+  ],
+  "CVE-2005-4596": [
+    "http://pridels0.blogspot.com/2005/12/adesguestbook-xss-vuln.html"
+  ],
+  "CVE-2005-4598": [
+    "http://pridels0.blogspot.com/2005/12/ooapp-guestbook-xss-vuln.html"
+  ],
+  "CVE-2005-4600": [
+    "https://www.exploit-db.com/exploits/4441"
+  ],
+  "CVE-2005-4601": [
+    "http://www.ubuntu.com/usn/usn-246-1"
+  ],
+  "CVE-2005-4602": [
+    "http://securityreason.com/securityalert/311"
+  ],
+  "CVE-2005-4603": [
+    "http://securityreason.com/securityalert/310"
+  ],
+  "CVE-2005-4605": [
+    "http://www.securityfocus.com/archive/1/427981/100/0/threaded"
+  ],
+  "CVE-2005-4606": [
+    "http://securityreason.com/securityalert/305"
+  ],
+  "CVE-2005-4607": [
+    "http://pridels0.blogspot.com/2005/12/bugport-multiple-vuln.html"
+  ],
+  "CVE-2005-4608": [
+    "http://pridels0.blogspot.com/2005/12/bugport-multiple-vuln.html"
+  ],
+  "CVE-2005-4609": [
+    "http://pridels0.blogspot.com/2005/12/bugport-multiple-vuln.html"
+  ],
+  "CVE-2005-4637": [
+    "http://pridels0.blogspot.com/2005/12/kayako-supportsuite-multiple-vuln.html"
+  ],
+  "CVE-2005-4638": [
+    "http://pridels0.blogspot.com/2005/12/kayako-supportsuite-multiple-vuln.html"
+  ],
+  "CVE-2005-4656": [
+    "http://downloads.securityfocus.com/vulnerabilities/exploits/TClanPortal_sql_inj.pl"
+  ],
+  "CVE-2005-4659": [
+    "http://sourceforge.net/tracker/index.php?func=detail&aid=1344032&group_id=40604&atid=428516"
+  ],
+  "CVE-2005-4668": [
+    "http://securityreason.com/securityalert/147"
+  ],
+  "CVE-2005-4681": [
+    "http://www.packetstormsecurity.org/0512-exploits/mIRCexploitXPSP2eng.c"
+  ],
+  "CVE-2005-4696": [
+    "https://www.exploit-db.com/exploits/26323/"
+  ],
+  "CVE-2005-4697": [
+    "http://securityreason.com/securityalert/46"
+  ],
+  "CVE-2005-4698": [
+    "http://exploitlabs.com/files/advisories/EXPL-A-2005-015-tellme.txt"
+  ],
+  "CVE-2005-4699": [
+    "http://exploitlabs.com/files/advisories/EXPL-A-2005-015-tellme.txt"
+  ],
+  "CVE-2005-4700": [
+    "http://exploitlabs.com/files/advisories/EXPL-A-2005-015-tellme.txt"
+  ],
+  "CVE-2005-4715": [
+    "http://securityreason.com/securityalert/3"
+  ],
+  "CVE-2005-4720": [
+    "http://www.security-protocols.com/advisory/sp-x19-advisory.txt"
+  ],
+  "CVE-2005-4749": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4750": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4751": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4752": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4753": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4754": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4755": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4756": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4757": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4758": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4759": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4760": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4761": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4762": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4763": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4764": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4765": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4766": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4767": [
+    "http://www.securityfocus.com/bid/15052"
+  ],
+  "CVE-2005-4777": [
+    "http://securityreason.com/securityalert/37"
+  ],
+  "CVE-2005-4783": [
+    "http://www.packetstormsecurity.org/0601-advisories/NetBSD-SA2006-001.txt"
+  ],
+  "CVE-2005-4785": [
+    "http://exploitlabs.com/files/advisories/EXPL-A-2005-011-quickblogger.txt"
+  ],
+  "CVE-2005-4794": [
+    "http://www.cisco.com/warp/public/707/cisco-sn-20050524-dns.shtml"
+  ],
+  "CVE-2005-4807": [
+    "http://www.ubuntu.com/usn/usn-336-1"
+  ],
+  "CVE-2005-4825": [
+    "http://www.cisco.com/warp/public/707/cisco-response-20051221-CCA.shtml"
+  ],
+  "CVE-2005-4826": [
+    "http://www.blackhat.com/html/bh-europe-05/bh-eu-05-speakers.html#Berrueta"
+  ],
+  "CVE-2005-4835": [
+    "http://www.novell.com/linux/security/advisories/2007_14_sr.html"
+  ],
+  "CVE-2005-4837": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9442"
+  ],
+  "CVE-2005-4848": [
+    "http://blog2.lemondeinformatique.fr/management_du_si/2006/05/notre_ami_imad_.html"
+  ],
+  "CVE-2005-4858": [
+    "http://exploitlabs.com/files/advisories/EXPL-A-2005-013-mimic2.txt"
+  ],
+  "CVE-2005-4859": [
+    "http://exploitlabs.com/files/advisories/EXPL-A-2005-013-mimic2.txt"
+  ],
+  "CVE-2005-4874": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=297078"
+  ],
+  "CVE-2005-4875": [
+    "http://bugs.typo3.org/view.php?id=1250"
+  ],
+  "CVE-2005-4890": [
+    "http://www.openwall.com/lists/oss-security/2014/10/21/1"
+  ],
+  "CVE-2005-4900": [
+    "https://sites.google.com/site/itstheshappening"
+  ]
+}
