@@ -1,0 +1,3533 @@
+{
+  "CVE-2011-0004": [
+    "http://openwall.com/lists/oss-security/2011/01/06/1"
+  ],
+  "CVE-2011-0005": [
+    "http://yehg.net/lab/pr0js/advisories/joomla/core/%5Bjoomla_1.0.x~15%5D_cross_site_scripting"
+  ],
+  "CVE-2011-0013": [
+    "http://securityreason.com/securityalert/8093"
+  ],
+  "CVE-2011-0020": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=671122"
+  ],
+  "CVE-2011-0027": [
+    "http://vreugdenhilresearch.nl/ms11-002-pwn2own-heap-overflow/"
+  ],
+  "CVE-2011-0028": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-033"
+  ],
+  "CVE-2011-0032": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-015"
+  ],
+  "CVE-2011-0041": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-029"
+  ],
+  "CVE-2011-0042": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-015"
+  ],
+  "CVE-2011-0043": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-013"
+  ],
+  "CVE-2011-0045": [
+    "http://securityreason.com/securityalert/8110"
+  ],
+  "CVE-2011-0046": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=621090"
+  ],
+  "CVE-2011-0048": [
+    "http://www.bugzilla.org/security/3.2.9/"
+  ],
+  "CVE-2011-0049": [
+    "http://www.exploit-db.com/exploits/16103"
+  ],
+  "CVE-2011-0050": [
+    "http://securityreason.com/securityalert/8097"
+  ],
+  "CVE-2011-0051": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=616659"
+  ],
+  "CVE-2011-0054": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=615657"
+  ],
+  "CVE-2011-0055": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=616009"
+  ],
+  "CVE-2011-0056": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=622015"
+  ],
+  "CVE-2011-0057": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=626631"
+  ],
+  "CVE-2011-0063": [
+    "http://sotiriu.de/adv/NSOADV-2011-003.txt"
+  ],
+  "CVE-2011-0064": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=606997"
+  ],
+  "CVE-2011-0065": [
+    "http://securityreason.com/securityalert/8331"
+  ],
+  "CVE-2011-0070": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=645565"
+  ],
+  "CVE-2011-0071": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=624764"
+  ],
+  "CVE-2011-0073": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=630919"
+  ],
+  "CVE-2011-0075": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=635977"
+  ],
+  "CVE-2011-0076": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=634724"
+  ],
+  "CVE-2011-0077": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=623998"
+  ],
+  "CVE-2011-0078": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=635705"
+  ],
+  "CVE-2011-0083": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=648090"
+  ],
+  "CVE-2011-0084": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=648094"
+  ],
+  "CVE-2011-0085": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=648100"
+  ],
+  "CVE-2011-0091": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-013"
+  ],
+  "CVE-2011-0096": [
+    "http://www.exploit-db.com/exploits/16071"
+  ],
+  "CVE-2011-0107": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-023"
+  ],
+  "CVE-2011-0182": [
+    "http://securityreason.com/securityalert/8402"
+  ],
+  "CVE-2011-0222": [
+    "http://securityreason.com/securityalert/8313"
+  ],
+  "CVE-2011-0226": [
+    "http://www.appleinsider.com/articles/11/07/06/hackers_release_new_browser_based_ios_jailbreak_based_on_pdf_exploit.html"
+  ],
+  "CVE-2011-0228": [
+    "http://securityreason.com/securityalert/8361"
+  ],
+  "CVE-2011-0257": [
+    "http://securityreason.com/securityalert/8365"
+  ],
+  "CVE-2011-0258": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A15671"
+  ],
+  "CVE-2011-0266": [
+    "http://securityreason.com/securityalert/8151"
+  ],
+  "CVE-2011-0267": [
+    "http://securityreason.com/securityalert/8156"
+  ],
+  "CVE-2011-0281": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-0282": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-0284": [
+    "http://web.mit.edu/kerberos/advisories/MITKRB5-SA-2011-003.txt"
+  ],
+  "CVE-2011-0285": [
+    "http://web.mit.edu/kerberos/advisories/MITKRB5-SA-2011-004.txt"
+  ],
+  "CVE-2011-0322": [
+    "http://securityreason.com/securityalert/8142"
+  ],
+  "CVE-2011-0342": [
+    "http://ics-cert.us-cert.gov/advisories/ICSA-11-273-02"
+  ],
+  "CVE-2011-0346": [
+    "http://blogs.technet.com/b/srd/archive/2011/01/07/assessing-the-risk-of-public-issues-currently-being-tracked-by-the-msrc.aspx"
+  ],
+  "CVE-2011-0347": [
+    "http://blogs.technet.com/b/srd/archive/2011/01/07/assessing-the-risk-of-public-issues-currently-being-tracked-by-the-msrc.aspx"
+  ],
+  "CVE-2011-0355": [
+    "http://securityreason.com/securityalert/8090"
+  ],
+  "CVE-2011-0364": [
+    "http://securityreason.com/securityalert/8095"
+  ],
+  "CVE-2011-0379": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6e11d.shtml"
+  ],
+  "CVE-2011-0382": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6e11d.shtml"
+  ],
+  "CVE-2011-0383": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6e11d.shtml"
+  ],
+  "CVE-2011-0385": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6e11d.shtml"
+  ],
+  "CVE-2011-0386": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6e11d.shtml"
+  ],
+  "CVE-2011-0388": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6e11d.shtml"
+  ],
+  "CVE-2011-0391": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6e11d.shtml"
+  ],
+  "CVE-2011-0392": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b6e11d.shtml"
+  ],
+  "CVE-2011-0406": [
+    "http://www.exploit-db.com/exploits/15957"
+  ],
+  "CVE-2011-0411": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0412": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0418": [
+    "http://securityreason.com/securityalert/8228"
+  ],
+  "CVE-2011-0419": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2011-0420": [
+    "http://www.exploit-db.com/exploits/16182"
+  ],
+  "CVE-2011-0421": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:052"
+  ],
+  "CVE-2011-0469": [
+    "https://bugzilla.suse.com/show_bug.cgi?id=679325"
+  ],
+  "CVE-2011-0471": [
+    "https://exchange.xforce.ibmcloud.com/vulnerabilities/64662"
+  ],
+  "CVE-2011-0480": [
+    "http://ffmpeg.mplayerhq.hu/"
+  ],
+  "CVE-2011-0500": [
+    "http://www.exploit-db.com/exploits/15936"
+  ],
+  "CVE-2011-0501": [
+    "http://www.exploit-db.com/exploits/15901"
+  ],
+  "CVE-2011-0502": [
+    "http://www.exploit-db.com/exploits/15897"
+  ],
+  "CVE-2011-0503": [
+    "http://www.exploit-db.com/exploits/15968"
+  ],
+  "CVE-2011-0504": [
+    "http://www.exploit-db.com/exploits/15968"
+  ],
+  "CVE-2011-0509": [
+    "http://dev.vaadin.com/ticket/6257"
+  ],
+  "CVE-2011-0510": [
+    "http://www.exploit-db.com/exploits/16003"
+  ],
+  "CVE-2011-0512": [
+    "http://www.exploit-db.com/exploits/16004"
+  ],
+  "CVE-2011-0514": [
+    "http://www.exploit-db.com/exploits/15940"
+  ],
+  "CVE-2011-0521": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-0522": [
+    "http://www.exploit-db.com/exploits/16108"
+  ],
+  "CVE-2011-0525": [
+    "https://packetstormsecurity.com/files/cve/CVE-2011-0525"
+  ],
+  "CVE-2011-0526": [
+    "http://yehg.net/lab/pr0js/advisories/%5Bvanilla_forums-2.0.16%5D_cross_site_scripting"
+  ],
+  "CVE-2011-0531": [
+    "http://www.openwall.com/lists/oss-security/2011/01/31/8"
+  ],
+  "CVE-2011-0533": [
+    "http://securityreason.com/securityalert/8091"
+  ],
+  "CVE-2011-0535": [
+    "http://securityreason.com/securityalert/8067"
+  ],
+  "CVE-2011-0536": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-0545": [
+    "http://sotiriu.de/adv/NSOADV-2011-001.txt"
+  ],
+  "CVE-2011-0546": [
+    "http://securityreason.com/securityalert/8300"
+  ],
+  "CVE-2011-0560": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A16174"
+  ],
+  "CVE-2011-0561": [
+    "http://www.kb.cert.org/vuls/id/812969"
+  ],
+  "CVE-2011-0562": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0563": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0565": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0566": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0567": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0585": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0586": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0587": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0589": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0590": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0591": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0592": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0593": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0594": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0595": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0596": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0598": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0599": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0600": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0602": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0603": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0604": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0606": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0301.html"
+  ],
+  "CVE-2011-0609": [
+    "http://securityreason.com/securityalert/8152"
+  ],
+  "CVE-2011-0611": [
+    "http://securityreason.com/securityalert/8292"
+  ],
+  "CVE-2011-0614": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2011-5012.php"
+  ],
+  "CVE-2011-0615": [
+    "http://www.coresecurity.com/content/Adobe-Audition-malformed-SES-file"
+  ],
+  "CVE-2011-0618": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A16041"
+  ],
+  "CVE-2011-0635": [
+    "http://www.exploit-db.com/exploits/16016"
+  ],
+  "CVE-2011-0636": [
+    "http://classic.chem.msu.su/cgi-bin/ceilidh.exe/gran/gamess/forum/?C35e9ea936bHW-7681-487+00.htm"
+  ],
+  "CVE-2011-0653": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-074"
+  ],
+  "CVE-2011-0654": [
+    "http://blogs.technet.com/b/srd/archive/2011/02/16/notes-on-exploitability-of-the-recent-windows-browser-protocol-issue.aspx"
+  ],
+  "CVE-2011-0694": [
+    "http://securityreason.com/securityalert/8098"
+  ],
+  "CVE-2011-0696": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=676357"
+  ],
+  "CVE-2011-0697": [
+    "http://www.djangoproject.com/weblog/2011/feb/08/security/"
+  ],
+  "CVE-2011-0698": [
+    "http://www.djangoproject.com/weblog/2011/feb/08/security/"
+  ],
+  "CVE-2011-0708": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:052"
+  ],
+  "CVE-2011-0710": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-0722": [
+    "http://ffmpeg.mplayerhq.hu/"
+  ],
+  "CVE-2011-0723": [
+    "http://ffmpeg.mplayerhq.hu/"
+  ],
+  "CVE-2011-0725": [
+    "https://bugs.launchpad.net/bugs/722228"
+  ],
+  "CVE-2011-0727": [
+    "http://www.ubuntu.com/usn/USN-1099-1"
+  ],
+  "CVE-2011-0739": [
+    "https://github.com/mikel/mail/raw/master/patches/20110126_sendmail.patch"
+  ],
+  "CVE-2011-0740": [
+    "http://www.autosectools.com/Advisories/WordPress.RSS.Feed.Reader.for.WordPress.0.1_Reflected.Cross-site.Scripting_82.html"
+  ],
+  "CVE-2011-0742": [
+    "http://telussecuritylabs.com/threats/show/FSC20110125-06"
+  ],
+  "CVE-2011-0745": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2011-002"
+  ],
+  "CVE-2011-0751": [
+    "http://www.redteam-pentesting.de/advisories/rt-sa-2011-001"
+  ],
+  "CVE-2011-0761": [
+    "http://www.toucan-system.com/advisories/tssa-2011-03.txt"
+  ],
+  "CVE-2011-0762": [
+    "http://www.exploit-db.com/exploits/16270"
+  ],
+  "CVE-2011-0764": [
+    "http://www.toucan-system.com/advisories/tssa-2011-01.txt"
+  ],
+  "CVE-2011-0772": [
+    "http://securityreason.com/securityalert/8062"
+  ],
+  "CVE-2011-0773": [
+    "http://www.autosectools.com/Advisories/PivotX.2.2.2_Reflected.Cross-site.Scripting_76.html"
+  ],
+  "CVE-2011-0785": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0786": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0787": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0788": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0789": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0790": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0791": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0792": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0793": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0794": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0795": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0796": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0797": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0798": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0799": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0800": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0801": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0802": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14480"
+  ],
+  "CVE-2011-0803": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0804": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0805": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0806": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0807": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0808": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0809": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0810": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0811": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0812": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0813": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0814": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0815": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0816": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0817": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0818": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0819": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0820": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0821": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0822": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0823": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0824": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0825": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0826": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0827": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0828": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0829": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0830": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0831": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0832": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0833": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0834": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0835": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0836": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0837": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0838": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0839": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0840": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0841": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0843": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0844": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0845": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0846": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0847": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0848": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0849": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0850": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0851": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0852": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0853": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0854": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0855": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0856": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0857": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0858": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0859": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0860": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0861": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2011-301950.html"
+  ],
+  "CVE-2011-0862": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0863": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0864": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0865": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0866": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0867": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0868": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0869": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0870": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0871": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0872": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0873": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html"
+  ],
+  "CVE-2011-0875": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0876": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0877": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0879": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0880": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0881": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0882": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0883": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0884": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-0885": [
+    "http://www.exploit-db.com/exploits/16123/"
+  ],
+  "CVE-2011-0886": [
+    "http://www.exploit-db.com/exploits/16123/"
+  ],
+  "CVE-2011-0887": [
+    "http://www.exploit-db.com/exploits/16123/"
+  ],
+  "CVE-2011-0895": [
+    "http://securityreason.com/securityalert/8186"
+  ],
+  "CVE-2011-0904": [
+    "https://bugzilla.gnome.org/show_bug.cgi?id=641802"
+  ],
+  "CVE-2011-0908": [
+    "http://www.vanillaforums.org/discussion/comment/134729/#Comment_134729"
+  ],
+  "CVE-2011-0909": [
+    "http://www.vanillaforums.org/discussion/comment/134729/#Comment_134729"
+  ],
+  "CVE-2011-0910": [
+    "http://www.vanillaforums.org/discussion/comment/134729/#Comment_134729"
+  ],
+  "CVE-2011-0923": [
+    "http://securityreason.com/securityalert/8329"
+  ],
+  "CVE-2011-0975": [
+    "https://exchange.xforce.ibmcloud.com/vulnerabilities/65135"
+  ],
+  "CVE-2011-0977": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-023"
+  ],
+  "CVE-2011-0978": [
+    "http://securityreason.com/securityalert/8231"
+  ],
+  "CVE-2011-0986": [
+    "http://phpmyadmin.git.sourceforge.net/git/gitweb.cgi?p=phpmyadmin/phpmyadmin;a=commit;h=035d002db1e1201e73e560d7d98591563b506a83"
+  ],
+  "CVE-2011-0997": [
+    "https://www.exploit-db.com/exploits/37623/"
+  ],
+  "CVE-2011-10005": [
+    "https://www.exploit-db.com/exploits/17354"
+  ],
+  "CVE-2011-10007": [
+    "https://github.com/richardc/perl-file-find-rule/pull/4"
+  ],
+  "CVE-2011-10008": [
+    "https://www.vulncheck.com/advisories/mplayer-lite-r33064-m3u-stack-based-buffer-overflow"
+  ],
+  "CVE-2011-10009": [
+    "https://www.vulncheck.com/advisories/s40-cms-path-traversal"
+  ],
+  "CVE-2011-10010": [
+    "https://www.vulncheck.com/advisories/quickshare-file-server-path-traversal-rce"
+  ],
+  "CVE-2011-10011": [
+    "https://www.vulncheck.com/advisories/webid-remote-php-code-injection"
+  ],
+  "CVE-2011-10012": [
+    "https://www.vulncheck.com/advisories/netop-remote-control-client-dws-file-buffer-overflow"
+  ],
+  "CVE-2011-10013": [
+    "https://www.vulncheck.com/advisories/traq-issue-tracking-system-rce"
+  ],
+  "CVE-2011-10014": [
+    "https://www.vulncheck.com/advisories/gta-sa-mp-buffer-overflow"
+  ],
+  "CVE-2011-10015": [
+    "https://www.vulncheck.com/advisories/cytel-studio-cy3-file-stack-buffer-overflow"
+  ],
+  "CVE-2011-10016": [
+    "https://www.vulncheck.com/advisories/real-networks-netzip-classic-file-parsing-buffer-overflow"
+  ],
+  "CVE-2011-10017": [
+    "https://www.vulncheck.com/advisories/snort-report-rce"
+  ],
+  "CVE-2011-10018": [
+    "https://www.vulncheck.com/advisories/mybb-backdoor-arbitrary-command-execution"
+  ],
+  "CVE-2011-10019": [
+    "https://www.vulncheck.com/advisories/spreecommerce-search-parameter-rce"
+  ],
+  "CVE-2011-1002": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:037"
+  ],
+  "CVE-2011-10020": [
+    "https://www.vulncheck.com/advisories/kaillera-server-dos-via-malformed-udp-packet"
+  ],
+  "CVE-2011-10021": [
+    "https://www.vulncheck.com/advisories/magix-musik-maker-stack-based-buffer-overflow"
+  ],
+  "CVE-2011-10022": [
+    "https://www.vulncheck.com/advisories/splayer-content-type-header-buffer-overflow"
+  ],
+  "CVE-2011-10023": [
+    "https://www.vulncheck.com/advisories/mjm-quickplayer-s3m-stack-based-buffer-overflow"
+  ],
+  "CVE-2011-10024": [
+    "https://www.vulncheck.com/advisories/mjm-core-player-file-stack-based-buffer-overflow"
+  ],
+  "CVE-2011-10025": [
+    "https://www.vulncheck.com/advisories/subtitle-processor-m3u-seh-unicode-buffer-overflow"
+  ],
+  "CVE-2011-10026": [
+    "https://www.vulncheck.com/advisories/spreecommerce-api-rce"
+  ],
+  "CVE-2011-10027": [
+    "https://www.vulncheck.com/advisories/aol-desktop-rtx-stack-based-buffer-overflow"
+  ],
+  "CVE-2011-10028": [
+    "https://www.vulncheck.com/advisories/real-networks-arcade-games-activex-arbitrary-code-execution"
+  ],
+  "CVE-2011-10029": [
+    "https://www.vulncheck.com/advisories/solar-ftp-server-malformed-user-dos"
+  ],
+  "CVE-2011-10030": [
+    "https://www.vulncheck.com/advisories/foxit-pdf-reader-javascript-file-write"
+  ],
+  "CVE-2011-10032": [
+    "https://www.vulncheck.com/advisories/sunway-forcecontrol-snmp-netdbserver-opcode"
+  ],
+  "CVE-2011-1007": [
+    "https://github.com/bestpractical/rt/commit/917c211820590950f7eb0521f7f43b31aeed44c4"
+  ],
+  "CVE-2011-1009": [
+    "https://www.openwall.com/lists/oss-security/2011/02/22/14"
+  ],
+  "CVE-2011-1010": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-1012": [
+    "http://securityreason.com/securityalert/8115"
+  ],
+  "CVE-2011-1015": [
+    "http://www.ubuntu.com/usn/USN-1613-2"
+  ],
+  "CVE-2011-1017": [
+    "http://securityreason.com/securityalert/8115"
+  ],
+  "CVE-2011-1018": [
+    "http://sourceforge.net/tracker/?func=detail&aid=3184223&group_id=312875&atid=1316824"
+  ],
+  "CVE-2011-1026": [
+    "http://securityreason.com/securityalert/8266"
+  ],
+  "CVE-2011-1047": [
+    "http://securityreason.com/securityalert/8099"
+  ],
+  "CVE-2011-1049": [
+    "https://www.hex-rays.com/vulnfix.shtml"
+  ],
+  "CVE-2011-1050": [
+    "https://www.hex-rays.com/vulnfix.shtml"
+  ],
+  "CVE-2011-1051": [
+    "https://www.hex-rays.com/vulnfix.shtml"
+  ],
+  "CVE-2011-1052": [
+    "https://www.hex-rays.com/vulnfix.shtml"
+  ],
+  "CVE-2011-1053": [
+    "https://www.hex-rays.com/vulnfix.shtml"
+  ],
+  "CVE-2011-1054": [
+    "https://www.hex-rays.com/vulnfix.shtml"
+  ],
+  "CVE-2011-1055": [
+    "http://www.exploit-db.com/exploits/16171"
+  ],
+  "CVE-2011-1059": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A13943"
+  ],
+  "CVE-2011-1060": [
+    "http://securityreason.com/securityalert/8101"
+  ],
+  "CVE-2011-1061": [
+    "http://securityreason.com/securityalert/8102"
+  ],
+  "CVE-2011-1062": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2011-4990.php"
+  ],
+  "CVE-2011-1063": [
+    "http://securityreason.com/securityalert/8103"
+  ],
+  "CVE-2011-1069": [
+    "https://www.openwall.com/lists/oss-security/2011/02/28/9"
+  ],
+  "CVE-2011-1071": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-1073": [
+    "http://securityreason.com/securityalert/8117"
+  ],
+  "CVE-2011-1074": [
+    "http://securityreason.com/securityalert/8117"
+  ],
+  "CVE-2011-1077": [
+    "http://securityreason.com/securityalert/8267"
+  ],
+  "CVE-2011-1078": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=681259"
+  ],
+  "CVE-2011-1079": [
+    "http://packetstormsecurity.com/files/153799/Kernel-Live-Patch-Security-Notice-LSN-0053-1.html"
+  ],
+  "CVE-2011-1080": [
+    "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=d846f71195d57b0bbb143382647c2c6638b04c5a"
+  ],
+  "CVE-2011-1086": [
+    "https://www.exploit-db.com/exploits/35125"
+  ],
+  "CVE-2011-1087": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2010-4931.php"
+  ],
+  "CVE-2011-1090": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-1092": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:052"
+  ],
+  "CVE-2011-1095": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-1096": [
+    "http://www.csoonline.com/article/692366/widely-used-encryption-standard-is-insecure-say-experts"
+  ],
+  "CVE-2011-1099": [
+    "http://www.exploit-db.com/exploits/16933"
+  ],
+  "CVE-2011-1100": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2011-4992.php"
+  ],
+  "CVE-2011-1127": [
+    "http://custom.simplemachines.org/mods/downloads/smf_patch_2.0-RC4_security.zip"
+  ],
+  "CVE-2011-1128": [
+    "http://custom.simplemachines.org/mods/downloads/smf_patch_2.0-RC4_security.zip"
+  ],
+  "CVE-2011-1129": [
+    "http://custom.simplemachines.org/mods/downloads/smf_patch_2.0-RC4_security.zip"
+  ],
+  "CVE-2011-1130": [
+    "http://custom.simplemachines.org/mods/downloads/smf_patch_2.0-RC4_security.zip"
+  ],
+  "CVE-2011-1131": [
+    "http://custom.simplemachines.org/mods/downloads/smf_patch_2.0-RC4_security.zip"
+  ],
+  "CVE-2011-1137": [
+    "http://www.exploit-db.com/exploits/16129/"
+  ],
+  "CVE-2011-1141": [
+    "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=5732"
+  ],
+  "CVE-2011-1149": [
+    "http://forum.xda-developers.com/wiki/index.php?title=HTC_Vision#Rooting_the_G2"
+  ],
+  "CVE-2011-1150": [
+    "https://www.openwall.com/lists/oss-security/2011/03/14/20"
+  ],
+  "CVE-2011-1151": [
+    "https://www.openwall.com/lists/oss-security/2011/03/14/21"
+  ],
+  "CVE-2011-1153": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:052"
+  ],
+  "CVE-2011-1163": [
+    "http://securityreason.com/securityalert/8189"
+  ],
+  "CVE-2011-1170": [
+    "http://securityreason.com/securityalert/8278"
+  ],
+  "CVE-2011-1171": [
+    "http://securityreason.com/securityalert/8278"
+  ],
+  "CVE-2011-1172": [
+    "http://securityreason.com/securityalert/8278"
+  ],
+  "CVE-2011-1173": [
+    "http://securityreason.com/securityalert/8279"
+  ],
+  "CVE-2011-1178": [
+    "http://www.redhat.com/support/errata/RHSA-2011-0837.html"
+  ],
+  "CVE-2011-1183": [
+    "http://securityreason.com/securityalert/8187"
+  ],
+  "CVE-2011-1194": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14461"
+  ],
+  "CVE-2011-1206": [
+    "http://securityreason.com/securityalert/8213"
+  ],
+  "CVE-2011-1213": [
+    "http://securityreason.com/securityalert/8285"
+  ],
+  "CVE-2011-1220": [
+    "http://www.securityfocus.com/archive/1/518199/100/0/threaded"
+  ],
+  "CVE-2011-1243": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-027"
+  ],
+  "CVE-2011-1249": [
+    "https://www.exploit-db.com/exploits/40564/"
+  ],
+  "CVE-2011-1252": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-074"
+  ],
+  "CVE-2011-1257": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-057"
+  ],
+  "CVE-2011-1260": [
+    "http://securityreason.com/securityalert/8275"
+  ],
+  "CVE-2011-1271": [
+    "http://stackoverflow.com/questions/2135509/bug-only-occurring-when-compile-optimization-enabled/"
+  ],
+  "CVE-2011-1276": [
+    "http://securityreason.com/securityalert/8330"
+  ],
+  "CVE-2011-1290": [
+    "http://www.zdnet.com/blog/security/pwn2own-2011-blackberry-falls-to-webkit-browser-attack/8401"
+  ],
+  "CVE-2011-1331": [
+    "http://www.symantec.com/connect/blogs/targeted-attacks-2011-using-ichitaro-zero-day-vulnerability"
+  ],
+  "CVE-2011-1344": [
+    "http://www.zdnet.com/blog/security/safarimacbook-first-to-fall-at-pwn2own-2011/8358"
+  ],
+  "CVE-2011-1345": [
+    "https://threatpost.com/en_us/blogs/pwn2own-winner-stephen-fewer-031011"
+  ],
+  "CVE-2011-1346": [
+    "https://threatpost.com/en_us/blogs/pwn2own-winner-stephen-fewer-031011"
+  ],
+  "CVE-2011-1347": [
+    "https://threatpost.com/en_us/blogs/pwn2own-winner-stephen-fewer-031011"
+  ],
+  "CVE-2011-1407": [
+    "http://www.ubuntu.com/usn/USN-1135-1"
+  ],
+  "CVE-2011-1411": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2012-1515893.html"
+  ],
+  "CVE-2011-1412": [
+    "http://securityreason.com/securityalert/8324"
+  ],
+  "CVE-2011-1414": [
+    "http://www.tibco.com/services/support/advisories/tibbr-tibbr-service-advisory_20110315.jsp"
+  ],
+  "CVE-2011-1416": [
+    "http://www.zdnet.com/blog/security/pwn2own-2011-blackberry-falls-to-webkit-browser-attack/8401"
+  ],
+  "CVE-2011-1417": [
+    "http://www.zdnet.com/blog/security/charlie-miller-wins-pwn2own-again-with-iphone-4-exploit/8378"
+  ],
+  "CVE-2011-1428": [
+    "http://savannah.nongnu.org/patch/index.php?7459"
+  ],
+  "CVE-2011-1429": [
+    "http://securityreason.com/securityalert/8143"
+  ],
+  "CVE-2011-1431": [
+    "http://securityreason.com/securityalert/8144"
+  ],
+  "CVE-2011-1437": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14601"
+  ],
+  "CVE-2011-1464": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:052"
+  ],
+  "CVE-2011-1466": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:052"
+  ],
+  "CVE-2011-1467": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:052"
+  ],
+  "CVE-2011-1469": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:052"
+  ],
+  "CVE-2011-1470": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:052"
+  ],
+  "CVE-2011-1471": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2011:052"
+  ],
+  "CVE-2011-1473": [
+    "http://www.ietf.org/mail-archive/web/tls/current/msg07553.html"
+  ],
+  "CVE-2011-1474": [
+    "http://seclists.org/oss-sec/2011/q1/579"
+  ],
+  "CVE-2011-1475": [
+    "http://securityreason.com/securityalert/8188"
+  ],
+  "CVE-2011-1478": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-1480": [
+    "http://yehg.net/lab/pr0js/advisories/%5Bphpnuke-8.x%5D_sql_injection"
+  ],
+  "CVE-2011-1481": [
+    "http://yehg.net/lab/pr0js/advisories/%5Bphpnuke-8.x%5D_cross_site_scripting"
+  ],
+  "CVE-2011-1482": [
+    "http://yehg.net/lab/pr0js/advisories/%5Bphpnuke-8.x%5D_cross_site_request_forgery"
+  ],
+  "CVE-2011-1484": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=692421"
+  ],
+  "CVE-2011-1487": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=692898"
+  ],
+  "CVE-2011-1488": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2011-1488"
+  ],
+  "CVE-2011-1489": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2011-1489"
+  ],
+  "CVE-2011-1490": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2011-1490"
+  ],
+  "CVE-2011-1494": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-1495": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-1498": [
+    "http://securityreason.com/securityalert/8298"
+  ],
+  "CVE-2011-1502": [
+    "http://issues.liferay.com/browse/LPS-14927"
+  ],
+  "CVE-2011-1503": [
+    "http://issues.liferay.com/secure/ReleaseNote.jspa?version=10656&styleName=Html&projectId=10952"
+  ],
+  "CVE-2011-1504": [
+    "http://issues.liferay.com/secure/ReleaseNote.jspa?version=10656&styleName=Html&projectId=10952"
+  ],
+  "CVE-2011-1508": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-091"
+  ],
+  "CVE-2011-1509": [
+    "http://www.coresecurity.com/content/multiples-vulnerabilities-manageengine-sdp"
+  ],
+  "CVE-2011-1510": [
+    "http://www.coresecurity.com/content/multiples-vulnerabilities-manageengine-sdp"
+  ],
+  "CVE-2011-1511": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-1512": [
+    "http://www.coresecurity.com/content/LotusNotes-XLS-viewer-heap-overflow"
+  ],
+  "CVE-2011-1513": [
+    "http://www.coresecurity.com/content/e107-cms-script-command-injection"
+  ],
+  "CVE-2011-1514": [
+    "http://www.coresecurity.com/content/HP-Data-Protector-multiple-vulnerabilities"
+  ],
+  "CVE-2011-1515": [
+    "http://www.coresecurity.com/content/HP-Data-Protector-multiple-vulnerabilities"
+  ],
+  "CVE-2011-1516": [
+    "http://www.coresecurity.com/content/apple-osx-sandbox-bypass"
+  ],
+  "CVE-2011-1521": [
+    "http://www.ubuntu.com/usn/USN-1613-2"
+  ],
+  "CVE-2011-1523": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=690877"
+  ],
+  "CVE-2011-1524": [
+    "http://sotiriu.de/adv/NSOADV-2011-001.txt"
+  ],
+  "CVE-2011-1525": [
+    "http://www.exploit-db.com/exploits/17019"
+  ],
+  "CVE-2011-1526": [
+    "http://securityreason.com/securityalert/8301"
+  ],
+  "CVE-2011-1527": [
+    "http://web.mit.edu/kerberos/advisories/MITKRB5-SA-2011-006.txt"
+  ],
+  "CVE-2011-1528": [
+    "http://web.mit.edu/kerberos/advisories/MITKRB5-SA-2011-006.txt"
+  ],
+  "CVE-2011-1529": [
+    "http://web.mit.edu/kerberos/advisories/MITKRB5-SA-2011-006.txt"
+  ],
+  "CVE-2011-1546": [
+    "http://www.exploit-db.com/exploits/17084/"
+  ],
+  "CVE-2011-1547": [
+    "http://lists.grok.org.uk/pipermail/full-disclosure/2011-April/080031.html"
+  ],
+  "CVE-2011-1548": [
+    "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=606544"
+  ],
+  "CVE-2011-1552": [
+    "http://www.toucan-system.com/advisories/tssa-2011-01.txt"
+  ],
+  "CVE-2011-1553": [
+    "http://www.toucan-system.com/advisories/tssa-2011-01.txt"
+  ],
+  "CVE-2011-1554": [
+    "http://www.toucan-system.com/advisories/tssa-2011-01.txt"
+  ],
+  "CVE-2011-1556": [
+    "http://www.exploit-db.com/exploits/17061/"
+  ],
+  "CVE-2011-1563": [
+    "http://www.exploit-db.com/exploits/17025"
+  ],
+  "CVE-2011-1564": [
+    "http://www.exploit-db.com/exploits/17025"
+  ],
+  "CVE-2011-1565": [
+    "http://www.exploit-db.com/exploits/17024"
+  ],
+  "CVE-2011-1566": [
+    "http://www.exploit-db.com/exploits/17024"
+  ],
+  "CVE-2011-1567": [
+    "http://www.exploit-db.com/exploits/17024"
+  ],
+  "CVE-2011-1568": [
+    "http://www.exploit-db.com/exploits/17024"
+  ],
+  "CVE-2011-1569": [
+    "http://www.exploit-db.com/exploits/17011"
+  ],
+  "CVE-2011-1570": [
+    "http://issues.liferay.com/secure/ReleaseNote.jspa?version=10656&styleName=Html&projectId=10952"
+  ],
+  "CVE-2011-1571": [
+    "http://issues.liferay.com/secure/ReleaseNote.jspa?version=10656&styleName=Html&projectId=10952"
+  ],
+  "CVE-2011-1574": [
+    "http://modplug-xmms.git.sourceforge.net/git/gitweb.cgi?p=modplug-xmms/modplug-xmms%3Ba=commit%3Bh=aecef259828a89bb00c2e6f78e89de7363b2237b"
+  ],
+  "CVE-2011-1589": [
+    "https://github.com/kraih/mojo/issues/114"
+  ],
+  "CVE-2011-1590": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A15050"
+  ],
+  "CVE-2011-1591": [
+    "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=5836"
+  ],
+  "CVE-2011-1595": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=676252"
+  ],
+  "CVE-2011-1645": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b7f190.shtml"
+  ],
+  "CVE-2011-1646": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b7f190.shtml"
+  ],
+  "CVE-2011-1647": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b7f190.shtml"
+  ],
+  "CVE-2011-1652": [
+    "http://resources.infosecinstitute.com/slaac-attack/"
+  ],
+  "CVE-2011-1657": [
+    "https://bugs.php.net/bug.php?id=54681"
+  ],
+  "CVE-2011-1658": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-1659": [
+    "http://www.vmware.com/security/advisories/VMSA-2011-0012.html"
+  ],
+  "CVE-2011-1666": [
+    "http://securityreason.com/securityalert/8191"
+  ],
+  "CVE-2011-1667": [
+    "http://www.exploit-db.com/exploits/17102"
+  ],
+  "CVE-2011-1668": [
+    "http://securityreason.com/securityalert/8193"
+  ],
+  "CVE-2011-1669": [
+    "http://www.exploit-db.com/exploits/17119"
+  ],
+  "CVE-2011-1670": [
+    "http://www.exploit-db.com/exploits/17098"
+  ],
+  "CVE-2011-1671": [
+    "http://www.mavitunasecurity.com/XSS-vulnerability-in-Tracks/"
+  ],
+  "CVE-2011-1685": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=696795"
+  ],
+  "CVE-2011-1686": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=696795"
+  ],
+  "CVE-2011-1687": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=696795"
+  ],
+  "CVE-2011-1688": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=696795"
+  ],
+  "CVE-2011-1689": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=696795"
+  ],
+  "CVE-2011-1690": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=696795"
+  ],
+  "CVE-2011-1714": [
+    "http://www.exploit-db.com/exploits/17127"
+  ],
+  "CVE-2011-1715": [
+    "http://www.exploit-db.com/exploits/17127"
+  ],
+  "CVE-2011-1717": [
+    "http://www.theregister.co.uk/2011/04/15/skype_for_android_vulnerable/"
+  ],
+  "CVE-2011-1721": [
+    "http://securityreason.com/securityalert/8212"
+  ],
+  "CVE-2011-1723": [
+    "http://www.mavitunasecurity.com/XSS-vulnerability-in-Redmine/"
+  ],
+  "CVE-2011-1749": [
+    "http://sourceforge.net/projects/nfs/files/nfs-utils/1.2.4/Changelog-nfs-utils-1.2.4/download"
+  ],
+  "CVE-2011-1751": [
+    "https://github.com/nelhage/virtunoid"
+  ],
+  "CVE-2011-1760": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=700883"
+  ],
+  "CVE-2011-1761": [
+    "http://www.exploit-db.com/exploits/17222"
+  ],
+  "CVE-2011-1771": [
+    "http://securityreason.com/securityalert/8367"
+  ],
+  "CVE-2011-1776": [
+    "http://securityreason.com/securityalert/8369"
+  ],
+  "CVE-2011-1823": [
+    "http://forum.xda-developers.com/showthread.php?t=1044765"
+  ],
+  "CVE-2011-1829": [
+    "http://packages.debian.org/changelogs/pool/main/a/apt/current/changelog"
+  ],
+  "CVE-2011-1833": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-1838": [
+    "http://www.mavitunasecurity.com/XSS-vulnerability-in-Twiki/"
+  ],
+  "CVE-2011-1857": [
+    "http://securityreason.com/securityalert/8273"
+  ],
+  "CVE-2011-1858": [
+    "http://securityreason.com/securityalert/8273"
+  ],
+  "CVE-2011-1859": [
+    "http://securityreason.com/securityalert/8273"
+  ],
+  "CVE-2011-1860": [
+    "http://securityreason.com/securityalert/8273"
+  ],
+  "CVE-2011-1861": [
+    "http://securityreason.com/securityalert/8273"
+  ],
+  "CVE-2011-1862": [
+    "http://securityreason.com/securityalert/8273"
+  ],
+  "CVE-2011-1863": [
+    "http://securityreason.com/securityalert/8273"
+  ],
+  "CVE-2011-1865": [
+    "http://www.exploit-db.com/exploits/17490"
+  ],
+  "CVE-2011-1866": [
+    "http://www.exploit-db.com/exploits/17461"
+  ],
+  "CVE-2011-1867": [
+    "http://securityreason.com/securityalert/8302"
+  ],
+  "CVE-2011-1890": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-074"
+  ],
+  "CVE-2011-1891": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-074"
+  ],
+  "CVE-2011-1892": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-074"
+  ],
+  "CVE-2011-1893": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-074"
+  ],
+  "CVE-2011-1931": [
+    "http://securityreason.com/securityalert/8299"
+  ],
+  "CVE-2011-1937": [
+    "https://github.com/webmin/webmin/commit/46e3d3ad195dcdc1af1795c96b6e0dc778fb6881"
+  ],
+  "CVE-2011-1938": [
+    "http://securityreason.com/securityalert/8294"
+  ],
+  "CVE-2011-1939": [
+    "https://bugs.php.net/bug.php?id=47802"
+  ],
+  "CVE-2011-1944": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2015-1972971.html"
+  ],
+  "CVE-2011-1948": [
+    "http://securityreason.com/securityalert/8269"
+  ],
+  "CVE-2011-1949": [
+    "http://securityreason.com/securityalert/8269"
+  ],
+  "CVE-2011-1950": [
+    "http://securityreason.com/securityalert/8269"
+  ],
+  "CVE-2011-1952": [
+    "http://securityreason.com/securityalert/8270"
+  ],
+  "CVE-2011-1953": [
+    "http://securityreason.com/securityalert/8270"
+  ],
+  "CVE-2011-1954": [
+    "http://securityreason.com/securityalert/8270"
+  ],
+  "CVE-2011-1960": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-057"
+  ],
+  "CVE-2011-1961": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-057"
+  ],
+  "CVE-2011-1962": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-057"
+  ],
+  "CVE-2011-1963": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-057"
+  ],
+  "CVE-2011-1964": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-057"
+  ],
+  "CVE-2011-1968": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-065"
+  ],
+  "CVE-2011-1974": [
+    "https://www.exploit-db.com/exploits/40627/"
+  ],
+  "CVE-2011-1976": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-067"
+  ],
+  "CVE-2011-1982": [
+    "http://www.kb.cert.org/vuls/id/909022"
+  ],
+  "CVE-2011-1984": [
+    "http://securityreason.com/securityalert/8378"
+  ],
+  "CVE-2011-2003": [
+    "http://securityreason.com/securityalert/8473"
+  ],
+  "CVE-2011-2009": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-076"
+  ],
+  "CVE-2011-2020": [
+    "http://www.tibco.com/services/support/advisories/iprocess-advisory_20110518.jsp"
+  ],
+  "CVE-2011-2021": [
+    "http://www.tibco.com/services/support/advisories/iprocess-advisory_20110518.jsp"
+  ],
+  "CVE-2011-2023": [
+    "http://squirrelmail.svn.sourceforge.net/viewvc/squirrelmail?view=revision&revision=14121"
+  ],
+  "CVE-2011-2039": [
+    "http://securityreason.com/securityalert/8272"
+  ],
+  "CVE-2011-2074": [
+    "http://www.theregister.co.uk/2011/05/06/skype_for_mac_critical_vulnerability/"
+  ],
+  "CVE-2011-2076": [
+    "http://securityreason.com/securityalert/8245"
+  ],
+  "CVE-2011-2077": [
+    "http://securityreason.com/securityalert/8245"
+  ],
+  "CVE-2011-2078": [
+    "http://securityreason.com/securityalert/8245"
+  ],
+  "CVE-2011-2079": [
+    "http://securityreason.com/securityalert/8245"
+  ],
+  "CVE-2011-2080": [
+    "http://securityreason.com/securityalert/8245"
+  ],
+  "CVE-2011-2081": [
+    "http://securityreason.com/securityalert/8245"
+  ],
+  "CVE-2011-2089": [
+    "http://www.exploit-db.com/exploits/17240"
+  ],
+  "CVE-2011-2105": [
+    "http://www.kb.cert.org/vuls/id/264729"
+  ],
+  "CVE-2011-2122": [
+    "http://www.securityfocus.com/archive/1/518439/100/0/threaded"
+  ],
+  "CVE-2011-2131": [
+    "http://securityreason.com/securityalert/8347"
+  ],
+  "CVE-2011-2133": [
+    "http://securityreason.com/securityalert/8334"
+  ],
+  "CVE-2011-2151": [
+    "http://xss.cx/examples/exploits/stored-reflected-xss-cwe79-smarterstats624100.html"
+  ],
+  "CVE-2011-2154": [
+    "http://xss.cx/examples/exploits/stored-reflected-xss-cwe79-smarterstats624100.html"
+  ],
+  "CVE-2011-2155": [
+    "http://xss.cx/examples/exploits/stored-reflected-xss-cwe79-smarterstats624100.html"
+  ],
+  "CVE-2011-2158": [
+    "http://xss.cx/examples/exploits/stored-reflected-xss-cwe79-smarterstats624100.html"
+  ],
+  "CVE-2011-2160": [
+    "http://ffmpeg.mplayerhq.hu/"
+  ],
+  "CVE-2011-2161": [
+    "http://packetstorm.linuxsecurity.com/1103-exploits/vlc105-dos.txt"
+  ],
+  "CVE-2011-2168": [
+    "http://securityreason.com/achievement_securityalert/97"
+  ],
+  "CVE-2011-2174": [
+    "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=5908"
+  ],
+  "CVE-2011-2179": [
+    "http://securityreason.com/securityalert/8274"
+  ],
+  "CVE-2011-2189": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=711245"
+  ],
+  "CVE-2011-2193": [
+    "http://securityreason.com/securityalert/8304"
+  ],
+  "CVE-2011-2195": [
+    "https://seclists.org/bugtraq/2011/Jun/34"
+  ],
+  "CVE-2011-2198": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=712148"
+  ],
+  "CVE-2011-2201": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=712694"
+  ],
+  "CVE-2011-2207": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2011-2207"
+  ],
+  "CVE-2011-2214": [
+    "http://securityreason.com/securityalert/8265"
+  ],
+  "CVE-2011-2220": [
+    "http://securityreason.com/securityalert/8305"
+  ],
+  "CVE-2011-2230": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2231": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2232": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2237": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2238": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2239": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2240": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2241": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2242": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2243": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2244": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2245": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2246": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2248": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2249": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2250": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2251": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2252": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2253": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2255": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2257": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2258": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2259": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2260": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2261": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2262": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-2263": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2264": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2267": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2271": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-2272": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2273": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2274": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2275": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2277": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2278": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2279": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2280": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2281": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2282": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2283": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2284": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2285": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2286": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2287": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2288": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2289": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2290": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2291": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2292": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2293": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2294": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2295": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2296": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2297": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2298": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2299": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2300": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2301": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2302": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2303": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2304": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2305": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2306": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2307": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2011-313328.html"
+  ],
+  "CVE-2011-2308": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2309": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2310": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2311": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2312": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2313": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2314": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2315": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2316": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2317": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-2318": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2319": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2320": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2321": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-2322": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2323": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2324": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-2325": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-2326": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-2327": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-2330": [
+    "http://www.securityfocus.com/archive/1/518199/100/0/threaded"
+  ],
+  "CVE-2011-2357": [
+    "http://securityreason.com/securityalert/8335"
+  ],
+  "CVE-2011-2363": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=648160"
+  ],
+  "CVE-2011-2365": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=655742"
+  ],
+  "CVE-2011-2366": [
+    "https://hacks.mozilla.org/2011/06/cross-domain-webgl-textures-disabled-in-firefox-5/"
+  ],
+  "CVE-2011-2369": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=650001"
+  ],
+  "CVE-2011-2371": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=664009"
+  ],
+  "CVE-2011-2372": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=657462"
+  ],
+  "CVE-2011-2378": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=648065"
+  ],
+  "CVE-2011-2382": [
+    "https://sites.google.com/site/tentacoloviola/cookiejacking/Cookiejacking2011_final.ppt"
+  ],
+  "CVE-2011-2383": [
+    "https://sites.google.com/site/tentacoloviola/cookiejacking/Cookiejacking2011_final.ppt"
+  ],
+  "CVE-2011-2395": [
+    "http://securityreason.com/securityalert/8271"
+  ],
+  "CVE-2011-2398": [
+    "http://securityreason.com/securityalert/8303"
+  ],
+  "CVE-2011-2399": [
+    "http://securityreason.com/securityalert/8320"
+  ],
+  "CVE-2011-2402": [
+    "http://securityreason.com/securityalert/8321"
+  ],
+  "CVE-2011-2403": [
+    "http://securityreason.com/securityalert/8321"
+  ],
+  "CVE-2011-2404": [
+    "http://securityreason.com/securityalert/8332"
+  ],
+  "CVE-2011-2406": [
+    "http://securityreason.com/securityalert/8333"
+  ],
+  "CVE-2011-2407": [
+    "http://securityreason.com/securityalert/8333"
+  ],
+  "CVE-2011-2412": [
+    "http://securityreason.com/securityalert/8390"
+  ],
+  "CVE-2011-2443": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2011-5049.php"
+  ],
+  "CVE-2011-2461": [
+    "https://threatpost.com/adobe-cve-2011-2461-remains-exploitable-four-years-after-patch/111754"
+  ],
+  "CVE-2011-2467": [
+    "https://launchpadlibrarian.net/74204969/LWSA-2011-002.txt"
+  ],
+  "CVE-2011-2471": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=700883"
+  ],
+  "CVE-2011-2472": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=700883"
+  ],
+  "CVE-2011-2494": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=716842"
+  ],
+  "CVE-2011-2495": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=716825"
+  ],
+  "CVE-2011-2496": [
+    "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=982134ba62618c2d69fbbbd166d0a11ee3b7e3d8"
+  ],
+  "CVE-2011-2500": [
+    "http://sourceforge.net/projects/nfs/files/nfs-utils/1.2.4/Changelog-nfs-utils-1.2.4/download"
+  ],
+  "CVE-2011-2505": [
+    "http://securityreason.com/securityalert/8306"
+  ],
+  "CVE-2011-2506": [
+    "http://securityreason.com/securityalert/8306"
+  ],
+  "CVE-2011-2507": [
+    "http://securityreason.com/securityalert/8306"
+  ],
+  "CVE-2011-2508": [
+    "http://securityreason.com/securityalert/8306"
+  ],
+  "CVE-2011-2509": [
+    "http://yehg.net/lab/pr0js/advisories/joomla/core/%5Bjoomla_1.6.3%5D_cross_site_scripting%28XSS%29"
+  ],
+  "CVE-2011-2522": [
+    "https://bugzilla.samba.org/show_bug.cgi?id=8290"
+  ],
+  "CVE-2011-2523": [
+    "https://vigilance.fr/vulnerability/vsftpd-backdoor-in-version-2-3-4-10805"
+  ],
+  "CVE-2011-2525": [
+    "http://kerneltrap.org/mailarchive/linux-netdev/2010/5/21/6277805"
+  ],
+  "CVE-2011-2543": [
+    "http://www.exploit-db.com/exploits/17871"
+  ],
+  "CVE-2011-2544": [
+    "http://www.exploit-db.com/exploits/17871"
+  ],
+  "CVE-2011-2577": [
+    "http://www.exploit-db.com/exploits/17871"
+  ],
+  "CVE-2011-2598": [
+    "http://www.theregister.co.uk/2011/06/16/webgl_security_threats_redux/"
+  ],
+  "CVE-2011-2602": [
+    "http://www.contextis.com/resources/blog/webgl2/"
+  ],
+  "CVE-2011-2603": [
+    "http://www.contextis.com/resources/blog/webgl2/"
+  ],
+  "CVE-2011-2604": [
+    "http://www.contextis.com/resources/blog/webgl2/"
+  ],
+  "CVE-2011-2608": [
+    "http://aluigi.altervista.org/adv/ovbbccb_1-adv.txt"
+  ],
+  "CVE-2011-2643": [
+    "http://phpmyadmin.git.sourceforge.net/git/gitweb.cgi?p=phpmyadmin/phpmyadmin;a=commit;h=f63e1bb42a37401b2fdfcd2e66cce92b7ea2025c"
+  ],
+  "CVE-2011-2678": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20070815-vpnclient.shtml"
+  ],
+  "CVE-2011-2685": [
+    "http://www.kb.cert.org/vuls/id/953183"
+  ],
+  "CVE-2011-2694": [
+    "https://bugzilla.samba.org/show_bug.cgi?id=8289"
+  ],
+  "CVE-2011-2697": [
+    "http://www.openwall.com/lists/oss-security/2011/07/28/1"
+  ],
+  "CVE-2011-2698": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=723215"
+  ],
+  "CVE-2011-2699": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:150"
+  ],
+  "CVE-2011-2701": [
+    "http://securityreason.com/securityalert/8325"
+  ],
+  "CVE-2011-2702": [
+    "http://xorl.wordpress.com/2011/08/06/cve-2011-2702-eglibc-and-glibc-signedness-issue/"
+  ],
+  "CVE-2011-2707": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-2710": [
+    "http://yehg.net/lab/pr0js/advisories/joomla/core/%5Bjoomla_1.7.0-rc%5D_cross_site_scripting%28XSS%29"
+  ],
+  "CVE-2011-2716": [
+    "https://support.t-mobile.com/docs/DOC-21994"
+  ],
+  "CVE-2011-2719": [
+    "http://securityreason.com/securityalert/8322"
+  ],
+  "CVE-2011-2722": [
+    "http://www.ubuntu.com/usn/USN-1981-1"
+  ],
+  "CVE-2011-2725": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=725764"
+  ],
+  "CVE-2011-2730": [
+    "http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html"
+  ],
+  "CVE-2011-2743": [
+    "http://www.ocert.org/advisories/ocert-2011-001.html"
+  ],
+  "CVE-2011-2744": [
+    "http://www.openwall.com/lists/oss-security/2011/07/13/5"
+  ],
+  "CVE-2011-2745": [
+    "http://www.openwall.com/lists/oss-security/2011/07/13/5"
+  ],
+  "CVE-2011-2750": [
+    "http://securityreason.com/securityalert/8309"
+  ],
+  "CVE-2011-2762": [
+    "http://securityreason.com/securityalert/8364"
+  ],
+  "CVE-2011-2763": [
+    "http://securityreason.com/securityalert/8363"
+  ],
+  "CVE-2011-2764": [
+    "http://securityreason.com/securityalert/8324"
+  ],
+  "CVE-2011-2780": [
+    "http://www.openwall.com/lists/oss-security/2011/07/13/5"
+  ],
+  "CVE-2011-2837": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14139"
+  ],
+  "CVE-2011-2841": [
+    "https://www.exploit-db.com/exploits/17929/"
+  ],
+  "CVE-2011-2884": [
+    "http://www.ibm.com/software/lotus/symphony/idcontents/releasenotes/en/readme_fixpack3_standalone_long.htm"
+  ],
+  "CVE-2011-2885": [
+    "http://www.ibm.com/software/lotus/symphony/idcontents/releasenotes/en/readme_fixpack3_standalone_long.htm"
+  ],
+  "CVE-2011-2886": [
+    "http://www.ibm.com/software/lotus/symphony/idcontents/releasenotes/en/readme_fixpack3_standalone_long.htm"
+  ],
+  "CVE-2011-2887": [
+    "http://www.ibm.com/software/lotus/symphony/idcontents/releasenotes/en/readme_fixpack3_standalone_long.htm"
+  ],
+  "CVE-2011-2888": [
+    "http://www.ibm.com/software/lotus/symphony/idcontents/releasenotes/en/readme_fixpack3_standalone_long.htm"
+  ],
+  "CVE-2011-2891": [
+    "http://bl0g.yehg.net/2011/04/joomla-161-and-lower-information.html"
+  ],
+  "CVE-2011-2892": [
+    "http://bl0g.yehg.net/2011/04/joomla-161-and-lower-information.html"
+  ],
+  "CVE-2011-2893": [
+    "http://www.ibm.com/software/lotus/symphony/idcontents/releasenotes/en/readme_fixpack3_standalone_long.htm"
+  ],
+  "CVE-2011-2895": [
+    "http://www.ubuntu.com/usn/USN-1191-1"
+  ],
+  "CVE-2011-2900": [
+    "http://securityreason.com/securityalert/8337"
+  ],
+  "CVE-2011-2904": [
+    "https://support.zabbix.com/browse/ZBX-3835"
+  ],
+  "CVE-2011-2905": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-2906": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-2911": [
+    "http://ubuntu.com/usn/usn-1255-1"
+  ],
+  "CVE-2011-2912": [
+    "http://ubuntu.com/usn/usn-1255-1"
+  ],
+  "CVE-2011-2913": [
+    "http://ubuntu.com/usn/usn-1255-1"
+  ],
+  "CVE-2011-2914": [
+    "http://ubuntu.com/usn/usn-1255-1"
+  ],
+  "CVE-2011-2915": [
+    "http://ubuntu.com/usn/usn-1255-1"
+  ],
+  "CVE-2011-2917": [
+    "http://yehg.net/lab/pr0js/advisories/%5Bmambo4.6_x%5D_sql_injection"
+  ],
+  "CVE-2011-2918": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-2921": [
+    "http://packetstormsecurity.com/files/154307/ktsuss-Suid-Privilege-Escalation.html"
+  ],
+  "CVE-2011-2922": [
+    "https://packetstormsecurity.com/files/cve/CVE-2011-2922"
+  ],
+  "CVE-2011-2928": [
+    "http://securityreason.com/securityalert/8360"
+  ],
+  "CVE-2011-2934": [
+    "https://www.openwall.com/lists/oss-security/2011/08/19/13"
+  ],
+  "CVE-2011-2935": [
+    "https://oss-security.openwall.narkive.com/1UH3NYx8/cve-request-elgg-1-7-10-multiple-vulnerabilities"
+  ],
+  "CVE-2011-2936": [
+    "https://oss-security.openwall.narkive.com/1UH3NYx8/cve-request-elgg-1-7-10-multiple-vulnerabilities"
+  ],
+  "CVE-2011-2938": [
+    "http://securityreason.com/securityalert/8391"
+  ],
+  "CVE-2011-2944": [
+    "http://packetstormsecurity.org/files/110166/The-Uploader-2.0.4-Eng-Ita-Remote-File-Upload.html"
+  ],
+  "CVE-2011-2964": [
+    "http://www.openwall.com/lists/oss-security/2011/07/28/1"
+  ],
+  "CVE-2011-2987": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=665934"
+  ],
+  "CVE-2011-2988": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=665936"
+  ],
+  "CVE-2011-2989": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=674042"
+  ],
+  "CVE-2011-3001": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=672485"
+  ],
+  "CVE-2011-3003": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=682335"
+  ],
+  "CVE-2011-3004": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14121"
+  ],
+  "CVE-2011-3006": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10016"
+  ],
+  "CVE-2011-3007": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10016"
+  ],
+  "CVE-2011-3010": [
+    "http://www.mavitunasecurity.com/xss-vulnerability-in-twiki5"
+  ],
+  "CVE-2011-3011": [
+    "http://securityreason.com/securityalert/8338"
+  ],
+  "CVE-2011-3012": [
+    "http://securityreason.com/securityalert/8324"
+  ],
+  "CVE-2011-3038": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A15106"
+  ],
+  "CVE-2011-3046": [
+    "https://plus.google.com/u/0/116651741222993143554/posts/5Eq5d9XgFqs"
+  ],
+  "CVE-2011-3048": [
+    "http://ubuntu.com/usn/usn-1417-1"
+  ],
+  "CVE-2011-3079": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=1087565"
+  ],
+  "CVE-2011-3132": [
+    "http://www.tibco.com/services/support/advisories/default.jsp"
+  ],
+  "CVE-2011-3133": [
+    "http://www.tibco.com/services/support/advisories/default.jsp"
+  ],
+  "CVE-2011-3134": [
+    "http://www.tibco.com/services/support/advisories/default.jsp"
+  ],
+  "CVE-2011-3140": [
+    "http://securityreason.com/securityalert/8339"
+  ],
+  "CVE-2011-3143": [
+    "http://www.digitalbond.com/scadapedia/vulnerability-notes/heap-overflow-vulnerability/"
+  ],
+  "CVE-2011-3144": [
+    "http://www.digitalbond.com/scadapedia/vulnerability-notes/control-microsystems-cross-site-scripting-vulnerability/"
+  ],
+  "CVE-2011-3152": [
+    "http://www.ubuntu.com/usn/USN-1284-1"
+  ],
+  "CVE-2011-3154": [
+    "http://www.ubuntu.com/usn/USN-1284-1"
+  ],
+  "CVE-2011-3182": [
+    "http://securityreason.com/achievement_securityalert/101"
+  ],
+  "CVE-2011-3183": [
+    "https://www.openwall.com/lists/oss-security/2011/08/22/11"
+  ],
+  "CVE-2011-3187": [
+    "http://webservsec.blogspot.com/2011/02/ruby-on-rails-vulnerability.html"
+  ],
+  "CVE-2011-3188": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-3190": [
+    "http://securityreason.com/securityalert/8362"
+  ],
+  "CVE-2011-3191": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-3192": [
+    "https://help.ecostruxureit.com/display/public/UADCE725/Security+fixes+in+StruxureWare+Data+Center+Expert+v7.6.0"
+  ],
+  "CVE-2011-3201": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinjan2015-2370101.html"
+  ],
+  "CVE-2011-3202": [
+    "https://www.openwall.com/lists/oss-security/2011/08/30/5"
+  ],
+  "CVE-2011-3203": [
+    "https://www.openwall.com/lists/oss-security/2011/08/30/6"
+  ],
+  "CVE-2011-3250": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A15825"
+  ],
+  "CVE-2011-3274": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d52.shtml"
+  ],
+  "CVE-2011-3282": [
+    "http://www.cisco.com/en/US/products/products_security_advisory09186a0080b95d52.shtml"
+  ],
+  "CVE-2011-3296": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20111005-fwsm.shtml"
+  ],
+  "CVE-2011-3297": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20111005-fwsm.shtml"
+  ],
+  "CVE-2011-3298": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20111005-fwsm.shtml"
+  ],
+  "CVE-2011-3299": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20111005-fwsm.shtml"
+  ],
+  "CVE-2011-3300": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20111005-fwsm.shtml"
+  ],
+  "CVE-2011-3301": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20111005-fwsm.shtml"
+  ],
+  "CVE-2011-3302": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20111005-fwsm.shtml"
+  ],
+  "CVE-2011-3303": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20111005-fwsm.shtml"
+  ],
+  "CVE-2011-3304": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20111005-asa.shtml"
+  ],
+  "CVE-2011-3305": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20111005-nac.shtml"
+  ],
+  "CVE-2011-3322": [
+    "http://www.exploit-db.com/exploits/17827"
+  ],
+  "CVE-2011-3332": [
+    "http://www.kb.cert.org/vuls/id/225833"
+  ],
+  "CVE-2011-3336": [
+    "https://cxsecurity.com/issue/WLB-2011110082"
+  ],
+  "CVE-2011-3340": [
+    "http://census-labs.com/news/2011/10/03/netvolution-referer-SQLi/"
+  ],
+  "CVE-2011-3348": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2011-3352": [
+    "https://www.immuniweb.com/advisory/HTB23039"
+  ],
+  "CVE-2011-3353": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-3356": [
+    "http://www.mantisbt.org/bugs/view.php?id=13281"
+  ],
+  "CVE-2011-3357": [
+    "http://www.mantisbt.org/bugs/view.php?id=13281"
+  ],
+  "CVE-2011-3358": [
+    "http://securityreason.com/securityalert/8392"
+  ],
+  "CVE-2011-3362": [
+    "http://www.ffmpeg.org/releases/ffmpeg-0.8.4.changelog"
+  ],
+  "CVE-2011-3368": [
+    "http://www.oracle.com/technetwork/topics/security/cpujul2012-392727.html"
+  ],
+  "CVE-2011-3386": [
+    "http://www.scmagazineus.com/black-hat-insulin-pumps-can-be-hacked/article/209106/"
+  ],
+  "CVE-2011-3389": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2012/ms12-006"
+  ],
+  "CVE-2011-3390": [
+    "http://voidroot.blogspot.com/2011/08/xss-in-ibm-open-admin-tool.html"
+  ],
+  "CVE-2011-3393": [
+    "http://securityreason.com/securityalert/8376"
+  ],
+  "CVE-2011-3394": [
+    "http://securityreason.com/securityalert/8376"
+  ],
+  "CVE-2011-3402": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-087"
+  ],
+  "CVE-2011-3410": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-091"
+  ],
+  "CVE-2011-3411": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-091"
+  ],
+  "CVE-2011-3412": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2011/ms11-091"
+  ],
+  "CVE-2011-3414": [
+    "http://www.ocert.org/advisories/ocert-2011-003.html"
+  ],
+  "CVE-2011-3423": [
+    "http://www.tibco.com/services/support/advisories/mft-slingshot-advisory_20110913.jsp"
+  ],
+  "CVE-2011-3424": [
+    "http://www.tibco.com/services/support/advisories/mft-slingshot-advisory_20110913.jsp"
+  ],
+  "CVE-2011-3478": [
+    "https://www.exploit-db.com/exploits/38599/"
+  ],
+  "CVE-2011-3487": [
+    "https://www.exploit-db.com/exploits/42706/"
+  ],
+  "CVE-2011-3488": [
+    "http://aluigi.altervista.org/adv/metastock_1-adv.txt"
+  ],
+  "CVE-2011-3489": [
+    "http://securityreason.com/securityalert/8383"
+  ],
+  "CVE-2011-3490": [
+    "http://www.exploit-db.com/exploits/17848"
+  ],
+  "CVE-2011-3491": [
+    "http://aluigi.altervista.org/adv/movicon_1-adv.txt"
+  ],
+  "CVE-2011-3492": [
+    "http://www.exploit-db.com/exploits/17855"
+  ],
+  "CVE-2011-3493": [
+    "http://aluigi.altervista.org/adv/cogent_1-adv.txt"
+  ],
+  "CVE-2011-3494": [
+    "http://aluigi.altervista.org/adv/esignal_1-adv.txt"
+  ],
+  "CVE-2011-3495": [
+    "http://securityreason.com/securityalert/8382"
+  ],
+  "CVE-2011-3496": [
+    "http://www.exploit-db.com/exploits/17848"
+  ],
+  "CVE-2011-3497": [
+    "http://securityreason.com/securityalert/8382"
+  ],
+  "CVE-2011-3498": [
+    "http://aluigi.altervista.org/adv/movicon_1-adv.txt"
+  ],
+  "CVE-2011-3499": [
+    "http://aluigi.altervista.org/adv/movicon_3-adv.txt"
+  ],
+  "CVE-2011-3501": [
+    "http://aluigi.altervista.org/adv/cogent_3-adv.txt"
+  ],
+  "CVE-2011-3504": [
+    "http://www.ffmpeg.org/releases/ffmpeg-0.8.4.changelog"
+  ],
+  "CVE-2011-3506": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3507": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3508": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3509": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3510": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3511": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3512": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3513": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3514": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3515": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3516": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3517": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3518": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3519": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3520": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3521": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3522": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3523": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3524": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3525": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3526": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3527": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3528": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3529": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3530": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3531": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3532": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3533": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3534": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3535": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3536": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3537": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3538": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3539": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3541": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3542": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3543": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3544": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3545": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3546": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3547": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3548": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3549": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3550": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3551": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3552": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3553": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3554": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3555": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3556": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3557": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3558": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3559": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2011-330135.html"
+  ],
+  "CVE-2011-3560": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3561": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html"
+  ],
+  "CVE-2011-3562": [
+    "http://www.oracle.com/technetwork/topics/security/cpujul2012-392727.html"
+  ],
+  "CVE-2011-3563": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html"
+  ],
+  "CVE-2011-3564": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3565": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3566": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3568": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3569": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3570": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3571": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3573": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3574": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-3578": [
+    "http://www.mantisbt.org/bugs/view.php?id=13281"
+  ],
+  "CVE-2011-3579": [
+    "http://securityreason.com/securityalert/8404"
+  ],
+  "CVE-2011-3580": [
+    "http://securityreason.com/securityalert/8404"
+  ],
+  "CVE-2011-3582": [
+    "https://www.openwall.com/lists/oss-security/2011/09/30/3"
+  ],
+  "CVE-2011-3595": [
+    "https://www.openwall.com/lists/oss-security/2011/10/04/7"
+  ],
+  "CVE-2011-3596": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2011-3596"
+  ],
+  "CVE-2011-3607": [
+    "http://www.oracle.com/technetwork/topics/security/cpujul2012-392727.html"
+  ],
+  "CVE-2011-3609": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2011-3609"
+  ],
+  "CVE-2011-3610": [
+    "https://packetstormsecurity.com/files/105054/Secunia-Security-Advisory-46005.html"
+  ],
+  "CVE-2011-3611": [
+    "https://www.immuniweb.com/advisory/HTB22913"
+  ],
+  "CVE-2011-3612": [
+    "https://www.immuniweb.com/advisory/HTB22913"
+  ],
+  "CVE-2011-3613": [
+    "https://packetstormsecurity.com/files/105853/Secunia-Security-Advisory-46387.html"
+  ],
+  "CVE-2011-3614": [
+    "https://packetstormsecurity.com/files/105853/Secunia-Security-Advisory-46387.html"
+  ],
+  "CVE-2011-3640": [
+    "http://blog.acrossecurity.com/2011/10/google-chrome-pkcs11txt-file-planting.html"
+  ],
+  "CVE-2011-3645": [
+    "http://securityreason.com/securityalert/8394"
+  ],
+  "CVE-2011-3648": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=690225"
+  ],
+  "CVE-2011-3657": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=697699"
+  ],
+  "CVE-2011-3658": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=708186"
+  ],
+  "CVE-2011-3659": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=708198"
+  ],
+  "CVE-2011-3663": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=704482"
+  ],
+  "CVE-2011-3668": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=703975"
+  ],
+  "CVE-2011-3669": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=703983"
+  ],
+  "CVE-2011-3671": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=739343"
+  ],
+  "CVE-2011-3713": [
+    "http://packetstormsecurity.com/files/129666"
+  ],
+  "CVE-2011-3829": [
+    "http://packetstormsecurity.org/files/106933/sit_file_upload.rb.txt"
+  ],
+  "CVE-2011-3833": [
+    "http://packetstormsecurity.org/files/106933/sit_file_upload.rb.txt"
+  ],
+  "CVE-2011-3848": [
+    "https://puppet.com/security/cve/cve-2011-3848"
+  ],
+  "CVE-2011-3869": [
+    "https://puppet.com/security/cve/cve-2011-3869"
+  ],
+  "CVE-2011-3870": [
+    "https://puppet.com/security/cve/cve-2011-3870"
+  ],
+  "CVE-2011-3871": [
+    "https://puppet.com/security/cve/cve-2011-3871"
+  ],
+  "CVE-2011-3872": [
+    "https://puppet.com/security/cve/cve-2011-3872"
+  ],
+  "CVE-2011-3881": [
+    "http://www.rafayhackingarticles.net/2014/10/a-tale-of-another-sop-bypass-in-android.html"
+  ],
+  "CVE-2011-3901": [
+    "https://seclists.org/fulldisclosure/2012/May/19"
+  ],
+  "CVE-2011-3923": [
+    "http://www.exploit-db.com/exploits/24874"
+  ],
+  "CVE-2011-3929": [
+    "http://ffmpeg.org/"
+  ],
+  "CVE-2011-3936": [
+    "http://ffmpeg.org/"
+  ],
+  "CVE-2011-3937": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2011-3940": [
+    "http://ffmpeg.org/"
+  ],
+  "CVE-2011-3945": [
+    "http://ffmpeg.org/"
+  ],
+  "CVE-2011-3947": [
+    "http://ffmpeg.org/"
+  ],
+  "CVE-2011-3951": [
+    "http://ffmpeg.org/"
+  ],
+  "CVE-2011-3952": [
+    "http://ffmpeg.org/"
+  ],
+  "CVE-2011-3973": [
+    "http://www.ffmpeg.org/releases/ffmpeg-0.8.4.changelog"
+  ],
+  "CVE-2011-3974": [
+    "http://www.ffmpeg.org/releases/ffmpeg-0.8.4.changelog"
+  ],
+  "CVE-2011-3975": [
+    "http://www.androidpolice.com/2011/10/01/massive-security-vulnerability-in-htc-android-devices-evo-3d-4g-thunderbolt-others-exposes-phone-numbers-gps-sms-emails-addresses-much-more/"
+  ],
+  "CVE-2011-3976": [
+    "http://www.exploit-db.com/exploits/17876"
+  ],
+  "CVE-2011-3979": [
+    "http://securityreason.com/securityalert/8409"
+  ],
+  "CVE-2011-3981": [
+    "http://www.exploit-db.com/exploits/17861"
+  ],
+  "CVE-2011-3988": [
+    "http://www.ec-cube.net/release/detail.php?release_id=286"
+  ],
+  "CVE-2011-4024": [
+    "http://www.exploit-db.com/exploits/18005"
+  ],
+  "CVE-2011-4031": [
+    "http://technet.microsoft.com/en-us/security/msvr/msvr11-012"
+  ],
+  "CVE-2011-4040": [
+    "http://www.kb.cert.org/vuls/id/819630"
+  ],
+  "CVE-2011-4060": [
+    "http://www.nth-dimension.org.uk/pub/NDSA20110310.txt.asc"
+  ],
+  "CVE-2011-4061": [
+    "http://securityreason.com/securityalert/8476"
+  ],
+  "CVE-2011-4062": [
+    "http://www.exploit-db.com/exploits/17908"
+  ],
+  "CVE-2011-4066": [
+    "http://www.exploit-db.com/exploits/17992"
+  ],
+  "CVE-2011-4075": [
+    "http://www.exploit-db.com/exploits/18021/"
+  ],
+  "CVE-2011-4081": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-4089": [
+    "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=632862"
+  ],
+  "CVE-2011-4091": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinapr2015-2511959.html"
+  ],
+  "CVE-2011-4093": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinapr2015-2511959.html"
+  ],
+  "CVE-2011-4094": [
+    "https://www.exploit-db.com/exploits/18020"
+  ],
+  "CVE-2011-4106": [
+    "http://www.exploit-db.com/exploits/17872"
+  ],
+  "CVE-2011-4107": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=751112"
+  ],
+  "CVE-2011-4112": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-4122": [
+    "http://stealth.openwall.net/xSports/pamslam"
+  ],
+  "CVE-2011-4124": [
+    "https://lwn.net/Articles/464824/"
+  ],
+  "CVE-2011-4125": [
+    "https://lwn.net/Articles/464824/"
+  ],
+  "CVE-2011-4126": [
+    "https://lwn.net/Articles/464824/"
+  ],
+  "CVE-2011-4131": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=747106"
+  ],
+  "CVE-2011-4151": [
+    "http://web.mit.edu/kerberos/advisories/MITKRB5-SA-2011-006.txt"
+  ],
+  "CVE-2011-4153": [
+    "http://www.exploit-db.com/exploits/18370/"
+  ],
+  "CVE-2011-4161": [
+    "http://isc.sans.org/diary/Hacking+HP+Printers+for+Fun+and+Profit/12112"
+  ],
+  "CVE-2011-4231": [
+    "http://www.cisco.com/en/US/docs/ios/ios_xe/3/release/notes/asr1k_caveats_34s.html"
+  ],
+  "CVE-2011-4293": [
+    "http://moodle.org/mod/forum/discuss.php?d=182736"
+  ],
+  "CVE-2011-4314": [
+    "http://openid.net/2011/05/05/attribute-exchange-security-alert/"
+  ],
+  "CVE-2011-4317": [
+    "https://community.qualys.com/blogs/securitylabs/2011/11/23/apache-reverse-proxy-bypass-issue"
+  ],
+  "CVE-2011-4324": [
+    "https://github.com/torvalds/linux/commit/dc0b027dfadfcb8a5504f7d8052754bf8d501ab9"
+  ],
+  "CVE-2011-4336": [
+    "https://seclists.org/bugtraq/2011/Nov/140"
+  ],
+  "CVE-2011-4337": [
+    "http://www.openwall.com/lists/oss-security/2011/11/22/3"
+  ],
+  "CVE-2011-4339": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2011-4340": [
+    "http://www.mavitunasecurity.com/xss-and-sql-injection-vulnerabilities-in-symphony-cms/"
+  ],
+  "CVE-2011-4341": [
+    "http://www.mavitunasecurity.com/xss-and-sql-injection-vulnerabilities-in-symphony-cms/"
+  ],
+  "CVE-2011-4342": [
+    "http://www.openwall.com/lists/oss-security/2011/11/22/7"
+  ],
+  "CVE-2011-4344": [
+    "http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2011-11-08.cb"
+  ],
+  "CVE-2011-4345": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05390722"
+  ],
+  "CVE-2011-4348": [
+    "http://www.openwall.com/lists/oss-security/2012/03/05/2"
+  ],
+  "CVE-2011-4349": [
+    "http://www.openwall.com/lists/oss-security/2011/11/25/4"
+  ],
+  "CVE-2011-4350": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2011-4350"
+  ],
+  "CVE-2011-4352": [
+    "http://ubuntu.com/usn/usn-1333-1"
+  ],
+  "CVE-2011-4353": [
+    "http://ubuntu.com/usn/usn-1333-1"
+  ],
+  "CVE-2011-4354": [
+    "http://openwall.com/lists/oss-security/2011/12/01/6"
+  ],
+  "CVE-2011-4357": [
+    "http://tech.groups.yahoo.com/group/ClearSilver/message/1422"
+  ],
+  "CVE-2011-4358": [
+    "http://www.oracle.com/technetwork/topics/security/cpujul2012-392727.html"
+  ],
+  "CVE-2011-4360": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=758171"
+  ],
+  "CVE-2011-4361": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=758171"
+  ],
+  "CVE-2011-4362": [
+    "http://www.exploit-db.com/exploits/18295"
+  ],
+  "CVE-2011-4364": [
+    "http://ubuntu.com/usn/usn-1333-1"
+  ],
+  "CVE-2011-4403": [
+    "http://seclists.org/fulldisclosure/2012/Feb/171"
+  ],
+  "CVE-2011-4415": [
+    "http://www.halfdog.net/Security/2011/ApacheModSetEnvIfIntegerOverflow/DemoExploit.html"
+  ],
+  "CVE-2011-4431": [
+    "http://securityreason.com/securityalert/8530"
+  ],
+  "CVE-2011-4432": [
+    "http://securityreason.com/securityalert/8530"
+  ],
+  "CVE-2011-4453": [
+    "http://www.exploit-db.com/exploits/18149/"
+  ],
+  "CVE-2011-4454": [
+    "https://packetstormsecurity.com/files/107082/Tiki-Wiki-CMS-Groupware-Cross-Site-Scripting.html"
+  ],
+  "CVE-2011-4455": [
+    "https://packetstormsecurity.com/files/107082/Tiki-Wiki-CMS-Groupware-Cross-Site-Scripting.html"
+  ],
+  "CVE-2011-4457": [
+    "http://code.google.com/p/owasp-java-html-sanitizer/wiki/CVE20114457"
+  ],
+  "CVE-2011-4461": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2015-1972971.html"
+  ],
+  "CVE-2011-4462": [
+    "http://www.ocert.org/advisories/ocert-2011-003.html"
+  ],
+  "CVE-2011-4499": [
+    "http://www.kb.cert.org/vuls/id/357851"
+  ],
+  "CVE-2011-4500": [
+    "http://www.kb.cert.org/vuls/id/357851"
+  ],
+  "CVE-2011-4501": [
+    "http://www.kb.cert.org/vuls/id/357851"
+  ],
+  "CVE-2011-4502": [
+    "http://www.kb.cert.org/vuls/id/357851"
+  ],
+  "CVE-2011-4503": [
+    "http://www.kb.cert.org/vuls/id/357851"
+  ],
+  "CVE-2011-4504": [
+    "http://www.kb.cert.org/vuls/id/357851"
+  ],
+  "CVE-2011-4505": [
+    "http://www.kb.cert.org/vuls/id/357851"
+  ],
+  "CVE-2011-4506": [
+    "http://www.kb.cert.org/vuls/id/357851"
+  ],
+  "CVE-2011-4516": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-4517": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html"
+  ],
+  "CVE-2011-4529": [
+    "http://aluigi.altervista.org/adv/almsrvx_1-adv.txt"
+  ],
+  "CVE-2011-4530": [
+    "http://aluigi.altervista.org/adv/almsrvx_1-adv.txt"
+  ],
+  "CVE-2011-4531": [
+    "http://aluigi.altervista.org/adv/almsrvx_1-adv.txt"
+  ],
+  "CVE-2011-4532": [
+    "http://aluigi.altervista.org/adv/almsrvx_1-adv.txt"
+  ],
+  "CVE-2011-4558": [
+    "https://packetstormsecurity.com/files/108111/Tiki-Wiki-CMS-Groupware-8.2-Code-Injection.html"
+  ],
+  "CVE-2011-4559": [
+    "http://yehg.net/lab/pr0js/advisories/%5BvTiger_5.2.1%5D_blind_sqlin"
+  ],
+  "CVE-2011-4566": [
+    "http://www.redhat.com/support/errata/RHSA-2012-0019.html"
+  ],
+  "CVE-2011-4579": [
+    "http://ubuntu.com/usn/usn-1333-1"
+  ],
+  "CVE-2011-4582": [
+    "http://moodle.org/mod/forum/discuss.php?d=191748"
+  ],
+  "CVE-2011-4591": [
+    "http://moodle.org/mod/forum/discuss.php?d=191760"
+  ],
+  "CVE-2011-4592": [
+    "http://moodle.org/mod/forum/discuss.php?d=191761"
+  ],
+  "CVE-2011-4594": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.1"
+  ],
+  "CVE-2011-4599": [
+    "http://bugs.icu-project.org/trac/ticket/8984"
+  ],
+  "CVE-2011-4613": [
+    "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=652249"
+  ],
+  "CVE-2011-4623": [
+    "http://rsyslog.com/changelog-for-6-1-4-devel/"
+  ],
+  "CVE-2011-4642": [
+    "http://www.splunk.com/view/SP-CAAAGMM"
+  ],
+  "CVE-2011-4643": [
+    "http://www.splunk.com/view/SP-CAAAGMM"
+  ],
+  "CVE-2011-4650": [
+    "https://icisystem.blogspot.com/2015/09/cisco-notification-alert-prime-dcnm-01.html"
+  ],
+  "CVE-2011-4670": [
+    "https://www.exploit-db.com/exploits/36204/"
+  ],
+  "CVE-2011-4671": [
+    "http://www.exploit-db.com/exploits/18114"
+  ],
+  "CVE-2011-4672": [
+    "http://www.exploit-db.com/exploits/18128"
+  ],
+  "CVE-2011-4674": [
+    "https://support.zabbix.com/browse/ZBX-4385"
+  ],
+  "CVE-2011-4709": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2011-5057.php"
+  ],
+  "CVE-2011-4713": [
+    "http://www.exploit-db.com/exploits/18099"
+  ],
+  "CVE-2011-4722": [
+    "http://www.exploit-db.com/exploits/18189/"
+  ],
+  "CVE-2011-4725": [
+    "http://xss.cx/examples/plesk-reports/plesk-redhat-el6-psa-10.2.0-build-1011110331.18-xss-sqli-cwe79-cwe89-javascript-injection-exception-example-poc-report-paros-burp-suite-pro-1.4.1.html"
+  ],
+  "CVE-2011-4726": [
+    "http://xss.cx/examples/plesk-reports/plesk-redhat-el6-psa-10.2.0-build-1011110331.18-xss-sqli-cwe79-cwe89-javascript-injection-exception-example-poc-report-paros-burp-suite-pro-1.4.1.html"
+  ],
+  "CVE-2011-4727": [
+    "http://xss.cx/examples/plesk-reports/plesk-redhat-el6-psa-10.2.0-build-1011110331.18-xss-sqli-cwe79-cwe89-javascript-injection-exception-example-poc-report-paros-burp-suite-pro-1.4.1.html"
+  ],
+  "CVE-2011-4728": [
+    "http://xss.cx/examples/plesk-reports/plesk-redhat-el6-psa-10.2.0-build-1011110331.18-xss-sqli-cwe79-cwe89-javascript-injection-exception-example-poc-report-paros-burp-suite-pro-1.4.1.html"
+  ],
+  "CVE-2011-4729": [
+    "http://xss.cx/examples/plesk-reports/plesk-redhat-el6-psa-10.2.0-build-1011110331.18-xss-sqli-cwe79-cwe89-javascript-injection-exception-example-poc-report-paros-burp-suite-pro-1.4.1.html"
+  ],
+  "CVE-2011-4730": [
+    "http://xss.cx/examples/plesk-reports/plesk-redhat-el6-psa-10.2.0-build-1011110331.18-xss-sqli-cwe79-cwe89-javascript-injection-exception-example-poc-report-paros-burp-suite-pro-1.4.1.html"
+  ],
+  "CVE-2011-4731": [
+    "http://xss.cx/examples/plesk-reports/plesk-redhat-el6-psa-10.2.0-build-1011110331.18-xss-sqli-cwe79-cwe89-javascript-injection-exception-example-poc-report-paros-burp-suite-pro-1.4.1.html"
+  ],
+  "CVE-2011-4732": [
+    "http://xss.cx/examples/plesk-reports/plesk-redhat-el6-psa-10.2.0-build-1011110331.18-xss-sqli-cwe79-cwe89-javascript-injection-exception-example-poc-report-paros-burp-suite-pro-1.4.1.html"
+  ],
+  "CVE-2011-4733": [
+    "http://xss.cx/examples/plesk-reports/plesk-redhat-el6-psa-10.2.0-build-1011110331.18-xss-sqli-cwe79-cwe89-javascript-injection-exception-example-poc-report-paros-burp-suite-pro-1.4.1.html"
+  ],
+  "CVE-2011-4734": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4735": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4736": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4737": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4738": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4739": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4740": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4741": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4742": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4743": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4744": [
+    "http://xss.cx/examples/plesk-reports/xss-reflected-cross-site-scripting-cwe79-capec86-plesk-parallels-control-panel-version-20110407.20.html"
+  ],
+  "CVE-2011-4745": [
+    "http://xss.cx/examples/plesk-reports/plesk-parallels-controlpanel-psa.v.10.3.1_build1013110726.09%20os_redhat.el6-billing-system-plugin-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4746": [
+    "http://xss.cx/examples/plesk-reports/plesk-parallels-controlpanel-psa.v.10.3.1_build1013110726.09%20os_redhat.el6-billing-system-plugin-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4747": [
+    "http://xss.cx/examples/plesk-reports/plesk-parallels-controlpanel-psa.v.10.3.1_build1013110726.09%20os_redhat.el6-billing-system-plugin-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4748": [
+    "http://xss.cx/examples/plesk-reports/plesk-parallels-controlpanel-psa.v.10.3.1_build1013110726.09%20os_redhat.el6-billing-system-plugin-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4749": [
+    "http://xss.cx/examples/plesk-reports/plesk-parallels-controlpanel-psa.v.10.3.1_build1013110726.09%20os_redhat.el6-billing-system-plugin-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4750": [
+    "http://xss.cx/examples/exploits/stored-reflected-xss-cwe79-smarterstats624100.html"
+  ],
+  "CVE-2011-4751": [
+    "http://xss.cx/examples/exploits/stored-reflected-xss-cwe79-smarterstats624100.html"
+  ],
+  "CVE-2011-4752": [
+    "http://xss.cx/examples/exploits/stored-reflected-xss-cwe79-smarterstats624100.html"
+  ],
+  "CVE-2011-4753": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0.html"
+  ],
+  "CVE-2011-4754": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0.html"
+  ],
+  "CVE-2011-4755": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0.html"
+  ],
+  "CVE-2011-4756": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0.html"
+  ],
+  "CVE-2011-4757": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0.html"
+  ],
+  "CVE-2011-4758": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0.html"
+  ],
+  "CVE-2011-4759": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0.html"
+  ],
+  "CVE-2011-4760": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0.html"
+  ],
+  "CVE-2011-4761": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0.html"
+  ],
+  "CVE-2011-4762": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0.html"
+  ],
+  "CVE-2011-4763": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0-site-editor.html"
+  ],
+  "CVE-2011-4764": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0-site-editor.html"
+  ],
+  "CVE-2011-4765": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0-site-editor.html"
+  ],
+  "CVE-2011-4766": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0-site-editor.html"
+  ],
+  "CVE-2011-4767": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0-site-editor.html"
+  ],
+  "CVE-2011-4768": [
+    "http://xss.cx/examples/plesk-reports/plesk-10.2.0-site-editor.html"
+  ],
+  "CVE-2011-4776": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4777": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4778": [
+    "http://www.splunk.com/view/SP-CAAAGMM"
+  ],
+  "CVE-2011-4801": [
+    "http://www.exploit-db.com/exploits/18117"
+  ],
+  "CVE-2011-4806": [
+    "http://www.exploit-db.com/exploits/18045"
+  ],
+  "CVE-2011-4807": [
+    "http://www.exploit-db.com/exploits/18045"
+  ],
+  "CVE-2011-4815": [
+    "http://www.ocert.org/advisories/ocert-2011-003.html"
+  ],
+  "CVE-2011-4832": [
+    "http://www.exploit-db.com/exploits/18066"
+  ],
+  "CVE-2011-4834": [
+    "http://0a29.blogspot.com/2011/12/0a29-11-2-privilege-escalation.html"
+  ],
+  "CVE-2011-4838": [
+    "http://www.ocert.org/advisories/ocert-2011-003.html"
+  ],
+  "CVE-2011-4847": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4848": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4849": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4850": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4851": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4852": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4853": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4854": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4855": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4856": [
+    "http://xss.cx/kb/parallels/xss-parallelspleskpanel.v10.4.4_build20111103.18-os_windows-2003-2008-reflected-cross-site-scripting-cwe79-capec86-javascript-injection-example-poc-report.html"
+  ],
+  "CVE-2011-4858": [
+    "https://github.com/FireFart/HashCollision-DOS-POC/blob/master/HashtablePOC.py"
+  ],
+  "CVE-2011-4873": [
+    "http://aluigi.altervista.org/adv/atvise_1-adv.txt"
+  ],
+  "CVE-2011-4885": [
+    "https://github.com/FireFart/HashCollision-DOS-POC/blob/master/HashtablePOC.py"
+  ],
+  "CVE-2011-4898": [
+    "http://www.exploit-db.com/exploits/18417"
+  ],
+  "CVE-2011-4899": [
+    "http://www.exploit-db.com/exploits/18417"
+  ],
+  "CVE-2011-4905": [
+    "https://issues.apache.org/jira/browse/AMQ-3294"
+  ],
+  "CVE-2011-4906": [
+    "https://www.exploit-db.com/exploits/10183"
+  ],
+  "CVE-2011-4908": [
+    "https://www.exploit-db.com/exploits/9926"
+  ],
+  "CVE-2011-4915": [
+    "https://vigilance.fr/vulnerability/Linux-kernel-information-disclosure-about-keyboard-11131"
+  ],
+  "CVE-2011-4916": [
+    "https://lkml.org/lkml/2011/11/7/355"
+  ],
+  "CVE-2011-4917": [
+    "https://lkml.org/lkml/2011/11/7/340"
+  ],
+  "CVE-2011-4938": [
+    "https://seclists.org/bugtraq/2011/Dec/7"
+  ],
+  "CVE-2011-4940": [
+    "http://www.ubuntu.com/usn/USN-1613-2"
+  ],
+  "CVE-2011-4942": [
+    "http://yehg.net/lab/pr0js/advisories/%5Bgeeklog1.7.1%5D_cross_site_scripting"
+  ],
+  "CVE-2011-4944": [
+    "http://www.ubuntu.com/usn/USN-1616-1"
+  ],
+  "CVE-2011-4946": [
+    "http://www.openwall.com/lists/oss-security/2012/03/29/3"
+  ],
+  "CVE-2011-4947": [
+    "http://www.openwall.com/lists/oss-security/2012/03/29/3"
+  ],
+  "CVE-2011-4948": [
+    "http://packetstormsecurity.org/files/101676/eGroupware-1.8.001.20110421-Local-File-Inclusion.html"
+  ],
+  "CVE-2011-4949": [
+    "http://packetstormsecurity.org/files/100179/eGroupware-1.8.001-SQL-Injection.html"
+  ],
+  "CVE-2011-4950": [
+    "http://packetstormsecurity.org/files/100180/eGroupware-1.8.001-Cross-Site-Scripting.html"
+  ],
+  "CVE-2011-4951": [
+    "http://packetstormsecurity.org/files/101675/eGroupware-1.8.001.20110421-Open-Redirect.html"
+  ],
+  "CVE-2011-4966": [
+    "https://github.com/alandekok/freeradius-server/commit/1b1ec5ce75e224bd1755650c18ccdaa6dc53e605"
+  ],
+  "CVE-2011-4969": [
+    "http://bugs.jquery.com/ticket/9521"
+  ],
+  "CVE-2011-4970": [
+    "http://www.openwall.com/lists/oss-security/2013/03/10/1"
+  ],
+  "CVE-2011-4971": [
+    "http://insecurety.net/?p=872"
+  ],
+  "CVE-2011-5004": [
+    "http://www.vulnerability-lab.com/get_content.php?id=342"
+  ],
+  "CVE-2011-5012": [
+    "http://www.exploit-db.com/exploits/18119"
+  ],
+  "CVE-2011-5018": [
+    "http://www.cloudscan.me/2011/12/cve-2011-5018-koala-framework-xss.html"
+  ],
+  "CVE-2011-5020": [
+    "http://www.cloudscan.me/2012/02/cve-2011-5020-online-tv-database-sql.html"
+  ],
+  "CVE-2011-5033": [
+    "http://www.exploit-db.com/exploits/18225"
+  ],
+  "CVE-2011-5034": [
+    "https://github.com/FireFart/HashCollision-DOS-POC/blob/master/HashtablePOC.py"
+  ],
+  "CVE-2011-5035": [
+    "https://github.com/FireFart/HashCollision-DOS-POC/blob/master/HashtablePOC.py"
+  ],
+  "CVE-2011-5036": [
+    "http://www.ocert.org/advisories/ocert-2011-003.html"
+  ],
+  "CVE-2011-5037": [
+    "http://www.ocert.org/advisories/ocert-2011-003.html"
+  ],
+  "CVE-2011-5039": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2011-5065.php"
+  ],
+  "CVE-2011-5040": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2011-5064.php"
+  ],
+  "CVE-2011-5044": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2011-5062.php"
+  ],
+  "CVE-2011-5046": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2012/ms12-008"
+  ],
+  "CVE-2011-5050": [
+    "http://www.vulnerability-lab.com/get_content.php?id=60"
+  ],
+  "CVE-2011-5053": [
+    "http://sviehb.wordpress.com/2011/12/27/wi-fi-protected-setup-pin-brute-force-vulnerability/"
+  ],
+  "CVE-2011-5054": [
+    "http://c-skills.blogspot.com/2011/11/openpam-trickery.html"
+  ],
+  "CVE-2011-5075": [
+    "http://www.openwall.com/lists/oss-security/2011/11/22/3"
+  ],
+  "CVE-2011-5081": [
+    "http://seclists.org/bugtraq/2011/Apr/266"
+  ],
+  "CVE-2011-5082": [
+    "http://www.primothemes.com/forums/viewtopic.php?f=4&t=16173#p56982"
+  ],
+  "CVE-2011-5083": [
+    "http://vigilance.fr/vulnerability/Dotclear-file-upload-via-swfupload-swf-11396"
+  ],
+  "CVE-2011-5094": [
+    "http://www.ietf.org/mail-archive/web/tls/current/msg07553.html"
+  ],
+  "CVE-2011-5098": [
+    "http://tickets.opscode.com/browse/CHEF-2649"
+  ],
+  "CVE-2011-5099": [
+    "http://packetstormsecurity.org/files/112092/Joomla-CCNewsLetter-1.0.7-SQL-Injection.html"
+  ],
+  "CVE-2011-5100": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10015"
+  ],
+  "CVE-2011-5101": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10018"
+  ],
+  "CVE-2011-5109": [
+    "http://www.exploit-db.com/exploits/18127"
+  ],
+  "CVE-2011-5110": [
+    "http://www.exploit-db.com/exploits/18129"
+  ],
+  "CVE-2011-5114": [
+    "http://www.vulnerability-lab.com/get_content.php?id=33"
+  ],
+  "CVE-2011-5115": [
+    "http://packetstormsecurity.org/files/106859/dlguardshoppingcart-xss.txt"
+  ],
+  "CVE-2011-5116": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2011-5053.php"
+  ],
+  "CVE-2011-5129": [
+    "http://www.exploit-db.com/exploits/18159"
+  ],
+  "CVE-2011-5130": [
+    "http://www.exploit-db.com/exploits/18198"
+  ],
+  "CVE-2011-5135": [
+    "http://www.exploit-db.com/exploits/18224"
+  ],
+  "CVE-2011-5136": [
+    "http://seclists.org/fulldisclosure/2011/Dec/125"
+  ],
+  "CVE-2011-5139": [
+    "http://www.exploit-db.com/exploits/18009"
+  ],
+  "CVE-2011-5147": [
+    "http://www.exploit-db.com/exploits/18121"
+  ],
+  "CVE-2011-5148": [
+    "http://www.exploit-db.com/exploits/18287"
+  ],
+  "CVE-2011-5149": [
+    "http://www.vulnerability-lab.com/get_content.php?id=91"
+  ],
+  "CVE-2011-5155": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2011-5009.php"
+  ],
+  "CVE-2011-5158": [
+    "http://sotiriu.de/adv/NSOADV-2010-010.txt"
+  ],
+  "CVE-2011-5165": [
+    "https://www.exploit-db.com/exploits/36827/"
+  ],
+  "CVE-2011-5166": [
+    "http://www.exploit-db.com/exploits/17856"
+  ],
+  "CVE-2011-5167": [
+    "http://www.exploit-db.com/exploits/18092"
+  ],
+  "CVE-2011-5169": [
+    "http://www.vulnerability-lab.com/get_content.php?id=196"
+  ],
+  "CVE-2011-5171": [
+    "http://www.exploit-db.com/exploits/18220"
+  ],
+  "CVE-2011-5175": [
+    "http://packetstormsecurity.org/files/115772/Banana-Dance-CMS-B.2.1-XSS-SQL-Injection.html"
+  ],
+  "CVE-2011-5178": [
+    "http://seclists.org/fulldisclosure/2011/Nov/158"
+  ],
+  "CVE-2011-5183": [
+    "http://www.exploit-db.com/exploits/18091"
+  ],
+  "CVE-2011-5184": [
+    "http://0a29.blogspot.com/2011/11/0a29-11-1-cross-site-scripting.html"
+  ],
+  "CVE-2011-5186": [
+    "http://www.exploit-db.com/exploits/18056"
+  ],
+  "CVE-2011-5195": [
+    "http://www.exploit-db.com/exploits/18266"
+  ],
+  "CVE-2011-5196": [
+    "http://www.exploit-db.com/exploits/18266"
+  ],
+  "CVE-2011-5197": [
+    "http://www.exploit-db.com/exploits/18266"
+  ],
+  "CVE-2011-5205": [
+    "http://packetstormsecurity.org/files/108239/rapidleech-xss.txt"
+  ],
+  "CVE-2011-5209": [
+    "http://packetstormsecurity.org/files/108145/graphicclone-xss.txt"
+  ],
+  "CVE-2011-5210": [
+    "http://www.autosectools.com/Advisories/Limny.3.0.0_Local.File.Inclusion_99.html"
+  ],
+  "CVE-2011-5215": [
+    "http://packetstormsecurity.org/files/107970/videoportalneu-sql.txt"
+  ],
+  "CVE-2011-5222": [
+    "http://packetstormsecurity.org/files/107971/flirtportal-sql.txt"
+  ],
+  "CVE-2011-5228": [
+    "http://www.vulnerability-lab.com/get_content.php?id=362"
+  ],
+  "CVE-2011-5229": [
+    "http://www.vulnerability-lab.com/get_content.php?id=362"
+  ],
+  "CVE-2011-5230": [
+    "http://www.exploit-db.com/exploits/18246"
+  ],
+  "CVE-2011-5233": [
+    "http://www.exploit-db.com/exploits/18257"
+  ],
+  "CVE-2011-5234": [
+    "http://packetstormsecurity.org/files/107972/social2-sql.txt"
+  ],
+  "CVE-2011-5252": [
+    "http://www.mavitunasecurity.com/open-redirection-vulnerability-in-orchard/"
+  ],
+  "CVE-2011-5257": [
+    "http://www.exploit-db.com/exploits/18053"
+  ],
+  "CVE-2011-5267": [
+    "http://www.exploit-db.com/exploits/16988"
+  ],
+  "CVE-2011-5268": [
+    "https://projects.duckcorp.org/versions/13"
+  ],
+  "CVE-2011-5279": [
+    "http://seclists.org/fulldisclosure/2012/Apr/0"
+  ],
+  "CVE-2011-5283": [
+    "http://packetstormsecurity.com/files/129698/SmoothWall-3.1-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
+  ],
+  "CVE-2011-5284": [
+    "http://packetstormsecurity.com/files/129698/SmoothWall-3.1-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
+  ],
+  "CVE-2011-5322": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2011-5323": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2011-5324": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2011-5325": [
+    "https://seclists.org/bugtraq/2019/Jun/14"
+  ],
+  "CVE-2011-5326": [
+    "https://sourceforge.net/p/enlightenment/mailman/message/35055012/"
+  ],
+  "CVE-2011-5330": [
+    "https://www.exploit-db.com/exploits/17031"
+  ],
+  "CVE-2011-5331": [
+    "https://www.exploit-db.com/exploits/17058"
+  ]
+}
