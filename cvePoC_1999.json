@@ -1,0 +1,122 @@
+{
+  "CVE-1999-0088": [
+    "http://www-1.ibm.com/services/brs/brspwhub.nsf/advisories/852567CC004F9038852566BF007B6393/$file/ERS-SVA-E01-1998_004_1.txt"
+  ],
+  "CVE-1999-0095": [
+    "http://seclists.org/fulldisclosure/2019/Jun/16"
+  ],
+  "CVE-1999-0145": [
+    "http://seclists.org/fulldisclosure/2019/Jun/16"
+  ],
+  "CVE-1999-0158": [
+    "http://www.cisco.com/warp/public/770/pixmgrfile-pub.shtml"
+  ],
+  "CVE-1999-0225": [
+    "http://www.nai.com/nai_labs/asp_set/advisory/25_windows_nt_dos_adv.asp"
+  ],
+  "CVE-1999-0247": [
+    "http://www.nai.com/nai_labs/asp_set/advisory/17_inn_avd.asp"
+  ],
+  "CVE-1999-0278": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A913"
+  ],
+  "CVE-1999-0298": [
+    "http://www.nai.com/nai_labs/asp_set/advisory/06_ypbindsetme_adv.asp"
+  ],
+  "CVE-1999-0415": [
+    "http://www.cisco.com/warp/public/770/7xxconn-pub.shtml"
+  ],
+  "CVE-1999-0416": [
+    "http://www.cisco.com/warp/public/770/7xxconn-pub.shtml"
+  ],
+  "CVE-1999-0524": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10053"
+  ],
+  "CVE-1999-0736": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A932"
+  ],
+  "CVE-1999-0754": [
+    "http://www.redhat.com/corp/support/errata/inn99_05_22.html"
+  ],
+  "CVE-1999-0815": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A952"
+  ],
+  "CVE-1999-0840": [
+    "http://www.securityfocus.com/bid/832"
+  ],
+  "CVE-1999-0841": [
+    "http://www.securityfocus.com/bid/832"
+  ],
+  "CVE-1999-0869": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/1998/ms98-020"
+  ],
+  "CVE-1999-0874": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A915"
+  ],
+  "CVE-1999-1016": [
+    "http://www.securityfocus.com/bid/606"
+  ],
+  "CVE-1999-1079": [
+    "http://www-1.ibm.com/servlet/support/manager?rs=0&rt=0&org=apars&doc=08E0B1A1B85472A1852567C90031BB36"
+  ],
+  "CVE-1999-1100": [
+    "http://www.cisco.com/warp/public/770/pixkey-pub.shtml"
+  ],
+  "CVE-1999-1104": [
+    "http://marc.info/?l=ntbugtraq&m=88540877601866&w=2"
+  ],
+  "CVE-1999-1105": [
+    "http://www.zdnet.com/eweek/reviews/1016/tr42bug.html"
+  ],
+  "CVE-1999-1106": [
+    "http://www.securityfocus.com/bid/92"
+  ],
+  "CVE-1999-1123": [
+    "http://www.cert.org/advisories/CA-1991-07.html"
+  ],
+  "CVE-1999-1175": [
+    "http://www.cisco.com/warp/public/770/wccpauth-pub.shtml"
+  ],
+  "CVE-1999-1190": [
+    "http://www.securiteam.com/exploits/E-MailClub__FROM__remote_buffer_overflow.html"
+  ],
+  "CVE-1999-1205": [
+    "http://packetstormsecurity.org/advisories/ibm-ers/96-08"
+  ],
+  "CVE-1999-1224": [
+    "http://marc.info/?l=bugtraq&m=87635124302928&w=2"
+  ],
+  "CVE-1999-1242": [
+    "http://packetstormsecurity.org/advisories/hpalert/003"
+  ],
+  "CVE-1999-1247": [
+    "http://packetstormsecurity.org/advisories/hpalert/006"
+  ],
+  "CVE-1999-1248": [
+    "http://packetstormsecurity.org/advisories/hpalert/019"
+  ],
+  "CVE-1999-1251": [
+    "http://packetstormsecurity.org/advisories/hpalert/043"
+  ],
+  "CVE-1999-1334": [
+    "http://www.redhat.com/support/errata/rh50-errata-general.html#elm"
+  ],
+  "CVE-1999-1392": [
+    "http://www.securityfocus.com/bid/9"
+  ],
+  "CVE-1999-1464": [
+    "http://www.cisco.com/warp/public/770/iosdfsacl-pub.shtml"
+  ],
+  "CVE-1999-1465": [
+    "http://www.cisco.com/warp/public/770/iosdfsacl-pub.shtml"
+  ],
+  "CVE-1999-1568": [
+    "http://marc.info/?l=bugtraq&m=91981352617720&w=2"
+  ],
+  "CVE-1999-1582": [
+    "http://www.kb.cert.org/vuls/id/6733"
+  ],
+  "CVE-1999-1588": [
+    "http://security-protocols.com/sploits/unsorted_exploits/nlps_server.c"
+  ]
+}
