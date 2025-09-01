@@ -1,0 +1,677 @@
+{
+  "CVE-2003-0001": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2015-1972971.html"
+  ],
+  "CVE-2003-0015": [
+    "http://security.e-matters.de/advisories/012003.html"
+  ],
+  "CVE-2003-0025": [
+    "http://marc.info/?l=bugtraq&m=104204786206563&w=2"
+  ],
+  "CVE-2003-0056": [
+    "http://marc.info/?l=bugtraq&m=104342864418213&w=2"
+  ],
+  "CVE-2003-0062": [
+    "http://marc.info/?l=bugtraq&m=104490777824360&w=2"
+  ],
+  "CVE-2003-0075": [
+    "http://marc.info/?l=bugtraq&m=104428700106672&w=2"
+  ],
+  "CVE-2003-0091": [
+    "http://packetstormsecurity.org/0304-advisories/sa2003-02.txt"
+  ],
+  "CVE-2003-0097": [
+    "http://www.slackware.com/changelog/current.php?cpu=i386"
+  ],
+  "CVE-2003-0100": [
+    "http://marc.info/?l=bugtraq&m=104587206702715&w=2"
+  ],
+  "CVE-2003-0105": [
+    "http://marc.info/?l=bugtraq&m=109215441332682&w=2"
+  ],
+  "CVE-2003-0106": [
+    "http://marc.info/?l=ntbugtraq&m=104868285106289&w=2"
+  ],
+  "CVE-2003-0107": [
+    "http://marc.info/?l=bugtraq&m=104610337726297&w=2"
+  ],
+  "CVE-2003-0109": [
+    "http://marc.info/?l=bugtraq&m=104861839130254&w=2"
+  ],
+  "CVE-2003-0113": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A926"
+  ],
+  "CVE-2003-0114": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A963"
+  ],
+  "CVE-2003-0119": [
+    "http://www-1.ibm.com/services/continuity/recover1.nsf/4699c03b46f2d4f68525678c006d45ae/85256a3400529a8685256cde0008ddde?OpenDocument"
+  ],
+  "CVE-2003-0121": [
+    "http://marc.info/?l=bugtraq&m=104716030503607&w=2"
+  ],
+  "CVE-2003-0128": [
+    "http://www.coresecurity.com/common/showdoc.php?idx=309&idxseccion=10"
+  ],
+  "CVE-2003-0129": [
+    "http://www.coresecurity.com/common/showdoc.php?idx=309&idxseccion=10"
+  ],
+  "CVE-2003-0130": [
+    "http://www.coresecurity.com/common/showdoc.php?idx=309&idxseccion=10"
+  ],
+  "CVE-2003-0132": [
+    "http://marc.info/?l=bugtraq&m=105001663120995&w=2"
+  ],
+  "CVE-2003-0140": [
+    "http://marc.info/?l=bugtraq&m=104818814931378&w=2"
+  ],
+  "CVE-2003-0141": [
+    "http://www.coresecurity.com/common/showdoc.php?idx=311&idxseccion=10"
+  ],
+  "CVE-2003-0143": [
+    "http://marc.info/?l=bugtraq&m=104739841223916&w=2"
+  ],
+  "CVE-2003-0148": [
+    "http://www.nai.com/us/promos/mcafee/epo_vulnerabilities.asp"
+  ],
+  "CVE-2003-0149": [
+    "http://www.nai.com/us/promos/mcafee/epo_vulnerabilities.asp"
+  ],
+  "CVE-2003-0170": [
+    "http://www-1.ibm.com/services/continuity/recover1.nsf/MSS/MSS-OAR-E01-2003.0469.1"
+  ],
+  "CVE-2003-0190": [
+    "https://cert-portal.siemens.com/productcert/pdf/ssa-412672.pdf"
+  ],
+  "CVE-2003-0197": [
+    "http://marc.info/?l=bugtraq&m=104940730819887&w=2"
+  ],
+  "CVE-2003-0203": [
+    "http://marc.info/?l=bugtraq&m=104610380126860&w=2"
+  ],
+  "CVE-2003-0209": [
+    "http://marc.info/?l=bugtraq&m=105111217731583&w=2"
+  ],
+  "CVE-2003-0210": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030423-ACS.shtml"
+  ],
+  "CVE-2003-0216": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030424-catos.shtml."
+  ],
+  "CVE-2003-0219": [
+    "http://marc.info/?l=bugtraq&m=105155734411836&w=2"
+  ],
+  "CVE-2003-0220": [
+    "http://marc.info/?l=bugtraq&m=105155734411836&w=2"
+  ],
+  "CVE-2003-0226": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A933"
+  ],
+  "CVE-2003-0227": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A966"
+  ],
+  "CVE-2003-0257": [
+    "http://www-1.ibm.com/services/continuity/recover1.nsf/MSS/MSS-OAR-E01-2003.0660.1"
+  ],
+  "CVE-2003-0258": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030507-vpn3k.shtml"
+  ],
+  "CVE-2003-0259": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030507-vpn3k.shtml"
+  ],
+  "CVE-2003-0260": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030507-vpn3k.shtml"
+  ],
+  "CVE-2003-0264": [
+    "http://packetstormsecurity.com/files/161526/SLMail-5.1.0.4420-Remote-Code-Execution.html"
+  ],
+  "CVE-2003-0274": [
+    "http://marc.info/?l=bugtraq&m=105241224228693&w=2"
+  ],
+  "CVE-2003-0281": [
+    "http://marc.info/?l=bugtraq&m=105259012802997&w=2"
+  ],
+  "CVE-2003-0286": [
+    "http://packetstormsecurity.org/0305-exploits/snitz_exec.txt"
+  ],
+  "CVE-2003-0305": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030515-saa.shtml"
+  ],
+  "CVE-2003-0306": [
+    "http://marc.info/?l=vuln-dev&m=105241032526289&w=2"
+  ],
+  "CVE-2003-0308": [
+    "https://bugs.gentoo.org/show_bug.cgi?id=235770"
+  ],
+  "CVE-2003-0309": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A948"
+  ],
+  "CVE-2003-0330": [
+    "http://marc.info/?l=bugtraq&m=105344891005369&w=2"
+  ],
+  "CVE-2003-0337": [
+    "http://marc.info/?l=bugtraq&m=105361879109409&w=2"
+  ],
+  "CVE-2003-0344": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A922"
+  ],
+  "CVE-2003-0347": [
+    "http://marc.info/?l=bugtraq&m=106262077829157&w=2"
+  ],
+  "CVE-2003-0349": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A938"
+  ],
+  "CVE-2003-0353": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A962"
+  ],
+  "CVE-2003-0377": [
+    "http://marc.info/?l=bugtraq&m=105370528728225&w=2"
+  ],
+  "CVE-2003-0386": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9894"
+  ],
+  "CVE-2003-0390": [
+    "http://marc.info/?l=bugtraq&m=105121918523320&w=2"
+  ],
+  "CVE-2003-0407": [
+    "http://marc.info/?l=bugtraq&m=105405668423102&w=2"
+  ],
+  "CVE-2003-0408": [
+    "http://marc.info/?l=bugtraq&m=105405629622652&w=2"
+  ],
+  "CVE-2003-0446": [
+    "http://marc.info/?l=ntbugtraq&m=105585001905002&w=2"
+  ],
+  "CVE-2003-0449": [
+    "http://marc.info/?l=bugtraq&m=105561189625082&w=2"
+  ],
+  "CVE-2003-0456": [
+    "http://marc.info/?l=bugtraq&m=105733894003737&w=2"
+  ],
+  "CVE-2003-0461": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A997"
+  ],
+  "CVE-2003-0462": [
+    "http://www.redhat.com/support/errata/RHSA-2003-239.html"
+  ],
+  "CVE-2003-0471": [
+    "http://marc.info/?l=bugtraq&m=105648385900792&w=2"
+  ],
+  "CVE-2003-0476": [
+    "http://marc.info/?l=bugtraq&m=105664924024009&w=2"
+  ],
+  "CVE-2003-0485": [
+    "http://marc.info/?l=bugtraq&m=105613243117155&w=2"
+  ],
+  "CVE-2003-0486": [
+    "http://www.phpbb.com/phpBB/viewtopic.php?t=112052"
+  ],
+  "CVE-2003-0501": [
+    "http://www.redhat.com/support/errata/RHSA-2003-239.html"
+  ],
+  "CVE-2003-0504": [
+    "http://www.security-corporation.com/articles-20030702-005.html"
+  ],
+  "CVE-2003-0508": [
+    "http://marc.info/?l=bugtraq&m=105785749721291&w=2"
+  ],
+  "CVE-2003-0509": [
+    "http://marc.info/?l=bugtraq&m=105709450711395&w=2"
+  ],
+  "CVE-2003-0511": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030728-ap1x00.shtml"
+  ],
+  "CVE-2003-0512": [
+    "http://www.cisco.com/warp/public/707/cisco-sn-20030724-ios-enum.shtml"
+  ],
+  "CVE-2003-0522": [
+    "http://marc.info/?l=bugtraq&m=105760660928715&w=2"
+  ],
+  "CVE-2003-0524": [
+    "http://marc.info/?l=bugtraq&m=105769387706906&w=2"
+  ],
+  "CVE-2003-0526": [
+    "http://marc.info/?l=ntbugtraq&m=105838590030409&w=2"
+  ],
+  "CVE-2003-0533": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A919"
+  ],
+  "CVE-2003-0542": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9458"
+  ],
+  "CVE-2003-0550": [
+    "http://www.redhat.com/support/errata/RHSA-2003-239.html"
+  ],
+  "CVE-2003-0551": [
+    "http://www.redhat.com/support/errata/RHSA-2003-239.html"
+  ],
+  "CVE-2003-0552": [
+    "http://www.redhat.com/support/errata/RHSA-2003-239.html"
+  ],
+  "CVE-2003-0553": [
+    "http://marc.info/?l=bugtraq&m=105820193406838&w=2"
+  ],
+  "CVE-2003-0560": [
+    "http://marc.info/?l=bugtraq&m=105733277731084&w=2"
+  ],
+  "CVE-2003-0561": [
+    "http://marc.info/?l=bugtraq&m=105769805311484&w=2"
+  ],
+  "CVE-2003-0564": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A914"
+  ],
+  "CVE-2003-0567": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030717-blocked.shtml"
+  ],
+  "CVE-2003-0575": [
+    "http://marc.info/?l=bugtraq&m=105958240709302&w=2"
+  ],
+  "CVE-2003-0578": [
+    "http://marc.info/?l=bugtraq&m=105839150004682&w=2"
+  ],
+  "CVE-2003-0579": [
+    "http://marc.info/?l=bugtraq&m=105838948002337&w=2"
+  ],
+  "CVE-2003-0580": [
+    "http://marc.info/?l=bugtraq&m=105839042603476&w=2"
+  ],
+  "CVE-2003-0581": [
+    "http://marc.info/?l=bugtraq&m=105829691405446&w=2"
+  ],
+  "CVE-2003-0583": [
+    "http://marc.info/?l=bugtraq&m=105846288808846&w=2"
+  ],
+  "CVE-2003-0584": [
+    "http://marc.info/?l=bugtraq&m=105846288808846&w=2"
+  ],
+  "CVE-2003-0585": [
+    "http://marc.info/?l=bugtraq&m=105845898003616&w=2"
+  ],
+  "CVE-2003-0586": [
+    "http://marc.info/?l=bugtraq&m=105845898003616&w=2"
+  ],
+  "CVE-2003-0594": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9826"
+  ],
+  "CVE-2003-0605": [
+    "http://marc.info/?l=bugtraq&m=105880332428706&w=2"
+  ],
+  "CVE-2003-0610": [
+    "http://www.nai.com/us/promos/mcafee/epo_vulnerabilities.asp"
+  ],
+  "CVE-2003-0616": [
+    "http://www.nai.com/us/promos/mcafee/epo_vulnerabilities.asp"
+  ],
+  "CVE-2003-0619": [
+    "http://www.redhat.com/support/errata/RHSA-2003-239.html"
+  ],
+  "CVE-2003-0621": [
+    "http://marc.info/?l=bugtraq&m=106762000607681&w=2"
+  ],
+  "CVE-2003-0622": [
+    "http://marc.info/?l=bugtraq&m=106762000607681&w=2"
+  ],
+  "CVE-2003-0623": [
+    "http://marc.info/?l=bugtraq&m=106762000607681&w=2"
+  ],
+  "CVE-2003-0624": [
+    "http://marc.info/?l=bugtraq&m=106761926906781&w=2"
+  ],
+  "CVE-2003-0641": [
+    "http://marc.info/?l=bugtraq&m=105848106631132&w=2"
+  ],
+  "CVE-2003-0642": [
+    "http://marc.info/?l=bugtraq&m=105848106631132&w=2"
+  ],
+  "CVE-2003-0647": [
+    "http://www.cisco.com/warp/public/707/cisco-sn-20030730-ios-2gb-get.shtml"
+  ],
+  "CVE-2003-0655": [
+    "http://marc.info/?l=bugtraq&m=105978381618095&w=2"
+  ],
+  "CVE-2003-0685": [
+    "http://marc.info/?l=bugtraq&m=106071059430211&w=2"
+  ],
+  "CVE-2003-0686": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A469"
+  ],
+  "CVE-2003-0693": [
+    "http://lists.grok.org.uk/pipermail/full-disclosure/2003-September/010135.html"
+  ],
+  "CVE-2003-0697": [
+    "http://www-1.ibm.com/services/continuity/recover1.nsf/mss/MSS-OAR-E01-2003.1605.1"
+  ],
+  "CVE-2003-0699": [
+    "http://www.redhat.com/support/errata/RHSA-2003-239.html"
+  ],
+  "CVE-2003-0717": [
+    "http://marc.info/?l=bugtraq&m=106666713812158&w=2"
+  ],
+  "CVE-2003-0719": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A951"
+  ],
+  "CVE-2003-0721": [
+    "http://marc.info/?l=bugtraq&m=106367213400313&w=2"
+  ],
+  "CVE-2003-0727": [
+    "https://www.exploit-db.com/exploits/42780/"
+  ],
+  "CVE-2003-0731": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030813-cmf.shtml"
+  ],
+  "CVE-2003-0732": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030813-cmf.shtml"
+  ],
+  "CVE-2003-0735": [
+    "http://marc.info/?l=bugtraq&m=106062021711496&w=2"
+  ],
+  "CVE-2003-0736": [
+    "http://marc.info/?l=bugtraq&m=106062021711496&w=2"
+  ],
+  "CVE-2003-0737": [
+    "http://marc.info/?l=bugtraq&m=106062021711496&w=2"
+  ],
+  "CVE-2003-0738": [
+    "http://marc.info/?l=bugtraq&m=106062021711496&w=2"
+  ],
+  "CVE-2003-0739": [
+    "http://www.vmware.com/support/kb/enduser/std_adp.php?p_faqid=1106"
+  ],
+  "CVE-2003-0740": [
+    "http://marc.info/?l=bugtraq&m=106260760211958&w=2"
+  ],
+  "CVE-2003-0746": [
+    "http://www.kb.cert.org/vuls/id/377804"
+  ],
+  "CVE-2003-0758": [
+    "http://www.coresecurity.com/common/showdoc.php?idx=366&idxseccion=10"
+  ],
+  "CVE-2003-0759": [
+    "http://www.coresecurity.com/common/showdoc.php?idx=366&idxseccion=10"
+  ],
+  "CVE-2003-0767": [
+    "http://marc.info/?l=bugtraq&m=106304902323758&w=2"
+  ],
+  "CVE-2003-0770": [
+    "http://marc.info/?l=bugtraq&m=106381136115972&w=2"
+  ],
+  "CVE-2003-0780": [
+    "http://marc.info/?l=bugtraq&m=106364207129993&w=2"
+  ],
+  "CVE-2003-0784": [
+    "http://www-1.ibm.com/support/search.wss?rs=0&q=IY47764&apar=only"
+  ],
+  "CVE-2003-0789": [
+    "http://www.securityfocus.com/bid/9504"
+  ],
+  "CVE-2003-0807": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A995"
+  ],
+  "CVE-2003-0812": [
+    "http://www.kb.cert.org/vuls/id/567620"
+  ],
+  "CVE-2003-0813": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A900"
+  ],
+  "CVE-2003-0816": [
+    "http://www.safecenter.net/liudieyu/BackMyParent/BackMyParent-content.htm"
+  ],
+  "CVE-2003-0831": [
+    "https://www.exploit-db.com/exploits/107/"
+  ],
+  "CVE-2003-0845": [
+    "http://marc.info/?l=bugtraq&m=106547728803252&w=2"
+  ],
+  "CVE-2003-0848": [
+    "http://marc.info/?l=bugtraq&m=106589631819348&w=2"
+  ],
+  "CVE-2003-0851": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030930-ssl.shtml"
+  ],
+  "CVE-2003-0854": [
+    "https://www.exploit-db.com/exploits/115"
+  ],
+  "CVE-2003-0906": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A959"
+  ],
+  "CVE-2003-0907": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A904"
+  ],
+  "CVE-2003-0910": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A911"
+  ],
+  "CVE-2003-0925": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9692"
+  ],
+  "CVE-2003-0927": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9691"
+  ],
+  "CVE-2003-0935": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9802"
+  ],
+  "CVE-2003-0936": [
+    "http://marc.info/?l=bugtraq&m=106875764826251&w=2"
+  ],
+  "CVE-2003-0946": [
+    "http://marc.info/?l=bugtraq&m=106867135830683&w=2"
+  ],
+  "CVE-2003-0961": [
+    "http://marc.info/?l=bugtraq&m=107064830206816&w=2"
+  ],
+  "CVE-2003-0962": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9415"
+  ],
+  "CVE-2003-0967": [
+    "http://marc.info/?l=bugtraq&m=106944220426970"
+  ],
+  "CVE-2003-0968": [
+    "http://marc.info/?l=bugtraq&m=106986437621130&w=2"
+  ],
+  "CVE-2003-0974": [
+    "http://marc.info/?l=bugtraq&m=107004362416252&w=2"
+  ],
+  "CVE-2003-0982": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20031210-ACNS-auth.shtml"
+  ],
+  "CVE-2003-0983": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20031210-unity.shtml"
+  ],
+  "CVE-2003-0984": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9406"
+  ],
+  "CVE-2003-0985": [
+    "http://marc.info/?l=bugtraq&m=107340358402129&w=2"
+  ],
+  "CVE-2003-0986": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9707"
+  ],
+  "CVE-2003-0990": [
+    "http://marc.info/?l=bugtraq&m=107247236124180&w=2"
+  ],
+  "CVE-2003-1001": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20031215-fwsm.shtml"
+  ],
+  "CVE-2003-1002": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20031215-fwsm.shtml"
+  ],
+  "CVE-2003-1003": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20031215-pix.shtml"
+  ],
+  "CVE-2003-1004": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20031215-pix.shtml"
+  ],
+  "CVE-2003-1018": [
+    "http://www-1.ibm.com/services/continuity/recover1.nsf/mss/MSS-OAR-E01-20"
+  ],
+  "CVE-2003-1026": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A643"
+  ],
+  "CVE-2003-1027": [
+    "http://www.safecenter.net/UMBRELLAWEBV4/HijackClickV2"
+  ],
+  "CVE-2003-1028": [
+    "http://www.safecenter.net/UMBRELLAWEBV4/threadid10008"
+  ],
+  "CVE-2003-1033": [
+    "http://marc.info/?l=bugtraq&m=105103613727471&w=2"
+  ],
+  "CVE-2003-1034": [
+    "http://marc.info/?l=bugtraq&m=104914778303805&w=2"
+  ],
+  "CVE-2003-1040": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9423"
+  ],
+  "CVE-2003-1041": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A956"
+  ],
+  "CVE-2003-1048": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2004/ms04-025"
+  ],
+  "CVE-2003-1067": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2003-1073": [
+    "http://isec.pl/vulnerabilities/isec-0008-sun-at.txt"
+  ],
+  "CVE-2003-1094": [
+    "http://www.securityfocus.com/bid/8320"
+  ],
+  "CVE-2003-1096": [
+    "http://www.cisco.com/warp/public/707/cisco-sn-20030802-leap.shtml"
+  ],
+  "CVE-2003-1099": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A5788"
+  ],
+  "CVE-2003-1109": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030221-protos.shtml"
+  ],
+  "CVE-2003-1121": [
+    "https://exchange.xforce.ibmcloud.com/vulnerabilities/11921"
+  ],
+  "CVE-2003-1132": [
+    "http://www.cisco.com/warp/public/707/cisco-sa-20030430-dns.shtml"
+  ],
+  "CVE-2003-1143": [
+    "http://aluigi.altervista.org/adv/ssboom-adv.txt"
+  ],
+  "CVE-2003-1154": [
+    "http://www.computerworld.co.nz/cw.nsf/0/BF9E8E6E2D313E5FCC256DD70016473F?OpenDocument&More="
+  ],
+  "CVE-2003-1215": [
+    "http://marc.info/?l=bugtraq&m=107273069130885&w=2"
+  ],
+  "CVE-2003-1216": [
+    "http://marc.info/?l=bugtraq&m=107196735102970&w=2"
+  ],
+  "CVE-2003-1262": [
+    "http://www.linuxsecurity.com/content/view/104480/104/"
+  ],
+  "CVE-2003-1292": [
+    "https://www.exploit-db.com/exploits/1864"
+  ],
+  "CVE-2003-1299": [
+    "http://packetstormsecurity.org/0305-exploits/baby.txt"
+  ],
+  "CVE-2003-1300": [
+    "http://packetstormsecurity.org/0305-exploits/baby.txt"
+  ],
+  "CVE-2003-1310": [
+    "http://www.securityfocus.com/bid/8329"
+  ],
+  "CVE-2003-1314": [
+    "https://www.exploit-db.com/exploits/2980"
+  ],
+  "CVE-2003-1318": [
+    "http://marc.info/?l=bugtraq&m=105820430209748&w=2"
+  ],
+  "CVE-2003-1325": [
+    "http://packetstormsecurity.org/0304-exploits/hl-headnut.c"
+  ],
+  "CVE-2003-1339": [
+    "https://www.exploit-db.com/exploits/133"
+  ],
+  "CVE-2003-1340": [
+    "http://securityreason.com/securityalert/3185"
+  ],
+  "CVE-2003-1348": [
+    "http://securityreason.com/securityalert/3227"
+  ],
+  "CVE-2003-1354": [
+    "http://seclists.org/lists/bugtraq/2003/Jan/0178.html"
+  ],
+  "CVE-2003-1358": [
+    "http://securityreason.com/securityalert/3236"
+  ],
+  "CVE-2003-1359": [
+    "http://securityreason.com/securityalert/3236"
+  ],
+  "CVE-2003-1360": [
+    "http://securityreason.com/securityalert/3236"
+  ],
+  "CVE-2003-1376": [
+    "http://securityreason.com/securityalert/3265"
+  ],
+  "CVE-2003-1381": [
+    "http://securityreason.com/securityalert/3258"
+  ],
+  "CVE-2003-1397": [
+    "http://securityreason.com/securityalert/3255"
+  ],
+  "CVE-2003-1418": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html"
+  ],
+  "CVE-2003-1450": [
+    "http://www.linuxsecurity.com/content/view/104622/104/"
+  ],
+  "CVE-2003-1495": [
+    "http://www-1.ibm.com/services/continuity/recover1.nsf/MSS/MSS-OAR-E01-2003.1357.1"
+  ],
+  "CVE-2003-1497": [
+    "http://securityreason.com/securityalert/3298"
+  ],
+  "CVE-2003-1520": [
+    "http://www.fuzzymonkey.org/newfuzzy/software/data/03My_Classifieds_MySQL//README.html#changes"
+  ],
+  "CVE-2003-1531": [
+    "http://www.security-corporation.com/index.php?id=advisories&a=013-FR"
+  ],
+  "CVE-2003-1550": [
+    "http://www.security-corporation.com/index.php?id=advisories&a=011-FR"
+  ],
+  "CVE-2003-1556": [
+    "http://securityreason.com/securityalert/3796"
+  ],
+  "CVE-2003-1559": [
+    "http://securityreason.com/securityalert/3989"
+  ],
+  "CVE-2003-1560": [
+    "http://securityreason.com/securityalert/4004"
+  ],
+  "CVE-2003-1561": [
+    "http://securityreason.com/securityalert/4004"
+  ],
+  "CVE-2003-1562": [
+    "https://cert-portal.siemens.com/productcert/pdf/ssa-412672.pdf"
+  ],
+  "CVE-2003-1564": [
+    "http://www.reddit.com/r/programming/comments/65843/time_to_upgrade_libxml2"
+  ],
+  "CVE-2003-1571": [
+    "https://www.exploit-db.com/exploits/7488"
+  ],
+  "CVE-2003-1573": [
+    "http://seclists.org/bugtraq/2003/Dec/0249.html"
+  ],
+  "CVE-2003-1603": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2003-20001": [
+    "https://www.exploit-db.com/exploits/49176"
+  ],
+  "CVE-2003-5001": [
+    "https://vuldb.com/?id.104"
+  ],
+  "CVE-2003-5003": [
+    "https://vuldb.com/?id.296"
+  ]
+}
