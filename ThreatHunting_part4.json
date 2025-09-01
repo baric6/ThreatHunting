@@ -1,0 +1,2656 @@
+{
+  "packet_storm_exploits": {
+    " CVE-2021-21425": {
+      "exploit": {
+        "exploit": "5cb1696418ca010542d02a039fd2e7ced0fb5abc292d2bf9e447350af4776e32",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182664/cve-2021-21425-main.zip",
+        "exploitDate": " Nov 14, 2024",
+        "exploitDis": "Proof of concept remote code execution exploit for GravCMS 1.10.7 that leverages an arbitrary YAML write / update.",
+        "exploitName": " CVE-2021-21425",
+        "exploitQuickDis": "GravCMS 1.10.7 Arbitrary YAML Write / Update",
+        "exploitTags": " exploit, remote, arbitrary, code execution, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/182664/GravCMS-1.10.7-Arbitrary-YAML-Write-Update.html"
+      }
+    },
+    " CVE-2022-2068, CVE-2023-30997, CVE-2023-30998, CVE-2023-31001, CVE-2023-31004, CVE-2023-31005, CVE-2023-31006, CVE-2023-32328, CVE-2023-32329, CVE-2023-32330, CVE-2023-38267, CVE-2023-38368, CVE-2023-38369, CVE-2023-38370": {
+      "exploit": {
+        "exploit": "bbe5e2c1ca7d3b42c24076cc8aa46544dec9bd260d2ef8b56f24a6ec52ecd952",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182466/2024-ibm-security-verify-access.txt",
+        "exploitDate": " Nov  4, 2024",
+        "exploitDis": "IBM Security Verify Access versions prior to 10.0.8 suffer from authentication bypass, reuse of private keys, local privilege escalation, weak settings, outdated libraries, missing password, hardcoded secrets, remote code execution, missing authentication, null pointer dereference, and lack of privilege separation vulnerabilities.",
+        "exploitName": " CVE-2022-2068, CVE-2023-30997, CVE-2023-30998, CVE-2023-31001, CVE-2023-31004, CVE-2023-31005, CVE-2023-31006, CVE-2023-32328, CVE-2023-32329, CVE-2023-32330, CVE-2023-38267, CVE-2023-38368, CVE-2023-38369, CVE-2023-38370",
+        "exploitQuickDis": "IBM Security Verify Access 32 Vulnerabilities",
+        "exploitTags": " exploit, remote, local, vulnerability, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/182466/IBM-Security-Verify-Access-32-Vulnerabilities.html"
+      }
+    },
+    " CVE-2022-3405": {
+      "exploit": {
+        "exploit": "0a04d87e79786492c7f8310b30dbd4d9633aeb386453fa387c188884aba1276f",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182937/acronis_cyber_protect_unauth_rce_cve_2022_3405.rb.txt",
+        "exploitDate": " Dec  3, 2024",
+        "exploitDis": "The Acronis Cyber Protect appliance, in its default configuration, allows the anonymous registration of new protect/backup agents on new endpoints. This API endpoint also generates bearer tokens which the agent then uses to authenticate to the appliance. As the management web console is running on the same port as the API for the agents, this bearer token is also valid for any actions on the web console. This allows an attacker with network access to the appliance to start the registration of a new agent, retrieve a bearer token that provides admin access to the available functions in the web console. The web console contains multiple possibilities to execute arbitrary commands on both the agents (e.g., via PreCommands for a backup) and also the appliance (e.g., via a Validation job on the agent of the appliance). These options can easily be set with the provided bearer token, which leads to a complete compromise of all agents and the appliance itself.",
+        "exploitName": " CVE-2022-3405",
+        "exploitQuickDis": "Acronis Cyber Protect/Backup Remote Code Execution",
+        "exploitTags": " exploit, web, arbitrary",
+        "exploitUrl": "https://packetstormsecurity.com/files/182937/Acronis-Cyber-Protect-Backup-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2022-48991": {
+      "exploit": {
+        "exploit": "70b8b4891864d68dc660a11b7c18246507754b38f9be401d06a0d1879b3a45cc",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182462/GS2024110442451501.tgz",
+        "exploitDate": " Nov  4, 2024",
+        "exploitDis": "khugepaged in Linux races with rmap-based zap, races with GUP-fast, and fails to call MMU notifiers.",
+        "exploitName": " CVE-2022-48991",
+        "exploitQuickDis": "Linux khugepaged Race Conditions",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182462/Linux-khugepaged-Race-Conditions.html"
+      }
+    },
+    " CVE-2023-0386": {
+      "exploit": {
+        "exploit": "6c56ce8217d90e114635700a314b8fcfb2c5a11cfda46c96a6c0e2d713c433bb",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181886/cve_2023_0386_overlayfs_priv_esc.rb.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "This Metasploit module exploit targets the Linux kernel bug in OverlayFS. A flaw was found in the Linux kernel, where unauthorized access to the execution of the setuid file with capabilities was found in the Linux kernel’s OverlayFS subsystem in how a user copies a capable file from a nosuid mount into another mount. This uid mapping bug allows a local user to escalate their privileges on the system.",
+        "exploitName": " CVE-2023-0386",
+        "exploitQuickDis": "Linux OverlayFS Local Privilege Escalation",
+        "exploitTags": " exploit, kernel, local",
+        "exploitUrl": "https://packetstormsecurity.com/files/181886/Linux-OverlayFS-Local-Privilege-Escalation.html"
+      }
+    },
+    " CVE-2023-20937": {
+      "exploit": {
+        "exploit": "66f3d20525ff0676542d2ca32e25362978413e0665982d4a600608e52b0a2fcf",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182135/GS2024101042451518.txt",
+        "exploitDate": " Oct 10, 2024",
+        "exploitDis": "Android GKI kernels contain broken non-upstream Speculative Page Faults MM code that can lead to use-after-free conditions.",
+        "exploitName": " CVE-2023-20937",
+        "exploitQuickDis": "Android GKI Kernels Use-After-Free",
+        "exploitTags": " exploit, kernel",
+        "exploitUrl": "https://packetstormsecurity.com/files/182135/Android-GKI-Kernels-Use-After-Free.html"
+      }
+    },
+    " CVE-2023-28324": {
+      "exploit": {
+        "exploit": "e0620d2d0515fa0c50ecc9895fe036f29df5b1ae1f77223209ef2489ec4d79b2",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182719/ivanti_agent_portal_cmdexec.rb.txt",
+        "exploitDate": " Nov 21, 2024",
+        "exploitDis": "This Metasploit module leverages an unauthenticated remote command execution vulnerability in Ivanti's EPM Agent Portal where an RPC client can invoke a method which will run an attacker-specified string on the remote target as NT AUTHORITY\\SYSTEM. This vulnerability is present in versions prior to EPM 2021.1 Su4 and EPM 2022 Su2.",
+        "exploitName": " CVE-2023-28324",
+        "exploitQuickDis": "Ivanti EPM Agent Portal Command Execution",
+        "exploitTags": " exploit, remote",
+        "exploitUrl": "https://packetstormsecurity.com/files/182719/Ivanti-EPM-Agent-Portal-Command-Execution.html"
+      }
+    },
+    " CVE-2023-40459": {
+      "exploit": {
+        "exploit": "93e119b2d764c5aa22f0c54cf74c0369c5a4254019d26c982bb0de6d5d846df2",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181977/CVE-2023-40459-main.zip",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "ALEOS versions 4.16 and below denial of service proof of concept exploit.",
+        "exploitName": " CVE-2023-40459",
+        "exploitQuickDis": "ALEOS 4.16 Denial Of Service",
+        "exploitTags": " exploit, denial of service, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/181977/ALEOS-4.16-Denial-Of-Service.html"
+      }
+    },
+    " CVE-2023-45249": {
+      "exploit": {
+        "exploit": "07990b1f6994d1629f554b31888e1fa6a36fccc954738c75a95e2ac86e270498",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181993/acronis_cyber_infra_cve_2023_45249.rb.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "Acronis Cyber Infrastructure (ACI) is an IT infrastructure solution that provides storage, compute, and network resources. Businesses and Service Providers are using it for data storage, backup storage, creating and managing virtual machines and software-defined networks, running cloud-native applications in production environments. This Metasploit module exploits a default password vulnerability in ACI which allow an attacker to access the ACI PostgreSQL database and gain administrative access to the ACI Web Portal. This opens the door for the attacker to upload SSH keys that enables root access to the appliance/server. This attack can be remotely executed over the WAN as long as the PostgreSQL and SSH services are exposed to the outside world. ACI versions 5.0 before build 5.0.1-61, 5.1 before build 5.1.1-71, 5.2 before build 5.2.1-69, 5.3 before build 5.3.1-53, and 5.4 before build 5.4.4-132 are vulnerable.",
+        "exploitName": " CVE-2023-45249",
+        "exploitQuickDis": "Acronis Cyber Infrastructure Default Password Remote Code Execution",
+        "exploitTags": " exploit, web, root",
+        "exploitUrl": "https://packetstormsecurity.com/files/181993/Acronis-Cyber-Infrastructure-Default-Password-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2023-52709": {
+      "exploit": {
+        "exploit": "02f2601eddbe9fb045062d2c686c897f6039df04b9482db6478440625d4786ae",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181852/CVE-2023-52709-PoC-main.zip",
+        "exploitDate": " Sep 26, 2024",
+        "exploitDis": "Proof of concept toolkit to demonstrate the issue noted in CVE-2023-52709 related to the TI bluetooth stack. When running Defensics test case #SMP legacy 1001 with loop mode on DUT configured as resolvable private address, after a while, the device will end up generating unresolvable random private address causing denial of service for already bonded peer devices.",
+        "exploitName": " CVE-2023-52709",
+        "exploitQuickDis": "TI Bluetooth Denial Of Service",
+        "exploitTags": " exploit, denial of service, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/181852/TI-Bluetooth-Denial-Of-Service.html"
+      }
+    },
+    " CVE-2024-0012, CVE-2024-9474": {
+      "exploit": {
+        "exploit": "c8b10b5731e612b147d09c4e3d75d1869c7c85552ecae142103e7ca29fb1797b",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182699/CVE-2024-0012-POC-main.zip",
+        "exploitDate": " Nov 19, 2024",
+        "exploitDis": "Proof of concept code to exploit an authentication bypass in Palo Alto's PAN-OS that is coupled with remote command execution.",
+        "exploitName": " CVE-2024-0012, CVE-2024-9474",
+        "exploitQuickDis": "Palo Alto PAN-OS Authentication Bypass / Remote Command Execution",
+        "exploitTags": " exploit, remote, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/182699/Palo-Alto-PAN-OS-Authentication-Bypass-Remote-Command-Execution.html"
+      }
+    },
+    " CVE-2024-0311": {
+      "exploit": {
+        "exploit": "2e31e7ddba5252351c7ee14e263acdbc754af802d6a309868e3a30682bf1b543",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182425/CVE-2024-0311-main.zip",
+        "exploitDate": " Oct 31, 2024",
+        "exploitDis": "Proof of concept code for a flaw where a malicious insider can bypass the existing policy of Skyhigh Client Proxy without a valid release code.",
+        "exploitName": " CVE-2024-0311",
+        "exploitQuickDis": "Skyhigh Client Proxy Policy Bypass",
+        "exploitTags": " exploit, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/182425/Skyhigh-Client-Proxy-Policy-Bypass.html"
+      }
+    },
+    " CVE-2024-10224, CVE-2024-11003, CVE-2024-48990, CVE-2024-48991, CVE-2024-48992": {
+      "exploit": {
+        "exploit": "5e1a7285b40cf60a49ec4d0075d1398f00688905145e895ec8cd09d0cc0d9564",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182765/QSA-needrestart.txt",
+        "exploitDate": " Nov 22, 2024",
+        "exploitDis": "Qualys discovered that needrestart suffers from multiple local privilege escalation vulnerabilities that allow for root access from an unprivileged user.",
+        "exploitName": " CVE-2024-10224, CVE-2024-11003, CVE-2024-48990, CVE-2024-48991, CVE-2024-48992",
+        "exploitQuickDis": "needrestart Local Privilege Escalation",
+        "exploitTags": " exploit, local, root, vulnerability",
+        "exploitUrl": "https://packetstormsecurity.com/files/182765/needrestart-Local-Privilege-Escalation.html"
+      }
+    },
+    " CVE-2024-10924": {
+      "exploit": {
+        "exploit": "9fb5206f79bdaf66dbedfc4d45fcf5665de6fe05f64aab8cb3e399923acff9fa",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182700/wprss-bypass.zip",
+        "exploitDate": " Nov 19, 2024",
+        "exploitDis": "WordPress Really Simple Security plugin versions prior to 9.1.2 proof of concept authentication bypass exploit.",
+        "exploitName": " CVE-2024-10924",
+        "exploitQuickDis": "WordPress Really Simple Security Authentication Bypass",
+        "exploitTags": " exploit, proof of concept, bypass",
+        "exploitUrl": "https://packetstormsecurity.com/files/182700/WordPress-Really-Simple-Security-Authentication-Bypass.html"
+      }
+    },
+    " CVE-2024-11303": {
+      "exploit": {
+        "exploit": "eff7e4d263326b019575dc31027a65c20b18d4241b61e5bb7f9dcd9114150ac6",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182760/UAS-20241118-1.txt",
+        "exploitDate": " Nov 22, 2024",
+        "exploitDis": "Korenix JetPort 5601 version 1.2 suffers from a path traversal vulnerability.",
+        "exploitName": " CVE-2024-11303",
+        "exploitQuickDis": "Korenix JetPort 5601 1.2 Path Traversal",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182760/Korenix-JetPort-5601-1.2-Path-Traversal.html"
+      }
+    },
+    " CVE-2024-11304": {
+      "exploit": {
+        "exploit": "8a817f7a2f70f702d665df042fc9c3e7290ebdec05e9d80aed3e21cb27a39f2b",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182759/UAS-20241118-0.txt",
+        "exploitDate": " Nov 22, 2024",
+        "exploitDis": "SEH utnservyer Pro version 20.1.22 suffers from multiple persistent cross site scripting vulnerabilities.",
+        "exploitName": " CVE-2024-11304",
+        "exploitQuickDis": "SEH utnserver Pro 20.1.22 Cross Site Scripting",
+        "exploitTags": " exploit, vulnerability, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182759/SEH-utnserver-Pro-20.1.22-Cross-Site-Scripting.html"
+      }
+    },
+    " CVE-2024-1580": {
+      "exploit": {
+        "exploit": "2e6ee0c003e7075d02a19941dea59ff9838200ead28039478bb67d1a365c5bdc",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182123/GS2024100942451651.tgz",
+        "exploitDate": " Oct  9, 2024",
+        "exploitDis": "There is an integer overflow in dav1d when decoding an AV1 video with large width/height. The integer overflow may result in an out-of-bounds write.",
+        "exploitName": " CVE-2024-1580",
+        "exploitQuickDis": "dav1d Integer Overflow / Out-Of-Bounds Write",
+        "exploitTags": " exploit, overflow",
+        "exploitUrl": "https://packetstormsecurity.com/files/182123/dav1d-Integer-Overflow-Out-Of-Bounds-Write.html"
+      }
+    },
+    " CVE-2024-21455": {
+      "exploit": {
+        "exploit": "7ce3664c0a974696d288f060528f707f1555a333b471fe3ba0f054dda88b4c2a",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182180/GS2024101542451710.tgz",
+        "exploitDate": " Oct 15, 2024",
+        "exploitDis": "This bug was found in msm-5.15 using tag KERNEL.PLATFORM.2.1.r1-05400-kernel.0. The fastrpc_file struct contains a flag, is_compat, that is set if the 32-bit compat_ioctl vfs handler is ever called on a fastrpc file (e.g. by opening and ioctling on /dev/adsprpc-smd). This flag is later used inside of e.g. fastrpc_internal_invoke2's macro invocations of K_COPY_FROM_USER to make decisions about whether the provided pointer is a userland pointer or a kernel-land pointer. However, because the state for making this K_COPY_FROM_USER decision is stored within the broadly accessible fastrpc_file struct instead of stored per ioctl invocation, this means that 64-bit ioctl invocations of fastrpc_internal_invoke2 will use userland provided addresses as kernel pointers if the 32-bit ioctl interface of the same fastrpc_file was ever previously invoked. This leads directly to attacker-controlled reads of arbitrary kernel addresses.",
+        "exploitName": " CVE-2024-21455",
+        "exploitQuickDis": "msm 5.15 Arbitrary Kernel Address Access",
+        "exploitTags": " exploit, arbitrary, kernel",
+        "exploitUrl": "https://packetstormsecurity.com/files/182180/msm-5.15-Arbitrary-Kernel-Address-Access.html"
+      }
+    },
+    " CVE-2024-23600": {
+      "exploit": {
+        "exploit": "794244004a3908d9cf0034a1a70db151caa9281755a9275a47220eac8338d52f",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182457/SA-20241030-0.txt",
+        "exploitDate": " Nov  1, 2024",
+        "exploitDis": "Ping Identity PingIDM versions 7.0.0 through 7.5.0 enabled an attacker with read access to the User collection, to abuse API query filters in order to obtain managed and/or internal user's passwords in either plaintext or encrypted variants, based on configuration. The API clearly prevents the password in either plaintext or encrypted to be retrieved by any other means, as this field is set as protected under the User object. However, by injecting a malicious query filter, using password as the field to be filtered, an attacker can perform a blind brute-force on any victim's user password details (encrypted object or plaintext string).",
+        "exploitName": " CVE-2024-23600",
+        "exploitQuickDis": "Ping Identity PingIDM 7.5.0 Query Filter Injection",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182457/Ping-Identity-PingIDM-7.5.0-Query-Filter-Injection.html"
+      }
+    },
+    " CVE-2024-24809, CVE-2024-5910": {
+      "exploit": {
+        "exploit": "df2c6c91b0ec6249f500e20b70f386982ccf89ee425960ccceff8fd524cb14ff",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182665/paloalto_expedition_rce.rb.txt",
+        "exploitDate": " Nov 13, 2024",
+        "exploitDis": "This Metasploit module lets you obtain remote code execution in Palo Alto Expedition versions 1.2.91 and below. The first vulnerability, CVE-2024-5910, allows to reset the password of the admin user, and the second vulnerability, CVE-2024-9464, is an authenticated OS command injection. In a default installation, commands will get executed in the context of www-data. When credentials are provided, this module will only exploit the second vulnerability. If no credentials are provided, the module will first try to reset the admin password and then perform the OS command injection.",
+        "exploitName": " CVE-2024-24809, CVE-2024-5910",
+        "exploitQuickDis": "Palo Alto Expedition 1.2.91 Remote Code Execution",
+        "exploitTags": " exploit, remote, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/182665/Palo-Alto-Expedition-1.2.91-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-27954": {
+      "exploit": {
+        "exploit": "1e3ab221180e7f26ab2127194c4584fbb6f05727c5578c16eb87089046795a1e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182428/CVE-2024-27954-main.zip",
+        "exploitDate": " Oct 31, 2024",
+        "exploitDis": "WordPress Automatic plugin versions 3.92.0 and below proof of concept exploit that demonstrates path traversal and server-side request forgery vulnerabilities.",
+        "exploitName": " CVE-2024-27954",
+        "exploitQuickDis": "WordPress Automatic 3.92.0 Path Traversal / Server-Side Request Forgery",
+        "exploitTags": " exploit, vulnerability, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/182428/WordPress-Automatic-3.92.0-Path-Traversal-Server-Side-Request-Forgery.html"
+      }
+    },
+    " CVE-2024-27956": {
+      "exploit": {
+        "exploit": "ee57dce5428a24a7b498257e3bc5ee22dadff0bd6e92b4746a779384b38532cb",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182408/wp_automatic_sqli_to_rce.rb.txt",
+        "exploitDate": " Oct 30, 2024",
+        "exploitDis": "This Metasploit module exploits an unauthenticated SQL injection vulnerability in the WordPress wp-automatic plugin versions prior to 3.92.1 to achieve remote code execution. The vulnerability allows the attacker to inject and execute arbitrary SQL commands, which can be used to create a malicious administrator account. The password for the new account is hashed using MD5. Once the administrator account is created, the attacker can upload and execute a malicious plugin, leading to full control over the WordPress site.",
+        "exploitName": " CVE-2024-27956",
+        "exploitQuickDis": "WordPress WP-Automatic SQL Injection",
+        "exploitTags": " exploit, remote, arbitrary, code execution, sql injection",
+        "exploitUrl": "https://packetstormsecurity.com/files/182408/WordPress-WP-Automatic-SQL-Injection.html"
+      }
+    },
+    " CVE-2024-28116": {
+      "exploit": {
+        "exploit": "320840a574bd1e39d76e644a70206a220bf7e080390462bcc9fbdf69d6cd628a",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182033/GenGravSSTIExploit-main.zip",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "GenGravSSTIExploit is a proof of concept Python script that exploits an authenticated server-side template injection (SSTI) vulnerability in Grav CMS versions 1.7.44 and below. This vulnerability allows a user with editor permissions to execute OS commands on a remote server.",
+        "exploitName": " CVE-2024-28116",
+        "exploitQuickDis": "Grav CMS 1.7.44 Server-Side Template Injection",
+        "exploitTags": " exploit, remote, proof of concept, python",
+        "exploitUrl": "https://packetstormsecurity.com/files/182033/Grav-CMS-1.7.44-Server-Side-Template-Injection.html"
+      }
+    },
+    " CVE-2024-28185, CVE-2024-28189": {
+      "exploit": {
+        "exploit": "a1ba2cf035b4baf95b438349ee60b5d61abfbe14ea74073871109b698ce41265",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182718/judge0_sandbox_escape_cve_2024_28189.rb.txt",
+        "exploitDate": " Nov 21, 2024",
+        "exploitDis": "Judge0 does not account for symlinks placed inside the sandbox directory, which can be leveraged by an attacker to write to arbitrary files and gain code execution outside of the sandbox.",
+        "exploitName": " CVE-2024-28185, CVE-2024-28189",
+        "exploitQuickDis": "Judge0 Sandbox Escape",
+        "exploitTags": " exploit, arbitrary, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/182718/Judge0-Sandbox-Escape.html"
+      }
+    },
+    " CVE-2024-28397, CVE-2024-39205": {
+      "exploit": {
+        "exploit": "80427d657de061fee48a9f5adbb6c131d9fca4ddd53f67cf67ca1b3ed439fddd",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182692/pyload_js2py_cve_2024_39205.rb.txt",
+        "exploitDate": " Nov 18, 2024",
+        "exploitDis": "CVE-2024-28397 is a sandbox escape in js2py versions 0.74 and below. js2py is a popular python package that can evaluate javascript code inside a python interpreter. The vulnerability allows for an attacker to obtain a reference to a python object in the js2py environment enabling them to escape the sandbox, bypass pyimport restrictions and execute arbitrary commands on the host. At the time of this writing no patch has been released and version 0.74 is the latest version of js2py which was released Nov 6, 2022. CVE-2024-39205 is a remote code execution vulnerability in Pyload versions 0.5.0b3.dev85 and below. It is an open-source download manager designed to automate file downloads from various online sources. Pyload is vulnerable because it exposes the vulnerable js2py functionality mentioned above on the /flash/addcrypted2 API endpoint. This endpoint was designed to only accept connections from localhost but by manipulating the HOST header we can bypass this restriction in order to access the API to achieve unauthenticated remote code execution.",
+        "exploitName": " CVE-2024-28397, CVE-2024-39205",
+        "exploitQuickDis": "Pyload Remote Code Execution",
+        "exploitTags": " exploit, remote, arbitrary, javascript, code execution, python",
+        "exploitUrl": "https://packetstormsecurity.com/files/182692/Pyload-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-2961, CVE-2024-34102": {
+      "exploit": {
+        "exploit": "f1b5cba01a5fd2ecef43b7a58280b21a88a3060e64cb2735247437f0ade78ff4",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182289/magento_xxe_to_glibc_buf_overflow.rb.txt",
+        "exploitDate": " Oct 18, 2024",
+        "exploitDis": "This Metasploit module uses a combination of an arbitrary file read (CVE-2024-34102) and a buffer overflow in glibc (CVE-2024-2961). It allows for unauthenticated remote code execution on various versions of Magento and Adobe Commerce (and earlier versions if the PHP and glibc versions are also vulnerable). Versions affected include 2.4.7 and earlier, 2.4.6-p5 and earlier, 2.4.5-p7 and earlier, and 2.4.4-p8 and earlier.",
+        "exploitName": " CVE-2024-2961, CVE-2024-34102",
+        "exploitQuickDis": "Magento / Adobe Commerce Remote Code Execution",
+        "exploitTags": " exploit, remote, overflow, arbitrary, php, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/182289/Magento-Adobe-Commerce-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-31484": {
+      "exploit": {
+        "exploit": "2548118a58dbb542f0442a86dacdd111ecd924baf60c89a6f4e26ee673279da0",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182911/SA-20241125-0.txt",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "Various Siemens products suffer from vulnerabilities. There is an unlocked JTAG Interface for Zynq-7000 on SM-2558 and a buffer overflow on the webserver of the SM-2558, CP-2016, and CP-2019 systems.",
+        "exploitName": " CVE-2024-31484",
+        "exploitQuickDis": "Siemens Unlocked JTAG Interface / Buffer Overflow",
+        "exploitTags": " exploit, overflow, vulnerability",
+        "exploitUrl": "https://packetstormsecurity.com/files/182911/Siemens-Unlocked-JTAG-Interface-Buffer-Overflow.html"
+      }
+    },
+    " CVE-2024-31871, CVE-2024-31872, CVE-2024-31873, CVE-2024-31874": {
+      "exploit": {
+        "exploit": "938bde01e4fdd9ce1c3698333190a685348457736b7db8df0f3db5ed879e5675",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182465/2024-ibmsecurity.txt",
+        "exploitDate": " Nov  4, 2024",
+        "exploitDis": "IBM Security Verify Access Appliance suffers from multiple insecure transit vulnerabilities, hardcoded passwords, and uninitialized variables. ibmsecurity versions prior to 2024.4.5 are affected.",
+        "exploitName": " CVE-2024-31871, CVE-2024-31872, CVE-2024-31873, CVE-2024-31874",
+        "exploitQuickDis": "IBM Security Verify Access Appliance Insecure Transit / Hardcoded Passwords",
+        "exploitTags": " exploit, vulnerability",
+        "exploitUrl": "https://packetstormsecurity.com/files/182465/IBM-Security-Verify-Access-Appliance-Insecure-Transit-Hardcoded-Passwords.html"
+      }
+    },
+    " CVE-2024-33060": {
+      "exploit": {
+        "exploit": "f676785fdf4478de819b5665c9ba33c67535e75932f2e0c3889dcb7a0811f410",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181999/GS2024100442451715.tgz",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "A condition exists when fastrpc_mmap_create creates a new globally visible mapping that can lead to a use-after-free.",
+        "exploitName": " CVE-2024-33060",
+        "exploitQuickDis": "fastrpc_mmap_create Use-After-Free",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181999/fastrpc_mmap_create-Use-After-Free.html"
+      }
+    },
+    " CVE-2024-35133": {
+      "exploit": {
+        "exploit": "a500a745e7c7c466abf142ddd6e71012e70518f4c0a88fbc922748f51623b6fb",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182287/ibmsva1008-redirect.txt",
+        "exploitDate": " Oct 18, 2024",
+        "exploitDis": "IBM Security Verify Access versions 10.0.0 through 10.0.8 suffer from an OAUTH related open redirection vulnerability.",
+        "exploitName": " CVE-2024-35133",
+        "exploitQuickDis": "IBM Security Verify Access 10.0.8 Open Redirection",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182287/IBM-Security-Verify-Access-10.0.8-Open-Redirection.html"
+      }
+    },
+    " CVE-2024-35214": {
+      "exploit": {
+        "exploit": "0a06d0ec45010ea8b159f9d5f9a891450ce9117faadcb6b526ef6e7aa21a7451",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181909/SA-20240925-0.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "BlackBerry CylanceOPTICS versions prior to 3.3 MR2 and 3.2 MR5 suffer from an uninstall password bypass vulnerability.",
+        "exploitName": " CVE-2024-35214",
+        "exploitQuickDis": "BlackBerry CylanceOPTICS Uninstall Password Bypass",
+        "exploitTags": " exploit, bypass",
+        "exploitUrl": "https://packetstormsecurity.com/files/181909/BlackBerry-CylanceOPTICS-Uninstall-Password-Bypass.html"
+      }
+    },
+    " CVE-2024-35288": {
+      "exploit": {
+        "exploit": "a84e46e6f47edcfa84a24b20d405dc9009aef6635aeed2d4103f5c1e3b453e54",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181954/SA-20240930-0.txt",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "The Nitro PDF Pro application uses a .msi installer file (embedded into an executable .exe installer file) for installation. The MSI installer uses custom actions in repair mode in an unsafe way. Attackers with low-privileged system access to a Windows system where Nitro PDF Pro is installed, can exploit the cached MSI installer's custom actions to effectively escalate privileges and get a command prompt running in context of NT AUTHORITY\\SYSTEM. Versions prior to 14.26.1.0 and 13.70.8.82 and affected.",
+        "exploitName": " CVE-2024-35288",
+        "exploitQuickDis": "Nitro PDF Pro Local Privilege Escalation",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181954/Nitro-PDF-Pro-Local-Privilege-Escalation.html"
+      }
+    },
+    " CVE-2024-37383": {
+      "exploit": {
+        "exploit": "dc71460d24c437cda38fd047a0e4e29cce5e5d6c2af3bf1147fa95b383f6f0a8",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182334/CVE-2024-37383-POC-main.zip",
+        "exploitDate": " Oct 24, 2024",
+        "exploitDis": "Roundcube Webmail versions prior to 1.5.7 and 1.6.x prior to 1.6.7 allows cross site scripting via SVG animate attributes.",
+        "exploitName": " CVE-2024-37383",
+        "exploitQuickDis": "Roundcube Webmail Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182334/Roundcube-Webmail-Cross-Site-Scripting.html"
+      }
+    },
+    " CVE-2024-38200": {
+      "exploit": {
+        "exploit": "a515b741cb4fdee423e7ca948fc50654803bd1c926175eccc8866a749034e338",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181971/msontlmv2-disclose.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Microsoft Office 2019 MSO build 1808 (16.0.10411.20011) and Microsoft 365 MSO version 2403 build 16.0.17425.20176 suffer from an NTLMv2 hash disclosure vulnerability.",
+        "exploitName": " CVE-2024-38200",
+        "exploitQuickDis": "Microsoft Office NTLMv2 Disclosure",
+        "exploitTags": " exploit, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/181971/Microsoft-Office-NTLMv2-Disclosure.html"
+      }
+    },
+    " CVE-2024-38876, CVE-2024-38877, CVE-2024-38878, CVE-2024-38879": {
+      "exploit": {
+        "exploit": "f3ace4f4cb5b84a560a9593357976ec236f7e116327a16dffefa142cb8440217",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182667/SA-20241112-0.txt",
+        "exploitDate": " Nov 14, 2024",
+        "exploitDis": "Siemens Energy Omnivise T3000 version 8.2 SP3 suffers from local privilege escalation, cleartext storage of passwords in configuration and log files, file system access allowing for arbitrary file download, and IP whitelist bypass.",
+        "exploitName": " CVE-2024-38876, CVE-2024-38877, CVE-2024-38878, CVE-2024-38879",
+        "exploitQuickDis": "Siemens Energy Omnivise T3000 8.2 SP3 Privilege Escalation / File Download",
+        "exploitTags": " exploit, arbitrary, local",
+        "exploitUrl": "https://packetstormsecurity.com/files/182667/Siemens-Energy-Omnivise-T3000-8.2-SP3-Privilege-Escalation-File-Download.html"
+      }
+    },
+    " CVE-2024-4007": {
+      "exploit": {
+        "exploit": "77c571a0aaea9e72f54148bf830ecd55a32afc329d2af950110f41d58c705470",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181853/ZSL-2024-5830.txt",
+        "exploitDate": " Sep 26, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.07.01 BMS/BAS controller is operating with default and hard-coded credentials contained in install package while exposed to the Internet.",
+        "exploitName": " CVE-2024-4007",
+        "exploitQuickDis": "ABB Cylon Aspect 3.07.01 Hard-Coded Credentials",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181853/ABB-Cylon-Aspect-3.07.01-Hard-Coded-Credentials.html"
+      }
+    },
+    " CVE-2024-42365": {
+      "exploit": {
+        "exploit": "aaa85ef431233c3a1132d94aecb8ae125513ea2870cf4cccc7e2d15d096664fb",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182935/asterisk_ami_originate_auth_rce.rb.txt",
+        "exploitDate": " Dec  3, 2024",
+        "exploitDis": "On Asterisk, prior to versions 18.24.2, 20.9.2, and 21.4.2 and certified-asterisk versions 18.9-cert11 and 20.7-cert2, an AMI user with write=originate may change all configuration files in the /etc/asterisk/ directory. Writing a new extension can be created which performs a system command to achieve RCE as the asterisk service user (typically asterisk). Default parking lot in FreePBX is called \"Default lot\" on the website interface, however its actually parkedcalls. Tested against Asterisk 19.8.0 and 18.16.0 on Freepbx SNG7-PBX16-64bit-2302-1.",
+        "exploitName": " CVE-2024-42365",
+        "exploitQuickDis": "Asterisk AMI Originate Authenticated Remote Code Execution",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182935/Asterisk-AMI-Originate-Authenticated-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-44193": {
+      "exploit": {
+        "exploit": "d695b4f1b1028346552105f4ee8239edee8add156e7b797895b5d5337070f75f",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182031/CVE-2024-44193-main.zip",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "This is a thorough write up of how to exploit a local privilege escalation vulnerability in iTunes for Windows version 12.13.2.3. Apple fixed this in version 12.13.3.",
+        "exploitName": " CVE-2024-44193",
+        "exploitQuickDis": "iTunes For Windows 12.13.2.3 Local Privilege Escalation",
+        "exploitTags": " exploit, local",
+        "exploitUrl": "https://packetstormsecurity.com/files/182031/iTunes-For-Windows-12.13.2.3-Local-Privilege-Escalation.html"
+      }
+    },
+    " CVE-2024-45256, CVE-2024-45257": {
+      "exploit": {
+        "exploit": "79a52f4825a37f1f32b41c75c5291bce58103929d4c86cd602c2497b8eff4236",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182256/byob_unauth_rce.rb.txt",
+        "exploitDate": " Oct 16, 2024",
+        "exploitDis": "This Metasploit module exploits two vulnerabilities in the BYOB (Build Your Own Botnet) web GUI. It leverages an unauthenticated arbitrary file write that allows modification of the SQLite database, adding a new admin user. It also uses an authenticated command injection in the payload generation page. These vulnerabilities remain unpatched.",
+        "exploitName": " CVE-2024-45256, CVE-2024-45257",
+        "exploitQuickDis": "BYOB Unauthenticated Remote Code Execution",
+        "exploitTags": " exploit, web, arbitrary, vulnerability",
+        "exploitUrl": "https://packetstormsecurity.com/files/182256/BYOB-Unauthenticated-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-45409": {
+      "exploit": {
+        "exploit": "d08713f2b53b8375bee1c935a8aa40df427334d91a9660f64086fe0c225c0c55",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182032/CVE-2024-45409-main.zip",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "This script exploits the issue noted in CVE-2024-45409 that allows an unauthenticated attacker with access to any signed SAML document issued by the IDP to forge a SAML Response/Assertion and gain access as any user on GitLab. Ruby-SAML versions below or equal to 12.2 and versions 1.13.0 through 1.16.0 do not properly verify the signature of the SAML Response.",
+        "exploitName": " CVE-2024-45409",
+        "exploitQuickDis": "Ruby-SAML / GitLab Authentication Bypass",
+        "exploitTags": " exploit, ruby",
+        "exploitUrl": "https://packetstormsecurity.com/files/182032/Ruby-SAML-GitLab-Authentication-Bypass.html"
+      }
+    },
+    " CVE-2024-4577": {
+      "exploit": {
+        "exploit": "a6b63ce9c93a3021236a9a584571d58798fe9d500b30228bb2141feca495c4d9",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182663/CVE-2024-4577-RCE-PoC-main.zip",
+        "exploitDate": " Nov 14, 2024",
+        "exploitDis": "Proof of concept remote code execution exploit for PHP-CGI that affects versions 8.1 before 8.1.29, 8.2 before 8.2.20, and 8.3 before 8.3.8.",
+        "exploitName": " CVE-2024-4577",
+        "exploitQuickDis": "PHP-CGI Argument Injection Remote Code Execution",
+        "exploitTags": " exploit, remote, cgi, php, code execution, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/182663/PHP-CGI-Argument-Injection-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-45873": {
+      "exploit": {
+        "exploit": "378aa772f21ffc902834ecaa037a742ac5bf2f8dbac879f976178e59558b4845",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181912/vegabirdyaazhini202-dllhijack.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "VegaBird Yaazhini version 2.0.2 suffers from a dll hijacking vulnerability.",
+        "exploitName": " CVE-2024-45873",
+        "exploitQuickDis": "VegaBird Yaazhini 2.0.2 DLL Hijacking",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181912/VegaBird-Yaazhini-2.0.2-DLL-Hijacking.html"
+      }
+    },
+    " CVE-2024-45874": {
+      "exploit": {
+        "exploit": "c5f33bc21c9e871866fcbc9aa668c73fe0ec052f868a7c993eb644b8d7aa159e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181913/vegabirdvooki529-dllhijack.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "VegaBird Vooki version 5.2.9 suffers from a dll hijacking vulnerability.",
+        "exploitName": " CVE-2024-45874",
+        "exploitQuickDis": "VegaBird Vooki 5.2.9 DLL Hijacking",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181913/VegaBird-Vooki-5.2.9-DLL-Hijacking.html"
+      }
+    },
+    " CVE-2024-46409": {
+      "exploit": {
+        "exploit": "75d46808d529b03da78981fcc0f2145d72906b8de2ab27a0228bbdeb84460b97",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181974/seeddms6028-xss.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "SeedDMS version 6.0.28 suffers from a persistent cross site scripting vulnerability.",
+        "exploitName": " CVE-2024-46409",
+        "exploitQuickDis": "SeedDMS 6.0.28 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/181974/SeedDMS-6.0.28-Cross-Site-Scripting.html"
+      }
+    },
+    " CVE-2024-46538": {
+      "exploit": {
+        "exploit": "8ffa9a2a9e36932b192f5259bd78d63cc5dfdd4bd174ea8cf7e0b3c07013638f",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182333/CVE-2024-46538-main.zip",
+        "exploitDate": " Oct 24, 2024",
+        "exploitDis": "A cross site scripting vulnerability in pfsense version 2.5.2 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the $pconfig variable at interfaces_groups_edit.php.",
+        "exploitName": " CVE-2024-46538",
+        "exploitQuickDis": "pfSense 2.5.2 Cross Site Scripting",
+        "exploitTags": " exploit, web, arbitrary, php, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182333/pfSense-2.5.2-Cross-Site-Scripting.html"
+      }
+    },
+    " CVE-2024-47076, CVE-2024-47175, CVE-2024-47176, CVE-2024-47177": {
+      "exploit": {
+        "exploit": "16431cc7dbb038947f886cccbda9ff1e8abb4ffdc1cbb4066839871766422f13",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182767/cups_ipp_remote_code_execution.rb.txt",
+        "exploitDate": " Nov 22, 2024",
+        "exploitDis": "This Metasploit module exploits vulnerabilities in OpenPrinting CUPS, which is running by default on most Linux distributions. The vulnerabilities allow an attacker on the LAN to advertise a malicious printer that triggers remote code execution when a victim sends a print job to the malicious printer. Successful exploitation requires user interaction, but no CUPS services need to be reachable via accessible ports. Code execution occurs in the context of the lp user. Affected versions are cups-browsed less than or equal to 2.0.1, libcupsfilters versions 2.1b1 and below, libppd versions 2.1b1 and below, and cups-filters versions 2.0.1 and below.",
+        "exploitName": " CVE-2024-47076, CVE-2024-47175, CVE-2024-47176, CVE-2024-47177",
+        "exploitQuickDis": "CUPS IPP Attributes LAN Remote Code Execution",
+        "exploitTags": " exploit, remote, vulnerability, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/182767/CUPS-IPP-Attributes-LAN-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-47176": {
+      "exploit": {
+        "exploit": "f82d269469017149bbd434de30b07d4526663090bd5e3ba7fda438e2b9fa9ee7",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181978/CVE-2024-47176-CUPS-main.zip",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Proof of concept remote command execution exploit for CUPS that leverages the vulnerability outlined in CVE-2024-47176.",
+        "exploitName": " CVE-2024-47176",
+        "exploitQuickDis": "CUPS Arbitrary Command Execution",
+        "exploitTags": " exploit, remote, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/181978/CUPS-Arbitrary-Command-Execution.html"
+      }
+    },
+    " CVE-2024-47575": {
+      "exploit": {
+        "exploit": "b2e54e731409406acb805cc0ea0c9c798ab91d51bdf54a68cbbb6a2b772f054f",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182936/fortimanager_rce_cve_2024_47575.rb.txt",
+        "exploitDate": " Dec  3, 2024",
+        "exploitDis": "This Metasploit module exploits a missing authentication vulnerability affecting FortiManager and FortiManager Cloud devices to achieve unauthenticated RCE with root privileges. The vulnerable FortiManager versions are 7.6.0, 7.4.0 through 7.4.4, 7.2.0 through 7.2.7, 7.0.0 through 7.0.12, 6.4.0 through 6.4.14, and 6.2.0 through 6.2.12. The vulnerable FortiManager Cloud versions are 7.4.1 through 7.4.4, 7.2.1 through 7.2.7, 7.0.1 through 7.0.12, and 6.4 (all versions).",
+        "exploitName": " CVE-2024-47575",
+        "exploitQuickDis": "Fortinet FortiManager Unauthenticated Remote Code Execution",
+        "exploitTags": " exploit, root",
+        "exploitUrl": "https://packetstormsecurity.com/files/182936/Fortinet-FortiManager-Unauthenticated-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-47674": {
+      "exploit": {
+        "exploit": "9954c73a5d4b25cfd2ae71c579096d9048f40475e6683e174f991dae3312c11d",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182298/GS20241022366053091.tgz",
+        "exploitDate": " Oct 22, 2024",
+        "exploitDis": "An error path in usbdev_mmap() (where remap_pfn_range() fails midway through) frees pages before the PFN mapping pointing to those pages is cleaned up, making physical page use-after-free possible. Some other drivers look like they might have similar issues.",
+        "exploitName": " CVE-2024-47674",
+        "exploitQuickDis": "Linux Dangling PFN Mapping / Use-After-Free",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182298/Linux-Dangling-PFN-Mapping-Use-After-Free.html"
+      }
+    },
+    " CVE-2024-47943, CVE-2024-47944, CVE-2024-47945": {
+      "exploit": {
+        "exploit": "24d8219a6f5e71cab30605ff318d56d4c733756ce0d70e61bb19f0186edec9fd",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182293/SA-20241015-0.tgz",
+        "exploitDate": " Oct 21, 2024",
+        "exploitDis": "Rittal IoT Interface and CMC III Processing Unit versions prior to 6.21.00.2 suffer from improper signature verification and predictable session identifier vulnerabilities.",
+        "exploitName": " CVE-2024-47943, CVE-2024-47944, CVE-2024-47945",
+        "exploitQuickDis": "Rittal IoT Interface / CMC III Processing Unit Signature Verification / Session ID",
+        "exploitTags": " exploit, vulnerability",
+        "exploitUrl": "https://packetstormsecurity.com/files/182293/Rittal-IoT-Interface-CMC-III-Processing-Unit-Signature-Verification-Session-ID.html"
+      }
+    },
+    " CVE-2024-48360": {
+      "exploit": {
+        "exploit": "2734b6bfa47ec29cef2a7ccb822c9b086285ff3cc271ca8735d81e8e43bcb1c6",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182427/qualitor824-ssrf.txt",
+        "exploitDate": " Oct 31, 2024",
+        "exploitDis": "Qualitor versions 8.24 and below suffer from an unauthenticated server-side request forgery vulnerability.",
+        "exploitName": " CVE-2024-48360",
+        "exploitQuickDis": "Qualitor 8.24 Server-Side Request Forgery",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182427/Qualitor-8.24-Server-Side-Request-Forgery.html"
+      }
+    },
+    " CVE-2024-48605": {
+      "exploit": {
+        "exploit": "c948a58766be8e07099dc1e1402078c875f9a5c41b2c068d990631f3151d4322",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182336/HelakuruV.1.1-DLLHijack-main.zip",
+        "exploitDate": " Oct 24, 2024",
+        "exploitDis": "Helakuru version 1.1 suffers from a dll hijacking vulnerability.",
+        "exploitName": " CVE-2024-48605",
+        "exploitQuickDis": "Helakuru 1.1 DLL Hijacking",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182336/Helakuru-1.1-DLL-Hijacking.html"
+      }
+    },
+    " CVE-2024-48914": {
+      "exploit": {
+        "exploit": "44947878b2d27713e2c8036a90034febca1e8b498dc37d99f640f1008b48d55c",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182337/CVE-2024-48914-main.zip",
+        "exploitDate": " Oct 24, 2024",
+        "exploitDis": "Vendure is an open-source headless commerce platform. Prior to versions 3.0.5 and 2.3.3, a vulnerability in Vendure's asset server plugin allows an attacker to craft a request which is able to traverse the server file system and retrieve the contents of arbitrary files, including sensitive data such as configuration files, environment variables, and other critical data stored on the server. In the same code path is an additional vector for crashing the server via a malformed URI. Patches are available in versions 3.0.5 and 2.3.3. Some workarounds are also available. One may use object storage rather than the local file system, e.g. MinIO or S3, or define middleware which detects and blocks requests with urls containing /../.",
+        "exploitName": " CVE-2024-48914",
+        "exploitQuickDis": "Vendure Arbitrary File Read / Denial Of Service",
+        "exploitTags": " exploit, arbitrary, local",
+        "exploitUrl": "https://packetstormsecurity.com/files/182337/Vendure-Arbitrary-File-Read-Denial-Of-Service.html"
+      }
+    },
+    " CVE-2024-4956": {
+      "exploit": {
+        "exploit": "7953ed58bed5f6048147e1e265c48f79b4f9e70263b7925e4ef0a3569eaff033",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181887/CVE-2024-4956-Bulk-Scanner-main.zip",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "This scanner helps security enthusiasts to scan for a path traversal vulnerability in Nexus Repository targets in bulk. The scanner will show the number of targets loaded and the state of the current scanning. The URLs will be listed with three status messages: Timeout, Fail, or Success, based on the results.",
+        "exploitName": " CVE-2024-4956",
+        "exploitQuickDis": "Nexus Repository Traversal Scanner",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181887/Nexus-Repository-Traversal-Scanner.html"
+      }
+    },
+    " CVE-2024-50066": {
+      "exploit": {
+        "exploit": "d415d186ac0cd0e8590e6af8e512c75a753a301cb3c1ff5d14ad6ae5cf28a43e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182761/GS20241122371047675.txt",
+        "exploitDate": " Nov 22, 2024",
+        "exploitDis": "A security-relevant race between mremap() and THP code has been discovered. Reaching the buggy code typically requires the ability to create unprivileged namespaces. The bug leads to installing physical address 0 as a page table, which is likely exploitable in several ways: For example, triggering the bug in multiple processes can probably lead to unintended page table sharing, which probably can lead to stale TLB entries pointing to freed pages.",
+        "exploitName": " CVE-2024-50066",
+        "exploitQuickDis": "Linux 6.6 Race Condition",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182761/Linux-6.6-Race-Condition.html"
+      }
+    },
+    " CVE-2024-50483": {
+      "exploit": {
+        "exploit": "89ac429be4764b94bf641a570c41c31bddf5b9a683ddf1aeac67f0ca453b0bb8",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182540/wpmeetup01-bypass.txt",
+        "exploitDate": " Nov  7, 2024",
+        "exploitDis": "WordPress Meetup plugin versions 0.1 and below suffer from an authentication bypass vulnerability.",
+        "exploitName": " CVE-2024-50483",
+        "exploitQuickDis": "WordPress Meetup 0.1 Authentication Bypass",
+        "exploitTags": " exploit, bypass",
+        "exploitUrl": "https://packetstormsecurity.com/files/182540/WordPress-Meetup-0.1-Authentication-Bypass.html"
+      }
+    },
+    " CVE-2024-50588, CVE-2024-50589, CVE-2024-50590, CVE-2024-50591, CVE-2024-50592, CVE-2024-50593": {
+      "exploit": {
+        "exploit": "08569aaf8d9ee2326579f45288b32f5dc1f2f9623687358b993634b1d5424d28",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182564/SA-20241107-0.tgz",
+        "exploitDate": " Nov 11, 2024",
+        "exploitDis": "HASOMED Elefant versions prior to 24.04.00 and Elefant Software Updater versions prior to 1.4.2.1811 suffer from having an unprotected exposed firebird database, unprotected FHIR API, multiple local privilege escalation, and hardcoded service password vulnerabilities.",
+        "exploitName": " CVE-2024-50588, CVE-2024-50589, CVE-2024-50590, CVE-2024-50591, CVE-2024-50592, CVE-2024-50593",
+        "exploitQuickDis": "HASOMED Elefant / Elefant Software Updater Data Exposure / Privilege Escalation ",
+        "exploitTags": " exploit, local, vulnerability",
+        "exploitUrl": "https://packetstormsecurity.com/files/182564/HASOMED-Elefant-Elefant-Software-Updater-Data-Exposure-Privilege-Escalation.html"
+      }
+    },
+    " CVE-2024-51378": {
+      "exploit": {
+        "exploit": "f67f580b585c400ff03b025158d51ee9a118eeef098fff7d55b85a53e5841da2",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182426/CVE-2024-51378-main.zip",
+        "exploitDate": " Oct 31, 2024",
+        "exploitDis": "Proof of concept exploit for a command injection vulnerability in CyberPanel. This vulnerability enables unauthenticated attackers to inject and execute arbitrary commands on vulnerable servers by sending crafted OPTIONS HTTP requests to /dns/getresetstatus and /ftp/getresetstatus endpoints, potentially leading to full system compromise. Versions prior to 1c0c6cb appear to be affected.",
+        "exploitName": " CVE-2024-51378",
+        "exploitQuickDis": "CyberPanel Command Injection",
+        "exploitTags": " exploit, web, arbitrary, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/182426/CyberPanel-Command-Injection.html"
+      }
+    },
+    " CVE-2024-51567": {
+      "exploit": {
+        "exploit": "cc940e99f4e4ef4ac83ab7b84fe7d3f90ff95549ed54049913abec4f7582bf85",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182539/cyberpanel-exec.txt",
+        "exploitDate": " Nov  7, 2024",
+        "exploitDis": "Proof of concept remote command execution exploit for CyberPanel versions prior to 5b08cd6.",
+        "exploitName": " CVE-2024-51567",
+        "exploitQuickDis": "CyberPanel upgrademysqlstatus Arbitrary Command Execution",
+        "exploitTags": " exploit, remote, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/182539/CyberPanel-upgrademysqlstatus-Arbitrary-Command-Execution.html"
+      }
+    },
+    " CVE-2024-52951": {
+      "exploit": {
+        "exploit": "21bc2c1e539b8a5607d4a48de50177b06e6278b2748ca285f7f06ff1a7f48244",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182912/SA-20241127-0.txt",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "Omada Identity versions prior to 15U1 and 14.14 hotfix #309 suffer from a persistent cross site scripting vulnerability.",
+        "exploitName": " CVE-2024-52951",
+        "exploitQuickDis": "Omada Identity Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182912/Omada-Identity-Cross-Site-Scripting.html"
+      }
+    },
+    " CVE-2024-6049": {
+      "exploit": {
+        "exploit": "c18cccb57ae432730736be838aa523a61b4c399f5a63219e85830fc46a5d262c",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182347/SA-20241024-0.txt",
+        "exploitDate": " Oct 25, 2024",
+        "exploitDis": "Lawo AG vsm LTC Time Sync versions prior to 4.5.6.0 suffer from a path traversal vulnerability.",
+        "exploitName": " CVE-2024-6049",
+        "exploitQuickDis": "Lawo AG vsm LTC Time Sync Path Traversal",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182347/Lawo-AG-vsm-LTC-Time-Sync-Path-Traversal.html"
+      }
+    },
+    " CVE-2024-6333": {
+      "exploit": {
+        "exploit": "560ebed6d4ac441b5c221ab45725cf6200de08900c517d47576960db33ef2183",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182371/SA-20241023-0.txt",
+        "exploitDate": " Oct 29, 2024",
+        "exploitDis": "Various Xerox printers, such as models EC80xx, AltaLink, VersaLink, and WorkCentre, suffer from an authenticated remote code execution vulnerability.",
+        "exploitName": " CVE-2024-6333",
+        "exploitQuickDis": "Xerox Printers Authenticated Remote Code Execution",
+        "exploitTags": " exploit, remote, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/182371/Xerox-Printers-Authenticated-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-7479, CVE-2024-7481": {
+      "exploit": {
+        "exploit": "8e84c906525cb3028d5e2434a5ce1ee9c2d79ef078f6024e17e16888fa959853",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182012/CVE-2024-7479_CVE-2024-7481-main.zip",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "Proof of concept code for a flaw in TeamViewer that enables an unprivileged user to load an arbitrary kernel driver into the system.",
+        "exploitName": " CVE-2024-7479, CVE-2024-7481",
+        "exploitQuickDis": "TeamViewer Privilege Escalation",
+        "exploitTags": " exploit, arbitrary, kernel, proof of concept",
+        "exploitUrl": "https://packetstormsecurity.com/files/182012/TeamViewer-Privilege-Escalation.html"
+      }
+    },
+    " CVE-2024-8504": {
+      "exploit": {
+        "exploit": "2328f6faa4b6ae3ca330a27bb8694e1604bd747c455740abb7e147c4bd02a379",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181953/vicidial_agent_authenticated_rce.rb.txt",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "An attacker with authenticated access to VICIdial as an \"agent\" can execute arbitrary shell commands as the \"root\" user. This attack can be chained with CVE-2024-8503 to execute arbitrary shell commands starting from an unauthenticated perspective.",
+        "exploitName": " CVE-2024-8504",
+        "exploitQuickDis": "VICIdial Authenticated Remote Code Execution",
+        "exploitTags": " exploit, arbitrary, shell, root",
+        "exploitUrl": "https://packetstormsecurity.com/files/181953/VICIdial-Authenticated-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-9014": {
+      "exploit": {
+        "exploit": "518f56e4049ab1c116b1d55d1a7662e998277cad57c401bcecbaa7035abe00a8",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181851/CVE-2024-9014-main.zip",
+        "exploitDate": " Sep 26, 2024",
+        "exploitDis": "pgAdmin versions 8.11 and earlier are vulnerable to a security flaw in OAuth2 authentication. This vulnerability allows an attacker to potentially obtain the client ID and secret, leading to unauthorized access to user data.",
+        "exploitName": " CVE-2024-9014",
+        "exploitQuickDis": "pgAdmin 8.11 Information Disclosure",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181851/pgAdmin-8.11-Information-Disclosure.html"
+      }
+    },
+    " CVE-2024-9264": {
+      "exploit": {
+        "exploit": "6c3c16d85296d769a797c9f8ac23b3a50fdbb1f53c416a6022ded19352c4bb10",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182335/CVE-2024-9264-RCE-Exploit-main.zip",
+        "exploitDate": " Oct 24, 2024",
+        "exploitDis": "This repository contains a Python script that exploits a remote code execution vulnerability in Grafana's SQL Expressions feature. By leveraging insufficient input sanitization, this exploit allows an attacker to execute arbitrary shell commands on the server. This is made possible through the shellfs community extension, which can be installed and loaded by an attacker to facilitate command execution.",
+        "exploitName": " CVE-2024-9264",
+        "exploitQuickDis": "Grafana Remote Code Execution",
+        "exploitTags": " exploit, remote, arbitrary, shell, code execution, python",
+        "exploitUrl": "https://packetstormsecurity.com/files/182335/Grafana-Remote-Code-Execution.html"
+      }
+    },
+    " CVE-2024-9473": {
+      "exploit": {
+        "exploit": "bdf5f12114d9810353407e9bf2aa69dff68a900d64bc056a6fe658b1f27ea756",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182142/SA-20241009-0.txt",
+        "exploitDate": " Oct 10, 2024",
+        "exploitDis": "Palo Alto Networks GlobalProtect versions 5.1.x, 5.2.x, 6.0.x, 6.1.x, 6.3.x and versions less than 6.2.5 suffer from a local privilege escalation vulnerability.",
+        "exploitName": " CVE-2024-9473",
+        "exploitQuickDis": "Palo Alto Networks GlobalProtect Local Privilege Escalation",
+        "exploitTags": " exploit, local",
+        "exploitUrl": "https://packetstormsecurity.com/files/182142/Palo-Alto-Networks-GlobalProtect-Local-Privilege-Escalation.html"
+      }
+    },
+    "202409-exploits": {
+      "exploit": {
+        "exploit": "8e55d45d17c797a008c2549c382151243f42b03a5be9b34ae0965c6b1d014788",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181955/202409-exploits.tgz",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "This archive contains all of the 522 exploits added to Packet Storm in September, 2024. Please note the increase in size for this month is due to a massive backlog of older exploits being added to the archive and is not representative of an uptick in new issues being discovered.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Packet Storm New Exploits For September, 2024",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181955/Packet-Storm-New-Exploits-For-September-2024.html"
+      }
+    },
+    "202410-exploits": {
+      "exploit": {
+        "exploit": "c5d403957b806b59fb6166e8d1326d5963ba8bbcdb7a6478a93b1ba29c457234",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182458/202410-exploits.tgz",
+        "exploitDate": " Nov  1, 2024",
+        "exploitDis": "This archive contains all of the 128 exploits added to Packet Storm in October, 2024.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Packet Storm New Exploits For October, 2024",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182458/Packet-Storm-New-Exploits-For-October-2024.html"
+      }
+    },
+    "GS20241104372435124": {
+      "exploit": {
+        "exploit": "7e10b24906e04816e624fc48916e56477f071a9fab7ccffed58b4658d09bf483",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182463/GS20241104372435124.txt",
+        "exploitDate": " Nov  4, 2024",
+        "exploitDis": "SQLite3 suffers from a stack buffer underflow condition in seriesBestIndex in the generate_series extension.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SQLite3 generate_series Stack Buffer Underflow",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182463/SQLite3-generate_series-Stack-Buffer-Underflow.html"
+      }
+    },
+    "GS2024120242451721": {
+      "exploit": {
+        "exploit": "f5d5e8258c287b17deb1dcd5e1d0cebc5da361b98ef166bcd58023bc62a1af2c",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182907/GS2024120242451721.tgz",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "AppleAVD has an issue where a large OBU size in AV1_Syntax::Parse_Header reading can lead to out-of-bounds reads.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "AppleAVD AV1_Syntax::Parse_Header Out-Of-Bounds Reads",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182907/AppleAVD-AV1_Syntax-Parse_Header-Out-Of-Bounds-Reads.html"
+      }
+    },
+    "GS2024120242451722": {
+      "exploit": {
+        "exploit": "8793fd0b760f2a8c6b210ae7701eec4e5ab9281a045322d56d92d2c1672e4bd1",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182906/GS2024120242451722.tgz",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "AppleAVD has an issue in AV1_Syntax::f leading to out-of-bounds reads.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "AppleAVD AV1_Syntax::f Out-Of-Bounds Reads",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182906/AppleAVD-AV1_Syntax-f-Out-Of-Bounds-Reads.html"
+      }
+    },
+    "GS2024120242451723": {
+      "exploit": {
+        "exploit": "c6dddb5cbf681203616f22b9385ebd751596c9da4d40dbd84bfdb8a9de7f9473",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182905/GS2024120242451723.tgz",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "AppleAVD has an integer underflow in AV1_Syntax::Parse_Header that can lead to out-of-bounds reads.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "AppleAVD AV1_Syntax::Parse_Header Integer Underflow / Out-Of-Bounds Reads",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182905/AppleAVD-AV1_Syntax-Parse_Header-Integer-Underflow-Out-Of-Bounds-Reads.html"
+      }
+    },
+    "MVID-2024-0696": {
+      "exploit": {
+        "exploit": "b666a8b57ce06bc159252f69fc3abb01c3f39d13ebb66f288c0201d4507a0a1e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181888/MVID-2024-0696.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Backdoor.Win32.Boiling malware suffers from a code execution vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Backdoor.Win32.Boiling MVID-2024-0696 Code Execution",
+        "exploitTags": " exploit, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/181888/Backdoor.Win32.Boiling-MVID-2024-0696-Code-Execution.html"
+      }
+    },
+    "MVID-2024-0697": {
+      "exploit": {
+        "exploit": "7fa82baa98ac10e7877b5d15186d291cc19793db34d1c44febf37e06a22af7aa",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181889/MVID-2024-0697.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Backdoor.Win32.Agent.pw malware suffers from a buffer overflow vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Backdoor.Win32.Agent.pw MVID-2024-0697 Buffer Overflow",
+        "exploitTags": " exploit, overflow",
+        "exploitUrl": "https://packetstormsecurity.com/files/181889/Backdoor.Win32.Agent.pw-MVID-2024-0697-Buffer-Overflow.html"
+      }
+    },
+    "MVID-2024-0698": {
+      "exploit": {
+        "exploit": "0ac4d1e102fa50d12c1ed2087d7d607e89de02d81742b58cfdd99a95944c55f4",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181890/MVID-2024-0698.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Backdoor.Win32.Amatu.a malware suffers from a remote arbitrary file write vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Backdoor.Win32.Amatu.a MVID-2024-0698 Arbitrary File Write",
+        "exploitTags": " exploit, remote, arbitrary",
+        "exploitUrl": "https://packetstormsecurity.com/files/181890/Backdoor.Win32.Amatu.a-MVID-2024-0698-Arbitrary-File-Write.html"
+      }
+    },
+    "MVID-2024-0699": {
+      "exploit": {
+        "exploit": "a1f2f2d06b92875d0d19569387aac4e9a1c23766a1289286cdc961ea4b1b0fd1",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181891/MVID-2024-0699.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Backdoor.Win32.Prorat.jz malware suffers from a buffer overflow vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Backdoor.Win32.Prorat.jz MVID-2024-0699 Buffer Overflow",
+        "exploitTags": " exploit, overflow",
+        "exploitUrl": "https://packetstormsecurity.com/files/181891/Backdoor.Win32.Prorat.jz-MVID-2024-0699-Buffer-Overflow.html"
+      }
+    },
+    "MVID-2024-0700": {
+      "exploit": {
+        "exploit": "f79228aaf64af956558118e52f0cae8c6690433d9087c20cfbb14080997449f1",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181892/MVID-2024-0700.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Backdoor.Win32.Benju.a malware suffers from a remote command execution vulnerability.  This is the 700th release of a malvuln finding.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Backdoor.Win32.Benju.a MVID-2024-0700 Remote Command Execution",
+        "exploitTags": " exploit, remote",
+        "exploitUrl": "https://packetstormsecurity.com/files/181892/Backdoor.Win32.Benju.a-MVID-2024-0700-Remote-Command-Execution.html"
+      }
+    },
+    "WSO2-2023-2988": {
+      "exploit": {
+        "exploit": "88bbb0e549a78d6ccac8792066a572155603f8e8b352a29a78237e92f01cd2a7",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182557/WSO2-2023-2988.tgz",
+        "exploitDate": " Nov 11, 2024",
+        "exploitDis": "WS02 versions 4.0.0, 4.1.0, and 4.2.0 are susceptible to remote code execution via an arbitrary file upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "WSO2 4.0.0 / 4.1.0 / 4.2.0 Shell Upload",
+        "exploitTags": " exploit, remote, arbitrary, code execution, file upload",
+        "exploitUrl": "https://packetstormsecurity.com/files/182557/WSO2-4.0.0-4.1.0-4.2.0-Shell-Upload.html"
+      }
+    },
+    "ZSL-2024-5831": {
+      "exploit": {
+        "exploit": "bdeb7b96ce0490816b5aff85c7d91a69137f224971e0d812190f2924733b54d4",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182015/ZSL-2024-5831.txt",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.07.02 suffers from an authenticated arbitrary file disclosure vulnerability. Input passed through the file GET parameter through the downloadDb.php script is not properly verified before being used to download database files. This can be exploited to disclose the contents of arbitrary and sensitive files via directory traversal attacks.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.07.02 Authenticated File Disclosure",
+        "exploitTags": " exploit, arbitrary, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182015/ABB-Cylon-Aspect-3.07.02-Authenticated-File-Disclosure.html"
+      }
+    },
+    "ZSL-2024-5832": {
+      "exploit": {
+        "exploit": "30c77f451b21a376551521dd035b5e49e0e8791bc964c67769f0111ef659c202",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182027/ZSL-2024-5832.txt",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "ABB Cylon Aspect versions 3.08.01 and below suffer from an unauthenticated arbitrary file disclosure vulnerability. Input passed through the logFile GET parameter via the logYumLookup.php script is not properly verified before being used to download log files. This can be exploited to disclose the contents of arbitrary and sensitive files via directory traversal attacks.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 logYumLookup.php Unauthenticated File Disclosure",
+        "exploitTags": " exploit, arbitrary, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182027/ABB-Cylon-Aspect-3.08.01-logYumLookup.php-Unauthenticated-File-Disclosure.html"
+      }
+    },
+    "ZSL-2024-5833": {
+      "exploit": {
+        "exploit": "7a951ff7fa25dce192577e79009a2ecc161d07c5d3e93a4698034aee54606ea7",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182028/ZSL-2024-5833.txt",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "ABB Cylon Aspect versions 3.08.00 and below suffer from an authenticated OS command injection vulnerability. This can be exploited to inject and execute arbitrary shell commands through the timeserver HTTP POST parameter called by the setTimeServer.php script.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.00 setTimeServer.php Remote Code Execution",
+        "exploitTags": " exploit, web, arbitrary, shell, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182028/ABB-Cylon-Aspect-3.08.00-setTimeServer.php-Remote-Code-Execution.html"
+      }
+    },
+    "ZSL-2024-5834": {
+      "exploit": {
+        "exploit": "8a578a88dc628bdf9030f24dfeb5efed5a2916122d7b2c6617ee5215c5c7a0d4",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182029/ZSL-2024-5834.txt",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "ABB Cylon Aspect versions 3.08.01 and below suffer from an unauthenticated OS command injection vulnerability. This can be exploited to inject and execute arbitrary shell commands through the Footer HTTP POST parameter called by the caldavUtil.php script.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 caldavUtil.php Remote Code Execution",
+        "exploitTags": " exploit, web, arbitrary, shell, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182029/ABB-Cylon-Aspect-3.08.01-caldavUtil.php-Remote-Code-Execution.html"
+      }
+    },
+    "ZSL-2024-5835": {
+      "exploit": {
+        "exploit": "bd108fa7ce900744b1676f5426423c1034cfcf86df1a6c72f006197b3c7c4616",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182030/ZSL-2024-5835.txt",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "ABB Cylon Aspect versions 3.08.00 and below suffer from an authenticated OS command injection vulnerability. This can be exploited to inject and execute arbitrary shell commands through the SYSLOG HTTP POST parameter called by the syslogSwitch.php script.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.00 syslogSwitch.php Remote Code Execution",
+        "exploitTags": " exploit, web, arbitrary, shell, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182030/ABB-Cylon-Aspect-3.08.00-syslogSwitch.php-Remote-Code-Execution.html"
+      }
+    },
+    "ZSL-2024-5836": {
+      "exploit": {
+        "exploit": "af2f7d68963611fa4772fa49e8fd86c81c3df85b1983689743ab1d4ffc0561a5",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182098/ZSL-2024-5836.txt",
+        "exploitDate": " Oct  8, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an arbitrary file deletion vulnerability. Input passed to the file parameter in calendarFileDelete.php is not properly sanitized before being used to delete calendar files. This can be exploited by an unauthenticated attacker to delete files with the permissions of the web server using directory traversal sequences passed within the affected POST parameter.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 calendarFileDelete.php Arbitrary File Deletion",
+        "exploitTags": " exploit, web, arbitrary, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182098/ABB-Cylon-Aspect-3.08.01-calendarFileDelete.php-Arbitrary-File-Deletion.html"
+      }
+    },
+    "ZSL-2024-5837": {
+      "exploit": {
+        "exploit": "6fe5412f92cf9da09187b01562243fec9b9cf0b1251cbfd3a890fd1a773702c5",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182143/ZSL-2024-5837.txt",
+        "exploitDate": " Oct 10, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 has a directory traversal vulnerability that can be exploited by an unauthenticated attacker to list the contents of arbitrary directories without reading file contents, leading to information disclosure of directory structures and filenames. This may expose sensitive system details, aiding in further attacks. The issue lies in the listFiles() function of the persistenceManagerAjax.php script, which calls PHP's readdir() function without proper input validation of the directory POST parameter.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 persistenceManagerAjax.php Directory Traversal",
+        "exploitTags": " exploit, arbitrary, php, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/182143/ABB-Cylon-Aspect-3.08.01-persistenceManagerAjax.php-Directory-Traversal.html"
+      }
+    },
+    "ZSL-2024-5838": {
+      "exploit": {
+        "exploit": "b3763bcb69fec8fa8456518bda4905438794f1034a56b68246980d06fc740b58",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182163/ZSL-2024-5838.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.07.02 suffers from a vulnerability that allows an unauthenticated attacker to enable or disable the SSH daemon by sending a POST request to sshUpdate.php with a simple JSON payload. This can be exploited to start the SSH service on the remote host without proper authentication, potentially enabling unauthorized access or stop and deny service access.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.07.02 sshUpdate.php Unauthenticated Remote SSH Service Control",
+        "exploitTags": " exploit, remote, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182163/ABB-Cylon-Aspect-3.07.02-sshUpdate.php-Unauthenticated-Remote-SSH-Service-Control.html"
+      }
+    },
+    "ZSL-2024-5839": {
+      "exploit": {
+        "exploit": "a4086eec7a5ee5c9db9cd5f10469f947a7061c1d4d1d322d7820c84737b04b5e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182164/ZSL-2024-5839.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.00 suffers from an authenticated OS command injection vulnerability. This can be exploited to inject and execute arbitrary shell commands through the MODEM HTTP POST parameter called by the dialupSwitch.php script.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.00 dialupSwitch.php Remote Code Execution",
+        "exploitTags": " exploit, web, arbitrary, shell, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182164/ABB-Cylon-Aspect-3.08.00-dialupSwitch.php-Remote-Code-Execution.html"
+      }
+    },
+    "ZSL-2024-5840": {
+      "exploit": {
+        "exploit": "abdeff4284c7fe44c3e55417d31b7d1ca3841538897dfe4c0808b510db1dacc3",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182165/ZSL-2024-5840.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.07.02 uses a weak set of default administrative credentials that can be guessed in remote password attacks and used to gain full control of the system.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.07.02 user.properties Default Credentials",
+        "exploitTags": " exploit, remote",
+        "exploitUrl": "https://packetstormsecurity.com/files/182165/ABB-Cylon-Aspect-3.07.02-user.properties-Default-Credentials.html"
+      }
+    },
+    "ZSL-2024-5841": {
+      "exploit": {
+        "exploit": "745fecf29b9b2473e58492b59fb0c9e867cdd58cc5a3ecbb448313aaa681f34e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182176/ZSL-2024-5841.txt",
+        "exploitDate": " Oct 14, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.00 suffers from an authenticated OS command injection vulnerability. This can be exploited to inject and execute arbitrary shell commands through the PROXY HTTP POST parameter called by the yumSettings.php script.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.00 yumSettings.php Command Injection",
+        "exploitTags": " exploit, web, arbitrary, shell, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182176/ABB-Cylon-Aspect-3.08.00-yumSettings.php-Command-Injection.html"
+      }
+    },
+    "ZSL-2024-5842": {
+      "exploit": {
+        "exploit": "c9e65d912e7544e112d86ab5bdaf919b72100eb3203885121a442e427d5ebd32",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182227/ZSL-2024-5842.txt",
+        "exploitDate": " Oct 15, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.00 suffers from an authenticated OS command injection vulnerability. This can be exploited to inject and execute arbitrary shell commands through the country, state, locality, organization, and hostname HTTP POST parameters called by the sslCertAjax.php script.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.00 sslCertAjax.php Remote Command Execution",
+        "exploitTags": " exploit, web, arbitrary, shell, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182227/ABB-Cylon-Aspect-3.08.00-sslCertAjax.php-Remote-Command-Execution.html"
+      }
+    },
+    "ZSL-2024-5843": {
+      "exploit": {
+        "exploit": "1e21ababb69b9f3204394d4fb7d153f100fd877141aa727c52a4bbeb76315e4d",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182254/ZSL-2024-5843.txt",
+        "exploitDate": " Oct 16, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an unauthenticated configuration download vulnerability. This can be exploited to download the SQLite DB that contains the configuration mappings information via the FTControlServlet by directly calling the mapConfigurationDownload.php script.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 mapConfigurationDownload.php Configuration Download",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182254/ABB-Cylon-Aspect-3.08.01-mapConfigurationDownload.php-Configuration-Download.html"
+      }
+    },
+    "ZSL-2024-5844": {
+      "exploit": {
+        "exploit": "ba834768c436bdd03cfa0e894f184203255f093008d021b702ce011abd1f46bb",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182279/ZSL-2024-5844.txt",
+        "exploitDate": " Oct 17, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 allows an unauthenticated attacker to perform network operations such as ping, traceroute, or nslookup on arbitrary hosts or IPs by sending a crafted GET request to networkDiagAjax.php. This could be exploited to interact with or probe internal or external systems, leading to internal information disclosure and misuse of network resources.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 networkDiagAjax.php Remote Network Utility Execution",
+        "exploitTags": " exploit, arbitrary, php, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/182279/ABB-Cylon-Aspect-3.08.01-networkDiagAjax.php-Remote-Network-Utility-Execution.html"
+      }
+    },
+    "ZSL-2024-5845": {
+      "exploit": {
+        "exploit": "cb2141122e64c71654606a390db65e7c398f5ec9a8b5883f4b4d4e29437c9eac",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182288/ZSL-2024-5845.txt",
+        "exploitDate": " Oct 18, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an unauthenticated OS command injection vulnerability. This can be exploited to inject and execute arbitrary shell commands through the file HTTP POST parameter called by the databaseFileDelete.php script.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 databaseFileDelete.php Command Injection",
+        "exploitTags": " exploit, web, arbitrary, shell, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182288/ABB-Cylon-Aspect-3.08.01-databaseFileDelete.php-Command-Injection.html"
+      }
+    },
+    "ZSL-2024-5846": {
+      "exploit": {
+        "exploit": "94b9c452c40fa97359bd14766458b08e7dbabab381af5bfc9f983be77b4e1601",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182304/ZSL-2024-5846.txt",
+        "exploitDate": " Oct 22, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an unauthenticated OS command injection vulnerability. This can be exploited to inject and execute arbitrary shell commands through the directory HTTP POST parameter called by the persistenceManagerAjax.php script.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 persistenceManagerAjax.php Command Injection",
+        "exploitTags": " exploit, web, arbitrary, shell, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182304/ABB-Cylon-Aspect-3.08.01-persistenceManagerAjax.php-Command-Injection.html"
+      }
+    },
+    "ZSL-2024-5847": {
+      "exploit": {
+        "exploit": "717a9c201b4d8dff792f7a48db6782c1d5ad4af708836b52b37a3afd19e5c796",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182328/ZSL-2024-5847.txt",
+        "exploitDate": " Oct 23, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an unauthenticated log information disclosure vulnerability. An unauthorized attacker can reference the affected page and disclose the webserver's log file containing system information running on the device.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 throttledLog.php Unauthenticated Log Disclosure",
+        "exploitTags": " exploit, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/182328/ABB-Cylon-Aspect-3.08.01-throttledLog.php-Unauthenticated-Log-Disclosure.html"
+      }
+    },
+    "ZSL-2024-5848": {
+      "exploit": {
+        "exploit": "9ba5f64576de986cf7c03dff0cec268b205a50e8425393344a013ecd2bbd4af6",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182329/ZSL-2024-5848.txt",
+        "exploitDate": " Oct 23, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an unauthenticated log information disclosure vulnerability. An unauthorized attacker can reference the affected page and disclose the webserver's log file containing system information running on the device.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 logCriticalLookup.php Unauthenticated Log Disclosure",
+        "exploitTags": " exploit, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/182329/ABB-Cylon-Aspect-3.08.01-logCriticalLookup.php-Unauthenticated-Log-Disclosure.html"
+      }
+    },
+    "ZSL-2024-5849": {
+      "exploit": {
+        "exploit": "07ab6f45ec3a9889c189eaf43ab0b85391d95b2179966c2c842437039d73a813",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182338/ZSL-2024-5849.txt",
+        "exploitDate": " Oct 24, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.02 suffers from an authenticated arbitrary file disclosure vulnerability. Input passed through the logFile GET parameter via the logYumLookup.php script is not properly verified before being used to download log files. This can be exploited to disclose the contents of arbitrary and sensitive files via directory traversal attacks.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.02 logYumLookup.php Authenticated File Disclosure",
+        "exploitTags": " exploit, arbitrary, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182338/ABB-Cylon-Aspect-3.08.02-logYumLookup.php-Authenticated-File-Disclosure.html"
+      }
+    },
+    "ZSL-2024-5850": {
+      "exploit": {
+        "exploit": "e2c291d8fd5fd29d1f552968435359ee6fab06fcb07c04d946f049a408196a24",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182350/ZSL-2024-5850.txt",
+        "exploitDate": " Oct 28, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an unauthenticated building/project name exposure vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 getApplicationNamesJS.php Building/Project Name Exposure",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182350/ABB-Cylon-Aspect-3.08.01-getApplicationNamesJS.php-Building-Project-Name-Exposure.html"
+      }
+    },
+    "ZSL-2024-5851": {
+      "exploit": {
+        "exploit": "f6af28d64cc6fda19422ed01b41d977544842888adad2b53aa529b922aefcead",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182370/ZSL-2024-5851.txt",
+        "exploitDate": " Oct 29, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 is deployed to unauthorized actors with debugging code still enabled or active, which can create unintended entry points or expose sensitive information.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 Active Debug Data Exposure",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182370/ABB-Cylon-Aspect-3.08.01-Active-Debug-Data-Exposure.html"
+      }
+    },
+    "ZSL-2024-5852": {
+      "exploit": {
+        "exploit": "a0ecb721f44718ac0888eed9bd376599009ff218720ee24ca8060a52f93a3ef9",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182400/ZSL-2024-5852.txt",
+        "exploitDate": " Oct 30, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an unauthenticated reflected cross-site scripting vulnerability. Input passed to the GET parameters query and application is not properly sanitized before being returned to the user. This can be exploited to execute arbitrary HTML/JS code in a user's browser session in context of an affected site.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 jsonProxy.php Cross Site Scripting",
+        "exploitTags": " exploit, arbitrary, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182400/ABB-Cylon-Aspect-3.08.01-jsonProxy.php-Cross-Site-Scripting.html"
+      }
+    },
+    "ZSL-2024-5853": {
+      "exploit": {
+        "exploit": "e32550b0bd6a59d7a54347d6baf48647e2265dd21c439c982e1c9264a16942cb",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182401/ZSL-2024-5853.txt",
+        "exploitDate": " Oct 30, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 allows an unauthenticated attacker to disclose credentials in plain-text.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 jsonProxy.php Unauthenticated Credential Disclosure",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182401/ABB-Cylon-Aspect-3.08.01-jsonProxy.php-Unauthenticated-Credential-Disclosure.html"
+      }
+    },
+    "ZSL-2024-5854": {
+      "exploit": {
+        "exploit": "a08a2149099c34ec40fd07e93366c624394f11cf20f4846541af94c2dc635080",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182402/ZSL-2024-5854.txt",
+        "exploitDate": " Oct 30, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 is vulnerable to remote, arbitrary servlet inclusion. The jsonProxy.php endpoint allows unauthenticated remote attackers to access internal services by proxying requests to localhost. This results in an authentication bypass, enabling attackers to interact with multiple java servlets without authorization, potentially exposing sensitive system functions and information.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 jsonProxy.php Servlet Inclusion Authentication Bypass",
+        "exploitTags": " exploit, java, remote, arbitrary, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182402/ABB-Cylon-Aspect-3.08.01-jsonProxy.php-Servlet-Inclusion-Authentication-Bypass.html"
+      }
+    },
+    "ZSL-2024-5855": {
+      "exploit": {
+        "exploit": "daeb2790f0aa17137e230e9743c822114097df90c546bcf21d4fe680c859fd52",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182403/ZSL-2024-5855.txt",
+        "exploitDate": " Oct 30, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 is vulnerable to an unauthorized project file disclosure in jsonProxy.php. An unauthenticated remote attacker can issue a GET request abusing the DownloadProject servlet to download sensitive project files. The jsonProxy.php script bypasses authentication by proxying requests to localhost (AspectFT Automation Application Server), granting remote attackers unauthorized access to internal Java servlets. This exposes potentially sensitive project data and configuration details without requiring authentication.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 jsonProxy.php Unauthenticated Project Download",
+        "exploitTags": " exploit, java, remote, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182403/ABB-Cylon-Aspect-3.08.01-jsonProxy.php-Unauthenticated-Project-Download.html"
+      }
+    },
+    "ZSL-2024-5856": {
+      "exploit": {
+        "exploit": "bcacda1a1bffa6ee6d70a54beaff09b511b2a7ae2d1b536e862440ab2a2c5dd7",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182404/ZSL-2024-5856.txt",
+        "exploitDate": " Oct 30, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 is vulnerable to an unauthenticated denial of service attack in the jsonProxy.php endpoint. An attacker can remotely restart the main Java server by accessing the FTControlServlet with the restart parameter. The endpoint proxies requests to localhost without requiring authentication, enabling attackers to disrupt system availability by repeatedly triggering server restarts.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 jsonProxy.php Denial Of Service",
+        "exploitTags": " exploit, java, denial of service, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182404/ABB-Cylon-Aspect-3.08.01-jsonProxy.php-Denial-Of-Service.html"
+      }
+    },
+    "ZSL-2024-5857": {
+      "exploit": {
+        "exploit": "3e98b4b396141e37a68a75be90c6aec7e9ecbd76dd24b82d33c08641bd3c4863",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182405/ZSL-2024-5857.txt",
+        "exploitDate": " Oct 30, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 is vulnerable to unauthorized SSH service configuration changes via the jsonProxy.php endpoint. An unauthenticated attacker can enable or disable the SSH service on the server by accessing the FTControlServlet with the sshenable parameter. The jsonProxy.php script proxies requests to localhost without enforcing authentication, allowing attackers to modify SSH settings and potentially gain further unauthorized access to the system.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 jsonProxy.php Unauthenticated Remote SSH Service Control",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182405/ABB-Cylon-Aspect-3.08.01-jsonProxy.php-Unauthenticated-Remote-SSH-Service-Control.html"
+      }
+    },
+    "ZSL-2024-5858": {
+      "exploit": {
+        "exploit": "54ba1ca2869094716720e73937f51fe840979ccab5472dbfb97b23f87b366ff1",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182406/ZSL-2024-5858.txt",
+        "exploitDate": " Oct 30, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 is vulnerable to unauthorized information disclosure in the jsonProxy.php endpoint. An unauthenticated attacker can retrieve sensitive system information, including system time, uptime, memory usage, and network load statistics. The jsonProxy.php endpoint proxies these requests to internal services without requiring authentication, allowing attackers to obtain detailed system status data, which could aid in further attacks by revealing operational characteristics and resource utilization.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 jsonProxy.php Information Disclosure",
+        "exploitTags": " exploit, php, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/182406/ABB-Cylon-Aspect-3.08.01-jsonProxy.php-Information-Disclosure.html"
+      }
+    },
+    "ZSL-2024-5859": {
+      "exploit": {
+        "exploit": "876239c6ba18bd17cf52cea349bc4116a278ec0160c9a365202602eb0c5d0e08",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182407/ZSL-2024-5859.txt",
+        "exploitDate": " Oct 30, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 is vulnerable to username enumeration in the jsonProxy.php endpoint. An unauthenticated attacker can interact with the UserManager servlet to enumerate valid usernames on the system. Since jsonProxy.php proxies requests to internal services without requiring authentication, attackers can gain unauthorized insights into valid usernames.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 jsonProxy.php Username Enumeration",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182407/ABB-Cylon-Aspect-3.08.01-jsonProxy.php-Username-Enumeration.html"
+      }
+    },
+    "ZSL-2024-5860": {
+      "exploit": {
+        "exploit": "accf80983115dc5908f4545001f436450bd05752c8b5b6b674a1efd83446277b",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182456/ZSL-2024-5860.txt",
+        "exploitDate": " Nov  1, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 has a vulnerability in caldavInstall.php, caldavInstallAgendav.php, and caldavUpload.php files, where the presence of an EXPERTMODE parameter activates a badassMode feature. This mode allows an unauthenticated attacker to bypass MD5 checksum validation during file uploads. By enabling badassMode and setting the skipChecksum parameter, the system skips integrity verification, allowing attackers to upload or install altered CalDAV zip files without authentication. This vulnerability permits unauthorized file modifications, potentially exposing the system to tampering or malicious uploads.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 File Upload MD5 Checksum Bypass",
+        "exploitTags": " exploit, php, file upload",
+        "exploitUrl": "https://packetstormsecurity.com/files/182456/ABB-Cylon-Aspect-3.08.01-File-Upload-MD5-Checksum-Bypass.html"
+      }
+    },
+    "ZSL-2024-5861": {
+      "exploit": {
+        "exploit": "cf7a464a832c331d5e74a3f9a20a0ce04cd242617d7e01d8ab91b2b7fb424cd1",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182513/ZSL-2024-5861.txt",
+        "exploitDate": " Nov  5, 2024",
+        "exploitDis": "A vulnerability was identified in a ABB Cylon Aspect version 3.08.00 where an off-by-one error in array access could lead to undefined behavior and potential denial of service. The issue arises in a loop that iterates over an array using a less than or equals to condition, allowing access to an out-of-bounds index. This can trigger errors or unexpected behavior when processing data, potentially crashing the application. Successful exploitation of this vulnerability can lead to a crash or disruption of service, especially if the script handles large data sets.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.00 Off-By-One",
+        "exploitTags": " exploit, denial of service",
+        "exploitUrl": "https://packetstormsecurity.com/files/182513/ABB-Cylon-Aspect-3.08.00-Off-By-One.html"
+      }
+    },
+    "ZSL-2024-5862": {
+      "exploit": {
+        "exploit": "d6519d44019fd929163a3f0cfc993a7eb59025d7f9ad1249b44c90b5573d566f",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182870/ZSL-2024-5862.txt",
+        "exploitDate": " Nov 27, 2024",
+        "exploitDis": "The Akuvox Smart Intercom/Doorphone suffers from an insecure service API access control. The vulnerability in ServicesHTTPAPI endpoint allows users with \"User\" privileges to modify API access settings and configurations. This improper access control permits privilege escalation, enabling unauthorized access to administrative functionalities. Exploitation of this issue could compromise system integrity and lead to unauthorized system modifications.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Akuvox Smart Intercom/Doorphone ServicesHTTPAPI Improper Access Control",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182870/Akuvox-Smart-Intercom-Doorphone-ServicesHTTPAPI-Improper-Access-Control.html"
+      }
+    },
+    "ZSL-2024-5863": {
+      "exploit": {
+        "exploit": "43c96af8c2682eb0a000f47d83e5264452bc79644a69b914c8f4bd5a1347cdba",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182871/ZSL-2024-5863.txt",
+        "exploitDate": " Nov 27, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an unauthenticated configuration download vulnerability. This can be exploited to download the CSV DB that contains the configuration mappings information via the VMobileImportExportServlet by directly calling the vstatConfigurationDownload.php script.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 vstatConfigurationDownload.php Configuration Download",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182871/ABB-Cylon-Aspect-3.08.01-vstatConfigurationDownload.php-Configuration-Download.html"
+      }
+    },
+    "ZSL-2024-5864": {
+      "exploit": {
+        "exploit": "ca4287c96f338aa0ded9fb59abe2c0b3c3fc4403c46d899dd995fa6355f2fe5f",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182908/ZSL-2024-5864.txt",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an unauthenticated information disclosure vulnerability. An unauthorized attacker can reference the affected page and disclose various protocol thread information running on the device.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 diagLateThread.php Information Disclosure",
+        "exploitTags": " exploit, protocol, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/182908/ABB-Cylon-Aspect-3.08.01-diagLateThread.php-Information-Disclosure.html"
+      }
+    },
+    "ZSL-2024-5865": {
+      "exploit": {
+        "exploit": "401fb887776d514d63369b3b8c3ccac1e8c60f72e1af99315a52566d675274c2",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182909/ZSL-2024-5865.txt",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.01 suffers from an unauthenticated information disclosure vulnerability. An unauthorized attacker can reference the affected page and disclose various BACnet MS/TP statistics running on the device.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.01 mstpstatus.php Information Disclosure",
+        "exploitTags": " exploit, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/182909/ABB-Cylon-Aspect-3.08.01-mstpstatus.php-Information-Disclosure.html"
+      }
+    },
+    "ZSL-2024-5866": {
+      "exploit": {
+        "exploit": "6e89e797a99e4af20e920f830dd9d35524fb8f7cda429124413ba456f5750eda",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182910/ZSL-2024-5866.txt",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "ABB Cylon Aspect version 3.08.00 suffers from a vulnerability in the fileSystemUpdate.php endpoint of the ABB BEMS controller due to improper handling of uploaded files. The endpoint lacks restrictions on file size and type, allowing attackers to upload excessively large or malicious files. This flaw could be exploited to cause denial of service (DoS) attacks, memory leaks, or buffer overflows, potentially leading to system crashes or further compromise.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ABB Cylon Aspect 3.08.00 fileSystemUpdate.php File Upload / Denial Of Service",
+        "exploitTags": " exploit, denial of service, overflow, php, memory leak",
+        "exploitUrl": "https://packetstormsecurity.com/files/182910/ABB-Cylon-Aspect-3.08.00-fileSystemUpdate.php-File-Upload-Denial-Of-Service.html"
+      }
+    },
+    "acronisci50161-xsrf": {
+      "exploit": {
+        "exploit": "c2eceedb5e5bb0efa35e17bc56bd524328eb69b0a4975863b7ddd165b1b73695",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182005/acronisci50161-xsrf.txt",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "Acronis Cyber Infrastructure version 5.0.1-61 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Acronis Cyber Infrastructure 5.0.1-61 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/182005/Acronis-Cyber-Infrastructure-5.0.1-61-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "acs516-disclose": {
+      "exploit": {
+        "exploit": "f97e8496dea3f74570e81811208c8ab73c042ae1f3e28024e2d731482de127db",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181854/acs516-disclose.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Aquatronica Control System version 5.1.6 suffers from a hash disclosure vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Aquatronica Control System 5.1.6 Hash Disclosure",
+        "exploitTags": " exploit, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/181854/Aquatronica-Control-System-5.1.6-Hash-Disclosure.html"
+      }
+    },
+    "articaproxy440-exec": {
+      "exploit": {
+        "exploit": "c1517d7efd5b58efb0947f3e574c94e4dff36e9127ec54ebd5658e96d60b3efb",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182146/articaproxy440-exec.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "Artica Proxy version 4.40 suffers from a code injection vulnerability that provides a reverse shell.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Artica Proxy 4.40 Code Injection",
+        "exploitTags": " exploit, shell",
+        "exploitUrl": "https://packetstormsecurity.com/files/182146/Artica-Proxy-4.40-Code-Injection.html"
+      }
+    },
+    "avideo124-exec": {
+      "exploit": {
+        "exploit": "b36808e21f51e25a7052432f8419f20edcaf24b7c01d2a036f8e75bb34bc7468",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181979/avideo124-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "AVideo version 12.4 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "AVideo 12.4 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181979/AVideo-12.4-Code-Injection.html"
+      }
+    },
+    "bms10-sqlbypass": {
+      "exploit": {
+        "exploit": "ed877cf678281828e8a763de125306c2d2d4c2a6136ecac65cf4e8c7a8da4566",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182166/bms10-sqlbypass.txt",
+        "exploitDate": " Oct 14, 2024",
+        "exploitDis": "Bookstore Management System version 1.0 suffers from a remote SQL injection vulnerability that allows for authentication bypass.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Bookstore Management System 1.0 SQL Injection",
+        "exploitTags": " exploit, remote, sql injection, bypass",
+        "exploitUrl": "https://packetstormsecurity.com/files/182166/Bookstore-Management-System-1.0-SQL-Injection.html"
+      }
+    },
+    "bookedscheduluer285-xssredirect": {
+      "exploit": {
+        "exploit": "d3d9005e2a6e24e94ad011793b6cdb8a9d7d946e48d81aeec76d221cdc3c47d9",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182369/bookedscheduluer285-xssredirect.txt",
+        "exploitDate": " Oct 29, 2024",
+        "exploitDis": "Booked Scheduler version 2.8.5 suffers from cross site scripting and open redirection vulnerabilities.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Booked Scheduler 2.8.5 Cross Site Scripting / Open Redirection",
+        "exploitTags": " exploit, vulnerability, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182369/Booked-Scheduler-2.8.5-Cross-Site-Scripting-Open-Redirection.html"
+      }
+    },
+    "bra20240924-xss": {
+      "exploit": {
+        "exploit": "ca1768dbff94043ee01a0061583de80ca1685c784895cdca06b8f990a4ba4df4",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182024/bra20240924-xss.txt",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "Book Recording App, as submitted on 2024-09-24, suffers from a persistent cross site scripting vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Book Recording App 2024-09-24 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182024/Book-Recording-App-2024-09-24-Cross-Site-Scripting.html"
+      }
+    },
+    "chamilo11118-exec": {
+      "exploit": {
+        "exploit": "96e2fd6800e4eae0de444f883558a648f96062c2ef4ccf1b635571eb64c66dde",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182147/chamilo11118-exec.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "Chamilo version 1.11.18 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Chamilo 1.11.18 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182147/Chamilo-1.11.18-Code-Injection.html"
+      }
+    },
+    "clms202410-xss": {
+      "exploit": {
+        "exploit": "1fcd86678b2635e2cdd7247396f54562591ba9b9d9952cdb8f0ee3191c2cbf7a",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182007/clms202410-xss.txt",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "Computer Laboratory Management System 2024 version 1.0 suffers from a cross site scripting vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Computer Laboratory Management System 2024 1.0 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182007/Computer-Laboratory-Management-System-2024-1.0-Cross-Site-Scripting.html"
+      }
+    },
+    "craftcms4414-inject": {
+      "exploit": {
+        "exploit": "1f149768386bf46995caf4d51e649f8b66d41ec64b6663664584c8357eb34ffb",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182148/craftcms4414-inject.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "Craft CMS version 4.4.14 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Craft CMS 4.4.14 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182148/Craft-CMS-4.4.14-Code-Injection.html"
+      }
+    },
+    "dizquetv153-exec": {
+      "exploit": {
+        "exploit": "b18cb14167c97952ef1684789d6a48b83e5c1338a0677edc0b3eaef195497b45",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181992/dizquetv153-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "dizqueTV version 1.5.3 suffers from a remote code execution vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "dizqueTV 1.5.3 Remote Code Execution",
+        "exploitTags": " exploit, remote, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/181992/dizqueTV-1.5.3-Remote-Code-Execution.html"
+      }
+    },
+    "dolibarr2001-sql": {
+      "exploit": {
+        "exploit": "b68670196a13cfe286e8487af4ff4c175267f0b3c6b2117e063ec30584883b78",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182223/dolibarr2001-sql.txt",
+        "exploitDate": " Oct 15, 2024",
+        "exploitDis": "Dolibarr version 20.0.1 suffers from a remote SQL injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Dolibarr 20.0.1 SQL Injection",
+        "exploitTags": " exploit, remote, sql injection",
+        "exploitUrl": "https://packetstormsecurity.com/files/182223/Dolibarr-20.0.1-SQL-Injection.html"
+      }
+    },
+    "ems10-idor": {
+      "exploit": {
+        "exploit": "d2bb430c38acbee7a6fe6f3edb233221ef304d3aed80af6ed983ecec5bcc3d0a",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181961/ems10-idor.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Event Management System version 1.0 suffers from an insecure direct object reference vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Event Management System 1.0 Insecure Direct Object Reference",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181961/Event-Management-System-1.0-Insecure-Direct-Object-Reference.html"
+      }
+    },
+    "esetnod32av180120-unquotedpath": {
+      "exploit": {
+        "exploit": "d48a31f2b811f4e6332d799099fcdee648d31c4c59eca77224f4eb7f01c7f161",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182464/esetnod32av180120-unquotedpath.txt",
+        "exploitDate": " Nov  4, 2024",
+        "exploitDis": "ESET NOD32 Antivirus version 18.0.12.0 suffers from an unquoted service path vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ESET NOD32 Antivirus 18.0.12.0 Unquoted Service Path",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182464/ESET-NOD32-Antivirus-18.0.12.0-Unquoted-Service-Path.html"
+      }
+    },
+    "eventms10-upload": {
+      "exploit": {
+        "exploit": "131043ebb9ab67fd7a914885356e55ba6ab7a264cc269b23797acfbc70234823",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181917/eventms10-upload.txt",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "Event Management System version 1.0 suffers from an arbitrary file upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Event Management System 1.0 Arbitrary File Upload",
+        "exploitTags": " exploit, arbitrary, file upload",
+        "exploitUrl": "https://packetstormsecurity.com/files/181917/Event-Management-System-1.0-Arbitrary-File-Upload.html"
+      }
+    },
+    "fronsetia11-xml": {
+      "exploit": {
+        "exploit": "172877845afd1a0942227a2a28e855668aafeacdb04ad37754aebeccf82f3a9d",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182763/fronsetia11-xml.txt",
+        "exploitDate": " Nov 22, 2024",
+        "exploitDis": "fronsetia version 1.1 suffers from an XML external entity injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "fronsetia 1.1 XML Injection",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182763/fronsetia-1.1-XML-Injection.html"
+      }
+    },
+    "fronsetia11-xss": {
+      "exploit": {
+        "exploit": "bbfd522cfd5160099d31a809ca9257e08bb97dcc37b7bf13572eb09dcfd1ed25",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182764/fronsetia11-xss.txt",
+        "exploitDate": " Nov 22, 2024",
+        "exploitDis": "fronsetia version 1.1 suffers from a cross site scripting vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "fronsetia 1.1 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182764/fronsetia-1.1-Cross-Site-Scripting.html"
+      }
+    },
+    "geoserver2251-exec": {
+      "exploit": {
+        "exploit": "425286b969561badddd4d4255537956eb91fd2c63a438e26b79b655873664851",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182018/geoserver2251-exec.txt",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "GeoServer version 2.25.1 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "GeoServer 2.25.1 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182018/GeoServer-2.25.1-Code-Injection.html"
+      }
+    },
+    "glinet443-exec": {
+      "exploit": {
+        "exploit": "c0bd892d4ce8d30e3432ddef1187ae27e61ca1614db2d2530154b6a6e003a28c",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182150/glinet443-exec.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "GL.iNet version 4.4.3 suffers from authentication bypass and code injection vulnerabilities.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "GL.iNet 4.4.3 Code Injection",
+        "exploitTags": " exploit, vulnerability",
+        "exploitUrl": "https://packetstormsecurity.com/files/182150/GL.iNet-4.4.3-Code-Injection.html"
+      }
+    },
+    "gow4920-exec": {
+      "exploit": {
+        "exploit": "c8f9e04f80ca5f409461edae51290f96dd6f04c7856de1b8c387b3a5757ea858",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182017/gow4920-exec.txt",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "Gambio Online Webshop version 4.9.2.0 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Gambio Online Webshop 4.9.2.0 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182017/Gambio-Online-Webshop-4.9.2.0-Code-Injection.html"
+      }
+    },
+    "gsp26000-exec": {
+      "exploit": {
+        "exploit": "e4e57257a6af48db80f9631152fb25298130f59964899699bca602c17cfd7836",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182149/gsp26000-exec.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "Gibbon School Platform version 26.0.00 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Gibbon School Platform 26.0.00 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182149/Gibbon-School-Platform-26.0.00-Code-Injection.html"
+      }
+    },
+    "hikvisionipcamera-xsrf": {
+      "exploit": {
+        "exploit": "048a62691fff8ca9559f3569ecda16c64e4b8fff10f2234edeffc362e6ec8528",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182019/hikvisionipcamera-xsrf.txt",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "Hikvision IP Cameras suffer from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Hikvision IP Camera Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/182019/Hikvision-IP-Camera-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "isssecurose11-unquotedpath": {
+      "exploit": {
+        "exploit": "6abe26bb5c5ed5ca9a1c0dc557fe3d83faf3e167d06c216601fb62c5577d2b10",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182887/isssecurose11-unquotedpath.txt",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "Intelligent Security System SecurOS Enterprise version 11 suffers from an unquoted service path vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Intelligent Security System SecurOS Enterprise 11 Unquoted Service Path",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182887/Intelligent-Security-System-SecurOS-Enterprise-11-Unquoted-Service-Path.html"
+      }
+    },
+    "kafkaui071-exec": {
+      "exploit": {
+        "exploit": "f6954aa312113773c4c6cf140221ca2fecef7f97142ccba843f932cb4517b4e9",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182152/kafkaui071-exec.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "Kafka UI version 0.7.1 suffers from a remote code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Kafka UI 0.7.1 Code Injection",
+        "exploitTags": " exploit, remote",
+        "exploitUrl": "https://packetstormsecurity.com/files/182152/Kafka-UI-0.7.1-Code-Injection.html"
+      }
+    },
+    "laravel11-xss": {
+      "exploit": {
+        "exploit": "18c911de78fea14ce7c2b2016a2eed4ceae0df290d5eae7a1ebed85970fb75db",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182896/laravel11-xss.txt",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "Laravel version 11.0 suffers from a cross site scripting vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Laravel 11.0 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182896/Laravel-11.0-Cross-Site-Scripting.html"
+      }
+    },
+    "magnusbilling6x-exec": {
+      "exploit": {
+        "exploit": "8afee02e52dfc7e60f0795a499d4d51a65da1ef81b17761aba9000d194ee19be",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182153/magnusbilling6x-exec.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "MagnusBilling version 6.x suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "MagnusBilling 6.x Code Injection ",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182153/MagnusBilling-6.x-Code-Injection.html"
+      }
+    },
+    "magnusbilling7x-exec": {
+      "exploit": {
+        "exploit": "5ef246092a4751995067e5ac1af2d01cdabaf77cc9815dfa3ede9fdd6aa0e69f",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182167/magnusbilling7x-exec.txt",
+        "exploitDate": " Oct 14, 2024",
+        "exploitDis": "MagnusBilling version 7.x suffers from a remote command injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "MagnusBilling 7.x Command Injection",
+        "exploitTags": " exploit, remote",
+        "exploitUrl": "https://packetstormsecurity.com/files/182167/MagnusBilling-7.x-Command-Injection.html"
+      }
+    },
+    "mdpro1076-sqlshell": {
+      "exploit": {
+        "exploit": "b641856919de4d5b0a61bc35a8e30fb6042f78f529af33b52af81ec5d5f73c4e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182008/mdpro1076-sqlshell.txt",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "MD-Pro version 1.0.76 suffers from remote SQL injection and shell upload vulnerabilities.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "MD-Pro 1.0.76 Shell Upload / SQL Injection",
+        "exploitTags": " exploit, remote, shell, vulnerability, sql injection",
+        "exploitUrl": "https://packetstormsecurity.com/files/182008/MD-Pro-1.0.76-Shell-Upload-SQL-Injection.html"
+      }
+    },
+    "meadmanager7183-disclose": {
+      "exploit": {
+        "exploit": "ddade0c8d44290aca9a54f0c1621504614026325fdfa745fc4d9c008c6feca03",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182000/meadmanager7183-disclose.txt",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "ManageEngine ADManager version 7183 suffers from a password hash disclosure vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ManageEngine ADManager 7183 Password Hash Disclosure",
+        "exploitTags": " exploit, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/182000/ManageEngine-ADManager-7183-Password-Hash-Disclosure.html"
+      }
+    },
+    "netismw5460-exec": {
+      "exploit": {
+        "exploit": "974dd984899b2411ba4ed106942c2a833ce6ac14b2289ac1294116a892fdc83a",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182020/netismw5460-exec.txt",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "Netis MW5360 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Netis MW5360 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182020/Netis-MW5360-Code-Injection.html"
+      }
+    },
+    "nvidiageforce1101163-unquotedpath": {
+      "exploit": {
+        "exploit": "f899342e79088e5e909435b982381694ddaed2c99c3ce95c2d35461b1b8d089e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182888/nvidiageforce1101163-unquotedpath.txt",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "Nvidia GeForce version 11.0.1.163 suffers from an unquoted service path vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Nvidia GeForce 11.0.1.163 Unquoted Service Path",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182888/Nvidia-GeForce-11.0.1.163-Unquoted-Service-Path.html"
+      }
+    },
+    "oes10-upload": {
+      "exploit": {
+        "exploit": "1f14cfc963330f0a01f9c4aced1f7de282ae44271edc1a4cd158e539df7c983e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181918/oes10-upload.txt",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "Online Eyewear Shop version 1.0 suffers from an arbitrary file upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Online Eyewear Shop 1.0 Arbitrary File Upload",
+        "exploitTags": " exploit, arbitrary, file upload",
+        "exploitUrl": "https://packetstormsecurity.com/files/181918/Online-Eyewear-Shop-1.0-Arbitrary-File-Upload.html"
+      }
+    },
+    "oes10-xsrf": {
+      "exploit": {
+        "exploit": "333f8e9acf88b716c8f705136df2cbeab5dd285f7a012a80e2b10300aef20534",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181956/oes10-xsrf.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Online Eyewear Shop version 1.0 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Online Eyewear Shop 1.0 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181956/Online-Eyewear-Shop-1.0-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "onlineeyewearshop10-insecure": {
+      "exploit": {
+        "exploit": "2bf05df779783894d1f5d14a01f0b453810086efd504cdb90dfe4889fe4bce31",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181980/onlineeyewearshop10-insecure.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "Online Eyewear Shop version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Online Eyewear Shop 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181980/Online-Eyewear-Shop-1.0-Insecure-Settings.html"
+      }
+    },
+    "openfire480-exec": {
+      "exploit": {
+        "exploit": "eefc137002c1066cce87682437ffa243da616e4655906ff7e940a9880c1521fa",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182155/openfire480-exec.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "Openfire version 4.8.0 suffers from authentication bypass and code injection vulnerabilities.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Openfire 4.8.0 Code Injection",
+        "exploitTags": " exploit, vulnerability",
+        "exploitUrl": "https://packetstormsecurity.com/files/182155/Openfire-4.8.0-Code-Injection.html"
+      }
+    },
+    "openmediavault7422-exec": {
+      "exploit": {
+        "exploit": "dee3901417baed652d3fc04ebaed8cad97b0a4d6b6b57d600f69ac46177f5cc4",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182021/openmediavault7422-exec.txt",
+        "exploitDate": " Oct  7, 2024",
+        "exploitDis": "OpenMediaVault version 7.4.2-2 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "OpenMediaVault 7.4.2-2 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182021/OpenMediaVault-7.4.2-2-Code-Injection.html"
+      }
+    },
+    "opensis91-sql": {
+      "exploit": {
+        "exploit": "ddd8a61a144743e851f50537eea6c5ff213dbd687c67b18723cb43b3cce02613",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181989/opensis91-sql.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "openSIS version 9.1 suffers from a remote SQL injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "openSIS 9.1 SQL Injection",
+        "exploitTags": " exploit, remote, sql injection",
+        "exploitUrl": "https://packetstormsecurity.com/files/181989/openSIS-9.1-SQL-Injection.html"
+      }
+    },
+    "otms10-insecure": {
+      "exploit": {
+        "exploit": "50f93a87e5554930400810877fce49a78446a35e2d6a98441450bcb07ff173bb",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181919/otms10-insecure.txt",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "Online Tourism Management System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Online Tourism Management System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181919/Online-Tourism-Management-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "pbrms10-insecure": {
+      "exploit": {
+        "exploit": "cfd9d4151bd46ad7de2e0c129a76499f645f7ad0df0b80a0d40a359c199f4f2c",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181981/pbrms10-insecure.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "Printing Business Records Management System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Printing Business Records Management System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181981/Printing-Business-Records-Management-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "pbrms10-upload": {
+      "exploit": {
+        "exploit": "8751b24fbc8f067b192e862d9c15c970e7302c26f87c9d0cc2333260c476a884",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181926/pbrms10-upload.txt",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "Printing Business Records Management System version 1.0 suffers from an arbitrary file upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Printing Business Records Management System 1.0 Arbitrary File Upload",
+        "exploitTags": " exploit, arbitrary, file upload",
+        "exploitUrl": "https://packetstormsecurity.com/files/181926/Printing-Business-Records-Management-System-1.0-Arbitrary-File-Upload.html"
+      }
+    },
+    "pbrms10-xsrf": {
+      "exploit": {
+        "exploit": "64c7b498f30407937f82c5a5d093175b8c0eb3b9248d740f693ab2cc8a761dc3",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181957/pbrms10-xsrf.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Printing Business Records Management System version 1.0 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Printing Business Records Management System 1.0 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181957/Printing-Business-Records-Management-System-1.0-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "pbsptra7005120516-xsrf": {
+      "exploit": {
+        "exploit": "4203c24442f5a8253214c4835eb3c067e4f59ae2b931c16d8dd3a814909d896a",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181855/pbsptra7005120516-xsrf.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Positron Broadcast Signal Processor TRA7005 version 1.20 5.1.6 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Positron Broadcast Signal Processor TRA7005 1.20 5.1.6 CSRF",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181855/Positron-Broadcast-Signal-Processor-TRA7005-1.20-5.1.6-CSRF.html"
+      }
+    },
+    "peelshopping2x-sqlxss": {
+      "exploit": {
+        "exploit": "6b817e9573188b3c5ed4066030a3df4e2c7c9fa853b6fac524420a7c64d3e985",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182177/peelshopping2x-sqlxss.txt",
+        "exploitDate": " Oct 14, 2024",
+        "exploitDis": "Peel Shopping versions 2.x and below 3.1 suffer from cross site scripting and remote SQL injection vulnerabilities. This was already noted discovery in 2012 by Cyber-Crystal but this data provides more details.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Peel Shopping 2.x Cross Site Scripting / SQL Injection",
+        "exploitTags": " exploit, remote, vulnerability, xss, sql injection",
+        "exploitUrl": "https://packetstormsecurity.com/files/182177/Peel-Shopping-2.x-Cross-Site-Scripting-SQL-Injection.html"
+      }
+    },
+    "phpnuke6xtm-sql": {
+      "exploit": {
+        "exploit": "3a92ffde9b535fb265d6a04a22334f353b0ca9559e82557ef8693c270d32986f",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182093/phpnuke6xtm-sql.txt",
+        "exploitDate": " Oct  8, 2024",
+        "exploitDis": "The Top module for PHP-Nuke versions 6.x and below 7.6 suffers from a remote SQL injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "PHP-Nuke Top Module SQL Injection",
+        "exploitTags": " exploit, remote, php, sql injection",
+        "exploitUrl": "https://packetstormsecurity.com/files/182093/PHP-Nuke-Top-Module-SQL-Injection.html"
+      }
+    },
+    "projectsend_unauth_rce": {
+      "exploit": {
+        "exploit": "e395c3372dc6eda5878d64b4b3e2b759c5bfaffe8d57ca9fdfd36a0bab7bf55b",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182766/projectsend_unauth_rce.rb.txt",
+        "exploitDate": " Nov 22, 2024",
+        "exploitDis": "This Metasploit module exploits an improper authorization vulnerability in ProjectSend versions r1295 through r1605. The vulnerability allows an unauthenticated attacker to obtain remote code execution by enabling user registration, disabling the whitelist of allowed file extensions, and uploading a malicious PHP file to the server.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ProjectSend R1605 Unauthenticated Remote Code Execution",
+        "exploitTags": " exploit, remote, php, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/182766/ProjectSend-R1605-Unauthenticated-Remote-Code-Execution.html"
+      }
+    },
+    "rengine220-exec": {
+      "exploit": {
+        "exploit": "f066bac5f8056ecff7640ad1eda251ee3cfc442c52056ad0305561dcae02504e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181988/rengine220-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "reNgine version 2.2.0 suffers from an authenticated command injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "reNgine 2.2.0 Command Injection",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181988/reNgine-2.2.0-Command-Injection.html"
+      }
+    },
+    "ris10-upload": {
+      "exploit": {
+        "exploit": "6fb3380fdbd9dc68d4cb8441ac475f25ac1ecd1029d07f228a330be33ec7258c",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181833/ris10-upload.txt",
+        "exploitDate": " Sep 26, 2024",
+        "exploitDis": "Rupee Invoice System version 1.0 suffers from an arbitrary file upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Rupee Invoice System 1.0 Arbitrary File Upload",
+        "exploitTags": " exploit, arbitrary, file upload",
+        "exploitUrl": "https://packetstormsecurity.com/files/181833/Rupee-Invoice-System-1.0-Arbitrary-File-Upload.html"
+      }
+    },
+    "russiafsb-xss": {
+      "exploit": {
+        "exploit": "21d28464eeae42eb77e4f0ab81b9027767782d730809ac4ab3f85300f32aa7c0",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182897/russiafsb-xss.txt",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "The Russian FSB appears to suffer from a cross site scripting vulnerability. The researchers who discovered it have reported it multiple times to them.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Russian FSB Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182897/Russian-FSB-Cross-Site-Scripting.html"
+      }
+    },
+    "sams10-exec": {
+      "exploit": {
+        "exploit": "211655fa45954e4ae6f9a85ce74ab73c1e00115284ac0474fff8f8cb752a988d",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181931/sams10-exec.txt",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "Student Attendance Management System version 1.0 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Student Attendance Management System 1.0 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181931/Student-Attendance-Management-System-1.0-Code-Injection.html"
+      }
+    },
+    "sams10-insecure": {
+      "exploit": {
+        "exploit": "7e5ab7f730f50871718e3ec2d045bacaae8fc1f041e5ecbc52b83bfd78415851",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181958/sams10-insecure.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Student Attendance Management System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Student Attendance Management System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181958/Student-Attendance-Management-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "sbs10-rfi": {
+      "exploit": {
+        "exploit": "4f6ee68a6c536fed1167da6a84c5b39fb5d6773e2ab01a72d0112f0d091435a9",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181856/sbs10-rfi.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Sample Blog Site version 1.0 suffers from a remote file inclusion vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Sample Blog Site 1.0 Remote File Inclusion",
+        "exploitTags": " exploit, remote, code execution, file inclusion",
+        "exploitUrl": "https://packetstormsecurity.com/files/181856/Sample-Blog-Site-1.0-Remote-File-Inclusion.html"
+      }
+    },
+    "sbs10-sqlbypass": {
+      "exploit": {
+        "exploit": "ff00fa017d6b2c496a8bf995f9b728c45edba03e76532f4e55d8dac49f2ca066",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181834/sbs10-sqlbypass.txt",
+        "exploitDate": " Sep 26, 2024",
+        "exploitDis": "Sample Blog Site version 1.0 suffers from a remote SQL injection vulnerability that allows for authentication bypass.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Sample Blog Site 1.0 SQL Injection",
+        "exploitTags": " exploit, remote, sql injection, bypass",
+        "exploitUrl": "https://packetstormsecurity.com/files/181834/Sample-Blog-Site-1.0-SQL-Injection.html"
+      }
+    },
+    "sbs10-xss": {
+      "exploit": {
+        "exploit": "9eb4f98f6b5aa7c6a2b152f6a928201fce3e01efc03aed42ffeb58be9416ad69",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181893/sbs10-xss.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Sample Blog Site version 1.0 suffers from cross site scripting and remote file inclusion vulnerabilities.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Sample Blog Site 1.0 Cross Site Scripting / Remote File Inclusion",
+        "exploitTags": " exploit, remote, vulnerability, xss, file inclusion",
+        "exploitUrl": "https://packetstormsecurity.com/files/181893/Sample-Blog-Site-1.0-Cross-Site-Scripting-Remote-File-Inclusion.html"
+      }
+    },
+    "sca10-insecure": {
+      "exploit": {
+        "exploit": "7b361b307377ab336cb1ba157dbe436f539d4d951640c1b9438080dd04efc415",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181860/sca10-insecure.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Simple Chatbot Application version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Chatbot Application 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181860/Simple-Chatbot-Application-1.0-Insecure-Settings.html"
+      }
+    },
+    "schoolplus10-idor": {
+      "exploit": {
+        "exploit": "9da46ae7f31ba83699ebe8510a6d67446560814fa0531c8918cd3ddd43e621f0",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181857/schoolplus10-idor.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "SchoolPlus version 1.0 suffers from an insecure direct object reference vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SchoolPlus 1.0 Insecure Direct Object Reference",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181857/SchoolPlus-1.0-Insecure-Direct-Object-Reference.html"
+      }
+    },
+    "schoolplus10-sqlbypass": {
+      "exploit": {
+        "exploit": "d2074cc8545a505ce1af1c27f59e640d90c6c616fbd247a73c1d9f5cea3d3385",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181837/schoolplus10-sqlbypass.txt",
+        "exploitDate": " Sep 26, 2024",
+        "exploitDis": "SchoolPlus version 1.0 suffers from a remote SQL injection vulnerability that allows for authentication bypass.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SchoolPlus 1.0 SQL Injection",
+        "exploitTags": " exploit, remote, sql injection, bypass",
+        "exploitUrl": "https://packetstormsecurity.com/files/181837/SchoolPlus-1.0-SQL-Injection.html"
+      }
+    },
+    "scm10-disclose": {
+      "exploit": {
+        "exploit": "ede00ad1b8f81b125e0be45a893d89d85ad8a477424a3733200965b882b35e48",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181962/scm10-disclose.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Supply Chain Management version 1.0 suffers from a backup disclosure vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Supply Chain Management 1.0 Backup Disclosure",
+        "exploitTags": " exploit, info disclosure",
+        "exploitUrl": "https://packetstormsecurity.com/files/181962/Supply-Chain-Management-1.0-Backup-Disclosure.html"
+      }
+    },
+    "scw10-shell": {
+      "exploit": {
+        "exploit": "9743abd528fa884cba34b2d978d020f289c933601ad38b93dad5abca4a9f1f59",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181861/scw10-shell.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Simple College Website version 1.0 suffers from a remote shell upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple College Website 1.0 Shell Upload",
+        "exploitTags": " exploit, remote, shell",
+        "exploitUrl": "https://packetstormsecurity.com/files/181861/Simple-College-Website-1.0-Shell-Upload.html"
+      }
+    },
+    "sdms10-insecure": {
+      "exploit": {
+        "exploit": "861e610b1a8c0b1120c4149e66a75572e6d4838142e38d7e89abb78b2b88e983",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181835/sdms10-insecure.txt",
+        "exploitDate": " Sep 26, 2024",
+        "exploitDis": "School Dormitory Management System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "School Dormitory Management System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181835/School-Dormitory-Management-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "se10-upload": {
+      "exploit": {
+        "exploit": "49cc50e326b3fd62447d476f81a9de0cba690a49f3f4ee75a6bc4a78f3795d14",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181898/se10-upload.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Student Enrollment version 1.0 suffers from an arbitrary file upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Student Enrollment 1.0 Arbitrary File Upload",
+        "exploitTags": " exploit, arbitrary, file upload",
+        "exploitUrl": "https://packetstormsecurity.com/files/181898/Student-Enrollment-1.0-Arbitrary-File-Upload.html"
+      }
+    },
+    "seopanel4100-rfi": {
+      "exploit": {
+        "exploit": "2fdf761dbcf0a177ff1181fce94ad134d7bd768b3f71e66a322977609630415f",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181858/seopanel4100-rfi.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Seo Panel version 4.10.0 suffers from a remote file inclusion vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Seo Panel 4.10.0 Remote File Inclusion",
+        "exploitTags": " exploit, remote, code execution, file inclusion",
+        "exploitUrl": "https://packetstormsecurity.com/files/181858/Seo-Panel-4.10.0-Remote-File-Inclusion.html"
+      }
+    },
+    "sfs290-idor": {
+      "exploit": {
+        "exploit": "12d1e3ae34b7041523b2d6ceee5069a9ac0330c1c76a1ae2423664c65c15e981",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181859/sfs290-idor.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Simbarashe Financial Services version 2.9.0 suffers from an insecure direct object reference vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simbarashe Financial Services 2.9.0 Insecure Direct Object Reference",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181859/Simbarashe-Financial-Services-2.9.0-Insecure-Direct-Object-Reference.html"
+      }
+    },
+    "simplechatsystem10-xss": {
+      "exploit": {
+        "exploit": "ce97d4c23068feb8bbe8521655c316c4b069e124af31c5a63ff93f961e69dd83",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182901/simplechatsystem10-xss.txt",
+        "exploitDate": " Dec  2, 2024",
+        "exploitDis": "Simple Chat System version 1.0 suffers from a cross site scripting vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Chat System 1.0 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182901/Simple-Chat-System-1.0-Cross-Site-Scripting.html"
+      }
+    },
+    "slms10-exec": {
+      "exploit": {
+        "exploit": "a34789327de460887266c735bef8f74228929d32d54ba320baa0cf19e9f7e3af",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181836/slms10-exec.txt",
+        "exploitDate": " Sep 26, 2024",
+        "exploitDis": "School Log Management System version 1.0 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "School Log Management System 1.0 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181836/School-Log-Management-System-1.0-Code-Injection.html"
+      }
+    },
+    "smartagent110-exec": {
+      "exploit": {
+        "exploit": "d1c79ff390d1eddef9aea5b0debce0087e67faf0b8c82c4f6c4ee4fde8484a34",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182451/smartagent110-exec.txt",
+        "exploitDate": " Nov  1, 2024",
+        "exploitDis": "SmartAgent version 1.1.0 suffers from an unauthenticated remote code execution vulnerability in youtubeInfo.php.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SmartAgent 1.1.0 Remote Code Execution",
+        "exploitTags": " exploit, remote, php, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/182451/SmartAgent-1.1.0-Remote-Code-Execution.html"
+      }
+    },
+    "smartagent110-sql": {
+      "exploit": {
+        "exploit": "454076f23b89f57e45086d97afc09d37ad082fe918f4d6e98b97f0605eece69e",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182449/smartagent110-sql.txt",
+        "exploitDate": " Nov  1, 2024",
+        "exploitDis": "SmartAgent version 1.1.0 suffers from multiple unauthenticated remote SQL injection vulnerabilities.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SmartAgent 1.1.0 SQL Injection",
+        "exploitTags": " exploit, remote, vulnerability, sql injection",
+        "exploitUrl": "https://packetstormsecurity.com/files/182449/SmartAgent-1.1.0-SQL-Injection.html"
+      }
+    },
+    "smartagent110-ssrf": {
+      "exploit": {
+        "exploit": "c819a531ddac42276178e8777f908cca9b2430a5fef86c2ac4c3be219a2bd9e3",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182450/smartagent110-ssrf.txt",
+        "exploitDate": " Nov  1, 2024",
+        "exploitDis": "SmartAgent version 1.1.0 suffers from a server-side request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SmartAgent 1.1.0 Server-Side Request Forgery",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182450/SmartAgent-1.1.0-Server-Side-Request-Forgery.html"
+      }
+    },
+    "smms10-sqlbypass": {
+      "exploit": {
+        "exploit": "4c3954a6782826d528b447fdf6dbcdb599551c16726f02aaebd273c7dff238b7",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181862/smms10-sqlbypass.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Simple Music Management System version 1.0 suffers from a remote SQL injection vulnerability that allows for authentication bypass.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Music Management System 1.0 SQL Injection",
+        "exploitTags": " exploit, remote, sql injection, bypass",
+        "exploitUrl": "https://packetstormsecurity.com/files/181862/Simple-Music-Management-System-1.0-SQL-Injection.html"
+      }
+    },
+    "smms10-upload": {
+      "exploit": {
+        "exploit": "199208c90ef7b0a9bafb453966c1c18290282b16dd26a3535aa7d2869e44e262",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181930/smms10-upload.txt",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "Simple Music Management System version 1.0 suffers from an arbitrary file upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Music Management System 1.0 Arbitrary File Upload",
+        "exploitTags": " exploit, arbitrary, file upload",
+        "exploitUrl": "https://packetstormsecurity.com/files/181930/Simple-Music-Management-System-1.0-Arbitrary-File-Upload.html"
+      }
+    },
+    "smms10-xsrf": {
+      "exploit": {
+        "exploit": "df252f1eaa3b66e90a658dfc9a226ba2533289721dc44476e40043a787e9796d",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181894/smms10-xsrf.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Simple Music Management System version 1.0 suffers from add administrator and cross site request forgery vulnerabilities.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Music Management System 1.0 Add Administrator / Cross Site Request Forgery",
+        "exploitTags": " exploit, vulnerability, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181894/Simple-Music-Management-System-1.0-Add-Administrator-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "sms10-cookie": {
+      "exploit": {
+        "exploit": "d658fbfc8c6a719141fdd1f2794283b78eab23b21c7970420e8965f026849eba",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181899/sms10-cookie.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Student Management System version 1.0 suffers from an insecure cookie handling vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Student Management System 1.0 Insecure Cookie Handling",
+        "exploitTags": " exploit, insecure cookie handling",
+        "exploitUrl": "https://packetstormsecurity.com/files/181899/Student-Management-System-1.0-Insecure-Cookie-Handling.html"
+      }
+    },
+    "sms10-insecure": {
+      "exploit": {
+        "exploit": "101a31a6e1d44b64433889c04447671ac782b12e96a0e31c2720d9240165a90a",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181936/sms10-insecure.txt",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "Student Management System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Student Management System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181936/Student-Management-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "sobs10-insecure": {
+      "exploit": {
+        "exploit": "60fe43352a3868f03206638491d4491ead15c3f6267a020925685bf77cd31eb9",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181863/sobs10-insecure.txt",
+        "exploitDate": " Sep 27, 2024",
+        "exploitDis": "Simple Online Banking System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Online Banking System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181863/Simple-Online-Banking-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "sofawiki392-shell": {
+      "exploit": {
+        "exploit": "c48a64660d81765425afab3efa1b001a89e8396b5af5e3e6f44922da04352042",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182270/sofawiki392-shell.txt",
+        "exploitDate": " Oct 17, 2024",
+        "exploitDis": "SofaWiki version 3.9.2 suffers from a remote shell upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SofaWiki 3.9.2 Shell Upload",
+        "exploitTags": " exploit, remote, shell",
+        "exploitUrl": "https://packetstormsecurity.com/files/182270/SofaWiki-3.9.2-Shell-Upload.html"
+      }
+    },
+    "sofawiki392-xss": {
+      "exploit": {
+        "exploit": "86045a8a2ce60e4b66f205862da3b2224cf8d77079eab3339893090eb616d178",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182272/sofawiki392-xss.txt",
+        "exploitDate": " Oct 17, 2024",
+        "exploitDis": "SofaWiki version 3.9.2 suffers from a persistent cross site scripting vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SofaWiki 3.9.2 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182272/SofaWiki-3.9.2-Cross-Site-Scripting.html"
+      }
+    },
+    "sofawiki392r-xss": {
+      "exploit": {
+        "exploit": "50f41752bbb285540d55963273bfc766a007fdbd082dbb5ca319dd3df126f6e5",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182278/sofawiki392r-xss.txt",
+        "exploitDate": " Oct 17, 2024",
+        "exploitDis": "SofaWiki version 3.9.2 suffers from a reflective cross site scripting vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SofaWiki 3.9.2 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182278/SofaWiki-3.9.2-Cross-Site-Scripting.html"
+      }
+    },
+    "solarviewcompact600-inject": {
+      "exploit": {
+        "exploit": "afb7c824b8a452a7e349a92945e4f923c65efb017c72b8f15dc3710d87d468e4",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182156/solarviewcompact600-inject.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "SolarView Compact version 6.00 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SolarView Compact 6.00 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182156/SolarView-Compact-6.00-Code-Injection.html"
+      }
+    },
+    "soplanning15201-exec": {
+      "exploit": {
+        "exploit": "aa2b0281cd44426371fcd74740cdc742a4967b78355a65e5c712e22f50b852b6",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182686/soplanning15201-exec.txt",
+        "exploitDate": " Nov 18, 2024",
+        "exploitDis": "SOPlanning version 1.52.01 authenticated remote code execution exploit.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "SOPlanning 1.52.01 Remote Code Execution",
+        "exploitTags": " exploit, remote, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/182686/SOPlanning-1.52.01-Remote-Code-Execution.html"
+      }
+    },
+    "spbapbw10-sqlbypass": {
+      "exploit": {
+        "exploit": "6bf344eafaf6c191620e5d4aaa4bda969218a3a332ca545a121590babfb99c51",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181897/spbapbw10-sqlbypass.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Sistem Penyewaan Baju atau Pakaian Berbasis Web version 1.0 suffers from a remote SQL injection vulnerability that allows for authentication bypass.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Sistem Penyewaan Baju atau Pakaian Berbasis Web 1.0 SQL Injection",
+        "exploitTags": " exploit, remote, web, sql injection, bypass",
+        "exploitUrl": "https://packetstormsecurity.com/files/181897/Sistem-Penyewaan-Baju-atau-Pakaian-Berbasis-Web-1.0-SQL-Injection.html"
+      }
+    },
+    "srtw10-xsrf": {
+      "exploit": {
+        "exploit": "493173ed90bd6f03279d5ce769c941991460d6871a24971c93c031df10a0443c",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181895/srtw10-xsrf.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Simple Responsive Tourism Website version 1.0 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Responsive Tourism Website 1.0 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181895/Simple-Responsive-Tourism-Website-1.0-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "sscms10-insecure": {
+      "exploit": {
+        "exploit": "784cc27f73e683e0fe07c9ff81d6781cff9ab45ae899bf8af79fd81378e9b889",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181942/sscms10-insecure.txt",
+        "exploitDate": " Oct  1, 2024",
+        "exploitDis": "Student Study Center Management System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Student Study Center Management System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181942/Student-Study-Center-Management-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "ssqrgs10-insecure": {
+      "exploit": {
+        "exploit": "65700e5d5f0a16db7935706da6a050674024b5d163710b8e4236fc5383e251ab",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181896/ssqrgs10-insecure.txt",
+        "exploitDate": " Sep 30, 2024",
+        "exploitDis": "Simple Student Quarterly Result / Grade System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Simple Student Quarterly Result / Grade System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181896/Simple-Student-Quarterly-Result-Grade-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "sysaxms699-dos": {
+      "exploit": {
+        "exploit": "ebc9a93344fb5bef008bc0309e3cf33cd4eddd71fd9d24157cf66c96571e5f7b",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182468/sysaxms699-dos.txt",
+        "exploitDate": " Nov  4, 2024",
+        "exploitDis": "Sysax Multi Server version 6.9.9 suffers from an SSH related denial of service vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Sysax Multi Server 6.99 SSH Denial Of Service",
+        "exploitTags": " exploit, denial of service",
+        "exploitUrl": "https://packetstormsecurity.com/files/182468/Sysax-Multi-Server-6.99-SSH-Denial-Of-Service.html"
+      }
+    },
+    "sysaxms699-xss": {
+      "exploit": {
+        "exploit": "d688c8aa11a70ff0b0715421045afb02b7b5d18529b051e978c77bd918407bc5",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182467/sysaxms699-xss.txt",
+        "exploitDate": " Nov  4, 2024",
+        "exploitDis": "Sysax Multi Server version 6.9.9 suffers from a cross site scripting vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Sysax Multi Server 6.99 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/182467/Sysax-Multi-Server-6.99-Cross-Site-Scripting.html"
+      }
+    },
+    "terramastertos4229-execlfi": {
+      "exploit": {
+        "exploit": "47788fafaa57a0578fe61fae3aba9174fdcd4e9caddb1374b93de92e53260e4a",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182158/terramastertos4229-execlfi.txt",
+        "exploitDate": " Oct 11, 2024",
+        "exploitDis": "TerraMaster TOS version 4.2.29 suffers from a remote code injection vulnerability leveraging a local file inclusion vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "TerraMaster TOS 4.2.29 Code Injection / Local File Inclusion",
+        "exploitTags": " exploit, remote, local, file inclusion",
+        "exploitUrl": "https://packetstormsecurity.com/files/182158/TerraMaster-TOS-4.2.29-Code-Injection-Local-File-Inclusion.html"
+      }
+    },
+    "testrailcli-inject": {
+      "exploit": {
+        "exploit": "23defc505c60d8487fbaa6cc446dcdfe879f30097f49592151de5e51f416f7ff",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182535/testrailcli-inject.txt",
+        "exploitDate": " Nov  7, 2024",
+        "exploitDis": "While parsing test result XML files with the TestRail CLI, the presence of certain TestRail-specific fields can cause untrusted data to flow into an eval() statement, leading to arbitrary code execution. In order to exploit this, an attacker would need to be able to cause the TestRail CLI to parse a malicious XML file. Normally an attacker with this level of control would already have other avenues of gaining code execution.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "TestRail CLI FieldsParser eval Injection",
+        "exploitTags": " exploit, arbitrary, code execution",
+        "exploitUrl": "https://packetstormsecurity.com/files/182535/TestRail-CLI-FieldsParser-eval-Injection.html"
+      }
+    },
+    "tms10-exec": {
+      "exploit": {
+        "exploit": "5cf8e15ce7499c6490e96ebc008271a147e725e19d95b6b79612ffe0933de18b",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181964/tms10-exec.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Task Management System version 1.0 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Task Management System 1.0 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181964/Task-Management-System-1.0-Code-Injection.html"
+      }
+    },
+    "tms10-idor": {
+      "exploit": {
+        "exploit": "ddb2ecfd9605e960fcf65ed5d6d99463da9d4dc7cef2f1685967819afe88b7de",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181982/tms10-idor.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "Transport Management System version 1.0 suffers from an insecure direct object reference vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Transport Management System 1.0 Insecure Direct Object Reference",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181982/Transport-Management-System-1.0-Insecure-Direct-Object-Reference.html"
+      }
+    },
+    "tms10-xss": {
+      "exploit": {
+        "exploit": "c3e17922e2b266bb53516cda7f7564ad10b76a73051bd10448a3be4dfc1c45a4",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181968/tms10-xss.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Tourism Management System version 1.0 suffers from a cross site scripting vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Tourism Management System 1.0 Cross Site Scripting",
+        "exploitTags": " exploit, xss",
+        "exploitUrl": "https://packetstormsecurity.com/files/181968/Tourism-Management-System-1.0-Cross-Site-Scripting.html"
+      }
+    },
+    "totolink9x-exec": {
+      "exploit": {
+        "exploit": "2d199fda1a45cace299043b1d5aee9484bc09d195d47bc791fc07cf405039920",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182168/totolink9x-exec.txt",
+        "exploitDate": " Oct 14, 2024",
+        "exploitDis": "TOTOLINK version 9.x suffers from a remote command injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "TOTOLINK 9.x Command Injection",
+        "exploitTags": " exploit, remote",
+        "exploitUrl": "https://packetstormsecurity.com/files/182168/TOTOLINK-9.x-Command-Injection.html"
+      }
+    },
+    "transportms10-exec": {
+      "exploit": {
+        "exploit": "cd5dd78857336257ee61bcf76cd477a9fa12e3c595be519cef024af5bed57cdb",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182001/transportms10-exec.txt",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "Transport Management System version 1.0 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Transport Management System 1.0 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182001/Transport-Management-System-1.0-Code-Injection.html"
+      }
+    },
+    "transportms10-upload": {
+      "exploit": {
+        "exploit": "1cd66e393ca7966dfbaac0ad1a1b3a444b9752a015b512e8517095c91f4717e2",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182002/transportms10-upload.txt",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "Transport Management System version 1.0 suffers from an arbitrary file upload vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Transport Management System 1.0 Arbitrary File Upload",
+        "exploitTags": " exploit, arbitrary, file upload",
+        "exploitUrl": "https://packetstormsecurity.com/files/182002/Transport-Management-System-1.0-Arbitrary-File-Upload.html"
+      }
+    },
+    "tsams10-insecure": {
+      "exploit": {
+        "exploit": "f3361bf9186b472b9be8cbd6ae5f7d9d24dd48bb2c9b3fc4085a3f7ab2c6d9ac",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181966/tsams10-insecure.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "Teacher Subject Allocation Management System version 1.0 suffers from an ignored default credential vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Teacher Subject Allocation Management System 1.0 Insecure Settings",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/181966/Teacher-Subject-Allocation-Management-System-1.0-Insecure-Settings.html"
+      }
+    },
+    "twc201atemio7600-exec": {
+      "exploit": {
+        "exploit": "ae322d271852c8f25de18f6d647d31c02a2bc3f366c6ee1f1c7d3ed36bff9c05",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181967/twc201atemio7600-exec.txt",
+        "exploitDate": " Oct  2, 2024",
+        "exploitDis": "TitanNit Web Control 2.01 and Atemio 7600 suffer from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "TitanNit Web Control 2.01 / Atemio 7600 Code Injection",
+        "exploitTags": " exploit, web, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181967/TitanNit-Web-Control-2.01-Atemio-7600-Code-Injection.html"
+      }
+    },
+    "txtextcontrol-fileread": {
+      "exploit": {
+        "exploit": "87daef249524395b391c7767b295ddf96c40db5d4fbd376c76c034cc5844d043",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182666/txtextcontrol-fileread.txt",
+        "exploitDate": " Nov 14, 2024",
+        "exploitDis": "TX Text Control .NET Server For ASP.NET has an issue where it was possible to change the configured system path for reading and writing files in the underlying operating system with privileges of the user running a web application.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "TX Text Control .NET Server For ASP.NET Arbitrary File Read / Write ",
+        "exploitTags": " exploit, web, asp",
+        "exploitUrl": "https://packetstormsecurity.com/files/182666/TX-Text-Control-.NET-Server-For-ASP.NET-Arbitrary-File-Read-Write.html"
+      }
+    },
+    "upresultpro10-sql": {
+      "exploit": {
+        "exploit": "aa5fd3b33671b6f9535a4f177d74b5684187c6772a5f031c7ff6d6753fa030b6",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182359/upresultpro10-sql.txt",
+        "exploitDate": " Oct 29, 2024",
+        "exploitDis": "UP-RESULT PRO version 1.0 suffers from a remote SQL injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "UP-RESULT PRO 1.0 SQL Injection",
+        "exploitTags": " exploit, remote, sql injection",
+        "exploitUrl": "https://packetstormsecurity.com/files/182359/UP-RESULT-PRO-1.0-SQL-Injection.html"
+      }
+    },
+    "vicidial205-xsrf": {
+      "exploit": {
+        "exploit": "8d97cf3df17b56471dae55b00de7d5fdb6df05ba2d778c815ad038c1c5af4ade",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181984/vicidial205-xsrf.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "ViciDial version 2.0.5 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "ViciDial 2.0.5 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181984/ViciDial-2.0.5-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "vivofibraaskeyRTF8225VW-exec": {
+      "exploit": {
+        "exploit": "edf855b06c71dfe99f294649be53aad56d922600786e0dd75e802740e673d599",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182171/vivofibraaskeyRTF8225VW-exec.txt",
+        "exploitDate": " Oct 14, 2024",
+        "exploitDis": "The Vivo Fibra Askey RTF8225VW modem suffers from an input validation vulnerability that allows for full escalation to a functioning shell once logged in and using the restricted aspsh shell.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Vivo Fibra Askey RTF8225VW Command Execution",
+        "exploitTags": " exploit, shell",
+        "exploitUrl": "https://packetstormsecurity.com/files/182171/Vivo-Fibra-Askey-RTF8225VW-Command-Execution.html"
+      }
+    },
+    "vsms10-exec": {
+      "exploit": {
+        "exploit": "f9fcf44105743a3a54ea4970cafe882eab97bba4a5694154f79b99123f25e133",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182003/vsms10-exec.txt",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "Vehicle Service Management System version 1.0 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Vehicle Service Management System 1.0 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/182003/Vehicle-Service-Management-System-1.0-Code-Injection.html"
+      }
+    },
+    "vsms10-inject": {
+      "exploit": {
+        "exploit": "daeb244d9db94e371d9cc2e37a40f07b6ca949b734ea683afcbe95ac4b4ca130",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182004/vsms10-inject.txt",
+        "exploitDate": " Oct  4, 2024",
+        "exploitDis": "Vehicle Service Management System version 1.0 suffers from a WYSIWYG code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Vehicle Service Management System 1.0 WYSIWYG Code Injection",
+        "exploitTags": " exploit",
+        "exploitUrl": "https://packetstormsecurity.com/files/182004/Vehicle-Service-Management-System-1.0-WYSIWYG-Code-Injection.html"
+      }
+    },
+    "vsms10-xsrf": {
+      "exploit": {
+        "exploit": "cbbb1165632f2703bbc4989bf742873fef70ed8ad0904b983a249605f1abbb36",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181983/vsms10-xsrf.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "Vehicle Service Management System version 1.0 suffers from a cross site request forgery vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "Vehicle Service Management System 1.0 Cross Site Request Forgery",
+        "exploitTags": " exploit, csrf",
+        "exploitUrl": "https://packetstormsecurity.com/files/181983/Vehicle-Service-Management-System-1.0-Cross-Site-Request-Forgery.html"
+      }
+    },
+    "watchguardxtmfirebox125x-exec": {
+      "exploit": {
+        "exploit": "78e6c67201f4e49d3389589aa7f41fc87652c0fde365477237abb7c91d9f8057",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182220/watchguardxtmfirebox125x-exec.txt",
+        "exploitDate": " Oct 15, 2024",
+        "exploitDis": "WatchGuard XTM Firebox version 12.5.x suffers from a buffer overflow vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "WatchGuard XTM Firebox 12.5.x Buffer Overflow",
+        "exploitTags": " exploit, overflow",
+        "exploitUrl": "https://packetstormsecurity.com/files/182220/WatchGuard-XTM-Firebox-12.5.x-Buffer-Overflow.html"
+      }
+    },
+    "wpbbt196-exec": {
+      "exploit": {
+        "exploit": "69058773e3397f84487632f50d5da835890bc34fb55c74c497a1b37f090145ec",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181987/wpbbt196-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "WordPress Bricks Builder Theme version 1.9.6 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "WordPress Bricks Builder Theme 1.9.6 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181987/WordPress-Bricks-Builder-Theme-1.9.6-Code-Injection.html"
+      }
+    },
+    "wpfmas232-shell": {
+      "exploit": {
+        "exploit": "c3c91c881eefe624d3d7dfab709897221d26c0579d2ee6152e7b82b5bc372b7c",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/182169/wpfmas232-shell.txt",
+        "exploitDate": " Oct 14, 2024",
+        "exploitDis": "WordPress File Manager Advanced Shortcode plugin version 2.3.2 suffers from a code injection vulnerability that allows for remote shell upload.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "WordPress File Manager Advanced Shortcode 2.3.2 Code Injectin / Shell Upload",
+        "exploitTags": " exploit, remote, shell",
+        "exploitUrl": "https://packetstormsecurity.com/files/182169/WordPress-File-Manager-Advanced-Shortcode-2.3.2-Code-Injectin-Shell-Upload.html"
+      }
+    },
+    "wpgivewpdfp3141-exec": {
+      "exploit": {
+        "exploit": "eb486df34141d18e18b546102e2a364a70c644072728e437923337df6d3968b6",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181985/wpgivewpdfp3141-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "WordPress GiveWP Donation Fundraising Platform version 3.14.1 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "WordPress GiveWP Donation Fundraising Platform 3.14.1 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181985/WordPress-GiveWP-Donation-Fundraising-Platform-3.14.1-Code-Injection.html"
+      }
+    },
+    "wphashform110-exec": {
+      "exploit": {
+        "exploit": "bc7980f4f411a27c7262c68f7fd454a125802275d61a94ede6b68bb2e568c7a7",
+        "exploitDLurl": "https://packetstormsecurity.com/files/download/181986/wphashform110-exec.txt",
+        "exploitDate": " Oct  3, 2024",
+        "exploitDis": "WordPress Hash Form plugin version 1.1.0 suffers from a PHP code injection vulnerability.",
+        "exploitName": "N/A",
+        "exploitQuickDis": "WordPress Hash Form 1.1.0 Code Injection",
+        "exploitTags": " exploit, php",
+        "exploitUrl": "https://packetstormsecurity.com/files/181986/WordPress-Hash-Form-1.1.0-Code-Injection.html"
+      }
+    }
+  }
+}
