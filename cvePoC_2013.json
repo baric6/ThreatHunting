@@ -1,0 +1,5642 @@
+{
+  "CVE-2013-0008": [
+    "http://www.exploit-db.com/exploits/24485"
+  ],
+  "CVE-2013-0019": [
+    "https://www.exploit-db.com/exploits/40879/"
+  ],
+  "CVE-2013-0077": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-011"
+  ],
+  "CVE-2013-0079": [
+    "http://www.kb.cert.org/vuls/id/851777"
+  ],
+  "CVE-2013-0086": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-025"
+  ],
+  "CVE-2013-0090": [
+    "https://www.exploit-db.com/exploits/40935/"
+  ],
+  "CVE-2013-0109": [
+    "http://www.kb.cert.org/vuls/id/957036"
+  ],
+  "CVE-2013-0110": [
+    "http://www.kb.cert.org/vuls/id/957036"
+  ],
+  "CVE-2013-0111": [
+    "http://www.kb.cert.org/vuls/id/957036"
+  ],
+  "CVE-2013-0113": [
+    "http://www.kb.cert.org/vuls/id/248449"
+  ],
+  "CVE-2013-0120": [
+    "http://www.kb.cert.org/vuls/id/160460"
+  ],
+  "CVE-2013-0122": [
+    "http://www.kb.cert.org/vuls/id/131263"
+  ],
+  "CVE-2013-0123": [
+    "http://www.kb.cert.org/vuls/id/406596"
+  ],
+  "CVE-2013-0124": [
+    "http://www.kb.cert.org/vuls/id/406596"
+  ],
+  "CVE-2013-0126": [
+    "http://www.kb.cert.org/vuls/id/278204"
+  ],
+  "CVE-2013-0135": [
+    "http://packetstormsecurity.com/files/129789/PHP-Address-Book-Cross-Site-Scripting-SQL-Injection.html"
+  ],
+  "CVE-2013-0140": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10042"
+  ],
+  "CVE-2013-0141": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10042"
+  ],
+  "CVE-2013-0149": [
+    "http://www.kb.cert.org/vuls/id/229804"
+  ],
+  "CVE-2013-0150": [
+    "https://nealpoole.com/blog/2013/07/code-execution-via-f5-networks-java-applet/"
+  ],
+  "CVE-2013-0156": [
+    "https://community.rapid7.com/community/metasploit/blog/2013/01/09/serialization-mischief-in-ruby-land-cve-2013-0156"
+  ],
+  "CVE-2013-0158": [
+    "http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2013-01-04.cb"
+  ],
+  "CVE-2013-0160": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=892983"
+  ],
+  "CVE-2013-0169": [
+    "http://www.isg.rhul.ac.uk/tls/TLStiming.pdf"
+  ],
+  "CVE-2013-0175": [
+    "https://github.com/sferik/multi_xml/pull/34"
+  ],
+  "CVE-2013-0177": [
+    "http://packetstormsecurity.com/files/119673/Apache-OFBiz-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-0182": [
+    "http://drupalcode.org/project/payment.git/commitdiff/62c9186"
+  ],
+  "CVE-2013-0191": [
+    "http://sourceforge.net/p/pam-pgsql/bugs/13/"
+  ],
+  "CVE-2013-0200": [
+    "http://www.ubuntu.com/usn/USN-1981-1"
+  ],
+  "CVE-2013-0213": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05115993"
+  ],
+  "CVE-2013-0214": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05115993"
+  ],
+  "CVE-2013-0216": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-0217": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-0228": [
+    "http://www.ubuntu.com/usn/USN-1808-1"
+  ],
+  "CVE-2013-0230": [
+    "https://www.exploit-db.com/exploits/36839/"
+  ],
+  "CVE-2013-0232": [
+    "http://itsecuritysolutions.org/2013-01-22-ZoneMinder-Video-Server-arbitrary-command-execution-vulnerability/"
+  ],
+  "CVE-2013-0234": [
+    "https://github.com/Elgg/Elgg/commit/a74a88501c41e89c8bcd7fc650ae2f8cc0a5003d#L2L21"
+  ],
+  "CVE-2013-0236": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=904121"
+  ],
+  "CVE-2013-0238": [
+    "http://www.openwall.com/lists/oss-security/2013/01/29/8"
+  ],
+  "CVE-2013-0239": [
+    "http://packetstormsecurity.com/files/120214/Apache-CXF-WS-Security-UsernameToken-Bypass.html"
+  ],
+  "CVE-2013-0244": [
+    "http://packetstormsecurity.com/files/119598/Drupal-Core-6.x-7.x-Cross-Site-Scripting-Access-Bypass.html"
+  ],
+  "CVE-2013-0245": [
+    "http://packetstormsecurity.com/files/119598/Drupal-Core-6.x-7.x-Cross-Site-Scripting-Access-Bypass.html"
+  ],
+  "CVE-2013-0246": [
+    "http://packetstormsecurity.com/files/119598/Drupal-Core-6.x-7.x-Cross-Site-Scripting-Access-Bypass.html"
+  ],
+  "CVE-2013-0248": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html"
+  ],
+  "CVE-2013-0249": [
+    "http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html"
+  ],
+  "CVE-2013-0255": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html"
+  ],
+  "CVE-2013-0261": [
+    "http://rhn.redhat.com/errata/RHSA-2013-0595.html"
+  ],
+  "CVE-2013-0263": [
+    "https://groups.google.com/forum/#!msg/rack-devel/RnQxm6i13C4/xfakH81yWvgJ"
+  ],
+  "CVE-2013-0266": [
+    "http://rhn.redhat.com/errata/RHSA-2013-0595.html"
+  ],
+  "CVE-2013-0281": [
+    "https://github.com/ClusterLabs/pacemaker/commit/564f7cc2a51dcd2f28ab12a13394f31be5aa3c93"
+  ],
+  "CVE-2013-0286": [
+    "http://www.openwall.com/lists/oss-security/2013/02/14/4"
+  ],
+  "CVE-2013-0289": [
+    "http://sourceforge.net/projects/isync/files/isync/1.0.6/"
+  ],
+  "CVE-2013-0290": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-0291": [
+    "http://www.openwall.com/lists/oss-security/2013/02/15/3"
+  ],
+  "CVE-2013-0292": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-0305": [
+    "http://ubuntu.com/usn/usn-1757-1"
+  ],
+  "CVE-2013-0306": [
+    "http://ubuntu.com/usn/usn-1757-1"
+  ],
+  "CVE-2013-0308": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinapr2015-2511959.html"
+  ],
+  "CVE-2013-0311": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-0322": [
+    "http://drupal.org/node/1922136"
+  ],
+  "CVE-2013-0327": [
+    "http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2013-02-16.cb"
+  ],
+  "CVE-2013-0328": [
+    "http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2013-02-16.cb"
+  ],
+  "CVE-2013-0329": [
+    "http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2013-02-16.cb"
+  ],
+  "CVE-2013-0330": [
+    "http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2013-02-16.cb"
+  ],
+  "CVE-2013-0331": [
+    "http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2013-02-16.cb"
+  ],
+  "CVE-2013-0334": [
+    "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html"
+  ],
+  "CVE-2013-0338": [
+    "http://www.ubuntu.com/usn/USN-1782-1"
+  ],
+  "CVE-2013-0340": [
+    "http://seclists.org/fulldisclosure/2021/Sep/39"
+  ],
+  "CVE-2013-0343": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-0349": [
+    "http://www.ubuntu.com/usn/USN-1808-1"
+  ],
+  "CVE-2013-0351": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0352": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0353": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0354": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0355": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0356": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0357": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0358": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0359": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0360": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0361": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0362": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0363": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0364": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0365": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0366": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0367": [
+    "http://www.ubuntu.com/usn/USN-1703-1"
+  ],
+  "CVE-2013-0368": [
+    "http://www.ubuntu.com/usn/USN-1703-1"
+  ],
+  "CVE-2013-0369": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0370": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0371": [
+    "http://www.ubuntu.com/usn/USN-1703-1"
+  ],
+  "CVE-2013-0372": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0373": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0374": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0375": [
+    "http://www.ubuntu.com/usn/USN-1703-1"
+  ],
+  "CVE-2013-0376": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0377": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0378": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0379": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0380": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0381": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0382": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0383": [
+    "http://www.ubuntu.com/usn/USN-1703-1"
+  ],
+  "CVE-2013-0384": [
+    "http://www.ubuntu.com/usn/USN-1703-1"
+  ],
+  "CVE-2013-0385": [
+    "http://www.ubuntu.com/usn/USN-1703-1"
+  ],
+  "CVE-2013-0386": [
+    "http://www.ubuntu.com/usn/USN-1703-1"
+  ],
+  "CVE-2013-0387": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0388": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0389": [
+    "http://www.ubuntu.com/usn/USN-1703-1"
+  ],
+  "CVE-2013-0390": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0391": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0392": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0393": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0394": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0395": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0396": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0397": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0398": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-0399": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0400": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0401": [
+    "http://www.zdnet.com/pwn2own-down-go-all-the-browsers-7000012283/"
+  ],
+  "CVE-2013-0402": [
+    "http://www.zdnet.com/pwn2own-down-go-all-the-browsers-7000012283/"
+  ],
+  "CVE-2013-0403": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-0404": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-0405": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-0406": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-0407": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0408": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-0409": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0410": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-0411": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-0412": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-0413": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-0414": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0415": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0416": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-0417": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0418": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0419": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0420": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html"
+  ],
+  "CVE-2013-0422": [
+    "https://www-304.ibm.com/connections/blogs/PSIRT/entry/oracle_java_7_security_manager_bypass_vulnerability_cve_2013_04224?lang=en_us"
+  ],
+  "CVE-2013-0423": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0424": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0425": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0426": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0427": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0428": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=907207"
+  ],
+  "CVE-2013-0429": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0430": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0431": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0432": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0433": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0434": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0435": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0436": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0437": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0438": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0439": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0440": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0441": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0442": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0443": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0444": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0445": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0446": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0447": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0448": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0449": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0450": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-0462": [
+    "http://www.ibm.com/connections/blogs/PSIRT/entry/security_vulnerabilities_fixed_in_ibm_websphere_application_server_7_0_0_2785"
+  ],
+  "CVE-2013-0499": [
+    "http://seclists.org/bugtraq/2013/May/83"
+  ],
+  "CVE-2013-0577": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21651990"
+  ],
+  "CVE-2013-0579": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21651990"
+  ],
+  "CVE-2013-0580": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21651990"
+  ],
+  "CVE-2013-0597": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21644047"
+  ],
+  "CVE-2013-0608": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A16037"
+  ],
+  "CVE-2013-0618": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A15822"
+  ],
+  "CVE-2013-0657": [
+    "https://www.exploit-db.com/exploits/45218/"
+  ],
+  "CVE-2013-0662": [
+    "https://www.exploit-db.com/exploits/45220/"
+  ],
+  "CVE-2013-0663": [
+    "https://www.exploit-db.com/exploits/44678/"
+  ],
+  "CVE-2013-0706": [
+    "http://jpn.nec.com/security-info/secinfo/nv13-004.html"
+  ],
+  "CVE-2013-0722": [
+    "http://www.exploit-db.com/exploits/23945/"
+  ],
+  "CVE-2013-0750": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=805121"
+  ],
+  "CVE-2013-0753": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=814001"
+  ],
+  "CVE-2013-0754": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=814026"
+  ],
+  "CVE-2013-0755": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=814027"
+  ],
+  "CVE-2013-0756": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=814029"
+  ],
+  "CVE-2013-0757": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=813901"
+  ],
+  "CVE-2013-0758": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=813906"
+  ],
+  "CVE-2013-0774": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=827193"
+  ],
+  "CVE-2013-0787": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=848644"
+  ],
+  "CVE-2013-0788": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A16629"
+  ],
+  "CVE-2013-0791": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-0793": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=803870"
+  ],
+  "CVE-2013-0797": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=830134"
+  ],
+  "CVE-2013-0799": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=848417"
+  ],
+  "CVE-2013-0803": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-0803"
+  ],
+  "CVE-2013-0805": [
+    "https://www.csnc.ch/misc/files/advisories/CVE-2013-0805.txt"
+  ],
+  "CVE-2013-0807": [
+    "http://packetstormsecurity.com/files/119805/gpEasy-3.5.2-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-0809": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A19076"
+  ],
+  "CVE-2013-0871": [
+    "http://www.ubuntu.com/usn/USN-1741-1"
+  ],
+  "CVE-2013-0894": [
+    "http://www.ubuntu.com/usn/USN-1790-1"
+  ],
+  "CVE-2013-0913": [
+    "http://www.ubuntu.com/usn/USN-1814-1"
+  ],
+  "CVE-2013-0914": [
+    "http://www.ubuntu.com/usn/USN-1797-1"
+  ],
+  "CVE-2013-0946": [
+    "https://www.exploit-db.com/exploits/42719/"
+  ],
+  "CVE-2013-10001": [
+    "https://vuldb.com/?id.8900"
+  ],
+  "CVE-2013-10003": [
+    "https://vuldb.com/?id.12789"
+  ],
+  "CVE-2013-10032": [
+    "https://www.vulncheck.com/advisories/getsimple-cms-auth-rce-via-arbitrary-php-file-upload"
+  ],
+  "CVE-2013-10033": [
+    "https://www.vulncheck.com/advisories/kimai-sqli"
+  ],
+  "CVE-2013-10034": [
+    "https://www.vulncheck.com/advisories/kaseya-arbitrary-file-upload-rce"
+  ],
+  "CVE-2013-10035": [
+    "https://www.vulncheck.com/advisories/processmaker-open-source-neoclassic-skin-php-code-execution"
+  ],
+  "CVE-2013-10036": [
+    "https://www.vulncheck.com/advisories/beetel-connection-manager-stack-based-buffer-overflow"
+  ],
+  "CVE-2013-10037": [
+    "https://www.vulncheck.com/advisories/webtester-unauth-command-execution"
+  ],
+  "CVE-2013-10038": [
+    "https://www.vulncheck.com/advisories/flashchat-arbitrary-file-upload-rce"
+  ],
+  "CVE-2013-10039": [
+    "https://www.vulncheck.com/advisories/gestioip-rce"
+  ],
+  "CVE-2013-10040": [
+    "https://www.vulncheck.com/advisories/clipbucket-arbitrary-file-upload-rce"
+  ],
+  "CVE-2013-10042": [
+    "https://www.vulncheck.com/advisories/freeftpd-pass-command-stack-based-buffer-overflow"
+  ],
+  "CVE-2013-10043": [
+    "https://www.vulncheck.com/advisories/astium-voip-pbx-sqli-file-upload-rce"
+  ],
+  "CVE-2013-10044": [
+    "https://www.vulncheck.com/advisories/openemr-sqli-priv-esc-rce"
+  ],
+  "CVE-2013-10046": [
+    "https://www.vulncheck.com/advisories/agnitum-outpost-internet-security-local-priv-esc"
+  ],
+  "CVE-2013-10047": [
+    "https://www.vulncheck.com/advisories/miniweb-arbitrary-file-upload"
+  ],
+  "CVE-2013-10048": [
+    "https://www.vulncheck.com/advisories/d-link-legacy-unauth-rce"
+  ],
+  "CVE-2013-10049": [
+    "https://www.vulncheck.com/advisories/raidsonic-nas-devices-unauth-rce"
+  ],
+  "CVE-2013-10050": [
+    "https://www.vulncheck.com/advisories/d-link-legacy-unauth-rce-2"
+  ],
+  "CVE-2013-10051": [
+    "https://www.vulncheck.com/advisories/instantcms-remote-php-code-execution"
+  ],
+  "CVE-2013-10052": [
+    "https://www.vulncheck.com/advisories/zpanel-zsudo-local-priv-esc"
+  ],
+  "CVE-2013-10053": [
+    "https://www.vulncheck.com/advisories/zpanel-htpasswd-module-username-command-execution"
+  ],
+  "CVE-2013-10054": [
+    "https://www.vulncheck.com/advisories/librettocms-file-manager-arbitrary-file-upload"
+  ],
+  "CVE-2013-10055": [
+    "https://www.vulncheck.com/advisories/havalite-cms-arbitary-file-upload-rce"
+  ],
+  "CVE-2013-10057": [
+    "https://www.vulncheck.com/advisories/synactis-pdf-in-the-box-connectosynactic-stack-based-buffer-overflow"
+  ],
+  "CVE-2013-10058": [
+    "https://www.vulncheck.com/advisories/linksys-legacy-routers-remote-command-injection"
+  ],
+  "CVE-2013-10059": [
+    "https://www.vulncheck.com/advisories/d-link-legacy-os-command-injection"
+  ],
+  "CVE-2013-10060": [
+    "https://www.vulncheck.com/advisories/netgear-legacy-routers-rce"
+  ],
+  "CVE-2013-10061": [
+    "https://www.vulncheck.com/advisories/netgear-legacy-routers-rce-2"
+  ],
+  "CVE-2013-10062": [
+    "https://www.vulncheck.com/advisories/linksys-legacy-routers-path-traversal"
+  ],
+  "CVE-2013-10063": [
+    "https://www.vulncheck.com/advisories/netgear-sph200d-path-traversal-via-http-get"
+  ],
+  "CVE-2013-10064": [
+    "https://www.vulncheck.com/advisories/actfax-raw-server-buffer-overflow"
+  ],
+  "CVE-2013-10065": [
+    "https://www.vulncheck.com/advisories/sysax-multi-server-sshd-key-exchange-dos"
+  ],
+  "CVE-2013-10066": [
+    "https://www.vulncheck.com/advisories/kordil-edms-unauth-arbitrary-file-upload"
+  ],
+  "CVE-2013-10067": [
+    "https://www.vulncheck.com/advisories/glossword-arbitrary-file-upload-rce"
+  ],
+  "CVE-2013-10068": [
+    "https://www.vulncheck.com/advisories/foxit-reader-plugin-url-processing-buffer-overflow"
+  ],
+  "CVE-2013-10069": [
+    "https://www.vulncheck.com/advisories/dlink-devices-unauth-rce"
+  ],
+  "CVE-2013-10070": [
+    "https://www.vulncheck.com/advisories/php-charts-php-code-execution"
+  ],
+  "CVE-2013-1034": [
+    "http://www.cloudscan.me/2013/09/cve-2013-1034-stored-xss-xxe-os-x.html"
+  ],
+  "CVE-2013-1052": [
+    "http://www.ubuntu.com/usn/USN-1766-1"
+  ],
+  "CVE-2013-1054": [
+    "https://ubuntu.com/USN-2743-3"
+  ],
+  "CVE-2013-1055": [
+    "https://ubuntu.com/USN-2743-3"
+  ],
+  "CVE-2013-1060": [
+    "http://www.ubuntu.com/usn/USN-1946-1"
+  ],
+  "CVE-2013-1100": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityNotice/CVE-2013-1100"
+  ],
+  "CVE-2013-1115": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130904-webex"
+  ],
+  "CVE-2013-1116": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130904-webex"
+  ],
+  "CVE-2013-1117": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130904-webex"
+  ],
+  "CVE-2013-1118": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130904-webex"
+  ],
+  "CVE-2013-1119": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130904-webex"
+  ],
+  "CVE-2013-1124": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityNotice/CVE-2013-1124"
+  ],
+  "CVE-2013-1140": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityNotice/CVE-2013-1140"
+  ],
+  "CVE-2013-1142": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130327-nat"
+  ],
+  "CVE-2013-1145": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130327-cce"
+  ],
+  "CVE-2013-1300": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-053"
+  ],
+  "CVE-2013-1306": [
+    "https://www.exploit-db.com/exploits/40894/"
+  ],
+  "CVE-2013-1309": [
+    "https://www.exploit-db.com/exploits/40893/"
+  ],
+  "CVE-2013-1340": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-053"
+  ],
+  "CVE-2013-1345": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-053"
+  ],
+  "CVE-2013-1352": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-1352/page1/"
+  ],
+  "CVE-2013-1353": [
+    "https://packetstormsecurity.com/files/119461/OrangeHRM-2.7.1-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1359": [
+    "https://seclists.org/fulldisclosure/2013/Jan/125"
+  ],
+  "CVE-2013-1360": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-1360"
+  ],
+  "CVE-2013-1364": [
+    "https://support.zabbix.com/browse/ZBX-6097"
+  ],
+  "CVE-2013-1393": [
+    "http://www.csnc.ch/misc/files/advisories/CVE-2013-1393.txt"
+  ],
+  "CVE-2013-1408": [
+    "http://packetstormsecurity.com/files/120089/WordPress-Wysija-Newsletters-2.2-SQL-Injection.html"
+  ],
+  "CVE-2013-1409": [
+    "http://packetstormsecurity.com/files/120090/WordPress-CommentLuv-2.92.3-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1410": [
+    "https://www.exploit-database.net/?id=59355"
+  ],
+  "CVE-2013-1413": [
+    "http://www.csnc.ch/en/modules/news/news_0076.html_533560828.html"
+  ],
+  "CVE-2013-1414": [
+    "http://www.exploit-db.com/exploits/26528/"
+  ],
+  "CVE-2013-1418": [
+    "https://github.com/krb5/krb5/commit/c2ccf4197f697c4ff143b8a786acdd875e70a89d"
+  ],
+  "CVE-2013-1436": [
+    "http://www.openwall.com/lists/oss-security/2013/07/26/5"
+  ],
+  "CVE-2013-1438": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html"
+  ],
+  "CVE-2013-1450": [
+    "http://www.youtube.com/watch?v=TPqagWAvo8U"
+  ],
+  "CVE-2013-1451": [
+    "http://www.youtube.com/watch?v=TPqagWAvo8U"
+  ],
+  "CVE-2013-1453": [
+    "http://karmainsecurity.com/KIS-2013-03"
+  ],
+  "CVE-2013-1463": [
+    "http://packetstormsecurity.com/files/119968/WordPress-WP-Table-Reloaded-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1464": [
+    "http://packetstormsecurity.com/files/120129/WordPress-Audio-Player-SWF-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1465": [
+    "http://packetstormsecurity.com/files/120094/CubeCart-5.2.0-PHP-Object-Injection.html"
+  ],
+  "CVE-2013-1466": [
+    "http://www.exploit-db.com/exploits/24536"
+  ],
+  "CVE-2013-1468": [
+    "http://www.exploit-db.com/exploits/24561"
+  ],
+  "CVE-2013-1469": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2013-5127.php"
+  ],
+  "CVE-2013-1470": [
+    "http://packetstormsecurity.com/files/120593/Geeklog-1.8.2-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1471": [
+    "http://www.youtube.com/watch?v=5d7cIaM80oY"
+  ],
+  "CVE-2013-1472": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1473": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1474": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A16378"
+  ],
+  "CVE-2013-1475": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1476": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1477": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1478": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1479": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1480": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1481": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1482": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1483": [
+    "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html"
+  ],
+  "CVE-2013-1488": [
+    "http://www.zdnet.com/pwn2own-down-go-all-the-browsers-7000012283/"
+  ],
+  "CVE-2013-1489": [
+    "http://www.zdnet.com/java-update-doesnt-prevent-silent-exploits-at-all-7000010422/"
+  ],
+  "CVE-2013-1490": [
+    "http://www.informationweek.com/security/application-security/java-hacker-uncovers-two-flaws-in-latest/240146717"
+  ],
+  "CVE-2013-1491": [
+    "http://www.zdnet.com/pwn2own-down-go-all-the-browsers-7000012283/"
+  ],
+  "CVE-2013-1493": [
+    "http://www.symantec.com/connect/blogs/latest-java-zero-day-shares-connections-bit9-security-incident"
+  ],
+  "CVE-2013-1494": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1495": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1496": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1497": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1498": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1499": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1500": [
+    "http://www.securityfocus.com/bid/60627"
+  ],
+  "CVE-2013-1501": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1502": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1503": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1504": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1505": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1506": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1507": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1508": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1509": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1510": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1511": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1512": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1513": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1514": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1515": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1516": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1517": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1518": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=952646"
+  ],
+  "CVE-2013-1519": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1520": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1521": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1522": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1523": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1524": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1525": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1526": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1527": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1528": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1529": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1530": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1531": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1532": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1533": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1534": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1535": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1536": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1537": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-1538": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1539": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1540": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-1541": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1542": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1543": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1544": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1545": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1546": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1547": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1548": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1549": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1550": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1551": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1552": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1553": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1554": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1555": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1556": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1557": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-1558": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-1559": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1560": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1561": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-1562": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1563": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-1564": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-1565": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1566": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1567": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1568": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1569": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-1570": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-1571": [
+    "http://www.securityfocus.com/bid/60634"
+  ],
+  "CVE-2013-1586": [
+    "http://anonsvn.wireshark.org/viewvc/trunk/epan/reassemble.c?r1=46999&r2=46998&pathrev=46999"
+  ],
+  "CVE-2013-1592": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-1592"
+  ],
+  "CVE-2013-1593": [
+    "https://www.coresecurity.com/content/SAP-netweaver-msg-srv-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1594": [
+    "https://www.coresecurity.com/advisories/vivotek-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1595": [
+    "https://www.coresecurity.com/advisories/vivotek-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1596": [
+    "https://www.coresecurity.com/advisories/vivotek-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1597": [
+    "https://www.coresecurity.com/advisories/vivotek-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1598": [
+    "https://www.coresecurity.com/advisories/vivotek-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1599": [
+    "https://www.coresecurity.com/advisories/d-link-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1600": [
+    "https://www.coresecurity.com/advisories/d-link-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1601": [
+    "https://www.coresecurity.com/advisories/d-link-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1602": [
+    "https://www.coresecurity.com/advisories/d-link-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1603": [
+    "https://www.coresecurity.com/advisories/d-link-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-1604": [
+    "http://www.exploit-db.com/exploits/25813"
+  ],
+  "CVE-2013-1605": [
+    "http://www.exploit-db.com/exploits/25813"
+  ],
+  "CVE-2013-1606": [
+    "http://www.exploit-db.com/exploits/26138/"
+  ],
+  "CVE-2013-1616": [
+    "http://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=&suid=20130725_00"
+  ],
+  "CVE-2013-1617": [
+    "http://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=&suid=20130725_00"
+  ],
+  "CVE-2013-1618": [
+    "http://www.isg.rhul.ac.uk/tls/TLStiming.pdf"
+  ],
+  "CVE-2013-1619": [
+    "http://www.ubuntu.com/usn/USN-1752-1"
+  ],
+  "CVE-2013-1620": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-1621": [
+    "http://www.isg.rhul.ac.uk/tls/TLStiming.pdf"
+  ],
+  "CVE-2013-1623": [
+    "http://www.isg.rhul.ac.uk/tls/TLStiming.pdf"
+  ],
+  "CVE-2013-1624": [
+    "http://www.isg.rhul.ac.uk/tls/TLStiming.pdf"
+  ],
+  "CVE-2013-1629": [
+    "https://github.com/pypa/pip/issues/425"
+  ],
+  "CVE-2013-1630": [
+    "https://github.com/mardiros/pyshop/blob/master/CHANGES.txt"
+  ],
+  "CVE-2013-1633": [
+    "http://www.reddit.com/r/Python/comments/17rfh7/warning_dont_use_pip_in_an_untrusted_network_a/"
+  ],
+  "CVE-2013-1636": [
+    "http://packetstormsecurity.com/files/121623/Joomla-Jnews-8.0.1-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1640": [
+    "http://ubuntu.com/usn/usn-1759-1"
+  ],
+  "CVE-2013-1641": [
+    "https://www3.trustwave.com/spiderlabs/advisories/TWSL2013-030.txt"
+  ],
+  "CVE-2013-1642": [
+    "https://www3.trustwave.com/spiderlabs/advisories/TWSL2013-030.txt"
+  ],
+  "CVE-2013-1652": [
+    "http://ubuntu.com/usn/usn-1759-1"
+  ],
+  "CVE-2013-1653": [
+    "http://ubuntu.com/usn/usn-1759-1"
+  ],
+  "CVE-2013-1654": [
+    "http://ubuntu.com/usn/usn-1759-1"
+  ],
+  "CVE-2013-1655": [
+    "http://ubuntu.com/usn/usn-1759-1"
+  ],
+  "CVE-2013-1664": [
+    "http://ubuntu.com/usn/usn-1757-1"
+  ],
+  "CVE-2013-1665": [
+    "http://ubuntu.com/usn/usn-1757-1"
+  ],
+  "CVE-2013-1667": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-1668": [
+    "http://www.exploit-db.com/exploits/24629"
+  ],
+  "CVE-2013-1672": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=850492"
+  ],
+  "CVE-2013-1682": [
+    "http://www.ubuntu.com/usn/USN-1891-1"
+  ],
+  "CVE-2013-1684": [
+    "http://www.ubuntu.com/usn/USN-1891-1"
+  ],
+  "CVE-2013-1685": [
+    "http://www.ubuntu.com/usn/USN-1891-1"
+  ],
+  "CVE-2013-1686": [
+    "http://www.ubuntu.com/usn/USN-1891-1"
+  ],
+  "CVE-2013-1687": [
+    "http://www.ubuntu.com/usn/USN-1891-1"
+  ],
+  "CVE-2013-1690": [
+    "http://www.ubuntu.com/usn/USN-1891-1"
+  ],
+  "CVE-2013-1692": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=866915"
+  ],
+  "CVE-2013-1693": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=711043"
+  ],
+  "CVE-2013-1694": [
+    "http://www.ubuntu.com/usn/USN-1891-1"
+  ],
+  "CVE-2013-1697": [
+    "http://www.ubuntu.com/usn/USN-1891-1"
+  ],
+  "CVE-2013-1705": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=882865"
+  ],
+  "CVE-2013-1706": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=888361"
+  ],
+  "CVE-2013-1707": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=888314"
+  ],
+  "CVE-2013-1712": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=859072"
+  ],
+  "CVE-2013-1721": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=890277"
+  ],
+  "CVE-2013-1726": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=890853"
+  ],
+  "CVE-2013-1733": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=911593"
+  ],
+  "CVE-2013-1734": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=913904"
+  ],
+  "CVE-2013-1738": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A18766"
+  ],
+  "CVE-2013-1739": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=1012656"
+  ],
+  "CVE-2013-1740": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-1741": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-1742": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=924802"
+  ],
+  "CVE-2013-1744": [
+    "http://infosecabsurdity.wordpress.com/research/isa-2013-002/"
+  ],
+  "CVE-2013-1758": [
+    "http://packetstormsecurity.com/files/120378/WordPress-Marekkis-Watermark-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1759": [
+    "http://packetstormsecurity.com/files/120379/WordPress-Responsive-Logo-Slideshow-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1763": [
+    "http://www.openwall.com/lists/oss-security/2013/02/24/3"
+  ],
+  "CVE-2013-1767": [
+    "http://www.ubuntu.com/usn/USN-1797-1"
+  ],
+  "CVE-2013-1768": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html"
+  ],
+  "CVE-2013-1773": [
+    "http://www.exploit-db.com/exploits/23248/"
+  ],
+  "CVE-2013-1774": [
+    "http://www.ubuntu.com/usn/USN-1808-1"
+  ],
+  "CVE-2013-1775": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-1776": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-1781": [
+    "http://drupal.org/node/1929486"
+  ],
+  "CVE-2013-1786": [
+    "http://drupalcode.org/project/company.git/commitdiff/d9a99da"
+  ],
+  "CVE-2013-1792": [
+    "http://www.ubuntu.com/usn/USN-1797-1"
+  ],
+  "CVE-2013-1796": [
+    "http://www.ubuntu.com/usn/USN-1808-1"
+  ],
+  "CVE-2013-1797": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-1798": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-1803": [
+    "http://packetstormsecurity.com/files/120598/PHP-Fusion-7.02.05-XSS-LFI-SQL-Injection.html"
+  ],
+  "CVE-2013-1804": [
+    "http://packetstormsecurity.com/files/120598/PHP-Fusion-7.02.05-XSS-LFI-SQL-Injection.html"
+  ],
+  "CVE-2013-1806": [
+    "http://packetstormsecurity.com/files/120598/PHP-Fusion-7.02.05-XSS-LFI-SQL-Injection.html"
+  ],
+  "CVE-2013-1807": [
+    "http://packetstormsecurity.com/files/120598/PHP-Fusion-7.02.05-XSS-LFI-SQL-Injection.html"
+  ],
+  "CVE-2013-1808": [
+    "https://github.com/jonrohan/ZeroClipboard/commit/a0e02933f5f7ce5f364fbad36a005f0a349f0696"
+  ],
+  "CVE-2013-1812": [
+    "https://github.com/openid/ruby-openid/pull/43"
+  ],
+  "CVE-2013-1813": [
+    "https://support.t-mobile.com/docs/DOC-21994"
+  ],
+  "CVE-2013-1815": [
+    "http://rhn.redhat.com/errata/RHSA-2013-0671.html"
+  ],
+  "CVE-2013-1819": [
+    "http://www.ubuntu.com/usn/USN-1975-1"
+  ],
+  "CVE-2013-1821": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinjul2015-2511963.html"
+  ],
+  "CVE-2013-1828": [
+    "https://github.com/torvalds/linux/commit/726bc6b092da4c093eb74d13c07184b18c1af0f1"
+  ],
+  "CVE-2013-1848": [
+    "http://www.ubuntu.com/usn/USN-1814-1"
+  ],
+  "CVE-2013-1852": [
+    "http://packetstormsecurity.com/files/120817/WordPress-LeagueManager-3.8-SQL-Injection.html"
+  ],
+  "CVE-2013-1858": [
+    "http://stealth.openwall.net/xSports/clown-newuser.c"
+  ],
+  "CVE-2013-1859": [
+    "http://packetstormsecurity.com/files/120788/Drupal-Node-Parameter-Control-6.x-Access-Bypass.html"
+  ],
+  "CVE-2013-1860": [
+    "http://www.ubuntu.com/usn/USN-1814-1"
+  ],
+  "CVE-2013-1861": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-1862": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-1875": [
+    "http://packetstormsecurity.com/files/120847/Ruby-Gem-Command-Wrap-Command-Execution.html"
+  ],
+  "CVE-2013-1887": [
+    "http://packetstormsecurity.com/files/120892/Drupal-Views-7.x-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1892": [
+    "http://www.exploit-db.com/exploits/24947"
+  ],
+  "CVE-2013-1896": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21644047"
+  ],
+  "CVE-2013-1900": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html"
+  ],
+  "CVE-2013-1902": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html"
+  ],
+  "CVE-2013-1903": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html"
+  ],
+  "CVE-2013-1905": [
+    "http://packetstormsecurity.com/files/120985/Drupal-Zero-Point-7.x-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1907": [
+    "http://packetstormsecurity.com/files/120991/Drupal-Common-Groups-7.x-Access-Bypass-Privilege-Escalation.html"
+  ],
+  "CVE-2013-1908": [
+    "http://packetstormsecurity.com/files/120995/Drupal-Common-Wikis-7.x-Access-Bypass-Privilege-Escalation.html"
+  ],
+  "CVE-2013-1914": [
+    "http://seclists.org/fulldisclosure/2021/Sep/0"
+  ],
+  "CVE-2013-1916": [
+    "https://www.exploit-db.com/exploits/16181"
+  ],
+  "CVE-2013-1921": [
+    "http://rhn.redhat.com/errata/RHSA-2013-1437.html"
+  ],
+  "CVE-2013-1925": [
+    "http://packetstormsecurity.com/files/121072/Drupal-Chaos-Tool-Suite-7.x-Access-Bypass.html"
+  ],
+  "CVE-2013-1928": [
+    "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=12176503366885edd542389eed3aaf94be163fdb"
+  ],
+  "CVE-2013-1929": [
+    "http://www.ubuntu.com/usn/USN-1834-1"
+  ],
+  "CVE-2013-1937": [
+    "http://packetstormsecurity.com/files/121205/phpMyAdmin-3.5.7-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-1940": [
+    "https://bugs.freedesktop.org/show_bug.cgi?id=63353"
+  ],
+  "CVE-2013-1942": [
+    "https://github.com/happyworm/jPlayer/commit/e8ca190f7f972a6a421cb95f09e138720e40ed6d"
+  ],
+  "CVE-2013-1944": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-1954": [
+    "http://trac.videolan.org/vlc/ticket/8024"
+  ],
+  "CVE-2013-1959": [
+    "http://www.openwall.com/lists/oss-security/2013/04/29/1"
+  ],
+  "CVE-2013-1965": [
+    "http://struts.apache.org/development/2.x/docs/s2-012.html"
+  ],
+  "CVE-2013-1966": [
+    "https://cwiki.apache.org/confluence/display/WW/S2-013"
+  ],
+  "CVE-2013-1967": [
+    "https://github.com/johndyer/mediaelement/commit/9223dc6bfc50251a9a3cba0210e71be80fc38ecd"
+  ],
+  "CVE-2013-1973": [
+    "https://drupal.org/node/1971848"
+  ],
+  "CVE-2013-1977": [
+    "https://bugs.launchpad.net/devstack/+bug/1168252"
+  ],
+  "CVE-2013-1979": [
+    "http://www.openwall.com/lists/oss-security/2013/04/29/1"
+  ],
+  "CVE-2013-20002": [
+    "https://themify.me/blog/urgent-vulnerability-found-in-themify-framework-please-read"
+  ],
+  "CVE-2013-20003": [
+    "https://sensepost.com/cms/resources/conferences/2013/bh_zwave/Security%20Evaluation%20of%20Z-Wave_WP.pdf"
+  ],
+  "CVE-2013-2006": [
+    "https://bugs.launchpad.net/ossn/+bug/1168252"
+  ],
+  "CVE-2013-2010": [
+    "http://packetstormsecurity.com/files/130999/WordPress-W3-Total-Cache-PHP-Code-Execution.html"
+  ],
+  "CVE-2013-2017": [
+    "http://www.openwall.com/lists/oss-security/2013/04/29/10"
+  ],
+  "CVE-2013-2018": [
+    "http://www.openwall.com/lists/oss-security/2013/04/29/11"
+  ],
+  "CVE-2013-2019": [
+    "http://www.openwall.com/lists/oss-security/2013/04/29/11"
+  ],
+  "CVE-2013-2023": [
+    "https://github.com/happyworm/jPlayer/issues/162"
+  ],
+  "CVE-2013-2024": [
+    "http://www.openwall.com/lists/oss-security/2013/04/29/13"
+  ],
+  "CVE-2013-2025": [
+    "https://github.com/ushahidi/Ushahidi_Web/issues/1009"
+  ],
+  "CVE-2013-2027": [
+    "http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html"
+  ],
+  "CVE-2013-2028": [
+    "https://github.com/rapid7/metasploit-framework/pull/1834"
+  ],
+  "CVE-2013-2031": [
+    "https://bugzilla.wikimedia.org/show_bug.cgi?id=47304"
+  ],
+  "CVE-2013-2033": [
+    "http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2013-05-02.cb"
+  ],
+  "CVE-2013-2034": [
+    "http://www.cloudbees.com/jenkins-advisory/jenkins-security-advisory-2013-05-02.cb"
+  ],
+  "CVE-2013-2036": [
+    "https://drupal.org/node/1983356"
+  ],
+  "CVE-2013-2050": [
+    "http://packetstormsecurity.com/files/124609/cfme_manageiq_evm_pass_reset.rb.txt"
+  ],
+  "CVE-2013-2061": [
+    "https://community.openvpn.net/openvpn/wiki/SecurityAnnouncement-f375aa67cc"
+  ],
+  "CVE-2013-2064": [
+    "http://www.oracle.com/technetwork/security-advisory/cpujul2016-2881720.html"
+  ],
+  "CVE-2013-2067": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-2071": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-2088": [
+    "https://www.exploit-db.com/exploits/40507/"
+  ],
+  "CVE-2013-2090": [
+    "http://packetstormsecurity.com/files/121635/Ruby-Gem-Creme-Fraiche-0.6-Command-Injection.html"
+  ],
+  "CVE-2013-2094": [
+    "http://www.ubuntu.com/usn/USN-1827-1"
+  ],
+  "CVE-2013-2095": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-2095"
+  ],
+  "CVE-2013-2097": [
+    "http://www.exploit-db.com/exploits/25519"
+  ],
+  "CVE-2013-2102": [
+    "http://rhn.redhat.com/errata/RHSA-2013-1437.html"
+  ],
+  "CVE-2013-2105": [
+    "http://www.openwall.com/lists/oss-security/2013/05/18/4"
+  ],
+  "CVE-2013-2107": [
+    "http://seclists.org/oss-sec/2013/q2/356"
+  ],
+  "CVE-2013-2113": [
+    "http://projects.theforeman.org/issues/2630"
+  ],
+  "CVE-2013-2115": [
+    "https://cwiki.apache.org/confluence/display/WW/S2-014"
+  ],
+  "CVE-2013-2131": [
+    "https://github.com/oetiker/rrdtool-1.x/pull/397"
+  ],
+  "CVE-2013-2134": [
+    "https://cwiki.apache.org/confluence/display/WW/S2-015"
+  ],
+  "CVE-2013-2135": [
+    "https://cwiki.apache.org/confluence/display/WW/S2-015"
+  ],
+  "CVE-2013-2138": [
+    "http://sourceforge.net/apps/trac/gallery/ticket/2070"
+  ],
+  "CVE-2013-2140": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-2141": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-2143": [
+    "http://packetstormsecurity.com/files/125866/Katello-Red-Hat-Satellite-users-update_roles-Missing-Authorization.html"
+  ],
+  "CVE-2013-2146": [
+    "https://github.com/torvalds/linux/commit/f1923820c447e986a9da0fc6bf60c1dccdf0408e"
+  ],
+  "CVE-2013-2147": [
+    "http://www.ubuntu.com/usn/USN-2017-1"
+  ],
+  "CVE-2013-2160": [
+    "http://rhn.redhat.com/errata/RHSA-2013-1437.html"
+  ],
+  "CVE-2013-2162": [
+    "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=711600"
+  ],
+  "CVE-2013-2164": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=973100"
+  ],
+  "CVE-2013-2165": [
+    "http://packetstormsecurity.com/files/156663/Richsploit-RichFaces-Exploitation-Toolkit.html"
+  ],
+  "CVE-2013-2166": [
+    "http://www.securityfocus.com/bid/60684"
+  ],
+  "CVE-2013-2167": [
+    "http://www.securityfocus.com/bid/60680"
+  ],
+  "CVE-2013-2172": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-2174": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-2178": [
+    "http://www.openwall.com/lists/oss-security/2013/06/13/7"
+  ],
+  "CVE-2013-2182": [
+    "https://github.com/monkey/monkey/issues/92"
+  ],
+  "CVE-2013-2186": [
+    "https://www.tenable.com/security/research/tra-2016-23"
+  ],
+  "CVE-2013-2205": [
+    "http://make.wordpress.org/core/2013/06/21/secure-swfupload/"
+  ],
+  "CVE-2013-2224": [
+    "http://www.openwall.com/lists/oss-security/2013/06/30/7"
+  ],
+  "CVE-2013-2226": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2013-5146.php"
+  ],
+  "CVE-2013-2227": [
+    "https://packetstormsecurity.com/files/122087/GLPI-0.83.7-Parameter-Traversal-Arbitrary-File-Access.html"
+  ],
+  "CVE-2013-2232": [
+    "http://www.ubuntu.com/usn/USN-1946-1"
+  ],
+  "CVE-2013-2233": [
+    "https://github.com/ansible/ansible/issues/857"
+  ],
+  "CVE-2013-2234": [
+    "http://www.ubuntu.com/usn/USN-1946-1"
+  ],
+  "CVE-2013-2237": [
+    "http://www.ubuntu.com/usn/USN-1973-1"
+  ],
+  "CVE-2013-2248": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-2251": [
+    "http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html"
+  ],
+  "CVE-2013-2270": [
+    "http://packetstormsecurity.com/files/120594/Airvana-HubBub-C1-600-RT-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-2271": [
+    "http://packetstormsecurity.com/files/120613/dlinkdsl2740b-bypass.txt"
+  ],
+  "CVE-2013-2275": [
+    "http://ubuntu.com/usn/usn-1759-1"
+  ],
+  "CVE-2013-2277": [
+    "http://www.ubuntu.com/usn/USN-1790-1"
+  ],
+  "CVE-2013-2294": [
+    "http://www.exploit-db.com/exploits/24862"
+  ],
+  "CVE-2013-2299": [
+    "http://ics-cert.us-cert.gov/advisories/ICSA-13-225-01"
+  ],
+  "CVE-2013-2352": [
+    "http://www.theregister.co.uk/2013/07/09/hp_storage_more_possible_backdoors/"
+  ],
+  "CVE-2013-2371": [
+    "http://www.tibco.com/services/support/advisories/spotfire-advisory_20130313.jsp"
+  ],
+  "CVE-2013-2372": [
+    "http://www.tibco.com/services/support/advisories/spotfire-advisory_20130313.jsp"
+  ],
+  "CVE-2013-2373": [
+    "http://www.tibco.com/services/support/advisories/spotfire-advisory_20130313.jsp"
+  ],
+  "CVE-2013-2374": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2375": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2376": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2377": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2378": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2379": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2380": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2381": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2382": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2383": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2384": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2385": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2386": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2387": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2388": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2389": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2390": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2391": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2392": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2393": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2394": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2395": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2396": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2397": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2398": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2399": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2400": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html"
+  ],
+  "CVE-2013-2401": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2402": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2403": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2404": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2405": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2406": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2407": [
+    "http://www.securityfocus.com/bid/60653"
+  ],
+  "CVE-2013-2408": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2409": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2410": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2411": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2412": [
+    "http://www.securityfocus.com/bid/60618"
+  ],
+  "CVE-2013-2413": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2414": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2415": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2416": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2417": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2418": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2419": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2420": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2421": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2422": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2423": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2424": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2425": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2426": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2427": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2428": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2429": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2430": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2431": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2432": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2433": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2434": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2435": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2436": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2437": [
+    "http://www.securityfocus.com/bid/60636"
+  ],
+  "CVE-2013-2438": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2439": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2440": [
+    "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html"
+  ],
+  "CVE-2013-2441": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html"
+  ],
+  "CVE-2013-2442": [
+    "http://www.securityfocus.com/bid/60643"
+  ],
+  "CVE-2013-2443": [
+    "http://www.securityfocus.com/bid/60646"
+  ],
+  "CVE-2013-2444": [
+    "http://www.securityfocus.com/bid/60633"
+  ],
+  "CVE-2013-2445": [
+    "http://www.securityfocus.com/bid/60639"
+  ],
+  "CVE-2013-2446": [
+    "http://www.securityfocus.com/bid/60620"
+  ],
+  "CVE-2013-2447": [
+    "http://www.securityfocus.com/bid/60629"
+  ],
+  "CVE-2013-2448": [
+    "http://www.securityfocus.com/bid/60640"
+  ],
+  "CVE-2013-2449": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html"
+  ],
+  "CVE-2013-2450": [
+    "http://www.securityfocus.com/bid/60638"
+  ],
+  "CVE-2013-2451": [
+    "http://www.securityfocus.com/bid/60625"
+  ],
+  "CVE-2013-2452": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A19231"
+  ],
+  "CVE-2013-2453": [
+    "http://www.securityfocus.com/bid/60644"
+  ],
+  "CVE-2013-2454": [
+    "http://www.securityfocus.com/bid/60650"
+  ],
+  "CVE-2013-2455": [
+    "http://www.securityfocus.com/bid/60619"
+  ],
+  "CVE-2013-2456": [
+    "http://www.securityfocus.com/bid/60641"
+  ],
+  "CVE-2013-2457": [
+    "http://www.securityfocus.com/bid/60632"
+  ],
+  "CVE-2013-2458": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html"
+  ],
+  "CVE-2013-2459": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A19310"
+  ],
+  "CVE-2013-2460": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=975122"
+  ],
+  "CVE-2013-2461": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-2462": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html"
+  ],
+  "CVE-2013-2463": [
+    "http://www.securityfocus.com/bid/60655"
+  ],
+  "CVE-2013-2464": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A16389"
+  ],
+  "CVE-2013-2465": [
+    "http://www.securityfocus.com/bid/60657"
+  ],
+  "CVE-2013-2466": [
+    "http://www.securityfocus.com/bid/60624"
+  ],
+  "CVE-2013-2467": [
+    "http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html"
+  ],
+  "CVE-2013-2468": [
+    "http://www.securityfocus.com/bid/60637"
+  ],
+  "CVE-2013-2469": [
+    "http://www.securityfocus.com/bid/60658"
+  ],
+  "CVE-2013-2470": [
+    "http://www.securityfocus.com/bid/60651"
+  ],
+  "CVE-2013-2471": [
+    "http://www.securityfocus.com/bid/60659"
+  ],
+  "CVE-2013-2472": [
+    "http://www.securityfocus.com/bid/60656"
+  ],
+  "CVE-2013-2473": [
+    "http://www.securityfocus.com/bid/60623"
+  ],
+  "CVE-2013-2474": [
+    "http://www.exploit-db.com/exploits/24906"
+  ],
+  "CVE-2013-2475": [
+    "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=8274"
+  ],
+  "CVE-2013-2486": [
+    "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=8364"
+  ],
+  "CVE-2013-2487": [
+    "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=8364"
+  ],
+  "CVE-2013-2492": [
+    "https://gist.github.com/zeroSteiner/85daef257831d904479c"
+  ],
+  "CVE-2013-2495": [
+    "http://www.ubuntu.com/usn/USN-1790-1"
+  ],
+  "CVE-2013-2496": [
+    "http://www.ubuntu.com/usn/USN-1790-1"
+  ],
+  "CVE-2013-2501": [
+    "http://packetstormsecurity.com/files/120730/WordPress-Terillion-Reviews-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-2503": [
+    "http://blog.c22.cc/2013/03/11/privoxy-proxy-authentication-credential-exposure-cve-2013-2503/"
+  ],
+  "CVE-2013-2507": [
+    "http://www.cloudscan.me/2013/05/xss-javascript-injection-brother-mfc.html"
+  ],
+  "CVE-2013-2512": [
+    "http://vapidlabs.com/advisory.php?v=34"
+  ],
+  "CVE-2013-2513": [
+    "https://github.com/advisories/GHSA-6325-6g32-7p35"
+  ],
+  "CVE-2013-2516": [
+    "http://www.vapidlabs.com/advisory.php?v=36"
+  ],
+  "CVE-2013-2546": [
+    "http://www.ubuntu.com/usn/USN-1797-1"
+  ],
+  "CVE-2013-2547": [
+    "http://www.ubuntu.com/usn/USN-1797-1"
+  ],
+  "CVE-2013-2548": [
+    "http://www.ubuntu.com/usn/USN-1797-1"
+  ],
+  "CVE-2013-2555": [
+    "http://twitter.com/VUPEN/statuses/309713355466227713"
+  ],
+  "CVE-2013-2556": [
+    "http://twitter.com/VUPEN/statuses/309713355466227713"
+  ],
+  "CVE-2013-2557": [
+    "http://twitter.com/VUPEN/statuses/309713355466227713"
+  ],
+  "CVE-2013-2558": [
+    "http://immunityproducts.blogspot.com/2013/03/infiltrate-preview-truetype-font.html"
+  ],
+  "CVE-2013-2561": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinjul2016-3090568.html"
+  ],
+  "CVE-2013-2562": [
+    "http://packetstormsecurity.com/files/108462/mambocms465-permdosdisclose.txt"
+  ],
+  "CVE-2013-2563": [
+    "http://packetstormsecurity.com/files/108462/mambocms465-permdosdisclose.txt"
+  ],
+  "CVE-2013-2564": [
+    "http://packetstormsecurity.com/files/108462/mambocms465-permdosdisclose.txt"
+  ],
+  "CVE-2013-2566": [
+    "http://www.ubuntu.com/usn/USN-2031-1"
+  ],
+  "CVE-2013-2567": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-2567"
+  ],
+  "CVE-2013-2568": [
+    "https://www.coresecurity.com/advisories/zavio-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-2569": [
+    "https://www.coresecurity.com/advisories/zavio-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-2570": [
+    "https://www.coresecurity.com/advisories/zavio-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-2571": [
+    "https://packetstormsecurity.com/files/121917/Xpient-POS-Iris-3.8-Cash-Drawer-Operation-Remote-Trigger.html"
+  ],
+  "CVE-2013-2572": [
+    "https://www.coresecurity.com/advisories/tp-link-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-2573": [
+    "https://www.coresecurity.com/advisories/tp-link-IP-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-2574": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-2574"
+  ],
+  "CVE-2013-2576": [
+    "http://www.exploit-db.com/exploits/27047"
+  ],
+  "CVE-2013-2577": [
+    "http://www.exploit-db.com/exploits/27049"
+  ],
+  "CVE-2013-2578": [
+    "http://www.coresecurity.com/advisories/multiple-vulnerabilities-tp-link-tl-sc3171-ip-cameras"
+  ],
+  "CVE-2013-2579": [
+    "http://www.coresecurity.com/advisories/multiple-vulnerabilities-tp-link-tl-sc3171-ip-cameras"
+  ],
+  "CVE-2013-2580": [
+    "http://www.coresecurity.com/advisories/multiple-vulnerabilities-tp-link-tl-sc3171-ip-cameras"
+  ],
+  "CVE-2013-2581": [
+    "http://www.coresecurity.com/advisories/multiple-vulnerabilities-tp-link-tl-sc3171-ip-cameras"
+  ],
+  "CVE-2013-2585": [
+    "http://www.isecauditors.com/advisories-2013#2013-004"
+  ],
+  "CVE-2013-2586": [
+    "http://www.exploit-db.com/exploits/28654"
+  ],
+  "CVE-2013-2594": [
+    "http://packetstormsecurity.com/files/121402/Hornbill-Supportworks-ITSM-1.0.0-SQL-Injection.html"
+  ],
+  "CVE-2013-2596": [
+    "http://www.oracle.com/technetwork/topics/security/linuxbulletinjan2016-2867209.html"
+  ],
+  "CVE-2013-2615": [
+    "http://packetstormsecurity.com/files/120845/Ruby-Gem-Fastreader-1.0.8-Code-Execution.html"
+  ],
+  "CVE-2013-2616": [
+    "http://packetstormsecurity.com/files/120777/Ruby-Gem-Minimagic-Command-Execution.html"
+  ],
+  "CVE-2013-2617": [
+    "http://seclists.org/fulldisclosure/2013/Mar/124"
+  ],
+  "CVE-2013-2618": [
+    "http://packetstormsecurity.com/files/121034/Network-Weathermap-0.97a-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-2619": [
+    "http://seclists.org/fulldisclosure/2013/Apr/2"
+  ],
+  "CVE-2013-2621": [
+    "https://www.isecauditors.com/advisories-2013#2013-009"
+  ],
+  "CVE-2013-2622": [
+    "https://packetstormsecurity.com/files/123557/Uebimiau-2.7.11-Cross-Site-Scripting-Open-Redirection.html"
+  ],
+  "CVE-2013-2623": [
+    "https://www.isecauditors.com/advisories-2013#2013-009"
+  ],
+  "CVE-2013-2624": [
+    "https://www.isecauditors.com/advisories-2013#2013-009"
+  ],
+  "CVE-2013-2627": [
+    "http://www.csnc.ch/misc/files/advisories/CSNC-2013-005-006-007_Leed_Multiple_vulns.txt"
+  ],
+  "CVE-2013-2628": [
+    "http://www.csnc.ch/misc/files/advisories/CSNC-2013-005-006-007_Leed_Multiple_vulns.txt"
+  ],
+  "CVE-2013-2629": [
+    "http://www.csnc.ch/misc/files/advisories/CSNC-2013-005-006-007_Leed_Multiple_vulns.txt"
+  ],
+  "CVE-2013-2631": [
+    "https://www.isecauditors.com/advisories-2013#2013-012"
+  ],
+  "CVE-2013-2634": [
+    "http://www.ubuntu.com/usn/USN-1814-1"
+  ],
+  "CVE-2013-2635": [
+    "http://www.ubuntu.com/usn/USN-1814-1"
+  ],
+  "CVE-2013-2651": [
+    "http://packetstormsecurity.com/files/123558"
+  ],
+  "CVE-2013-2652": [
+    "http://packetstormsecurity.com/files/123771/WebCollab-3.30-HTTP-Response-Splitting.html"
+  ],
+  "CVE-2013-2653": [
+    "https://github.com/chillu/silverstripe-framework/commit/3e88c98ca513880e2b43ed7f27ade17fef5d9170"
+  ],
+  "CVE-2013-2670": [
+    "http://www.cloudscan.me/2013/05/xss-javascript-injection-brother-mfc.html"
+  ],
+  "CVE-2013-2671": [
+    "http://www.cloudscan.me/2013/05/xss-javascript-injection-brother-mfc.html"
+  ],
+  "CVE-2013-2672": [
+    "http://packetstormsecurity.com/files/121553/Brother-MFC-9970CDW-Firmware-0D-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-2673": [
+    "http://packetstormsecurity.com/files/121553/Brother-MFC-9970CDW-Firmware-0D-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-2674": [
+    "http://packetstormsecurity.com/files/121553/Brother-MFC-9970CDW-Firmware-0D-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-2675": [
+    "http://packetstormsecurity.com/files/121553/Brother-MFC-9970CDW-Firmware-0D-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-2676": [
+    "http://packetstormsecurity.com/files/121553/Brother-MFC-9970CDW-Firmware-0D-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-2678": [
+    "http://www.exploit-db.com/exploits/25292"
+  ],
+  "CVE-2013-2679": [
+    "http://www.cloudscan.me/2013/05/xss-lfi-linksys-e4200-firmware-0d.html"
+  ],
+  "CVE-2013-2680": [
+    "http://packetstormsecurity.com/files/121551/Cisco-Linksys-E4200-Cross-Site-Scripting-Local-File-Inclusion.html"
+  ],
+  "CVE-2013-2681": [
+    "http://packetstormsecurity.com/files/121551/Cisco-Linksys-E4200-Cross-Site-Scripting-Local-File-Inclusion.html"
+  ],
+  "CVE-2013-2682": [
+    "http://packetstormsecurity.com/files/121551/Cisco-Linksys-E4200-Cross-Site-Scripting-Local-File-Inclusion.html"
+  ],
+  "CVE-2013-2683": [
+    "http://packetstormsecurity.com/files/121551/Cisco-Linksys-E4200-Cross-Site-Scripting-Local-File-Inclusion.html"
+  ],
+  "CVE-2013-2684": [
+    "http://packetstormsecurity.com/files/121551/Cisco-Linksys-E4200-Cross-Site-Scripting-Local-File-Inclusion.html"
+  ],
+  "CVE-2013-2686": [
+    "https://issues.asterisk.org/jira/browse/ASTERISK-20967"
+  ],
+  "CVE-2013-2687": [
+    "http://ics-cert.us-cert.gov/advisories/ICSA-13-189-01"
+  ],
+  "CVE-2013-2688": [
+    "http://ics-cert.us-cert.gov/advisories/ICSA-13-189-01"
+  ],
+  "CVE-2013-2690": [
+    "http://www.exploit-db.com/exploits/24898"
+  ],
+  "CVE-2013-2712": [
+    "http://www.exploit-db.com/exploits/24965"
+  ],
+  "CVE-2013-2713": [
+    "http://www.exploit-db.com/exploits/24965"
+  ],
+  "CVE-2013-2741": [
+    "http://packetstormsecurity.com/files/120923"
+  ],
+  "CVE-2013-2742": [
+    "http://packetstormsecurity.com/files/120923"
+  ],
+  "CVE-2013-2743": [
+    "http://packetstormsecurity.com/files/120923"
+  ],
+  "CVE-2013-2744": [
+    "http://packetstormsecurity.com/files/120923"
+  ],
+  "CVE-2013-2748": [
+    "http://www.exploit-db.com/exploits/24924"
+  ],
+  "CVE-2013-2751": [
+    "http://packetstormsecurity.com/files/123726/Netgear-ReadyNAS-Complete-System-Takeover.html"
+  ],
+  "CVE-2013-2754": [
+    "http://packetstormsecurity.com/files/121564/UMI.CMS-2.9-Cross-Site-Request-Forgery.html"
+  ],
+  "CVE-2013-2760": [
+    "http://www.exploit-db.com/exploits/24930/"
+  ],
+  "CVE-2013-2766": [
+    "http://www.splunk.com/view/SP-CAAAHSQ"
+  ],
+  "CVE-2013-2767": [
+    "http://www.kb.cert.org/vuls/id/521612"
+  ],
+  "CVE-2013-2776": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-2817": [
+    "http://ics-cert.us-cert.gov/advisories/ICSA-14-051-02"
+  ],
+  "CVE-2013-2842": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A15914"
+  ],
+  "CVE-2013-2850": [
+    "http://www.ubuntu.com/usn/USN-1847-1"
+  ],
+  "CVE-2013-2852": [
+    "http://www.ubuntu.com/usn/USN-1918-1"
+  ],
+  "CVE-2013-2874": [
+    "https://code.google.com/p/chromium/issues/detail?id=237611"
+  ],
+  "CVE-2013-2877": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-2888": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-2889": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-2892": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-2893": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-2895": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-2896": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-2897": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-2899": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-2924": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-2929": [
+    "http://www.ubuntu.com/usn/USN-2129-1"
+  ],
+  "CVE-2013-2930": [
+    "http://www.ubuntu.com/usn/USN-2076-1"
+  ],
+  "CVE-2013-2945": [
+    "http://packetstormsecurity.com/files/121481/b2evolution-4.1.6-SQL-Injection.html"
+  ],
+  "CVE-2013-2967": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21644047"
+  ],
+  "CVE-2013-2976": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21644047"
+  ],
+  "CVE-2013-3006": [
+    "http://www.ibm.com/developerworks/java/jdk/alerts/#IBM_Security_Update_July_2013"
+  ],
+  "CVE-2013-3007": [
+    "http://www.ibm.com/developerworks/java/jdk/alerts/#IBM_Security_Update_July_2013"
+  ],
+  "CVE-2013-3008": [
+    "http://www.ibm.com/developerworks/java/jdk/alerts/#IBM_Security_Update_July_2013"
+  ],
+  "CVE-2013-3009": [
+    "http://www.ibm.com/developerworks/java/jdk/alerts/#IBM_Security_Update_July_2013"
+  ],
+  "CVE-2013-3010": [
+    "http://www.ibm.com/developerworks/java/jdk/alerts/#IBM_Security_Update_July_2013"
+  ],
+  "CVE-2013-3011": [
+    "http://www.ibm.com/developerworks/java/jdk/alerts/#IBM_Security_Update_July_2013"
+  ],
+  "CVE-2013-3012": [
+    "http://www.ibm.com/developerworks/java/jdk/alerts/#IBM_Security_Update_July_2013"
+  ],
+  "CVE-2013-3029": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21644047"
+  ],
+  "CVE-2013-3050": [
+    "http://www.exploit-db.com/exploits/24942"
+  ],
+  "CVE-2013-3067": [
+    "https://www.ise.io/research/studies-and-papers/linksys_wrt310v2/"
+  ],
+  "CVE-2013-3070": [
+    "https://www.ise.io/wp-content/uploads/2017/07/soho_techreport.pdf"
+  ],
+  "CVE-2013-3072": [
+    "https://www.ise.io/research/studies-and-papers/netgear_wndr4700/"
+  ],
+  "CVE-2013-3073": [
+    "https://www.ise.io/wp-content/uploads/2017/07/soho_techreport.pdf"
+  ],
+  "CVE-2013-3085": [
+    "https://www.ise.io/research/studies-and-papers/belkin_f5d8236-4v2/"
+  ],
+  "CVE-2013-3088": [
+    "https://www.ise.io/research/studies-and-papers/belkin_n900/"
+  ],
+  "CVE-2013-3091": [
+    "https://www.ise.io/research/studies-and-papers/belkin_n900/"
+  ],
+  "CVE-2013-3096": [
+    "https://www.ise.io/research/studies-and-papers/dlink_dir865l/"
+  ],
+  "CVE-2013-3111": [
+    "https://www.exploit-db.com/exploits/40907/"
+  ],
+  "CVE-2013-3120": [
+    "https://www.exploit-db.com/exploits/40844/"
+  ],
+  "CVE-2013-3129": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-053"
+  ],
+  "CVE-2013-3143": [
+    "https://www.exploit-db.com/exploits/40923/"
+  ],
+  "CVE-2013-3154": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-058"
+  ],
+  "CVE-2013-3167": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-053"
+  ],
+  "CVE-2013-3172": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-053"
+  ],
+  "CVE-2013-3173": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-053"
+  ],
+  "CVE-2013-3221": [
+    "http://pl.reddit.com/r/netsec/comments/17yajp/mysql_madness_and_rails/"
+  ],
+  "CVE-2013-3222": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3223": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3224": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3225": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3227": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3228": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3229": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3231": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3232": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3233": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3234": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3235": [
+    "http://www.mandriva.com/security/advisories?name=MDVSA-2013:176"
+  ],
+  "CVE-2013-3242": [
+    "http://www.exploit-db.com/exploits/25087"
+  ],
+  "CVE-2013-3245": [
+    "http://www.jbkempf.com/blog/post/2013/More-lies-from-Secunia"
+  ],
+  "CVE-2013-3281": [
+    "http://www.kb.cert.org/vuls/id/466876"
+  ],
+  "CVE-2013-3294": [
+    "http://seclists.org/bugtraq/2013/May/57"
+  ],
+  "CVE-2013-3299": [
+    "http://seclists.org/bugtraq/2013/Jul/18"
+  ],
+  "CVE-2013-3301": [
+    "http://www.ubuntu.com/usn/USN-1834-1"
+  ],
+  "CVE-2013-3302": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.7.2"
+  ],
+  "CVE-2013-3311": [
+    "http://www.exploit-db.com/exploits/27878"
+  ],
+  "CVE-2013-3312": [
+    "https://www.exploit-db.com/exploits/27878"
+  ],
+  "CVE-2013-3313": [
+    "https://www.exploit-db.com/exploits/27878"
+  ],
+  "CVE-2013-3314": [
+    "http://www.exploit-db.com/exploits/27878"
+  ],
+  "CVE-2013-3315": [
+    "http://www.tibco.com/services/support/advisories/silver-mobile-advisory_20130508.jsp"
+  ],
+  "CVE-2013-3316": [
+    "http://www.exploit-db.com/exploits/24916/"
+  ],
+  "CVE-2013-3317": [
+    "http://www.exploit-db.com/exploits/24916/"
+  ],
+  "CVE-2013-3319": [
+    "http://labs.integrity.pt/advisories/cve-2013-3319/"
+  ],
+  "CVE-2013-3321": [
+    "https://www.securityfocus.com/archive/1/526552"
+  ],
+  "CVE-2013-3322": [
+    "https://www.securityfocus.com/archive/1/526552"
+  ],
+  "CVE-2013-3366": [
+    "https://www.ise.io/wp-content/uploads/2017/07/soho_techreport.pdf"
+  ],
+  "CVE-2013-3367": [
+    "https://www.ise.io/wp-content/uploads/2017/07/soho_techreport.pdf"
+  ],
+  "CVE-2013-3402": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130717-cucm"
+  ],
+  "CVE-2013-3403": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130717-cucm"
+  ],
+  "CVE-2013-3404": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130717-cucm"
+  ],
+  "CVE-2013-3412": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130717-cucm"
+  ],
+  "CVE-2013-3433": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130717-cucm"
+  ],
+  "CVE-2013-3434": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130717-cucm"
+  ],
+  "CVE-2013-3482": [
+    "http://www.secunia.com/blog/366"
+  ],
+  "CVE-2013-3484": [
+    "https://github.com/dotCMS/dotCMS/issues/2949"
+  ],
+  "CVE-2013-3499": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3500": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3501": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3502": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3503": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3504": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3505": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3506": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3507": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3508": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3509": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3510": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3511": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3512": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3513": [
+    "http://www.kb.cert.org/vuls/id/345260"
+  ],
+  "CVE-2013-3514": [
+    "http://seclists.org/bugtraq/2013/Jul/27"
+  ],
+  "CVE-2013-3515": [
+    "http://www.exploit-db.com/exploits/26624"
+  ],
+  "CVE-2013-3516": [
+    "https://www.ise.io/research/studies-and-papers/netgear_wnr3500/"
+  ],
+  "CVE-2013-3524": [
+    "https://github.com/DavidJClark/phpVMS-PopUpNews/commit/efaffa04ef87db1722d69ac7bfc07be71ce2dccf"
+  ],
+  "CVE-2013-3525": [
+    "http://packetstormsecurity.com/files/121245/RT-Request-Tracker-4.0.10-SQL-Injection.html"
+  ],
+  "CVE-2013-3526": [
+    "http://packetstormsecurity.com/files/121167/WordPress-Traffic-Analyzer-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-3527": [
+    "http://packetstormsecurity.com/files/121151/Vanilla-Forums-2.0.18.4-SQL-Injection.html"
+  ],
+  "CVE-2013-3529": [
+    "http://packetstormsecurity.com/files/121030/WordPress-FuneralPress-1.1.6-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-3530": [
+    "http://packetstormsecurity.com/files/121204/WordPress-Spiffy-XSPF-Player-0.1-SQL-Injection.html"
+  ],
+  "CVE-2013-3531": [
+    "http://packetstormsecurity.com/files/121091/Radio-CMS-2.2-SQL-Injection.html"
+  ],
+  "CVE-2013-3532": [
+    "http://packetstormsecurity.com/files/128851/WordPress-HTML5-Flash-Player-SQL-Injection.html"
+  ],
+  "CVE-2013-3533": [
+    "http://packetstormsecurity.com/files/121051/Virtual-Access-Monitor-SQL-Injection.html"
+  ],
+  "CVE-2013-3535": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2013-5136.php"
+  ],
+  "CVE-2013-3536": [
+    "http://packetstormsecurity.com/files/121046/WHMCS-Grouppay-1.5-SQL-Injection.html"
+  ],
+  "CVE-2013-3537": [
+    "http://packetstormsecurity.com/files/121290/Todoo-Forum-2.0-Cross-Site-Scripting-SQL-Injection.html"
+  ],
+  "CVE-2013-3538": [
+    "http://packetstormsecurity.com/files/121290/Todoo-Forum-2.0-Cross-Site-Scripting-SQL-Injection.html"
+  ],
+  "CVE-2013-3539": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3540": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3541": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3542": [
+    "https://www.youtube.com/watch?v=XkCBs4lenhI"
+  ],
+  "CVE-2013-3543": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3577": [
+    "http://www.kb.cert.org/vuls/id/217836"
+  ],
+  "CVE-2013-3578": [
+    "http://www.kb.cert.org/vuls/id/217836"
+  ],
+  "CVE-2013-3579": [
+    "http://www.kb.cert.org/vuls/id/704828"
+  ],
+  "CVE-2013-3580": [
+    "http://www.kb.cert.org/vuls/id/709806"
+  ],
+  "CVE-2013-3582": [
+    "https://www.blackhat.com/us-13/archives.html#Butterworth"
+  ],
+  "CVE-2013-3583": [
+    "http://www.kb.cert.org/vuls/id/595142"
+  ],
+  "CVE-2013-3584": [
+    "http://www.kb.cert.org/vuls/id/595142"
+  ],
+  "CVE-2013-3585": [
+    "http://www.kb.cert.org/vuls/id/882286"
+  ],
+  "CVE-2013-3586": [
+    "http://www.kb.cert.org/vuls/id/882286"
+  ],
+  "CVE-2013-3587": [
+    "https://www.blackhat.com/us-13/briefings.html#Prado"
+  ],
+  "CVE-2013-3591": [
+    "https://community.rapid7.com/community/metasploit/blog/2013/10/30/seven-tricks-and-treats"
+  ],
+  "CVE-2013-3594": [
+    "http://www.kb.cert.org/vuls/id/122582"
+  ],
+  "CVE-2013-3595": [
+    "http://www.kb.cert.org/vuls/id/122582"
+  ],
+  "CVE-2013-3599": [
+    "http://www.kb.cert.org/vuls/id/960908"
+  ],
+  "CVE-2013-3600": [
+    "http://www.kb.cert.org/vuls/id/960908"
+  ],
+  "CVE-2013-3601": [
+    "http://www.kb.cert.org/vuls/id/960908"
+  ],
+  "CVE-2013-3602": [
+    "http://www.kb.cert.org/vuls/id/960908"
+  ],
+  "CVE-2013-3603": [
+    "http://www.kb.cert.org/vuls/id/960908"
+  ],
+  "CVE-2013-3604": [
+    "http://www.kb.cert.org/vuls/id/960908"
+  ],
+  "CVE-2013-3605": [
+    "http://www.kb.cert.org/vuls/id/960908"
+  ],
+  "CVE-2013-3606": [
+    "http://www.kb.cert.org/vuls/id/122582"
+  ],
+  "CVE-2013-3607": [
+    "http://www.kb.cert.org/vuls/id/648646"
+  ],
+  "CVE-2013-3608": [
+    "http://www.kb.cert.org/vuls/id/648646"
+  ],
+  "CVE-2013-3609": [
+    "http://www.kb.cert.org/vuls/id/648646"
+  ],
+  "CVE-2013-3616": [
+    "http://www.kb.cert.org/vuls/id/521348"
+  ],
+  "CVE-2013-3617": [
+    "https://community.rapid7.com/community/metasploit/blog/2013/10/30/seven-tricks-and-treats"
+  ],
+  "CVE-2013-3626": [
+    "http://www.kb.cert.org/vuls/id/436214"
+  ],
+  "CVE-2013-3627": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10055"
+  ],
+  "CVE-2013-3628": [
+    "https://community.rapid7.com/community/metasploit/blog/2013/10/30/seven-tricks-and-treats"
+  ],
+  "CVE-2013-3629": [
+    "https://community.rapid7.com/community/metasploit/blog/2013/10/30/seven-tricks-and-treats"
+  ],
+  "CVE-2013-3630": [
+    "https://community.rapid7.com/community/metasploit/blog/2013/10/30/seven-tricks-and-treats"
+  ],
+  "CVE-2013-3631": [
+    "https://community.rapid7.com/community/metasploit/blog/2013/10/30/seven-tricks-and-treats"
+  ],
+  "CVE-2013-3632": [
+    "https://community.rapid7.com/community/metasploit/blog/2013/10/30/seven-tricks-and-treats"
+  ],
+  "CVE-2013-3635": [
+    "http://packetstormsecurity.com/files/122341/Project-Pier-0.8.8-XSS-Insecure-Cookies.html"
+  ],
+  "CVE-2013-3636": [
+    "http://packetstormsecurity.com/files/122341/Project-Pier-0.8.8-XSS-Insecure-Cookies.html"
+  ],
+  "CVE-2013-3637": [
+    "http://packetstormsecurity.com/files/122341/Project-Pier-0.8.8-XSS-Insecure-Cookies.html"
+  ],
+  "CVE-2013-3639": [
+    "http://packetstormsecurity.com/files/122174/Xaraya-2.4.0-b1-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-3660": [
+    "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-053"
+  ],
+  "CVE-2013-3661": [
+    "http://www.theverge.com/2013/5/23/4358400/google-engineer-bashes-microsoft-discloses-windows-flaw"
+  ],
+  "CVE-2013-3662": [
+    "http://blog.binamuse.com/2013/05/multiple-vulnerabilities-on-sketchup.html"
+  ],
+  "CVE-2013-3663": [
+    "http://blog.binamuse.com/2013/05/multiple-vulnerabilities-on-sketchup.html"
+  ],
+  "CVE-2013-3664": [
+    "http://blog.binamuse.com/2013/05/multiple-vulnerabilities-on-sketchup.html"
+  ],
+  "CVE-2013-3666": [
+    "https://plus.google.com/110348415484169880343/posts/9KxBtkyuYcj"
+  ],
+  "CVE-2013-3670": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-3671": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-3672": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-3673": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-3674": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-3675": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-3678": [
+    "http://packetstormsecurity.com/files/129083/SAP-GRC-Bypass-Privilege-Escalation-Program-Execution.html"
+  ],
+  "CVE-2013-3685": [
+    "https://androidvulnerabilities.org/all"
+  ],
+  "CVE-2013-3686": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3687": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3688": [
+    "http://www.coresecurity.com/advisories/multiple-vulnerabilities-tp-link-tl-sc3171-ip-cameras"
+  ],
+  "CVE-2013-3689": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3690": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3691": [
+    "https://www.youtube.com/watch?v=2UCAHSVqfuE"
+  ],
+  "CVE-2013-3693": [
+    "http://btsc.webapps.blackberry.com/btsc/viewdocument.do;jsessionid=1C7CE6911426BCFAF2A80C3834F4DF0F?externalId=KB35139&sliceId=1&cmd=displayKC&docType=kc&noCount=true&ViewedDocsListHelper=com.kanisa.apps.common.BaseViewedDocsListHelperImpl"
+  ],
+  "CVE-2013-3718": [
+    "https://bugzilla.suse.com/show_bug.cgi?id=CVE-2013-3718"
+  ],
+  "CVE-2013-3720": [
+    "http://www.darksecurity.de/advisories/2013/SSCHADV2013-004.txt"
+  ],
+  "CVE-2013-3721": [
+    "http://packetstormsecurity.com/files/120976/PsychoStats-3.2.2b-Blind-SQL-Injection.html"
+  ],
+  "CVE-2013-3727": [
+    "http://seclists.org/bugtraq/2013/Jul/26"
+  ],
+  "CVE-2013-3728": [
+    "http://seclists.org/bugtraq/2013/Jul/26"
+  ],
+  "CVE-2013-3729": [
+    "http://seclists.org/bugtraq/2013/Jul/26"
+  ],
+  "CVE-2013-3734": [
+    "https://www.halock.com/blog/cve-2013-3734-jboss-administration-console-password-returned-response/"
+  ],
+  "CVE-2013-3739": [
+    "http://www.exploit-db.com/exploits/26125"
+  ],
+  "CVE-2013-3743": [
+    "http://www.securityfocus.com/bid/60626"
+  ],
+  "CVE-2013-3744": [
+    "http://www.securityfocus.com/bid/60654"
+  ],
+  "CVE-2013-3745": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3746": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3747": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3748": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3749": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3750": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3751": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-3752": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3753": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3754": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3755": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3756": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3757": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3758": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3759": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3760": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3761": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3762": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3763": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3764": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3765": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3766": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3767": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3768": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3769": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3770": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3771": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3772": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3773": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3774": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-3775": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3776": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3777": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3778": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3779": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3780": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3781": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3782": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3783": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3784": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3785": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3786": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3787": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3788": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3789": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3790": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3791": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3792": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3793": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3794": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3795": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3796": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3797": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3798": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3799": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3800": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3801": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3802": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3803": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3804": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3805": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3806": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3807": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3808": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3809": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3810": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3811": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3812": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3813": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3814": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3816": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3818": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3819": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3820": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3821": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3822": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3823": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3824": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3825": [
+    "http://www.oracle.com/technetwork/topics/security/cpujuly2013-1899826.html"
+  ],
+  "CVE-2013-3826": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3827": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3828": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3829": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-3830": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-3831": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3832": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3833": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3834": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3835": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3836": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3837": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3838": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3839": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3840": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3841": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3842": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-3893": [
+    "http://packetstormsecurity.com/files/162585/Microsoft-Internet-Explorer-8-SetMouseCapture-Use-After-Free.html"
+  ],
+  "CVE-2013-3918": [
+    "http://www.darkreading.com/vulnerability/new-ie-vulnerability-found-in-the-wild-s/240163814/"
+  ],
+  "CVE-2013-3928": [
+    "http://www.exploit-db.com/exploits/27609"
+  ],
+  "CVE-2013-3960": [
+    "https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=18896"
+  ],
+  "CVE-2013-3961": [
+    "http://www.webera.fr/advisory-02-php-agenda-isql-exploit"
+  ],
+  "CVE-2013-3962": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3963": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3964": [
+    "http://seclists.org/fulldisclosure/2013/Jun/84"
+  ],
+  "CVE-2013-3969": [
+    "http://blog.scrt.ch/2013/06/04/mongodb-rce-by-databasespraying/"
+  ],
+  "CVE-2013-3976": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg1IC81223"
+  ],
+  "CVE-2013-4002": [
+    "https://www.oracle.com/security-alerts/cpuapr2022.html"
+  ],
+  "CVE-2013-4003": [
+    "https://www.ibm.com/connections/blogs/PSIRT/entry/security_bulletin_ibm_tririga_application_platform_has_potential_cross_site_scripting_vulnerabilities_in_various_url_s"
+  ],
+  "CVE-2013-4004": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21644047"
+  ],
+  "CVE-2013-4005": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21644047"
+  ],
+  "CVE-2013-4030": [
+    "http://www.ibm.com/connections/blogs/PSIRT/entry/security_bulletin_avoiding_weak_ssl_tls_encryption_in_ibm_system_x_and_flex_systems_cve_2013_40301"
+  ],
+  "CVE-2013-4041": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21655201"
+  ],
+  "CVE-2013-4057": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21666684"
+  ],
+  "CVE-2013-4058": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21666684"
+  ],
+  "CVE-2013-4059": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21666684"
+  ],
+  "CVE-2013-4074": [
+    "http://packetstormsecurity.com/files/126848/Wireshark-CAPWAP-Dissector-Denial-Of-Service.html"
+  ],
+  "CVE-2013-4078": [
+    "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=8729"
+  ],
+  "CVE-2013-4091": [
+    "http://packetstormsecurity.com/files/121861/Imperva-SecureSphere-Operations-Manager-Command-Execution.html"
+  ],
+  "CVE-2013-4092": [
+    "http://packetstormsecurity.com/files/121861/Imperva-SecureSphere-Operations-Manager-Command-Execution.html"
+  ],
+  "CVE-2013-4093": [
+    "http://packetstormsecurity.com/files/121861/Imperva-SecureSphere-Operations-Manager-Command-Execution.html"
+  ],
+  "CVE-2013-4094": [
+    "http://packetstormsecurity.com/files/121861/Imperva-SecureSphere-Operations-Manager-Command-Execution.html"
+  ],
+  "CVE-2013-4095": [
+    "http://packetstormsecurity.com/files/121861/Imperva-SecureSphere-Operations-Manager-Command-Execution.html"
+  ],
+  "CVE-2013-4096": [
+    "http://packetstormsecurity.com/files/121862/DS3-Authentication-Server-Command-Execution.html"
+  ],
+  "CVE-2013-4097": [
+    "http://packetstormsecurity.com/files/121862/DS3-Authentication-Server-Command-Execution.html"
+  ],
+  "CVE-2013-4098": [
+    "http://packetstormsecurity.com/files/121862/DS3-Authentication-Server-Command-Execution.html"
+  ],
+  "CVE-2013-4103": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-4103"
+  ],
+  "CVE-2013-4106": [
+    "https://vuldb.com/pl/?id.9433"
+  ],
+  "CVE-2013-4109": [
+    "https://vuldb.com/es/?id.9445"
+  ],
+  "CVE-2013-4112": [
+    "http://rhn.redhat.com/errata/RHSA-2013-1437.html"
+  ],
+  "CVE-2013-4116": [
+    "https://github.com/npm/npm/issues/3635"
+  ],
+  "CVE-2013-4117": [
+    "http://packetstormsecurity.com/files/122259/WordPress-Category-Grid-View-Gallery-XSS.html"
+  ],
+  "CVE-2013-4128": [
+    "http://rhn.redhat.com/errata/RHSA-2013-1437.html"
+  ],
+  "CVE-2013-4162": [
+    "http://www.ubuntu.com/usn/USN-1946-1"
+  ],
+  "CVE-2013-4163": [
+    "http://www.ubuntu.com/usn/USN-1946-1"
+  ],
+  "CVE-2013-4164": [
+    "https://hackerone.com/reports/499"
+  ],
+  "CVE-2013-4165": [
+    "https://github.com/bitcoin/bitcoin/pull/2845"
+  ],
+  "CVE-2013-4179": [
+    "http://www.ubuntu.com/usn/USN-2005-1"
+  ],
+  "CVE-2013-4183": [
+    "http://www.ubuntu.com/usn/USN-2005-1"
+  ],
+  "CVE-2013-4200": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4200"
+  ],
+  "CVE-2013-4202": [
+    "http://www.ubuntu.com/usn/USN-2005-1"
+  ],
+  "CVE-2013-4205": [
+    "http://www.ubuntu.com/usn/USN-1974-1"
+  ],
+  "CVE-2013-4211": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-4211"
+  ],
+  "CVE-2013-4213": [
+    "http://rhn.redhat.com/errata/RHSA-2013-1437.html"
+  ],
+  "CVE-2013-4227": [
+    "https://drupal.org/node/2058655"
+  ],
+  "CVE-2013-4233": [
+    "http://blog.scrt.ch/2013/07/24/vlc-abc-parsing-seems-to-be-a-ctf-challenge/"
+  ],
+  "CVE-2013-4234": [
+    "http://blog.scrt.ch/2013/07/24/vlc-abc-parsing-seems-to-be-a-ctf-challenge/"
+  ],
+  "CVE-2013-4238": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-4240": [
+    "http://seclists.org/fulldisclosure/2013/Aug/98"
+  ],
+  "CVE-2013-4241": [
+    "http://seclists.org/fulldisclosure/2013/Aug/98"
+  ],
+  "CVE-2013-4242": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-4244": [
+    "https://github.com/vadz/libtiff/commit/ce6841d9e41d621ba23cf18b190ee6a23b2cc833"
+  ],
+  "CVE-2013-4249": [
+    "https://www.djangoproject.com/weblog/2013/aug/13/security-releases-issued"
+  ],
+  "CVE-2013-4254": [
+    "http://www.ubuntu.com/usn/USN-1975-1"
+  ],
+  "CVE-2013-4256": [
+    "http://radscan.com/pipermail/nas/2013-August/001270.html"
+  ],
+  "CVE-2013-4258": [
+    "http://radscan.com/pipermail/nas/2013-August/001270.html"
+  ],
+  "CVE-2013-4262": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html"
+  ],
+  "CVE-2013-4274": [
+    "http://www.madirish.net/557"
+  ],
+  "CVE-2013-4275": [
+    "https://drupal.org/node/754000"
+  ],
+  "CVE-2013-4282": [
+    "http://www.ubuntu.com/usn/USN-2027-1"
+  ],
+  "CVE-2013-4286": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-4288": [
+    "http://www.openwall.com/lists/oss-security/2013/09/18/4"
+  ],
+  "CVE-2013-4298": [
+    "http://www.imagemagick.org/script/changelog.php"
+  ],
+  "CVE-2013-4299": [
+    "http://www.ubuntu.com/usn/USN-2067-1"
+  ],
+  "CVE-2013-4305": [
+    "https://bugzilla.wikimedia.org/show_bug.cgi?id=49070"
+  ],
+  "CVE-2013-4310": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-4311": [
+    "http://www.openwall.com/lists/oss-security/2013/09/18/6"
+  ],
+  "CVE-2013-4312": [
+    "http://www.ubuntu.com/usn/USN-2932-1"
+  ],
+  "CVE-2013-4316": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-4318": [
+    "http://www.openwall.com/lists/oss-security/2013/09/09/10"
+  ],
+  "CVE-2013-4322": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-4324": [
+    "http://www.openwall.com/lists/oss-security/2013/09/18/6"
+  ],
+  "CVE-2013-4326": [
+    "http://www.openwall.com/lists/oss-security/2013/09/18/6"
+  ],
+  "CVE-2013-4327": [
+    "http://www.openwall.com/lists/oss-security/2013/09/18/6"
+  ],
+  "CVE-2013-4330": [
+    "http://packetstormsecurity.com/files/123454/"
+  ],
+  "CVE-2013-4341": [
+    "http://packetstormsecurity.com/files/164479/Moodle-Authenticated-Spelling-Binary-Remote-Code-Execution.html"
+  ],
+  "CVE-2013-4342": [
+    "https://github.com/xinetd-org/xinetd/pull/10"
+  ],
+  "CVE-2013-4345": [
+    "http://www.ubuntu.com/usn/USN-2076-1"
+  ],
+  "CVE-2013-4346": [
+    "https://github.com/simplegeo/python-oauth2/issues/129"
+  ],
+  "CVE-2013-4347": [
+    "https://github.com/simplegeo/python-oauth2/issues/9"
+  ],
+  "CVE-2013-4348": [
+    "http://www.ubuntu.com/usn/USN-2070-1"
+  ],
+  "CVE-2013-4350": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-4353": [
+    "http://www-01.ibm.com/support/docview.wss?uid=isg400001841"
+  ],
+  "CVE-2013-4378": [
+    "http://seclists.org/oss-sec/2013/q3/679"
+  ],
+  "CVE-2013-4387": [
+    "http://www.ubuntu.com/usn/USN-2039-1"
+  ],
+  "CVE-2013-4408": [
+    "http://www.ubuntu.com/usn/USN-2054-1"
+  ],
+  "CVE-2013-4428": [
+    "http://www.ubuntu.com/usn/USN-2003-1"
+  ],
+  "CVE-2013-4444": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuoct2016-2881722.html"
+  ],
+  "CVE-2013-4447": [
+    "http://packetstormsecurity.com/files/123660/Drupal-Simplenews-6.x-7.x-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-4449": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-4465": [
+    "https://github.com/SimpleMachines/SMF2.1/issues/701"
+  ],
+  "CVE-2013-4470": [
+    "http://www.ubuntu.com/usn/USN-2067-1"
+  ],
+  "CVE-2013-4472": [
+    "http://seclists.org/oss-sec/2013/q4/183"
+  ],
+  "CVE-2013-4473": [
+    "http://www.openwall.com/lists/oss-security/2013/10/29/1"
+  ],
+  "CVE-2013-4474": [
+    "http://www.openwall.com/lists/oss-security/2013/10/29/1"
+  ],
+  "CVE-2013-4475": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05115993"
+  ],
+  "CVE-2013-4496": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05115993"
+  ],
+  "CVE-2013-4497": [
+    "https://bugs.launchpad.net/nova/+bug/1202266"
+  ],
+  "CVE-2013-4511": [
+    "http://www.ubuntu.com/usn/USN-2076-1"
+  ],
+  "CVE-2013-4513": [
+    "http://www.ubuntu.com/usn/USN-2076-1"
+  ],
+  "CVE-2013-4514": [
+    "http://www.ubuntu.com/usn/USN-2076-1"
+  ],
+  "CVE-2013-4515": [
+    "http://www.ubuntu.com/usn/USN-2076-1"
+  ],
+  "CVE-2013-4516": [
+    "http://www.ubuntu.com/usn/USN-2070-1"
+  ],
+  "CVE-2013-4517": [
+    "http://packetstormsecurity.com/files/124554/Java-XML-Signature-Denial-Of-Service-Attack.html"
+  ],
+  "CVE-2013-4544": [
+    "http://git.qemu.org/?p=qemu.git%3Ba=commit%3Bh=f12d048a523780dbda702027d4a91b62af1a08d7"
+  ],
+  "CVE-2013-4545": [
+    "http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html"
+  ],
+  "CVE-2013-4548": [
+    "https://hackerone.com/reports/500"
+  ],
+  "CVE-2013-4550": [
+    "https://projects.duckcorp.org/versions/13"
+  ],
+  "CVE-2013-4559": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10310"
+  ],
+  "CVE-2013-4561": [
+    "https://github.com/openshift/origin-server/commit/f1abe972794e35a4bfba597694ce829990f14d39"
+  ],
+  "CVE-2013-4565": [
+    "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=729279"
+  ],
+  "CVE-2013-4579": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-4580": [
+    "https://www.gitlab.com/2013/11/14/multiple-critical-vulnerabilities-in-gitlab/"
+  ],
+  "CVE-2013-4581": [
+    "https://www.gitlab.com/2013/11/14/multiple-critical-vulnerabilities-in-gitlab/"
+  ],
+  "CVE-2013-4582": [
+    "https://www.gitlab.com/2013/11/14/multiple-critical-vulnerabilities-in-gitlab/"
+  ],
+  "CVE-2013-4583": [
+    "https://www.gitlab.com/2013/11/14/multiple-critical-vulnerabilities-in-gitlab/"
+  ],
+  "CVE-2013-4587": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-4588": [
+    "http://www.ubuntu.com/usn/USN-2065-1"
+  ],
+  "CVE-2013-4590": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html"
+  ],
+  "CVE-2013-4591": [
+    "http://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.7.2"
+  ],
+  "CVE-2013-4592": [
+    "http://www.ubuntu.com/usn/USN-2067-1"
+  ],
+  "CVE-2013-4602": [
+    "https://vuldb.com/?id.9151"
+  ],
+  "CVE-2013-4619": [
+    "http://sourceforge.net/p/openemr/discussion/202506/thread/4854b2b1/#9658"
+  ],
+  "CVE-2013-4620": [
+    "http://sourceforge.net/p/openemr/discussion/202506/thread/4854b2b1/#9658"
+  ],
+  "CVE-2013-4625": [
+    "http://packetstormsecurity.com/files/122535/WordPress-Duplicator-0.4.4-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-4630": [
+    "http://www.exploit-db.com/exploits/25295"
+  ],
+  "CVE-2013-4649": [
+    "http://packetstormsecurity.com/files/122792/DotNetNuke-DNN-7.1.0-6.2.8-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-4653": [
+    "http://www3.alcatel-lucent.com/wps/DocumentStreamerServlet?LMSG_CABINET=Corporate&LMSG_CONTENT_FILE=Support/Security/2013001.htm"
+  ],
+  "CVE-2013-4654": [
+    "https://www.ise.io/wp-content/uploads/2017/07/soho_techreport.pdf"
+  ],
+  "CVE-2013-4655": [
+    "https://www.ise.io/wp-content/uploads/2017/07/soho_techreport.pdf"
+  ],
+  "CVE-2013-4656": [
+    "https://www.ise.io/wp-content/uploads/2017/07/soho_techreport.pdf"
+  ],
+  "CVE-2013-4658": [
+    "https://www.ise.io/wp-content/uploads/2017/06/soho_defcon21.pdf"
+  ],
+  "CVE-2013-4659": [
+    "https://packetstormsecurity.com/files/122562/ASUS-RT-AC66U-ACSD-Remote-Root-Buffer-Overflow.html"
+  ],
+  "CVE-2013-4660": [
+    "https://nealpoole.com/blog/2013/06/code-execution-via-yaml-in-js-yaml-nodejs-module/"
+  ],
+  "CVE-2013-4664": [
+    "https://www.exploit-db.com/exploits/26244"
+  ],
+  "CVE-2013-4665": [
+    "https://www.exploit-db.com/exploits/26244"
+  ],
+  "CVE-2013-4669": [
+    "http://www.fortiguard.com/advisory/Potential-Man-In-The-Middle-Vulnerability-in-FortiClient-VPN/"
+  ],
+  "CVE-2013-4670": [
+    "http://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=&suid=20130725_00"
+  ],
+  "CVE-2013-4671": [
+    "http://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=&suid=20130725_00"
+  ],
+  "CVE-2013-4672": [
+    "http://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=&suid=20130725_00"
+  ],
+  "CVE-2013-4673": [
+    "http://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=&suid=20130725_00"
+  ],
+  "CVE-2013-4692": [
+    "http://packetstormsecurity.com/files/122224/Xorbin-Analog-Flash-Clock-1.0-For-Joomla-XSS.html"
+  ],
+  "CVE-2013-4693": [
+    "http://packetstormsecurity.com/files/122223/Xorbin-Digital-Flash-Clock-1.0-For-WordPress-XSS.html"
+  ],
+  "CVE-2013-4694": [
+    "https://www.rcesecurity.com/2013/07/winamp-v5-64-fixes-several-code-execution-vulnerabilities-cve-2013-4694-cve-2013-4695"
+  ],
+  "CVE-2013-4695": [
+    "http://www.exploit-db.com/exploits/26557"
+  ],
+  "CVE-2013-4717": [
+    "https://web.archive.org/web/20130817120539/http://www.otrs.com/de/open-source/community-news/security-advisories/security-advisory-2013-05/"
+  ],
+  "CVE-2013-4718": [
+    "https://web.archive.org/web/20130817120539/http://www.otrs.com/de/open-source/community-news/security-advisories/security-advisory-2013-05/"
+  ],
+  "CVE-2013-4722": [
+    "http://packetstormsecurity.com/files/122954/CM3-AcoraCMS-XSS-CSRF-Redirection-Disclosure.html"
+  ],
+  "CVE-2013-4723": [
+    "http://packetstormsecurity.com/files/122954/CM3-AcoraCMS-XSS-CSRF-Redirection-Disclosure.html"
+  ],
+  "CVE-2013-4726": [
+    "http://packetstormsecurity.com/files/122954/CM3-AcoraCMS-XSS-CSRF-Redirection-Disclosure.html"
+  ],
+  "CVE-2013-4744": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2013-001/"
+  ],
+  "CVE-2013-4748": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2013-001/"
+  ],
+  "CVE-2013-4751": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4751"
+  ],
+  "CVE-2013-4759": [
+    "http://packetstormsecurity.com/files/122527/Magnolia-CMS-5.0.1-Community-Edition-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-4772": [
+    "http://packetstormsecurity.com/files/122314/D-Link-DIR-505L-DIR-826L-Authentication-Bypass.html"
+  ],
+  "CVE-2013-4777": [
+    "https://plus.google.com/110348415484169880343/posts/5ofgPNrSu3J"
+  ],
+  "CVE-2013-4784": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2015-1972971.html"
+  ],
+  "CVE-2013-4786": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuapr2016v3-2985753.html"
+  ],
+  "CVE-2013-4787": [
+    "http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/"
+  ],
+  "CVE-2013-4788": [
+    "http://www.openwall.com/lists/oss-security/2013/07/15/9"
+  ],
+  "CVE-2013-4791": [
+    "http://davidsopaslabs.blogspot.com/2013/07/prestashop-persistent-xss-and-csrf.html"
+  ],
+  "CVE-2013-4792": [
+    "http://davidsopaslabs.blogspot.com/2013/07/prestashop-persistent-xss-and-csrf.html"
+  ],
+  "CVE-2013-4795": [
+    "http://seclists.org/bugtraq/2013/Aug/69"
+  ],
+  "CVE-2013-4800": [
+    "http://packetstormsecurity.com/files/123533"
+  ],
+  "CVE-2013-4806": [
+    "http://www.kb.cert.org/vuls/id/229804"
+  ],
+  "CVE-2013-4810": [
+    "https://www.exploit-db.com/exploits/28713/"
+  ],
+  "CVE-2013-4821": [
+    "http://www.kb.cert.org/vuls/id/895524"
+  ],
+  "CVE-2013-4848": [
+    "https://www.ise.io/wp-content/uploads/2017/06/soho_defcon21.pdf"
+  ],
+  "CVE-2013-4854": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10052"
+  ],
+  "CVE-2013-4855": [
+    "https://www.ise.io/wp-content/uploads/2017/06/soho_defcon21.pdf"
+  ],
+  "CVE-2013-4856": [
+    "https://www.ise.io/wp-content/uploads/2017/06/soho_defcon21.pdf"
+  ],
+  "CVE-2013-4860": [
+    "http://packetstormsecurity.com/files/122657/Radio-Thermostat-Of-America-Inc-Lack-Of-Authentication.html"
+  ],
+  "CVE-2013-4861": [
+    "https://www3.trustwave.com/spiderlabs/advisories/TWSL2013-019.txt"
+  ],
+  "CVE-2013-4862": [
+    "https://www3.trustwave.com/spiderlabs/advisories/TWSL2013-019.txt"
+  ],
+  "CVE-2013-4863": [
+    "https://www3.trustwave.com/spiderlabs/advisories/TWSL2013-019.txt"
+  ],
+  "CVE-2013-4864": [
+    "https://www3.trustwave.com/spiderlabs/advisories/TWSL2013-019.txt"
+  ],
+  "CVE-2013-4865": [
+    "https://www3.trustwave.com/spiderlabs/advisories/TWSL2013-019.txt"
+  ],
+  "CVE-2013-4866": [
+    "http://packetstormsecurity.com/files/122655/LIXIL-Satis-Toilet-Hard-Coded-Bluetooth-PIN.html"
+  ],
+  "CVE-2013-4867": [
+    "http://www.exploit-db.com/exploits/27285"
+  ],
+  "CVE-2013-4868": [
+    "http://www.exploit-db.com/exploits/27285"
+  ],
+  "CVE-2013-4869": [
+    "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130717-cucm"
+  ],
+  "CVE-2013-4873": [
+    "http://www.theregister.co.uk/2013/07/17/tumblr_ios_snafu_fixed/"
+  ],
+  "CVE-2013-4874": [
+    "http://www.kb.cert.org/vuls/id/BLUU-997M5B"
+  ],
+  "CVE-2013-4875": [
+    "http://www.kb.cert.org/vuls/id/BLUU-997M5B"
+  ],
+  "CVE-2013-4876": [
+    "http://www.kb.cert.org/vuls/id/BLUU-997M5B"
+  ],
+  "CVE-2013-4877": [
+    "http://www.kb.cert.org/vuls/id/BLUU-997M5B"
+  ],
+  "CVE-2013-4882": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10043"
+  ],
+  "CVE-2013-4883": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=KB78824"
+  ],
+  "CVE-2013-4884": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=KB78992"
+  ],
+  "CVE-2013-4885": [
+    "http://packetstormsecurity.com/files/122719/TWSL2013-025.txt"
+  ],
+  "CVE-2013-4891": [
+    "https://nealpoole.com/blog/2013/07/codeigniter-21-xss-clean-filter-bypass/"
+  ],
+  "CVE-2013-4900": [
+    "http://www.exploit-db.com/exploits/27777"
+  ],
+  "CVE-2013-4921": [
+    "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A17514"
+  ],
+  "CVE-2013-4922": [
+    "http://anonsvn.wireshark.org/viewvc/trunk/epan/dissectors/packet-dcom-sysact.c?r1=50094&r2=50093&pathrev=50094"
+  ],
+  "CVE-2013-4923": [
+    "http://anonsvn.wireshark.org/viewvc/trunk/epan/dissectors/packet-dcom-sysact.c?r1=50094&r2=50093&pathrev=50094"
+  ],
+  "CVE-2013-4930": [
+    "http://anonsvn.wireshark.org/viewvc/trunk/epan/dissectors/packet-dvbci.c?r1=50474&r2=50473&pathrev=50474"
+  ],
+  "CVE-2013-4937": [
+    "http://reviews.cnet.com/8301-3132_7-57594003-98"
+  ],
+  "CVE-2013-4948": [
+    "http://packetstormsecurity.com/files/122255/Machform-Form-Maker-2-XSS-Shell-Upload-SQL-Injection.html"
+  ],
+  "CVE-2013-4949": [
+    "http://packetstormsecurity.com/files/122255/Machform-Form-Maker-2-XSS-Shell-Upload-SQL-Injection.html"
+  ],
+  "CVE-2013-4950": [
+    "http://packetstormsecurity.com/files/122255/Machform-Form-Maker-2-XSS-Shell-Upload-SQL-Injection.html"
+  ],
+  "CVE-2013-4952": [
+    "http://www.exploit-db.com/exploits/26416"
+  ],
+  "CVE-2013-4973": [
+    "http://www.kb.cert.org/vuls/id/246524"
+  ],
+  "CVE-2013-4975": [
+    "http://www.coresecurity.com/advisories/hikvision-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-4976": [
+    "http://www.coresecurity.com/advisories/hikvision-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-4977": [
+    "http://www.coresecurity.com/advisories/hikvision-ip-cameras-multiple-vulnerabilities"
+  ],
+  "CVE-2013-4978": [
+    "http://www.coresecurity.com/advisories/aloaha-pdf-suite-buffer-overflow-vulnerability"
+  ],
+  "CVE-2013-4979": [
+    "http://www.coresecurity.com/advisories/eps-viewer-buffer-overflow-vulnerability"
+  ],
+  "CVE-2013-4980": [
+    "http://www.coresecurity.com/advisories/avtech-dvr-multiple-vulnerabilities"
+  ],
+  "CVE-2013-4981": [
+    "http://www.coresecurity.com/advisories/avtech-dvr-multiple-vulnerabilities"
+  ],
+  "CVE-2013-4982": [
+    "https://www.coresecurity.com/advisories/avtech-dvr-multiple-vulnerabilities"
+  ],
+  "CVE-2013-4983": [
+    "http://www.coresecurity.com/advisories/sophos-web-protection-appliance-multiple-vulnerabilities"
+  ],
+  "CVE-2013-4984": [
+    "http://www.coresecurity.com/advisories/sophos-web-protection-appliance-multiple-vulnerabilities"
+  ],
+  "CVE-2013-4985": [
+    "http://www.exploit-db.com/exploits/29516"
+  ],
+  "CVE-2013-4986": [
+    "http://www.coresecurity.com/advisories/pdfcool-studio-buffer-overflow-vulnerability"
+  ],
+  "CVE-2013-4987": [
+    "http://www.coresecurity.com/advisories/pinapp-mail-secure-access-control-failure"
+  ],
+  "CVE-2013-4988": [
+    "http://www.exploit-db.com/exploits/30208"
+  ],
+  "CVE-2013-5005": [
+    "http://www.zerodaylab.com/zdl-advisories/2013-5005.html"
+  ],
+  "CVE-2013-5014": [
+    "http://www.exploit-db.com/exploits/31917"
+  ],
+  "CVE-2013-5015": [
+    "http://www.exploit-db.com/exploits/31917"
+  ],
+  "CVE-2013-5019": [
+    "https://www.exploit-db.com/exploits/44472/"
+  ],
+  "CVE-2013-5023": [
+    "http://digital.ni.com/public.nsf/allkb/E6BC4F119D49A97A86257BD3004FE019?OpenDocument"
+  ],
+  "CVE-2013-5024": [
+    "http://digital.ni.com/public.nsf/allkb/548965C170D6AA2586257BD3004B146B?OpenDocument"
+  ],
+  "CVE-2013-5027": [
+    "https://www.immuniweb.com/advisory/HTB23169"
+  ],
+  "CVE-2013-5028": [
+    "http://packetstormsecurity.com/files/123193"
+  ],
+  "CVE-2013-5030": [
+    "http://www.kb.cert.org/vuls/id/742932"
+  ],
+  "CVE-2013-5037": [
+    "http://www.youtube.com/watch?v=CPlT09ZIj48"
+  ],
+  "CVE-2013-5038": [
+    "http://www.youtube.com/watch?v=CPlT09ZIj48"
+  ],
+  "CVE-2013-5039": [
+    "http://www.youtube.com/watch?v=CPlT09ZIj48"
+  ],
+  "CVE-2013-5045": [
+    "http://packetstormsecurity.com/files/127245/MS13-097-Registry-Symlink-IE-Sandbox-Escape.html"
+  ],
+  "CVE-2013-5065": [
+    "https://www.exploit-db.com/exploits/37732/"
+  ],
+  "CVE-2013-5092": [
+    "http://packetstormsecurity.com/files/122737/algosec-xss.txt"
+  ],
+  "CVE-2013-5094": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=KB77772"
+  ],
+  "CVE-2013-5099": [
+    "http://www.exploit-db.com/exploits/26958"
+  ],
+  "CVE-2013-5100": [
+    "http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2013-001/"
+  ],
+  "CVE-2013-5112": [
+    "https://blog.c22.cc/advisories/cve-2013-5112-evernote-android-insecure-storage-of-pin-data-bypass-of-pin-protection/"
+  ],
+  "CVE-2013-5113": [
+    "https://blog.c22.cc/advisories/cve-2013-51135114-lastpass-android-container-pin-and-auto-wipe-security-feature-bypass/"
+  ],
+  "CVE-2013-5114": [
+    "https://blog.c22.cc/advisories/cve-2013-51135114-lastpass-android-container-pin-and-auto-wipe-security-feature-bypass/"
+  ],
+  "CVE-2013-5116": [
+    "https://packetstormsecurity.com/files/author/8433/"
+  ],
+  "CVE-2013-5117": [
+    "http://www.exploit-db.com/exploits/27602"
+  ],
+  "CVE-2013-5120": [
+    "http://www.exploit-db.com/exploits/27430"
+  ],
+  "CVE-2013-5121": [
+    "http://www.exploit-db.com/exploits/27430"
+  ],
+  "CVE-2013-5122": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-5122"
+  ],
+  "CVE-2013-5211": [
+    "http://www.oracle.com/technetwork/topics/security/linuxbulletinjul2016-3090544.html"
+  ],
+  "CVE-2013-5212": [
+    "http://seclists.org/fulldisclosure/2013/Oct/224"
+  ],
+  "CVE-2013-5215": [
+    "http://packetstormsecurity.com/files/123943/FOSCAM-Wireless-IP-Camera-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-5218": [
+    "http://www.youtube.com/watch?v=CPlT09ZIj48"
+  ],
+  "CVE-2013-5219": [
+    "http://www.youtube.com/watch?v=CPlT09ZIj48"
+  ],
+  "CVE-2013-5220": [
+    "http://www.youtube.com/watch?v=CPlT09ZIj48"
+  ],
+  "CVE-2013-5223": [
+    "http://seclists.org/fulldisclosure/2013/Nov/76"
+  ],
+  "CVE-2013-5300": [
+    "http://packetstormsecurity.com/files/122547/Alienvault-OSSIM-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-5301": [
+    "http://packetstormsecurity.com/files/122735/Trustport-Webfilter-Traversal-File-Disclosure.html"
+  ],
+  "CVE-2013-5309": [
+    "http://sourceforge.net/p/fudforum/code/5589/"
+  ],
+  "CVE-2013-5311": [
+    "http://packetstormsecurity.com/files/122746/PHP-VID-XSS-SQL-Injection-CRLF-Injection.html"
+  ],
+  "CVE-2013-5312": [
+    "http://packetstormsecurity.com/files/122746/PHP-VID-XSS-SQL-Injection-CRLF-Injection.html"
+  ],
+  "CVE-2013-5316": [
+    "http://packetstormsecurity.com/files/122663/Rite-CMS-1.0.0-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-5317": [
+    "http://packetstormsecurity.com/files/122663/Rite-CMS-1.0.0-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-5319": [
+    "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2013-5151.php"
+  ],
+  "CVE-2013-5320": [
+    "http://packetstormsecurity.com/files/122608/MojoPortal-2.3.9.7-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-5321": [
+    "http://www.exploit-db.com/exploits/26406"
+  ],
+  "CVE-2013-5326": [
+    "http://www.kb.cert.org/vuls/id/295276"
+  ],
+  "CVE-2013-5331": [
+    "https://hackerone.com/reports/2106"
+  ],
+  "CVE-2013-5372": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21655201"
+  ],
+  "CVE-2013-5375": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21655201"
+  ],
+  "CVE-2013-5385": [
+    "http://www.kb.cert.org/vuls/id/BLUU-985QTG"
+  ],
+  "CVE-2013-5431": [
+    "http://www.kb.cert.org/vuls/id/596990"
+  ],
+  "CVE-2013-5438": [
+    "http://www.ibm.com/connections/blogs/PSIRT/entry/security_bulletin_flex_system_manager_web_server_allows_generic_xss_cve_2013_5438"
+  ],
+  "CVE-2013-5447": [
+    "http://packetstormsecurity.com/files/124658"
+  ],
+  "CVE-2013-5456": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21655201"
+  ],
+  "CVE-2013-5457": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21655201"
+  ],
+  "CVE-2013-5458": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21655201"
+  ],
+  "CVE-2013-5528": [
+    "https://www.exploit-db.com/exploits/40887/"
+  ],
+  "CVE-2013-5573": [
+    "http://www.exploit-db.com/exploits/30408"
+  ],
+  "CVE-2013-5576": [
+    "https://github.com/joomla/joomla-cms/commit/fa5645208eefd70f521cd2e4d53d5378622133d8"
+  ],
+  "CVE-2013-5580": [
+    "http://freecode.com/projects/ngircd/releases/357245"
+  ],
+  "CVE-2013-5586": [
+    "http://packetstormsecurity.com/files/123196"
+  ],
+  "CVE-2013-5593": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=868327"
+  ],
+  "CVE-2013-5598": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=920515"
+  ],
+  "CVE-2013-5605": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-5606": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-5607": [
+    "http://www.ubuntu.com/usn/USN-2031-1"
+  ],
+  "CVE-2013-5609": [
+    "http://www.ubuntu.com/usn/USN-2053-1"
+  ],
+  "CVE-2013-5610": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html"
+  ],
+  "CVE-2013-5611": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html"
+  ],
+  "CVE-2013-5612": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html"
+  ],
+  "CVE-2013-5613": [
+    "http://www.ubuntu.com/usn/USN-2053-1"
+  ],
+  "CVE-2013-5614": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html"
+  ],
+  "CVE-2013-5615": [
+    "http://www.ubuntu.com/usn/USN-2053-1"
+  ],
+  "CVE-2013-5616": [
+    "http://www.ubuntu.com/usn/USN-2053-1"
+  ],
+  "CVE-2013-5618": [
+    "http://www.ubuntu.com/usn/USN-2053-1"
+  ],
+  "CVE-2013-5619": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html"
+  ],
+  "CVE-2013-5639": [
+    "http://www.exploit-db.com/exploits/28684"
+  ],
+  "CVE-2013-5640": [
+    "http://www.exploit-db.com/exploits/28684"
+  ],
+  "CVE-2013-5647": [
+    "http://vapid.dhs.org/advisories/sounder-ruby-gem-cmd-inj.html"
+  ],
+  "CVE-2013-5648": [
+    "https://bugs.mageia.org/show_bug.cgi?id=11100"
+  ],
+  "CVE-2013-5658": [
+    "https://packetstormsecurity.com/files/123049/PWStore-2010.8.30.0-Cross-Site-Scripting-Denial-Of-Service.html"
+  ],
+  "CVE-2013-5660": [
+    "http://realpentesting.blogspot.com.es/p/blog-page_3.html"
+  ],
+  "CVE-2013-5667": [
+    "http://www.7elements.co.uk/resources/blog/multiple-vulnerabilities-thecus-nas/"
+  ],
+  "CVE-2013-5668": [
+    "http://www.7elements.co.uk/resources/blog/multiple-vulnerabilities-thecus-nas/"
+  ],
+  "CVE-2013-5669": [
+    "http://www.7elements.co.uk/resources/blog/multiple-vulnerabilities-thecus-nas/"
+  ],
+  "CVE-2013-5672": [
+    "http://www.exploit-db.com/exploits/28054"
+  ],
+  "CVE-2013-5673": [
+    "http://www.exploit-db.com/exploits/28054"
+  ],
+  "CVE-2013-5676": [
+    "http://seclists.org/fulldisclosure/2013/Dec/37"
+  ],
+  "CVE-2013-5679": [
+    "http://www.securityfocus.com/bid/62415"
+  ],
+  "CVE-2013-5680": [
+    "http://www.exploit-db.com/exploits/28683"
+  ],
+  "CVE-2013-5694": [
+    "http://packetstormsecurity.com/files/123821/Ops-View-Pre-4.4.1-Blind-SQL-Injection.html"
+  ],
+  "CVE-2013-5701": [
+    "http://seclists.org/fulldisclosure/2013/Sep/43"
+  ],
+  "CVE-2013-5703": [
+    "http://www.kb.cert.org/vuls/id/101462"
+  ],
+  "CVE-2013-5704": [
+    "https://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04832246"
+  ],
+  "CVE-2013-5706": [
+    "http://www.kb.cert.org/vuls/id/960908"
+  ],
+  "CVE-2013-5707": [
+    "http://www.kb.cert.org/vuls/id/960908"
+  ],
+  "CVE-2013-5708": [
+    "http://www.kb.cert.org/vuls/id/960908"
+  ],
+  "CVE-2013-5716": [
+    "http://www.exploit-db.com/exploits/28080"
+  ],
+  "CVE-2013-5726": [
+    "http://seclists.org/fulldisclosure/2013/Nov/9"
+  ],
+  "CVE-2013-5730": [
+    "http://packetstormsecurity.com/files/123200/D-Link-DSL-2740B-Cross-Site-Request-Forgery.html"
+  ],
+  "CVE-2013-5745": [
+    "https://bugzilla.gnome.org/show_bug.cgi?id=707905"
+  ],
+  "CVE-2013-5748": [
+    "http://packetstormsecurity.com/files/123455/SimpleRisk-20130915-01-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-5749": [
+    "http://packetstormsecurity.com/files/123455/SimpleRisk-20130915-01-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-5756": [
+    "http://www.exploit-db.com/exploits/33740"
+  ],
+  "CVE-2013-5757": [
+    "http://www.exploit-db.com/exploits/33740"
+  ],
+  "CVE-2013-5758": [
+    "http://www.exploit-db.com/exploits/33742"
+  ],
+  "CVE-2013-5761": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5762": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5763": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5764": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5765": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5766": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5767": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5768": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5769": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5770": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5771": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5772": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5773": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5774": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5775": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5776": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5777": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5778": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5779": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5780": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5781": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5782": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5783": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5784": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5785": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5786": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5787": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5788": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5789": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5790": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5791": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5792": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5793": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5794": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5795": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5796": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5797": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5798": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5799": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5800": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5801": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5802": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5803": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5804": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5805": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5806": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5807": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5808": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5809": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5810": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5811": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5812": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5813": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5814": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5815": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5816": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5817": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5818": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5819": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5820": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5821": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5822": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5823": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5824": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5825": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5826": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5827": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5828": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5829": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5830": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5831": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5832": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5833": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5834": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5835": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5836": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5837": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5838": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5839": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5840": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5841": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5842": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5843": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5844": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5845": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5846": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5847": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5848": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5849": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5850": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5851": [
+    "http://www.ubuntu.com/usn/USN-2089-1"
+  ],
+  "CVE-2013-5852": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5853": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5854": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5855": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-5856": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5857": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5858": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5859": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5860": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5861": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5862": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5863": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5864": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5865": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5866": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5867": [
+    "http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html"
+  ],
+  "CVE-2013-5868": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5869": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5870": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5871": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5872": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5873": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5874": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5875": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5876": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5877": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5878": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5879": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5880": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5881": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5882": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5883": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5884": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5885": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5886": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5887": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5888": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5889": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5890": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5891": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5892": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5893": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5894": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5895": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5896": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5897": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5898": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5899": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5900": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5901": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5902": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5904": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5905": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5906": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5907": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5908": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5909": [
+    "http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html"
+  ],
+  "CVE-2013-5910": [
+    "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04166777"
+  ],
+  "CVE-2013-5930": [
+    "http://packetstormsecurity.com/files/123138/realestatephpscript-xss.txt"
+  ],
+  "CVE-2013-5931": [
+    "http://packetstormsecurity.com/files/123138/realestatephpscript-xss.txt"
+  ],
+  "CVE-2013-5933": [
+    "https://plus.google.com/110348415484169880343/posts/5ofgPNrSu3J"
+  ],
+  "CVE-2013-5939": [
+    "http://packetstormsecurity.com/files/123746/PHPCMS-Guestbook-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-5948": [
+    "https://support.t-mobile.com/docs/DOC-21994"
+  ],
+  "CVE-2013-5952": [
+    "http://packetstormsecurity.com/files/125737"
+  ],
+  "CVE-2013-5953": [
+    "http://packetstormsecurity.com/files/125738"
+  ],
+  "CVE-2013-5954": [
+    "http://www.revive-adserver.com/security/revive-sa-2014-001/"
+  ],
+  "CVE-2013-5955": [
+    "http://seclists.org/fulldisclosure/2014/Mar/269"
+  ],
+  "CVE-2013-5956": [
+    "http://seclists.org/fulldisclosure/2014/Mar/288"
+  ],
+  "CVE-2013-5960": [
+    "http://www.securityfocus.com/bid/62415"
+  ],
+  "CVE-2013-5961": [
+    "http://packetstormsecurity.com/files/123349"
+  ],
+  "CVE-2013-5962": [
+    "http://www.vulnerability-lab.com/get_content.php?id=1080"
+  ],
+  "CVE-2013-5963": [
+    "http://packetstormsecurity.com/files/123235"
+  ],
+  "CVE-2013-5966": [
+    "https://github.com/zkoss/zk/blob/v5.0.13/zkdoc/release-note"
+  ],
+  "CVE-2013-5973": [
+    "http://www.vmware.com/security/advisories/VMSA-2013-0016.html"
+  ],
+  "CVE-2013-5977": [
+    "http://www.exploit-db.com/exploits/28959"
+  ],
+  "CVE-2013-5978": [
+    "http://www.exploit-db.com/exploits/28959"
+  ],
+  "CVE-2013-5979": [
+    "https://bugs.launchpad.net/xibo/+bug/1093967"
+  ],
+  "CVE-2013-5983": [
+    "http://packetstormsecurity.com/files/123747"
+  ],
+  "CVE-2013-5984": [
+    "http://packetstormsecurity.com/files/123652/Microweber-0.8-Arbitrary-File-Deletion.html"
+  ],
+  "CVE-2013-5988": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-5988"
+  ],
+  "CVE-2013-6010": [
+    "http://packetstormsecurity.com/files/123327"
+  ],
+  "CVE-2013-6017": [
+    "http://www.kb.cert.org/vuls/id/204950"
+  ],
+  "CVE-2013-6021": [
+    "https://funoverip.net/2013/10/watchguard-cve-2013-6021-stack-based-buffer-overflow-exploit/"
+  ],
+  "CVE-2013-6022": [
+    "http://www.kb.cert.org/vuls/id/450646"
+  ],
+  "CVE-2013-6023": [
+    "http://www.kb.cert.org/vuls/id/785838"
+  ],
+  "CVE-2013-6025": [
+    "https://www.exploit-db.com/exploits/38805/"
+  ],
+  "CVE-2013-6026": [
+    "http://www.devttys0.com/2013/10/reverse-engineering-a-d-link-backdoor/"
+  ],
+  "CVE-2013-6027": [
+    "http://pastebin.com/raw.php?i=vbiG42VD"
+  ],
+  "CVE-2013-6028": [
+    "http://www.kb.cert.org/vuls/id/204950"
+  ],
+  "CVE-2013-6029": [
+    "http://www.kb.cert.org/vuls/id/346278"
+  ],
+  "CVE-2013-6030": [
+    "http://www.kb.cert.org/vuls/id/168751"
+  ],
+  "CVE-2013-6037": [
+    "http://www.kb.cert.org/vuls/id/687278"
+  ],
+  "CVE-2013-6038": [
+    "http://www.kb.cert.org/vuls/id/586958"
+  ],
+  "CVE-2013-6039": [
+    "http://www.kb.cert.org/vuls/id/268662"
+  ],
+  "CVE-2013-6040": [
+    "http://www.kb.cert.org/vuls/id/219470"
+  ],
+  "CVE-2013-6044": [
+    "https://www.djangoproject.com/weblog/2013/aug/13/security-releases-issued"
+  ],
+  "CVE-2013-6048": [
+    "https://github.com/munin-monitoring/munin/blob/2.0.18/ChangeLog"
+  ],
+  "CVE-2013-6056": [
+    "https://www.tenable.com/plugins/nessus/76122"
+  ],
+  "CVE-2013-6058": [
+    "http://packetstormsecurity.com/files/123929"
+  ],
+  "CVE-2013-6074": [
+    "http://packetstormsecurity.com/files/123934/Open-Xchange-AppSuite-Script-Insertion.html"
+  ],
+  "CVE-2013-6078": [
+    "http://stream.wsj.com/story/latest-headlines/SS-2-63399/SS-2-332655/"
+  ],
+  "CVE-2013-6079": [
+    "http://packetstormsecurity.com/files/122677"
+  ],
+  "CVE-2013-6114": [
+    "http://www.exploit-db.com/exploits/28811/"
+  ],
+  "CVE-2013-6117": [
+    "http://www.exploit-db.com/exploits/29673"
+  ],
+  "CVE-2013-6127": [
+    "http://www.exploit-db.com/exploits/28084/"
+  ],
+  "CVE-2013-6128": [
+    "http://www.exploit-db.com/exploits/28085/"
+  ],
+  "CVE-2013-6129": [
+    "http://www.net-security.org/secworld.php?id=15743"
+  ],
+  "CVE-2013-6162": [
+    "http://www.exploit-db.com/exploits/30373"
+  ],
+  "CVE-2013-6163": [
+    "http://packetstormsecurity.com/files/123916"
+  ],
+  "CVE-2013-6164": [
+    "http://www.exploit-db.com/exploits/29517"
+  ],
+  "CVE-2013-6173": [
+    "http://www.kb.cert.org/vuls/id/346982"
+  ],
+  "CVE-2013-6174": [
+    "http://www.kb.cert.org/vuls/id/346982"
+  ],
+  "CVE-2013-6175": [
+    "http://www.kb.cert.org/vuls/id/346982"
+  ],
+  "CVE-2013-6176": [
+    "http://www.kb.cert.org/vuls/id/346982"
+  ],
+  "CVE-2013-6177": [
+    "http://www.kb.cert.org/vuls/id/346982"
+  ],
+  "CVE-2013-6181": [
+    "http://packetstormsecurity.com/files/124585/EMC-Watch4net-Information-Disclosure.html"
+  ],
+  "CVE-2013-6182": [
+    "http://packetstormsecurity.com/files/124584/EMC-Replication-Manager-Unquoted-File-Path-Enumeration.html"
+  ],
+  "CVE-2013-6221": [
+    "http://packetstormsecurity.com/files/127247/HP-AutoPass-License-Server-File-Upload.html"
+  ],
+  "CVE-2013-6223": [
+    "http://seclists.org/fulldisclosure/2013/Nov/210"
+  ],
+  "CVE-2013-6224": [
+    "http://packetstormsecurity.com/files/124222"
+  ],
+  "CVE-2013-6225": [
+    "http://www.exploit-db.com/exploits/29672"
+  ],
+  "CVE-2013-6227": [
+    "https://www.exploit-db.com/exploits/46206/"
+  ],
+  "CVE-2013-6229": [
+    "http://www.isecauditors.com/advisories-2013#2013-014"
+  ],
+  "CVE-2013-6231": [
+    "http://www.exploit-db.com/exploits/31990"
+  ],
+  "CVE-2013-6232": [
+    "http://www.exploit-db.com/exploits/32038"
+  ],
+  "CVE-2013-6233": [
+    "http://www.exploit-db.com/exploits/32039"
+  ],
+  "CVE-2013-6234": [
+    "http://www.exploit-db.com/exploits/32040"
+  ],
+  "CVE-2013-6235": [
+    "http://seclists.org/fulldisclosure/2014/Jan/164"
+  ],
+  "CVE-2013-6236": [
+    "https://seclists.org/bugtraq/2013/Oct/149"
+  ],
+  "CVE-2013-6237": [
+    "http://packetstormsecurity.com/files/124274/ISL-Light-Desktop-3.5.4-Information-Disclosure.html"
+  ],
+  "CVE-2013-6239": [
+    "http://packetstormsecurity.com/files/123764"
+  ],
+  "CVE-2013-6242": [
+    "http://seclists.org/bugtraq/2013/Nov/127"
+  ],
+  "CVE-2013-6246": [
+    "http://packetstormsecurity.com/files/123703/quest-captcha.txt"
+  ],
+  "CVE-2013-6267": [
+    "http://packetstormsecurity.com/files/124200"
+  ],
+  "CVE-2013-6271": [
+    "http://www.theregister.co.uk/2013/12/10/android_has_lockbypass_bug/"
+  ],
+  "CVE-2013-6272": [
+    "http://seclists.org/fulldisclosure/2014/Jul/13"
+  ],
+  "CVE-2013-6275": [
+    "http://www.exploit-db.com/exploits/29274"
+  ],
+  "CVE-2013-6281": [
+    "http://packetstormsecurity.com/files/123699/WordPress-dhtmlxspreadsheet-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-6282": [
+    "https://www.exploit-db.com/exploits/40975/"
+  ],
+  "CVE-2013-6283": [
+    "http://www.exploit-db.com/exploits/27700"
+  ],
+  "CVE-2013-6295": [
+    "http://davidsopaslabs.blogspot.com/2013/10/how-salesman-could-hack-prestashop.html"
+  ],
+  "CVE-2013-6321": [
+    "http://www.ibm.com/connections/blogs/PSIRT/entry/security_bulletin_atlas_suite_atlas_policy_suite_sql_injection_vulnerability_cve_2013_6321_and_access_control_vulnerability_cve_2013_6334"
+  ],
+  "CVE-2013-6327": [
+    "http://www-01.ibm.com/support/docview.wss?uid=swg21659907"
+  ],
+  "CVE-2013-6334": [
+    "http://www.ibm.com/connections/blogs/PSIRT/entry/security_bulletin_atlas_suite_atlas_policy_suite_sql_injection_vulnerability_cve_2013_6321_and_access_control_vulnerability_cve_2013_6334"
+  ],
+  "CVE-2013-6341": [
+    "http://packetstormsecurity.com/files/124201"
+  ],
+  "CVE-2013-6343": [
+    "https://support.t-mobile.com/docs/DOC-21994"
+  ],
+  "CVE-2013-6348": [
+    "http://packetstormsecurity.com/files/123805/Struts-2.3.15.3-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-6349": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10057"
+  ],
+  "CVE-2013-6358": [
+    "https://web.archive.org/web/20150423041900/http://labs.davidsopas.com/2013/10/how-salesman-could-hack-prestashop.html"
+  ],
+  "CVE-2013-6359": [
+    "https://github.com/munin-monitoring/munin/blob/2.0.18/ChangeLog"
+  ],
+  "CVE-2013-6364": [
+    "https://bugzilla.suse.com/show_bug.cgi?id=CVE-2013-6364"
+  ],
+  "CVE-2013-6365": [
+    "https://packetstormsecurity.com/files/cve/CVE-2013-6365"
+  ],
+  "CVE-2013-6367": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-6368": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-6370": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html"
+  ],
+  "CVE-2013-6371": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html"
+  ],
+  "CVE-2013-6376": [
+    "http://www.ubuntu.com/usn/USN-2136-1"
+  ],
+  "CVE-2013-6378": [
+    "http://www.ubuntu.com/usn/USN-2070-1"
+  ],
+  "CVE-2013-6380": [
+    "http://www.ubuntu.com/usn/USN-2136-1"
+  ],
+  "CVE-2013-6382": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-6383": [
+    "http://www.ubuntu.com/usn/USN-2076-1"
+  ],
+  "CVE-2013-6395": [
+    "https://github.com/ganglia/ganglia-web/issues/218"
+  ],
+  "CVE-2013-6397": [
+    "http://www.agarri.fr/kom/archives/2013/11/27/compromising_an_unreachable_solr_server_with_cve-2013-6397/index.html"
+  ],
+  "CVE-2013-6418": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinjan2016-2867206.html"
+  ],
+  "CVE-2013-6420": [
+    "https://www.sektioneins.de/advisories/advisory-012013-php-openssl_x509_parse-memory-corruption-vulnerability.html"
+  ],
+  "CVE-2013-6421": [
+    "http://www.openwall.com/lists/oss-security/2013/12/03/6"
+  ],
+  "CVE-2013-6422": [
+    "http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html"
+  ],
+  "CVE-2013-6435": [
+    "http://www.oracle.com/technetwork/topics/security/ovmbulletinjul2016-3090546.html"
+  ],
+  "CVE-2013-6438": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-6440": [
+    "https://www.oracle.com/security-alerts/cpujan2022.html"
+  ],
+  "CVE-2013-6444": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html"
+  ],
+  "CVE-2013-6449": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-6450": [
+    "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+  ],
+  "CVE-2013-6462": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html"
+  ],
+  "CVE-2013-6466": [
+    "https://cert.vde.com/en-us/advisories/vde-2017-001"
+  ],
+  "CVE-2013-6477": [
+    "http://www.ubuntu.com/usn/USN-2100-1"
+  ],
+  "CVE-2013-6478": [
+    "http://www.ubuntu.com/usn/USN-2100-1"
+  ],
+  "CVE-2013-6479": [
+    "http://www.ubuntu.com/usn/USN-2100-1"
+  ],
+  "CVE-2013-6481": [
+    "http://www.ubuntu.com/usn/USN-2100-1"
+  ],
+  "CVE-2013-6482": [
+    "http://www.ubuntu.com/usn/USN-2100-1"
+  ],
+  "CVE-2013-6483": [
+    "http://www.ubuntu.com/usn/USN-2100-1"
+  ],
+  "CVE-2013-6484": [
+    "http://www.ubuntu.com/usn/USN-2100-1"
+  ],
+  "CVE-2013-6485": [
+    "http://www.ubuntu.com/usn/USN-2100-1"
+  ],
+  "CVE-2013-6487": [
+    "http://www.ubuntu.com/usn/USN-2101-1"
+  ],
+  "CVE-2013-6489": [
+    "http://www.ubuntu.com/usn/USN-2100-1"
+  ],
+  "CVE-2013-6490": [
+    "http://www.ubuntu.com/usn/USN-2100-1"
+  ],
+  "CVE-2013-6497": [
+    "http://www.ubuntu.com/usn/USN-2423-1"
+  ],
+  "CVE-2013-6501": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinjul2015-2511963.html"
+  ],
+  "CVE-2013-6618": [
+    "http://www.senseofsecurity.com.au/advisories/SOS-13-003"
+  ],
+  "CVE-2013-6627": [
+    "https://www.exploit-db.com/exploits/40944/"
+  ],
+  "CVE-2013-6629": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=891693"
+  ],
+  "CVE-2013-6630": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=891693"
+  ],
+  "CVE-2013-6661": [
+    "https://code.google.com/p/chromium/issues/detail?id=334274"
+  ],
+  "CVE-2013-6671": [
+    "http://www.ubuntu.com/usn/USN-2053-1"
+  ],
+  "CVE-2013-6672": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html"
+  ],
+  "CVE-2013-6673": [
+    "http://www.ubuntu.com/usn/USN-2053-1"
+  ],
+  "CVE-2013-6674": [
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=868267"
+  ],
+  "CVE-2013-6718": [
+    "http://www.ibm.com/connections/blogs/PSIRT/entry/security_bulletin_ibm_bladecenter_advanced_management_module_account_information_exposure_cve_2013_6718"
+  ],
+  "CVE-2013-6735": [
+    "https://www-304.ibm.com/connections/blogs/PSIRT/entry/security_bulletin_fix_available_for_unauthorized_information_retrieval_security_vulnerability_in_ibm_websphere_portal_cve_2013_6735"
+  ],
+  "CVE-2013-6745": [
+    "https://www-304.ibm.com/connections/blogs/PSIRT/entry/security_bulletin_ibm_security_access_manager_for_enterprise_single_sign_on_cross_site_scripting_vulnerability_cve_2013_6745?lang=en_us"
+  ],
+  "CVE-2013-6763": [
+    "http://www.ubuntu.com/usn/USN-2076-1"
+  ],
+  "CVE-2013-6767": [
+    "http://www.vulnerability-lab.com/get_content.php?id=1171"
+  ],
+  "CVE-2013-6780": [
+    "http://packetstormsecurity.com/files/130527/Cisco-Ironport-AsyncOS-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-6789": [
+    "https://github.com/chillu/silverstripe-framework/commit/3e88c98ca513880e2b43ed7f27ade17fef5d9170"
+  ],
+  "CVE-2013-6793": [
+    "http://www.vulnerability-lab.com/get_content.php?id=1125"
+  ],
+  "CVE-2013-6795": [
+    "https://github.com/rackerlabs/openstack-guest-agents-windows-xenserver/releases/tag/1.2.6.0"
+  ],
+  "CVE-2013-6796": [
+    "http://packetstormsecurity.com/files/124054"
+  ],
+  "CVE-2013-6799": [
+    "http://cxsecurity.com/issue/WLB-2013110059"
+  ],
+  "CVE-2013-6800": [
+    "https://github.com/krb5/krb5/commit/c2ccf4197f697c4ff143b8a786acdd875e70a89d"
+  ],
+  "CVE-2013-6805": [
+    "https://github.com/koto/exceed-mitm"
+  ],
+  "CVE-2013-6806": [
+    "https://github.com/koto/exceed-mitm"
+  ],
+  "CVE-2013-6807": [
+    "https://github.com/koto/exceed-mitm"
+  ],
+  "CVE-2013-6809": [
+    "http://seclists.org/fulldisclosure/2013/Dec/15"
+  ],
+  "CVE-2013-6810": [
+    "https://www.exploit-db.com/exploits/42702/"
+  ],
+  "CVE-2013-6816": [
+    "https://service.sap.com/sap/support/notes/1828801"
+  ],
+  "CVE-2013-6825": [
+    "http://seclists.org/fulldisclosure/2014/Jun/11"
+  ],
+  "CVE-2013-6826": [
+    "http://packetstormsecurity.com/files/123980/fortianalyzer-xsrf.txt"
+  ],
+  "CVE-2013-6835": [
+    "http://seclists.org/fulldisclosure/2014/Mar/92"
+  ],
+  "CVE-2013-6837": [
+    "http://www.rafayhackingarticles.net/2013/05/kali-linux-dom-based-xss-writeup.html"
+  ],
+  "CVE-2013-6853": [
+    "http://www.cloudscan.me/2014/01/cve-2013-6853-stored-xss-in-y-toolbar.html"
+  ],
+  "CVE-2013-6872": [
+    "http://www.exploit-db.com/exploits/30946"
+  ],
+  "CVE-2013-6873": [
+    "http://packetstormsecurity.com/files/124035/testa-sql.txt"
+  ],
+  "CVE-2013-6876": [
+    "http://packetstormsecurity.com/files/126887/s3dvt-Privilege-Escalation.html"
+  ],
+  "CVE-2013-6877": [
+    "http://www.coresecurity.com/advisories/realplayer-heap-based-buffer-overflow-vulnerability"
+  ],
+  "CVE-2013-6880": [
+    "http://www.7elements.co.uk/resources/blog/cve-2013-6880-proof-concept"
+  ],
+  "CVE-2013-6881": [
+    "http://packetstormsecurity.com/files/124420/Ditto-Forensic-FieldStation-2013Oct15a-XSS-CSRF-Command-Execution.html"
+  ],
+  "CVE-2013-6882": [
+    "http://packetstormsecurity.com/files/124420/Ditto-Forensic-FieldStation-2013Oct15a-XSS-CSRF-Command-Execution.html"
+  ],
+  "CVE-2013-6883": [
+    "http://packetstormsecurity.com/files/124420/Ditto-Forensic-FieldStation-2013Oct15a-XSS-CSRF-Command-Execution.html"
+  ],
+  "CVE-2013-6884": [
+    "http://packetstormsecurity.com/files/124420/Ditto-Forensic-FieldStation-2013Oct15a-XSS-CSRF-Command-Execution.html"
+  ],
+  "CVE-2013-6885": [
+    "http://www.zdnet.com/blog/hardware/amd-owns-up-to-cpu-bug/18924"
+  ],
+  "CVE-2013-6888": [
+    "http://www.ubuntu.com/usn/USN-2084-1"
+  ],
+  "CVE-2013-6919": [
+    "http://www.rafayhackingarticles.net/2013/11/phpthumb-server-side-request-forgery.html"
+  ],
+  "CVE-2013-6922": [
+    "http://www.exploit-db.com/exploits/30726"
+  ],
+  "CVE-2013-6923": [
+    "http://www.exploit-db.com/exploits/30727"
+  ],
+  "CVE-2013-6924": [
+    "http://packetstormsecurity.com/files/124688/Seagate-BlackArmor-NAS-sg2000-2000.1331-Remote-Command-Execution.html"
+  ],
+  "CVE-2013-6933": [
+    "http://isecpartners.github.io/fuzzing/vulnerabilities/2013/12/30/vlc-vulnerability.html"
+  ],
+  "CVE-2013-6934": [
+    "http://isecpartners.github.io/fuzzing/vulnerabilities/2013/12/30/vlc-vulnerability.html"
+  ],
+  "CVE-2013-6935": [
+    "http://www.exploit-db.com/exploits/29327"
+  ],
+  "CVE-2013-6936": [
+    "http://packetstormsecurity.com/files/124091/MyBB-Ajaxfs-SQL-Injection.html"
+  ],
+  "CVE-2013-6945": [
+    "http://www.darkreading.com/vulnerability/anatomy-of-an-electronic-health-record-e/240164441/"
+  ],
+  "CVE-2013-6948": [
+    "http://www.kb.cert.org/vuls/id/656302"
+  ],
+  "CVE-2013-6949": [
+    "http://www.kb.cert.org/vuls/id/656302"
+  ],
+  "CVE-2013-6950": [
+    "http://www.kb.cert.org/vuls/id/656302"
+  ],
+  "CVE-2013-6951": [
+    "http://www.kb.cert.org/vuls/id/656302"
+  ],
+  "CVE-2013-6952": [
+    "http://www.kb.cert.org/vuls/id/656302"
+  ],
+  "CVE-2013-6954": [
+    "http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html"
+  ],
+  "CVE-2013-6955": [
+    "http://www.kb.cert.org/vuls/id/615910"
+  ],
+  "CVE-2013-6976": [
+    "http://www.exploit-db.com/exploits/30362/"
+  ],
+  "CVE-2013-6986": [
+    "http://packetstormsecurity.com/files/124330/ZippyYum-3.4-Insecure-Data-Storage.html"
+  ],
+  "CVE-2013-6987": [
+    "http://packetstormsecurity.com/files/124563"
+  ],
+  "CVE-2013-6994": [
+    "https://github.com/koto/exceed-mitm"
+  ],
+  "CVE-2013-7002": [
+    "http://packetstormsecurity.com/files/124344"
+  ],
+  "CVE-2013-7003": [
+    "http://packetstormsecurity.com/files/124374/LiveZilla-5.1.1.0-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-7008": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7009": [
+    "https://github.com/FFmpeg/FFmpeg/commit/3819db745da2ac7fb3faacb116788c32f4753f34"
+  ],
+  "CVE-2013-7010": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7011": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7012": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7013": [
+    "https://github.com/FFmpeg/FFmpeg/commit/821a5938d100458f4d09d634041b05c860554ce0"
+  ],
+  "CVE-2013-7014": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7015": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7016": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7017": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7018": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7019": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7020": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7021": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7022": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7023": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7024": [
+    "http://ffmpeg.org/security.html"
+  ],
+  "CVE-2013-7025": [
+    "http://www.vulnerability-lab.com/get_content.php?id=1099"
+  ],
+  "CVE-2013-7026": [
+    "http://www.ubuntu.com/usn/USN-2070-1"
+  ],
+  "CVE-2013-7027": [
+    "http://www.ubuntu.com/usn/USN-2129-1"
+  ],
+  "CVE-2013-7030": [
+    "http://www.exploit-db.com/exploits/30237/"
+  ],
+  "CVE-2013-7033": [
+    "http://packetstormsecurity.com/files/124444/LiveZilla-5.1.2.0-Insecure-Password-Storage.html"
+  ],
+  "CVE-2013-7043": [
+    "http://www.exploit-db.com/exploits/29927/"
+  ],
+  "CVE-2013-7049": [
+    "http://seclists.org/oss-sec/2013/q4/482"
+  ],
+  "CVE-2013-7050": [
+    "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=731849"
+  ],
+  "CVE-2013-7051": [
+    "http://www.exploit-db.com/exploits/31425"
+  ],
+  "CVE-2013-7052": [
+    "http://pigstarter.krebsco.de/report/2013-12-18_dir100.txt"
+  ],
+  "CVE-2013-7053": [
+    "http://pigstarter.krebsco.de/report/2013-12-18_dir100.txt"
+  ],
+  "CVE-2013-7054": [
+    "http://pigstarter.krebsco.de/report/2013-12-18_dir100.txt"
+  ],
+  "CVE-2013-7055": [
+    "http://pigstarter.krebsco.de/report/2013-12-18_dir100.txt"
+  ],
+  "CVE-2013-7057": [
+    "http://www.exploit-db.com/exploits/35046"
+  ],
+  "CVE-2013-7070": [
+    "https://github.com/mikaku/Monitorix/issues/30"
+  ],
+  "CVE-2013-7071": [
+    "https://github.com/mikaku/Monitorix/issues/30"
+  ],
+  "CVE-2013-7085": [
+    "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=732006"
+  ],
+  "CVE-2013-7086": [
+    "http://packetstormsecurity.com/files/124421"
+  ],
+  "CVE-2013-7091": [
+    "http://www.exploit-db.com/exploits/30472"
+  ],
+  "CVE-2013-7092": [
+    "http://packetstormsecurity.com/files/124277/McAfee-Email-Gateway-7.6-Command-Execution-SQL-Injection.html"
+  ],
+  "CVE-2013-7103": [
+    "http://packetstormsecurity.com/files/124277/McAfee-Email-Gateway-7.6-Command-Execution-SQL-Injection.html"
+  ],
+  "CVE-2013-7104": [
+    "http://packetstormsecurity.com/files/124277/McAfee-Email-Gateway-7.6-Command-Execution-SQL-Injection.html"
+  ],
+  "CVE-2013-7127": [
+    "http://www.securelist.com/en/blog/8168/Loophole_in_Safari"
+  ],
+  "CVE-2013-7129": [
+    "http://packetstormsecurity.com/files/124240"
+  ],
+  "CVE-2013-7136": [
+    "http://www.planitcomputing.ie/upc-wifi-attack.pdf"
+  ],
+  "CVE-2013-7140": [
+    "http://seclists.org/bugtraq/2014/Jan/57"
+  ],
+  "CVE-2013-7141": [
+    "http://seclists.org/bugtraq/2014/Jan/57"
+  ],
+  "CVE-2013-7142": [
+    "http://seclists.org/bugtraq/2014/Jan/57"
+  ],
+  "CVE-2013-7143": [
+    "http://seclists.org/bugtraq/2014/Jan/57"
+  ],
+  "CVE-2013-7144": [
+    "https://www.thaicert.or.th/papers/general/2013/pa2013ge010.html"
+  ],
+  "CVE-2013-7175": [
+    "http://www.kb.cert.org/vuls/id/869702"
+  ],
+  "CVE-2013-7179": [
+    "http://www.kb.cert.org/vuls/id/431726"
+  ],
+  "CVE-2013-7183": [
+    "http://www.kb.cert.org/vuls/id/431726"
+  ],
+  "CVE-2013-7184": [
+    "http://www.exploit-db.com/exploits/30414"
+  ],
+  "CVE-2013-7185": [
+    "http://www.exploit-db.com/exploits/30413"
+  ],
+  "CVE-2013-7186": [
+    "http://packetstormsecurity.com/files/124284"
+  ],
+  "CVE-2013-7187": [
+    "http://www.exploit-db.com/exploits/30002"
+  ],
+  "CVE-2013-7191": [
+    "http://makthepla.net/blog/=/helpdesk-pilot-add-admin"
+  ],
+  "CVE-2013-7192": [
+    "http://packetstormsecurity.com/files/124451"
+  ],
+  "CVE-2013-7193": [
+    "http://packetstormsecurity.com/files/124441/c2cfac-sql.txt"
+  ],
+  "CVE-2013-7194": [
+    "http://www.exploit-db.com/exploits/30213"
+  ],
+  "CVE-2013-7201": [
+    "https://labs.mwrinfosecurity.com/advisories/paypal-remote-code-execution/"
+  ],
+  "CVE-2013-7202": [
+    "https://labs.mwrinfosecurity.com/advisories/paypal-remote-code-execution/"
+  ],
+  "CVE-2013-7203": [
+    "http://packetstormsecurity.com/files/149438/ManageEngine-SupportCenter-Plus-8.1.0-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-7209": [
+    "http://packetstormsecurity.com/files/124598/JForum-Cross-Site-Request-Forgery.html"
+  ],
+  "CVE-2013-7216": [
+    "http://packetstormsecurity.com/files/124442"
+  ],
+  "CVE-2013-7220": [
+    "https://github.com/o2platform/DefCon_RESTing/tree/master/Live-Demos/Neo4j"
+  ],
+  "CVE-2013-7226": [
+    "https://hackerone.com/reports/1356"
+  ],
+  "CVE-2013-7234": [
+    "http://www.jakoblell.com/blog/2013/12/13/multiple-vulnerabilities-in-smf-forum-software/"
+  ],
+  "CVE-2013-7235": [
+    "http://www.jakoblell.com/blog/2013/12/13/multiple-vulnerabilities-in-smf-forum-software/"
+  ],
+  "CVE-2013-7236": [
+    "http://www.jakoblell.com/blog/2013/12/13/multiple-vulnerabilities-in-smf-forum-software/"
+  ],
+  "CVE-2013-7240": [
+    "http://seclists.org/oss-sec/2013/q4/570"
+  ],
+  "CVE-2013-7243": [
+    "http://packetstormsecurity.com/files/124711"
+  ],
+  "CVE-2013-7246": [
+    "http://www.exploit-db.com/exploits/31179"
+  ],
+  "CVE-2013-7257": [
+    "https://github.com/Codiad/Codiad/issues/584"
+  ],
+  "CVE-2013-7259": [
+    "https://github.com/o2platform/DefCon_RESTing/tree/master/Live-Demos/Neo4j"
+  ],
+  "CVE-2013-7260": [
+    "http://www.kb.cert.org/vuls/id/698278"
+  ],
+  "CVE-2013-7262": [
+    "https://github.com/mapserver/mapserver/issues/4834"
+  ],
+  "CVE-2013-7263": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-7264": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-7265": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-7266": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-7267": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-7268": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-7269": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-7270": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-7271": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-7276": [
+    "http://packetstormsecurity.com/files/124587/WordPress-Recommend-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-7277": [
+    "https://www.netsparker.com/critical-xss-vulnerabilities-andy-php-knowledgebase"
+  ],
+  "CVE-2013-7278": [
+    "http://packetstormsecurity.com/files/124624"
+  ],
+  "CVE-2013-7280": [
+    "http://www.exploit-db.com/exploits/24556"
+  ],
+  "CVE-2013-7281": [
+    "http://www.ubuntu.com/usn/USN-2139-1"
+  ],
+  "CVE-2013-7282": [
+    "http://www.ampliasecurity.com/advisories/nisuta-nswir150ne-nswir300n-wireless-router-remote-management-web-interface-authentication-bypass-vulnerability.html"
+  ],
+  "CVE-2013-7285": [
+    "https://www.oracle.com/security-alerts/cpuoct2020.html"
+  ],
+  "CVE-2013-7286": [
+    "http://seclists.org/fulldisclosure/2014/Apr/21"
+  ],
+  "CVE-2013-7287": [
+    "http://seclists.org/fulldisclosure/2014/Apr/21"
+  ],
+  "CVE-2013-7292": [
+    "http://www.kb.cert.org/vuls/id/612076"
+  ],
+  "CVE-2013-7306": [
+    "http://www.kb.cert.org/vuls/id/BLUU-98MS25"
+  ],
+  "CVE-2013-7307": [
+    "http://www.kb.cert.org/vuls/id/BLUU-97KQ2C"
+  ],
+  "CVE-2013-7308": [
+    "http://www.kb.cert.org/vuls/id/BLUU-985QRV"
+  ],
+  "CVE-2013-7309": [
+    "http://www.kb.cert.org/vuls/id/BLUU-985QSE"
+  ],
+  "CVE-2013-7310": [
+    "http://www.kb.cert.org/vuls/id/CKIG-9AAHPZ"
+  ],
+  "CVE-2013-7311": [
+    "http://www.kb.cert.org/vuls/id/BLUU-985QRC"
+  ],
+  "CVE-2013-7312": [
+    "http://www.kb.cert.org/vuls/id/BLUU-985QS8"
+  ],
+  "CVE-2013-7313": [
+    "http://www.kb.cert.org/vuls/id/BLUU-97KQ26"
+  ],
+  "CVE-2013-7314": [
+    "http://www.kb.cert.org/vuls/id/BLUU-985QUQ"
+  ],
+  "CVE-2013-7317": [
+    "http://www.kb.cert.org/vuls/id/405942"
+  ],
+  "CVE-2013-7318": [
+    "http://packetstormsecurity.com/files/122899/algosec64-xss.txt"
+  ],
+  "CVE-2013-7326": [
+    "http://packetstormsecurity.com/files/124402"
+  ],
+  "CVE-2013-7327": [
+    "https://bugs.php.net/bug.php?id=66356"
+  ],
+  "CVE-2013-7328": [
+    "https://bugs.php.net/bug.php?id=66356"
+  ],
+  "CVE-2013-7331": [
+    "https://soroush.secproject.com/blog/2013/04/microsoft-xmldom-in-ie-can-divulge-information-of-local-drivenetwork-in-error-messages/"
+  ],
+  "CVE-2013-7332": [
+    "https://soroush.secproject.com/blog/2013/04/microsoft-xmldom-in-ie-can-divulge-information-of-local-drivenetwork-in-error-messages/"
+  ],
+  "CVE-2013-7334": [
+    "http://packetstormsecurity.com/files/119806/ImageCMS-4.0.0b-SQL-Injection.html"
+  ],
+  "CVE-2013-7342": [
+    "https://github.com/flowplayer/flowplayer/issues/381"
+  ],
+  "CVE-2013-7343": [
+    "https://github.com/flowplayer/flowplayer/issues/381"
+  ],
+  "CVE-2013-7349": [
+    "https://www.netsparker.com/critical-xss-sql-injection-vulnerabilities-gnew/"
+  ],
+  "CVE-2013-7351": [
+    "http://seclists.org/oss-sec/2014/q2/1"
+  ],
+  "CVE-2013-7352": [
+    "http://packetstormsecurity.com/files/121481/b2evolution-4.1.6-SQL-Injection.html"
+  ],
+  "CVE-2013-7368": [
+    "https://www.netsparker.com/critical-xss-sql-injection-vulnerabilities-gnew/"
+  ],
+  "CVE-2013-7373": [
+    "http://www.reddit.com/r/Android/comments/1k6f03/due_to_a_serious_encryptionrng_flaw_in_android/cblvum5"
+  ],
+  "CVE-2013-7374": [
+    "http://www.ubuntu.com/usn/USN-2186-1"
+  ],
+  "CVE-2013-7375": [
+    "http://seclists.org/bugtraq/2013/Feb/80"
+  ],
+  "CVE-2013-7376": [
+    "http://seclists.org/bugtraq/2013/Jul/27"
+  ],
+  "CVE-2013-7385": [
+    "http://packetstormsecurity.com/files/124444/LiveZilla-5.1.2.0-Insecure-Password-Storage.html"
+  ],
+  "CVE-2013-7388": [
+    "http://blog.binamuse.com/2013/05/multiple-vulnerabilities-on-sketchup.html"
+  ],
+  "CVE-2013-7389": [
+    "http://roberto.greyhats.it/advisories/20130801-dlink-dir645.txt"
+  ],
+  "CVE-2013-7392": [
+    "http://hatriot.github.io/blog/2014/06/29/gitlist-rce/"
+  ],
+  "CVE-2013-7393": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinoct2015-2511968.html"
+  ],
+  "CVE-2013-7397": [
+    "https://github.com/AsyncHttpClient/async-http-client/issues/352"
+  ],
+  "CVE-2013-7398": [
+    "https://github.com/AsyncHttpClient/async-http-client/issues/197"
+  ],
+  "CVE-2013-7404": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2013-7405": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2013-7409": [
+    "http://www.exploit-db.com/exploits/29549"
+  ],
+  "CVE-2013-7417": [
+    "http://sourceforge.net/p/ipcop/bugs/807/"
+  ],
+  "CVE-2013-7418": [
+    "http://sourceforge.net/p/ipcop/bugs/807/"
+  ],
+  "CVE-2013-7419": [
+    "http://packetstormsecurity.com/files/124239/WordPress-Js-Multi-Hotel-2.2.1-Cross-Site-Scripting.html"
+  ],
+  "CVE-2013-7421": [
+    "https://plus.google.com/+MathiasKrause/posts/PqFCo4bfrWu"
+  ],
+  "CVE-2013-7423": [
+    "http://seclists.org/fulldisclosure/2021/Sep/0"
+  ],
+  "CVE-2013-7435": [
+    "https://bugs.launchpad.net/evergreen/+bug/1206589"
+  ],
+  "CVE-2013-7439": [
+    "http://www.oracle.com/technetwork/topics/security/bulletinjul2015-2511963.html"
+  ],
+  "CVE-2013-7442": [
+    "http://www.forbes.com/sites/thomasbrewster/2015/07/10/vulnerable-breasts/"
+  ],
+  "CVE-2013-7446": [
+    "http://www.ubuntu.com/usn/USN-2890-3"
+  ],
+  "CVE-2013-7447": [
+    "http://www.ubuntu.com/usn/USN-2898-1"
+  ],
+  "CVE-2013-7450": [
+    "https://github.com/pulp/pulp/pull/627"
+  ],
+  "CVE-2013-7458": [
+    "https://github.com/antirez/redis/pull/3322"
+  ],
+  "CVE-2013-7460": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10054"
+  ],
+  "CVE-2013-7461": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10054"
+  ],
+  "CVE-2013-7462": [
+    "https://kc.mcafee.com/corporate/index?page=content&id=SB10056"
+  ],
+  "CVE-2013-7466": [
+    "http://hauntit.blogspot.com/2013/04/en-smf-204-full-disclosure.html"
+  ],
+  "CVE-2013-7467": [
+    "http://hauntit.blogspot.com/2013/04/en-smf-204-full-disclosure.html"
+  ],
+  "CVE-2013-7468": [
+    "https://packetstormsecurity.com/files/121391/public_phpInjection-smf204.txt"
+  ],
+  "CVE-2013-7469": [
+    "https://github.com/haiwen/seafile/issues/350"
+  ],
+  "CVE-2013-7471": [
+    "https://www.exploit-db.com/exploits/27044"
+  ],
+  "CVE-2013-7485": [
+    "http://seclists.org/bugtraq/2013/Nov/127"
+  ],
+  "CVE-2013-7486": [
+    "http://seclists.org/bugtraq/2013/Nov/127"
+  ],
+  "CVE-2013-7487": [
+    "http://console-cowboys.blogspot.com/2013/01/swann-song-dvr-insecurity.html"
+  ],
+  "CVE-2013-7489": [
+    "https://www.openwall.com/lists/oss-security/2020/05/14/11"
+  ],
+  "CVE-2013-7490": [
+    "https://metacpan.org/pod/distribution/DBI/Changes#Changes-in-DBI-1.632-9th-Nov-2014"
+  ],
+  "CVE-2013-7491": [
+    "https://metacpan.org/pod/distribution/DBI/Changes#Changes-in-DBI-1.628-22nd-July-2013"
+  ]
+}
