@@ -40508,6 +40508,12 @@
     "CVE-2024-46409": [
       "https://packetstormsecurity.com/files/181974/SeedDMS-6.0.28-Cross-Site-Scripting.html"
     ],
+    "CVE-2024-46412": [
+      "https://github.com/RacerZ-fighting/rebuild-vulns/blob/main/rebuild%203.7.7.md"
+    ],
+    "CVE-2024-46413": [
+      "https://github.com/RacerZ-fighting/rebuild-vulns/blob/main/rebuild%203.7.7.md"
+    ],
     "CVE-2024-46419": [
       "https://github.com/TTTJJJWWW/AHU-IoT-vulnerable/blob/main/TOTOLINK/AC1200T8/setWizardCfg.md"
     ],
@@ -61597,6 +61603,9 @@
     "CVE-2025-8174": [
       "https://github.com/i-Corner/cve/issues/11"
     ],
+    "CVE-2025-8176": [
+      "https://vuldb.com/?submit.621796"
+    ],
     "CVE-2025-8210": [
       "https://github.com/KMov-g/androidapps/blob/main/com.yeelight.cherry.md"
     ],
@@ -62985,6 +62994,12 @@
     ],
     "CVE-2025-9681": [
       "https://github.com/o2oa/o2oa/issues/177#issuecomment-3212880754"
+    ],
+    "CVE-2025-9752": [
+      "https://github.com/i-Corner/cve/issues/18"
+    ],
+    "CVE-2025-9769": [
+      "https://github.com/xyh4ck/iot_poc#vulnerability-verification-process"
     ]
   }
 }
